@@ -11,23 +11,39 @@ The graph is a **radial tree**, not a free-floating network:
 Data Center Companies (root)
  ├─ each classified data-center company
  │   ├─ Sales (people currently working there)
- │   ├─ Development (people currently working there)
+ │   ├─ Pre-Construction (people currently working there)
+ │   ├─ Energy & Utilities (people currently working there)
  │   └─ investor, if one backs that company (e.g. Oaktree → Pure Data Centers)
  └─ Contractors & Consultants (aggregate branch, hidden by default)
      ├─ Sales
-     └─ Development
+     └─ Pre-Construction
 ```
 
 People are grouped by their **actual current employer**, not by which
 recruiting search brought them into Clockwork. A company only gets its own
 branch if at least one candidate's current-employer record carries
-Clockwork's "Data Center Developer" or "Hyperscaler" organisation tag —
-everyone else (general contractors, cost consultants, engineering firms —
-e.g. DPR Construction, Turner & Townsend, Mortenson) is grouped into one
-"Contractors & Consultants" branch instead, split the same way by
-department. That classification is a blunt rule on noisy per-candidate
-tag data, not researched company-by-company — worth revisiting if it
-misclassifies someone you know isn't right.
+Clockwork's "Data Center Developer," "Hyperscaler," or "Real Estate
+Development" organisation tag — everyone else (general contractors, cost
+consultants, engineering firms — e.g. DPR Construction, Turner &
+Townsend, Mortenson) is grouped into one "Contractors & Consultants"
+branch instead, split the same way by department. That classification is
+a blunt rule on noisy per-candidate tag data, not researched
+company-by-company — worth revisiting if it misclassifies someone you
+know isn't right. A handful of companies (Pure Data Centers, Prologis,
+Trammell Crow Company) were added by hand rather than derived from
+Clockwork data, and show up with zero people until real candidates there
+are added.
+
+**Department**, in the tree, means "Sales," "Pre-Construction," or
+"Energy & Utilities" — derived from which recruiting search sourced a
+candidate (Sales-search vs. Development-search) and, within the
+Development-search pool, whether they carry an energy-negotiation or
+energy-engineering skill tag from Clockwork (currently 3 people, all at
+Google). `viewer/build_graph_data.py`'s `DEPARTMENT_ORDER` controls
+display order — new department names beyond it still render, just
+appended at the end, and need a color added to `DEPT_PALETTE` in
+`atlas_template.html` to get their own hue instead of the neutral
+fallback.
 
 ## Files
 

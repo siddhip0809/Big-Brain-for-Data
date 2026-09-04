@@ -1,0 +1,22 @@
+{
+  "id": "hitt-contracting",
+  "type": "company",
+  "name": "HITT Contracting",
+  "aliases": [],
+  "industry_role": "real estate development",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "General Contractor",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 4 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler/real-estate-developer based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
+  ],
+  "last_updated": "2026-09-04"
+}

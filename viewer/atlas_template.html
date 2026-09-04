@@ -290,10 +290,16 @@
 
   const COLORS = {
     hub: '#fdf6e3',
-    sales: '#0891b2',
-    development: '#d97706',
     investor: '#9333ea',
     other: '#5b7184'
+  };
+  // Fixed order so a department's color stays stable as new ones are added;
+  // anything beyond this list falls back to COLORS.other rather than
+  // reusing a hue that already means something else.
+  const DEPT_PALETTE = {
+    'Sales': '#0891b2',
+    'Pre-Construction': '#d97706',
+    'Energy & Utilities': '#16a34a',
   };
 
   const AGGREGATE_ID = 'company:contractors-consultants';
@@ -310,7 +316,7 @@
   }
 
   function deptColor(dept){
-    return dept === 'Sales' ? COLORS.sales : dept === 'Development' ? COLORS.development : COLORS.other;
+    return DEPT_PALETTE[dept] || COLORS.other;
   }
   function isAggregate(n){
     let a = n; while(a.parent){ if(a.depth === 1) return a.data.id === 'company:contractors-consultants'; a = a.parent; }
@@ -340,26 +346,34 @@
     return 2.6 + bump;
   }
 
-  // ---------- legend / filters (counts always computed from the FULL tree) ----------
-  const personCount = { Sales: 0, Development: 0 };
+  // ---------- legend / filters (counts + department list always computed from the FULL tree) ----------
+  const personCount = {};
   const companyCount = { real: 0, aggregate: 0 };
   let investorCount = 0;
+  let totalPeople = 0;
+  let aggregatePeopleCount = 0;
   fullRoot.descendants().forEach(n => {
-    if(n.data.kind === 'person') personCount[n.data.department] = (personCount[n.data.department]||0) + 1;
+    if(n.data.kind === 'person'){
+      personCount[n.data.department] = (personCount[n.data.department]||0) + 1;
+      totalPeople++;
+      if(isAggregate(n)) aggregatePeopleCount++;
+    }
     if(n.data.kind === 'company') isAggregate(n) ? companyCount.aggregate++ : companyCount.real++;
     if(n.data.kind === 'investor') investorCount++;
   });
+  const departments = Object.keys(personCount).sort((a, b) =>
+    (Object.keys(DEPT_PALETTE).indexOf(a) + 1 || 99) - (Object.keys(DEPT_PALETTE).indexOf(b) + 1 || 99));
 
   // Contractors & Consultants starts hidden: it alone holds >half the people,
-  // and showing it by default crowds the 43 real companies into a thin arc.
-  const filters = { Sales: true, Development: true, investor: true, aggregate: false };
+  // and showing it by default crowds the real companies into a thin arc.
+  const filters = { investor: true, aggregate: false };
+  departments.forEach(d => filters[d] = true);
 
   const GROUPS = [
-    { key:'Sales', label:'Sales — people', color:COLORS.sales, count: personCount.Sales||0 },
-    { key:'Development', label:'Development — people', color:COLORS.development, count: personCount.Development||0 },
+    ...departments.map(d => ({ key: d, label: `${d} — people`, color: deptColor(d), count: personCount[d] })),
     { key:'investor', label:'Investor', color:COLORS.investor, count: investorCount },
     { key:'hub', label:'Data center company (hub)', color:COLORS.hub, count: companyCount.real, static:true },
-    { key:'aggregate', label:'Contractors & Consultants', color:COLORS.other, count: personCount.Sales+personCount.Development ? 215 : 0, startOff:true },
+    { key:'aggregate', label:'Contractors & Consultants', color:COLORS.other, count: aggregatePeopleCount, startOff:true },
   ];
 
   const legendEl = document.getElementById('legend');
@@ -387,7 +401,7 @@
   document.getElementById('statNodes').textContent = fullRoot.descendants().length;
   document.getElementById('statLinks').textContent = fullRoot.links().length;
   document.getElementById('statsGrid').innerHTML = `
-    <div class="stat-tile"><div class="num">${personCount.Sales + personCount.Development}</div><div class="lbl">People</div></div>
+    <div class="stat-tile"><div class="num">${totalPeople}</div><div class="lbl">People</div></div>
     <div class="stat-tile"><div class="num">${companyCount.real}</div><div class="lbl">DC Companies</div></div>
     <div class="stat-tile"><div class="num">${investorCount}</div><div class="lbl">Investors</div></div>
     <div class="stat-tile"><div class="num">${companyCount.aggregate}</div><div class="lbl">Other buckets</div></div>
@@ -627,22 +641,24 @@
     detailKind.style.border = `1px solid ${badge.color}66`;
 
     let html = '';
+    const kids = n.children || []; // d3.hierarchy drops .children entirely for childless nodes
     if(d.kind === 'root'){
-      html += `<p>The full graph: every data-center company classified from candidate current-employer data, each split into its Sales and Development branches, plus one aggregate branch for contractors and consultants.</p>`;
+      html += `<p>The full graph: every classified data-center company, each split into department branches (Sales, Pre-Construction, Energy & Utilities), plus one aggregate branch for contractors and consultants.</p>`;
       html += `<div class="dt-row"><div class="dt-k">Total people</div><div class="dt-v">${countPeople(n)}</div></div>`;
-      html += `<div class="dt-row"><div class="dt-k">Branches</div><div class="dt-v">${n.children.length} (companies + aggregate)</div></div>`;
+      html += `<div class="dt-row"><div class="dt-k">Branches</div><div class="dt-v">${kids.length} (companies + aggregate)</div></div>`;
     } else if(d.kind === 'company'){
       if(d.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(d.industry_role)}</div></div>`;
       if(d.description) html += `<p>${escapeHtml(d.description)}</p>`;
       if(d.tags && d.tags.length) html += `<div class="tag-row">${d.tags.map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`;
       html += `<div class="dt-row"><div class="dt-k">People here</div><div class="dt-v">${countPeople(n)}</div></div>`;
-      const depts = n.children.filter(c => c.data.kind === 'department').map(c => `${c.data.department} (${c.children.length})`);
+      const depts = kids.filter(c => c.data.kind === 'department').map(c => `${c.data.department} (${(c.children||[]).length})`);
       if(depts.length) html += `<div class="dt-row"><div class="dt-k">Departments</div><div class="dt-v">${depts.join(', ')}</div></div>`;
+      else html += `<div class="banner-note">No candidates currently work here in this dataset.</div>`;
       if(d.notes) html += `<div class="banner-note">${escapeHtml(d.notes)}</div>`;
     } else if(d.kind === 'department'){
-      html += `<div class="dt-row"><div class="dt-k">People</div><div class="dt-v">${n.children.length}</div></div>`;
+      html += `<div class="dt-row"><div class="dt-k">People</div><div class="dt-v">${kids.length}</div></div>`;
       html += `<div class="section-label">People in this branch</div>`;
-      n.children.forEach(c => {
+      kids.forEach(c => {
         html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(c.data.label)}</div>
           <div class="pe-meta">${escapeHtml(c.data.current_title || '—')}</div></div>`;
       });
@@ -699,7 +715,10 @@
   searchInput.addEventListener('input', () => {
     const q = searchInput.value.trim().toLowerCase();
     if(q.length < 2){ searchResults.classList.remove('open'); return; }
-    const matches = allNodes.filter(n => {
+    // Search the FULL tree (fullRoot), not just whatever is currently
+    // visible -- someone in the hidden Contractors & Consultants branch
+    // must still be findable.
+    const matches = fullRoot.descendants().filter(n => {
       const d = n.data;
       const hay = [d.label, d.current_company, d.current_title].filter(Boolean).join(' ').toLowerCase();
       return hay.includes(q);
@@ -711,12 +730,18 @@
     searchResults.classList.add('open');
     [...searchResults.children].forEach((el, i) => {
       el.addEventListener('click', () => {
-        const n = matches[i];
-        filters.Sales = true; filters.Development = true; filters.investor = true; filters.aggregate = true;
+        const matchId = matches[i].data.id;
+        const matchLabel = matches[i].data.label;
+        Object.keys(filters).forEach(k => filters[k] = true);
         document.querySelectorAll('.legend-row').forEach(r => r.classList.remove('off'));
-        focusNode(n);
+        rebuildHierarchy(true);
+        layout();
+        // find the corresponding node in the freshly rebuilt active hierarchy
+        // (d3.hierarchy makes new wrapper objects each call, so we match by id)
+        const target = allNodes.find(x => x.data.id === matchId);
+        if(target) focusNode(target);
         searchResults.classList.remove('open');
-        searchInput.value = n.data.label;
+        searchInput.value = matchLabel;
       });
     });
   });

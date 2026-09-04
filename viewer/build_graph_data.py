@@ -56,19 +56,32 @@ for p in people:
     cid = p.get("current_company_id") or "__other__"
     by_company.setdefault(cid, []).append(p)
 
-# Client companies we track (Pure, STACK) always get a node, even with zero
-# current employees among these candidates -- so e.g. the investor link
-# (Oaktree -> Pure Data Centers) still has a company node to attach to.
-for cid in ("pure-data-centers", "stack-infrastructure"):
+# Every company we track gets a branch, even with zero current employees
+# among these candidates -- so e.g. Prologis (added by request, no
+# candidates yet) or Pure Data Centers (a client, not an employer here,
+# but Oaktree's investment target) still show up.
+for cid in companies:
     by_company.setdefault(cid, [])
+
+# Department order controls display order within a company; new
+# departments just need adding here.
+DEPARTMENT_ORDER = ("Sales", "Pre-Construction", "Energy & Utilities", "Development")
 
 def company_children(cid, bucket_people):
     depts = {}
     for p in bucket_people:
         depts.setdefault(p["department"], []).append(p)
     children = []
-    for dept_label in ("Sales", "Development"):
+    seen = set()
+    for dept_label in DEPARTMENT_ORDER:
         if dept_label in depts:
+            dn = dept_node(dept_label, depts[dept_label])
+            dn["id"] = f"dept:{cid}:{dept_label}"
+            children.append(dn)
+            seen.add(dept_label)
+    # any department not in the known order still gets shown, appended at the end
+    for dept_label in depts:
+        if dept_label not in seen:
             dn = dept_node(dept_label, depts[dept_label])
             dn["id"] = f"dept:{cid}:{dept_label}"
             children.append(dn)
