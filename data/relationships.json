@@ -1,29 +1,3852 @@
 [
   {
-    "from": "person:example-jane-doe",
-    "to": "company:example-datacentral",
-    "type": "works_at",
-    "detail": "VP of Engineering",
-    "since": "2021",
-    "sources": ["Created as an example on 2026-09-04"],
-    "last_updated": "2026-09-04"
-  },
-  {
-    "from": "investor:example-capital-partners",
-    "to": "company:example-datacentral",
+    "from": "investor:oaktree",
+    "to": "company:pure-data-centers",
     "type": "invested_in",
-    "detail": "Placeholder growth round",
-    "since": "2023",
-    "sources": ["Created as an example on 2026-09-04"],
+    "detail": "Inferred from Clockwork company subtitle \"Oaktree-Owned\" — unverified",
+    "sources": [
+      "Clockwork CRM (Ward Search), pulled 2026-09-04 — unverified"
+    ],
     "last_updated": "2026-09-04"
   },
   {
-    "from": "person:example-jane-doe",
-    "to": "investor:example-capital-partners",
-    "type": "contact_at",
-    "detail": "Primary relationship contact for this fund",
-    "since": "2023",
-    "sources": ["Created as an example on 2026-09-04"],
+    "from": "person:nigel-warner-06341254",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: WARD - Role Scope",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kevin-holland-3115a121",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2a. Interested to Know More",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ewan-jones-364caac1",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:wasif-khan-4fe3a8be",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2d. CV Received / Scheduling Full Assessment",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:suhal-lad-50c89c5b",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:fred-howard-7b612dce",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-thornborrow-86aaa51c",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-matthews-8e04eab5",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:richard-pow-9df9284e",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:oliver-salter-c742cbe3",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:heidi-durrant-ce1d69f9",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:simon-warner-e55490d8",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:hugo-jack-ebf2039b",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:soumaya-graine-f7cdbb6d",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2b. Pitch Call Scheduled",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:max-elswood-00b36c3f",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jess-simmonds-522f68ff",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: WARD - Motivation",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ben-collis-5ca5179e",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:eduardo-albuquerque-6acc0544",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:aly-breuer-van-der-riet-6bb22fb8",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 3a. Fully Assessed & Viable",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:cl-udia-alves-6bfcd24e",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:katie-snowball-800d59eb",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:daphne-adjei-cce46fd8",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:luke-pasterfield-e1ccab83",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rosemary-lewis-fba78768",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ben-stirk-7a314ced",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sarah-wood-aded8215",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:peter-miles-ce2bd72b",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-singleton-f4a5d24a",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:susan-mackenzie-5e30eb98",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kurt-russell-be85afe0",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:david-cologne-05b886f0",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2d. CV Received / Scheduling Full Assessment",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:allison-o-toole-1bd2d786",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:molly-goodliffe-25ad537d",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:bradley-mccann-2f223453",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: WARD - Culture Fit",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andy-lawson-302a1d22",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:simon-ramsell-35f06971",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:fiona-cohen-3b18cfc1",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:stephen-hibbert-4978a596",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-smith-52c2dc84",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:robert-holmans-58b406e0",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:david-dore-boize-66b37c59",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:keith-inglis-7ad4526a",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:neil-gallamore-800510ea",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2c. Position Pitched",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:paul-hicks-81687703",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:frederick-pett-8937bc30",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: WARD - Culture Fit",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:adam-cookson-baa9b951",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jamie-cumming-f8da5c35",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dominic-chandler-1bdb277d",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2c. Position Pitched",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rebecca-mau-8f4ea0d6",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:karen-horton-b8902214",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:scott-laidlaw-ed577c05",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:mark-delahunty-0937b28b",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 3a. Fully Assessed & Viable",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:mark-ryan-23c7b0e2",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2c. Position Pitched",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:martijn-kooiman-76632661",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:joeri-keijzers-774f82e1",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: WARD - Role Scope",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jon-waldron-db70da63",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: WARD - Role Scope",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:espen-bjanes-fc023c5d",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:maryclaire-ryan-fe1db6f4",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:david-lindner-88a01fd8",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:shauna-mangan-5a262d39",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nicolas-pisani-66c9b475",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sarah-raimond-6e553f70",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sarah-ward-955c3cf2",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:justyna-van-zwienen-szymczak-beeca134",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:christophe-marchiano-c2de7597",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rita-margarido-ca032a66",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:keelin-o-connor-doyle-cd1d975e",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andy-broe-da89ca5f",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:katherine-dwyer-0b341412",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sin-ad-martha-o-donnell-a79b4c99",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2d. CV Received / Scheduling Full Assessment",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nick-henton-c38a935c",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:christine-mcgowan-e9172b32",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:laura-steventon-1cf704e6",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:neelam-dhupar-34ededf8",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:steven-gay-5283285b",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:begona-cerdan-824d948e",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Withdrew",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:roger-evans-977e8de4",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:fernando-turr-valls-a095c59c",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andrea-s-nchez-horneros-a24eeb8b",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:emilia-bocan-b2585597",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2d. CV Received / Scheduling Full Assessment",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:richard-petyt-d5bab86d",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jamie-fleming-16137235",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:roxanne-dingwall-fordyce-3bbc4aaa",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:elena-rehman-6dec9997",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ailish-mcdonnell-d1eabeea",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2a. Interested to Know More",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-miller-c9774af6",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:fr-d-ric-bourset-1a173ff6",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:chris-mann-46f5bdc7",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:arjan-de-haan-5fe609e9",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andreas-myr-68bbacbe",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rogier-van-der-wal-96f2d345",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2b. Pitch Call Scheduled",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alex-safronoff-a6754f08",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: WARD - Culture Fit",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dodo-malic-bedd4ec1",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:lewis-mcmahon-d32783e3",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:enrico-de-boer-d9b17124",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:hedi-ollivier-d2a5648f",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-hunter-4a317c76",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:niamh-corrigan-4cfd44b2",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2c. Position Pitched",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:roderick-cleary-a55c6242",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:anne-louise-hannon-afd5fc0f",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sean-breslin-3e502f6c",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:semir-selcukoglu-40f373b2",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:brian-rouse-eaf78e97",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rajeev-gupta-d7db71a3",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andrew-hammond-ecfde4f9",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andrew-ward-65bf194c",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:guillaume-goury-9f5bdc41",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:tony-ford-f8bb7e83",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:william-king-a57f3352",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2d. CV Received / Scheduling Full Assessment",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:marat-takabaev-05cb8fd9",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:daniel-mitchell-dbd9a737",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 2a. Interested to Know More",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sean-mc-mahon-483aa195",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alaine-layawen-a7356f0d",
+    "to": "company:pure-data-centers",
+    "type": "candidate_for",
+    "detail": "VP Sales — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:shrey-bhimani-1fae1d9a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 3a. Fully Assessed & Viable",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:stephen-dixon-38036f51",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:zach-porter-3e36746b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:cason-simpson-4180c749",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:trevor-gray-69db5e7c",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:peter-morano-7ae20aca",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:scott-stevenson-9b2db92c",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:tyler-woods-a16ade6a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jennifer-lynn-fragale-d33b1cf1",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:cherilyn-c-mccabe-e110da72",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jorge-cepeda-615ea773",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:brett-hoopes-7f0119ef",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:zoheir-el-eita-b1eda657",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kyle-bonde-c11a08fc",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rickey-mccombs-c8f8d74b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sean-bronson-d064b2d8",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:anthony-wilemon-d73c2c16",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andre-lacerda-e09818c2",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:calvin-gutheridge-e9ddcdff",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nick-crabb-fef2c0bf",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sarah-forrest-01656619",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:tamer-atawneh-1b3e5605",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:steve-day-5035e42b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:john-hagan-7c4e0b8f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andrew-sileo-8b68d400",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ryan-mack-8f0c6bb6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-brumley-b1547bf6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:shawn-kalsbeck-bc0cc56f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:chris-woodling-c87a1cd4",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ted-mehdi-tadayon-d5220bad",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kendrick-peterson-2bb2b516",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:matthew-rasmussen-477ac252",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:chad-lewis-50a08fa9",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: WARD - Role Scope",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kelly-chi-9b007fc0",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:valerie-s-ea69b7e4",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:akash-mehta-2630068c",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:aleemuddin-muzammil-2c88508f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:gareth-leyden-3206f7b0",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:isabel-arogbo-a7eb3191",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:greg-baxter-b72513d6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nirek-rao-c42e2d42",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:guess-oka-cd9a0fbc",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:toochi-valentine-e3f9e0af",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jimmy-tan-01f557d9",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:navneet-agrawal-2a1d36b3",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:caroll-moya-7159b9a9",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nancy-yusuf-7a488350",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nelson-amaral-9385faa0",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:lisa-tight-abdc18c1",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dennis-teo-b30df29d",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:anthony-soto-bc90df22",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:robert-liston-dac99ce9",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:steve-lawrence-eefaf060",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 2c. Position Pitched",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:stephen-sargent-243f69a4",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:scott-maxwell-3675192b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-theisen-49465a53",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jay-mudd-8bffde0e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-macaluso-9abe6157",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dave-koob-affec117",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:glenn-mcspadden-b0b7e08a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:gary-lui-d7566955",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ali-hosseinzadeh-e966d296",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:hammad-rasheed-f6219b96",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:shane-goodman-10b85389",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kelli-peterson-2770ea07",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:tim-alvarado-47a7c4b1",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:bryan-ross-7a47f58a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sarah-mitchell-801bf747",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ryan-hardekopf-899de9c2",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ray-dendy-94f1b034",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:miguel-moreira-a98d5c08",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alan-hoffman-d9def52e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jeff-liang-e8110a44",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:daniel-erickson-0cfc54b4",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-vanasse-3f8d0a0b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andy-rowland-56bd0f81",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:paul-martin-654881cf",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-brown-6d0421fe",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:greg-smith-71b23569",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ross-stockhausen-76bdf849",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 2a. Interested to Know More",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:angela-lawrence-783a5568",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ryan-aldrich-8a197ca7",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:amy-kloss-a2d6dd38",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:neil-a-osten-db1d7c87",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:matt-ershov-f7013ec6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rich-stevens-2f9a861b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:adolf-rumao-c1640b68",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:aaron-douglas-1b061e64",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-vroom-4ea5e487",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:bobby-cullen-ec93fd0c",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:steven-sun-f7bfae74",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:gregory-duncan-21d3d74a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jed-heuberger-562c7ad3",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:thomas-bardabelias-6396be7b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:justin-genter-697631cc",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:quincy-davis-6a3eb70f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jenny-sanchez-81fdfdca",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:todd-humphries-8a190c90",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ryan-appelhans-96f4fe28",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: HOLD - Stopped Replying",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ryan-horn-b0d864e3",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:anthony-digirolamo-c39d77c6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:marisa-mclellan-f886c934",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:scott-pilgrim-f8fc3675",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:matthew-bean-19753e98",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ian-richardson-1d93525e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:pranav-joshi-5be86a22",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:callum-archer-9079a6b5",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:apurupa-satturu-a38bf05d",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 2d. CV Received / Scheduling Full Assessment",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ayushi-hajare-a7338ee9",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:danny-arnott-bb0a9e18",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:bhavik-savaliya-cbc623cc",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:meng-lan-siew-e9347fcc",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:mark-w-wright-fb97ea61",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:greg-forcum-4bfa7a8f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:david-fowler-65fd4a69",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:glen-carpenter-7e8aa421",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:aishwarya-kondapalli-b6124e21",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:chinthaka-pattidora-b8ce91fd",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ben-manning-bcffcfba",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:anthony-baker-bf101d35",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nicholas-tryphos-c1c09677",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:vidyadhar-bhojaraj-d13925eb",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:travis-klemm-f76c25a1",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 2a. Interested to Know More",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:daren-j-tucker-090b4fcb",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:andrew-ferguson-0e9d99e0",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:fred-crouch-4425da34",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sreya-mukherjee-5f3c8654",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alper-t-rkeli-6b1d52d2",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: WARD - Role Scope",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:charles-yang-70db07a7",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:abdullah-abou-auf-937e9223",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:unni-krishnan-be8e4bd9",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:marcelo-siniscalchi-c1a34009",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 3a. Fully Assessed & Viable",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:payne-diez-e5342ada",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:morgan-meylis-0cc79016",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:david-kirsch-1a2114b5",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:matthew-shield-343c682b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:hayley-carroll-7576730d",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kieran-taylor-937c134e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 2d. CV Received / Scheduling Full Assessment",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:bikram-barada-b0d66a95",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-wynne-bb8087dc",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jay-robertson-cb707c7e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jack-chiu-cd032374",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:deirdre-mcaleer-d631da90",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:william-fullard-053bd699",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:john-mcgrath-262798ad",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kunjan-majmudar-36ebc056",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 2c. Position Pitched",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:katie-mcgavin-43750885",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dimitri-lorentzos-4b092bf1",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:trey-walker-7cd63b6b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:william-middletown-919becce",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:samuel-minter-frier-94d2ee91",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:laura-herd-9a64b258",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:anup-sheth-c1dfcdaf",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:david-derrick-df55a72f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:matt-highland-f9f257d9",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:joseph-h-1fd16ba4",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:steven-bowden-29919de8",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jaede-tapia-5219aff2",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:cecilie-m-washington-5746347e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rich-corcoran-661c1d73",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:graison-le-6a487e93",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jake-jaenicke-70858d5c",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kyle-neild-7a534723",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:devaki-ektare-80c2effe",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kyle-pryor-84281726",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ryan-smith-877273aa",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ray-mollett-8b586a4f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:david-medina-9b6b9dba",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jeremy-sayre-aa4c91a8",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:max-geller-aee972f2",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rose-fang-c8361ddf",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jake-grim-d75c3d2c",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:wilmer-feliciano-zayas-e0f09626",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:david-truesdale-e20663f7",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:grant-apkarian-f2e4ee2f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:joshua-baldock-bbddbe2a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-stevens-d7c13a67",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:amir-guirguis-d1ef309b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kevin-lemmmon-7a6cf3cd",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:tanner-hapeman-a121694f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:aleksey-kuzmenko-b2edea4f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alexander-meek-5431d728",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jason-ingram-7dd5ad17",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ken-p-919ff599",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dan-o-shea-d37ae8a4",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dave-sargent-01d5fcc6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:margaret-mochel-hanna-03191e92",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:damon-moore-3b242bed",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jeanna-heston-4cceaa0b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:greg-wolf-853f2894",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:stephanie-wigger-b3c11702",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:adam-smith-bb0a6e5f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jesse-gateley-bcfcb62f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rod-miller-c9e714ed",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jeremy-borten-ccb37115",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:paul-blatnak-d2d037b3",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:daniel-grainger-e5ed004b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 2a. Interested to Know More",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dale-jensen-fdc2ce6a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kristin-moan-fe742999",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jack-mulcahy-06f68424",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:rahul-sharma-37700686",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:tyler-plecity-44f099fa",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nada-abdellatif-4deb6df6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jonathan-mcgowan-8ed38bf1",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:shawna-adams-8fcb1982",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:shubham-kaushik-9bc7ad2b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:caroline-mouzaya-ab3b685a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:gregory-wienberg-b0f597fa",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:pete-jackson-0607cc73",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:mark-lynch-30344377",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jake-yurich-375f5ccd",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:zachary-howard-639d820e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:mike-anest-68ece178",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:vineetha-gambhir-8f261a13",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:divya-dixit-cee1cedc",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:devender-kainth-de20aa4d",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:naomi-lemieux-de4c69d8",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nathan-lee-e236e86d",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:abi-ashrafi-f72df817",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ankita-manmodey-37f60d9b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:aaron-mcconnell-3bfebaa7",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kinza-saleem-5ade2c90",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:robin-walia-5fb1752f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ruan-mar-70b1fbd6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: CANDIDATE - Not Interested",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jackson-le-87c5c9bf",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:christopher-guilcapi-b9212cfd",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:christopher-delaney-cadfcfaf",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:hayden-connolly-cdba8961",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:claire-ji-lee-d5a2085a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-mcdaid-0ff7a4ee",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sri-harsha-nagalla-35034c3c",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sierra-brown-3cab1e08",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jason-husbands-4230468d",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:scarlet-huynh-50f81444",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:stephen-mullane-5baaf917",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:kelsey-sinclair-905e8d4b",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:vivek-prasad-93b3d43d",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:ziyu-fan-d1861541",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 2c. Position Pitched",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:joe-scheier-db8693d3",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:mike-seyboth-e297cc91",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:eduardo-crispim-e9128d2e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:paul-zach-0b8cb044",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:weston-vipond-0e6b36d9",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-dyal-iii-15de96a6",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:sunil-patel-34e8ba50",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:matthew-mcdonald-3ae6c7f0",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:charles-gornowich-410f628f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dillon-kaup-571a7061",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:danny-dakak-58559248",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jeffrey-martin-5a473ab5",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:thomas-filipow-5df312bb",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:eamonn-dailey-6cf78539",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:suchayita-sue-b-6e7c03eb",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:justin-gregory-70ce7f44",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alex-bastine-72d34ffa",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:dhaval-jagani-77157b6e",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:pritesh-indore-7f00eea7",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:michael-robertson-809ed988",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alex-riedy-91e22693",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:pranalika-shinde-995795c0",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jason-maxwell-bc458f39",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:grant-broz-c54793ce",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:jose-neko-vela-c741a4db",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:nathan-chen-c7828fba",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:anjamarie-gaztambide-d3481ff4",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:james-ferguson-e5006c5f",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:w-von-blackmon-e613946a",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alyssa-yoshida-eca780d2",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:john-kohli-f941d3b4",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:alex-arellanes-fc0e8eaa",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:elizabeth-jordan-2955baf7",
+    "to": "company:stack-infrastructure",
+    "type": "candidate_for",
+    "detail": "Director/Sr Director Cost Strategy — stage: 1a. Pursuing",
+    "sources": [
+      "Clockwork export, imported 2026-09-04"
+    ],
     "last_updated": "2026-09-04"
   }
 ]

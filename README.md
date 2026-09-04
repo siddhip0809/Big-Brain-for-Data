@@ -30,6 +30,18 @@ is ever silently lost or overwritten.
 
 ## Status
 
-This is the initial pilot structure with **example/placeholder entries only**
-(clearly marked `example-`). No real company, person, or investor data has
-been loaded yet.
+Real data has started loading. Currently in the brain:
+
+- **2 companies**: Pure Data Centers, STACK Infrastructure (both active
+  Ward Search client engagements)
+- **1 investor**: Oaktree Capital Management (inferred from a Clockwork
+  subtitle — flagged as unverified, see its entry)
+- **384 people**: candidates from the Pure Data Centers "VP Sales" search
+  and the STACK Infrastructure "Cost Strategy" search, imported from
+  Clockwork exports on 2026-09-04. Email, phone, and compensation were
+  deliberately left out of these records (kept in Clockwork only) — see
+  `docs/schema.md`.
+- **385 relationships** connecting the above
+
+Placeholder `example-` entries used during initial setup have been removed
+now that real data is in place.
