@@ -1,0 +1,25 @@
+{
+  "id": "example-datacentral",
+  "type": "company",
+  "name": "Example DataCentral (sample entry — not a real company)",
+  "aliases": [],
+  "industry_role": "colocation data center operator",
+  "headquarters": "Ashburn, Virginia, USA",
+  "founded": "2015",
+  "website": "https://example.com",
+  "description": "Placeholder company used to demonstrate the schema. Operates colocation facilities in Northern Virginia.",
+  "facilities": [
+    {
+      "name": "ASH1",
+      "location": "Ashburn, VA",
+      "size_mw": 48
+    }
+  ],
+  "financials": {
+    "last_known_valuation": "N/A (example data)"
+  },
+  "tags": ["colocation", "example"],
+  "notes": "This is a sample record so you can see the structure before real data is loaded.",
+  "sources": ["Created as an example on 2026-09-04"],
+  "last_updated": "2026-09-04"
+}

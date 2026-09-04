@@ -1,0 +1,29 @@
+[
+  {
+    "from": "person:example-jane-doe",
+    "to": "company:example-datacentral",
+    "type": "works_at",
+    "detail": "VP of Engineering",
+    "since": "2021",
+    "sources": ["Created as an example on 2026-09-04"],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "investor:example-capital-partners",
+    "to": "company:example-datacentral",
+    "type": "invested_in",
+    "detail": "Placeholder growth round",
+    "since": "2023",
+    "sources": ["Created as an example on 2026-09-04"],
+    "last_updated": "2026-09-04"
+  },
+  {
+    "from": "person:example-jane-doe",
+    "to": "investor:example-capital-partners",
+    "type": "contact_at",
+    "detail": "Primary relationship contact for this fund",
+    "since": "2023",
+    "sources": ["Created as an example on 2026-09-04"],
+    "last_updated": "2026-09-04"
+  }
+]

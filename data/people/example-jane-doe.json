@@ -1,0 +1,17 @@
+{
+  "id": "example-jane-doe",
+  "type": "person",
+  "name": "Jane Doe (sample entry — not a real person)",
+  "current_title": "VP of Engineering",
+  "current_company": "example-datacentral",
+  "past_companies": ["Example Prior Co."],
+  "location": "Ashburn, VA",
+  "linkedin": "",
+  "email": "",
+  "phone": "",
+  "expertise_tags": ["power engineering", "site selection"],
+  "clockwork_id": "",
+  "notes": "This is a sample record so you can see the structure before real data is loaded.",
+  "sources": ["Created as an example on 2026-09-04"],
+  "last_updated": "2026-09-04"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "example-capital-partners",
+  "type": "investor",
+  "name": "Example Capital Partners (sample entry — not a real firm)",
+  "investor_type": "infrastructure fund",
+  "hq": "New York, NY",
+  "aum": "N/A (example data)",
+  "investments": ["example-datacentral"],
+  "notable_deals": "Led a placeholder growth round in Example DataCentral.",
+  "contacts": ["example-jane-doe"],
+  "notes": "This is a sample record so you can see the structure before real data is loaded.",
+  "sources": ["Created as an example on 2026-09-04"],
+  "last_updated": "2026-09-04"
+}
