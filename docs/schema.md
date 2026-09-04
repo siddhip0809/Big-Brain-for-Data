@@ -36,7 +36,15 @@ Every node also carries these common fields, regardless of type:
 
 ### `person` (in `data/people/`)
 - `current_title`
-- `current_company` — id of a company node, if known
+- `current_company` — employer name as plain text (always present when known)
+- `current_company_id` — id of a `company` node for that employer, **only
+  set when that employer is itself tracked as a company node** (e.g. a
+  classified data-center operator/developer/hyperscaler); `null` otherwise
+  even though `current_company` still names them
+- `department` — which functional branch this person belongs to for the
+  purposes of the graph (currently `"Sales"` or `"Development"`); derived
+  from which recruiting search sourced them, not independently verified
+  per person
 - `past_companies` — list of company ids or names
 - `location`
 - `linkedin`
@@ -73,7 +81,11 @@ Each entry looks like:
 
 Common relationship `type` values (not a fixed list — new ones can be
 added any time):
-- `works_at` — person → company
+- `works_at` — person → company (their actual current employer; only
+  created when that employer is itself a tracked company node)
+- `candidate_for` — person → company (they're a candidate in Ward Search's
+  pipeline for a search at that company — a recruiting relationship,
+  separate from `works_at`)
 - `invested_in` — investor → company
 - `board_member_of` — person → company or investor
 - `acquired` — company → company

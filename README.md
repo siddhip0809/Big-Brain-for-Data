@@ -32,16 +32,23 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **2 companies**: Pure Data Centers, STACK Infrastructure (both active
-  Ward Search client engagements)
+- **44 companies**: Pure Data Centers and STACK Infrastructure (both active
+  Ward Search client engagements, hand-written records), plus 42 more
+  identified as current employers of candidates and classified as data
+  center operators/developers/hyperscalers (minimal stub records — see
+  `viewer/README.md` for the classification rule)
 - **1 investor**: Oaktree Capital Management (inferred from a Clockwork
   subtitle — flagged as unverified, see its entry)
 - **384 people**: candidates from the Pure Data Centers "VP Sales" search
   and the STACK Infrastructure "Cost Strategy" search, imported from
-  Clockwork exports on 2026-09-04. Email, phone, and compensation were
-  deliberately left out of these records (kept in Clockwork only) — see
-  `docs/schema.md`.
-- **385 relationships** connecting the above
+  Clockwork exports on 2026-09-04. Each has a `department` (Sales or
+  Development) and, where their current employer is one of the 44
+  companies above, a `works_at` link to it. Email, phone, and compensation
+  were deliberately left out of these records (kept in Clockwork only) —
+  see `docs/schema.md`.
+- **554 relationships** connecting the above (candidacy links, employment
+  links, and the one investor link)
+- An interactive visual graph of all of this — see `viewer/README.md`
 
 Placeholder `example-` entries used during initial setup have been removed
 now that real data is in place.

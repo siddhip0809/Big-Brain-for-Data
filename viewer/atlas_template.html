@@ -259,8 +259,10 @@
 
     <div class="sidebar-footer">
       <b>Drag</b> to move a node &middot; <b>scroll</b> to zoom &middot; <b>click</b> a node for detail.<br><br>
-      Contact info, phone numbers and compensation are intentionally excluded from this graph.
-      Source: Clockwork CRM export, 2026-09-04.
+      Organized by current employer &rarr; department, not by which search sourced each person.
+      "Contractors &amp; Consultants" groups everyone whose employer isn't classified as a data
+      center operator/developer/hyperscaler. Contact info, phone numbers and compensation are
+      intentionally excluded. Source: Clockwork CRM export, 2026-09-04.
     </div>
   </aside>
 
@@ -279,128 +281,169 @@
     </div>
   </div>
 </div>
-
-<script type="application/json" id="graph-data">__GRAPH_DATA_JSON__</script>
+<script type="application/json" id="tree-data">__TREE_DATA_JSON__</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 (function(){
-  const DATA = JSON.parse(document.getElementById('graph-data').textContent);
-  const nodes = DATA.nodes;
-  const links = DATA.links;
-  const nodeById = new Map(nodes.map(n => [n.id, n]));
+  const TREE = JSON.parse(document.getElementById('tree-data').textContent);
 
   const COLORS = {
-    pure: '#0891b2',
-    stack: '#d97706',
-    investor: '#9333ea',
     hub: '#fdf6e3',
-    dim: '#3a4f5e'
+    sales: '#0891b2',
+    development: '#d97706',
+    investor: '#9333ea',
+    other: '#5b7184'
   };
 
+  const AGGREGATE_ID = 'company:contractors-consultants';
+  const fullRoot = d3.hierarchy(TREE); // used only for legend counts, never rendered directly
+
+  let root, allNodes, allLinks;
+  function rebuildHierarchy(includeAggregate){
+    const data = includeAggregate
+      ? TREE
+      : { ...TREE, children: TREE.children.filter(c => c.id !== AGGREGATE_ID) };
+    root = d3.hierarchy(data);
+    allNodes = root.descendants();
+    allLinks = root.links();
+  }
+
+  function deptColor(dept){
+    return dept === 'Sales' ? COLORS.sales : dept === 'Development' ? COLORS.development : COLORS.other;
+  }
+  function isAggregate(n){
+    let a = n; while(a.parent){ if(a.depth === 1) return a.data.id === 'company:contractors-consultants'; a = a.parent; }
+    return false;
+  }
   function colorFor(n){
-    if(n.kind === 'hub') return n.group === 'investor' ? COLORS.investor : COLORS.hub;
-    if(n.group === 'pure') return COLORS.pure;
-    if(n.group === 'stack') return COLORS.stack;
-    return COLORS.dim;
+    const d = n.data;
+    if(d.kind === 'root') return COLORS.hub;
+    if(d.kind === 'company') return isAggregate(n) ? COLORS.other : COLORS.hub;
+    if(d.kind === 'department') return deptColor(d.department);
+    if(d.kind === 'investor') return COLORS.investor;
+    if(d.kind === 'person') return deptColor(d.department);
+    return COLORS.other;
   }
   function radiusFor(n){
-    if(n.kind === 'hub') return n.group === 'investor' ? 12 : 19;
-    return 3.1 + (n.size_bump || 0);
+    const d = n.data;
+    if(d.kind === 'root') return 24;
+    if(d.kind === 'company') return isAggregate(n) ? 16 : 12;
+    if(d.kind === 'department') return 6.5;
+    if(d.kind === 'investor') return 11;
+    // person
+    const sl = (d.seniority || '').toLowerCase();
+    let bump = 0;
+    if(sl.includes('vice president') || sl.includes('vp')) bump = 2.2;
+    else if(sl.includes('director')) bump = 1.6;
+    else if(sl.includes('senior') || sl.includes('sr')) bump = 0.8;
+    return 2.6 + bump;
   }
 
-  // ---------- legend / filter state ----------
+  // ---------- legend / filters (counts always computed from the FULL tree) ----------
+  const personCount = { Sales: 0, Development: 0 };
+  const companyCount = { real: 0, aggregate: 0 };
+  let investorCount = 0;
+  fullRoot.descendants().forEach(n => {
+    if(n.data.kind === 'person') personCount[n.data.department] = (personCount[n.data.department]||0) + 1;
+    if(n.data.kind === 'company') isAggregate(n) ? companyCount.aggregate++ : companyCount.real++;
+    if(n.data.kind === 'investor') investorCount++;
+  });
+
+  // Contractors & Consultants starts hidden: it alone holds >half the people,
+  // and showing it by default crowds the 43 real companies into a thin arc.
+  const filters = { Sales: true, Development: true, investor: true, aggregate: false };
+
   const GROUPS = [
-    { key:'pure',     label:'Pure Data Centers — candidate', color:COLORS.pure,
-      count: nodes.filter(n=>n.kind==='person' && n.group==='pure').length },
-    { key:'stack',     label:'STACK Infrastructure — candidate', color:COLORS.stack,
-      count: nodes.filter(n=>n.kind==='person' && n.group==='stack').length },
-    { key:'company',  label:'Client company (hub)', color:COLORS.hub,
-      count: nodes.filter(n=>n.kind==='hub' && n.group==='company').length },
-    { key:'investor', label:'Investor', color:COLORS.investor,
-      count: nodes.filter(n=>n.kind==='hub' && n.group==='investor').length },
+    { key:'Sales', label:'Sales — people', color:COLORS.sales, count: personCount.Sales||0 },
+    { key:'Development', label:'Development — people', color:COLORS.development, count: personCount.Development||0 },
+    { key:'investor', label:'Investor', color:COLORS.investor, count: investorCount },
+    { key:'hub', label:'Data center company (hub)', color:COLORS.hub, count: companyCount.real, static:true },
+    { key:'aggregate', label:'Contractors & Consultants', color:COLORS.other, count: personCount.Sales+personCount.Development ? 215 : 0, startOff:true },
   ];
-  const visible = new Set(GROUPS.map(g=>g.key));
-
-  function groupKey(n){
-    if(n.kind === 'hub') return n.group === 'investor' ? 'investor' : 'company';
-    return n.group === 'stack' ? 'stack' : 'pure';
-  }
 
   const legendEl = document.getElementById('legend');
   GROUPS.forEach(g => {
     const row = document.createElement('div');
-    row.className = 'legend-row';
+    row.className = 'legend-row' + (g.startOff ? ' off' : '');
     row.innerHTML = `<span class="swatch" style="background:${g.color}"></span>
       <span class="lg-label">${g.label}</span><span class="lg-count">${g.count}</span>`;
-    row.addEventListener('click', () => {
-      if(visible.has(g.key)) visible.delete(g.key); else visible.add(g.key);
-      row.classList.toggle('off', !visible.has(g.key));
-      draw();
-    });
+    if(!g.static){
+      row.addEventListener('click', () => {
+        filters[g.key] = !filters[g.key];
+        row.classList.toggle('off', !filters[g.key]);
+        if(g.key === 'aggregate'){
+          rebuildHierarchy(filters.aggregate);
+          layout();
+        }
+        draw();
+      });
+    } else {
+      row.style.cursor = 'default';
+    }
     legendEl.appendChild(row);
   });
 
-  document.getElementById('statNodes').textContent = nodes.length;
-  document.getElementById('statLinks').textContent = links.length;
+  document.getElementById('statNodes').textContent = fullRoot.descendants().length;
+  document.getElementById('statLinks').textContent = fullRoot.links().length;
   document.getElementById('statsGrid').innerHTML = `
-    <div class="stat-tile"><div class="num">${nodes.filter(n=>n.kind==='person').length}</div><div class="lbl">People</div></div>
-    <div class="stat-tile"><div class="num">${nodes.filter(n=>n.kind==='hub'&&n.group==='company').length}</div><div class="lbl">Companies</div></div>
-    <div class="stat-tile"><div class="num">${nodes.filter(n=>n.kind==='hub'&&n.group==='investor').length}</div><div class="lbl">Investors</div></div>
-    <div class="stat-tile"><div class="num">${links.length}</div><div class="lbl">Relationships</div></div>
+    <div class="stat-tile"><div class="num">${personCount.Sales + personCount.Development}</div><div class="lbl">People</div></div>
+    <div class="stat-tile"><div class="num">${companyCount.real}</div><div class="lbl">DC Companies</div></div>
+    <div class="stat-tile"><div class="num">${investorCount}</div><div class="lbl">Investors</div></div>
+    <div class="stat-tile"><div class="num">${companyCount.aggregate}</div><div class="lbl">Other buckets</div></div>
   `;
 
-  // ---------- canvas setup ----------
+  rebuildHierarchy(filters.aggregate);
+
+  function nodeVisible(n){
+    const d = n.data;
+    if(d.kind === 'root' || d.kind === 'company') return isAggregate(n) ? filters.aggregate : true;
+    if(d.kind === 'department') {
+      if(isAggregate(n) && !filters.aggregate) return false;
+      return filters[d.department];
+    }
+    if(d.kind === 'investor') return filters.investor;
+    if(d.kind === 'person') {
+      if(isAggregate(n) && !filters.aggregate) return false;
+      return filters[d.department];
+    }
+    return true;
+  }
+
+  // ---------- canvas / layout ----------
   const stage = document.getElementById('stage');
   const canvas = document.getElementById('graph');
   const ctx = canvas.getContext('2d');
   let width = stage.clientWidth || 1000, height = stage.clientHeight || 700;
   let dpr = Math.max(1, window.devicePixelRatio || 1);
 
-  // ---------- force simulation ----------
-  const clusterAnchor = {
-    pure:     { x: () => width * 0.30, y: () => height * 0.52 },
-    stack:    { x: () => width * 0.70, y: () => height * 0.48 },
-  };
-  function anchorX(n){ const c = clusterAnchor[n.cluster] || clusterAnchor.pure; return c.x(); }
-  function anchorY(n){ const c = clusterAnchor[n.cluster] || clusterAnchor.pure; return c.y(); }
-
-  // Seed initial positions near each node's cluster anchor so the layout
-  // converges in place instead of migrating slowly from a random spiral.
-  nodes.forEach(n => {
-    const spread = n.kind === 'hub' ? 20 : 160;
-    n.x = anchorX(n) + (Math.random() - 0.5) * spread;
-    n.y = anchorY(n) + (Math.random() - 0.5) * spread;
-  });
+  function layout(){
+    const R = Math.min(width, height) * 0.46;
+    const treeLayout = d3.tree()
+      .size([2 * Math.PI, R])
+      .separation((a, b) => (a.parent === b.parent ? 1 : 1.6) / a.depth);
+    treeLayout(root);
+    allNodes.forEach(n => {
+      const angle = n.x - Math.PI / 2;
+      n.px = width / 2 + n.y * Math.cos(angle);
+      n.py = height / 2 + n.y * Math.sin(angle);
+    });
+  }
 
   function resize(){
     width = stage.clientWidth; height = stage.clientHeight;
     canvas.width = width * dpr; canvas.height = height * dpr;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    layout();
     draw();
   }
   window.addEventListener('resize', resize);
 
-  const simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id)
-      .distance(d => d.type === 'invested_in' ? 130 : 34)
-      .strength(0.6))
-    .force('charge', d3.forceManyBody().strength(d => d.kind === 'hub' ? -300 : -10).distanceMax(200))
-    .force('collide', d3.forceCollide(d => radiusFor(d) + 2.2))
-    .force('x', d3.forceX(anchorX).strength(0.09))
-    .force('y', d3.forceY(anchorY).strength(0.09))
-    .alphaDecay(0.02)
-    .on('tick', draw);
-
   // ---------- zoom / pan ----------
   let transform = d3.zoomIdentity;
-  const zoom = d3.zoom()
-    .scaleExtent([0.15, 6])
-    .on('zoom', (event) => { transform = event.transform; draw(); });
+  const zoom = d3.zoom().scaleExtent([0.1, 8]).on('zoom', (e) => { transform = e.transform; draw(); });
   d3.select(canvas).call(zoom).on('dblclick.zoom', null);
 
-  // ---------- drag ----------
-  let dragNode = null;
   function toGraphCoords(clientX, clientY){
     const r = canvas.getBoundingClientRect();
     const sx = clientX - r.left, sy = clientY - r.top;
@@ -408,67 +451,56 @@
   }
   function findNode(gx, gy){
     let best = null, bestDist = Infinity;
-    for(const n of nodes){
-      if(!visible.has(groupKey(n))) continue;
-      const dx = n.x - gx, dy = n.y - gy;
-      const d = Math.hypot(dx, dy);
+    for(const n of allNodes){
+      if(!nodeVisible(n)) continue;
+      const x = n.fx != null ? n.fx : n.px, y = n.fy != null ? n.fy : n.py;
+      const d = Math.hypot(x - gx, y - gy);
       const hit = radiusFor(n) + 4;
       if(d < hit && d < bestDist){ bestDist = d; best = n; }
     }
     return best;
   }
 
+  // ---------- drag ----------
+  let dragNode = null;
   canvas.addEventListener('mousedown', (e) => {
     const [gx, gy] = toGraphCoords(e.clientX, e.clientY);
     const n = findNode(gx, gy);
-    if(n){
-      dragNode = n;
-      canvas.classList.add('dragging');
-      simulation.alphaTarget(0.25).restart();
-      n.fx = n.x; n.fy = n.y;
-    }
+    if(n){ dragNode = n; canvas.classList.add('dragging'); }
   });
   window.addEventListener('mousemove', (e) => {
     if(dragNode){
       const [gx, gy] = toGraphCoords(e.clientX, e.clientY);
       dragNode.fx = gx; dragNode.fy = gy;
+      draw();
     }
   });
   window.addEventListener('mouseup', () => {
-    if(dragNode){
-      dragNode.fx = null; dragNode.fy = null;
-      simulation.alphaTarget(0);
-      dragNode = null;
-      canvas.classList.remove('dragging');
-    }
+    if(dragNode){ dragNode = null; canvas.classList.remove('dragging'); }
   });
 
-  // ---------- hover tooltip ----------
+  // ---------- hover ----------
   const tooltip = document.getElementById('tooltip');
   let hoverNode = null;
   canvas.addEventListener('mousemove', (e) => {
     if(dragNode) return;
     const [gx, gy] = toGraphCoords(e.clientX, e.clientY);
     const n = findNode(gx, gy);
-    if(n !== hoverNode){
-      hoverNode = n;
-      draw();
-    }
+    if(n !== hoverNode){ hoverNode = n; draw(); }
     if(n){
       const r = stage.getBoundingClientRect();
       tooltip.style.left = (e.clientX - r.left) + 'px';
       tooltip.style.top = (e.clientY - r.top) + 'px';
-      const sub = n.kind === 'hub'
-        ? (n.investor_type || n.industry_role || '')
-        : [n.current_title, n.current_company].filter(Boolean).join(' — ');
-      tooltip.innerHTML = `<b>${escapeHtml(n.label)}</b><div class="tt-sub">${escapeHtml(sub)}</div>`;
+      const sub = n.data.kind === 'person'
+        ? [n.data.current_title, n.data.current_company].filter(Boolean).join(' — ')
+        : (n.data.industry_role || n.data.investor_type || n.data.kind);
+      tooltip.innerHTML = `<b>${escapeHtml(n.data.label)}</b><div class="tt-sub">${escapeHtml(sub||'')}</div>`;
       tooltip.style.display = 'block';
     } else {
       tooltip.style.display = 'none';
     }
   });
   canvas.addEventListener('mouseleave', () => { hoverNode = null; tooltip.style.display = 'none'; draw(); });
-
   canvas.addEventListener('click', (e) => {
     const [gx, gy] = toGraphCoords(e.clientX, e.clientY);
     const n = findNode(gx, gy);
@@ -476,52 +508,52 @@
   });
 
   // ---------- draw ----------
+  function pos(n){ return [ n.fx != null ? n.fx : n.px, n.fy != null ? n.fy : n.py ]; }
+
   function draw(){
     ctx.clearRect(0, 0, width, height);
     ctx.save();
     ctx.translate(transform.x, transform.y);
     ctx.scale(transform.k, transform.k);
 
-    // links
-    for(const l of links){
-      const s = l.source, t = l.target;
-      if(typeof s !== 'object' || typeof t !== 'object') continue;
-      if(!visible.has(groupKey(s)) || !visible.has(groupKey(t))) continue;
-      const active = hoverNode && (s === hoverNode || t === hoverNode);
-      const selected = selectedNode && (s === selectedNode || t === selectedNode);
+    for(const l of allLinks){
+      if(!nodeVisible(l.source) || !nodeVisible(l.target)) continue;
+      const [sx, sy] = pos(l.source), [tx, ty] = pos(l.target);
+      const active = (hoverNode && (l.source === hoverNode || l.target === hoverNode)) ||
+                     (selectedNode && (l.source === selectedNode || l.target === selectedNode));
       ctx.beginPath();
-      ctx.moveTo(s.x, s.y);
-      ctx.lineTo(t.x, t.y);
-      if(active || selected){
-        ctx.strokeStyle = l.type === 'invested_in' ? COLORS.investor : '#cbd9e2';
-        ctx.lineWidth = 1.4 / transform.k;
+      ctx.moveTo(sx, sy);
+      ctx.lineTo(tx, ty);
+      if(active){
+        ctx.strokeStyle = '#cbd9e2';
+        ctx.lineWidth = 1.3 / transform.k;
       } else {
-        ctx.strokeStyle = 'rgba(120,150,170,0.14)';
-        ctx.lineWidth = 0.7 / transform.k;
+        ctx.strokeStyle = 'rgba(120,150,170,0.16)';
+        ctx.lineWidth = 0.6 / transform.k;
       }
       ctx.stroke();
     }
 
-    // nodes
-    for(const n of nodes){
-      if(!visible.has(groupKey(n))) continue;
+    for(const n of allNodes){
+      if(!nodeVisible(n)) continue;
+      const [x, y] = pos(n);
       const r = radiusFor(n);
       ctx.beginPath();
       ctx.fillStyle = colorFor(n);
-      ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+      ctx.arc(x, y, r, 0, Math.PI * 2);
       ctx.fill();
 
-      if(n.kind === 'hub'){
-        ctx.strokeStyle = 'rgba(255,255,255,0.35)';
+      if(n.data.kind !== 'person'){
+        ctx.strokeStyle = 'rgba(255,255,255,0.3)';
         ctx.lineWidth = 1 / transform.k;
         ctx.stroke();
       }
-      if(n.do_not_contact){
+      if(n.data.do_not_contact){
         ctx.beginPath();
         ctx.setLineDash([2.2, 2]);
         ctx.strokeStyle = '#ef4444';
         ctx.lineWidth = 1.4 / transform.k;
-        ctx.arc(n.x, n.y, r + 3, 0, Math.PI * 2);
+        ctx.arc(x, y, r + 3, 0, Math.PI * 2);
         ctx.stroke();
         ctx.setLineDash([]);
       }
@@ -529,14 +561,29 @@
         ctx.beginPath();
         ctx.strokeStyle = '#e8f1f7';
         ctx.lineWidth = 1.6 / transform.k;
-        ctx.arc(n.x, n.y, r + 4, 0, Math.PI * 2);
+        ctx.arc(x, y, r + 4, 0, Math.PI * 2);
         ctx.stroke();
       }
-      if(n.kind === 'hub'){
-        ctx.font = `600 ${12 / transform.k}px "Chakra Petch", sans-serif`;
+      if(n.data.kind === 'root'){
+        ctx.font = `700 ${13 / transform.k}px "Chakra Petch", sans-serif`;
         ctx.fillStyle = '#e8f1f7';
         ctx.textBaseline = 'middle';
-        ctx.fillText(n.label, n.x + r + 6, n.y);
+        ctx.textAlign = 'center';
+        ctx.fillText(n.data.label, x, y - r - 10 / transform.k);
+      } else if(n.data.kind === 'company' || n.data.kind === 'investor'){
+        // Radial label: rotated to follow the spoke out from the root, flipped
+        // upright on the left half so text never renders upside down.
+        const angle = Math.atan2(y - height/2, x - width/2);
+        const flip = Math.cos(angle) < 0;
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(flip ? angle + Math.PI : angle);
+        ctx.font = `600 ${(n.data.kind === 'investor' ? 10.5 : 11) / transform.k}px "Chakra Petch", sans-serif`;
+        ctx.fillStyle = '#e8f1f7';
+        ctx.textBaseline = 'middle';
+        ctx.textAlign = flip ? 'right' : 'left';
+        ctx.fillText(n.data.label, flip ? -(r + 7) : (r + 7), 0);
+        ctx.restore();
       }
     }
     ctx.restore();
@@ -549,75 +596,84 @@
   const detailBody = document.getElementById('detailBody');
   let selectedNode = null;
 
-  function kindBadge(n){
-    if(n.kind === 'hub') return n.group === 'investor'
-      ? { text: 'INVESTOR', color: COLORS.investor }
-      : { text: 'CLIENT COMPANY', color: COLORS.hub };
-    return n.group === 'stack'
-      ? { text: 'STACK CANDIDATE', color: COLORS.stack }
-      : { text: 'PURE CANDIDATE', color: COLORS.pure };
-  }
-
   function escapeHtml(s){
     return (s == null ? '' : String(s)).replace(/[&<>"']/g, c => ({
       '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
     }[c]));
   }
 
-  function connectedCount(nodeId, type){
-    return links.filter(l => {
-      const s = typeof l.source === 'object' ? l.source.id : l.source;
-      const t = typeof l.target === 'object' ? l.target.id : l.target;
-      return (s === nodeId || t === nodeId) && (!type || l.type === type);
-    }).length;
+  function kindBadge(n){
+    const d = n.data;
+    if(d.kind === 'root') return { text: 'DATA CENTER COMPANIES', color: COLORS.hub };
+    if(d.kind === 'company') return isAggregate(n)
+      ? { text: 'AGGREGATE BUCKET', color: COLORS.other }
+      : { text: 'DATA CENTER COMPANY', color: COLORS.hub };
+    if(d.kind === 'department') return { text: d.department.toUpperCase() + ' DEPARTMENT', color: deptColor(d.department) };
+    if(d.kind === 'investor') return { text: 'INVESTOR', color: COLORS.investor };
+    return { text: d.department.toUpperCase() + ' — ' + (isAggregate(n) ? 'CONTRACTOR/CONSULTANT' : 'OPERATOR/DEVELOPER'), color: deptColor(d.department) };
+  }
+
+  function countPeople(n){
+    return n.descendants().filter(x => x.data.kind === 'person').length;
   }
 
   function renderDetail(n){
+    const d = n.data;
     const badge = kindBadge(n);
-    detailName.textContent = n.label;
+    detailName.textContent = d.label;
     detailKind.textContent = badge.text;
     detailKind.style.background = badge.color + '2a';
     detailKind.style.color = badge.color;
     detailKind.style.border = `1px solid ${badge.color}66`;
 
     let html = '';
-    if(n.kind === 'hub' && n.group !== 'investor'){
-      if(n.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(n.industry_role)}</div></div>`;
-      if(n.description) html += `<p>${escapeHtml(n.description)}</p>`;
-      if(n.tags && n.tags.length) html += `<div class="tag-row">${n.tags.map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`;
-      html += `<div class="dt-row"><div class="dt-k">Candidates</div><div class="dt-v">${connectedCount(n.id,'candidate_for')} people in this graph</div></div>`;
-      if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
-    } else if(n.kind === 'hub' && n.group === 'investor'){
-      if(n.investor_type) html += `<div class="dt-row"><div class="dt-k">Type</div><div class="dt-v">${escapeHtml(n.investor_type)}</div></div>`;
-      const investedNames = (n.investments||[]).map(id => {
-        const c = nodeById.get('company:' + id);
-        return c ? c.label : id;
+    if(d.kind === 'root'){
+      html += `<p>The full graph: every data-center company classified from candidate current-employer data, each split into its Sales and Development branches, plus one aggregate branch for contractors and consultants.</p>`;
+      html += `<div class="dt-row"><div class="dt-k">Total people</div><div class="dt-v">${countPeople(n)}</div></div>`;
+      html += `<div class="dt-row"><div class="dt-k">Branches</div><div class="dt-v">${n.children.length} (companies + aggregate)</div></div>`;
+    } else if(d.kind === 'company'){
+      if(d.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(d.industry_role)}</div></div>`;
+      if(d.description) html += `<p>${escapeHtml(d.description)}</p>`;
+      if(d.tags && d.tags.length) html += `<div class="tag-row">${d.tags.map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`;
+      html += `<div class="dt-row"><div class="dt-k">People here</div><div class="dt-v">${countPeople(n)}</div></div>`;
+      const depts = n.children.filter(c => c.data.kind === 'department').map(c => `${c.data.department} (${c.children.length})`);
+      if(depts.length) html += `<div class="dt-row"><div class="dt-k">Departments</div><div class="dt-v">${depts.join(', ')}</div></div>`;
+      if(d.notes) html += `<div class="banner-note">${escapeHtml(d.notes)}</div>`;
+    } else if(d.kind === 'department'){
+      html += `<div class="dt-row"><div class="dt-k">People</div><div class="dt-v">${n.children.length}</div></div>`;
+      html += `<div class="section-label">People in this branch</div>`;
+      n.children.forEach(c => {
+        html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(c.data.label)}</div>
+          <div class="pe-meta">${escapeHtml(c.data.current_title || '—')}</div></div>`;
       });
-      if(investedNames.length) html += `<div class="dt-row"><div class="dt-k">Invested in</div><div class="dt-v">${investedNames.map(escapeHtml).join(', ')}</div></div>`;
-      if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
+    } else if(d.kind === 'investor'){
+      if(d.investor_type) html += `<div class="dt-row"><div class="dt-k">Type</div><div class="dt-v">${escapeHtml(d.investor_type)}</div></div>`;
+      const parentCompany = n.parent && n.parent.data.kind === 'company' ? n.parent.data.label : null;
+      if(parentCompany) html += `<div class="dt-row"><div class="dt-k">Invested in</div><div class="dt-v">${escapeHtml(parentCompany)}</div></div>`;
+      if(d.notes) html += `<div class="banner-note">${escapeHtml(d.notes)}</div>`;
     } else {
-      if(n.do_not_contact){
+      // person
+      if(d.do_not_contact){
         html += `<div class="banner-dnc">&#9940; <b>Do Not Contact</b> — flagged in Clockwork. No outreach of any kind.</div>`;
       }
-      if(n.current_title || n.current_company){
-        html += `<div class="dt-row"><div class="dt-k">Current</div><div class="dt-v">${escapeHtml(n.current_title||'—')}${n.current_company ? ' @ ' + escapeHtml(n.current_company) : ''}</div></div>`;
-      }
-      if(n.location) html += `<div class="dt-row"><div class="dt-k">Location</div><div class="dt-v">${escapeHtml(n.location)}</div></div>`;
-      if(n.seniority) html += `<div class="dt-row"><div class="dt-k">Seniority</div><div class="dt-v">${escapeHtml(n.seniority)}</div></div>`;
-      if(n.industry_segment) html += `<div class="dt-row"><div class="dt-k">Segment</div><div class="dt-v">${escapeHtml(n.industry_segment)}</div></div>`;
+      const companyLabel = n.parent && n.parent.parent ? n.parent.parent.data.label : d.current_company;
+      html += `<div class="dt-row"><div class="dt-k">Current</div><div class="dt-v">${escapeHtml(d.current_title||'—')}${d.current_company ? ' @ ' + escapeHtml(d.current_company) : ''}</div></div>`;
+      html += `<div class="dt-row"><div class="dt-k">Department</div><div class="dt-v">${escapeHtml(d.department)}${companyLabel ? ' &middot; ' + escapeHtml(companyLabel) : ''}</div></div>`;
+      if(d.location) html += `<div class="dt-row"><div class="dt-k">Location</div><div class="dt-v">${escapeHtml(d.location)}</div></div>`;
+      if(d.seniority) html += `<div class="dt-row"><div class="dt-k">Seniority</div><div class="dt-v">${escapeHtml(d.seniority)}</div></div>`;
+      if(d.industry_segment) html += `<div class="dt-row"><div class="dt-k">Segment</div><div class="dt-v">${escapeHtml(d.industry_segment)}</div></div>`;
 
-      if(n.pipeline && n.pipeline.length){
-        html += `<div class="section-label">Pipeline</div>`;
-        n.pipeline.forEach(p => {
-          const client = nodeById.get('company:' + p.client_company);
+      if(d.pipeline && d.pipeline.length){
+        html += `<div class="section-label">Recruiting pipeline</div>`;
+        d.pipeline.forEach(p => {
           html += `<div class="pipeline-entry">
-            <div class="pe-title">${escapeHtml(p.project)}${client ? ' — ' + escapeHtml(client.label) : ''}</div>
+            <div class="pe-title">${escapeHtml(p.project)}</div>
             <div class="pe-meta">${escapeHtml(p.stage || '—')} &middot; rank ${escapeHtml(p.rank)}</div>
           </div>`;
         });
       }
-      if(n.career_history){
-        html += `<div class="section-label">Career history</div><div class="career-block">${escapeHtml(n.career_history)}</div>`;
+      if(d.career_history){
+        html += `<div class="section-label">Career history</div><div class="career-block">${escapeHtml(d.career_history)}</div>`;
       }
       html += `<div class="banner-note">No email, phone, or compensation stored in this graph. Source: Clockwork CRM export, 2026-09-04.</div>`;
     }
@@ -643,23 +699,24 @@
   searchInput.addEventListener('input', () => {
     const q = searchInput.value.trim().toLowerCase();
     if(q.length < 2){ searchResults.classList.remove('open'); return; }
-    const matches = nodes.filter(n => {
-      const hay = [n.label, n.current_company, n.current_title].filter(Boolean).join(' ').toLowerCase();
+    const matches = allNodes.filter(n => {
+      const d = n.data;
+      const hay = [d.label, d.current_company, d.current_title].filter(Boolean).join(' ').toLowerCase();
       return hay.includes(q);
     }).slice(0, 10);
     if(!matches.length){ searchResults.classList.remove('open'); return; }
     searchResults.innerHTML = matches.map((n, i) =>
-      `<div class="search-result" data-idx="${i}"><span>${escapeHtml(n.label)}</span><span class="sr-sub">${escapeHtml(n.current_company || (n.kind==='hub' ? kindBadge(n).text : ''))}</span></div>`
+      `<div class="search-result" data-idx="${i}"><span>${escapeHtml(n.data.label)}</span><span class="sr-sub">${escapeHtml(n.data.current_company || kindBadge(n).text)}</span></div>`
     ).join('');
     searchResults.classList.add('open');
     [...searchResults.children].forEach((el, i) => {
       el.addEventListener('click', () => {
         const n = matches[i];
-        visible.add(groupKey(n));
+        filters.Sales = true; filters.Development = true; filters.investor = true; filters.aggregate = true;
         document.querySelectorAll('.legend-row').forEach(r => r.classList.remove('off'));
         focusNode(n);
         searchResults.classList.remove('open');
-        searchInput.value = n.label;
+        searchInput.value = n.data.label;
       });
     });
   });
@@ -668,8 +725,9 @@
   });
 
   function focusNode(n){
-    const k = 1.4;
-    const t = d3.zoomIdentity.translate(width/2 - n.x*k, height/2 - n.y*k).scale(k);
+    const [x, y] = pos(n);
+    const k = 1.6;
+    const t = d3.zoomIdentity.translate(width/2 - x*k, height/2 - y*k).scale(k);
     d3.select(canvas).transition().duration(500).call(zoom.transform, t);
     selectNode(n);
   }
