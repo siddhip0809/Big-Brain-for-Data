@@ -829,7 +829,7 @@
     // target so the focused node sits in the middle of the area still visible
     const panelPx = Math.min(360, width * 0.88);
     const worldPerPx = (2 * dist * Math.tan((camera.fov * Math.PI / 180) / 2)) / height;
-    const camRight = new THREE.Vector3().crossVectors(camera.up, dir).normalize().negate();
+    const camRight = new THREE.Vector3().crossVectors(camera.up, dir).normalize(); // camera-right (dir points target->camera)
     target.addScaledVector(camRight, (panelPx / 2) * worldPerPx);
     const newCamPos = target.clone().addScaledVector(dir, dist);
     const startCam = camera.position.clone(), startTarget = controls.target.clone();
