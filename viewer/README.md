@@ -87,22 +87,40 @@ additions to `data/` — just ask.
 
 There is a second, experimental 3D viewer, deliberately scoped down while
 we get the visual design right: it drops the people layer entirely and
-shows only the 185 data-center companies and 79 private-equity/investor
-backers, spread out in true 3D space (a small custom force-directed
-layout, not a stacked tree) and clustered + colored by tier — Hyperscaler,
-NeoCloud/AI Infra, Data Center Developer/Operator, Cryptomining (reserved,
-currently empty) — with Investors as their own cluster, connected by a
-line to every company they've backed.
+shows only the data-center companies and private-equity/investor backers,
+spread out in true 3D space via a small custom force-directed layout (not
+a stacked tree) and clustered + colored by tier — Hyperscaler, NeoCloud/AI
+Infra, Data Center Developer/Operator, Cryptomining (reserved, currently
+empty) — with Investors as their own cluster, connected by a line to
+every company they've backed.
 
 - **`build_graph3d_data.py`** — reads `data/companies/` and
-  `data/investors/`, classifies each company into one of the four tiers
-  by its `tags` (priority: NeoCloud/AI Infra tag first, then Hyperscaler,
-  then any crypto-mining tag, else Developer/Operator), and writes a flat
-  `graph3d_data.json` of `{categories, nodes, links}` — not a tree, since
-  an investor can back more than one company.
-- The 3D page itself (built the same way — data inserted into an HTML
-  template, published as a separate Artifact) uses Three.js instead of
-  D3/canvas, so you can orbit, zoom, and click a node in true 3D.
+  `data/investors/` and writes a flat `graph3d_data.json` of
+  `{categories, parent_industry_meta, nodes, links}` (not a tree, since
+  an investor can back more than one company). Two explicit allowlists
+  decide tier (`TRUE_HYPERSCALER_IDS`, `TRUE_NEOCLOUD_IDS`) rather than
+  trusting the CRM's "Hyperscaler"/"Neo Clouds/AI Infra" tags directly —
+  both tags turned out to mean "this company's people have worked on
+  X-related projects," not "this company IS an X," and were firing on
+  dozens of companies that are really just data center developers/
+  operators. Each company also carries a `parent_industry` (`pure_play`,
+  `real_estate`, `energy_utilities`, `telecom`, `construction_engineering`,
+  or `diversified_conglomerate`) saying whether data centers are the
+  company's own dedicated business or one arm of a bigger one.
+- **`atlas3d_template.html`** — the 3D page itself (data inserted in
+  place of `__GRAPH_DATA_JSON__`, same pattern as `atlas_template.html`),
+  built with Three.js instead of D3/canvas so you can orbit, zoom, and
+  click a node in true 3D.
+
+**Node interaction — "focus mode":** clicking a node doesn't just open the
+text detail panel — it zooms the camera in, arranges that node's direct
+connections (an investor's whole portfolio, or a company's backers) into
+a clean ring around it, and fades everything else in the graph nearly
+out of view. Click one of the ring nodes to drill one level deeper (it
+recenters and reveals *its* connections); a "← Back" / "Show full graph"
+control pair (top-left of the stage) steps back out. This replaces a
+static text card with a spatial, explorable "atomic diagram" of each
+node's neighborhood, per Siddhi's request.
 
 This is a step back in scope on purpose, at your request, so the company
 + investor layer reads cleanly before people are added back in.
