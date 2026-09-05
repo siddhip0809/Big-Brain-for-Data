@@ -33,15 +33,40 @@ CATS = {
 # Developer/Operator (or NeoCloud/Cryptomining if they qualify for those).
 TRUE_HYPERSCALER_IDS = {"aws", "google", "microsoft", "meta", "apple"}
 
+# Same problem showed up in the "Neo Clouds/AI Infra" tag: it was firing on
+# companies (Computacenter, Datum Datacentres, BGO Data Centre) that are a
+# regional colocation specialist, a UK colo operator, and a real-estate
+# fund's DC vehicle respectively -- not AI-cloud/neocloud businesses. Moved
+# to an explicit allowlist of confirmed AI-cloud / neocloud operators.
+TRUE_NEOCLOUD_IDS = {
+    "iren", "nebius", "crusoe", "openai", "together-ai",
+    "applied-digital", "sesterce",
+}
+
 def classify_company(company_id, tags):
     tagset = set(tags or [])
-    if "Neo Clouds/AI Infra" in tagset:
+    if company_id in TRUE_NEOCLOUD_IDS:
         return "neocloud"
     if company_id in TRUE_HYPERSCALER_IDS:
         return "hyperscaler"
     if any("crypto" in t.lower() for t in tagset):
         return "cryptomining"
     return "developer_operator"
+
+# Within Developer/Operator (and, in principle, any tier), a company's
+# `parent_industry` says WHY it's in the data center business: its own
+# dedicated business ("pure_play" -- direct-tap recruiting pool), or an
+# arm of a broader real estate, energy/utility, telecom, or construction/
+# engineering company (needs a closer look at what a candidate actually
+# works on), or some other diversified conglomerate/holding company.
+PARENT_INDUSTRY_META = {
+    "pure_play":               {"name": "Pure-play data center company",            "note": "Data centers are the company's own dedicated business."},
+    "real_estate":             {"name": "Real estate / industrial developer",       "note": "A property developer or REIT with a data center arm (e.g. Prologis, Panattoni)."},
+    "energy_utilities":        {"name": "Energy / utility company",                 "note": "An energy or power company expanding into data center development."},
+    "telecom":                 {"name": "Telecom / network operator",               "note": "A telecom company expanding into data center development."},
+    "construction_engineering":{"name": "Construction / engineering / consultancy", "note": "A GC, EPC, or engineering/consultancy firm with a data center practice."},
+    "diversified_conglomerate":{"name": "Diversified conglomerate",                 "note": "A diversified holding company or alt-asset manager with a data center arm."},
+}
 
 def load_json(path):
     with open(path) as f:
@@ -54,11 +79,14 @@ company_files = sorted(glob.glob(os.path.join(COMPANIES_DIR, "*.json")))
 for path in company_files:
     d = load_json(path)
     cat = classify_company(d["id"], d.get("tags"))
+    parent_industry = d.get("parent_industry") or "pure_play"
     nodes.append({
         "id": d["id"],
         "name": d["name"],
         "kind": "company",
         "category": cat,
+        "parent_industry": parent_industry,
+        "is_pure_play": parent_industry == "pure_play",
         "industry_role": d.get("industry_role"),
         "headquarters": d.get("headquarters"),
         "founded": d.get("founded"),
@@ -108,8 +136,17 @@ for cid, meta in CATS.items():
         "count": counts.get(cid, 0),
     })
 
+parent_industry_counts = {}
+for n in nodes:
+    if n["kind"] == "company":
+        parent_industry_counts[n["parent_industry"]] = parent_industry_counts.get(n["parent_industry"], 0) + 1
+
 out = {
     "categories": categories_out,
+    "parent_industry_meta": [
+        {"id": pid, "name": meta["name"], "note": meta["note"], "count": parent_industry_counts.get(pid, 0)}
+        for pid, meta in PARENT_INDUSTRY_META.items()
+    ],
     "nodes": nodes,
     "links": links,
     "stats": {

@@ -27497,5 +27497,764 @@
       "Web research, 2026-09-05"
     ],
     "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:blue-owl-capital",
+    "to": "company:american-real-estate-partners",
+    "type": "invested_in",
+    "detail": "$5B JV (with Chirisa Technology Parks) for build-to-suit AI/HPC data centers.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:blue-owl-capital",
+    "to": "company:oracle",
+    "type": "invested_in",
+    "detail": "Financing partner for Oracle's Abilene, TX ($15B) and New Mexico ($18B) Stargate data center sites.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:stonepeak",
+    "to": "company:agp-sustainable-real-assets",
+    "type": "invested_in",
+    "detail": "$650M strategic investment (Nov 2023) into AGP's multi-sector platform (incl. data centers).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:stonepeak",
+    "to": "company:digital-edge-dc",
+    "type": "invested_in",
+    "detail": "Founding $1B equity commitment (2020); $1.6B raise (2025); Stonepeak's dedicated APAC DC platform.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:stonepeak",
+    "to": "company:montera-infrastructure",
+    "type": "invested_in",
+    "detail": "Launched Montera Infrastructure (April 2025) with a $1.5B equity commitment; Stonepeak's 4th North American data center investment.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:kkr",
+    "to": "company:gulf-data-hub",
+    "type": "invested_in",
+    "detail": "Strategic partnership announced Jan 2025 to fund $5bn+ of UAE/GCC data center investment.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:kkr",
+    "to": "company:ovhcloud",
+    "type": "invested_in",
+    "detail": "~10% minority stake (2016, ~\u20ac250M growth capital alongside TowerBrook), reduced to ~2% post-2021 IPO.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:macquarie-asset-management",
+    "to": "company:applied-digital",
+    "type": "invested_in",
+    "detail": "Up to $5.0B preferred + 15% common equity facility into Applied Digital's HPC business (APLD HPC Holdings).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:macquarie-asset-management",
+    "to": "company:new-era-energy-digital",
+    "type": "invested_in",
+    "detail": "$290M senior secured term loan + $5M equity investment for the Texas Critical Data Centers campus.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:brookfield-infrastructure",
+    "to": "company:csquare",
+    "type": "invested_in",
+    "detail": "Formed 2024 via Brookfield-led merger of Evoque Data Center Solutions + Cyxtera; filed for $1.35B IPO in 2026.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:brookfield-infrastructure",
+    "to": "company:dayone",
+    "type": "invested_in",
+    "detail": "\u20ac1B mezzanine debt facility (2025) supporting DayOne's hyperscale build-out.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:principal-asset-management",
+    "to": "company:crane-data-centers",
+    "type": "invested_in",
+    "detail": "Partnership to develop a 100+MW Portland/Hillsboro, OR data center campus.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:global-infrastructure-partners-gip",
+    "to": "company:acs-infrastructure",
+    "type": "invested_in",
+    "detail": "Formed Coravel, a 50/50 JV with ACS Infrastructure (1.7GW pipeline across Europe/US/Australia).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:harrison-street",
+    "to": "company:fifteenfortyseven-critical-systems-realty-1547",
+    "type": "invested_in",
+    "detail": "Co-acquired DRFortress (Hawaii) alongside 1547, from GI Partners (Apr 2025).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:dtcp-digital-transformation-capital-partners",
+    "to": "company:maincubes",
+    "type": "invested_in",
+    "detail": "Took majority stake in 2022, increased to full majority by Sept 2023; secured a \u20ac2.475B platform financing.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:iren",
+    "type": "invested_in",
+    "detail": "5-year warrant for up to 30M shares (~$2.1B potential) alongside a $3.4B GPU cloud supply contract (May 2026).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:nebius",
+    "type": "invested_in",
+    "detail": "Disclosed 9.3% stake from a $2B strategic investment.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:applied-digital",
+    "type": "invested_in",
+    "detail": "Participated (with others) in a $160M investment, Sept 2024/2025.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:together-ai",
+    "type": "invested_in",
+    "detail": "Participated as an existing investor across Together AI's funding rounds.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:mgx",
+    "to": "company:khazna-data-centers",
+    "type": "invested_in",
+    "detail": "Minority investor alongside Silver Lake after e& sold its 40% stake for $2.2B (Feb 2025).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:silver-lake",
+    "to": "company:khazna-data-centers",
+    "type": "invested_in",
+    "detail": "Minority investor alongside MGX after e& sold its 40% stake for $2.2B (Feb 2025).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:ipi-partners",
+    "to": "company:radiusdc",
+    "type": "invested_in",
+    "detail": "Launched RadiusDC (Sept 2022) as a sister platform to STACK Infrastructure for North American edge/metro data centers.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:blackrock",
+    "to": "company:mainova-webhouse",
+    "type": "invested_in",
+    "detail": "Acquired a 50.1% majority stake from parent utility Mainova AG.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:blackrock",
+    "to": "company:gravity-edge-a-blackrock-and-dgp-platform",
+    "type": "invested_in",
+    "detail": "\u00a3500m ($678m) JV with Digital Gravity Partners (DGP), launched Sept 2025, to acquire/develop UK enterprise data centers.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:blackrock",
+    "to": "company:meta",
+    "type": "invested_in",
+    "detail": "Anchor debt investor ($3B) in Meta's $27B 'Hyperion' data center JV in Louisiana (alongside Blue Owl, PIMCO).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:blackrock",
+    "to": "company:microsoft",
+    "type": "invested_in",
+    "detail": "Co-founder of the AI Infrastructure Partnership (AIP, with GIP + MGX), which raised $12.5B+ for AI/data center infrastructure.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:blackrock",
+    "to": "company:kauri-cab-digital-infrastructure",
+    "type": "invested_in",
+    "detail": "JV (BlackRock Real Estate) to develop a hyperscale data center near Frankfurt, Germany.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:digital-gravity-partners",
+    "to": "company:gravity-edge-a-blackrock-and-dgp-platform",
+    "type": "invested_in",
+    "detail": "Co-sponsor with BlackRock of the \u00a3500m Gravity Edge UK data center JV.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:azrieli-group",
+    "to": "company:green-mountain-global-data-centers",
+    "type": "invested_in",
+    "detail": "Acquired Green Mountain from Smedvig Eiendom for ~$850M (2021 deal, closed 2025).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:novacap",
+    "to": "company:h5-data-centers",
+    "type": "invested_in",
+    "detail": "JV (Jan 2025) launching the HyscaleIX Data Centers brand; acquired 365 Data Centers and vXchnge facilities.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:ubs-asset-management",
+    "to": "company:datum-datacentres",
+    "type": "invested_in",
+    "detail": "Acquired Sept 2021 (from Darwin Private Equity) to expand UK regional colocation.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:king-street-capital-management",
+    "to": "company:colovore",
+    "type": "invested_in",
+    "detail": "Acquired Colovore (2024).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:blackstone",
+    "to": "company:colovore",
+    "type": "invested_in",
+    "detail": "$925M debt facility (2025) for liquid-cooled AI data center build-out.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:cerberus-capital-management",
+    "to": "company:arrow-capital-partners",
+    "type": "invested_in",
+    "detail": "Backs Arrow's \u20ac3B Strategic Industrial Real Estate (SIRE) platform, which includes data centers as one asset class.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:agc-equity-partners",
+    "to": "company:atmosphere-data-centers",
+    "type": "invested_in",
+    "detail": "Strategic growth investment announced Aug 2025.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:nadia-partners",
+    "to": "company:beacon-ai-centers",
+    "type": "invested_in",
+    "detail": "Founding/launching investor (2023); committed to 4.5GW of Alberta, Canada data center development.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:temasek-holdings",
+    "to": "company:capitaland",
+    "type": "invested_in",
+    "detail": "Majority/anchor shareholder of CapitaLand; Temasek separately pledged $30B for AI/semiconductor/data center investment across its portfolio.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:related-fund-management",
+    "to": "company:related-digital",
+    "type": "invested_in",
+    "detail": "Formal capitalization (Mar 2025); $500M+ initial commitment, up to $8B target, for Related's data center unit.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:new-mountain-capital",
+    "to": "company:salute-emea",
+    "type": "invested_in",
+    "detail": "Took a majority stake (Sept 2024) to support growth.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:llr-partners",
+    "to": "company:salute-emea",
+    "type": "invested_in",
+    "detail": "Retained minority stake after New Mountain Capital's Sept 2024 majority investment.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:fastighets-ab-balder",
+    "to": "company:scandinavian-data-centers",
+    "type": "invested_in",
+    "detail": "Invested to fund Scandinavian Data Centers' first facility, 'ScandiDC I' (Eskilstuna, Sweden, May 2025).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:ankaa-ventures",
+    "to": "company:sepia-infrastructure",
+    "type": "invested_in",
+    "detail": "Co-led Sepia Infrastructure's first fundraising round (Oct 2024).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:engie-new-ventures",
+    "to": "company:sepia-infrastructure",
+    "type": "invested_in",
+    "detail": "Co-led Sepia Infrastructure's first fundraising round (Oct 2024).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:softbank-group",
+    "to": "company:sesterce",
+    "type": "invested_in",
+    "detail": "JV to build a 1GW AI data center campus at Bosquel, France (2026).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:dws-group",
+    "to": "company:northc-datacenters",
+    "type": "invested_in",
+    "detail": "Prior owner before agreeing to sell NorthC to Antin Infrastructure Partners (~\u20ac2B deal, expected close H1 2026).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:antin-infrastructure-partners",
+    "to": "company:northc-datacenters",
+    "type": "invested_in",
+    "detail": "Agreed acquisition of NorthC from DWS Group (~\u20ac2B, Antin's Flagship Fund V).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:antin-infrastructure-partners",
+    "to": "company:pulsant",
+    "type": "invested_in",
+    "detail": "Current owner (since 2021) of the UK colocation/cloud operator.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:infravia-capital-partners",
+    "to": "company:opcore",
+    "type": "invested_in",
+    "detail": "Acquired a 50% stake (March 2025); alongside Iliad Group's committed \u20ac2.5B over a decade.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:infravia-capital-partners",
+    "to": "company:opcore-sas",
+    "type": "invested_in",
+    "detail": "Acquired a 50% stake (March 2025); French legal entity of the OPCORE platform.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:five-point-infrastructure",
+    "to": "company:powerbridge",
+    "type": "invested_in",
+    "detail": "$1B equity commitment (May 2025) to form PowerBridge and build gigawatt-scale powered data center campuses.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:in-q-tel",
+    "to": "company:prometheus-hyperscale",
+    "type": "invested_in",
+    "detail": "Investment (amount undisclosed); IQT's Sara A. Jones joined the board.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:hig-capital",
+    "to": "company:polar",
+    "type": "invested_in",
+    "detail": "H.I.G. Infrastructure took a controlling interest (~\u20ac500M deal, Oct 2024).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:tikehau-capital",
+    "to": "company:polar",
+    "type": "invested_in",
+    "detail": "Provided unitranche financing (March 2025) for Polar's Norwegian HPC site.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:encap-investments",
+    "to": "company:quantica-infrastructure",
+    "type": "invested_in",
+    "detail": "Backing investor (~$47B AUM firm) of Quantica Infrastructure, launched July 2025.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:actis",
+    "to": "company:terranova",
+    "type": "invested_in",
+    "detail": "Launched TERRANOVA (Dec 2025) as a $1.5B Latin American hyperscale data center platform.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:kddi",
+    "to": "company:telehouse",
+    "type": "invested_in",
+    "detail": "Majority owner (66%+); invested $445M+ over 25 years, incl. a $231M UK infrastructure commitment.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:areim",
+    "to": "company:vgp",
+    "type": "invested_in",
+    "detail": "50:50 'Saga' JV with VGP (\u20ac1.5B GAV target; third closing Nov 2025).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:east-capital",
+    "to": "company:vgp",
+    "type": "invested_in",
+    "detail": "JV with VGP focused on Central/Eastern Europe.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
+  },
+  {
+    "from": "investor:cpp-investments",
+    "to": "company:atnorth",
+    "type": "invested_in",
+    "detail": "Acquired ~60% (alongside Equinix) in a completed deal, Sept 2, 2026 (~$1.6B for CPPIB's stake).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:cpp-investments",
+    "to": "company:atnorth-data-center",
+    "type": "invested_in",
+    "detail": "Acquired ~60% (alongside Equinix) in a completed deal, Sept 2, 2026 (~$1.6B for CPPIB's stake).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:current-equity-partners",
+    "to": "company:metrobloks",
+    "type": "invested_in",
+    "detail": "Led metrobloks' $5.2M seed round (June 2024).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:serena-capital",
+    "to": "company:metrobloks",
+    "type": "invested_in",
+    "detail": "Participated in metrobloks' seed round.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:canopy-generations-fund",
+    "to": "company:metrobloks",
+    "type": "invested_in",
+    "detail": "Led metrobloks' $15.6M Series A (Feb 2025).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:eurazeo",
+    "to": "company:metrobloks",
+    "type": "invested_in",
+    "detail": "Participated in metrobloks' Series A.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:mint-ventures",
+    "to": "company:metrobloks",
+    "type": "invested_in",
+    "detail": "Participated in metrobloks' Series A.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:art-invest-real-estate",
+    "to": "company:maincubes",
+    "type": "invested_in",
+    "detail": "Holds a ~25% minority stake in maincubes.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:tiger-infrastructure-partners",
+    "to": "company:stellium-data-centres",
+    "type": "invested_in",
+    "detail": "Co-invested in Stellium Data Centres' \u00a330M Series B (Oct 2019).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:eram-capital-advisors",
+    "to": "company:stellium-data-centres",
+    "type": "invested_in",
+    "detail": "Co-invested in Stellium Data Centres' \u00a330M Series B (Oct 2019).",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "high"
+  },
+  {
+    "from": "investor:sks-credit",
+    "to": "company:hanwha-data-centers",
+    "type": "invested_in",
+    "detail": "JV with Hanwha Solutions via a \u20a9250bn fund to finance green data center/logistics development.",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05",
+    "confidence": "medium"
   }
 ]
