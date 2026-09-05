@@ -21,11 +21,23 @@ CATS = {
     "investor":           {"name": "Investor",                       "color": "#9333ea"},
 }
 
-def classify_company(tags):
+# The CRM's "Hyperscaler" tag turned out to mean "this company's people
+# have worked on hyperscaler-related projects" (Clockwork's "Organisation
+# Experience" tag), not "this company IS a hyperscaler" — it was firing
+# on ~94 companies, nearly all of them data center developers/operators
+# who build and run facilities FOR hyperscalers rather than being one
+# themselves. Per Siddhi's correction (2026-09-05): a true hyperscaler is
+# one of the handful of companies that owns and operates its own global
+# hyperscale cloud/compute platform. That's a short, explicit allowlist,
+# not a tag — everyone else who was tag-Hyperscaler falls back to
+# Developer/Operator (or NeoCloud/Cryptomining if they qualify for those).
+TRUE_HYPERSCALER_IDS = {"aws", "google", "microsoft", "meta", "apple"}
+
+def classify_company(company_id, tags):
     tagset = set(tags or [])
     if "Neo Clouds/AI Infra" in tagset:
         return "neocloud"
-    if "Hyperscaler" in tagset or "hyperscale" in tagset:
+    if company_id in TRUE_HYPERSCALER_IDS:
         return "hyperscaler"
     if any("crypto" in t.lower() for t in tagset):
         return "cryptomining"
@@ -41,7 +53,7 @@ node_ids = set()
 company_files = sorted(glob.glob(os.path.join(COMPANIES_DIR, "*.json")))
 for path in company_files:
     d = load_json(path)
-    cat = classify_company(d.get("tags"))
+    cat = classify_company(d["id"], d.get("tags"))
     nodes.append({
         "id": d["id"],
         "name": d["name"],
