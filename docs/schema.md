@@ -125,9 +125,26 @@ added any time):
   separate from `works_at`)
 - `invested_in` — investor → company
 - `board_member_of` — person → company or investor
-- `acquired` — company → company
-- `partnered_with` — company → company
+- `acquired` — acquirer → target (company → company, or investor →
+  investor, e.g. Blue Owl Capital → IPI Partners). Carries a `status`
+  ("completed", "announced", "announced; reportedly rejected", "minority
+  stake") and the deal detail/value in `detail`. A company being acquired
+  is a hiring — or layoff — signal, which is why these are tracked.
+- `tenant_of` — tenant → host/landlord (company → company): who leases
+  data-center capacity from whom, e.g. AWS → Cipher Mining (300MW, 15 yr),
+  CoreWeave → Galaxy Digital (Helios, ~526MW). `detail` holds MW, term,
+  and value where known. Shows real demand-side relationships, separate
+  from who *owns* a company.
+- `jv_partner` — company ↔ company joint venture on a specific campus or
+  platform (direction is not meaningful), e.g. Crusoe ↔ Lancium (Abilene).
+- `partnered_with` — company → company (looser commercial partnership)
 - `competitor_of` — company → company
+
+`acquired`, `tenant_of`, and `jv_partner` edges are drawn in the 3D atlas
+as their own line colours (amber, white, green) alongside violet investor
+backing, and appear in a node's focus ring and detail panel. Each carries a
+`confidence` (`high` / `medium`) like `invested_in` does — anything below
+`high` came from press reporting rather than an official announcement.
 - `contact_at` — person → investor (a person we know at a fund)
 
 Keeping relationships in one file (instead of scattered inside each node)

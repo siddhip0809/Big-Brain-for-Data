@@ -110,6 +110,23 @@ for path in investor_files:
     for cid in valid:
         links.append({"source": d["id"], "target": cid, "type": "invested_in"})
 
+# company<->company (and investor<->investor) deal edges live in
+# data/relationships.json: acquisitions, tenant/lease relationships, JVs.
+# Only edges whose two endpoints are both nodes in this graph are emitted.
+DEAL_TYPES = {"acquired", "tenant_of", "jv_partner"}
+all_ids = {n["id"] for n in nodes}
+rel_path = os.path.join(REPO, "data/relationships.json")
+deal_edges = 0
+if os.path.exists(rel_path):
+    for r in load_json(rel_path):
+        if r.get("type") not in DEAL_TYPES: continue
+        src_id = r["from"].split(":", 1)[-1]; dst_id = r["to"].split(":", 1)[-1]
+        if src_id in all_ids and dst_id in all_ids:
+            links.append({"source": src_id, "target": dst_id, "type": r["type"],
+                          "detail": r.get("detail"), "status": r.get("status"),
+                          "confidence": r.get("confidence")})
+            deal_edges += 1
+
 # legend counts = how many nodes HOLD each role (a multi-role company counts once per role)
 role_counts = {c: 0 for c in CATS}
 for n in nodes:
@@ -134,7 +151,7 @@ out = {
     "nodes": nodes, "links": links,
     "stats": {"companies": len(company_files), "dc_companies": dc_companies,
               "adjacent_companies": adjacent_only, "multi_role_companies": multi_role,
-              "investors": len(investor_files), "links": len(links)},
+              "investors": len(investor_files), "links": len(links), "deal_links": deal_edges},
 }
 
 out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "graph3d_data.json")
@@ -143,6 +160,6 @@ with open(out_path, "w") as f:
 
 print("companies:", len(company_files), "| DC-tier:", dc_companies, "| adjacent-only:", adjacent_only,
       "| multi-role:", multi_role)
-print("investors:", len(investor_files), "| links:", len(links))
+print("investors:", len(investor_files), "| links:", len(links), "| of which deal links:", deal_edges)
 print("role counts:", role_counts)
 print("wrote:", out_path, os.path.getsize(out_path), "bytes")

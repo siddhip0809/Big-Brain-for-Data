@@ -28333,5 +28333,240 @@
       "Web research, 2026-09-05"
     ],
     "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "company:core-scientific",
+    "type": "acquired",
+    "detail": "All-stock acquisition (~$9B) announced June 2025; shareholders reportedly rejected it -- status to be re-verified.",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05",
+    "status": "announced; reportedly rejected"
+  },
+  {
+    "from": "company:equinix",
+    "to": "company:atnorth",
+    "type": "acquired",
+    "detail": "Acquired atNorth alongside CPP Investments (~60% CPPIB / Equinix minority), completed Sept 2, 2026; Partners Group retained ~10%.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05",
+    "status": "completed"
+  },
+  {
+    "from": "company:nscale",
+    "to": "company:future-tech",
+    "type": "acquired",
+    "detail": "Acquired Future-Tech (UK MEP/engineering consultancy) to bring data-center design-build capability in-house.",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05",
+    "status": "completed"
+  },
+  {
+    "from": "investor:blue-owl-capital",
+    "to": "investor:ipi-partners",
+    "type": "acquired",
+    "detail": "Acquired IPI Partners' entire asset-management business (~$1.0B; announced Oct 7, 2024, closed Jan 6, 2025) -- with it, control of STACK Infrastructure and RadiusDC.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05",
+    "status": "completed"
+  },
+  {
+    "from": "company:terawulf",
+    "to": "company:fluidstack",
+    "type": "jv_partner",
+    "detail": "Abernathy, TX campus JV: TeraWulf sold 50.1% to a Fluidstack-led investor group; Fluidstack is also the AI-hosting tenant.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:crusoe",
+    "to": "company:lancium",
+    "type": "jv_partner",
+    "detail": "1.2GW 'Clean Campus' near Abilene, TX (2024) -- the flagship site for OpenAI's Stargate; Lancium supplies the powered land, Crusoe develops.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:aws",
+    "to": "company:cipher-mining",
+    "type": "tenant_of",
+    "detail": "15-year, ~300MW direct lease (~$5.5B contracted revenue) for AI/HPC capacity.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:fluidstack",
+    "to": "company:cipher-mining",
+    "type": "tenant_of",
+    "detail": "10-year, 168MW AI/HPC hosting deal; part of Cipher's ~$9.3B contracted pipeline.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:anthropic",
+    "to": "company:riot-platforms",
+    "type": "tenant_of",
+    "detail": "20-year, 191MW lease at Rockdale, TX worth ~$9.1B (tenant reported as Anthropic, Aug 2026).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:anthropic",
+    "to": "company:bitdeer-technologies",
+    "type": "tenant_of",
+    "detail": "16-year, $4.7B (up to $8B with renewal) colocation lease at the Tydal, Norway campus via Volta Tydal AS; end customer reported as Anthropic.",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:anthropic",
+    "to": "company:terawulf",
+    "type": "tenant_of",
+    "detail": "~$19B, 522MW AI data center lease (2026).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:amd",
+    "to": "company:riot-platforms",
+    "type": "tenant_of",
+    "detail": "Expanded lease at Rockdale, TX to 50MW (Q1 2026 -- Riot's first quarter of real data-center revenue).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "investor:galaxy-digital",
+    "type": "tenant_of",
+    "detail": "15-year lease of the Helios campus (~526MW critical IT / 800MW gross; ~$1B annual revenue projected).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "company:core-scientific",
+    "type": "tenant_of",
+    "detail": "Multi-site HPC hosting contracts (~590MW contracted) -- the relationship that led to the 2025 acquisition attempt.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "company:bitfarms",
+    "type": "tenant_of",
+    "detail": "AI/HPC hosting contract at the Panther Creek, PA campus (350MW build).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "company:applied-digital",
+    "type": "tenant_of",
+    "detail": "Long-term leases at the Ellendale, ND (Polaris Forge) campus -- ~400MW, ~$11B over 15 years (2025).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:oracle",
+    "to": "company:crusoe",
+    "type": "tenant_of",
+    "detail": "Oracle leases the Abilene, TX Stargate campus capacity developed by Crusoe (with Lancium land/power; Blue Owl + Primary Digital financing JV).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:openai",
+    "to": "company:oracle",
+    "type": "tenant_of",
+    "detail": "Stargate compute capacity (Abilene, TX ~1.2GW and further sites) supplied by Oracle Cloud Infrastructure.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:nebius",
+    "type": "tenant_of",
+    "detail": "Multi-year AI infrastructure capacity agreement (~$17.4B, up to ~$19.4B) signed Sept 2025 for Nebius' Vineland, NJ capacity.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:iren",
+    "type": "tenant_of",
+    "detail": "~$9.7B, 5-year GPU cloud capacity contract (Nov 2025) at IREN's Childress, TX campus.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:nscale",
+    "type": "tenant_of",
+    "detail": "AI capacity agreements (2025) covering Nscale sites in Norway, Portugal, UK and Texas.",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (surfaced during investor-research rounds)"
+    ],
+    "last_updated": "2026-09-05"
   }
 ]

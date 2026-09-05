@@ -103,6 +103,9 @@
   }
   .legend-row:hover{ background:var(--panel); }
   .legend-row.off{ opacity:.38; }
+  .edge-legend{ display:flex; flex-wrap:wrap; gap:6px 14px; font-size:11px; color:var(--text-muted); }
+  .edge-key{ display:flex; align-items:center; gap:6px; }
+  .edge-key i{ display:inline-block; width:16px; height:2px; border-radius:1px; }
   .legend-heading{
     font-family:var(--font-mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase;
     color:var(--text-dim); margin:12px 0 4px; padding-top:10px; border-top:1px dashed var(--border);
@@ -272,6 +275,8 @@
     <div>
       <p class="field-label">Legend &middot; click to filter</p>
       <div id="legend"></div>
+      <p class="field-label" style="margin-top:14px">Lines</p>
+      <div id="edgeLegend" class="edge-legend"></div>
     </div>
 
     <div>
@@ -352,11 +357,24 @@
   // reverse lookups for the detail panel
   const backersOf = {};      // companyId -> [investor node, ...]
   const portfolioOf = {};    // investorId -> [company node, ...]
+  const dealsOf = {};        // nodeId -> [{other, type, dir:'out'|'in', detail, status, confidence}]
   GRAPH.links.forEach(l => {
     if(!l.sourceNode || !l.targetNode) return;
-    (backersOf[l.target] = backersOf[l.target] || []).push(l.sourceNode);
-    (portfolioOf[l.source] = portfolioOf[l.source] || []).push(l.targetNode);
+    if(l.type === 'invested_in'){
+      (backersOf[l.target] = backersOf[l.target] || []).push(l.sourceNode);
+      (portfolioOf[l.source] = portfolioOf[l.source] || []).push(l.targetNode);
+    } else {
+      (dealsOf[l.source] = dealsOf[l.source] || []).push({ other: l.targetNode, type: l.type, dir: 'out', detail: l.detail, status: l.status, confidence: l.confidence });
+      (dealsOf[l.target] = dealsOf[l.target] || []).push({ other: l.sourceNode, type: l.type, dir: 'in',  detail: l.detail, status: l.status, confidence: l.confidence });
+    }
   });
+  // one line style per relationship type
+  const LINK_STYLE = {
+    invested_in: { color: 0x9333ea, opacity: 0.28, label: 'Investor backing' },
+    tenant_of:   { color: 0xf8fafc, opacity: 0.32, label: 'Lease / tenant' },
+    acquired:    { color: 0xf59e0b, opacity: 0.6,  label: 'Acquisition' },
+    jv_partner:  { color: 0x4ade80, opacity: 0.5,  label: 'Joint venture' },
+  };
 
   // ---------- 5 well-separated cluster anchors in 3D (Fibonacci sphere) ----------
   const ANCHOR_R = 300;
@@ -445,7 +463,12 @@
       if(!a || !b) return;
       const dx = b.px - a.px, dy = b.py - a.py, dz = b.pz - a.pz;
       const d = Math.max(1, Math.sqrt(dx*dx + dy*dy + dz*dz));
-      const f = (d - LINK_LEN) * LINK_K;
+      // company<->company deal links are softer and longer than investor
+      // backing, so related companies lean toward each other without
+      // being yanked out of their tier cluster
+      const k = l.type === 'invested_in' ? LINK_K : LINK_K * 0.3;
+      const len = l.type === 'invested_in' ? LINK_LEN : LINK_LEN * 1.6;
+      const f = (d - len) * k;
       const fx = (dx / d) * f, fy = (dy / d) * f, fz = (dz / d) * f;
       a.vx += fx; a.vy += fy; a.vz += fz;
       b.vx -= fx; b.vy -= fy; b.vz -= fz;
@@ -539,6 +562,11 @@
   });
   function syncLegend(){
     document.querySelectorAll('.legend-row').forEach(r => r.classList.toggle('off', !filters[r.dataset.cat]));
+  }
+  const edgeLegendEl = document.getElementById('edgeLegend');
+  if(edgeLegendEl){
+    edgeLegendEl.innerHTML = Object.entries(LINK_STYLE).map(([t, s]) =>
+      `<span class="edge-key"><i style="background:#${s.color.toString(16).padStart(6, '0')}"></i>${s.label}</span>`).join('');
   }
 
   const backedCompanyCount = Object.keys(backersOf).length;
@@ -641,10 +669,29 @@
     return g;
   }
 
+  function buildLineGroup(){
+    const group = new THREE.Group();
+    const byType = {};
+    GRAPH.links.forEach(l => {
+      if(!l.sourceNode || !l.targetNode) return;
+      if(!nodeVisible(l.sourceNode) || !nodeVisible(l.targetNode)) return;
+      (byType[l.type] = byType[l.type] || []).push(l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz,
+                                                   l.targetNode.px, l.targetNode.py, l.targetNode.pz);
+    });
+    Object.entries(byType).forEach(([type, pos]) => {
+      const st = LINK_STYLE[type] || LINK_STYLE.invested_in;
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+      group.add(new THREE.LineSegments(geo, new THREE.LineBasicMaterial({ color: st.color, transparent: true, opacity: st.opacity })));
+    });
+    return group;
+  }
+  function disposeGroup(g){ if(!g) return; g.children.forEach(c => { c.geometry.dispose(); c.material.dispose(); }); scene.remove(g); }
+
   function clearScene(){
     nodeMeshes.forEach(m => { scene.remove(m); });
     glowSprites.forEach(s => scene.remove(s));
-    if(linesObj){ scene.remove(linesObj); linesObj.geometry.dispose(); linesObj.material.dispose(); }
+    disposeGroup(linesObj); linesObj = null;
     if(focusLinesObj){ scene.remove(focusLinesObj); focusLinesObj.geometry.dispose(); focusLinesObj.material.dispose(); focusLinesObj = null; }
     nodeMeshes = []; glowSprites = [];
     focusMode = false; focusStack = [];
@@ -659,9 +706,36 @@
   let displacedIds = []; // node ids currently moved off their "home" position
 
   function neighborsOf(n){
-    if(n.kind === 'company') return backersOf[n.id] || [];
-    if(n.kind === 'investor') return portfolioOf[n.id] || [];
-    return [];
+    const base = n.kind === 'company' ? (backersOf[n.id] || []) : (portfolioOf[n.id] || []);
+    const deals = (dealsOf[n.id] || []).map(d => d.other);
+    const seen = new Set(); const out = [];
+    [...base, ...deals].forEach(x => { if(!seen.has(x.id)){ seen.add(x.id); out.push(x); } });
+    return out;
+  }
+  // acquisitions / leases / JVs for the detail panel
+  function dealSections(n){
+    const deals = dealsOf[n.id] || [];
+    if(!deals.length) return '';
+    const groups = [
+      ['Acquired',              d => d.type === 'acquired'   && d.dir === 'out'],
+      ['Acquired by',           d => d.type === 'acquired'   && d.dir === 'in'],
+      ['Leases capacity from',  d => d.type === 'tenant_of'  && d.dir === 'out'],
+      ['Tenants (leases capacity to)', d => d.type === 'tenant_of' && d.dir === 'in'],
+      ['Joint-venture partners', d => d.type === 'jv_partner'],
+    ];
+    let html = '';
+    groups.forEach(([title, test]) => {
+      const rows = deals.filter(test);
+      if(!rows.length) return;
+      html += `<div class="section-label">${title} (${rows.length})</div>`;
+      rows.forEach(d => {
+        const c = catById[d.other.category] || {};
+        const meta = [d.status, d.confidence ? `confidence: ${d.confidence}` : null].filter(Boolean).join(' · ');
+        html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(d.other.name)} <span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span></div>
+          <div class="pe-meta">${escapeHtml(d.detail || '')}${meta ? '<br>' + escapeHtml(meta) : ''}</div></div>`;
+      });
+    });
+    return html;
   }
 
   function ringTargetsFor(centerNode, neighbors){
@@ -831,18 +905,8 @@
     // (see the legend); the anchor points still exist invisibly, in the
     // physics step, to keep each company tier loosely clustered.
 
-    // links
-    const linePositions = [];
-    GRAPH.links.forEach(l => {
-      if(!l.sourceNode || !l.targetNode) return;
-      if(!nodeVisible(l.sourceNode) || !nodeVisible(l.targetNode)) return;
-      linePositions.push(l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz,
-                          l.targetNode.px, l.targetNode.py, l.targetNode.pz);
-    });
-    const lineGeo = new THREE.BufferGeometry();
-    lineGeo.setAttribute('position', new THREE.Float32BufferAttribute(linePositions, 3));
-    const lineMat = new THREE.LineBasicMaterial({ color: 0x9333ea, transparent: true, opacity: 0.28 });
-    linesObj = new THREE.LineSegments(lineGeo, lineMat);
+    // links -- one LineSegments per relationship type, each its own colour
+    linesObj = buildLineGroup();
     scene.add(linesObj);
 
     // company + investor nodes
@@ -886,14 +950,10 @@
     nodeMeshes.forEach(m => { const n = m.userData.node; m.position.set(n.px, n.py, n.pz); });
     glowSprites.forEach((s, i) => { const n = nodeMeshes[i] && nodeMeshes[i].userData.node; if(n) s.position.set(n.px, n.py, n.pz); });
     if(linesObj){
-      const linePositions = [];
-      GRAPH.links.forEach(l => {
-        if(!l.sourceNode || !l.targetNode) return;
-        if(!nodeVisible(l.sourceNode) || !nodeVisible(l.targetNode)) return;
-        linePositions.push(l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz,
-                            l.targetNode.px, l.targetNode.py, l.targetNode.pz);
-      });
-      linesObj.geometry.setAttribute('position', new THREE.Float32BufferAttribute(linePositions, 3));
+      const vis = linesObj.visible;
+      disposeGroup(linesObj);
+      linesObj = buildLineGroup(); linesObj.visible = vis;
+      scene.add(linesObj);
     }
   }
 
@@ -1070,6 +1130,7 @@
       } else {
         html += `<div class="banner-note">No investor backing on record yet in this graph.</div>`;
       }
+      html += dealSections(n);
       if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
     } else {
       if(n.investor_type) html += `<div class="dt-row"><div class="dt-k">Type</div><div class="dt-v">${escapeHtml(n.investor_type)}</div></div>`;
@@ -1085,6 +1146,7 @@
             <div class="pe-meta" style="color:${c.color}">${escapeHtml(c.name)}</div></div>`;
         });
       }
+      html += dealSections(n);
       if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
     }
     detailBody.innerHTML = html;
