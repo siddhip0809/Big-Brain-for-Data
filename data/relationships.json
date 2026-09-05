@@ -28256,5 +28256,82 @@
     ],
     "last_updated": "2026-09-05",
     "confidence": "medium"
+  },
+  {
+    "from": "investor:softbank-group",
+    "to": "company:cipher-mining",
+    "type": "invested_in",
+    "detail": "$50M PIPE investment (Jan 2025), explicitly to advance HPC data center development.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:starwood-capital-group",
+    "to": "company:mara-holdings",
+    "type": "invested_in",
+    "detail": "50/50 JV (Feb 26 2026) -- MARA contributes power-rich sites, retains up to 50% JV stake; Starwood leads EPC, tenant sourcing, and operations. ~1GW near-term, pathway to 2.5GW+.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:generate-capital",
+    "to": "company:soluna-holdings",
+    "type": "invested_in",
+    "detail": "$100M scalable credit facility; received warrants for 4M SLNH shares + a board observer right.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:spring-lane-capital",
+    "to": "company:soluna-holdings",
+    "type": "invested_in",
+    "detail": "Up to ~$108M project-level capital (Spring Lane Capital Fund II).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:galaxy-digital",
+    "to": "company:soluna-holdings",
+    "type": "invested_in",
+    "detail": "~$30M investment (2025).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:lancium",
+    "type": "invested_in",
+    "detail": "Up to $3B investment (initial $2B for ~20% equity stake, additional $1B milestone-contingent).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:blue-owl-capital",
+    "to": "company:lancium",
+    "type": "invested_in",
+    "detail": "Formed a $3.4B JV with Primary Digital Infrastructure for capacity at the Abilene, TX Stargate campus.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05"
+    ],
+    "last_updated": "2026-09-05"
   }
 ]

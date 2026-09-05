@@ -90,9 +90,10 @@ we get the visual design right: it drops the people layer entirely and
 shows only the data-center companies and private-equity/investor backers,
 spread out in true 3D space via a small custom force-directed layout (not
 a stacked tree) and clustered + colored by tier — Hyperscaler, NeoCloud/AI
-Infra, Data Center Developer/Operator, Cryptomining (reserved, currently
-empty) — with Investors as their own cluster, connected by a line to
-every company they've backed.
+Infra, Data Center Developer/Operator, Cryptomining (US Bitcoin miners
+that have pivoted into AI/HPC data center hosting, like TeraWulf, Hut 8,
+Cipher Mining, and Bitfarms/Keel Infrastructure) — with Investors as
+their own cluster, connected by a line to every company they've backed.
 
 - **`build_graph3d_data.py`** — reads `data/companies/` and
   `data/investors/` and writes a flat `graph3d_data.json` of

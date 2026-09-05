@@ -32,7 +32,7 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **177 companies**: Pure Data Centers and STACK Infrastructure (active
+- **190 companies**: Pure Data Centers and STACK Infrastructure (active
   Ward Search client engagements, hand-written records); the rest
   identified as current employers of candidates and classified as
   genuine data center operators/developers/hyperscalers/neocloud-AI-infra
@@ -43,7 +43,11 @@ Real data has started loading. Currently in the brain:
   research round removed 9 more records confirmed not to be data center
   companies at all — mistagged CRM "current employer" values like an
   EV-charging company and a healthcare group-purchasing organization —
-  and added 1 new one, Stellium Data Centres, surfaced by that research).
+  and added 14 new ones, including Stellium Data Centres and a batch of
+  US crypto-mining companies (Cipher Mining, Riot Platforms, MARA
+  Holdings, CleanSpark, Bitfarms, Bitdeer, and others) confirmed to have
+  pivoted into AI/HPC data center hosting, since that infrastructure is
+  largely the same as what mining needs).
   Every company also carries a `parent_industry` field: `pure_play` if
   data centers are its own dedicated business (the direct-tap recruiting
   pool), or `real_estate` / `energy_utilities` / `telecom` /
@@ -51,14 +55,17 @@ Real data has started loading. Currently in the brain:
   of a bigger business (e.g. Prologis- or Panattoni-style real estate
   parents, energy companies like NextEra Energy Resources, telecoms like
   NTT) — those need a closer look at what a candidate actually works on.
-- **119 investors**: Oaktree Capital Management (the original entry) plus
-  118 more added from web research into who backs each company (private
+- **123 investors**: Oaktree Capital Management (the original entry) plus
+  122 more added from web research into who backs each company (private
   equity firms, infrastructure funds, sovereign wealth funds, VC) —
   every claim carries a source and a confidence rating on its
   relationship, and every record explicitly says "verify against your
   own research" since this came from web search, not Clockwork. A second
   research round (2026-09-05, 6 parallel agents) took company-backed
-  count from 49 to 104 and added 40 new investor firms.
+  count from 49 to 104 and added 40 new investor firms; a follow-up
+  crypto-mining-pivot round added 4 more (Starwood Capital Group,
+  Generate Capital, Spring Lane Capital, and Galaxy Digital in its dual
+  role as both a company and an investor).
 - **1,980 people**: candidates from Ward Search's two active searches
   (Pure Data Centers "VP Sales," STACK Infrastructure "Cost Strategy")
   plus their long-term mapping pools, and 5 firm-wide "Long Term Mapping"
@@ -71,7 +78,7 @@ Real data has started loading. Currently in the brain:
   individual profile (see `viewer/README.md`). Email, phone, and
   compensation were deliberately left out of every record (kept in
   Clockwork only) — see `docs/schema.md`.
-- **2,799 relationships** connecting the above (candidacy links,
+- **2,806 relationships** connecting the above (candidacy links,
   employment links, and investor links)
 - An interactive visual graph of all of this — see `viewer/README.md`
 

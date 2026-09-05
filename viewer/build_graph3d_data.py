@@ -41,6 +41,8 @@ TRUE_HYPERSCALER_IDS = {"aws", "google", "microsoft", "meta", "apple"}
 TRUE_NEOCLOUD_IDS = {
     "iren", "nebius", "crusoe", "openai", "together-ai",
     "applied-digital", "sesterce",
+    "bit-digital",  # crypto-mining pivot, but the most complete one -- fully
+                    # exited mining, so treated like IREN/Applied Digital below
 }
 
 # Per Siddhi's note (2026-09-05): several US Bitcoin/crypto mining companies
@@ -48,10 +50,16 @@ TRUE_NEOCLOUD_IDS = {
 # high-density rack infrastructure required is largely the same. These are
 # an explicit allowlist too, same reasoning as the two above -- and checked
 # AFTER neocloud/hyperscaler, so a company that's fully pivoted to being an
-# AI-cloud business (IREN, Applied Digital) stays classified there; this
-# tier is for ones still closer to "data center host with a crypto-mining
-# legacy" than "AI-cloud platform."
-TRUE_CRYPTOMINING_IDS = {"terawulf", "hut-8", "core-scientific"}
+# AI-cloud business (IREN, Applied Digital, Bit Digital) stays classified
+# there; this tier is for ones still closer to "data center host with a
+# crypto-mining legacy" than "AI-cloud platform." A dedicated 2026-09-05
+# research round confirmed the rest of this list beyond the original three.
+TRUE_CRYPTOMINING_IDS = {
+    "terawulf", "hut-8", "core-scientific",
+    "cipher-mining", "riot-platforms", "mara-holdings", "cleanspark",
+    "bitfarms", "bitdeer-technologies", "sphere-3d", "digihost",
+    "soluna-holdings", "mawson-infrastructure-group",
+}
 
 def classify_company(company_id, tags):
     if company_id in TRUE_NEOCLOUD_IDS:
