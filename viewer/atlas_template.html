@@ -307,6 +307,17 @@
   const AGGREGATE_ID = 'company:contractors-consultants';
   const fullRoot = d3.hierarchy(TREE); // used only for legend counts, never rendered directly
 
+  // Only the biggest ~14 companies get a permanent label at rest -- with
+  // 185 companies + 79 investors all labeled at once the graph reads as
+  // text soup. Everything else reveals its label on hover, on selection,
+  // or once you've zoomed in past PROMINENCE_ZOOM.
+  const PROMINENCE_ZOOM = 1.5;
+  const companySizes = fullRoot.children
+    .filter(c => c.data.kind === 'company')
+    .map(c => [c.data.id, c.descendants().filter(x => x.data.kind === 'person').length])
+    .sort((a, b) => b[1] - a[1]);
+  const PROMINENT_IDS = new Set(companySizes.slice(0, 14).map(([id]) => id));
+
   let root, allNodes, allLinks;
   function rebuildHierarchy(includeAggregate){
     const data = includeAggregate
@@ -554,10 +565,18 @@
       if(!nodeVisible(n)) continue;
       const [x, y] = pos(n);
       const r = radiusFor(n);
+      const isHub = n.data.kind === 'root' || n.data.kind === 'company' || n.data.kind === 'investor';
+
+      // Soft glow halo -- cheap since we only redraw on interaction, not
+      // every frame. Bigger/brighter on hubs, subtle on person dots.
+      ctx.save();
+      ctx.shadowColor = colorFor(n);
+      ctx.shadowBlur = (isHub ? 16 : 5) / transform.k;
       ctx.beginPath();
       ctx.fillStyle = colorFor(n);
       ctx.arc(x, y, r, 0, Math.PI * 2);
       ctx.fill();
+      ctx.restore();
 
       if(n.data.kind !== 'person'){
         ctx.strokeStyle = 'rgba(255,255,255,0.3)';
@@ -587,6 +606,11 @@
         ctx.textAlign = 'center';
         ctx.fillText(n.data.label, x, y - r - 10 / transform.k);
       } else if(n.data.kind === 'company' || n.data.kind === 'investor'){
+        // Label visibility: always for the ~14 biggest companies and
+        // whatever's hovered/selected; everyone else only once you've
+        // zoomed in past PROMINENCE_ZOOM. Keeps the resting view calm.
+        const alwaysOn = PROMINENT_IDS.has(n.data.id) || n === hoverNode || n === selectedNode;
+        if(!alwaysOn && transform.k < PROMINENCE_ZOOM) continue;
         // Radial label: rotated to follow the spoke out from the root, flipped
         // upright on the left half so text never renders upside down.
         const angle = Math.atan2(y - height/2, x - width/2);
