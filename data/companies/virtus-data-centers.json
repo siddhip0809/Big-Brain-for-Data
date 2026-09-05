@@ -15,9 +15,9 @@
     "Hyperscaler",
     "Retail"
   ],
-  "notes": "Minimal stub record: identified only as the current employer of 3 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.",
+  "notes": "Minimal stub record: identified only as the current employer of 3 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Owned via parent ST Telemedia Global Data Centres (STT GDC); KKR and Singtel are acquiring full ownership from ST Telemedia (~US$3.9B enterprise value), expected to close H2 2026 -- KKR 75%, Singtel 25%.",
   "sources": [
     "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
   ],
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-05"
 }

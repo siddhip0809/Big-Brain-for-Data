@@ -32,31 +32,41 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **186 companies**: Pure Data Centers and STACK Infrastructure (active
+- **185 companies**: Pure Data Centers and STACK Infrastructure (active
   Ward Search client engagements, hand-written records); the rest
   identified as current employers of candidates and classified as
   genuine data center operators/developers/hyperscalers/neocloud-AI-infra
   companies (minimal stub records — see `viewer/README.md` for the
   classification rule, tightened once to exclude general contractors,
   consultancies, and diversified real estate firms that had slipped in
-  on noisy tag data)
-- **1 investor**: Oaktree Capital Management (inferred from a Clockwork
-  subtitle — flagged as unverified, see its entry)
-- **1,993 people**: candidates from Ward Search's two active searches
+  on noisy tag data; OVERWATCH removed once ownership research confirmed
+  it's a staffing firm, not a data center operator)
+- **79 investors**: Oaktree Capital Management (the original entry) plus
+  78 more added from web research into who backs each company (private
+  equity firms, infrastructure funds, sovereign wealth funds, VC) —
+  every claim carries a source and a confidence rating on its
+  relationship, and every record explicitly says "verify against your
+  own research" since this came from web search, not Clockwork
+- **1,990 people**: candidates from Ward Search's two active searches
   (Pure Data Centers "VP Sales," STACK Infrastructure "Cost Strategy")
   plus their long-term mapping pools, and 5 firm-wide "Long Term Mapping"
   lists (Sales, Precon, Development, Construction, Utilities) — imported
   from Clockwork exports across 2026-09-04 – 2026-09-05. Each has a
-  `department` — Sales (547), Pre-Construction (488), Development (445),
-  Construction (322), or Energy & Utilities (191) — and, where their
+  `department` — Sales (547), Pre-Construction (486), Development (445),
+  Construction (321), or Energy & Utilities (191) — and, where their
   current employer qualifies as a data center company, a `works_at` link
   to it. Anyone whose employer didn't qualify was **not** kept as an
   individual profile (see `viewer/README.md`). Email, phone, and
   compensation were deliberately left out of every record (kept in
   Clockwork only) — see `docs/schema.md`.
-- **2,631 relationships** connecting the above (candidacy links,
-  employment links, and the one investor link)
+- **2,728 relationships** connecting the above (candidacy links,
+  employment links, and investor links)
 - An interactive visual graph of all of this — see `viewer/README.md`
+
+**Known issue:** "Pure Data Centers" and "Pure Data Centres" exist as two
+separate company records (American vs. British spelling, one hand-written
+as the client company, one auto-generated from candidate data) — worth
+merging.
 
 Placeholder `example-` entries used during initial setup have been removed
 now that real data is in place.

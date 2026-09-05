@@ -62,6 +62,14 @@ Every node also carries these common fields, regardless of type:
 - `notable_deals` — free text on specific deals
 - `contacts` — list of person ids (their people we know)
 
+Most investor records were populated from web research (not Clockwork),
+so treat `investments` here as a research finding, not a verified fact.
+The `invested_in` relationship for each one (see below) carries the real
+detail: a `confidence` (`high`/`medium`/`medium-high`/`n/a`), a `detail`
+summarizing the deal, and `sources` (URLs). Anything below `high` came
+from a single source or secondary reporting rather than an official
+announcement — worth independent confirmation before relying on it.
+
 ## Relationships (the "connections")
 
 All relationships live together in one file: `data/relationships.json`.

@@ -26308,5 +26308,1169 @@
       "Clockwork export, imported 2026-09-05"
     ],
     "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:digitalbridge-group",
+    "to": "company:vantage",
+    "type": "invested_in",
+    "detail": "$9.2B equity investment led by DigitalBridge and Silver Lake completed June 2024; additional 2024 capital from GIC, ADIA, AustralianSuper, MEAG.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2024-06-13-vantage-data-centers-completes-92-billion-equity-investment-led-by-digitalbridge-and-silver-lake",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:silver-lake",
+    "to": "company:vantage",
+    "type": "invested_in",
+    "detail": "$9.2B equity investment led by DigitalBridge and Silver Lake completed June 2024; additional 2024 capital from GIC, ADIA, AustralianSuper, MEAG.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2024-06-13-vantage-data-centers-completes-92-billion-equity-investment-led-by-digitalbridge-and-silver-lake",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:psp-investments",
+    "to": "company:vantage",
+    "type": "invested_in",
+    "detail": "$9.2B equity investment led by DigitalBridge and Silver Lake completed June 2024; additional 2024 capital from GIC, ADIA, AustralianSuper, MEAG.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2024-06-13-vantage-data-centers-completes-92-billion-equity-investment-led-by-digitalbridge-and-silver-lake",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:gic",
+    "to": "company:vantage",
+    "type": "invested_in",
+    "detail": "$9.2B equity investment led by DigitalBridge and Silver Lake completed June 2024; additional 2024 capital from GIC, ADIA, AustralianSuper, MEAG.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2024-06-13-vantage-data-centers-completes-92-billion-equity-investment-led-by-digitalbridge-and-silver-lake",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:abu-dhabi-investment-authority",
+    "to": "company:vantage",
+    "type": "invested_in",
+    "detail": "$9.2B equity investment led by DigitalBridge and Silver Lake completed June 2024; additional 2024 capital from GIC, ADIA, AustralianSuper, MEAG.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2024-06-13-vantage-data-centers-completes-92-billion-equity-investment-led-by-digitalbridge-and-silver-lake",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:australiansuper",
+    "to": "company:vantage",
+    "type": "invested_in",
+    "detail": "$9.2B equity investment led by DigitalBridge and Silver Lake completed June 2024; additional 2024 capital from GIC, ADIA, AustralianSuper, MEAG.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2024-06-13-vantage-data-centers-completes-92-billion-equity-investment-led-by-digitalbridge-and-silver-lake",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:meag",
+    "to": "company:vantage",
+    "type": "invested_in",
+    "detail": "$9.2B equity investment led by DigitalBridge and Silver Lake completed June 2024; additional 2024 capital from GIC, ADIA, AustralianSuper, MEAG.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2024-06-13-vantage-data-centers-completes-92-billion-equity-investment-led-by-digitalbridge-and-silver-lake",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:blackstone",
+    "to": "company:qts-data-centers",
+    "type": "invested_in",
+    "detail": "Acquired from QTS Realty Trust (public REIT) by Blackstone in a $10B all-cash deal, closed Sept 2021.",
+    "confidence": "high",
+    "sources": [
+      "https://www.blackstone.com/news/press/qts-realty-trust-to-be-acquired-by-blackstone-funds-in-10-billion-transaction/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:kkr",
+    "to": "company:cyrusone",
+    "type": "invested_in",
+    "detail": "Taken private by KKR and GIP in a $15B transaction, closed March 2022.",
+    "confidence": "high",
+    "sources": [
+      "https://www.businesswire.com/news/home/20211115005707/en/CyrusOne-to-be-Acquired-by-KKR-and-Global-Infrastructure-Partners-in-$15-Billion-Transaction",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:global-infrastructure-partners-gip",
+    "to": "company:cyrusone",
+    "type": "invested_in",
+    "detail": "Taken private by KKR and GIP in a $15B transaction, closed March 2022.",
+    "confidence": "high",
+    "sources": [
+      "https://www.businesswire.com/news/home/20211115005707/en/CyrusOne-to-be-Acquired-by-KKR-and-Global-Infrastructure-Partners-in-$15-Billion-Transaction",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:berkshire-partners",
+    "to": "company:tract",
+    "type": "invested_in",
+    "detail": "Founder Grant van Rooyen invested significant personal capital; investor list sourced from PitchBook/trade press, not an official press release.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/analysis/building-for-the-long-term-grant-van-rooyens-tract-masterplan/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:psp-partners",
+    "to": "company:tract",
+    "type": "invested_in",
+    "detail": "Founder Grant van Rooyen invested significant personal capital; investor list sourced from PitchBook/trade press, not an official press release.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/analysis/building-for-the-long-term-grant-van-rooyens-tract-masterplan/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:permira",
+    "to": "company:tract",
+    "type": "invested_in",
+    "detail": "Founder Grant van Rooyen invested significant personal capital; investor list sourced from PitchBook/trade press, not an official press release.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/analysis/building-for-the-long-term-grant-van-rooyens-tract-masterplan/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:s2g-ventures",
+    "to": "company:tract",
+    "type": "invested_in",
+    "detail": "Founder Grant van Rooyen invested significant personal capital; investor list sourced from PitchBook/trade press, not an official press release.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/analysis/building-for-the-long-term-grant-van-rooyens-tract-masterplan/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:columbia-capital",
+    "to": "company:tract",
+    "type": "invested_in",
+    "detail": "Founder Grant van Rooyen invested significant personal capital; investor list sourced from PitchBook/trade press, not an official press release.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/analysis/building-for-the-long-term-grant-van-rooyens-tract-masterplan/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:macquarie-asset-management",
+    "to": "company:aligned-data-centers",
+    "type": "invested_in",
+    "detail": "Owned by Macquarie since 2018 (via MIP IV/V); 2026 sale (enterprise value ~$40B) to a consortium of AIP, MGX, and BlackRock's GIP closed July 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.macquarie.com/us/en/about/news/2026/macquarie-asset-management-announces-successful-close-of-aligned-data-centers-transaction.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ai-infrastructure-partnership-aip",
+    "to": "company:aligned-data-centers",
+    "type": "invested_in",
+    "detail": "Owned by Macquarie since 2018 (via MIP IV/V); 2026 sale (enterprise value ~$40B) to a consortium of AIP, MGX, and BlackRock's GIP closed July 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.macquarie.com/us/en/about/news/2026/macquarie-asset-management-announces-successful-close-of-aligned-data-centers-transaction.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:mgx",
+    "to": "company:aligned-data-centers",
+    "type": "invested_in",
+    "detail": "Owned by Macquarie since 2018 (via MIP IV/V); 2026 sale (enterprise value ~$40B) to a consortium of AIP, MGX, and BlackRock's GIP closed July 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.macquarie.com/us/en/about/news/2026/macquarie-asset-management-announces-successful-close-of-aligned-data-centers-transaction.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:global-infrastructure-partners-gip",
+    "to": "company:aligned-data-centers",
+    "type": "invested_in",
+    "detail": "Owned by Macquarie since 2018 (via MIP IV/V); 2026 sale (enterprise value ~$40B) to a consortium of AIP, MGX, and BlackRock's GIP closed July 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.macquarie.com/us/en/about/news/2026/macquarie-asset-management-announces-successful-close-of-aligned-data-centers-transaction.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:eqt-infrastructure",
+    "to": "company:edgeconnex",
+    "type": "invested_in",
+    "detail": "Acquired by EQT Infrastructure 2020 (~$2.6B); Sixth Street Partners joined as strategic investor, expected close Q4 2024. Liberty Global retains a small rolled-over stake.",
+    "confidence": "high",
+    "sources": [
+      "https://www.edgeconnex.com/news/press-releases/eqt-infrastructure-to-acquire-leading-global-data-center-provider-edgeconnex/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:sixth-street-partners",
+    "to": "company:edgeconnex",
+    "type": "invested_in",
+    "detail": "Acquired by EQT Infrastructure 2020 (~$2.6B); Sixth Street Partners joined as strategic investor, expected close Q4 2024. Liberty Global retains a small rolled-over stake.",
+    "confidence": "high",
+    "sources": [
+      "https://www.edgeconnex.com/news/press-releases/eqt-infrastructure-to-acquire-leading-global-data-center-provider-edgeconnex/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:quadreal-property-group",
+    "to": "company:t5-data-centers",
+    "type": "invested_in",
+    "detail": "Joint platform with QuadReal since 2019; expanded with an additional $8B equity commitment in 2024/2025.",
+    "confidence": "high",
+    "sources": [
+      "https://quadreal.com/quadreal-and-t5-capital-raise-to-support-data-centers-platform-growth-to-8-0-billion/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:brookfield-infrastructure",
+    "to": "company:compass-datacenters",
+    "type": "invested_in",
+    "detail": "Acquired June 2023 (~$5.5B) from RedBird Capital Partners/Azrieli Group. KKR made a Dec 2025 asset-level (not full-company) investment in stabilized assets.",
+    "confidence": "high",
+    "sources": [
+      "https://www.otpp.com/en-ca/about-us/news-and-insights/2023/brookfield-infrastructure-and-ontario-teachers--to-acquire-compass-datacenters-from-redbird-capital-partners-and-azrieli-group/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ontario-teachers-pension-plan",
+    "to": "company:compass-datacenters",
+    "type": "invested_in",
+    "detail": "Acquired June 2023 (~$5.5B) from RedBird Capital Partners/Azrieli Group. KKR made a Dec 2025 asset-level (not full-company) investment in stabilized assets.",
+    "confidence": "high",
+    "sources": [
+      "https://www.otpp.com/en-ca/about-us/news-and-insights/2023/brookfield-infrastructure-and-ontario-teachers--to-acquire-compass-datacenters-from-redbird-capital-partners-and-azrieli-group/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:digitalbridge-group",
+    "to": "company:switch",
+    "type": "invested_in",
+    "detail": "Taken private Dec 2022 in an $11B deal.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2022-12-06-digitalbridge-and-ifm-investors-complete-11-billion-take-private-of-switch",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ifm-investors",
+    "to": "company:switch",
+    "type": "invested_in",
+    "detail": "Taken private Dec 2022 in an $11B deal.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2022-12-06-digitalbridge-and-ifm-investors-complete-11-billion-take-private-of-switch",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:valor-equity-partners",
+    "to": "company:crusoe",
+    "type": "invested_in",
+    "detail": "Series E Oct 2025, $1.375B at ~$10B valuation, co-led by Valor Equity Partners and Mubadala Capital; NVIDIA, Fidelity, T. Rowe Price, Founders Fund, Tiger Global also participated.",
+    "confidence": "high",
+    "sources": [
+      "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-e-funding",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:mubadala-capital",
+    "to": "company:crusoe",
+    "type": "invested_in",
+    "detail": "Series E Oct 2025, $1.375B at ~$10B valuation, co-led by Valor Equity Partners and Mubadala Capital; NVIDIA, Fidelity, T. Rowe Price, Founders Fund, Tiger Global also participated.",
+    "confidence": "high",
+    "sources": [
+      "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-e-funding",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:crusoe",
+    "type": "invested_in",
+    "detail": "Series E Oct 2025, $1.375B at ~$10B valuation, co-led by Valor Equity Partners and Mubadala Capital; NVIDIA, Fidelity, T. Rowe Price, Founders Fund, Tiger Global also participated.",
+    "confidence": "high",
+    "sources": [
+      "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-e-funding",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:digitalbridge-group",
+    "to": "company:yondr",
+    "type": "invested_in",
+    "detail": "Acquired from Cathexis Holdings by DigitalBridge and La Caisse; Allianz Capital Partners later took a minority stake.",
+    "confidence": "high",
+    "sources": [
+      "https://www.lacaisse.com/en/news/pressreleases/digitalbridge-caisse-complete-acquisition-yondr-group",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:la-caisse-cdpq",
+    "to": "company:yondr",
+    "type": "invested_in",
+    "detail": "Acquired from Cathexis Holdings by DigitalBridge and La Caisse; Allianz Capital Partners later took a minority stake.",
+    "confidence": "high",
+    "sources": [
+      "https://www.lacaisse.com/en/news/pressreleases/digitalbridge-caisse-complete-acquisition-yondr-group",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:allianz-capital-partners",
+    "to": "company:yondr",
+    "type": "invested_in",
+    "detail": "Acquired from Cathexis Holdings by DigitalBridge and La Caisse; Allianz Capital Partners later took a minority stake.",
+    "confidence": "high",
+    "sources": [
+      "https://www.lacaisse.com/en/news/pressreleases/digitalbridge-caisse-complete-acquisition-yondr-group",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:grain-management",
+    "to": "company:prime-data-centers",
+    "type": "invested_in",
+    "detail": "Founding/controlling shareholder is Data Realty Holding Corp (founders Laag & Pelz); outside structured/equity capital from Grain Management and Macquarie Capital, plus Ares Management as a co-investor.",
+    "confidence": "medium-high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/grain-management-announces-strategic-structured-financing-in-data-realty-holding-corp-the-founding-and-controlling-shareholder-of-prime-data-centers-302735733.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:macquarie-asset-management",
+    "to": "company:prime-data-centers",
+    "type": "invested_in",
+    "detail": "Founding/controlling shareholder is Data Realty Holding Corp (founders Laag & Pelz); outside structured/equity capital from Grain Management and Macquarie Capital, plus Ares Management as a co-investor.",
+    "confidence": "medium-high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/grain-management-announces-strategic-structured-financing-in-data-realty-holding-corp-the-founding-and-controlling-shareholder-of-prime-data-centers-302735733.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ares-management",
+    "to": "company:prime-data-centers",
+    "type": "invested_in",
+    "detail": "Founding/controlling shareholder is Data Realty Holding Corp (founders Laag & Pelz); outside structured/equity capital from Grain Management and Macquarie Capital, plus Ares Management as a co-investor.",
+    "confidence": "medium-high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/grain-management-announces-strategic-structured-financing-in-data-realty-holding-corp-the-founding-and-controlling-shareholder-of-prime-data-centers-302735733.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:apollo-global-management",
+    "to": "company:stream-data-centers",
+    "type": "invested_in",
+    "detail": "Apollo funds acquired a majority stake from Stream Realty Partners (closed Nov 2025); Principal took a minority interest.",
+    "confidence": "high",
+    "sources": [
+      "https://ir.apollo.com/news-events/press-releases/detail/587/apollo-funds-complete-acquisition-of-stream-data-centers",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:principal-asset-management",
+    "to": "company:stream-data-centers",
+    "type": "invested_in",
+    "detail": "Apollo funds acquired a majority stake from Stream Realty Partners (closed Nov 2025); Principal took a minority interest.",
+    "confidence": "high",
+    "sources": [
+      "https://ir.apollo.com/news-events/press-releases/detail/587/apollo-funds-complete-acquisition-of-stream-data-centers",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:american-tower-corporation",
+    "to": "company:coresite",
+    "type": "invested_in",
+    "detail": "Wholly owned subsidiary of American Tower (public company), acquired for ~$10.4B, closed Dec 2021 -- a strategic acquisition, not a PE/infra fund.",
+    "confidence": "high",
+    "sources": [
+      "https://www.coresite.com/news/american-tower-completes-acquisition-coresite-realty-corporation",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:affinius-capital",
+    "to": "company:corscale-data-centers",
+    "type": "invested_in",
+    "detail": "Founded by Patrinely Group; both Corscale and Patrinely are subsidiaries of Crimson Interests LLC, majority-held by Affinius Capital. Received (not owned by) Blue Owl Capital project financing.",
+    "confidence": "medium",
+    "sources": [
+      "https://affiniuscapital.com/investment-management/data-centers/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:blue-owl-capital",
+    "to": "company:beale",
+    "type": "invested_in",
+    "detail": "Reported as Blue Owl-backed in trade coverage; no direct Blue Owl press release confirming ownership was found -- worth confirming directly.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.businesswire.com/news/home/20260429340180/en/Beale-Infrastructure-Announces-Hyperscale-Kansas-Data-Center-Campus-Advancing-$3-Billion-Infrastructure-Investment",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:manulife-investment-management",
+    "to": "company:serverfarm",
+    "type": "invested_in",
+    "detail": "Majority acquired by Manulife Investment Management, completed Sept 2023; Israel Infrastructure Fund and NantWorks also investors; CEO retains a stake.",
+    "confidence": "high",
+    "sources": [
+      "https://www.serverfarmllc.com/press-releases/manulife-investment-management-completes-acquisition-of-serverfarm/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:israel-infrastructure-fund",
+    "to": "company:serverfarm",
+    "type": "invested_in",
+    "detail": "Majority acquired by Manulife Investment Management, completed Sept 2023; Israel Infrastructure Fund and NantWorks also investors; CEO retains a stake.",
+    "confidence": "high",
+    "sources": [
+      "https://www.serverfarmllc.com/press-releases/manulife-investment-management-completes-acquisition-of-serverfarm/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:digitalbridge-group",
+    "to": "company:databank",
+    "type": "invested_in",
+    "detail": "Originally acquired by DigitalBridge (2016); recapitalized 2022 -- Swiss Life, EDF Invest, Northleaf, Ardian bought ~35% for $1.5B; DigitalBridge reduced its stake further via a Jan 2025 raise.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2022-06-16-digitalbridge-announces-recapitalization-of-databank",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:swiss-life-asset-management",
+    "to": "company:databank",
+    "type": "invested_in",
+    "detail": "Originally acquired by DigitalBridge (2016); recapitalized 2022 -- Swiss Life, EDF Invest, Northleaf, Ardian bought ~35% for $1.5B; DigitalBridge reduced its stake further via a Jan 2025 raise.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2022-06-16-digitalbridge-announces-recapitalization-of-databank",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:edf-invest",
+    "to": "company:databank",
+    "type": "invested_in",
+    "detail": "Originally acquired by DigitalBridge (2016); recapitalized 2022 -- Swiss Life, EDF Invest, Northleaf, Ardian bought ~35% for $1.5B; DigitalBridge reduced its stake further via a Jan 2025 raise.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2022-06-16-digitalbridge-announces-recapitalization-of-databank",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:northleaf-capital-partners",
+    "to": "company:databank",
+    "type": "invested_in",
+    "detail": "Originally acquired by DigitalBridge (2016); recapitalized 2022 -- Swiss Life, EDF Invest, Northleaf, Ardian bought ~35% for $1.5B; DigitalBridge reduced its stake further via a Jan 2025 raise.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2022-06-16-digitalbridge-announces-recapitalization-of-databank",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ardian",
+    "to": "company:databank",
+    "type": "invested_in",
+    "detail": "Originally acquired by DigitalBridge (2016); recapitalized 2022 -- Swiss Life, EDF Invest, Northleaf, Ardian bought ~35% for $1.5B; DigitalBridge reduced its stake further via a Jan 2025 raise.",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2022-06-16-digitalbridge-announces-recapitalization-of-databank",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:rugen-street-capital",
+    "to": "company:skybox-datacenters",
+    "type": "invested_in",
+    "detail": "No single controlling PE owner found -- operates via project-level JVs with Bandera Ventures, Rugen Street Capital, Prologis, and Principal Asset Management rather than a platform-level acquisition.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.accessnewswire.com/newsroom/en/real-estate/skybox-datacenters-and-bandera-ventures-commence-development-of-300-megawatt-data-center-806308",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:bandera-ventures",
+    "to": "company:skybox-datacenters",
+    "type": "invested_in",
+    "detail": "No single controlling PE owner found -- operates via project-level JVs with Bandera Ventures, Rugen Street Capital, Prologis, and Principal Asset Management rather than a platform-level acquisition.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.accessnewswire.com/newsroom/en/real-estate/skybox-datacenters-and-bandera-ventures-commence-development-of-300-megawatt-data-center-806308",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:fidelity-investments",
+    "to": "company:colt-data-centre-services",
+    "type": "invested_in",
+    "detail": "Wholly owned by Fidelity Investments since 2015; Japan-focused JV with Mitsui & Co. since 2021.",
+    "confidence": "high",
+    "sources": [
+      "https://www.coltdatacentres.net/en-GB/about/ownership-and-investment",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:partners-group",
+    "to": "company:edgecore-digital-infrastructure",
+    "type": "invested_in",
+    "detail": "Acquired by Partners Group 2022 (~$1.2B initial); additional equity raises since, including a $1.9B round in 2024/2025. Prior backers (pre-2022) included GIC and OPTrust.",
+    "confidence": "high",
+    "sources": [
+      "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=df7d7424-a6bf-4b05-abc3-371ba8b1f151",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:nscale",
+    "type": "invested_in",
+    "detail": "VC/strategic-backed (not PE). Aker ASA led a $1.1B Series B; NVIDIA, Dell, Fidelity, Blue Owl, Point72 and others also invested. Valued ~$14.6B as of March 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:blue-owl-capital",
+    "to": "company:nscale",
+    "type": "invested_in",
+    "detail": "VC/strategic-backed (not PE). Aker ASA led a $1.1B Series B; NVIDIA, Dell, Fidelity, Blue Owl, Point72 and others also invested. Valued ~$14.6B as of March 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:bain-capital-credit",
+    "to": "company:dc-blox",
+    "type": "invested_in",
+    "detail": "Bain Capital Credit and Post Road Group led a $187M financing (2021) plus additional equity; GIP provided $240M HoldCo financing (Jan 2026).",
+    "confidence": "high",
+    "sources": [
+      "https://www.baincapital.com/news/dc-blox-leading-data-center-operator-secures-187-million-financing",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:global-infrastructure-partners",
+    "to": "company:dc-blox",
+    "type": "invested_in",
+    "detail": "Bain Capital Credit and Post Road Group led a $187M financing (2021) plus additional equity; GIP provided $240M HoldCo financing (Jan 2026).",
+    "confidence": "high",
+    "sources": [
+      "https://www.baincapital.com/news/dc-blox-leading-data-center-operator-secures-187-million-financing",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:harrison-street",
+    "to": "company:powerhouse-data-centers",
+    "type": "invested_in",
+    "detail": "Founded by American Real Estate Partners (AREP); Harrison Street partnered on a $1B, six-data-center Northern Virginia buildout.",
+    "confidence": "medium-high",
+    "sources": [
+      "https://www.datacenterfrontier.com/featured/article/11436906/powerhouse-data-centers-launches-1-billion-expansion-in-data-center-alley",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:national-real-estate-advisors",
+    "to": "company:sabey-data-centers",
+    "type": "invested_in",
+    "detail": "Business unit of privately-held Sabey Corporation (founder Dave Sabey); longstanding JV with National Real Estate Advisors; Ares Management made a strategic investment announced July 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.globenewswire.com/news-release/2026/07/08/3324085/0/en/Sabey-Data-Center-Properties-Welcomes-Strategic-Investment-from-Ares-Strengthening-Platform-for-Continued-Growth.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ares-management",
+    "to": "company:sabey-data-centers",
+    "type": "invested_in",
+    "detail": "Business unit of privately-held Sabey Corporation (founder Dave Sabey); longstanding JV with National Real Estate Advisors; Ares Management made a strategic investment announced July 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.globenewswire.com/news-release/2026/07/08/3324085/0/en/Sabey-Data-Center-Properties-Welcomes-Strategic-Investment-from-Ares-Strengthening-Platform-for-Continued-Growth.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:blackstone",
+    "to": "company:rowan-digital-infrastructure",
+    "type": "invested_in",
+    "detail": "Blackstone-affiliated funds acquired a 49% stake in a 2025/2026 recapitalization; Quinbrook Infrastructure Partners retains a role.",
+    "confidence": "high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/rowan-digital-infrastructure-announces-strategic-recapitalization-302738729.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:quinbrook-infrastructure-partners",
+    "to": "company:rowan-digital-infrastructure",
+    "type": "invested_in",
+    "detail": "Blackstone-affiliated funds acquired a 49% stake in a 2025/2026 recapitalization; Quinbrook Infrastructure Partners retains a role.",
+    "confidence": "high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/rowan-digital-infrastructure-announces-strategic-recapitalization-302738729.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:gi-partners",
+    "to": "company:flexential",
+    "type": "invested_in",
+    "detail": "Formed/owned by GI Partners since 2017 (~$1B invested); MSIP made a co-control equity investment (~$1B primary equity raised together), closed Nov 2024.",
+    "confidence": "high",
+    "sources": [
+      "https://www.flexential.com/resources/press-release/flexential-accelerate-expansion-and-growth-strategic-investment-morgan",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:morgan-stanley-infrastructure-partners-msip",
+    "to": "company:flexential",
+    "type": "invested_in",
+    "detail": "Formed/owned by GI Partners since 2017 (~$1B invested); MSIP made a co-control equity investment (~$1B primary equity raised together), closed Nov 2024.",
+    "confidence": "high",
+    "sources": [
+      "https://www.flexential.com/resources/press-release/flexential-accelerate-expansion-and-growth-strategic-investment-morgan",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:sandbrook-capital",
+    "to": "company:cloverleaf-infrastructure",
+    "type": "invested_in",
+    "detail": "Sandbrook Capital and NGP provided founding capital ($300M+, July 2024); NVIDIA made a minority investment (~Aug 2026). Founded by ex-Microsoft energy head Brian Janous.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/cloverleaf-infrastructure-secures-300m-for-clean-energy-data-center-campuses/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ngp",
+    "to": "company:cloverleaf-infrastructure",
+    "type": "invested_in",
+    "detail": "Sandbrook Capital and NGP provided founding capital ($300M+, July 2024); NVIDIA made a minority investment (~Aug 2026). Founded by ex-Microsoft energy head Brian Janous.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/cloverleaf-infrastructure-secures-300m-for-clean-energy-data-center-campuses/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:rice-investment-group",
+    "to": "company:cloverleaf-infrastructure",
+    "type": "invested_in",
+    "detail": "Sandbrook Capital and NGP provided founding capital ($300M+, July 2024); NVIDIA made a minority investment (~Aug 2026). Founded by ex-Microsoft energy head Brian Janous.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/cloverleaf-infrastructure-secures-300m-for-clean-energy-data-center-campuses/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:cloverleaf-infrastructure",
+    "type": "invested_in",
+    "detail": "Sandbrook Capital and NGP provided founding capital ($300M+, July 2024); NVIDIA made a minority investment (~Aug 2026). Founded by ex-Microsoft energy head Brian Janous.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/cloverleaf-infrastructure-secures-300m-for-clean-energy-data-center-campuses/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:kkr",
+    "to": "company:virtus-data-centers",
+    "type": "invested_in",
+    "detail": "Owned via parent ST Telemedia Global Data Centres (STT GDC); KKR and Singtel are acquiring full ownership from ST Telemedia (~US$3.9B enterprise value), expected to close H2 2026 -- KKR 75%, Singtel 25%.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/kkr-and-singtel-fully-acquire-data-center-firm-stt-gdc/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:snowhawk-partners",
+    "to": "company:cleanarc-data-centers",
+    "type": "invested_in",
+    "detail": "Snowhawk took majority control; Nuveen Infrastructure and Townsend Group are minority investors. Founding backer 547 Energy. Led by Vantage founder Jim Trout.",
+    "confidence": "high",
+    "sources": [
+      "https://irei.com/news/nuveen-infrastructure-becomes-latest-strategic-investor-in-cleanarc-data-centers/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:nuveen-infrastructure",
+    "to": "company:cleanarc-data-centers",
+    "type": "invested_in",
+    "detail": "Snowhawk took majority control; Nuveen Infrastructure and Townsend Group are minority investors. Founding backer 547 Energy. Led by Vantage founder Jim Trout.",
+    "confidence": "high",
+    "sources": [
+      "https://irei.com/news/nuveen-infrastructure-becomes-latest-strategic-investor-in-cleanarc-data-centers/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:townsend-group",
+    "to": "company:cleanarc-data-centers",
+    "type": "invested_in",
+    "detail": "Snowhawk took majority control; Nuveen Infrastructure and Townsend Group are minority investors. Founding backer 547 Energy. Led by Vantage founder Jim Trout.",
+    "confidence": "high",
+    "sources": [
+      "https://irei.com/news/nuveen-infrastructure-becomes-latest-strategic-investor-in-cleanarc-data-centers/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:glp-capital-partners",
+    "to": "company:ada-infrastructure",
+    "type": "invested_in",
+    "detail": "Founded 2023 as GLP Capital Partners' dedicated global data center platform.",
+    "confidence": "high",
+    "sources": [
+      "https://www.glp.com/global/article/announcing-ada-infrastructure-new-global-data-center-platform-serving-worlds-most-transformative-companies",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:jiangsu-shagang-group",
+    "to": "company:global-switch",
+    "type": "invested_in",
+    "detail": "Chinese steelmaker Jiangsu Shagang Group built its stake from 49% (2016) to ~75% (Aug 2019), buying out UK's Reuben Brothers.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/chinas-shagang-buys-final-quarter-global-switch/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:bain-capital",
+    "to": "company:hscale",
+    "type": "invested_in",
+    "detail": "Bain Capital is majority owner; Aquila Group retains ~20% (former owner of the AQ Compute asset base hscale was built from). Dubai Holding reported exploring a stake (June 2026).",
+    "confidence": "high",
+    "sources": [
+      "https://www.bloomberg.com/news/articles/2026-06-24/dubai-holding-weighs-stake-in-bain-s-data-center-group-hscale",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:brookfield-infrastructure",
+    "to": "company:data4",
+    "type": "invested_in",
+    "detail": "Acquired from AXA IM Alts, closed April 2023. Reportedly in talks (2025) with Arjun Infrastructure Partners for a minority stake sale -- not confirmed closed.",
+    "confidence": "high",
+    "sources": [
+      "https://alts.axa-im.com/media-centre/axa-im-alts-agrees-sale-data4-european-leading-data-centre-platform-brookfield-infrastructure",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:cim-group",
+    "to": "company:novva-data-centers",
+    "type": "invested_in",
+    "detail": "CIM Group's equity commitment grew from $95M (2019) to $450M; founder-led (Wes Swenson, Cory Roberts) alongside CIM.",
+    "confidence": "high",
+    "sources": [
+      "https://www.cimgroup.com/press-releases/cim-group-and-novva-data-centers-announce-2-billion-in-new-financing-to-accelerate-growth-in-delivering-sustainable-efficient-data-centers-across-the-western-u-s",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:warburg-pincus",
+    "to": "company:princeton-digital-group",
+    "type": "invested_in",
+    "detail": "Co-founded by Warburg Pincus (2017); Mubadala ($350M), OTPP, and Stonepeak (~$1.3B, July 2025) also invested.",
+    "confidence": "high",
+    "sources": [
+      "https://warburgpincus.com/investments/princeton-digital-group/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:mubadala-investment-company",
+    "to": "company:princeton-digital-group",
+    "type": "invested_in",
+    "detail": "Co-founded by Warburg Pincus (2017); Mubadala ($350M), OTPP, and Stonepeak (~$1.3B, July 2025) also invested.",
+    "confidence": "high",
+    "sources": [
+      "https://warburgpincus.com/investments/princeton-digital-group/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ontario-teachers-pension-plan",
+    "to": "company:princeton-digital-group",
+    "type": "invested_in",
+    "detail": "Co-founded by Warburg Pincus (2017); Mubadala ($350M), OTPP, and Stonepeak (~$1.3B, July 2025) also invested.",
+    "confidence": "high",
+    "sources": [
+      "https://warburgpincus.com/investments/princeton-digital-group/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:stonepeak",
+    "to": "company:princeton-digital-group",
+    "type": "invested_in",
+    "detail": "Co-founded by Warburg Pincus (2017); Mubadala ($350M), OTPP, and Stonepeak (~$1.3B, July 2025) also invested.",
+    "confidence": "high",
+    "sources": [
+      "https://warburgpincus.com/investments/princeton-digital-group/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:liberty-global",
+    "to": "company:atlasedge",
+    "type": "invested_in",
+    "detail": "JV launched 2021 combining DigitalBridge's Edge assets with Liberty Global's real estate portfolio.",
+    "confidence": "high",
+    "sources": [
+      "https://atlasedge.com/liberty-global-and-digitalbridge-to-launch-jv-to-develop-edge-data-centers-in-europe/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:digitalbridge-group",
+    "to": "company:atlasedge",
+    "type": "invested_in",
+    "detail": "JV launched 2021 combining DigitalBridge's Edge assets with Liberty Global's real estate portfolio.",
+    "confidence": "high",
+    "sources": [
+      "https://atlasedge.com/liberty-global-and-digitalbridge-to-launch-jv-to-develop-edge-data-centers-in-europe/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:elliott-investment-management",
+    "to": "company:ark-data-centres",
+    "type": "invested_in",
+    "detail": "Elliott acquired majority/control in 2012; Revcap holds a minority stake. Elliott has been exploring a sale (~£3bn) as of late 2025, not confirmed closed.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/ark-owner-elliott-investment-looks-to-sell-uk-data-center-firm-report/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:revcap",
+    "to": "company:ark-data-centres",
+    "type": "invested_in",
+    "detail": "Elliott acquired majority/control in 2012; Revcap holds a minority stake. Elliott has been exploring a sale (~£3bn) as of late 2025, not confirmed closed.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/ark-owner-elliott-investment-looks-to-sell-uk-data-center-firm-report/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:i-squared-capital",
+    "to": "company:nlighten",
+    "type": "invested_in",
+    "detail": "I Squared Capital established nLighten in 2021/2023 via its ISQ Global Infrastructure Fund III (committed $500M+).",
+    "confidence": "high",
+    "sources": [
+      "https://www.businesswire.com/news/home/20230207006198/en/I-Squared-Capital-establishes-nLighten-a-European-edge-datacenter-platform",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:stonepeak",
+    "to": "company:cologix",
+    "type": "invested_in",
+    "detail": "Stonepeak acquired majority interest 2017 (~$500M); completed a $3.0B equity recapitalization in 2022.",
+    "confidence": "high",
+    "sources": [
+      "https://cologix.com/news/stonepeak-successfully-completes-3-0-billion-equity-recapitalization-portfolio-company-cologix/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:dtcp-digital-transformation-capital-partners",
+    "to": "company:greenscale-data-centres",
+    "type": "invested_in",
+    "detail": "DTCP launched/backs GreenScale (initial ~£1B committed), built from its Oct 2024 acquisition of AtlanticHub.",
+    "confidence": "high",
+    "sources": [
+      "https://www.dtcp.capital/news-and-insights/detail/dtcp-backs-greenscale-a-new-data-center-platform-to-accelerate-growth-in-cloud-and-ai-driven-data-centers-across-europe/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:apollo-global-management",
+    "to": "company:vaultica-data-centers",
+    "type": "invested_in",
+    "detail": "Apollo acquired STACK Infrastructure's pan-European colocation business from Blue Owl (carve-out announced April 2025), rebranded Vaultica.",
+    "confidence": "high",
+    "sources": [
+      "https://www.apollo.com/insights-news/pressreleases/2025/04/apollo-funds-to-acquire-pan-european-highly-interconnected-colocation-data-center-business-from-stack-infrastructure-a-portfolio-company-of-blue-owl-digital-infrastructure-3069871",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ardian",
+    "to": "company:verne",
+    "type": "invested_in",
+    "detail": "Ardian acquired Verne Global from Digital 9 Infrastructure plc (~2023, up to $575M). Digital 9 had bought it from earlier owners (Wellcome Trust, Stefnir, Novator Partners, General Catalyst) in Sept 2021.",
+    "confidence": "high",
+    "sources": [
+      "https://www.ardian.com/news-insights/press-releases/ardian-acquires-leading-data-center-platform-verne-global-digital-9",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:kkr",
+    "to": "company:global-technical-realty",
+    "type": "invested_in",
+    "detail": "Founded by Franek Sodzawiczny in partnership with KKR, which committed $1bn (2020) and an additional $1.5bn (Jan 2026); Oak Hill Capital joined Jan 2026 (~$400M).",
+    "confidence": "high",
+    "sources": [
+      "https://oakhill.com/2026/01/07/kkr-and-oak-hill-capital-commit-nearly-2-billion-to-leading-european-data-center-platform-global-technical-realty/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:oak-hill-capital",
+    "to": "company:global-technical-realty",
+    "type": "invested_in",
+    "detail": "Founded by Franek Sodzawiczny in partnership with KKR, which committed $1bn (2020) and an additional $1.5bn (Jan 2026); Oak Hill Capital joined Jan 2026 (~$400M).",
+    "confidence": "high",
+    "sources": [
+      "https://oakhill.com/2026/01/07/kkr-and-oak-hill-capital-commit-nearly-2-billion-to-leading-european-data-center-platform-global-technical-realty/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:pimco",
+    "to": "company:apto",
+    "type": "invested_in",
+    "detail": "Launched and backed by PIMCO's real estate arm to manage its emerging European data center assets; Dromeus Capital is a co-investor.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/real-estate-investor-pimco-launches-new-european-hyperscale-provider-apto/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:dromeus-capital",
+    "to": "company:apto",
+    "type": "invested_in",
+    "detail": "Launched and backed by PIMCO's real estate arm to manage its emerging European data center assets; Dromeus Capital is a co-investor.",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/real-estate-investor-pimco-launches-new-european-hyperscale-provider-apto/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:oaktree-capital-management",
+    "to": "company:pure-data-centres",
+    "type": "invested_in",
+    "detail": "Oaktree is majority-owned (62%) by Brookfield Asset Management, an indirect ultimate backer.",
+    "confidence": "high",
+    "sources": [
+      "https://finance.yahoo.com/news/oaktree-backed-firm-unveils-1-110500130.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:government-of-ras-al-khaimah-investment-and-development-office",
+    "to": "company:pure-data-centres",
+    "type": "invested_in",
+    "detail": "Oaktree is majority-owned (62%) by Brookfield Asset Management, an indirect ultimate backer.",
+    "confidence": "high",
+    "sources": [
+      "https://finance.yahoo.com/news/oaktree-backed-firm-unveils-1-110500130.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:davidson-kempner-capital-management",
+    "to": "company:pointone",
+    "type": "invested_in",
+    "detail": "Strategic partnership announced Feb 2025 to fund its Virginia campus; the specific firm name is corroborated by a LinkedIn post rather than the primary press release text, deal size undisclosed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/pointone-secures-investment-partner-for-virginia-build-out/",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:coreweave",
+    "type": "invested_in",
+    "detail": "Publicly traded since March 2025 IPO (NASDAQ: CRWV). Pre-IPO/ongoing backers include NVIDIA (strategic) and Magnetar Capital (largest VC-style backer); Blue Owl provided GPU-backed debt financing.",
+    "confidence": "high",
+    "sources": [
+      "https://www.cnbc.com/2025/03/28/coreweave-starts-trading-on-nasdaq-at-per-share.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:magnetar-capital",
+    "to": "company:coreweave",
+    "type": "invested_in",
+    "detail": "Publicly traded since March 2025 IPO (NASDAQ: CRWV). Pre-IPO/ongoing backers include NVIDIA (strategic) and Magnetar Capital (largest VC-style backer); Blue Owl provided GPU-backed debt financing.",
+    "confidence": "high",
+    "sources": [
+      "https://www.cnbc.com/2025/03/28/coreweave-starts-trading-on-nasdaq-at-per-share.html",
+      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+    ],
+    "last_updated": "2026-09-05"
   }
 ]
