@@ -43,13 +43,22 @@ TRUE_NEOCLOUD_IDS = {
     "applied-digital", "sesterce",
 }
 
+# Per Siddhi's note (2026-09-05): several US Bitcoin/crypto mining companies
+# have pivoted into AI/HPC data center hosting, since the power, cooling, and
+# high-density rack infrastructure required is largely the same. These are
+# an explicit allowlist too, same reasoning as the two above -- and checked
+# AFTER neocloud/hyperscaler, so a company that's fully pivoted to being an
+# AI-cloud business (IREN, Applied Digital) stays classified there; this
+# tier is for ones still closer to "data center host with a crypto-mining
+# legacy" than "AI-cloud platform."
+TRUE_CRYPTOMINING_IDS = {"terawulf", "hut-8", "core-scientific"}
+
 def classify_company(company_id, tags):
-    tagset = set(tags or [])
     if company_id in TRUE_NEOCLOUD_IDS:
         return "neocloud"
     if company_id in TRUE_HYPERSCALER_IDS:
         return "hyperscaler"
-    if any("crypto" in t.lower() for t in tagset):
+    if company_id in TRUE_CRYPTOMINING_IDS:
         return "cryptomining"
     return "developer_operator"
 
