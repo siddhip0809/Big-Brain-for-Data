@@ -26505,13 +26505,15 @@
     "from": "investor:ai-infrastructure-partnership-aip",
     "to": "company:aligned-data-centers",
     "type": "invested_in",
-    "detail": "Owned by Macquarie since 2018 (via MIP IV/V); 2026 sale (enterprise value ~$40B) to a consortium of AIP, MGX, and BlackRock's GIP closed July 2026.",
+    "detail": "~$40B EV (+$5B growth capital) acquisition of Aligned from Macquarie by the AI Infrastructure Partnership (BlackRock/GIP, MGX, Microsoft, Nvidia) with xAI, KIA, Temasek; announced 15 Oct 2025, closed 21 Jul 2026.",
     "confidence": "high",
     "sources": [
       "https://www.macquarie.com/us/en/about/news/2026/macquarie-asset-management-announces-successful-close-of-aligned-data-centers-transaction.html",
-      "Web research, 2026-09-05 -- unverified, cross-check recommended"
+      "Web research, 2026-09-05 -- unverified, cross-check recommended",
+      "https://aligneddc.com/press-release/aip-mgx-and-blackrocks-gip-close-acquisition-of-aligned-data-centers/"
     ],
-    "last_updated": "2026-09-05"
+    "last_updated": "2026-09-05",
+    "status": "completed"
   },
   {
     "from": "investor:mgx",
@@ -29024,13 +29026,14 @@
     "from": "investor:ai-infrastructure-partnership-aip",
     "to": "company:aligned-data-centers",
     "type": "acquired",
-    "detail": "~$40B acquisition of Aligned by the AI Infrastructure Partnership (BlackRock/GIP, MGX, Microsoft, Nvidia), announced Oct 2025.",
+    "detail": "~$40B EV (+$5B growth capital) acquisition of Aligned from Macquarie by the AI Infrastructure Partnership (BlackRock/GIP, MGX, Microsoft, Nvidia) with xAI, KIA, Temasek; announced 15 Oct 2025, closed 21 Jul 2026.",
     "confidence": "high",
     "sources": [
-      "Web research, 2026-09-05 (tenancy research round)"
+      "Web research, 2026-09-05 (tenancy research round)",
+      "https://aligneddc.com/press-release/aip-mgx-and-blackrocks-gip-close-acquisition-of-aligned-data-centers/"
     ],
     "last_updated": "2026-09-05",
-    "status": "announced"
+    "status": "completed"
   },
   {
     "from": "investor:google",
@@ -29051,6 +29054,461 @@
     "confidence": "high",
     "sources": [
       "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:american-tower-corporation",
+    "to": "company:coresite",
+    "type": "acquired",
+    "detail": "$10.1B incl. debt (Nov 2021, closed 28 Dec 2021): tower REIT buys the 24-DC interconnection platform; CoreSite becomes AMT's US data-center segment.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.clearygottlieb.com/news-and-insights/news-listing/american-tower-acquires-coresite-for-10-1-billion",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:switch",
+    "to": "company:data-foundry",
+    "type": "acquired",
+    "detail": "$420M cash (May 2021): Switch enters Texas with four Austin/Houston data centers.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterknowledge.com/switches-routers/switch-to-acquire-texas-data-center-operator-data-foundry-for-420m",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:digital-realty",
+    "to": "company:teraco",
+    "type": "acquired",
+    "detail": "~$3.5B EV, 55% for $1.7B (closed 1 Aug 2022): majority of Africa's largest carrier-neutral operator.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalrealty.com/about/newsroom/press-releases/122709/digital-realty-completes-acquisition-of-teraco",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:equinix",
+    "to": "company:gpx-global",
+    "type": "acquired",
+    "detail": "$161M (closed 1 Sep 2021): two Mumbai data centers; Equinix's India entry.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/equinix-completes-acquisition-of-two-data-centers-in-india-301367952.html",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:digital-realty",
+    "to": "company:telepoint",
+    "type": "acquired",
+    "detail": "Two Sofia carrier hotels (Mar 2026): Digital Realty enters Bulgaria.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-enters-bulgaria-acquisition-highly-connected",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:aligned-data-centers",
+    "to": "company:odata",
+    "type": "acquired",
+    "detail": "Closed 22 May 2023: Aligned goes to Latin America (Brazil, Chile, Colombia, Mexico); ODATA kept as a brand.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.globenewswire.com/news-release/2023/05/22/2673370/0/en/Aligned-Data-Centers-Completes-Acquisition-of-ODATA.html",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:databank",
+    "to": "company:cyrusone",
+    "type": "acquired",
+    "detail": "$670M (closed 3 Mar 2022): four Houston data centers (42.5MW) carved out of CyrusOne; DataBank becomes the largest independent in Houston.",
+    "status": "asset purchase (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://www.databank.com/resources/press-releases/databank-closes-670m-acquisition-of-four-cyrusone-data-centers/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:vantage",
+    "to": "company:yondr",
+    "type": "acquired",
+    "detail": "Closed 23 Nov 2025: Yondr's 300MW+ JHB1 hyperscale campus in Johor, Malaysia; Yondr exits Malaysia after the DigitalBridge takeover.",
+    "status": "asset purchase (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://vantage-dc.com/news/vantage-data-centers-completes-1-6b-investment-in-apac-platform-from-gic-and-adia-closes-acquisition-of-yondrs-300mw-hyperscale-campus-in-johor-malaysia/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:hmc-capital",
+    "to": "company:global-switch",
+    "type": "acquired",
+    "detail": "A$2.1B (Dec 2024): Global Switch Australia sold as the seed asset for the ASX-listed DigiCo REIT -- Global Switch's first divestment after the failed group sale.",
+    "status": "asset purchase (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://www.globalswitch.com/announcement/agreement-reached-for-the-sale-of-global-switch-australia-to-hmc-capital/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:esr-group",
+    "to": "company:logos",
+    "type": "acquired",
+    "detail": "Via the US$5.2B ARA acquisition (closed 20 Jan 2022): ESR takes 86.4% of LOGOS, founders' balance via 2024-25 put/call.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://en.prnasia.com/releases/apac/esr-completes-acquisition-of-ara-asset-management-349278.shtml",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:evocative",
+    "to": "company:inap",
+    "type": "acquired",
+    "detail": "Closed 28 Sep 2022: INAP's nine US colocation data centers and staff.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://evocative.com/news/evocative-closes-inap-data-center-asset-acquisition/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:cologix",
+    "to": "company:csquare",
+    "type": "acquired",
+    "detail": "Closed 6 Dec 2023: Cyxtera's Montreal + Vancouver data centers bought out of bankruptcy (Cyxtera later merged into Centersquare); Cologix Canada to 22 DCs.",
+    "status": "asset purchase (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://cologix.com/news/cologix-grows-canadian-presence-with-acquisitions-and-expanded-capacity/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:cologix",
+    "to": "investor:cim-group",
+    "type": "acquired",
+    "detail": "Nov 2024: buys out JV partner CIM Group in the TOR4/TOR5 Toronto hyperscale asset.",
+    "status": "asset purchase (completed)",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/cologix-takes-full-ownership-of-two-data-centers-in-toronto-canada/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:apollo-global-management",
+    "to": "company:stack-infrastructure",
+    "type": "acquired",
+    "detail": "Announced 29 Apr 2025: carve-out of STACK's pan-European interconnected colocation business (seven DCs: Stockholm, Oslo, Copenhagen, Milan, Geneva) from Blue Owl's STACK.",
+    "status": "asset purchase (announced)",
+    "confidence": "medium",
+    "sources": [
+      "https://www.apollo.com/insights-news/pressreleases/2025/04/apollo-funds-to-acquire-pan-european-highly-interconnected-colocation-data-center-business-from-stack-infrastructure-a-portfolio-company-of-blue-owl-digital-infrastructure-3069871",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:gds-holdings",
+    "to": "company:dayone",
+    "type": "acquired",
+    "detail": "Spin-off (effective 1 Jan 2025): GDS International separated and rebranded DayOne; Series B $1.2B, Series C $4.5B.",
+    "status": "spin-off (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://www.mingtiandi.com/real-estate/data-centres/chinas-gds-rebrands-international-data-centre-unit-as-dayone/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:riot-platforms",
+    "to": "company:bitfarms",
+    "type": "acquired",
+    "detail": "~$950M hostile bid (Apr 2024) -- terminated by settlement 23 Sep 2024: Riot capped at 19.9%, one board seat, standstill to the 2026 AGM.",
+    "status": "terminated",
+    "confidence": "high",
+    "sources": [
+      "https://mcmillan.ca/deals-cases/mcmillan-advises-bitfarms-in-its-settlement-of-hostile-takeover-by-riot-platforms/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:cleanspark",
+    "to": "company:mawson-infrastructure-group",
+    "type": "acquired",
+    "detail": "Up to $33M (+$42.5M with rigs), closed 8 Oct 2022: Mawson's Sandersville, GA facility -- now the site of CleanSpark's $6.6B AI lease.",
+    "status": "asset purchase (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://finance.yahoo.com/news/cleanspark-completes-acquisition-mawson-sandersville-130000953.html",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:hive",
+    "to": "company:bitfarms",
+    "type": "acquired",
+    "detail": "$56M (closed 18 Mar 2025): Bitfarms' 200MW Yguazu, Paraguay site -- Bitfarms exits Paraguay to fund its US pivot.",
+    "status": "asset purchase (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://www.hivedigitaltechnologies.com/news/hive-digital-technologies-announces-the-acquisition-of-bitfarms-yguazu-paraguay-site-a-200-mw-bitcoin-mining-site-setting-the-stage-for-substantial-growth-to-25-ehs-by-september-2025/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:mara-holdings",
+    "to": "investor:generate-capital",
+    "type": "acquired",
+    "detail": "$178.6M (+$19.6M contingent), closed 12 Jan 2024: Granbury, TX and Kearney, NE sites (390MW owned; ex-Compute North).",
+    "status": "asset purchase (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://ir.mara.com/news-events/press-releases/detail/1335/marathon-digital-holdings-enters-definitive-agreement-to-acquire-multiple-bitcoin-mining-sites-for-179-million",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:bit-digital-2",
+    "to": "company:enovum-data-centers",
+    "type": "acquired",
+    "detail": "C$62.8M (~US$46M), closed 11 Oct 2024: Tier 3 Montreal colocation + 280MW pipeline -- the basis of WhiteFiber.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://bit-digital.com/press-releases/bit-digital-inc-vertically-integrates-acquiring-tier-3-hpc-datacenter-company-280-mw-pipeline-in-major-metropolitan-areas/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:talen-energy",
+    "to": "company:terawulf",
+    "type": "acquired",
+    "detail": "$85M cash + ~$7M equipment (3 Oct 2024): TeraWulf's 25% of the Nautilus Cryptomine nuclear JV -- sold to fund Lake Mariner HPC.",
+    "status": "asset purchase (completed)",
+    "confidence": "high",
+    "sources": [
+      "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-purchases-terawulfs-minority-share-nautilus",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:iren",
+    "to": "company:nostrum",
+    "type": "acquired",
+    "detail": "~EUR165M (closed 15 Jun 2026): IREN's Europe entry -- ~490MW grid-connected in Spain incl. 300MW Badajoz; 50+ staff.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://iren.com/resources/news/nostrum-announcement",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:blackstone",
+    "to": "company:qts-data-centers",
+    "type": "acquired",
+    "detail": "$10B take-private (closed 31 Aug 2021).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.blackstone.com/news/press/blackstone-funds-complete-acquisition-of-qts-realty-trust/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:kkr",
+    "to": "company:cyrusone",
+    "type": "acquired",
+    "detail": "$15B take-private with GIP (closed 25 Mar 2022).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.global-infra.com/news/kkr-and-gip-complete-acquisition-of-cyrusone/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:global-infrastructure-partners-gip",
+    "to": "company:cyrusone",
+    "type": "acquired",
+    "detail": "$15B take-private with KKR (closed 25 Mar 2022).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.global-infra.com/news/kkr-and-gip-complete-acquisition-of-cyrusone/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:digitalbridge-group",
+    "to": "company:switch",
+    "type": "acquired",
+    "detail": "$11B take-private with IFM Investors (closed 6 Dec 2022).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.switch.com/digitalbridge-and-ifm-investors-complete-11-billion-take-private-of-switch/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ifm-investors",
+    "to": "company:switch",
+    "type": "acquired",
+    "detail": "$11B take-private with DigitalBridge (closed 6 Dec 2022).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.switch.com/digitalbridge-and-ifm-investors-complete-11-billion-take-private-of-switch/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:brookfield-infrastructure",
+    "to": "company:compass-datacenters",
+    "type": "acquired",
+    "detail": "~$5.5B with Ontario Teachers' (announced 20 Jun 2023, from RedBird and Azrieli).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.otpp.com/en-ca/about-us/news-and-insights/2023/brookfield-infrastructure-and-ontario-teachers--to-acquire-compass-datacenters-from-redbird-capital-partners-and-azrieli-group/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ontario-teachers-pension-plan",
+    "to": "company:compass-datacenters",
+    "type": "acquired",
+    "detail": "~$5.5B with Brookfield Infrastructure (2023).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.otpp.com/en-ca/about-us/news-and-insights/2023/brookfield-infrastructure-and-ontario-teachers--to-acquire-compass-datacenters-from-redbird-capital-partners-and-azrieli-group/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:bain-capital",
+    "to": "company:chindata-group",
+    "type": "acquired",
+    "detail": "$3.16B take-private (closed 18 Dec 2023).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.marketscreener.com/quote/stock/CHINDATA-GROUP-HOLDINGS-L-113108843/news/Chindata-Group-Announces-Completion-of-Going-Private-Transaction-45595098/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ardian",
+    "to": "company:verne",
+    "type": "acquired",
+    "detail": "GBP453M from Digital 9 (closed 15 Mar 2024).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.ardian.com/news-insights/press-releases/ardian-acquires-leading-data-center-platform-verne-global-digital-9",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:blackstone",
+    "to": "company:airtrunk",
+    "type": "acquired",
+    "detail": "A$24B EV with CPP Investments (closed Dec 2024).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://airtrunk.com/completion-of-airtrunk-acquisition-by-blackstone-marking-new-era-of-growth/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:cpp-investments",
+    "to": "company:airtrunk",
+    "type": "acquired",
+    "detail": "A$24B EV with Blackstone (closed Dec 2024).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://airtrunk.com/completion-of-airtrunk-acquisition-by-blackstone-marking-new-era-of-growth/",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:digitalbridge-group",
+    "to": "company:yondr",
+    "type": "acquired",
+    "detail": "Closed 1 Jul 2025 with La Caisse; new CEO/CFO installed.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2025-07-01-digitalbridge-and-la-caisse-complete-acquisition-of-yondr-group",
+      "Web research, 2026-09-05 (M&A research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:la-caisse-cdpq",
+    "to": "company:yondr",
+    "type": "acquired",
+    "detail": "Closed 1 Jul 2025 with DigitalBridge.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalbridge.com/news/2025-07-01-digitalbridge-and-la-caisse-complete-acquisition-of-yondr-group",
+      "Web research, 2026-09-05 (M&A research round)"
     ],
     "last_updated": "2026-09-05"
   }

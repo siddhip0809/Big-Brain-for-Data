@@ -133,11 +133,20 @@ legible via the sidebar legend.
   built with Three.js instead of D3/canvas so you can orbit, zoom, and
   click a node in true 3D.
 
+**Lines:** four relationship types are drawn, each its own colour (key in
+the sidebar): violet = investor backing, white = lease/tenant, amber =
+acquisition, green = joint venture. Deal edges (`tenant_of`, `acquired`,
+`jv_partner`, see `docs/schema.md`) use softer, longer springs than
+backing edges, so related companies lean toward each other without being
+pulled out of their tier.
+
 **Node interaction — "focus mode":** clicking a node doesn't just open the
 text detail panel — it zooms the camera in, arranges that node's direct
-connections (an investor's whole portfolio, or a company's backers) into
-a clean ring around it, and fades everything else in the graph nearly
-out of view. Click one of the ring nodes to drill one level deeper (it
+connections (backers, portfolio companies, tenants, landlords, acquirers,
+JV partners) into a clean ring around it — centred in the part of the
+stage the detail panel doesn't cover — and fades everything else in the
+graph nearly out of view. The layout is frozen while focused so the ring
+holds still. Click one of the ring nodes to drill one level deeper (it
 recenters and reveals *its* connections); a "← Back" / "Show full graph"
 control pair (top-left of the stage) steps back out. This replaces a
 static text card with a spatial, explorable "atomic diagram" of each

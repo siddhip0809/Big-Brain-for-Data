@@ -90,8 +90,27 @@ Real data has started loading. Currently in the brain:
   individual profile (see `viewer/README.md`). Email, phone, and
   compensation were deliberately left out of every record (kept in
   Clockwork only) — see `docs/schema.md`.
-- **2,806 relationships** connecting the above (candidacy links,
-  employment links, and investor links)
+- **2,906 relationships** connecting the above — candidacy links,
+  employment links, investor backing (124 investors incl. Google and
+  NVIDIA in their dual role as strategic investors), and, since
+  2026-09-05, a **company-to-company deal layer** of 98 edges:
+  - `tenant_of` — who leases data-center capacity from whom (AWS →
+    Cipher Mining, Oracle → Vantage/Related Digital/STACK for OpenAI's
+    Stargate sites, Meta → CoreWeave ~$35B, Microsoft → Crusoe 900 MW,
+    Anthropic → Nscale/Hut 8/TeraWulf, Fluidstack → Hut 8/TeraWulf …)
+  - `acquired` — consolidation with status (American Tower → CoreSite,
+    Blackstone → QTS, KKR/GIP → CyrusOne, DigitalBridge/IFM → Switch,
+    Vantage → Yondr's Johor campus, Riot → Bitfarms *terminated*, AIP →
+    Aligned $40B, Equinix and Digital Realty country tuck-ins …)
+  - `jv_partner` — Crusoe ↔ Lancium (Abilene), TeraWulf ↔ Fluidstack,
+    Meta ↔ Blue Owl (Hyperion) and ↔ BlackRock (El Paso)
+  Deals whose counterparty isn't a tracked node (Teraco, Stronghold,
+  Whinstone, Anyscale, Groq …) are kept as dated "M&A:" notes on the
+  acquirer's record — ~40 of them — so nothing from the research is lost.
+  For a headhunter these are hiring/layoff signals: the miners-turned-
+  landlords (TeraWulf, Hut 8, Cipher, Applied Digital) and the Stargate
+  landlords (Vantage, Related Digital, STACK, Crusoe, SB Energy) are where
+  the 2026–28 construction, commissioning and operations demand sits.
 - An interactive visual graph of all of this — see `viewer/README.md`
 
 **Known issue:** "Pure Data Centers" and "Pure Data Centres" exist as two
