@@ -20,13 +20,24 @@
       "date_updated": "2026-08-19 08:08:14 -0500",
       "sourced_by": "Siddhi Pandit",
       "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 345,
+      "date_added": "2026-08-14 07:36:07 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
     }
   ],
   "notes": "",
   "sources": [
-    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04"
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-05",
   "department": "Pre-Construction",
   "current_company_id": null
 }

@@ -20,13 +20,24 @@
       "date_updated": "2026-08-26 04:16:49 -0500",
       "sourced_by": "Siddhi Pandit",
       "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 15,
+      "date_added": "2026-07-08 17:34:07 UTC",
+      "date_updated": "2026-08-26 04:14:03 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
     }
   ],
   "notes": "",
   "sources": [
-    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04"
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-05",
   "department": "Sales",
   "current_company_id": "edged"
 }
