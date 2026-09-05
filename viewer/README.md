@@ -89,11 +89,22 @@ There is a second, experimental 3D viewer, deliberately scoped down while
 we get the visual design right: it drops the people layer entirely and
 shows only the data-center companies and private-equity/investor backers,
 spread out in true 3D space via a small custom force-directed layout (not
-a stacked tree) and clustered + colored by tier — Hyperscaler, NeoCloud/AI
-Infra, Data Center Developer/Operator, Cryptomining (US Bitcoin miners
-that have pivoted into AI/HPC data center hosting, like TeraWulf, Hut 8,
-Cipher Mining, and Bitfarms/Keel Infrastructure) — with Investors as
-their own cluster, connected by a line to every company they've backed.
+a stacked tree). Companies loosely cluster and are colored by tier —
+Hyperscaler, NeoCloud/AI Infra, Data Center Developer/Operator,
+Cryptomining (US Bitcoin miners that have pivoted into AI/HPC data center
+hosting, like TeraWulf, Hut 8, Cipher Mining, and Bitfarms/Keel
+Infrastructure). Investors (violet) deliberately do NOT get a fixed
+"home" position the way company tiers do — a company belongs to exactly
+one tier, so anchoring it is coherent, but an investor can back companies
+across every tier at once, so pinning it to one arbitrary point fights
+its real connections instead of reflecting them. Each investor instead
+sits wherever its actual backing pulls it (close to a single portfolio
+company, or toward the middle if it backs a spread of them), plus a weak
+data-driven "co-investment" pull toward other investors who've backed the
+same company — real relational clustering, not an arbitrary same-color
+rule. There are no visible category hub markers either (removed per
+Siddhi's request, 2026-09-05) — tier is carried by node color alone, kept
+legible via the sidebar legend.
 
 - **`build_graph3d_data.py`** — reads `data/companies/` and
   `data/investors/` and writes a flat `graph3d_data.json` of

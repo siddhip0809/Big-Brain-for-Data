@@ -148,8 +148,9 @@
   .tooltip .tt-sub{ color:var(--text-dim); font-family:var(--font-mono); font-size:10.5px; }
 
   .focus-controls{
-    position:absolute; top:16px; left:16px; z-index:22; display:flex; gap:8px;
+    position:absolute; top:16px; left:16px; z-index:22; gap:8px;
   }
+  .focus-controls:not([hidden]){ display:flex; }
   .focus-controls button{
     background:var(--panel); border:1px solid var(--border); color:var(--text);
     font-family:var(--font-mono); font-size:11.5px; padding:8px 12px; border-radius:6px;
@@ -279,9 +280,13 @@
       Stepped back from the full graph on purpose: people are hidden for
       now so the shape of the industry is legible first. Every node here
       is a company or a private backer, spread out in true 3D (not stacked
-      rings) and clustered + colored by tier — Hyperscaler, NeoCloud/AI
-      Infra, Developer/Operator, Cryptomining — with Investors as their
-      own violet cluster, threaded to the companies they've backed.<br><br>
+      rings). Companies loosely cluster and are colored by tier —
+      Hyperscaler, NeoCloud/AI Infra, Developer/Operator, Cryptomining.
+      Investors (violet) don't get a fixed home of their own — a company
+      belongs to one tier, but an investor can back several at once, so
+      each one sits wherever its actual backing pulls it: close to a
+      single portfolio company, or toward the middle if it backs a
+      spread of them.<br><br>
       <b>Solid</b> company nodes are pure-play — data centers are the
       whole business, a direct-tap recruiting pool. <b>Faded</b> nodes are
       one arm of a bigger real estate, energy, telecom, or construction
@@ -356,10 +361,30 @@
     }
     return pts;
   }
-  const anchorOrder = ['hyperscaler','neocloud','developer_operator','cryptomining','investor'];
+  // Only the four COMPANY tiers get a fixed anchor point -- each company
+  // belongs to exactly one of these, so a "home" position is coherent.
+  // Investors don't get one: an investor can back companies in every tier
+  // at once, so pinning it to its own arbitrary point fights its real
+  // connections instead of reflecting them (that was the visual tension/
+  // asymmetry problem). Investors are governed purely by who they've
+  // actually backed -- see runForceStep() below.
+  const anchorOrder = ['hyperscaler','neocloud','developer_operator','cryptomining'];
   const anchorPts = fibonacciSpherePoints(anchorOrder.length, ANCHOR_R);
   const anchorPos = {};
   anchorOrder.forEach((cid, i) => { anchorPos[cid] = anchorPts[i]; });
+
+  // co-investment pairs: investors who've backed the same company get a
+  // (very weak) mutual pull -- real, data-driven cohesion ("these two
+  // actually invest together") rather than an arbitrary "same color"
+  // clustering rule.
+  const coInvestPairs = [];
+  Object.values(backersOf).forEach(investorList => {
+    for(let i = 0; i < investorList.length; i++){
+      for(let j = i + 1; j < investorList.length; j++){
+        coInvestPairs.push([investorList[i], investorList[j]]);
+      }
+    }
+  });
 
   // ---------- force-directed layout (custom, run once on load) ----------
   const CLUSTER_JITTER = 120;
@@ -390,8 +415,10 @@
         b.vx -= fx; b.vy -= fy; b.vz -= fz;
       }
     }
-    // link springs (investor <-> company)
-    const LINK_K = 0.02, LINK_LEN = 140;
+    // link springs (investor <-> company) -- fairly short and fairly
+    // stiff, so an investor with only one backed company nestles close
+    // to it instead of stretching out into a long, isolated strand
+    const LINK_K = 0.032, LINK_LEN = 85;
     GRAPH.links.forEach(l => {
       const a = l.sourceNode, b = l.targetNode;
       if(!a || !b) return;
@@ -402,10 +429,28 @@
       a.vx += fx; a.vy += fy; a.vz += fz;
       b.vx -= fx; b.vy -= fy; b.vz -= fz;
     });
-    // weak pull back toward each node's own category anchor (keeps tiers visually separated)
+    // weak co-investment pull: two investors who've backed the same
+    // company at least once drift a little closer together -- real,
+    // data-driven cohesion instead of an arbitrary "same color" rule
+    const COINVEST_K = 0.006, COINVEST_LEN = 60;
+    coInvestPairs.forEach(([a, b]) => {
+      const dx = b.px - a.px, dy = b.py - a.py, dz = b.pz - a.pz;
+      const d = Math.max(1, Math.sqrt(dx*dx + dy*dy + dz*dz));
+      if(d <= COINVEST_LEN) return; // already close enough, don't fight repulsion
+      const f = (d - COINVEST_LEN) * COINVEST_K;
+      const fx = (dx / d) * f, fy = (dy / d) * f, fz = (dz / d) * f;
+      a.vx += fx; a.vy += fy; a.vz += fz;
+      b.vx -= fx; b.vy -= fy; b.vz -= fz;
+    });
+    // weak pull back toward each node's own category anchor -- companies
+    // only. Each company belongs to exactly one tier, so a "home" point
+    // is coherent; investors don't get one (see anchorOrder comment above)
+    // and are governed purely by the links and co-investment pulls above.
     const ANCHOR_K = 0.012;
     nodes.forEach(n => {
-      const a = anchorPos[n.category] || { x: 0, y: 0, z: 0 };
+      if(n.kind !== 'company') return;
+      const a = anchorPos[n.category];
+      if(!a) return;
       n.vx += (a.x - n.px) * ANCHOR_K;
       n.vy += (a.y - n.py) * ANCHOR_K;
       n.vz += (a.z - n.pz) * ANCHOR_K;
@@ -430,7 +475,6 @@
     if(n.kind === 'investor') return 6 + Math.min(n.deg, 6) * 1.6;
     return n.deg > 0 ? (7 + Math.min(n.deg, 4) * 2.2) : 5.4;
   }
-  function anchorRadius(){ return 24; }
   // Pure-play companies (data centers ARE the business) render solid and
   // bright -- the direct-tap recruiting pool. Companies that are one arm
   // of a broader real estate / energy / telecom / construction / other
@@ -460,7 +504,7 @@
   });
 
   const backedCompanyCount = Object.keys(backersOf).length;
-  document.getElementById('statNodes').textContent = GRAPH.nodes.length + anchorOrder.length;
+  document.getElementById('statNodes').textContent = GRAPH.nodes.length;
   document.getElementById('statLinks').textContent = GRAPH.links.length;
   document.getElementById('statsGrid').innerHTML = `
     <div class="stat-tile"><div class="num">${GRAPH.stats.companies}</div><div class="lbl">DC Companies</div></div>
@@ -515,17 +559,16 @@
   }
   const glowTexture = makeCircleTexture(true);
 
-  let nodeMeshes = [], glowSprites = [], linesObj = null, anchorMeshes = [];
+  let nodeMeshes = [], glowSprites = [], linesObj = null;
   let meshByNodeId = {}, glowByNodeId = {};
   const sphereGeo = new THREE.SphereGeometry(1, 12, 12);
 
   function clearScene(){
     nodeMeshes.forEach(m => { scene.remove(m); });
     glowSprites.forEach(s => scene.remove(s));
-    anchorMeshes.forEach(m => scene.remove(m));
     if(linesObj){ scene.remove(linesObj); linesObj.geometry.dispose(); linesObj.material.dispose(); }
     if(focusLinesObj){ scene.remove(focusLinesObj); focusLinesObj.geometry.dispose(); focusLinesObj.material.dispose(); focusLinesObj = null; }
-    nodeMeshes = []; glowSprites = []; anchorMeshes = [];
+    nodeMeshes = []; glowSprites = [];
     focusMode = false; focusStack = [];
   }
 
@@ -706,28 +749,9 @@
 
   function buildScene(){
     clearScene();
-
-    // category anchor hubs
-    anchorOrder.forEach(cid => {
-      const c = catById[cid];
-      const p = anchorPos[cid];
-      const mat = new THREE.MeshBasicMaterial({ color: c.color, transparent: true, opacity: 0.9 });
-      const mesh = new THREE.Mesh(sphereGeo, mat);
-      mesh.scale.setScalar(anchorRadius());
-      mesh.position.set(p.x, p.y, p.z);
-      mesh.userData.anchor = cid;
-      scene.add(mesh);
-      anchorMeshes.push(mesh);
-      const glowMat = new THREE.SpriteMaterial({
-        map: glowTexture, color: c.color, transparent: true, depthWrite: false,
-        blending: THREE.AdditiveBlending, opacity: 0.7,
-      });
-      const glow = new THREE.Sprite(glowMat);
-      glow.scale.setScalar(anchorRadius() * 7);
-      glow.position.set(p.x, p.y, p.z);
-      scene.add(glow);
-      anchorMeshes.push(glow);
-    });
+    // No visible anchor hubs -- category is carried by node color alone
+    // (see the legend); the anchor points still exist invisibly, in the
+    // physics step, to keep each company tier loosely clustered.
 
     // links
     const linePositions = [];
@@ -797,14 +821,6 @@
   function buildLabels(){
     labelsLayer.innerHTML = '';
     labelEls.clear();
-    anchorOrder.forEach(cid => {
-      const div = document.createElement('div');
-      div.className = 'label3d root';
-      div.textContent = catById[cid].name;
-      div.hidden = true;
-      labelsLayer.appendChild(div);
-      labelEls.set('anchor:' + cid, { el: div, pos: anchorPos[cid], always: true });
-    });
     GRAPH.nodes.forEach(n => {
       if(!nodeVisible(n)) return;
       const always = n.deg >= 2;
