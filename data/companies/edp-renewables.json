@@ -1,0 +1,39 @@
+{
+  "id": "edp-renewables",
+  "type": "company",
+  "name": "EDP Renewables",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Houston, Texas",
+  "founded": null,
+  "website": "https://www.edpr.com",
+  "linkedin": "https://www.linkedin.com/company/edp-renewables/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Same as EDP Renewables North America — possible duplicate. Verify and consolidate.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

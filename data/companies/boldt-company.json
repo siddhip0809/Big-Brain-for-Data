@@ -1,0 +1,44 @@
+{
+  "id": "boldt-company",
+  "type": "company",
+  "name": "Boldt Company",
+  "aliases": [
+    "Boldt"
+  ],
+  "industry_role": "industrial logistics developer / general contractor",
+  "headquarters": "Appleton, Wisconsin",
+  "founded": null,
+  "website": "https://www.boldt.com",
+  "linkedin": "https://www.linkedin.com/company/the-boldt-company/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "industrial_logistics_developer",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "GC / Design-Build (Industrial / Healthcare)",
+      "Primary Scope": "National",
+      "DC Exposure Level": "Medium",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "Low"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: GC focused on industrial, healthcare, and mission-critical. Permitting and pre-construction experience for complex facilities. Limited NoVA relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

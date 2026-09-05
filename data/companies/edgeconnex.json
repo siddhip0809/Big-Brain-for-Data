@@ -4,9 +4,9 @@
   "name": "EdgeConneX",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "Herndon, Virginia, United States",
   "founded": null,
-  "website": null,
+  "website": "http://www.edgeconnex.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -17,8 +17,47 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 5 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Acquired by EQT Infrastructure 2020 (~$2.6B); Sixth Street Partners joined as strategic investor, expected close Q4 2024. Liberty Global retains a small rolled-over stake.",
   "sources": [
-    "Clockwork CRM mapping-project export, imported 2026-09-05"
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "Yes",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/edgeconnex/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 760.098,
+      "early_stage_mw": 226.875
+    },
+    "apac": {
+      "total_mw": 86.0,
+      "early_stage_mw": 740.1
+    },
+    "emea": {
+      "total_mw": 837.5,
+      "early_stage_mw": 299.0
+    },
+    "south_america": {
+      "total_mw": 88.6,
+      "early_stage_mw": 17.5
+    }
+  }
 }

@@ -4,9 +4,9 @@
   "name": "Meta",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "Menlo Park, California",
   "founded": null,
-  "website": null,
+  "website": "https://www.meta.com/",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -20,8 +20,38 @@
   ],
   "notes": "Minimal stub record: identified only as the current employer of 6 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.",
   "sources": [
-    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "hyperscaler"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Hyperscale",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/meta/",
+  "headcount": "10001",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 150.0
+    },
+    "emea": {
+      "total_mw": 375.0,
+      "early_stage_mw": 72.0
+    }
+  }
 }

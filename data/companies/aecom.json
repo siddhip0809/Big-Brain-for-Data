@@ -1,0 +1,53 @@
+{
+  "id": "aecom",
+  "type": "company",
+  "name": "AECOM",
+  "aliases": [
+    "AECOM (Mission Critical / Advanced Mfg)"
+  ],
+  "industry_role": "civil land engineering / industrial logistics developer / general contractor",
+  "headquarters": "Dallas, Texas",
+  "founded": null,
+  "website": "http://www.aecom.com",
+  "linkedin": "https://www.linkedin.com/company/aecom/",
+  "headcount": "10,001+",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "industrial_logistics_developer",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "Cold Storage & Industrial Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    },
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Multidisciplinary Engineering / Developer",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "High",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: st\n\nSiddhi's sheet note: Already in civil list. AECOM's mission-critical and advanced manufacturing practice has done permitting for semiconductor fabs and DC campuses. Target their MC and industrial development divisions specifically.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

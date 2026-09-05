@@ -1,0 +1,39 @@
+{
+  "id": "dominion-energy",
+  "type": "company",
+  "name": "Dominion Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Richmond, Virginia",
+  "founded": null,
+  "website": "https://www.dominionenergy.com",
+  "linkedin": "https://www.linkedin.com/company/dominion-energy/",
+  "headcount": "10,001+",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Utility",
+      "Utility Scale": "Yes",
+      "Primary Scope": "Multi Regional",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Mixed / Vertically Integrated",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Large regulated utility. Key power provider in NoVA/Loudoun DC corridor. Active in PJM. Critical for DC interconnection and power procurement in Virginia market.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

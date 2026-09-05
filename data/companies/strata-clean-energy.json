@@ -4,9 +4,9 @@
   "name": "Strata Clean Energy",
   "aliases": [],
   "industry_role": "data center developer",
-  "headquarters": null,
+  "headquarters": "Durham, North Carolina",
   "founded": null,
-  "website": null,
+  "website": "https://www.stratacleanenergy.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -14,10 +14,31 @@
     "Data Center Developer",
     "Renewables"
   ],
-  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.",
+  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nSiddhi's sheet note: Solar and storage developer. Operates in SERC, PJM, MISO, SPP.",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "energy_utilities"
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "developer_operator",
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/strata-clean-energy/",
+  "headcount": "201-500",
+  "dc_exposure_level": "Relevant"
 }

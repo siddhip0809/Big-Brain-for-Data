@@ -33,6 +33,35 @@ Every node also carries these common fields, regardless of type:
 - `financials` — anything known (revenue, valuation, funding raised)
 - `tags` — free-form labels for filtering (e.g. "hyperscale," "colocation,"
   "liquid-cooling")
+- `roles` — the list of industry roles the company plays, and the single
+  source of truth for how the 3D atlas colours it. One or more of:
+  `hyperscaler`, `neocloud`, `cryptomining`, `developer_operator` (the
+  data-center tiers), and `energy_developer`, `general_contractor`,
+  `civil_land_engineering`, `industrial_logistics_developer` (adjacent
+  industries, imported from Siddhi's curated lists 2026-09-05). A company
+  on several lists holds several roles — AECOM is a civil/land engineer, an
+  industrial developer *and* a general contractor — and the atlas draws it
+  as a multi-colour node. The first role in tier order is its primary one.
+- `parent_industry` — WHY the company is in the data-center business:
+  `pure_play` (data centers are its own dedicated business — the
+  direct-tap recruiting pool) or `real_estate` / `energy_utilities` /
+  `telecom` / `construction_engineering` / `diversified_conglomerate`
+  (data centers are one arm of a bigger business — check what a
+  candidate there actually works on)
+- `linkedin`, `headcount` — from Siddhi's lists where available
+  (headcount is the LinkedIn band, e.g. "1,001-5,000")
+- `hyperscale_focus` — "Primary Focus" / "Secondary Focus" from the Data
+  Centre Developer list, when set
+- `capacity_mw` — known MW by region from the Data Centre Developer list,
+  e.g. `{"north_america": {"total_mw": 4615, "early_stage_mw": 784}, ...}`
+  (regions: `north_america`, `emea`, `apac`, `south_america`)
+- `dc_exposure_level` — for adjacent-industry companies: Siddhi's own
+  read of how much data-center work they actually do ("High" / "Medium" /
+  "Low", or "Relevant" / "Not relevant" for energy developers)
+- `source_lists` — which of Siddhi's curated lists the company came from
+- `list_attributes` — every other column from those lists, kept verbatim
+  per list (scope, noise category, energy mix, has-internal-dev-team, …) so
+  nothing typed into the sheets is lost
 
 ### `person` (in `data/people/`)
 - `current_title`

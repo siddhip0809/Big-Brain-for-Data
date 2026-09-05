@@ -1,0 +1,40 @@
+{
+  "id": "burris-logistics",
+  "type": "company",
+  "name": "Burris Logistics",
+  "aliases": [],
+  "industry_role": "industrial logistics developer",
+  "headquarters": "Milford, Delaware",
+  "founded": null,
+  "website": "https://www.burrislogistics.com",
+  "linkedin": "https://www.linkedin.com/company/burris-logistics/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "industrial_logistics_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Cold Storage / 3PL Developer",
+      "Primary Scope": "Regional",
+      "DC Exposure Level": "Low",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "Semi-national",
+      "NoVA Relevance": "Medium"
+    }
+  },
+  "dc_exposure_level": "Low",
+  "notes": "Siddhi's sheet note: Family-owned cold storage and 3PL operator. Active developer of new cold facilities in Mid-Atlantic corridor. Internal real estate/development team with entitlement experience in Virginia and Delaware.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

@@ -108,17 +108,26 @@ legible via the sidebar legend.
 
 - **`build_graph3d_data.py`** — reads `data/companies/` and
   `data/investors/` and writes a flat `graph3d_data.json` of
-  `{categories, parent_industry_meta, nodes, links}` (not a tree, since
-  an investor can back more than one company). Two explicit allowlists
-  decide tier (`TRUE_HYPERSCALER_IDS`, `TRUE_NEOCLOUD_IDS`) rather than
-  trusting the CRM's "Hyperscaler"/"Neo Clouds/AI Infra" tags directly —
-  both tags turned out to mean "this company's people have worked on
-  X-related projects," not "this company IS an X," and were firing on
-  dozens of companies that are really just data center developers/
-  operators. Each company also carries a `parent_industry` (`pure_play`,
-  `real_estate`, `energy_utilities`, `telecom`, `construction_engineering`,
-  or `diversified_conglomerate`) saying whether data centers are the
-  company's own dedicated business or one arm of a bigger one.
+  `{categories, parent_industry_meta, nodes, links, stats}` (not a tree,
+  since an investor can back more than one company). Tier comes from each
+  record's `roles` list (single source of truth since the 2026-09-05
+  import of Siddhi's lists); the allowlists still in the script are only a
+  fallback. History matters here: the CRM's "Hyperscaler" and "Neo
+  Clouds/AI Infra" tags turned out to mean "this company's people have
+  worked on X-related projects," not "this company IS an X," so tier was
+  never trusted to those tags directly. Eight company roles exist — four
+  data-center tiers (Hyperscaler, NeoCloud, Cryptomining pivot,
+  Developer/Operator) and four **adjacent industries** (Energy developer,
+  General contractor, Civil/land engineering, Industrial/cold-storage
+  developer) that the atlas keeps **switched off by default**; a company
+  holding several roles is drawn as a **banded sphere**, one horizontal
+  colour stripe per role. The nine colours were validated together as a
+  CVD-safe set on the dark surface. Each company also carries a
+  `parent_industry` (`pure_play`, `real_estate`, `energy_utilities`,
+  `telecom`, `construction_engineering`, or `diversified_conglomerate`)
+  saying whether data centers are its own dedicated business or one arm
+  of a bigger one. Physics runs only over the nodes currently shown, and
+  the overview camera refits itself to whatever is visible.
 - **`atlas3d_template.html`** — the 3D page itself (data inserted in
   place of `__GRAPH_DATA_JSON__`, same pattern as `atlas_template.html`),
   built with Three.js instead of D3/canvas so you can orbit, zoom, and

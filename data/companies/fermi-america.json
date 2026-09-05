@@ -1,0 +1,48 @@
+{
+  "id": "fermi-america",
+  "type": "company",
+  "name": "Fermi America",
+  "aliases": [],
+  "industry_role": "neocloud",
+  "headquarters": "Amarillo, Texas, United States",
+  "founded": null,
+  "website": "https://fermiamerica.com/",
+  "linkedin": "https://www.linkedin.com/company/fermi-america/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00",
+      "Most helpful following function project": "Utility, Transmission"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet comment: Primarly work in energy, and grid developemnt",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 600.0,
+      "early_stage_mw": 9800.0
+    }
+  }
+}

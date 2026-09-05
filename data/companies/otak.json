@@ -1,0 +1,37 @@
+{
+  "id": "otak",
+  "type": "company",
+  "name": "Otak",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Lake Oswego, Oregon",
+  "founded": null,
+  "website": "https://www.otak.com",
+  "linkedin": "https://www.linkedin.com/company/otak/",
+  "headcount": "201 to 500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "No"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet note: Civil + planning. Pacific Northwest. Limited DC exposure.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

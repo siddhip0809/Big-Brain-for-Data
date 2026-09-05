@@ -4,9 +4,9 @@
   "name": "TeraWulf",
   "aliases": [],
   "industry_role": "data center developer",
-  "headquarters": null,
+  "headquarters": "Easton, Texas, Maryland",
   "founded": null,
-  "website": null,
+  "website": "http://www.terawulf.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -17,8 +17,34 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 2 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nCrypto-mining pivot: originated as a Bitcoin/crypto mining company; now offers AI/HPC data center hosting and colocation, since the power, cooling, and high-density rack infrastructure required is largely the same. Flagged 2026-09-05 per Siddhi's note on the wider industry trend.",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "cryptomining",
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/terawulf/",
+  "headcount": "11 to 50",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 751.5
+    }
+  }
 }

@@ -1,0 +1,51 @@
+{
+  "id": "jacobs",
+  "type": "company",
+  "name": "Jacobs",
+  "aliases": [
+    "Jacobs (Advanced Mfg / Mission Critical)"
+  ],
+  "industry_role": "civil land engineering / industrial logistics developer",
+  "headquarters": "Dallas, Texas",
+  "founded": null,
+  "website": "https://www.jacobs.com",
+  "linkedin": "https://www.linkedin.com/company/jacobs/",
+  "headcount": "10,001+",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "industrial_logistics_developer"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "Cold Storage & Industrial Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    },
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Multidisciplinary Engineering / Developer",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "High",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Large infra EPC. Active in mission-critical and DC projects.\n\nSiddhi's sheet note: Already in civil list. Jacobs has an advanced manufacturing and mission-critical practice with direct semiconductor fab and DC permitting experience. Very strong sourcing target.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

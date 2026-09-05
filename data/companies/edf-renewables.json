@@ -1,0 +1,39 @@
+{
+  "id": "edf-renewables",
+  "type": "company",
+  "name": "EDF Renewables",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "San Diego, California",
+  "founded": null,
+  "website": "https://www.edf-re.com",
+  "linkedin": "https://www.linkedin.com/company/edf-renewables-north-america/",
+  "headcount": "501-1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Same as EDF Renewables North America — possible duplicate. Verify and consolidate.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

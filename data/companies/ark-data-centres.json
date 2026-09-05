@@ -4,9 +4,9 @@
   "name": "Ark Data Centres",
   "aliases": [],
   "industry_role": "data center developer",
-  "headquarters": null,
+  "headquarters": "Corsham, Wiltshire",
   "founded": null,
-  "website": null,
+  "website": "https://arkdatacentres.co.uk",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -15,10 +15,36 @@
     "Data Center Developer",
     "Real Estate Development"
   ],
-  "notes": "Minimal stub record: identified only as the current employer of 2 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Elliott acquired majority/control in 2012; Revcap holds a minority stake. Elliott has been exploring a sale (~\u00a33bn) as of late 2025, not confirmed closed.",
+  "notes": "Minimal stub record: identified only as the current employer of 2 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Elliott acquired majority/control in 2012; Revcap holds a minority stake. Elliott has been exploring a sale (~£3bn) as of late 2025, not confirmed closed.",
   "sources": [
-    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/ark-continuity/",
+  "headcount": "51-200",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 507.8,
+      "early_stage_mw": 91.0
+    }
+  }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "unico-solar-investors",
+  "type": "company",
+  "name": "Unico Solar Investors",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Milwaukee, Wisconsin",
+  "founded": null,
+  "website": "https://www.unicosolar.com",
+  "linkedin": "https://www.linkedin.com/company/unico-solar-investors/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Developer / Financier",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Solar finance and investment. MISO focus. Not a developer. Limited relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

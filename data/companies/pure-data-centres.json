@@ -4,9 +4,9 @@
   "name": "Pure Data Centres",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer / real estate development",
-  "headquarters": null,
+  "headquarters": "London, United Kingdom",
   "founded": null,
-  "website": null,
+  "website": "http://www.puredc.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -17,8 +17,38 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 2 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Oaktree is majority-owned (62%) by Brookfield Asset Management, an indirect ultimate backer.",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/pure-data-centres-group/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 20.0
+    },
+    "emea": {
+      "total_mw": 909.2,
+      "early_stage_mw": 612.0
+    }
+  }
 }

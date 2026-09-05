@@ -1,0 +1,38 @@
+{
+  "id": "td-industries",
+  "type": "company",
+  "name": "TD Industries",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Dallas, Texas",
+  "founded": null,
+  "website": "https://www.tdindustries.com",
+  "linkedin": "https://www.linkedin.com/company/td-industries/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Mechanical + plumbing contractor. Texas. Active DC campus MEP.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

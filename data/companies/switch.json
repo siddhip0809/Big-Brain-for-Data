@@ -2,11 +2,13 @@
   "id": "switch",
   "type": "company",
   "name": "Switch",
-  "aliases": [],
+  "aliases": [
+    "Switch Datacenters"
+  ],
   "industry_role": "hyperscaler / data center developer / real estate development",
-  "headquarters": null,
+  "headquarters": "Las Vegas, Nevada, United States",
   "founded": null,
-  "website": null,
+  "website": "https://www.switch.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -19,8 +21,35 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 18 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Taken private Dec 2022 in an $11B deal.",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/switch-data-centers/",
+  "headcount": "1,001-5,000",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 290.5,
+      "early_stage_mw": 139.0
+    }
+  }
 }

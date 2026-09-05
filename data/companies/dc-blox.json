@@ -4,9 +4,9 @@
   "name": "DC BLOX",
   "aliases": [],
   "industry_role": "data center developer",
-  "headquarters": null,
+  "headquarters": "Atlanta, Georgia, United States",
   "founded": null,
-  "website": null,
+  "website": "https://dcblox.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -17,8 +17,34 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 8 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Bain Capital Credit and Post Road Group led a $187M financing (2021) plus additional equity; GIP provided $240M HoldCo financing (Jan 2026).",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/dcblox-inc-/",
+  "headcount": "51-200",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 597.3,
+      "early_stage_mw": 123.5
+    }
+  }
 }

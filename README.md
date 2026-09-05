@@ -32,22 +32,34 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **190 companies**: Pure Data Centers and STACK Infrastructure (active
-  Ward Search client engagements, hand-written records); the rest
-  identified as current employers of candidates and classified as
-  genuine data center operators/developers/hyperscalers/neocloud-AI-infra
-  companies (minimal stub records — see `viewer/README.md` for the
-  classification rule, tightened twice to exclude general contractors,
-  consultancies, and diversified real estate firms that had slipped in
-  on noisy tag data, most recently 2026-09-05 when a second investor-
-  research round removed 9 more records confirmed not to be data center
-  companies at all — mistagged CRM "current employer" values like an
-  EV-charging company and a healthcare group-purchasing organization —
-  and added 14 new ones, including Stellium Data Centres and a batch of
-  US crypto-mining companies (Cipher Mining, Riot Platforms, MARA
-  Holdings, CleanSpark, Bitfarms, Bitdeer, and others) confirmed to have
-  pivoted into AI/HPC data center hosting, since that infrastructure is
-  largely the same as what mining needs).
+- **1,163 companies** — in two groups, both carried on each record as
+  `roles` (see `docs/schema.md`):
+  - **741 data-center companies** — Pure Data Centers and STACK
+    Infrastructure (active Ward Search client engagements, hand-written
+    records); ~190 more identified as current employers of candidates in
+    Clockwork and classified as genuine operators/developers/hyperscalers/
+    neoclouds (that rule was tightened twice to throw out general
+    contractors, consultancies, and diversified real estate firms that had
+    slipped in on noisy tag data, plus 9 mistagged CRM "current employer"
+    values like an EV-charging company; a 2026-09-05 research round added a
+    batch of US crypto miners — Cipher Mining, Riot Platforms, MARA, Bitfarms,
+    Bitdeer and others — that have pivoted into AI/HPC hosting); and the
+    bulk imported 2026-09-05 from Siddhi's own curated **Data Centre
+    Developer** list (799 rows → 664 kept after skipping the 135 she typed
+    "Other/Not Relevant"), which also brought website, LinkedIn, HQ,
+    headcount, hyperscale focus, and **MW capacity by region** for 638
+    companies.
+  - **422 adjacent-industry companies** from four more of Siddhi's lists —
+    Energy Developers (159), Civil/Land Engineers (116), General
+    Contractors USA (150), Cold Storage & Industrial Developers (29) —
+    kept in the brain with her DC-exposure rating and every column from
+    the sheets, but switched off by default in the 3D atlas. 42 companies
+    sit on more than one list (AECOM is a civil engineer, an industrial
+    developer *and* a GC) and render as multi-colour nodes.
+  Every company also carries a `parent_industry` (`pure_play` vs
+  `real_estate` / `energy_utilities` / `telecom` / `construction_engineering`
+  / `diversified_conglomerate`) — the direct-tap recruiting pool vs.
+  "check what this candidate actually works on."
   Every company also carries a `parent_industry` field: `pure_play` if
   data centers are its own dedicated business (the direct-tap recruiting
   pool), or `real_estate` / `energy_utilities` / `telecom` /

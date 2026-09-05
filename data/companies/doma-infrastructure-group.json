@@ -1,0 +1,46 @@
+{
+  "id": "doma-infrastructure-group",
+  "type": "company",
+  "name": "Doma Infrastructure Group",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": null,
+  "founded": null,
+  "website": "www.domainfra.com",
+  "linkedin": "https://www.linkedin.com/company/doma-infrastructure/",
+  "headcount": "1 to 10",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 50.0,
+      "early_stage_mw": 1450.0
+    }
+  }
+}

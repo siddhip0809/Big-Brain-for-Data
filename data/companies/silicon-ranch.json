@@ -1,0 +1,39 @@
+{
+  "id": "silicon-ranch",
+  "type": "company",
+  "name": "Silicon Ranch",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Nashville, Tennessee",
+  "founded": null,
+  "website": "https://www.siliconranch.com",
+  "linkedin": "https://www.linkedin.com/company/silicon-ranch/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Solar developer and long-term owner-operator. Subsidiary of Shell. Operates primarily in SERC, PJM, SPP, MISO.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

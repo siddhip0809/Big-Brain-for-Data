@@ -14,10 +14,14 @@
     "client-company",
     "data-center-operator"
   ],
-  "notes": "Subtitle in Clockwork reads \"Oaktree-Owned\" \u2014 recorded as a probable investor relationship (see data/investors/oaktree.json); not independently verified.",
+  "notes": "Subtitle in Clockwork reads \"Oaktree-Owned\" — recorded as a probable investor relationship (see data/investors/oaktree.json); not independently verified.",
   "sources": [
     "Clockwork CRM (Ward Search), pulled 2026-09-04"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": []
 }

@@ -4,9 +4,9 @@
   "name": "Nscale",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "London, United Kingdom",
   "founded": null,
-  "website": null,
+  "website": "https://www.nscale.com/",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -17,8 +17,35 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 4 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): VC/strategic-backed (not PE). Aker ASA led a $1.1B Series B; NVIDIA, Dell, Fidelity, Blue Owl, Point72 and others also invested. Valued ~$14.6B as of March 2026.",
   "sources": [
-    "Clockwork CRM mapping-project export, imported 2026-09-05"
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator",
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-07-31 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/nscale-cloud/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 697.0,
+      "early_stage_mw": 467.0
+    }
+  }
 }

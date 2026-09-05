@@ -1,0 +1,39 @@
+{
+  "id": "origis-energy",
+  "type": "company",
+  "name": "Origis Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Miami, Florida",
+  "founded": null,
+  "website": "https://www.originsenergy.com",
+  "linkedin": "https://www.linkedin.com/company/origis-energy/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Solar and storage developer and operator. Operates across PJM, MISO, ERCOT, SERC.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

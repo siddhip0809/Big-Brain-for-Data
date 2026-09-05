@@ -1,0 +1,39 @@
+{
+  "id": "lightsource-bp",
+  "type": "company",
+  "name": "Lightsource bp",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "San Francisco, California",
+  "founded": null,
+  "website": "https://www.lightsourcebp.com",
+  "linkedin": "https://www.linkedin.com/company/lightsource-bp/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Solar and storage developer. Backed by bp. Active hyperscaler PPA partner. Operates across CAISO, ERCOT, PJM, MISO.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

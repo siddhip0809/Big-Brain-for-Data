@@ -1,0 +1,38 @@
+{
+  "id": "bohler",
+  "type": "company",
+  "name": "Bohler",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Warren, New Jersey",
+  "founded": null,
+  "website": "https://www.bohlerengineering.com",
+  "linkedin": "https://www.linkedin.com/company/bohlereng/",
+  "headcount": "501 to 1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: Pure land development. Active in DC campus site work, NoVA/DC markets.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

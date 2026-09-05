@@ -1,0 +1,40 @@
+{
+  "id": "newcold",
+  "type": "company",
+  "name": "NewCold",
+  "aliases": [],
+  "industry_role": "industrial logistics developer",
+  "headquarters": "Eindhoven, Netherlands",
+  "founded": null,
+  "website": "https://www.newcold.com",
+  "linkedin": "https://www.linkedin.com/company/newcold/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "industrial_logistics_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Cold Storage Developer",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "Medium"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Global automated cold storage developer. Builds highly complex, power-intensive automated facilities. Permitting and utility coordination DNA very relevant. Growing US footprint in key DC markets.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

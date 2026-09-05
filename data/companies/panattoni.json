@@ -4,9 +4,9 @@
   "name": "Panattoni",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer / real estate development",
-  "headquarters": null,
+  "headquarters": "Warszawa, Poland",
   "founded": null,
-  "website": null,
+  "website": "http://www.panattonieurope.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -16,10 +16,37 @@
     "Hyperscaler",
     "Real Estate Development"
   ],
-  "notes": "Minimal stub record: identified as the current employer of 3 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): founder-owned (Panattoni family). Privately/founder-owned by the Panattoni family (founded 1986 by Carl Panattoni; Adon Panattoni is Global CEO). No outside PE/VC ownership found.",
+  "notes": "Minimal stub record: identified as the current employer of 3 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): founder-owned (Panattoni family). Privately/founder-owned by the Panattoni family (founded 1986 by Carl Panattoni; Adon Panattoni is Global CEO). No outside PE/VC ownership found.\n\nSiddhi's sheet comment: Real estate / PE firm with DC arm.",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "real_estate"
+  "parent_industry": "real_estate",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/panattoni-europe/",
+  "headcount": "501-1,000",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 88.0,
+      "early_stage_mw": 46.0
+    }
+  }
 }

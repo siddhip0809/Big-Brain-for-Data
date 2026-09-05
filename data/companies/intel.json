@@ -1,0 +1,39 @@
+{
+  "id": "intel",
+  "type": "company",
+  "name": "Intel",
+  "aliases": [],
+  "industry_role": "neocloud",
+  "headquarters": "Santa Clara, California, United States",
+  "founded": null,
+  "website": "https://www.intel.com/content/www/us/en/homepage.html",
+  "linkedin": "https://www.linkedin.com/company/intel-corporation/",
+  "headcount": "10001",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "Yes",
+      "Date Updated": "2026-07-31 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

@@ -4,9 +4,9 @@
   "name": "NVIDIA",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "Santa Clara, California, United States",
   "founded": null,
-  "website": null,
+  "website": "http://www.nvidia.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -15,10 +15,36 @@
     "Hyperscaler",
     "Utilities"
   ],
-  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.",
+  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nTyped \"Hyperscale\" on Siddhi's Data Centre Developer sheet, but not a self-built global hyperscale cloud platform under the working definition (AWS/Google/Microsoft/Meta/Apple + Alibaba/Tencent/Baidu/Huawei) -- filed as Developer/Operator with hyperscale focus; review.",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator",
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "Yes",
+      "Date Updated": "2026-07-31 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/nvidia/",
+  "headcount": "10001",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 30.0
+    }
+  }
 }

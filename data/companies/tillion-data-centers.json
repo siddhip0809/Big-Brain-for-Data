@@ -2,11 +2,13 @@
   "id": "tillion-data-centers",
   "type": "company",
   "name": "Tillion Data Centers",
-  "aliases": [],
+  "aliases": [
+    "Tillion"
+  ],
   "industry_role": "data center developer",
-  "headquarters": null,
+  "headquarters": "Dallas, Texas, United States",
   "founded": null,
-  "website": null,
+  "website": "https://www.tillion.digital/",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -15,8 +17,35 @@
   ],
   "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.",
   "sources": [
-    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "diversified_conglomerate"
+  "parent_industry": "diversified_conglomerate",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/tilliondigital/",
+  "headcount": "11 to 50",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 300.0,
+      "early_stage_mw": 150.0
+    }
+  }
 }

@@ -4,9 +4,9 @@
   "name": "NextEra Energy Resources",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "Juno Beach, Florida",
   "founded": null,
-  "website": null,
+  "website": "https://www.nexteraenergyresources.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -16,10 +16,31 @@
     "Hyperscaler",
     "Utilities"
   ],
-  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.",
+  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nSiddhi's sheet note: Largest renewable energy producer in the US. Active PPA and power procurement partner for hyperscalers. Operates in PJM, MISO, ERCOT, CAISO, SPP markets.",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "energy_utilities"
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "developer_operator",
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/nextera-energy-resources/",
+  "headcount": "10,001+",
+  "dc_exposure_level": "Relevant"
 }

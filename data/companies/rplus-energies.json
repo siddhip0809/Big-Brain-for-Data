@@ -1,0 +1,39 @@
+{
+  "id": "rplus-energies",
+  "type": "company",
+  "name": "rPlus Energies",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Salt Lake City, Utah",
+  "founded": null,
+  "website": "https://www.rplusenergies.com",
+  "linkedin": "https://www.linkedin.com/company/rplus-energies/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Solar, wind, and storage developer. Operates primarily in WECC (Western US).",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

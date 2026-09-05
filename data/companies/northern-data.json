@@ -1,0 +1,48 @@
+{
+  "id": "northern-data",
+  "type": "company",
+  "name": "Northern Data",
+  "aliases": [],
+  "industry_role": "neocloud",
+  "headquarters": "Cape Town, South Africa",
+  "founded": null,
+  "website": "http://www.northerndata.co.za",
+  "linkedin": "https://www.linkedin.com/company/northerndata/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 96.0
+    },
+    "emea": {
+      "total_mw": 0.3
+    }
+  }
+}

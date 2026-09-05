@@ -1,0 +1,37 @@
+{
+  "id": "parsons",
+  "type": "company",
+  "name": "Parsons",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Centreville, Virginia",
+  "founded": null,
+  "website": "https://www.parsons.com",
+  "linkedin": "https://www.linkedin.com/company/parsons-engineering-inc/",
+  "headcount": "1 to 10",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "No"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet note: Infra + defense. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

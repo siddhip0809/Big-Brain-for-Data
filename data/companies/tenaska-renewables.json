@@ -1,0 +1,39 @@
+{
+  "id": "tenaska-renewables",
+  "type": "company",
+  "name": "Tenaska Renewables",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Omaha, Nebraska",
+  "founded": null,
+  "website": "https://www.tenaskarenewables.com",
+  "linkedin": "https://www.linkedin.com/company/tenaska/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Solar, wind, and storage developer. Subsidiary of Tenaska. Operates in ERCOT, MISO, SPP, PJM, WECC.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

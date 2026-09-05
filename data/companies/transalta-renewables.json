@@ -1,0 +1,39 @@
+{
+  "id": "transalta-renewables",
+  "type": "company",
+  "name": "TransAlta Renewables",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Calgary",
+  "founded": null,
+  "website": "https://www.transalta.com",
+  "linkedin": "https://www.linkedin.com/company/transalta/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Canadian IPP with US wind and gas operations. Operates in WECC, MISO, SPP. Good talent pool for power development roles.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

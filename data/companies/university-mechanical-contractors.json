@@ -1,0 +1,38 @@
+{
+  "id": "university-mechanical-contractors",
+  "type": "company",
+  "name": "University Mechanical Contractors (UMC)",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Mukilteo, Washington",
+  "founded": null,
+  "website": "https://www.umci.com",
+  "linkedin": "https://www.linkedin.com/company/umc-inc/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: MEP contractor. Pacific Northwest. Active in DC campus mechanical.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

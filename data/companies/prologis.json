@@ -1,0 +1,59 @@
+{
+  "id": "prologis",
+  "type": "company",
+  "name": "Prologis",
+  "aliases": [
+    "ProLogis (Logistics Dev Team)"
+  ],
+  "industry_role": "developer operator / industrial logistics developer",
+  "headquarters": "San Francisco, California, United States",
+  "founded": null,
+  "website": "http://www.prologis.com",
+  "linkedin": "https://www.linkedin.com/company/prologis/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "developer_operator",
+    "industrial_logistics_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers",
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    },
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Industrial REIT / Developer",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "Medium",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nSiddhi's sheet note: Already in RE list but worth noting separately: Prologis's internal development team for large-format logistics and DC-adjacent sites in NoVA has done complex entitlement work in Loudoun and Prince William counties. Target their development division specifically.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "early_stage_mw": 3380.0
+    }
+  }
+}

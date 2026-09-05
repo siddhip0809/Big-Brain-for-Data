@@ -1,0 +1,39 @@
+{
+  "id": "cypress-creek-renewables",
+  "type": "company",
+  "name": "Cypress Creek Renewables",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Chapel Hill, North Carolina",
+  "founded": null,
+  "website": "https://www.ccrenew.com",
+  "linkedin": "https://www.linkedin.com/company/cypress-creek-renewables/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Solar developer and operator. Strong Southeast and Mid-Atlantic presence. Operates in PJM, MISO, SERC, SPP.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

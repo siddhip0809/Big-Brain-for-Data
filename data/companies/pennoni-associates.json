@@ -1,0 +1,38 @@
+{
+  "id": "pennoni-associates",
+  "type": "company",
+  "name": "Pennoni Associates",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Philadelphia, Pennsylvania",
+  "founded": null,
+  "website": "https://www.pennoni.com",
+  "linkedin": "https://www.linkedin.com/company/pennoni/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Medium",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Low"
+    }
+  },
+  "dc_exposure_level": "Low",
+  "notes": "Siddhi's sheet note: Civil + engineering. Mid-Atlantic. Some DC site exposure.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

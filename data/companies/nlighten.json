@@ -4,9 +4,9 @@
   "name": "nLighten",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "Schiphol-Rijk, North Holland, Netherlands",
   "founded": null,
-  "website": null,
+  "website": "https://www.nlighten.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -16,8 +16,34 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 4 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): I Squared Capital established nLighten in 2021/2023 via its ISQ Global Infrastructure Fund III (committed $500M+).",
   "sources": [
-    "Clockwork CRM mapping-project export, imported 2026-09-05"
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/nlighten-datacenters/",
+  "headcount": "201-500",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 60.706,
+      "early_stage_mw": 5.35
+    }
+  }
 }

@@ -1,0 +1,53 @@
+{
+  "id": "hitt-contracting",
+  "type": "company",
+  "name": "HITT Contracting",
+  "aliases": [
+    "HITT Contracting Inc"
+  ],
+  "industry_role": "civil land engineering / industrial logistics developer / general contractor",
+  "headquarters": "Falls Church, Virginia",
+  "founded": null,
+  "website": "https://www.hitt-gc.com",
+  "linkedin": "https://www.linkedin.com/company/hitt-contracting/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "industrial_logistics_developer",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "Cold Storage & Industrial Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    },
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "GC (Mission Critical Focus)",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "High",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: General contractor. Heavy NoVA DC campus construction.\n\nSiddhi's sheet note: Already in civil list. HITT is one of the most active GCs for DC campus construction in NoVA. Their preconstruction and development services team has direct NoVA permitting experience. Strong sourcing target for NoVA searches.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

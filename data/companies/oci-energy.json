@@ -1,0 +1,39 @@
+{
+  "id": "oci-energy",
+  "type": "company",
+  "name": "OCI Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Houston, Texas",
+  "founded": null,
+  "website": "https://www.ocienergy.com",
+  "linkedin": "https://www.linkedin.com/company/oci-energy/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "Multi Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Solar and storage developer. Operates in ERCOT, MISO, SPP. Backed by OCI Global.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

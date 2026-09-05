@@ -1,0 +1,52 @@
+{
+  "id": "ibm",
+  "type": "company",
+  "name": "IBM",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "Armonk, New York, United States",
+  "founded": null,
+  "website": "http://www.ibm.com",
+  "linkedin": "https://www.linkedin.com/company/ibm/",
+  "headcount": "10001",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Hyperscale",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "Yes",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Typed \"Hyperscale\" on Siddhi's Data Centre Developer sheet, but not a self-built global hyperscale cloud platform under the working definition (AWS/Google/Microsoft/Meta/Apple + Alibaba/Tencent/Baidu/Huawei) -- filed as Developer/Operator with hyperscale focus; review.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 7.5
+    },
+    "emea": {
+      "total_mw": 21.25
+    },
+    "south_america": {
+      "total_mw": 5.6
+    }
+  }
+}

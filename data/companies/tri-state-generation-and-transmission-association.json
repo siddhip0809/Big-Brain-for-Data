@@ -1,0 +1,39 @@
+{
+  "id": "tri-state-generation-and-transmission-association",
+  "type": "company",
+  "name": "Tri-State Generation and Transmission Association",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Westminster, Colorado",
+  "founded": null,
+  "website": "https://www.tristate.coop",
+  "linkedin": "https://www.linkedin.com/company/tri-state-g-t/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Utility",
+      "Utility Scale": "Yes",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Mixed / Vertically Integrated",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Generation and transmission cooperative. WECC/SPP. Serves rural Colorado, Nebraska, Wyoming, New Mexico. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

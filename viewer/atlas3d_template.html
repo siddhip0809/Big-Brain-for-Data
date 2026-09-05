@@ -103,6 +103,10 @@
   }
   .legend-row:hover{ background:var(--panel); }
   .legend-row.off{ opacity:.38; }
+  .legend-heading{
+    font-family:var(--font-mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--text-dim); margin:12px 0 4px; padding-top:10px; border-top:1px dashed var(--border);
+  }
   .swatch{ width:11px; height:11px; border-radius:50%; flex:none; }
   .legend-row .lg-label{ flex:1; }
   .legend-row .lg-count{ font-family:var(--font-mono); color:var(--text-dim); font-size:11px; }
@@ -287,6 +291,12 @@
       each one sits wherever its actual backing pulls it: close to a
       single portfolio company, or toward the middle if it backs a
       spread of them.<br><br>
+      Four <b>adjacent-industry</b> tiers — energy developers, general
+      contractors, civil/land engineers, industrial &amp; cold-storage
+      developers — are in the brain from Siddhi's own lists but start
+      switched off; flip them on in the legend. A company on more than
+      one list shows as a <b>banded</b> node, one colour stripe per role
+      (AECOM: civil + industrial + GC; TeraWulf: crypto pivot + neocloud).<br><br>
       <b>Solid</b> company nodes are pure-play — data centers are the
       whole business, a direct-tap recruiting pool. <b>Faded</b> nodes are
       one arm of a bigger real estate, energy, telecom, or construction
@@ -368,7 +378,8 @@
   // connections instead of reflecting them (that was the visual tension/
   // asymmetry problem). Investors are governed purely by who they've
   // actually backed -- see runForceStep() below.
-  const anchorOrder = ['hyperscaler','neocloud','developer_operator','cryptomining'];
+  // one invisible anchor per company role (DC tiers + adjacent industries)
+  const anchorOrder = CATS.filter(c => c.id !== 'investor').map(c => c.id);
   const anchorPts = fibonacciSpherePoints(anchorOrder.length, ANCHOR_R);
   const anchorPos = {};
   anchorOrder.forEach((cid, i) => { anchorPos[cid] = anchorPts[i]; });
@@ -386,6 +397,16 @@
     }
   });
 
+  // physics runs only over nodes currently shown (adjacent tiers are off by
+  // default), so toggling a big tier on re-settles just what's visible
+  let activeNodes = [], activeLinks = [], activeCoInvestPairs = [];
+  function recomputeActive(){
+    activeNodes = GRAPH.nodes.filter(nodeVisible);
+    const on = new Set(activeNodes.map(n => n.id));
+    activeLinks = GRAPH.links.filter(l => l.sourceNode && l.targetNode && on.has(l.source) && on.has(l.target));
+    activeCoInvestPairs = coInvestPairs.filter(([a, b]) => on.has(a.id) && on.has(b.id));
+  }
+
   // ---------- force-directed layout (custom, run once on load) ----------
   const CLUSTER_JITTER = 120;
   GRAPH.nodes.forEach(n => {
@@ -397,7 +418,7 @@
   });
 
   function runForceStep(){
-    const nodes = GRAPH.nodes;
+    const nodes = activeNodes;
     const N = nodes.length;
     // pairwise repulsion (O(n^2) — fine at this scale, ~264 nodes)
     const REPEL = 4200;
@@ -419,7 +440,7 @@
     // stiff, so an investor with only one backed company nestles close
     // to it instead of stretching out into a long, isolated strand
     const LINK_K = 0.032, LINK_LEN = 85;
-    GRAPH.links.forEach(l => {
+    activeLinks.forEach(l => {
       const a = l.sourceNode, b = l.targetNode;
       if(!a || !b) return;
       const dx = b.px - a.px, dy = b.py - a.py, dz = b.pz - a.pz;
@@ -433,7 +454,7 @@
     // company at least once drift a little closer together -- real,
     // data-driven cohesion instead of an arbitrary "same color" rule
     const COINVEST_K = 0.006, COINVEST_LEN = 60;
-    coInvestPairs.forEach(([a, b]) => {
+    activeCoInvestPairs.forEach(([a, b]) => {
       const dx = b.px - a.px, dy = b.py - a.py, dz = b.pz - a.pz;
       const d = Math.max(1, Math.sqrt(dx*dx + dy*dy + dz*dz));
       if(d <= COINVEST_LEN) return; // already close enough, don't fight repulsion
@@ -487,33 +508,54 @@
 
   // ---------- legend / filters ----------
   const filters = {};
-  CATS.forEach(c => filters[c.id] = true);
+  CATS.forEach(c => filters[c.id] = !c.adjacent); // adjacent industries start hidden
 
   const legendEl = document.getElementById('legend');
+  let headingAdded = false;
   CATS.forEach(c => {
+    if(c.adjacent && !headingAdded){
+      const h = document.createElement('p');
+      h.className = 'legend-heading';
+      h.textContent = 'Adjacent industries · off by default';
+      legendEl.appendChild(h);
+      headingAdded = true;
+    }
     const row = document.createElement('div');
-    row.className = 'legend-row';
+    row.className = 'legend-row' + (filters[c.id] ? '' : ' off');
+    row.dataset.cat = c.id;
     row.innerHTML = `<span class="swatch" style="background:${c.color}"></span>
       <span class="lg-label">${c.name}</span><span class="lg-count">${c.count}</span>`;
     row.addEventListener('click', () => {
       filters[c.id] = !filters[c.id];
-      row.classList.toggle('off', !filters[c.id]);
+      syncLegend();
+      recomputeActive();
       buildScene();
+      for(let i = 0; i < 40; i++) runForceStep(); // pre-settle what just appeared
+      updatePositionsOnly();
+      settleFrames = 60;
+      refitOverview(true);
     });
     legendEl.appendChild(row);
   });
+  function syncLegend(){
+    document.querySelectorAll('.legend-row').forEach(r => r.classList.toggle('off', !filters[r.dataset.cat]));
+  }
 
   const backedCompanyCount = Object.keys(backersOf).length;
   document.getElementById('statNodes').textContent = GRAPH.nodes.length;
   document.getElementById('statLinks').textContent = GRAPH.links.length;
   document.getElementById('statsGrid').innerHTML = `
-    <div class="stat-tile"><div class="num">${GRAPH.stats.companies}</div><div class="lbl">DC Companies</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.dc_companies}</div><div class="lbl">DC Companies</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.adjacent_companies}</div><div class="lbl">Adjacent cos.</div></div>
     <div class="stat-tile"><div class="num">${GRAPH.stats.investors}</div><div class="lbl">Investors</div></div>
     <div class="stat-tile"><div class="num">${backedCompanyCount}</div><div class="lbl">Companies backed</div></div>
-    <div class="stat-tile"><div class="num">${GRAPH.stats.links}</div><div class="lbl">Backing links</div></div>
   `;
 
-  function nodeVisible(n){ return !!filters[n.category]; }
+  // a company shows if ANY of its roles is switched on; investors have their own switch
+  function nodeVisible(n){
+    if(n.kind === 'investor') return !!filters.investor;
+    return (n.roles || [n.category]).some(r => filters[r]);
+  }
 
   // ---------- three.js scene ----------
   const stage = document.getElementById('stage');
@@ -523,8 +565,24 @@
 
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(50, width / height, 1, 6000);
-  const OVERVIEW_CAM = new THREE.Vector3(720, 480, 720);
+  const OVERVIEW_DIR = new THREE.Vector3(720, 480, 720).normalize();
+  const OVERVIEW_CAM = new THREE.Vector3(720, 480, 720); // refit to the settled structure below
   camera.position.copy(OVERVIEW_CAM);
+  // pull the overview camera back far enough to frame whatever is visible
+  function refitOverview(animateTo){
+    let r = 0;
+    activeNodes.forEach(n => { r = Math.max(r, Math.hypot(n.px, n.py, n.pz)); });
+    OVERVIEW_CAM.copy(OVERVIEW_DIR).multiplyScalar(Math.max(750, r * 2.1));
+    if(focusMode) return;
+    if(animateTo){
+      const startCam = camera.position.clone(), startTarget = controls.target.clone();
+      runTween(600, (e) => {
+        camera.position.lerpVectors(startCam, OVERVIEW_CAM, e);
+        controls.target.lerpVectors(startTarget, new THREE.Vector3(0, 0, 0), e);
+        controls.update();
+      });
+    } else { camera.position.copy(OVERVIEW_CAM); controls.update(); }
+  }
 
   const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
@@ -562,6 +620,26 @@
   let nodeMeshes = [], glowSprites = [], linesObj = null;
   let meshByNodeId = {}, glowByNodeId = {};
   const sphereGeo = new THREE.SphereGeometry(1, 12, 12);
+  // multi-role companies get a banded sphere: one horizontal colour band per
+  // role (bands stay visible from the usual side-on camera angles)
+  const multiGeoCache = {};
+  function multiColorGeometry(colors){
+    const key = colors.join('|');
+    if(multiGeoCache[key]) return multiGeoCache[key];
+    const g = new THREE.SphereGeometry(1, 16, 16);
+    const pos = g.attributes.position, k = colors.length;
+    const cols = new Float32Array(pos.count * 3);
+    const tmp = new THREE.Color();
+    for(let i = 0; i < pos.count; i++){
+      const t = (pos.getY(i) + 1) / 2;
+      const band = Math.min(k - 1, Math.floor(t * k));
+      tmp.set(colors[band]);
+      cols[i*3] = tmp.r; cols[i*3+1] = tmp.g; cols[i*3+2] = tmp.b;
+    }
+    g.setAttribute('color', new THREE.BufferAttribute(cols, 3));
+    multiGeoCache[key] = g;
+    return g;
+  }
 
   function clearScene(){
     nodeMeshes.forEach(m => { scene.remove(m); });
@@ -634,7 +712,7 @@
   }
 
   function enterFocus(node){
-    const neighbors = neighborsOf(node);
+    const neighbors = neighborsOf(node).filter(nodeVisible);
     const focusIds = new Set([node.id, ...neighbors.map(nb => nb.id)]);
 
     if(focusMode && focusedNode) focusStack.push(focusedNode.id);
@@ -774,8 +852,12 @@
       const r = radiusForNode(n);
       const c = colorForNode(n);
       const op = nodeOpacity(n);
-      const mat = new THREE.MeshBasicMaterial({ color: c, transparent: true, opacity: op });
-      const mesh = new THREE.Mesh(sphereGeo, mat);
+      const multi = n.kind === 'company' && n.roles && n.roles.length > 1;
+      const mat = multi
+        ? new THREE.MeshBasicMaterial({ vertexColors: true, transparent: true, opacity: op })
+        : new THREE.MeshBasicMaterial({ color: c, transparent: true, opacity: op });
+      const geo = multi ? multiColorGeometry(n.roles.map(r => (catById[r] || {}).color || c)) : sphereGeo;
+      const mesh = new THREE.Mesh(geo, mat);
       mesh.scale.setScalar(r);
       mesh.position.set(n.px, n.py, n.pz);
       mesh.userData.node = n;
@@ -896,6 +978,9 @@
       if(n.kind === 'company' && !n.is_pure_play && piById[n.parent_industry]){
         sub += ' · ' + piById[n.parent_industry].name;
       }
+      if(n.kind === 'company' && n.roles && n.roles.length > 1){
+        sub = n.roles.map(r => (catById[r] || {}).name || r).join(' + ') + ' · ' + sub;
+      }
       tooltip.innerHTML = `<b>${escapeHtml(n.name)}</b><div class="tt-sub">${escapeHtml(sub||'')}</div>`;
       tooltip.style.display = 'block';
     } else {
@@ -941,11 +1026,40 @@
           `<span style="color:${badgeColor}; font-weight:600">${n.is_pure_play ? 'Direct-tap' : 'Needs vetting'}</span>` +
           ` &mdash; ${escapeHtml(pi.name)}<br><span style="color:var(--text-dim); font-size:11.5px">${escapeHtml(pi.note)}</span></div></div>`;
       }
+      if(n.roles && n.roles.length){
+        html += `<div class="tag-row">${n.roles.map(r => { const c = catById[r] || {}; return `<span class="tag" style="border-color:${c.color}88; color:${c.color}">${escapeHtml(c.name || r)}</span>`; }).join('')}</div>`;
+      }
       if(n.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(n.industry_role)}</div></div>`;
       if(n.headquarters) html += `<div class="dt-row"><div class="dt-k">HQ</div><div class="dt-v">${escapeHtml(n.headquarters)}</div></div>`;
+      if(n.headcount) html += `<div class="dt-row"><div class="dt-k">Headcount</div><div class="dt-v">${escapeHtml(n.headcount)}</div></div>`;
       if(n.founded) html += `<div class="dt-row"><div class="dt-k">Founded</div><div class="dt-v">${escapeHtml(n.founded)}</div></div>`;
+      const safeUrl = u => (typeof u === 'string' && /^https?:\/\//i.test(u)) ? u : null;
+      const links = [];
+      if(safeUrl(n.website)) links.push(`<a href="${escapeHtml(n.website)}" target="_blank" rel="noopener" style="color:var(--pure)">Website</a>`);
+      if(safeUrl(n.linkedin)) links.push(`<a href="${escapeHtml(n.linkedin)}" target="_blank" rel="noopener" style="color:var(--pure)">LinkedIn</a>`);
+      if(links.length) html += `<div class="dt-row"><div class="dt-k">Links</div><div class="dt-v">${links.join(' &middot; ')}</div></div>`;
+      if(n.hyperscale_focus) html += `<div class="dt-row"><div class="dt-k">Hyperscale</div><div class="dt-v">${escapeHtml(n.hyperscale_focus)}</div></div>`;
+      if(n.dc_exposure_level) html += `<div class="dt-row"><div class="dt-k">DC exposure</div><div class="dt-v">${escapeHtml(n.dc_exposure_level)}</div></div>`;
+      if(n.capacity_mw){
+        const regions = { north_america:'N. America', emea:'EMEA', apac:'APAC', south_america:'S. America' };
+        const parts = Object.entries(n.capacity_mw).map(([k, v]) => {
+          const bits = [];
+          if(v.total_mw) bits.push(`${Math.round(v.total_mw).toLocaleString()} MW`);
+          if(v.early_stage_mw) bits.push(`+${Math.round(v.early_stage_mw).toLocaleString()} early-stage`);
+          return `<b>${regions[k] || k}</b> ${bits.join(' ')}`;
+        });
+        html += `<div class="dt-row"><div class="dt-k">Capacity</div><div class="dt-v">${parts.join('<br>')}</div></div>`;
+      }
       if(n.description) html += `<p>${escapeHtml(n.description)}</p>`;
       if(n.tags && n.tags.length) html += `<div class="tag-row">${n.tags.map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`;
+      if(n.list_attributes && Object.keys(n.list_attributes).length){
+        Object.entries(n.list_attributes).forEach(([list, attrs]) => {
+          const rows = Object.entries(attrs || {}).filter(([k, v]) => v && !/^(Type|Date Updated)$/.test(k));
+          if(!rows.length) return;
+          html += `<div class="section-label">From: ${escapeHtml(list)} list</div>`;
+          rows.forEach(([k, v]) => { html += `<div class="dt-row"><div class="dt-k">${escapeHtml(k)}</div><div class="dt-v">${escapeHtml(v)}</div></div>`; });
+        });
+      }
       const backers = backersOf[n.id] || [];
       if(backers.length){
         html += `<div class="section-label">Backed by (${backers.length})</div>`;
@@ -986,7 +1100,20 @@
   searchInput.addEventListener('input', () => {
     const q = searchInput.value.trim().toLowerCase();
     if(q.length < 2){ searchResults.classList.remove('open'); return; }
-    const matches = GRAPH.nodes.filter(n => n.name.toLowerCase().includes(q)).slice(0, 10);
+    // rank: exact name > name starts with query > a word starts with it > substring;
+    // ties broken by shorter name (so "Vantage" beats "SUNeVision iAdvantage")
+    const rank = n => {
+      const s = n.name.toLowerCase();
+      const aliasHit = (n.aliases || []).some(a => a.toLowerCase().startsWith(q));
+      if(s === q) return 0;
+      if(s.startsWith(q)) return 1;
+      if(aliasHit || s.split(/[^a-z0-9]+/).some(w => w.startsWith(q))) return 2;
+      return s.includes(q) ? 3 : 9;
+    };
+    const matches = GRAPH.nodes
+      .filter(n => n.name.toLowerCase().includes(q) || (n.aliases || []).some(a => a.toLowerCase().includes(q)))
+      .sort((a, b) => rank(a) - rank(b) || a.name.length - b.name.length)
+      .slice(0, 10);
     if(!matches.length){ searchResults.classList.remove('open'); return; }
     searchResults.innerHTML = matches.map((n, i) =>
       `<div class="search-result" data-idx="${i}"><span>${escapeHtml(n.name)}</span><span class="sr-sub">${escapeHtml(kindBadge(n).text)}</span></div>`
@@ -999,8 +1126,14 @@
         // it fully rebuilds the scene -- preserve it across the rebuild so
         // searching for a node while drilling in doesn't break "Back"
         const wasFocusMode = focusMode, wasFocusedNode = focusedNode, wasStack = focusStack.slice();
-        CATS.forEach(c => { filters[c.id] = true; });
-        document.querySelectorAll('.legend-row').forEach(r => r.classList.remove('off'));
+        // switch on only the tier(s) this node needs -- don't flood the view
+        const needed = target.kind === 'investor' ? ['investor'] : (target.roles || [target.category]);
+        let switchedOn = false;
+        if(!needed.some(r => filters[r])){ needed.forEach(r => { filters[r] = true; }); switchedOn = true; }
+        syncLegend();
+        recomputeActive();
+        // settle the newly shown tier BEFORE focusing, so the target doesn't drift out from under the camera
+        if(switchedOn){ for(let i = 0; i < 80; i++) runForceStep(); settleFrames = 30; refitOverview(false); }
         buildScene();
         if(wasFocusMode && wasFocusedNode && wasFocusedNode.id !== target.id){
           focusStack = wasStack;
@@ -1043,7 +1176,9 @@
 
   // pre-run a batch of steps synchronously so the very first frame is
   // already a reasonable spread (avoids a jarring "explosion" moment)
+  recomputeActive();
   for(let i = 0; i < 60; i++) runForceStep();
+  refitOverview(false);
   buildScene();
   animate();
 })();

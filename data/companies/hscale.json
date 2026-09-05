@@ -4,9 +4,9 @@
   "name": "hscale",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "London, United Kingdom",
   "founded": null,
-  "website": null,
+  "website": "https://hscaledc.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -19,8 +19,34 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 4 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Bain Capital is majority owner; Aquila Group retains ~20% (former owner of the AQ Compute asset base hscale was built from). Dubai Holding reported exploring a stake (June 2026).",
   "sources": [
-    "Clockwork CRM mapping-project export, imported 2026-09-05"
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/hscale/",
+  "headcount": "11 to 50",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 356.0,
+      "early_stage_mw": 323.0
+    }
+  }
 }

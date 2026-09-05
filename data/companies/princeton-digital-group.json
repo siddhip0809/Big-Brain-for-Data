@@ -2,11 +2,13 @@
   "id": "princeton-digital-group",
   "type": "company",
   "name": "Princeton Digital Group",
-  "aliases": [],
+  "aliases": [
+    "Princeton Digital Group (PDG)"
+  ],
   "industry_role": "hyperscaler / data center developer / real estate development",
-  "headquarters": null,
+  "headquarters": "Singapore",
   "founded": null,
-  "website": null,
+  "website": "https://princetondg.com/",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -17,8 +19,35 @@
   ],
   "notes": "Minimal stub record: identified as the current employer of 4 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Co-founded by Warburg Pincus (2017); Mubadala ($350M), OTPP, and Stonepeak (~$1.3B, July 2025) also invested.",
   "sources": [
-    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
-  "parent_industry": "pure_play"
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/princetondg/?originalSubdomain=sg",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 784.75,
+      "early_stage_mw": 496.0
+    }
+  }
 }

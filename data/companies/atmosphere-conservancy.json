@@ -1,0 +1,39 @@
+{
+  "id": "atmosphere-conservancy",
+  "type": "company",
+  "name": "Atmosphere Conservancy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Denver, Colorado",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": "1-10",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Non-Profit",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "No Physical Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Environmental non-profit. Not relevant for commercial talent mapping.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

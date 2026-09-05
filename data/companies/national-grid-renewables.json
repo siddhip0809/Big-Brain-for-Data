@@ -1,0 +1,39 @@
+{
+  "id": "national-grid-renewables",
+  "type": "company",
+  "name": "National Grid Renewables",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Minneapolis, Minnesota",
+  "founded": null,
+  "website": "https://www.nationalgridrenewables.com",
+  "linkedin": "https://www.linkedin.com/company/national-grid-renewables/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Renewable arm of National Grid. Wind, solar, and storage developer. Operates in MISO, PJM, ISO-NE, NYISO.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}
