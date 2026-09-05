@@ -82,3 +82,27 @@ graph after adding new data, this is what happens:
 Because the page embeds a snapshot of the data at build time, it needs to
 be regenerated and republished any time you want the graph to reflect new
 additions to `data/` — just ask.
+
+## 3D prototype (companies + investors only)
+
+There is a second, experimental 3D viewer, deliberately scoped down while
+we get the visual design right: it drops the people layer entirely and
+shows only the 185 data-center companies and 79 private-equity/investor
+backers, spread out in true 3D space (a small custom force-directed
+layout, not a stacked tree) and clustered + colored by tier — Hyperscaler,
+NeoCloud/AI Infra, Data Center Developer/Operator, Cryptomining (reserved,
+currently empty) — with Investors as their own cluster, connected by a
+line to every company they've backed.
+
+- **`build_graph3d_data.py`** — reads `data/companies/` and
+  `data/investors/`, classifies each company into one of the four tiers
+  by its `tags` (priority: NeoCloud/AI Infra tag first, then Hyperscaler,
+  then any crypto-mining tag, else Developer/Operator), and writes a flat
+  `graph3d_data.json` of `{categories, nodes, links}` — not a tree, since
+  an investor can back more than one company.
+- The 3D page itself (built the same way — data inserted into an HTML
+  template, published as a separate Artifact) uses Three.js instead of
+  D3/canvas, so you can orbit, zoom, and click a node in true 3D.
+
+This is a step back in scope on purpose, at your request, so the company
++ investor layer reads cleanly before people are added back in.
