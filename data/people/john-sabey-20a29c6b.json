@@ -1,0 +1,43 @@
+{
+  "id": "john-sabey-20a29c6b",
+  "type": "person",
+  "name": "John Sabey",
+  "current_title": "CEO and Executive Director",
+  "current_company": "Sabey Data Centers",
+  "linkedin": "https://www.linkedin.com/in/john-sabey-143b8",
+  "location": "Medina, Washington",
+  "seniority": "CXO",
+  "industry_segment": "Data Centre",
+  "career_history": "CEO and Executive Director at Sabey Data Centers, 1/2017 to present; President at Sabey Data Centers, 1/2010 to 1/2017; Sr. VP at Sabey Data Centers, 6/1995 to 1/2017; Sabey Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 164,
+      "date_added": "2026-01-09 15:47:02 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 176,
+      "date_added": "2026-01-09 16:05:47 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "sabey-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

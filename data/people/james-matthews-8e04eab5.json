@@ -30,12 +30,23 @@
       "date_updated": "2026-08-11 06:51:38 -0500",
       "sourced_by": "Siddhi Pandit",
       "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 215,
+      "date_added": "2026-04-21 10:07:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
     }
   ],
   "notes": "",
   "sources": [
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
-    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",

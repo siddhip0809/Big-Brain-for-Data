@@ -57,15 +57,14 @@ for p in people:
     by_company.setdefault(cid, []).append(p)
 
 # Every company we track gets a branch, even with zero current employees
-# among these candidates -- so e.g. Prologis (added by request, no
-# candidates yet) or Pure Data Centers (a client, not an employer here,
-# but Oaktree's investment target) still show up.
+# among these candidates -- so e.g. Pure Data Centers (a client, not an
+# employer here, but Oaktree's investment target) still shows up.
 for cid in companies:
     by_company.setdefault(cid, [])
 
 # Department order controls display order within a company; new
 # departments just need adding here.
-DEPARTMENT_ORDER = ("Sales", "Pre-Construction", "Energy & Utilities", "Development")
+DEPARTMENT_ORDER = ("Sales", "Pre-Construction", "Development", "Construction", "Energy & Utilities")
 
 def company_children(cid, bucket_people):
     depts = {}

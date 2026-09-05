@@ -20,13 +20,24 @@
       "date_updated": null,
       "sourced_by": "Siddhi Pandit",
       "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 201,
+      "date_added": "2026-04-21 10:07:22 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
     }
   ],
   "department": "Sales",
   "current_company_id": "nlighten",
   "notes": "",
   "sources": [
-    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
   "last_updated": "2026-09-05"
 }

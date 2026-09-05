@@ -32,25 +32,30 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **52 companies**: Pure Data Centers and STACK Infrastructure (both active
-  Ward Search client engagements, hand-written records); 48 more identified
-  as current employers of candidates and classified as data center
-  operators/developers/hyperscalers/real-estate-developers (minimal stub
-  records — see `viewer/README.md` for the classification rule); and 2
-  (Prologis, Trammell Crow Company) added by hand as known real-estate
-  firms with a dedicated data center arm, currently with no candidates
-  attached
+- **186 companies**: Pure Data Centers and STACK Infrastructure (active
+  Ward Search client engagements, hand-written records); the rest
+  identified as current employers of candidates and classified as
+  genuine data center operators/developers/hyperscalers/neocloud-AI-infra
+  companies (minimal stub records — see `viewer/README.md` for the
+  classification rule, tightened once to exclude general contractors,
+  consultancies, and diversified real estate firms that had slipped in
+  on noisy tag data)
 - **1 investor**: Oaktree Capital Management (inferred from a Clockwork
   subtitle — flagged as unverified, see its entry)
-- **384 people**: candidates from the Pure Data Centers "VP Sales" search
-  and the STACK Infrastructure "Cost Strategy" search, imported from
-  Clockwork exports on 2026-09-04. Each has a `department` — Sales (110),
-  Pre-Construction (271), or Energy & Utilities (3) — and, where their
-  current employer is one of the companies above, a `works_at` link to it.
-  Email, phone, and compensation were deliberately left out of these
-  records (kept in Clockwork only) — see `docs/schema.md`.
-- **565 relationships** connecting the above (candidacy links, employment
-  links, and the one investor link)
+- **1,993 people**: candidates from Ward Search's two active searches
+  (Pure Data Centers "VP Sales," STACK Infrastructure "Cost Strategy")
+  plus their long-term mapping pools, and 5 firm-wide "Long Term Mapping"
+  lists (Sales, Precon, Development, Construction, Utilities) — imported
+  from Clockwork exports across 2026-09-04 – 2026-09-05. Each has a
+  `department` — Sales (547), Pre-Construction (488), Development (445),
+  Construction (322), or Energy & Utilities (191) — and, where their
+  current employer qualifies as a data center company, a `works_at` link
+  to it. Anyone whose employer didn't qualify was **not** kept as an
+  individual profile (see `viewer/README.md`). Email, phone, and
+  compensation were deliberately left out of every record (kept in
+  Clockwork only) — see `docs/schema.md`.
+- **2,631 relationships** connecting the above (candidacy links,
+  employment links, and the one investor link)
 - An interactive visual graph of all of this — see `viewer/README.md`
 
 Placeholder `example-` entries used during initial setup have been removed

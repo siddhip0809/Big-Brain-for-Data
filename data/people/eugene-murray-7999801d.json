@@ -20,13 +20,24 @@
       "date_updated": "2026-07-30 01:40:16 -0500",
       "sourced_by": "Rhea Fernandes",
       "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 85,
+      "date_added": "2025-11-12 14:45:48 UTC",
+      "date_updated": "2025-11-21 06:38:27 -0600",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
     }
   ],
   "department": "Sales",
   "current_company_id": "ndc-garbe-data-centers-europe",
   "notes": "",
   "sources": [
-    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
   "last_updated": "2026-09-05"
 }

@@ -10,39 +10,49 @@ The graph is a **radial tree**, not a free-floating network:
 ```
 Data Center Companies (root)
  ├─ each classified data-center company
- │   ├─ Sales (people currently working there)
- │   ├─ Pre-Construction (people currently working there)
- │   ├─ Energy & Utilities (people currently working there)
+ │   ├─ Sales / Pre-Construction / Development / Construction /
+ │   │  Energy & Utilities (whichever it actually has people in)
  │   └─ investor, if one backs that company (e.g. Oaktree → Pure Data Centers)
  └─ Contractors & Consultants (aggregate branch, hidden by default)
-     ├─ Sales
-     └─ Pre-Construction
+     ├─ Sales / Pre-Construction / Development / ...
 ```
 
 People are grouped by their **actual current employer**, not by which
-recruiting search brought them into Clockwork. A company only gets its own
-branch if at least one candidate's current-employer record carries
-Clockwork's "Data Center Developer," "Hyperscaler," or "Real Estate
-Development" organisation tag — everyone else (general contractors, cost
-consultants, engineering firms — e.g. DPR Construction, Turner &
-Townsend, Mortenson) is grouped into one "Contractors & Consultants"
-branch instead, split the same way by department. That classification is
-a blunt rule on noisy per-candidate tag data, not researched
-company-by-company — worth revisiting if it misclassifies someone you
-know isn't right. A handful of companies (Pure Data Centers, Prologis,
-Trammell Crow Company) were added by hand rather than derived from
-Clockwork data, and show up with zero people until real candidates there
-are added.
+recruiting search brought them into Clockwork. A company only gets its
+own branch if it's a genuine data center **operator, developer,
+hyperscaler, or neocloud/AI-infra company** (cryptomining-to-datacenter
+pivots like TeraWulf, Core Scientific, Hut 8 and IREN count too) —
+general contractors, cost consultants, engineering firms, and diversified
+real estate/logistics developers (e.g. DPR Construction, Turner &
+Townsend, Mortenson, Goodman, Segro) are grouped into one "Contractors &
+Consultants" branch instead, split the same way by department, and their
+individual profiles are **not** kept in `data/people/` at all if their
+employer doesn't qualify.
 
-**Department**, in the tree, means "Sales," "Pre-Construction," or
-"Energy & Utilities" — derived from which recruiting search sourced a
-candidate (Sales-search vs. Development-search) and, within the
-Development-search pool, whether they carry an energy-negotiation or
-energy-engineering skill tag from Clockwork (currently 3 people, all at
-Google). `viewer/build_graph_data.py`'s `DEPARTMENT_ORDER` controls
-display order — new department names beyond it still render, just
-appended at the end, and need a color added to `DEPT_PALETTE` in
-`atlas_template.html` to get their own hue instead of the neutral
+Classification started from Clockwork's per-candidate "Organisation
+Experience" tag, but that tag alone is too noisy to trust on presence
+alone — one mistagged candidate at a 100+-person consultancy like Turner
+& Townsend was enough to wrongly promote the whole company. The working
+rule is now: a company only qualifies if a real majority of its people
+carry a genuine "Data Center Developer," "Hyperscaler," or "Neo
+Clouds/AI Infra" tag (roughly ≥50%, cross-checked against which of these
+companies are actually recognizable operators/developers/hyperscalers/
+neoclouds) — not "at least one candidate somewhere carries it." Revisit
+this by hand if it misclassifies a company you know isn't right;
+`viewer/README.md` (this section) records the reasoning so the next
+pass doesn't have to redo it. Companies with zero current people (Pure
+Data Centers is one) still get a branch as long as they have a
+`data/companies/*.json` record.
+
+**Department** in the tree is one of five: Sales, Pre-Construction,
+Development, Construction, or Energy & Utilities — mostly derived from
+which Long Term Mapping list or active search sourced a candidate, with
+one skill-tag override (an energy-negotiation/engineering tag moves
+someone into Energy & Utilities regardless of source list).
+`viewer/build_graph_data.py`'s `DEPARTMENT_ORDER` controls display
+order — a new department name beyond it still renders, just appended at
+the end, and needs a color added to `DEPT_PALETTE` in
+`atlas_template.html` to get its own hue instead of the neutral
 fallback.
 
 ## Files
