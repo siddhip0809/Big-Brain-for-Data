@@ -822,9 +822,15 @@
 
     // fly the camera in close enough to frame the whole ring
     const ringR = Math.min(60 + Math.max(1, neighbors.length) * 8, 260);
-    const dist = Math.max(140, ringR / Math.tan((camera.fov * Math.PI / 180) / 2) * 1.3);
+    const dist = Math.max(170, ringR / Math.tan((camera.fov * Math.PI / 180) / 2) * 1.6);
     const target = new THREE.Vector3(node.px, node.py, node.pz);
     const dir = new THREE.Vector3().subVectors(camera.position, controls.target).normalize();
+    // the detail panel covers the right side of the stage -- shift the orbit
+    // target so the focused node sits in the middle of the area still visible
+    const panelPx = Math.min(360, width * 0.88);
+    const worldPerPx = (2 * dist * Math.tan((camera.fov * Math.PI / 180) / 2)) / height;
+    const camRight = new THREE.Vector3().crossVectors(camera.up, dir).normalize().negate();
+    target.addScaledVector(camRight, (panelPx / 2) * worldPerPx);
     const newCamPos = target.clone().addScaledVector(dir, dist);
     const startCam = camera.position.clone(), startTarget = controls.target.clone();
     runTween(650, (ease) => {
