@@ -28568,5 +28568,490 @@
       "Web research, 2026-09-05 (surfaced during investor-research rounds)"
     ],
     "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:crusoe",
+    "type": "tenant_of",
+    "detail": "Up to 900MW new AI campus at Abilene, TX adjacent to the Stargate site (Mar 2026; RFS mid-2027) -- after Oracle/OpenAI trimmed the expansion.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:stream-data-centers",
+    "type": "tenant_of",
+    "detail": "Goodyear, AZ campus (~500MW; 280MW critical at full build), 2023-24.",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:qts-data-centers",
+    "type": "tenant_of",
+    "detail": "'Fairwater Atlanta' AI superfactory on QTS's Project Excalibur campus, Fayetteville, GA; building 1 live Oct 2025 (campus ~1.5GW at build-out).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:lambda",
+    "type": "tenant_of",
+    "detail": "Multi-year, multibillion-dollar GB300 NVL72 cloud capacity deal (Nov 2025).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:coreweave",
+    "type": "tenant_of",
+    "detail": "~$10B across 5+ capacity contracts running 2023-2030; declined a further ~$12B option in Mar 2025.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:meta",
+    "to": "company:coreweave",
+    "type": "tenant_of",
+    "detail": "$14.2B (Sep 2025) + ~$21B (Apr 2026) = ~$35.2B of AI capacity through 2031/32.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:meta",
+    "to": "company:nebius",
+    "type": "tenant_of",
+    "detail": "5-year capacity deals: $3B (Nov 2025) expanded to $12B firm + $15B optional (up to $27B) in 2026.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:meta",
+    "to": "company:google",
+    "type": "tenant_of",
+    "detail": "6-year, >$10B Google Cloud capacity agreement (Aug 2025).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:meta",
+    "to": "investor:blue-owl-capital",
+    "type": "jv_partner",
+    "detail": "Hyperion, Richland Parish, LA: $27B 80/20 JV (Blue Owl majority, Oct 2025) with Meta as lessee; 2GW scaling toward 5GW.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:meta",
+    "to": "investor:blackrock",
+    "type": "jv_partner",
+    "detail": "El Paso, TX 1GW campus: $14B strategic venture (Jul 2026, $12.5B debt via GIP/HPS), Meta lease with ~20-yr extensions.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:google",
+    "to": "company:ryan-companies-us-inc",
+    "type": "tenant_of",
+    "detail": "Project Skyway, Pine Island, MN (~250k sq ft; Ryan as developer/builder), 2026.",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:oracle",
+    "to": "company:vantage",
+    "type": "tenant_of",
+    "detail": "Stargate sites for OpenAI: Frontier, Shackelford County, TX (1.4GW, $25B) and Lighthouse, Port Washington, WI (~1GW, $15B).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:oracle",
+    "to": "company:related-digital",
+    "type": "tenant_of",
+    "detail": "Stargate site for OpenAI: Saline Township, MI ('The Barn'), 1.4GW, ~$16B; groundbreaking Jun 2026.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:oracle",
+    "to": "company:stack-infrastructure",
+    "type": "tenant_of",
+    "detail": "Project Jupiter, Dona Ana County, NM (with BorderPlex Digital Assets): Oracle as 18-year tenant; $165B IRB incl. equipment.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:oracle",
+    "to": "company:databank",
+    "type": "tenant_of",
+    "detail": "Anchor tenant on four buildings at Red Oak, TX (DFW9-12; first three = 180MW; campus 480MW); $2B construction loan Apr 2026.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:oracle",
+    "to": "company:digital-realty",
+    "type": "tenant_of",
+    "detail": "Portfolio tenant (500k+ sq ft; ~$267M/yr, Digital Realty's #2 customer).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:aws",
+    "to": "company:stack-infrastructure",
+    "type": "tenant_of",
+    "detail": "Caddo & Bossier Parishes, LA campuses developed by STACK; $12B Amazon investment (Feb 2026; phase 1 early 2028).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:openai",
+    "to": "company:sb-energy",
+    "type": "tenant_of",
+    "detail": "1.2GW Stargate site in Milam County, TX built and operated by SB Energy (Jan 2026); OpenAI + SoftBank invested $1B into SB Energy. Also the 8GW-IT PORTS-Pike campus, Pike County, OH (Aug 2026; Nvidia $105B residual-value guaranty).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:openai",
+    "to": "company:softbank-corp",
+    "type": "tenant_of",
+    "detail": "Lordstown, OH Stargate site (ex-GM/Foxconn plant, ~300MW) via SoftBank's Crescent Dune LLC with Foxconn.",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:openai",
+    "to": "company:khazna-data-centers",
+    "type": "tenant_of",
+    "detail": "Stargate UAE (with G42): 1GW Abu Dhabi campus, 200MW phase 1 ~Q3 2026.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:hut-8",
+    "type": "tenant_of",
+    "detail": "Beacon Point, TX: two 352MW, 15-yr NNN leases ($19.6B base); Lambda operates, Anthropic buys the compute (tenant named Sep 2026).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:nvidia",
+    "to": "company:lambda",
+    "type": "tenant_of",
+    "detail": "~$1.5B, 4-year GPU leaseback (18k GPUs), Sep 2025.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:bytedance",
+    "to": "company:green-mountain-global-data-centers",
+    "type": "tenant_of",
+    "detail": "OSL-Hamar, Norway: 90MW initial scaling to 150MW for TikTok (2023+).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:bytedance",
+    "to": "company:bridge-data-centres",
+    "type": "tenant_of",
+    "detail": "Anchor tenant at MY06, Sedenak Tech Park, Johor (campus 110MW).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:anthropic",
+    "to": "company:nscale",
+    "type": "tenant_of",
+    "detail": "~$45B, 6-year compute capacity agreement for 460MW at the Monarch Compute Campus, Mason County, WV (Aug 2026; reported).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:anthropic",
+    "to": "company:hut-8",
+    "type": "tenant_of",
+    "detail": "End user of Fluidstack's 245MW River Bend, LA lease (ROFO to 1GW; up to 2.295GW for Anthropic), Dec 2025.",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:fluidstack",
+    "to": "company:hut-8",
+    "type": "tenant_of",
+    "detail": "River Bend, West Feliciana Parish, LA: 245MW, 15-yr NNN + options; $7.0B base / $17.7B with options; Google backstop; Anthropic end user.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:fluidstack",
+    "to": "company:terawulf",
+    "type": "tenant_of",
+    "detail": "Lake Mariner, NY: CB-3/CB-4 (200+MW, $3.7B base) + CB-5 (160MW), 10-yr, Google-backstopped (Aug 2025).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:g42-cloud",
+    "to": "company:terawulf",
+    "type": "tenant_of",
+    "detail": "Core42: 72.5MW gross / 60MW IT at Lake Mariner, NY, 10-yr + options, >$1B (Dec 2024).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "company:edgeconnex",
+    "type": "tenant_of",
+    "detail": "Cedar Creek (AUS02), Bastrop County, TX -- building 1 (578k sq ft) of a $1.4B campus, Jul 2026.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "company:digital-realty",
+    "type": "tenant_of",
+    "detail": "Hillsboro, OR, ~36MW (2024).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "company:flexential",
+    "type": "tenant_of",
+    "detail": "Hillsboro, OR and Douglasville, GA capacity (2023-24).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:coreweave",
+    "to": "company:powerhouse-data-centers",
+    "type": "tenant_of",
+    "detail": "$5B multi-site development programme (Plano TX, VA) with Blue Owl / Chirisa (Aug 2024).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:nebius",
+    "to": "company:vantage",
+    "type": "tenant_of",
+    "detail": "CWL1, Newport, Wales -- Nvidia DSX-design capacity (Aug 2026).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:nebius",
+    "to": "company:ark-data-centres",
+    "type": "tenant_of",
+    "detail": "Longcross Park, Surrey, UK: entire existing facility plus a new 36MW LP02; Ark committing GBP807M (2025-26).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:nebius",
+    "to": "company:verne",
+    "type": "tenant_of",
+    "detail": "Keflavik, Iceland capacity (2025).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:lambda",
+    "to": "company:aligned-data-centers",
+    "type": "tenant_of",
+    "detail": "DFW-04, Plano, TX (~425k sq ft, ~$700M), RFS 2026.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:lambda",
+    "to": "company:edgeconnex",
+    "type": "tenant_of",
+    "detail": "Chicago (23MW single-tenant 'AI factory') and Atlanta, 30+MW, RFS 2026.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:lambda",
+    "to": "company:prime-data-centers",
+    "type": "tenant_of",
+    "detail": "LAX01, Vernon, CA: 21MW of 33MW (Nov 2025).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:nscale",
+    "to": "company:bit-digital",
+    "type": "tenant_of",
+    "detail": "WhiteFiber NC-1, Madison, NC: 40MW (2x20), 10-yr, ~$865M (Dec 2025).",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "company:crusoe",
+    "to": "company:atnorth",
+    "type": "tenant_of",
+    "detail": "Iceland capacity expansion with atNorth (2025).",
+    "confidence": "medium",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:ai-infrastructure-partnership-aip",
+    "to": "company:aligned-data-centers",
+    "type": "acquired",
+    "detail": "~$40B acquisition of Aligned by the AI Infrastructure Partnership (BlackRock/GIP, MGX, Microsoft, Nvidia), announced Oct 2025.",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05",
+    "status": "announced"
+  },
+  {
+    "from": "investor:google",
+    "to": "company:terawulf",
+    "type": "invested_in",
+    "detail": "~8% then ~14% equity via Fluidstack lease backstops ($1.8B -> $3.2B), Lake Mariner NY, Aug 2025",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
+  },
+  {
+    "from": "investor:google",
+    "to": "company:cipher-mining",
+    "type": "invested_in",
+    "detail": "5.4% equity via $1.4B -> $1.73B backstop of Fluidstack's Barber Lake, TX leases, Sep-Nov 2025",
+    "confidence": "high",
+    "sources": [
+      "Web research, 2026-09-05 (tenancy research round)"
+    ],
+    "last_updated": "2026-09-05"
   }
 ]

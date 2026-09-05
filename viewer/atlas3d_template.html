@@ -703,6 +703,7 @@
   let focusedNode = null;
   let focusStack = []; // node ids, for "Back"
   let focusLinesObj = null;
+  let focusNeighbors = []; // current ring members, so focus lines can be redrawn every frame
   let displacedIds = []; // node ids currently moved off their "home" position
 
   function neighborsOf(n){
@@ -792,6 +793,8 @@
     if(focusMode && focusedNode) focusStack.push(focusedNode.id);
     focusMode = true;
     focusedNode = node;
+    focusNeighbors = neighbors;
+    settleFrames = 0; // freeze the layout while focused -- ring + lines must not drift
 
     // fade everything not in this node's local neighborhood
     GRAPH.nodes.forEach(n => {
@@ -1225,10 +1228,11 @@
 
   // ---------- settle the force layout, animating the first couple of
   // seconds so it visibly unfurls, then freeze positions ----------
-  let settleFrames = 140;
+  let settleFrames = 60; // most of the settle runs synchronously below
   function animate(){
     requestAnimationFrame(animate);
-    if(settleFrames > 0){
+    if(focusMode && focusedNode) updateFocusLines(focusedNode, focusNeighbors);
+    if(settleFrames > 0 && !focusMode){
       runForceStep();
       updatePositionsOnly();
       settleFrames--;
@@ -1245,7 +1249,7 @@
   // pre-run a batch of steps synchronously so the very first frame is
   // already a reasonable spread (avoids a jarring "explosion" moment)
   recomputeActive();
-  for(let i = 0; i < 60; i++) runForceStep();
+  for(let i = 0; i < 90; i++) runForceStep();
   refitOverview(false);
   buildScene();
   animate();

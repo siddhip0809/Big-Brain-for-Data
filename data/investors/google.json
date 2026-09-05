@@ -1,0 +1,19 @@
+{
+  "id": "google",
+  "type": "investor",
+  "name": "Google",
+  "investor_type": "strategic corporate investor (lease backstops with equity)",
+  "hq": null,
+  "aum": null,
+  "investments": [
+    "terawulf",
+    "cipher-mining"
+  ],
+  "notable_deals": null,
+  "contacts": [],
+  "notes": "Google guarantees (backstops) Fluidstack's AI-hosting leases at former bitcoin-mining sites and takes equity in the landlord in return -- ~$44B of rent guaranteed across ~10 projects / 2.4GW by 2026. Added 2026-09-05; verify against Siddhi's own research.",
+  "sources": [
+    "Web research, 2026-09-05 (tenancy research round)"
+  ],
+  "last_updated": "2026-09-05"
+}
