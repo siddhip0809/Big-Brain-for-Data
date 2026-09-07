@@ -56,10 +56,6 @@ Real data has started loading. Currently in the brain:
     the sheets, but switched off by default in the 3D atlas. 42 companies
     sit on more than one list (AECOM is a civil engineer, an industrial
     developer *and* a GC) and render as multi-colour nodes.
-  Every company also carries a `parent_industry` (`pure_play` vs
-  `real_estate` / `energy_utilities` / `telecom` / `construction_engineering`
-  / `diversified_conglomerate`) — the direct-tap recruiting pool vs.
-  "check what this candidate actually works on."
   Every company also carries a `parent_industry` field: `pure_play` if
   data centers are its own dedicated business (the direct-tap recruiting
   pool), or `real_estate` / `energy_utilities` / `telecom` /
@@ -67,8 +63,8 @@ Real data has started loading. Currently in the brain:
   of a bigger business (e.g. Prologis- or Panattoni-style real estate
   parents, energy companies like NextEra Energy Resources, telecoms like
   NTT) — those need a closer look at what a candidate actually works on.
-- **123 investors**: Oaktree Capital Management (the original entry) plus
-  122 more added from web research into who backs each company (private
+- **124 investors**: Oaktree Capital Management (the original entry) plus
+  123 more added from web research into who backs each company (private
   equity firms, infrastructure funds, sovereign wealth funds, VC) —
   every claim carries a source and a confidence rating on its
   relationship, and every record explicitly says "verify against your

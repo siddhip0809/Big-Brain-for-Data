@@ -110,12 +110,11 @@ legible via the sidebar legend.
   `data/investors/` and writes a flat `graph3d_data.json` of
   `{categories, parent_industry_meta, nodes, links, stats}` (not a tree,
   since an investor can back more than one company). Tier comes from each
-  record's `roles` list (single source of truth since the 2026-09-05
-  import of Siddhi's lists); the allowlists still in the script are only a
-  fallback. History matters here: the CRM's "Hyperscaler" and "Neo
-  Clouds/AI Infra" tags turned out to mean "this company's people have
-  worked on X-related projects," not "this company IS an X," so tier was
-  never trusted to those tags directly. Eight company roles exist — four
+  record's `roles` list — the single source of truth since the 2026-09-05
+  import of Siddhi's lists; the build refuses a record without one. Tier
+  was never derived from the CRM's "Hyperscaler" / "Neo Clouds/AI Infra"
+  tags, which turned out to mean "this company's people have worked on
+  X-related projects," not "this company IS an X." Eight company roles exist — four
   data-center tiers (Hyperscaler, NeoCloud, Cryptomining pivot,
   Developer/Operator) and four **adjacent industries** (Energy developer,
   General contractor, Civil/land engineering, Industrial/cold-storage

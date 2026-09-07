@@ -11,14 +11,6 @@
     --text-muted:#7d95a6;
     --text-dim:#4d6376;
     --pure:#0891b2;
-    --pure-soft:rgba(8,145,178,.22);
-    --stack:#d97706;
-    --stack-soft:rgba(217,119,6,.22);
-    --investor:#9333ea;
-    --investor-soft:rgba(147,51,234,.22);
-    --hub:#fdf6e3;
-    --danger:#ef4444;
-    --danger-soft:rgba(239,68,68,.14);
     --font-display:'Chakra Petch', ui-sans-serif, system-ui, sans-serif;
     --font-body:'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
     --font-mono:'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
@@ -136,14 +128,12 @@
     background-size:34px 34px;
   }
   canvas{ position:absolute; inset:0; width:100%; height:100%; cursor:grab; }
-  canvas.dragging{ cursor:grabbing; }
   .label3d{
     position:absolute; transform:translate(-50%, -50%); white-space:nowrap;
     font-family:'Chakra Petch', sans-serif; font-weight:600; font-size:12px;
     color:#e8f1f7; text-shadow:0 0 6px rgba(0,0,0,.9), 0 0 3px rgba(0,0,0,.9);
     pointer-events:none;
   }
-  .label3d.root{ font-weight:700; font-size:14px; }
 
   .tooltip{
     position:absolute; pointer-events:none; background:var(--panel); border:1px solid var(--border);
@@ -197,10 +187,6 @@
     font-family:var(--font-mono); font-size:10.5px; padding:2px 7px; border-radius:3px;
     border:1px solid var(--border); color:var(--text-muted);
   }
-  .banner-dnc{
-    background:var(--danger-soft); border:1px solid var(--danger); color:#fca5a5;
-    padding:9px 10px; border-radius:6px; font-size:12px; margin-bottom:14px; line-height:1.5;
-  }
   .banner-note{
     background:var(--panel); border:1px dashed var(--border); color:var(--text-dim);
     padding:9px 10px; border-radius:6px; font-size:11px; margin-top:14px; line-height:1.5;
@@ -210,11 +196,6 @@
   }
   .pipeline-entry .pe-title{ font-size:12.5px; margin-bottom:5px; color:var(--text); }
   .pipeline-entry .pe-meta{ font-family:var(--font-mono); font-size:10.5px; color:var(--text-dim); }
-  .career-block{
-    font-family:var(--font-mono); font-size:11.5px; line-height:1.65; color:var(--text-muted);
-    max-height:220px; overflow-y:auto; background:var(--panel); border:1px solid var(--border);
-    border-radius:6px; padding:10px;
-  }
   .section-label{
     font-family:var(--font-mono); font-size:10px; letter-spacing:.09em; text-transform:uppercase;
     color:var(--text-dim); margin:16px 0 8px;
@@ -259,7 +240,7 @@
       <span><b id="statNodes">—</b> NODES</span>
       <span><b id="statLinks">—</b> LINKS</span>
       <div class="divider"></div>
-      <span>REV <b>2026-09-05</b></span>
+      <span>REV <b id="statRev">—</b></span>
     </div>
   </header>
 
@@ -307,7 +288,7 @@
       one arm of a bigger real estate, energy, telecom, or construction
       company (a Prologis, not a STACK) — check the detail panel before
       treating a candidate there as a straight DC hire.<br><br>
-      Source: Clockwork CRM export + web research, 2026-09-05.
+      Source: Clockwork CRM export, Siddhi's company lists, and web research.
     </div>
   </aside>
 
@@ -345,6 +326,12 @@
   const piById = {};
   PARENT_INDUSTRY.forEach(p => piById[p.id] = p);
 
+  function escapeHtml(s){
+    return (s == null ? '' : String(s)).replace(/[&<>"']/g, c => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    }[c]));
+  }
+
   // ---------- node/link index ----------
   const nodeById = {};
   GRAPH.nodes.forEach(n => { n.deg = 0; nodeById[n.id] = n; });
@@ -376,7 +363,7 @@
     jv_partner:  { color: 0x4ade80, opacity: 0.5,  label: 'Joint venture' },
   };
 
-  // ---------- 5 well-separated cluster anchors in 3D (Fibonacci sphere) ----------
+  // ---------- invisible layout anchors, one per company role (Fibonacci sphere) ----------
   const ANCHOR_R = 300;
   function fibonacciSpherePoints(n, radius){
     const pts = [];
@@ -389,14 +376,9 @@
     }
     return pts;
   }
-  // Only the four COMPANY tiers get a fixed anchor point -- each company
-  // belongs to exactly one of these, so a "home" position is coherent.
-  // Investors don't get one: an investor can back companies in every tier
-  // at once, so pinning it to its own arbitrary point fights its real
-  // connections instead of reflecting them (that was the visual tension/
-  // asymmetry problem). Investors are governed purely by who they've
-  // actually backed -- see runForceStep() below.
-  // one invisible anchor per company role (DC tiers + adjacent industries)
+  // Companies get an anchor (a company's primary tier is a coherent "home");
+  // investors don't -- one can back companies in every tier, so it sits
+  // wherever its actual backing and co-investments pull it (runForceStep).
   const anchorOrder = CATS.filter(c => c.id !== 'investor').map(c => c.id);
   const anchorPts = fibonacciSpherePoints(anchorOrder.length, ANCHOR_R);
   const anchorPos = {};
@@ -438,7 +420,7 @@
   function runForceStep(){
     const nodes = activeNodes;
     const N = nodes.length;
-    // pairwise repulsion (O(n^2) — fine at this scale, ~264 nodes)
+    // pairwise repulsion, O(n^2) over the visible nodes only
     const REPEL = 4200;
     for(let i = 0; i < N; i++){
       const a = nodes[i];
@@ -486,10 +468,7 @@
       a.vx += fx; a.vy += fy; a.vz += fz;
       b.vx -= fx; b.vy -= fy; b.vz -= fz;
     });
-    // weak pull back toward each node's own category anchor -- companies
-    // only. Each company belongs to exactly one tier, so a "home" point
-    // is coherent; investors don't get one (see anchorOrder comment above)
-    // and are governed purely by the links and co-investment pulls above.
+    // weak pull toward each company's tier anchor (investors have none)
     const ANCHOR_K = 0.012;
     nodes.forEach(n => {
       if(n.kind !== 'company') return;
@@ -549,6 +528,7 @@
     row.innerHTML = `<span class="swatch" style="background:${c.color}"></span>
       <span class="lg-label">${c.name}</span><span class="lg-count">${c.count}</span>`;
     row.addEventListener('click', () => {
+      if(focusMode) exitFocus();
       filters[c.id] = !filters[c.id];
       syncLegend();
       recomputeActive();
@@ -563,15 +543,13 @@
   function syncLegend(){
     document.querySelectorAll('.legend-row').forEach(r => r.classList.toggle('off', !filters[r.dataset.cat]));
   }
-  const edgeLegendEl = document.getElementById('edgeLegend');
-  if(edgeLegendEl){
-    edgeLegendEl.innerHTML = Object.entries(LINK_STYLE).map(([t, s]) =>
-      `<span class="edge-key"><i style="background:#${s.color.toString(16).padStart(6, '0')}"></i>${s.label}</span>`).join('');
-  }
+  document.getElementById('edgeLegend').innerHTML = Object.values(LINK_STYLE).map(s =>
+    `<span class="edge-key"><i style="background:#${s.color.toString(16).padStart(6, '0')}"></i>${s.label}</span>`).join('');
 
   const backedCompanyCount = Object.keys(backersOf).length;
   document.getElementById('statNodes').textContent = GRAPH.nodes.length;
   document.getElementById('statLinks').textContent = GRAPH.links.length;
+  document.getElementById('statRev').textContent = GRAPH.stats.generated || '';
   document.getElementById('statsGrid').innerHTML = `
     <div class="stat-tile"><div class="num">${GRAPH.stats.dc_companies}</div><div class="lbl">DC Companies</div></div>
     <div class="stat-tile"><div class="num">${GRAPH.stats.adjacent_companies}</div><div class="lbl">Adjacent cos.</div></div>
@@ -596,6 +574,20 @@
   const OVERVIEW_DIR = new THREE.Vector3(720, 480, 720).normalize();
   const OVERVIEW_CAM = new THREE.Vector3(720, 480, 720); // refit to the settled structure below
   camera.position.copy(OVERVIEW_CAM);
+
+  const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.setSize(width, height);
+  container.appendChild(renderer.domElement);
+
+  const controls = new THREE.OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true;
+  controls.dampingFactor = 0.08;
+  controls.target.set(0, 0, 0);
+  controls.minDistance = 60;
+  controls.maxDistance = 2600;
+  controls.update();
+
   // pull the overview camera back far enough to frame whatever is visible
   function refitOverview(animateTo){
     let r = 0;
@@ -612,41 +604,20 @@
     } else { camera.position.copy(OVERVIEW_CAM); controls.update(); }
   }
 
-  const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-  renderer.setSize(width, height);
-  container.appendChild(renderer.domElement);
-
-  const controls = new THREE.OrbitControls(camera, renderer.domElement);
-  controls.enableDamping = true;
-  controls.dampingFactor = 0.08;
-  controls.target.set(0, 0, 0);
-  controls.minDistance = 60;
-  controls.maxDistance = 2600;
-  controls.update();
-
-  function makeCircleTexture(soft){
+  const glowTexture = (() => {
     const c = document.createElement('canvas');
     c.width = c.height = 64;
     const g = c.getContext('2d');
     const grad = g.createRadialGradient(32, 32, 0, 32, 32, 32);
-    if(soft){
-      grad.addColorStop(0, 'rgba(255,255,255,1)');
-      grad.addColorStop(0.4, 'rgba(255,255,255,0.5)');
-      grad.addColorStop(1, 'rgba(255,255,255,0)');
-    } else {
-      grad.addColorStop(0, 'rgba(255,255,255,1)');
-      grad.addColorStop(0.85, 'rgba(255,255,255,1)');
-      grad.addColorStop(1, 'rgba(255,255,255,0)');
-    }
+    grad.addColorStop(0, 'rgba(255,255,255,1)');
+    grad.addColorStop(0.4, 'rgba(255,255,255,0.5)');
+    grad.addColorStop(1, 'rgba(255,255,255,0)');
     g.fillStyle = grad;
     g.fillRect(0, 0, 64, 64);
     return new THREE.CanvasTexture(c);
-  }
-  const glowTexture = makeCircleTexture(true);
+  })();
 
-  let nodeMeshes = [], glowSprites = [], linesObj = null;
-  let meshByNodeId = {}, glowByNodeId = {};
+  let nodeMeshes = [], linesObj = null, meshByNodeId = {}, glowByNodeId = {};
   const sphereGeo = new THREE.SphereGeometry(1, 12, 12);
   // multi-role companies get a banded sphere: one horizontal colour band per
   // role (bands stay visible from the usual side-on camera angles)
@@ -689,12 +660,11 @@
   function disposeGroup(g){ if(!g) return; g.children.forEach(c => { c.geometry.dispose(); c.material.dispose(); }); scene.remove(g); }
 
   function clearScene(){
-    nodeMeshes.forEach(m => { scene.remove(m); });
-    glowSprites.forEach(s => scene.remove(s));
+    nodeMeshes.forEach(m => scene.remove(m));
+    Object.values(glowByNodeId).forEach(g => scene.remove(g));
     disposeGroup(linesObj); linesObj = null;
-    if(focusLinesObj){ scene.remove(focusLinesObj); focusLinesObj.geometry.dispose(); focusLinesObj.material.dispose(); focusLinesObj = null; }
-    nodeMeshes = []; glowSprites = [];
-    focusMode = false; focusStack = [];
+    disposeFocusLines();
+    nodeMeshes = []; meshByNodeId = {}; glowByNodeId = {};
   }
 
   // ---------- focus mode: click a node to zoom in and expand its direct
@@ -703,8 +673,8 @@
   let focusedNode = null;
   let focusStack = []; // node ids, for "Back"
   let focusLinesObj = null;
-  let focusNeighbors = []; // current ring members, so focus lines can be redrawn every frame
-  let displacedIds = []; // node ids currently moved off their "home" position
+  let focusNeighbors = []; // current ring members (lines are redrawn to them every frame)
+  const displacedIds = new Set(); // every node moved off its settled position since focus began
 
   function neighborsOf(n){
     const base = n.kind === 'company' ? (backersOf[n.id] || []) : (portfolioOf[n.id] || []);
@@ -772,25 +742,39 @@
     if(m) m.material.opacity = targetOp;
     if(g) g.material.opacity = targetGlowOp;
   }
+  function moveNode(n, x, y, z){
+    n.px = x; n.py = y; n.pz = z;
+    const m = meshByNodeId[n.id], g = glowByNodeId[n.id];
+    if(m) m.position.set(x, y, z);
+    if(g) g.position.set(x, y, z);
+  }
 
+  function disposeFocusLines(){
+    if(!focusLinesObj) return;
+    scene.remove(focusLinesObj); focusLinesObj.geometry.dispose(); focusLinesObj.material.dispose();
+    focusLinesObj = null;
+  }
   function updateFocusLines(centerNode, neighbors){
-    if(focusLinesObj){ scene.remove(focusLinesObj); focusLinesObj.geometry.dispose(); focusLinesObj.material.dispose(); }
-    const positions = [];
-    neighbors.forEach(nb => {
-      positions.push(centerNode.px, centerNode.py, centerNode.pz, nb.px, nb.py, nb.pz);
-    });
-    const geo = new THREE.BufferGeometry();
-    geo.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
-    const mat = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.55 });
-    focusLinesObj = new THREE.LineSegments(geo, mat);
-    scene.add(focusLinesObj);
+    const need = neighbors.length * 6;
+    if(!focusLinesObj || focusLinesObj.geometry.attributes.position.array.length !== need){
+      disposeFocusLines();
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(need), 3));
+      focusLinesObj = new THREE.LineSegments(geo, new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.55 }));
+      scene.add(focusLinesObj);
+    }
+    const pos = focusLinesObj.geometry.attributes.position;
+    neighbors.forEach((nb, i) => pos.array.set([centerNode.px, centerNode.py, centerNode.pz, nb.px, nb.py, nb.pz], i * 6));
+    pos.needsUpdate = true;
+    focusLinesObj.geometry.computeBoundingSphere();
   }
 
   function enterFocus(node){
     const neighbors = neighborsOf(node).filter(nodeVisible);
     const focusIds = new Set([node.id, ...neighbors.map(nb => nb.id)]);
 
-    if(focusMode && focusedNode) focusStack.push(focusedNode.id);
+    if(!focusMode) GRAPH.nodes.forEach(n => { n.home = [n.px, n.py, n.pz]; }); // where "Back out" returns everything
+    else if(focusedNode && focusedNode.id !== node.id) focusStack.push(focusedNode.id);
     focusMode = true;
     focusedNode = node;
     focusNeighbors = neighbors;
@@ -809,18 +793,12 @@
     // move neighbors into a clean ring around the focused node
     const targets = ringTargetsFor(node, neighbors);
     const starts = targets.map(t => ({ x: t.node.px, y: t.node.py, z: t.node.pz }));
-    displacedIds = targets.map(t => t.node.id);
+    targets.forEach(t => displacedIds.add(t.node.id));
     runTween(650, (ease) => {
       targets.forEach((t, i) => {
         const s = starts[i];
-        t.node.px = s.x + (t.x - s.x) * ease;
-        t.node.py = s.y + (t.y - s.y) * ease;
-        t.node.pz = s.z + (t.z - s.z) * ease;
-        const m = meshByNodeId[t.node.id], g = glowByNodeId[t.node.id];
-        if(m) m.position.set(t.node.px, t.node.py, t.node.pz);
-        if(g) g.position.set(t.node.px, t.node.py, t.node.pz);
+        moveNode(t.node, s.x + (t.x - s.x) * ease, s.y + (t.y - s.y) * ease, s.z + (t.z - s.z) * ease);
       });
-      updateFocusLines(node, neighbors);
     });
 
     // fly the camera in close enough to frame the whole ring
@@ -858,23 +836,18 @@
       setNodeOpacityLive(n.id, m.userData.baseOpacity, glowByNodeId[n.id].userData.baseOpacity);
     });
     if(linesObj) linesObj.visible = true;
-    if(focusLinesObj){ scene.remove(focusLinesObj); focusLinesObj.geometry.dispose(); focusLinesObj.material.dispose(); focusLinesObj = null; }
+    disposeFocusLines();
 
-    // tween displaced nodes back to their settled "home" position
-    const moving = displacedIds.map(id => nodeById[id]).filter(Boolean);
-    const starts = moving.map(n => ({ x: n.px, y: n.py, z: n.pz }));
+    // tween every displaced node back to where the layout had settled
+    const moving = [...displacedIds].map(id => nodeById[id]);
+    const starts = moving.map(n => [n.px, n.py, n.pz]);
     runTween(650, (ease) => {
       moving.forEach((n, i) => {
-        const s = starts[i];
-        n.px = s.x + ((n.homeX !== undefined ? n.homeX : s.x) - s.x) * ease;
-        n.py = s.y + ((n.homeY !== undefined ? n.homeY : s.y) - s.y) * ease;
-        n.pz = s.z + ((n.homeZ !== undefined ? n.homeZ : s.z) - s.z) * ease;
-        const m = meshByNodeId[n.id], g = glowByNodeId[n.id];
-        if(m) m.position.set(n.px, n.py, n.pz);
-        if(g) g.position.set(n.px, n.py, n.pz);
+        const s = starts[i], h = n.home;
+        moveNode(n, s[0] + (h[0] - s[0]) * ease, s[1] + (h[1] - s[1]) * ease, s[2] + (h[2] - s[2]) * ease);
       });
     });
-    displacedIds = [];
+    displacedIds.clear();
 
     const startCam = camera.position.clone(), startTarget = controls.target.clone();
     runTween(650, (ease) => {
@@ -910,16 +883,9 @@
 
   function buildScene(){
     clearScene();
-    // No visible anchor hubs -- category is carried by node color alone
-    // (see the legend); the anchor points still exist invisibly, in the
-    // physics step, to keep each company tier loosely clustered.
-
-    // links -- one LineSegments per relationship type, each its own colour
-    linesObj = buildLineGroup();
+    linesObj = buildLineGroup(); // one LineSegments per relationship type
     scene.add(linesObj);
 
-    // company + investor nodes
-    meshByNodeId = {}; glowByNodeId = {};
     GRAPH.nodes.forEach(n => {
       if(!nodeVisible(n)) return;
       const r = radiusForNode(n);
@@ -948,7 +914,6 @@
       glow.position.set(n.px, n.py, n.pz);
       glow.userData.baseOpacity = 0.55 * op;
       scene.add(glow);
-      glowSprites.push(glow);
       glowByNodeId[n.id] = glow;
     });
 
@@ -956,8 +921,7 @@
   }
 
   function updatePositionsOnly(){
-    nodeMeshes.forEach(m => { const n = m.userData.node; m.position.set(n.px, n.py, n.pz); });
-    glowSprites.forEach((s, i) => { const n = nodeMeshes[i] && nodeMeshes[i].userData.node; if(n) s.position.set(n.px, n.py, n.pz); });
+    nodeMeshes.forEach(m => { const n = m.userData.node; moveNode(n, n.px, n.py, n.pz); });
     if(linesObj){
       const vis = linesObj.visible;
       disposeGroup(linesObj);
@@ -966,8 +930,7 @@
     }
   }
 
-  // ---------- prominent labels: category anchors always on; companies
-  // with a backer + all investors always on; everything else on hover/select ----------
+  // ---------- labels: nodes with 2+ links always; the rest on hover/select/zoom-in ----------
   const labelEls = new Map();
   function buildLabels(){
     labelsLayer.innerHTML = '';
@@ -989,16 +952,12 @@
   function updateLabels(){
     const camDist = camera.position.distanceTo(controls.target);
     const showAll = camDist < PROMINENCE_ZOOM_DIST;
-    labelEls.forEach((entry, id) => {
-      const { el, node, pos, always } = entry;
-      const isSel = node && (node === hoverNode || node === selectedNode);
+    labelEls.forEach(({ el, node, always }) => {
+      const isSel = node === hoverNode || node === selectedNode;
       if(focusMode){
-        // only the focused node + its direct connections get a label
-        const inFocus = node && (node === focusedNode || displacedIds.includes(node.id));
-        if(!inFocus){ el.hidden = true; return; }
+        if(node !== focusedNode && !focusNeighbors.includes(node)){ el.hidden = true; return; } // ring only
       } else if(!always && !isSel && !showAll){ el.hidden = true; return; }
-      const p = node ? node : pos;
-      projVec.set(p.px !== undefined ? p.px : p.x, p.py !== undefined ? p.py : p.y, p.pz !== undefined ? p.pz : p.z).project(camera);
+      projVec.set(node.px, node.py, node.pz).project(camera);
       if(projVec.z > 1){ el.hidden = true; return; }
       el.hidden = false;
       el.style.left = ((projVec.x * 0.5 + 0.5) * width) + 'px';
@@ -1028,12 +987,6 @@
     const hits = raycaster.intersectObjects(nodeMeshes);
     if(hits.length) return hits[0].object.userData.node;
     return null;
-  }
-
-  function escapeHtml(s){
-    return (s == null ? '' : String(s)).replace(/[&<>"']/g, c => ({
-      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-    }[c]));
   }
 
   renderer.domElement.addEventListener('pointermove', (e) => {
@@ -1193,10 +1146,6 @@
     [...searchResults.children].forEach((el, i) => {
       el.addEventListener('click', () => {
         const target = matches[i];
-        // buildScene() (via clearScene) wipes focus-mode bookkeeping since
-        // it fully rebuilds the scene -- preserve it across the rebuild so
-        // searching for a node while drilling in doesn't break "Back"
-        const wasFocusMode = focusMode, wasFocusedNode = focusedNode, wasStack = focusStack.slice();
         // switch on only the tier(s) this node needs -- don't flood the view
         const needed = target.kind === 'investor' ? ['investor'] : (target.roles || [target.category]);
         let switchedOn = false;
@@ -1206,12 +1155,6 @@
         // settle the newly shown tier BEFORE focusing, so the target doesn't drift out from under the camera
         if(switchedOn){ for(let i = 0; i < 80; i++) runForceStep(); settleFrames = 30; refitOverview(false); }
         buildScene();
-        if(wasFocusMode && wasFocusedNode && wasFocusedNode.id !== target.id){
-          focusStack = wasStack;
-          focusStack.push(wasFocusedNode.id);
-        } else if(wasFocusMode){
-          focusStack = wasStack;
-        }
         enterFocus(target);
         searchResults.classList.remove('open');
         searchInput.value = target.name;
@@ -1226,8 +1169,7 @@
   const sidebar = document.getElementById('sidebar');
   document.getElementById('menuBtn').addEventListener('click', () => sidebar.classList.toggle('open'));
 
-  // ---------- settle the force layout, animating the first couple of
-  // seconds so it visibly unfurls, then freeze positions ----------
+  // ---------- render loop: finish settling the layout on screen, then hold ----------
   let settleFrames = 60; // most of the settle runs synchronously below
   function animate(){
     requestAnimationFrame(animate);
@@ -1236,10 +1178,6 @@
       runForceStep();
       updatePositionsOnly();
       settleFrames--;
-      if(settleFrames === 0){
-        // snapshot the settled layout so focus mode can always tween back "home"
-        GRAPH.nodes.forEach(n => { n.homeX = n.px; n.homeY = n.py; n.homeZ = n.pz; });
-      }
     }
     controls.update();
     updateLabels();

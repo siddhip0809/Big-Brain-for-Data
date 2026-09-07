@@ -14,6 +14,7 @@ as multi-colour nodes. The first role by ROLE_PRIORITY is the node's
 primary tier (its colour body and its invisible layout anchor).
 """
 import json, glob, os
+from datetime import date
 
 REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 COMPANIES_DIR = os.path.join(REPO, "data/companies")
@@ -35,22 +36,6 @@ CATS = {
     "investor":           {"name": "Investor",                             "color": "#9333ea", "adjacent": False},
 }
 ROLE_PRIORITY = [c for c in CATS if c != "investor"]
-
-# Fallback only, for any record that somehow lacks `roles` (all records were
-# seeded on 2026-09-05). Kept so the history of these decisions is legible:
-TRUE_HYPERSCALER_IDS = {"aws", "google", "microsoft", "meta", "apple",
-                        "alibaba-cloud", "tencent", "baidu", "huawei-cloud"}
-TRUE_NEOCLOUD_IDS = {"iren", "nebius", "crusoe", "openai", "together-ai",
-                     "applied-digital", "sesterce", "bit-digital"}
-TRUE_CRYPTOMINING_IDS = {"terawulf", "hut-8", "core-scientific", "cipher-mining", "riot-platforms",
-                         "mara-holdings", "cleanspark", "bitfarms", "bitdeer-technologies",
-                         "sphere-3d", "digihost", "soluna-holdings", "mawson-infrastructure-group"}
-
-def fallback_role(company_id):
-    if company_id in TRUE_NEOCLOUD_IDS: return "neocloud"
-    if company_id in TRUE_HYPERSCALER_IDS: return "hyperscaler"
-    if company_id in TRUE_CRYPTOMINING_IDS: return "cryptomining"
-    return "developer_operator"
 
 def primary_role(roles):
     for r in ROLE_PRIORITY:
@@ -78,8 +63,10 @@ nodes, node_ids = [], set()
 company_files = sorted(glob.glob(os.path.join(COMPANIES_DIR, "*.json")))
 for path in company_files:
     d = load_json(path)
-    roles = [r for r in (d.get("roles") or []) if r in CATS] or [fallback_role(d["id"])]
-    parent_industry = d.get("parent_industry") or "pure_play"
+    roles = [r for r in d["roles"] if r in CATS]  # every record carries roles (seeded 2026-09-05)
+    if not roles:
+        raise SystemExit(f"{path}: no recognised role in {d['roles']}")
+    parent_industry = d.get("parent_industry", "pure_play")
     nodes.append({
         "id": d["id"], "name": d["name"], "kind": "company",
         "category": primary_role(roles), "roles": roles,
@@ -151,7 +138,8 @@ out = {
     "nodes": nodes, "links": links,
     "stats": {"companies": len(company_files), "dc_companies": dc_companies,
               "adjacent_companies": adjacent_only, "multi_role_companies": multi_role,
-              "investors": len(investor_files), "links": len(links), "deal_links": deal_edges},
+              "investors": len(investor_files), "links": len(links), "deal_links": deal_edges,
+              "generated": date.today().isoformat()},
 }
 
 out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "graph3d_data.json")
