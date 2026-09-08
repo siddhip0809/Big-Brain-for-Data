@@ -466,6 +466,10 @@
     tenant_of:   { color: 0xf8fafc, opacity: 0.6,  width: 2.2, label: 'Lease / tenant',   variants: { solid: 'confirmed', dashed: 'reported · verify' } },
     acquired:    { color: 0xf59e0b, opacity: 0.85, width: 2.6, label: 'Acquisition',      variants: { solid: 'completed', dashed: 'announced / pending', dotted: 'terminated' } },
     jv_partner:  { color: 0x4ade80, opacity: 0.8,  width: 2.4, label: 'Joint venture',    variants: { solid: 'active' } },
+    // adjacent industries -> data-center core
+    contractor_for:    { color: 0x38bdf8, opacity: 0.7, width: 2.0, label: 'Builds / engineers for', variants: { solid: 'delivered or under way', dashed: 'announced · verify' } },
+    supplies_power_to: { color: 0xef4444, opacity: 0.75, width: 2.2, label: 'Supplies power to',     variants: { solid: 'operating / contracted', dashed: 'announced / MOU · verify', dotted: 'cancelled' } },
+    site_partner:      { color: 0xf472b6, opacity: 0.7, width: 2.0, label: 'Land / campus partner',  variants: { solid: 'done or under way', dashed: 'announced · verify' } },
   };
   const DASH = { dashed: { dashSize: 7, gapSize: 4 }, dotted: { dashSize: 1.6, gapSize: 3.4 } }; // world units
   const SVG_DASH = { solid: '', dashed: '6 3', dotted: '1.5 3' };
@@ -565,6 +569,9 @@
       // company<->company deal links are softer and longer than investor
       // backing, so related companies lean toward each other without
       // being yanked out of their tier cluster
+      // edges between the two zones carry no spring at all: the zones stay
+      // apart and the line itself shows the connection
+      if(a.kind === 'company' && b.kind === 'company' && zoneOf(a) !== zoneOf(b)) return;
       const k = l.type === 'invested_in' ? LINK_K : LINK_K * 0.3;
       const len = l.type === 'invested_in' ? LINK_LEN : LINK_LEN * 1.6;
       const f = (d - len) * k;
@@ -871,8 +878,14 @@
       ['Leases capacity from',  d => d.type === 'tenant_of'  && d.dir === 'out'],
       ['Tenants (leases capacity to)', d => d.type === 'tenant_of' && d.dir === 'in'],
       ['Joint-venture partners', d => d.type === 'jv_partner'],
+      ['Builds / engineers for',  d => d.type === 'contractor_for' && d.dir === 'out'],
+      ['Contractors & engineers', d => d.type === 'contractor_for' && d.dir === 'in'],
+      ['Supplies power to',       d => d.type === 'supplies_power_to' && d.dir === 'out'],
+      ['Power suppliers',         d => d.type === 'supplies_power_to' && d.dir === 'in'],
+      ['Land / campus partners',  d => d.type === 'site_partner'],
     ];
-    let html = '';
+    const hiddenPartners = deals.filter(d => !nodeVisible(d.other)).length;
+    let html = hiddenPartners ? `<div class="banner-note">${hiddenPartners} of these partners sit in the adjacent-industries zone, which is switched off — <a id="showAdjacent" style="color:var(--pure);cursor:pointer">show it</a> to see them in the graph.</div>` : '';
     groups.forEach(([title, test]) => {
       const rows = deals.filter(test);
       if(!rows.length) return;
@@ -1311,6 +1324,14 @@
     detailBody.innerHTML = html;
     const openBtn = document.getElementById('openOrg');
     if(openBtn) openBtn.addEventListener('click', () => openOrg(n));
+    const showAdj = document.getElementById('showAdjacent');
+    if(showAdj) showAdj.addEventListener('click', () => {
+      adjacentIds.forEach(id => { filters[id] = true; });
+      syncLegend(); recomputeActive();
+      for(let i = 0; i < 80; i++) runForceStep();
+      settleFrames = 30; refitOverview(false); buildScene();
+      enterFocus(n);
+    });
   }
 
   // ---------- org chart: the people mapped at one company ----------

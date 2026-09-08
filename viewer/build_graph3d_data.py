@@ -67,10 +67,12 @@ def line_style(rtype, status, confidence):
     """How the atlas draws an edge: solid / dashed / dotted. Acquisitions
     encode status (completed / announced / terminated); every other edge
     encodes confidence (high = solid, anything less = dashed = verify)."""
+    st = (status or "").lower()
+    if any(w in st for w in ("terminated", "rejected", "withdrawn", "abandoned", "cancelled")): return "dotted"
     if rtype == "acquired":
-        st = (status or "").lower()
-        if any(w in st for w in ("terminated", "rejected", "withdrawn", "abandoned")): return "dotted"
         return "solid" if "completed" in st else "dashed"
+    if rtype in ("contractor_for", "supplies_power_to", "site_partner") and any(w in st for w in ("announced", "mou", "proposed", "planned")):
+        return "dashed"  # not yet delivering
     return "solid" if (confidence or "").lower() == "high" else "dashed"
 
 def load_json(path):
@@ -126,7 +128,9 @@ for path in investor_files:
 # company<->company (and investor<->investor) deal edges live in
 # data/relationships.json: acquisitions, tenant/lease relationships, JVs.
 # Only edges whose two endpoints are both nodes in this graph are emitted.
-DEAL_TYPES = {"acquired", "tenant_of", "jv_partner"}
+DEAL_TYPES = {"acquired", "tenant_of", "jv_partner",
+              # adjacent industry -> data-center core (added 2026-09-08)
+              "contractor_for", "supplies_power_to", "site_partner"}
 all_ids = {n["id"] for n in nodes}
 deal_edges = 0
 if True:

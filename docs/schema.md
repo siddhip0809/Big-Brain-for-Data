@@ -161,12 +161,33 @@ added any time):
   from who *owns* a company.
 - `jv_partner` — company ↔ company joint venture on a specific campus or
   platform (direction is not meaningful), e.g. Crusoe ↔ Lancium (Abilene).
+- `contractor_for` — builder/engineer → data-center client (company →
+  company): a general contractor, EPC, civil/land engineer, MEP engineer
+  of record or commissioning firm working on a named campus for an
+  operator or hyperscaler, e.g. Holder Construction → Google. `detail`
+  names the projects; `status` is completed / under construction /
+  announced / ongoing programme. Added 2026-09-08 to connect the
+  adjacent-industry zone to the data-center core.
+- `supplies_power_to` — energy company → data-center company: PPAs,
+  behind-the-meter or co-located generation, nuclear restarts contracted
+  to a hyperscaler, utility large-load agreements. `detail` carries MW /
+  GW, technology, term and year; `status` is operating / contracted /
+  announced / MOU. For a headhunter this is the energy-negotiation and
+  utilities hiring map.
+- `site_partner` — industrial / real-estate developer ↔ data-center
+  company: powered-land sales, build-to-suit development, campus JVs.
 - `partnered_with` — company → company (looser commercial partnership)
 - `competitor_of` — company → company
 
-`acquired`, `tenant_of`, and `jv_partner` edges are drawn in the 3D atlas
-as their own line colours (amber, white, green) alongside violet investor
-backing, and appear in a node's focus ring and detail panel. Each carries a
+`acquired`, `tenant_of`, `jv_partner`, `contractor_for`,
+`supplies_power_to` and `site_partner` edges are drawn in the 3D atlas as
+their own line colours (amber, white, green, sky blue, red, pink)
+alongside violet investor backing, and appear in a node's focus ring and
+detail panel. The dash pattern within a colour encodes status/confidence
+(solid = done or confirmed, dashed = announced or single-source, dotted =
+terminated). The three adjacent-industry types run between the two
+zones of the atlas and deliberately carry no layout spring, so the zones
+stay apart and the line alone shows the connection. Each carries a
 `confidence` (`high` / `medium`) like `invested_in` does — anything below
 `high` came from press reporting rather than an official announcement.
 - `contact_at` — person → investor (a person we know at a fund)
