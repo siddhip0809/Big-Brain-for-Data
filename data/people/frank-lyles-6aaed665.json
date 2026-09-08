@@ -55,5 +55,11 @@
       "end": "10/1990",
       "current": false
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  }
 }

@@ -177,8 +177,12 @@ full-stage overlay for that company:
   Executive → Development → Sales → Pre-Con → Construction → Energy → …),
   most senior first; the top rank in each column is flagged **most
   senior** when it is Director level or above.
-- **By location** — the same people grouped by the last part of their
-  location (state / country), for the location-based view.
+- **By location** — the same people grouped by `location_norm.group`
+  (US state, or country elsewhere), so London never splits across
+  "England" and "United Kingdom".
+- Every column header has a **"N titles"** toggle listing the distinct
+  job titles used in that department (or place) with headcounts — the
+  company's own wording, ready to paste into a search.
 - A text filter matches name, title, location *and past employers* ("who
   at Vantage used to be at Google?").
 - Click any card to expand **past employers** (from the parsed career

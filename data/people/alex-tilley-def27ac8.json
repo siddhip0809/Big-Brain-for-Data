@@ -80,5 +80,11 @@
     {
       "raw": "CloudHQ"
     }
-  ]
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  }
 }

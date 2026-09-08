@@ -94,7 +94,13 @@ Every node also carries these common fields, regardless of type:
   `{title, company, start, end, current}` entries (a fragment that could
   not be parsed is kept as `{raw}`). Past employers in the org chart come
   from the non-current entries.
-- `location`, `linkedin`
+- `location` — Clockwork's free text, kept verbatim. `location_norm` is
+  the cleaned version: `{city, region, country, group}`, where `group` is
+  the US state for US locations and the country elsewhere (so "London,
+  England" and "London, England, United Kingdom" both land under United
+  Kingdom). Typos and metro-area strings are mapped in
+  `scripts/enrich_people.py`.
+- `linkedin`
 - `do_not_contact`, `pipeline` (search/stage/rank/date per Clockwork
   candidacy), `industry_segment`
 - **Never stored:** email, phone, or compensation — those stay in

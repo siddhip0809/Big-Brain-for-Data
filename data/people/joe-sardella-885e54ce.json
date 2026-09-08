@@ -75,5 +75,11 @@
       "company": "QTS Data Centers",
       "current": false
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  }
 }

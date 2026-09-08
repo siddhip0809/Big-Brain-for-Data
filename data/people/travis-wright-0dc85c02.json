@@ -80,5 +80,11 @@
     {
       "raw": "QTS Data Centers"
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  }
 }

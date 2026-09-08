@@ -105,5 +105,11 @@
       "end": "12/1993",
       "current": false
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  }
 }

@@ -4,6 +4,9 @@
   - `seniority_rank`  0 = C-suite/founder ... 5 = individual contributor
                       (Clockwork's own `seniority` wins when present)
   - `career`          the raw career_history string parsed into entries
+  - `location_norm`   {city, region, country, group} from the free-text location
+                      (group = US state, or country elsewhere -- the org chart's
+                      "By location" column)
 See docs/schema.md ("person"). Re-run after importing new people:
     python3 scripts/enrich_people.py          # dry run: prints distributions
     python3 scripts/enrich_people.py --apply  # writes the records
@@ -79,8 +82,98 @@ def parse_career(s):
             out.append({'raw': chunk})
     return out
 
+# ---- locations: Clockwork free text -> {city, region, country, group} ----
+US_STATES = {'AL':'Alabama','AK':'Alaska','AZ':'Arizona','AR':'Arkansas','CA':'California','CO':'Colorado','CT':'Connecticut','DE':'Delaware',
+ 'FL':'Florida','GA':'Georgia','HI':'Hawaii','ID':'Idaho','IL':'Illinois','IN':'Indiana','IA':'Iowa','KS':'Kansas','KY':'Kentucky','LA':'Louisiana',
+ 'ME':'Maine','MD':'Maryland','MA':'Massachusetts','MI':'Michigan','MN':'Minnesota','MS':'Mississippi','MO':'Missouri','MT':'Montana','NE':'Nebraska',
+ 'NV':'Nevada','NH':'New Hampshire','NJ':'New Jersey','NM':'New Mexico','NY':'New York','NC':'North Carolina','ND':'North Dakota','OH':'Ohio',
+ 'OK':'Oklahoma','OR':'Oregon','PA':'Pennsylvania','RI':'Rhode Island','SC':'South Carolina','SD':'South Dakota','TN':'Tennessee','TX':'Texas',
+ 'UT':'Utah','VT':'Vermont','VA':'Virginia','WA':'Washington','WV':'West Virginia','WI':'Wisconsin','WY':'Wyoming'}
+STATE_NAMES = {v.lower(): v for v in US_STATES.values()}
+DC_ALIASES = {'washington dc','dc','washington d.c','washington d.c.','district of columbia','washington, dc'}
+# sub-national regions / aliases -> (region, country)
+REGIONS = {
+ 'queensland':('Queensland','Australia'),'western australia':('Western Australia','Australia'),'lisbon':('Lisbon','Portugal'),
+ 'north rhine-westphalia':('North Rhine-Westphalia','Germany'),'county limerick':('County Limerick','Ireland'),'latium':('Lazio','Italy'),
+ 'community of madrid':('Madrid','Spain'),'maharashtra':('Maharashtra','India'),'texas metropolitan area':('Texas','United States'),
+ 'london':('England','United Kingdom'),
+ # Clockwork typos
+ 'califfornia':('California','United States'),'virrginia':('Virginia','United States'),'ohia':('Ohio','United States'),
+ 'lowa':('Iowa','United States'),'winconsin':('Wisconsin','United States'),'arizon':('Arizona','United States'),
+ 'england':('England','United Kingdom'),'scotland':('Scotland','United Kingdom'),'wales':('Wales','United Kingdom'),
+ 'northern ireland':('Northern Ireland','United Kingdom'),'greater london':('England','United Kingdom'),'uk':(None,'United Kingdom'),
+ 'north holland':('North Holland','Netherlands'),'south holland':('South Holland','Netherlands'),'hessen':('Hesse','Germany'),'hesse':('Hesse','Germany'),
+ 'bavaria':('Bavaria','Germany'),'county dublin':('County Dublin','Ireland'),'leinster':('Leinster','Ireland'),'ontario':('Ontario','Canada'),
+ 'quebec':('Quebec','Canada'),'british columbia':('British Columbia','Canada'),'alberta':('Alberta','Canada'),'uae':(None,'United Arab Emirates'),
+ 'hong kong sar':(None,'Hong Kong'),'hong kong':(None,'Hong Kong'),'lombardy':('Lombardy','Italy'),'vestfold':('Vestfold','Norway'),
+ 'pirkanmaa':('Pirkanmaa','Finland'),'new south wales':('New South Wales','Australia'),'victoria':('Victoria','Australia'),
+ 'ile-de-france':('Île-de-France','France'),'île-de-france':('Île-de-France','France'),'catalonia':('Catalonia','Spain'),'madrid':('Madrid','Spain'),
+}
+COUNTRIES = {c.lower(): c for c in ['United States','United Kingdom','Ireland','Netherlands','France','Germany','Spain','Italy','Norway','Sweden',
+ 'Denmark','Finland','Switzerland','Austria','Belgium','Poland','Portugal','Romania','Singapore','Japan','India','Australia','Canada','Brazil',
+ 'Mexico','Indonesia','Malaysia','Thailand','Hong Kong','United Arab Emirates','Saudi Arabia','South Africa','China','Israel','Luxembourg','Greece',
+ 'Czech Republic','Hungary','Turkey','New Zealand','South Korea','Philippines','Vietnam','Chile','Colombia','Argentina','Nigeria','Kenya','Egypt']}
+COUNTRY_ALIASES = {'usa':'United States','us':'United States','u.s.':'United States','uk':'United Kingdom','great britain':'United Kingdom',
+ 'holland':'Netherlands','the netherlands':'Netherlands','uae':'United Arab Emirates','hong kong sar':'Hong Kong','czechia':'Czech Republic',
+ 'republic of ireland':'Ireland','korea':'South Korea'}
+# metro areas / lone cities -> (city, region, country)
+PLACES = {
+ 'houston':('Houston','Texas','United States'),'phoenix':('Phoenix','Arizona','United States'),'san francisco':('San Francisco','California','United States'),
+ 'herndon':('Herndon','Virginia','United States'),'gold canyon':('Gold Canyon','Arizona','United States'),'seoul':('Seoul',None,'South Korea'),
+ 'taiwan':(None,None,'Taiwan'),'greater tokyo area':('Tokyo',None,'Japan'),'greater milwaukee':('Milwaukee','Wisconsin','United States'),
+ 'greater sacramento':('Sacramento','California','United States'),'las vegas metropolitan area':('Las Vegas','Nevada','United States'),
+ 'louisville metropolitan area':('Louisville','Kentucky','United States'),'mumbai':('Mumbai','Maharashtra','India'),
+ 'san francisco bay area':('San Francisco Bay Area','California','United States'),'new york city metropolitan area':('New York City','New York','United States'),
+ 'greater new york city area':('New York City','New York','United States'),'atlanta metropolitan area':('Atlanta','Georgia','United States'),
+ 'dallas-fort worth metroplex':('Dallas-Fort Worth','Texas','United States'),'greater chicago area':('Chicago','Illinois','United States'),
+ 'detroit metropolitan area':('Detroit','Michigan','United States'),'greater minneapolis-st. paul area':('Minneapolis-St. Paul','Minnesota','United States'),
+ 'greater richmond region':('Richmond','Virginia','United States'),'greater seattle area':('Seattle','Washington','United States'),
+ 'greater phoenix area':('Phoenix','Arizona','United States'),'denver metropolitan area':('Denver','Colorado','United States'),
+ 'greater boston':('Boston','Massachusetts','United States'),'washington dc-baltimore area':('Washington','Washington, DC','United States'),
+ 'greater houston':('Houston','Texas','United States'),'los angeles metropolitan area':('Los Angeles','California','United States'),
+ 'greater rio de janeiro':('Rio de Janeiro','Rio de Janeiro','Brazil'),'greater paris metropolitan region':('Paris','Île-de-France','France'),
+ 'greater london':('London','England','United Kingdom'),
+ 'seattle':('Seattle','Washington','United States'),'frisco':('Frisco','Texas','United States'),'lorton':('Lorton','Virginia','United States'),
+ 'london':('London','England','United Kingdom'),'oxford':('Oxford','England','United Kingdom'),'dublin':('Dublin','County Dublin','Ireland'),
+ 'milan':('Milan','Lombardy','Italy'),'nice':('Nice',None,'France'),'marseille':('Marseille',None,'France'),'paris':('Paris','Île-de-France','France'),
+ 'tokyo':('Tokyo',None,'Japan'),'dubai':('Dubai',None,'United Arab Emirates'),'oslo':('Oslo',None,'Norway'),'jakarta':('Jakarta',None,'Indonesia'),
+ 'singapore':('Singapore',None,'Singapore'),'hong kong':('Hong Kong',None,'Hong Kong'),'amsterdam':('Amsterdam','North Holland','Netherlands'),
+ 'frankfurt':('Frankfurt','Hesse','Germany'),'madrid':('Madrid','Madrid','Spain'),'sydney':('Sydney','New South Wales','Australia'),
+}
+def normalise_location(raw):
+    toks = [t.strip() for t in (raw or '').replace(' ,', ',').split(',')]
+    toks = [t for t in toks if t and any(ch.isalpha() for ch in t)]
+    city = region = country = None
+    if not toks: return None
+    # whole string or first token is a known place / metro area
+    key = ', '.join(toks).lower()
+    if key in PLACES or (len(toks) == 1 and toks[0].lower() in PLACES):
+        city, region, country = PLACES.get(key) or PLACES[toks[0].lower()]
+    else:
+        rest = []
+        for t in toks:
+            tl = t.lower().rstrip('.')
+            if tl in DC_ALIASES or t in ('DC',): region = region or 'Washington, DC'; country = 'United States'
+            elif t.upper() in US_STATES and (t.isupper() or len(t) == 2): region = region or US_STATES[t.upper()]; country = 'United States'
+            elif tl in STATE_NAMES: region = region or STATE_NAMES[tl]; country = 'United States'
+            elif tl in REGIONS: r, c = REGIONS[tl]; region = region or r; country = country or c
+            elif tl in COUNTRY_ALIASES: country = COUNTRY_ALIASES[tl]
+            elif tl in COUNTRIES: country = COUNTRIES[tl]
+            else: rest.append(t)
+        if rest:
+            first = rest[0].lower()
+            if first in PLACES:
+                c2, r2, k2 = PLACES[first]; city = c2; region = region or r2; country = country or k2
+            else:
+                city = rest[0]
+    if country == 'United States' and region and city and city.lower() == region.lower(): city = None
+    if not country and not region and not city: return None
+    group = region if country == 'United States' and region else (country or region or city)
+    return {'city': city, 'region': region, 'country': country, 'group': group}
+
 files = sorted(glob.glob(os.path.join(REPO, 'data/people/*.json')))
-fn_c, sn_c, unparsed = collections.Counter(), collections.Counter(), 0
+fn_c, sn_c, loc_c, unparsed = collections.Counter(), collections.Counter(), collections.Counter(), 0
+loc_nocountry = []
 sample = collections.defaultdict(list)
 for path in files:
     p = json.load(open(path))
@@ -88,6 +181,9 @@ for path in files:
     fn, fn_src = function_for(p)
     career = parse_career(p.get('career_history'))
     unparsed += sum(1 for c in career if 'raw' in c)
+    loc = normalise_location(p.get('location'))
+    loc_c[(loc or {}).get('group')] += 1
+    if loc and not loc.get('country'): loc_nocountry.append(p.get('location'))
     fn_c[fn] += 1; sn_c[label] += 1
     if len(sample[fn]) < 6: sample[fn].append(p.get('current_title'))
     if APPLY:
@@ -97,8 +193,11 @@ for path in files:
         p['seniority_label'] = label
         if not p.get('seniority'): p['seniority_source'] = 'derived from title'
         p['career'] = career
+        p['location_norm'] = loc
         json.dump(p, open(path, 'w'), indent=2, ensure_ascii=False); open(path,'a').write('\n')
 
 print('functions:', fn_c.most_common()); print('seniority:', sn_c.most_common()); print('unparsed career entries:', unparsed)
 for fn, ts in sample.items(): print(f'  {fn}: {ts}')
+print('location groups:', loc_c.most_common(45))
+print('locations without a country (%d):' % len(loc_nocountry), sorted(set(loc_nocountry))[:60])
 print('APPLIED' if APPLY else 'dry run')

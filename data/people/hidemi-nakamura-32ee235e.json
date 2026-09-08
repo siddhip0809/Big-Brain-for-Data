@@ -40,5 +40,11 @@
       "company": "Vantage",
       "current": false
     }
-  ]
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Japan",
+    "group": "Japan"
+  }
 }

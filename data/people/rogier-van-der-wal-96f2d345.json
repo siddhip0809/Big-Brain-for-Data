@@ -134,5 +134,11 @@
       "end": "2/2001",
       "current": false
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "France",
+    "group": "France"
+  }
 }

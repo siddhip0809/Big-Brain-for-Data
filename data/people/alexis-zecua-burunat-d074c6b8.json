@@ -143,5 +143,11 @@
     {
       "raw": "Compass Datacenters"
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "Toronto",
+    "region": "Ontario",
+    "country": "Canada",
+    "group": "Canada"
+  }
 }

@@ -160,5 +160,11 @@
       "end": "2000",
       "current": false
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  }
 }

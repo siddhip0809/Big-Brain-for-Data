@@ -94,5 +94,11 @@
     {
       "raw": "T5 Data Centers"
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  }
 }

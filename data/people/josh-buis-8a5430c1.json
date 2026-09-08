@@ -136,5 +136,11 @@
       "end": "8/1999",
       "current": false
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  }
 }

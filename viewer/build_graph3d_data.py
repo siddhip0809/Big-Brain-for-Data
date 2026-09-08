@@ -140,7 +140,7 @@ for path in sorted(glob.glob(os.path.join(PEOPLE_DIR, "*.json"))):
         "id": d["id"], "name": d["name"], "title": d.get("current_title"),
         "function": d.get("function") or "Unclassified", "function_source": d.get("function_source"),
         "rank": d.get("seniority_rank", 5), "seniority": d.get("seniority_label"),
-        "location": d.get("location"), "linkedin": d.get("linkedin"),
+        "location": d.get("location"), "loc": d.get("location_norm"), "linkedin": d.get("linkedin"),
         "department": d.get("department"), "do_not_contact": bool(d.get("do_not_contact")),
         "since": (current[0].get("start") if current else None), "past": past,
     })

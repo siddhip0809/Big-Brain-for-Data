@@ -98,5 +98,11 @@
       "end": "8/1999",
       "current": false
     }
-  ]
+  ],
+  "location_norm": {
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  }
 }

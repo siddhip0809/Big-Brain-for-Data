@@ -249,6 +249,10 @@
     font-family:var(--font-display); font-size:12.5px; letter-spacing:.03em; position:sticky; top:0; background:var(--panel-2); border-radius:8px 8px 0 0;
   }
   .org-col-head span{ font-family:var(--font-mono); color:var(--text-dim); font-size:11px; }
+  .org-col-head a{ color:var(--pure); cursor:pointer; }
+  .org-titles{ padding:6px 10px 8px; border-bottom:1px solid var(--border); background:var(--panel); font-size:11px; }
+  .org-titles .title-row{ display:flex; justify-content:space-between; gap:8px; padding:3px 0; color:var(--text-muted); }
+  .org-titles .title-row span:last-child{ font-family:var(--font-mono); color:var(--text-dim); flex:none; }
   .org-col-body{ padding:8px; display:flex; flex-direction:column; gap:6px; max-height:calc(100vh - 330px); overflow-y:auto; }
   .pcard{
     background:var(--panel); border:1px solid var(--border); border-radius:6px; padding:8px 10px; cursor:pointer;
@@ -1277,17 +1281,18 @@
   let orgCompany = null, orgMode = 'function';
 
   function shortTitle(t){ return (t || '').length > 44 ? t.slice(0, 42) + '…' : (t || ''); }
-  function regionOf(loc){
-    if(!loc || !/[a-z]/i.test(loc)) return 'Location unknown';
-    const parts = loc.split(',').map(x => x.trim()).filter(Boolean);
-    return parts[parts.length - 1] || loc;
+  const regionOf = p => (p.loc && p.loc.group) || 'Location unknown';
+  function placeOf(p){ // "London, England" / "Denver, Colorado" / "Singapore"
+    if(!p.loc) return p.location || '';
+    return [p.loc.city, p.loc.region, (!p.loc.region || p.loc.country !== 'United States') ? p.loc.country : null]
+      .filter((x, i, arr) => x && arr.indexOf(x) === i).join(', ');
   }
   // -> [[groupName, people(sorted most senior first)], ...]; departments in
   // house order, locations by size
   function groupBy(ppl, mode){
     const g = {};
     ppl.forEach(p => {
-      const k = mode === 'function' ? (p.function || 'Unclassified') : regionOf(p.location);
+      const k = mode === 'function' ? (p.function || 'Unclassified') : regionOf(p);
       (g[k] = g[k] || []).push(p);
     });
     const entries = Object.entries(g);
@@ -1300,7 +1305,7 @@
   }
   function personMatches(p, q){
     if(!q) return true;
-    const hay = [p.name, p.title, p.location, p.seniority, p.function, ...(p.past || []).map(j => j.company + ' ' + (j.title || ''))].join(' ').toLowerCase();
+    const hay = [p.name, p.title, p.location, placeOf(p), regionOf(p), p.seniority, p.function, ...(p.past || []).map(j => j.company + ' ' + (j.title || ''))].join(' ').toLowerCase();
     return hay.includes(q);
   }
   function personCard(p, isLead){
@@ -1308,7 +1313,7 @@
     if(isLead) pills.push('<span class="pill lead">most senior</span>');
     if(p.do_not_contact) pills.push('<span class="pill dnc">do not contact</span>');
     const meta = [p.seniority ? `<span class="sen">${escapeHtml(p.seniority)}</span>` : '',
-                  p.location ? escapeHtml(p.location) : '',
+                  escapeHtml(placeOf(p)),
                   p.since ? `since ${escapeHtml(p.since)}` : ''].filter(Boolean).join(' · ');
     const job = j => `<div class="job"><span class="yrs">${escapeHtml((j.start || '?') + '–' + (j.end || '?'))}</span><span><b>${escapeHtml(j.company)}</b>${j.title ? ' — ' + escapeHtml(j.title) : ''}</span></div>`;
     const past = (p.past || []).filter(j => !j.same_employer).map(job).join('');
@@ -1344,7 +1349,12 @@
     const groups = groupBy(ppl, orgMode);
     orgBody.innerHTML = groups.length ? groups.map(([name, rows]) => {
       const leadRank = rows[0].rank;
-      return `<div class="org-col"><div class="org-col-head"><div>${escapeHtml(name)}</div><span>${rows.length}</span></div>
+      const titles = {};
+      rows.forEach(p => { const t = (p.title || '').trim(); if(t) titles[t] = (titles[t] || 0) + 1; });
+      const titleRows = Object.entries(titles).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      return `<div class="org-col"><div class="org-col-head"><div>${escapeHtml(name)}</div>
+          <span>${rows.length} · <a class="titles-toggle">${titleRows.length} titles</a></span></div>
+        <div class="org-titles" hidden>${titleRows.map(([t, c]) => `<div class="title-row"><span>${escapeHtml(t)}</span><span>${c}</span></div>`).join('')}</div>
         <div class="org-col-body">${rows.map(p => personCard(p, p.rank === leadRank && leadRank <= 3)).join('')}</div></div>`;
     }).join('') : '<div class="org-empty">Nobody matches that filter.</div>';
   }
@@ -1363,6 +1373,8 @@
     renderOrg();
   });
   org.addEventListener('click', (e) => {
+    const tt = e.target.closest('.titles-toggle');
+    if(tt){ const box = tt.closest('.org-col').querySelector('.org-titles'); box.hidden = !box.hidden; return; }
     const card = e.target.closest('.pcard');
     if(card && !e.target.closest('a')) card.classList.toggle('open');
   });

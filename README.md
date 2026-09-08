@@ -24,6 +24,11 @@ is ever silently lost or overwritten.
   (e.g. "works at," "invested in," "board member of")
 - **`docs/schema.md`** — a plain-English description of what information
   each type of entry holds
+- **`data/derived/`** — indexes computed from the records above (job
+  titles by company/department); regenerate, don't hand-edit
+- **`scripts/`** — `enrich_people.py` (derives department, seniority,
+  career and normalised location on every person record) and
+  `build_title_index.py`; re-run both after importing people
 - **`sources/`** — raw notes, pasted articles, or text that specific facts
   were derived from, kept so every fact can be traced back to where it
   came from
@@ -92,6 +97,10 @@ Real data has started loading. Currently in the brain:
   667, IC 190; Clockwork's own level where it had one, otherwise from the
   title) and a parsed **`career`** list (11,666 past-employer entries).
   Those three fields drive the per-company **org chart** in the atlas.
+  Locations are normalised too (`location_norm`: US state or country),
+  and `data/derived/job_titles.csv` + `job_titles_by_function.csv` index
+  every job title in use per company and per department — the exact
+  wording to search on (rebuild with `scripts/build_title_index.py`).
   Email, phone, and compensation were deliberately left out of every
   record (kept in Clockwork only) — see `docs/schema.md`.
 - **2,906 relationships** connecting the above — candidacy links,
