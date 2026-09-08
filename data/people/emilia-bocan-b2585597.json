@@ -50,5 +50,89 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Acquisition Manager",
+      "company": "Microsoft",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Transaction Manager EMEA",
+      "company": "AWS",
+      "start": "9/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Real Estate Expansion Manager",
+      "company": "Amazon",
+      "start": "12/2019",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Head of Urban Logistics Spain",
+      "company": "P3 Logistic Parks",
+      "start": "1/2019",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Leasing and Development Manager",
+      "company": "P3 Logistic Parks",
+      "start": "11/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Leasing Manager",
+      "company": "IMMOFINANZ",
+      "start": "5/2016",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Leasing Manager and Marketing Coordinator Office and Logistics",
+      "company": "IMMOFINANZ",
+      "start": "4/2013",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Associate Retail Agency",
+      "company": "Colliers",
+      "start": "11/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Retail Agency",
+      "company": "Colliers",
+      "start": "4/2010",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Responsabil Departamentul Relatii cu Distribuitorii",
+      "company": "Vision Romania",
+      "start": "3/2008",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Analist Servicii Clienti",
+      "company": "GENPACT",
+      "start": "7/2007",
+      "end": "4/2008",
+      "current": false
+    }
+  ]
 }

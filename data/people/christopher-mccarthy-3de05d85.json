@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Saunders Construction",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Principal",
+      "company": "Rider Levett Bucknall",
+      "start": "11/2004",
+      "end": "3/2024",
+      "current": false
+    }
+  ]
 }

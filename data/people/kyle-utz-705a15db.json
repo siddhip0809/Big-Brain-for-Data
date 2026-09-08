@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chapter President",
+      "company": "7x24 Exchange International Ohio Chapter",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Construction Manager",
+      "company": "Vantage",
+      "start": "7/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "7/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Holder Construction",
+      "start": "4/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "MEP Coordinator",
+      "company": "Holder Construction",
+      "start": "10/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer",
+      "company": "Holder Construction",
+      "start": "5/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Holder Construction",
+      "start": "2/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, MEP Services",
+      "company": "Holder Construction",
+      "start": "2/2016",
+      "end": "5/2018",
+      "current": false
+    }
+  ]
 }

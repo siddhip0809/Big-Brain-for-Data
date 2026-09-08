@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "CVP Global EPC",
+      "company": "Microsoft",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President of Global Design Engineering and Construction",
+      "company": "Digital Realty",
+      "start": "3/2008",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President of Global Construction",
+      "company": "Digital Realty",
+      "start": "3/2008",
+      "end": "1/2025",
+      "current": false
+    }
+  ]
 }

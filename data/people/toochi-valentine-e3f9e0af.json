@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Quantity Surveyor/Cost Estimator - Integrated Device Manufacturing & Data Center Construction",
+      "company": "AtkinsRéalis - Intel",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Estimator",
+      "company": "Mitsubishi Power Americas",
+      "start": "8/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "11/2019",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator /Project Engineer",
+      "company": "GE Johnson Construction",
+      "start": "12/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer (Intern)",
+      "company": "Manhattan Construction",
+      "start": "5/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Graduate Assistant",
+      "company": "University of Oklahoma",
+      "start": "1/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer/Planning Engineer",
+      "company": "Saipem",
+      "start": "3/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer/Quantity Surveyor/Planning Engineer",
+      "company": "Saipem",
+      "start": "11/2010",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Alcon",
+      "start": "2/2009",
+      "end": "10/2010",
+      "current": false
+    },
+    {
+      "title": "QUANTITY SURVEYOR",
+      "company": "Gitto Costruzioni Generali Nigeria",
+      "start": "1/2004",
+      "end": "1/2009",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "National Advanced Technology MEP Preconstruction Manager",
+      "company": "Turner Construction",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "MEP Preconstruction Manager of Texas",
+      "company": "Turner Construction",
+      "start": "1/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "MEP Preconstruction",
+      "company": "Turner Construction",
+      "start": "2/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President of Preconstruction and Estimating",
+      "company": "Kilgore Industries LP",
+      "start": "6/2019",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Vice President of HVAC Operations",
+      "company": "Kilgore Industries LP",
+      "start": "6/2017",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Project Executive",
+      "company": "Kilgore Industries LP",
+      "start": "1/2017",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "The Brandt Companies",
+      "start": "5/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "The Brandt Companies",
+      "start": "9/2009",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Vice President of Operations",
+      "company": "Standard Mechanical Systems",
+      "start": "11/2007",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "TDIndustries",
+      "start": "2002",
+      "end": "2007",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Delivery Program Manager, Data Center Development",
+      "company": "Google",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "fifteenfortyseven Critical Systems Realty (1547) at fifteenfortyseven Critical Systems Realty (1547)",
+      "start": "11/2021",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Chief Executive Officer",
+      "company": "Canvas Investments",
+      "start": "1/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Matrix Mission Critical LLC",
+      "company": "Self employed",
+      "start": "11/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President",
+      "company": "Nova Mission Critical",
+      "start": "1/2019",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "EVP, Product Delivery",
+      "company": "Nova Mission Critical",
+      "start": "10/2015",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Associate Partner",
+      "company": "Syska Hennessy Group",
+      "start": "6/2010",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Syska Hennessy Group",
+      "start": "2008",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Syska Hennessy Group",
+      "start": "2006",
+      "end": "2008",
+      "current": false
+    },
+    {
+      "title": "Full Time Project Manager",
+      "company": "Syska Hennessy Group",
+      "start": "2002",
+      "end": "2006",
+      "current": false
+    },
+    {
+      "title": "Part Time Project Manager",
+      "company": "Syska Hennessy Group",
+      "start": "1995",
+      "end": "2002",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,110 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Executive - Multi-Key",
+      "company": "WCG Construction",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "Dominion Residential",
+      "start": "9/2024",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Director Of Preconstruction",
+      "company": "Martines Palmeiro Construction",
+      "start": "10/2021",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Martines Palmeiro Construction",
+      "start": "4/2019",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Rider Levett Bucknall",
+      "start": "3/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "RED",
+      "start": "12/2014",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Reconstruction Experts",
+      "start": "3/2014",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "HD Supply Interior Solutions",
+      "start": "1/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Junior Project Manager",
+      "company": "Gorman & Company",
+      "start": "6/2011",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Construction Management Intern",
+      "company": "Gorman & Company",
+      "start": "1/2011",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Laborer",
+      "company": "2B Cool",
+      "start": "5/2009",
+      "end": "2/2010",
+      "current": false
+    },
+    {
+      "title": "Architect Assistant",
+      "company": "UW Madison Architecture and Engineering Department",
+      "start": "5/2007",
+      "end": "2/2008",
+      "current": false
+    },
+    {
+      "title": "Project Surveyor",
+      "company": "University of Wisconsin-Madison",
+      "start": "5/2007",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Laborer",
+      "company": "W E Davies and Sons Remodeling",
+      "start": "5/2006",
+      "end": "2/2007",
+      "current": false
+    }
+  ]
 }

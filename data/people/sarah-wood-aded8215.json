@@ -50,5 +50,78 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "cyrusone"
+  "current_company_id": "cyrusone",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Account Director",
+      "company": "CyrusOne",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Client Executive Global Sales and xScale",
+      "company": "Equinix",
+      "start": "9/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Alliances Client Executive",
+      "company": "Equinix",
+      "start": "1/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "Equinix",
+      "start": "12/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Manager",
+      "company": "Equinix",
+      "start": "10/2010",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Corporate Account Manager",
+      "company": "THUS a Cable and Wireless",
+      "start": "9/2006",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Your Communications",
+      "start": "9/2002",
+      "end": "9/2006",
+      "current": false
+    },
+    {
+      "title": "Client Relationship Director",
+      "company": "Eurocall",
+      "start": "9/1999",
+      "end": "9/2002",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Esprit Telecom",
+      "start": "9/1996",
+      "end": "9/1999",
+      "current": false
+    },
+    {
+      "raw": "Equinix"
+    }
+  ]
 }

@@ -28,5 +28,29 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales",
+      "company": "Novva Data Centers",
+      "start": "11/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "DataBank",
+      "start": "3/2011",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "raw": "Novva Data Centers"
+    }
+  ]
 }

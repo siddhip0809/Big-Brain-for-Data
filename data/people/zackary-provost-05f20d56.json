@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "P1 Group",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "P1 Group",
+      "start": "1/2023",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "U S Engineering",
+      "start": "10/2018",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "U S Engineering",
+      "start": "1/2012",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "Phillips+Gomez",
+      "start": "5/2008",
+      "end": "1/2012",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Customer Management",
+      "company": "Compass Datacenters",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Sales",
+      "company": "Compass Datacenters",
+      "start": "7/2019",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "ROOT Data Center",
+      "start": "8/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "VP International Business Development",
+      "company": "ROOT Data Center",
+      "start": "9/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Member, Marketing Committee",
+      "company": "Open-IX Association",
+      "start": "2/2016",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "VP Global Business Development",
+      "company": "Q9",
+      "start": "9/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Q9 Networks",
+      "start": "7/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "IXcellerate. Data centers in Russia",
+      "start": "11/2010",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Director, Business Development",
+      "company": "International Data Centre Group",
+      "start": "7/2010",
+      "end": "8/2012",
+      "current": false
+    }
+  ]
 }

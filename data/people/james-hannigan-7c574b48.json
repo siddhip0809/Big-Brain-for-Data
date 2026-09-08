@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Transmission and Utility Partnerships",
+      "company": "Prometheus Hyperscale",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal",
+      "company": "Triskelion Line Engineering",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Program Director",
+      "company": "Leidos",
+      "start": "9/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Vice President of Transmission Engineering",
+      "company": "Leidos",
+      "start": "2/2022",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Transmission Line Engineering Manager",
+      "company": "Leidos",
+      "start": "9/2011",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Transmission Line Engineer",
+      "company": "National Grid Renewables",
+      "start": "6/2005",
+      "end": "9/2011",
+      "current": false
+    }
+  ]
 }

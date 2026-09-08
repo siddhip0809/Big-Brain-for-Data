@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Pre-Construction Cost Lead",
+      "company": "Microsoft",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Linesight",
+      "start": "12/2023",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Commercial Manager",
+      "company": "Linesight",
+      "start": "3/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Commercial Manager",
+      "company": "Linesight",
+      "start": "11/2020",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Linesight",
+      "start": "5/2018",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Linesight",
+      "start": "5/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "5/2015",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "11/2013",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Intern Construction Manager/Engineer",
+      "company": "Kwik Structures",
+      "start": "1/2013",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Junior Site Engineer",
+      "company": "SISK Group",
+      "start": "1/2011",
+      "end": "9/2011",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,60 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Non Executive Director",
+      "company": "Royal Yachting Association",
+      "start": "11/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Site Selection & Portfolio Management",
+      "company": "Google",
+      "start": "2/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Network Deployment Manager EMEA",
+      "company": "Google",
+      "start": "1/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Program Manager - Network Deployment EMEA",
+      "company": "Google",
+      "start": "4/2010",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Commercial & Technical Sales Support",
+      "company": "Reliance Globalcom",
+      "start": "2003",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Co-founder, Product and Business Development",
+      "company": "PacketExchange",
+      "start": "2001",
+      "end": "2003",
+      "current": false
+    },
+    {
+      "title": "Market Analyst - Submarine Engineering",
+      "company": "Level 3 Communications",
+      "start": "1998",
+      "end": "2001",
+      "current": false
+    }
+  ]
 }

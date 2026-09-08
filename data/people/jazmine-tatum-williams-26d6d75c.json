@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Development Project Engineer",
+      "company": "QTS Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "11/2019",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Con-Real LP",
+      "start": "3/2019",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Con-Real LP",
+      "start": "1/2015",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "CAD Technology Technician",
+      "company": "PBK Architects",
+      "start": "6/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Revit Technician",
+      "company": "FKP Architects",
+      "start": "4/2014",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Architectural Technician Intern",
+      "company": "Woods Group Architects",
+      "start": "6/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

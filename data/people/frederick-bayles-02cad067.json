@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "VP, Corporate Development",
+      "company": "Cologix",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Corporate Development",
+      "company": "Equinix",
+      "start": "1/2016",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Technology Investment Banking",
+      "company": "J P Morgan",
+      "start": "1/2013",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "MBA",
+      "company": "University of California Berkeley Haas School of Business",
+      "start": "2011",
+      "end": "2013",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "4/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "1/2007",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "4/2004",
+      "end": "1/2007",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "11/2002",
+      "end": "4/2004",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "Nello L Teer",
+      "start": "8/2000",
+      "end": "11/2002",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "7/1999",
+      "end": "8/2000",
+      "current": false
+    }
+  ]
 }

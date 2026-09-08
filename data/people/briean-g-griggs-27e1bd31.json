@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Utilities AMER",
+      "company": "Yondr",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Project Director",
+      "company": "NextEra Energy",
+      "start": "9/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Manager, Transmission Operations",
+      "company": "TRC Companies",
+      "start": "1/2023",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Manager, Transmission Operations",
+      "company": "TRC",
+      "start": "2023",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Georgia Power",
+      "start": "2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Line Design Engineer",
+      "company": "Southern",
+      "start": "2019",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager & Senior Line Engineer",
+      "company": "Southern",
+      "start": "2019",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Project Management EPC & Client Lead",
+      "company": "Burns and McDonnell",
+      "start": "2013",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Transmission & Distribution Line Engineer",
+      "company": "Burns and McDonnell",
+      "start": "2013",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager, Line Design",
+      "company": "DEP",
+      "start": "2009",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Transmission Line Engineer",
+      "company": "Duke Energy",
+      "start": "2009",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Plant Engineer",
+      "company": "Dominion",
+      "start": "2007",
+      "end": "2008",
+      "current": false
+    }
+  ]
 }

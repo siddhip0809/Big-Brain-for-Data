@@ -28,5 +28,64 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Sales Director   Hyperscale Sales Apac"
+    },
+    {
+      "title": "Global Data Centers",
+      "company": "NTT",
+      "start": "10/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "NTT",
+      "start": "6/2016",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Manager",
+      "company": "NTT",
+      "start": "1/2009",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "NTT",
+      "start": "7/2004",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Channel Sales Manager   Business Development",
+      "company": "Pacific Century System",
+      "start": "7/2002",
+      "end": "7/2004",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Dcl Communications",
+      "start": "7/2000",
+      "end": "6/2002",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Intel Security",
+      "start": "1/2000",
+      "end": "6/2000",
+      "current": false
+    }
+  ]
 }

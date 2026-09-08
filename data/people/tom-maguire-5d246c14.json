@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Account Director",
+      "company": "Csquare",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Client Executive - Global Accounts, Verizon Enterprise Solutions",
+      "company": "Data Return",
+      "start": "4/2017",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "XO Communications",
+      "start": "8/2012",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Client Solutions Executive III",
+      "company": "AT&T",
+      "start": "9/2005",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Enterprise Business Representative",
+      "company": "Salesforce",
+      "start": "2/2005",
+      "end": "9/2005",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "AT&T",
+      "start": "3/2001",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Web Hosting Sales Executive",
+      "company": "iAsiaWorks",
+      "start": "1/2000",
+      "end": "3/2001",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Qwest Communications",
+      "start": "8/1997",
+      "end": "12/1999",
+      "current": false
+    },
+    {
+      "title": "Assistant Branch Manager",
+      "company": "Enterprise Rent-A-Car",
+      "start": "10/1995",
+      "end": "8/1997",
+      "current": false
+    }
+  ]
 }

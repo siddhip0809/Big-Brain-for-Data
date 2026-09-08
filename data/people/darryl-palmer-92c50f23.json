@@ -39,5 +39,53 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Site Acquisition Manager",
+      "company": "AWS",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Land Manager",
+      "company": "Barratt Developments plc",
+      "start": "2019",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Senior Land Manager",
+      "company": "Bellway Homes",
+      "start": "2018",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Land Manager",
+      "company": "Taylor Wimpey plc",
+      "start": "2017",
+      "end": "2018",
+      "current": false
+    },
+    {
+      "title": "CALA Group Limited",
+      "company": "Land Buyer",
+      "start": "2016",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Land Graduate",
+      "company": "Cala Group Limited",
+      "start": "2015",
+      "end": "2016",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Mace Group",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Mace Group",
+      "start": "8/2021",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming",
+      "start": "12/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Cumming",
+      "start": "8/2017",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "AECOM",
+      "start": "4/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Structural Designer",
+      "company": "FDR Engineers PLLC",
+      "start": "10/2015",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Student Senator",
+      "company": "The American University in Cairo",
+      "start": "12/2014",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Teaching Assistant",
+      "company": "The American University in Cairo",
+      "start": "9/2014",
+      "end": "5/2015",
+      "current": false
+    }
+  ]
 }

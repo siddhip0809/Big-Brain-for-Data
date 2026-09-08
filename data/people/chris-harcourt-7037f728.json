@@ -28,5 +28,94 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Manager - Development ",
+      "company": "QTS Data Centers",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "12/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Control Manager",
+      "company": "QTS Data Centers",
+      "start": "6/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Pepper Construction Group",
+      "start": "9/2023",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Manager",
+      "company": "Metropolitan Holdings",
+      "start": "9/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Project Executive",
+      "company": "DWR Aquatics",
+      "start": "10/2019",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Robertson Construction",
+      "start": "3/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Palmetto Construction Services",
+      "start": "9/2017",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Setterlin Building",
+      "start": "6/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Estimator",
+      "company": "Elford",
+      "start": "9/2013",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Estimator/Business Development",
+      "company": "Eggrock Modular Solutions",
+      "start": "5/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "current": false
+    }
+  ]
 }

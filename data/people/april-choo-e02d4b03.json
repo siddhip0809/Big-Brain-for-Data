@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Real Estate Acquisitions & Development",
+      "company": "AWS",
+      "start": "5/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Planning and Facilities Management",
+      "company": "Georgetown University",
+      "start": "8/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Real Estate Investment",
+      "company": "Nest Seekers International",
+      "start": "8/2016",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Commercial Real Estate Leasing & Sales",
+      "company": "Colliers",
+      "start": "12/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Commercial Real Estate Development",
+      "company": "The Taubman Company",
+      "start": "4/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Sales and Marketing",
+      "company": "Marriott International",
+      "start": "11/2010",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Legal Operations",
+      "company": "Intellectual Ventures",
+      "start": "5/2009",
+      "end": "10/2010",
+      "current": false
+    },
+    {
+      "title": "Intelligence Analyst",
+      "company": "Federal Bureau of Investigation",
+      "start": "12/2007",
+      "end": "11/2008",
+      "current": false
+    }
+  ]
 }

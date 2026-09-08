@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Utility Engagement",
+      "company": "QTS Data Centers",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Partner Engagement",
+      "company": "Bloom Energy",
+      "start": "9/2019",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Principal - Power and Utilities",
+      "company": "EY",
+      "start": "12/2009",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Partner - Energy Utilities",
+      "company": "Oliver Wyman",
+      "start": "6/2005",
+      "end": "11/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President - Chief Development Officer",
+      "company": "American Electric Power",
+      "start": "10/1999",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Vice President - Energy Sector",
+      "company": "Mercer Management Consulting",
+      "start": "6/1995",
+      "end": "10/1999",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Willis Towers Watson",
+      "start": "6/1984",
+      "end": "6/1995",
+      "current": false
+    }
+  ]
 }

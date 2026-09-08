@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Control - Data Center Delivery",
+      "company": "Google",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Project  Services and Business Operations",
+      "company": "AstraZeneca",
+      "start": "6/2015",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Head of Project Control",
+      "company": "AstraZeneca",
+      "start": "6/2013",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Cost and Schedule Engineering",
+      "company": "MedImmune",
+      "start": "6/2009",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "PMA Consultants",
+      "start": "8/1999",
+      "end": "5/2009",
+      "current": false
+    },
+    {
+      "title": "Manager of Project Controls",
+      "company": "Roche",
+      "start": "1997",
+      "end": "1999",
+      "current": false
+    },
+    {
+      "title": "Cost and Schedule Engineer",
+      "company": "Exxon",
+      "start": "8/1993",
+      "end": "2/1995",
+      "current": false
+    },
+    {
+      "title": "Cost and Schedule Engineer / Project Controls",
+      "company": "Exxon",
+      "start": "1/1991",
+      "end": "1/1997",
+      "current": false
+    }
+  ]
 }

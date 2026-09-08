@@ -83,9 +83,17 @@ Real data has started loading. Currently in the brain:
   Construction (321), or Energy & Utilities (191) — and, where their
   current employer qualifies as a data center company, a `works_at` link
   to it. Anyone whose employer didn't qualify was **not** kept as an
-  individual profile (see `viewer/README.md`). Email, phone, and
-  compensation were deliberately left out of every record (kept in
-  Clockwork only) — see `docs/schema.md`.
+  individual profile (see `viewer/README.md`). Since 2026-09-08 each
+  person also carries a derived **`function`** — the company department
+  their title belongs to (Development & Real Estate 574, Pre-Construction
+  & Cost 429, Sales & Leasing 365, Construction & Delivery 295, Energy &
+  Utilities 198, Executive leadership 59, …) — a **seniority rank**
+  (C-suite 79, EVP/SVP/MD 122, VP/Head 306, Director 616, Manager/Lead
+  667, IC 190; Clockwork's own level where it had one, otherwise from the
+  title) and a parsed **`career`** list (11,666 past-employer entries).
+  Those three fields drive the per-company **org chart** in the atlas.
+  Email, phone, and compensation were deliberately left out of every
+  record (kept in Clockwork only) — see `docs/schema.md`.
 - **2,906 relationships** connecting the above — candidacy links,
   employment links, investor backing (124 investors incl. Google and
   NVIDIA in their dual role as strategic investors), and, since

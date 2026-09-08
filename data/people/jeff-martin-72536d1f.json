@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP, Data Center Engineering",
+      "company": "Keel Infrastructure",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Data Center Engineering",
+      "company": "Oracle",
+      "start": "12/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Director Data Center Design & Construction AMER",
+      "company": "Oracle",
+      "start": "7/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Data Center Design Electrical Engineer",
+      "company": "Oracle",
+      "start": "7/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Vanderweil Engineers",
+      "start": "3/2020",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer",
+      "company": "Vanderweil Engineers",
+      "start": "1/2012",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Vanderweil Engineers",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Babcock Power",
+      "start": "5/2010",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Failure Analysis and Quality Control Engineer",
+      "company": "Vicor",
+      "start": "5/2008",
+      "end": "8/2009",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,85 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President",
+      "company": "QTS Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "QTS Data Centers",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "QTS Data Centers",
+      "start": "6/2024",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Data Center Site Acquisition and Development Lead [EMEA]",
+      "company": "Meta",
+      "start": "1/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Sustainability & Community for Construction",
+      "company": "Mace",
+      "start": "8/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Sustainability Associate Director",
+      "company": "Mace",
+      "start": "5/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Sustainability Senior Manager",
+      "company": "Mace",
+      "start": "5/2013",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Environment and Stakeholder Manager",
+      "company": "Taylor Woodrow BAM Nuttall Joint Venture",
+      "start": "9/2011",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Environmental Manager",
+      "company": "Taylor Woodrow BAM Nuttall Joint Venture",
+      "start": "1/2010",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Environmental Consultant",
+      "company": "Taylor Woodrow",
+      "start": "3/2009",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

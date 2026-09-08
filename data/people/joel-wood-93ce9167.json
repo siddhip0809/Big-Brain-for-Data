@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Economic Development Manager",
+      "company": "Meta",
+      "start": "2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Site Development Manager",
+      "company": "Meta",
+      "start": "2016",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "LinkedIn",
+      "start": "2013",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Owner / Project Manager",
+      "company": "JDW Solutions",
+      "start": "2011",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Teutonic Construction",
+      "start": "2010",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Matrix Facilities Planning and Construction Management",
+      "start": "2006",
+      "end": "2009",
+      "current": false
+    }
+  ]
 }

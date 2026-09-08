@@ -28,5 +28,91 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Pre-Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "8/2024",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Entitlement Manager",
+      "company": "Oakwood Homes",
+      "start": "10/2021",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Forward Planner",
+      "company": "D R Horton",
+      "start": "10/2020",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Development Coordinator",
+      "company": "CenterPoint Integrated Solutions",
+      "start": "10/2018",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Transwestern",
+      "start": "8/2018",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Transwestern",
+      "start": "5/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Research Intern",
+      "company": "National Valuation Consultants",
+      "start": "5/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Brokerage Intern",
+      "company": "Gershman Commercial Real Estate",
+      "start": "5/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Student",
+      "company": "High School Student",
+      "start": "8/2010",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "[M] S686/S10094 Dev Director Denver, Dallas, Phoenix",
+      "company": "STACK Infrastructure",
+      "current": false
+    },
+    {
+      "title": "[M] Development Director Den, DFW,SF,NoVa,Phx,PortL,ATL",
+      "company": "STACK Infrastructure",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Energy Manager",
+      "company": "Cloverleaf Infrastructure",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Energy and Environmental Economics",
+      "start": "3/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Energy and Environmental Economics",
+      "start": "11/2019",
+      "end": "3/2021",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Procurement Manager - Key Bridge Rebuild",
+      "company": "Kiewit",
+      "start": "3/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Kiewit",
+      "start": "3/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimating Manager DAVIS Interiors",
+      "company": "James G Davis Construction",
+      "start": "7/2011",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Structure Tone",
+      "start": "10/2010",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Duke Realty",
+      "start": "10/2007",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "HITT Contracting",
+      "start": "9/1998",
+      "end": "10/2007",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "LORD & Waters Construction",
+      "start": "5/1989",
+      "end": "9/1998",
+      "current": false
+    },
+    {
+      "title": "Estimator/Project Manager",
+      "company": "J A Nearing Co",
+      "start": "1/1984",
+      "end": "1/1989",
+      "current": false
+    },
+    {
+      "title": "Architectural Draftsman",
+      "company": "Dart Drug",
+      "start": "1/1983",
+      "end": "1/1984",
+      "current": false
+    },
+    {
+      "title": "Architectural Draftsman",
+      "company": "J A Nearing Co",
+      "start": "1/1980",
+      "end": "1/1983",
+      "current": false
+    }
+  ]
 }

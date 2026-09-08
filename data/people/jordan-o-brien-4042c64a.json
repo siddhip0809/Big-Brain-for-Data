@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Kiewit",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "11/2018",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "1/2015",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "5/2011",
+      "end": "8/2014",
+      "current": false
+    }
+  ]
 }

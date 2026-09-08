@@ -28,5 +28,64 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Director of Sales",
+      "company": "Aligned Data Centers",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Hyperscale Solutions / Custom & Wholesale Data Center Solutions",
+      "company": "QTS Data Centers",
+      "start": "9/2010",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Sales and Business Development",
+      "company": "Global Datacenter Advisors",
+      "start": "8/2009",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Dir. of Sales",
+      "company": "Digital Realty",
+      "start": "9/2004",
+      "end": "4/2009",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Switch and Data",
+      "start": "1/2002",
+      "end": "9/2004",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Colo.com",
+      "start": "8/1999",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Centurylink Business For Enterprise",
+      "start": "1/1997",
+      "end": "12/1999",
+      "current": false
+    },
+    {
+      "raw": "Aligned Data Centers"
+    }
+  ]
 }

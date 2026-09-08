@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Fransen Pittman General Contractors",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Fransen Pittman General Contractors",
+      "start": "9/2024",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Mortenson",
+      "start": "9/2021",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Mortenson",
+      "start": "7/2016",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Shaw Construction",
+      "start": "8/2015",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Kiewit",
+      "start": "1/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Kiewit",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Corna Kokosing",
+      "start": "6/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "Corna Kokosing",
+      "start": "1/2012",
+      "end": "3/2012",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr.Design Phase Manager",
+      "company": "M A Mortenson",
+      "start": "12/1997",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "RAS Builders",
+      "start": "5/1992",
+      "end": "12/1997",
+      "current": false
+    }
+  ]
 }

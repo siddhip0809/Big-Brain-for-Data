@@ -50,5 +50,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Executive - Advanced Technology Group",
+      "company": "Turner Construction",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Services",
+      "company": "Turner Construction",
+      "start": "5/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Services",
+      "company": "PCL Construction",
+      "start": "7/2013",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Director of Preconstruction and Procurement",
+      "company": "Kiewit",
+      "start": "12/2008",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Icon Group",
+      "start": "1/2007",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "GE Johnson Construction",
+      "start": "7/2005",
+      "end": "1/2007",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Manager",
+      "company": "JE Dunn Construction",
+      "start": "5/1999",
+      "end": "6/2005",
+      "current": false
+    }
+  ]
 }

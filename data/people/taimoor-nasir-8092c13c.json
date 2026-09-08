@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator / Cost Manager",
+      "company": "Currie & Brown",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager & Estimator",
+      "company": "Currie & Brown",
+      "start": "11/2023",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Aspen Electric",
+      "start": "6/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "US Senior Estimator",
+      "company": "SmartBid Solutions",
+      "start": "9/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "USA Junior Estimator",
+      "company": "SmartBid Solutions",
+      "start": "7/2017",
+      "end": "8/2019",
+      "current": false
+    }
+  ]
 }

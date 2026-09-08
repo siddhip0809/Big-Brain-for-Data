@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Director, Construction",
+      "company": "CyrusOne",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Development",
+      "company": "CyrusOne",
+      "start": "3/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Development",
+      "company": "CyrusOne",
+      "start": "3/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Development Project Manager",
+      "company": "CyrusOne",
+      "start": "12/2020",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "1/2020",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Critical Projects Area Manager",
+      "company": "AWS",
+      "start": "7/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Critical Projects Engineer",
+      "company": "AWS",
+      "start": "12/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Data Center Chief Engineer",
+      "company": "AWS",
+      "start": "7/2015",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Engineering Operations technician",
+      "company": "AWS",
+      "start": "4/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Building Engineer",
+      "company": "ABM Industries",
+      "start": "7/2012",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Building Engineer",
+      "company": "Avison Young",
+      "start": "7/2010",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Maintenance Engineer",
+      "company": "TK Services",
+      "start": "6/2008",
+      "end": "7/2010",
+      "current": false
+    }
+  ]
 }

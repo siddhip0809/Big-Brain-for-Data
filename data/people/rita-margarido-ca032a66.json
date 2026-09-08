@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Energy & Utilities",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Data Center Acquisition, Development & Strategy - EMEA",
+      "company": "Google",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Lead, Asset Management, Infrastructure, Energy and Location Strategy",
+      "company": "Google",
+      "start": "8/2018",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "EMEA Sustainability Lead, Data Centers",
+      "company": "Google",
+      "start": "3/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Sustainability Manager",
+      "company": "Canary Wharf Group plc",
+      "start": "4/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Lead Consultant",
+      "company": "Eight Associates",
+      "start": "5/2013",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Partner and Founder",
+      "company": "Pimenta Laranja Lda",
+      "start": "2/2011",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Executive Board Member",
+      "company": "European Environmental Bureau",
+      "start": "9/2010",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Guest Lecturer, Architecture and Sustainability - Msc Architecture",
+      "company": "ARCA/EUAC",
+      "start": "9/2009",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Research fellow/Program Manager",
+      "company": "CENSE - Centre for Environmental and Sustainability Research",
+      "start": "11/2007",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Energy Management & Innovation",
+      "company": "YDreams",
+      "start": "10/2006",
+      "end": "7/2007",
+      "current": false
+    }
+  ]
 }

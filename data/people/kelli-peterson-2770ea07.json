@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Lithko Contracting",
+      "start": "10/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Mark Young Construction",
+      "start": "4/2018",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Coordinator/Estimator",
+      "company": "CONCRETE STRUCTURES",
+      "start": "1/2015",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Groathouse Construction",
+      "start": "1/2002",
+      "end": "2/2007",
+      "current": false
+    }
+  ]
 }

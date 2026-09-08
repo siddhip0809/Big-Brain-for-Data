@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Site Negotiator, Acquisition and Development",
+      "company": "Google",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Real Estate Manager",
+      "company": "Ball",
+      "start": "1/2020",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Director, Global Corporate Services",
+      "company": "Newmark",
+      "start": "3/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Transactions Manager, Global Corporate Services",
+      "company": "Newmark",
+      "start": "1/2014",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Asset Management & Acquisitions Analyst",
+      "company": "McCormack Baron Salazar",
+      "current": false
+    },
+    {
+      "company": "McCormack Baron Asset Management",
+      "start": "4/2013",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Small Business Specialist & Securities Licensed Banker",
+      "company": "Citi",
+      "start": "9/2006",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Branch Manager",
+      "company": "Enterprise Rent-A-Car",
+      "start": "10/2002",
+      "end": "9/2006",
+      "current": false
+    },
+    {
+      "raw": "Newmark"
+    }
+  ]
 }

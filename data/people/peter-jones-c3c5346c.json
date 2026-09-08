@@ -39,5 +39,88 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Data Center Transactions & Leasing",
+      "company": "Anthropic",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Operating Partner",
+      "company": "Cathexis",
+      "start": "1/2023",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Chief Development Officer",
+      "company": "Yondr",
+      "start": "10/2018",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Co-Founder",
+      "company": "Yondr",
+      "start": "10/2018",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Global Infrastructure",
+      "company": "Google",
+      "start": "3/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Career Break",
+      "company": "Career Break",
+      "start": "10/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Global Infrastructure",
+      "company": "Google",
+      "start": "7/2011",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Delivery Manager",
+      "company": "Digital Realty",
+      "start": "3/2009",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Engineer",
+      "company": "Cundall",
+      "start": "1/2007",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Engineer",
+      "company": "Cundall Johnston & Partners",
+      "start": "2007",
+      "end": "2009",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer",
+      "company": "Synergy Building Services",
+      "start": "1/2006",
+      "end": "12/2007",
+      "current": false
+    }
+  ]
 }

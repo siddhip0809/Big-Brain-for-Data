@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "damac-digital"
+  "current_company_id": "damac-digital",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President European Sales",
+      "company": "DAMAC Digital",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of BT Portfolio Business",
+      "company": "BT Group",
+      "start": "5/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Global Partnership and Hyperscaler Sales Director",
+      "company": "BT Group",
+      "start": "1/2019",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "EMEA B2B Sales Director",
+      "company": "BT Group",
+      "start": "4/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Head of Account Management - Major and MNC Accounts",
+      "company": "EE",
+      "start": "1/2010",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "AGI Media",
+      "start": "5/2008",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Supply Chain Partner",
+      "company": "Technicolor",
+      "start": "5/2002",
+      "end": "5/2008",
+      "current": false
+    },
+    {
+      "title": "Graduate and Supply Chain Management",
+      "company": "St Ivel",
+      "start": "1/1996",
+      "end": "12/2002",
+      "current": false
+    }
+  ]
 }

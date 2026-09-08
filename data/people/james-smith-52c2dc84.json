@@ -50,5 +50,53 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "ark-data-centres"
+  "current_company_id": "ark-data-centres",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Real Estate Director",
+      "company": "Ark Data Centres",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Acquisitions Manager",
+      "company": "Ark Data Centres",
+      "start": "9/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Knight Frank",
+      "start": "12/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "CBRE",
+      "company": "Associate Director MRICS - Data Centre Solutions",
+      "start": "3/2017",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "Bonsors Chartered Surveyors & Commercial Property Consultants",
+      "start": "1/2014",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Barclays Private Clients International",
+      "start": "7/2013",
+      "end": "12/2013",
+      "current": false
+    }
+  ]
 }

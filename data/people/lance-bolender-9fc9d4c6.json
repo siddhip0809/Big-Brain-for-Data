@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Power Analytics",
+      "company": "Core Scientific",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "FirstEnergy Advisors",
+      "start": "12/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Manager, Large Commercial & Industrial Energy Sales",
+      "company": "FirstEnergy Solutions",
+      "start": "1/2015",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Manager, Public Sector Business Development",
+      "company": "FirstEnergy Solutions",
+      "start": "3/2012",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Energy Trading Consultant",
+      "company": "FirstEnergy Solutions",
+      "start": "2009",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Emission Allowance Trader - Non-Coal Commodities Procurement",
+      "company": "FirstEnergy Solutions",
+      "start": "3/2005",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Field Rep",
+      "company": "Marathon Oil",
+      "start": "1989",
+      "end": "1990",
+      "current": false
+    }
+  ]
 }

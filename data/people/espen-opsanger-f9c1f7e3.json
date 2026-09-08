@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site selection Director",
+      "company": "Green Mountain AS - Data centres",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "CEO/Adm.Dir.",
+      "company": "Buøy Invest AS",
+      "start": "2/2018",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Distriktssjef Rogaland - Eiendomsutvikler",
+      "company": "JM Norge AS",
+      "start": "12/2012",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Adm. Dir.",
+      "company": "Såkorn AS",
+      "start": "1/2005",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Direktør Næringsliv",
+      "company": "Gjensidige",
+      "start": "1/2001",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Magnar Eikeland AS",
+      "start": "1/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Daglig leder",
+      "company": "Acta Eiendomsmegling AS",
+      "start": "6/1995",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "title": "Daglig leder",
+      "company": "DnB NOR Eiendom",
+      "start": "3/1988",
+      "end": "5/1995",
+      "current": false
+    }
+  ]
 }

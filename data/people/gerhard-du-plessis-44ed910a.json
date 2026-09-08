@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Currie & Brown",
+      "start": "12/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Rider Levett Bucknall",
+      "start": "6/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Rider Levett Bucknall",
+      "start": "12/2018",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Candidate Quantity Surveyor",
+      "company": "Rider Levett Bucknall",
+      "start": "1/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Student Quantity Surveyor",
+      "company": "Rider Levett Bucknall",
+      "start": "1/2010",
+      "end": "12/2014",
+      "current": false
+    }
+  ]
 }

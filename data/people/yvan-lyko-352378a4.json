@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "EMEA Tech lead for 3PDC / GCP",
+      "company": "Google",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Board Member",
+      "company": "France-IX",
+      "start": "9/2015",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Strategic Negotiator, Cloud",
+      "company": "Google",
+      "start": "5/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Technical Business Developer (Optical)",
+      "company": "AWS",
+      "start": "12/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Interconnections Program Manager",
+      "company": "TDF",
+      "start": "5/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "MBA 2013",
+      "company": "Columbia Business School",
+      "start": "1/2012",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "FTTH planning manager",
+      "company": "SFR",
+      "start": "8/2009",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Senior consultant",
+      "company": "Setec Telecom",
+      "start": "10/2003",
+      "end": "8/2009",
+      "current": false
+    }
+  ]
 }

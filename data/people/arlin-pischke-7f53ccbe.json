@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director - Development & Construction",
+      "company": "BLP - Bridge Logistics Properties",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Of Development & Construction",
+      "company": "BLP - Bridge Logistics Properties",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Design & Construction",
+      "company": "Seritage Growth Properties",
+      "start": "8/2019",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President - Development, Design, Construction & Tenant Coordination",
+      "company": "Brookfield Properties",
+      "start": "10/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President - Development, Design, Construction & Tenant Coordination",
+      "company": "Brookfield Properties Retail",
+      "start": "10/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of Architecture & Construction",
+      "company": "Toys R Us",
+      "start": "6/1995",
+      "end": "3/2014",
+      "current": false
+    }
+  ]
 }

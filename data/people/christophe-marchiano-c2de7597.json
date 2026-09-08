@@ -39,5 +39,60 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Energy & Utilities",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Strategic Negotiator - Datacenter and Energy",
+      "company": "Google",
+      "start": "10/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Investment Director",
+      "company": "Groupe ADP",
+      "start": "1/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Offer manager Large Projects",
+      "company": "AREVA",
+      "start": "1/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Strategy & Economic Studies Manager",
+      "company": "AREVA",
+      "start": "1/2008",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Apprentice",
+      "company": "Purchasing department at PSA Peugeot Citroën",
+      "start": "1/2006",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Rolls-Royce laboratory at Imperial College London",
+      "start": "1/2005",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Logistics and Operations department at L'Oreal",
+      "start": "1/2004",
+      "end": "12/2004",
+      "current": false
+    }
+  ]
 }

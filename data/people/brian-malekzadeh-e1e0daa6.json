@@ -28,5 +28,19 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Market Director of Data Center Construction",
+      "company": "STACK Infrastructure",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

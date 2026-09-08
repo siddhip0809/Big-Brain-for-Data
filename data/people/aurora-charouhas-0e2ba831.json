@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Strategic Negotiator, Data Centers",
+      "company": "Google",
+      "start": "12/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Linesight",
+      "start": "2/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Fortis Construction",
+      "start": "12/2016",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Designer",
+      "company": "SGPA Architecture and Planning",
+      "start": "2/2015",
+      "end": "3/2016",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Utility Development",
+      "company": "Tract",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Manager - EV Fleet Energy Management",
+      "company": "Amazon",
+      "start": "11/2021",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Energy Project Manager - Cloud and Enterprise",
+      "company": "Microsoft",
+      "start": "2016",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Manager, Energy Risk Control, Analytics, and Credit",
+      "company": "Puget Sound Energy",
+      "start": "2013",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Director, Financial and Commodity Risk Reporting",
+      "company": "Energy Future Holdings",
+      "start": "2010",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Manager/Sr. Manager Valuation and Risk",
+      "company": "Luminant",
+      "start": "2005",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Manager, Retail Product Development",
+      "company": "TXU Energy",
+      "start": "2003",
+      "end": "2005",
+      "current": false
+    },
+    {
+      "title": "Manager, Risk Analytics",
+      "company": "Reliant",
+      "start": "2001",
+      "end": "2003",
+      "current": false
+    },
+    {
+      "title": "Associate/Manager",
+      "company": "Enron",
+      "start": "1998",
+      "end": "2001",
+      "current": false
+    },
+    {
+      "title": "Environmental Services Coordinator",
+      "company": "International Paper",
+      "start": "1993",
+      "end": "1996",
+      "current": false
+    }
+  ]
 }

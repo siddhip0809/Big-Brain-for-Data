@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal",
+      "company": "SELF Infrastructure",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "10/2012",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Bhaxa",
+      "start": "5/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Solutions Director",
+      "company": "Greenmash",
+      "start": "2010",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Business Unit Director, Communications EMEA",
+      "company": "Stryker",
+      "start": "9/2008",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Development Director",
+      "company": "Mishop",
+      "start": "8/2006",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Systematic Design",
+      "start": "2002",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Development Director, Americas",
+      "company": "Cable & Wireless",
+      "start": "11/1999",
+      "end": "4/2002",
+      "current": false
+    },
+    {
+      "title": "Manager, International Strategy",
+      "company": "Optus",
+      "start": "1998",
+      "end": "1999",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "SOUTHERN CROSS CABLE NETWORK",
+      "start": "2/1997",
+      "end": "3/1999",
+      "current": false
+    },
+    {
+      "title": "Manager, Network Strategy",
+      "company": "Cable & Wireless Network Services",
+      "start": "1995",
+      "end": "1998",
+      "current": false
+    },
+    {
+      "title": "Cable Systems Engineer",
+      "company": "Cable & Wireless Marine",
+      "start": "1988",
+      "end": "1993",
+      "current": false
+    }
+  ]
 }

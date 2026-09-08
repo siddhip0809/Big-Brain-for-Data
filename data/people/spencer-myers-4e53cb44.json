@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Construction",
+      "company": "Vantage",
+      "start": "3/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "2/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Project Construction Manager",
+      "company": "Vantage",
+      "start": "7/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "AlfaTech",
+      "start": "5/2000",
+      "end": "7/2014",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Strategic Accounts",
+      "company": "EdgeConneX",
+      "start": "6/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Member",
+      "company": "Infrastructure Masons",
+      "start": "3/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Business Development",
+      "company": "Evoque Data Center Solutions",
+      "start": "9/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Cloud & Data Center Sales",
+      "company": "Navisite",
+      "start": "5/2018",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Director, Channel Sales Western Region",
+      "company": "CenturyLink / Cyxtera",
+      "start": "6/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Sales",
+      "company": "vXchnge",
+      "start": "11/2014",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Sr. Director, Sales",
+      "company": "CoreSite",
+      "start": "9/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Director, Data Center Sales",
+      "company": "Sungard Availability Services",
+      "start": "10/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Sr. Sales Director",
+      "company": "Raging Wire Colocation",
+      "start": "9/2009",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Sr. Global Account Manager",
+      "company": "Internap Network Services",
+      "start": "1/2008",
+      "end": "11/2009",
+      "current": false
+    }
+  ]
 }

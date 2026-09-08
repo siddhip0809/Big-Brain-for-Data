@@ -28,5 +28,52 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Of Sales: Strategic Accounts",
+      "company": "QTS Data Centers",
+      "start": "8/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. sales Executive",
+      "company": "Centurylink Business For Enterprise",
+      "start": "1/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "BT Group",
+      "start": "1/2005",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Data Return",
+      "start": "1/2001",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Iron Mountian",
+      "start": "5/1997",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Data Center Solutions Consultant",
+      "company": "QTS Data Centers",
+      "current": false
+    }
+  ]
 }

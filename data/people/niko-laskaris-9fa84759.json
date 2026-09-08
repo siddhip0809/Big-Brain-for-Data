@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "EMEA Senior Site Acquisition Manager",
+      "company": "Microsoft",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Infrastructure Delivery Manager",
+      "company": "AWS",
+      "start": "8/2018",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "EMEA Technical Program Manager  Acquisition & Construction",
+      "company": "AWS",
+      "start": "9/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager Acquisition & Construction",
+      "company": "Zayo",
+      "start": "2/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Data Center Operations Engineer",
+      "company": "Latisys",
+      "start": "4/2008",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Columbine Cable",
+      "start": "1/2005",
+      "end": "4/2008",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Global Integration",
+      "start": "1/2001",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Network Lead Technician/Foreman",
+      "company": "CONSOLIDATED SERVICES GROUP LIMITED",
+      "start": "4/2000",
+      "end": "1/2001",
+      "current": false
+    },
+    {
+      "title": "1839th/738th EIG (Division)",
+      "company": "USAF",
+      "start": "2/1993",
+      "end": "10/2000",
+      "current": false
+    }
+  ]
 }

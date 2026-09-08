@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Chief Development Officer, NA",
+      "company": "Vantage",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President Market Development, NA",
+      "company": "Vantage",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President New Site Development NA",
+      "company": "Vantage",
+      "start": "12/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "Lake Street Ventures",
+      "start": "4/2000",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Executive",
+      "company": "L E Wentz",
+      "start": "6/1994",
+      "end": "3/2000",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Apersey",
+      "start": "6/1989",
+      "end": "6/1994",
+      "current": false
+    }
+  ]
 }

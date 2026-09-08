@@ -50,5 +50,89 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "digital-realty"
+  "current_company_id": "digital-realty",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "International Account Director",
+      "company": "Digital Realty",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Account Director - Europe",
+      "company": "Digital Realty",
+      "start": "3/2017",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Global Switch",
+      "start": "6/2016",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Equinix",
+      "start": "4/2013",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development and Partner Manager",
+      "company": "AMS-IX",
+      "start": "9/2009",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant",
+      "company": "Salteccon",
+      "start": "1/2009",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Technical Sales Manager",
+      "company": "IP Unity Glenayre",
+      "start": "8/2007",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "PreSales Manager International",
+      "company": "IP Unity Glenayre",
+      "start": "10/2006",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "IP Unity Glenayre",
+      "start": "10/2003",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Senior Customer Service Engineer",
+      "company": "IP Unity Glenayre",
+      "start": "10/2000",
+      "end": "10/2001",
+      "current": false
+    },
+    {
+      "title": "Customer Service Engineer",
+      "company": "IP Unity Glenayre",
+      "start": "10/1998",
+      "end": "10/2000",
+      "current": false
+    }
+  ]
 }

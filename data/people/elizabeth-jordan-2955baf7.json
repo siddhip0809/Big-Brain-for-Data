@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "1/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "9/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer",
+      "company": "Hensel Phelps",
+      "start": "11/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "7/2016",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "Elford",
+      "start": "5/2015",
+      "end": "1/2016",
+      "current": false
+    }
+  ]
 }

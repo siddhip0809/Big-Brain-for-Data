@@ -28,5 +28,50 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Energy Officer",
+      "company": "CleanArc Data Centers",
+      "start": "5/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Energy Marketing",
+      "company": "RWE",
+      "start": "5/2018",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Chief Commercial Officer",
+      "company": "LevelTen Energy",
+      "start": "9/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Director, Global Commercial & Industrial Origination",
+      "company": "First Solar",
+      "start": "9/2014",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "VP Development & Energy Marketing",
+      "company": "E.ON Climate & Renewables Solar PV",
+      "start": "4/2011",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "raw": "CleanArc Data Centers"
+    }
+  ]
 }

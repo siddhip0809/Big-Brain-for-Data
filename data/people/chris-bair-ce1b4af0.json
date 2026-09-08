@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer and Partner",
+      "company": "Stream Data Centers",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President Of Sales & Leasing",
+      "company": "Stream Data Centers",
+      "start": "11/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales & Marketing Data Center Division",
+      "company": "Iron Mountian",
+      "start": "8/2013",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Board Member",
+      "company": "Handel Information Technologies",
+      "start": "8/2013",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Infrastructure Strategy Group",
+      "start": "10/2012",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Vice-President of Sales",
+      "company": "CoreSite",
+      "start": "4/2010",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "raw": "Stream Data Centers"
+    }
+  ]
 }

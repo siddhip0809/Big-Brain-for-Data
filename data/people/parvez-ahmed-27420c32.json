@@ -28,5 +28,71 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director - Sales",
+      "company": "Khazna Data Centers",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Sales Officer",
+      "company": "Arc Solutions",
+      "start": "1/2021",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Aryaka Networks",
+      "start": "1/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Field Sales Manager",
+      "company": "Rogers Data Centres",
+      "start": "1/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "China Telecom Americas",
+      "start": "1/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Director - Sales",
+      "company": "du",
+      "start": "1/2012",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "du",
+      "start": "1/2008",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Etisalat",
+      "start": "1/2007",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "raw": "Khazna Data Centers"
+    }
+  ]
 }

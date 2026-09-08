@@ -39,5 +39,53 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "polar"
+  "current_company_id": "polar",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President Acquisition & Development",
+      "company": "Polar",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Land Acquisition",
+      "company": "CyrusOne",
+      "start": "9/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Acquisition and Development Manager",
+      "company": "CyrusOne",
+      "start": "3/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "CyrusOne",
+      "start": "9/2021",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Matthews & Goodman",
+      "start": "4/2015",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "CB Richard Ellis",
+      "start": "9/2008",
+      "end": "4/2015",
+      "current": false
+    }
+  ]
 }

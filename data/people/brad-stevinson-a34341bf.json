@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President",
+      "company": "Tract",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President   Development And Investment",
+      "company": "Trammell Crow Company",
+      "start": "4/2023",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Associate   Development & Investment",
+      "company": "Trammell Crow Company",
+      "start": "8/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Summer Associate",
+      "company": "Boston Properties",
+      "start": "6/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Integrated Real Estate Services",
+      "start": "11/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Emergency Medicine Physician",
+      "company": "UCHealth",
+      "start": "1/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Retrieval Physician",
+      "company": "Greater Sydney Area Helicopter Emergency Medical Service",
+      "start": "1/2015",
+      "end": "12/2016",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Land Enablement Manager",
+      "company": "Aligned Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Development Manager",
+      "company": "JLL",
+      "start": "10/2022",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "InSite Real Estate",
+      "start": "10/2018",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Planning and Zoning Commissioner",
+      "company": "Village of Lake Zurich Illinois",
+      "start": "8/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Manhard Consulting",
+      "start": "1/2014",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Owner/Operator",
+      "company": "Advance J Giannini",
+      "start": "3/2007",
+      "end": "1/2014",
+      "current": false
+    }
+  ]
 }

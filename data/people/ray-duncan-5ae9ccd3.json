@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head Of Sales - Data Centres",
+      "company": "Polaris Data Centre",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head Of Sales - Data Centres",
+      "company": "Springfield City Group",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "General Manager",
+      "company": "NetEngine",
+      "start": "3/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "Optus",
+      "start": "11/2013",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Channel Manager Qld",
+      "company": "SingTel Optus",
+      "start": "1/2008",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Channel Manager Qld, WA",
+      "company": "AAPT",
+      "start": "8/2006",
+      "end": "12/2007",
+      "current": false
+    }
+  ]
 }

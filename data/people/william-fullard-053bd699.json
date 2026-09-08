@@ -39,5 +39,96 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director",
+      "company": "Soben",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Soben",
+      "start": "7/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Lead Cost Manager",
+      "company": "Soben",
+      "start": "1/2025",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Soben",
+      "start": "4/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Project Manager",
+      "company": "RJ Kearey Construction",
+      "start": "3/2023",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Manager",
+      "company": "Kearey Construction",
+      "start": "12/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Rider Levett Bucknall",
+      "start": "5/2022",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "The Blue Chip Development Trust",
+      "start": "1/2015",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "Stone Projects Namibia",
+      "start": "1/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "The John F Hunt Group",
+      "start": "5/2010",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Freelance Project Surveyor",
+      "company": "Bishop Construction Services",
+      "start": "11/2009",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Project Quantity Surveyor",
+      "company": "KNIGHT BUILD LIMITED",
+      "start": "8/2008",
+      "end": "11/2009",
+      "current": false
+    }
+  ]
 }

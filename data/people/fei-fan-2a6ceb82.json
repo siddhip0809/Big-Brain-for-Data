@@ -28,5 +28,94 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Transmission Planning",
+      "company": "Tract",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director, Grid Strategy & Analytics",
+      "company": "Recurrent Energy",
+      "start": "12/2023",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Grid Strategy & Analytics",
+      "company": "Recurrent Energy",
+      "start": "10/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Manager, Transmission and Interconnection",
+      "company": "Ecoplexus",
+      "start": "9/2020",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Manager, Transmission and Interconnection",
+      "company": "First Solar",
+      "start": "6/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Power System Engineer",
+      "company": "Smart Wires",
+      "start": "6/2015",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Power System Planning Associate Engineer",
+      "company": "NYISO",
+      "start": "7/2014",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Lawrence Berkeley National Laboratory",
+      "start": "7/2013",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer",
+      "company": "State Grid Corporation of China",
+      "start": "7/2010",
+      "end": "1/2011",
+      "current": false
+    },
+    {
+      "title": "Graduate Researcher",
+      "company": "Henan Electric Power Test Research Institute",
+      "start": "6/2009",
+      "end": "10/2009",
+      "current": false
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "company": "State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources",
+      "start": "10/2007",
+      "end": "5/2009",
+      "current": false
+    },
+    {
+      "title": "Head of Grid Strategy & Analytics",
+      "company": "Recurrent Energy",
+      "current": false
+    }
+  ]
 }

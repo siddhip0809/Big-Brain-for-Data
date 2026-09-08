@@ -28,5 +28,117 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Business Development Director",
+      "company": "Salute EMEA",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Customer Success   Canada & Europe / Directeur, Réussite Des Clients",
+      "company": "Compass Datacenters",
+      "start": "10/2023",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Health And Well Being",
+      "company": "Career Break",
+      "start": "6/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "Serverchoice",
+      "start": "4/2019",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Cyxtera Technologies",
+      "start": "4/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Volta Data Centres",
+      "start": "4/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Volunteer Racemaker",
+      "company": "Silverstone Circuits",
+      "start": "6/2014",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Executive",
+      "company": "Volta Data Centres",
+      "start": "6/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Account Manager   Corporate & Enterprise",
+      "company": "Equinix",
+      "start": "7/2013",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Account Manager   Business Development Team",
+      "company": "Equinix",
+      "start": "5/2012",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Consultant   New Business",
+      "company": "Equinix",
+      "start": "3/2010",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Executive   New Business",
+      "company": "Equinix",
+      "start": "3/2006",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Data Centre Engineer & Sales Administration",
+      "company": "Redbus Interhouse",
+      "start": "10/2004",
+      "end": "3/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Executive / Team Leader",
+      "company": "Cobra Group Of Companies",
+      "start": "6/2004",
+      "end": "10/2004",
+      "current": false
+    },
+    {
+      "title": "Account Services: Placement",
+      "company": "Isobar",
+      "start": "2004",
+      "end": "2004",
+      "current": false
+    }
+  ]
 }

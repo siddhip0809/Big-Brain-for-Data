@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President-Hyperscale Sales",
+      "company": "DataBank",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Board Advisor",
+      "company": "CLIMB",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Partner",
+      "company": "CLIMB",
+      "start": "12/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "VP Worldwide Sales",
+      "company": "SecureAuth",
+      "start": "1/2022",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Area Vice President",
+      "company": "CyrusOne",
+      "start": "1/2017",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Director",
+      "company": "AppDynamics",
+      "start": "1/2016",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Area Vice President",
+      "company": "AppSense",
+      "start": "1/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Dell",
+      "start": "1/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Dell",
+      "start": "1/2007",
+      "end": "1/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Director of Healthcare",
+      "company": "Lanier Worldwide",
+      "start": "1/2005",
+      "end": "1/2007",
+      "current": false
+    },
+    {
+      "title": "District Manager",
+      "company": "Lanier Worldwide",
+      "start": "1/2002",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Various Sales and Sales Management roles",
+      "company": "Lanier Worldwide Inc People Ventures",
+      "start": "1/1994",
+      "end": "1/2002",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Director",
+      "company": "McCarthy Building Companies",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction and QA/QM",
+      "company": "Hanwha Energy USA (174 Power Global)",
+      "start": "4/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "McCarthy Building Companies",
+      "start": "5/2019",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Engineering and Construction Professional",
+      "company": "Haydon Building",
+      "start": "1/2019",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Engineering and Construction Project Manager",
+      "company": "NRG Energy",
+      "start": "12/2014",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Development Engineer",
+      "company": "Ameresco",
+      "start": "8/2012",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Graduate Energy Intern",
+      "company": "APS Energy Services",
+      "start": "5/2011",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Sr. Operating Engineer",
+      "company": "Arizona State University",
+      "start": "8/2008",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Petty Officer 2nd Class",
+      "company": "US Navy",
+      "start": "2/2003",
+      "end": "1/2007",
+      "current": false
+    }
+  ]
 }

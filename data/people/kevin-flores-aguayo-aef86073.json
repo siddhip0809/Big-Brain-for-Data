@@ -28,5 +28,124 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Swinerton",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Swinerton",
+      "start": "7/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Martines Palmeiro Construction",
+      "start": "2/2019",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "HD",
+      "start": "11/2018",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Reconstruction Experts",
+      "start": "10/2017",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Reconstruction Experts",
+      "start": "11/2016",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Roche Constructors",
+      "start": "12/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Richmond American Homes",
+      "start": "10/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Saunders Construction",
+      "start": "9/2012",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "Village Homes",
+      "start": "5/2012",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Student Custodian",
+      "company": "Colorado State University",
+      "start": "1/2012",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Intern - Field Assistant",
+      "company": "D R",
+      "start": "7/2011",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "D R Horton",
+      "start": "7/2011",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Express Drywall and Painting",
+      "start": "5/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Student Staff",
+      "company": "Lory Student Center",
+      "start": "10/2009",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Student Receptionist",
+      "company": "Colorado State University",
+      "start": "1/2007",
+      "end": "11/2009",
+      "current": false
+    }
+  ]
 }

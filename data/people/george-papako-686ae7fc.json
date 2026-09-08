@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "AWS",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Churchill",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Linesight",
+      "start": "11/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Property Development Manager",
+      "company": "Stefatos Bros",
+      "start": "9/2017",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Stefatos Bros",
+      "start": "9/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Site Mep Engineer",
+      "company": "Harinsa Contracting Company Qatar Wll",
+      "start": "5/2015",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant",
+      "company": "Italtherm Olvino Cossio & Sia E E",
+      "start": "2/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Military Service",
+      "company": "401 General Military Hospital Of Athens",
+      "start": "11/2011",
+      "end": "6/2012",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP, Data Centers",
+      "company": "Oracle",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chairman Committee Member",
+      "company": "St Jude Children's Research Hospital - ALSAC",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Colocation Data Center Design and Construction",
+      "company": "Vantage",
+      "start": "4/2018",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction",
+      "company": "Turner Construction",
+      "start": "5/2006",
+      "end": "4/2018",
+      "current": false
+    }
+  ]
 }

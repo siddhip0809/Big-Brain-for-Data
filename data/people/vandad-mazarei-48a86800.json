@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Preconstruction Manager",
+      "company": "Meta",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Turner Construction",
+      "start": "6/2024",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "9/2023",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "12/2020",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Analyst",
+      "company": "Turner Construction",
+      "start": "9/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "1/2016",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Absher Construction",
+      "start": "6/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Researcher",
+      "company": "Kiewit Materials Performance Laboratory",
+      "start": "9/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Researcher",
+      "company": "Kiewit Materials Performance Laboratory",
+      "start": "1/2014",
+      "end": "12/2015",
+      "current": false
+    }
+  ]
 }

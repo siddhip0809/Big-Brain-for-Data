@@ -28,5 +28,80 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President-Hyperscale Division",
+      "company": "Serverfarm Data Centers at Serverfarm",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Principal SME"
+    },
+    {
+      "title": "AWS Colocation Data Centers North & South American Portfolio",
+      "company": "AWS",
+      "start": "9/2022",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "raw": "Principal SME"
+    },
+    {
+      "title": "AWS Colocation Data Centers  North & South American Portfolio",
+      "company": "AWS",
+      "start": "9/2022",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "raw": "Global Expansion Manager – North and South America"
+    },
+    {
+      "title": "AWS",
+      "company": "AWS",
+      "start": "2/2017",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "raw": "Global Expansion Manager - North and South America"
+    },
+    {
+      "title": "AWS",
+      "company": "AWS",
+      "start": "2/2017",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Co Founder",
+      "company": "Cloud Services NW- Cloudservices.net",
+      "start": "6/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "VP Sales and Marketing",
+      "company": "Digital Fortress Data Centers & Cloud Services - Digitalfortress.io",
+      "start": "7/2013",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "VP Sales and Marketing / Data Center",
+      "company": "Adhost Internet",
+      "start": "3/1997",
+      "end": "1/2013",
+      "current": false
+    }
+  ]
 }

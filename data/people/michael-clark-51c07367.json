@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP, Data Center Construction",
+      "company": "DC BLOX",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Mission Critical",
+      "company": "PCL Construction",
+      "start": "8/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Lead Construction Manager",
+      "company": "Meta",
+      "start": "8/2022",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Data Center Systems Architect",
+      "company": "Google",
+      "start": "11/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Program Manager",
+      "company": "Google",
+      "start": "10/2018",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Project Executive",
+      "company": "DPR Construction",
+      "start": "8/2015",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Product Owner - C1 Custom Data Centers",
+      "company": "QTS Data Centers",
+      "start": "1/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Design and Construction Project Manager",
+      "company": "QTS Data Centers",
+      "start": "11/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Logistics Manager",
+      "company": "Turner Construction",
+      "start": "5/2003",
+      "end": "11/2011",
+      "current": false
+    }
+  ]
 }

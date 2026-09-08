@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "T-Mobile",
+      "start": "8/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Equinix",
+      "start": "9/2008",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

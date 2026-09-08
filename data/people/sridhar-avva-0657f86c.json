@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Lead - Sr Program Manager",
+      "company": "Google",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Area Project Controls Manager - Hyperion",
+      "company": "Meta",
+      "start": "3/2026",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Geo Manager - Planning and Scheduling",
+      "company": "Meta",
+      "start": "4/2022",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "AWS",
+      "start": "10/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Project Control Consultant",
+      "company": "Turner & Townsend",
+      "start": "2017",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Project Controls Analyst 1",
+      "company": "URS Corporation an AECOM",
+      "start": "6/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Construction Management Intern",
+      "company": "G2 Builders",
+      "start": "9/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Graduate Assistant Researcher",
+      "company": "Texas A&M University",
+      "start": "12/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Officer/Engineer",
+      "company": "Orient Cement",
+      "start": "9/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Summer Intern",
+      "company": "Lanco Hills Technology Park Pvt",
+      "start": "5/2011",
+      "end": "7/2011",
+      "current": false
+    }
+  ]
 }

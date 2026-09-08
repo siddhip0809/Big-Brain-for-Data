@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Energy Strategy Manager",
+      "company": "AWS",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, Power Account Services",
+      "company": "Bonneville Power Administration",
+      "start": "4/2018",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Non-Profit Board Officer",
+      "company": "Castles and Bears",
+      "start": "2/2018",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Manager of Distributed Energy Resources",
+      "company": "Bonneville Power Administration",
+      "start": "10/2015",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Customer Account Executive",
+      "company": "Bonneville Power Administration",
+      "start": "9/2011",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Public Utilities Specialist (Contracts)",
+      "company": "Bonneville Power Administration",
+      "start": "3/2008",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Public Utilities Specialist (Scheduling)",
+      "company": "Bonneville Power Administration",
+      "start": "3/2006",
+      "end": "4/2008",
+      "current": false
+    }
+  ]
 }

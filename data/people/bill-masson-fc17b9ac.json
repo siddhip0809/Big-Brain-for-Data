@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Manager",
+      "company": "Edgemoor Infrastructure & Real Estate",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Associate",
+      "company": "Edgemoor Infrastructure & Real Estate",
+      "start": "6/2023",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Development Associate",
+      "company": "Edgemoor Infrastructure & Real Estate",
+      "start": "9/2019",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Clark Construction Group",
+      "start": "6/2018",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Clark Construction Group",
+      "start": "7/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Engineer, Virtual Design & Construction",
+      "company": "Clark Construction Group",
+      "start": "6/2016",
+      "end": "7/2017",
+      "current": false
+    }
+  ]
 }

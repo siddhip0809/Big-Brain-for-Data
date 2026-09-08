@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "CEO & Founder",
+      "company": "Femnexa",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Co Founder",
+      "company": "Forum For Women In Data Centres",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "Global Switch",
+      "start": "11/2023",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Customer Success",
+      "company": "Telehouse",
+      "start": "8/2019",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Service Delivery Team Leader",
+      "company": "Syntura",
+      "start": "2/2018",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Service Delivery Team Leader",
+      "company": "Six Degrees Group",
+      "start": "7/2016",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Service Delivery Manager",
+      "company": "Six Degrees Group",
+      "start": "11/2012",
+      "end": "7/2016",
+      "current": false
+    }
+  ]
 }

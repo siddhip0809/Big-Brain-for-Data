@@ -39,5 +39,33 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal Cost Management Metro Lead - Data Center Construction",
+      "company": "Microsoft",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Management Metro Lead - Data Center Construction",
+      "company": "Microsoft",
+      "start": "6/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Management Metro Lead - Data Center Construction",
+      "company": "Microsoft",
+      "start": "8/2023",
+      "end": "6/2025",
+      "current": false
+    }
+  ]
 }

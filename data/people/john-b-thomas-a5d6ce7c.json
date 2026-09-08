@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, International Business Development",
+      "company": "Vantage",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Director, International Business Development",
+      "company": "Vantage",
+      "start": "6/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Technical Business Developer, AWS Infrastructure",
+      "company": "AWS",
+      "start": "4/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Sr. Program Manager, AWS Infrastructure",
+      "company": "AWS",
+      "start": "7/2015",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Business Analyst, AWS Infrastructure",
+      "company": "AWS",
+      "start": "6/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Amazon",
+      "start": "11/2011",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Arthur S Ito & Associates",
+      "start": "6/2010",
+      "end": "12/2010",
+      "current": false
+    }
+  ]
 }

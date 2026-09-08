@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Development Project Manager ",
+      "company": "QTS Data Centers",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "POGUE CONSTRUCTION",
+      "start": "9/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Vaughn Construction",
+      "start": "4/2020",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Structure Tone Southwest",
+      "start": "7/2018",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Mission Critical",
+      "company": "Structure Tone Southwest",
+      "start": "5/2014",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "RLM General Contractor",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

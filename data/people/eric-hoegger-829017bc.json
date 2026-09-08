@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Power and Energy",
+      "company": "CyrusOne",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Global Renewable Energy",
+      "company": "Cargill",
+      "start": "1/2019",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Director, Power Origination - Retail",
+      "company": "Cargill",
+      "start": "9/2010",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Power Origination Manager",
+      "company": "Cargill",
+      "start": "12/2002",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Cargill",
+      "start": "12/2000",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Production Supervisor",
+      "company": "Cargill",
+      "start": "12/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Production Supervisor",
+      "company": "Cargill",
+      "start": "7/1998",
+      "end": "11/1998",
+      "current": false
+    },
+    {
+      "title": "Maintenance Supervisor",
+      "company": "Cargill",
+      "start": "7/1997",
+      "end": "7/1998",
+      "current": false
+    },
+    {
+      "title": "Engineering Co-op",
+      "company": "Cargill",
+      "start": "6/1996",
+      "end": "12/1996",
+      "current": false
+    }
+  ]
 }

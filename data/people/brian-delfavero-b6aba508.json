@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction, North America",
+      "company": "Vantage",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Board Member - Sponsorship Co-Chair",
+      "company": "AMFP DC/Baltimore Chapter - Association of Medical Facility Professionals",
+      "start": "7/2022",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President - Team Lead Medstar Account",
+      "company": "JLL",
+      "start": "10/2021",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Gilbane Building",
+      "start": "9/2016",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "5/2013",
+      "end": "9/2016",
+      "current": false
+    }
+  ]
 }

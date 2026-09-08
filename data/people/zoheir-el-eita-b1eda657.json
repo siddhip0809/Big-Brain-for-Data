@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "James G Davis Construction",
+      "start": "8/2019",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer",
+      "company": "Contrack Watts",
+      "start": "6/2012",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Servicedesk techician",
+      "company": "N E W Customer Service Companies",
+      "start": "3/2004",
+      "end": "6/2012",
+      "current": false
+    }
+  ]
 }

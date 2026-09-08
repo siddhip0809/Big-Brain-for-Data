@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction & Estimating",
+      "company": "Gilmore Construction",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Rider Levett Bucknall",
+      "start": "5/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Turner Construction",
+      "start": "4/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Estimating Engineer",
+      "company": "Turner Construction",
+      "start": "11/2019",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Suffolk Construction",
+      "start": "3/2019",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer / Estimator",
+      "company": "Austin Commercial",
+      "start": "3/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hoar Construction",
+      "start": "6/2014",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager Intern",
+      "company": "Harvey-Cleary Builders",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

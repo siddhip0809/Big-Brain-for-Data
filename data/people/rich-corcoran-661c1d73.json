@@ -39,5 +39,103 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager II",
+      "company": "The Weitz Company",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Pre-Construction Manager - Mission Critical",
+      "company": "The Weitz Company",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Keen Project Solutions",
+      "start": "3/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Woodruff Construction",
+      "start": "11/2018",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Kinzler Construction Services",
+      "start": "6/2018",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Central Iowa General Manager",
+      "company": "Kinzler Construction Services",
+      "start": "3/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Board of Trustees Member",
+      "company": "Immanuel Lutheran Church",
+      "start": "1/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Kinzler Construction Services",
+      "start": "8/2014",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Construction Manager II",
+      "company": "Iowa State University",
+      "start": "6/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Integrity Construction",
+      "start": "1/2008",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Story Construction",
+      "start": "3/2006",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "JE Dunn Construction",
+      "start": "5/2005",
+      "end": "3/2006",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Kinzler Construction Services",
+      "start": "2003",
+      "end": "2005",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimating Manager",
+      "company": "Gilbane Building",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Estimating",
+      "company": "Hill International",
+      "start": "1/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Director Of Estimating",
+      "company": "Hill International",
+      "start": "12/2019",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Faithful+Gould",
+      "start": "1/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "4/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Director of Cost Estimating",
+      "company": "SunEdison",
+      "start": "11/2014",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Vice President of Estimating",
+      "company": "Martifer Solar",
+      "start": "8/2013",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator, EPC Performance Optimization",
+      "company": "First Solar",
+      "start": "11/2010",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Haydon Companies",
+      "start": "11/2008",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Project Manager",
+      "company": "Sundt Construction",
+      "start": "12/2006",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Perini Building",
+      "start": "9/2002",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "DPR Construction",
+      "start": "1/1999",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Estimator II",
+      "company": "The Weitz Company",
+      "start": "4/1995",
+      "end": "6/1999",
+      "current": false
+    }
+  ]
 }

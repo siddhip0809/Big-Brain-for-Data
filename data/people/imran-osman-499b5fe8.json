@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Geographical Project Controls Manager",
+      "company": "Meta",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Controls Analyst",
+      "company": "Meta",
+      "start": "7/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant Project Controls",
+      "company": "Turner & Townsend",
+      "start": "11/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Project Controls Lead (Brunel)",
+      "company": "ExxonMobil",
+      "start": "1/2018",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Engineer",
+      "company": "Saudi Aramco",
+      "start": "4/2015",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Project Controls and Management",
+      "company": "INTECSEA",
+      "start": "3/2005",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Field Engineer - Wireline Logging",
+      "company": "Halliburton",
+      "start": "1/2004",
+      "end": "3/2005",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager Data Center Capacity - EMEA",
+      "company": "CoreWeave",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Planning & Acquisition - EMEA",
+      "company": "TikTok",
+      "start": "10/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Associate Director - IS&T - Data Centres",
+      "company": "Turner & Townsend",
+      "start": "10/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Site Acquisition Manager",
+      "company": "Microsoft",
+      "start": "5/2021",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Strategic Sourcing Manager",
+      "company": "permanent tsb",
+      "start": "8/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Global Strategic Sourcing Manager - IT/Data Center",
+      "company": "VMware",
+      "start": "4/2015",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Procurement Manager",
+      "company": "University College Cork Ireland",
+      "start": "9/2013",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator/Commercial Manager",
+      "company": "Transport Infrastructure Ireland",
+      "start": "1/2008",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Edward Cotter Partnership",
+      "start": "1/2000",
+      "end": "1/2007",
+      "current": false
+    }
+  ]
 }

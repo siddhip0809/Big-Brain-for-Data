@@ -28,5 +28,81 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Development",
+      "company": "CloudHQ",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "CloudHQ",
+      "start": "1/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "CloudHQ",
+      "start": "8/2021",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "Peterson Companies",
+      "start": "1/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Real Estate Acquisition/Development Manager",
+      "company": "Lidl US",
+      "start": "10/2015",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Portfolio Manager/Bank Officer",
+      "company": "John Marshall Bank",
+      "start": "10/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Credit Analyst",
+      "company": "John Marshall Bank",
+      "start": "9/2012",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Academic Tutor",
+      "company": "Virginia Tech",
+      "start": "8/2011",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Financial Representative",
+      "company": "Northwestern Mutual",
+      "start": "5/2011",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "IT Specialist",
+      "company": "PD ALTESS",
+      "start": "8/2010",
+      "end": "5/2011",
+      "current": false
+    }
+  ]
 }

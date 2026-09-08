@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Cost Estimator-SPW",
+      "company": "DPR Construction",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Reflection Window + Wall",
+      "start": "6/2019",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator",
+      "company": "V J Associates",
+      "start": "2/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Techture Structures",
+      "start": "6/2016",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "P T Mase & Associates",
+      "start": "5/2013",
+      "end": "12/2014",
+      "current": false
+    }
+  ]
 }

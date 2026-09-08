@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Senior Development Manager EMEA",
+      "company": "Colt Data Centre Services",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Director - Datacentres",
+      "company": "ISG plc",
+      "start": "5/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Mid Group",
+      "start": "1/2020",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Legal & General",
+      "start": "1/2018",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Crest Nicholson plc",
+      "start": "1/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "Balfour Beatty plc",
+      "start": "1/2013",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Construction",
+      "start": "1/2006",
+      "end": "1/2013",
+      "current": false
+    }
+  ]
 }

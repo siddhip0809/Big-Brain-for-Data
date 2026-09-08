@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Platform Execution",
+      "company": "Aligned Data Centers",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Aligned Data Centers",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Program Manager, FCS Bay Area",
+      "company": "Meta",
+      "start": "3/2019",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Regional Construction Manager, North America",
+      "company": "Meta",
+      "start": "4/2015",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Manager",
+      "company": "Meta",
+      "start": "11/2011",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "PROJECT MANAGER II",
+      "company": "Safeway",
+      "start": "5/2006",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "VP",
+      "company": "Prime Electrical Services",
+      "start": "9/2003",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "PROJECT ENGINEER",
+      "company": "Webcor Builders",
+      "start": "7/2001",
+      "end": "9/2003",
+      "current": false
+    }
+  ]
 }

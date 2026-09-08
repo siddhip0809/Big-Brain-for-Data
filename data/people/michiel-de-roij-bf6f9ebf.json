@@ -39,5 +39,54 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Acquisitions & Investments EMEA",
+      "company": "Digital Realty",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Director, Corporate Development EMEA",
+      "company": "Equinix",
+      "start": "11/2019",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Manager Corporate Finance - European Real Estate",
+      "company": "PwC",
+      "start": "1/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Non-Residential Real Estate Assessment Specialist ",
+      "company": "Waarderingskamer",
+      "start": "8/2013",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Associate, Corporate Development",
+      "company": "ASR",
+      "start": "9/2010",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Management Trainee",
+      "company": "ASR",
+      "start": "9/2008",
+      "end": "8/2010",
+      "current": false
+    }
+  ]
 }

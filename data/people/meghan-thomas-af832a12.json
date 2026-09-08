@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Predevelopment Project Manager",
+      "company": "QTS Data Centers",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "9/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Development Project Engieer",
+      "company": "QTS Data Centers",
+      "start": "5/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "WBE Contractor",
+      "start": "5/2021",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Compass Datacenters",
+      "start": "5/2021",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Legal Assistant",
+      "company": "Hartley Law Firm",
+      "start": "5/2020",
+      "end": "8/2020",
+      "current": false
+    }
+  ]
 }

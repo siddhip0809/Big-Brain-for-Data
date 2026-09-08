@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "digital-realty"
+  "current_company_id": "digital-realty",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Digital Realty",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "DPR Construction",
+      "start": "9/2017",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Lee Lewis Construction",
+      "start": "3/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Schmoldt Construction",
+      "start": "8/2011",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Pump Operator",
+      "company": "Sweet H20",
+      "start": "3/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Certified Trainer",
+      "company": "Darden Restaurants",
+      "start": "8/2010",
+      "end": "3/2011",
+      "current": false
+    }
+  ]
 }

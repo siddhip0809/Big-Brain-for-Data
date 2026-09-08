@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Interconnection ",
+      "company": "CyrusOne",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Interconnection Sales Engineer",
+      "company": "CyrusOne",
+      "start": "11/2018",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Account Director - Carrier Sales",
+      "company": "Zayo",
+      "start": "7/2012",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Carrier Account Manager",
+      "company": "AboveNet Communications",
+      "start": "4/2012",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "AboveNet Communications",
+      "start": "1/2010",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Carrier Account Director",
+      "company": "AboveNet Communications",
+      "start": "5/1999",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Carrier Sales",
+      "company": "Broadwing Communications",
+      "start": "9/1997",
+      "end": "5/1999",
+      "current": false
+    },
+    {
+      "title": "National Account Manager/Sales Manager",
+      "company": "WorldCom",
+      "start": "10/1992",
+      "end": "9/1997",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Allnet Communications",
+      "start": "2/1992",
+      "end": "8/1992",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Procurement Category Manager - High Voltage/Substation/Power Generation",
+      "company": "Aligned Data Centers",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Category Lead (Medium & High Voltage - North America T&D Renewables)",
+      "company": "RES",
+      "start": "7/2024",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Category Management - HV/MV Electrical and Civil (Renewables, Fossil, Nuclear)",
+      "company": "Vistra",
+      "start": "7/2019",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Principal Contract Manager (Transmission & Substation)",
+      "company": "Exelon",
+      "start": "4/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Lead Engineer (Transmission, Distribution, & Substation)",
+      "company": "Pepco Holdings",
+      "start": "4/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer (Transmission, Distribution, & Substation)",
+      "company": "Pepco Holdings",
+      "start": "10/2011",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Engineer II (Substation Design)",
+      "company": "Pepco Holdings",
+      "start": "9/2008",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Engineer I (Substation Design)",
+      "company": "Pepco Holdings",
+      "start": "7/2006",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Pepco Holdings",
+      "start": "2005",
+      "end": "2005",
+      "current": false
+    }
+  ]
 }

@@ -50,5 +50,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "yondr"
+  "current_company_id": "yondr",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Leasing",
+      "company": "Yondr",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Negotiations Lead",
+      "company": "Yondr",
+      "start": "10/2022",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Board Member",
+      "company": "WeForest",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Corporate Transactions, Mergers and Acquisitions",
+      "company": "GDF SUEZ",
+      "start": "4/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Counsel, Global Corporate Transactions, Mergers and Acquisitions",
+      "company": "GDF SUEZ",
+      "start": "4/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Project Development and Finance",
+      "company": "GDF SUEZ",
+      "start": "10/2016",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Legal Counsel, Project Development and Finance",
+      "company": "GDF SUEZ",
+      "start": "10/2016",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Legal Counsel",
+      "company": "Jacobs",
+      "start": "8/2013",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Counsel",
+      "company": "Jacobs",
+      "start": "8/2013",
+      "end": "10/2016",
+      "current": false
+    }
+  ]
 }

@@ -50,5 +50,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "ferrovial"
+  "current_company_id": "ferrovial",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Site Selection",
+      "company": "Ferrovial",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site Selection Director",
+      "company": "AtlasEdge",
+      "start": "12/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Site Selection Director",
+      "company": "Pure Data Centres",
+      "start": "1/2022",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Member Board of Directors",
+      "company": "Ayrshire Chamber of Commerce",
+      "start": "9/2020",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "North Property Advisors",
+      "start": "7/2017",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Member Board of Directors",
+      "company": "Renfrewshire Chamber of Commerce",
+      "start": "9/2015",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "MEPC Limited",
+      "start": "3/2013",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Storage Vault",
+      "start": "11/2008",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Chartered Surveyor",
+      "company": "CB Richard Ellis",
+      "start": "8/2005",
+      "end": "11/2008",
+      "current": false
+    }
+  ]
 }

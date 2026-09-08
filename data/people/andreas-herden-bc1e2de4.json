@@ -39,5 +39,124 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Managing Director Germany",
+      "company": "nLighten",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President Sales Continental Europe",
+      "company": "Green Mountain AS - Data centres",
+      "start": "9/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Chief Sales Officer",
+      "company": "Lefdal Mine Data Centers",
+      "start": "1/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Director Vertical Markets & Named Accounts - Connected Vehicles and Manufacturing",
+      "company": "Equinix",
+      "start": "1/2018",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Director Enterprise Automotive and Finance",
+      "company": "Equinix",
+      "start": "10/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Director SDN & Fabric Solutions Global Sales",
+      "company": "Avaya",
+      "start": "7/2014",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Director Networking Solutions Europe, Middle-East and Africa",
+      "company": "Avaya",
+      "start": "4/2012",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Director Networking Consulting EMEA",
+      "company": "Avaya",
+      "start": "1/2010",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Director Sales Engineering Central and Southern Europe",
+      "company": "Nortel",
+      "start": "1/2009",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Director Enterprise Networks Operations",
+      "company": "Nortel",
+      "start": "5/2004",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Director Enterprise Networks Central and Eastern Europe",
+      "company": "Nortel",
+      "start": "4/2002",
+      "end": "4/2004",
+      "current": false
+    },
+    {
+      "title": "Senior Manager PreSales and Marketing",
+      "company": "Nortel",
+      "start": "10/2000",
+      "end": "3/2002",
+      "current": false
+    },
+    {
+      "title": "Senior Manager Sales Engineering",
+      "company": "Bay Networks",
+      "start": "5/1996",
+      "end": "9/2000",
+      "current": false
+    },
+    {
+      "title": "IT Consultant",
+      "company": "Ciba-Geigy2",
+      "start": "4/1990",
+      "end": "5/1996",
+      "current": false
+    },
+    {
+      "title": "Manager Data Center German Navy",
+      "company": "Bundeswehr",
+      "start": "4/1986",
+      "end": "3/1990",
+      "current": false
+    },
+    {
+      "title": "Apprenticeship as a banker Sparkasse Schaumburg",
+      "company": "Sparkasse-Finanzgruppe",
+      "start": "10/1983",
+      "end": "3/1986",
+      "current": false
+    }
+  ]
 }

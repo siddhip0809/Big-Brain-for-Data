@@ -39,5 +39,82 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President of Sales",
+      "company": "Green Mountain Global Data Centers",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Sales (EMEA)",
+      "company": "Vantage",
+      "start": "9/2021",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Business Development Director - EMEA",
+      "company": "CBRE",
+      "start": "4/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager - Data Centres",
+      "company": "Aggreko",
+      "start": "4/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Aggreko",
+      "start": "9/2014",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Stearn Electric",
+      "start": "8/2012",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Ski Instructor",
+      "company": "Schneesport-Akademie Ischgl",
+      "start": "12/2008",
+      "end": "4/2009",
+      "current": false
+    },
+    {
+      "title": "Ski Instructor",
+      "company": "NZSki",
+      "start": "6/2007",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Ski Instructor",
+      "company": "Winter Park Resort",
+      "start": "11/2006",
+      "end": "5/2007",
+      "current": false
+    },
+    {
+      "title": "E-Marketing Intern",
+      "company": "Air France",
+      "start": "8/2005",
+      "end": "4/2006",
+      "current": false
+    }
+  ]
 }

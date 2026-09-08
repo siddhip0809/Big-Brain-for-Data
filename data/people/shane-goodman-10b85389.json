@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Precon Lead",
+      "company": "DPR Construction",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "DPR Construction",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager of Project Services",
+      "company": "AE Works",
+      "start": "1/2017",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Special Projects Precon Manager",
+      "company": "DPR Construction",
+      "start": "4/2015",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Large Projects Estimator",
+      "company": "DPR Construction",
+      "start": "12/2013",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "East Coast Innovation Manager",
+      "company": "DPR Construction",
+      "start": "1/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Barton Malow",
+      "start": "5/2007",
+      "end": "4/2010",
+      "current": false
+    }
+  ]
 }

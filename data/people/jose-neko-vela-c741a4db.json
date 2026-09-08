@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "crusoe"
+  "current_company_id": "crusoe",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Pre-construction Manager",
+      "company": "Crusoe",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP - Head of Construction",
+      "company": "Conventus",
+      "start": "6/2024",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager for Google",
+      "company": "CBRE",
+      "start": "6/2019",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Sares Regis Group of Northern California",
+      "start": "6/2015",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "1/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Associate Structural Designer",
+      "company": "SIGFRIDO ARRIVILLAGA & ASSOCIATES",
+      "start": "2010",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Superintendent - Field Engineer",
+      "company": "GRUPO NABLA",
+      "start": "1/2006",
+      "end": "1/2010",
+      "current": false
+    }
+  ]
 }

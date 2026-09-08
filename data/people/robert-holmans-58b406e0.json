@@ -50,5 +50,37 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "vantage"
+  "current_company_id": "vantage",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director New Site Development",
+      "company": "Vantage",
+      "start": "2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director (London Project Management (PM) Team)",
+      "company": "Turner & Townsend",
+      "start": "3/2016",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "company": "Director of Regeneration and Asset Management",
+      "start": "2012",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "company": "London Borough of Lewisham",
+      "start": "2008",
+      "end": "2016",
+      "current": false
+    }
+  ]
 }

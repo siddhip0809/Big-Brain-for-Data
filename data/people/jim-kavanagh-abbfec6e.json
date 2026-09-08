@@ -39,5 +39,75 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Data Centre Platform Development & Strategic Partnerships (EMEA)",
+      "company": "O-Green Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Data Centre Technical Sales",
+      "company": "NEOM",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Land Acquisition, Data Centers",
+      "company": "EDGNEX",
+      "start": "4/2022",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "DC Site and Capacity Acquisition Manager, EMEA",
+      "company": "AWS",
+      "start": "5/2019",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Real Estate Manager of EMEA",
+      "company": "Intel",
+      "start": "3/2012",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Real Estate Asset Strategy Manager, EMEA",
+      "company": "Intel",
+      "start": "10/2006",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Sales & Marketing - Business Develoment Manager - Banking Sector",
+      "company": "Intel",
+      "start": "9/2002",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Strategic Alliance Manager (Data Center)",
+      "company": "Intel",
+      "start": "9/2000",
+      "end": "9/2002",
+      "current": false
+    },
+    {
+      "title": "IT - Automation Eng, Oracle DBA, Proj Mgr",
+      "company": "Intel",
+      "start": "7/1996",
+      "end": "9/2000",
+      "current": false
+    }
+  ]
 }

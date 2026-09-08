@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstructi",
+      "company": "Yates Construction",
+      "start": "8/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Project Manager",
+      "company": "Sundt Construction",
+      "start": "6/2018",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Executive",
+      "company": "The Beck Group",
+      "start": "12/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Director",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "8/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator / Cost Analyst",
+      "company": "Linbeck Group",
+      "start": "2/2006",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Director of Estimating",
+      "company": "Structure Tone Southwest",
+      "start": "1/1994",
+      "end": "2/2005",
+      "current": false
+    }
+  ]
 }

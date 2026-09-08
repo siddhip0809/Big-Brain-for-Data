@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Managing Director, Acquisitions",
+      "company": "PowerHouse Data Centers",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director, Acquisitions",
+      "company": "American Real Estate Partners",
+      "start": "2/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President of Acquisitions",
+      "company": "American Real Estate Partners",
+      "start": "6/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Vice President",
+      "company": "Perseus Realty Capital",
+      "start": "4/2005",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Touchstone Partners",
+      "start": "6/2003",
+      "end": "4/2005",
+      "current": false
+    }
+  ]
 }

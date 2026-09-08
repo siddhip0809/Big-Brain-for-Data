@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "t5-data-centers"
+  "current_company_id": "t5-data-centers",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Of Preconstruction",
+      "company": "T5 Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "McCarthy Building Companies",
+      "start": "5/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Reeves Young",
+      "start": "7/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Turner Construction",
+      "start": "3/2017",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Barton Malow",
+      "start": "8/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Director Of Preconstruction",
+      "company": "Carroll Daniel",
+      "start": "7/2012",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Doster Construction",
+      "start": "8/2008",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Estimating Engineer",
+      "company": "Turner Construction",
+      "start": "10/2005",
+      "end": "7/2008",
+      "current": false
+    }
+  ]
 }

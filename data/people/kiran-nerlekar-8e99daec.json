@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Clayco",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Clayco",
+      "start": "3/2023",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Engineer",
+      "company": "Clayco",
+      "start": "7/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Clayco",
+      "start": "1/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "DPR Construction",
+      "start": "8/2017",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "DPR Construction",
+      "start": "5/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Graduate Assistant",
+      "company": "Clemson University",
+      "start": "5/2015",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Licensed Contractor",
+      "company": "Self employed",
+      "start": "6/2013",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Executive Contracts",
+      "company": "West Pioneer Properties",
+      "start": "1/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Junior Engineer",
+      "company": "Dongre Associates",
+      "start": "8/2010",
+      "end": "12/2011",
+      "current": false
+    }
+  ]
 }

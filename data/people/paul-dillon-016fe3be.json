@@ -39,5 +39,57 @@
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer (CCO)",
+      "company": "Yondr",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Development Officer",
+      "company": "Yondr",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Development",
+      "company": "Yondr",
+      "start": "9/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Development Director",
+      "company": "Yondr",
+      "start": "3/2020",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Partner / Co- Founder",
+      "company": "Solidus Private Equity / Gemini Data Centers",
+      "start": "1/2014",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Corporate Finance Lawyer",
+      "company": "Matheson",
+      "start": "6/2007",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "raw": "Yondr"
+    }
+  ]
 }

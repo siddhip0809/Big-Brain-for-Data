@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Preconstruction/Estimating - STO Mission Critical",
+      "company": "STO Building Group",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Technology",
+      "company": "Soben",
+      "start": "4/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Soben",
+      "start": "4/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Analyst/Preconstruction Director",
+      "company": "Sonic Automotive",
+      "start": "7/2015",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant/Quantity Surveyor",
+      "company": "Linesight",
+      "start": "9/2011",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Interserve",
+      "start": "9/2010",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "PCMD - Senior Project Quantity Surveyor",
+      "company": "University of Central Asia",
+      "start": "9/2009",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Linesight",
+      "start": "12/2005",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Gardiner & Theobald",
+      "start": "4/2005",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Faithful+Gould",
+      "start": "4/2002",
+      "end": "4/2005",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant",
+      "company": "Commodore Construction",
+      "start": "6/2001",
+      "end": "4/2002",
+      "current": false
+    },
+    {
+      "title": "Junior Quantity Surveyor",
+      "company": "John Sisk and Son",
+      "start": "6/1999",
+      "end": "9/2000",
+      "current": false
+    }
+  ]
 }

@@ -163,5 +163,31 @@ control pair (top-left of the stage) steps back out. This replaces a
 static text card with a spatial, explorable "atomic diagram" of each
 node's neighborhood, per Siddhi's request.
 
-This is a step back in scope on purpose, at your request, so the company
-+ investor layer reads cleanly before people are added back in.
+**People — the org chart (added 2026-09-08).** People are deliberately
+*not* drawn as nodes in the 3D view (that was what made the earlier full
+graph unreadable). Instead they come back through each company: the
+company detail panel lists "People in the brain (N)" by department with
+the most senior mapped person in each, and "Open org chart →" opens a
+full-stage overlay for that company:
+
+- **Leadership mapped** — a row of everyone at C-suite or EVP/SVP/MD rank,
+  i.e. "who is in charge" as far as our mapping goes.
+- **By department** (default) — one column per company department
+  (`function` on the person record, derived from the title; house order
+  Executive → Development → Sales → Pre-Con → Construction → Energy → …),
+  most senior first; the top rank in each column is flagged **most
+  senior** when it is Director level or above.
+- **By location** — the same people grouped by the last part of their
+  location (state / country), for the location-based view.
+- A text filter matches name, title, location *and past employers* ("who
+  at Vantage used to be at Google?").
+- Click any card to expand **past employers** (from the parsed career
+  history), earlier roles at the same company, a LinkedIn link, and a
+  note when the department was inferred from the mapping list rather than
+  the title.
+
+Two honesty labels are built in: the header says the chart is "from Ward
+Search mapping, not the company's full org", and "most senior" means most
+senior *among the people we have mapped*. `build_graph3d_data.py` emits
+only the fields the chart needs (name, title, function, seniority,
+location, LinkedIn, career) — never email, phone, or compensation.

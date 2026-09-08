@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Ambassador",
+      "company": "Nomad Futurist",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "Prime Data Centers",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Business Development",
+      "company": "Tate",
+      "start": "5/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Manager - Data Center Solutions",
+      "company": "Tate",
+      "start": "6/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Director of Business Development - Data Centers",
+      "company": "Integrated Design Group",
+      "start": "4/2015",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Business Development Associate",
+      "company": "Alpha Testing",
+      "start": "2/2013",
+      "end": "4/2015",
+      "current": false
+    }
+  ]
 }

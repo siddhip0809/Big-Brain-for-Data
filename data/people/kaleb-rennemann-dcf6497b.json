@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Serverfarm",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager of Construction",
+      "company": "Blue Origin",
+      "start": "1/2023",
+      "end": "12/2026",
+      "current": false
+    },
+    {
+      "raw": "Principal"
+    },
+    {
+      "title": "Bluewater Building and Development, CBC",
+      "company": "Bluewater Building and Development",
+      "start": "1/2020",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Whiting-Turner Contracting",
+      "start": "1/2018",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Licensed Florida Real Estate Broker",
+      "company": "Florida",
+      "start": "1/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Intelligence Analyst",
+      "company": "US Army",
+      "start": "1/2012",
+      "end": "12/2014",
+      "current": false
+    }
+  ]
 }

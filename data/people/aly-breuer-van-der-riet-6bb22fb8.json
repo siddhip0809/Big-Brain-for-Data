@@ -39,5 +39,81 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "bytedance"
+  "current_company_id": "bytedance",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Site Acquisitions Manager",
+      "company": "ByteDance",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Site Acquisitions Manager, Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "10/2023",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Business Planning & Governance Lead, Professional Services",
+      "company": "AWS",
+      "start": "10/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Launch & Expansion Manager, Amazon Global Specialty Fulfillment",
+      "company": "Amazon",
+      "start": "8/2020",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Strategy & Management Consultant, McChrystal Group",
+      "company": "McChrystal Group",
+      "start": "9/2017",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Program Manager, Duke Program in American Grand Strategy",
+      "company": "Duke University",
+      "start": "7/2015",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Virtual Student Foreign Service eIntern",
+      "company": "U S Department of State",
+      "start": "9/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Summer Legal Intern",
+      "company": "Consulado General de México en Los Ángeles",
+      "start": "5/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Intern for Congresswoman Lois Capps",
+      "company": "United States House of Representatives",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Student Manager",
+      "company": "Duke University Women's Basketball",
+      "start": "1/2012",
+      "end": "5/2015",
+      "current": false
+    }
+  ]
 }

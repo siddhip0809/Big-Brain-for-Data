@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal Program Manager",
+      "company": "Microsoft",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Energy & Power Solutions",
+      "company": "Freeport-McMoRan",
+      "start": "7/2019",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Manager of Energy Services",
+      "company": "Freeport-McMoRan",
+      "start": "11/2013",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Chief Engineer - Energy Management",
+      "company": "Freeport-McMoRan",
+      "start": "4/2011",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Fuel Engineer III",
+      "company": "Arizona Public Service - APS",
+      "start": "10/2006",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Test Engineer II",
+      "company": "Honeywell",
+      "start": "1/2005",
+      "end": "10/2006",
+      "current": false
+    }
+  ]
 }

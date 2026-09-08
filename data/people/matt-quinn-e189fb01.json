@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "NTT",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Campus Manager",
+      "company": "Meta",
+      "start": "8/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Lead Construction Manager",
+      "company": "Meta",
+      "start": "5/2021",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "TLM Group",
+      "start": "2/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Anderson Electric",
+      "start": "4/2018",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Cleveland Electric",
+      "start": "11/2014",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Electrician",
+      "company": "B & B Electric",
+      "start": "7/2005",
+      "end": "8/2014",
+      "current": false
+    }
+  ]
 }

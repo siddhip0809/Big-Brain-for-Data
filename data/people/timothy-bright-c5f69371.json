@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Executive Vice President",
+      "company": "T5 Data Centers",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "T5 Data Centers",
+      "start": "11/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President",
+      "company": "Holder Properties",
+      "start": "1/1997",
+      "end": "11/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Holder Construction",
+      "start": "9/1993",
+      "end": "12/1996",
+      "current": false
+    }
+  ]
 }

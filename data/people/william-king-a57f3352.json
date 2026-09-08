@@ -50,5 +50,47 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "prime-data-centers"
+  "current_company_id": "prime-data-centers",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP of Strategy & Business Development Europe",
+      "company": "Prime Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director",
+      "company": "DC Byte",
+      "start": "7/2020",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Head of EMEA Data Centres",
+      "company": "Colliers",
+      "start": "10/2014",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Marketing Executive",
+      "company": "Volta Data Centres",
+      "start": "5/2012",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Manager",
+      "company": "AD Installations and Contracting",
+      "start": "9/2009",
+      "end": "5/2012",
+      "current": false
+    }
+  ]
 }

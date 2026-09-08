@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead, Commercial Structuring, Global Energy and Infrastructure",
+      "company": "Google",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Development",
+      "company": "Wunder",
+      "start": "6/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Head of Operations",
+      "company": "Wunder",
+      "start": "3/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Operations",
+      "company": "Wunder",
+      "start": "9/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Product Developer",
+      "company": "Xcel Energy",
+      "start": "8/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Customer Insights Analyst",
+      "company": "Xcel Energy",
+      "start": "8/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Analyst",
+      "company": "The Cadmus Group",
+      "start": "5/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Analyst - Energy Efficiency",
+      "company": "The Cadmus Group",
+      "start": "5/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Research Analyst - Energy Efficiency",
+      "company": "The Cadmus Group",
+      "start": "6/2011",
+      "end": "5/2012",
+      "current": false
+    }
+  ]
 }

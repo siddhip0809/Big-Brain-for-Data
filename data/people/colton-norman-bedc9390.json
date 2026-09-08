@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Controls Manager",
+      "company": "RES",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Georgia Tech Research Institute",
+      "start": "4/2021",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "McCarthy Building Companies",
+      "start": "10/2020",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "McCarthy Building Companies",
+      "start": "1/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Field Planner",
+      "company": "Bechtel",
+      "start": "6/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Field Project Controls Engineer",
+      "company": "Bechtel",
+      "start": "5/2015",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Center for Vocational Building Technology",
+      "start": "6/2012",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Project Lead",
+      "company": "Engineers Without Borders Cal Poly",
+      "start": "9/2011",
+      "end": "9/2012",
+      "current": false
+    }
+  ]
 }

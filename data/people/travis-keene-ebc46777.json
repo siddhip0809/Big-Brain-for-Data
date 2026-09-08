@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Mgr. of Construction",
+      "company": "AWS",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction",
+      "company": "Microsoft",
+      "start": "2/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Sr. Construction Operations Manager",
+      "company": "Tesla",
+      "start": "2017",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Military Officer / B-1 Aviator",
+      "company": "United States Air Force",
+      "start": "2005",
+      "end": "2016",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Marketing Officer (Director Of Sales & Marketing)",
+      "company": "Echelon Data Centres",
+      "start": "1/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director",
+      "company": "FixHub",
+      "start": "8/2015",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Mamba Bay",
+      "start": "3/2011",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Sales & Business Development Manager",
+      "company": "20 20 Mobile Ireland",
+      "start": "3/2009",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Wholesale Manager",
+      "company": "Digiweb",
+      "start": "7/2008",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Corporate Account Director",
+      "company": "Irish Broadband",
+      "start": "2/2005",
+      "end": "6/2008",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Solar Solutions",
+      "start": "2/2003",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Country Manager",
+      "company": "FLAG Telecom",
+      "start": "4/2001",
+      "end": "10/2003",
+      "current": false
+    },
+    {
+      "title": "Sales Account Manager",
+      "company": "Global Telesystems Group",
+      "start": "1/1998",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Sales Account Manager",
+      "company": "GTS/Ebone",
+      "start": "1/1998",
+      "end": "12/2001",
+      "current": false
+    }
+  ]
 }

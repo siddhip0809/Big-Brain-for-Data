@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Project Engineering",
+      "company": "Abbott",
+      "start": "10/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Abbott",
+      "start": "1/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Sr Project Manager",
+      "company": "John W Danforth",
+      "start": "6/2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Business Team Manager",
+      "company": "Rogue Fitness",
+      "start": "8/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Conception to Reality",
+      "start": "8/2014",
+      "end": "8/2018",
+      "current": false
+    }
+  ]
 }

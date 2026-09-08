@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Energy Markets",
+      "company": "Microsoft",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Engineering Manager",
+      "company": "Portland General Electric",
+      "start": "2/2020",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Principal Energy Supply Originator",
+      "company": "Portland General Electric",
+      "start": "1/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Business Relationship Manager",
+      "company": "Portland General Electric",
+      "start": "1/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Transmission and Distribution Engineer",
+      "company": "Portland General Electric",
+      "start": "3/2006",
+      "end": "12/2013",
+      "current": false
+    }
+  ]
 }

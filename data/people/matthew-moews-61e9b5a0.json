@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "CloudHQ",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Construction",
+      "company": "CloudHQ",
+      "start": "10/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Construction",
+      "company": "NTT",
+      "start": "1/2021",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Regional Construction Operations Manager",
+      "company": "Meta",
+      "start": "6/2016",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager - Facebook",
+      "company": "OAC Services",
+      "start": "10/2015",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "General Manager of Managed Engineering Services - PNW Region, Director CM/PM, QA/QC services",
+      "company": "MSR-FSR",
+      "start": "9/2012",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager, Program Manager, QA Manager",
+      "company": "Jacobs",
+      "start": "2/2009",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Project Manager, Facility Condition Assessor",
+      "company": "Parsons",
+      "start": "2007",
+      "end": "2009",
+      "current": false
+    },
+    {
+      "title": "Site Project Manager",
+      "company": "FST Technical Services",
+      "start": "2006",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Project Manager, construction coordinator",
+      "company": "AM Technical Solutions",
+      "start": "1/2004",
+      "end": "2006",
+      "current": false
+    },
+    {
+      "title": "Demo Project Manager",
+      "company": "FST Technical Services",
+      "start": "2004",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "Project Lead",
+      "company": "Purity Systems",
+      "start": "2002",
+      "end": "2003",
+      "current": false
+    },
+    {
+      "title": "Site / QA/QC / Demo Manager, Project Manager, Construction Coordinator",
+      "company": "AM Technical Solutions",
+      "start": "1/1996",
+      "end": "1/2002",
+      "current": false
+    }
+  ]
 }

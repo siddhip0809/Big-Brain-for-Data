@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Data Center Construction",
+      "company": "Cyxtera Technologies",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager Project Management",
+      "company": "Cyxtera Technologies",
+      "start": "4/2019",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Cyxtera Technologies",
+      "start": "9/2017",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "MGAC",
+      "start": "8/2014",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "MEP Manager",
+      "company": "EllisDon",
+      "start": "5/2010",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "HTS Engineering - Heat Transfer Solutions",
+      "start": "9/2009",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Commissioning Specialist",
+      "company": "CFMS Consulting",
+      "start": "4/2008",
+      "end": "8/2008",
+      "current": false
+    }
+  ]
 }

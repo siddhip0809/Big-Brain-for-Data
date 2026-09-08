@@ -50,5 +50,60 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "edged"
+  "current_company_id": "edged",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director Sales, Europe",
+      "company": "Edged",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Director Hyperscale Sales EMEA",
+      "company": "Digital Realty",
+      "start": "2018",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Director Group Strategic Accounts",
+      "company": "Digital Realty",
+      "start": "2014",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Managing Director Ireland (interim)",
+      "company": "Digital Realty",
+      "start": "2010",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Director Cloud Services and System Integrators - International Sales",
+      "company": "Digital Realty",
+      "start": "2008",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Manager Sales & Marketing",
+      "company": "Digital Realty",
+      "start": "2000",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Corporate Management Trainee + SME Account Manager",
+      "company": "ABN AMRO Bank N V",
+      "start": "1997",
+      "end": "2000",
+      "current": false
+    }
+  ]
 }

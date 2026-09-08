@@ -28,5 +28,25 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director - Power Solutions",
+      "company": "CoreSite",
+      "start": "6/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "CoreSite",
+      "start": "6/2016",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

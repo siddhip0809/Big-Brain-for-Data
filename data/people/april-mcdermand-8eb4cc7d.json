@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Power Infrastructure Procurement",
+      "company": "CyrusOne",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director Procurement",
+      "company": "EDP Renewables North America",
+      "start": "4/2023",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager Procurement Strategy, Planning, and New Initiative's",
+      "company": "EDP Renewables",
+      "start": "11/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "O&M Procurement Manager",
+      "company": "EDP Renewables",
+      "start": "8/2017",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Buyer",
+      "company": "EDP Renewables",
+      "start": "7/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Associate Buyer",
+      "company": "EDP Renewables",
+      "start": "6/2008",
+      "end": "6/2013",
+      "current": false
+    }
+  ]
 }

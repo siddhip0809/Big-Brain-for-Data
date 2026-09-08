@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Strategy Lead ",
+      "company": "Rowan Digital Infrastructure",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Energy Project Manager",
+      "company": "Vantage",
+      "start": "10/2024",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Principal Energy Project Manager, NA",
+      "company": "Vantage",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy Supply Trader Specialist",
+      "company": "Colorado Springs Utilities",
+      "start": "2/2008",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Portfolio Trader",
+      "company": "Washington Gas Energy Services",
+      "start": "10/2001",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Network Analyst",
+      "company": "PSINet",
+      "start": "10/1997",
+      "end": "7/2001",
+      "current": false
+    },
+    {
+      "company": "PSINet",
+      "start": "10/1997",
+      "end": "7/2001",
+      "current": false
+    }
+  ]
 }

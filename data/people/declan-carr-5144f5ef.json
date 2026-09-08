@@ -39,5 +39,43 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Pre-Development - Europe",
+      "company": "QTS Data Centers",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Pre-Construction Manager EMEA"
+    },
+    {
+      "title": "ICM",
+      "company": "Meta",
+      "start": "10/2018",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Contracts Manager",
+      "company": "John Sisk & Son",
+      "start": "1/2000",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Bid Manager / Contracts Manager",
+      "company": "John Sisk & Son",
+      "start": "1/2000",
+      "end": "10/2018",
+      "current": false
+    }
+  ]
 }

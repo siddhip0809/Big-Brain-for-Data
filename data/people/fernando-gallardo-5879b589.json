@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "NTT",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Project Manager",
+      "company": "NTT",
+      "start": "8/2022",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "DPR Construction",
+      "start": "11/2016",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Director Project Deployment - Data Center",
+      "company": "Emerson Network Power",
+      "start": "6/2014",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "M C Dean",
+      "start": "3/2010",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Vice President of Construction",
+      "company": "Royal Island Bahamas",
+      "start": "2/2007",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Rosendin Electric",
+      "start": "9/1997",
+      "end": "2/2007",
+      "current": false
+    }
+  ]
 }

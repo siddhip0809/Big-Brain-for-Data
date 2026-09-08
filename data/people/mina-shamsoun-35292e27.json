@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "The Weitz Company",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager II",
+      "company": "The Weitz Company",
+      "start": "3/2025",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "The Weitz Company",
+      "start": "10/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "The Weitz Company",
+      "start": "9/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Proposal Manager",
+      "company": "Orascom Construction Plc",
+      "start": "1/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Estimation Manager",
+      "company": "Orascom Construction Plc",
+      "start": "6/2018",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "MEP Estimation Team Leader",
+      "company": "Orascom Construction Plc",
+      "start": "1/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Orascom Construction Plc",
+      "start": "1/2012",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Orascom Construction Plc",
+      "start": "3/2011",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Electrical Procurement Engineer",
+      "company": "Orascom Construction Plc",
+      "start": "3/2010",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Electrical Technical Office Engineer",
+      "company": "Orascom Construction Plc",
+      "start": "12/2009",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Electrical Site Engineer",
+      "company": "Orascom Construction Plc",
+      "start": "12/2008",
+      "end": "11/2009",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "DataBank",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Manager",
+      "company": "Data Intensity",
+      "start": "10/2021",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Director, Channel & Strategic Alliances",
+      "company": "NTT",
+      "start": "9/2017",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Engagement Manager, Systems Integration",
+      "company": "NTT",
+      "start": "1/2006",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive, Field Sales",
+      "company": "NTT",
+      "start": "1/2004",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Higher Education Sales, Oracle Direct",
+      "company": "Oracle",
+      "start": "1/2002",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant",
+      "company": "NTT",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Exhibit Sales",
+      "company": "Food Marketing Institute",
+      "start": "1/1997",
+      "end": "12/2000",
+      "current": false
+    }
+  ]
 }

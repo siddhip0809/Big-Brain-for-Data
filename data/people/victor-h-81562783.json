@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Mechanical Estimator",
+      "company": "Jacobs",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Mechanical Estimator",
+      "company": "Axias",
+      "start": "5/2019",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Chief Mechanical Estimator",
+      "company": "Clover Contracting",
+      "start": "6/2016",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Mechanical Estimator",
+      "company": "Adrian L Merton",
+      "start": "5/2014",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Mechanical Estimator",
+      "company": "Williams Companies",
+      "start": "9/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Mechanical Estimator",
+      "company": "Adrian L Merton",
+      "start": "10/2010",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Mechanical Project Manager / Estimator",
+      "company": "Refrigeration Systems",
+      "start": "7/2009",
+      "end": "10/2010",
+      "current": false
+    },
+    {
+      "title": "Jr. Mechanical Estimator",
+      "company": "Dualco",
+      "start": "2/2008",
+      "end": "7/2009",
+      "current": false
+    }
+  ]
 }

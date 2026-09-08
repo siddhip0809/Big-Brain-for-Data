@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP, Global Data Center Programs",
+      "company": "Nscale",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Data Center Delivery",
+      "company": "Oracle",
+      "start": "3/2026",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Data Center Infrastructure Construction",
+      "company": "Oracle",
+      "start": "12/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Vice President, Construction NA",
+      "company": "Vantage",
+      "start": "10/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Construction & Project Controls",
+      "company": "Vantage",
+      "start": "2/2024",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Construction & Project Controls",
+      "company": "Vantage",
+      "start": "2/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Principal Construction Manager",
+      "company": "Vantage",
+      "start": "2/2022",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "Vantage",
+      "start": "8/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "2/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Vantage",
+      "start": "5/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer",
+      "company": "Turner Construction",
+      "start": "1/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Turner Construction",
+      "start": "1/2016",
+      "end": "1/2017",
+      "current": false
+    }
+  ]
 }

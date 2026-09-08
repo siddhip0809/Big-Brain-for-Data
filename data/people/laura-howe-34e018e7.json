@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Data Center Energy & Location Strategy",
+      "company": "Google",
+      "start": "4/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Negotiator, Data Center Energy & Location Strategy",
+      "company": "Google",
+      "start": "1/2015",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Google",
+      "start": "5/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "CSTechnology & DJS Group",
+      "start": "7/2007",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Asset Management Analyst",
+      "company": "Hudson Housing Capital",
+      "start": "5/2006",
+      "end": "8/2006",
+      "current": false
+    }
+  ]
 }

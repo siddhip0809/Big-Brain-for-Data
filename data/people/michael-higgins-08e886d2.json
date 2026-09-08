@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Real Estate",
+      "company": "Equinix",
+      "start": "3/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Prop",
+      "start": "4/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Enterprise Business Development Director, Asia Pacific",
+      "company": "WeWork",
+      "start": "6/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Head of Enterprise Solutions",
+      "company": "naked Hub",
+      "start": "11/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Director - Global Occupier Services",
+      "company": "Cushman & Wakefield",
+      "start": "7/2012",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Commercial Property Executive",
+      "company": "Servcorp",
+      "start": "11/2009",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Savills",
+      "start": "6/2007",
+      "end": "11/2009",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Net Property Consultants",
+      "start": "3/2006",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Executive Assistant",
+      "company": "Baring Private Equity Asia",
+      "start": "1/2005",
+      "end": "3/2005",
+      "current": false
+    },
+    {
+      "title": "Business Development Intern",
+      "company": "ANZ Shanghai",
+      "start": "1/2004",
+      "end": "12/2004",
+      "current": false
+    }
+  ]
 }

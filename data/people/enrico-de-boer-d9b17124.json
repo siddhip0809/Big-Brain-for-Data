@@ -50,5 +50,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "digital-realty"
+  "current_company_id": "digital-realty",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Global Strategic Accounts, EMEA",
+      "company": "Digital Realty",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Sales & Marketing",
+      "company": "Digital Realty",
+      "start": "3/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Executive",
+      "company": "IBM",
+      "start": "2/2016",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "VP Sales - Cloud Benelux & Nordics, Middle East & Africa",
+      "company": "Atos",
+      "start": "10/2012",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Managing partner",
+      "company": "Senority",
+      "start": "1/2011",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Head of Sales & Account management - Outsourcing & Projects",
+      "company": "Ordina",
+      "start": "1/2008",
+      "end": "1/2011",
+      "current": false
+    },
+    {
+      "title": "Client Sales Executive (dealmaker)",
+      "company": "Electronic Data Systems",
+      "start": "1/1999",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Management Consultant",
+      "company": "Electronic Data Systems",
+      "start": "1/1997",
+      "end": "12/1999",
+      "current": false
+    },
+    {
+      "title": "Business consultant",
+      "company": "Miles Industrial consulting",
+      "start": "1/1987",
+      "end": "12/1997",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,36 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Construction Project Management Americas",
+      "company": "Equinix",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Senior Construction Manager (DC Campus)"
+    },
+    {
+      "title": "Senior Program Manager (Substations)",
+      "company": "Aligned Data Centers",
+      "start": "2/2023",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Senior MEP & Commissioning Manager (Power Generation & Data Centers)",
+      "company": "General Contractor",
+      "start": "1992",
+      "end": "2023",
+      "current": false
+    }
+  ]
 }

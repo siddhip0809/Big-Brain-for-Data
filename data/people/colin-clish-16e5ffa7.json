@@ -28,5 +28,64 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "President & Chief Executive Officer",
+      "company": "PointOne",
+      "start": "3/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Past President - NAIOP Edmonton",
+      "company": "NAIOP Edmonton",
+      "start": "12/2015",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Real Estate Developer",
+      "company": "Clish Development",
+      "start": "7/2015",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "NAIOP Edmonton",
+      "start": "12/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Director, Leasing and Land Sales",
+      "company": "Remington Development",
+      "start": "5/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Leasing & Land Coordinator",
+      "company": "Remington Development",
+      "start": "11/2007",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Supervisor, Technical Services",
+      "company": "Parkland County",
+      "start": "5/2002",
+      "end": "11/2007",
+      "current": false
+    },
+    {
+      "raw": "PointOne"
+    }
+  ]
 }

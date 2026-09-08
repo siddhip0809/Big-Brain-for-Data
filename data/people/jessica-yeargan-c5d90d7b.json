@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Development Manager",
+      "company": "Meta",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Ready Program Manager",
+      "company": "Meta",
+      "start": "6/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Lead Project Manager",
+      "company": "Olsson",
+      "start": "5/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Jacobs",
+      "start": "1/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "Jacobs",
+      "start": "10/2012",
+      "end": "1/2020",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President - Construction",
+      "company": "CyrusOne",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Of Development",
+      "company": "CyrusOne",
+      "start": "7/2022",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Director, Pre-Construction & Commissioning",
+      "company": "CyrusOne",
+      "start": "1/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director Of Development",
+      "company": "QTS Data Centers",
+      "start": "11/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Director of Mission Critical Services",
+      "company": "Structure Tone Southwest",
+      "start": "11/2017",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Director of Electrical Systems",
+      "company": "Structure Tone",
+      "start": "4/2015",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "The Brandt Companies",
+      "start": "1/2013",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Tei-Tech Construction",
+      "start": "1/2012",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Electrical QAQC Manager",
+      "company": "Brandt Engineering",
+      "start": "7/2006",
+      "end": "1/2012",
+      "current": false
+    }
+  ]
 }

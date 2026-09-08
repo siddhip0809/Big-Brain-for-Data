@@ -28,5 +28,71 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project and Program Manager",
+      "company": "Equinix",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "ENGIE Global Energy Management & Sales",
+      "start": "11/2017",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Key Partner Business Development Manager",
+      "company": "ENGIE Global Energy Management & Sales",
+      "start": "11/2017",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Energy Buyer ",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "5/2013",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "5/2013",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "6/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Sustainability Intern",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "6/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "First Investors",
+      "start": "8/2010",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "company": "First Investors",
+      "start": "8/2010",
+      "end": "12/2010",
+      "current": false
+    }
+  ]
 }

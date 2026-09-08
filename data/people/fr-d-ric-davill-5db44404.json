@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior International Accounts Director",
+      "company": "OPCORE",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales Account Manager",
+      "company": "Euclyde Datacenters",
+      "start": "3/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Account Manager",
+      "company": "nLighten",
+      "start": "3/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "SALES DIRECTOR EMEA",
+      "company": "Ethernetics",
+      "start": "9/2023",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Sales Director EMEA",
+      "company": "ITrium Green & Cloud",
+      "start": "8/2022",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Global Switch",
+      "start": "8/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Lieutenant Colonel Réserve Opérationnelle Gendarmerie Nationale (Coordonnateur Digital) - RO1S",
+      "company": "Gendarmerie Nationale",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "SALES & COMMUNICATION DIRECTOR",
+      "company": "TUTTITEAM",
+      "start": "4/2008",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "SALES MANAGER FRANCE",
+      "company": "Digital Realty",
+      "start": "3/2002",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "SALES MANAGER EUROPE",
+      "company": "GLOBAL CENTER /EXODUS/ GLIDEPATH",
+      "start": "9/1999",
+      "end": "2/2002",
+      "current": false
+    },
+    {
+      "title": "Founder",
+      "company": "EVOLUNET",
+      "start": "10/1998",
+      "end": "9/1999",
+      "current": false
+    },
+    {
+      "title": "COUNTRY MANAGER EUROPE & APAC",
+      "company": "SA THEMIS COMPUTER",
+      "start": "3/1996",
+      "end": "9/1998",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "EDS GREENLAB",
+      "start": "9/1992",
+      "end": "1/1996",
+      "current": false
+    }
+  ]
 }

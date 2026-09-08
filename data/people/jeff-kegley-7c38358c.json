@@ -28,5 +28,117 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President",
+      "company": "T5 Data Centers",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director",
+      "company": "T5 Data Centers",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "T5 Data Centers",
+      "start": "3/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Director, Development & Project Delivery",
+      "company": "T5 Data Centers",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Design Build Director",
+      "company": "Keeley Construction Group",
+      "start": "1/2024",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "Keeley Construction Group",
+      "start": "5/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Operations Manager",
+      "company": "Logan Pass Construction",
+      "start": "6/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Holder Construction",
+      "start": "4/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "Holder Construction",
+      "start": "4/2016",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Field Coordinator",
+      "company": "Holder Construction",
+      "start": "2/2015",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Field Coordinator",
+      "company": "Holder Construction",
+      "start": "5/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Systems Specialist",
+      "company": "ENTEC Services",
+      "start": "8/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Intern",
+      "company": "Holder Construction",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Estimator - Intern",
+      "company": "Stark Excavating",
+      "start": "1/2013",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Lead Installer",
+      "company": "Millworks",
+      "start": "5/2008",
+      "end": "8/2011",
+      "current": false
+    }
+  ]
 }

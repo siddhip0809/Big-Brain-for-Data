@@ -39,5 +39,61 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Strategic Development EMEAI",
+      "company": "EdgeConneX",
+      "start": "2/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Product Strategy",
+      "company": "Virtus Data Centers",
+      "start": "5/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Marketing, EMEA",
+      "company": "Equinix",
+      "start": "1/2009",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Head of Software Platform Strategy",
+      "company": "Motorola",
+      "start": "4/2005",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Product Manager",
+      "company": "TRACKER Network",
+      "start": "9/2001",
+      "end": "3/2005",
+      "current": false
+    },
+    {
+      "title": "Solution Sales Integration Manager",
+      "company": "Pinnacle Computers",
+      "start": "3/1998",
+      "end": "9/2001",
+      "current": false
+    },
+    {
+      "title": "Product Development Specialist",
+      "company": "GEC Marconi",
+      "start": "9/1996",
+      "end": "3/1998",
+      "current": false
+    }
+  ]
 }

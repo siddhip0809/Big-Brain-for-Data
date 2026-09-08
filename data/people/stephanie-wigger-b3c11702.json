@@ -39,5 +39,96 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction",
+      "company": "DPR Construction",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Skanska",
+      "start": "10/2021",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Skanska",
+      "start": "11/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "EHS Director",
+      "company": "Skanska",
+      "start": "3/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Skanska",
+      "start": "1/2017",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Skanska",
+      "start": "8/2016",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Skanska",
+      "start": "9/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Estimating Engineer",
+      "company": "Skanska",
+      "start": "9/2012",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, CCTP",
+      "company": "Skanska",
+      "start": "6/2010",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Nashville Electric Service",
+      "start": "2/2010",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Skanska",
+      "start": "5/2009",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Skanska",
+      "start": "6/2008",
+      "end": "8/2008",
+      "current": false
+    }
+  ]
 }

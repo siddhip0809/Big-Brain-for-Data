@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Rogers-O'Brien Construction",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Rogers-O'Brien Construction",
+      "start": "1/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Rogers-O'Brien Construction",
+      "start": "6/2020",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Rogers-O'Brien Construction",
+      "start": "11/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Rogers-O'Brien Construction",
+      "start": "7/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Rogers-O'Brien Construction",
+      "start": "9/2011",
+      "end": "6/2016",
+      "current": false
+    }
+  ]
 }

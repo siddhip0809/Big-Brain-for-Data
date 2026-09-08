@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Development",
+      "company": "Beale",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Real Estate Development",
+      "company": "Hillspire",
+      "start": "1/2017",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Summer Associate",
+      "company": "BUILD SF",
+      "start": "1/2016",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Modular Construction Research and Development",
+      "company": "BoKlok",
+      "start": "1/2016",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer",
+      "company": "SNC-Lavalin",
+      "start": "1/2013",
+      "end": "12/2015",
+      "current": false
+    }
+  ]
 }

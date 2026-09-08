@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "VP, Development Strategy",
+      "company": "Skybox Datacenters",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Investments",
+      "company": "BLP - Bridge Logistics Properties",
+      "start": "2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Hines",
+      "start": "2020",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "Xebec Realty",
+      "start": "2018",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Senior Business Analyst",
+      "company": "Forestar Group",
+      "start": "2015",
+      "end": "2018",
+      "current": false
+    },
+    {
+      "title": "Analyst / Trader",
+      "company": "Green Street",
+      "start": "2009",
+      "end": "2013",
+      "current": false
+    }
+  ]
 }

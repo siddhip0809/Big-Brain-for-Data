@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior MEP Estimator",
+      "company": "Suffolk Construction",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "MEP Estimator",
+      "company": "DPR Construction",
+      "start": "7/2019",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Estimator",
+      "company": "John Moriarty & Associates",
+      "start": "3/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "MEP Estimator",
+      "company": "Limbach",
+      "start": "2/2015",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Mechatronic Intern",
+      "company": "ScienceTomorrow",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Referee Grade 8",
+      "company": "United States Soccer Federation",
+      "start": "2005",
+      "end": "2015",
+      "current": false
+    }
+  ]
 }

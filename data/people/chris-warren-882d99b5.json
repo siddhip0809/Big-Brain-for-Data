@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "VP, Global Site Selection Lead",
+      "company": "Ada Infrastructure",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Site Acquisition Manager",
+      "company": "Microsoft",
+      "start": "9/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Associate, Acquisitions and Investments",
+      "company": "Digital Realty",
+      "start": "1/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Underwriting Manager",
+      "company": "Digital Realty",
+      "start": "8/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Portfolio Analyst",
+      "company": "Digital Realty",
+      "start": "11/2018",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Portfolio Analyst",
+      "company": "Digital Realty",
+      "start": "6/2015",
+      "end": "11/2018",
+      "current": false
+    }
+  ]
 }

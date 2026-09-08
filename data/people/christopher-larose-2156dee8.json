@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Hyperscale Sales   North America",
+      "company": "Vantage",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Technical Account Director",
+      "company": "Vantage",
+      "start": "6/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Technical Account Manager",
+      "company": "Vantage",
+      "start": "4/2023",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Account Executive, Mid Commercial",
+      "company": "Salesforce",
+      "start": "1/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "Zayo",
+      "start": "4/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Fibrenoire",
+      "start": "12/2019",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "Aptum",
+      "start": "12/2015",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Convergia",
+      "start": "9/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Assistant Sales Manager",
+      "company": "Glentel",
+      "start": "5/2009",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Staples",
+      "start": "1/2006",
+      "end": "5/2009",
+      "current": false
+    }
+  ]
 }

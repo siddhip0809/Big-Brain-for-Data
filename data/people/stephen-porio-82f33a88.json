@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Manager",
+      "company": "Digital Realty",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager, Data Center Fitout",
+      "company": "Constructiv",
+      "start": "11/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Construction Manager",
+      "company": "Meta",
+      "start": "8/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Owner and Project Manager",
+      "company": "Porio Contracting Group",
+      "start": "1/1997",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Product Development Engineer (Telecommunication Products)",
+      "company": "Siecor",
+      "start": "2/1992",
+      "end": "1/1997",
+      "current": false
+    }
+  ]
 }

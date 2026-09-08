@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Program Manager",
+      "company": "Microsoft",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Leidos",
+      "start": "8/2022",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "President and CEO",
+      "company": "Rollins Holdings",
+      "start": "5/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Kenyatta Computer Services",
+      "start": "10/2016",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Utility Engineer IV - Supervisor",
+      "company": "State of Alaska",
+      "start": "6/2016",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Facilities Engineer",
+      "company": "Aera Energy",
+      "start": "5/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Maintenance Engineer",
+      "company": "Chevron Energy Solutions",
+      "start": "5/2014",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Completion Engineer",
+      "company": "Chesapeake Energy",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Production Engineer",
+      "company": "Chesapeake Energy",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Process Engineer",
+      "company": "Chesapeake Energy",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    }
+  ]
 }

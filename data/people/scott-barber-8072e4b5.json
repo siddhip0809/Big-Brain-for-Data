@@ -28,5 +28,65 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Freelance Writer",
+      "company": "RUSSELL SCOTT",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Construction Planning",
+      "company": "CentersquareDC",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Critical Facilities Program Manager/Consultant",
+      "company": "Sequential Program Alignment Partners",
+      "start": "10/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager / Construction Projects",
+      "company": "Infomart Data Centers",
+      "start": "12/2007",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Designer, Project Manager",
+      "company": "Z Projects",
+      "current": false
+    },
+    {
+      "company": "Design",
+      "start": "9/2004",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Assistant Property Manager / Projects",
+      "company": "INFOMART",
+      "start": "6/1998",
+      "end": "5/2004",
+      "current": false
+    },
+    {
+      "title": "Designer, Project Manager",
+      "company": "CSI",
+      "start": "1/1996",
+      "end": "12/1998",
+      "current": false
+    }
+  ]
 }

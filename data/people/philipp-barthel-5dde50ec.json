@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Sales Germany",
+      "company": "Virtus Data Centers",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development",
+      "company": "Virtus Data Centers",
+      "start": "10/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Director International Sales",
+      "company": "Legrand Data Center Solutions",
+      "start": "7/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Key-Account & Expansion Manager",
+      "company": "modulan",
+      "start": "10/2018",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Key-Account & Export Manager",
+      "company": "modulan",
+      "start": "8/2015",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Account-Manager",
+      "company": "modulan",
+      "start": "1/2012",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Account-Manager",
+      "company": "henneveld office",
+      "start": "1/2009",
+      "end": "12/2011",
+      "current": false
+    }
+  ]
 }

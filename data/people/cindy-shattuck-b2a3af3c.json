@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Project Manager, Site Acquisition",
+      "company": "EdgeConneX",
+      "start": "5/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Intellifiber Networks/Windstream",
+      "start": "12/2011",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Project Support Specialist",
+      "company": "Xcel Energy",
+      "start": "9/2011",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Customer Relationship Manager",
+      "company": "EarthRoamer",
+      "start": "10/2004",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Lead Project Manager / Program Manager",
+      "company": "Qwest Communications",
+      "start": "1/1998",
+      "end": "11/2001",
+      "current": false
+    },
+    {
+      "title": "Supervisor of Premier Services",
+      "company": "Qwest Communications",
+      "start": "9/1997",
+      "end": "1/1998",
+      "current": false
+    }
+  ]
 }

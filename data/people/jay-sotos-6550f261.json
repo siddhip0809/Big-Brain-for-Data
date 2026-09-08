@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Land Development",
+      "company": "AWS",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Acquisition Manager",
+      "company": "Loudoun County Government",
+      "start": "1/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Sotos Partners",
+      "start": "1/2019",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "CRC Partners",
+      "start": "1/1995",
+      "end": "1/2019",
+      "current": false
+    }
+  ]
 }

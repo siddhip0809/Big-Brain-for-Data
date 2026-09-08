@@ -50,5 +50,89 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "digital-realty"
+  "current_company_id": "digital-realty",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Sales - Scale EMEA",
+      "company": "Digital Realty",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Sales - MED Region",
+      "company": "Digital Realty",
+      "start": "1/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Sales, Marketing and Customer Success",
+      "company": "Digital Realty",
+      "start": "3/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Director of Sales, Marketing and Customer Success",
+      "company": "Digital Realty",
+      "start": "3/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Director of Sales, Marketing and Service Delivery",
+      "company": "Digital Realty",
+      "start": "9/2015",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Vice President Cloud Services",
+      "company": "Ipanema Technologies - Now Part of InfoVista",
+      "start": "2/2012",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Director Europe",
+      "company": "UBIqube Solutions",
+      "start": "10/2010",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Director Western Europe",
+      "company": "UBIqube Solutions",
+      "start": "3/2007",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Area Sales Director and Owner",
+      "company": "Click&DECiDE",
+      "start": "6/2004",
+      "end": "3/2007",
+      "current": false
+    },
+    {
+      "title": "Channel Sales Manager",
+      "company": "HID Global",
+      "start": "2/2001",
+      "end": "6/2004",
+      "current": false
+    },
+    {
+      "title": "Channel Sales Manager",
+      "company": "NetAsq",
+      "start": "11/1999",
+      "end": "2/2001",
+      "current": false
+    }
+  ]
 }

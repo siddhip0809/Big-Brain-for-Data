@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "AI Infrastructure - EMEA/APAC",
+      "company": "Google",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AI Infrastructure - EMEA",
+      "company": "Google",
+      "start": "9/2021",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager - Infrastructure/ Data Centers",
+      "company": "Vantage",
+      "start": "10/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager - Infrastructure/ Data Centers",
+      "company": "Linesight",
+      "start": "2/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager - Stadia",
+      "company": "Mace",
+      "start": "6/2018",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer - Residential Developments",
+      "company": "Ballymore",
+      "start": "5/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer - Residential/ Commercial Developments",
+      "company": "Robert Bird Group",
+      "start": "6/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer - Residential/ Commercial Development",
+      "company": "Barton Engineers",
+      "start": "3/2013",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Engineering - Infrastructure",
+      "company": "RW Armstrong International",
+      "start": "2011",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Laboratory Technical - Infrastructure",
+      "company": "SMMorris Engineering Contractors",
+      "start": "2010",
+      "end": "2010",
+      "current": false
+    }
+  ]
 }

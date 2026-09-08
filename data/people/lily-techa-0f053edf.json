@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Estimator",
+      "company": "Hensel Phelps",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "10/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "9/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Office & Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "10/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "8/2016",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Office & Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "8/2015",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "1/2015",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Construction Intern",
+      "company": "HR Green",
+      "start": "5/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Civil Engineering Intern",
+      "company": "Illinois Department of Transportation",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "CEE Engineering Learning Assistant",
+      "company": "University of Illinois at Urbana-Champaign",
+      "start": "4/2013",
+      "end": "12/2014",
+      "current": false
+    }
+  ]
 }

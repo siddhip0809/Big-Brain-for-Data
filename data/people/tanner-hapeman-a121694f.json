@@ -39,5 +39,47 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "DPR Construction",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "DPR Construction",
+      "start": "3/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Manhattan Construction",
+      "start": "10/2014",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Junior Estimator",
+      "company": "Azteca Enterprises",
+      "start": "6/2013",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Lab Technician",
+      "company": "Alpha Testing",
+      "start": "12/2012",
+      "end": "1/2013",
+      "current": false
+    }
+  ]
 }

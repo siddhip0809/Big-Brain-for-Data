@@ -50,5 +50,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "aws"
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Real Estate Acquisition Manager EMEA",
+      "company": "AWS",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Hines",
+      "start": "12/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Investment",
+      "company": "Hines Real Estate",
+      "start": "2021",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Hines",
+      "start": "1/2018",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Hines",
+      "start": "5/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Real Estate Finance Analyst",
+      "company": "CIBC World Markets",
+      "start": "1/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Real Estate Finance Analyst",
+      "company": "CIBC",
+      "start": "2014",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Corporate Finance Intern",
+      "company": "Grant Thornton Ireland",
+      "start": "6/2013",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Acquisition Intern",
+      "company": "Halpern Real Estate Ventures",
+      "start": "6/2012",
+      "end": "8/2012",
+      "current": false
+    }
+  ]
 }

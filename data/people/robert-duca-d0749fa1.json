@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator",
+      "company": "Google",
+      "start": "5/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator Special Projects",
+      "company": "Microsoft",
+      "start": "12/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Linesight",
+      "start": "10/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "PlanB Consultancy",
+      "start": "4/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Stantec",
+      "start": "2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Swinerton",
+      "start": "8/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Skanska",
+      "start": "10/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "CH2M",
+      "start": "2/2012",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Babcock Services",
+      "start": "11/2010",
+      "end": "12/2011",
+      "current": false
+    }
+  ]
 }

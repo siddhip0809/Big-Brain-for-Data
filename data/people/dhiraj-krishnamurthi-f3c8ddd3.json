@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Controls Manager",
+      "company": "Aegis Project Controls",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Controls Manager III",
+      "company": "Aegis Project Controls",
+      "start": "5/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Engineer II",
+      "company": "Aegis Project Controls",
+      "start": "4/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Project Controls Engineer I",
+      "company": "Aegis Project Controls",
+      "start": "4/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Project Controls Technician",
+      "company": "Aegis Project Controls",
+      "start": "4/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer - Project Controls",
+      "company": "Larsen & Toubro Oman Branch",
+      "start": "7/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Volunteer",
+      "company": "Angel Xpress Foundation",
+      "start": "8/2013",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Gammon India",
+      "start": "5/2012",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Hiranandani Group",
+      "start": "5/2011",
+      "end": "6/2011",
+      "current": false
+    }
+  ]
 }

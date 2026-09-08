@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "Skybox Datacenters",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Skybox Datacenters",
+      "start": "2/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "Cummings Electrical",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

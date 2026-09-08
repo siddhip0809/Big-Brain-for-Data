@@ -39,5 +39,131 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Site Acquisition Manager",
+      "company": "AWS",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center, Site Acquisition Manager",
+      "company": "AWS",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data & Analytics",
+      "company": "Contentsquare",
+      "start": "4/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Manager - Data & Analytics",
+      "company": "CONTENTSQUARE New-York",
+      "start": "2023",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Manager - Real Estate Management",
+      "company": "ATLAND",
+      "start": "1/2018",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Associate - Real Asset Management",
+      "company": "ATLAND",
+      "start": "1/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Director - Real Estate Development",
+      "company": "ATLAND",
+      "start": "2018",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Associate - Real Estate Development",
+      "company": "ALTAREA COGEDIM",
+      "start": "2016",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Associate - Real Asset Financing",
+      "company": "ALTAREA COGEDIM",
+      "start": "10/2015",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Action Sustainability",
+      "start": "2/2015",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "A2 Consulting",
+      "start": "9/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Management Consultant",
+      "company": "A2 Consulting",
+      "start": "2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Deloitte Conseil : Consultant",
+      "company": "Deloitte France",
+      "start": "6/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Deloitte Conseil : Consultant",
+      "company": "Deloitte",
+      "start": "6/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Junior Consultant Data Analytics (internship)",
+      "company": "DELOITTE MONITOR RISK ADVISORY",
+      "start": "2012",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Risk Management Analyst",
+      "company": "Chaire de Recherche en Management des Risques",
+      "start": "9/2011",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Lead Project Manager",
+      "company": "Course Croisière EDHEC",
+      "start": "9/2010",
+      "end": "4/2012",
+      "current": false
+    }
+  ]
 }

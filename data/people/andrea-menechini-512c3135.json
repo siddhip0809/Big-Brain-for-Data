@@ -28,5 +28,50 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Development Manager - DCSS Emea",
+      "company": "AWS",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Development",
+      "company": "P3 Logistic Parks",
+      "start": "11/2024",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "raw": "Senior Development Manager"
+    },
+    {
+      "title": "REAL ESTATE (Logistics)",
+      "company": "Aquila Capital",
+      "start": "6/2021",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Technical & Pilotage Manager",
+      "company": "Arcus Real Estate S r l",
+      "start": "10/2012",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Leasing Coordinator & Project Developer",
+      "company": "Premium Retail S r l",
+      "start": "11/2008",
+      "end": "10/2012",
+      "current": false
+    }
+  ]
 }

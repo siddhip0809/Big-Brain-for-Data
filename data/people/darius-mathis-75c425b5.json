@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Executive",
+      "company": "QTS Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Client Services Specialist",
+      "company": "QTS Data Centers",
+      "start": "3/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Team Lead",
+      "company": "Verizon",
+      "start": "11/2018",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "DCO Tech II",
+      "company": "QTS Data Centers",
+      "start": "5/2013",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Sales Representative",
+      "company": "Wireless Communications Verizon Premium Retailer",
+      "start": "10/2012",
+      "end": "5/2013",
+      "current": false
+    }
+  ]
 }

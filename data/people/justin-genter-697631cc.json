@@ -39,5 +39,71 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "3rd Level Pipe instructor",
+      "company": "Emily Griffith Technical College",
+      "start": "8/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "RK",
+      "start": "12/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "RK",
+      "start": "4/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "General Foreman",
+      "company": "RK",
+      "start": "3/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Project Foreman",
+      "company": "RK",
+      "start": "12/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "raw": "Trade Foreman"
+    },
+    {
+      "title": "Pipe",
+      "company": "RK",
+      "start": "3/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Journeyman Pipefitter",
+      "company": "RK",
+      "start": "6/2011",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Pipefitter Apprentice",
+      "company": "RK",
+      "start": "9/2007",
+      "end": "6/2011",
+      "current": false
+    }
+  ]
 }

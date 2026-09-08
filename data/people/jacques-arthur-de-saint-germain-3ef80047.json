@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "President ORYAZ",
+      "company": "ENIA",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site selection & development",
+      "company": "Sepia Infrastructure",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Enseignant energy",
+      "company": "École des mines de Paris",
+      "start": "10/2020",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Directeur Renewable Energy",
+      "company": "CGI Business Consulting",
+      "start": "9/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Founder & CEO",
+      "company": "ENIA",
+      "start": "9/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Directeur Energy & Utilities",
+      "company": "Capgemini Invent",
+      "start": "5/2016",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Manager Strategy Resources",
+      "company": "Accenture",
+      "start": "8/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Lead Program Manager Angola",
+      "company": "Accenture",
+      "start": "5/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Accenture",
+      "start": "8/2011",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Operations Consultant",
+      "company": "Accenture",
+      "start": "8/2008",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Operations Consultant",
+      "company": "Capgemini",
+      "start": "2007",
+      "end": "2008",
+      "current": false
+    },
+    {
+      "title": "Internal Auditor",
+      "company": "Malakoff Médéric Humanis",
+      "start": "2006",
+      "end": "2007",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Real Estate Officer",
+      "company": "Colt Data Centre Services",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Development Officer",
+      "company": "Africa Data Centres",
+      "start": "6/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Group Development Director",
+      "company": "Africa Data Centres",
+      "start": "10/2018",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Equinix",
+      "start": "6/2010",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Close International",
+      "start": "12/2007",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Accenture",
+      "start": "9/2007",
+      "end": "12/2007",
+      "current": false
+    }
+  ]
 }

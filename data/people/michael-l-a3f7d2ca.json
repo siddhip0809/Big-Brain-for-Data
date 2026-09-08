@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Electrical Preconstruction Manager",
+      "company": "The Weitz Company",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager- Data Centers",
+      "company": "Power Design",
+      "start": "12/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager- Data Centers",
+      "company": "The Weitz Company",
+      "start": "3/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager- Data Centers",
+      "company": "The Weitz Company",
+      "start": "7/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer- Data Centers",
+      "company": "Helix Electric",
+      "start": "6/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Change Order Estimator",
+      "company": "Power Design",
+      "start": "4/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Power Design",
+      "start": "3/2019",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Lighting Coordinator",
+      "company": "Power Design",
+      "start": "8/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Thunder Electrical Contractors",
+      "start": "12/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Thunder Electrical Contractors",
+      "start": "4/2015",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Sales & Customer Service Representative",
+      "company": "Norman Brothers Produce",
+      "start": "4/2014",
+      "end": "5/2015",
+      "current": false
+    }
+  ]
 }

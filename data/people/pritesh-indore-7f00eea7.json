@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "crusoe"
+  "current_company_id": "crusoe",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Cost Estimator",
+      "company": "Crusoe",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "10/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator",
+      "company": "New England Infrastructure",
+      "start": "5/2020",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "LICM New York",
+      "start": "7/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Rajesh Group",
+      "start": "7/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer Intern",
+      "company": "Rajesh Group",
+      "start": "1/2017",
+      "end": "6/2017",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Sun Country Builders",
+      "start": "11/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Nuera Contracting & Consulting LP",
+      "start": "6/2012",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Swinerton",
+      "start": "12/2010",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "RQ Construction",
+      "start": "3/2010",
+      "end": "10/2010",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Erickson-Hall Construction",
+      "start": "3/2002",
+      "end": "1/2010",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "colt-data-centre-services"
+  "current_company_id": "colt-data-centre-services",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Director",
+      "company": "Colt Data Centre Services at Colt Data Centre Services",
+      "start": "12/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director Colt Capital Markets",
+      "company": "Colt Data Centre Services",
+      "start": "4/2012",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Account Director Wholesale",
+      "company": "Colt Data Centre Services",
+      "start": "6/2011",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager Wholesale",
+      "company": "Geo Networks",
+      "start": "12/2007",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager Wholesale",
+      "company": "Telia",
+      "start": "6/2001",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Channel Development Manager",
+      "company": "Cable and Wireless Communications",
+      "start": "4/1998",
+      "end": "6/2001",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Siemens GEC Communications",
+      "start": "7/1997",
+      "end": "4/1998",
+      "current": false
+    }
+  ]
 }

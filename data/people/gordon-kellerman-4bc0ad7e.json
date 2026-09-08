@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President",
+      "company": "Skybox Datacenters",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Skybox Datacenters",
+      "start": "8/2020",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Associate Board Member, Folsom Institute for Real Estate",
+      "company": "SMU Cox School of Business",
+      "start": "2/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "Skybox Datacenters",
+      "start": "5/2014",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Wingert Real Estate",
+      "start": "4/2013",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Cassidy Turley",
+      "start": "9/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Securities Pricing Analyst",
+      "company": "JPMorgan Chase",
+      "start": "6/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Dallas Pedicab Services",
+      "start": "6/2011",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Wells Fargo Advisors",
+      "start": "8/2010",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Property Tax Manager",
+      "company": "RETC Real",
+      "start": "5/2010",
+      "end": "7/2010",
+      "current": false
+    }
+  ]
 }

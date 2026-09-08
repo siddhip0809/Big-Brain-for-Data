@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Strategy & Development",
+      "company": "STACK Infrastructure",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Sales And Business Development",
+      "company": "STACK Infrastructure",
+      "start": "11/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Business Development",
+      "company": "STACK Infrastructure",
+      "start": "9/2019",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Safe Host",
+      "start": "3/2017",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Director of Sales and Marketing",
+      "company": "NISS Group SA",
+      "start": "8/2014",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Head of Pipeline",
+      "company": "TOTAL - Yemen LNG",
+      "start": "8/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Head of Unit (Company Commander, Engineering Corps, Foreign Legion)",
+      "company": "Armée de Terre",
+      "start": "8/2004",
+      "end": "8/2012",
+      "current": false
+    }
+  ]
 }

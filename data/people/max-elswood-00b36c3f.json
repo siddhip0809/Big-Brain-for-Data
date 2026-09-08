@@ -39,5 +39,74 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Director - Data Centres",
+      "company": "Soben",
+      "start": "2/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "7/2019",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Divisional Commercial Manager",
+      "company": "ISG plc",
+      "start": "7/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Commercial Lead",
+      "company": "ISG plc",
+      "start": "7/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Concept Building Services",
+      "start": "3/2014",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Construction Assistant",
+      "company": "Cape Construction",
+      "start": "8/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Trainee Quantity Surveyor",
+      "company": "Lagan Construction",
+      "start": "9/2008",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "General Operative",
+      "company": "Carney Construction",
+      "start": "1/2007",
+      "end": "8/2009",
+      "current": false
+    }
+  ]
 }

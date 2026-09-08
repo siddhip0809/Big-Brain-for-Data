@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "The Weitz Company",
+      "start": "12/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator and Preconstruction Manager",
+      "company": "Johnson Carlier",
+      "start": "7/2017",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Preconstruction and Estimating Consultant",
+      "company": "Schoeffler Consulting",
+      "start": "4/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Adolfson & Peterson Construction",
+      "start": "9/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Brycon Construction",
+      "start": "7/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Estimator",
+      "company": "SDB",
+      "start": "1/1991",
+      "end": "12/2001",
+      "current": false
+    }
+  ]
 }

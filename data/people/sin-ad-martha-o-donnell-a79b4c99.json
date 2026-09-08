@@ -39,5 +39,89 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Site Acquisition Manager",
+      "company": "Microsoft",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lessor Relationship Manager, EMEA Region",
+      "company": "AECOM/Microsoft",
+      "start": "7/2024",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Partner Manager & Team Lead, EMEA Region",
+      "company": "AWS",
+      "start": "5/2020",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Partner Manager, EMEA Region",
+      "company": "AWS",
+      "start": "6/2019",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Director Commercial Operations (Global)",
+      "company": "Openet",
+      "start": "6/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Manager, Sales Operations & Vendor Management",
+      "company": "Openet",
+      "start": "10/2015",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Global Strategic Vendor Manager, Sales & Services",
+      "company": "Openet",
+      "start": "11/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Indirect Channels Operations Manager",
+      "company": "Openet",
+      "start": "11/2013",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Technology Partner Manager, Business Development and Strategic Alliances",
+      "company": "Openet",
+      "start": "4/2012",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Operations Manager",
+      "company": "Sabeo",
+      "start": "1/2007",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Support Executive (Technical)",
+      "company": "Sabeo",
+      "start": "5/2000",
+      "end": "12/2006",
+      "current": false
+    }
+  ]
 }

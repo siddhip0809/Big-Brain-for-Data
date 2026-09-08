@@ -39,5 +39,46 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "aws"
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Manager Site Acquisition EMEA",
+      "company": "AWS",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Real Estate Lead, Corporate Services (Wealth and Personal Banking)",
+      "company": "HSBC Bank - Brasil",
+      "start": "9/2020",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Head of Corporate Real Estate",
+      "company": "Hang Seng Bank",
+      "start": "12/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Corporate Real Estate Manager Portfolio Optimisation Asia Pacific",
+      "company": "HSBC Bank - Brasil",
+      "start": "9/2008",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Property Manager, Asset Management Services",
+      "company": "Savills",
+      "start": "8/2000",
+      "end": "8/2008",
+      "current": false
+    }
+  ]
 }

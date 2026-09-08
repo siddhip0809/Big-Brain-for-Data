@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Land Development - Program Manager ",
+      "company": "Microsoft",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Advisory & Transaction Services - Senior Associate",
+      "company": "CBRE",
+      "start": "6/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Advisory & Transaction Services - Director",
+      "company": "CBRE",
+      "start": "5/2018",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Advisory & Transaction Services - Manager",
+      "company": "CBRE",
+      "start": "8/2014",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Industrial Market Research Manager",
+      "company": "Citius",
+      "start": "8/2012",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Grupo GP",
+      "current": false
+    },
+    {
+      "company": "Building the Present Planning the Future",
+      "start": "1/2007",
+      "end": "6/2012",
+      "current": false
+    }
+  ]
 }

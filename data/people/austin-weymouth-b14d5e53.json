@@ -28,5 +28,111 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Commercial - Data Center - Europe, the Middle East, India",
+      "company": "Panattoni",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Client Executive - EMEA",
+      "company": "Equinix",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Global Accounts Manager",
+      "company": "Equinix",
+      "start": "3/2022",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Global Accounts Manager",
+      "company": "Equinix",
+      "start": "3/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Corporate Sales",
+      "company": "Equinix",
+      "start": "7/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Corporate Sales",
+      "company": "Equinix",
+      "start": "7/2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Client Executive",
+      "company": "Equinix",
+      "start": "2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Newmark",
+      "start": "12/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Yodle",
+      "start": "10/2011",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "International Athlete",
+      "company": "KNBSB",
+      "start": "12/2010",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Licensed Commercial Real Estate Specialist",
+      "company": "AZDRE",
+      "start": "4/2010",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Athlete",
+      "company": "KNBSB",
+      "start": "2010",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Quantum Capital",
+      "start": "5/2007",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Head of Commercial - Europe",
+      "company": "Panattoni",
+      "current": false
+    },
+    {
+      "raw": "Equinix"
+    }
+  ]
 }

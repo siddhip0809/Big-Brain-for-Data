@@ -50,5 +50,39 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Commercial Land Acquisition Manager - EMEA Region",
+      "company": "Microsoft",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "RP AND ASSOCIATES PROPERTIES LIMITED",
+      "start": "1/2024",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Knight Frank",
+      "start": "2/2015",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Foodstore Acquisitions",
+      "company": "Asda",
+      "start": "1/2001",
+      "end": "10/2011",
+      "current": false
+    }
+  ]
 }

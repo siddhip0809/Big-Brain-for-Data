@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "6/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager - Mission Critical",
+      "company": "Structure Tone Southwest",
+      "start": "10/2009",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "company": "CD Henderson Construction Group",
+      "start": "5/2005",
+      "end": "8/2009",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Vantage",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Vantage",
+      "start": "8/2022",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "HITT Contracting",
+      "start": "2/2020",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "HITT Contracting",
+      "start": "2/2019",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "HITT Contracting",
+      "start": "8/2018",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Laborer",
+      "company": "HITT Contracting",
+      "start": "7/2018",
+      "end": "2/2019",
+      "current": false
+    }
+  ]
 }

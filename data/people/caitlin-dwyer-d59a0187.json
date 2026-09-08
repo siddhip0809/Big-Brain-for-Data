@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial Sales Manager",
+      "company": "Digital Realty",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Product Pricing Manager",
+      "company": "Digital Realty",
+      "start": "11/2013",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Telx",
+      "start": "1/2012",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Digital Realty",
+      "start": "1/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Client Services Specialist",
+      "company": "Digital Realty",
+      "start": "9/2009",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Assistant Manager",
+      "company": "Bethany Wine and Liquors",
+      "start": "5/2008",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Bank Teller/Supervisor",
+      "company": "Commerce/TD Bank",
+      "start": "12/2003",
+      "end": "9/2008",
+      "current": false
+    }
+  ]
 }

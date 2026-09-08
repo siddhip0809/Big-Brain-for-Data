@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President, EnergyHQ",
+      "company": "CloudHQ",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Petroleum Engineer",
+      "company": "Perenco",
+      "start": "10/2003",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Petroleum Engineer",
+      "company": "BP",
+      "start": "1/2001",
+      "end": "1/2002",
+      "current": false
+    },
+    {
+      "title": "Business Development - Petroleum Engineer",
+      "company": "Perenco",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Perenco",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Perenco",
+      "current": false
+    },
+    {
+      "title": "Company Representative",
+      "company": "Perenco",
+      "current": false
+    }
+  ]
 }

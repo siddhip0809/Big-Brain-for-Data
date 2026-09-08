@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Projects Manager",
+      "company": "Tract",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Purchased Power Consultant",
+      "company": "Xcel Energy",
+      "start": "12/2022",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Purchased Power Consultant",
+      "company": "Xcel Energy",
+      "start": "7/2021",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Resource Planning Analyst",
+      "company": "Xcel Energy",
+      "start": "1/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Technical Sales Manager",
+      "company": "Siemens",
+      "start": "7/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer / Wind Power Construction & Project Management",
+      "company": "Siemens",
+      "start": "1/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Engineering Development Program",
+      "company": "Siemens",
+      "start": "6/2014",
+      "end": "1/2016",
+      "current": false
+    }
+  ]
 }

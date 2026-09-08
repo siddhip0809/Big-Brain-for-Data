@@ -28,5 +28,108 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Managing Director Europe",
+      "company": "Virtus Data Centers",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Of Business Development",
+      "company": "Virtus Data Centers",
+      "start": "6/2022",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Country Manager Germany & Data Center Divest Lead EMEA",
+      "company": "AWS",
+      "start": "7/2019",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Global Expansion Manager - Europe",
+      "company": "AWS",
+      "start": "10/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Vendor Performance Manager - EMEA",
+      "company": "AWS",
+      "start": "2/2017",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "EU Customer Service Business Analyst Manager",
+      "company": "Amazon",
+      "start": "11/2015",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager FBA & Business Analyst",
+      "company": "Amazon",
+      "start": "11/2013",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "ePetWorld",
+      "start": "3/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Co-Founder & Business Development Manager",
+      "company": "IQIGAI",
+      "start": "9/2012",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Skillcapital",
+      "start": "9/2011",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Controller",
+      "company": "L'Oreal",
+      "start": "6/2011",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant - Corporate Finance",
+      "company": "Deloitte",
+      "start": "5/2008",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Auditor",
+      "company": "Cameroon Audit Conseil",
+      "start": "8/2007",
+      "end": "2/2008",
+      "current": false
+    },
+    {
+      "title": "Vice President of Business Development EMEA",
+      "company": "VIRTUS",
+      "current": false
+    }
+  ]
 }

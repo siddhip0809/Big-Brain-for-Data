@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "AWS",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Program Manager",
+      "company": "AWS",
+      "start": "4/2025",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "AWS",
+      "start": "2/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Guest Services Coordinator",
+      "company": "Parking Management",
+      "start": "2/2021",
+      "end": "8/2021",
+      "current": false
+    }
+  ]
 }

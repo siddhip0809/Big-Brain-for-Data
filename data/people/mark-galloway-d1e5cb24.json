@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Development",
+      "company": "QTS Data Centers",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager of Construction",
+      "company": "AWS",
+      "start": "7/2023",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Meta- Construction Project Manager",
+      "company": "ProUnlimited",
+      "start": "8/2019",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Critical Environments Project Manager",
+      "company": "MGAC",
+      "start": "8/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Sales Professional",
+      "company": "EPW",
+      "start": "3/2012",
+      "end": "8/2019",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,74 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Global Corporate Real Estate",
+      "company": "Equinix",
+      "start": "2/2023",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Global Head of Corporate Real Estate",
+      "company": "Equinix",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Head of Real Estate - Senior Director",
+      "company": "Equinix",
+      "start": "3/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Head of Real Estate - Director of Real Estate",
+      "company": "Equinix",
+      "start": "12/2013",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "CBRE Finland",
+      "start": "7/2013",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Director",
+      "company": "CB Richard Ellis",
+      "start": "6/2011",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "JLL",
+      "start": "7/2001",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Surveyor",
+      "company": "King Sturge",
+      "start": "9/1998",
+      "end": "8/2001",
+      "current": false
+    },
+    {
+      "title": "Director of Services and Treasurer",
+      "company": "Durham Students' Union",
+      "start": "1/1996",
+      "end": "12/1998",
+      "current": false
+    }
+  ]
 }

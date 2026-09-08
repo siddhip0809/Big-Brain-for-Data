@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Cumming Group",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Exyte",
+      "start": "10/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "EXYTE U S",
+      "start": "8/2019",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "QAQC",
+      "company": "Harris & Hart Sheet Metal Contractors",
+      "start": "9/2008",
+      "end": "8/2019",
+      "current": false
+    }
+  ]
 }

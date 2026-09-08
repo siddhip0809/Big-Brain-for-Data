@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "The Haskell Company",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "DN Tanks",
+      "start": "2/2024",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Regional Estimator",
+      "company": "DN Tanks",
+      "start": "9/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Regional Estimator",
+      "company": "DN Tanks",
+      "start": "10/2015",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Performance Contracting",
+      "start": "6/2011",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "DN Tanks",
+      "start": "8/2010",
+      "end": "1/2011",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP Exascale Business Development",
+      "company": "Switch",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Operating Partner",
+      "company": "DigitalBridge",
+      "start": "12/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Business Development",
+      "company": "EdgeConneX",
+      "start": "5/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Operating Partner",
+      "company": "Data Horizons Americas",
+      "start": "8/2017",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Principal, New Region Business Development Manager",
+      "company": "Amazon",
+      "start": "7/2010",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Business Development, Network Services",
+      "company": "Yahoo",
+      "start": "7/1998",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "Director, Multicast & Channel Sales",
+      "company": "broadcast.com",
+      "start": "7/1998",
+      "end": "7/1999",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "Value-Added Communications",
+      "start": "1/1994",
+      "end": "12/1997",
+      "current": false
+    },
+    {
+      "title": "Vice President - Marketing & Sales",
+      "company": "Institutional Energy Management",
+      "start": "1/1992",
+      "end": "12/1993",
+      "current": false
+    }
+  ]
 }

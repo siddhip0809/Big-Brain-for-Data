@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Of Business Development",
+      "company": "Kao Data",
+      "start": "1/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Starline",
+      "start": "5/2017",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Senior BDM Data Centre Solutions UK & Ireland",
+      "company": "Raritan",
+      "start": "6/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Territory Account Manager - UK & Netherlands",
+      "company": "Vertiv",
+      "start": "10/2014",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "UK Territory Account Manager",
+      "company": "Panduit",
+      "start": "9/2011",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Unified Communications Sales Specialist",
+      "company": "Proximity Communications",
+      "start": "4/2010",
+      "end": "9/2011",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Commercial Director",
+      "company": "Mainova WebHouse",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business development and Real estate transaction manager",
+      "company": "AWS",
+      "start": "7/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Finance Manager",
+      "company": "Amazon",
+      "start": "2/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Global Portfolio Strategy Finance Director",
+      "company": "Procter & Gamble",
+      "start": "8/2018",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Plant Finance Manager ",
+      "company": "Procter & Gamble",
+      "start": "8/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Sales Finance Group Manager",
+      "company": "Procter & Gamble",
+      "start": "10/2013",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Region Profit Forecaster",
+      "company": "Procter & Gamble",
+      "start": "7/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Procter & Gamble",
+      "start": "6/2010",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Financial analyst ",
+      "company": "Procter & Gamble",
+      "start": "9/2008",
+      "end": "9/2010",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Development",
+      "company": "QTS Data Centers",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Critical Project Engineer",
+      "company": "AWS",
+      "start": "3/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Denier Electric Company",
+      "start": "4/2000",
+      "end": "3/2019",
+      "current": false
+    }
+  ]
 }

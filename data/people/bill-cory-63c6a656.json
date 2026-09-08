@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Vice President of Sales",
+      "company": "Flexential",
+      "start": "5/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "Integra",
+      "start": "7/2010",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Integra",
+      "start": "1/2006",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Sr. Communications Specialist",
+      "company": "Integra",
+      "start": "12/2002",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "New Edge Networks",
+      "start": "11/1999",
+      "end": "10/2001",
+      "current": false
+    },
+    {
+      "title": "Product Manager",
+      "company": "AT&T",
+      "start": "10/1998",
+      "end": "11/1999",
+      "current": false
+    },
+    {
+      "title": "Operations Supervisor",
+      "company": "AT&T",
+      "start": "7/1997",
+      "end": "10/1998",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,122 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director Of Real Estate",
+      "company": "QTS Data Centers",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Real Estate for Europe",
+      "company": "A BLACKSTONE",
+      "start": "2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Real Estate Consultant",
+      "company": "AXI IMMO Group",
+      "start": "1/2020",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "CONSULTANT",
+      "company": "AXI IMMO",
+      "start": "2020",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Senior Transaction Manager",
+      "company": "CBRE",
+      "start": "2019",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Acquisitions Consultant (while",
+      "company": "Harvard)   at Akridge",
+      "start": "8/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Development Associate (while",
+      "company": "Harvard) at Swire Properties",
+      "start": "6/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Transaction Manager, Global Workplace Solutions ",
+      "company": "CBRE",
+      "start": "1/2013",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Director of Economic Development",
+      "company": "NoMa Business Improvement District",
+      "start": "7/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "company": "Director of Economic Development",
+      "start": "2012",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Leasing Agent",
+      "company": "Federal Realty Investment Trust",
+      "start": "12/2010",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Commercial Real Estate Broker - Industrial/ Technology Services Group",
+      "company": "Cushman & Wakefield",
+      "start": "1/2004",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Commercial Real Estate Broker - Industrial/ Technology Services Group",
+      "company": "Cushman & Wakefield",
+      "start": "2004",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Commercial Real Estate Negotiator/ Broker",
+      "company": "Cushman & Wakefield",
+      "start": "1/2002",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Commercial Real Estate Negotiator/ Broker",
+      "company": "Cushman & Wakefield",
+      "start": "2002",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "CRE Agent",
+      "company": "Cushman & Wakefield",
+      "start": "2002",
+      "end": "2009",
+      "current": false
+    }
+  ]
 }

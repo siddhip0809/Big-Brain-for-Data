@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Sr. Director of Hyperscale Solutions",
+      "company": "QTS Data Centers",
+      "start": "10/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Latisys",
+      "start": "6/2013",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "Comcast",
+      "start": "2/2005",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Broadwing Communications",
+      "start": "1/2003",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "Colo.com",
+      "start": "1/1999",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Global Crossing",
+      "start": "9/1998",
+      "end": "9/1999",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Best Internet /Verio",
+      "start": "10/1995",
+      "end": "12/1998",
+      "current": false
+    }
+  ]
 }

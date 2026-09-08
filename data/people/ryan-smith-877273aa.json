@@ -39,5 +39,66 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Lead Estimator"
+    },
+    {
+      "title": "Mission Critical",
+      "company": "Suffolk Construction",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Estimator"
+    },
+    {
+      "title": "Commercial/Development & Academic/Instituional",
+      "company": "Suffolk Construction",
+      "start": "2/2024",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Lee Kennedy Co",
+      "start": "8/2021",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Estimator / Document Control Team Manager",
+      "company": "Lee Kennedy Co",
+      "start": "8/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "raw": "MEP Estimating"
+    },
+    {
+      "title": "2nd CO-OP",
+      "company": "Lee Kennedy Co",
+      "start": "9/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "raw": "MEP Estimating"
+    },
+    {
+      "title": "1st CO-OP",
+      "company": "Lee Kennedy Co",
+      "start": "1/2018",
+      "end": "4/2018",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,62 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "raw": "Senior Portfolio Manager"
+    },
+    {
+      "title": "EMEA Real Estate & Infrastructure development",
+      "company": "Google",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Portfolio Manager"
+    },
+    {
+      "title": "Real Estate & Infrastructure Development EMEA",
+      "company": "Google",
+      "start": "4/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Portfolio Manager"
+    },
+    {
+      "title": "EMEA Real Estate & Infrastructure development",
+      "company": "Google",
+      "start": "4/2021",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Data Centre Solutions EMEA - Associated Director",
+      "company": "CBRE",
+      "start": "11/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Data Center Solutions LATAM - Regional Market Lead",
+      "company": "CBRE",
+      "start": "4/2012",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Architect - Retail and Hotel projects",
+      "company": "GAS Arquitetura",
+      "start": "12/2011",
+      "end": "4/2012",
+      "current": false
+    }
+  ]
 }

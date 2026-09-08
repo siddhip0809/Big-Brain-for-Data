@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Controls Manager",
+      "company": "The Weitz Company",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Project Manager / Project Controls",
+      "company": "WCS Construction",
+      "start": "9/2020",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager / Project Controls",
+      "company": "Monarc Construction",
+      "start": "10/2015",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Project Management Assistant (Temporary Duty)",
+      "company": "U S Department of State Overseas Building Operations",
+      "start": "8/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Project Management Assistant",
+      "company": "U S Department of State Overseas Building Operations",
+      "start": "3/2011",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Realty/Procurement Assistant",
+      "company": "U S Department of State Overseas Building Operations",
+      "start": "2/2006",
+      "end": "2/2011",
+      "current": false
+    }
+  ]
 }

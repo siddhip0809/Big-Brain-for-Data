@@ -28,5 +28,88 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Global Client Executive",
+      "company": "Digital Realty",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Key Accounts",
+      "company": "Digital Realty",
+      "start": "1/2025",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Vice President - Enterprise Sales, West",
+      "company": "Digital Realty",
+      "start": "5/2019",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Director, Enterprise Solutions",
+      "company": "Digital Realty",
+      "start": "3/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Director, Enterprise Solutions",
+      "company": "Digital Realty",
+      "start": "4/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Digital Realty",
+      "start": "1/2014",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Digital Realty",
+      "start": "1/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Jr. Account Manager",
+      "company": "Digital Realty",
+      "start": "6/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Enterprise Solutions Manager",
+      "company": "Global Cloud Xchange",
+      "start": "8/2009",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "I Drive IT",
+      "start": "12/2006",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Manager",
+      "company": "Enterprise Rent-A-Car",
+      "start": "1/2004",
+      "end": "12/2006",
+      "current": false
+    }
+  ]
 }

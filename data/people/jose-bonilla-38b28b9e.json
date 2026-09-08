@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Cost Manager",
+      "company": "Microsoft",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Soben",
+      "start": "4/2022",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Currie & Brown",
+      "start": "3/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "EPC Cost",
+      "company": "Zachry Group",
+      "start": "3/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Field Business Services Representative",
+      "company": "Zachry Group",
+      "start": "3/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Business Services Representative",
+      "company": "Zachry Group",
+      "start": "5/2016",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Operations and Compliance Manager",
+      "company": "WorkHorse Oilfield Services",
+      "start": "8/2015",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Compliance and Safety Coordinator",
+      "company": "WorkHorse Oil Field Services",
+      "start": "11/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Apprentice",
+      "company": "Automatic Data Processing",
+      "start": "9/2014",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Assistant",
+      "company": "IMG",
+      "start": "9/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Representative",
+      "company": "State Farm",
+      "start": "3/2013",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Therapy Tech",
+      "company": "HealthSouth",
+      "start": "12/2010",
+      "end": "9/2013",
+      "current": false
+    }
+  ]
 }

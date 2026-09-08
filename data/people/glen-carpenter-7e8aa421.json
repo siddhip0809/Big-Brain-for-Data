@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Currie & Brown",
+      "start": "5/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant / Estimator",
+      "company": "Turner & Townsend",
+      "start": "6/2012",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager, JOC Operations Mgr",
+      "company": "Parsons",
+      "start": "4/2004",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Sahara",
+      "start": "4/2002",
+      "end": "4/2004",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "3/1997",
+      "end": "3/2002",
+      "current": false
+    },
+    {
+      "title": "Project Manager - Project Engineer",
+      "company": "McCarthy Building Companies",
+      "start": "1/1990",
+      "end": "3/1997",
+      "current": false
+    }
+  ]
 }

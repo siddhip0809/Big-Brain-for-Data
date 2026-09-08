@@ -39,5 +39,58 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Turner Construction",
+      "start": "10/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "HITT Contracting",
+      "start": "1/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "1/2006",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "HITT Contracting",
+      "start": "9/2003",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "The Bell Company",
+      "start": "9/1999",
+      "end": "8/2003",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "BGC",
+      "current": false
+    },
+    {
+      "company": "G&G",
+      "start": "7/1997",
+      "end": "8/1999",
+      "current": false
+    }
+  ]
 }

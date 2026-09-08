@@ -50,5 +50,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "digital-realty"
+  "current_company_id": "digital-realty",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Hyperscale Global Accounts Director",
+      "company": "Digital Realty",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "International Account Director",
+      "company": "Digital Realty",
+      "start": "10/2014",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Digital Realty",
+      "start": "10/2009",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Editor/Account Manager",
+      "company": "Mardyke Arena Sports Centre University College",
+      "start": "6/2003",
+      "end": "12/2004",
+      "current": false
+    }
+  ]
 }

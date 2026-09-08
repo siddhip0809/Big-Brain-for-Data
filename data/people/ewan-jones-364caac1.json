@@ -50,5 +50,88 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "gulf-data-hub"
+  "current_company_id": "gulf-data-hub",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Chief Commercial Officer",
+      "company": "Gulf Data Hub",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director - Sales",
+      "company": "Equinix",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Strategic Alliances",
+      "company": "Equinix",
+      "start": "1/2020",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Strategic Alliances - Account Director",
+      "company": "Equinix",
+      "start": "1/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Global Account Manager",
+      "company": "Equinix",
+      "start": "10/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "UK Enterprise Account Manager",
+      "company": "Equinix",
+      "start": "1/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Softcat plc",
+      "start": "8/2012",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Softcat plc",
+      "start": "8/2010",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Softcat plc",
+      "start": "5/2007",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Boomerang Media",
+      "start": "2/2005",
+      "end": "5/2007",
+      "current": false
+    },
+    {
+      "title": "Sponsorship Manager",
+      "company": "Marcus Evans Amsterdam",
+      "start": "3/2004",
+      "end": "2/2005",
+      "current": false
+    }
+  ]
 }

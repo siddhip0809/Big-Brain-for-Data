@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Preconstruction Manager",
+      "company": "Turner Construction",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Turner Construction",
+      "start": "2/2019",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "11/2013",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Business Development Engineer",
+      "company": "Turner Construction",
+      "start": "9/2012",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "SAP Adoption Lead",
+      "company": "Turner Construction",
+      "start": "4/2011",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Engineer",
+      "company": "Turner Construction",
+      "start": "8/2010",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Turner Construction",
+      "start": "10/2008",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer/Superintendent",
+      "company": "Turner Construction",
+      "start": "6/2007",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Co-op for Pile Driving Division",
+      "company": "Boh Bros Construction Co",
+      "start": "5/2006",
+      "end": "5/2007",
+      "current": false
+    }
+  ]
 }

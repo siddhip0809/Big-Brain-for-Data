@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Hyperscale",
+      "company": "Stream Data Centers",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Hyperscale",
+      "company": "Iron Mountian",
+      "start": "1/2025",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Board Member",
+      "company": "People Acting Now Discover Answers",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Accounts - Data Centers",
+      "company": "Iron Mountian",
+      "start": "1/2018",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "IO Data Centers",
+      "start": "1/2015",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Director, Enterprise Accounts",
+      "company": "IO Data Centers",
+      "start": "11/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "IO Data Centers",
+      "start": "4/2011",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Academics",
+      "company": "Apollo Education Group",
+      "start": "11/2009",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Engle Homes",
+      "start": "1/2005",
+      "end": "1/2008",
+      "current": false
+    }
+  ]
 }

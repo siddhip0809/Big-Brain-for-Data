@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Structural Engineer",
+      "company": "Arup",
+      "start": "4/2017",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer",
+      "company": "Arup",
+      "start": "9/2011",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer",
+      "company": "Creative Business Solutions Paris",
+      "start": "6/2010",
+      "end": "9/2010",
+      "current": false
+    }
+  ]
 }

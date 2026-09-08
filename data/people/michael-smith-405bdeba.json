@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Client Executive, Global Key Accounts",
+      "company": "Digital Realty",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Account Manager, Enterprise Solutions",
+      "company": "Digital Realty",
+      "start": "10/2021",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Director of Strategic Accounts",
+      "company": "Flexential",
+      "start": "2/2020",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Client Executive",
+      "company": "NTT",
+      "start": "5/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Engagement Director - Global Enterprise Solutions",
+      "company": "NTT",
+      "start": "3/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Digital Realty",
+      "start": "4/2013",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Manager - Data Center Solutions & Services",
+      "company": "Digital Realty",
+      "start": "4/2012",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Account Executive Colocation",
+      "company": "Digital Realty",
+      "start": "4/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Real Estate Consultant",
+      "company": "Caliber Commercial Brokerage Licensed Real Estate Broker",
+      "start": "5/2009",
+      "end": "8/2011",
+      "current": false
+    }
+  ]
 }

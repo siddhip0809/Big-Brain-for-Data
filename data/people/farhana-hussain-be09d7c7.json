@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director",
+      "company": "STACK Infrastructure",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Planning and Development Manager",
+      "company": "P3p Partners",
+      "start": "11/2024",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Planning Consultant",
+      "company": "Arup",
+      "start": "10/2021",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Civil Litigator",
+      "company": "Ellisons Solicitors",
+      "start": "5/2019",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Planning Consultant",
+      "company": "Quod",
+      "start": "4/2019",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Planner",
+      "company": "Urbanissta",
+      "start": "11/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Graduate Planner",
+      "company": "Urbanissta",
+      "start": "10/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Civil Litigator",
+      "company": "Ellisons Solicitors",
+      "start": "5/2016",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Litigation Assistant",
+      "company": "Kennedys Law",
+      "start": "7/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Trainee Legal Executive",
+      "company": "Ashton KCJ Solcitors",
+      "start": "5/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Legal Assistant",
+      "company": "Christchurch Solicitors",
+      "start": "1/2013",
+      "end": "5/2013",
+      "current": false
+    }
+  ]
 }

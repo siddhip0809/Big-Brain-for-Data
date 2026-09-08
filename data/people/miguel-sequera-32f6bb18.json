@@ -28,5 +28,110 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Data Centers",
+      "company": "Cerebras",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Strategic Sales",
+      "company": "Vantage",
+      "start": "9/2025",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Head of Business Development - Colocation Americas",
+      "company": "AWS",
+      "start": "5/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager, Technical Business Development - South Central US, Central, & Latin America",
+      "company": "AWS",
+      "start": "4/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Manager, Technical Business Development EDGE - (Southern US, Central America, and LATAM)",
+      "company": "AWS",
+      "start": "10/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Global Expansion Manager - Tech Biz Dev EDGE Latin America",
+      "company": "AWS",
+      "start": "9/2019",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager, Americas Vendor Performance",
+      "company": "AWS",
+      "start": "6/2019",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Sr. Program Manager, Data Center Capacity Planning",
+      "company": "AWS",
+      "start": "4/2019",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Program Manager, Data Center Capacity Planning",
+      "company": "AWS",
+      "start": "8/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Components Sourcing Manager",
+      "company": "Cummins Engine",
+      "start": "7/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Components Supplier Quality Engineer",
+      "company": "Cummins Engine",
+      "start": "7/2013",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Sr. Manufacturing Engineer",
+      "company": "Cummins Engine",
+      "start": "5/2011",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "company": "University of Alabama",
+      "start": "7/2009",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Analista de Proyecto",
+      "company": "Empresas Polar",
+      "start": "7/2007",
+      "end": "7/2009",
+      "current": false
+    }
+  ]
 }

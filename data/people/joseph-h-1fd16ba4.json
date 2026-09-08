@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Structure Tone Southwest",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimating Engineer",
+      "company": "JE Dunn Construction",
+      "start": "3/2022",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Estimating Engineer 2",
+      "company": "JE Dunn Construction",
+      "start": "9/2021",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Gadberry Construction",
+      "start": "8/2017",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Brookstone Construction",
+      "start": "9/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Pre Construction/Estimating",
+      "company": "Balfour Beatty US",
+      "start": "2/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Field Engineer Intern",
+      "company": "Hensel Phelps",
+      "start": "5/2014",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Vaughn Construction",
+      "start": "12/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Linbeck Group",
+      "start": "5/2013",
+      "end": "11/2013",
+      "current": false
+    }
+  ]
 }

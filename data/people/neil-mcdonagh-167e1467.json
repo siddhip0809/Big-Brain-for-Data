@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Utilities - Europe",
+      "company": "QTS Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy Infrastructure Manager EMEA and APAC",
+      "company": "Meta",
+      "start": "10/2017",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Power, Ireland",
+      "company": "AECOM",
+      "start": "7/2013",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Distance Learning Tutor",
+      "company": "University of Bath",
+      "start": "3/2010",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Consultant Engineer",
+      "company": "Esb International",
+      "start": "3/2004",
+      "end": "6/2013",
+      "current": false
+    }
+  ]
 }

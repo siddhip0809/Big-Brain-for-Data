@@ -39,5 +39,19 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "aws"
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Principal, EMEA",
+      "company": "AWS",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

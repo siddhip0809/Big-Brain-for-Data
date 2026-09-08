@@ -28,5 +28,145 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director, Nordic",
+      "company": "Vaultica Data Centers",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Member Of The Board",
+      "company": "Danish Data Center Industry",
+      "start": "3/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "DIGIPLEX",
+      "start": "3/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Member of the sustainability committee",
+      "company": "IT-Branchen",
+      "start": "3/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "STACK Infrastructure",
+      "start": "2/2019",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "GLG Council Member",
+      "company": "GERSON LEHRMAN GROUP LIMITED",
+      "start": "5/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Sales Officer",
+      "company": "ZibraWireless",
+      "start": "10/2017",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "KAM",
+      "company": "ZibraWireless",
+      "start": "12/2016",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Head of Sales",
+      "company": "Teracom A/S",
+      "start": "3/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Self Employed",
+      "company": "Hansen Consult",
+      "start": "9/2012",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "TDC Erhvervscenter Aarhus",
+      "start": "5/2010",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Fuzion A/S",
+      "start": "10/2008",
+      "end": "10/2009",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Zmags",
+      "start": "8/2007",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Safepro Solutions A/S",
+      "start": "2/2006",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Cross-selling manager \"Interim\"",
+      "company": "Ncom holding ApS",
+      "start": "2/2005",
+      "end": "2/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Manger - DK",
+      "company": "Outpost 24 AB",
+      "start": "2/2002",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Business Development manager",
+      "company": "Catalog International A/S",
+      "start": "8/1999",
+      "end": "11/2001",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Swwwing A/S",
+      "start": "6/1997",
+      "end": "6/1999",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "BusinessNet Danmark A/S",
+      "start": "5/1995",
+      "end": "6/1997",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Utility Development",
+      "company": "QTS Data Centers",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Utility Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Business Development Analyst",
+      "company": "Dominion",
+      "start": "5/2021",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Customer Project Designer",
+      "company": "Dominion",
+      "start": "4/2017",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Project Designer",
+      "company": "Dominion",
+      "start": "8/2015",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "GIS Specialist",
+      "company": "Shenandoah Valley Electric Cooperative",
+      "start": "6/2011",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

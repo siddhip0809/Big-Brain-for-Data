@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Enterprise Account Executive",
+      "company": "Equinix",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "Nutanix",
+      "start": "3/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "World Wide Technology",
+      "start": "1/2017",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Kovarus",
+      "start": "9/2005",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Director/Manager",
+      "company": "The Listening Center",
+      "start": "3/2003",
+      "end": "9/2005",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "The Listening Center",
+      "start": "3/2003",
+      "end": "9/2005",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial/Cost Management - Data Centers",
+      "company": "Microsoft",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Project Management Lead (Cost Management, Scheduling, Procurement, Contracts)",
+      "company": "Apple",
+      "start": "2018",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Webcor Builders",
+      "start": "2015",
+      "end": "2018",
+      "current": false
+    },
+    {
+      "title": "Multiple Positions",
+      "company": "AECOM",
+      "start": "1998",
+      "end": "2015",
+      "current": false
+    }
+  ]
 }

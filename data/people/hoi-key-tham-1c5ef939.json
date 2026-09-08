@@ -28,5 +28,111 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Site Acquisition Manager",
+      "company": "Microsoft",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager - Hyperscale Accounts",
+      "company": "Keppel Data Centres Pte",
+      "start": "6/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Manager - Hyperscale Accounts",
+      "company": "Keppel Data Centres",
+      "start": "2022",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Strategic Accounts Manager",
+      "company": "Global Switch",
+      "start": "3/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Commercial Analyst",
+      "company": "Global Switch",
+      "start": "1/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Group Senior Commercial Analyst",
+      "company": "Global Switch",
+      "start": "2018",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Commercial Analyst - Real Estate",
+      "company": "Metro Bank",
+      "start": "9/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Career Break",
+      "company": "London/Europe",
+      "start": "2/2017",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Commercial Analyst",
+      "company": "Real Estate Finance Metro Bank",
+      "start": "2017",
+      "end": "2018",
+      "current": false
+    },
+    {
+      "title": "Career Break",
+      "company": "Career Break",
+      "start": "2017",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Real Estate Finance Analyst",
+      "company": "ASB Bank",
+      "start": "2015",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Banking Consultant",
+      "company": "Contact Centre",
+      "start": "2013",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "raw": "Keppel Data Centres Pte"
+    },
+    {
+      "raw": "Microsoft"
+    },
+    {
+      "raw": "ASB Bank"
+    },
+    {
+      "raw": "Metro Bank"
+    },
+    {
+      "raw": "Global Switch"
+    }
+  ]
 }

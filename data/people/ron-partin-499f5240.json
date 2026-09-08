@@ -28,5 +28,124 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director of Construction",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "2/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "Vantage",
+      "start": "6/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Construction",
+      "company": "TechSite",
+      "start": "2/2014",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Manager of Construction Operations",
+      "company": "TechSite",
+      "start": "6/2013",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Logistics NCO",
+      "company": "371st Sustainment Brigade",
+      "start": "2010",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Command Sergeant Major",
+      "company": "112th Transporation Battalion Ohio Army National Guard",
+      "start": "2007",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "TechSite",
+      "start": "10/2006",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Community Base Health Care Organization (CBHCO) Coordinator",
+      "company": "Joint Force Headquarters Ohio Army National Guard",
+      "start": "10/2005",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Bry-Air",
+      "start": "10/2002",
+      "end": "10/2005",
+      "current": false
+    },
+    {
+      "title": "Product Manager",
+      "company": "Rittal North America",
+      "start": "2000",
+      "end": "2002",
+      "current": false
+    },
+    {
+      "title": "Mechanical Design Engineer",
+      "company": "Emerson Telecom Systems",
+      "start": "2000",
+      "end": "2000",
+      "current": false
+    },
+    {
+      "title": "Product Manager",
+      "company": "Rittal",
+      "start": "2000",
+      "end": "2002",
+      "current": false
+    },
+    {
+      "title": "Air Application Engineer",
+      "company": "Liebert",
+      "start": "2/1995",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "Air Application Engineer",
+      "company": "Vertiv",
+      "start": "2/1995",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "Soldier",
+      "company": "Ohio Army National Guard",
+      "start": "8/1984",
+      "end": "4/2012",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager - Due Diligence & Site Selection EMEA",
+      "company": "STACK Infrastructure",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Risk & Due Diligence Manager - EMEA Data Center Development",
+      "company": "AWS",
+      "start": "1/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Due Diligence Consultant - Mergers & Acquisitions",
+      "company": "ERM Environmental Resources Management",
+      "start": "3/2021",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Planning & Sustainability Advisor - Major Projects Team",
+      "company": "Laing O'Rourke",
+      "start": "5/2020",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager - Urban Development and Environmental Management",
+      "company": "APP Corporation Pty",
+      "start": "4/2018",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Planning Project Officer",
+      "company": "NSW Department of Planning Industry and Environment",
+      "start": "9/2017",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Sustainability Planner",
+      "company": "Envision Charlotte",
+      "start": "4/2017",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "EHS Manager",
+      "company": "Kepak Group",
+      "start": "1/2016",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Environmental Planner",
+      "company": "DWD",
+      "start": "5/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Wisconsin Department of Natural Resources",
+      "start": "5/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Environmental Protection Agency",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

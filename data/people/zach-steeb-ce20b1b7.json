@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Data Center Site Development, Strategy and Operations",
+      "company": "Meta",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal - Acquisitions and Development",
+      "company": "Catalyst Real Estate",
+      "start": "8/2021",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Corporate Finance",
+      "company": "Twilio",
+      "start": "11/2020",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Finance and Strategy",
+      "company": "Stripe",
+      "start": "1/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Director of Finance",
+      "company": "iCracked",
+      "start": "11/2014",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Business Operations",
+      "company": "Applied Silver",
+      "start": "9/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Management Consulting - Senior Associate",
+      "company": "PwC",
+      "start": "9/2011",
+      "end": "10/2014",
+      "current": false
+    }
+  ]
 }

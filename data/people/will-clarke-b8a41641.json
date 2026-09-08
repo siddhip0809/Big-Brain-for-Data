@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Consultant",
+      "company": "Master Power Technologies",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal, Digital Infrastructure Division",
+      "company": "Evermere",
+      "start": "3/2026",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "International Head of Site Selection & Development Director",
+      "company": "Future-Tech",
+      "start": "3/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center business development Manager EMEA Eltek AS",
+      "company": "Eltek AS",
+      "start": "1/2017",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Data Center Business Devolopment Manager Western Europe & Africa",
+      "company": "Eltek AS",
+      "start": "1/2016",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Emerson Network Power",
+      "start": "9/2014",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Virso Virtual IT Solutions",
+      "start": "1/2012",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Telecoms & Data Business Development Manager",
+      "company": "BT Local Business Oxford & Bucks",
+      "start": "6/2010",
+      "end": "1/2012",
+      "current": false
+    }
+  ]
 }

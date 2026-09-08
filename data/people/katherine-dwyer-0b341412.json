@@ -50,5 +50,39 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Acquisition Manager EMEA, CO&I",
+      "company": "Microsoft",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head Of Portfolio Management",
+      "company": "Yew Grove REIT plc",
+      "start": "6/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Property Portfolio Asset Manager",
+      "company": "Investec",
+      "start": "11/2007",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Investment Acquisition Manager",
+      "company": "BOI Private Banking",
+      "start": "11/2002",
+      "end": "10/2007",
+      "current": false
+    }
+  ]
 }

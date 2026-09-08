@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Global Cost Estimating",
+      "company": "Digital Realty",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Preconstruction Manager",
+      "company": "DMC Global Partners",
+      "start": "11/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "Streetworks Development",
+      "start": "10/2022",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Duke Realty",
+      "start": "9/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Director Of Preconstruction",
+      "company": "SD Builders & Construction LLC Slate Property Group",
+      "start": "12/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Lead",
+      "company": "DPR Construction",
+      "start": "10/2018",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Structure Tone",
+      "start": "3/2008",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Skanska",
+      "start": "1/2005",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "Manager",
+      "company": "Tricon Construction Services",
+      "start": "6/2002",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Darwish Contracting",
+      "start": "5/1999",
+      "end": "7/2001",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Varsha Builders",
+      "start": "8/1997",
+      "end": "4/1999",
+      "current": false
+    }
+  ]
 }

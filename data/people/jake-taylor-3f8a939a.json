@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Global Sales Director",
+      "company": "Digital Realty",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "3/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Account Manager",
+      "company": "Digital Realty",
+      "start": "3/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Sales and Chairman of the Business Advisory Commitee",
+      "company": "ByteGrid",
+      "start": "2/2016",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Account Executive & Zayo Cloud Subject Matter Expert",
+      "company": "Zayo",
+      "start": "2/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Commercial Account Executive",
+      "company": "QTS Data Centers",
+      "start": "4/2012",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Ricoh Business Solutions",
+      "start": "1/2011",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Siteworx",
+      "start": "8/2010",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Rex Lumber",
+      "start": "8/2008",
+      "end": "8/2010",
+      "current": false
+    }
+  ]
 }

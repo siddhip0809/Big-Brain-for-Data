@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "TDIndustries",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "TDIndustries",
+      "start": "4/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator - Major Projects",
+      "company": "TDIndustries",
+      "start": "7/2015",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator - Houston",
+      "company": "Polk Mechanical",
+      "start": "4/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Polk Mechanical",
+      "start": "8/2011",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Commercial/Multifamily Estimator",
+      "company": "L&S Plumbing Partnership",
+      "start": "8/2008",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Single Family Estimator",
+      "company": "L&S Plumbing Partnership",
+      "start": "10/2007",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Plumbers Helper",
+      "company": "L&S Plumbing Partnership",
+      "start": "7/2007",
+      "end": "10/2007",
+      "current": false
+    },
+    {
+      "title": "Warehouse Worker",
+      "company": "L&S Plumbing Partnership",
+      "start": "6/2007",
+      "end": "6/2007",
+      "current": false
+    }
+  ]
 }

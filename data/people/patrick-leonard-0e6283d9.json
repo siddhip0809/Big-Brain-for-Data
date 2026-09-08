@@ -39,5 +39,82 @@
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal, Energy Strategy",
+      "company": "AWS",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Manager, AWS Energy",
+      "company": "AWS",
+      "start": "3/2022",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager, Renewable Energy",
+      "company": "Amazon",
+      "start": "8/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "manager, energy & resource management, Store Development",
+      "company": "Starbucks",
+      "start": "2/2016",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Program Manager, Sustainability",
+      "company": "T-Mobile",
+      "start": "2/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Paladino and Company",
+      "start": "8/2007",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy Consultant",
+      "company": "Enviros",
+      "start": "6/2006",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Research Engineer",
+      "company": "Shell Global Solutions",
+      "start": "6/2006",
+      "end": "8/2006",
+      "current": false
+    },
+    {
+      "title": "Research Associate",
+      "company": "Manchester Biodiesel Cooperative",
+      "start": "9/2004",
+      "end": "5/2005",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Shell Global Solutions",
+      "start": "9/2002",
+      "end": "7/2005",
+      "current": false
+    }
+  ]
 }

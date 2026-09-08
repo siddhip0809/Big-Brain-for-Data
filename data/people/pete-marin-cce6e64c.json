@@ -28,5 +28,25 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "CEO & Chairman",
+      "company": "T5 Data Centers",
+      "start": "3/2008",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President",
+      "company": "The Staubach Company",
+      "start": "7/1994",
+      "end": "3/2008",
+      "current": false
+    }
+  ]
 }

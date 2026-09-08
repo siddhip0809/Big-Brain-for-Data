@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Transmission and Interconnection Director",
+      "company": "Switch",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager of Grid Integration Engineering",
+      "company": "Cypress Creek Renewables",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Grid Integration Engineer",
+      "company": "Cypress Creek Renewables",
+      "start": "6/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Manager of Transmission Planning",
+      "company": "NV Energy",
+      "start": "2/2021",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Transmission Planning Engineer",
+      "company": "NV Energy",
+      "start": "5/2015",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "GIS Intern",
+      "company": "NV Energy",
+      "start": "9/2014",
+      "end": "5/2015",
+      "current": false
+    }
+  ]
 }

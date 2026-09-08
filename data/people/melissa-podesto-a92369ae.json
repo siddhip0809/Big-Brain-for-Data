@@ -28,5 +28,88 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "VP Hyperscale Leasing and Data Center Sales"
+    },
+    {
+      "title": "PowerBridge ",
+      "company": "PowerBridge",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Sales",
+      "company": "Aligned Data Centers",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Sales Director",
+      "company": "Digital Realty",
+      "start": "4/2018",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "raw": "West Regional Sales Director"
+    },
+    {
+      "title": "Data Centers",
+      "company": "Iron Mountian",
+      "start": "3/2017",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Director of Sales, Cloud and Hosting",
+      "company": "CoreSite",
+      "start": "4/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Director Carrier Sales",
+      "company": "O1 Communications",
+      "start": "3/2008",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Director of Carrier Relations",
+      "company": "360 Networks / Onvoy",
+      "start": "12/2007",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "TNCI",
+      "start": "1/2001",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Senior National Account Executive",
+      "company": "SurfControl",
+      "start": "3/1998",
+      "end": "7/2001",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Rainmaker Systems",
+      "start": "12/1996",
+      "end": "3/1998",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,32 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "SVP Real Estate",
+      "company": "metrobloks",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Partner",
+      "company": "Calbay Development",
+      "start": "1/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Acquisitions and Investments",
+      "company": "The Festival Companies",
+      "start": "5/2007",
+      "end": "1/2016",
+      "current": false
+    }
+  ]
 }

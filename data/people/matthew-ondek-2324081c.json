@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Development ",
+      "company": "QTS Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "3/2025",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "11/2021",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "6/2021",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "MEP Coordinator",
+      "company": "DPR Construction",
+      "start": "1/2021",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "MEP Coordinator - Electrical Manager",
+      "company": "DPR Construction",
+      "start": "10/2017",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer - Electrical Lead",
+      "company": "DPR Construction",
+      "start": "9/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "DPR Construction",
+      "start": "7/2013",
+      "end": "10/2015",
+      "current": false
+    }
+  ]
 }

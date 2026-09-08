@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP Construction",
+      "company": "CyrusOne",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Design & Construction",
+      "company": "CyrusOne",
+      "start": "8/2019",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Regional Director - Design & Construction",
+      "company": "CyrusOne",
+      "start": "5/2013",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Regional Operations Director",
+      "company": "CyrusOne",
+      "start": "2/2009",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Advisor",
+      "company": "Torex Retail",
+      "start": "11/2008",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Sr Director - Operations",
+      "company": "Semantra",
+      "start": "12/2006",
+      "end": "5/2008",
+      "current": false
+    },
+    {
+      "title": "Sr Director - Operations (merged with Infor)",
+      "company": "SSA Global",
+      "start": "4/2000",
+      "end": "7/2006",
+      "current": false
+    },
+    {
+      "title": "Director - Mergers & Acquisitions",
+      "company": "Constellation Software",
+      "start": "4/1996",
+      "end": "3/2000",
+      "current": false
+    },
+    {
+      "title": "Operations Manager - Central Region",
+      "company": "Geac",
+      "start": "7/1986",
+      "end": "3/1996",
+      "current": false
+    }
+  ]
 }

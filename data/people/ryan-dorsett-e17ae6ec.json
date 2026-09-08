@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction (North America)",
+      "company": "Vantage Data Centers at Vantage",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Construction (North America)",
+      "company": "Vantage",
+      "start": "2/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Construction NA",
+      "company": "Vantage",
+      "start": "2/2022",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Principal Construction Manager",
+      "company": "Vantage",
+      "start": "7/2018",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Holder Construction",
+      "start": "9/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Holder Construction",
+      "start": "12/2012",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Holder Construction",
+      "start": "2/2010",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator",
+      "company": "Brasfield & Gorrie",
+      "start": "6/2008",
+      "end": "5/2009",
+      "current": false
+    }
+  ]
 }

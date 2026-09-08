@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction",
+      "company": "Skybox Datacenters",
+      "start": "5/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Critical Project Services",
+      "start": "8/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Director Of Construction",
+      "company": "Newgate Development",
+      "start": "8/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Scott + Reid General Contractors",
+      "start": "10/2014",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "conceptcsi",
+      "start": "8/2013",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "C-DM Network",
+      "start": "1/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "VCC",
+      "start": "7/2006",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Information Analyst",
+      "company": "United States Air Force",
+      "start": "8/1996",
+      "end": "8/2002",
+      "current": false
+    }
+  ]
 }

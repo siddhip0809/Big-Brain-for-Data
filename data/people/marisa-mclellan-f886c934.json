@@ -39,5 +39,19 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Executive",
+      "company": "DPR Construction",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

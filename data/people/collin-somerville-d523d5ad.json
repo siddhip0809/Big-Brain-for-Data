@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr Sales Director",
+      "company": "Edged",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Strategic Sales",
+      "company": "CentersquareDC",
+      "start": "4/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Strategic and Hyperscaler Accounts",
+      "company": "CentersquareDC",
+      "start": "7/2021",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Sr Account Director",
+      "company": "Lumen Technologies",
+      "start": "9/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Sr Account Director",
+      "company": "Qwest Communications",
+      "start": "1/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Sr Account Director",
+      "company": "Global Crossing",
+      "start": "5/2013",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Director, Sales Operations - NA Wholesale",
+      "company": "Global Crossing",
+      "start": "1/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Manager, Sales Engineering",
+      "company": "Global Crossing",
+      "start": "8/2008",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Sr Sales Engineer",
+      "company": "Global Crossing",
+      "start": "8/2004",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Product Manager",
+      "company": "WilTel Communications",
+      "start": "2/1999",
+      "end": "8/2004",
+      "current": false
+    }
+  ]
 }

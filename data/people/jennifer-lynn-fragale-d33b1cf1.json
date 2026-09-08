@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "GH Phipps Construction Companies",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Howell Construction",
+      "start": "4/2017",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Estimator",
+      "company": "Adams Mendel Allison Construction",
+      "start": "8/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Gerald H Phipps",
+      "start": "2/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer / Senior Project Administrator",
+      "company": "Saunders Construction",
+      "start": "8/1999",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "Mendle-Allison Construction",
+      "start": "5/1997",
+      "end": "8/1999",
+      "current": false
+    }
+  ]
 }

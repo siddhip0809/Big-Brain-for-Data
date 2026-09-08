@@ -50,5 +50,53 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Program Manager, Site Acquisition - EMEA",
+      "company": "Microsoft",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Development Manager",
+      "company": "Rider Levett Bucknall",
+      "start": "5/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "Rider Levett Bucknall",
+      "start": "7/2019",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "Arcadis",
+      "start": "10/2013",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Programme and Project Manager",
+      "company": "EC Harris",
+      "start": "9/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Urban Renaissance and Property Undergraduate",
+      "company": "Yorkshire Forward",
+      "start": "10/2009",
+      "end": "9/2010",
+      "current": false
+    }
+  ]
 }

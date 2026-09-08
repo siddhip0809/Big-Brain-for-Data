@@ -28,5 +28,117 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Campus Director",
+      "company": "Applied Digital",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Data Center Construction",
+      "company": "Switch",
+      "start": "10/2024",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Vice President, Construction",
+      "company": "Cologix",
+      "start": "5/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "OAC Services",
+      "start": "1/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Director",
+      "company": "OAC Services",
+      "start": "7/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "OAC Services",
+      "start": "11/2018",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "OAC Services",
+      "start": "8/2016",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "ViaWest",
+      "start": "7/2015",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Director of Construction",
+      "company": "CoreSite",
+      "start": "2/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "11/2010",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Equinix",
+      "start": "5/2010",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Sr. Construction Manager",
+      "company": "Switch and Data",
+      "start": "6/2005",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Property Manager",
+      "company": "Qwest Communications",
+      "start": "1/2005",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Qwest Communications",
+      "start": "8/2002",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Qwest Communications",
+      "start": "1/2000",
+      "end": "7/2002",
+      "current": false
+    }
+  ]
 }

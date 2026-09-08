@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Construction Director",
+      "company": "Prime Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "Prime Data Centers",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Technical Program Director",
+      "company": "Aligned Data Centers",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "MGAC",
+      "start": "7/2020",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Pepper Construction Group",
+      "start": "5/2018",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Senior PM",
+      "company": "Nova Mission Critical",
+      "start": "6/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Argonne National Laboratory",
+      "start": "3/2013",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Patrick Engineering",
+      "start": "1/2011",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Professional Engineer",
+      "company": "Farnsworth Group",
+      "start": "2/2005",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Engineer Intern",
+      "company": "SEECO Consultants",
+      "start": "5/2004",
+      "end": "2/2005",
+      "current": false
+    }
+  ]
 }

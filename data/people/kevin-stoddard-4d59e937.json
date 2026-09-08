@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction - Mission Critical",
+      "company": "Ryan Companies US",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Preconstruction",
+      "company": "U S Engineering",
+      "start": "1/2021",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Pre-construction Manager",
+      "company": "U S Engineering",
+      "start": "10/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Manager ",
+      "company": "U S Engineering",
+      "start": "2/2016",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "Belfay Engineering",
+      "start": "11/2003",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Inside Sales",
+      "company": "Peak Pump Sales",
+      "start": "8/2003",
+      "end": "11/2003",
+      "current": false
+    }
+  ]
 }

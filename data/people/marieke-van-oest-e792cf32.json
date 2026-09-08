@@ -28,5 +28,134 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Selection Manager",
+      "company": "Cloudflare",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Procurement Category Lead - Vendor Management",
+      "company": "Booking.Com",
+      "start": "8/2021",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Contractmanager",
+      "company": "Booking.Com",
+      "start": "1/2021",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Contract Management Lead",
+      "company": "Booking.Com",
+      "start": "2/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center and Cloud Procurement Lead",
+      "company": "Booking.Com",
+      "start": "7/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Data Center and Cloud Procurement Lead",
+      "company": "Booking.Com",
+      "start": "7/2019",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Accountmanager Lenovo DCG",
+      "company": "ALSO Nederland B V",
+      "start": "11/2018",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Sabatical",
+      "company": "Open for a new position",
+      "start": "1/2018",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Network Provider Relations Manager",
+      "company": "Leaseweb",
+      "start": "12/2015",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Procurement Carrier and Datacenter Services Worldwide and Senior Account Manager",
+      "company": "FiberRing",
+      "start": "12/2012",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Sabbatical",
+      "company": "On Sabbatical",
+      "start": "2/2012",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "SARA Reken- en Netwerkdiensten",
+      "start": "2/2009",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Vancis a SARA",
+      "start": "2/2009",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Data Return",
+      "start": "1/2007",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Internal Account Manager Public",
+      "company": "Dell",
+      "start": "1/2002",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Internal Partner Manager",
+      "company": "Oracle",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Assistant Real Estate Agent",
+      "company": "Walraven van Oest",
+      "start": "1/1995",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "raw": "Cloudflare"
+    }
+  ]
 }

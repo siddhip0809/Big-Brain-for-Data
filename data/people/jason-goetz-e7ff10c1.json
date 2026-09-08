@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator - Mission Critical",
+      "company": "Hensel Phelps",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "8/2021",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "9/2020",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "5/2017",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Area Superintendent",
+      "company": "Hensel Phelps",
+      "start": "1/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "1/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "6/2012",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "6/2009",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Hensel Phelps",
+      "start": "11/2006",
+      "end": "6/2009",
+      "current": false
+    }
+  ]
 }

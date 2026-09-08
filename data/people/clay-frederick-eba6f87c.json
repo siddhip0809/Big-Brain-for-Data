@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr, Director of Construction- Global Data Center Americas",
+      "company": "NTT",
+      "start": "12/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "US Central/Canada Region, Construction",
+      "company": "AWS",
+      "start": "8/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "US East Region,  Construction",
+      "company": "AWS",
+      "start": "7/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Facility and Property Services-  Director of Project Management",
+      "company": "Sutter Health",
+      "start": "8/2004",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "REWS-  Manager Facility Space Strategic Planning, RE, Operations",
+      "company": "Hewlett Packard Roseville Site operations",
+      "start": "5/1996",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "Application Engineer- Industrial Sales Engineer",
+      "company": "General Electric ED&C Electrical Distribution and Controls",
+      "start": "5/1994",
+      "end": "8/1996",
+      "current": false
+    }
+  ]
 }

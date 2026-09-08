@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director, Cost Management ",
+      "company": "Gardiner & Theobald",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Consultant",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Editor",
+      "company": "Institute of Quantity Surveyors of Kenya",
+      "start": "8/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Institute of Quantity Surveyors of Kenya",
+      "company": "Council Member",
+      "start": "5/2022",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "8/2018",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "YPF Vice Chair, Africa",
+      "company": "Turner & Townsend",
+      "start": "3/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Manager, Kenya",
+      "company": "Turner & Townsend",
+      "start": "8/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Graduate Assistant, Kenya",
+      "company": "Turner & Townsend",
+      "start": "7/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Questworks",
+      "start": "9/2016",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Institute of Quantity Surveyors of Kenya",
+      "start": "6/2016",
+      "end": "6/2017",
+      "current": false
+    }
+  ]
 }

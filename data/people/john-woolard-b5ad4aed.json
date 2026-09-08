@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Sales North America",
+      "company": "Serverfarm",
+      "start": "9/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Sales",
+      "company": "T5 Data Centers",
+      "start": "7/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Cogent Communications",
+      "start": "9/2012",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Cogent Communications",
+      "start": "2/2009",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Media Consultant",
+      "company": "Spot Runner",
+      "start": "6/2008",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Apex Systems",
+      "start": "4/2006",
+      "end": "5/2008",
+      "current": false
+    }
+  ]
 }

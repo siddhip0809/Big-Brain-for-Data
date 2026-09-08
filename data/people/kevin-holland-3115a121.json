@@ -50,5 +50,74 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "virtus-data-centers"
+  "current_company_id": "virtus-data-centers",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Client Director",
+      "company": "Virtus Data Centers",
+      "start": "5/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Service Providers",
+      "company": "Data City Exchange",
+      "start": "11/2012",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Head of Reseller",
+      "company": "Talk Talk Business",
+      "start": "4/2011",
+      "end": "11/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Telstra",
+      "start": "9/2007",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Rapier Integrated Solutions",
+      "start": "1/2004",
+      "end": "7/2007",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Data Return",
+      "start": "1/2000",
+      "end": "1/2004",
+      "current": false
+    },
+    {
+      "title": "Dealer Sales Manager",
+      "company": "Crane Telecommunications",
+      "start": "2/1999",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "Technical Service Manager",
+      "company": "Telrad Networks",
+      "start": "3/1997",
+      "end": "4/1998",
+      "current": false
+    },
+    {
+      "title": "Technical Service Manager (Universal Telecommunications Ltd - UTL)",
+      "company": "DeTeWe Communications",
+      "start": "1/1988",
+      "end": "12/1997",
+      "current": false
+    }
+  ]
 }

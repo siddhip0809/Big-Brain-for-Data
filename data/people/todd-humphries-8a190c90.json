@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "3/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Brasfield & Gorrie",
+      "start": "4/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Brasfield & Gorrie",
+      "start": "8/2008",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Manager",
+      "company": "Brasfield & Gorrie",
+      "start": "8/2002",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Co-op",
+      "company": "Batson-Cook Construction",
+      "start": "1/2000",
+      "end": "5/2002",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Estimating",
+      "company": "Accenture",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Accenture",
+      "start": "10/2023",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Regional Cost Lead - Seattle",
+      "company": "PCM Consulting",
+      "start": "3/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turton Bond",
+      "start": "1/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "CBRE",
+      "start": "5/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming",
+      "start": "10/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Cumming",
+      "start": "8/2018",
+      "end": "10/2019",
+      "current": false
+    }
+  ]
 }

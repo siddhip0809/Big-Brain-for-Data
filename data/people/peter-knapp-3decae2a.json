@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director General",
+      "company": "Tillion Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President",
+      "company": "CloudHQ",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Group Director Europe",
+      "company": "Global Switch",
+      "start": "10/2018",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "UBIX",
+      "start": "7/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Chief Digital Officer, Executive Vice President Infrastructure",
+      "company": "Samson Controls",
+      "start": "6/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Interxion Deutschland",
+      "start": "9/2002",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "raw": "CloudHQ"
+    }
+  ]
 }

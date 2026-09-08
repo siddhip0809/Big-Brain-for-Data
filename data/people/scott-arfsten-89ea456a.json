@@ -28,5 +28,138 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Archkey Solutions",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Founder",
+      "company": "ConstructionPros.AI",
+      "start": "4/2024",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Constructioninnovations",
+      "start": "8/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Client Executive",
+      "company": "Kahua",
+      "start": "3/2018",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "SAN JOAQUIN ELECTRIC",
+      "start": "9/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Helix Electric",
+      "start": "11/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "V.P. of Northern California Region",
+      "company": "CSI Electrical Contractors",
+      "start": "10/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "BIM-Pre Construction Services Manager",
+      "company": "Cupertino Electric",
+      "start": "1/2010",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Regional VDC (Virtual Design and Construction) Manager",
+      "company": "Turner Construction",
+      "start": "10/2008",
+      "end": "10/2009",
+      "current": false
+    },
+    {
+      "title": "Lecturer",
+      "company": "California State University Chico",
+      "start": "9/2006",
+      "end": "5/2007",
+      "current": false
+    },
+    {
+      "title": "V.P. of Global Sales",
+      "company": "SASCO",
+      "start": "8/2006",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "V.P. of Marketing Information Technology",
+      "company": "Parsons",
+      "start": "4/2005",
+      "end": "5/2006",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Yamas Controls",
+      "start": "10/2004",
+      "end": "4/2005",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Manager",
+      "company": "Trimble",
+      "start": "2000",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "Major Account Executive",
+      "company": "Johnson Controls",
+      "start": "3/1998",
+      "end": "2000",
+      "current": false
+    },
+    {
+      "title": "District Service Leader",
+      "company": "Honeywell",
+      "start": "9/1995",
+      "end": "1998",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "James Nolan Construction",
+      "start": "10/1987",
+      "end": "1/1989",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "S J Amoroso Construction",
+      "start": "7/1986",
+      "end": "9/1987",
+      "current": false
+    }
+  ]
 }

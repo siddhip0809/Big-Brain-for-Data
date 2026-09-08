@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Strategic Negotiator, Third Party Data Centers",
+      "company": "Google",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Technical Operations Manager - Data Centers - Spain & Italy",
+      "company": "Google",
+      "start": "1/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Plant Engineer - Data Centers",
+      "company": "Google",
+      "start": "1/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Plant Manager - Steam Cracker / Olefins",
+      "company": "Repsol",
+      "start": "12/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Turnaround  -  Olefins Lead",
+      "company": "Repsol",
+      "start": "5/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Plant Manager - Butadiene & ETBE/MTBE",
+      "company": "Repsol",
+      "start": "9/2015",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Plant Engineer - Steam Cracker / Olefins",
+      "company": "Repsol",
+      "start": "12/2011",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Master Thesis Project",
+      "company": "SCA - Hygiene and Forest Products",
+      "start": "9/2010",
+      "end": "2/2011",
+      "current": false
+    }
+  ]
 }

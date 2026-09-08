@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator & BIM",
+      "company": "Miller and Long DC Concrete Construction",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "BIM/VDC Manager",
+      "company": "Clune Construction",
+      "start": "2/2020",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator & BIM",
+      "company": "Miller & Long Co",
+      "start": "9/2013",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Architectural Assistant",
+      "company": "Sweet Art Design Studio",
+      "start": "9/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer Geotech Intern",
+      "company": "Lien Hsing Geotech Consultants",
+      "start": "6/2010",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Quality Specialist",
+      "company": "Far East Machinery",
+      "start": "12/2009",
+      "end": "5/2010",
+      "current": false
+    }
+  ]
 }

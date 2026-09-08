@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "crusoe"
+  "current_company_id": "crusoe",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Pre-Construction Manager",
+      "company": "Crusoe",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "10/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "5/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Cahill Contractors",
+      "start": "7/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "BFC PARTNERS",
+      "start": "8/2015",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Kunj Construction",
+      "start": "5/2015",
+      "end": "8/2015",
+      "current": false
+    }
+  ]
 }

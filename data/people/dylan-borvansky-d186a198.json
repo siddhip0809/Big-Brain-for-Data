@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP Hyperscale Design and Construction",
+      "company": "Switch",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Front End Planning",
+      "company": "NTT",
+      "start": "4/2023",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Global VP Data Center Construction and Design Engineering",
+      "company": "GLP",
+      "start": "4/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Director of Corporate MEP Construction",
+      "company": "RagingWire Data Centers",
+      "start": "12/2019",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Manager of Data Center Operations",
+      "company": "AWS",
+      "start": "3/2014",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Sr. Facilities Engineer/ Major Projects Implementations Manager",
+      "company": "Visa",
+      "start": "2/2005",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Genral Foreman of Critical Projects team",
+      "company": "Sturgeon Electric",
+      "start": "1/2002",
+      "end": "2/2005",
+      "current": false
+    }
+  ]
 }

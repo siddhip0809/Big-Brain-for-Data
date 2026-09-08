@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Strategic, Edge & Hyperscale Sales",
+      "company": "DC BLOX",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Client Executive Hyperscale & Strategic",
+      "company": "TierPoint",
+      "start": "1/2018",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Global Sales Director",
+      "company": "Digital Realty",
+      "start": "1/2014",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Digital Realty",
+      "start": "8/2011",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "NTAC Juniper Engineer Wireless",
+      "company": "Sprint",
+      "start": "1/2009",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Sr. Sales Engineer III",
+      "company": "XO Communications",
+      "start": "11/2007",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Real Estate Agent",
+      "company": "West USA Realty",
+      "start": "1/2005",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Routing Specialist",
+      "company": "Sterling Netork Services",
+      "start": "2/2004",
+      "end": "9/2005",
+      "current": false
+    },
+    {
+      "title": "Design and Engineering",
+      "company": "GlobalCrossing",
+      "start": "1/2004",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "NOC Manager / Managed Services Lead / IP Admin AS3549  / BGP turnup / design and activation",
+      "company": "Global Crossing",
+      "start": "9/1999",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "4066 Data Communications Specialist",
+      "company": "United States Marine Corps",
+      "start": "1/1996",
+      "end": "12/1999",
+      "current": false
+    }
+  ]
 }

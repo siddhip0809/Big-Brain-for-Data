@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Energy Origination & Structuring, EMEA",
+      "company": "Equinix",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, Global Renewable Energy",
+      "company": "Equinix",
+      "start": "8/2023",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Business Development, M&A",
+      "company": "Lightsource BP",
+      "start": "10/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Director Of Business Development",
+      "company": "Adapture Renewables",
+      "start": "6/2017",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "E.ON",
+      "start": "8/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Solar Development Manager",
+      "company": "E.ON",
+      "start": "12/2014",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Federal Energy Regulatory Commission",
+      "start": "4/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Engineering Technician",
+      "company": "Michigan Department of Transportation",
+      "start": "5/2009",
+      "end": "12/2009",
+      "current": false
+    }
+  ]
 }

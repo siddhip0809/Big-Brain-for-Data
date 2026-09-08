@@ -28,5 +28,81 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales ",
+      "company": "Element Critical",
+      "start": "8/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Sales",
+      "company": "vXchnge",
+      "start": "1/2020",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Manager - The Americas",
+      "company": "Telecom Italia North America",
+      "start": "6/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Executive of Content SaaS Gaming",
+      "company": "Globenet Telecom A V Tal Network",
+      "start": "7/2016",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "raw": "Regional Vice President of Sales and Service"
+    },
+    {
+      "title": "Western North America Sales",
+      "company": "Global Cloud Xchange",
+      "start": "12/2012",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "US VP Enterprise Sales",
+      "company": "Tata Communications",
+      "start": "3/2008",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Vice President Sales",
+      "company": "NTT",
+      "start": "1/2004",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "raw": "VP Sales and Service"
+    },
+    {
+      "title": "Dimension Data",
+      "company": "NTT",
+      "start": "1/2004",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Director Sales",
+      "company": "Jareva Software",
+      "start": "1/2000",
+      "end": "12/2003",
+      "current": false
+    }
+  ]
 }

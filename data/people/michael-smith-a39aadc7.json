@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager of Americas Estimating",
+      "company": "Microsoft",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimating Department Manager",
+      "company": "Fluor",
+      "start": "6/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Estimating Director",
+      "company": "Fluor",
+      "start": "2/2022",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Legacy Assets Continuous Improvement/Assurance",
+      "company": "BHP Billiton Petroleum",
+      "start": "7/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Legacy Assets Total Cost Management Coach",
+      "company": "BHP Billiton Petroleum",
+      "start": "1/2021",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Global Practice Lead, Estimating",
+      "company": "BHP Billiton Petroleum",
+      "start": "12/2017",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Estimate Advisor, SASBU Block 0",
+      "company": "Chevron Energy Solutions",
+      "start": "7/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Tengizchevroil",
+      "start": "7/2013",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Estimate Cost Advisor",
+      "company": "Chevron Energy Solutions",
+      "start": "8/2011",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "P2S",
+      "start": "12/2009",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Principal Estimator",
+      "company": "Fluor",
+      "start": "6/2001",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Bechtel",
+      "start": "8/1997",
+      "end": "6/2001",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Brown & Root",
+      "start": "7/1996",
+      "end": "7/1997",
+      "current": false
+    }
+  ]
 }

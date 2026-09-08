@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales",
+      "company": "Sabey Data Centers",
+      "start": "3/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Qwest Communications",
+      "start": "10/2006",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Global Account Executive",
+      "company": "Qwest Communications",
+      "start": "9/2006",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Verizon",
+      "start": "12/2001",
+      "end": "9/2006",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Nortel",
+      "start": "1/1998",
+      "end": "1/2001",
+      "current": false
+    },
+    {
+      "title": "Product Manager",
+      "company": "Bay Networks",
+      "start": "1/1995",
+      "end": "1/1998",
+      "current": false
+    },
+    {
+      "title": "Network Architect",
+      "company": "Eli Lilly",
+      "start": "1/1991",
+      "end": "1/1995",
+      "current": false
+    }
+  ]
 }

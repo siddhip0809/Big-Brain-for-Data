@@ -28,5 +28,50 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Founder",
+      "company": "Internet Ecosystem Innovation Committee",
+      "start": "5/2019",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Chief Revenue Officer",
+      "company": "QTS Data Centers",
+      "start": "4/2018",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Chief Commercial Officer",
+      "company": "EdgeConneX",
+      "start": "4/2013",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Founder",
+      "company": "The Heiden Group",
+      "start": "5/2004",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "raw": "EdgeCore Digital Infrastructure"
+    }
+  ]
 }

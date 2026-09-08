@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Turner Construction",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Turner Construction",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Turner Construction",
+      "start": "9/2021",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Project Manager",
+      "company": "Sundt Construction",
+      "start": "11/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Sundt Construction",
+      "start": "1/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manger",
+      "company": "W E O'Neil Construction",
+      "start": "1/2018",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Lloyd Construction Company",
+      "start": "2/2012",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "HESS Construction",
+      "start": "3/2011",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Project Manager, Preconstruction Director",
+      "company": "Lloyd Construction Company",
+      "start": "1/2004",
+      "end": "1/2011",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Greenberry Industrial",
+      "start": "6/2002",
+      "end": "12/2003",
+      "current": false
+    }
+  ]
 }

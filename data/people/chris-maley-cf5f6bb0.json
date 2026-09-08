@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Manager / Project Controls Manger",
+      "company": "Bechtel",
+      "start": "2/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Bechtel",
+      "start": "11/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Project Controls Supervisor",
+      "company": "Bechtel",
+      "start": "3/2015",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Project Controls / Estimating Engineer",
+      "company": "Bechtel",
+      "start": "8/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Project Controls Engineer",
+      "company": "Bechtel",
+      "start": "4/2011",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Technology Analyst",
+      "company": "Accenture",
+      "start": "5/2010",
+      "end": "3/2011",
+      "current": false
+    }
+  ]
 }

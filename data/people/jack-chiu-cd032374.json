@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "PMO Global Cost Manager",
+      "company": "CBRE",
+      "start": "9/2022",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "CB Richard Ellis",
+      "start": "9/2018",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "JLS Cost Management Systems",
+      "start": "7/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Cost/Contract Manager",
+      "company": "Perini Building",
+      "start": "4/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Engineer",
+      "company": "Skanska",
+      "start": "12/2011",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Project Cost Engineer/Estimator",
+      "company": "Judlau Contracting",
+      "start": "7/2008",
+      "end": "12/2011",
+      "current": false
+    }
+  ]
 }

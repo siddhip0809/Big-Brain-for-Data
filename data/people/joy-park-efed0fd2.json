@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Executive, Real Estate Development",
+      "company": "Google",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager, Real Estate Development",
+      "company": "Google",
+      "start": "5/2019",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice President, Development",
+      "company": "Extell Development",
+      "start": "3/2013",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Construction Management",
+      "company": "Turner Construction",
+      "start": "1/2013",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Project Management",
+      "company": "Turner Construction",
+      "start": "9/2011",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Project Management - Operations",
+      "company": "Turner Construction",
+      "start": "9/2010",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Project Management",
+      "company": "Turner Construction",
+      "start": "9/2009",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Project Intern",
+      "company": "Perini Building",
+      "start": "6/2008",
+      "end": "9/2008",
+      "current": false
+    }
+  ]
 }

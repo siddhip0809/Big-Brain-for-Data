@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director of Data Center Development",
+      "company": "Strata Clean Energy",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, Development",
+      "company": "Birch Infrastructure PBLLC",
+      "start": "8/2021",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Development",
+      "company": "Rowan Digital Infrastructure",
+      "start": "8/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Environmental Consulting & Technology",
+      "start": "10/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy Developer (wind and solar)",
+      "company": "Heritage Sustainable Energy",
+      "start": "2/2010",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Director of Land Protection",
+      "company": "Grand Traverse Regional Land Conservancy",
+      "start": "9/2003",
+      "end": "12/2009",
+      "current": false
+    }
+  ]
 }

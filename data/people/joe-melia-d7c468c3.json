@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Preconstruction",
+      "company": "CloudHQ",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Preconstruction",
+      "company": "CloudHQ",
+      "start": "2/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "CloudHQ",
+      "start": "2/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "CloudHQ",
+      "start": "9/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Dome Construction",
+      "start": "12/2018",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Dome Construction",
+      "start": "9/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "American Site Builders",
+      "start": "3/2013",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Cambridge CM",
+      "start": "9/2010",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Cambridge CM",
+      "start": "4/2008",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Coffey Construction",
+      "start": "5/2004",
+      "end": "9/2006",
+      "current": false
+    }
+  ]
 }

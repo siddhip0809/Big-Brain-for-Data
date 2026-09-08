@@ -39,5 +39,102 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Strategic Negotiator – Lead"
+    },
+    {
+      "title": "Global Infrastructure – Data Centre Energy & Location Strategy",
+      "company": "Google",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Senior Director"
+    },
+    {
+      "title": "UK Advisory – Development Strategy & Transactions",
+      "company": "CB Richard Ellis",
+      "start": "3/2021",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "raw": "Director"
+    },
+    {
+      "title": "UK Advisory – Development Strategy & Transactions",
+      "company": "CB Richard Ellis",
+      "start": "1/2018",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "raw": "Associate Director"
+    },
+    {
+      "title": "UK Advisory – Development",
+      "company": "CB Richard Ellis",
+      "start": "4/2016",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "raw": "Assistant Director"
+    },
+    {
+      "title": "Corporate Finance – Real Estate Advisory",
+      "company": "Deloitte",
+      "start": "9/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "raw": "Assistant Director"
+    },
+    {
+      "title": "Corporate Finance – Real Estate Advisory",
+      "company": "Deloitte France",
+      "start": "9/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "raw": "Manager"
+    },
+    {
+      "title": "Corporate Finance – Real Estate Advisory",
+      "company": "Deloitte",
+      "start": "12/2013",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "raw": "Manager"
+    },
+    {
+      "title": "Corporate Finance – Real Estate Advisory",
+      "company": "Deloitte France",
+      "start": "12/2013",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "raw": "Senior Surveyor – Development Consultant"
+    },
+    {
+      "title": "National Development & Planning",
+      "company": "Strutt & Parker",
+      "start": "8/2008",
+      "end": "12/2013",
+      "current": false
+    }
+  ]
 }

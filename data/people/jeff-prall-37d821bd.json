@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Site Selection Manager",
+      "company": "Meta",
+      "start": "10/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Data Center Strategy",
+      "company": "Salesforce",
+      "start": "6/2017",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Data Center Site Selection",
+      "company": "AWS",
+      "start": "3/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Data Center - Site Selection Manager",
+      "company": "Microsoft",
+      "start": "1/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development & Strategy",
+      "company": "Boeing",
+      "start": "1/2007",
+      "end": "1/2013",
+      "current": false
+    }
+  ]
 }

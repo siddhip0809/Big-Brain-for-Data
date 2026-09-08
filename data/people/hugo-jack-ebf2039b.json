@@ -50,5 +50,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "global-technical-realty"
+  "current_company_id": "global-technical-realty",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Sales",
+      "company": "Global Technical Realty",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director",
+      "company": "CBRE Data Centre Solutions EMEA at CBRE",
+      "start": "7/2023",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "CBRE Data Centre Solutions EMEA at CBRE",
+      "start": "3/2021",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "JLL",
+      "start": "1/2019",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Industrial & Logistics",
+      "company": "JLL",
+      "start": "9/2014",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "National Markets, Industrial Team",
+      "company": "GVA Property Consultancy",
+      "start": "6/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Public Sector Advisory Team",
+      "company": "Lambert Smith Hampton",
+      "start": "12/2010",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Commercial Surveyor",
+      "company": "Lambert Smith Hampton",
+      "start": "1/2007",
+      "end": "5/2012",
+      "current": false
+    }
+  ]
 }

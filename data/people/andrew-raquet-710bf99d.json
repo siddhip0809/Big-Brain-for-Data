@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Permit Program Manager, AWS Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Use Coordinator",
+      "company": "Gopuff",
+      "start": "2/2021",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Zoning Manager",
+      "company": "Gopuff",
+      "start": "2/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Codes Director",
+      "company": "Worcester Township",
+      "start": "10/2020",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Codes Clerk",
+      "company": "Worcester Township",
+      "start": "11/2017",
+      "end": "10/2020",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,26 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Estimating Lead",
+      "company": "Microsoft",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Estimating",
+      "company": "Fluor",
+      "start": "2005",
+      "end": "2024",
+      "current": false
+    }
+  ]
 }

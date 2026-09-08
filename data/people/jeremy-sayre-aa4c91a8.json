@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "The Beck Group",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Preconstruction Manager",
+      "company": "The Beck Group",
+      "start": "10/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "NTO Commercial",
+      "start": "8/2020",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "NTO Commercial",
+      "start": "8/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "3/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Turner Construction",
+      "start": "5/2014",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Turner Construction",
+      "start": "5/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Estimator/ Designer/ Foreman",
+      "company": "Samaritan's Purse",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

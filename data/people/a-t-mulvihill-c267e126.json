@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Of Preconstruction",
+      "company": "Rubicon Professional Services",
+      "start": "5/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Business Development and Marketing",
+      "company": "Turner Long Construction",
+      "start": "12/2017",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Author",
+      "company": "Author",
+      "start": "7/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Membership Development",
+      "company": "Roanoke Regional Chamber of Commerce",
+      "start": "7/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Director of Business Development",
+      "company": "Lionberger Construction",
+      "start": "1/2015",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Turner Long Construction",
+      "start": "1/2014",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Do All Contractors",
+      "company": "General Contractors",
+      "start": "5/2013",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Business Development & Project Manager",
+      "company": "Allgard Home Improvement",
+      "start": "8/2005",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Management",
+      "company": "Turner Asphalt",
+      "start": "7/2004",
+      "end": "8/2005",
+      "current": false
+    },
+    {
+      "title": "Freelance Consultant",
+      "company": "Self employed",
+      "start": "3/2001",
+      "end": "7/2004",
+      "current": false
+    },
+    {
+      "title": "Business Development & Marketing",
+      "company": "Turner Construction",
+      "start": "11/1995",
+      "end": "3/2001",
+      "current": false
+    }
+  ]
 }

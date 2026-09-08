@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "edgnex"
+  "current_company_id": "edgnex",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Edgnex Data Center by DAMAC",
+      "company": "EDGNEX",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Sales Nordics",
+      "company": "hscale",
+      "start": "2/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Vice President Datacenter Services",
+      "company": "Orange Business Services at Equant",
+      "start": "9/2022",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Vice President Sales Data Center Services",
+      "company": "Basefarm",
+      "start": "5/2019",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "DIGIPLEX",
+      "start": "5/2018",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Equant",
+      "start": "1/2005",
+      "end": "5/2018",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Whiting-Turner Contracting",
+      "start": "1/2016",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Corrosion Tech Intern",
+      "company": "ONEOK",
+      "start": "6/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Shop Helper",
+      "company": "East Texas Oilfeild Supply",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    }
+  ]
 }

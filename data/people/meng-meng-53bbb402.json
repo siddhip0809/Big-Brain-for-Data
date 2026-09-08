@@ -28,5 +28,31 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Energy and Sustainability Team",
+      "company": "Apple",
+      "start": "12/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "Tellurian",
+      "start": "5/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "company": "KPMG China",
+      "start": "10/2013",
+      "end": "9/2016",
+      "current": false
+    }
+  ]
 }

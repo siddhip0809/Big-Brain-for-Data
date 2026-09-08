@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager of Estimating",
+      "company": "Beale",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Functional Estimating Lead",
+      "company": "Microsoft",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Strategic Estimator",
+      "company": "Microsoft",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Estimator",
+      "company": "Microsoft",
+      "start": "5/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Worley",
+      "start": "8/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Site Estimator",
+      "company": "Worley",
+      "start": "4/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Worley",
+      "start": "2/2019",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Project Estimator - Motiva",
+      "company": "TEPCO",
+      "start": "7/2018",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "WorleyParsons",
+      "start": "2/2012",
+      "end": "7/2018",
+      "current": false
+    }
+  ]
 }

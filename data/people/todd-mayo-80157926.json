@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "National Account Manager",
+      "company": "QTS Data Centers",
+      "start": "8/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Product Line Executive- DLP",
+      "company": "McAfee",
+      "start": "1/2009",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Director of Sales-West",
+      "company": "Reconnex",
+      "start": "1/2005",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "AboveNet",
+      "start": "1/2003",
+      "end": "8/2004",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Qwest",
+      "start": "10/2001",
+      "end": "9/2003",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "AboveNet",
+      "start": "1/1998",
+      "end": "9/2001",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "McAfee",
+      "start": "6/1995",
+      "end": "12/1997",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "NetManage",
+      "start": "1/1993",
+      "end": "12/1995",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Utility Projects and Development",
+      "company": "Switch",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Construction Development",
+      "company": "Switch",
+      "start": "5/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Manager, Major Projects Transmission & Distribution",
+      "company": "NV Energy",
+      "start": "7/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager, Major Projects",
+      "company": "NV Energy",
+      "start": "1/2023",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager, T&D",
+      "company": "AtkinsRéalis",
+      "start": "3/2022",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager, T&D",
+      "company": "AtkinsRéalis",
+      "start": "2/2021",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Sunstate Companies",
+      "start": "7/2020",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "MasTec",
+      "start": "2/2018",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Michels",
+      "start": "1/2017",
+      "end": "2/2018",
+      "current": false
+    }
+  ]
 }

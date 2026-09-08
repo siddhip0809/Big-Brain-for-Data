@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Design & Construction",
+      "company": "Ncale",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President, Innovation and Engineering, Americas",
+      "company": "STACK Infrastructure",
+      "start": "10/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Commander, 153rd Troop Command (BDE)",
+      "company": "New York Army National Guard",
+      "start": "5/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Design and Construction",
+      "company": "Iron Mountian",
+      "start": "12/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Iron Mountian",
+      "start": "1/2021",
+      "end": "12/2021",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Development Finance",
+      "company": "Colovore",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Construction Accounting",
+      "company": "Digital Realty",
+      "start": "3/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Construction Accounting",
+      "company": "Digital Realty",
+      "start": "3/2020",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Construction Accounting",
+      "company": "Digital Realty",
+      "start": "5/2016",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Manager, Construction Accounting",
+      "company": "Digital Realty",
+      "start": "4/2013",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Supervisor, Construction Accounting",
+      "company": "Digital Realty",
+      "start": "3/2011",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Accountant",
+      "company": "Digital Realty",
+      "start": "3/2009",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Construction Accountant",
+      "company": "Digital Realty",
+      "start": "4/2008",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Cost Accountant",
+      "company": "DeSilva Gates Construction",
+      "start": "1/2006",
+      "end": "4/2008",
+      "current": false
+    }
+  ]
 }

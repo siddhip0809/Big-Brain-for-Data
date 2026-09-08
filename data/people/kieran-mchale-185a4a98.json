@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Electrical Estimator",
+      "company": "Accenture",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Loenbro",
+      "start": "1/2025",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Intermountain Electric",
+      "start": "5/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Greiner Electric",
+      "start": "7/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Electrical Apprentice/ Journeyman",
+      "company": "Greiner Electric",
+      "start": "9/2015",
+      "end": "1/2020",
+      "current": false
+    }
+  ]
 }

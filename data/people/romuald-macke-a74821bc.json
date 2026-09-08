@@ -28,5 +28,92 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Development and construction France",
+      "company": "CloudHQ",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Consultant",
+      "company": "Freelance",
+      "start": "2/2020",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Chief Technical Officer & Project Management",
+      "company": "ADRIF/BDC1/BDC2",
+      "start": "12/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Chief Technical Officer / Entrepreneur",
+      "company": "Soobaya-IPC.eu",
+      "start": "5/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "UPI and Data centre Services Manager",
+      "company": "Conostix",
+      "start": "11/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Data centre UPI Manager",
+      "company": "Dimension Data Luxembourg",
+      "start": "9/2011",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Director Technical Support Services",
+      "company": "NextiraOne Europe",
+      "start": "1/2009",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Presales Manager",
+      "company": "NextiraOne Europe",
+      "start": "1/2003",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "Unisys",
+      "start": "4/2001",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "Dimension Data",
+      "start": "8/1999",
+      "end": "4/2001",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "Decathlon",
+      "start": "9/1997",
+      "end": "7/1999",
+      "current": false
+    },
+    {
+      "raw": "Equinix"
+    }
+  ]
 }

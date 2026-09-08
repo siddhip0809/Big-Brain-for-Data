@@ -28,5 +28,62 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Data Center Construction Cost & Finance",
+      "company": "Vantage",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Construction Cost & Finance",
+      "company": "Vantage",
+      "start": "11/2017",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Cost & Finance Manager, Construction",
+      "company": "Stanford Children's Health",
+      "current": false
+    },
+    {
+      "company": "Lucile Packard Children's Hospital Stanford",
+      "start": "11/2013",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Finance Manager",
+      "company": "Kaiser Permanente",
+      "start": "11/2010",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Business Operations Analyst",
+      "company": "Dignity Health",
+      "start": "11/2007",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Stanford Children's Health",
+      "current": false
+    },
+    {
+      "company": "Lucile Packard Children's Hospital Stanford",
+      "start": "11/2004",
+      "end": "11/2007",
+      "current": false
+    }
+  ]
 }

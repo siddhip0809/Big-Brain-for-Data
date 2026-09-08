@@ -28,5 +28,50 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "EVP of Hyperscale Sales",
+      "company": "QTS Data Centers",
+      "start": "12/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP of Sales & Sales Operations",
+      "company": "Babel Street",
+      "start": "1/2016",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "EdgeConneX",
+      "start": "4/2013",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "Sidera Networks",
+      "start": "1/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "President & Co-Founder",
+      "company": "The Heiden Group",
+      "start": "6/2004",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

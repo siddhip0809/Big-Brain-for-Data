@@ -39,5 +39,89 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Estimator",
+      "company": "Balfour Beatty US",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Balfour Beatty US",
+      "start": "1/2020",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Agate",
+      "start": "6/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Swinerton",
+      "start": "8/2016",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Independent Cost Consultant",
+      "start": "4/2015",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager/Chief Estimator",
+      "company": "RCDS Contractors",
+      "start": "4/2011",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Castle Steel",
+      "start": "7/2010",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Barton Malow",
+      "start": "7/2009",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Sundt Construction",
+      "start": "9/2007",
+      "end": "4/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Perini Building",
+      "start": "8/2005",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator/Senior Project Manager",
+      "company": "Robert E Porter Construction Co",
+      "start": "4/1998",
+      "end": "5/2005",
+      "current": false
+    }
+  ]
 }

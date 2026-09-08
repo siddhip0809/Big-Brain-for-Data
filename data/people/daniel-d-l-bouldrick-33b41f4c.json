@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Cost Control",
+      "company": "QTS Data Centers",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Construction Project Controls",
+      "company": "Wellstar Health System",
+      "start": "5/2022",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Protiviti",
+      "start": "7/2013",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Purchasing Agent",
+      "company": "Turner Construction",
+      "start": "8/2010",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "2/2008",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Turner Construction",
+      "start": "1/2006",
+      "end": "2/2008",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "Turner Construction",
+      "start": "6/2005",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Assistant Estimator",
+      "company": "Turner Construction",
+      "start": "9/2002",
+      "end": "6/2005",
+      "current": false
+    }
+  ]
 }

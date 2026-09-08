@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. MEP Estimator",
+      "company": "Suffolk Construction",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Kenny Electric",
+      "start": "11/2022",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Vertiv",
+      "start": "3/2021",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Outside Sales",
+      "company": "QED Electric Supply",
+      "start": "3/2020",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Account Representative",
+      "company": "WESCO Distribution",
+      "start": "12/2015",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "District Gear Specialist",
+      "company": "WESCO Distribution",
+      "start": "4/2015",
+      "end": "12/2015",
+      "current": false
+    }
+  ]
 }

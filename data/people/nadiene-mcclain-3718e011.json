@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "Microsoft",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "New South Construction",
+      "start": "8/2018",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Colliers",
+      "start": "8/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Turner Construction",
+      "start": "1/2005",
+      "end": "5/2017",
+      "current": false
+    }
+  ]
 }

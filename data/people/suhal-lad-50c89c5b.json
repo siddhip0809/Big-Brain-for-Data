@@ -50,5 +50,102 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "qts-data-centers"
+  "current_company_id": "qts-data-centers",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Hyperscale Solutions Director Europe",
+      "company": "QTS Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Client Executive - Global Account Management & xScale/Hyperscale Sales",
+      "company": "Equinix",
+      "start": "4/2020",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Client Executive - Global Account Management & Hyperscale Sales",
+      "company": "Equinix",
+      "start": "4/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director - Content, Media and Gaming Sector",
+      "company": "Equinix",
+      "start": "5/2017",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Telefónica",
+      "start": "4/2013",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Account Development Director",
+      "company": "Ark Data Centres",
+      "start": "9/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Account Director - O2 Telefonica",
+      "company": "BT Wholesale",
+      "start": "10/2010",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Business Manager (EA to MD of BT Wholesale Markets)",
+      "company": "BT Wholesale",
+      "start": "9/2009",
+      "end": "10/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager - Global Banking and Financial Services",
+      "company": "BARCLAYS BANK PLC - working at BT Global Services",
+      "start": "7/2008",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager (Corporate Sector)",
+      "company": "BT Group",
+      "start": "6/2006",
+      "end": "6/2008",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Cable & Wireless",
+      "start": "6/2004",
+      "end": "5/2006",
+      "current": false
+    },
+    {
+      "title": "Business Development Executive",
+      "company": "Glaxo",
+      "start": "7/2003",
+      "end": "6/2004",
+      "current": false
+    },
+    {
+      "title": "Marketing Assistant (Industrial Placement)",
+      "company": "IBM",
+      "start": "6/2000",
+      "end": "9/2001",
+      "current": false
+    }
+  ]
 }

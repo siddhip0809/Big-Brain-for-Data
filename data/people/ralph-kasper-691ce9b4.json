@@ -28,5 +28,52 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "GH Phipps Construction Companies",
+      "start": "5/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Project Manager",
+      "company": "GH Phipps Construction Companies",
+      "start": "7/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Adolfson & Peterson Construction",
+      "start": "3/2000",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "company": "Adolfson & Peterson Construction",
+      "start": "3/2000",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "company": "Tamminga Construction",
+      "start": "1993",
+      "end": "2000",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Tamminga Construction",
+      "start": "1993",
+      "end": "2000",
+      "current": false
+    }
+  ]
 }

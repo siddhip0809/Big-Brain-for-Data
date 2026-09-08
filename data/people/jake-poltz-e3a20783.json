@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction Development",
+      "company": "Novva Data Centers",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Construction",
+      "company": "Q Factor",
+      "start": "11/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "Doran Companies",
+      "start": "11/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "R&M General Contractors",
+      "start": "1/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "Tessler Developments",
+      "start": "9/2015",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "Zocalo Community Development",
+      "start": "8/2014",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Haselden Construction",
+      "start": "1/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Erdman Anthony",
+      "start": "2010",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Structural Designer / Drafter",
+      "company": "Hagopian Engineering",
+      "start": "5/2009",
+      "end": "5/2010",
+      "current": false
+    }
+  ]
 }

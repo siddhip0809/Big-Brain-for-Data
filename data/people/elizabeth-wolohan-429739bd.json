@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Energy Procurement",
+      "company": "Tract",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Energy Acquisition",
+      "company": "Washington Gas",
+      "start": "3/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager Energy Acquisition",
+      "company": "Washington Gas",
+      "start": "10/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Manager Energy Planning",
+      "company": "Washington Gas",
+      "start": "5/2021",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Lead Asset Optimization",
+      "company": "Washington Gas",
+      "start": "10/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Business Transition Lead",
+      "company": "UGI Utilities",
+      "start": "4/2017",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Supervisor - Energy Planning & Procurement",
+      "company": "UGI Utilities",
+      "start": "8/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Supervisor - Supply and Transportation",
+      "company": "UGI Utilities",
+      "start": "5/2015",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Engineer, Project Engineer, Project Manager",
+      "company": "UGI Utilities",
+      "start": "6/2013",
+      "end": "5/2015",
+      "current": false
+    }
+  ]
 }

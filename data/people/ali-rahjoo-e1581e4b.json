@@ -28,5 +28,90 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "Clune Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "KADCON",
+      "start": "8/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "GCS",
+      "current": false
+    },
+    {
+      "company": "SIGAL",
+      "start": "12/2019",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "GCS",
+      "current": false
+    },
+    {
+      "company": "SIGAL",
+      "start": "4/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Forrester Construction",
+      "start": "7/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Balfour Beatty US",
+      "start": "10/2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Judlau Contracting",
+      "start": "6/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Research Assistant",
+      "company": "University of Maryland",
+      "start": "1/2015",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Field Supervisor Project Manager",
+      "company": "NVE Mechanical and Construction",
+      "start": "5/2011",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Director of Sales and Marketing",
+      "company": "Dominion Jewelers",
+      "start": "12/2008",
+      "end": "4/2011",
+      "current": false
+    }
+  ]
 }

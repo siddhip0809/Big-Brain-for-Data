@@ -50,5 +50,53 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Site Acquisition Manager",
+      "company": "Microsoft",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "CB Richard Ellis",
+      "start": "10/2019",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Surveyor",
+      "company": "CB Richard Ellis",
+      "start": "12/2015",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Global Corporate Services",
+      "company": "CB Richard Ellis",
+      "start": "8/2013",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Non Core Transactions Unit",
+      "company": "AIB",
+      "start": "6/2012",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Office Administrator",
+      "company": "Vincent Costello And Associates",
+      "start": "9/2009",
+      "end": "4/2010",
+      "current": false
+    }
+  ]
 }

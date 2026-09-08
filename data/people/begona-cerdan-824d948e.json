@@ -39,5 +39,53 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director - Land Acquisitions EMEA",
+      "company": "Microsoft",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Acquisition",
+      "company": "Microsoft",
+      "start": "9/2020",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Cushman & Wakefield",
+      "start": "10/2016",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Cushman & Wakefield",
+      "start": "5/2015",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Assistant Director",
+      "company": "Deloitte",
+      "start": "9/2012",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "GVA Property Consultancy",
+      "start": "1/2003",
+      "end": "9/2012",
+      "current": false
+    }
+  ]
 }

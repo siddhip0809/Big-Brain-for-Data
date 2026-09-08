@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Estimator",
+      "company": "EdgeConneX",
+      "start": "11/2021",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant - Estimator",
+      "company": "Turner & Townsend",
+      "start": "1/2014",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Manager",
+      "company": "D Gray Construction",
+      "start": "10/2009",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Project Executive",
+      "company": "Western Slope Construction / Carville Sierra",
+      "start": "1/2005",
+      "end": "6/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator/ Project Manager",
+      "company": "Devcon Construction",
+      "start": "4/1983",
+      "end": "12/2004",
+      "current": false
+    }
+  ]
 }

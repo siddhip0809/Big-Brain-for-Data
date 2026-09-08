@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr.Engineering Manager. Utility data center",
+      "company": "Aligned Data Centers",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Program Manager (Data Center - Substation - Utility projects)",
+      "company": "ComEd",
+      "start": "4/2019",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Engineering Project Manager (Contractor) ",
+      "company": "IntrepidGS",
+      "start": "1/2019",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Sr, Program Engineering Leader (Substation - Power Generation)",
+      "company": "GE Renewable Energy",
+      "start": "3/2011",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Engineering Commissioning and Maintenance Manager (Oil and Gas)",
+      "company": "Exterran",
+      "start": "5/2006",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Sr.Commissioning Engineer (Power Generation - Substation)",
+      "company": "Aggreko",
+      "start": "5/2004",
+      "end": "5/2006",
+      "current": false
+    },
+    {
+      "title": "Project Manager (Substation)",
+      "company": "US Army Corps of Engineers",
+      "start": "4/2003",
+      "end": "5/2004",
+      "current": false
+    }
+  ]
 }

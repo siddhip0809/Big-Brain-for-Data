@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "Vantage",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Lead",
+      "company": "Stream Data Centers",
+      "start": "8/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "C3M Power Systems",
+      "start": "2020",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Cupertino Electric",
+      "start": "1/2015",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Projects Director",
+      "company": "Herzog Technologies",
+      "start": "2012",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Vp Operations - Powerco Electric",
+      "company": "Tutor-Perini",
+      "start": "2009",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Area Manager",
+      "company": "Henkels & McCoy",
+      "start": "2007",
+      "end": "2009",
+      "current": false
+    },
+    {
+      "title": "Sponsor",
+      "company": "Mass Electric Construction",
+      "start": "1997",
+      "end": "2007",
+      "current": false
+    }
+  ]
 }

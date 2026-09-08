@@ -50,5 +50,71 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "ada-infrastructure"
+  "current_company_id": "ada-infrastructure",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "IDC Business and Asset Development",
+      "company": "Ada Infrastructure",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Independent Consultant",
+      "company": "JLL",
+      "start": "11/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "EMEA Data Centre Advisory",
+      "company": "JLL",
+      "start": "10/2019",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Data Centre Consulting",
+      "company": "Source8",
+      "start": "12/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Head of Data Centre Advisory Group, Asia Pacific",
+      "company": "Cushman & Wakefield",
+      "start": "11/2012",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Acquisitions",
+      "company": "Digital Realty",
+      "start": "6/2008",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Account manager",
+      "company": "CBRE",
+      "start": "12/2007",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Associate Director, EMEA Data Centres Group",
+      "company": "CBRE",
+      "start": "1/2007",
+      "end": "11/2012",
+      "current": false
+    },
+    {
+      "raw": "Ada Infrastructure"
+    }
+  ]
 }

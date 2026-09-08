@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Director - Mission Critical",
+      "company": "McCarthy Building Companies",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Preconstruction (Commercial)",
+      "company": "McCarthy Building Companies",
+      "start": "8/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Director",
+      "company": "McCarthy Building Companies",
+      "start": "10/2019",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "McCarthy Building Companies",
+      "start": "7/2016",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "2/2014",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "10/2013",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "7/2009",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "McCarthy Building Companies",
+      "start": "10/2008",
+      "end": "7/2009",
+      "current": false
+    }
+  ]
 }

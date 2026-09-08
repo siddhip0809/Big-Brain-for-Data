@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Director",
+      "company": "Holder Construction",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Holder Construction",
+      "start": "4/2018",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Holder Construction",
+      "start": "3/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "1/2013",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "6/2010",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Engineer - Intern",
+      "company": "Holder Manhattan Moody Hunt JV",
+      "start": "5/2009",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Office Engineer - Intern",
+      "company": "Holder Construction",
+      "start": "5/2008",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "M.E. Rinker School of Building Construction",
+      "company": "University of Florida",
+      "start": "8/2005",
+      "end": "7/2010",
+      "current": false
+    }
+  ]
 }

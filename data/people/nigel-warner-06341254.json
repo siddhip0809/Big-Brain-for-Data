@@ -50,5 +50,95 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "digital-realty"
+  "current_company_id": "digital-realty",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Sales Director Global Account",
+      "company": "Digital Realty",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Colt Data Centre Services",
+      "start": "11/2016",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President of Sales EMEA",
+      "company": "Perseus",
+      "start": "2/2016",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Account Director Financial Services",
+      "company": "Dimension Data UKI",
+      "start": "1/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Managing Director UK, Ireland & Channel Islands",
+      "company": "Etrali Trading Solutions",
+      "start": "6/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Global Account Director",
+      "company": "IPC Systems",
+      "start": "9/2007",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Cisco Systems",
+      "start": "8/2005",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Colt Data Centre Services",
+      "start": "11/1999",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "BT Group",
+      "start": "1/1997",
+      "end": "10/1999",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Cable & Wireless Communications",
+      "start": "8/1995",
+      "end": "12/1996",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Pitney Bowes",
+      "start": "6/1994",
+      "end": "6/1995",
+      "current": false
+    },
+    {
+      "title": "New Business, Senior Account Manager and Premier Account Manager",
+      "company": "Pitney Bowes",
+      "start": "1/1990",
+      "end": "6/1994",
+      "current": false
+    }
+  ]
 }

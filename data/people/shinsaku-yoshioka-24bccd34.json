@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP, Revenue & Product",
+      "company": "Ada Infrastructure",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior ManagerｌData Center Sales",
+      "company": "Ada Infrastructure",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales & Marketing Manager",
+      "company": "GLP",
+      "start": "4/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Asset Manager",
+      "company": "Macquarie Group",
+      "start": "7/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Asset manager",
+      "company": "Macquarie Group",
+      "start": "11/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Kasumigaseki Capital Co",
+      "start": "2/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Manager",
+      "company": "FBIT Communications",
+      "start": "6/2013",
+      "end": "1/2017",
+      "current": false
+    }
+  ]
 }

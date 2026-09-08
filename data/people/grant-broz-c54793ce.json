@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Ryan Companies US",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "1/2024",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Currie & Brown",
+      "start": "8/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Currie & Brown",
+      "start": "3/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "HVAC Estimator",
+      "company": "Metro Heating & Cooling",
+      "start": "4/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Home Mortgage Consultant",
+      "company": "Wells Fargo Home Mortgage",
+      "start": "6/2013",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "MEP Apprentice",
+      "company": "Bethel University",
+      "start": "5/2009",
+      "end": "5/2013",
+      "current": false
+    }
+  ]
 }

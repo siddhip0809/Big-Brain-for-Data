@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Chief Information Officer",
+      "company": "EdgeConneX",
+      "start": "5/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Project Development",
+      "company": "Bradbury Group",
+      "start": "5/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cloud Solutions Architect",
+      "company": "EdgeConneX",
+      "start": "3/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Cloud Security Specialist",
+      "company": "Telstra",
+      "start": "2/2012",
+      "end": "8/2015",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "CoreSite",
+      "start": "7/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Crown Castle",
+      "start": "7/2018",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Zayo",
+      "start": "1/2016",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Alliance Director Data Center & Cloud Eco System",
+      "company": "Global Crossing",
+      "start": "5/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Sr. National Account Manager",
+      "company": "Zayo",
+      "start": "3/2007",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Anaheim Ducks",
+      "start": "12/2004",
+      "end": "3/2007",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Anaheim Ducks",
+      "start": "5/1996",
+      "end": "12/2004",
+      "current": false
+    }
+  ]
 }

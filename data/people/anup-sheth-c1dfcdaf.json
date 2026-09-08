@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Principal",
+      "company": "TBD Consultants",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Cost Consultant",
+      "company": "TBD Consultants",
+      "start": "1/2019",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant/Cost Manager/Estimator",
+      "company": "Linesight",
+      "start": "11/2017",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Cost Manager/Quantity Surveyor/Estimator ",
+      "company": "Construction Santé Montréal",
+      "start": "5/2015",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "MEP Design Manager",
+      "company": "Construction Santé Montréal",
+      "start": "9/2014",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "MEP Estimator",
+      "company": "Construction Santé Montréal",
+      "start": "3/2014",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Private Tutor",
+      "company": "Entrepreneur",
+      "start": "12/2012",
+      "end": "4/2014",
+      "current": false
+    }
+  ]
 }

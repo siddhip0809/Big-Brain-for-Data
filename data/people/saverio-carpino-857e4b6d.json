@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Pre-Development Project Manager, EMEA",
+      "company": "QTS Data Centers",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager, New Site Development, EMEA",
+      "company": "Vantage",
+      "start": "1/2025",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Business Analyst - Development & Acquisitions",
+      "company": "Panattoni",
+      "start": "4/2022",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Analyst Fund Management",
+      "company": "Kryalos SGR",
+      "start": "4/2022",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Analyst Fund Management",
+      "company": "Kryalos SGR",
+      "start": "1/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Junior Asset Manager",
+      "company": "Aew",
+      "start": "12/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Junior Negotiator",
+      "company": "CB Richard Ellis",
+      "start": "7/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Real Estate Analyst Intern",
+      "company": "Innovation First",
+      "start": "3/2017",
+      "end": "7/2017",
+      "current": false
+    }
+  ]
 }

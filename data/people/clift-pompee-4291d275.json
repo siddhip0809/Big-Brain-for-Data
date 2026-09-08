@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Power & Emissions",
+      "company": "Compass Datacenters",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director Resource Planning & Modeling",
+      "company": "Duke Energy",
+      "start": "3/2024",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Duke Energy",
+      "start": "6/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Product Manager",
+      "company": "Duke Energy",
+      "start": "7/2018",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Manager Information & Analytics",
+      "company": "Duke Energy",
+      "start": "6/2015",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Duke Energy",
+      "start": "6/2014",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Scheduling Supervisor",
+      "company": "Duke Energy",
+      "start": "11/2011",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Nuclear Oversight Assessor",
+      "company": "Duke Energy",
+      "start": "6/2008",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Maintenance Supervisor",
+      "company": "NextEra Energy Resources",
+      "start": "3/2006",
+      "end": "6/2008",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "NextEra Energy Resources",
+      "start": "8/2001",
+      "end": "3/2006",
+      "current": false
+    }
+  ]
 }

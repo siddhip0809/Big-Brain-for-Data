@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, Construction",
+      "company": "Lucid Motors",
+      "start": "5/2025",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Technical Projects, Senior Program Manager (Construction)",
+      "company": "Lucid Motors",
+      "start": "5/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Technical Projects, Senior Program Manager (Construction)",
+      "company": "Lucid Motors",
+      "start": "3/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Technical Project Program Manager",
+      "company": "Lucid Motors",
+      "start": "5/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Revolution Industrial",
+      "start": "4/2021",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Revolution Industrial",
+      "start": "3/2020",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Revolution Industrial",
+      "start": "2/2020",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Gerald Desmond Bridge (Subcontract Structural Steel Project Manager)",
+      "company": "Stinger Bridge & Iron",
+      "start": "6/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Moffett Drive Bridge Construction ( Steel Fabrication Project Manager )",
+      "company": "Stinger Bridge & Iron",
+      "start": "6/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Operations Manager",
+      "company": "Corrosion Engineering",
+      "start": "6/2012",
+      "end": "6/2018",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "crusoe"
+  "current_company_id": "crusoe",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Cost Controls",
+      "company": "Crusoe",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Program Manager Cost and Commercial Controls",
+      "company": "Google",
+      "start": "2/2019",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Cost Manager",
+      "company": "Meta",
+      "start": "11/2015",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "SunPower",
+      "start": "1/2013",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator",
+      "company": "Recurrent Energy",
+      "start": "10/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Construction Cost Estimator (CSA)",
+      "company": "Jacobs",
+      "start": "9/2008",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Graduate Teaching Assistant",
+      "company": "Texas A&M University",
+      "start": "8/2007",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Assistant Estimator",
+      "company": "Weston Solutions",
+      "start": "5/2007",
+      "end": "8/2007",
+      "current": false
+    }
+  ]
 }

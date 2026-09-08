@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Leasing",
+      "company": "Sabey Data Centers",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "Element Critical",
+      "start": "11/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Evocative",
+      "start": "1/2020",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "VP, Sales & Business Development",
+      "company": "Fortress Data Centers",
+      "start": "4/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Founding Member - Sales Director",
+      "company": "Evocative",
+      "start": "6/2015",
+      "end": "4/2018",
+      "current": false
+    }
+  ]
 }

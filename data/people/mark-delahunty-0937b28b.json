@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "bgo"
+  "current_company_id": "bgo",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Account Director",
+      "company": "BGO",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Business Program Manager - Site Acquisition & Lease, EMEA Region.",
+      "company": "Microsoft",
+      "start": "3/2020",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Ethos Engineering",
+      "start": "4/2014",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Electrical Supervisor",
+      "company": "Dornan",
+      "start": "8/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "Platinum Electrical Services",
+      "start": "4/2010",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Elec supervisor",
+      "company": "Mercury Engineering",
+      "start": "2000",
+      "end": "2010",
+      "current": false
+    }
+  ]
 }

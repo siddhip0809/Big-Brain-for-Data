@@ -39,5 +39,95 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "vantage"
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Manager, Preconstruction, North America",
+      "company": "Vantage",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager, North America",
+      "company": "Vantage",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Owner",
+      "company": "PyraMOD Development & Consulting",
+      "start": "6/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Executive / Chief Estimator",
+      "company": "KATERRA",
+      "start": "9/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Estimating Manager / Preconstruction Manager",
+      "company": "KATERRA",
+      "start": "8/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "KATERRA",
+      "start": "7/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Southern Land",
+      "start": "9/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Whiting-Turner Contracting",
+      "start": "6/2015",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Field Engineer / Assistant Superintendent",
+      "company": "Southern Land",
+      "start": "6/2012",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Field Engineer/Office Engineer",
+      "company": "American Civil Constructors",
+      "start": "5/2012",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Programming / Energy Audit / Quality Assurance",
+      "company": "concept3D",
+      "start": "4/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Field Engineer/ Project Engineer",
+      "company": "Morris-Day",
+      "start": "5/2010",
+      "end": "8/2010",
+      "current": false
+    }
+  ]
 }

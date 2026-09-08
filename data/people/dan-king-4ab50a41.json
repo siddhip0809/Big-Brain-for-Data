@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Customer Construction",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Construction Manager, Customer Construction",
+      "company": "Vantage",
+      "start": "5/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Cambridge CM",
+      "start": "8/2016",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Worldreader",
+      "start": "9/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer (HVAC)",
+      "company": "ACCO Engineered Systems",
+      "start": "5/2009",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Engineer Intern",
+      "company": "All Electric Co",
+      "start": "6/2006",
+      "end": "9/2006",
+      "current": false
+    }
+  ]
 }

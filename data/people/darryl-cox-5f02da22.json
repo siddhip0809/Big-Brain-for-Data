@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Enterprise Sales",
+      "company": "QTS Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President, Sales - West Region",
+      "company": "QTS Data Centers",
+      "start": "12/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Enterprise Sales",
+      "company": "QTS Data Centers",
+      "start": "2/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "e^Deltacom",
+      "start": "3/2000",
+      "end": "3/2005",
+      "current": false
+    },
+    {
+      "title": "Network Administrator",
+      "company": "Echosoft",
+      "start": "9/1999",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "NOC Engineer",
+      "company": "Web.com",
+      "start": "2/1999",
+      "end": "9/1999",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategy and Development Manager",
+      "company": "Google",
+      "start": "2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Analyst",
+      "company": "NYSE",
+      "start": "2011",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Citi",
+      "start": "2010",
+      "end": "2011",
+      "current": false
+    }
+  ]
 }

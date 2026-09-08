@@ -39,5 +39,82 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Real Estate Corporate Development, EMEA",
+      "company": "Equinix",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Development Officer",
+      "company": "DATA4",
+      "start": "2/2022",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Infrastructure",
+      "company": "Brookfield Asset Management",
+      "start": "7/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "SilverEdge Data Centres",
+      "start": "6/2018",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Aegis Data Centres",
+      "start": "5/2015",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Chief Operating Officer",
+      "company": "DIGIPLEX",
+      "start": "1/2013",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Managing Director, UK",
+      "company": "Digital Realty",
+      "start": "12/2007",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Sentrum",
+      "start": "4/2004",
+      "end": "11/2007",
+      "current": false
+    },
+    {
+      "title": "Director and Head of Technical Real Estate",
+      "company": "Lambert Smith Hampton",
+      "start": "1/2002",
+      "end": "12/2003",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "Telehouse International",
+      "start": "1/1996",
+      "end": "12/1998",
+      "current": false
+    }
+  ]
 }

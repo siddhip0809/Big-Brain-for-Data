@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager, Construction",
+      "company": "Digital Realty",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Westlake Consulting Group",
+      "start": "1/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "12/2020",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "HITT Contracting",
+      "start": "1/2018",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "HITT Contracting",
+      "start": "1/2016",
+      "end": "1/2018",
+      "current": false
+    }
+  ]
 }

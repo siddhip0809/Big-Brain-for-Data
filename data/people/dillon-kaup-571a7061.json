@@ -39,5 +39,89 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "vantage"
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Vantage",
+      "start": "8/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Estimator",
+      "company": "OCMI",
+      "start": "12/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming Group",
+      "start": "3/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Manager - Mechanical",
+      "company": "Cumming Group",
+      "start": "9/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "HGA Architects and Engineers",
+      "start": "5/2021",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Mechanical Staff",
+      "company": "HGA Architects and Engineers",
+      "start": "7/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Mechanical Staff",
+      "company": "HGA Architects and Engineers",
+      "start": "5/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "PBBS Equipment",
+      "start": "6/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineering Co-op",
+      "company": "HGA Architects and Engineers",
+      "start": "5/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Inventory Assistant",
+      "company": "University of Minnesota",
+      "start": "9/2013",
+      "end": "5/2014",
+      "current": false
+    }
+  ]
 }

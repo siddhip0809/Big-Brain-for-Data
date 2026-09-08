@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President of Sales",
+      "company": "TERRANOVA",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Sales, Hyperscale, Cloud and Global Enterprise",
+      "company": "Vantage",
+      "start": "3/2021",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Director of Client Strategy",
+      "company": "Lumen Technologies",
+      "start": "5/2018",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Global Crossing",
+      "start": "9/2009",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Dimension Data Luxembourg",
+      "start": "1/2008",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Equant",
+      "start": "1/2005",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "General Manager",
+      "company": "Cogeco Peer 1",
+      "start": "1/2003",
+      "end": "1/2005",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Skanska",
+      "start": "9/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "The Weitz Company",
+      "start": "5/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator II",
+      "company": "ISEC",
+      "start": "12/2021",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "ISEC",
+      "start": "9/2020",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Glenn Rieder",
+      "start": "6/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager/ Estimator",
+      "company": "The Kitchen Shop",
+      "start": "6/2004",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Maintenance Technician",
+      "company": "Middlemore Hospital",
+      "start": "5/2001",
+      "end": "5/2003",
+      "current": false
+    }
+  ]
 }

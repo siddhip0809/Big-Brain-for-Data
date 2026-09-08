@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Real Estate, Strategy & Transactions   Emea",
+      "company": "Google",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Advisory & Transactions   Dedicated Accounts",
+      "company": "CB Richard Ellis",
+      "start": "5/2008",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Strutt & Parker",
+      "start": "1987",
+      "end": "2007",
+      "current": false
+    }
+  ]
 }

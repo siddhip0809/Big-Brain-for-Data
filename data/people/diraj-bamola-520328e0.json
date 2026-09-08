@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Global Design & Construction",
+      "company": "Equinix",
+      "start": "2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "BlackRock",
+      "start": "8/2009",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Barclays Capital",
+      "start": "2000",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "DSCO Consulting Engineers",
+      "start": "1995",
+      "end": "2000",
+      "current": false
+    }
+  ]
 }

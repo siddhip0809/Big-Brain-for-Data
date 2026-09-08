@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Construction",
+      "company": "Aligned Data Centers",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Construction",
+      "company": "CloudHQ",
+      "start": "1/2021",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Director Of Construction",
+      "company": "CloudHQ",
+      "start": "9/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Project Executive",
+      "company": "Southland Industries",
+      "start": "7/2000",
+      "end": "9/2018",
+      "current": false
+    }
+  ]
 }

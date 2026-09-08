@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director - Pre-Development",
+      "company": "QTS Data Centers",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Consulting Director",
+      "company": "ERM Environmental Resources Management",
+      "start": "4/2010",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Keramida",
+      "start": "10/2005",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Handex of Ohio",
+      "start": "1/2000",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Atc Group Services",
+      "start": "9/1993",
+      "end": "3/2000",
+      "current": false
+    }
+  ]
 }

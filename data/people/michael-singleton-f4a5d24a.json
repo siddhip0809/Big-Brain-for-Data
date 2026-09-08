@@ -50,5 +50,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "cyrusone"
+  "current_company_id": "cyrusone",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Account Director",
+      "company": "CyrusOne",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - EMEA Data Centres",
+      "company": "JLL",
+      "start": "11/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Manager - Cloud Operations & Innovation (Secondment)",
+      "company": "Microsoft",
+      "start": "3/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Associate - EMEA Data Centres",
+      "company": "JLL",
+      "start": "10/2020",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor - Corporate Solutions",
+      "company": "JLL",
+      "start": "11/2018",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Surveyor - Valuation Advisory",
+      "company": "JLL",
+      "start": "5/2018",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "JLL",
+      "start": "9/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Operations Assistant",
+      "company": "Alpine Infusion",
+      "start": "12/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "JLL",
+      "start": "9/2014",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Rural Solutions",
+      "start": "9/2013",
+      "end": "9/2013",
+      "current": false
+    }
+  ]
 }

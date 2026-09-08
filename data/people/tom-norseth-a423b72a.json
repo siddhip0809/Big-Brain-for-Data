@@ -28,5 +28,127 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director, Nordics",
+      "company": "Vaultica Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Sales Director, Nordics, Enterprise Colo"
+    },
+    {
+      "title": "STACK EMEA",
+      "company": "STACK EMEA",
+      "start": "3/2022",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "DigiPlex Norway AS",
+      "start": "6/2017",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Tieto Norway AS",
+      "start": "6/2013",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Manager",
+      "company": "Nets Norway AS",
+      "start": "5/2011",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Capgemini",
+      "start": "11/2006",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Prosjektdirektør",
+      "company": "ErgoGroup",
+      "start": "10/2002",
+      "end": "11/2006",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "ErgoGroup",
+      "start": "10/2002",
+      "end": "11/2006",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Avenir",
+      "start": "1/1992",
+      "end": "10/2002",
+      "current": false
+    },
+    {
+      "title": "Prosjektdirektør",
+      "company": "Avenir",
+      "start": "1/1992",
+      "end": "10/2002",
+      "current": false
+    },
+    {
+      "title": "Product Manager/marketer",
+      "company": "Kreditkassen",
+      "start": "3/1990",
+      "end": "1/1992",
+      "current": false
+    },
+    {
+      "title": "Produktsjef",
+      "company": "Kreditkassen",
+      "start": "3/1990",
+      "end": "1/1992",
+      "current": false
+    },
+    {
+      "title": "Managing consultant/Project manager",
+      "company": "Bankenes Betalingssentral AS",
+      "start": "3/1985",
+      "end": "3/1990",
+      "current": false
+    },
+    {
+      "title": "Sjefskonsulent",
+      "company": "Bankenes Betalingssentral AS",
+      "start": "3/1985",
+      "end": "3/1990",
+      "current": false
+    },
+    {
+      "title": "Systemkonsulent",
+      "company": "Norwegian Broadcasting",
+      "start": "8/1982",
+      "end": "3/1985",
+      "current": false
+    },
+    {
+      "title": "System Consultant",
+      "company": "Norwegian Broadcasting",
+      "start": "8/1982",
+      "end": "3/1985",
+      "current": false
+    }
+  ]
 }

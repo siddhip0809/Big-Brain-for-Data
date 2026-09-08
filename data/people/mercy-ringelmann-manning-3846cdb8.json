@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP, Global AI & Hyperscale Strategy",
+      "company": "Aligned Data Centers",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Member-at-Large, Board of Directors",
+      "company": "Toptana Technologies",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "SVP of Hyperscale Sales & Sustainability Strategy",
+      "company": "Aligned Data Centers",
+      "start": "6/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Revenue Leader",
+      "company": "Vigilent",
+      "start": "7/2012",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Advisor",
+      "company": "VORA",
+      "start": "5/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Director of Sales, US",
+      "company": "Adura Technologies",
+      "start": "7/2009",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Director of Business Development",
+      "company": "DiVitas Networks",
+      "start": "1/2006",
+      "end": "6/2009",
+      "current": false
+    },
+    {
+      "title": "Director of Economic Development / Board Member",
+      "company": "Urban Solutions",
+      "start": "1/2004",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Director of Business Development ",
+      "company": "Double Day",
+      "start": "1/2004",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Technology Investment Banking",
+      "company": "Deutsche Bank",
+      "start": "1/1999",
+      "end": "12/2002",
+      "current": false
+    }
+  ]
 }

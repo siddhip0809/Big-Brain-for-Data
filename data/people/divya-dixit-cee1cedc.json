@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "meta"
+  "current_company_id": "meta",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction & Planning Lead (Execution Manager) – Data Center Infrastructure",
+      "company": "Meta",
+      "start": "5/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Engineering Management - Senior PM",
+      "company": "Bechtel",
+      "start": "8/2018",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "EPC Account Manager to Imperial Oil",
+      "company": "SNC-Lavalin",
+      "start": "7/2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Portfolio Manager - Capital Projects",
+      "company": "Imperial Oil",
+      "start": "7/2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Engineering Project Manager",
+      "company": "SNC-Lavalin",
+      "start": "3/2015",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Lead Engineer, Project Delivery",
+      "company": "SNC-Lavalin",
+      "start": "7/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Process / Piping Engineer",
+      "company": "SNC-Lavalin",
+      "start": "6/2011",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Environmental Compliance Specialist",
+      "company": "Atomic Energy of Canada Limited",
+      "start": "5/2008",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Procurement Coordinator",
+      "company": "Atomic Energy of Canada Limited",
+      "start": "5/2007",
+      "end": "9/2007",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,46 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Program Manager"
+    },
+    {
+      "title": "Area Cost Lead",
+      "company": "Google",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "5/2021",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "8/2017",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "raw": "Cost Manager"
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Turner & Townsend",
+      "start": "12/2014",
+      "end": "8/2017",
+      "current": false
+    }
+  ]
 }

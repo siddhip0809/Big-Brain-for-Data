@@ -39,5 +39,164 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "colt-data-centre-services"
+  "current_company_id": "colt-data-centre-services",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Global Director",
+      "company": "Colt Data Centre Services",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Director - Sales Strategy and Bids",
+      "company": "Colt Data Centre Services",
+      "start": "2021",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Colt Data Centre Services",
+      "start": "1/2017",
+      "end": "2021",
+      "current": false
+    },
+    {
+      "title": "Senior Global Director – Sales Strategy",
+      "company": "Colt Data Centre Services",
+      "start": "2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Bid Manager (Interim)",
+      "company": "MWR InfoSecurity",
+      "start": "3/2016",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Bid Consultant",
+      "company": "MWR InfoSecurity",
+      "start": "2016",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Head of Bid Operations (Interim)",
+      "company": "Capita",
+      "start": "2/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Interim Head of Bid Operations",
+      "company": "Capita Transformation",
+      "start": "2015",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Bid Consultant",
+      "company": "Volt",
+      "start": "8/2014",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Consultant, Strategic Review",
+      "company": "Volt Europe",
+      "start": "2014",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Bid and Commercial Manager",
+      "company": "Telindus UK - now telent",
+      "start": "1/2013",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Head of Bid & Commercial Management",
+      "company": "Telindus UK",
+      "start": "2013",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Bid Manager",
+      "company": "SAS",
+      "start": "2012",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Bid & Business Solution Manager, PSBU EMEA (Consultant)",
+      "company": "SAS UK",
+      "start": "2012",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Founding Director and CEO",
+      "company": "The Good Urth Company Limited",
+      "start": "9/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Bid Manager",
+      "company": "Serco Group",
+      "start": "7/2009",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Senior Business Development Manager, NHS & Healthcare",
+      "company": "Serco",
+      "start": "2009",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Senior Business Development Manager",
+      "company": "Atos",
+      "start": "2/2007",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "bid manager",
+      "company": "xansa",
+      "start": "1/2006",
+      "end": "2/2007",
+      "current": false
+    },
+    {
+      "title": "Team Leader",
+      "company": "xansa",
+      "start": "6/2002",
+      "end": "7/2004",
+      "current": false
+    },
+    {
+      "title": "Various roles",
+      "company": "Xansa / Steria",
+      "start": "1999",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Business Development / Sales / Bid Management / BPM roles",
+      "company": "Atos Origin UK",
+      "current": false
+    }
+  ]
 }

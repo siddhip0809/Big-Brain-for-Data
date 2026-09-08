@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Asset Management ",
+      "company": "Digital Realty",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Manager - Asia Pacific",
+      "company": "Global Switch",
+      "start": "5/2020",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Investment Committee",
+      "company": "Grandway Capital Limited",
+      "start": "6/2019",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Asset Manager",
+      "company": "Pimlico Capital",
+      "start": "12/2016",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Asset Manager",
+      "company": "Longbow Enterprises",
+      "start": "6/2014",
+      "end": "8/2016",
+      "current": false
+    }
+  ]
 }

@@ -70,17 +70,35 @@ Every node also carries these common fields, regardless of type:
   set when that employer is itself tracked as a company node** (e.g. a
   classified data-center operator/developer/hyperscaler); `null` otherwise
   even though `current_company` still names them
-- `department` — which functional branch this person belongs to for the
-  purposes of the graph (currently `"Sales"` or `"Development"`); derived
-  from which recruiting search sourced them, not independently verified
-  per person
-- `past_companies` — list of company ids or names
-- `location`
-- `linkedin`
-- `email` / `phone` — if known and appropriate to store
-- `expertise_tags` — e.g. "power engineering," "site selection," "M&A"
-- `clockwork_id` — cross-reference to the Clockwork CRM record, if pulled
-  from there
+- `department` — the Ward Search lens: which Long Term Mapping list or
+  search sourced them (`Sales`, `Pre-Construction`, `Development`,
+  `Construction`, `Energy & Utilities`). Not the company's own org.
+- `function` — the **company department their current title belongs to**,
+  derived 2026-09-08 from title keywords: `Executive leadership`,
+  `Development & Real Estate`, `Sales & Leasing`, `Pre-Construction & Cost`,
+  `Construction & Delivery`, `Energy & Utilities`, `Design & Engineering`,
+  `Strategy, Finance & Investment`, `Operations & Facilities`,
+  `Procurement & Supply Chain`, `Legal, People & Support`, or
+  `Unclassified`. `function_source` says whether it came from the `title`
+  or fell back to the `mapping list` (generic titles like "Director").
+  This is what the atlas org chart groups by.
+- `seniority` — Clockwork's own level where it had one (`CXO`, `Senior
+  Vice President`, `Vice President`, `Director`, `Manager`, `Associate`);
+  `seniority_rank` (0 = C-suite/founder … 5 = individual contributor) and
+  `seniority_label` are always filled, from Clockwork's value when present
+  and otherwise from the title (`seniority_source: "derived from title"`).
+  "Most senior" in the org chart means most senior *among the people we
+  have mapped*, not necessarily the real head of that department.
+- `career_history` — the raw Clockwork string ("Title at Company, 1/2020
+  to present; …"); `career` is the same parsed into a list of
+  `{title, company, start, end, current}` entries (a fragment that could
+  not be parsed is kept as `{raw}`). Past employers in the org chart come
+  from the non-current entries.
+- `location`, `linkedin`
+- `do_not_contact`, `pipeline` (search/stage/rank/date per Clockwork
+  candidacy), `industry_segment`
+- **Never stored:** email, phone, or compensation — those stay in
+  Clockwork only.
 
 ### `investor` (in `data/investors/`)
 - `investor_type` — e.g. "private equity," "venture capital,"

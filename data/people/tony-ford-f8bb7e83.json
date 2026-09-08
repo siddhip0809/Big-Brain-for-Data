@@ -39,5 +39,19 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "verne"
+  "current_company_id": "verne",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Verne at Verne",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

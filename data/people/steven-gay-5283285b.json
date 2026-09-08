@@ -39,5 +39,60 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "EMEA Region Lead - Land Acquisition",
+      "company": "Microsoft",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sub-Regional Land Acquisition Lead - North Europe",
+      "company": "Microsoft",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Land Acquisition Manager",
+      "company": "Microsoft",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Partner",
+      "company": "Ryden",
+      "start": "5/2007",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Ryden",
+      "start": "1/2002",
+      "end": "5/2007",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Gooch Webster",
+      "start": "9/1996",
+      "end": "2/2002",
+      "current": false
+    },
+    {
+      "title": "Surveyor",
+      "company": "James Barr",
+      "start": "9/1993",
+      "end": "8/1996",
+      "current": false
+    }
+  ]
 }

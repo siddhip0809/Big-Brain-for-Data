@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Business Unit - Mechanical and Electrical Preconstruction Lead",
+      "company": "Fortis Construction",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Preconstruction Manager - Data Center Business Unit",
+      "company": "Fortis Construction",
+      "start": "12/2015",
+      "end": "12/2025",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Development",
+      "company": "QTS Data Centers",
+      "start": "11/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "James G Davis Construction",
+      "start": "2015",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Project Executive / Construction Program Manager",
+      "company": "NTVI",
+      "start": "2011",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Construction Program Manager",
+      "company": "MANAGEMENT ADVISORY GROUP",
+      "start": "2010",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manger",
+      "company": "GRUNLEY CONSTRUCTION",
+      "start": "2008",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator / Pre-Construction Manager",
+      "company": "MWH Constructors",
+      "start": "2005",
+      "end": "2008",
+      "current": false
+    },
+    {
+      "title": "Program Manager, Sr. Project Manager, Project Manager and Assistant Project Manager",
+      "company": "PREVIOUS EXPERIENCE",
+      "start": "2000",
+      "end": "2005",
+      "current": false
+    }
+  ]
 }

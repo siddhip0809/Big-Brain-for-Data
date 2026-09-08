@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Rosedin",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Rosendin Electric",
+      "start": "10/2018",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Power Solutions",
+      "start": "9/2007",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Counter Sales",
+      "company": "Dominion Electric Supply Company",
+      "start": "9/2002",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Warehouse Stock/Pack",
+      "company": "Dominion Electric Supply Company",
+      "start": "1/2000",
+      "end": "9/2002",
+      "current": false
+    }
+  ]
 }

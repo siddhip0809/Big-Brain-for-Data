@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Utilities Manager (Data Centers) - EMEA",
+      "company": "Yondr",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Barhale",
+      "start": "4/2018",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "SSE plc",
+      "start": "10/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "ABB Impell",
+      "start": "5/2013",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Civil/Structural Engineer",
+      "company": "CG Power Solutions UK",
+      "start": "1/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Civil Consulting Engineer",
+      "company": "Esb International",
+      "start": "9/2007",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Civil Consulting Engineer",
+      "company": "Englis - Civil Consulting Engineers",
+      "start": "11/2004",
+      "end": "8/2007",
+      "current": false
+    }
+  ]
 }

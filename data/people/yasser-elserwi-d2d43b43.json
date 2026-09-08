@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Project Manager",
+      "company": "Digital Realty",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Development Manager",
+      "company": "Turner Construction",
+      "start": "1/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Project Delivery Manager",
+      "company": "Kitchell",
+      "start": "3/2017",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "EHAF Consulting Engineers",
+      "start": "4/2014",
+      "end": "11/2016",
+      "current": false
+    }
+  ]
 }

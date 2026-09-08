@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP of Hyperscale Solutions",
+      "company": "DataBank",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP of Product & Solutions Engineering",
+      "company": "DataBank",
+      "start": "7/2016",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Sales Engineering",
+      "company": "DataBank",
+      "start": "3/2013",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "WHIPTAIL",
+      "start": "7/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Sr. Sales Engineer",
+      "company": "ViaWest",
+      "start": "8/2010",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Director of Cloud Services",
+      "company": "Pinnacle Business Systems",
+      "start": "10/2006",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Network Architect",
+      "company": "Long Term Care Authority",
+      "start": "5/2000",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Technical Architect",
+      "company": "Sprint",
+      "start": "5/1999",
+      "end": "5/2000",
+      "current": false
+    },
+    {
+      "title": "Lead Project Consultant - AT&T",
+      "company": "Comsys",
+      "start": "1/1997",
+      "end": "3/1999",
+      "current": false
+    }
+  ]
 }

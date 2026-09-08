@@ -50,5 +50,69 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "vantage"
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, construction cost & finance",
+      "company": "Vantage",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager - Construction Cost Controls",
+      "company": "Vantage",
+      "start": "1/2020",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Cost Control Manager",
+      "company": "Vantage",
+      "start": "3/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Stanford Health Care",
+      "start": "1/2018",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Finance Specialist",
+      "company": "Stanford Children's Health",
+      "current": false
+    },
+    {
+      "company": "Lucile Packard Children's Hospital Stanford",
+      "start": "8/2015",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Finance Analyst",
+      "company": "Stanford Children's Health",
+      "current": false
+    },
+    {
+      "company": "Lucile Packard Children's Hospital Stanford",
+      "start": "6/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Data Aide",
+      "company": "Stanford Hospital and Clinics - Planning Design and Construction at Accountemps",
+      "start": "5/2013",
+      "end": "6/2014",
+      "current": false
+    }
+  ]
 }

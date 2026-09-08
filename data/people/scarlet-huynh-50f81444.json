@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Estimator",
+      "company": "Microsoft",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior CSA Estimator",
+      "company": "Faithful+Gould",
+      "start": "10/2018",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Arcadis",
+      "start": "1/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Shimizu",
+      "start": "7/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Shimizu",
+      "start": "10/2011",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Co-Founder",
+      "company": "VAC Language School",
+      "start": "1/2009",
+      "end": "6/2011",
+      "current": false
+    }
+  ]
 }

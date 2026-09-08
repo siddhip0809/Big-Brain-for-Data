@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal PM, AGC Data Center Construction",
+      "company": "Microsoft",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Program Manager",
+      "company": "Microsoft",
+      "start": "2/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Manager",
+      "company": "Deloitte",
+      "start": "3/2019",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Lead Technical Specialist",
+      "company": "Booz Allen Hamilton",
+      "start": "1/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Lead Strategist",
+      "company": "C2",
+      "start": "1/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Lead Associate / Program Manager",
+      "company": "Booz Allen Hamilton",
+      "start": "7/2009",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Clark Construction Group",
+      "start": "7/2007",
+      "end": "7/2009",
+      "current": false
+    },
+    {
+      "title": "Operations Officer",
+      "company": "United States Marine Corps",
+      "start": "1/2001",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Staff Assistant / Legislative Correspondent",
+      "company": "United States Senate",
+      "start": "2/1999",
+      "end": "1/2001",
+      "current": false
+    }
+  ]
 }

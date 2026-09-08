@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Renewable Energy Asset Manager",
+      "company": "Microsoft",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Procurement Program Manager II",
+      "company": "Meta",
+      "start": "1/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Source to Pay Analyst",
+      "company": "Twitter",
+      "start": "9/2020",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Procurement Branch Planner",
+      "company": "thyssenkrupp",
+      "start": "9/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Procurement Coordinator - Denali Sourcing Services",
+      "company": "Meta",
+      "start": "3/2018",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Procurement Analyst - Denali Sourcing Services",
+      "company": "Microsoft",
+      "start": "3/2017",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Procurement Analyst - Denali Sourcing Services",
+      "company": "PG&E",
+      "start": "3/2015",
+      "end": "3/2017",
+      "current": false
+    }
+  ]
 }

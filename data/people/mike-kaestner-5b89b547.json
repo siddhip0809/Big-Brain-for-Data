@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Development Manager",
+      "company": "Meta",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site Development Portfolio Manager",
+      "company": "Meta",
+      "start": "10/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Grants Program Director",
+      "company": "Virginia Tobacco Region Revitalization Commission",
+      "start": "5/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant County Attorney",
+      "company": "County of Henrico",
+      "start": "3/2016",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "County Attorney",
+      "company": "Sussex County Virginia",
+      "start": "3/2015",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Assistant County Attorney",
+      "company": "Sussex County Virginia",
+      "start": "12/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Manager of Legislation & Policy",
+      "company": "Virginia Economic Development Partnership",
+      "start": "7/2007",
+      "end": "8/2011",
+      "current": false
+    }
+  ]
 }

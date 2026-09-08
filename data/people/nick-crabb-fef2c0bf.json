@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior MEP Estimator",
+      "company": "DPR Construction",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Dynalectric Colorado",
+      "start": "3/2019",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Sturgeon Electric Company",
+      "start": "5/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Specialist",
+      "company": "Sturgeon Electric Company",
+      "start": "8/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "BIM Manager",
+      "company": "Sturgeon Electric Company",
+      "start": "11/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "BIM Specialist",
+      "company": "Sturgeon Electric Company",
+      "start": "7/2013",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Electrical BIM 3D Design Specialist, Foreman and Electrician",
+      "company": "Gibson Electric & Technology Solutions",
+      "start": "1/2003",
+      "end": "7/2013",
+      "current": false
+    }
+  ]
 }

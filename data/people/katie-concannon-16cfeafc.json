@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Coordinator",
+      "company": "Brodie Group",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Executive",
+      "company": "Clark Construction Group",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Clark Construction Group",
+      "start": "12/2017",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Clark Construction Group",
+      "start": "2/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "AmeriCorps Member",
+      "company": "Appalachian Forest Heritage Area",
+      "start": "9/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Clark Construction Group",
+      "start": "5/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Clark Construction Group",
+      "start": "3/2011",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Clark Construction Group",
+      "start": "8/2009",
+      "end": "3/2011",
+      "current": false
+    }
+  ]
 }

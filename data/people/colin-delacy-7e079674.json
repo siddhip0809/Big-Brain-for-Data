@@ -28,5 +28,85 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales",
+      "company": "T5 Data Centers",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director- Data Center Solutions Sales",
+      "company": "CBRE",
+      "start": "5/2024",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Business Development Director - Data Center Solutions",
+      "company": "CBRE",
+      "start": "9/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Sales- Data Centers",
+      "company": "Iron Mountian",
+      "start": "1/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive- Data Centers",
+      "company": "Iron Mountian",
+      "start": "4/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Head of Sales- Managed Threat Services (MTS)",
+      "company": "Booz Allen Hamilton",
+      "start": "11/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Director- Managed Threat Services- Western US",
+      "company": "Booz Allen Hamilton",
+      "start": "7/2018",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales- Western Region",
+      "company": "Sungard Availability Services",
+      "start": "7/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales- Premier Accounts",
+      "company": "Sungard Availability Services",
+      "start": "12/2015",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Sales- Premier Accounts",
+      "company": "Sungard Availability Services",
+      "start": "4/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "raw": "T5 Data Centers"
+    }
+  ]
 }

@@ -39,5 +39,82 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Director, Site Selection & Development",
+      "company": "Tract",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Preconstruction",
+      "company": "VGP",
+      "start": "6/2021",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Head of Technical Team - Pre-Construction",
+      "company": "Amazon",
+      "start": "11/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "Amazon",
+      "start": "9/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Head of Project Management",
+      "company": "Lausitzer Stahlbau Ruhland",
+      "start": "8/2011",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Construction Claim expert",
+      "company": "Lausitzer Stahlbau Ruhland",
+      "start": "3/2010",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Lidl Ireland",
+      "start": "10/2006",
+      "end": "2/2010",
+      "current": false
+    },
+    {
+      "title": "Site Manager / Project Manager",
+      "company": "WOLFF & MÜLLER Holding",
+      "start": "10/2002",
+      "end": "9/2006",
+      "current": false
+    },
+    {
+      "title": "Masters thesis / Intern",
+      "company": "Arcadis",
+      "start": "3/2001",
+      "end": "10/2001",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Clune Construction Company L P",
+      "start": "2000",
+      "end": "2000",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief MEPS Estimator",
+      "company": "Hunter Roberts Construction Group",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior MEPS Estimator",
+      "company": "Hunter Roberts Construction Group",
+      "start": "10/2019",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "MEPS Estimator",
+      "company": "Hunter Roberts Construction Group",
+      "start": "9/2017",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant MEPS Estimator",
+      "company": "Hunter Roberts Construction Group",
+      "start": "6/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "Hunter Roberts Construction Group",
+      "start": "6/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Site/Civil and Geotechnical Intern",
+      "company": "AKRF",
+      "start": "5/2014",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Acoustics, Noise, and Vibration Intern",
+      "company": "AKRF",
+      "start": "8/2013",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Packaging and Evaluation Testing Intern",
+      "company": "Avon",
+      "start": "1/2013",
+      "end": "5/2013",
+      "current": false
+    }
+  ]
 }

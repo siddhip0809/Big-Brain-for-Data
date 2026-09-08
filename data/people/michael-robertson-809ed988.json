@@ -39,5 +39,47 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "switch"
+  "current_company_id": "switch",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Switch",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Bergelectric",
+      "start": "7/2022",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "GSL Electric",
+      "start": "3/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "GSL Electric",
+      "start": "11/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "GSL Electric",
+      "start": "7/2017",
+      "end": "11/2018",
+      "current": false
+    }
+  ]
 }

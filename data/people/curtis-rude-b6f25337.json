@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction and Project Controls Senior Manager",
+      "company": "DC BLOX",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Management Regional Lead",
+      "company": "Google",
+      "start": "1/2019",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Project Controls",
+      "company": "Bechtel",
+      "start": "7/2014",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Project Controls Supervisor",
+      "company": "DynCorp International",
+      "start": "11/2011",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "T-Mobile",
+      "start": "10/2011",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Northwest Pipe",
+      "start": "4/2011",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Project Controller",
+      "company": "Pacific Architects and Engineers",
+      "start": "9/2010",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Principal Cost Specialist",
+      "company": "KBR",
+      "start": "1/2007",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst II",
+      "company": "PeaceHealth",
+      "start": "1/2006",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Port of Portland",
+      "start": "1/2005",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Tax Accountant",
+      "company": "Pacific Controller",
+      "start": "1/2003",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Bookkeeper",
+      "company": "Accounting Unlimited",
+      "start": "1/2000",
+      "end": "12/2003",
+      "current": false
+    }
+  ]
 }

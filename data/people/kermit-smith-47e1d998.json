@@ -28,5 +28,106 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "East Area Director - Advanced Technologies & Life Sciences"
+    },
+    {
+      "title": "Data Center Delivery",
+      "company": "Fluor",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Design Engineering and Construction - NA East Area",
+      "company": "Meta",
+      "start": "4/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Global Director Design, Engineering, and Construction - Delivery Center of Excellence",
+      "company": "Meta",
+      "start": "9/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Global Data Center Connectivity, Director Global Field Operations",
+      "company": "Meta",
+      "start": "3/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Manager, Data Center Connectivity - East",
+      "company": "Meta",
+      "start": "1/2018",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Data Center Connectivity Manager",
+      "company": "Meta",
+      "start": "1/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "North America - Central Regional Manager",
+      "company": "IBM",
+      "start": "5/2016",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Site Operations Manager",
+      "company": "IBM",
+      "start": "8/2013",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "North America - Central Regional Director",
+      "company": "IBM",
+      "start": "8/2013",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Engineering and Data Center Reliability Manager",
+      "company": "IBM",
+      "start": "6/2007",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Engineering and Data Center Reliability Manager",
+      "company": "IBM",
+      "start": "6/2007",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Facilities Operations and Maintenance Manager",
+      "company": "IBM",
+      "start": "6/2000",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Facilities Operations and Maintenance Manager",
+      "company": "IBM",
+      "start": "6/2000",
+      "end": "6/2007",
+      "current": false
+    }
+  ]
 }

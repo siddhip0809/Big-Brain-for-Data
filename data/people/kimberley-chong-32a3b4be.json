@@ -28,5 +28,78 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Program Manager, New Energy Markets Development",
+      "company": "Microsoft",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Distribution Planning Policy Advisor",
+      "company": "San Diego Gas & Electric",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regulatory Energy Policy Case Manager",
+      "company": "San Diego Gas & Electric",
+      "start": "9/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "San Diego Gas & Electric",
+      "start": "8/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Integrity Management Engineer",
+      "company": "NW Natural",
+      "start": "6/2016",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Pipeline Engineer",
+      "company": "Arcadis",
+      "start": "8/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "Arcadis",
+      "start": "7/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Fossil and Hydro Power Generation Engineering Intern",
+      "company": "Dominion",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Koon Holdings",
+      "start": "5/2010",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "raw": "Microsoft"
+    }
+  ]
 }

@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Estimating Lead",
+      "company": "Google",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Estimating Lead",
+      "company": "Microsoft",
+      "start": "12/2020",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Director - Concept Estimating",
+      "company": "Walt Disney Imagineering",
+      "start": "5/2016",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Estimating Team Lead - West",
+      "company": "BP",
+      "start": "11/2011",
+      "end": "2/2016",
+      "current": false
+    }
+  ]
 }

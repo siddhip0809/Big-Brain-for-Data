@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "cloudhq"
+  "current_company_id": "cloudhq",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Manager - Preconstruction",
+      "company": "CloudHQ",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager - Preconstruction",
+      "company": "Holder Construction",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Holder Construction",
+      "start": "1/2019",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "2/2017",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "8/2015",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Mashburn Construction",
+      "start": "8/2013",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "SteelFab",
+      "start": "8/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Project Engineer/Manager",
+      "company": "MacConnell & Associates P C",
+      "start": "4/2010",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Stormwater Intern",
+      "company": "Falcon Engineering",
+      "start": "5/2009",
+      "end": "9/2009",
+      "current": false
+    }
+  ]
 }

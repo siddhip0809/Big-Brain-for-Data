@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Infrastructure Acquisition & Strategy",
+      "company": "Nebius",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategy and Investment, Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "11/2025",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Tech Business Development, Colocation & Partner Strategy",
+      "company": "AWS",
+      "start": "12/2023",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "ThinkLP",
+      "start": "9/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Regional Manager, Global Security Operations",
+      "company": "Peloton Interactive",
+      "start": "1/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Asset Protection Leader",
+      "company": "CVS/Caremark",
+      "start": "11/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Asset Protection Executive",
+      "company": "Target",
+      "start": "4/2019",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Manager - Asset Protection",
+      "company": "Gap",
+      "start": "4/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Regional Director of Operations & Growth",
+      "company": "Delivery Dudes",
+      "start": "8/2013",
+      "end": "1/2018",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,32 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Acquisitions",
+      "company": "Colovore",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Acquisitions & Investments",
+      "company": "Digital Realty",
+      "start": "1/2007",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Associate Attorney",
+      "company": "Nixon Peabody",
+      "start": "9/2004",
+      "end": "8/2005",
+      "current": false
+    }
+  ]
 }

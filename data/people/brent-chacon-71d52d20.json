@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Concrete Services",
+      "company": "GH Phipps Construction Companies",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager/BD - Concrete Services",
+      "company": "GH Phipps Construction Companies",
+      "start": "5/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "GH Phipps Construction Companies",
+      "start": "5/2017",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Ceco Concrete Construction",
+      "start": "6/2007",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Ceco Concrete Construction",
+      "start": "2007",
+      "end": "2010",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Real Estate and Site Development",
+      "company": "EdgeConneX",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Real Estate and Site Development",
+      "company": "EdgeConneX",
+      "start": "2/2023",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Director Design and Development",
+      "company": "EdgeConneX",
+      "start": "9/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Head Development and Design, Data Centre",
+      "company": "CapitaLand",
+      "start": "9/2018",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "APJ Design & Implementation Portfolio Lead, Pointnext",
+      "company": "Hewlett Packard Enterprise",
+      "start": "6/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Design Manager",
+      "company": "Equinix",
+      "start": "3/2015",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Data Centre & Critical Environmental Services Head",
+      "company": "APC by Schneider Electric",
+      "start": "1/2009",
+      "end": "5/2014",
+      "current": false
+    }
+  ]
 }

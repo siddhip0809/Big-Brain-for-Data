@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Construction Management",
+      "company": "Aligned Data Centers",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Construction Management",
+      "company": "Aligned Data Centers",
+      "start": "1/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Equinix",
+      "start": "7/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Design Engineer",
+      "company": "Southland Industries",
+      "start": "1/2009",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Central Plant Engineer Intern",
+      "company": "North Carolina State University",
+      "start": "8/2007",
+      "end": "12/2008",
+      "current": false
+    }
+  ]
 }

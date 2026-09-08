@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Braconier Mechanical & Plumbing",
+      "start": "10/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Heating & Plumbing Engineers",
+      "start": "1/2017",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Director of Design - Energy Division",
+      "company": "RK",
+      "start": "10/2013",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "RK",
+      "start": "1/2008",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "RK",
+      "start": "6/2007",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "RK",
+      "start": "6/2005",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Engineer Intern",
+      "company": "Perini Building",
+      "start": "6/2003",
+      "end": "8/2004",
+      "current": false
+    }
+  ]
 }

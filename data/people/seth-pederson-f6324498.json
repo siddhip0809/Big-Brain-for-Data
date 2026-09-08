@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President of Sales",
+      "company": "Vantage",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "Vantage",
+      "start": "10/2018",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President Of Sales",
+      "company": "Cologix",
+      "start": "6/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of North American Wholesale Sales",
+      "company": "Global Crossing",
+      "start": "1/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Vice President/General Manager Enterprise Sales",
+      "company": "Global Crossing",
+      "start": "1/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales, Digital Media and Entertainment",
+      "company": "Global Crossing",
+      "start": "1/2010",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Director",
+      "company": "Global Crossing",
+      "start": "1/1999",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Equant",
+      "start": "1/1998",
+      "end": "1/1999",
+      "current": false
+    },
+    {
+      "title": "Major Account Director",
+      "company": "Worldcom and Metropolitan Fiber Systems",
+      "start": "1/1995",
+      "end": "1/1998",
+      "current": false
+    }
+  ]
 }

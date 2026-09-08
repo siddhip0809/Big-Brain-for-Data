@@ -50,5 +50,46 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "yondr"
+  "current_company_id": "yondr",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Development Director",
+      "company": "Yondr",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager",
+      "company": "Yondr",
+      "start": "1/2020",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Estates Executive",
+      "company": "Three Ireland",
+      "start": "1/2017",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Property Manager",
+      "company": "Vilicom - Vodafone",
+      "start": "1/2013",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Property Manager",
+      "company": "Meteor Mobile Communications",
+      "start": "10/2004",
+      "end": "4/2013",
+      "current": false
+    }
+  ]
 }

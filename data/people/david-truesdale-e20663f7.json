@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Choate Construction",
+      "start": "8/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Project Manager",
+      "company": "Samet",
+      "start": "11/2015",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Rodgers Builders",
+      "start": "7/2008",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "James G Davis Construction",
+      "start": "5/2007",
+      "end": "8/2007",
+      "current": false
+    }
+  ]
 }

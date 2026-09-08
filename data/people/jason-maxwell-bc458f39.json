@@ -39,5 +39,124 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "yondr"
+  "current_company_id": "yondr",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Estimating & Cost Optimization Manager - AMER Region Data Center Construction",
+      "company": "Yondr",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Estimating Manager, AMER Central Data Center Preconstruction",
+      "company": "AWS",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Turner & Townsend",
+      "start": "12/2021",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Faithful+Gould",
+      "start": "1/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Currie & Brown",
+      "start": "1/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Chief Cost Manager",
+      "company": "Faithful+Gould",
+      "start": "3/2016",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Lead Project Controls Manager",
+      "company": "Faithful+Gould",
+      "start": "2/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Lead Cost/Project Manager",
+      "company": "Faithful+Gould",
+      "start": "12/2012",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Lead Retail Cost Manager",
+      "company": "Faithful+Gould",
+      "start": "3/2010",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Lead Cost/Project Controls Manager",
+      "company": "Faithful+Gould",
+      "start": "6/2007",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "5/2006",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Regional Construction Consultant (RCC)",
+      "company": "Turner & Townsend",
+      "start": "10/2005",
+      "end": "5/2006",
+      "current": false
+    },
+    {
+      "title": "Senior Brand Project Manager",
+      "company": "Turner & Townsend",
+      "start": "10/2002",
+      "end": "10/2005",
+      "current": false
+    },
+    {
+      "title": "Retail Cost Manager",
+      "company": "John Rowan and Partners",
+      "start": "3/1998",
+      "end": "3/2000",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Bucknall Austin",
+      "start": "8/1997",
+      "end": "3/1998",
+      "current": false
+    },
+    {
+      "title": "Cost Manager (University Work Placement)",
+      "company": "Thompson Cole",
+      "start": "7/1995",
+      "end": "8/1996",
+      "current": false
+    }
+  ]
 }

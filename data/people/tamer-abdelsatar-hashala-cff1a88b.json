@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Managet - Global design and construction",
+      "company": "Equinix",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr.Construction Manager",
+      "company": "AWS",
+      "start": "11/2020",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Data center construction Manager",
+      "company": "Aditi Consulting",
+      "start": "1/2020",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "MEP project manager",
+      "company": "Advanced Vision",
+      "start": "12/2006",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "MEP Project Manager",
+      "company": "Advanced Vision",
+      "start": "12/2006",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Site Manager",
+      "company": "Alamiah technical corportation - MEP",
+      "start": "11/2003",
+      "end": "12/2006",
+      "current": false
+    }
+  ]
 }

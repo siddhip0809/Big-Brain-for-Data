@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Senior Vice President",
+      "company": "Corscale Data Centers",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Patrinely Group",
+      "start": "1/2022",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "Patrinely Group",
+      "start": "1/2007",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "The Weitz Company",
+      "start": "8/2002",
+      "end": "12/2006",
+      "current": false
+    }
+  ]
 }

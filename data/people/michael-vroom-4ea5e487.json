@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Engineer Leader",
+      "company": "M C Dean",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Cost Manager",
+      "company": "M C Dean",
+      "start": "6/2019",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Engineer",
+      "company": "M C Dean",
+      "start": "9/2014",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Procurement Agent",
+      "company": "M C Dean",
+      "start": "11/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "M C Dean",
+      "start": "12/2007",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Inside Sales/ Rate Specialist",
+      "company": "Sea Star Line",
+      "start": "2005",
+      "end": "2007",
+      "current": false
+    }
+  ]
 }

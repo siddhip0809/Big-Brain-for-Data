@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Strategic Cloud Sales",
+      "company": "DataBank",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales – Northeast ",
+      "company": "DataBank",
+      "start": "1/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "DataBank",
+      "start": "5/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "VP of Sales and General Manager of New Jersey",
+      "company": "Cologix",
+      "start": "11/2015",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Executive Vice President of Sales",
+      "company": "Cologix",
+      "start": "10/2011",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Sales / Marketing Manager",
+      "company": "Cologix",
+      "start": "4/2000",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Engineering and Support Specialist ",
+      "company": "Cologix",
+      "start": "9/1996",
+      "end": "3/2000",
+      "current": false
+    }
+  ]
 }

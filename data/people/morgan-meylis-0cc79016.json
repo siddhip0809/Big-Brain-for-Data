@@ -39,5 +39,19 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Professional Senior Level",
+      "company": "Jacobs",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

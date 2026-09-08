@@ -50,5 +50,74 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "aws"
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Investment and Acquisition Manager",
+      "company": "AWS",
+      "start": "11/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Expansion Strategy, Site Selection, Acquisition & Development",
+      "company": "AWS at AWS",
+      "start": "11/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Innovation Consultant (AVP)",
+      "company": "Citi",
+      "start": "1/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Treasury and Trade Solutions",
+      "company": "Citi",
+      "start": "9/2016",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Jazz Pharmaceuticals",
+      "start": "6/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Account Manager Investor Relations",
+      "company": "Citi",
+      "start": "9/2014",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Citi",
+      "start": "6/2014",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Finance Intern",
+      "company": "MVTS Technologies",
+      "start": "7/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Legal Intern",
+      "company": "Mackey O'Sullivan Solicitors",
+      "start": "6/2013",
+      "end": "6/2013",
+      "current": false
+    }
+  ]
 }

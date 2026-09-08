@@ -39,5 +39,89 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "aws"
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Site Acquisition Manager",
+      "company": "AWS",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EMEA Land Acquisition Manager",
+      "company": "Microsoft",
+      "start": "1/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Transaction Services: Head of Tenant Representation",
+      "company": "Cushman and Wakefield",
+      "current": false
+    },
+    {
+      "company": "BROLL",
+      "start": "5/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Transactions Manager",
+      "company": "Cushman and Wakefield",
+      "current": false
+    },
+    {
+      "company": "BROLL",
+      "start": "6/2019",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Transactions Manager",
+      "company": "Broll Property Group",
+      "start": "4/2018",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Developments Leasing Executive",
+      "company": "Growthpoint Properties",
+      "start": "5/2014",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Commercial Leasing Executive",
+      "company": "Redefine Properties",
+      "start": "11/2010",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Leasing Executive: Commercial & Industrial",
+      "company": "Redefine Properties",
+      "start": "3/2010",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Commercial Property Broker",
+      "company": "Bradford McCormack",
+      "start": "2/2010",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Commercial Property Broker",
+      "company": "Lalela Properties",
+      "start": "10/2006",
+      "end": "2/2010",
+      "current": false
+    }
+  ]
 }

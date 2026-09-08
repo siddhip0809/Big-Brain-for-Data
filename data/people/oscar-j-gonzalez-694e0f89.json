@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Data Center Site Selection",
+      "company": "Apple",
+      "start": "2/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Site Selection and Portfolio Management",
+      "company": "Yahoo!",
+      "start": "11/2008",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Research Analyst",
+      "company": "Google",
+      "start": "4/2007",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Secretary",
+      "company": "Grupo Enlance",
+      "start": "1/2005",
+      "end": "1/2006",
+      "current": false
+    },
+    {
+      "title": "Head for Public Affairs",
+      "company": "Car&Co",
+      "start": "12/2003",
+      "end": "3/2007",
+      "current": false
+    }
+  ]
 }

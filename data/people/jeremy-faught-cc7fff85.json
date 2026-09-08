@@ -28,5 +28,51 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Development - Phoenix",
+      "company": "QTS Data Centers",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "AWS",
+      "start": "3/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager of Construction - AMER West",
+      "company": "AWS",
+      "start": "3/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Project Executive",
+      "company": "Apollo Mechanical Contractors",
+      "start": "12/2016",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "General Manager",
+      "company": "Apollo Mechanical Contractors",
+      "start": "5/2006",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "VP Development",
+      "company": "QTS Data Centers",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Lead, Mountain States Business Unit",
+      "company": "DPR Construction",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Lead, Atlanta Business Unit",
+      "company": "DPR Construction",
+      "start": "7/2022",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction",
+      "company": "DPR Construction",
+      "start": "3/2017",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "YLH Construction Company",
+      "start": "9/2014",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Manager, Business Development",
+      "company": "Holder Construction",
+      "start": "4/2008",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Holder Construction",
+      "start": "1/2007",
+      "end": "4/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "5/2004",
+      "end": "1/2007",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "5/2003",
+      "end": "5/2004",
+      "current": false
+    },
+    {
+      "title": "Office Engineer/Intern",
+      "company": "Holder Construction",
+      "start": "1/2000",
+      "end": "5/2003",
+      "current": false
+    }
+  ]
 }

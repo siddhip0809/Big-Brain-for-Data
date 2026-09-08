@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction",
+      "company": "Vantage",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "AMS",
+      "start": "10/2015",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Vice President / Mission Critical Group",
+      "company": "AMS",
+      "start": "10/2015",
+      "end": "11/2025",
+      "current": false
+    }
+  ]
 }

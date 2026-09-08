@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director EMEA Sales",
+      "company": "Nscale",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AI GTM Director - Europe",
+      "company": "nLighten",
+      "start": "1/2025",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "nLighten",
+      "start": "2/2024",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Hewlett Packard Enterprise",
+      "start": "3/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Commercial Account Manager",
+      "company": "Hewlett Packard Enterprise",
+      "start": "11/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Inside Sales Representative",
+      "company": "Hewlett Packard Enterprise",
+      "start": "9/2019",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Sales and Import Executive",
+      "company": "BAUM TRADING LIMITED",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Steward",
+      "company": "Showsec",
+      "start": "9/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Head of Sales Order Processing",
+      "company": "BAUM TRADING LIMITED",
+      "start": "6/2017",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Cryptocurrency Mentor & Marketing Consultant",
+      "company": "Other",
+      "start": "7/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Sales Assistant",
+      "company": "Morrisons",
+      "start": "9/2015",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Assistant",
+      "company": "Wm Morrison Supermarkets Plc",
+      "start": "3/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Procurement Officer",
+      "company": "B V Builders",
+      "start": "7/2013",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

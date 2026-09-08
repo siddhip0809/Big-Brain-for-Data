@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Estimator",
+      "company": "Structure Tone Southwest",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager/ Estimator",
+      "company": "MDI Inc General Contractors",
+      "start": "6/2011",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "project manager",
+      "company": "Phillips may",
+      "start": "2008",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "asst. super",
+      "company": "3i Construction",
+      "start": "2001",
+      "end": "2002",
+      "current": false
+    }
+  ]
 }

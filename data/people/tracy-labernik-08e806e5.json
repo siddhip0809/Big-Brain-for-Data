@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Leasing, North America",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Assistant General Counsel, Leasing (North America)",
+      "company": "Vantage",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Corporate Counsel",
+      "company": "Digital Realty",
+      "start": "3/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director, Corporate Counsel",
+      "company": "Digital Realty",
+      "start": "5/2015",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Attorney",
+      "company": "Pennington Lawson",
+      "start": "1/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Real Estate Associate",
+      "company": "Paul Hastings",
+      "start": "1/2012",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Real Estate Associate",
+      "company": "Dorsey & Whitney",
+      "start": "1/2007",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Summer Associate",
+      "company": "Dorsey & Whitney",
+      "start": "5/2006",
+      "end": "8/2006",
+      "current": false
+    },
+    {
+      "title": "Law Clerk",
+      "company": "Valspar",
+      "start": "1/2004",
+      "end": "1/2005",
+      "current": false
+    }
+  ]
 }

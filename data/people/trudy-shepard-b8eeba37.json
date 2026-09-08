@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Executive",
+      "company": "Equinix",
+      "start": "6/2011",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Client Executive",
+      "company": "Equinix",
+      "start": "6/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Equinix",
+      "start": "1/2011",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Sungard Now Part Of Fis",
+      "start": "2/2006",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Solution Sales Specialist, USA/London (Collateral Management)",
+      "company": "Algorithmics",
+      "start": "9/2000",
+      "end": "9/2004",
+      "current": false
+    },
+    {
+      "title": "Head of Sales & Marketing EMEA",
+      "company": "Sentry Financial Systems",
+      "start": "11/1999",
+      "end": "9/2000",
+      "current": false
+    },
+    {
+      "title": "Account Management Executive",
+      "company": "Synamic",
+      "start": "1/1997",
+      "end": "11/1999",
+      "current": false
+    }
+  ]
 }

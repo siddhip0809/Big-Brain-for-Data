@@ -50,5 +50,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site Acquisition Director",
+      "company": "Microsoft",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Site Acquisition Manager, EMEA",
+      "company": "Microsoft",
+      "start": "6/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "CBRE",
+      "start": "4/2016",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "CBRE",
+      "start": "1/2007",
+      "end": "4/2016",
+      "current": false
+    }
+  ]
 }

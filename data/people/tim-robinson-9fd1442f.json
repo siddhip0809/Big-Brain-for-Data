@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Snr. Director, Real Estate and Regional Business Development",
+      "company": "Equinix",
+      "start": "1/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Real Estate, Asia Pacific",
+      "company": "Equinix",
+      "start": "11/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager",
+      "company": "Swire Properties",
+      "start": "10/2008",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Sama Dubai",
+      "start": "2/2006",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Regional Account Management",
+      "company": "CB Richard Ellis",
+      "start": "1/2003",
+      "end": "12/2006",
+      "current": false
+    }
+  ]
 }

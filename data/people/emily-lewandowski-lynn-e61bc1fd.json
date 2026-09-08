@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "4/2024",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Advantis Global is now INSPYR Solutions",
+      "start": "9/2022",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "DPR Construction",
+      "start": "1/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "DPR Construction",
+      "start": "8/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "DPR Construction",
+      "start": "5/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Facility Engineering, Project Manager Intern",
+      "company": "Kroger",
+      "start": "1/2016",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Zone Supervisor",
+      "company": "Douglas Aquatics",
+      "start": "5/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Lifeguard",
+      "company": "VT Recreational Sports",
+      "start": "1/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Swim Instructor Supervisor",
+      "company": "VT Recreational Sports",
+      "start": "9/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Assistant Swim Coach",
+      "company": "Magnolia Green Aquatic Association",
+      "start": "5/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Manager",
+      "company": "Douglas Aquatics",
+      "start": "5/2010",
+      "end": "8/2014",
+      "current": false
+    }
+  ]
 }

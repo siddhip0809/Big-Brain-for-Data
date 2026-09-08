@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Site Development",
+      "company": "Amentum",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Jacobs",
+      "start": "4/2017",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Specialist",
+      "company": "Jacobs",
+      "start": "8/2015",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "2nd Assistant Golf Professional",
+      "company": "Sunnehanna Country Club",
+      "start": "3/2015",
+      "end": "6/2015",
+      "current": false
+    }
+  ]
 }

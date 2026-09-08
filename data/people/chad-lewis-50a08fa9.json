@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "MEP Preconstruction Manager - Mission Critical",
+      "company": "Layton Construction",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "MEP Preconstruction Manager",
+      "company": "Balfour Beatty US",
+      "start": "2/2017",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "MEP Preconstruction Manager ",
+      "company": "Turner Construction",
+      "start": "5/2014",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Electrical Preconstruction",
+      "company": "The Brandt Companies",
+      "start": "7/2004",
+      "end": "5/2014",
+      "current": false
+    }
+  ]
 }

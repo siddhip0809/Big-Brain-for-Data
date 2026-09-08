@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Executive - Mission Critical",
+      "company": "Russell",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Black & Veatch",
+      "start": "1/2019",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "Black & Veatch",
+      "start": "4/2018",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Black & Veatch",
+      "start": "2/2016",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Director, Planning & Estimating",
+      "company": "Total Site Solutions",
+      "start": "9/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Treasurer",
+      "company": "Baltimore Area Triathlon Club",
+      "start": "2010",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Project Estimator, Project Manager",
+      "company": "Total Site Solutions",
+      "start": "1/2007",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "ATS-DBS",
+      "start": "2/2002",
+      "end": "1/2007",
+      "current": false
+    },
+    {
+      "title": "Operations Supervisor",
+      "company": "Enterprise Rent-A-Car",
+      "start": "2/2000",
+      "end": "2/2002",
+      "current": false
+    },
+    {
+      "title": "Local Corporate Accounts Manager",
+      "company": "Enterprise Rent-A-Car",
+      "start": "8/1997",
+      "end": "2/2000",
+      "current": false
+    }
+  ]
 }

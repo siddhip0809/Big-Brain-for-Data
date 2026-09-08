@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction, NA",
+      "company": "Vantage",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "1/2023",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "MEP Superintendent",
+      "company": "DPR Construction",
+      "start": "1/2018",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Webcor Builders",
+      "start": "6/2013",
+      "end": "1/2018",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,19 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction and Estimating Manager",
+      "company": "JE Dunn Construction",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

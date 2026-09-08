@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director - Data Centers",
+      "company": "Currie & Brown",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Project Controls Analyst",
+      "company": "Currie & Brown",
+      "start": "11/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Plains All American",
+      "start": "8/2018",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Project Controls Analyst II",
+      "company": "Plains All American",
+      "start": "3/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Flying Leads",
+      "company": "Technip",
+      "start": "2/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Subsea Installation Engineer",
+      "company": "Technip",
+      "start": "4/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer (Subsea)",
+      "company": "Technip",
+      "start": "1/2014",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer (Onshore)",
+      "company": "Technip",
+      "start": "7/2013",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Subsea Installation Engineer Intern",
+      "company": "Technip",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Cost Control Engineer",
+      "company": "Technip",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    }
+  ]
 }

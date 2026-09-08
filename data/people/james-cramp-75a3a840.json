@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President of Development",
+      "company": "Corscale Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Commercial Development",
+      "company": "Peterson Companies",
+      "start": "1/2025",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice President",
+      "company": "Peterson Companies",
+      "start": "1/2017",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Commercial Development",
+      "company": "Peterson Companies",
+      "start": "1/2010",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Part Owner",
+      "company": "Washout Soultions",
+      "start": "1/2008",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Manager, Commercial Development",
+      "company": "Peterson Companies",
+      "start": "9/2005",
+      "end": "1/2010",
+      "current": false
+    }
+  ]
 }

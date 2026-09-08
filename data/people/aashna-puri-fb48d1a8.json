@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Global Site Selection & Corporate Development",
+      "company": "Iron Mountian",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Strategy & Market Expansion Director",
+      "company": "CyrusOne",
+      "start": "1/2025",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Sales Strategy & Sustainability Director",
+      "company": "CyrusOne",
+      "start": "3/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Land Acquisitions",
+      "company": "CyrusOne",
+      "start": "10/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Director, Data Centers",
+      "company": "JLL",
+      "start": "5/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Corporate Solutions",
+      "company": "JLL",
+      "start": "1/2017",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Founder, CEO",
+      "company": "Sogather",
+      "start": "6/2015",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Head, Africa Desk",
+      "company": "JLL",
+      "start": "6/2014",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Project Development Services, Energy & Sustainability Associate",
+      "company": "JLL",
+      "start": "7/2012",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Founder",
+      "company": "Ivy Prep",
+      "start": "5/2009",
+      "end": "4/2010",
+      "current": false
+    }
+  ]
 }

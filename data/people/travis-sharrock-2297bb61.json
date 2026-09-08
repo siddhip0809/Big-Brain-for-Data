@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Rosendin",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Management - Mission Critical Team",
+      "company": "Miller Electric",
+      "start": "4/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Pre-Construction Manager",
+      "company": "FTI",
+      "start": "10/2019",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "FTI",
+      "start": "8/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Cupertino Electric",
+      "start": "5/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Encore Electric Inc - Government Services",
+      "start": "4/2008",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Front Range Commercial",
+      "start": "1/2007",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "Heavy Equipment Operator",
+      "company": "United States Army Reserve",
+      "start": "3/2006",
+      "end": "2/2014",
+      "current": false
+    }
+  ]
 }

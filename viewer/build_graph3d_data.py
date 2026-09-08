@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Builds the companies + investors graph for the 3D atlas
-(people are deliberately left out for now).
+Builds the companies + investors graph for the 3D atlas, plus the people
+behind each company for its org chart.
 
-Output: graph3d_data.json -> {categories, parent_industry_meta, nodes, links, stats}
+Output: graph3d_data.json -> {categories, parent_industry_meta, nodes, links, people, functions, stats}
 
 Every company carries a `roles` list (single source of truth, stored on the
 record itself since the 2026-09-05 import of Siddhi's curated lists). A
@@ -13,12 +13,20 @@ pivot AND typed "Neocloud" on Siddhi's sheet -- and the atlas renders those
 as multi-colour nodes. The first role by ROLE_PRIORITY is the node's
 primary tier (its colour body and its invisible layout anchor).
 """
-import json, glob, os
+import json, glob, os, re
 from datetime import date
 
 REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 COMPANIES_DIR = os.path.join(REPO, "data/companies")
 INVESTORS_DIR = os.path.join(REPO, "data/investors")
+PEOPLE_DIR = os.path.join(REPO, "data/people")
+
+# Company departments a title is filed under (derived on the person record as
+# `function`, see docs/schema.md). Order = column order in the org chart.
+FUNCTIONS = ["Executive leadership", "Development & Real Estate", "Sales & Leasing",
+             "Pre-Construction & Cost", "Construction & Delivery", "Energy & Utilities",
+             "Design & Engineering", "Strategy, Finance & Investment", "Operations & Facilities",
+             "Procurement & Supply Chain", "Legal, People & Support", "Unclassified"]
 
 # Order matters: legend order, anchor order, and primary-role priority.
 # Colours validated as a 9-colour CVD-safe set on the dark surface (the one
@@ -114,6 +122,34 @@ if os.path.exists(rel_path):
                           "confidence": r.get("confidence")})
             deal_edges += 1
 
+# people, grouped by the company they work at today. Only the fields the org
+# chart needs -- never email, phone, or compensation (those stay in Clockwork).
+people = {}
+people_count = 0
+for path in sorted(glob.glob(os.path.join(PEOPLE_DIR, "*.json"))):
+    d = load_json(path)
+    cid = d.get("current_company_id")
+    if cid not in node_ids: continue
+    current = [c for c in d.get("career", []) if c.get("current") and c.get("company")]
+    norm = lambda x: re.sub(r"[^a-z0-9]", "", (x or "").lower())
+    here = norm(d.get("current_company"))
+    past = [{"company": c["company"], "title": c.get("title"), "start": c.get("start"), "end": c.get("end"),
+             "same_employer": bool(here) and (norm(c["company"]) == here or here in norm(c["company"]) or norm(c["company"]) in here)}
+            for c in d.get("career", []) if c.get("company") and not c.get("current")]
+    people.setdefault(cid, []).append({
+        "id": d["id"], "name": d["name"], "title": d.get("current_title"),
+        "function": d.get("function") or "Unclassified", "function_source": d.get("function_source"),
+        "rank": d.get("seniority_rank", 5), "seniority": d.get("seniority_label"),
+        "location": d.get("location"), "linkedin": d.get("linkedin"),
+        "department": d.get("department"), "do_not_contact": bool(d.get("do_not_contact")),
+        "since": (current[0].get("start") if current else None), "past": past,
+    })
+    people_count += 1
+for cid, ppl in people.items():
+    ppl.sort(key=lambda x: (x["rank"], x["name"]))
+    node = next(n for n in nodes if n["id"] == cid)
+    node["people_count"] = len(ppl)
+
 # legend counts = how many nodes HOLD each role (a multi-role company counts once per role)
 role_counts = {c: 0 for c in CATS}
 for n in nodes:
@@ -135,8 +171,9 @@ out = {
     "categories": categories_out,
     "parent_industry_meta": [{"id": pid, "name": m["name"], "note": m["note"], "count": pi_counts.get(pid, 0)}
                              for pid, m in PARENT_INDUSTRY_META.items()],
-    "nodes": nodes, "links": links,
-    "stats": {"companies": len(company_files), "dc_companies": dc_companies,
+    "nodes": nodes, "links": links, "people": people, "functions": FUNCTIONS,
+    "stats": {"people": people_count, "companies_with_people": len(people),
+              "companies": len(company_files), "dc_companies": dc_companies,
               "adjacent_companies": adjacent_only, "multi_role_companies": multi_role,
               "investors": len(investor_files), "links": len(links), "deal_links": deal_edges,
               "generated": date.today().isoformat()},
@@ -149,5 +186,6 @@ with open(out_path, "w") as f:
 print("companies:", len(company_files), "| DC-tier:", dc_companies, "| adjacent-only:", adjacent_only,
       "| multi-role:", multi_role)
 print("investors:", len(investor_files), "| links:", len(links), "| of which deal links:", deal_edges)
+print("people:", people_count, "at", len(people), "companies")
 print("role counts:", role_counts)
 print("wrote:", out_path, os.path.getsize(out_path), "bytes")

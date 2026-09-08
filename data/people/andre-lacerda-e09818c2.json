@@ -39,5 +39,103 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Manager",
+      "company": "Kiewit",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Kiewit",
+      "start": "9/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Kiewit",
+      "start": "2/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Turner Construction",
+      "start": "8/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Associate Estimator",
+      "company": "Chesapeake Contracting Group",
+      "start": "8/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Osborne Construction",
+      "start": "11/2020",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Turner Construction",
+      "start": "6/2020",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "STRUCTURAL",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "STRUCTURAL",
+      "start": "7/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager Intern",
+      "company": "CPI Foundation",
+      "start": "2/2018",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "First-Line Supervisor",
+      "company": "US Army",
+      "start": "8/2014",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "First-Line Supervisor",
+      "company": "US Army",
+      "start": "1/2011",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Team Lead",
+      "company": "US Army",
+      "start": "5/2007",
+      "end": "12/2010",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Manager, Estimator",
+      "company": "Kiewit",
+      "start": "12/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Engineering Manager",
+      "company": "Kiewit",
+      "start": "12/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Estimator, KieCore Deployment Manager",
+      "company": "Kiewit",
+      "start": "4/2012",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Structures Superintendent",
+      "company": "Kiewit",
+      "start": "4/2011",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Job Superintendent",
+      "company": "Kiewit",
+      "start": "7/2009",
+      "end": "10/2009",
+      "current": false
+    },
+    {
+      "title": "Structures Engineer, Structures Discipline Manager",
+      "company": "Kiewit",
+      "start": "4/2009",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Kiewit",
+      "start": "11/2008",
+      "end": "4/2009",
+      "current": false
+    },
+    {
+      "title": "IT Superintendent",
+      "company": "Kiewit",
+      "start": "2/2008",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Structures Superintendent",
+      "company": "Kiewit",
+      "start": "4/2007",
+      "end": "2/2008",
+      "current": false
+    },
+    {
+      "title": "Registered Professional Engineer",
+      "company": "Kiewit",
+      "start": "6/2006",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Field Engineer, Project Engineer, Contract Administrator",
+      "company": "Kiewit",
+      "start": "1/2004",
+      "end": "4/2007",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Kiewit",
+      "start": "6/2003",
+      "end": "1/2004",
+      "current": false
+    }
+  ]
 }

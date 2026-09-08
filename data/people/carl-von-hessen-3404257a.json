@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Vice President Business Developmemt",
+      "company": "maincubes Secure Datacenters",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Acquisition & Investment Lead, Data Centers Supply Strategy",
+      "company": "AWS",
+      "start": "7/2024",
+      "end": "8/2026",
+      "current": false
+    },
+    {
+      "title": "Chief Investment Officer",
+      "company": "hscale",
+      "start": "9/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Data Center Investments",
+      "company": "Aquila Capital",
+      "start": "1/2021",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Investment Manager Real Estate",
+      "company": "Aquila Capital",
+      "start": "6/2015",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Junior Developer",
+      "company": "ECE Projektmanagement G m b H & Co KG",
+      "start": "6/2013",
+      "end": "6/2015",
+      "current": false
+    }
+  ]
 }

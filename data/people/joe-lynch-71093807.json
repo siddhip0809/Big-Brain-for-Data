@@ -28,5 +28,25 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Manager",
+      "company": "EdgeConneX",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Coordinator",
+      "company": "EdgeConneX",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

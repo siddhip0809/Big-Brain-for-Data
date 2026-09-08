@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Global Site Development Manager",
+      "company": "Meta",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "New Region Development Manager",
+      "company": "Meta",
+      "start": "3/2022",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "New Region Program Manager",
+      "company": "AWS",
+      "start": "7/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "MEP Program Manager",
+      "company": "Construction Manager",
+      "start": "3/2014",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Data Center Strategy, Capital Planning, Project Planning and Execution",
+      "company": "Bank of America",
+      "start": "6/2006",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Owner Representative, Capital Planning, Project Planning and Execution",
+      "company": "Bank of America",
+      "start": "6/2006",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Director MEP Services",
+      "company": "BE&K Building Group",
+      "start": "1/2005",
+      "end": "6/2006",
+      "current": false
+    },
+    {
+      "title": "MEP Manager",
+      "company": "Rodgers Builders",
+      "start": "2003",
+      "end": "2005",
+      "current": false
+    }
+  ]
 }

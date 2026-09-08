@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Burns & Mc Donnell",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "NCB",
+      "start": "11/2018",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "Luke Draily Construction Company",
+      "start": "6/2016",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Titan Built",
+      "start": "6/2016",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "McCownGordon Construction",
+      "start": "5/2013",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "Mctech",
+      "start": "1/2009",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Walton Construction",
+      "start": "5/2003",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Titan Built",
+      "start": "5/2000",
+      "end": "5/2003",
+      "current": false
+    },
+    {
+      "title": "General Foreman",
+      "company": "Ironworkers Local #10",
+      "start": "9/1994",
+      "end": "5/2000",
+      "current": false
+    }
+  ]
 }

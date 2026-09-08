@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Business Development APAC",
+      "company": "EdgeConneX",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "Global Switch",
+      "start": "10/2013",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Sales Director, International IT Key Accounts (Greater China)",
+      "company": "Rittal Co",
+      "start": "11/2007",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Manager (Data Center Business)",
+      "company": "Emerson Network Power",
+      "start": "10/1996",
+      "end": "10/2007",
+      "current": false
+    }
+  ]
 }

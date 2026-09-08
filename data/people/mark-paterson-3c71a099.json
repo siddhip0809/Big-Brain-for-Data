@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales EMEA",
+      "company": "Vantage",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "SVP Cloud & Security Sales EMEA",
+      "company": "NTT",
+      "start": "9/2022",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "SVP Cloud & Security GTM (Portfolio & Sales Global P&L)",
+      "company": "NTT",
+      "start": "12/2020",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "SVP - Go-To-Market - Managed Services (P&L remit)",
+      "company": "NTT",
+      "start": "10/2019",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Vice President Sales and Marketing",
+      "company": "NTT",
+      "start": "1/2017",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "EMEA Sales Director - Cloud & Managed IT Services",
+      "company": "Atlas Information Technology",
+      "start": "3/2014",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Sales Director - Northern Europe",
+      "company": "VERIO",
+      "start": "7/2012",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "New Business Sales Manager",
+      "company": "VERIO",
+      "start": "4/2010",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Business Development Manager",
+      "company": "VERIO",
+      "start": "10/2005",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "VERIO",
+      "start": "1/2004",
+      "end": "10/2005",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "VERIO",
+      "start": "1/2003",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Verio UK",
+      "start": "5/2001",
+      "end": "12/2002",
+      "current": false
+    }
+  ]
 }

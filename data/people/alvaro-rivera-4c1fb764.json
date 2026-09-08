@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr.Director Business Development & Resources in Europe",
+      "company": "DayOne",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director",
+      "company": "Box2Bit at Box2Bit",
+      "start": "6/2021",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Development Director / Digital Infrastructures",
+      "company": "Capital Energy",
+      "start": "4/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Strategy & Business Development",
+      "company": "Enagás",
+      "start": "9/2015",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Strategy Manager",
+      "company": "KPMG",
+      "start": "7/2014",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Accenture - Strategy Management Consulting",
+      "company": "Strategy Consultant at Accenture",
+      "start": "6/2010",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Real Estate - Rafael de la Hoz and Independent Consultant",
+      "company": "Rafael de la Hoz Arquitectos",
+      "start": "9/2006",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "RUM Arquitectos - Architecture Office",
+      "company": "R U M Arquitectos",
+      "start": "9/2005",
+      "end": "8/2006",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Energy Trader/Analyst",
+      "company": "Switch",
+      "start": "5/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager, Forward Trading",
+      "company": "NV Energy",
+      "start": "1/2013",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Power Trader",
+      "company": "Sierra Pacific/Nevada Power",
+      "start": "1/1985",
+      "end": "1/2013",
+      "current": false
+    }
+  ]
 }

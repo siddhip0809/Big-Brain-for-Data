@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP Construction",
+      "company": "Keel Infrastructure",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "Linesight",
+      "start": "1/2025",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Director - Data Centers",
+      "company": "Linesight",
+      "start": "5/2021",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Data Centre Program Delivery",
+      "company": "Linesight",
+      "start": "10/2017",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Contracts & Commerical",
+      "company": "Aurecon",
+      "start": "6/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Laing O'Rourke",
+      "start": "9/2015",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Contracts Officer",
+      "company": "Monadelphous",
+      "start": "2/2014",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Contracts Administrator",
+      "company": "Monadelphous",
+      "start": "6/2012",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "AJ Lucas",
+      "start": "1/2012",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor/Client Representative",
+      "company": "Hugh B Gage",
+      "start": "10/2011",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Commerical Manager",
+      "company": "Glenline Telecoms",
+      "start": "9/2008",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Mulcahy McDonagh and Partners",
+      "start": "5/2008",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Junior Estimator",
+      "company": "J.T. Magen & Company Inc.",
+      "start": "5/2007",
+      "end": "9/2007",
+      "current": false
+    }
+  ]
 }

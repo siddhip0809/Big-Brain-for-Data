@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Entitlements",
+      "company": "American Real Estate Partners",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Entitlements",
+      "company": "American Real Estate Partners",
+      "start": "12/2021",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Entitlements",
+      "company": "Northpoint Realty Partners",
+      "start": "7/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Northpoint Realty Partners",
+      "start": "6/2017",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Rally Health",
+      "start": "10/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Land Use Planner",
+      "company": "Walsh Colucci Lubeley & Walsh PC",
+      "start": "2/2006",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Land Use And Development Aide to Supervisor Gross",
+      "company": "Fairfax County Board of Supervisors",
+      "start": "7/2002",
+      "end": "2/2006",
+      "current": false
+    },
+    {
+      "title": "Project Assistant",
+      "company": "Pillsbury Winthrop Shaw Pittman",
+      "start": "10/2000",
+      "end": "7/2002",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,47 @@
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "EVP of Construction and Real Estate",
+      "company": "Novva Data Centers",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Property Management",
+      "company": "DataBank",
+      "start": "3/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Director of Design & Project Management",
+      "company": "DataBank",
+      "start": "2/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Data Center and Project Manager",
+      "company": "DataBank",
+      "start": "12/2010",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Help Desk Technician",
+      "company": "DataBank",
+      "start": "2/2009",
+      "end": "12/2010",
+      "current": false
+    }
+  ]
 }

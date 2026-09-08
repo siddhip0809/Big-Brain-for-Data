@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Advisor",
+      "company": "DTCP",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Executive Officer",
+      "company": "GreenScale Data Centres",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Exec",
+      "company": "yet to be announced at Building something at scale",
+      "start": "8/2021",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President, Sales",
+      "company": "AtlasEdge",
+      "start": "8/2021",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Advisor",
+      "company": "Onix Data Centres",
+      "start": "1/2021",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Director, International",
+      "company": "Digital Realty",
+      "start": "4/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "International Sales Director",
+      "company": "Digital Realty",
+      "start": "4/2015",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "International Account Director",
+      "company": "Digital Realty",
+      "start": "1/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Major Account Manager - Digital Media",
+      "company": "Digital Realty",
+      "start": "9/2011",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant - Global Health and Life Sciences, Retail and Finance",
+      "company": "TestPlant",
+      "start": "7/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Sports Coach",
+      "company": "Nexus Community",
+      "start": "7/2007",
+      "end": "8/2009",
+      "current": false
+    }
+  ]
 }

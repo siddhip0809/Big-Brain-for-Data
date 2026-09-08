@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Energy Flexential",
+      "company": "Flexential",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Vice President, Commercial & Industrial Solutions",
+      "company": "Xcel Energy",
+      "start": "3/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Corporate Economic Development",
+      "company": "Xcel Energy",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Economic Development",
+      "company": "Vectren",
+      "start": "10/2014",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Director, Sales And Marketing",
+      "company": "Vectren",
+      "start": "4/2010",
+      "end": "10/2014",
+      "current": false
+    }
+  ]
 }

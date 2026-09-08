@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "CEC",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager and Electrical Estmator",
+      "company": "George-McKenna Electrical Contractors",
+      "start": "8/2019",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "The Brandt Companies",
+      "start": "5/2012",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "The Brandt Companies",
+      "start": "7/2010",
+      "end": "5/2012",
+      "current": false
+    }
+  ]
 }

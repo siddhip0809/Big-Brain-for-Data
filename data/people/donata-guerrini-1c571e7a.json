@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Managing Director Italy",
+      "company": "Virtus Data Centers",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Negotiator Lead - Global Infrastructure",
+      "company": "Google",
+      "start": "7/2020",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Director Of Business Development",
+      "company": "Jacobs",
+      "start": "6/2018",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Director of Corporate Development EMEA",
+      "company": "Aligned Energy",
+      "start": "7/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Manager",
+      "company": "Aligned Energy",
+      "start": "10/2015",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "PM",
+      "company": "Skanska USA Building",
+      "start": "2011",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Sustainability Consultant",
+      "company": "GreenOrder",
+      "start": "6/2010",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "WSP",
+      "start": "4/2010",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "Consultant in Civil Engineering and Management",
+      "company": "Vinton Street Partners",
+      "start": "2010",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Researcher on Risk Analysis and Option Theory applied to Construction and Real Estate",
+      "company": "Columbia University",
+      "start": "5/2009",
+      "end": "4/2010",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Sales Director",
+      "company": "Flexential",
+      "start": "9/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Americas, SI Partners",
+      "company": "Telstra",
+      "start": "1/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice President",
+      "company": "Tech Mahindra",
+      "start": "6/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Executive Western Region",
+      "company": "QTS Data Centers",
+      "start": "7/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Executive",
+      "company": "Centurylink Business For Enterprise",
+      "start": "12/2009",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Major Accounts Manager",
+      "company": "Sprint",
+      "start": "10/2005",
+      "end": "10/2009",
+      "current": false
+    },
+    {
+      "title": "Regional Accounts Manager",
+      "company": "Trimble",
+      "start": "4/2004",
+      "end": "8/2005",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Corexpand",
+      "start": "4/2002",
+      "end": "3/2004",
+      "current": false
+    },
+    {
+      "title": "Co Founder/Owner",
+      "company": "Paragon Sales",
+      "start": "1/1987",
+      "end": "12/2002",
+      "current": false
+    }
+  ]
 }

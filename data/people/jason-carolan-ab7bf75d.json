@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Development Officer (CDO)",
+      "company": "Evoque Data Center Solutions",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Member - Forbes Technology Council",
+      "company": "Forbes Technology Council",
+      "start": "6/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Innovation Officer (CINO)",
+      "company": "Flexential",
+      "start": "1/2019",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "CTO & Chief Cloud Officer (Cloud COO/GM), Formerly VP Product Development & Engineering, IT Leader",
+      "company": "Flexential",
+      "start": "5/2011",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Director of Cloud Services Engineering (vCloud/vCAF)",
+      "company": "VMware",
+      "start": "5/2010",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Distinguished Engineer, Technical Director, Field CTO, Principal Architect",
+      "company": "Sun Microsystems",
+      "start": "4/1999",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "IT Manager",
+      "company": "Novazen",
+      "start": "5/1996",
+      "end": "4/1999",
+      "current": false
+    },
+    {
+      "title": "Systems Analyst / Lead - Unix / NMS / Remedy / NOC Help Desk Manager",
+      "company": "Mayo Foundation - Mayo Clinic",
+      "start": "1/1993",
+      "end": "4/1996",
+      "current": false
+    },
+    {
+      "title": "Operator - SSR NET BBS",
+      "company": "SSRNET",
+      "start": "1/1991",
+      "end": "1/1993",
+      "current": false
+    }
+  ]
 }

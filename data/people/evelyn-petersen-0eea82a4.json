@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Sales DACH",
+      "company": "Digital Realty",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Sales Germany",
+      "company": "Digital Realty",
+      "start": "9/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Director Sales Strategic Global Accounts",
+      "company": "Palo Alto Networks",
+      "start": "11/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Global Client Director (Sr. Sales Manager)",
+      "company": "Microsoft",
+      "start": "10/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Client Executive",
+      "company": "Cisco Systems",
+      "start": "12/2015",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Cisco Systems",
+      "start": "12/2008",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Account-Manager",
+      "company": "Cisco Systems",
+      "start": "12/2006",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Middle Market Account Manager",
+      "company": "Cisco Systems",
+      "start": "8/2004",
+      "end": "11/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Business Development Manager",
+      "company": "Cisco Systems",
+      "start": "8/2002",
+      "end": "7/2004",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "Cisco Systems",
+      "start": "8/1998",
+      "end": "7/2002",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "SCO",
+      "start": "12/1994",
+      "end": "7/1998",
+      "current": false
+    },
+    {
+      "title": "System Engineer",
+      "company": "Electronic Data Systems",
+      "start": "8/1986",
+      "end": "7/1991",
+      "current": false
+    }
+  ]
 }

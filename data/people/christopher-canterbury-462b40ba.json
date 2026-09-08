@@ -28,5 +28,91 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Data Center Construction for Americas",
+      "company": "Digital Realty",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Design, Construction, and Engineering",
+      "company": "CentersquareDC",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Design, Construction, and Engineering",
+      "company": "Evoque Data Center Solutions",
+      "start": "7/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "raw": "Manager, Technical Program Management"
+    },
+    {
+      "title": "ADC Secure Space Programs",
+      "company": "AWS",
+      "start": "9/2020",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Manager, Senior Technical Program Manager, Infrastructure Operations",
+      "company": "AWS",
+      "start": "4/2020",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Manager, Global InfraOps Technical Program Manager",
+      "company": "AWS",
+      "start": "11/2017",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Data Center Operations Program Manager",
+      "company": "AWS",
+      "start": "4/2016",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Data Center Operations Site Lead",
+      "company": "AWS",
+      "start": "6/2013",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Cyber Security- IA/Certification and Accreditation Analyst",
+      "company": "The Washington Naval Yard at TWD & Associates",
+      "start": "9/2011",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Information Techonology & Security Specialist for The White House Drug Policy Office",
+      "company": "TWD & Associates",
+      "start": "3/2009",
+      "end": "9/2011",
+      "current": false
+    }
+  ]
 }

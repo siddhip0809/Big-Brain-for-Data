@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Global Account Director",
+      "company": "Switch",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Switch",
+      "start": "12/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Switch",
+      "start": "10/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Executive",
+      "company": "Qwest Communications",
+      "start": "3/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Enterprise Account Executive",
+      "company": "Frontier Communications",
+      "start": "11/2010",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Swire Coca-Cola USA",
+      "start": "6/2004",
+      "end": "9/2010",
+      "current": false
+    }
+  ]
 }

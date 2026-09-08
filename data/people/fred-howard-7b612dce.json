@@ -50,5 +50,46 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "cloudhq"
+  "current_company_id": "cloudhq",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director",
+      "company": "CloudHQ",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Head of Data Centres APAC",
+      "company": "Knight Frank",
+      "start": "4/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Data Centre Lead APAC",
+      "company": "Knight Frank",
+      "start": "10/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Surveyor - Data Centre Capital Markets and Development",
+      "company": "Knight Frank",
+      "start": "10/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Graduate - Data Centres",
+      "company": "Knight Frank",
+      "start": "9/2019",
+      "end": "10/2021",
+      "current": false
+    }
+  ]
 }

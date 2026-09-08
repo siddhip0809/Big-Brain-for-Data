@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Cost & Commercial Management",
+      "company": "OpenAI",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Commercial Management - Americas",
+      "company": "Equinix",
+      "start": "3/2021",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Head of Commercial Management - Americas ",
+      "company": "WeWork",
+      "start": "9/2020",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Commercial Management - US & Canada West",
+      "company": "WeWork",
+      "start": "7/2018",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Preconstruction",
+      "company": "DPR Construction",
+      "start": "5/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor / Cost Consultant",
+      "company": "Omnium International",
+      "start": "5/2009",
+      "end": "5/2015",
+      "current": false
+    }
+  ]
 }

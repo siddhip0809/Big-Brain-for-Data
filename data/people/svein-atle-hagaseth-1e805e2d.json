@@ -28,5 +28,124 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Executive Officer and Founder",
+      "company": "Heim Datacenter",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EVP Global Chief Business Officer",
+      "company": "Green Mountain AS - Data centres",
+      "start": "4/2025",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Chief Executive Officer",
+      "company": "Green Mountain AS - Data centres",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Sales Officer",
+      "company": "Green Mountain AS - Data centres",
+      "start": "12/2017",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President North America",
+      "company": "Green Mountain AS - Data centres",
+      "start": "5/2016",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Global Managing Director SaaS and Director Consulting in Greater Toronto Area",
+      "company": "CGI",
+      "start": "6/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Founder and Instructor",
+      "company": "Scandinavian Goaltending Academy",
+      "start": "4/2014",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Managing Director Energy Norway, BPO and Client Director Statoil",
+      "company": "CGI",
+      "start": "1/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President Financial Institutions",
+      "company": "Lindorff",
+      "start": "8/2010",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Head of Sales & Marketing - Norway",
+      "company": "Tieto",
+      "start": "1/2007",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Sales Executive - Managed Services/Outsourcing",
+      "company": "Hewlett Packard Enterprise",
+      "start": "1/2005",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Business Development Executive",
+      "company": "CSC",
+      "start": "1/2001",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "WM-data",
+      "start": "1/2001",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Telenor",
+      "start": "1/1998",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Customer Service Manager Norway",
+      "company": "UPS",
+      "start": "1/1996",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "title": "Teamleader",
+      "company": "Securitas Nederland",
+      "start": "8/1992",
+      "end": "7/1996",
+      "current": false
+    }
+  ]
 }

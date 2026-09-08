@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator",
+      "company": "Turner Construction",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Superintendent",
+      "company": "Turner Construction",
+      "start": "6/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Analyst",
+      "company": "Turner Construction",
+      "start": "8/2020",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer",
+      "company": "Turner Construction",
+      "start": "4/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Turner Construction",
+      "start": "7/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "CBG Building",
+      "start": "5/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Turner Construction",
+      "start": "5/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Youth Counselor",
+      "company": "Project Morry",
+      "start": "6/2012",
+      "end": "8/2012",
+      "current": false
+    }
+  ]
 }

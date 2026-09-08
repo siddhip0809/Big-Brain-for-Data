@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Global Commercial Management",
+      "company": "Yondr",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Director, Emea",
+      "company": "Yondr",
+      "start": "7/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "Kier Group",
+      "start": "1/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Commercial Manager",
+      "company": "Multiplex",
+      "start": "7/2017",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Commercial Manager",
+      "company": "Multiplex",
+      "start": "2/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Multiplex",
+      "start": "8/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Willmott Dixon",
+      "start": "1/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Project Quantity Surveyor",
+      "company": "Willmott Dixon",
+      "start": "7/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "Willmott Dixon",
+      "start": "9/2011",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Management Trainee",
+      "company": "Willmott Dixon",
+      "start": "9/2007",
+      "end": "8/2011",
+      "current": false
+    }
+  ]
 }

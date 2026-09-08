@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Energy Strategic Negotiator",
+      "company": "Google",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "Google",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Energy Portfolio & Incentives Lead, Charging",
+      "company": "Tesla",
+      "start": "9/2020",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Analyst, Charging",
+      "company": "Tesla",
+      "start": "6/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Policy Associate, Business Development and Policy",
+      "company": "Tesla",
+      "start": "3/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Deputy Director, Policy & Electricity Markets",
+      "company": "SolarCity",
+      "start": "8/2016",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Regulatory Analyst, Policy & Electricity Markets",
+      "company": "SolarCity",
+      "start": "9/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "MRW & Associates",
+      "start": "8/2014",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "MRW & Associates",
+      "start": "8/2012",
+      "end": "7/2014",
+      "current": false
+    }
+  ]
 }

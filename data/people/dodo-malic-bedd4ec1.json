@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "colt-data-centre-services"
+  "current_company_id": "colt-data-centre-services",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Sales Europe & Global Accounts",
+      "company": "Colt Data Centre Services",
+      "start": "10/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Country Manager Switzerland",
+      "company": "Colt Data Centre Services",
+      "start": "8/2016",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Director Sales Europe",
+      "company": "Colt Data Centre Services",
+      "start": "8/2016",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Director Sales & Country Manager Switzerland",
+      "company": "Colt Data Centre Services",
+      "start": "10/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Director Sales Switzerland, Austria, Belgium & Netherlands, colt partner services",
+      "company": "Colt Data Centre Services",
+      "start": "12/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Director Regional Sales, colt communication services",
+      "company": "Colt Data Centre Services",
+      "start": "11/2012",
+      "end": "11/2014",
+      "current": false
+    }
+  ]
 }

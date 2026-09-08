@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "nlighten"
+  "current_company_id": "nlighten",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Hyperscale, Platform and AI Sales",
+      "company": "nLighten",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "nLighten",
+      "start": "2/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Client Director",
+      "company": "Proact IT UK",
+      "start": "6/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Major Accounts Director",
+      "company": "Sungard Availability Services UK & Ireland",
+      "start": "1/2022",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Sungard Availability Services",
+      "start": "9/2017",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Vodafone Global Enterprise",
+      "start": "5/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Phoenix IT Group",
+      "start": "5/2013",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Account Manager - Health",
+      "company": "BT Group",
+      "start": "5/2011",
+      "end": "5/2013",
+      "current": false
+    }
+  ]
 }

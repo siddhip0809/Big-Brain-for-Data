@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Pre-Construction",
+      "company": "Crusoe",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development and Construction Manager",
+      "company": "Verity Commercial",
+      "start": "2/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "T5 Data Centers",
+      "start": "5/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "6/2021",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Program Manager - Services",
+      "company": "CPG",
+      "start": "10/2013",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "McMillan Electric - Media Division",
+      "start": "1/2012",
+      "end": "9/2013",
+      "current": false
+    }
+  ]
 }

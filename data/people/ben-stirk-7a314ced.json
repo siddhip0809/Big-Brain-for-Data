@@ -50,5 +50,74 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "ark-data-centres"
+  "current_company_id": "ark-data-centres",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Head of Enterprise and AI",
+      "company": "Ark Data Centres",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Head of Data Centres",
+      "company": "Knight Frank",
+      "start": "2/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "CB Richard Ellis",
+      "start": "3/2012",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Account Manager/Technical Real Estate Advisor",
+      "company": "Cushman & Wakefield",
+      "start": "11/2010",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Cushman & Wakefield",
+      "start": "4/2007",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Surveyor",
+      "company": "Savills",
+      "start": "3/2004",
+      "end": "3/2007",
+      "current": false
+    },
+    {
+      "title": "Land Agent",
+      "company": "JM Osborne & Co",
+      "start": "6/2001",
+      "end": "2/2004",
+      "current": false
+    },
+    {
+      "title": "Client Manager",
+      "company": "Roxton Bailey Robinson",
+      "start": "3/2001",
+      "end": "6/2001",
+      "current": false
+    },
+    {
+      "title": "Logistics Manager",
+      "company": "Uncharted Africa Safaris",
+      "start": "12/1996",
+      "end": "9/1997",
+      "current": false
+    }
+  ]
 }

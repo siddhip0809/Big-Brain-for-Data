@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Director UK",
+      "company": "SWI Group",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Development Manager",
+      "company": "FTSQUARED",
+      "start": "5/2021",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Development Director",
+      "company": "North Star Investment Management",
+      "start": "1/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Director",
+      "company": "The Broadley Group",
+      "start": "3/2017",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "ICON LIMITED",
+      "start": "8/2012",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Contracts Manager",
+      "company": "FH Harvey UK",
+      "start": "5/2005",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Site Manager",
+      "company": "Laing O'Rourke",
+      "start": "5/2002",
+      "end": "5/2005",
+      "current": false
+    }
+  ]
 }

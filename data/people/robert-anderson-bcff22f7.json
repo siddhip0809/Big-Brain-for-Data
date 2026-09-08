@@ -28,5 +28,64 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Delivery Manager, NA",
+      "company": "Vantage",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, Transmission Development",
+      "company": "Invenergy",
+      "start": "9/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Real Estate Project Manager",
+      "company": "ATC",
+      "start": "8/2020",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Right of Way Agent",
+      "company": "We Energies",
+      "start": "9/2017",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Asset Management Analyst",
+      "company": "Brookdale",
+      "start": "11/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Real Estate Analyst",
+      "company": "We Energies",
+      "start": "1/2011",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "We Energies",
+      "start": "5/2008",
+      "end": "1/2011",
+      "current": false
+    },
+    {
+      "raw": "Invenergy"
+    }
+  ]
 }

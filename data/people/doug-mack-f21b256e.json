@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director, Development and Real Estate",
+      "company": "Atmosphere Data Centers",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Capital Reinvestment",
+      "company": "Irvine",
+      "start": "7/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Asset Management",
+      "company": "Irvine",
+      "start": "8/2022",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Investment Properties",
+      "company": "CB Richard Ellis",
+      "start": "2/2014",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "KBS Realty Advisors",
+      "start": "3/2010",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant, Financial Consulting Group (FCG)",
+      "company": "CB Richard Ellis",
+      "start": "6/2007",
+      "end": "3/2010",
+      "current": false
+    }
+  ]
 }

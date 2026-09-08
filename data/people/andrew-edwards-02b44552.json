@@ -28,5 +28,88 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director",
+      "company": "GWRE",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Land Acquisition - EMEA",
+      "company": "Microsoft",
+      "start": "1/2025",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "M&A Strategy EMEA - Lease and Land Development",
+      "company": "Microsoft",
+      "start": "10/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager, Data Centre Development",
+      "company": "Microsoft",
+      "start": "6/2020",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Trivandi at AE Associates",
+      "start": "2/2020",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Blenheim Chalcot at AE Associates",
+      "start": "11/2019",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Development Manager, Real Estate Development & Investment",
+      "company": "Masdar",
+      "start": "11/2013",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Manager, Property Services",
+      "company": "National Bank of Abu Dhabi / Knight Frank",
+      "start": "9/2010",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Cushman & Wakefield",
+      "start": "5/2008",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Cushman & Wakefield",
+      "start": "6/2005",
+      "end": "5/2008",
+      "current": false
+    },
+    {
+      "title": "Land Buyer",
+      "company": "St George Central London",
+      "start": "9/2002",
+      "end": "12/2004",
+      "current": false
+    }
+  ]
 }

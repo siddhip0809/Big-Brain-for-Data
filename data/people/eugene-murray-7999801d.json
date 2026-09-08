@@ -39,5 +39,102 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director",
+      "company": "NDC-GARBE Data Centers Europe",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Emea Senior Development Manager",
+      "company": "Yondr",
+      "start": "8/2021",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Emea Real Estate Transactions Manager",
+      "company": "AWS",
+      "start": "5/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Real Estate Lead, Ireland",
+      "company": "Verizon",
+      "start": "6/2018",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Real Estate Lead Ireland",
+      "company": "EY",
+      "start": "4/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Real Estate Co-ordinator UK&I",
+      "company": "EY",
+      "start": "5/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Real Estate Co Ordinator Uk & I",
+      "company": "EY",
+      "start": "5/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Property Manager",
+      "company": "North City Business Centre",
+      "start": "9/2012",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Business Development Coordinator",
+      "company": "Companyregistry.Eu",
+      "start": "7/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Property Executive",
+      "company": "The Ortus Group",
+      "start": "8/2010",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Business Development Coordinator And Fire Risk Assessor",
+      "company": "Fire Risk N I",
+      "start": "8/2010",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Estates Officer",
+      "company": "Andras House",
+      "start": "8/2008",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Estates Officer",
+      "company": "Andras House Hotels",
+      "start": "8/2008",
+      "end": "8/2009",
+      "current": false
+    }
+  ]
 }

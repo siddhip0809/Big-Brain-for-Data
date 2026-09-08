@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President",
+      "company": "AFCOM Florida",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Project Manager - Construction",
+      "company": "CoreSite",
+      "start": "1/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Program Manager - OCI New Region Build",
+      "company": "Oracle",
+      "start": "6/2022",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Program Manager - Data Center Design Standards",
+      "company": "Meta at OAC Services",
+      "start": "1/2022",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager - Construction",
+      "company": "CoreSite",
+      "start": "1/2018",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Capacity Planner",
+      "company": "CoreSite",
+      "start": "12/2013",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "CAD Technician/Team Lead",
+      "company": "JLL",
+      "start": "5/2005",
+      "end": "8/2012",
+      "current": false
+    }
+  ]
 }

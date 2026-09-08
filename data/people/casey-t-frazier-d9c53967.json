@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Sr Real Estate Development Mgr",
+      "company": "AWS",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Architect/Construction Manager",
+      "company": "Seven Generations Architecture and Engineering",
+      "start": "7/2018",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Planning & Development Manager",
+      "company": "JFW",
+      "start": "10/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Planning & Development Architect",
+      "company": "EDENS",
+      "start": "10/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Jacobs",
+      "start": "2/2008",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Design Architect",
+      "company": "Perkins Eastman",
+      "start": "9/2005",
+      "end": "2/2008",
+      "current": false
+    }
+  ]
 }

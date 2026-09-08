@@ -28,5 +28,85 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "President ",
+      "company": "Compass Datacenters",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President and Chief Development Officer",
+      "company": "Compass Datacenters",
+      "start": "8/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President and CEO",
+      "company": "ROOT Data Center",
+      "start": "9/2015",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "JEDTech Group",
+      "start": "9/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President",
+      "company": "Rogers Data Centres",
+      "start": "11/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "BLACKIRON Data",
+      "start": "8/2012",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Executive Vice President, Business Services",
+      "company": "Primus Telecommunications Group",
+      "start": "12/2010",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Executive Vice President, Operations",
+      "company": "Primus",
+      "start": "3/2009",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Sr.VP, Business Services",
+      "company": "Primus",
+      "start": "1/2004",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Chief Operating Officer",
+      "company": "Magma Communications",
+      "start": "1/1996",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "raw": "Compass Datacenters"
+    }
+  ]
 }

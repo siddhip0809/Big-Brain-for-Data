@@ -28,5 +28,56 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Site Acquisition",
+      "company": "Edged",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Manager of Site Acquisitions",
+      "company": "Edged",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP of Real Estate",
+      "company": "Evoque Data Center Solutions",
+      "start": "9/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "New Region Strategy & Planning Mgr. - Global Public Sector",
+      "company": "AWS",
+      "start": "1/2019",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Data Center Solutions",
+      "company": "CBRE",
+      "start": "9/2015",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "JLL",
+      "start": "3/2009",
+      "end": "9/2015",
+      "current": false
+    }
+  ]
 }

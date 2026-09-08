@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction NA / Production and Execution",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Currie & Brown",
+      "start": "8/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Technical Program Manager",
+      "company": "Microsoft",
+      "start": "2/2024",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager - OAI lead planner",
+      "company": "Microsoft",
+      "start": "3/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "MEP CM/EM MSFT/AECOM",
+      "company": "AECOM/Microsoft",
+      "start": "3/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Test Engineer",
+      "company": "Team Corporation/SAIC",
+      "start": "2/2009",
+      "end": "4/2013",
+      "current": false
+    }
+  ]
 }

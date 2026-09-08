@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "DPR Construction",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "DPR Construction",
+      "start": "6/2019",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Helix Electric",
+      "start": "9/2016",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Helix Electric",
+      "start": "3/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Helix Electric",
+      "start": "4/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Electrical Cost Estimator",
+      "company": "Mona Electric Group",
+      "start": "5/2013",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Electrical Cost Estimator",
+      "company": "Rosendin Electric",
+      "start": "4/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager/Junior Estimator",
+      "company": "Electric Technologies",
+      "start": "1/2012",
+      "end": "3/2012",
+      "current": false
+    }
+  ]
 }

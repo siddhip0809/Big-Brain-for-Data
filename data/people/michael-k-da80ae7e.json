@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Energy Strategy",
+      "company": "Skybox Datacenters",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Gas Planner",
+      "company": "Vantage",
+      "start": "1/2024",
+      "end": "12/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Structurer",
+      "company": "Gas South",
+      "start": "1/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Refined Products Broker",
+      "company": "Oil Brokerage",
+      "start": "1/2020",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Crude Oil Scheduler",
+      "company": "Shell",
+      "start": "1/2019",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Business Development Analyst",
+      "company": "Energy Transfer",
+      "start": "1/2017",
+      "end": "12/2019",
+      "current": false
+    }
+  ]
 }

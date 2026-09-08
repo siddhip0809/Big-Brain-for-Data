@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Group Director, Commercial",
+      "company": "Global Switch",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Director - Group",
+      "company": "Global Switch",
+      "start": "7/2021",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Commercial Director - Europe",
+      "company": "Global Switch",
+      "start": "10/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Director - Investment Valuation",
+      "company": "CBRE",
+      "start": "11/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Director - Head of EMEA Valuation",
+      "company": "Colliers",
+      "start": "5/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Director - Data Centres",
+      "company": "JLL",
+      "start": "1/2017",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Director - Head of Data Centre Valuation",
+      "company": "CBRE",
+      "start": "1/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Director - Central London Valuation",
+      "company": "CBRE",
+      "start": "9/2003",
+      "end": "12/2013",
+      "current": false
+    }
+  ]
 }

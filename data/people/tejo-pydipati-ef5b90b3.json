@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "CTO",
+      "company": "Stream Data Centers",
+      "start": "6/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "DPR Construction",
+      "start": "8/2012",
+      "end": "6/2021",
+      "current": false
+    }
+  ]
 }

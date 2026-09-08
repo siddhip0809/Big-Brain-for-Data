@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Revenue Officer",
+      "company": "Apto",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director - Global Account Management and Strategic Alliances",
+      "company": "Equinix",
+      "start": "12/2019",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Strategic Alliances Director, EMEA",
+      "company": "Equinix",
+      "start": "1/2017",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Global Account Director, Cloud Service Providers",
+      "company": "Equinix",
+      "start": "11/2014",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Global Account Director, Financial Services and Enterprise",
+      "company": "Equinix",
+      "start": "1/2012",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Global Account Director, JP Morgan Chase",
+      "company": "BT Group",
+      "start": "6/2010",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Account Manager, Bank of America Merrill Lynch",
+      "company": "BT Group",
+      "start": "7/2007",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "Account Manager, Global Accounts",
+      "company": "BT Group",
+      "start": "1/2005",
+      "end": "7/2007",
+      "current": false
+    },
+    {
+      "title": "Account Executive, BT Retail",
+      "company": "BT Group",
+      "start": "9/2002",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Marketing Executive, IBM France",
+      "company": "IBM",
+      "start": "1/2000",
+      "end": "8/2000",
+      "current": false
+    }
+  ]
 }

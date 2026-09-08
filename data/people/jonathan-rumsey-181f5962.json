@@ -28,5 +28,81 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President Development",
+      "company": "Vantage",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Investment",
+      "company": "NTT",
+      "start": "7/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Director Expansion & Strategy",
+      "company": "NTT",
+      "start": "4/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Real Estate Acquisitions",
+      "company": "AtlasEdge",
+      "start": "1/2024",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Real Estate Acquisitions",
+      "company": "AtlasEdge",
+      "start": "9/2021",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Global Commercial Real Estate Strategy, Director",
+      "company": "Liberty Global",
+      "start": "8/2017",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Cushman & Wakefield",
+      "start": "5/2013",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Research Analyst, Retail Research and Consultancy",
+      "company": "Cushman & Wakefield",
+      "start": "3/2011",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Research Analyst",
+      "company": "Cushman & Wakefield",
+      "start": "3/2010",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Transport Planner",
+      "company": "Paul Mew Associates",
+      "start": "11/2007",
+      "end": "3/2010",
+      "current": false
+    }
+  ]
 }

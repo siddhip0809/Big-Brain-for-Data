@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "CoreSite",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP of Construction",
+      "company": "Self-employed",
+      "start": "5/2024",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President, Central Region",
+      "company": "Digital Realty",
+      "start": "5/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Of Construction, Central Region",
+      "company": "Digital Realty",
+      "start": "5/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction, Central Region",
+      "company": "Digital Realty",
+      "start": "5/2012",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Delivery Manager",
+      "company": "Digital Realty",
+      "start": "8/2010",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Rubicon Professional Services",
+      "start": "2/2008",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "M C Dean",
+      "start": "8/2004",
+      "end": "1/2008",
+      "current": false
+    }
+  ]
 }

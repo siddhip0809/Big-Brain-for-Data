@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Data Center Infrastructure Management  - Delivery",
+      "company": "QTS Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategy and Programmatic Lead|Meta",
+      "company": "Meta",
+      "start": "2/2012",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Program and Strategy Lead",
+      "company": "Meta",
+      "start": "2/2012",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Global Strategy Lead/Design Leadership Team",
+      "company": "Meta",
+      "start": "2/2012",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Service Controls Manager",
+      "company": "Mechanical Systems and Services",
+      "start": "3/2011",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Hoffman Construction",
+      "start": "3/2001",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Electrician",
+      "company": "Barnhart Electric",
+      "start": "6/1992",
+      "end": "2/2001",
+      "current": false
+    }
+  ]
 }

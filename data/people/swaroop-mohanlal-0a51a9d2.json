@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Meta",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "AECOM",
+      "start": "5/2014",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "McCarthy Building Companies",
+      "start": "3/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer LEED AP BD+C",
+      "company": "McCarthy Building Companies",
+      "start": "9/2011",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "McCarthy Building Companies",
+      "start": "9/2010",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, LEED AP",
+      "company": "McCarthy Building Companies",
+      "start": "10/2008",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Field Engineer Preventive Maintenance",
+      "company": "Physical Plant Texas A&M University",
+      "start": "6/2007",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Intern (part time)",
+      "company": "RM Dudley Construction",
+      "start": "5/2007",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Graduate Assistant (Teaching)",
+      "company": "Texas A&M University",
+      "start": "9/2006",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Architect - Lighting Design",
+      "company": "Advanced Lighting Concepts",
+      "start": "4/2004",
+      "end": "5/2005",
+      "current": false
+    },
+    {
+      "title": "Principal Architect",
+      "company": "Spawn",
+      "start": "8/2003",
+      "end": "5/2006",
+      "current": false
+    }
+  ]
 }

@@ -50,5 +50,138 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "quantum-switch"
+  "current_company_id": "quantum-switch",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Director",
+      "company": "Quantum Switch",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Corporate Development",
+      "company": "Quantum Switch",
+      "start": "2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Strategy Lead, Non-Retail",
+      "company": "HSBC Bank - Brasil",
+      "start": "11/2019",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Location Strategy",
+      "company": "Barclays",
+      "start": "3/2019",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Global Strategy Lead, Office & Data Centres",
+      "company": "HSBC",
+      "start": "2019",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Workplace Management",
+      "company": "King",
+      "start": "8/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Real Estate Strategy",
+      "company": "Barclays",
+      "start": "2/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Capital Projects",
+      "company": "Barclays",
+      "start": "7/2016",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Barclays Location Strategy",
+      "start": "2016",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager, Associate Director",
+      "company": "CB Richard Ellis",
+      "start": "8/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Business Analyst",
+      "company": "CB Richard Ellis",
+      "start": "1/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Business Analyst",
+      "company": "CBRE",
+      "start": "2015",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager, Associate Director",
+      "company": "CBRE",
+      "start": "2015",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Equinix at CB Richard Ellis",
+      "start": "8/2014",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "CB Richard Ellis",
+      "start": "1/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Business Analyst",
+      "company": "CBRE",
+      "start": "2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "CB Richard Ellis",
+      "start": "9/2011",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor to Senior Surveyor",
+      "company": "CBRE",
+      "start": "2011",
+      "end": "2014",
+      "current": false
+    }
+  ]
 }

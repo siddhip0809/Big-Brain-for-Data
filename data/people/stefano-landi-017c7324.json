@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Sales",
+      "company": "Cisco Systems",
+      "start": "1/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Key Account Manager",
+      "company": "Cisco Systems",
+      "start": "2007",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Cisco Systems",
+      "start": "2004",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "System Engineering Consultant",
+      "company": "Cisco Systems",
+      "start": "2000",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "Senior System Engineer",
+      "company": "Cisco Systems",
+      "start": "1996",
+      "end": "2000",
+      "current": false
+    },
+    {
+      "title": "Network System Engineer",
+      "company": "IBM",
+      "start": "1993",
+      "end": "1996",
+      "current": false
+    },
+    {
+      "title": "Analyst/Programmer CAD technology",
+      "company": "IBM",
+      "start": "1989",
+      "end": "1993",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator/ Project Manager",
+      "company": "Rosendin Electric",
+      "start": "10/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Low Voltage Project Manager",
+      "company": "Sprig Electric",
+      "start": "4/2014",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Field Supervisor",
+      "company": "Red Rock Security and Cable",
+      "start": "4/2012",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "Allitech Services",
+      "start": "12/2008",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Dynalectric San Francisco",
+      "start": "2006",
+      "end": "2008",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Touchcom",
+      "start": "2002",
+      "end": "2006",
+      "current": false
+    }
+  ]
 }

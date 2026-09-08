@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director of Construction",
+      "company": "Vantage",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Unemployed",
+      "company": "Seeking a New Opportunity in the construction industry",
+      "start": "3/2022",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Data Center Development Program Manager",
+      "company": "Microsoft",
+      "start": "8/2017",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "General Superintendent",
+      "company": "M A Mortenson",
+      "start": "5/2013",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Fortis",
+      "start": "7/2011",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Ryan Companies US",
+      "start": "7/1998",
+      "end": "7/2011",
+      "current": false
+    }
+  ]
 }

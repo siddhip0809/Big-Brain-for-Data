@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Business Development Department",
+      "company": "APL expert en data centers",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Director",
+      "company": "APL expert en data centers",
+      "start": "2/2025",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Business Development Director - Turnkey Data Center",
+      "company": "APL expert en data centers",
+      "start": "5/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager E&I - Data Center France",
+      "company": "Hilti France",
+      "start": "7/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Responsable Commercial DR - Data Center, Tertiaire et Industrie",
+      "company": "VINCI Energies",
+      "start": "2/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager - Data Center",
+      "company": "VINCI Energies",
+      "start": "1/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Ingénieur Commercial Data Center",
+      "company": "JERLAURE",
+      "start": "10/2015",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Responsable de Secteur 19\" - Marché Data Center",
+      "company": "ATOS Racks",
+      "start": "7/2010",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Responsable Commercial Secteur",
+      "company": "RITTAL FR",
+      "start": "9/2005",
+      "end": "7/2010",
+      "current": false
+    }
+  ]
 }

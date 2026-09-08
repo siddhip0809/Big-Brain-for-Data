@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Real Estate Development Manager, Data Center Supply Solutions (EMEA)",
+      "company": "AWS",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Silvertip Capital",
+      "start": "10/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Technical Senior Investment Manager",
+      "company": "Ardian",
+      "start": "10/2021",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Asset Manager / Leader Technical Asset Management Germany, Luxembourg, Scandinavia and NL",
+      "company": "Curzon Advisers",
+      "start": "10/2015",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Director Technical Asset Management",
+      "company": "GE Real Estate",
+      "start": "3/2012",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Technical Asset Manager",
+      "company": "Fortress Investment Group",
+      "start": "8/2006",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Projekt Manager",
+      "company": "Arcadis Homola",
+      "start": "6/2002",
+      "end": "7/2006",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "WPV Baubetreuung",
+      "start": "6/2000",
+      "end": "5/2002",
+      "current": false
+    },
+    {
+      "raw": "AWS"
+    },
+    {
+      "raw": "Silvertip Capital"
+    }
+  ]
 }

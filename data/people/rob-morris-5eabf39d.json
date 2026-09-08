@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Data Center Product Council, Assistant Chair",
+      "company": "Urban Land Institute",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Executive Officer",
+      "company": "Skybox Datacenters",
+      "start": "6/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Partner",
+      "company": "Rugen Street Capital",
+      "start": "5/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President, Principal",
+      "company": "Cassidy Turley",
+      "start": "8/2011",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Cushman & Wakefield",
+      "start": "5/2008",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Oldham Goodwin Group",
+      "start": "2007",
+      "end": "2008",
+      "current": false
+    }
+  ]
 }

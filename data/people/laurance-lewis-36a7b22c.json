@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Global Commercial Officer",
+      "company": "NTT",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Advisory Board Member",
+      "company": "Metro Edge Development Partners",
+      "start": "8/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Managing Member",
+      "company": "Ruby Ventures",
+      "start": "7/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Advisory Board Member",
+      "company": "AVAIO Digital Partners",
+      "start": "7/2024",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Advisory Board Member",
+      "company": "Crosstown Fiber",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Commercial Officer (CCO)",
+      "company": "AVAIO Digital Partners",
+      "start": "7/2022",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Principal/Director & Regional Lead",
+      "company": "Microsoft",
+      "start": "1/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director, Site Selection & Acquisition",
+      "company": "Microsoft",
+      "start": "9/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Site Selection Manager",
+      "company": "Microsoft",
+      "start": "9/2017",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "COMDESCO",
+      "start": "4/2010",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Fund Manager",
+      "company": "Ten X Capital Partners",
+      "start": "1/2006",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "Aggregate Networks",
+      "start": "1/2001",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "Corporate Site Selectors",
+      "start": "9/1998",
+      "end": "9/2017",
+      "current": false
+    }
+  ]
 }

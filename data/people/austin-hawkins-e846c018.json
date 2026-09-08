@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director of Development",
+      "company": "Edged",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Acquisition",
+      "company": "Edged",
+      "start": "3/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Capital Markets",
+      "company": "Edged",
+      "start": "10/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Structured Finance Analyst - MBS/ABS",
+      "company": "EY",
+      "start": "9/2020",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Structured Finance Summer Analyst - MBS/ABS",
+      "company": "EY",
+      "start": "6/2019",
+      "end": "8/2019",
+      "current": false
+    }
+  ]
 }

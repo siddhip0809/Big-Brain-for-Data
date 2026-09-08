@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "The Weitz Company",
+      "start": "7/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "GH Phipps Construction Companies",
+      "start": "3/1999",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Director",
+      "company": "McCarthy Building Companies",
+      "start": "1/1994",
+      "end": "3/1999",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "GH Phipps Construction Companies",
+      "start": "10/1992",
+      "end": "1/1994",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "3/1990",
+      "end": "9/1992",
+      "current": false
+    }
+  ]
 }

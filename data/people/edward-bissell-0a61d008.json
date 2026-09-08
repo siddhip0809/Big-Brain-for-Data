@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Stellium Data Centres - The Data Meridian",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "International Data Centre Sales, Iron Mountain UK Ltd",
+      "company": "Iron Mountian",
+      "start": "5/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Next Generation Data",
+      "start": "12/2016",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Enterprise Business Manager",
+      "company": "China Telecom Europe",
+      "start": "9/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Singtel",
+      "start": "3/2013",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "euNetworks",
+      "start": "6/2009",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Regional Corporate Sales Manager",
+      "company": "Daimler",
+      "start": "3/2007",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Corporate sales manager",
+      "company": "Ipitomi",
+      "start": "2004",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Data Return",
+      "start": "4/1999",
+      "end": "7/2004",
+      "current": false
+    },
+    {
+      "title": "Trader support",
+      "company": "Tullett Prebon",
+      "start": "7/1994",
+      "end": "2/1999",
+      "current": false
+    }
+  ]
 }

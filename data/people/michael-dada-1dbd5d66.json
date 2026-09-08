@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site Selection & Colocation",
+      "company": "Nebius",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Centre Consultant",
+      "company": "Freelance",
+      "start": "11/2025",
+      "end": "8/2026",
+      "current": false
+    },
+    {
+      "title": "Managing Director / General Manager",
+      "company": "VIRTUS Data Centers Germany",
+      "start": "2024",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Academic teacher",
+      "company": "IU University",
+      "start": "2023",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "CBRE",
+      "start": "2019",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "CBRE",
+      "start": "2016",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Consultant - Associate Director",
+      "company": "CBRE",
+      "start": "2013",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Trainee",
+      "company": "CBRE",
+      "start": "2011",
+      "end": "2011",
+      "current": false
+    }
+  ]
 }

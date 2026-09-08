@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstrction - Healthcare",
+      "company": "Hensel Phelps",
+      "start": "5/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP - Operations - Hospital Facility Development",
+      "company": "Hammes",
+      "start": "4/2006",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Estimator/ Project Manager",
+      "company": "Calcon Constructors",
+      "start": "5/1985",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "Project Manger",
+      "company": "Calcon Constructors",
+      "start": "1985",
+      "end": "2000",
+      "current": false
+    }
+  ]
 }

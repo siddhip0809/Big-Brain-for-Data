@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "10/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "3/2014",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Hensel Phelps",
+      "start": "11/2012",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "All Action Architectural Metal and Glass",
+      "start": "12/2011",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Designer",
+      "company": "Independent Design Consultant",
+      "start": "10/2011",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Office and Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "7/2007",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Construction Intern",
+      "company": "Struever Bros Eccles & Rouse",
+      "start": "5/2006",
+      "end": "2/2007",
+      "current": false
+    }
+  ]
 }

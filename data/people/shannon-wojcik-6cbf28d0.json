@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Energy Program Manager, Nordics Energy Lead",
+      "company": "Microsoft",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Marketing Lead",
+      "company": "Keewi",
+      "start": "4/2018",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Schneider Sustainable Energy Fellow",
+      "company": "Union of Concerned Scientists",
+      "start": "7/2017",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Arizona State University",
+      "start": "1/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Sustainability Intern",
+      "company": "Flavor & Fragrance Specialties",
+      "start": "6/2015",
+      "end": "1/2016",
+      "current": false
+    }
+  ]
 }

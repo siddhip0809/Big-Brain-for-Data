@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Manager",
+      "company": "Rosendin",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Rosendin",
+      "start": "1/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Rosendin",
+      "start": "7/2021",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Rosendin",
+      "start": "2/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Estimator",
+      "company": "Rosendin",
+      "start": "8/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Intern Estimator",
+      "company": "Rosendin",
+      "start": "5/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "IT Specialist",
+      "company": "Corovan",
+      "start": "3/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager Intern",
+      "company": "Rosendin",
+      "start": "5/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Floor Team Member",
+      "company": "Toys R Us",
+      "start": "8/2015",
+      "end": "2/2016",
+      "current": false
+    }
+  ]
 }

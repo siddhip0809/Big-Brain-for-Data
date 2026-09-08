@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director PreDevelopment - Europe",
+      "company": "QTS Data Centers",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director Data Centers",
+      "company": "Aliseda Inmobiliaria",
+      "start": "5/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Head of Sales & Pre-Sales & Marketing",
+      "company": "DATA4",
+      "start": "9/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Manager Sales & Customer Services",
+      "company": "Global Switch",
+      "start": "4/2018",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Manager Customer Services & Projects",
+      "company": "Global Switch",
+      "start": "11/2010",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Technical Project Manager",
+      "company": "Krohne",
+      "start": "11/2008",
+      "end": "10/2010",
+      "current": false
+    },
+    {
+      "title": "Site/Construction Project Manager",
+      "company": "Grupo Cobra",
+      "start": "3/2007",
+      "end": "10/2008",
+      "current": false
+    }
+  ]
 }

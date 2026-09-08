@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Equinix",
+      "start": "4/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Dell Technologies",
+      "start": "11/2018",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Dell Technologies",
+      "start": "3/2015",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "T-Systems International",
+      "start": "2/2000",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Self-Dependence",
+      "company": "Siemens",
+      "start": "1/1995",
+      "end": "1/2000",
+      "current": false
+    },
+    {
+      "title": "Working Student",
+      "company": "IKEA",
+      "start": "9/1991",
+      "end": "12/1994",
+      "current": false
+    }
+  ]
 }

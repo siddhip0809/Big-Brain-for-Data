@@ -39,5 +39,46 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Energy & Utilities",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Data Centre Energy & Location Strategy - EMEA",
+      "company": "Google",
+      "start": "8/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of EMEA Energy Partnerships - Nest & Google Hardware",
+      "company": "Google",
+      "start": "1/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "European Energy Partnerships Manager",
+      "company": "Nest Labs",
+      "start": "3/2014",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Vestas",
+      "start": "2/2009",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Senvion France SAS",
+      "start": "2/2007",
+      "end": "2/2009",
+      "current": false
+    }
+  ]
 }

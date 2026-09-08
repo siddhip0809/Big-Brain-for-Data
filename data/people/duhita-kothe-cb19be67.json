@@ -28,5 +28,106 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Pre-Construction"
+    },
+    {
+      "title": "Digital Infrastructure Group",
+      "company": "Crusoe",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Co-founder/Go-To-Market (Advisor)",
+      "company": "Puppet Robotics",
+      "start": "7/2025",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "GCI General Contractors",
+      "start": "9/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Design Manager",
+      "company": "DPR Construction",
+      "start": "7/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Industry Mentor",
+      "company": "Formwork Labs",
+      "start": "1/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Engineer",
+      "company": "DPR Construction",
+      "start": "7/2020",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Preconstruction",
+      "company": "DPR Construction",
+      "start": "1/2020",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Project Engineer- Intern",
+      "company": "DPR Construction",
+      "start": "5/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "DPR Construction",
+      "start": "5/2016",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Lab assistant",
+      "company": "ITaP at Purdue University",
+      "start": "10/2015",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Graduate Trainee Designer",
+      "company": "STUP Consultants P",
+      "start": "2/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Graduate Trainee Engineer",
+      "company": "Dorsch Consult-India",
+      "start": "8/2014",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Godrej & Boyce Mfg Co",
+      "start": "6/2013",
+      "end": "6/2013",
+      "current": false
+    }
+  ]
 }

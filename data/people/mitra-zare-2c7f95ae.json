@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Development DACH",
+      "company": "CloudHQ",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Delivery Central",
+      "company": "STACK EMEA",
+      "start": "5/2023",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Business Critical Solutions",
+      "start": "11/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Global Data Centers EMEA NTT",
+      "start": "2/2020",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Fit-out Project Lead",
+      "company": "e-shelter",
+      "start": "1/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Site Manager CSA",
+      "company": "e-shelter",
+      "start": "5/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "PCM Project & Construction Management",
+      "start": "11/2013",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Site Manager CSA",
+      "company": "BeyeScheid Architekten",
+      "start": "7/2011",
+      "end": "4/2013",
+      "current": false
+    }
+  ]
 }

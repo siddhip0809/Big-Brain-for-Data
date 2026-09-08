@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Operations & Facilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Execution & Operational Planning",
+      "company": "Microsoft",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Lease Data Center Construction - Americas",
+      "company": "Microsoft",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Lease Data Center Construction - US West & Canada",
+      "company": "Microsoft",
+      "start": "9/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "DCD Regional Construction PM",
+      "company": "Microsoft",
+      "start": "11/2019",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "PETRA",
+      "start": "3/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Pavilion Construction",
+      "start": "5/2016",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Express Construction Company",
+      "start": "1/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Alegis Construction",
+      "start": "4/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "SD Deacon",
+      "start": "4/2011",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Superintendent & Project Manager",
+      "company": "Siemon J Investments",
+      "start": "1/2001",
+      "end": "12/2007",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "CoreSite",
+      "start": "12/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales Director",
+      "company": "Clari",
+      "start": "3/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Executive",
+      "company": "iCIMS",
+      "start": "1/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Global Account Executive",
+      "company": "New Relic",
+      "start": "5/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "SmartZip",
+      "start": "6/2012",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Physician Account Executive",
+      "company": "Quest Diagnostics",
+      "start": "1/2008",
+      "end": "6/2012",
+      "current": false
+    }
+  ]
 }

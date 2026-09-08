@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Switch",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Switch",
+      "start": "11/2021",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Constructiv Builders",
+      "start": "1/2021",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "JE Dunn Construction",
+      "start": "7/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Data Foundry",
+      "start": "2/2019",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "MEP Project Manager",
+      "company": "Data Foundry",
+      "start": "4/2016",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Procurement Manager",
+      "company": "Genentech",
+      "start": "3/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "XL Construction",
+      "start": "2/2012",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Engineer",
+      "company": "Gilbane Building",
+      "start": "11/2007",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "McGough",
+      "start": "7/2005",
+      "end": "11/2007",
+      "current": false
+    },
+    {
+      "title": "Construction Superintendent",
+      "company": "Pulte Group",
+      "start": "9/2004",
+      "end": "7/2005",
+      "current": false
+    },
+    {
+      "title": "Surface Warfare Officer",
+      "company": "US Navy",
+      "start": "6/2000",
+      "end": "9/2004",
+      "current": false
+    }
+  ]
 }

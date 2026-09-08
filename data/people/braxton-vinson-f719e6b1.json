@@ -28,5 +28,66 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Large Projects - Project Controls Leader",
+      "company": "DPR Construction",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Controls Account Lead",
+      "company": "DPR Construction",
+      "start": "7/2019",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Project Cost Manager",
+      "company": "DPR Construction",
+      "start": "9/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "8/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "DPR Construction",
+      "start": "5/2011",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineering Intern",
+      "company": "Scott Long Construction",
+      "start": "6/2010",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Transportation Group Design Intern",
+      "company": "AECOM",
+      "start": "5/2009",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Controls Manager",
+      "company": "DPR Construction",
+      "current": false
+    }
+  ]
 }

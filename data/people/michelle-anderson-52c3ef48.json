@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Manager, AWS Real Estate and Development",
+      "company": "AWS",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Business Development Manager",
+      "company": "AWS",
+      "start": "4/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Data Center Expansion Manager   Tech",
+      "company": "AWS",
+      "start": "12/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Data Center Expansion Manager",
+      "company": "AWS",
+      "start": "7/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Leasing Manager",
+      "company": "Signet Jewelers",
+      "start": "5/2017",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Real Estate Representative",
+      "company": "Signet Jewelers",
+      "start": "8/2014",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Leasing Coordinator",
+      "company": "Signet Jewelers",
+      "start": "12/2011",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Real Estate Administrator",
+      "company": "Signet Jewelers",
+      "start": "1/2010",
+      "end": "12/2011",
+      "current": false
+    }
+  ]
 }

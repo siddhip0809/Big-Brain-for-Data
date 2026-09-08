@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "vantage"
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Construction Cost",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Accountant",
+      "company": "Vantage",
+      "start": "2/2025",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Cost Analyst",
+      "company": "Vantage",
+      "start": "12/2022",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Management Coordinator",
+      "company": "Baceline Group",
+      "start": "1/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Management Adminstrator",
+      "company": "Baceline Group",
+      "start": "9/2019",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Security Professional",
+      "company": "Mackintosh Security",
+      "start": "5/2017",
+      "end": "12/2019",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,95 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "virtus-data-centers"
+  "current_company_id": "virtus-data-centers",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director, Real Estate Expansion EMEA VIRTUS",
+      "company": "Virtus Data Centers",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Data Centers Europe",
+      "company": "Prologis",
+      "start": "12/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "EMEA Manager Real Estate",
+      "company": "AWS",
+      "start": "9/2017",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Principal EMEA Real Estate",
+      "company": "Amazon",
+      "start": "10/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Acquisition and Asset Manager - UK Real Estate",
+      "company": "Amazon",
+      "start": "9/2012",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Property Manager, Retail Development",
+      "company": "John Lewis",
+      "start": "9/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Head of Property",
+      "company": "Wincanton",
+      "start": "5/2011",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Property Development Manager",
+      "company": "Wincanton",
+      "start": "10/2006",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Property Manager",
+      "company": "Wincanton",
+      "start": "1/2004",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Acquisition Manager",
+      "company": "CPS Global",
+      "start": "2/2001",
+      "end": "1/2004",
+      "current": false
+    },
+    {
+      "title": "Agency Surveyor",
+      "company": "Dreweatt Neate",
+      "start": "1/1999",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Estates Manager",
+      "company": "UKAEA Harwell International Business Centre",
+      "start": "9/1995",
+      "end": "12/1999",
+      "current": false
+    }
+  ]
 }

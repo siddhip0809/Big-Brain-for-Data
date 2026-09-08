@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Leasing",
+      "company": "Sabey Data Centers",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development, Strategic Sales",
+      "company": "Kobai",
+      "start": "6/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Vice President",
+      "company": "Nai Puget Sound Properties",
+      "start": "6/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Strategic Advisor",
+      "company": "Trueline Capital",
+      "start": "1/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Founder, Principal, Chairman",
+      "company": "Active Outdoor Media Limited",
+      "start": "1/2006",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Investment Banker, Principal",
+      "company": "Liberty Pacific Capital",
+      "start": "1/2002",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Strategic Sales, Business Development",
+      "company": "Exodus Communications",
+      "start": "7/1996",
+      "end": "6/2001",
+      "current": false
+    },
+    {
+      "title": "Co Founder, Business Development",
+      "company": "Activate.Net",
+      "start": "7/1996",
+      "end": "12/1997",
+      "current": false
+    },
+    {
+      "title": "Business Development, Sales Director",
+      "company": "Wolfe Internet",
+      "start": "1/1994",
+      "end": "6/1996",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Cellular Networks",
+      "start": "6/1991",
+      "end": "12/1993",
+      "current": false
+    }
+  ]
 }

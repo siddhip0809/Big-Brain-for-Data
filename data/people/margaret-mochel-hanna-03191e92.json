@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "TDIndustries",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "TDIndustries",
+      "start": "10/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator III",
+      "company": "TDIndustries",
+      "start": "1/2022",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator II",
+      "company": "TDIndustries",
+      "start": "1/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "TDIndustries",
+      "start": "6/2015",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Student Intern",
+      "company": "TDIndustries",
+      "start": "5/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Business Marketing Student Intern",
+      "company": "AT&T",
+      "start": "6/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

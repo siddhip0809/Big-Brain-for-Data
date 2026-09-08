@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Adolfson & Peterson Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "Adolfson & Peterson Construction",
+      "start": "9/2015",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager, LEED:registered: AP",
+      "company": "I-Kota",
+      "start": "3/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "PreConstruction Services, LEED:registered: AP",
+      "company": "GE Johnson Construction",
+      "start": "6/2008",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Erickson Construction",
+      "start": "2004",
+      "end": "2008",
+      "current": false
+    }
+  ]
 }

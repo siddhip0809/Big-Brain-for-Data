@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Hyperscale",
+      "company": "EdgeConneX",
+      "start": "2/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "GM & VP Business Development",
+      "company": "EdgeConneX",
+      "start": "7/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "VP, Service Provider Solutions",
+      "company": "EdgeConneX",
+      "start": "2/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "VP, TV Activation Group: MVPDs & Agencies",
+      "company": "4C Insights / FourthWall Media",
+      "start": "1/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "VP, North American Cable Sales",
+      "company": "Metaswitch Networks",
+      "start": "3/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Regional Director of Sales",
+      "company": "BTI systems",
+      "start": "3/2010",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Software Applications Sales",
+      "company": "Alcatel-Lucent",
+      "start": "8/2008",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Director",
+      "company": "Alcatel-Lucent",
+      "start": "7/2004",
+      "end": "8/2008",
+      "current": false
+    }
+  ]
 }

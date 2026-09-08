@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President & Global Managing Director, Platform Alliances",
+      "company": "Equinix",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales Leader, West Strategic Accounts",
+      "company": "Equinix",
+      "start": "6/2021",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales, West",
+      "company": "Netrality Data Centers",
+      "start": "9/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Strategic Enterprise",
+      "company": "Lumen Technologies",
+      "start": "1/2018",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Director, Strategic Enterprise Sales",
+      "company": "Global Crossing",
+      "start": "3/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Account Director",
+      "company": "Global Crossing",
+      "start": "8/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Client Director",
+      "company": "NTT",
+      "start": "11/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Equant",
+      "start": "1/2006",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Data Return",
+      "start": "1/1997",
+      "end": "12/2006",
+      "current": false
+    }
+  ]
 }

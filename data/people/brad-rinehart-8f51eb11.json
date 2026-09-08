@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Projects Control Manager",
+      "company": "Prime Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "ZAP Engineering & Construction Services",
+      "start": "2/2024",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Strategic Planning Director",
+      "company": "Camp Construction Services",
+      "start": "1/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Parkwood Homes",
+      "start": "1/2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Land Development & Preconstruction Manager",
+      "company": "Strategic Acquisitions / BDR Construction",
+      "start": "1/2015",
+      "end": "1/2020",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction - Electrical",
+      "company": "Skanska",
+      "start": "11/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Electrical Estimator",
+      "company": "Truland Systems",
+      "start": "2014",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming Construction Management",
+      "start": "2014",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Chief Electrical Estimator",
+      "company": "Atlantic Constructors",
+      "start": "2009",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "M&E Contractors",
+      "start": "2006",
+      "end": "2009",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "United Electric Supply",
+      "start": "2004",
+      "end": "2006",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "RTL Electric",
+      "start": "2001",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Jerrit Electric",
+      "start": "1996",
+      "end": "2001",
+      "current": false
+    },
+    {
+      "title": "Electrician",
+      "company": "US Navy",
+      "start": "1992",
+      "end": "1996",
+      "current": false
+    }
+  ]
 }

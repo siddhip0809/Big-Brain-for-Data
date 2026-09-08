@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site Acquisition and Leasing Manager",
+      "company": "AWS",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Acquisition Associate - Data Centers Supply Strategy",
+      "company": "AWS",
+      "start": "5/2024",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Lead Technical Project Manager",
+      "company": "DEPT®",
+      "start": "7/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Palantir Technologies",
+      "start": "1/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Business Operations Manager",
+      "company": "Palantir Technologies",
+      "start": "1/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Revenue Operations Analyst",
+      "company": "Google",
+      "start": "1/2018",
+      "end": "1/2020",
+      "current": false
+    }
+  ]
 }

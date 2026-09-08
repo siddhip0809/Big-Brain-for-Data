@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Sales, EMEA North",
+      "company": "Digital Realty",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Director, Strategic Sales, EMEA North",
+      "company": "Hewlett Packard Enterprise",
+      "start": "7/2020",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Managing Director Benelux region",
+      "company": "Verizon",
+      "start": "5/2018",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Avaya",
+      "start": "12/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director, Benelux - Poly, a Hewlett Packard Company",
+      "company": "HP",
+      "start": "9/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Vice President",
+      "company": "Enghouse Video",
+      "start": "4/2011",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Area Sales Vice President, EMEA North - Poly, a Hewlett Packard Company",
+      "company": "HP",
+      "start": "4/2007",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Director Continental Europe",
+      "company": "Touchbase",
+      "start": "1/2003",
+      "end": "4/2007",
+      "current": false
+    },
+    {
+      "title": "Early career summary",
+      "company": "HP",
+      "start": "8/1993",
+      "end": "5/2004",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Energy Origination",
+      "company": "Hut 8",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Development Manager",
+      "company": "Emeren Group",
+      "start": "12/2020",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Project Development Manager",
+      "company": "ReneSola",
+      "start": "12/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project and Business Development Manager",
+      "company": "LandSolutions LP",
+      "start": "10/2019",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Co-Owner",
+      "company": "Venture Energy Solutions",
+      "start": "3/2014",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Landman",
+      "company": "EQT",
+      "start": "9/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Landman",
+      "company": "Western Land Services",
+      "start": "3/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Landman",
+      "company": "Brighton resources",
+      "start": "7/2009",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Drug And Alcohol Counselor",
+      "company": "Pyramid Healthcare",
+      "start": "1/2008",
+      "end": "7/2009",
+      "current": false
+    }
+  ]
 }

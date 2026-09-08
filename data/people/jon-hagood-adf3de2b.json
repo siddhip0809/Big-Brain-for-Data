@@ -28,5 +28,52 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President of Sales",
+      "company": "DAMAC Digital",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Compass Datacenters",
+      "start": "2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Enterprise IT Sales and Marketing",
+      "company": "Sirius Computer Solutions",
+      "start": "2007",
+      "end": "2018",
+      "current": false
+    },
+    {
+      "title": "Director Product Marketing",
+      "company": "Allied Electronics",
+      "start": "2006",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Manager, Global Accounts",
+      "company": "TTI",
+      "start": "1995",
+      "end": "2005",
+      "current": false
+    },
+    {
+      "title": "SVP Cloud Sales",
+      "company": "Compass Datacenters",
+      "current": false
+    }
+  ]
 }

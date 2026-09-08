@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal Utility Program Manager",
+      "company": "NTT",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager Distribution",
+      "company": "ComEd",
+      "start": "2/2020",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Peoples Gas",
+      "start": "1/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Lead Contract Specialist",
+      "company": "Peoples Gas",
+      "start": "4/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Contract Specialist- Accelerated Main Replacement Program",
+      "company": "Peoples Gas/WEC at DB Sterlin Consultants",
+      "start": "10/2015",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "PMO Construction Project Engineer-Accelerated Main Replacement Program (AMRP)",
+      "company": "Jacobs",
+      "start": "12/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Construction Engineer- Accelerated Main Replacement Program (AMRP)",
+      "company": "Jacobs",
+      "start": "1/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager- Watermain Replacement Program",
+      "company": "CH2M",
+      "start": "1/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Construction Engineer",
+      "company": "Cotter Consulting",
+      "start": "1/2005",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Project Manager- Chicago Airports CIP (ORD/MDW)",
+      "company": "J A Watts Inc /Airport Owners Representatives",
+      "start": "1/2000",
+      "end": "10/2005",
+      "current": false
+    }
+  ]
 }

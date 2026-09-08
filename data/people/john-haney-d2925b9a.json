@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Centre   Sales Executive",
+      "company": "Syndeticom",
+      "start": "2/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Overipgroup",
+      "start": "7/2006",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Sales Account Manager",
+      "company": "Ricon",
+      "start": "2004",
+      "end": "2006",
+      "current": false
+    },
+    {
+      "title": "Membership Services Manager",
+      "company": "Atug Australian Telecommunications Users Group",
+      "start": "2002",
+      "end": "2004",
+      "current": false
+    }
+  ]
 }

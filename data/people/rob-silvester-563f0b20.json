@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Revenue Officer (CRO)",
+      "company": "Ark Data Centres",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Director",
+      "company": "Ark Data Centres",
+      "start": "12/2018",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Capital Markets Consultant",
+      "company": "PPR Estates",
+      "start": "7/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Silco Consulting Limited",
+      "start": "1/2013",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Executive Director",
+      "company": "CB Richard Ellis",
+      "start": "3/2010",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Rock Capital Group",
+      "start": "11/2001",
+      "end": "2/2010",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "King Sturge",
+      "start": "9/1996",
+      "end": "10/2001",
+      "current": false
+    }
+  ]
 }

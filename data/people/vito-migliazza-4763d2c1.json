@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director - Enterprise Solutions",
+      "company": "Digital Realty",
+      "start": "8/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Sales - Enterprise Markets",
+      "company": "Optimum Lightpath",
+      "start": "12/2008",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Verizon Business",
+      "start": "8/2006",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Sales Manager - Enterprise Accounts",
+      "company": "Data Return",
+      "start": "10/2000",
+      "end": "7/2006",
+      "current": false
+    },
+    {
+      "title": "Major Account Manager",
+      "company": "MCI WorldCom",
+      "start": "5/1994",
+      "end": "9/2000",
+      "current": false
+    }
+  ]
 }

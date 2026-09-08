@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Estimating",
+      "company": "Adolfson & Peterson Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr Preconstruction Manager",
+      "company": "Adolfson & Peterson Construction",
+      "start": "4/2025",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Adolfson & Peterson Construction",
+      "start": "12/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Healthcare Preconstruction Manager",
+      "company": "The Lemoine Company",
+      "start": "1/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "The Lemoine Company",
+      "start": "11/2010",
+      "end": "12/2019",
+      "current": false
+    }
+  ]
 }

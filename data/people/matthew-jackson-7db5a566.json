@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Global Construction",
+      "company": "NTT",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Data Center and Advanced Technology",
+      "company": "Lease Crutcher Lewis",
+      "start": "2/2017",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Director, Datacenter Development",
+      "company": "Microsoft",
+      "start": "6/2016",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Contracts Manager - Americas",
+      "company": "Microsoft",
+      "start": "10/2014",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "RA4 Design and Construction Program Manager",
+      "company": "Intel",
+      "start": "4/2012",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Intel",
+      "start": "6/2011",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Technical Advisor to the Director of WW Facilities Procurement",
+      "company": "Intel",
+      "start": "4/2008",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Construction Procurement Manager",
+      "company": "Intel",
+      "start": "1/2006",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "Regional Construction Procurement Manager",
+      "company": "Intel",
+      "start": "1/2004",
+      "end": "1/2006",
+      "current": false
+    },
+    {
+      "title": "Construction Procurement Manager",
+      "company": "Intel",
+      "start": "6/1997",
+      "end": "1/2004",
+      "current": false
+    }
+  ]
 }

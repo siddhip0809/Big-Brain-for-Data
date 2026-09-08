@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President - National Real Estate",
+      "company": "EdgeConneX",
+      "start": "8/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Real Estate",
+      "company": "Global Tower Partners",
+      "start": "10/2006",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Director of Real Estate",
+      "company": "Global Tower Partners",
+      "start": "10/2005",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "Tower Resource Management",
+      "start": "1999",
+      "end": "2005",
+      "current": false
+    }
+  ]
 }

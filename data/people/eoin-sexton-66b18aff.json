@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Cost Manager",
+      "company": "Accenture",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Accenture",
+      "start": "8/2024",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "SLS Consultants",
+      "start": "10/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Linesight",
+      "start": "10/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Manager",
+      "company": "Linesight",
+      "start": "5/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Manager",
+      "company": "O’Neill & Brennan",
+      "start": "6/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Electrical General Operative",
+      "company": "Centum Electronics",
+      "start": "9/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Operations Quality Technician",
+      "company": "Element Six",
+      "start": "1/2017",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Operations Quality Technician",
+      "company": "Goodman Medical Ireland",
+      "start": "9/2015",
+      "end": "8/2016",
+      "current": false
+    }
+  ]
 }

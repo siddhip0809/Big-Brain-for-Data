@@ -50,5 +50,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "equinix"
+  "current_company_id": "equinix",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Director - Data Centers",
+      "company": "Equinix",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Real Estate Transactions Manager",
+      "company": "Amazon",
+      "start": "5/2020",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Leasing Executive",
+      "company": "Crosstree Real Estate Partners",
+      "start": "7/2019",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Transaction Services",
+      "company": "CB Richard Ellis",
+      "start": "11/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Real Estate Advisory and Transactions",
+      "company": "CB Richard Ellis",
+      "start": "6/2013",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Valuation and Advisory Services",
+      "company": "CB Richard Ellis",
+      "start": "6/2013",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Chartered Surveyor",
+      "company": "JLL",
+      "start": "9/2009",
+      "end": "6/2013",
+      "current": false
+    }
+  ]
 }

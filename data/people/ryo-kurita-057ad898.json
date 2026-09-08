@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Jury",
+      "company": "Pacific Telecommunications Council",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Business Development",
+      "company": "Princeton Digital Group",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "General Manager",
+      "company": "KDDI / TELEHOUSE",
+      "start": "4/2014",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "KDDI Corporation",
+      "start": "2/2008",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "KDDI Network & Solutions",
+      "start": "11/2004",
+      "end": "7/2008",
+      "current": false
+    }
+  ]
 }

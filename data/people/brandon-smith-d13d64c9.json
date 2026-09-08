@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Utility Development",
+      "company": "Tract",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Energy Strategy and Power Delivery (AMER East)",
+      "company": "AWS",
+      "start": "1/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Supervisor of Electric Distribution Design",
+      "company": "Dominion",
+      "start": "9/2019",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager (Data Centers)",
+      "company": "Dominion",
+      "start": "4/2015",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager (Electric Distribution)",
+      "company": "Dominion",
+      "start": "1/2011",
+      "end": "3/2015",
+      "current": false
+    }
+  ]
 }

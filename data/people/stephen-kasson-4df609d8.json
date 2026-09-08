@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Microsoft",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Construction Management - East",
+      "company": "Digital Realty",
+      "start": "3/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Digital Realty",
+      "start": "3/2018",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Digital Realty",
+      "start": "6/2011",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "ABC Cigar",
+      "start": "2/2011",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Luna Design Group",
+      "start": "1/2006",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Job Captain",
+      "company": "Food Tech Structures",
+      "start": "6/2005",
+      "end": "1/2006",
+      "current": false
+    },
+    {
+      "title": "Job Captain",
+      "company": "Strekalovsky Architecture",
+      "start": "7/2003",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Architectural Designer",
+      "company": "Carlson Solutions",
+      "start": "2000",
+      "end": "2003",
+      "current": false
+    }
+  ]
 }

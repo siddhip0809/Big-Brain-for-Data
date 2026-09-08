@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Executive",
+      "company": "rand* construction",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "rand* construction",
+      "start": "4/2008",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "Walmer Enterprises",
+      "start": "2006",
+      "end": "2008",
+      "current": false
+    }
+  ]
 }

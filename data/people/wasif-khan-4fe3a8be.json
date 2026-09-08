@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "global-switch"
+  "current_company_id": "global-switch",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Accounts Director , Neo Clouds",
+      "company": "Global Switch",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Connectivity and Strategic acccounts",
+      "company": "Global Switch",
+      "start": "9/2022",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Carrier Relations Manager",
+      "company": "COLT Telecom",
+      "start": "11/2015",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Asset Management Specialist",
+      "company": "COLT Telecom",
+      "start": "10/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Capacity Planner",
+      "company": "Global Crossing",
+      "start": "11/2007",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer",
+      "company": "On365",
+      "start": "5/2005",
+      "end": "11/2007",
+      "current": false
+    }
+  ]
 }

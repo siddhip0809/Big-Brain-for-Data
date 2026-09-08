@@ -50,5 +50,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Data Center Strategic Negotiator, Acquisition and Development",
+      "company": "Google",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Real Estate Transactions, EMEA",
+      "company": "Meta",
+      "start": "4/2022",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Director, Work Dynamics",
+      "company": "JLL",
+      "start": "3/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Associate Director, Corporate Solutions",
+      "company": "JLL",
+      "start": "7/2016",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor, Corporate Solutions",
+      "company": "JLL",
+      "start": "7/2013",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Analyst, Corporate Solutions",
+      "company": "JLL",
+      "start": "1/2010",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Student Tutor (Part time position)",
+      "company": "University of Melbourne",
+      "start": "2/2008",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Assistant Analyst, Strategic Research",
+      "company": "Charter Keck Cramer",
+      "start": "3/2007",
+      "end": "8/2009",
+      "current": false
+    }
+  ]
 }

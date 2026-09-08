@@ -39,5 +39,56 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "maincubes"
+  "current_company_id": "maincubes",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President / Site Selection & Transaction ",
+      "company": "maincubes",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "P3 Logistic Parks",
+      "start": "4/2019",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Kaufmännische Projektentwicklung",
+      "company": "GARBE Industrial Real Estate",
+      "start": "10/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "P3 Logistic Parks",
+      "start": "4/2012",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Savills",
+      "start": "3/2007",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Savills",
+      "start": "9/2004",
+      "end": "3/2007",
+      "current": false
+    },
+    {
+      "raw": "maincubes"
+    }
+  ]
 }

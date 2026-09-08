@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "DataSite",
+      "start": "4/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Project Manager",
+      "company": "Total Site Solutions",
+      "start": "2005",
+      "end": "2015",
+      "current": false
+    }
+  ]
 }

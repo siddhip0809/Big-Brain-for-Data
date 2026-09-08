@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Acquisitions",
+      "company": "Oracle",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate",
+      "company": "QTS Data Centers",
+      "start": "10/2022",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Finance & Development",
+      "company": "CyrusOne",
+      "start": "3/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Eastdil Secured",
+      "start": "7/2017",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Credit Analyst",
+      "company": "Wells Fargo",
+      "start": "7/2014",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Summer Analyst",
+      "company": "Wells Real Estate Funds",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    }
+  ]
 }

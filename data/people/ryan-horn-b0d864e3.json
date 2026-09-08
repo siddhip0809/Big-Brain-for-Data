@@ -39,5 +39,33 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Loenbro",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Guarantee Electrical",
+      "start": "9/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "TIC - The Industrial",
+      "start": "1/2006",
+      "end": "9/2020",
+      "current": false
+    }
+  ]
 }

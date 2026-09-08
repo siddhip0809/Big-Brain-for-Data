@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "CloudHQ",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "CloudHQ",
+      "start": "7/2019",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Southland Industries",
+      "start": "2/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Coordination Manager",
+      "company": "Southland Industries",
+      "start": "11/2012",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Design Engineer",
+      "company": "Southland Industries",
+      "start": "1/2008",
+      "end": "11/2012",
+      "current": false
+    }
+  ]
 }

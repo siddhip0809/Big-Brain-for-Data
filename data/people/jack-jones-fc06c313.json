@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction Management",
+      "company": "Provident Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. PM, Construction",
+      "company": "Stream Data Centers",
+      "start": "9/2023",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Volunteer, Home Improvement, Health & Fitness",
+      "company": "Refresh & Reload",
+      "start": "3/2023",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Section Manager, Construction - Mission Critical",
+      "company": "Burns and McDonnell",
+      "start": "8/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager - Mission Critical",
+      "company": "Burns and McDonnell",
+      "start": "5/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "DCS Project Manager (Owner's Representative)",
+      "company": "OnQGlobal",
+      "start": "9/2019",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Sr. Site CA Manager",
+      "company": "Vanderweil Engineers",
+      "start": "1/2019",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "VP Operations",
+      "company": "Mission Critical Facilities International",
+      "start": "8/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Microsoft Data Center Development Bruce Shaw",
+      "start": "4/2016",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Critical Project Services",
+      "start": "11/2009",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Manager of MEP Services",
+      "company": "Constructors & Associates",
+      "start": "5/2005",
+      "end": "11/2009",
+      "current": false
+    },
+    {
+      "title": "MEP Manager",
+      "company": "Holder Construction",
+      "start": "2/1999",
+      "end": "5/2005",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "6/1996",
+      "end": "2/1999",
+      "current": false
+    }
+  ]
 }

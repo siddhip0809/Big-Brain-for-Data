@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "APAC Site Development Manager",
+      "company": "Vantage",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Linesight",
+      "start": "1/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Lead OFE Coordinator (OFE-Owner Furnished Equipment)",
+      "company": "Exyte",
+      "start": "5/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Owner’s Representative (OR) - Project Coordinator",
+      "company": "Fluor",
+      "start": "7/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Buyer & Expeditor",
+      "company": "Fluor",
+      "start": "7/2014",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Contract Administrator",
+      "company": "Fluor",
+      "start": "11/2013",
+      "end": "6/2014",
+      "current": false
+    }
+  ]
 }

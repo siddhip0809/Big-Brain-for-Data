@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction, EHS",
+      "company": "T5 Data Centers",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Unit EH&S Manager",
+      "company": "Turner Construction",
+      "start": "4/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Area EHS Manager",
+      "company": "Turner Construction",
+      "start": "7/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Regional Construction Safety Manager",
+      "company": "Meta",
+      "start": "3/2020",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Loss Control Engineer",
+      "company": "Meta",
+      "start": "6/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Corporate Risk Manager",
+      "company": "Davis Erection",
+      "start": "9/2008",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Fleet Manager",
+      "company": "Werner Enterprises",
+      "start": "8/2005",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Insurance Agent",
+      "company": "Bankers Life and Casualty",
+      "start": "7/2004",
+      "end": "7/2005",
+      "current": false
+    }
+  ]
 }

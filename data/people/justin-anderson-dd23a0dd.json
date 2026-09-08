@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director - Pursuits, Preconstruction & Project Controls",
+      "company": "Beale",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Technology Supervisor",
+      "company": "ExxonMobil",
+      "start": "7/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Projects Advisor",
+      "company": "ExxonMobil",
+      "start": "8/2020",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Engineer",
+      "company": "ExxonMobil",
+      "start": "7/2018",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Site Workface Planning Lead",
+      "company": "Tengizchevroil",
+      "start": "5/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Danos",
+      "start": "9/2013",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Project Controls Consultant",
+      "company": "NES Global Talent",
+      "start": "7/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "GIS / NANA",
+      "start": "2/2010",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Fluor",
+      "start": "9/2009",
+      "end": "2/2010",
+      "current": false
+    },
+    {
+      "title": "Associate Estimator",
+      "company": "Fluor",
+      "start": "1/2009",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Estimator, Scheduler, Controls Tech",
+      "company": "Fluor",
+      "start": "7/2008",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "Fluor",
+      "start": "5/2008",
+      "end": "8/2008",
+      "current": false
+    }
+  ]
 }

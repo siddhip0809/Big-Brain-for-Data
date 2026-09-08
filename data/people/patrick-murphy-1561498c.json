@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Network Solutions",
+      "company": "Digital Realty",
+      "start": "1/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Digital Realty",
+      "start": "12/2014",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Digital Realty",
+      "start": "7/2011",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Global Sales Director",
+      "company": "Digital Realty",
+      "start": "7/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Major Account Executive",
+      "company": "XO Communications",
+      "start": "1/2008",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Director, Business Development",
+      "company": "Vivid Sky",
+      "start": "1/2007",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "LRS Sports",
+      "start": "1/2002",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Qwest Communications",
+      "start": "1/2001",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Major Account Executive/Team Lead",
+      "company": "Centurylink Business For Enterprise",
+      "start": "1/2000",
+      "end": "12/2001",
+      "current": false
+    }
+  ]
 }

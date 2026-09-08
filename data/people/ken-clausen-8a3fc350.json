@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President - Design & Construction",
+      "company": "Skybox Datacenters",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President-Design and Construction",
+      "company": "Citi",
+      "start": "4/2017",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Southwest Regional Director - Corporate Properties Group",
+      "company": "Wells Fargo",
+      "start": "9/2009",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "Wells Fargo",
+      "start": "5/2004",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Dallas Operations Manager / Senior Project Manager",
+      "company": "DPR Construction",
+      "start": "11/2000",
+      "end": "5/2004",
+      "current": false
+    }
+  ]
 }

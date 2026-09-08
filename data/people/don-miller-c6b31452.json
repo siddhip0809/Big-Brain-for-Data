@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "PointOne",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "Holder Construction",
+      "start": "12/2017",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Operations",
+      "company": "Holder Construction",
+      "start": "4/1996",
+      "end": "12/2017",
+      "current": false
+    }
+  ]
 }

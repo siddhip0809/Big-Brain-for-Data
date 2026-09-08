@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "The Weitz Company",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "The Weitz Company",
+      "start": "4/2019",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Continental Steel Fabrication",
+      "start": "8/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Projects Contract Manager",
+      "company": "ASGC",
+      "start": "1/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Contract Administrator",
+      "company": "ASGC",
+      "start": "5/2010",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Construction Project Engineer",
+      "company": "ASGC",
+      "start": "5/2005",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Pre-Tender QS",
+      "company": "Orascom Construction Plc",
+      "start": "7/2003",
+      "end": "4/2005",
+      "current": false
+    }
+  ]
 }

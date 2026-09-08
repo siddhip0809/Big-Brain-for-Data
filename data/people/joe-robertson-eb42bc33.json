@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "3/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Development",
+      "company": "QTS Data Centers",
+      "start": "1/2020",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Director - Mission Critical Services",
+      "company": "Skanska USA Building",
+      "start": "3/2016",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Director - National Mission Critical",
+      "company": "Balfour Beatty US",
+      "start": "10/2006",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Sr Project Manager",
+      "company": "Mallory & Evans Contractors and Engineers",
+      "start": "6/1997",
+      "end": "10/2006",
+      "current": false
+    }
+  ]
 }

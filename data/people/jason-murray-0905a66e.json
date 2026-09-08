@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales",
+      "company": "TierPoint",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Founder",
+      "company": "Plymkrz Collective",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Managing Director",
+      "company": "Iron Mountian",
+      "start": "1/2022",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Director",
+      "company": "Iron Mountian",
+      "start": "10/2020",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Iron Mountian",
+      "start": "11/2017",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Major Account Manager",
+      "company": "Cintas",
+      "start": "9/2013",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Cintas",
+      "start": "5/2011",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Cintas",
+      "start": "6/2009",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "CBS",
+      "start": "7/2008",
+      "end": "6/2009",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Riviera Broadcast Group",
+      "start": "7/2007",
+      "end": "7/2008",
+      "current": false
+    }
+  ]
 }

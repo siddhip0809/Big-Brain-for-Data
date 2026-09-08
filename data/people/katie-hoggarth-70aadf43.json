@@ -39,5 +39,61 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President - Head of Transactions - Stack Infrastructure",
+      "company": "STACK Infrastructure",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Data Centre Solutions - Site Transactions",
+      "company": "CBRE",
+      "start": "6/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Data Centre Solutions - Site Transactions",
+      "company": "CBRE",
+      "start": "6/2020",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor - Industrial Agency",
+      "company": "JLL",
+      "start": "6/2018",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Commercial Agency",
+      "company": "Hindwoods",
+      "start": "2/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Hindwoods",
+      "start": "3/2015",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "Hindwoods",
+      "start": "3/2013",
+      "end": "3/2015",
+      "current": false
+    }
+  ]
 }

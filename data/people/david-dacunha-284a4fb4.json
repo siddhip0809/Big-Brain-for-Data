@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction North America",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Construction North America ",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Construction North America",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "9/2023",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Cologix",
+      "start": "8/2019",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Project Manager",
+      "company": "Cologix",
+      "start": "6/2014",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Field Coordinator",
+      "company": "Holder Construction",
+      "start": "9/2010",
+      "end": "6/2014",
+      "current": false
+    }
+  ]
 }

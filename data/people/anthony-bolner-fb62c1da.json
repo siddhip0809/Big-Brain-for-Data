@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President & Partner",
+      "company": "Stream Data Centers",
+      "start": "8/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Stream Data Centers",
+      "start": "7/2007",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President - Data Center Solutions Group",
+      "company": "CBRE",
+      "start": "1988",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "company": "CBRE",
+      "start": "1988",
+      "end": "2007",
+      "current": false
+    }
+  ]
 }

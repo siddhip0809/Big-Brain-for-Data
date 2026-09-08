@@ -50,5 +50,33 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "virtus-data-centers"
+  "current_company_id": "virtus-data-centers",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Of Sales",
+      "company": "Virtus Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Client Director",
+      "company": "Virtus Data Centers",
+      "start": "8/2008",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Obsidian Group",
+      "start": "7/2007",
+      "end": "8/2008",
+      "current": false
+    }
+  ]
 }

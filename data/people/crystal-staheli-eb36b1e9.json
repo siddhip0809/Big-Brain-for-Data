@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Delivery Manager",
+      "company": "Compass Datacenters",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "CBRE",
+      "start": "12/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager 2",
+      "company": "The Brandt Companies",
+      "start": "3/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Administrative Support Manager",
+      "company": "The Brandt Companies",
+      "start": "5/2015",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Treasurer",
+      "company": "Trinity Valley Youth Sports Association",
+      "start": "9/2013",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Co-Treasurer",
+      "company": "Trinity Valley Youth Sports Association",
+      "start": "3/2013",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Inside Sales & Project Management",
+      "company": "Zoom Air",
+      "start": "1/2008",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Executive Administrative Assistant",
+      "company": "Zoom Air",
+      "start": "1/2008",
+      "end": "5/2015",
+      "current": false
+    }
+  ]
 }

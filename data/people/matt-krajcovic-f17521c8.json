@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Executive - Preconstruction Services",
+      "company": "Pepper Construction Group",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager - Preconstruction Services",
+      "company": "Pepper Construction Group",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager - Preconstruction Services",
+      "company": "Pepper Construction Group",
+      "start": "6/2020",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Deputy Director of Development",
+      "company": "Metro Development",
+      "start": "8/2019",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Pepper Construction Group",
+      "start": "6/2016",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer/Estimator",
+      "company": "Quandel Construction Group",
+      "start": "1/2014",
+      "end": "6/2016",
+      "current": false
+    }
+  ]
 }

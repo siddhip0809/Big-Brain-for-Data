@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Power And Sustainability Analyst",
+      "company": "EdgeConneX",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy And Sustainability Analyst",
+      "company": "Industrial Training And Assessment Center @ Michigan State University",
+      "start": "1/2023",
+      "end": "12/2023",
+      "current": false
+    }
+  ]
 }

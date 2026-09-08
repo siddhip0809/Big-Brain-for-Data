@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director, Development",
+      "company": "CloudHQ",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Development",
+      "company": "CloudHQ",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager",
+      "company": "CloudHQ",
+      "start": "1/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Technical Program Manager (Construction Management)",
+      "company": "Google",
+      "start": "1/2022",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Data Center Mechanical Engineer",
+      "company": "Google",
+      "start": "10/2018",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Mechanical Engineer",
+      "company": "Arup",
+      "start": "1/2013",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Mechanical Engineer",
+      "company": "Arup",
+      "start": "4/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "Arup",
+      "start": "7/2006",
+      "end": "4/2011",
+      "current": false
+    }
+  ]
 }

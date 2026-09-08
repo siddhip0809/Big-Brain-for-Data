@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Data Center Transactions and Leasing",
+      "company": "Anthropic",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Summer MBA Intern",
+      "company": "Digital Realty",
+      "start": "1/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Acquisitions and Investments",
+      "company": "Digital Realty",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate, Infrastructure Investments",
+      "company": "PSP Investments",
+      "start": "1/2016",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Investment Banking Analyst",
+      "company": "UBS Investment Bank",
+      "start": "1/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Investment Banking Analyst",
+      "company": "Jennings Capital",
+      "start": "1/2013",
+      "end": "12/2014",
+      "current": false
+    }
+  ]
 }

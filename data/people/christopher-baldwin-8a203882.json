@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP, Head of Construction",
+      "company": "DartPoints",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Construction Operations",
+      "company": "T5 Data Centers",
+      "start": "8/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Director, Construction",
+      "company": "NTT",
+      "start": "1/2024",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "VP Capital Projects",
+      "company": "CPG",
+      "start": "12/2018",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "VP, Design and Construction",
+      "company": "vXchnge",
+      "start": "1/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "SVP, Operations and Engineering",
+      "company": "vXchnge",
+      "start": "8/2011",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Director - Mission Critical Project Management",
+      "company": "Ledcor",
+      "start": "2/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "IBX Director of Construction, US",
+      "company": "Equinix",
+      "start": "5/2010",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Director of Facility Engineering and Construction",
+      "company": "Switch and Data",
+      "start": "6/2000",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Sr Project Manager",
+      "company": "Solutions",
+      "start": "10/1996",
+      "end": "6/2000",
+      "current": false
+    }
+  ]
 }

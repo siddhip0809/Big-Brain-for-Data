@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Founder & CEO",
+      "company": "CloudHQ",
+      "start": "1/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Founder & CEO",
+      "company": "Dalian Development",
+      "start": "2/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Co-Founder, President & CEO",
+      "company": "DuPont Fabros Technology",
+      "start": "10/2007",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Co-Founder & Principal",
+      "company": "DuPont Fabros Development",
+      "start": "1/1997",
+      "end": "10/2007",
+      "current": false
+    }
+  ]
 }

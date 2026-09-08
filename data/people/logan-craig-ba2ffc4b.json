@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Development",
+      "company": "Beale",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Program Manager - Infrastructure Planning & Acquisition",
+      "company": "Microsoft",
+      "start": "2020",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Manager, Renewable Power Development",
+      "company": "Shell",
+      "start": "2019",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Director, Strategy and Origination ",
+      "company": "Cypress Creek Renewables",
+      "start": "2017",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Development",
+      "company": "sPower",
+      "start": "2014",
+      "end": "2017",
+      "current": false
+    }
+  ]
 }

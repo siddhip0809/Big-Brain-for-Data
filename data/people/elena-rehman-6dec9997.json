@@ -39,5 +39,60 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director, EMEA land development/permitting",
+      "company": "Microsoft",
+      "start": "5/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of E2E program management, front door",
+      "company": "Microsoft",
+      "start": "6/2018",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Head of Project Controls and Risk seconded to Doha Metro",
+      "company": "Jacobs",
+      "start": "4/2015",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Project Controls Lead seconded to Doha Metro",
+      "company": "Jacobs",
+      "start": "10/2012",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "Morgan Sindall",
+      "start": "1/2012",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Project Controls Engineer",
+      "company": "Morgan Sindall",
+      "start": "7/2010",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Sn. Cost engineer",
+      "company": "CH2M",
+      "start": "7/2008",
+      "end": "7/2010",
+      "current": false
+    }
+  ]
 }

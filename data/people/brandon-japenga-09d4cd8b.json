@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "Clune Construction",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Project Manager",
+      "company": "Tesla",
+      "start": "9/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Hanto & Clarke General Contractors",
+      "start": "5/2018",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Hanto & Clarke General Contractors",
+      "start": "5/2017",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Tom Barrow",
+      "start": "12/2016",
+      "end": "5/2017",
+      "current": false
+    }
+  ]
 }

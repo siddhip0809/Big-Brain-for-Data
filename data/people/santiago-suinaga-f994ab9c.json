@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Cloud & Hyperscale",
+      "company": "Stream Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Executive Officer",
+      "company": "Infrastructure Masons",
+      "start": "7/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Chief Executive Officer - KIO Data Centers",
+      "company": "KIO Networks",
+      "start": "1/2017",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Chief Revenue Officer (CRO)",
+      "company": "KIO Networks",
+      "start": "3/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "VP of Global Data Centers Operations",
+      "company": "KIO Networks",
+      "start": "8/2012",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Director of Data Center Infrastructure",
+      "company": "KIO Networks",
+      "start": "1/2011",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Chief of Staff & Investor Relations",
+      "company": "KIO Networks",
+      "start": "8/2008",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Sales & Marketing Manager",
+      "company": "KIO Networks",
+      "start": "8/2005",
+      "end": "7/2008",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Net2Phone",
+      "start": "6/2003",
+      "end": "7/2005",
+      "current": false
+    }
+  ]
 }

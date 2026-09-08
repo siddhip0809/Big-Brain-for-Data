@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Leader - Northeast Region",
+      "company": "DPR Construction",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "DPR Construction",
+      "start": "6/2019",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hatzel and Buehler",
+      "start": "3/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "DPR Construction",
+      "start": "3/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator & Senior Project Engineer",
+      "company": "DPR Construction",
+      "start": "1/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer / Estimator",
+      "company": "DPR Construction",
+      "start": "5/2012",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Wohlsen Construction",
+      "start": "5/2011",
+      "end": "1/2012",
+      "current": false
+    }
+  ]
 }

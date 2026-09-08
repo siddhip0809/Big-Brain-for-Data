@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP of Design, Design & Construction",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Geographical Construction Manager -  Leased Data Centers",
+      "company": "Meta",
+      "start": "9/2021",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Meta",
+      "start": "11/2018",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "DTZ",
+      "start": "1/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Cushman & Wakefield",
+      "start": "1/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "2011",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "RW Murray",
+      "start": "2005",
+      "end": "2011",
+      "current": false
+    }
+  ]
 }

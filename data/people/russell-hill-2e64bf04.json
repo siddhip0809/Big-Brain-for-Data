@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director of Sales ",
+      "company": "CoreSite",
+      "start": "7/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "Global Crossing",
+      "start": "9/2006",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Data Return",
+      "start": "6/1996",
+      "end": "9/2006",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "MCI",
+      "start": "1/1996",
+      "end": "12/2006",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction - America's ",
+      "company": "Yondr Data Centers",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction - America's",
+      "company": "Yondr Data Centers",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Data Center Development & Construction",
+      "company": "PowerHouse Data Centers",
+      "start": "4/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Principle",
+      "company": "Courts Data Center Consulting",
+      "start": "3/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Project Executive - Sr. Project Manager",
+      "company": "Constructiv Builders",
+      "start": "2/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager - Mission Critical Group",
+      "company": "Critical Project Services",
+      "start": "2/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Manager",
+      "company": "Data Foundry",
+      "start": "11/2015",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager - Mission Critical",
+      "company": "MA Mortenson",
+      "start": "2/2014",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager - Data Center Construction",
+      "company": "AlfaTech",
+      "start": "2/2013",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Delivery/Construction Manager",
+      "company": "Digital Realty",
+      "start": "2/2011",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Southland Industries",
+      "start": "1/2008",
+      "end": "2/2011",
+      "current": false
+    }
+  ]
 }

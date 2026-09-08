@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Director",
+      "company": "Colt Data Centre Services",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, AM Company",
+      "company": "AM",
+      "start": "1/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "PwC Advisory LLC at PwC Japan",
+      "start": "12/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Manager, Overseas Real Estate Development Sec.",
+      "company": "Marubeni",
+      "start": "4/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "General Manager, Ship Sec.-II",
+      "company": "Marubeni ASEAN Pte",
+      "start": "4/2015",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Manager, Ship Dept.-II",
+      "company": "Marubeni",
+      "start": "4/2011",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Associate, Residential Estate Development Dept.",
+      "company": "Marubeni",
+      "start": "11/2004",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Design Staff",
+      "company": "Architecture firm",
+      "start": "4/2002",
+      "end": "10/2004",
+      "current": false
+    }
+  ]
 }

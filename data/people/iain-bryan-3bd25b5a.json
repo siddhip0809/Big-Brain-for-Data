@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director - Hyperscale",
+      "company": "AtlasEdge",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Key Account Director",
+      "company": "Alibaba Cloud",
+      "start": "5/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "Huawei Technologies",
+      "start": "4/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Corporate Account Manager",
+      "company": "Whitbread",
+      "start": "5/2014",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "SSS Managed Services",
+      "start": "5/2012",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "BBC Worldwide and Subsideries",
+      "start": "12/2008",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "HEXUS",
+      "start": "6/2008",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Future Publishing",
+      "start": "3/2006",
+      "end": "6/2008",
+      "current": false
+    },
+    {
+      "title": "Sales Assistant",
+      "company": "Orange",
+      "start": "9/2004",
+      "end": "3/2006",
+      "current": false
+    }
+  ]
 }

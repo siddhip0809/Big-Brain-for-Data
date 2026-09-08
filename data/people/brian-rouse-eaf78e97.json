@@ -50,5 +50,60 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "krios-infrastructure"
+  "current_company_id": "krios-infrastructure",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "SVP Land Development",
+      "company": "KRIOS Infrastructure",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EMEA Data Center Land Development And Permitting Director",
+      "company": "Microsoft",
+      "start": "10/2023",
+      "end": "8/2026",
+      "current": false
+    },
+    {
+      "title": "Emea Environmental Site Selection And Permitting Manager",
+      "company": "Meta",
+      "start": "5/2018",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Environmental Manager, Emea",
+      "company": "AWS",
+      "start": "2/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "ERM Environmental Resources Management",
+      "start": "12/2006",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Principal Consultant",
+      "company": "WYG International",
+      "start": "1/2003",
+      "end": "1/2006",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Spillclean",
+      "start": "1/2000",
+      "end": "1/2002",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Fransen Pittman Construction",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator III",
+      "company": "Mortenson",
+      "start": "9/2023",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Estimator II",
+      "company": "Mortenson",
+      "start": "8/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Mortenson",
+      "start": "9/2017",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Mortenson",
+      "start": "9/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer II",
+      "company": "Mortenson",
+      "start": "3/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer I",
+      "company": "Mortenson",
+      "start": "3/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Mortenson",
+      "start": "1/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Project Intern",
+      "company": "Mortenson",
+      "start": "5/2012",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Stantec",
+      "start": "5/2011",
+      "end": "4/2012",
+      "current": false
+    }
+  ]
 }

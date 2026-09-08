@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial Sales Manager",
+      "company": "Digital Realty",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Commercial Real Estate Agent",
+      "company": "Commercial Lease Locators",
+      "start": "4/2017",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Business Development",
+      "company": "SecureLink",
+      "start": "12/2012",
+      "end": "11/2017",
+      "current": false
+    }
+  ]
 }

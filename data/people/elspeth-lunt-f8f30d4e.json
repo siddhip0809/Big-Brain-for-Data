@@ -39,5 +39,74 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Development Director",
+      "company": "Nscale",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Development Director, UK&I",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "Vantage",
+      "start": "3/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "Vantage",
+      "start": "8/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner & Townsend",
+      "start": "11/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Graduate Project Manager",
+      "company": "Turner & Townsend",
+      "start": "9/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Rider",
+      "company": "Deliveroo",
+      "start": "9/2018",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Corperate Purchasing Assistant",
+      "company": "Bosch",
+      "start": "7/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Student Assistant",
+      "company": "Great Walstead School",
+      "start": "2/2014",
+      "end": "6/2017",
+      "current": false
+    }
+  ]
 }

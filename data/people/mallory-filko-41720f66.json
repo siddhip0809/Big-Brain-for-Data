@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Global Infrastructure Strategic Negotiations",
+      "company": "Google",
+      "start": "7/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "WeWork",
+      "start": "11/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Real Estate Associate",
+      "company": "WeWork",
+      "start": "6/2018",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Real Estate Analyst",
+      "company": "WeWork",
+      "start": "8/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Real Estate Analyst",
+      "company": "EY",
+      "start": "9/2013",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Real Estate Intern",
+      "company": "Wisconsin Department of Transportation",
+      "start": "6/2012",
+      "end": "1/2013",
+      "current": false
+    }
+  ]
 }

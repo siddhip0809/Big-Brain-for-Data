@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Co-Founder Women’s Leadership Forum",
+      "company": "Digital Realty",
+      "start": "3/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Co-Founder and Board Member",
+      "company": "Women's Tech Forum",
+      "start": "1/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Sales, Global Accounts",
+      "company": "Digital Realty",
+      "start": "7/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Accounts Sales",
+      "company": "Equinix",
+      "start": "3/2011",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Director - Content Markets Group",
+      "company": "Global Crossing",
+      "start": "7/2008",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "IP Networks",
+      "start": "11/2006",
+      "end": "7/2008",
+      "current": false
+    },
+    {
+      "title": "Fundraiser, Advocate & Volunteer",
+      "company": "CARE",
+      "start": "12/2005",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Global Crossing",
+      "start": "4/1999",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "International Wholesale Voice Sales",
+      "company": "AT&T",
+      "start": "1/1997",
+      "end": "4/1999",
+      "current": false
+    },
+    {
+      "title": "AT&T GCSC, Consumer Services",
+      "company": "AT&T",
+      "start": "1/1994",
+      "end": "12/1997",
+      "current": false
+    }
+  ]
 }

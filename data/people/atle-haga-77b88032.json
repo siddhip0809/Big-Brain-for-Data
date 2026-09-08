@@ -28,5 +28,110 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Strategy & Development",
+      "company": "STACK Infrastructure",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Member Board of Directors",
+      "company": "CTS Nordics AS",
+      "start": "9/2023",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Member of The Board and Co-Founder",
+      "company": "Norwegian Data Center Industry",
+      "start": "6/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head Commercial Advisor",
+      "company": "Statkraft",
+      "start": "1/2019",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Program Director",
+      "company": "Statkraft AS",
+      "start": "8/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project manager",
+      "company": "Stavernfestivalen",
+      "start": "7/2008",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Energyinfo AS",
+      "start": "9/2006",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Elkem BKK Fjordkraft Landsvirkjun and others",
+      "start": "1/2006",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Vice Chairman",
+      "company": "Nordic Association of Electricity Traders",
+      "start": "4/2005",
+      "end": "5/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Power Trader",
+      "company": "Statkraft",
+      "start": "9/2002",
+      "end": "9/2006",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Aquila Energy Nordic",
+      "start": "8/1999",
+      "end": "8/2002",
+      "current": false
+    },
+    {
+      "title": "Portfolio Manager",
+      "company": "Interkraft Energi AS",
+      "start": "1/1996",
+      "end": "8/1999",
+      "current": false
+    },
+    {
+      "title": "Senior Currency Trader",
+      "company": "Union Bank of Norway Luxembourg",
+      "start": "3/1994",
+      "end": "1/1996",
+      "current": false
+    },
+    {
+      "title": "Currency trader",
+      "company": "Union Bank of Norway",
+      "start": "1/1987",
+      "end": "2/1994",
+      "current": false
+    }
+  ]
 }

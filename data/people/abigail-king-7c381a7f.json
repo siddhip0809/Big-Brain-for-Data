@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Cost Manager II",
+      "company": "Cumming Group",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turton Bond",
+      "start": "7/2024",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Linesight",
+      "start": "2/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Manager ",
+      "company": "Linesight",
+      "start": "7/2020",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Management Intern",
+      "company": "Linesight",
+      "start": "6/2019",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Fall Architectural and Drafting Intern",
+      "company": "Arbor South Architecture",
+      "start": "10/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "Portland Commercial Construction",
+      "start": "6/2018",
+      "end": "8/2018",
+      "current": false
+    }
+  ]
 }

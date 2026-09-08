@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Program Manager",
+      "company": "Meta",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy & Infrastructure Policy Manager",
+      "company": "Tesla",
+      "start": "4/2024",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Energy & Infrastructure Manager",
+      "company": "Tesla",
+      "start": "4/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Staff Analyst",
+      "company": "Tesla",
+      "start": "11/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Energy Markets Manager",
+      "company": "Cummins Engine",
+      "start": "10/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Research Analyst",
+      "company": "SolarCity",
+      "start": "2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Sr. Policy Advisor",
+      "company": "Tesla",
+      "start": "2012",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Interconnection (various roles)",
+      "company": "SolarCity",
+      "start": "2012",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Customer Accounts",
+      "company": "Xcel Energy",
+      "start": "2011",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "US Senator Amy Klobuchar",
+      "start": "2010",
+      "end": "2010",
+      "current": false
+    }
+  ]
 }

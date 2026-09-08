@@ -39,5 +39,74 @@
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Senior Vice President, Data Center Development & Construction",
+      "company": "PowerHouse Data Centers",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Data Center Development & Construction",
+      "company": "PowerHouse Data Centers",
+      "start": "6/2024",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President, Data Center Development & Construction",
+      "company": "American Real Estate Partners",
+      "start": "6/2024",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Area Manager of Construction",
+      "company": "AWS",
+      "start": "12/2020",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "AWS",
+      "start": "11/2019",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "3/2018",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Jacobs",
+      "start": "4/1999",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "AECOM",
+      "start": "1/1998",
+      "end": "4/1999",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "The Bell Company",
+      "start": "5/1995",
+      "end": "1/1998",
+      "current": false
+    }
+  ]
 }

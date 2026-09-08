@@ -50,5 +50,57 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "greenscale-data-centres"
+  "current_company_id": "greenscale-data-centres",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Investment Director - Land Acquisition, Europe",
+      "company": "GreenScale Data Centres",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Investment Manager",
+      "company": "St Modwen",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Investments & Asset Management",
+      "company": "CapitaLand",
+      "start": "3/2019",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Investment Manager",
+      "company": "M&G Real Estate",
+      "start": "3/2015",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Surveyor - London Development Team (Secondment)",
+      "company": "Landsec",
+      "start": "3/2013",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor - Global Capital Markets",
+      "company": "Knight Frank",
+      "start": "9/2012",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "raw": "GreenScale Data Centres"
+    }
+  ]
 }

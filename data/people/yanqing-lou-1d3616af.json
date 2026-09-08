@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Cost Control Manager",
+      "company": "ByteDance",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Currie & Brown",
+      "start": "9/2024",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Currie & Brown",
+      "start": "6/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "BIM Manager",
+      "company": "WPG Tech Co",
+      "start": "10/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "BIM/Electrical Engineer",
+      "company": "Century 3",
+      "start": "9/2019",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Century 3",
+      "start": "4/2019",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Prime Electric",
+      "start": "8/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Prime Electric",
+      "start": "6/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Estimator Intern",
+      "company": "Express Construction Company",
+      "start": "12/2016",
+      "end": "5/2017",
+      "current": false
+    }
+  ]
 }

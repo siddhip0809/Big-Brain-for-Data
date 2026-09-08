@@ -28,5 +28,62 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President - Development",
+      "company": "QTS Data Centers",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director - Design & Engineering",
+      "company": "Digital Realty",
+      "start": "1/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Global Head of Design",
+      "company": "Yondr",
+      "start": "8/2021",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Design Director",
+      "company": "Yondr",
+      "start": "5/2020",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Design Director - Engineering Services Europe - ISG Fit Out",
+      "company": "ISG plc",
+      "start": "1/2013",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "CarbonEng",
+      "start": "9/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "QTS Data Centers",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

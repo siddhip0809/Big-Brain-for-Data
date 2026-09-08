@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Head of Sales & Leasing",
+      "company": "CloudHQ",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Sales & Leasing",
+      "company": "CloudHQ",
+      "start": "5/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Board Member - Data Centres",
+      "company": "techUK",
+      "start": "9/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, EMEA & LATAM",
+      "company": "CloudHQ",
+      "start": "12/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "EMEA Director, Data Centers",
+      "company": "JLL",
+      "start": "1/2016",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Director, Data Centre Capital Markets",
+      "company": "Alpha Real Capital",
+      "start": "12/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "raw": "CloudHQ"
+    }
+  ]
 }

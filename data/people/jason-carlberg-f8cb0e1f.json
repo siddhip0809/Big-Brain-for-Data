@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP, Commercial Management (Project Controls)",
+      "company": "Nscale",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Commercial Director, Global Data Center Design & Construction",
+      "company": "Iron Mountian",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Director, North America Data Center Design & Construction",
+      "company": "Iron Mountian",
+      "start": "11/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Finance And Accounting",
+      "company": "Iron Mountian",
+      "start": "9/2018",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Director, Accounting",
+      "company": "DCT Industrial (NYSE: DCT)",
+      "start": "2/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Accounting Manager",
+      "company": "DCT Industrial (NYSE: DCT)",
+      "start": "2009",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Accountant",
+      "company": "DCT Industrial (NYSE: DCT)",
+      "start": "2007",
+      "end": "2009",
+      "current": false
+    },
+    {
+      "title": "Property Accountant",
+      "company": "DCT Industrial (NYSE: DCT)",
+      "start": "7/2005",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Property Accountant",
+      "company": "Colorado & Santa Fe Real Estate",
+      "start": "7/2002",
+      "end": "7/2005",
+      "current": false
+    }
+  ]
 }

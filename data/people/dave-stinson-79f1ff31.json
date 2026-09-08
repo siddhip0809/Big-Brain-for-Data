@@ -28,5 +28,64 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President of Enterprise Sales",
+      "company": "QTS Data Centers",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President of National Hybrid Sales",
+      "company": "QTS Data Centers",
+      "start": "11/2018",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Executive Vice President of Northeast and Mid-Atlantic Commercial Sales",
+      "company": "QTS Data Centers",
+      "start": "6/2015",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of Commercial and Federal Sales",
+      "company": "QTS Data Centers",
+      "start": "11/2008",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Digital Realty",
+      "start": "10/2006",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Regional Manager",
+      "company": "Verizon Business",
+      "start": "1/2005",
+      "end": "11/2006",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Acumen Solutions",
+      "start": "4/2004",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

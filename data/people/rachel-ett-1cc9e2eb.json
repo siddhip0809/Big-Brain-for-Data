@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Renewable Energy Program Manager",
+      "company": "Microsoft",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Origination & Power Marketing",
+      "company": "EDF Renewables",
+      "start": "10/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Associate Director, Origination & Power Marketing",
+      "company": "EDF Renewables",
+      "start": "3/2021",
+      "end": "10/2023",
+      "current": false
+    }
+  ]
 }

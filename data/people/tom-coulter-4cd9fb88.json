@@ -28,5 +28,85 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Energy and Utilities",
+      "company": "QTS Data Centers",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Data Center Global Build Services",
+      "company": "AWS",
+      "start": "10/2023",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Global Data Center Services Manager",
+      "company": "AWS",
+      "start": "12/2021",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Global Data Center Commissioning Program Manager",
+      "company": "AWS",
+      "start": "6/2020",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Commissioning Program Manager",
+      "company": "AWS",
+      "start": "10/2019",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Facility Manager (Site Director)",
+      "company": "AWS",
+      "start": "5/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Operations Manager (Site Director)",
+      "company": "Panda Power Funds",
+      "start": "4/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Maintenance and Commissioning Manager (Senior Manager)",
+      "company": "Panda Power Funds",
+      "start": "2/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Reactor Operator (ILO)",
+      "company": "SCANA",
+      "start": "11/2012",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Unit Supervisor (Operations Management)",
+      "company": "Pennsylvania power and light",
+      "start": "1/2011",
+      "end": "11/2012",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

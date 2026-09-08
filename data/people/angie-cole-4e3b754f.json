@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Leader",
+      "company": "Amazon Web Services at AWS",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Supply Optimization",
+      "company": "LCRA",
+      "start": "2020",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Director, Supply Contracts",
+      "company": "LCRA",
+      "start": "2015",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Manager, Supply Chain & Strategic Partnerships",
+      "company": "LCRA",
+      "start": "2010",
+      "end": "2015",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director",
+      "company": "QTS Data Centers",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Acquisitions",
+      "company": "PowerHouse Data Centers",
+      "start": "4/2025",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Investment Associate",
+      "company": "MAG Partners LP",
+      "start": "5/2022",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Investment Associate",
+      "company": "Weller Development",
+      "start": "1/2021",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Development Analyst",
+      "company": "Weller Development",
+      "start": "11/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Investment Analyst",
+      "company": "NorthMarq Capital",
+      "start": "1/2015",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Janney Montgomery Scott",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Country Director of Business Development",
+      "company": "Green Mountain Data Centres  at Green Mountain AS - Data centres",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EngineNode ",
+      "company": "EngineNode",
+      "start": "4/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Infinity Data Center - London",
+      "company": "International Partner",
+      "start": "9/2014",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Founder AWS Usergroup Ireland",
+      "company": "AWS User Group Network",
+      "start": "2/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head - Data Centres ",
+      "company": "eircom",
+      "start": "8/2009",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Servecentric Data Centre",
+      "company": "Servecentric",
+      "start": "3/2005",
+      "end": "5/2007",
+      "current": false
+    },
+    {
+      "title": "Interxion Ireland",
+      "company": "Digital Realty",
+      "start": "4/2002",
+      "end": "3/2005",
+      "current": false
+    },
+    {
+      "title": "Band-X",
+      "company": "BAND-X LIMITED",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Esat Telecom",
+      "company": "BT Ireland",
+      "start": "3/1997",
+      "end": "3/2000",
+      "current": false
+    },
+    {
+      "title": "Marketing",
+      "company": "Indigo",
+      "start": "1/1996",
+      "end": "2/1997",
+      "current": false
+    }
+  ]
 }

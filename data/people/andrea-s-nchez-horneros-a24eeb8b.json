@@ -50,5 +50,110 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "microsoft"
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal, Data Center Development",
+      "company": "Microsoft",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, EMEA Data Center Development",
+      "company": "Microsoft",
+      "start": "1/2021",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "MBA Associate Summer Intern, European Investment Team & Global Strategy Team",
+      "company": "Hines",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "MBA Associate Summer Intern, Inversión Europea y Estrategia Global",
+      "company": "Hines",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Director, Investment and Development",
+      "company": "Residencial Centro",
+      "start": "9/2017",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Director, Inversión y Promoción inmobiliaria",
+      "company": "RESIDENCIAL CENTRO SL",
+      "start": "9/2017",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Associate Director ( Capital Markets, Residential Investment)",
+      "company": "JLL",
+      "start": "6/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Directora Asociada (Capital Markets, Inversión Residencial)",
+      "company": "JLL",
+      "start": "6/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Consultora Senior (Consultoría Estratégica)",
+      "company": "JLL",
+      "start": "4/2014",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant (Strategic Consulting)",
+      "company": "JLL",
+      "start": "4/2014",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Auditor (Financial Services, Banking industry)",
+      "company": "Deloitte",
+      "start": "10/2011",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Auditora Senior (Servicios Financieros, Banca)",
+      "company": "Deloitte",
+      "start": "10/2011",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Summer intern, Valuations and M&A team",
+      "company": "KPMG",
+      "start": "5/2010",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "Becaria, Equipo de Valoraciones y M&A",
+      "company": "KPMG",
+      "start": "5/2010",
+      "end": "7/2010",
+      "current": false
+    }
+  ]
 }

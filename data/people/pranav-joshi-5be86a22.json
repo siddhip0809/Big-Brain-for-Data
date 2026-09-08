@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Cumming Group",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Cumming Group",
+      "start": "1/2022",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Cumming Group",
+      "start": "4/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Cumming Group",
+      "start": "1/2019",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Cost Management Intern",
+      "company": "Cumming Group",
+      "start": "5/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "Central Public Works Department Govt of India",
+      "start": "7/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Architectural Intern",
+      "company": "Architectural and Interior Design Solutions",
+      "start": "6/2015",
+      "end": "7/2015",
+      "current": false
+    }
+  ]
 }

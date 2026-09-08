@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "DataBank",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager",
+      "company": "DataBank",
+      "start": "12/2020",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Zayo Group",
+      "start": "9/2014",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Regional Data Center Manager",
+      "company": "Zayo Group",
+      "start": "8/2010",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Information Security Analyst",
+      "company": "Bridgestone",
+      "start": "4/2006",
+      "end": "7/2010",
+      "current": false
+    }
+  ]
 }

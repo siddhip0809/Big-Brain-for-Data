@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Burns and McDonnell",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Preconstruction Manager",
+      "company": "Kiewit",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Kiewit",
+      "start": "3/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Kiewit",
+      "start": "8/2019",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator - Energy Supply",
+      "company": "Xcel Energy",
+      "start": "10/2017",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "AECOM",
+      "start": "4/2013",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "AECOM",
+      "start": "1/2009",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "AECOM",
+      "start": "1/2008",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Intern Project Engineer",
+      "company": "Barnard Construction Company",
+      "start": "5/2007",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Intern Operator",
+      "company": "ARS Companies",
+      "start": "5/2006",
+      "end": "9/2006",
+      "current": false
+    }
+  ]
 }

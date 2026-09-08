@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Manager - Cost Controls",
+      "company": "Turner Construction",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Project Engineer",
+      "company": "Turner Construction",
+      "start": "7/2022",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Lead Project Engineer",
+      "company": "Turner Construction",
+      "start": "7/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Data Analyst",
+      "company": "Turner Construction",
+      "start": "11/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer",
+      "company": "Turner Construction",
+      "start": "6/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Graduate Research Analyst",
+      "company": "Howard University",
+      "start": "8/2015",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Project Data Analyst",
+      "company": "Oilserv Limited",
+      "start": "6/2011",
+      "end": "8/2015",
+      "current": false
+    }
+  ]
 }

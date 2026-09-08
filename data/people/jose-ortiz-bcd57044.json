@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Caddell Construction",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Clayco",
+      "start": "5/2022",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Graycor Construction",
+      "start": "10/2020",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction",
+      "company": "DPR Construction",
+      "start": "11/2018",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "DPR Construction",
+      "start": "4/2017",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Virtual Construction Engineer",
+      "company": "Sundt Construction",
+      "start": "1/2016",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Field Engineer Intern",
+      "company": "Hensel Phelps",
+      "start": "5/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Hunt Construction Group",
+      "start": "3/2014",
+      "end": "5/2015",
+      "current": false
+    }
+  ]
 }

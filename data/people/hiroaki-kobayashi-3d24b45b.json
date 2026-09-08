@@ -28,5 +28,71 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Japan Country Manager",
+      "company": "CloudHQ",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Data Centers",
+      "company": "ESR Group",
+      "start": "7/2021",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President, Strategy Business Development",
+      "company": "Digital Realty",
+      "start": "10/2018",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Mitsubishi Corporation Urban Development",
+      "start": "10/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Diamond Realty Management",
+      "start": "3/2013",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Mitsubishi",
+      "start": "7/2007",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Manager",
+      "company": "Global Alliance Realty",
+      "start": "1/2005",
+      "end": "7/2007",
+      "current": false
+    },
+    {
+      "title": "-",
+      "company": "Takenaka",
+      "start": "4/2002",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "raw": "CloudHQ"
+    }
+  ]
 }

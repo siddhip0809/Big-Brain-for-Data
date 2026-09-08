@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Sales - APAC",
+      "company": "EdgeConneX",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Membership Development",
+      "company": "Asosiasi Penyelenggara Data Center Indonesia - IDPRO",
+      "start": "6/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Sales and Marketing Officer",
+      "company": "PT Graha Teknologi Nusantara",
+      "start": "8/2015",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Head of Enterprise Sales Dept",
+      "company": "PT Link Net Tbk",
+      "start": "5/2004",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "PT Broadband Network System",
+      "start": "12/2000",
+      "end": "5/2004",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "PT Central Java Pratama",
+      "start": "7/1999",
+      "end": "7/2000",
+      "current": false
+    },
+    {
+      "title": "Export Manager",
+      "company": "Oberon Mfg Co Pte",
+      "start": "8/1995",
+      "end": "10/1999",
+      "current": false
+    }
+  ]
 }

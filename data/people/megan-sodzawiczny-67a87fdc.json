@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Director",
+      "company": "Global Technical Realty",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager",
+      "company": "Fabrix",
+      "start": "9/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "Lendlease",
+      "start": "5/2021",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Development Manager",
+      "company": "Lendlease",
+      "start": "9/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Graduate Development Manager",
+      "company": "Lendlease",
+      "start": "9/2017",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "City Lease Advisory Intern",
+      "company": "Deloitte",
+      "start": "7/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Global Corporate Services Intern",
+      "company": "CB Richard Ellis",
+      "start": "6/2015",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Commercial Sales & Advertising Placement",
+      "company": "Financial Times",
+      "start": "1/2014",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "International Media Placement",
+      "company": "Mindshare",
+      "start": "8/2013",
+      "end": "12/2013",
+      "current": false
+    }
+  ]
 }

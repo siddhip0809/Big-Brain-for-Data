@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Key Account Development",
+      "company": "Telehouse",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "Telehouse",
+      "start": "4/2025",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Sales Account Manager",
+      "company": "Telehouse",
+      "start": "5/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "STL - Sterlite Technologies Limited",
+      "start": "10/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Technimove",
+      "start": "12/2011",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Satori Software",
+      "start": "9/2009",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Business Manager",
+      "company": "COA Solutions",
+      "start": "6/2006",
+      "end": "3/2009",
+      "current": false
+    }
+  ]
 }

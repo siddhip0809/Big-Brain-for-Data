@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Specialist",
+      "company": "NTT",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Engineer - Connected Technologies",
+      "company": "UL Solutions",
+      "start": "12/2019",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Technical Consultant",
+      "company": "HEAT",
+      "start": "1/2018",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Energy Management Intern",
+      "company": "ACO Passavant",
+      "start": "4/2016",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Mechanical Design Engineer (NPD)",
+      "company": "Tata Consultancy Services",
+      "start": "11/2013",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Engineering Trainee - Maintenance",
+      "company": "Apollo Tyres",
+      "start": "5/2013",
+      "end": "11/2013",
+      "current": false
+    }
+  ]
 }

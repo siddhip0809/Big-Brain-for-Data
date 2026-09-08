@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Real Estate Strategy and Development Lead ",
+      "company": "AWS",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Worldwide Real Estate",
+      "company": "Amazon",
+      "start": "3/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Director Real Estate",
+      "company": "WeWork",
+      "start": "1/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Vice President, Integrated Portfolio Services",
+      "company": "JLL",
+      "start": "2/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Associate, Public Institutions",
+      "company": "JLL",
+      "start": "8/2005",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Corporate Real Estate Analyst",
+      "company": "Thermo Fisher Scientific",
+      "start": "10/2004",
+      "end": "7/2005",
+      "current": false
+    }
+  ]
 }

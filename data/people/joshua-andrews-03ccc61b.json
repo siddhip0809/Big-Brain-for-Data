@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Site Acquisition Manager",
+      "company": "TikTok",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Acquisition Manager",
+      "company": "Microsoft",
+      "start": "1/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "New Site Development Manager",
+      "company": "Vantage",
+      "start": "1/2023",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Data Centre Selection Manager",
+      "company": "Cloudflare",
+      "start": "1/2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Data Centre",
+      "company": "CB Richard Ellis",
+      "start": "1/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Cultural Ambassador And English Language Teacher",
+      "company": "Japan Exchange And Teaching Program",
+      "start": "1/2014",
+      "end": "1/2016",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,32 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Site Selection and Acquisition",
+      "company": "Vantage",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal",
+      "company": "IRG Data",
+      "start": "1/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Ideal Realty Group",
+      "start": "1/2018",
+      "end": "6/2025",
+      "current": false
+    }
+  ]
 }

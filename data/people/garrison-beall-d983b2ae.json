@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial Senior Director, Construction",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Director, Construction",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "9/2018",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "CoreSite",
+      "start": "3/2015",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "M A Mortenson",
+      "start": "11/2013",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "HITT Contracting",
+      "start": "6/2010",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant PM/Estimator",
+      "company": "Precision Walls",
+      "start": "1/2007",
+      "end": "6/2010",
+      "current": false
+    }
+  ]
 }

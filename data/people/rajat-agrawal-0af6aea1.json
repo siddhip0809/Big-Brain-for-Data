@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Energy and Utilities",
+      "company": "Applied Digital",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Energy and Utilities",
+      "company": "QTS Data Centers",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, New Business Development",
+      "company": "BASF New Business",
+      "start": "6/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Global Director Energy Procurement",
+      "company": "Nouryon",
+      "start": "8/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Marketing & Business Development Manager, Americas",
+      "company": "BASF New Business",
+      "start": "8/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Manager, Energy Management & Procurement",
+      "company": "BASF",
+      "start": "2/2015",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Energy Risk Manager",
+      "company": "Air Liquide USA",
+      "start": "3/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Gulf Coast Energy Optimization Manager",
+      "company": "Air Liquide USA",
+      "start": "8/2008",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "R&D Program Manager/Scientist",
+      "company": "Air Liquide America",
+      "start": "1/2003",
+      "end": "1/2008",
+      "current": false
+    }
+  ]
 }

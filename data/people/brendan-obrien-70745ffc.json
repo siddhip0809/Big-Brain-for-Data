@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Services",
+      "company": "Turner Construction",
+      "start": "9/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Estimator II",
+      "company": "Haselden Construction",
+      "start": "1/2008",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "JE Dunn Construction",
+      "start": "10/2006",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Manager",
+      "company": "VendRick Construction",
+      "start": "8/2002",
+      "end": "10/2006",
+      "current": false
+    }
+  ]
 }

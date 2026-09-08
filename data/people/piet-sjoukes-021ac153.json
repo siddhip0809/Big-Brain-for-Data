@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director NorthC datacenters",
+      "company": "NorthC Datacenters",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Sales & Marketing",
+      "company": "Digital Realty",
+      "start": "12/2016",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Sales Manager Benelux - Digital Media",
+      "company": "Akamai Technologies",
+      "start": "12/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Sales & New Business Manager",
+      "company": "Ericsson",
+      "start": "10/2010",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "MyTistics",
+      "start": "2010",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "dutchView",
+      "start": "7/2005",
+      "end": "10/2010",
+      "current": false
+    },
+    {
+      "title": "Ass. Partner",
+      "company": "CostFocus",
+      "start": "2003",
+      "end": "2005",
+      "current": false
+    },
+    {
+      "title": "Sales Manager OEM",
+      "company": "Sybase",
+      "start": "2001",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "Director Ecommerce",
+      "company": "Tiscali",
+      "start": "1999",
+      "end": "2001",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Cap Gemini",
+      "start": "1994",
+      "end": "1999",
+      "current": false
+    }
+  ]
 }

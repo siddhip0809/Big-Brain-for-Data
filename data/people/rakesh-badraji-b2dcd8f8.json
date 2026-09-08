@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Project Manager - Datacenter development",
+      "company": "AWS",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Development Manager",
+      "company": "Compass Datacenters",
+      "start": "10/2022",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "J4 Development",
+      "start": "7/2019",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Ddandb construction",
+      "start": "8/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Integra technologies",
+      "start": "3/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Geotechnical intern",
+      "company": "SS Constructions",
+      "start": "1/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

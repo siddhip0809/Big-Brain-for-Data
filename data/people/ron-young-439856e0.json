@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction NA",
+      "company": "Vantage",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Campus Construction Manager",
+      "company": "Meta",
+      "start": "10/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Program Manager, Semiconductor Fab Construction",
+      "company": "Intel",
+      "start": "5/2021",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Business Owner",
+      "company": "Green True North",
+      "start": "11/2015",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "Lauren Engineers & Constructors",
+      "start": "6/2014",
+      "end": "10/2015",
+      "current": false
+    }
+  ]
 }

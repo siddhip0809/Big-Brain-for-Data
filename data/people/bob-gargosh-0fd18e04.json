@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Executive",
+      "company": "QTS Data Centers",
+      "start": "3/2000",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of CAD Services",
+      "company": "Universal Data Consultants",
+      "start": "1/1995",
+      "end": "12/2000",
+      "current": false
+    }
+  ]
 }

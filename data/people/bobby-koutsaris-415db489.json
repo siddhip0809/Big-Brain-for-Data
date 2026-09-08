@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Hyperscale Leasing",
+      "company": "Compass Datacenters",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Corporate Development",
+      "company": "Compass Datacenters at Compass Datacenters",
+      "start": "4/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Data Center Development & Strategy, Americas",
+      "company": "Yondr",
+      "start": "5/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Americas Lead, Cloud Advisory Group",
+      "company": "Cushman & Wakefield",
+      "start": "9/2020",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Director, Global Data Center Advisory Group",
+      "company": "Cushman & Wakefield",
+      "start": "5/2018",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Manager, Data Center Business Development (Data Center Advisory Group)",
+      "company": "Cushman & Wakefield",
+      "start": "4/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive, Canada",
+      "company": "Cogeco Peer 1",
+      "start": "7/2012",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Enterprise Software Sales - Account Executive",
+      "company": "NexJ Systems",
+      "start": "9/2011",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "LiDAR Technology Lead Product Specialist",
+      "company": "Optech",
+      "start": "8/2008",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Mark V Development",
+      "start": "5/2007",
+      "end": "6/2008",
+      "current": false
+    },
+    {
+      "title": "GIS Analyst/Engineering Assistant",
+      "company": "Geo-Canada",
+      "start": "1/2007",
+      "end": "4/2007",
+      "current": false
+    },
+    {
+      "title": "GIS Technologist",
+      "company": "Greater Toronto Airport Authority",
+      "start": "5/2006",
+      "end": "8/2006",
+      "current": false
+    },
+    {
+      "title": "Junior Research Analyst",
+      "company": "RealNet Canada",
+      "start": "1/2005",
+      "end": "4/2005",
+      "current": false
+    }
+  ]
 }

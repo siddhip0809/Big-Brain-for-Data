@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Vantage",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Pre Construction Manager",
+      "company": "AWS",
+      "start": "12/2024",
+      "end": "8/2026",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "6/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Abercrombie & Fitch",
+      "start": "1/2022",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "MEP Project Engineer",
+      "company": "Turner Construction",
+      "start": "8/2018",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Mechanical Field Engineer",
+      "company": "Kokosing Industrial",
+      "start": "8/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Kiewit",
+      "start": "1/2014",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Intern Field Engineer",
+      "company": "Kiewit",
+      "start": "8/2012",
+      "end": "12/2012",
+      "current": false
+    }
+  ]
 }

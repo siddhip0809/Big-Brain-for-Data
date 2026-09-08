@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Renewable Energy Strategy",
+      "company": "Apple",
+      "start": "10/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Strategist, Renewable Energy",
+      "company": "Apple",
+      "start": "2/2020",
+      "end": "9/2021",
+      "current": false
+    }
+  ]
 }

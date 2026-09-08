@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President",
+      "company": "QTS Data Centers",
+      "start": "6/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Energy and Sustainability",
+      "company": "QTS Data Centers",
+      "start": "3/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site Director",
+      "company": "QTS Data Centers",
+      "start": "3/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Facilities",
+      "company": "Western Digital",
+      "start": "4/2011",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "CEO",
+      "company": "Eon Energy",
+      "start": "10/2008",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Facilities Director",
+      "company": "STMicroelectronics",
+      "start": "9/2000",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

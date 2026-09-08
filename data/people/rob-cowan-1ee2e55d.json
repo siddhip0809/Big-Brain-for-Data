@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Construction",
+      "company": "STACK Infrastructure",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Construction Program",
+      "company": "STACK Infrastructure",
+      "start": "2/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Strategy Leader",
+      "company": "The Weitz Company",
+      "start": "1/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Specialty Technology Managing Executive",
+      "company": "The Volare Works",
+      "start": "5/2022",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Co-Founder & Executive Vice President",
+      "company": "TEC Solutions",
+      "start": "1/2014",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Director of Technology Management Systems Center",
+      "company": "System Planning",
+      "start": "11/2007",
+      "end": "1/2014",
+      "current": false
+    }
+  ]
 }

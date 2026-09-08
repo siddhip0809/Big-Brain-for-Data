@@ -50,5 +50,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "tillion-data-centers"
+  "current_company_id": "tillion-data-centers",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial Director",
+      "company": "Tillion Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Hyperscale Sales Director - EMEA",
+      "company": "AtlasEdge",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Director",
+      "company": "CBRE",
+      "start": "4/2020",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager Data Centres EMEA",
+      "company": "Anixter",
+      "start": "7/2015",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Leviton Network Solutions Europe",
+      "start": "11/2010",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Blue Helix",
+      "start": "9/2007",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Network Infrastructure Engineer",
+      "company": "PCM Systems",
+      "start": "7/1998",
+      "end": "8/2007",
+      "current": false
+    }
+  ]
 }

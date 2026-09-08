@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Data Centers",
+      "company": "VGP",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Acquisitions EMEA",
+      "company": "Microsoft",
+      "start": "9/2020",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Commercial Director, Europe",
+      "company": "Global Switch",
+      "start": "9/2017",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Director EMEA Data Centres",
+      "company": "Colliers",
+      "start": "1/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Data Centres",
+      "company": "CBRE",
+      "start": "7/2008",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Global Switch",
+      "start": "1/2008",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor - Central London Capital Markets",
+      "company": "CBRE",
+      "start": "1/2006",
+      "end": "7/2008",
+      "current": false
+    },
+    {
+      "title": "Building Surveyor",
+      "company": "CBRE",
+      "start": "1/2003",
+      "end": "12/2005",
+      "current": false
+    }
+  ]
 }

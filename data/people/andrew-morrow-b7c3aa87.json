@@ -28,5 +28,36 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategy & Investment",
+      "company": "Pure Data Centres",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cloud Infrastructure Portfolio, Lease and M&A",
+      "company": "Microsoft",
+      "start": "3/2020",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Data Center, Capital Markets",
+      "company": "CB Richard Ellis",
+      "start": "8/2014",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "raw": "Pure Data Centres"
+    }
+  ]
 }

@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Hyperscale Sales",
+      "company": "NTT",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Client Manager",
+      "company": "NTT",
+      "start": "10/2023",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Manager",
+      "company": "Telin",
+      "start": "4/2019",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Singtel",
+      "start": "5/2017",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "RELIVE",
+      "start": "1/2013",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Business Manager",
+      "company": "Singtel",
+      "start": "1/2007",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Business Manager",
+      "company": "Dun & Bradstreet",
+      "start": "1/2002",
+      "end": "12/2007",
+      "current": false
+    }
+  ]
 }

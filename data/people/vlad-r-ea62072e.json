@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Executive",
+      "company": "Rosendin",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "VECA Electric & Technologies",
+      "start": "11/2024",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Cumming",
+      "start": "10/2020",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Sr Preconstruction Manager",
+      "company": "Amazon",
+      "start": "7/2020",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "OAC Services",
+      "start": "11/2018",
+      "end": "5/2020",
+      "current": false
+    }
+  ]
 }

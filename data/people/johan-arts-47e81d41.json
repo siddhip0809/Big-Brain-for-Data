@@ -28,5 +28,110 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President Sales EMEA",
+      "company": "Equinix",
+      "start": "11/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Worldwide Sales for IBM Security",
+      "company": "IBM",
+      "start": "4/2019",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Vice President - WW Channels and Routes to Market for IBM Security",
+      "company": "IBM",
+      "start": "1/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Vice President Sales - Europe for IBM Security",
+      "company": "IBM",
+      "start": "1/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Director of Security Systems Europe",
+      "company": "IBM",
+      "start": "1/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Director Software Solutions Group - Benelux",
+      "company": "IBM",
+      "start": "1/2013",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Brand Sales Leader - Benelux",
+      "company": "IBM",
+      "start": "8/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Leader Tivoli Benelux",
+      "company": "IBM",
+      "start": "1/2009",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Leader Tivoli Maximo South West Europe",
+      "company": "IBM",
+      "start": "1/2007",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Vice President Industry Marketing",
+      "company": "MRO Software",
+      "start": "9/2001",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Director Business Development",
+      "company": "Hologix",
+      "start": "10/2000",
+      "end": "8/2001",
+      "current": false
+    },
+    {
+      "title": "Director Global Marketing",
+      "company": "QAD",
+      "start": "6/1998",
+      "end": "8/2000",
+      "current": false
+    },
+    {
+      "title": "Sales Manager ASEAN Electronics Industry",
+      "company": "QAD",
+      "start": "6/1996",
+      "end": "6/1998",
+      "current": false
+    },
+    {
+      "title": "Various sales roles in EMEA",
+      "company": "QAD",
+      "start": "6/1992",
+      "end": "6/1996",
+      "current": false
+    }
+  ]
 }

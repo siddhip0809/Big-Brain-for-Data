@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer",
+      "company": "Bulk Data Centers",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Council Board Member",
+      "company": "Norwegian-British Chamber of Commerce",
+      "start": "1/2022",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "VP Data Centers",
+      "company": "Bulk Data Centers",
+      "start": "9/2019",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Director of Projects & Consultancy, EMEA",
+      "company": "CBRE Data Centre Solutions at CBRE",
+      "start": "7/2016",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Independent Professional Consultant",
+      "company": "JASO Consulting",
+      "start": "1/2016",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Keysource",
+      "start": "1/2011",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Keysource",
+      "start": "6/2005",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Sales and Marketing Manager",
+      "company": "Keysource",
+      "start": "5/2004",
+      "end": "5/2005",
+      "current": false
+    }
+  ]
 }

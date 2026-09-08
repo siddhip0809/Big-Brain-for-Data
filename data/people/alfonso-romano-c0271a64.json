@@ -39,5 +39,102 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, EMEA Site Acquisitions & Development",
+      "company": "Vantage",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Member Board of Directors",
+      "company": "IDA - Italian Datacenter Association",
+      "start": "1/2023",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Sr. Director, EMEA Site Selection & Acquisitions",
+      "company": "Vantage",
+      "start": "10/2022",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Sr Business Program Manager",
+      "company": "Microsoft",
+      "start": "10/2020",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "New Region Start up and Expansion Manager - EMEA Cloud Infrastructure",
+      "company": "AWS",
+      "start": "9/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Data Center Infrastructure Country Leader (Italy)",
+      "company": "AWS",
+      "start": "5/2016",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Engineering Manager",
+      "company": "Intel",
+      "start": "6/2011",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Sr. Engineer / Shift Manager",
+      "company": "Intel",
+      "start": "6/2011",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Group Leader - Defects reduction",
+      "company": "Micron Technology",
+      "start": "5/2010",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Sr. Engineer / Project Manager",
+      "company": "Micron Technology",
+      "start": "1/2008",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Process/Equipment Owner",
+      "company": "IM Flash Technologies",
+      "start": "7/2006",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Process Engineer",
+      "company": "Micron Technology",
+      "start": "2/2004",
+      "end": "7/2006",
+      "current": false
+    },
+    {
+      "title": "Financial Database developer",
+      "company": "Alphaomega",
+      "start": "9/2003",
+      "end": "2/2004",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,85 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Colocation and Interconnection Sales",
+      "company": "Flexential",
+      "start": "2/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Strategic Accounts",
+      "company": "Flexential",
+      "start": "11/2018",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "raw": "VP of Sales"
+    },
+    {
+      "title": "Network Sector",
+      "company": "Digital Realty",
+      "start": "8/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales, Eastern Region",
+      "company": "Internap Network Services",
+      "start": "10/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Director of Networks and Service Providers",
+      "company": "vXchnge",
+      "start": "5/2014",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales, Enterprise",
+      "company": "CoreSite",
+      "start": "1/2010",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales, Eastern Region & EMEA",
+      "company": "Switch and Data",
+      "start": "8/2005",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Switch and Data",
+      "start": "12/2001",
+      "end": "8/2005",
+      "current": false
+    },
+    {
+      "title": "Branch Sales Manager",
+      "company": "OnSite Access",
+      "start": "1/1999",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Major Account Manager",
+      "company": "Data Return",
+      "start": "1/1998",
+      "end": "12/1999",
+      "current": false
+    }
+  ]
 }

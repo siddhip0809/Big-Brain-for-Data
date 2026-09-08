@@ -39,5 +39,88 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "american-real-estate-partners"
+  "current_company_id": "american-real-estate-partners",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Data Center Preconstruction Program",
+      "company": "American Real Estate Partners",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr Pre Construction Manager",
+      "company": "AWS",
+      "start": "11/2024",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Pre Construction Manager",
+      "company": "AWS",
+      "start": "11/2023",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice President",
+      "company": "WSP",
+      "start": "1/2023",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction and Development Manager",
+      "company": "WSP",
+      "start": "3/2020",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "WSP",
+      "start": "1/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Project Management and Controls Consultant / Lead Scheduler",
+      "company": "WSP",
+      "start": "11/2014",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Lead Scheduler",
+      "company": "WSP",
+      "start": "4/2012",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Project Controls Consultant",
+      "company": "Enovio Consulting",
+      "start": "11/2010",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Graduate Research / Teaching Assistant",
+      "company": "Texas A&M University",
+      "start": "5/2009",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Parmeshwar & Co",
+      "start": "8/2005",
+      "end": "6/2008",
+      "current": false
+    }
+  ]
 }

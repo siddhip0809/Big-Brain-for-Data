@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "DPR Construction",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "GE Johnson",
+      "start": "7/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "GE Johnson",
+      "start": "8/2015",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager, Special Projects",
+      "company": "Kiewit",
+      "start": "3/2012",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Estimator",
+      "company": "Elevator Specialties Group",
+      "start": "12/2011",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Pinkard Construction",
+      "start": "1/2002",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "ISEC",
+      "start": "8/1997",
+      "end": "1/2002",
+      "current": false
+    }
+  ]
 }

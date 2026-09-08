@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Energy Markets Program Manager",
+      "company": "Microsoft",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager II",
+      "company": "Dominion",
+      "start": "10/2021",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Reliability Engineer",
+      "company": "Dominion",
+      "start": "1/2020",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "TA Construction Coordinator",
+      "company": "Dominion",
+      "start": "8/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Operations and Maintenance Engineer",
+      "company": "Dominion",
+      "start": "4/2013",
+      "end": "7/2018",
+      "current": false
+    }
+  ]
 }

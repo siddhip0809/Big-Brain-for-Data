@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "tiktok"
+  "current_company_id": "tiktok",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Planning and Acquisition",
+      "company": "TikTok",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EMEA Real Estate Development Manager",
+      "company": "AWS",
+      "start": "7/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Managing Quantity Surveyor",
+      "company": "EY",
+      "start": "12/2017",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Deloitte France",
+      "start": "8/2016",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Deloitte",
+      "start": "8/2016",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Quantity surveying",
+      "company": "AECOM",
+      "start": "9/2013",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Hammersmith & Fulham Council",
+      "start": "9/2012",
+      "end": "10/2013",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP Investments ",
+      "company": "Form8tion Data Centers",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "EdgeConneX",
+      "start": "8/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Advisor (Operations & Management)",
+      "company": "P3 Group",
+      "start": "7/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Executive",
+      "company": "Equinix",
+      "start": "8/2013",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Vice President-Founder",
+      "company": "HV Ventures",
+      "start": "3/2002",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Regional Manager Consulting Services",
+      "company": "BroadVision",
+      "start": "7/2000",
+      "end": "11/2002",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Consultant",
+      "company": "Oracle",
+      "start": "1/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Consultant USA and Latin America",
+      "company": "Exact",
+      "start": "1/1997",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "title": "Vice President - Co-founder",
+      "company": "Veltroni Industries holdings",
+      "start": "8/1992",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "title": "Training and Support Manager - APPLE Inc",
+      "company": "CCE",
+      "start": "1/1990",
+      "end": "7/1992",
+      "current": false
+    }
+  ]
 }

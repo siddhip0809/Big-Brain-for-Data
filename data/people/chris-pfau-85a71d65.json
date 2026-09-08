@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, EMEA Commercial Sales",
+      "company": "Equinix",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, EMEA Mid-Market Sales",
+      "company": "Equinix",
+      "start": "3/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Manager, EMEA Mid-Market Sales",
+      "company": "Equinix",
+      "start": "11/2020",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Equinix",
+      "start": "1/2018",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Development Representative",
+      "company": "Equinix",
+      "start": "12/2016",
+      "end": "12/2017",
+      "current": false
+    }
+  ]
 }

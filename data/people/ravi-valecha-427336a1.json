@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales",
+      "company": "GreenScale Data Centres",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Sales, Strategic Accounts",
+      "company": "AtlasEdge",
+      "start": "12/2022",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Colocation Sales",
+      "company": "Pulsant",
+      "start": "12/2019",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "CyrusOne",
+      "start": "9/2016",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Account Director, International Accounts",
+      "company": "Equinix",
+      "start": "2/2010",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Colt Data Centre Services",
+      "start": "3/2006",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Claranet",
+      "start": "9/2002",
+      "end": "2/2006",
+      "current": false
+    }
+  ]
 }

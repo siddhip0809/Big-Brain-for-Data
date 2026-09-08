@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Italy",
+      "company": "EdgeConneX",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Direttore della Divisione Data Centers Rai Way",
+      "company": "Rai Way S p A",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President & Co-Founder",
+      "company": "IDA - Italian Datacenter Association",
+      "start": "1/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "President & Co-Founder",
+      "company": "Ge-DIX Genova Data Internet Exchange",
+      "start": "9/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Chief Datacenter Officer",
+      "company": "Rai Way S p A",
+      "start": "11/2020",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President Global",
+      "company": "Uptime Institute",
+      "start": "9/2018",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Chief Innovation Officer",
+      "company": "Confindustria",
+      "start": "3/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Board Member",
+      "company": "Netalia",
+      "start": "1/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director Supernap Italia",
+      "company": "STACK Infrastructure",
+      "start": "8/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Managing Director Italy & Chairman of the Board",
+      "company": "Equinix",
+      "start": "9/2015",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "TelecityGroup Italia SpA Managing Director & Chairman of the Board",
+      "company": "Equinix",
+      "start": "11/2001",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Managing Director & Member of the Board",
+      "company": "Interxion Italia SPA at Digital Realty",
+      "start": "2/2000",
+      "end": "2/2002",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director Southern Europe",
+      "company": "Viatel",
+      "start": "1/1998",
+      "end": "2/2000",
+      "current": false
+    }
+  ]
 }

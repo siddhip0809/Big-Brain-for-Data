@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "BW Design Group",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager Preconstruction Services / Chief Estimator",
+      "company": "Graycor Construction",
+      "start": "11/2015",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "Graycor Construction",
+      "start": "10/2011",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Graycor Construction",
+      "start": "3/2009",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Graycor Construction",
+      "start": "6/2008",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Michigan State University",
+      "start": "8/2007",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Construction Contracts Assistant",
+      "company": "Michigan State University",
+      "start": "3/2007",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Lecturer",
+      "company": "Amity University",
+      "start": "12/2005",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Moolchand Hospital",
+      "start": "6/2005",
+      "end": "11/2005",
+      "current": false
+    },
+    {
+      "title": "Architect",
+      "company": "Arvind Vivek and Associates",
+      "start": "1/2004",
+      "end": "5/2005",
+      "current": false
+    }
+  ]
 }

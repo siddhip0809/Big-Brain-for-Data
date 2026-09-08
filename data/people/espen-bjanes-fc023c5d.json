@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "atnorth-data-center"
+  "current_company_id": "atnorth-data-center",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "atNorth Data Center",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President of Sales",
+      "company": "Green Mountain AS - Data centres",
+      "start": "5/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Vice President Sales Nordics",
+      "company": "Green Mountain AS - Data centres",
+      "start": "7/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President Sales Norway",
+      "company": "Green Mountain AS - Data centres",
+      "start": "1/2021",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Tata Consultancy Services",
+      "start": "4/2014",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Sales Director Strategic Sales Team",
+      "company": "Tieto",
+      "start": "3/2011",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Country Alliance Manager, Norway",
+      "company": "Tieto",
+      "start": "12/2009",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Manager Public Sector Norway",
+      "company": "Tieto",
+      "start": "1/2009",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Tieto",
+      "start": "3/2008",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "EVRY ASA",
+      "start": "11/2007",
+      "end": "3/2008",
+      "current": false
+    }
+  ]
 }

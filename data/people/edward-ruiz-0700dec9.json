@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Land Development Manager",
+      "company": "Microsoft",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site Development Program Manager - LAX Market",
+      "company": "Crown Castle",
+      "start": "3/2019",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Manager",
+      "company": "Crown Castle",
+      "start": "3/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Specialist",
+      "company": "Crown Castle",
+      "start": "8/2015",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Urban Planner",
+      "company": "Crown Castle",
+      "start": "3/2014",
+      "end": "8/2015",
+      "current": false
+    }
+  ]
 }

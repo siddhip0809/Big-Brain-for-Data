@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Sr. Real Estate Development Manager",
+      "company": "AWS",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, Land Siting and Acquisition",
+      "company": "Silicon Ranch",
+      "start": "11/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Siting and Land Rights Agent",
+      "company": "Xcel Energy",
+      "start": "3/2020",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Land Negotiator",
+      "company": "Noble Energy",
+      "start": "9/2010",
+      "end": "3/2020",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager, Pre Construction",
+      "company": "Crusoe",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Director",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "11/2020",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "9/2018",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Turner & Townsend",
+      "start": "5/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner & Townsend",
+      "start": "11/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Turner & Townsend",
+      "start": "4/2013",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Architectural Technician",
+      "company": "ASP Associates",
+      "start": "7/2009",
+      "end": "12/2012",
+      "current": false
+    }
+  ]
 }

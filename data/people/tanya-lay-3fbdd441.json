@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Asset Management",
+      "company": "Digital Realty",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Asset Manager",
+      "company": "Digital Realty",
+      "start": "3/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Asset Manager",
+      "company": "Digital Realty",
+      "start": "4/2015",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Technical Operations Coordinator & Compliance Manager",
+      "company": "Digital Realty",
+      "start": "3/2011",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Portfolio Assistant",
+      "company": "Digital Realty",
+      "start": "1/2009",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Executive Assistant",
+      "company": "Goodman",
+      "start": "4/2006",
+      "end": "10/2008",
+      "current": false
+    }
+  ]
 }

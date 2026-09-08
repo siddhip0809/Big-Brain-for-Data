@@ -28,5 +28,117 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Data Center Delivery",
+      "company": "OpenAI",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Equinix",
+      "start": "5/2021",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Geographical Manager Asia Pacific, Data Center Design",
+      "company": "Meta",
+      "start": "9/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Program Manager, Data Center Solutions Group",
+      "company": "Meta",
+      "start": "2/2018",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager, Special Projects",
+      "company": "Meta",
+      "start": "10/2017",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, Appomattox",
+      "company": "Shell",
+      "start": "12/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, Arctic",
+      "company": "Shell",
+      "start": "1/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, Gulf Coast GtL",
+      "company": "Shell",
+      "start": "10/2013",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "US Army Corps of Engineers",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "US Steel",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "United States Steel",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern II",
+      "company": "Michael Baker International",
+      "start": "1/2011",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "The Great Lakes Construction Company",
+      "start": "6/2010",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "The Great Lakes Construction Company",
+      "start": "5/2009",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Storage Condominiums",
+      "start": "9/2004",
+      "end": "5/2009",
+      "current": false
+    }
+  ]
 }

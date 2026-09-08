@@ -39,5 +39,19 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

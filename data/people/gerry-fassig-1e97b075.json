@@ -28,5 +28,50 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales, West & CSP",
+      "company": "CoreSite",
+      "start": "7/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Accounts Director",
+      "company": "Centurylink Business For Enterprise",
+      "start": "1/2002",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Strategic Sales Director",
+      "company": "Wheelhouse",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Gartner",
+      "start": "1/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "District Sales Manager",
+      "company": "Law Cypress",
+      "start": "1/1993",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "raw": "CoreSite"
+    }
+  ]
 }

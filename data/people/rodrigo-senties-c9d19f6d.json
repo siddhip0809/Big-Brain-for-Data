@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "AWS",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager",
+      "company": "StoryBuilt",
+      "start": "7/2022",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Summer Associate",
+      "company": "CB Richard Ellis",
+      "start": "5/2021",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "Gran Ciudad",
+      "start": "11/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Development Associate",
+      "company": "Thor Urbana",
+      "start": "11/2016",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Architect",
+      "company": "Boutique de Arquitectura",
+      "start": "5/2012",
+      "end": "8/2014",
+      "current": false
+    }
+  ]
 }

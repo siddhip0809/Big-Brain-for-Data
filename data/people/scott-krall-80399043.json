@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Maine Region Director",
+      "company": "National Ski Patrol",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Digital Realty",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Management Consultant",
+      "company": "Self-employed · Self-employed",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Project Management Design & Construction Corporate Real Estate",
+      "company": "Thermo Fisher Scientific",
+      "start": "9/2019",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Director of Project Services Real Estate & Facilties",
+      "company": "Dell EMC",
+      "start": "12/1993",
+      "end": "9/2019",
+      "current": false
+    }
+  ]
 }

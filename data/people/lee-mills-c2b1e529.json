@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Global Account Management & Delivery",
+      "company": "Stream Data Centers",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Customer Success",
+      "company": "Stream Data Centers",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site Acquisition Program Manager",
+      "company": "Microsoft",
+      "start": "5/2020",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Group Finance Manager, Corporate Accounting",
+      "company": "Microsoft",
+      "start": "9/2017",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Group Finance Manager, Real Estate & Facilities",
+      "company": "Microsoft",
+      "start": "9/2014",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Financial Analyst, Real Estate & Facilities",
+      "company": "Microsoft",
+      "start": "3/2010",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Business Manager, Business Productivity Online Services",
+      "company": "Microsoft",
+      "start": "1/2008",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "Sr. Financial Analyst, Server & Tools/Information Worker",
+      "company": "Microsoft",
+      "start": "7/2003",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Sr. Treasury Accountant, Treasury & Corporate Accounting",
+      "company": "Microsoft",
+      "start": "10/1996",
+      "end": "7/2003",
+      "current": false
+    }
+  ]
 }

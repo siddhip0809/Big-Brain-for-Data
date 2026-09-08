@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Preconstruction Services",
+      "company": "Kraus‑Anderson",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Estimating",
+      "company": "Kraus‑Anderson",
+      "start": "1/2025",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Services Group Manager",
+      "company": "Kraus‑Anderson",
+      "start": "7/2020",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Services Manager",
+      "company": "Kraus‑Anderson",
+      "start": "12/2015",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Wenck Construction",
+      "start": "1/2013",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Wenck Construction",
+      "start": "4/2009",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Intern/Project Coordinator",
+      "company": "Wenck Construction",
+      "start": "10/2007",
+      "end": "4/2009",
+      "current": false
+    }
+  ]
 }

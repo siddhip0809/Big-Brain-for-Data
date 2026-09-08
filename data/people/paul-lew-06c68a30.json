@@ -28,5 +28,108 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Strategic Sales",
+      "company": "Princeton Digital Group",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director, FSI Vertical",
+      "company": "NTT",
+      "start": "4/2020",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Head, Sales Department",
+      "company": "NTT",
+      "start": "8/2014",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Head, Sales Department",
+      "company": "NTT",
+      "start": "8/2014",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Executive Director, Sales and Marketing Division",
+      "company": "NTT",
+      "start": "7/2011",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Executive Director, Sales and Marketing Division",
+      "company": "NTT",
+      "start": "7/2011",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Director, Sales and Marketing Division",
+      "company": "NTT",
+      "start": "1/2010",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Director, Sales and Marketing Division",
+      "company": "NTT",
+      "start": "1/2010",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Manager, Asia Pacific",
+      "company": "Thuraya",
+      "start": "1/2006",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Loral Skynet",
+      "start": "1/2005",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "StarHub",
+      "start": "1/2001",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager, ASEAN",
+      "company": "WPG Electronics",
+      "start": "1/1999",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "TMI",
+      "start": "1/1997",
+      "end": "12/1999",
+      "current": false
+    },
+    {
+      "title": "VP, Strategic Sales",
+      "company": "Princeton Digital Group",
+      "current": false
+    }
+  ]
 }

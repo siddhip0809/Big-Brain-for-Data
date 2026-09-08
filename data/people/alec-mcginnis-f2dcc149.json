@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director of Development",
+      "company": "QTS Data Centers",
+      "start": "5/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "JE Dunn Construction",
+      "start": "1/2017",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "BMWC Constructors",
+      "start": "3/2016",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Kiewit",
+      "start": "8/2015",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "BMWC Constructors",
+      "start": "6/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "CECOP Intern (OR)",
+      "company": "Precision Approach Engineering",
+      "start": "4/2013",
+      "end": "9/2013",
+      "current": false
+    }
+  ]
 }

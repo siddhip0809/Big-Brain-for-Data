@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Data Center Development & Construction",
+      "company": "PowerHouse Data Centers",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "AWS",
+      "start": "5/2024",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Project Development Services - Vice President/SVP",
+      "company": "JLL",
+      "start": "8/2018",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Superintendent",
+      "company": "Clark Construction Group",
+      "start": "12/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Clark Construction Group",
+      "start": "7/2015",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Superintendent/Site Safety Manager",
+      "company": "Clark Construction Group",
+      "start": "12/2010",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "BIM Manager/MEP Coordinator",
+      "company": "Clark Construction Group",
+      "start": "3/2010",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "Clark Construction Group",
+      "start": "3/2008",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Office Engineer/Project Engineer",
+      "company": "Clark Construction Group",
+      "start": "5/2005",
+      "end": "7/2007",
+      "current": false
+    }
+  ]
 }

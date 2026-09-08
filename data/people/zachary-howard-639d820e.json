@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "meta"
+  "current_company_id": "meta",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Meta",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Program Manager - Data Center Operations",
+      "company": "Meta",
+      "start": "6/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Dynalectric Colorado",
+      "start": "7/2021",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Dynalectric Colorado",
+      "start": "7/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer I-III",
+      "company": "Dynalectric Colorado",
+      "start": "9/2015",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer/Maintenance Planner",
+      "company": "Smithfield Foods",
+      "start": "9/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "ATI Ladish Forging",
+      "start": "5/2013",
+      "end": "9/2013",
+      "current": false
+    }
+  ]
 }

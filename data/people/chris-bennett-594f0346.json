@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Rogers-O'Brien Construction",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Rogers-O'Brien Construction",
+      "start": "5/2022",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Austin Commercial",
+      "start": "11/2018",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Austin Commercial",
+      "start": "7/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Vaughn Construction",
+      "start": "8/2014",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Vaughn Construction",
+      "start": "6/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Vaughn Construction",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Balfour Beatty US",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Student",
+      "company": "Oklahoma State University",
+      "start": "8/2009",
+      "end": "5/2014",
+      "current": false
+    }
+  ]
 }

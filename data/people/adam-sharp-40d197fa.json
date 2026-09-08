@@ -28,5 +28,72 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director Data Center Development",
+      "company": "Yondr",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "Yondr",
+      "start": "11/2021",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Data Center Development",
+      "company": "AWS",
+      "start": "3/2018",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Data Center Portfolio Manager",
+      "company": "AWS",
+      "start": "3/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "CBRE",
+      "start": "10/2015",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Cushman & Wakefield",
+      "start": "5/2011",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Analyst - Capital Markets",
+      "company": "Cushman & Wakefield",
+      "start": "4/2008",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Analyst - Lending",
+      "company": "First Bank & Trust Evanston IL",
+      "start": "4/2006",
+      "end": "8/2006",
+      "current": false
+    },
+    {
+      "title": "Data Center Developer",
+      "company": "Yondr",
+      "current": false
+    }
+  ]
 }

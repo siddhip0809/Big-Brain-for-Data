@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Account Director",
+      "company": "DataBank",
+      "start": "8/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Cyxtera Technologies",
+      "start": "7/2011",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Emerging Services Consultant",
+      "company": "Qwest Communications",
+      "start": "1/2011",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Hosting and Application Sales Specialist",
+      "company": "AT&T",
+      "start": "3/2007",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Sr Sales Engineer",
+      "company": "Verizon Business",
+      "start": "1/2005",
+      "end": "12/2007",
+      "current": false
+    }
+  ]
 }

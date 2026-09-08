@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Sales, APAC",
+      "company": "Vantage",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director, APAC - CBRE, Data Centre Solutions",
+      "company": "CBRE",
+      "start": "10/2020",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Executive Director, APAC - CBRE, Data Centre Solutions",
+      "company": "CBRE",
+      "start": "1/2016",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Area General Manager, Critical Environments Services",
+      "company": "CB Richard Ellis",
+      "start": "5/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Head of Projects, Critical Environment Services",
+      "company": "CB Richard Ellis",
+      "start": "6/2013",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Facilities Manager, Data Centres",
+      "company": "Johnson Controls",
+      "start": "12/2010",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager, Data Centres",
+      "company": "Brenmar",
+      "start": "1/2005",
+      "end": "11/2010",
+      "current": false
+    }
+  ]
 }

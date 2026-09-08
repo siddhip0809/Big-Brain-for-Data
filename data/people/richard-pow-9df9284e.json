@@ -50,5 +50,96 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "ntt"
+  "current_company_id": "ntt",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director - International Accounts",
+      "company": "NTT",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales Manager - International Accounts",
+      "company": "Telehouse",
+      "start": "10/2019",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Telehouse",
+      "start": "1/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Business Development Director",
+      "company": "Volta Data Centres",
+      "start": "10/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Navisite",
+      "start": "12/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Director Northern Europe, Spain and Portugal",
+      "company": "Colt Data Centre Services",
+      "start": "7/2013",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Consultant",
+      "company": "Equinix",
+      "start": "3/2010",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "SKYE IT",
+      "start": "9/2009",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Relationship Manager",
+      "company": "Adapt",
+      "start": "6/2006",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Adapt",
+      "start": "1/2006",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Pipex Communications",
+      "start": "4/2004",
+      "end": "5/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Omron Electronics",
+      "start": "1/2003",
+      "end": "4/2004",
+      "current": false
+    }
+  ]
 }

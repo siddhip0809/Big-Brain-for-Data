@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "The Christman Company",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "The Christman Company",
+      "start": "8/2023",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "The Christman Company",
+      "start": "5/2019",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Clark Construction Group",
+      "start": "12/2018",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Clark Construction Group",
+      "start": "6/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Clark Construction Group",
+      "start": "10/2013",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Lockheed Martin",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Lockheed Martin",
+      "start": "5/2010",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Lockheed Martin",
+      "start": "6/2009",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Lockheed Martin",
+      "start": "6/2008",
+      "end": "8/2008",
+      "current": false
+    }
+  ]
 }

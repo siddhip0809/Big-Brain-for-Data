@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Managing Director National Industrial Development Services",
+      "company": "Stream Realty Partners",
+      "start": "6/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director Construction Management",
+      "company": "Stream Realty Partners",
+      "start": "8/2013",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Vice President of Construction Management",
+      "company": "Accent Construction Management",
+      "start": "11/2010",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President Development",
+      "company": "Holt Lunsford Commercial",
+      "start": "4/2008",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "Vice President Development",
+      "company": "Hillwood",
+      "start": "4/2001",
+      "end": "4/2008",
+      "current": false
+    },
+    {
+      "title": "Vice President Development",
+      "company": "Hillwood Investment Properties",
+      "start": "4/2001",
+      "end": "4/2008",
+      "current": false
+    },
+    {
+      "title": "Development Director",
+      "company": "Panattoni",
+      "start": "1/1999",
+      "end": "1/2001",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Trammell Crow Company",
+      "start": "1/1998",
+      "end": "1/1999",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Centex Construction",
+      "start": "1/1991",
+      "end": "1/1998",
+      "current": false
+    }
+  ]
 }

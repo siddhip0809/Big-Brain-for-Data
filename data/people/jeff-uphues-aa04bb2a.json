@@ -28,5 +28,56 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Chief Executive Officer",
+      "company": "DC BLOX",
+      "start": "3/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Advisory Board Member",
+      "company": "DC BLOX",
+      "start": "9/2016",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Magic Beans Equity Growth",
+      "start": "6/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President",
+      "company": "Liquid Web",
+      "start": "6/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Cbeyond",
+      "start": "12/2010",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Independent Director",
+      "company": "thinQ",
+      "start": "7/2010",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "raw": "DC BLOX"
+    }
+  ]
 }

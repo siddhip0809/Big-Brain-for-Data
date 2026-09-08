@@ -39,5 +39,60 @@
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Development",
+      "company": "QTS Data Centers",
+      "start": "1/2026",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Director, Development",
+      "company": "QTS Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "7/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Structure Tone",
+      "start": "5/2016",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Structure Tone",
+      "start": "8/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Structure Tone",
+      "start": "6/2011",
+      "end": "7/2014",
+      "current": false
+    }
+  ]
 }

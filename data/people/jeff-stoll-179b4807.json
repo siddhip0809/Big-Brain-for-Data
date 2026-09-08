@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Digital Realty",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Manager",
+      "company": "Halmar International",
+      "start": "11/2024",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Hill International",
+      "start": "8/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "NORAIR ENGINEERING",
+      "start": "11/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Design Build Manager",
+      "company": "Parsons",
+      "start": "5/2018",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Project Control Engineer/Specialist",
+      "company": "Parsons",
+      "start": "8/2016",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Hazen and Sawyer Environment Engineers & Scientists",
+      "start": "7/2012",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Parsons",
+      "start": "3/2004",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Tyco Integrated Security",
+      "start": "2/2001",
+      "end": "3/2004",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Jacobs",
+      "start": "2/1997",
+      "end": "2/2001",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "M C Dean",
+      "start": "11/1992",
+      "end": "2/1997",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Construction Dynamics Group",
+      "start": "1991",
+      "end": "1995",
+      "current": false
+    }
+  ]
 }

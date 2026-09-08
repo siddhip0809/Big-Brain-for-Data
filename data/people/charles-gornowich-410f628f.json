@@ -39,5 +39,47 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "t5-data-centers"
+  "current_company_id": "t5-data-centers",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "T5 Data Centers",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "T5 Data Centers",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction Management",
+      "company": "SWSG",
+      "start": "2/1999",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Construction Management",
+      "company": "SWSG",
+      "start": "5/1998",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Purchasing Agent",
+      "company": "Rocky Gorge Communities",
+      "start": "1/1991",
+      "end": "5/1999",
+      "current": false
+    }
+  ]
 }

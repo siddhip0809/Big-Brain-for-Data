@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Power Generation Solutions Senior Director, NA",
+      "company": "Vantage",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Luminate",
+      "start": "9/2021",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Regional Sector Lead - Power Generation & Heavy Industrial Process, US West",
+      "company": "Stantec",
+      "start": "7/2017",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Technical Services Manager",
+      "company": "Chicago Bridge & Iron",
+      "start": "3/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Capital Project Manager",
+      "company": "Flint Hills Resources",
+      "start": "7/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Lead Boiler Systems Commissioning Engineer",
+      "company": "Shaw Group",
+      "start": "5/2008",
+      "end": "4/2012",
+      "current": false
+    }
+  ]
 }

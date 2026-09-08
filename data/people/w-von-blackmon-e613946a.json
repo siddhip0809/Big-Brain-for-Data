@@ -39,5 +39,96 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "aligned-data-centers"
+  "current_company_id": "aligned-data-centers",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Aligned Data Centers",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager of Preconstruction Managers",
+      "company": "AWS",
+      "start": "5/2023",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Superintendent 3",
+      "company": "JE Dunn Construction",
+      "start": "6/2022",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "General Superintendent",
+      "company": "Pulama Lanai",
+      "start": "12/2018",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Sr. Construction Superintendent - Gigafactory 1",
+      "company": "Tesla",
+      "start": "10/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Superintendent - DCMP Rail & Maintenance Facility",
+      "company": "Hensel Phelps",
+      "start": "9/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Estimating/Procurement",
+      "company": "Hensel Phelps",
+      "start": "11/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Bethune-Cookman University Residence Halls",
+      "company": "Hensel Phelps",
+      "start": "10/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - P-646 Defense Security Service Facility Addition",
+      "company": "Hensel Phelps",
+      "start": "6/2013",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Office Engineer - P-263 Broad Area Maritime Surveillance T&E Facility",
+      "company": "Hensel Phelps",
+      "start": "8/2011",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Office Engineer - Behavioral Health Clinic",
+      "company": "Hensel Phelps",
+      "start": "6/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Field Engineer/Quality Control Engineer - FORSCOM and USARC Headquarters",
+      "company": "Hensel Phelps",
+      "start": "8/2009",
+      "end": "8/2011",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Of Data Center Sales & Leasing",
+      "company": "Corscale Data Centers",
+      "start": "9/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President  Global Sales",
+      "company": "Switch",
+      "start": "2/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Director Of Channels And Strategic Partnerships",
+      "company": "RagingWire Data Centers",
+      "start": "1/2016",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Director, Broker Relations",
+      "company": "Centurylink Business For Enterprise",
+      "start": "5/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "IO Data Centers",
+      "start": "6/2012",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Territory Sales, Shaw Industries",
+      "company": "Shaw Industries",
+      "start": "1/2007",
+      "end": "5/2012",
+      "current": false
+    }
+  ]
 }

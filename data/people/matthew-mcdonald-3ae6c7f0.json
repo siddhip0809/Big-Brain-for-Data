@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "tract"
+  "current_company_id": "tract",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Pre- Construction Services",
+      "company": "Tract",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, Pre-Construction Services",
+      "company": "Tract",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "Tract",
+      "start": "12/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "12/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Engineer",
+      "company": "DPR Construction",
+      "start": "7/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "DPR Construction",
+      "start": "9/2018",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineering Intern",
+      "company": "DPR Construction",
+      "start": "5/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Barton Malow",
+      "start": "5/2015",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Co-Founder",
+      "company": "Knights Knutrition",
+      "start": "12/2012",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "McDonald Building",
+      "start": "6/2012",
+      "end": "8/2014",
+      "current": false
+    }
+  ]
 }

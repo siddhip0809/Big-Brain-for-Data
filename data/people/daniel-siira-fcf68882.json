@@ -28,5 +28,138 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Controls Lead",
+      "company": "Hilcorp",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "ICE Services",
+      "start": "10/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Sr. Consultant",
+      "company": "Turner & Townsend",
+      "start": "9/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Work Group Lead",
+      "company": "Anvil",
+      "start": "3/2023",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "HHI",
+      "start": "10/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "Project X",
+      "start": "6/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Project X",
+      "start": "6/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Coach",
+      "company": "Anchorage School District",
+      "start": "11/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "MGJ Home Building Group",
+      "start": "5/2019",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "MGJ Home Building Group",
+      "start": "5/2019",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Owner / Operator",
+      "company": "AVID Alaska",
+      "start": "11/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Owner / Operator",
+      "company": "Latitude 61 Technologies",
+      "start": "2/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "GIS / NANA",
+      "start": "2/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Hawk Consultants",
+      "start": "3/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "CH2M",
+      "start": "3/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "CH2M HILL",
+      "start": "3/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Alaska Interstate Construction",
+      "start": "9/2011",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "NANA Construction",
+      "start": "6/2010",
+      "end": "7/2011",
+      "current": false
+    }
+  ]
 }

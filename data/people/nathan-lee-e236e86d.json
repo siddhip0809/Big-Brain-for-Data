@@ -39,5 +39,40 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "meta"
+  "current_company_id": "meta",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager for Estimating",
+      "company": "Meta",
+      "start": "6/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Cost Management",
+      "company": "WeWork",
+      "start": "10/2019",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "MGAC",
+      "start": "6/2017",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "D G Jones International",
+      "start": "7/2003",
+      "end": "6/2017",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Engineering & Utilities Europe and Japan",
+      "company": "CyrusOne",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Design",
+      "company": "CyrusOne",
+      "start": "2/2024",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Director Solutions Engineering",
+      "company": "CyrusOne",
+      "start": "4/2019",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Sales Engineering EMEA",
+      "company": "Digital Realty",
+      "start": "1/2015",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer",
+      "company": "Digital Realty",
+      "start": "7/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Lead Engineer",
+      "company": "BladeRoom Data Centres",
+      "start": "10/2011",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Mechanical Engineer",
+      "company": "Red Engineering",
+      "start": "1/2007",
+      "end": "9/2011",
+      "current": false
+    }
+  ]
 }

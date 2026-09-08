@@ -39,5 +39,68 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site Acquisition Director",
+      "company": "Microsoft",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Acquisition & Expansion Manager - EMEA",
+      "company": "AWS",
+      "start": "5/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Global Business Operations Manager",
+      "company": "AWS",
+      "start": "12/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Partner Manager - EMEA Region",
+      "company": "AWS",
+      "start": "6/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Service Delivery Senior Manager - Account Lead",
+      "company": "Accenture",
+      "start": "5/2017",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Service Delivery Senior Manager - Director of Operations",
+      "company": "Accenture",
+      "start": "9/2014",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Project Delivery Manager",
+      "company": "Accenture",
+      "start": "1/2011",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Accenture",
+      "start": "4/2008",
+      "end": "12/2010",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Currie & Brown",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "7/2022",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Premier Electrical",
+      "start": "3/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Premier Electricial",
+      "start": "3/2018",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Premier Electrical",
+      "start": "4/2017",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Faithful+Gould",
+      "start": "4/2014",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator & Designer",
+      "company": "Premier Electrical",
+      "start": "3/2005",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Foreman Electrician",
+      "company": "Killmer Electric",
+      "start": "8/1997",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Journeyman Electrician",
+      "company": "IBEW 292",
+      "start": "3/1995",
+      "end": "11/2005",
+      "current": false
+    }
+  ]
 }

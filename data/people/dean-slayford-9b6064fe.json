@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "AMERS W Regional Cost Manager: CO&I",
+      "company": "Microsoft",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Cost Manager",
+      "company": "Linesight",
+      "start": "10/2019",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Commercial Manager",
+      "company": "Linesight",
+      "start": "10/2019",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Gleeds Construction Consultancy Egypt",
+      "start": "4/2014",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Managing Estimator",
+      "company": "MITIE Group PLC",
+      "start": "6/2011",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Davis Langdon & Seah Korea",
+      "start": "10/2005",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Structuretone",
+      "start": "3/2003",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Commercial Manager",
+      "company": "Spectrum Projects",
+      "start": "2002",
+      "end": "2005",
+      "current": false
+    },
+    {
+      "title": "Senior Commercial Manager",
+      "company": "Modus IX",
+      "start": "2000",
+      "end": "2002",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Northcroft",
+      "start": "1994",
+      "end": "1998",
+      "current": false
+    }
+  ]
 }

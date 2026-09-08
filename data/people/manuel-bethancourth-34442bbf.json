@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction Integration",
+      "company": "Switch",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Integration Manager",
+      "company": "Switch",
+      "start": "3/2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Critical System Integration Manager",
+      "company": "Switch",
+      "start": "3/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Critical System Integration Supervisor",
+      "company": "Switch",
+      "start": "1/2017",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Critical System Integration Technician",
+      "company": "Switch",
+      "start": "1/2014",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Military",
+      "company": "US Army",
+      "start": "2/2008",
+      "end": "1/2014",
+      "current": false
+    }
+  ]
 }

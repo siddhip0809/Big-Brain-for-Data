@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Revenue Officer (CRO)",
+      "company": "Virtus Data Centers",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director",
+      "company": "Virtus Data Centers",
+      "start": "11/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Non-executive Director",
+      "company": "Odyssey Mobile Interaction",
+      "start": "1/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "euNetworks",
+      "start": "8/2009",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Colt Data Centre Services",
+      "start": "7/2005",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Business Development",
+      "company": "Attenda",
+      "start": "1/2001",
+      "end": "12/2003",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Global Crossing",
+      "start": "5/1999",
+      "end": "11/2001",
+      "current": false
+    },
+    {
+      "title": "Account Manager ISPs",
+      "company": "MFS/WorldCom",
+      "start": "8/1998",
+      "end": "4/1999",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "BT Group",
+      "start": "1/1996",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "title": "Communications Engineering Officer",
+      "company": "Royal Air Force",
+      "start": "11/1990",
+      "end": "11/1996",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Project Manager",
+      "company": "CyrusOne",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "Turner & Townsend",
+      "start": "3/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Rud Otto Meyer-Umwelt-Stiftung",
+      "start": "7/2020",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Mechanical Package Manager",
+      "company": "Mercury Engineering",
+      "start": "11/2018",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Manager (Projects )",
+      "company": "L&T Hydrocarbon Engineering Limited",
+      "start": "1/2018",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "United Engineering Services",
+      "start": "12/2011",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Seeh Al Sarya Engineering",
+      "start": "2/2009",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Petro Energy Contracting Services",
+      "start": "3/2008",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Piping Engineer",
+      "company": "AL Turki Enterprises",
+      "start": "5/2007",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Piping Engineer",
+      "company": "Reliance Industries",
+      "start": "8/2004",
+      "end": "4/2007",
+      "current": false
+    }
+  ]
 }

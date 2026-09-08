@@ -28,5 +28,85 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Senior Director - Head of Digital - Data Center Design & Construction"
+    },
+    {
+      "title": "Energy & Sustainability",
+      "company": "Equinix",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, IT Enterprise Apps - Global Data Center Operations & Equinix Managed Solutions",
+      "company": "Equinix",
+      "start": "3/2021",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Global IT Enterprise Applications - GTM",
+      "company": "Equinix",
+      "start": "9/2016",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Global IT Enterprise Applications",
+      "company": "Equinix",
+      "start": "3/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Global IT Enterprise Applications",
+      "company": "Equinix",
+      "start": "3/2010",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Manager, IT Applications",
+      "company": "Equinix",
+      "start": "5/2008",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Manager, Oracle Practice",
+      "company": "Trianz",
+      "start": "2/2006",
+      "end": "5/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Principal Applications Engineer",
+      "company": "Oracle USA",
+      "start": "2001",
+      "end": "2006",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Mastech",
+      "start": "1998",
+      "end": "2001",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Tata Consultancy Services",
+      "start": "1995",
+      "end": "1998",
+      "current": false
+    }
+  ]
 }

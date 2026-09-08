@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales & Partners Senior Manager - presso Cloud Europe - Mediterra Group",
+      "company": "Mediterra DataCenters",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Department - Sales Manager",
+      "company": "CLOUD EUROPE",
+      "start": "1/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Business Development Manager",
+      "company": "Private",
+      "start": "6/2015",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Business Unit Director",
+      "company": "Private",
+      "start": "11/2011",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Information Technology Security Senior Consultant",
+      "company": "Banking - Credit",
+      "start": "4/2011",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Post Sales Manager ( Telco Area )",
+      "company": "Urmet TLC",
+      "start": "3/2007",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Area Sales Supervisor",
+      "company": "Sistemi S p A",
+      "start": "12/2004",
+      "end": "3/2007",
+      "current": false
+    },
+    {
+      "title": "CRS - Customer Relationship Supervisor",
+      "company": "Urmet SUD S p A",
+      "start": "1/2001",
+      "end": "11/2004",
+      "current": false
+    },
+    {
+      "title": "Training Service Administrator",
+      "company": "Urmet SUD S p A",
+      "start": "6/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "Stenu Sistemi S r l",
+      "start": "1991",
+      "end": "1998",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Chip S r l",
+      "start": "12/1988",
+      "end": "5/1991",
+      "current": false
+    },
+    {
+      "title": "Area Manager",
+      "company": "CBT - Cosmic Blue Team S p A",
+      "start": "1988",
+      "end": "1991",
+      "current": false
+    }
+  ]
 }

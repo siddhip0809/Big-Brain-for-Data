@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Director of Sales",
+      "company": "Aligned Data Centers",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AFCOM and Data Center World GenNext Advisory Board Member",
+      "company": "AFCOM-Denver Rocky Mountain Chapter",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "CyrusOne",
+      "start": "1/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Executive",
+      "company": "Mirapath",
+      "start": "1/2016",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Associate Channel Manager",
+      "company": "Intermedia Cloud Communications",
+      "start": "1/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Latin America Sales Manager",
+      "company": "Advantech",
+      "start": "1/2010",
+      "end": "1/2013",
+      "current": false
+    }
+  ]
 }

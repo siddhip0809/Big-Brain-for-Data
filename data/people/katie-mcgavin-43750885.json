@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Soben",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Cost Manager",
+      "company": "Soben",
+      "start": "9/2025",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "10/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "8/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Lochlie Construction Group",
+      "start": "1/2019",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "Lochlie Construction Group",
+      "start": "1/2018",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Estimating Administrator",
+      "company": "Linear Projects",
+      "start": "6/2016",
+      "end": "12/2017",
+      "current": false
+    }
+  ]
 }

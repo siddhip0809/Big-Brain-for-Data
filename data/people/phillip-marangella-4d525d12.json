@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Marketing Officer",
+      "company": "EdgeConneX",
+      "start": "3/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Business Development",
+      "company": "EdgeConneX",
+      "start": "11/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Market Development, Cloud Solutions",
+      "company": "Equinix",
+      "start": "1/2014",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Vice President Marketing",
+      "company": "CoreSite",
+      "start": "11/2012",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Global Marketing Strategy & Operations and Vertical Marketing, EMEA",
+      "company": "Equinix",
+      "start": "2/2009",
+      "end": "11/2012",
+      "current": false
+    },
+    {
+      "title": "Strategic Ventures & Alliances",
+      "company": "Data Return",
+      "start": "2/2005",
+      "end": "1/2006",
+      "current": false
+    },
+    {
+      "title": "Global Strategy & Business Development",
+      "company": "Data Return",
+      "start": "1/2005",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "International Technology Development",
+      "start": "1/2002",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager, Emerging Market Development",
+      "company": "Nortel",
+      "start": "1/2001",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager, Marketing",
+      "company": "Telocity",
+      "start": "1/2000",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "Globalstar",
+      "start": "1/1999",
+      "end": "12/1999",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager, Marketing & BD",
+      "company": "Satphone Telecommunications",
+      "start": "1/1996",
+      "end": "12/1999",
+      "current": false
+    }
+  ]
 }

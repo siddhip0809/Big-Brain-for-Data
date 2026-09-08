@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Development Manager",
+      "company": "Meta",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Environmental Manager",
+      "company": "Meta",
+      "start": "3/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "Recology",
+      "start": "2/2017",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Environmental Planner",
+      "company": "Recology",
+      "start": "10/2013",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Environmental Planner",
+      "company": "Environmental Science Associates",
+      "start": "8/2011",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Education and Outreach Specialist",
+      "company": "Center for Land-Based Learning",
+      "start": "11/2010",
+      "end": "6/2011",
+      "current": false
+    }
+  ]
 }

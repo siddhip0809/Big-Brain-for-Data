@@ -50,5 +50,47 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Data Centre Solutions",
+      "company": "CBRE",
+      "start": "4/2020",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Retail",
+      "company": "CBRE",
+      "start": "2/2016",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Chartered Surveyor",
+      "company": "Colliers",
+      "start": "12/2012",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Emerson Willis",
+      "start": "7/2011",
+      "end": "6/2012",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Commercial",
+      "company": "Apatura",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Infrastructure - Strategy & Acquisition",
+      "company": "Google at Google",
+      "start": "8/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Global Infrastructure - Strategy & Acquisition",
+      "company": "Google",
+      "start": "7/2020",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Director - Data Centre Solutions in Asia Pacific",
+      "company": "CB Richard Ellis",
+      "start": "11/2017",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Cushman & Wakefield",
+      "start": "5/2015",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Deloitte",
+      "start": "6/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Investment Surveyor",
+      "company": "GVA Property Consultancy",
+      "start": "9/2010",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Hunter Property Fund Management",
+      "start": "8/2009",
+      "end": "12/2009",
+      "current": false
+    }
+  ]
 }

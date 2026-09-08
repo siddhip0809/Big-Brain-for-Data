@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Energy Strategy",
+      "company": "Edged",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commission Member, Loudoun County Environmental Commission",
+      "company": "Digital Realty",
+      "start": "7/2021",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Co-Chair, Energy and Environmental Committee of the Data Center Coalition (DCC)",
+      "company": "Digital Realty",
+      "start": "1/2020",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Director, Energy Supply Chain",
+      "company": "Digital Realty",
+      "start": "11/2018",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Global Energy Manager",
+      "company": "Texas Instruments",
+      "start": "9/2011",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Facilities Operations and Maintenance Manager",
+      "company": "Texas Instruments",
+      "start": "1/2011",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Facilities Engineering Manager",
+      "company": "Texas Instruments",
+      "start": "8/2006",
+      "end": "12/2010",
+      "current": false
+    }
+  ]
 }

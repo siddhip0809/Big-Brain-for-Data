@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Design Phase Manager II",
+      "company": "MA Mortenson",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Real Estate and Project Planning",
+      "company": "Sampson Construction",
+      "start": "4/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "ARCO/Murray",
+      "start": "6/2021",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Project Developer",
+      "company": "ARCO/Murray",
+      "start": "7/2016",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Structural Engineering Intern",
+      "company": "AECOM",
+      "start": "6/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "University of Notre Dame",
+      "start": "9/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Water Resources Engineering Intern",
+      "company": "TBG - The Burke Group",
+      "start": "7/2014",
+      "end": "8/2014",
+      "current": false
+    }
+  ]
 }

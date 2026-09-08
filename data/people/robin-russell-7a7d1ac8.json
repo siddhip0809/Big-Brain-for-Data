@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director Cost Management",
+      "company": "Cumming Group",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Cost and Commercial Consultant",
+      "company": "Mace Group",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant - Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "5/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "11/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Turner & Townsend",
+      "start": "7/2020",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Linesight",
+      "start": "10/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Commercial Manager - Earthworks, Remediation and Infrastructure",
+      "company": "Erith Contracts",
+      "start": "6/2016",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Consultant Commercial Manager / Quantity Surveyor",
+      "company": "Quantity Surveying Incorporated",
+      "start": "12/2013",
+      "end": "6/2015",
+      "current": false
+    }
+  ]
 }

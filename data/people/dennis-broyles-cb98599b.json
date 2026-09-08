@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Data Center Engineering and Construction",
+      "company": "Flexential",
+      "start": "6/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Facilities Engineering",
+      "company": "Peak 10 + ViaWest",
+      "start": "8/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Director of Facilities Engineering",
+      "company": "Peak 10 + ViaWest",
+      "start": "10/2006",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Director of Data Center Systems and Construction",
+      "company": "Flexential",
+      "start": "10/2006",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Electrial Engineer",
+      "company": "META Associates / Parsons",
+      "start": "3/2005",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "MEP Engineer",
+      "company": "Hunt Construction Group",
+      "start": "10/2000",
+      "end": "3/2005",
+      "current": false
+    },
+    {
+      "title": "MEP Engineer",
+      "company": "PCL Construction",
+      "start": "1996",
+      "end": "2000",
+      "current": false
+    },
+    {
+      "title": "Owner \\ Estimater \\ Project Manager",
+      "company": "Broyles Electrical & Installation",
+      "start": "1988",
+      "end": "1996",
+      "current": false
+    }
+  ]
 }

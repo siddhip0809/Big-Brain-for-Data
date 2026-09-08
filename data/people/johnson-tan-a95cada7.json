@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Managing Director APAC",
+      "company": "CloudHQ",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director Asia Pacific",
+      "company": "Yondr",
+      "start": "2/2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Director, Corporate Real Estate and Solution Asia Pacific",
+      "company": "Barclays",
+      "start": "6/2013",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "VP, Head of Engineering Operations Asia Pacific",
+      "company": "Deutsche Bank",
+      "start": "6/2007",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Associate Director,  Critical Engineering Asia Pacific",
+      "company": "JLL",
+      "start": "1/2006",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Manager,  Facilities Engineering",
+      "company": "Hewlett Packard Enterprise",
+      "start": "1/2004",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer",
+      "company": "JTC",
+      "start": "1/1999",
+      "end": "12/2004",
+      "current": false
+    }
+  ]
 }

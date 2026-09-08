@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Accounts Manager",
+      "company": "CyrusOne",
+      "start": "9/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "CyrusOne",
+      "start": "9/2012",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Fibertown Data Centers",
+      "start": "5/2010",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Regional Account Manager",
+      "company": "AboveNet",
+      "start": "1/2009",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Business Account Executive",
+      "company": "AT&T",
+      "start": "9/2001",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "McLeod USA",
+      "start": "10/1998",
+      "end": "9/2001",
+      "current": false
+    }
+  ]
 }

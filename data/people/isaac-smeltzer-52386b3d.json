@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Land Strategy & Investments - Tract Europe",
+      "company": "Tract",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Land Strategy & Investments",
+      "company": "Tract",
+      "start": "1/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Vice President of Finance & Corporate Development",
+      "company": "Terra CO2 Technology Holdings",
+      "start": "10/2020",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President of Corporate Development",
+      "company": "Expedition Water Solutions Colorado",
+      "start": "6/2017",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Investment Banking Associate",
+      "company": "Industria Partners",
+      "start": "1/2015",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Professional Athlete",
+      "company": "Colorado Eagles Professional Hockey",
+      "start": "3/2012",
+      "end": "5/2014",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "GH Phipps Construction Companies",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Adolfson & Peterson Construction",
+      "start": "12/2018",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Alliance Construction Solutions",
+      "start": "3/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Director",
+      "company": "HB Construction",
+      "start": "3/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "McCarthy Building Companies",
+      "start": "5/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "McCarthy Building Companies",
+      "start": "10/2011",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "McCarthy Building Companies",
+      "start": "5/2009",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "McCarthy Building Companies",
+      "start": "1/2006",
+      "end": "5/2009",
+      "current": false
+    },
+    {
+      "title": "Construction Tech II",
+      "company": "Nebraska Department of Transportation",
+      "start": "5/2001",
+      "end": "12/2005",
+      "current": false
+    }
+  ]
 }

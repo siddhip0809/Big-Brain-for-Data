@@ -39,5 +39,81 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "atlasedge"
+  "current_company_id": "atlasedge",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director - Site Selection and Acquisitions",
+      "company": "AtlasEdge",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Lead, Site Selection & Strategy - DACH, Nordics & Eastern Europe",
+      "company": "AtlasEdge Data Centres",
+      "start": "2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site Search and Real Estate Acquisitions - AtlasEdge Data Centres",
+      "company": "CBRE",
+      "start": "8/2022",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Strategic Portfolio Planning - Google",
+      "company": "CBRE",
+      "start": "11/2019",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Real Estate Acquisitions",
+      "company": "CBRE UK Limited",
+      "start": "2019",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice President",
+      "company": "Barclays",
+      "start": "1/2015",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "AVP - Capital Projects Finance Lead",
+      "company": "Barclays Bank PLC",
+      "start": "2015",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "The Walt Disney Company",
+      "start": "12/2013",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst, Media Networks & Distribution - Emerging Markets",
+      "company": "The Walt Disney Company",
+      "start": "2013",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Audit Senior",
+      "company": "Gatwick",
+      "start": "2010",
+      "end": "2013",
+      "current": false
+    }
+  ]
 }

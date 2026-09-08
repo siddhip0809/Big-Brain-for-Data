@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Acquisitions",
+      "company": "Digital Realty",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Associate, Investments",
+      "company": "Digital Realty",
+      "start": "5/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Investment Banking Associate",
+      "company": "Bank of America",
+      "start": "7/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Investment Banking Analyst",
+      "company": "Bank of America",
+      "start": "7/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Investment Banking Summer Analyst",
+      "company": "Bank of America Merrill Lynch",
+      "start": "6/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Commercial Real Estate Summer Analyst",
+      "company": "Bank Leumi USA",
+      "start": "6/2016",
+      "end": "8/2016",
+      "current": false
+    }
+  ]
 }

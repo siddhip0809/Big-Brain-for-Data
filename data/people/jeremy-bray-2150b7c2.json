@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Deployment Strategy - Senior Global Strategic Cost Lead",
+      "company": "Meta",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Deployment Strategy - Global Development Cost Lead",
+      "company": "Meta",
+      "start": "9/2022",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "New Region Planning Manager",
+      "company": "Meta",
+      "start": "3/2022",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "National/International Mission Critical Core Market Preconstruction Lead (Director Level)",
+      "company": "DPR Construction",
+      "start": "5/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "North East Mission Critical Preconstruction Lead",
+      "company": "DPR Construction",
+      "start": "3/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Estimating Executive",
+      "company": "Gilbane Building",
+      "start": "3/2017",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Plaza Construction",
+      "start": "6/2016",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager (Equivalent to Current Senior Precon Manager)",
+      "company": "Holder Construction",
+      "start": "2/2013",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer",
+      "company": "Holder Construction",
+      "start": "9/2009",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Holder Construction",
+      "start": "5/2007",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Holder Construction",
+      "start": "7/2006",
+      "end": "5/2007",
+      "current": false
+    },
+    {
+      "title": "Graduate Teaching Assistant",
+      "company": "Auburn University",
+      "start": "2005",
+      "end": "2006",
+      "current": false
+    }
+  ]
 }

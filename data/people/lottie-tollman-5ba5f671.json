@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Data Centers EMEA",
+      "company": "Colliers",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "International Partner, Head of Data Centre Occupier Representation, EMEA",
+      "company": "Cushman & Wakefield",
+      "start": "4/2024",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Partner, Data Centres EMEA",
+      "company": "Cushman & Wakefield",
+      "start": "8/2022",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Partner, Lease Transactions & Advisory",
+      "company": "Cushman & Wakefield",
+      "start": "8/2019",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Partner, Transformation Team",
+      "company": "Cushman & Wakefield",
+      "start": "1/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Associate Director, EMEA Executive Team",
+      "company": "Cushman & Wakefield",
+      "start": "6/2015",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Associate Director, International Valuations",
+      "company": "Cushman & Wakefield",
+      "start": "9/2013",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor, International Valuations",
+      "company": "Cushman & Wakefield",
+      "start": "3/2011",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Surveyor, Retail Asset Management",
+      "company": "Cushman & Wakefield",
+      "start": "3/2010",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "UK and International Valuations Surveyor",
+      "company": "Cushman & Wakefield",
+      "start": "1/2009",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Retail Asset Management",
+      "company": "Cushman & Wakefield",
+      "start": "1/2008",
+      "end": "12/2009",
+      "current": false
+    }
+  ]
 }

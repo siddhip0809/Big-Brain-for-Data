@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Power & Energy Manager   Europe",
+      "company": "CyrusOne",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager",
+      "company": "Amp Energy",
+      "start": "10/2022",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy Developer",
+      "company": "P3p Partners",
+      "start": "10/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Energy Consultant",
+      "company": "KBR",
+      "start": "10/2019",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Process Development Engineer",
+      "company": "Unilever",
+      "start": "7/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Student Engineer",
+      "company": "DNV",
+      "start": "4/2016",
+      "end": "4/2016",
+      "current": false
+    }
+  ]
 }

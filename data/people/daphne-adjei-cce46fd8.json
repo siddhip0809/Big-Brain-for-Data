@@ -39,5 +39,46 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Savills",
+      "start": "1/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Surveyor MRICS",
+      "company": "Network Rail",
+      "start": "8/2017",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Asset Management - Valuations",
+      "company": "London Borough of Waltham Forest",
+      "start": "5/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Surveyor - Valuations",
+      "company": "Brecker Grossmith",
+      "start": "11/2015",
+      "end": "4/2016",
+      "current": false
+    }
+  ]
 }

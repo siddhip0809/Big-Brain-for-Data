@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Manager",
+      "company": "Meta",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director, Transmission Services",
+      "company": "GDS Associates",
+      "start": "2/2020",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Independent Consultant",
+      "company": "Kelly Consulting",
+      "start": "1/2020",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Vice President, Major Accounts",
+      "company": "NIPSCO",
+      "start": "10/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Generation Strategy Implementation Lead",
+      "company": "NIPSCO",
+      "start": "7/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Vice Chairman - MISO Transmission Owners Committee",
+      "company": "MISO Transmission Owners Committee",
+      "start": "1/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Director, Federal Regulatory Policy/Regulatory Policy",
+      "company": "NIPSCO",
+      "start": "7/2012",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Manager, Strategic Planning/Regulatory Strategic Analysis",
+      "company": "NIPSCO",
+      "start": "7/2010",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Consultant (Independent)",
+      "company": "Kelly Consulting",
+      "start": "1/2004",
+      "end": "6/2010",
+      "current": false
+    }
+  ]
 }

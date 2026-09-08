@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Development and Construction",
+      "company": "Netrality Data Centers",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Netrality Data Centers",
+      "start": "5/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Flexential",
+      "start": "12/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Design, Construction and Engineering",
+      "company": "Internap",
+      "start": "3/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Sr. Data Center Manager",
+      "company": "Internap",
+      "start": "7/2014",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Data Center Engineer",
+      "company": "Hewlett-Packard",
+      "start": "1/2009",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Southeastern Facilities Manager",
+      "company": "Sungard Availability Services",
+      "start": "12/2007",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Facilities Manager",
+      "company": "VeriCenter",
+      "start": "1/2002",
+      "end": "2007",
+      "current": false
+    }
+  ]
 }

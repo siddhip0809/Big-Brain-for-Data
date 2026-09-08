@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Program Manager",
+      "company": "OnQGlobal",
+      "start": "6/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager (Contingent Worker for Meta)",
+      "company": "Advantis Global is now INSPYR Solutions",
+      "start": "11/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "Thermo Systems",
+      "start": "12/2018",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "United Hydrogen",
+      "start": "3/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager, Problem Solver, and Consultant",
+      "company": "Carman Consulting",
+      "start": "8/2016",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Chief of Operations, Founder, Board Member",
+      "company": "Kyoudai Games",
+      "start": "6/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "City Recorder",
+      "company": "City of Calhoun Tennessee",
+      "start": "5/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager and Engineering Software Designer",
+      "company": "Olin",
+      "start": "12/2011",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Piping Software Design",
+      "company": "Robins & Morton",
+      "start": "8/2011",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "KBR",
+      "start": "12/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Server and Systems Administrator, Network Engineer",
+      "company": "McKee Foods",
+      "start": "4/2002",
+      "end": "8/2010",
+      "current": false
+    }
+  ]
 }

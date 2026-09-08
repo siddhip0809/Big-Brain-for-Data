@@ -28,5 +28,73 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Executive",
+      "company": "LIG",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "SVP Construction",
+      "company": "CentersquareDC",
+      "start": "11/2024",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "raw": "Senior VP"
+    },
+    {
+      "title": "Data Center Services Executive",
+      "company": "Bank of America",
+      "start": "2019",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "raw": "Senior VP"
+    },
+    {
+      "title": "Data Center Operations",
+      "company": "Bank of America",
+      "start": "2014",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Senior VP: Data Center Design & Construction",
+      "company": "Bank of America",
+      "start": "2008",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "raw": "First VP"
+    },
+    {
+      "title": "Data Center Design & Construction",
+      "company": "Bank of America",
+      "start": "2004",
+      "end": "2008",
+      "current": false
+    },
+    {
+      "raw": "VP"
+    },
+    {
+      "title": "Midrange Operations",
+      "company": "Bank of America",
+      "start": "8/1998",
+      "end": "2004",
+      "current": false
+    }
+  ]
 }

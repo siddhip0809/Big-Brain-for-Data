@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Substation and Transmission",
+      "company": "Crusoe",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Engineering Manager",
+      "company": "Crusoe",
+      "start": "9/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Engineering Manager Electrical",
+      "company": "Crusoe",
+      "start": "3/2025",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Principal Electrical Engineer",
+      "company": "Crusoe",
+      "start": "1/2024",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Director Substation Engineering, Mountain  Region",
+      "company": "TRC Companies",
+      "start": "6/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Technical Manager",
+      "company": "Ulteig",
+      "start": "1/2020",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Engineering Supervisor",
+      "company": "Ulteig",
+      "start": "3/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Lead Engineer",
+      "company": "Ulteig",
+      "start": "9/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Ulteig",
+      "start": "9/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Generation Engineer",
+      "company": "Sunflower Electric Power",
+      "start": "10/2010",
+      "end": "9/2015",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,83 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction",
+      "company": "Stream Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Stream Data Centers",
+      "start": "5/2023",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Administrative Director, Program Management",
+      "company": "Adventist Health",
+      "start": "6/2019",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "North Region Director, Corporate Construction",
+      "company": "Adventist Health",
+      "start": "1/2018",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Regional Director",
+      "company": "JLL",
+      "start": "2015",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Director - PDS",
+      "company": "Adventist Health",
+      "current": false
+    },
+    {
+      "title": "JLL",
+      "company": "JLL",
+      "start": "3/2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Fortis Construction",
+      "start": "2007",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Skanska",
+      "start": "2001",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Skanska USA Building",
+      "start": "2001",
+      "end": "2007",
+      "current": false
+    }
+  ]
 }

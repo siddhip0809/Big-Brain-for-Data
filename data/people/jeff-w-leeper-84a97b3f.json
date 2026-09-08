@@ -28,5 +28,110 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "President",
+      "company": "World Wide Professional Solutions",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Global Data Center Construction",
+      "company": "Microsoft",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President General Manager Technology Development Site Construction",
+      "company": "Intel",
+      "start": "5/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "FCE Technology Development (TD) Site Director of Construction",
+      "company": "Intel",
+      "start": "11/2021",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Oregon and California Director of Construction (DOC)",
+      "company": "Intel",
+      "start": "4/2021",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Oregon Director of Construction (DOC)",
+      "company": "Intel",
+      "start": "2/2020",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Oregon Manager of Construction (MOC)",
+      "company": "Intel",
+      "start": "5/2019",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Portland Technology Development (PTD) Group Leader/Engineering Manager",
+      "company": "Intel",
+      "start": "1/2015",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "D1X  Mod 2 Construction Program Manager/Owner's Representative",
+      "company": "Intel",
+      "start": "12/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "D1X Mod 1 Construction Sr Project Manager",
+      "company": "Intel",
+      "start": "4/2010",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Site Manager/Program Manager",
+      "company": "Intel",
+      "start": "6/2004",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineering Lead",
+      "company": "Intel",
+      "start": "6/2000",
+      "end": "6/2004",
+      "current": false
+    },
+    {
+      "title": "Engineering Supervisor",
+      "company": "SEH America",
+      "start": "3/1995",
+      "end": "6/2000",
+      "current": false
+    },
+    {
+      "title": "Development Engineer",
+      "company": "Pacific Northwest National Laboratory - PNNL",
+      "start": "6/1990",
+      "end": "3/1995",
+      "current": false
+    }
+  ]
 }

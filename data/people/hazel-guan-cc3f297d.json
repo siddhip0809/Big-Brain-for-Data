@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Head of Data Center Planning and Acquisition, AMER and EMEA",
+      "company": "ByteDance",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Development, US and Europe",
+      "company": "ByteDance",
+      "start": "3/2022",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Data Center Lease Strategy, Cloud Infrastructure",
+      "company": "Microsoft",
+      "start": "3/2020",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Supply Chain Manager",
+      "company": "Microsoft",
+      "start": "7/2015",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Management Consultant - MBA Intern",
+      "company": "Bain & Company",
+      "start": "7/2014",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Supply Chain Design & Engineering - MBA Intern",
+      "company": "Microsoft",
+      "start": "5/2014",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Acting Regional Operations Lead",
+      "company": "DHL",
+      "start": "9/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Sales and Key Account Manager",
+      "company": "DHL",
+      "start": "1/2010",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Management Trainee",
+      "company": "DHL",
+      "start": "10/2007",
+      "end": "5/2010",
+      "current": false
+    }
+  ]
 }

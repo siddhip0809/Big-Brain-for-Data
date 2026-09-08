@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "AWS",
+      "start": "11/2022",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "11/2022",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Vertiv",
+      "start": "9/2020",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Vertiv",
+      "start": "4/2020",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Siemens",
+      "start": "1/2017",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Schneider Electric",
+      "start": "5/2014",
+      "end": "8/2016",
+      "current": false
+    }
+  ]
 }

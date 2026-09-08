@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "aws"
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site Acquisitions Mgr, Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "2/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Finance Project Manager",
+      "company": "Top Oil - Fueling Ireland",
+      "start": "10/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Finance Business Partner",
+      "company": "SIRO",
+      "start": "1/2019",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Capital Accountant",
+      "company": "SIRO",
+      "start": "3/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Regulatory Reporting Analyst",
+      "company": "Bank of Ireland Corporate and Treasury",
+      "start": "12/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "KPMG Ireland",
+      "start": "9/2010",
+      "end": "12/2014",
+      "current": false
+    }
+  ]
 }

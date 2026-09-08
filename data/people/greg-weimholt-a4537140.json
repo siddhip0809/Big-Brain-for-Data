@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Vice President, Design & Construction",
+      "company": "Cologix",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "Layton Construction",
+      "start": "2020",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Director, MEP Preconstruction",
+      "company": "Webcor Builders",
+      "start": "2015",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Principal, SoCal Building Engineering Lead",
+      "company": "AECOM",
+      "start": "2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "SASCO",
+      "start": "2013",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "EwingCole",
+      "start": "2005",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Arup",
+      "start": "2002",
+      "end": "2005",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Walker Engineering",
+      "start": "1999",
+      "end": "2002",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "WSP",
+      "start": "1993",
+      "end": "1999",
+      "current": false
+    }
+  ]
 }

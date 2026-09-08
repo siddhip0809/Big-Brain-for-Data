@@ -28,5 +28,71 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Director, Business Development ",
+      "company": "T5 Data Centers",
+      "start": "4/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Business Development",
+      "company": "BCS Data Center Operations",
+      "start": "5/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "VP Business Development  Data Centers",
+      "company": "Device42",
+      "start": "8/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Business Development  Data Centers",
+      "company": "Rittal North America",
+      "start": "10/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Business Development",
+      "company": "Data Center Systems",
+      "start": "8/2015",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Businesss Development",
+      "company": "QTS Data Centers",
+      "start": "8/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Sales & Account Management I Enterprise Data Centers I Data Center Colocation Providers",
+      "company": "Anixter",
+      "start": "8/2008",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Sales & Account Management",
+      "company": "Cbeyond",
+      "start": "1/2006",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "raw": "T5 Data Centers"
+    }
+  ]
 }

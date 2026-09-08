@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "meta"
+  "current_company_id": "meta",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data center - Capacity Planning & Deployment Strategy",
+      "company": "Meta",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "New Region/ Expansion - Pre-Construction",
+      "company": "Meta",
+      "start": "11/2020",
+      "end": "8/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Director - JLL",
+      "company": "Cisco at JLL",
+      "start": "2/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Team Lead / Senior Project Manager- JLL",
+      "company": "Cisco at JLL",
+      "start": "12/2017",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "JLL",
+      "start": "4/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "JLL",
+      "start": "10/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Student",
+      "company": "UCLA",
+      "start": "1/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "JLL",
+      "start": "6/2009",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Asst Manager",
+      "company": "JLL",
+      "start": "10/2006",
+      "end": "2009",
+      "current": false
+    }
+  ]
 }

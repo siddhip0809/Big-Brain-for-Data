@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager II",
+      "company": "The Weitz Company",
+      "start": "12/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Haselden Construction",
+      "start": "12/2015",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "Haselden Construction",
+      "start": "11/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "Saunders Construction",
+      "start": "7/2007",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Waner Construction Company",
+      "start": "6/1999",
+      "end": "7/2007",
+      "current": false
+    }
+  ]
 }

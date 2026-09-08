@@ -39,5 +39,47 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Layton Construction",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Amazon",
+      "start": "3/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Layton Construction",
+      "start": "10/2016",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Sure Steel",
+      "start": "3/2012",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Wasatch Regional Builders",
+      "start": "1/2010",
+      "end": "3/2012",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP of Sales",
+      "company": "Core Scientific",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "Switch",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Account Executive",
+      "company": "Giganews",
+      "start": "4/2004",
+      "end": "4/2007",
+      "current": false
+    },
+    {
+      "title": "Director - Data Center Sales",
+      "company": "Switch",
+      "start": "1/2003",
+      "end": "4/2022",
+      "current": false
+    }
+  ]
 }

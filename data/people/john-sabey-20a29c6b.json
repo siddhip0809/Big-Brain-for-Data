@@ -39,5 +39,35 @@
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "CEO and Executive Director",
+      "company": "Sabey Data Centers",
+      "start": "1/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President",
+      "company": "Sabey Data Centers",
+      "start": "1/2010",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. VP",
+      "company": "Sabey Data Centers",
+      "start": "6/1995",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "raw": "Sabey Data Centers"
+    }
+  ]
 }

@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "3/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head Of Business Development & Project Management",
+      "company": "Guidebox",
+      "start": "11/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Reelgood",
+      "start": "11/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Petroleum Landman",
+      "company": "Extraction Oil & Gas",
+      "start": "4/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Division Order Analyst",
+      "company": "Anadarko Petroleum",
+      "start": "3/2012",
+      "end": "3/2017",
+      "current": false
+    }
+  ]
 }

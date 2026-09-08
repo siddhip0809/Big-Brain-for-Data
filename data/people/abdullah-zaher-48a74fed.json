@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Engineer, Data Center Construction",
+      "company": "AWS",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Cleveland Electric",
+      "start": "7/2019",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "MEP Engineering Intern",
+      "company": "Turner Construction",
+      "start": "5/2018",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "SMART Center Certified STEM Tutor",
+      "company": "Kennesaw State University",
+      "start": "3/2016",
+      "end": "5/2019",
+      "current": false
+    }
+  ]
 }

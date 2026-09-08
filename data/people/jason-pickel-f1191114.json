@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "Whiting-Turner Contracting",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Whiting-Turner Contracting",
+      "start": "1/2004",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Whiting-Turner Contracting",
+      "start": "1/2002",
+      "end": "12/2003",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Whiting-Turner Contracting",
+      "start": "5/1999",
+      "end": "12/2001",
+      "current": false
+    }
+  ]
 }

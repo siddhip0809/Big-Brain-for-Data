@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Mission Critical Consultant",
+      "company": "Insight Global",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "T5 Data Centers",
+      "start": "11/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Member of The Board of Adjustment",
+      "company": "Town of Flower Mound",
+      "start": "9/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Independent Mission-Critical Advisor & Owner's Representative",
+      "company": "PulseMCS",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Owner",
+      "company": "Just Electric TX",
+      "start": "12/2021",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "USGSS",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Owner",
+      "company": "Just Electric NYC",
+      "start": "12/2018",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Founder & Chief Executive",
+      "company": "Just Electric NYC",
+      "start": "12/2017",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Critical Power Executive & Project Director",
+      "company": "Confidential",
+      "start": "1/2013",
+      "end": "12/2017",
+      "current": false
+    }
+  ]
 }

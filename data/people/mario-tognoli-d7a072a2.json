@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Manager",
+      "company": "Vantage",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Development Manager EMEA",
+      "company": "Vantage",
+      "start": "2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Responsabile Sviluppo Immobiliare",
+      "company": "Gse",
+      "start": "2/2022",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Real Estate Development Manager",
+      "company": "GSE Italia S r l",
+      "start": "2022",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Responsabile Sviluppo Immobiliare",
+      "company": "Eurospin",
+      "start": "6/2017",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Real Estate Development Manager",
+      "company": "Spesa Intelligente S p A",
+      "start": "2017",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Responsabile Sviluppo Immobiliare",
+      "company": "Aldi Italia",
+      "start": "8/2016",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Real Estate Development Manager",
+      "company": "ALDI S r l",
+      "start": "2016",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Ingegnere Progettista   Junior Project Manager",
+      "company": "Studio Rodighiero Associati Srl",
+      "start": "5/2014",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Ingegnere Disegnatore",
+      "company": "Mada Architetti",
+      "start": "1/2014",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer - Junior Project Manager",
+      "company": "STUDIO RODIGHIERO ASSOCIATI S r l",
+      "start": "2014",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Draft Engineer",
+      "company": "MADA Architetti S r l",
+      "start": "2014",
+      "end": "2014",
+      "current": false
+    }
+  ]
 }

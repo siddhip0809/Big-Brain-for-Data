@@ -28,5 +28,44 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "Diode Ventures",
+      "current": false
+    },
+    {
+      "company": "A Black & Veatch Company",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "TGK",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Hyundai Engineering Co",
+      "start": "1/2011",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "seargent",
+      "company": "US 8th Army Korean Augmentation To the United States Army",
+      "start": "3/2003",
+      "end": "3/2005",
+      "current": false
+    }
+  ]
 }

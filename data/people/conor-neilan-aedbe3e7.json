@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "EMEA Land Development Property Manager",
+      "company": "Microsoft",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Workman",
+      "start": "4/2022",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Workman",
+      "start": "3/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Management Surveyor",
+      "company": "Workman",
+      "start": "6/2020",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Surveyor - secondment",
+      "company": "Sussex Community NHS Foundation Trust",
+      "start": "9/2019",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Cushman & Wakefield",
+      "start": "8/2018",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Graduate surveyor",
+      "company": "Lambert Smith Hampton",
+      "start": "3/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Placement surveyor",
+      "company": "Lambert Smith Hampton",
+      "start": "7/2014",
+      "end": "8/2015",
+      "current": false
+    }
+  ]
 }

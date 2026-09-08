@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director of Cost Management",
+      "company": "Gardiner & Theobald",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend at Turner & Townsend",
+      "start": "8/2021",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Balfour Beatty plc ·",
+      "start": "8/2017",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Turner & Townsend",
+      "start": "2016",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Claims Quantity Surveyor",
+      "company": "Turner & Townsend",
+      "start": "2014",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Balfour Beatty plc",
+      "start": "9/2011",
+      "end": "4/2014",
+      "current": false
+    }
+  ]
 }

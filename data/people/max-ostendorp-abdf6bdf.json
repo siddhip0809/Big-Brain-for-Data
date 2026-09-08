@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Of Origination   Tract Europe",
+      "company": "Tract",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy Industry Consultant",
+      "company": "Selbststandig",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director",
+      "company": "Hallosonne",
+      "start": "10/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Gigafactory Berlin   Infrastructure Program Mgmt",
+      "company": "Tesla",
+      "start": "5/2020",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Utility & Industrial Battery Storage Systems",
+      "company": "Tesla",
+      "start": "11/2015",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Division: Transportation & Infrastructure",
+      "company": "Tumcreate",
+      "start": "2/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Division: Renewable Energies",
+      "company": "Acentiss",
+      "start": "8/2014",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Division: Research And Development",
+      "company": "Airbus Group",
+      "start": "11/2013",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Division: Mobility, Energy & Environment",
+      "company": "Iabg",
+      "start": "11/2013",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Division: Mobility",
+      "company": "Car2go Group",
+      "start": "2/2012",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Division: Project Management",
+      "company": "Tu Wien Racing",
+      "start": "10/2010",
+      "end": "9/2011",
+      "current": false
+    }
+  ]
 }

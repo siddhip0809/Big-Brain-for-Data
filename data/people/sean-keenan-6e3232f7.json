@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "VP, Leasing",
+      "company": "Crane Data Centers",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "Aplena",
+      "start": "4/2022",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Bandwidth IG",
+      "start": "8/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Element Critical",
+      "start": "4/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Sr. National Account Manager",
+      "company": "NTT",
+      "start": "5/2009",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Account Executive - Managed Services",
+      "company": "SunGard Higher Education",
+      "start": "2/2008",
+      "end": "5/2009",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "NTT",
+      "start": "7/2007",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive & Marketing Director",
+      "company": "MTM Technologies",
+      "start": "1/2000",
+      "end": "6/2007",
+      "current": false
+    }
+  ]
 }

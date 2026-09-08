@@ -50,5 +50,113 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "digital-realty"
+  "current_company_id": "digital-realty",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director, Global Accounts, EMEA",
+      "company": "Digital Realty",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Lead EMEA - Global Accounts",
+      "company": "Digital Realty",
+      "start": "1/2024",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Account Manager, Global Accounts, EMEA",
+      "company": "Digital Realty",
+      "start": "6/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Country Business Manager",
+      "company": "Digital Realty",
+      "start": "2/2020",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "International Business Manager",
+      "company": "Digital Realty",
+      "start": "1/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Global Switch",
+      "start": "5/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Digital Realty",
+      "start": "5/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Inside Sales Executive - Major Accounts",
+      "company": "Digital Realty",
+      "start": "1/2012",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Support - Major Accounts",
+      "company": "Digital Realty",
+      "start": "8/2010",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Business Account Manager",
+      "company": "Vodafone",
+      "start": "1/2010",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Sales Executive - New Business",
+      "company": "Vodafone",
+      "start": "11/2008",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Supervisor",
+      "company": "TomTom",
+      "start": "3/2006",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Customer/Retail Support Representative",
+      "company": "TomTom",
+      "start": "8/2005",
+      "end": "3/2006",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "De Block",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "raw": "Digital Realty"
+    }
+  ]
 }

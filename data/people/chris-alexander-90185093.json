@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director, South Central Region",
+      "company": "Digital Realty",
+      "start": "10/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Equinix",
+      "start": "7/2013",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Global National Account Manager",
+      "company": "XO Communications",
+      "start": "9/2009",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "AboveNet",
+      "start": "1/2002",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Sarcom",
+      "start": "4/1998",
+      "end": "12/2001",
+      "current": false
+    }
+  ]
 }

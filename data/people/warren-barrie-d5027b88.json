@@ -28,5 +28,78 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Revenue Officer",
+      "company": "Start Campus",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "KevlinX",
+      "start": "8/2024",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Director, Data Centers   Bulk Data Centers",
+      "company": "Bulk Data Centers",
+      "start": "6/2019",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Data Centers - Bulk Data Centers",
+      "company": "Bulk Data Centers",
+      "start": "6/2019",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Global Switch",
+      "start": "7/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "10/2013",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Virtus Data Centers",
+      "start": "1/2009",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Iomart",
+      "start": "1/2007",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Account Director Professional Services",
+      "company": "Star Technology",
+      "start": "6/2000",
+      "end": "11/2007",
+      "current": false
+    },
+    {
+      "raw": "KevlinX"
+    }
+  ]
 }

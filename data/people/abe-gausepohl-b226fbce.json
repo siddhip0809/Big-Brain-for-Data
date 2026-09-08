@@ -28,5 +28,85 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Renewable Energy Manager",
+      "company": "Meta",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Utility Engagement and Renewable Energy Strategist",
+      "company": "Samsung Austin Semiconductor",
+      "start": "12/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy and Carbon Advisory Manager",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "4/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Cleantech Services Specialist",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "6/2018",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Cleantech Services Associate",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "6/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Energy Buyer",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "6/2015",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Regulated and Emerging Markets Analyst",
+      "company": "TAC",
+      "start": "11/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Peregrino",
+      "company": "Camino de Santiago",
+      "start": "5/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Scholar Intern",
+      "company": "The Wilson Center",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Student",
+      "company": "University of Kentucky",
+      "start": "2011",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "raw": "Meta"
+    }
+  ]
 }

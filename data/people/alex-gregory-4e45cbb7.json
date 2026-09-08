@@ -28,5 +28,110 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Of Preconstruction",
+      "company": "GH Phipps Construction Companies",
+      "start": "5/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "GH Phipps Construction Companies",
+      "start": "8/2020",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Howell Construction",
+      "start": "7/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "GH Phipps Construction Companies",
+      "start": "5/2019",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "GH Phipps Construction Companies",
+      "start": "4/2017",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Core Group Member - Colorado Core Group",
+      "company": "Lean Construction Institute",
+      "start": "2017",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Team Manager I",
+      "company": "Linbeck Group",
+      "start": "2/2016",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "National Practice Committee - Co-Chair",
+      "company": "Lean Construction Institute",
+      "start": "2016",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Team Manager II",
+      "company": "Linbeck Group",
+      "start": "7/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Linbeck Group",
+      "start": "7/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Core Group Member - DFW Core Group",
+      "company": "Lean Construction Institute",
+      "start": "2014",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Linbeck Group",
+      "start": "7/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Engineer I",
+      "company": "Linbeck Group",
+      "start": "2/2010",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Engineer II",
+      "company": "Linbeck Group",
+      "start": "9/2007",
+      "end": "2/2010",
+      "current": false
+    }
+  ]
 }

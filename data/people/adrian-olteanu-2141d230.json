@@ -28,5 +28,39 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Head of Ada Infrastructure",
+      "company": "Ada Infrastructure",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Partner, Cloud Infrastructure Lease and M&A",
+      "company": "Microsoft",
+      "start": "2017",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Advisory",
+      "company": "EY",
+      "start": "2012",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "GM, Consumer Electronics Retail",
+      "company": "Flanco Retail",
+      "start": "2003",
+      "end": "2012",
+      "current": false
+    }
+  ]
 }

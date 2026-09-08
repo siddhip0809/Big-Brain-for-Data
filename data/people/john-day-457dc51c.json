@@ -28,5 +28,56 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer",
+      "company": "CleanArc Data Centers",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Advisor, Data Center Investments",
+      "company": "Legacy Investing",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales and Leasing",
+      "company": "Sabey Data Centers",
+      "start": "7/2019",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "raw": "Director of Sales"
+    },
+    {
+      "title": "Mid-Atlantic",
+      "company": "QTS Data Centers",
+      "start": "1/2019",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "QTS Data Centers",
+      "current": false
+    },
+    {
+      "title": "Sales Executive, Data Centers",
+      "company": "ABB",
+      "current": false
+    },
+    {
+      "raw": "CleanArc Data Centers"
+    }
+  ]
 }

@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Mission Critical Chief Estimator",
+      "company": "Hensel Phelps",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Hensel Phelps",
+      "start": "12/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "8/2005",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "8/2002",
+      "end": "8/2005",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "1/2000",
+      "end": "8/2002",
+      "current": false
+    },
+    {
+      "title": "Field/Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "12/1996",
+      "end": "1/2000",
+      "current": false
+    }
+  ]
 }

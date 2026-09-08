@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Construction Manager",
+      "company": "Digital Realty",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Owners Representative",
+      "company": "Roberts Engineering Group LLC - Texas",
+      "start": "2/2018",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Hill International",
+      "start": "9/2016",
+      "end": "1/2018",
+      "current": false
+    }
+  ]
 }

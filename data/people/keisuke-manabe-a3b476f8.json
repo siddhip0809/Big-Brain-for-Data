@@ -39,5 +39,103 @@
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal l Business Development l Data Center l Digital Infrastructure l APAC",
+      "company": "Ada Infrastructure",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President l Business Development l Data Center l Digital Infrastructure l APAC",
+      "company": "Ada Infrastructure",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President l Business Development l Data Center l Digital Infrastructure l APAC",
+      "company": "GLP",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President l Business Development l Data Center l Digital Infrastructure l APAC",
+      "company": "Ada Infrastructure",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Steering Committee Member",
+      "company": "(NPO) Japan DataCenter Council",
+      "start": "6/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Regional Business Development l Corporate Development l Real Estate l 経営企画部 IBX開発 部長",
+      "company": "Equinix",
+      "start": "6/2017",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Business Development Manager (Jakarta, Indonesia)",
+      "company": "PT Niscom Data Solusi",
+      "start": "1/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager, INDONESIA DataCenter Project",
+      "company": "NISCOM",
+      "start": "10/2014",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Manager, Hong Kong Representative Office (Hong Kong)",
+      "company": "NISCOM Inc （ニスコム株式会社）",
+      "start": "6/2012",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Manager, Hong Kong Representative Office (Hong Kong)",
+      "company": "NISCOM",
+      "start": "6/2012",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Head Of Operations",
+      "company": "NISCOM",
+      "start": "4/2009",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Network Operation",
+      "company": "NISCOM",
+      "start": "11/2006",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "internship",
+      "company": "GIKEN",
+      "start": "5/2004",
+      "end": "8/2004",
+      "current": false
+    }
+  ]
 }

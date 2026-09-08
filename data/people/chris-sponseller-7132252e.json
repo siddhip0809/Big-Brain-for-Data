@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Account Director",
+      "company": "CyrusOne",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "CyrusOne",
+      "start": "12/2018",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "CyrusOne",
+      "start": "1/2017",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Realtor",
+      "company": "Alain Pinel Realtors",
+      "start": "1/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Voice Teacher",
+      "company": "Valley Christian High School",
+      "start": "8/2014",
+      "end": "1/2017",
+      "current": false
+    }
+  ]
 }

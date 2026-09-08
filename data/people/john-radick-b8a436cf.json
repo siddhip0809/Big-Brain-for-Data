@@ -28,5 +28,103 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Data Center Construction",
+      "company": "McGough Construction",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AI Mega Campus Design Manager",
+      "company": "AWS",
+      "start": "11/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "AI/ML Design Management Lead",
+      "company": "Amazon",
+      "start": "8/2023",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Critical Environments Global Director",
+      "company": "Cushman & Wakefield",
+      "start": "2022",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Managing Director, Critical Environments Project & Development Services",
+      "company": "Cushman & Wakefield",
+      "start": "2022",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Director of Mission Critical Design/Construction",
+      "company": "Jacobs",
+      "start": "2016",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Construction Program Executive",
+      "company": "Jacobs",
+      "start": "2016",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Senior Data Center Program Manager - Western United States and Latin America",
+      "company": "Microsoft",
+      "start": "2010",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "Pacific Fire and Security / Prestige Communications",
+      "start": "2009",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "SME Electrical and Pacific Fire and Security",
+      "start": "2009",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Regional Program Director",
+      "company": "Microsoft",
+      "start": "2007",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Senior Program Manager",
+      "company": "TenantWorks",
+      "start": "2004",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Associate / Senior Construction Manager",
+      "company": "TenantWorks / GVA Kidder Mathews",
+      "start": "2004",
+      "end": "8/2007",
+      "current": false
+    }
+  ]
 }

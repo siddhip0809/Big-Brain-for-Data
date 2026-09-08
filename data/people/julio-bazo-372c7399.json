@@ -39,5 +39,131 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director of Projects",
+      "company": "DAMAC Digital",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head Of Development   Europe",
+      "company": "Form8tion Data Centers",
+      "start": "5/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head Of Development   Europe",
+      "company": "Form8tion Data Centers",
+      "start": "5/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Projects Director",
+      "company": "Global Switch",
+      "start": "12/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Development Manager",
+      "company": "NTT",
+      "start": "1/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Turner & Townsend",
+      "start": "10/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager Senior Management",
+      "company": "Digital Realty",
+      "start": "9/2011",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Quark Unlimited Engineering",
+      "start": "11/2009",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Director   Multi Sites Department",
+      "company": "Lendlease",
+      "start": "2/2007",
+      "end": "5/2009",
+      "current": false
+    },
+    {
+      "title": "Eu Maintenance & Strategy Manager",
+      "company": "Lendlease",
+      "start": "2/2006",
+      "end": "2/2007",
+      "current": false
+    },
+    {
+      "title": "Global Senior Project Manager",
+      "company": "Lendlease",
+      "start": "9/2003",
+      "end": "2/2006",
+      "current": false
+    },
+    {
+      "title": "Project Manager   Iberia",
+      "company": "Lendlease",
+      "start": "9/1999",
+      "end": "9/2003",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Lendlease",
+      "start": "2/1997",
+      "end": "9/1999",
+      "current": false
+    },
+    {
+      "title": "Maintenance Manager & Hsse Coordinator",
+      "company": "Mobil Oil",
+      "start": "1/1996",
+      "end": "1/1997",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Mobil Oil",
+      "start": "1/1994",
+      "end": "1/1996",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Omv",
+      "start": "1/1991",
+      "end": "1/1994",
+      "current": false
+    },
+    {
+      "title": "Profesional En Prácticas",
+      "company": "Ita · Instituto Tecnológico De Aragón",
+      "start": "9/1989",
+      "end": "6/1991",
+      "current": false
+    }
+  ]
 }

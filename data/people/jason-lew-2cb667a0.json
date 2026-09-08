@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Construction Project Manager",
+      "company": "DataBank",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Compliance & Program Management",
+      "company": "H5 Data Centers",
+      "start": "4/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "IBM Global Real Estate, West & Central Regions Design and Construction Project Delivery Manager",
+      "company": "IBM",
+      "start": "2/2017",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Manager IBM Boulder RESO Engineering, Construction, Maintenance, Finance, and Facility Contracts",
+      "company": "IBM",
+      "start": "4/2015",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Manager IBM Boulder RESO Finance, Planning, Facility Contracts, & Environmental Engineering",
+      "company": "IBM",
+      "start": "6/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Design and Construction and Maintenance Project Manager",
+      "company": "IBM",
+      "start": "2/2001",
+      "end": "6/2014",
+      "current": false
+    }
+  ]
 }

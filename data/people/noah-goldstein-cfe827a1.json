@@ -28,5 +28,92 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sustainable Construction Lead - Data Centers",
+      "company": "Google",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lecturer",
+      "company": "University of California Merced",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sustainability Lead, Google Data Centers",
+      "company": "Google",
+      "start": "12/2020",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "raw": "Director Of Sustainability"
+    },
+    {
+      "title": "Energy, Sustainability & Infrastructure Segment",
+      "company": "Guidehouse",
+      "start": "2017",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Research Director, Intelligent Buildings",
+      "company": "Guidehouse",
+      "start": "2014",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Program Assessment Leader",
+      "company": "Energy Efficient Buildings Hub",
+      "start": "2012",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Energy Informatics / Sustainability of the Built Environment",
+      "company": "Lawrence Livermore National Laboratory",
+      "start": "2010",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Director of Spatial Services",
+      "company": "CTG Energetics",
+      "start": "2008",
+      "end": "2009",
+      "current": false
+    },
+    {
+      "title": "Postdoctoral Researcher",
+      "company": "Lawrence Livermore National Laboratory",
+      "start": "2003",
+      "end": "2008",
+      "current": false
+    },
+    {
+      "title": "Visiting Summer Researcher",
+      "company": "Los Alamos National Laboratory",
+      "start": "2000",
+      "end": "2001",
+      "current": false
+    },
+    {
+      "title": "Graduate Student Researcher",
+      "company": "UC Santa Barbara",
+      "start": "1997",
+      "end": "2003",
+      "current": false
+    }
+  ]
 }

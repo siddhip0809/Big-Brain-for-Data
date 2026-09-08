@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Manager",
+      "company": "Jacobs",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Owner",
+      "company": "Oakville Building Advisors",
+      "start": "9/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Training Instructor",
+      "company": "American Society of Professional Estimators",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "National Western Stock Show",
+      "start": "6/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Director of Construction",
+      "company": "National Western Stock Show",
+      "start": "6/2016",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Kiewit",
+      "start": "9/2011",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator, Pre-construction Management",
+      "company": "Pinkard Construction",
+      "start": "11/2008",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Adjunct Profesor",
+      "company": "Burns School of Real Estate & Construction Management Univ of Denver",
+      "start": "3/2006",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Adjunct Profesor",
+      "company": "University of Denver",
+      "start": "3/2006",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Haselden Construction",
+      "start": "1/2005",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Member, Officer",
+      "company": "American Society of Professional Estimators",
+      "start": "1/2001",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "The Weitz Company",
+      "start": "3/2000",
+      "end": "10/2005",
+      "current": false
+    }
+  ]
 }

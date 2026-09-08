@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Subregional Construction Lead",
+      "company": "Digital Realty",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Data Center Development and Construction",
+      "company": "American Real Estate Partners",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "HITT Contracting",
+      "start": "2/2023",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "7/2017",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "EPPX Construction",
+      "start": "9/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Hathaway Dinwiddie",
+      "start": "6/2016",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hathaway Dinwiddie",
+      "start": "8/2015",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Field Engineer - Stanford Linear Accelerator SUSB",
+      "company": "Hensel Phelps",
+      "start": "1/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Field Engineer - Four Seasons Manele Bay",
+      "company": "Hensel Phelps",
+      "start": "2/2014",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Whiting-Turner Contracting",
+      "start": "3/2013",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Document Control Intern",
+      "company": "Perini Building",
+      "start": "6/2012",
+      "end": "12/2012",
+      "current": false
+    }
+  ]
 }

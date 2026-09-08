@@ -28,5 +28,26 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Design & Construction",
+      "company": "Iron Mountian",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "International Program Manager",
+      "company": "Jacobs",
+      "start": "4/2006",
+      "end": "12/2024",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction - NC,PA,NJ,NY",
+      "company": "Digital Realty",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager - Global Design and Construction",
+      "company": "Equinix",
+      "start": "6/2023",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager - Design-Build Services",
+      "company": "GHT Limited",
+      "start": "3/2019",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Southland Industries",
+      "start": "5/2014",
+      "end": "3/2019",
+      "current": false
+    }
+  ]
 }

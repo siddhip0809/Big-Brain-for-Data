@@ -39,5 +39,61 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Business Development – Europe",
+      "company": "Prime Data Centers",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Advisor to DC Byte",
+      "company": "DC Byte",
+      "start": "10/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Business Development Director",
+      "company": "DC Byte",
+      "start": "10/2018",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Global Sales Director",
+      "company": "Zenium Data Centers",
+      "start": "10/2012",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Executive Sales Director",
+      "company": "Sentrum",
+      "start": "4/2007",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Director - London",
+      "company": "Global Switch",
+      "start": "1/2000",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "IX Europe",
+      "start": "1/1999",
+      "end": "12/2000",
+      "current": false
+    }
+  ]
 }

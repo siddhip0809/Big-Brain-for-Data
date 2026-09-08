@@ -39,5 +39,102 @@
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Senior Vice President, Business Development",
+      "company": "Vantage",
+      "start": "2/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, International Business Development",
+      "company": "Vantage",
+      "start": "4/2019",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Data Center Advisory Group",
+      "start": "9/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Manager, AWS Infrastructure Global Expansion Team",
+      "company": "AWS",
+      "start": "3/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Principal, AWS Infrastructure Global Expansion",
+      "company": "AWS",
+      "start": "2/2012",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Director - Data Center Real Estate Division",
+      "company": "Facility Gateway",
+      "start": "5/2011",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Vice President, Data Centers and Colocation",
+      "company": "Clearview International",
+      "start": "6/2007",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Data Center Site Selection - Broker",
+      "company": "CBRE",
+      "start": "5/2006",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Complex Hosting Manager - Enterprise Hosting",
+      "company": "AT&T",
+      "start": "1/2002",
+      "end": "5/2006",
+      "current": false
+    },
+    {
+      "title": "Business Development",
+      "company": "Yahoo",
+      "start": "1/1999",
+      "end": "1/2001",
+      "current": false
+    },
+    {
+      "title": "Business Development",
+      "company": "Yahoo!",
+      "start": "1999",
+      "end": "2001",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "IBM",
+      "start": "1/1998",
+      "end": "8/1999",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "IBM",
+      "start": "1/1998",
+      "end": "8/1999",
+      "current": false
+    }
+  ]
 }

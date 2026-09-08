@@ -39,5 +39,67 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "aws"
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Real Estate Transaction Manager, EMEA",
+      "company": "AWS",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Transaction Manager",
+      "company": "AWS",
+      "start": "10/2022",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Property Acquisition Manager",
+      "company": "HS2",
+      "start": "1/2020",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Colliers",
+      "start": "11/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Regional Diversity Champion",
+      "company": "Colliers",
+      "start": "9/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Chartered Surveyor",
+      "company": "Colliers",
+      "start": "11/2018",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "Colliers",
+      "start": "8/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Administrative Assistant",
+      "company": "Cottons Chartered Surveyors",
+      "start": "6/2015",
+      "end": "8/2016",
+      "current": false
+    }
+  ]
 }

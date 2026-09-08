@@ -28,5 +28,66 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Construction",
+      "company": "DataBank",
+      "start": "12/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Director"
+    },
+    {
+      "title": "Construction",
+      "company": "DataBank",
+      "start": "12/2013",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "raw": "Director of Business Development"
+    },
+    {
+      "title": "Power Forward",
+      "company": "Brooklyn All Game",
+      "start": "4/2013",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "TAZ",
+      "start": "2009",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Operations",
+      "company": "Ocean Pacific Interiors",
+      "start": "1/2008",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Regional Marketing Director",
+      "company": "ADT",
+      "start": "2006",
+      "end": "2008",
+      "current": false
+    }
+  ]
 }

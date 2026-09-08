@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior VP Acquisitions & Investments - EMEA",
+      "company": "Digital Realty",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Real Assets Corporate Finance",
+      "company": "CBRE",
+      "start": "7/2016",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Director M&A Advisory EMEA",
+      "company": "Barclays",
+      "start": "7/2008",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Associate M&A Advisory",
+      "company": "ABN AMRO Bank N V",
+      "start": "1/2006",
+      "end": "5/2008",
+      "current": false
+    },
+    {
+      "title": "Analyst M&A",
+      "company": "ING Financial Services",
+      "start": "5/2005",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Analyst Media Telecom Finance",
+      "company": "BNP Paribas",
+      "start": "6/2003",
+      "end": "8/2004",
+      "current": false
+    }
+  ]
 }

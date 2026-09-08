@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Project Delivery",
+      "company": "QTS Data Centers",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Hyperscale Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "11/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Clune Construction Company L P",
+      "start": "1/2019",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "HITT Contracting",
+      "start": "1/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "HITT Contracting",
+      "start": "7/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Production Supervisor",
+      "company": "NVR",
+      "start": "7/2013",
+      "end": "2/2015",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Development",
+      "company": "QTS Data Centers",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Critical Project Services",
+      "start": "10/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Critical Project Services",
+      "start": "5/2018",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Rosendin Electric",
+      "start": "5/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Balfour Beatty US",
+      "start": "1/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Crowder",
+      "start": "8/2011",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

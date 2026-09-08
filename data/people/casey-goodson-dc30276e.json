@@ -28,5 +28,57 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Development",
+      "company": "QTS Data Centers",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Director Colocation Project Management"
+    },
+    {
+      "title": "Databank Ltd",
+      "company": "DataBank",
+      "start": "8/2019",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Technical Project Manager III / Engineer II",
+      "company": "Comcast Cable",
+      "start": "9/2013",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Sr Technical Project Manager",
+      "company": "CenturyLink",
+      "start": "1/2000",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Dealers Services Analyst",
+      "company": "Ford Motor Credit",
+      "start": "7/1995",
+      "end": "1/2000",
+      "current": false
+    },
+    {
+      "title": "Operations and Installation Manager",
+      "company": "AntennaPro",
+      "start": "6/1994",
+      "end": "7/1995",
+      "current": false
+    }
+  ]
 }

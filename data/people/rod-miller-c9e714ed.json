@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "The Weitz Company",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "Big-D Construction",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Preconstruction",
+      "company": "Ryan Companies US",
+      "start": "3/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Ryan Companies US",
+      "start": "10/2015",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "CORE Construction",
+      "start": "7/2013",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "CORE Construction",
+      "start": "4/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "CORE Construction",
+      "start": "8/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "6/2009",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Assistant Estimator",
+      "company": "Adolfson & Peterson Construction",
+      "start": "3/2008",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Model Builder",
+      "company": "JWP Design",
+      "start": "2006",
+      "end": "2006",
+      "current": false
+    }
+  ]
 }

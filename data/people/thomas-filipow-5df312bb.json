@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "vantage"
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Cost Manager",
+      "company": "Vantage",
+      "start": "3/2023",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Cost Manager",
+      "company": "Vantage",
+      "start": "6/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Lotspeich Co of FL",
+      "start": "8/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Hollister Construction Services",
+      "start": "6/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Summer Intern",
+      "company": "Hollister Construction Services",
+      "start": "6/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent Intern",
+      "company": "March Associates Construction",
+      "start": "6/2014",
+      "end": "8/2014",
+      "current": false
+    }
+  ]
 }

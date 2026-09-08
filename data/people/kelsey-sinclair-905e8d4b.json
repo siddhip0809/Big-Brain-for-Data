@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Central Estimating Manager",
+      "company": "Google",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "11/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Turner & Townsend",
+      "start": "2/2018",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Analyst",
+      "company": "Willbros Tank Services",
+      "start": "6/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Granite Services",
+      "start": "8/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Project Controls - Cost Engineering & Quantity Tracking",
+      "company": "Matrix Service",
+      "start": "8/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Project Controls - Cost Engineering & Quantity Tracking",
+      "company": "Matrix Service",
+      "start": "9/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Document Control Specialist",
+      "company": "GSL Electric",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Junior Project Engineer",
+      "company": "Matrix Service",
+      "start": "2/2013",
+      "end": "4/2013",
+      "current": false
+    }
+  ]
 }

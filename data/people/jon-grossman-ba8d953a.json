@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Sales Development",
+      "company": "CoreSite",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Business Development",
+      "company": "Optimize Practice Services",
+      "start": "10/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "SDR Manager",
+      "company": "Matillion",
+      "start": "7/2022",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "agencyMAX",
+      "start": "1/2022",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director of Business Development",
+      "company": "Plexie",
+      "start": "1/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Business Development Analyst",
+      "company": "Xyleme",
+      "start": "5/2018",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Account Executive",
+      "company": "Xactly",
+      "start": "5/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Development Representative - Strategic Enterprise Accounts",
+      "company": "Xactly",
+      "start": "2/2016",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Account Development Representative",
+      "company": "Xactly",
+      "start": "2/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Logistics Account Executive - Transportation Specialist",
+      "company": "Total Quality Logistics",
+      "start": "10/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Certified Personal Trainer",
+      "company": "Wellbridge",
+      "start": "1/2012",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Personal Trainer",
+      "company": "Georgia Southern University",
+      "start": "1/2010",
+      "end": "12/2012",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Barton Malow",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager ||",
+      "company": "Barton Malow",
+      "start": "3/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "HITT Contracting",
+      "start": "12/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Assistant Preconstruction Manager",
+      "company": "HITT Contracting",
+      "start": "12/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Estimator",
+      "company": "Rosendin",
+      "start": "11/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Regional Business Developer",
+      "company": "SealMaster DelMarVa",
+      "start": "3/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Graduate Assistant",
+      "company": "Virginia Tech Department of Athletics",
+      "start": "8/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Pressbox Operations Intern",
+      "company": "Pulaski Yankees",
+      "start": "5/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Full-Scholarship Football Coaches Video Intern",
+      "company": "Virginia Tech Department of Athletics",
+      "start": "2/2013",
+      "end": "5/2017",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,39 @@
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Data Center Development & Construction",
+      "company": "PowerHouse Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "Worldwide Mission Critical",
+      "start": "2/2021",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Scott + Reid General Contractors",
+      "start": "2/2019",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Structure Tone Southwest",
+      "start": "8/2015",
+      "end": "2/2019",
+      "current": false
+    }
+  ]
 }

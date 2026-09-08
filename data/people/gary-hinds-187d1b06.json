@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Development",
+      "company": "QTS Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Development",
+      "company": "QTS Data Centers",
+      "start": "3/2022",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Design & Construction Program Manager",
+      "company": "QTS Data Centers",
+      "start": "4/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "MEP Estimator",
+      "company": "Structure Tone Southwest",
+      "start": "11/2012",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Inside Sales",
+      "company": "Texas Air Products",
+      "start": "10/2009",
+      "end": "11/2012",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Joeris General Contractor",
+      "start": "5/2009",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Manager",
+      "company": "FedEx Express / Office",
+      "start": "2/2000",
+      "end": "10/2009",
+      "current": false
+    }
+  ]
 }

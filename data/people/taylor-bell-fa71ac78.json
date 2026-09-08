@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "The Beck Group",
+      "start": "3/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "The Beck Group",
+      "start": "11/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "The Beck Group",
+      "start": "1/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Performance Contractors",
+      "start": "9/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "Embree Group of Companies",
+      "start": "1/2016",
+      "end": "5/2016",
+      "current": false
+    }
+  ]
 }

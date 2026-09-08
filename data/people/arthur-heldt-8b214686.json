@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Howell Construction",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "The Beck Group",
+      "start": "3/2023",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Assistant Preconstruction Manager",
+      "company": "The Beck Group",
+      "start": "10/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Engineer",
+      "company": "The Beck Group",
+      "start": "7/2018",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "The Beck Group",
+      "start": "3/2018",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "The Beck Group",
+      "start": "6/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "The Beck Group",
+      "start": "5/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Estimator Intern",
+      "company": "Woodruff Construction",
+      "start": "5/2014",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Field Intern",
+      "company": "Woodruff Construction",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ]
 }

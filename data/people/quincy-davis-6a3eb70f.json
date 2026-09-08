@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Pre Construction Managaer",
+      "company": "Weifield Group Contracting",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Design Phase Manager",
+      "company": "Weifield Group Contracting",
+      "start": "9/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Electrical Superintendent",
+      "company": "Weifield Group Contracting",
+      "start": "4/2017",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "Ludvik Electric",
+      "start": "3/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "MBR Electric",
+      "start": "10/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "Encore Electric",
+      "start": "10/2009",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "Ludvik Electric",
+      "start": "6/2002",
+      "end": "5/2009",
+      "current": false
+    }
+  ]
 }

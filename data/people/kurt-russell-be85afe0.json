@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "google"
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Negotiator ",
+      "company": "Google",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Director",
+      "company": "Turner & Townsend",
+      "start": "8/2023",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Programme Lead",
+      "company": "Yondr",
+      "start": "1/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Campus Lead",
+      "company": "Yondr",
+      "start": "6/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Campus Lead",
+      "company": "Isg",
+      "start": "7/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Isg",
+      "start": "11/2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Concept Building Services",
+      "start": "8/2015",
+      "end": "11/2016",
+      "current": false
+    }
+  ]
 }

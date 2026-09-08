@@ -39,5 +39,74 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director, International",
+      "company": "KevlinX",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of London",
+      "company": "Verne",
+      "start": "9/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Director, International",
+      "company": "Verne",
+      "start": "11/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Foxbase Consultants",
+      "start": "6/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Strategic Business Consultant",
+      "company": "Yondr",
+      "start": "6/2021",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Director, International",
+      "company": "Digital Realty",
+      "start": "5/2014",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Client Director",
+      "company": "MarketPrizm",
+      "start": "9/2011",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager / Enterprise Solution Sales",
+      "company": "Thomson Reuters",
+      "start": "8/1999",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Relationship Manager",
+      "company": "I/B/E/S",
+      "start": "10/1996",
+      "end": "8/1999",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,66 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Negotiator - Data Center Energy",
+      "company": "Google",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Energy Strategy Manager",
+      "company": "AWS",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Hydro One",
+      "start": "6/2019",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "company": "Hydro One",
+      "start": "6/2019",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Pattern Energy",
+      "start": "9/2014",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "company": "Pattern Energy",
+      "start": "9/2014",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "SNC-Lavalin",
+      "start": "1/2013",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Substation Design/Field Engineer",
+      "company": "SNC-Lavalin",
+      "start": "4/2010",
+      "end": "12/2012",
+      "current": false
+    }
+  ]
 }

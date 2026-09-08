@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Mechanical Estimator",
+      "company": "Turner Construction",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Mechanical Estimator",
+      "company": "Turner Construction",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager/Estimator",
+      "company": "Emcon Services",
+      "start": "5/2018",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Project Engineer/Estimator",
+      "company": "Emcon Services",
+      "start": "5/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Energy Services/ Engineering Intern",
+      "company": "GreyStone Power",
+      "start": "5/2015",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Woodshop",
+      "company": "Janus International",
+      "start": "2/2011",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Order Filler",
+      "company": "J W Pepper",
+      "start": "6/2009",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Manager",
+      "company": "A & M Landscaping and Construction Services",
+      "start": "5/2008",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Finisher",
+      "company": "Splash N' Go Auto Spa",
+      "start": "11/2005",
+      "end": "5/2008",
+      "current": false
+    }
+  ]
 }

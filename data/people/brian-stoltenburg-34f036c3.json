@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Estimator",
+      "company": "Shannon Construction",
+      "start": "6/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Etzel Engineer and Build",
+      "start": "11/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Estimator",
+      "company": "KJ Johnston",
+      "start": "11/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Flynn Construction Management",
+      "start": "11/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "Stoltenburg Carpentry",
+      "start": "5/2010",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Foreman",
+      "company": "Stoltenburg Construction",
+      "start": "9/2007",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Finisher",
+      "company": "Master Remodelers",
+      "start": "9/2005",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Carpenter",
+      "company": "D&E Construction",
+      "start": "4/2003",
+      "end": "9/2005",
+      "current": false
+    },
+    {
+      "title": "Custom Home Framer",
+      "company": "Stauffer & Sons Construction",
+      "start": "8/2002",
+      "end": "4/2003",
+      "current": false
+    }
+  ]
 }

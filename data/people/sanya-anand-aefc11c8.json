@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Manager, Construction",
+      "company": "Crusoe",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Cost Analyst",
+      "company": "STACK Infrastructure",
+      "start": "9/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Budget & Cost Analyst ",
+      "company": "Lendlease",
+      "start": "4/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Vendor Relationship Manager",
+      "company": "Astreya",
+      "start": "6/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Invoice Analyst ",
+      "company": "Astreya",
+      "start": "4/2019",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Accounts Payable",
+      "company": "The Save Mart Companies",
+      "start": "7/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Payroll Clerk",
+      "company": "Teresa Johnson",
+      "start": "4/2016",
+      "end": "10/2016",
+      "current": false
+    }
+  ]
 }

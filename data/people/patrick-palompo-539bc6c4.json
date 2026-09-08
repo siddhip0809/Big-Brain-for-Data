@@ -28,5 +28,95 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Energy Systems Engineer",
+      "company": "Microsoft",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President / Principal Electrical Engineer",
+      "company": "PaloGrid",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Datacenter Electrical Engineer - High Voltage Substations",
+      "company": "Microsoft",
+      "start": "7/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Manager, O&P Compliance",
+      "company": "Northeast Power Coordinating Council",
+      "start": "3/2024",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Compliance Engineer",
+      "company": "Northeast Power Coordinating Council",
+      "start": "6/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Principal Electrical Engineer - Power Networks",
+      "company": "INTECSEA",
+      "start": "8/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Interim Manager System Protection & Controls",
+      "company": "JEA",
+      "start": "3/2020",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Protection & Controls Specialist",
+      "company": "JEA",
+      "start": "8/2017",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Automation Engineer - Substations",
+      "company": "PG&E",
+      "start": "3/2011",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer - Office of Electric Reliability",
+      "company": "Federal Energy Regulatory Commission",
+      "start": "6/2010",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer - System Operations, SCADA, EMS",
+      "company": "JEA",
+      "start": "3/2008",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "raw": "Northeast Power Coordinating Council"
+    },
+    {
+      "raw": "Microsoft"
+    }
+  ]
 }

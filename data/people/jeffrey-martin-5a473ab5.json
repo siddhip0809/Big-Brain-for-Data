@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction - Mission Critical",
+      "company": "Ryan Companies US",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Design Phase Manager",
+      "company": "Mortenson",
+      "start": "5/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Market Executive",
+      "company": "Mortenson",
+      "start": "3/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Design Phase Executive",
+      "company": "Mortenson",
+      "start": "3/2017",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Design Phase Manager",
+      "company": "Mortenson",
+      "start": "9/2010",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Design Phase Manager",
+      "company": "Mortenson",
+      "start": "3/2008",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Mortenson",
+      "start": "10/2006",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Adolfson & Peterson Construction",
+      "start": "1/2006",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Field Engineer and Estimating",
+      "company": "Mortenson",
+      "start": "6/2000",
+      "end": "1/2006",
+      "current": false
+    }
+  ]
 }

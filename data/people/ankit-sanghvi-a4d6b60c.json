@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction & Estimating",
+      "company": "PCL Construction",
+      "start": "9/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "PCL Construction",
+      "start": "12/2014",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "PCL Construction",
+      "start": "1/2007",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "MATT Construction",
+      "start": "6/2005",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "MATT Construction",
+      "start": "7/2002",
+      "end": "6/2005",
+      "current": false
+    }
+  ]
 }

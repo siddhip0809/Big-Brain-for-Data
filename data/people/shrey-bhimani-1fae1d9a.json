@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "DPR Construction",
+      "start": "12/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Baker Concrete Construction",
+      "start": "8/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer/ Precon",
+      "company": "Baker Concrete Construction",
+      "start": "2/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Baker Concrete Construction",
+      "start": "5/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Larsen & Toubro",
+      "start": "5/2015",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Field Engineer Intern",
+      "company": "Larsen & Toubro",
+      "start": "6/2014",
+      "end": "7/2014",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction",
+      "company": "NTT",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "NTT Global Datacenters Americas at NTT",
+      "start": "2/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Intel",
+      "start": "5/1998",
+      "end": "2/2021",
+      "current": false
+    }
+  ]
 }

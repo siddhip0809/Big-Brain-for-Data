@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director-Enterprise North America",
+      "company": "Digital Realty",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales Account Executive",
+      "company": "Digital Realty",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Account  Executive- Enterprise, Cloud & Content",
+      "company": "Equinix at Equinix",
+      "start": "3/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Senior National Account Executive",
+      "company": "IBM",
+      "start": "3/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Cloud Object Storage Executive-US East",
+      "company": "IBM",
+      "start": "3/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Sungard Availability Services",
+      "start": "1/2006",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Executive",
+      "company": "Current Analysis",
+      "start": "5/2005",
+      "end": "7/2006",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Centurylink Business For Enterprise",
+      "start": "1/2000",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Inside Sales Representative",
+      "company": "Exodus Communications",
+      "start": "1/1999",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Allegiance Telecom",
+      "start": "1/1998",
+      "end": "12/1999",
+      "current": false
+    }
+  ]
 }

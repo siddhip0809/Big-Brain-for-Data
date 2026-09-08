@@ -28,5 +28,106 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Executive",
+      "company": "DPR Construction",
+      "start": "7/2019",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Interim VP of Engineering",
+      "company": "Honeywell",
+      "start": "10/2018",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Global Director of Project Engineering",
+      "company": "Honeywell",
+      "start": "1/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Global Project Controls Leader",
+      "company": "Honeywell",
+      "start": "1/2016",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Site Engineering Leader",
+      "company": "Honeywell",
+      "start": "11/2012",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Honeywell",
+      "start": "5/2012",
+      "end": "11/2012",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "AM Technical Solutions",
+      "start": "1/2011",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Richmond Regional Manager",
+      "company": "MOCA Systems",
+      "start": "3/2009",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Projects and Construction Section Manager",
+      "company": "Qimonda",
+      "start": "1/1998",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "Qimonda",
+      "start": "1998",
+      "end": "2000",
+      "current": false
+    },
+    {
+      "title": "Planning Supervisor",
+      "company": "Jacobs",
+      "start": "1/1994",
+      "end": "1/1996",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Fluor Daniel/Marshall Contractors",
+      "start": "1992",
+      "end": "1994",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ]
 }

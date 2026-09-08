@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "MEP",
+      "company": "DPR Construction",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Services",
+      "company": "Encore Electric",
+      "start": "9/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Self-Peform Interiors Lead (MAZ Data Center)",
+      "company": "DPR Construction",
+      "start": "8/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Self-Perform Manager",
+      "company": "DPR Construction",
+      "start": "3/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager - Estimator",
+      "company": "Corbins Electric",
+      "start": "4/2016",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Electrical Systems Craftsman",
+      "company": "United States Air Force",
+      "start": "1/2009",
+      "end": "2/2017",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Sr. Real Estate Development Manager",
+      "company": "AWS",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Institutional/Non-Profit",
+      "company": "Orr Partners",
+      "start": "1/2024",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "Orr Partners",
+      "start": "1/2018",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "JFW",
+      "start": "8/2013",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "Versar",
+      "start": "1/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "Charron Consulting",
+      "start": "10/1998",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Phoenix Development",
+      "start": "1/1997",
+      "end": "10/1998",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction North America",
+      "company": "Vantage",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Stateline Construction Group",
+      "start": "1/2025",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Construction and Special Projects Manager",
+      "company": "Bodycote",
+      "start": "8/2017",
+      "end": "8/2024",
+      "current": false
+    }
+  ]
 }

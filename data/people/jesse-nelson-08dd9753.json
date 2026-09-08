@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator",
+      "company": "DPR Construction",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Turner Construction",
+      "start": "1/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "Skanska",
+      "start": "12/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Sr. Preconstruction Engineer",
+      "company": "Skanska",
+      "start": "7/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Skanska",
+      "start": "8/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Engineering Project Coordinator",
+      "company": "STX Desenvolvimento Imobiliario S A",
+      "start": "4/2014",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Construction Planning and Cost Controller",
+      "company": "Klacon Engenharia Ltda",
+      "start": "10/2013",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Multitek Engenharia LDTA",
+      "start": "8/2011",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Engineering trainee",
+      "company": "Multitek Engenharia LDTA",
+      "start": "2/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Wiss Janney Elstner Associates",
+      "start": "6/2008",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Ralc Construções Ltda",
+      "start": "6/2007",
+      "end": "8/2007",
+      "current": false
+    }
+  ]
 }

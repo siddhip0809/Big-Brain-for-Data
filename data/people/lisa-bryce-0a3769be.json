@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Controls Manager",
+      "company": "DPR Construction",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager - RVA Retrofit Program",
+      "company": "DPR Construction",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Cost Manager",
+      "company": "DPR Construction",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Change Management Manager",
+      "company": "DPR Construction",
+      "start": "10/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Control Engineer",
+      "company": "DPR Construction",
+      "start": "10/2017",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Construction Coordinator",
+      "company": "DPR Construction",
+      "start": "3/2013",
+      "end": "10/2020",
+      "current": false
+    }
+  ]
 }

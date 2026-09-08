@@ -28,5 +28,99 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP, Global Accounts & Platform Strategy",
+      "company": "Stream Data Centers",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Founder",
+      "company": "Datacenter Tactics",
+      "start": "8/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, xScale",
+      "company": "Equinix",
+      "start": "8/2018",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "VP Operations & Engineering",
+      "company": "Compass Datacenters",
+      "start": "12/2011",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "LCDR",
+      "company": "US Navy Reserve",
+      "start": "11/2011",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Digital Realty",
+      "start": "4/2008",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "VR-46 C-9 Pilot",
+      "company": "US Navy Reserve",
+      "start": "3/2008",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Naval Aviator / Operations Program Manager / Legal Officer",
+      "company": "US Navy",
+      "start": "2/2007",
+      "end": "2/2008",
+      "current": false
+    },
+    {
+      "title": "Naval Aviator / Operations Schedules Officer / Legal Officer",
+      "company": "US Navy",
+      "start": "8/2006",
+      "end": "2/2007",
+      "current": false
+    },
+    {
+      "title": "Naval Aviator / Maintenance Division Officer / Legal Officer",
+      "company": "US Navy",
+      "start": "12/2005",
+      "end": "9/2006",
+      "current": false
+    },
+    {
+      "title": "Naval Aviator",
+      "company": "US Navy",
+      "start": "8/2003",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Interactive Designer/Network Administrator",
+      "company": "Orsatti & Partners",
+      "start": "3/2001",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "raw": "Stream Data Centers"
+    }
+  ]
 }

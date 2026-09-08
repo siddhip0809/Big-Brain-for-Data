@@ -50,5 +50,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "stack-infrastructure"
+  "current_company_id": "stack-infrastructure",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Hyperscale",
+      "company": "STACK Infrastructure",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Vice President, Global Client Solutions, EMEA",
+      "company": "Yondr",
+      "start": "1/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Director Hyperscale Sales, Global Data Centers EMEA",
+      "company": "NTT",
+      "start": "1/2020",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "International Account Director",
+      "company": "Digital Realty",
+      "start": "1/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Channel Director, International",
+      "company": "Digital Realty",
+      "start": "7/2016",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Digital Realty",
+      "start": "4/2010",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Support",
+      "company": "Digital Realty",
+      "start": "4/2008",
+      "end": "3/2010",
+      "current": false
+    }
+  ]
 }

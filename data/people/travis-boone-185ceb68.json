@@ -28,5 +28,40 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "MEP Manager– Preconstruction",
+      "company": "Whiting-Turner Contracting",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "V.P. of Interiors",
+      "company": "D&D Electrical Construction Company",
+      "start": "9/2021",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator / Project Manager",
+      "company": "Lippolis Electric",
+      "start": "11/2016",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Purchasing Agent / Jr. Estimator / Electrician",
+      "company": "Boone Electric",
+      "start": "11/2006",
+      "end": "11/2016",
+      "current": false
+    }
+  ]
 }

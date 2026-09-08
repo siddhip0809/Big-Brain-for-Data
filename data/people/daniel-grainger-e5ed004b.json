@@ -39,5 +39,54 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior MEP Estimator",
+      "company": "DPR Construction",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior M/E Engineer",
+      "company": "JE Dunn Construction",
+      "start": "8/2021",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "MEP Manager",
+      "company": "Whiting-Turner Contracting",
+      "start": "3/2018",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Phase 1 Group",
+      "start": "6/2016",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Estimator",
+      "company": "Petri Plumbing and Heating",
+      "start": "9/2013",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Foreman",
+      "company": "P C Jackson Plumbing",
+      "start": "3/2005",
+      "end": "7/2013",
+      "current": false
+    }
+  ]
 }

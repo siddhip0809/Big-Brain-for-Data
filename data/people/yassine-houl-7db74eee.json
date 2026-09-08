@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Construction",
+      "company": "Vantage",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "5/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer",
+      "company": "AWS",
+      "start": "7/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Sustainability Project Manager",
+      "company": "SCHMIDT & STACY® Consulting Engineers",
+      "start": "10/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Sustainability Consultant",
+      "company": "Jordan & Skala Engineers",
+      "start": "5/2019",
+      "end": "10/2021",
+      "current": false
+    }
+  ]
 }

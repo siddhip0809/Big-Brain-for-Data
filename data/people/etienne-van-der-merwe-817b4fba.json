@@ -28,5 +28,77 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Senior Cost & Project Controls Manager"
+    },
+    {
+      "raw": "MRICS, PrQS, PMAQS"
+    },
+    {
+      "raw": "Mission Critical"
+    },
+    {
+      "title": "Data Centers",
+      "company": "SLS Consultants",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Cumming",
+      "start": "3/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager (MRICS, PrQS, PMAQS)",
+      "company": "Cumming",
+      "start": "10/2021",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Managing Director & Founder",
+      "company": "Growthvision Property Group",
+      "start": "2/2021",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor (MRICS, PrQS, PMAQS) & Senior Project Manager",
+      "company": "DPV Quantity Surveyors & Project Managers",
+      "start": "1/2017",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Chartered Quantity Surveyor (MRICS, PrQS PMAQS)",
+      "company": "MLC Group",
+      "start": "5/2013",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor & Project Manager",
+      "company": "DPV Quantity Surveyors & Project Managers",
+      "start": "1/2011",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Junior Quantity Surveyor",
+      "company": "KWMH Quantity Surveyors",
+      "start": "1/2009",
+      "end": "12/2009",
+      "current": false
+    }
+  ]
 }

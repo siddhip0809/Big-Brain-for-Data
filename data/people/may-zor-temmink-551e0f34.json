@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager of Construction Management, Cost Estimating",
+      "company": "Kaiser Permanente National Facilities Design & Construction",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Soben",
+      "start": "3/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "8/2019",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Vanir CM",
+      "start": "2/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "ETC Building & Design",
+      "start": "4/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Kaiser Permanente",
+      "start": "10/2007",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Kaiser Permanente",
+      "start": "10/2005",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Contracts Administrator",
+      "company": "Kaiser Permanente",
+      "start": "7/2004",
+      "end": "9/2005",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Manager, Development",
+      "company": "Beale",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "3/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Land Use Planner",
+      "company": "DLA Piper",
+      "start": "9/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Planner 1",
+      "company": "Sussex County Council",
+      "start": "3/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "GIS Technologist",
+      "company": "Duke Energy",
+      "start": "7/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Aviation Planner",
+      "company": "RS&H",
+      "start": "5/2017",
+      "end": "7/2018",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Sales Director, Global Accounts",
+      "company": "Equinix",
+      "start": "12/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Director, Global Accounts Division",
+      "company": "Global Crossing",
+      "start": "4/2014",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Client Executive",
+      "company": "Global Crossing",
+      "start": "9/2010",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "AccuRev",
+      "start": "11/2009",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Director, Northern Region",
+      "company": "Pacific Pulmonary Services",
+      "start": "5/2008",
+      "end": "4/2009",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "Talyst",
+      "start": "12/2006",
+      "end": "4/2008",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Pitney Bowes",
+      "start": "7/2004",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Cogent Communications",
+      "start": "4/2003",
+      "end": "6/2004",
+      "current": false
+    },
+    {
+      "title": "Regional Vice President",
+      "company": "Aprisma Management Technologies",
+      "start": "1/2002",
+      "end": "11/2002",
+      "current": false
+    },
+    {
+      "title": "VP of Sales",
+      "company": "Global Crossing",
+      "start": "7/1998",
+      "end": "1/2002",
+      "current": false
+    },
+    {
+      "title": "Strategic Data Application Specialist",
+      "company": "Data Return",
+      "start": "7/1991",
+      "end": "7/1998",
+      "current": false
+    }
+  ]
 }

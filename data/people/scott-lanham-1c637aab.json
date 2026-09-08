@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "H5 Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal",
+      "company": "Hammerhead Technologies",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Global Accounts",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "5/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "QTS Data Centers",
+      "start": "12/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Inside Sales Executive",
+      "company": "QTS Data Centers",
+      "start": "9/2018",
+      "end": "12/2020",
+      "current": false
+    }
+  ]
 }

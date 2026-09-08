@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Development Manager",
+      "company": "Greenlight Data Centers",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Independent Contractor",
+      "company": "Digital Power Optimization",
+      "start": "7/2023",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Private Trust Officer",
+      "company": "WoodTrust Bank",
+      "start": "11/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice President - Loan Officer",
+      "company": "Intercity State Bank",
+      "start": "9/2018",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Mortgage Specialist",
+      "company": "US Lending",
+      "start": "7/2015",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Personal Banker",
+      "company": "Associated Bank",
+      "start": "10/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Financial Representative",
+      "company": "Northwestern Mutual",
+      "start": "1/2007",
+      "end": "11/2011",
+      "current": false
+    }
+  ]
 }

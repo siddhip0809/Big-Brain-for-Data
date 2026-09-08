@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Utility Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal, Key Customer Manager",
+      "company": "Portland General Electric",
+      "start": "4/2020",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Key Customer Manager",
+      "company": "Portland General Electric",
+      "start": "1/2017",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Supervisor, Business Customer Group",
+      "company": "Portland General Electric",
+      "start": "7/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Industrial Energy Engineer",
+      "company": "Portland General Electric",
+      "start": "11/2007",
+      "end": "11/2009",
+      "current": false
+    },
+    {
+      "title": "Construction Engineer",
+      "company": "Lockheed Martin",
+      "start": "3/2000",
+      "end": "8/2007",
+      "current": false
+    }
+  ]
 }

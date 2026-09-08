@@ -50,5 +50,74 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "equinix"
+  "current_company_id": "equinix",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Strategic Accounts",
+      "company": "Equinix",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Sales, Global Accounts (EMEA) & Enterprise Sales (Benelux)",
+      "company": "Equinix",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Director Sales (Benelux)",
+      "company": "Equinix",
+      "start": "11/2017",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Director Sales (Benelux)",
+      "company": "Equinix",
+      "start": "3/2016",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director (Western Europe)",
+      "company": "Equinix",
+      "start": "1/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Director Sales (Netherlands)",
+      "company": "Equinix",
+      "start": "4/2013",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Manager (Netherlands)",
+      "company": "Equinix",
+      "start": "9/2010",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Manager (Cloud & Hosting)",
+      "company": "Equinix",
+      "start": "8/2008",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant",
+      "company": "PINS Managed Hosting",
+      "start": "6/2005",
+      "end": "7/2008",
+      "current": false
+    }
+  ]
 }

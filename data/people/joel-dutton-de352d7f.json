@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Evans General Contractors",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "TDIndustries",
+      "start": "6/2025",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "TDIndustries",
+      "start": "1/2025",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "TDIndustries",
+      "start": "7/2021",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "TDIndustries",
+      "start": "6/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Foreman",
+      "company": "TDIndustries",
+      "start": "4/2018",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Journeyman Welder",
+      "company": "TDIndustries",
+      "start": "5/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Squad Leader",
+      "company": "Adventures In Missions",
+      "start": "1/2011",
+      "end": "5/2013",
+      "current": false
+    }
+  ]
 }

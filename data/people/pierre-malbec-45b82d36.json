@@ -28,5 +28,86 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal, Global Energy Strategy & Infrastructure Investment",
+      "company": "AWS",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal, Energy Strategy & Investment - APAC",
+      "company": "AWS",
+      "start": "3/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Corporate PPA - APAC",
+      "company": "Macquarie Group",
+      "start": "12/2017",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "company": "Macquarie Group",
+      "start": "12/2017",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Global Accounts Director",
+      "company": "ADEN Group",
+      "start": "9/2014",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Co-Founder",
+      "company": "UVL",
+      "start": "4/2012",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "company": "UVL",
+      "start": "4/2012",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Business Development Director - EMEA",
+      "company": "ADEN Group",
+      "start": "10/2010",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager - APAC",
+      "company": "ADEN Group",
+      "start": "10/2008",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "company": "Voxx",
+      "start": "9/2005",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Co-Founder",
+      "company": "Voxx",
+      "start": "9/2005",
+      "end": "9/2008",
+      "current": false
+    }
+  ]
 }

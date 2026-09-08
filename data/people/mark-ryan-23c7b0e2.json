@@ -50,5 +50,46 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "yondr"
+  "current_company_id": "yondr",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "VP Leasing & Asset Management",
+      "company": "Yondr",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Director",
+      "company": "The Doyle Collection",
+      "start": "11/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Head of Asset Management & Investments",
+      "company": "Yondr",
+      "start": "3/2020",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Director of Real Estate Asset Management (Lapithus Management - part of Apollo Global Management)",
+      "company": "Lapithus Management DAC",
+      "start": "1/2015",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Asset Manager",
+      "company": "Anglo / IBRC",
+      "start": "10/2010",
+      "end": "12/2014",
+      "current": false
+    }
+  ]
 }

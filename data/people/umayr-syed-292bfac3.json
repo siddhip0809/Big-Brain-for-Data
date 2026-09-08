@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Program Manager - Cost Controls",
+      "company": "Google",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Cost Estimator / Program Manager",
+      "company": "Target",
+      "start": "12/2022",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Lead Cost Estimator",
+      "company": "Kiewit",
+      "start": "11/2020",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer III",
+      "company": "Kiewit",
+      "start": "7/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Walter P Moore",
+      "start": "3/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Arup",
+      "start": "8/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer Intern",
+      "company": "Arup",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Graduate Teaching Assistant",
+      "company": "Texas A&M University",
+      "start": "1/2013",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer Intern",
+      "company": "Arup",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Student Technical Support",
+      "company": "Texas A&M Engineering Extension Service",
+      "start": "6/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Environmental Research Intern",
+      "company": "NASA Ames Research Center",
+      "start": "6/2010",
+      "end": "8/2010",
+      "current": false
+    }
+  ]
 }

@@ -39,5 +39,82 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "data4"
+  "current_company_id": "data4",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Sales",
+      "company": "DATA4",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Client Manager Multi National Account",
+      "company": "NTT",
+      "start": "4/2020",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "NTT",
+      "start": "10/2019",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "NTT",
+      "start": "1/2013",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Account Director-Sales Manager-BU Ecommerce/Retail/Luxury/tourism",
+      "company": "NTT",
+      "start": "1/2012",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "NTT",
+      "start": "1/2007",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "NTT",
+      "start": "1/2004",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Business and Channel development",
+      "company": "NTT",
+      "start": "4/2002",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Business and Channel development",
+      "company": "Alpha CSP",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sales and marketing development",
+      "company": "Lactalis Group",
+      "start": "1/1997",
+      "end": "12/2000",
+      "current": false
+    }
+  ]
 }

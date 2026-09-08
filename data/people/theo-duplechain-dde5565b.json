@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Energy Planning, NA",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Manager, Energy Planning",
+      "company": "Vantage",
+      "start": "7/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Principal Power Planning Manager, NA",
+      "company": "Vantage",
+      "start": "2/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Power Planning Manager",
+      "company": "Vantage",
+      "start": "3/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "System Planning Engineer",
+      "company": "CoServ Electric",
+      "start": "4/2019",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "​Associate Distribution Engineer",
+      "company": "Leidos",
+      "start": "7/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Power Plant Engineer Graduate A",
+      "company": "Ausitn Energy",
+      "start": "6/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "​Power Planning Engineering Intern",
+      "company": "Austin Energy",
+      "start": "6/2015",
+      "end": "8/2015",
+      "current": false
+    }
+  ]
 }

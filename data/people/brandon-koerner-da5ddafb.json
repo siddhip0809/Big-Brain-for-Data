@@ -28,5 +28,89 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Lithko Contracting",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "DANKO Concrete Construction",
+      "start": "12/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Civil Estimator",
+      "company": "CE Barker",
+      "start": "9/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Estimating Manager",
+      "company": "NMG Workspace Solutions",
+      "start": "1/2023",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Support - Account Management",
+      "company": "Doka",
+      "start": "4/2019",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Designer",
+      "company": "Aluma Systems",
+      "start": "5/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Engineering Group Leader",
+      "company": "Doka",
+      "start": "10/2013",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Project Technician",
+      "company": "Doka",
+      "start": "7/2011",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Cad Designer and Structural Inspector",
+      "company": "Espo Engineering",
+      "start": "2007",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Engineer Intern/Field Engineer",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "2007",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Civil Surveyor",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "9/2004",
+      "end": "9/2007",
+      "current": false
+    }
+  ]
 }

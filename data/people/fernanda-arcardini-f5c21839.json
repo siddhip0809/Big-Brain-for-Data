@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Site Development EMEA",
+      "company": "EdgeConneX",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Director",
+      "company": "Access Latam",
+      "start": "3/2015",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Director. Latin American Business Development Practice.",
+      "company": "BSA Legal Group",
+      "start": "9/2012",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Director for Latin America",
+      "company": "Answare-Tech",
+      "start": "9/2012",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Director. Corporate Relations and Government Affairs",
+      "company": "Futura Networks",
+      "start": "12/2008",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Consultant, Public Affairs and business development, specialized in ICT and Innovation",
+      "company": "Independent Consultant",
+      "start": "5/2006",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Editor of Economics",
+      "company": "Diario Ultimas Noticias",
+      "start": "8/2005",
+      "end": "4/2006",
+      "current": false
+    },
+    {
+      "title": "Head of Public Affairs",
+      "company": "Unidad Reguladora de Servicios de Energía y Agua",
+      "start": "7/2001",
+      "end": "8/2003",
+      "current": false
+    },
+    {
+      "title": "Media Relations Advisor",
+      "company": "Schering Uruguay SA",
+      "start": "11/2000",
+      "end": "6/2001",
+      "current": false
+    },
+    {
+      "title": "Deputy Editor of Economics",
+      "company": "Diario El Observador",
+      "start": "4/1999",
+      "end": "6/2001",
+      "current": false
+    }
+  ]
 }

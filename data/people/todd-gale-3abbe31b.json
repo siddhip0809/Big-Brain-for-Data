@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Chief Development Officer",
+      "company": "Applied Digital",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Of Engineering",
+      "company": "Flexential",
+      "start": "3/2008",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "SVP - Technology and Engineering",
+      "company": "Equinix",
+      "start": "2/2001",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Senior Director",
+      "company": "AT&T",
+      "start": "5/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Engineering and Operations",
+      "company": "Liberty Global",
+      "start": "1/1996",
+      "end": "5/1998",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "US WEST",
+      "start": "9/1987",
+      "end": "1/1996",
+      "current": false
+    },
+    {
+      "title": "Director  - Engineering and Operations",
+      "company": "LDDS - Starnet",
+      "start": "5/1982",
+      "end": "9/1987",
+      "current": false
+    },
+    {
+      "title": "Staff Engineer",
+      "company": "U S Department of Energy",
+      "start": "2/1978",
+      "end": "5/1982",
+      "current": false
+    }
+  ]
 }

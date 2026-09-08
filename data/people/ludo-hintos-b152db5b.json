@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP, Infrastructure Planning and Development",
+      "company": "Corscale Data Centers",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager - Electric Distribution and Substation Grid Planning",
+      "company": "Dominion",
+      "start": "2020",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Manager - Electric Distribution Design and Project Management",
+      "company": "Dominion",
+      "start": "2017",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Shift Manager - Regional Operations Center, NW",
+      "company": "Dominion",
+      "start": "2015",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Supervisor - Regional Operations Center, NW",
+      "company": "Dominion",
+      "start": "2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Supervisor - Electric Distribution Design",
+      "company": "Dominion",
+      "start": "2012",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Engineer I/II - Electric Distribution Design and Reliability",
+      "company": "Dominion",
+      "start": "2008",
+      "end": "2012",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Hyperscale Sales - North America",
+      "company": "Vantage",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Client Executive - Global Strategic Alliances",
+      "company": "Equinix",
+      "start": "2/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Business Development",
+      "company": "Cologix",
+      "start": "3/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Director, SDN/NFV Partner Sales",
+      "company": "Netcracker",
+      "start": "12/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Alliances Sales Manager",
+      "company": "Ciena",
+      "start": "1/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Strategic Alliances",
+      "company": "Global Crossing",
+      "start": "1/2004",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Channel Manager",
+      "company": "Adobe",
+      "start": "1/2001",
+      "end": "1/2004",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "DCM Indutries",
+      "start": "1/1996",
+      "end": "12/2001",
+      "current": false
+    }
+  ]
 }

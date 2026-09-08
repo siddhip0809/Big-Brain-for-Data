@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Area Cost Lead",
+      "company": "Google",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Management Metro Lead - Data Center Construction",
+      "company": "Microsoft",
+      "start": "1/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Management Campus Lead - Data Center Construction",
+      "company": "Linesight",
+      "start": "12/2022",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Program Cost Manager (Capital Planning)",
+      "company": "Linesight",
+      "start": "5/2018",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Linesight",
+      "start": "10/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Ballymore",
+      "start": "1/2013",
+      "end": "10/2016",
+      "current": false
+    }
+  ]
 }

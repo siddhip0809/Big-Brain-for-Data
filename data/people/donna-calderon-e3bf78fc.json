@@ -28,5 +28,45 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Strategy",
+      "company": "Google",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "sPower",
+      "start": "3/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "company": "Renewable Energy Systems Americas",
+      "start": "7/2014",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy Manager",
+      "company": "Liberty Power",
+      "start": "9/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Energy Market Analyst",
+      "company": "Liberty Power",
+      "start": "7/2009",
+      "end": "10/2012",
+      "current": false
+    }
+  ]
 }

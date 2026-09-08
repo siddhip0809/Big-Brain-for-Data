@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "Swinerton",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "MarketOne Builders",
+      "start": "8/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "XL Construction",
+      "start": "8/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Layton Construction",
+      "start": "7/2019",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Account Manager",
+      "company": "Build Group",
+      "start": "8/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Vanir CM",
+      "start": "1/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "DPR Construction",
+      "start": "10/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "10/2011",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "ConXtech",
+      "start": "7/2010",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "ConXtech",
+      "start": "8/2008",
+      "end": "7/2010",
+      "current": false
+    }
+  ]
 }

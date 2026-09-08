@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Senior Client Executive",
+      "company": "Equinix",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Equinix",
+      "start": "2/2021",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Lumen Technologies",
+      "start": "7/2014",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Global Crossing",
+      "start": "9/2007",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "PacketExchange",
+      "start": "3/2007",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "ESSI",
+      "start": "3/1998",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "City of Seattle",
+      "start": "5/1993",
+      "end": "3/1998",
+      "current": false
+    }
+  ]
 }

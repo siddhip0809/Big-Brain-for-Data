@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Energy, Leasing and Land",
+      "company": "Anthropic",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Development Officer (CDO)",
+      "company": "STACK Infrastructure",
+      "start": "10/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President Strategy and Development",
+      "company": "STACK Infrastructure",
+      "start": "3/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Vice President Strategy and Development",
+      "company": "STACK Infrastructure",
+      "start": "5/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Board Member",
+      "company": "Data Center Coalition",
+      "start": "6/2020",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Director of Strategy and Development",
+      "company": "STACK Infrastructure",
+      "start": "12/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Principal Consultant and CEO",
+      "company": "Jessico Industries",
+      "start": "4/2017",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Site Selection Manager",
+      "company": "Meta",
+      "start": "3/2014",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Technical Program Manager",
+      "company": "Meta",
+      "start": "2/2011",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Site Operations Engineer",
+      "company": "Meta",
+      "start": "11/2008",
+      "end": "2/2011",
+      "current": false
+    }
+  ]
 }

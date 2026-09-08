@@ -39,5 +39,99 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "colt-data-centre-services"
+  "current_company_id": "colt-data-centre-services",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Director EMEA",
+      "company": "Colt Data Centre Services",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Senior Programme Manager"
+    },
+    {
+      "title": "Country Head of Project Management & Construction - France",
+      "company": "Colt Data Centre Services",
+      "start": "7/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Colt Data Centre Services",
+      "start": "6/2018",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Global Switch",
+      "start": "9/2015",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Arcadis",
+      "start": "11/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "French Education Property Trust",
+      "start": "4/2013",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Supervisor",
+      "company": "Lycée Français Charles de Gaulle de Londres",
+      "start": "9/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "CEA London",
+      "start": "11/2011",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "E2CA Ingénierie",
+      "start": "7/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "SPIE Batignolles",
+      "start": "6/2009",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer",
+      "company": "Fluid Structures",
+      "start": "6/2008",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "CARI Sobatra",
+      "start": "2/2007",
+      "end": "4/2007",
+      "current": false
+    }
+  ]
 }

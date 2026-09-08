@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Director - Data Centres",
+      "company": "Redcentric Data Centres",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Sales Director",
+      "company": "Nimble Approach",
+      "start": "8/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Business Development Director",
+      "company": "SCC",
+      "start": "12/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Sales Strategy and Business Development Manager",
+      "company": "ExcelRedstone",
+      "start": "7/2021",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "ExcelRedstone",
+      "start": "9/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Redstone",
+      "start": "10/2011",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Cogent Communications",
+      "start": "1/2011",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Account Manager",
+      "company": "Cogent Communications",
+      "start": "10/2010",
+      "end": "1/2011",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Excell Group",
+      "start": "5/2008",
+      "end": "10/2010",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Alternative Networks",
+      "start": "6/2005",
+      "end": "4/2008",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Rawnet Limited",
+      "start": "1/2004",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Internal Sales",
+      "company": "Dimension Data UKI",
+      "start": "2002",
+      "end": "2004",
+      "current": false
+    }
+  ]
 }

@@ -50,5 +50,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "cyrusone"
+  "current_company_id": "cyrusone",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Business Development Europe",
+      "company": "CyrusOne",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "DATA4",
+      "start": "2/2015",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "1/2011",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Global Switch",
+      "start": "1/2002",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Global Crossing",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Atlas Telecom",
+      "start": "1/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Client Services Manager",
+      "company": "Verizon",
+      "start": "1/1997",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "title": "Major Account Executive",
+      "company": "Frontier Communications",
+      "start": "1/1994",
+      "end": "12/1996",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "SC&A Communication",
+      "start": "1/1989",
+      "end": "12/1994",
+      "current": false
+    }
+  ]
 }

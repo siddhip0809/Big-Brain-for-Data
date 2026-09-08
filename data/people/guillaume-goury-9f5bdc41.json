@@ -39,5 +39,124 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "data4"
+  "current_company_id": "data4",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Strategic Accounts Group",
+      "company": "DATA4",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Technical Account Manager for the Biggest Customer",
+      "company": "DATA4",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Président",
+      "company": "Incubateur Belle de Mai",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Engagement Director chez LTIMindtree pour CMA-CGM",
+      "company": "LTIMindtree",
+      "start": "8/2022",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Administrateur chez Medinsoft pour le CIP",
+      "company": "Medinsoft",
+      "start": "3/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Ambassadeur",
+      "company": "Club -M- Ambassadeurs",
+      "start": "12/2019",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Program & Service Delivery Manager - Strategic Accounts",
+      "company": "Digital Realty",
+      "start": "8/2019",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Account Subject Matter Expert",
+      "company": "IBM",
+      "start": "4/2016",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Gérant et Consultant",
+      "company": "Procomputer",
+      "start": "12/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Responsable d'Exploitation IT (Consultant)",
+      "company": "MCE-5 DEVELOPMENT",
+      "start": "12/2013",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Vice-président et trésorier. Anciennement Président",
+      "company": "CIP - Club Informatique Provence Méditerranée",
+      "start": "1/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President",
+      "company": "ASSOCIATION DIABETE ET PLONGEE",
+      "start": "6/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Président et DSI",
+      "company": "One Day in Provence",
+      "start": "11/2011",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "➢\tDSI et DAF précédemment RSI des filliales de la HOLDING SARL du Levant.",
+      "company": "AQUAREV / SEA TANKERS / SARL DU LEVANT",
+      "start": "2/2003",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Responsable informatique au siège et avant vente chez OMNIBURO (Partenaire CANON, 15 personnes, CA 5",
+      "company": "OMNIBURO",
+      "start": "11/2001",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Administrateur réseau France, en Alternance puis embauche en CDI, chez Rockwood Electronics Material",
+      "company": "KMG ULTRA PURE CHEMICALS SAS",
+      "start": "8/2000",
+      "end": "11/2001",
+      "current": false
+    }
+  ]
 }

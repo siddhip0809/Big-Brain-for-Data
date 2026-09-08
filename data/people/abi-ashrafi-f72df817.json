@@ -39,5 +39,19 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "meta"
+  "current_company_id": "meta",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Area Project Controls Lead — AI Infrastructure",
+      "company": "Meta",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

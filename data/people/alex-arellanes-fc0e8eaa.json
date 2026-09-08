@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": "aligned-data-centers"
+  "current_company_id": "aligned-data-centers",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Electrical Cost Manager",
+      "company": "Aligned Data Centers",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager - Electrical",
+      "company": "Cumming Corporation International",
+      "start": "5/2019",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Sr Estimator / Project Manager",
+      "company": "DP Electric",
+      "start": "1/2017",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "SR ESTIMATOR / PM",
+      "company": "Hawkeye Electric",
+      "start": "10/2008",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "ESTIMATOR",
+      "company": "(IES) HATFIELD - REYNOLDS ELECTRIC",
+      "start": "10/1999",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "ESTIMATOR - PROJECT MANAGER - FIELD",
+      "company": "Kimbrell Electric",
+      "start": "3/1997",
+      "end": "10/1999",
+      "current": false
+    },
+    {
+      "title": "FIELD - JR ESTIMATOR",
+      "company": "Commonwealth Electric Company of the Midwest",
+      "start": "10/1994",
+      "end": "3/1997",
+      "current": false
+    }
+  ]
 }

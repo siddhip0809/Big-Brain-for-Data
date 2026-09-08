@@ -28,5 +28,47 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "EVP-Construction & Development",
+      "company": "fifteenfortyseven Critical Systems Realty (1547)",
+      "start": "8/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Design & Construction",
+      "company": "fifteenfortyseven Critical Systems Realty (1547)",
+      "start": "10/2016",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Digital Realty",
+      "start": "2/2010",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager & Account Executive",
+      "company": "Unity International Group",
+      "start": "8/1998",
+      "end": "2/2010",
+      "current": false
+    },
+    {
+      "title": "APP/JW/FOREMAN",
+      "company": "IBEW Local #358/456",
+      "start": "8/1990",
+      "end": "9/1998",
+      "current": false
+    }
+  ]
 }

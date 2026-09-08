@@ -28,5 +28,67 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Head of Site Selection, EMEA",
+      "company": "Iron Mountian",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EMEA Vice President, DC Site Acquisition & Development",
+      "company": "STACK Infrastructure",
+      "start": "7/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Data Center Delivery Leader, Europe",
+      "company": "AWS",
+      "start": "5/2020",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Operations Transformation, Connected Assets, Capital Projects & Infrastructure",
+      "company": "PwC",
+      "start": "4/2013",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Workforce Manager",
+      "company": "Capgemini",
+      "start": "5/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Workforce Advisory",
+      "company": "S&H Consulting Limited",
+      "start": "6/2010",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Electrical Design Engineer & Project Manager",
+      "company": "Mott MacDonald",
+      "start": "6/2006",
+      "end": "10/2009",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer",
+      "company": "DJA Electrical Contractors",
+      "start": "6/2003",
+      "end": "6/2006",
+      "current": false
+    }
+  ]
 }

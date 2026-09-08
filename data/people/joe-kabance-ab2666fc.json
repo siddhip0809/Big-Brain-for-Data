@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Swinerton",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Swinerton",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Superintendent",
+      "company": "Willdan Performance Engineering",
+      "start": "6/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "E&K Companies",
+      "start": "6/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Estimator & Project Engineer",
+      "company": "KAI Design & Build",
+      "start": "6/2017",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "BEX Construction Services",
+      "start": "2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Shade Your World",
+      "start": "2013",
+      "end": "2016",
+      "current": false
+    }
+  ]
 }

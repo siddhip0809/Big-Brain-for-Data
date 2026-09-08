@@ -50,5 +50,68 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "vantage"
+  "current_company_id": "vantage",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Emea Real Estate Strategy And Site Acquisitions",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Vantage",
+      "start": "1/2021",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Head Of Real Estate (Interim)",
+      "company": "Virgin Media",
+      "start": "3/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Real Estate Consultant",
+      "company": "Ballard Real Estate",
+      "start": "11/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Director Uk Real Estate (Interim)",
+      "company": "Dentsu",
+      "start": "1/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Cushman & Wakefield",
+      "start": "9/2007",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Associate Director, Global Corporate Services",
+      "company": "CB Richard Ellis",
+      "start": "6/1997",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Property Manager",
+      "company": "Workman",
+      "start": "9/1993",
+      "end": "6/1997",
+      "current": false
+    }
+  ]
 }

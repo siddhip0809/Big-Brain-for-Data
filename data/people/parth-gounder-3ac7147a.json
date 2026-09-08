@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Founding Head of Estimating and Procurement",
+      "company": "MeltPlan",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr Preconstruction Manager & Innovation Core Group Leader",
+      "company": "DPR Construction",
+      "start": "9/2018",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "DPR Construction",
+      "start": "8/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator/Preconstruction",
+      "company": "Clark Construction Group",
+      "start": "11/2015",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "David Boland",
+      "start": "6/2012",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Megen Construction Company",
+      "start": "10/2003",
+      "end": "6/2012",
+      "current": false
+    }
+  ]
 }

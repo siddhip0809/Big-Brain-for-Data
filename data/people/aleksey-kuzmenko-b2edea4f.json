@@ -39,5 +39,47 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Manager",
+      "company": "ATG",
+      "start": "4/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Estimating Engineer",
+      "company": "JE Dunn Construction",
+      "start": "5/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "Advanced Technology Group",
+      "start": "9/2011",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer / Estimator",
+      "company": "Charter Construction",
+      "start": "9/2006",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Carpentry / PE apprenticeship",
+      "company": "Cook Construction",
+      "start": "9/2005",
+      "end": "9/2006",
+      "current": false
+    }
+  ]
 }

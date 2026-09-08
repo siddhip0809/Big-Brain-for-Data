@@ -28,5 +28,108 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP Emerging Technologies",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "SVP, Strategy",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "3/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "SVP, Revenue and Client Growth",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "8/2019",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "VP, Strategy and Strategic Accounts",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "VP, Strategy and Strategic Accounts",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "VP, Strategic Accounts",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "9/2018",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "VP, Strategic Accounts",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "9/2018",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Data Center Real Estate",
+      "company": "Amazon",
+      "start": "1/2014",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Cassidy Turley",
+      "start": "9/2012",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Regional Leasing Director",
+      "company": "LeFrak Organization",
+      "start": "3/2011",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "CoreSite",
+      "start": "5/2007",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "DCC-SAS",
+      "start": "6/2006",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Tishman Real Estate Services",
+      "start": "7/2004",
+      "end": "4/2007",
+      "current": false
+    },
+    {
+      "title": "SVP, Emerging Technologies",
+      "company": "EdgeCore Digital Infrastructure",
+      "current": false
+    }
+  ]
 }

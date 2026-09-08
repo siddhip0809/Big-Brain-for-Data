@@ -28,5 +28,96 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of AI GigaScale Data Center Delivery ",
+      "company": "Oracle",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of AI GigaScale Construction Management",
+      "company": "Oracle",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Head of Data Center Development - Air-Gapped Construction & Integration Management",
+      "company": "Microsoft",
+      "start": "10/2024",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Director, Data Center Development - Air-gapped Construction & Integration Management",
+      "company": "Microsoft",
+      "start": "12/2021",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Data Center Integration and Technical Infrastructure - U.S. East & LATAM",
+      "company": "Microsoft",
+      "start": "9/2020",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Regional Data Center Integration & Technical Infrastructure Team Leader - U.S. East Region",
+      "company": "Microsoft",
+      "start": "12/2017",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Regional Data Center Integration Manager - U.S. Midwest",
+      "company": "Microsoft",
+      "start": "8/2017",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Data Center Integration Manager - U.S. Midwest",
+      "company": "Microsoft",
+      "start": "12/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Business Operations Manager",
+      "company": "Honeywell",
+      "start": "1/2011",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Build Project Manager",
+      "company": "Honeywell",
+      "start": "1/2011",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Progressive Electronics",
+      "start": "1/2006",
+      "end": "1/2011",
+      "current": false
+    },
+    {
+      "title": "Journeyman Wireman",
+      "company": "International Brotherhood of Electrical Workers",
+      "start": "1/1998",
+      "end": "1/2006",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,72 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Land Acquisition",
+      "company": "Microsoft",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Valuation Surveyor",
+      "company": "CB Richard Ellis",
+      "start": "7/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Valuation Surveyor",
+      "company": "JLL",
+      "start": "3/2022",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Junior Valuation Surveyor",
+      "company": "JLL",
+      "start": "10/2020",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Real Estate Valuer",
+      "company": "JLL",
+      "start": "10/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Valuations Intern",
+      "company": "JLL",
+      "start": "7/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Retail Valuations Intern",
+      "company": "CB Richard Ellis",
+      "start": "7/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "raw": "CB Richard Ellis"
+    },
+    {
+      "raw": "S Sahoo & Co"
+    },
+    {
+      "raw": "Microsoft"
+    },
+    {
+      "raw": "JLL"
+    }
+  ]
 }

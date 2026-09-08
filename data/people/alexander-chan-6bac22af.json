@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Client Executive",
+      "company": "Digital Realty",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Sr. Account Executive",
+      "company": "Digital Realty",
+      "start": "1/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Enterprise Account Executive",
+      "company": "Digital Realty",
+      "start": "12/2017",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "CoreSite",
+      "start": "2/2015",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "CoreSite",
+      "start": "5/2012",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Account Development",
+      "company": "CoreSite",
+      "start": "2/2012",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "California First Leasing",
+      "start": "1/2011",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Financial Advisor",
+      "company": "ING Strategic Distribution",
+      "start": "8/2010",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Customer Service and Sales Representative",
+      "company": "Wells Fargo",
+      "start": "2/2008",
+      "end": "11/2010",
+      "current": false
+    }
+  ]
 }

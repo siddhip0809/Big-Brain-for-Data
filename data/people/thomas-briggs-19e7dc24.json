@@ -28,5 +28,68 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Development, EMEA",
+      "company": "CloudHQ",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Development & Construction",
+      "company": "CloudHQ",
+      "start": "8/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Associate, Development & Construction",
+      "company": "CloudHQ",
+      "start": "2/2022",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Principal Engineer",
+      "company": "Black & White Engineering",
+      "start": "3/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Mechanical Engineer",
+      "company": "Black & White Engineering",
+      "start": "2/2020",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "Black & White Engineering",
+      "start": "7/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Graduate Mechanical Engineer",
+      "company": "Black & White Engineering",
+      "start": "8/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Summer Placement - Building Physics",
+      "company": "Red Engineering",
+      "start": "7/2015",
+      "end": "9/2015",
+      "current": false
+    }
+  ]
 }

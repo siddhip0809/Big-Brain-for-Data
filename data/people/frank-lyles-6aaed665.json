@@ -28,5 +28,32 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Chief Business Officer",
+      "company": "T5 Data Centers",
+      "start": "3/2008",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "The Staubach Company",
+      "start": "1/1991",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "Associate Broker",
+      "company": "The Signet Corporation",
+      "start": "10/1986",
+      "end": "10/1990",
+      "current": false
+    }
+  ]
 }

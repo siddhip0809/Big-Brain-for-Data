@@ -28,5 +28,121 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Hard Hats with Heart Committee",
+      "company": "American Heart Association",
+      "current": false
+    },
+    {
+      "company": "American Stroke Association",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Executive",
+      "company": "Turner Construction",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Committee Member - Inclusion Action Committee (IAC)",
+      "company": "Turner Construction",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Board Of Directors",
+      "company": "ABC Greater Baltimore",
+      "start": "1/2021",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "Turner Construction",
+      "start": "3/2018",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Procurement Manager",
+      "company": "Turner Construction",
+      "start": "5/2012",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "Turner Construction",
+      "start": "6/2011",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "Turner Construction",
+      "start": "11/2009",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "3/2005",
+      "end": "11/2009",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Turner Construction",
+      "start": "9/2004",
+      "end": "3/2005",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Dulles Airport - West Automated People Mover Tunnel ($78M)",
+      "company": "Clark Construction Group",
+      "start": "6/2004",
+      "end": "9/2004",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - WMATA – Largo Town Center & Morgan Blvd. Metro Stations & Parking Garages ($96M)",
+      "company": "Clark Construction Group",
+      "start": "7/2002",
+      "end": "6/2004",
+      "current": false
+    },
+    {
+      "title": "Scheduling Engineer",
+      "company": "Clark Construction Group",
+      "start": "7/2000",
+      "end": "6/2002",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Kiewit",
+      "start": "8/1999",
+      "end": "6/2000",
+      "current": false
+    },
+    {
+      "title": "Taiwanese Military Police",
+      "company": "Taiwanese Army",
+      "start": "9/1996",
+      "end": "8/1998",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,63 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Construction Cost Estimator",
+      "company": "Google",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Cost Control Analyst"
+    },
+    {
+      "title": "Construction Cost & Data Center Projects",
+      "company": "QTS Data Centers",
+      "start": "1/2026",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "raw": "Construction Cost Estimator / Cost Engineer"
+    },
+    {
+      "title": "Semiconductor Projects",
+      "company": "Intel",
+      "start": "3/2023",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "raw": "Construction Cost Estimator"
+    },
+    {
+      "title": "I&C, Electrical, Semiconductor Projects",
+      "company": "Cumming",
+      "start": "9/2021",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator l Executive Assistant",
+      "company": "Devereux",
+      "start": "1/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Store Manager",
+      "company": "Natural Grocers by Vitamin Cottage",
+      "start": "1/2012",
+      "end": "1/2019",
+      "current": false
+    }
+  ]
 }

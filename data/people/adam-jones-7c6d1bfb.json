@@ -39,5 +39,53 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Sr Director, Regional Sales Lead EMEA",
+      "company": "Digital Realty",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Sales EMEA",
+      "company": "Fraction",
+      "start": "9/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "9/2011",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Data Centre Business Development",
+      "company": "Node4",
+      "start": "12/2010",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "PacketExchange",
+      "start": "11/2004",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Partner Develpoment Manager",
+      "company": "Fujitsu Siemens",
+      "start": "11/2003",
+      "end": "11/2004",
+      "current": false
+    }
+  ]
 }

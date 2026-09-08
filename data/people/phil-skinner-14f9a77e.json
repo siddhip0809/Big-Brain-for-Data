@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President - Data Center Construction",
+      "company": "Related Digital",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President - Data Center Construction",
+      "company": "STACK Infrastructure",
+      "start": "4/2024",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Vice President - Data Center Design & Construction",
+      "company": "CoreSite",
+      "start": "8/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Director - Data Center Construction Operations",
+      "company": "CoreSite",
+      "start": "3/2021",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager - Data Center Design & Construction",
+      "company": "CoreSite",
+      "start": "9/2018",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "National Project Manager - Data Center Design & Construction",
+      "company": "Flexential",
+      "start": "7/2015",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Project Manager",
+      "company": "Engineered Structures",
+      "start": "5/2014",
+      "end": "7/2015",
+      "current": false
+    }
+  ]
 }

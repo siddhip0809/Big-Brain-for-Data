@@ -39,5 +39,75 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "McCownGordon Construction",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Mortenson",
+      "start": "8/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator III",
+      "company": "Mortenson",
+      "start": "3/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Estimator II",
+      "company": "Mortenson",
+      "start": "7/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer II",
+      "company": "Mortenson",
+      "start": "3/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer I",
+      "company": "Mortenson",
+      "start": "6/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Field Engineer",
+      "company": "Whiting-Turner Contracting",
+      "start": "10/2014",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Kiewit",
+      "start": "5/2013",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "Rockhill Electric and Technology",
+      "start": "5/2012",
+      "end": "4/2013",
+      "current": false
+    }
+  ]
 }

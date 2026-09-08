@@ -28,5 +28,74 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Data Centers",
+      "company": "Google",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Americas Design & Construction",
+      "company": "Yondr",
+      "start": "10/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "GI Partners",
+      "start": "7/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Director, Development",
+      "company": "CyrusOne",
+      "start": "1/2022",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director, Design & Construction",
+      "company": "CyrusOne",
+      "start": "9/2019",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Sr. Data Center Construction Manager",
+      "company": "CyrusOne",
+      "start": "10/2018",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Critical Project Services",
+      "start": "7/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Critical Project Services",
+      "start": "4/2014",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Project Architect",
+      "company": "Jacobs",
+      "start": "1/2010",
+      "end": "4/2014",
+      "current": false
+    }
+  ]
 }

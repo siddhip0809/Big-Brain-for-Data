@@ -39,5 +39,82 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Predevelopment",
+      "company": "QTS Data Centers",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Senior Director - Commercial Investment & Asset Strategy",
+      "company": "Colt Data Centre Services",
+      "start": "9/2025",
+      "end": "8/2026",
+      "current": false
+    },
+    {
+      "title": "Head of Development Europe",
+      "company": "Cromwell Property Group",
+      "start": "9/2021",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Visiting Lecturer",
+      "company": "ESCP Business School",
+      "start": "11/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Real Estate and Construction",
+      "company": "Logista",
+      "start": "4/2018",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Real Estate Asset and Transaction Manager",
+      "company": "Amazon",
+      "start": "9/2016",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Co-Founder / Investor",
+      "company": "SHX Ret Invest SL",
+      "start": "1/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Co-Managing Partner",
+      "company": "Xpacio - Design & Development",
+      "start": "1/2013",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Expansion Manager",
+      "company": "Aldi",
+      "start": "5/2005",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Architect",
+      "company": "Various Companies",
+      "start": "1/1997",
+      "end": "12/2005",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director of Development",
+      "company": "Rowan Digital Infrastructure",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Development",
+      "company": "Rowan Digital Infrastructure",
+      "start": "1/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Director of Development",
+      "company": "The X Company",
+      "start": "9/2020",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Development Lead",
+      "company": "The X Company",
+      "start": "1/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Development Associate",
+      "company": "The X Company",
+      "start": "10/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Springbank Real Estate Group",
+      "start": "11/2015",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Finance and IT Systems Analyst",
+      "company": "Charles Hall Construction",
+      "start": "1/2015",
+      "end": "10/2015",
+      "current": false
+    }
+  ]
 }

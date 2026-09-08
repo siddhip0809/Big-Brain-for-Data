@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial Sales and Marketing Director",
+      "company": "Ark Data Centres",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Commercial Sector Sales",
+      "company": "Ark Data Centres",
+      "start": "5/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Ark Data Centres",
+      "start": "7/2015",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Client Partner",
+      "company": "Infinity Sdc",
+      "start": "4/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "EMEA Sales Manager",
+      "company": "Source Managed Services",
+      "start": "3/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "LAN3",
+      "start": "1/2013",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "LAN3",
+      "start": "9/2009",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Plan22",
+      "start": "9/2005",
+      "end": "7/2009",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "SyndeSys",
+      "start": "3/2002",
+      "end": "9/2005",
+      "current": false
+    }
+  ]
 }

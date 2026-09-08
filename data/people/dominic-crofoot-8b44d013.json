@@ -28,5 +28,82 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Southway Builders",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Operations",
+      "company": "Cultured Construction",
+      "start": "5/2024",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "HITT Contracting",
+      "start": "7/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Commonwealth Construction Management",
+      "start": "12/2022",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Director Of Estimating",
+      "company": "Mid Atlantic Construction Group",
+      "start": "1/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Estimator/Project Manager",
+      "company": "Mid Atlantic Construction Group",
+      "start": "10/2017",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Estimator",
+      "company": "Lifecycle Construction Services",
+      "start": "12/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Estimator",
+      "company": "Full Service Glass",
+      "start": "2/2015",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Estimator/Project Manager",
+      "company": "Lifecycle Construction Services",
+      "start": "3/2011",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Estimator/Project Manager",
+      "company": "Rappahannock Construction Services",
+      "start": "5/2004",
+      "end": "2/2011",
+      "current": false
+    }
+  ]
 }

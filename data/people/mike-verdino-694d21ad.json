@@ -28,5 +28,61 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Rosendin Electric",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Dynalectric",
+      "start": "1/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Power Design",
+      "start": "7/2016",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Belway Electrical Contracting",
+      "start": "9/2012",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Corporate Electric Group",
+      "start": "10/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Belway Electrical Contracting",
+      "start": "10/2005",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Draftsman / Project Coordinator",
+      "company": "Belway Electrical Contracting",
+      "start": "1/2003",
+      "end": "9/2005",
+      "current": false
+    }
+  ]
 }

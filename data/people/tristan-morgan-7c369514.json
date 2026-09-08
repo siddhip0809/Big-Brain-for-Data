@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Design & Construction",
+      "company": "Aligned Data Centers",
+      "start": "2/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AMER Commercial Lead",
+      "company": "Equinix",
+      "start": "7/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "5/2015",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Turner & Townsend",
+      "start": "4/2013",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "4/2010",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "9/2008",
+      "end": "3/2010",
+      "current": false
+    }
+  ]
 }

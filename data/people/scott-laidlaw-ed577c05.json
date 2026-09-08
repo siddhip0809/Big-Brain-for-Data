@@ -50,5 +50,19 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Sales",
-  "current_company_id": "colt-data-centre-services"
+  "current_company_id": "colt-data-centre-services",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Data Centre Specialist",
+      "company": "Colt Data Centre Services",
+      "start": "9/1999",
+      "end": "present",
+      "current": true
+    }
+  ]
 }

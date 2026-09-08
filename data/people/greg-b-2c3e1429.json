@@ -28,5 +28,75 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "PCL Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "4/2025",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "1/2021",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Fortis Construction",
+      "start": "7/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Engineer",
+      "company": "Fortis Construction",
+      "start": "1/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Howard S Wright a Balfour Beatty",
+      "start": "9/2012",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Webcor Builders",
+      "start": "7/2007",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "CH2M",
+      "start": "10/2004",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager / Field Engineer",
+      "company": "Skanska",
+      "start": "1/1999",
+      "end": "7/2004",
+      "current": false
+    }
+  ]
 }

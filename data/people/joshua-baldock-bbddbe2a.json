@@ -39,5 +39,61 @@
   ],
   "last_updated": "2026-09-05",
   "department": "Pre-Construction",
-  "current_company_id": null
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Manager",
+      "company": "Soben",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Soben",
+      "start": "7/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Mace",
+      "start": "5/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Skanska",
+      "start": "1/2022",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Graduate Quantity Surveyor",
+      "company": "Skanska",
+      "start": "9/2019",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Prefabricados Pujol",
+      "start": "7/2018",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator / Sales Assistant",
+      "company": "Prefabricados Pujol",
+      "start": "7/2017",
+      "end": "7/2018",
+      "current": false
+    }
+  ]
 }

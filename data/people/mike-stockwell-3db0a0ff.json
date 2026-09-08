@@ -28,5 +28,53 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Land Development and Permitting Program Manager",
+      "company": "Microsoft",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Entitlements Manager",
+      "company": "Lennar",
+      "start": "5/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Land Development Manager",
+      "company": "NVR",
+      "start": "9/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Real Estate Agent",
+      "company": "Keller Williams Realty",
+      "start": "4/2019",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Civil/Construction Engineer",
+      "company": "Greeley and Hansen",
+      "start": "3/2017",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "Mackie Consultants",
+      "start": "1/2013",
+      "end": "3/2017",
+      "current": false
+    }
+  ]
 }

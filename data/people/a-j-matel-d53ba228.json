@@ -28,5 +28,33 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President North America Sales",
+      "company": "Serverfarm",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Vice President Sales",
+      "company": "vXchnge",
+      "start": "3/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Sales/Support VP - Colocation",
+      "company": "CenturyLink",
+      "start": "1/2002",
+      "end": "3/2017",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,54 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Development",
+      "company": "QTS Data Centers",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "6/2025",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Sr Project Manager",
+      "company": "Himes Associates",
+      "start": "1/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Critical Project Services",
+      "start": "2/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer",
+      "company": "AWS",
+      "start": "6/2013",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Field Services Engineer",
+      "company": "Alban CAT",
+      "start": "5/2004",
+      "end": "6/2013",
+      "current": false
+    }
+  ]
 }

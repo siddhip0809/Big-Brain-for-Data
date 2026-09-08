@@ -39,5 +39,67 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Managing Director UK",
+      "company": "nLighten",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP, Sales",
+      "company": "nLighten",
+      "start": "10/2023",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director of UK Sales",
+      "company": "nLighten",
+      "start": "10/2023",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Director, Sales",
+      "company": "Equinix",
+      "start": "3/2020",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Head of Banking & Financial Markets (UK)",
+      "company": "Equinix",
+      "start": "7/2014",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Account Director",
+      "company": "Equinix",
+      "start": "8/2010",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Account Director",
+      "company": "Colt Data Centre Services",
+      "start": "9/2008",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "FiberNet",
+      "start": "1/1995",
+      "end": "12/2000",
+      "current": false
+    }
+  ]
 }

@@ -28,5 +28,46 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Global Infrastructure",
+      "company": "Google",
+      "start": "8/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "SolarReserve",
+      "start": "9/2009",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Associate - Acquisitions",
+      "company": "Karlin Real Estate",
+      "start": "10/2008",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Bond Companies",
+      "start": "6/2007",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice-President",
+      "company": "UBS Wealth Management",
+      "start": "7/2002",
+      "end": "7/2006",
+      "current": false
+    }
+  ]
 }

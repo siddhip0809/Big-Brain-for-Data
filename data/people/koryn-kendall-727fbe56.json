@@ -28,5 +28,60 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Sr. Manager, America's Data Center Planning Lead",
+      "company": "Google",
+      "start": "8/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead, Global Infrastructure",
+      "company": "Google",
+      "start": "8/2016",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Manager, Project Development",
+      "company": "First Solar",
+      "start": "1/2014",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Manager, Real Estate",
+      "company": "First Solar",
+      "start": "3/2009",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Corporate Recruiter",
+      "company": "OptiSolar",
+      "start": "6/2008",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Human Resources Intern",
+      "company": "The Field Museum",
+      "start": "6/2007",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Recruiting Assistant",
+      "company": "The University of Chicago",
+      "start": "11/2004",
+      "end": "6/2008",
+      "current": false
+    }
+  ]
 }

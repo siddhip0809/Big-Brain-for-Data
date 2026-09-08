@@ -39,5 +39,117 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-05",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Real Estate Transaction Manager",
+      "company": "NTT",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "KanAm Grund Group",
+      "start": "5/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Investment Management Europe",
+      "company": "KanAm Grund Kapitalverwaltungsgesellschaft mbH",
+      "start": "2023",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Head Of Investment UK & Ireland",
+      "company": "Deka Investment",
+      "start": "4/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of UK & Ireland",
+      "company": "Deka Immobilien Investment",
+      "start": "2020",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Senior Investment Manager - UK & Ireland",
+      "company": "Deka Investment",
+      "start": "11/2014",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Investment Manager - UK, Irland",
+      "company": "ehem Deka Immobilien",
+      "start": "2014",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Investment Manager - Americas",
+      "company": "Deka Investment",
+      "start": "6/2013",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Investment Manager - Americas",
+      "company": "Deka Immobilien",
+      "start": "2013",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Analyst - Americas",
+      "company": "Deka Immobilien",
+      "start": "2012",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Deka Investment",
+      "start": "5/2010",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Deka Immobilien",
+      "start": "2010",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Technical support",
+      "company": "IT Department",
+      "start": "2009",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "IT Specialist",
+      "company": "WAN-IFRA",
+      "start": "5/2008",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Translator (German/English)",
+      "company": "Technische Universität",
+      "start": "2007",
+      "end": "2008",
+      "current": false
+    }
+  ]
 }
