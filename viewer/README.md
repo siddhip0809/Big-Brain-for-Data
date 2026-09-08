@@ -133,7 +133,12 @@ legible via the sidebar legend.
   pure-play/"needs vetting" fade applies inside the core only — every
   adjacent company is non-pure-play by definition, so fading the whole
   zone would say nothing. The overview camera frames whichever zones are
-  switched on. Each company also carries a
+  switched on. The two zones are connected by three relationship types
+  (`contractor_for` sky blue, `supplies_power_to` red, `site_partner`
+  pink, see `docs/schema.md`); those edges carry **no layout spring**, so
+  the zones hold their shape and the line alone shows the link. Clicking
+  a core company whose partners sit in the hidden zone shows a hint with
+  a one-click "show it" that switches the zone on and re-focuses. Each company also carries a
   `parent_industry` (`pure_play`, `real_estate`, `energy_utilities`,
   `telecom`, `construction_engineering`, or `diversified_conglomerate`)
   saying whether data centers are its own dedicated business or one arm

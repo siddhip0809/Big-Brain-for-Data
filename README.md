@@ -103,7 +103,7 @@ Real data has started loading. Currently in the brain:
   wording to search on (rebuild with `scripts/build_title_index.py`).
   Email, phone, and compensation were deliberately left out of every
   record (kept in Clockwork only) — see `docs/schema.md`.
-- **2,906 relationships** connecting the above — candidacy links,
+- **3,048 relationships** connecting the above — candidacy links,
   employment links, investor backing (124 investors incl. Google and
   NVIDIA in their dual role as strategic investors), and, since
   2026-09-05, a **company-to-company deal layer** of 98 edges:
@@ -117,6 +117,22 @@ Real data has started loading. Currently in the brain:
     Aligned $40B, Equinix and Digital Realty country tuck-ins …)
   - `jv_partner` — Crusoe ↔ Lancium (Abilene), TeraWulf ↔ Fluidstack,
     Meta ↔ Blue Owl (Hyperion) and ↔ BlackRock (El Paso)
+  - **adjacent industry → data-center core** (2026-09-08, 141 edges from a
+    4-agent research round): `contractor_for` (75 — Holder → Google /
+    Microsoft / Meta, Turner and McCarthy → Vantage, HITT → QTS / Corscale
+    / Rowan, Walbridge → Related Digital's $16B Michigan Stargate site,
+    Yates and Haskell → AWS Mississippi, plus civil engineers like Bohler
+    → AWS Warrenton and Kimley-Horn → QTS Fayetteville),
+    `supplies_power_to` (61 — AES → Meta / Google / AWS / Microsoft, Talen
+    → AWS Susquehanna, Brookfield → Microsoft 10.5 GW, Ørsted, Avangrid,
+    Invenergy, Entergy-style utility agreements; ~36 GW where stated) and
+    `site_partner` (5 — Hillwood → Meta / T5, Affinius → Corscale, Seefried
+    → Edged). **Coverage caveat:** the researchers' web-search budget ran
+    out part-way, so roughly a third of the contractors and a fifth of the
+    energy companies were checked; the rest are unverified, not
+    confirmed-negative. Firms with a confirmed DC practice but confidential
+    clients (Suffolk, Clayco, Skanska, Hensel Phelps, Bowman, Dewberry,
+    Dominion's ~40 GW of unnamed contracts …) deliberately have no edge.
   Deals whose counterparty isn't a tracked node (Teraco, Stronghold,
   Whinstone, Anyscale, Groq …) are kept as dated "M&A:" notes on the
   acquirer's record — ~40 of them — so nothing from the research is lost.

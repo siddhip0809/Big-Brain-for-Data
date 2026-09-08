@@ -114,15 +114,18 @@ links = []
 for path in investor_files:
     d = load_json(path)
     valid = [c for c in (d.get("investments") or []) if c in node_ids]
+    # investor nodes live in their own id space ("investor:<id>") because six
+    # names are both a company and a strategic investor (Google, NVIDIA,
+    # Galaxy Digital, Actis, GI Partners, Generate Capital)
     nodes.append({
-        "id": d["id"], "name": d["name"], "kind": "investor", "category": "investor",
+        "id": f"investor:{d['id']}", "record_id": d["id"], "name": d["name"], "kind": "investor", "category": "investor",
         "roles": ["investor"], "investor_type": d.get("investor_type"), "hq": d.get("hq"),
         "aum": d.get("aum"), "investments": valid, "notable_deals": d.get("notable_deals"),
         "notes": d.get("notes"), "sources": d.get("sources", []),
     })
     for cid in valid:
         rel = backing_rel.get((d["id"], cid), {})
-        links.append({"source": d["id"], "target": cid, "type": "invested_in",
+        links.append({"source": f"investor:{d['id']}", "target": cid, "type": "invested_in",
                       "confidence": rel.get("confidence"), "style": line_style("invested_in", None, rel.get("confidence"))})
 
 # company<->company (and investor<->investor) deal edges live in
@@ -136,7 +139,9 @@ deal_edges = 0
 if True:
     for r in relationships:
         if r.get("type") not in DEAL_TYPES: continue
-        src_id = r["from"].split(":", 1)[-1]; dst_id = r["to"].split(":", 1)[-1]
+        # "company:x" -> node "x"; "investor:x" -> node "investor:x"
+        node_ref = lambda ref: ref.split(":", 1)[-1] if ref.startswith("company:") else ref
+        src_id, dst_id = node_ref(r["from"]), node_ref(r["to"])
         if src_id in all_ids and dst_id in all_ids:
             links.append({"source": src_id, "target": dst_id, "type": r["type"],
                           "detail": r.get("detail"), "status": r.get("status"),
