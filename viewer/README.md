@@ -176,6 +176,17 @@ control pair (top-left of the stage) steps back out. This replaces a
 static text card with a spatial, explorable "atomic diagram" of each
 node's neighborhood, per Siddhi's request.
 
+**Unconnected nodes.** 593 of the 865 default-view nodes have no line to
+anything else shown (companies from Siddhi's lists with no researched
+backer, tenant or deal yet). A three-way switch under the legend leaves
+them in place (**Show**), fades and shrinks them and drifts them to an
+outer shell around their zone (**Set apart**), or drops them from the
+graph and re-runs the layout on what is left (**Hide**). "Unconnected" is
+judged against the tiers currently switched on, so a core company whose
+only partner sits in the hidden adjacent zone counts as unconnected until
+that zone is shown; searching for a hidden node flips the switch back to
+Show so it can be focused.
+
 **People — the org chart (added 2026-09-08).** People are deliberately
 *not* drawn as nodes in the 3D view (that was what made the earlier full
 graph unreadable). Instead they come back through each company: the

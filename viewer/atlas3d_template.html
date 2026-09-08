@@ -339,6 +339,10 @@
     <div>
       <p class="field-label">Legend &middot; click to filter</p>
       <div id="legend"></div>
+      <p class="field-label" style="margin-top:14px">Unconnected nodes <span id="isoCount" class="lg-count"></span></p>
+      <div class="seg" id="isoMode" title="Nodes with no line to anything currently shown">
+        <button data-mode="show" class="on">Show</button><button data-mode="apart">Set apart</button><button data-mode="hide">Hide</button>
+      </div>
       <p class="field-label" style="margin-top:14px">Lines</p>
       <div id="edgeLegend" class="edge-legend"></div>
     </div>
@@ -362,6 +366,9 @@
       each one sits wherever its actual backing pulls it: close to a
       single portfolio company, or toward the middle if it backs a
       spread of them.<br><br>
+      <b>Unconnected nodes</b> (no line to anything shown) can be set apart
+      — faded and pushed to an outer shell around their zone — or hidden
+      altogether, from the switch under the legend.<br><br>
       Four <b>adjacent-industry</b> tiers — energy developers, general
       contractors, civil/land engineers, industrial &amp; cold-storage
       developers — are in the brain from Siddhi's own lists but start
@@ -538,6 +545,12 @@
   // default), so toggling a big tier on re-settles just what's visible
   let activeNodes = [], activeLinks = [], activeCoInvestPairs = [];
   function recomputeActive(){
+    GRAPH.nodes.forEach(n => { visDeg[n.id] = 0; });
+    GRAPH.links.forEach(l => {
+      if(l.sourceNode && l.targetNode && baseVisible(l.sourceNode) && baseVisible(l.targetNode)){ visDeg[l.source]++; visDeg[l.target]++; }
+    });
+    const isoCount = GRAPH.nodes.filter(n => baseVisible(n) && isIsolated(n)).length;
+    document.getElementById('isoCount').textContent = isoCount;
     activeNodes = GRAPH.nodes.filter(nodeVisible);
     const on = new Set(activeNodes.map(n => n.id));
     activeLinks = GRAPH.links.filter(l => l.sourceNode && l.targetNode && on.has(l.source) && on.has(l.target));
@@ -618,6 +631,16 @@
       n.vy += (a.y - n.py) * ANCHOR_K;
       n.vz += (a.z - n.pz) * ANCHOR_K;
     });
+    // "set apart": unconnected nodes drift to an outer shell around their zone
+    if(isoMode === 'apart'){
+      nodes.forEach(n => {
+        if(!isIsolated(n)) return;
+        const z = zoneOf(n), R = z.r * 2.4;
+        const dx = n.px - z.x, dy = n.py - z.y, dz = n.pz - z.z, d = Math.max(1, Math.hypot(dx, dy, dz));
+        const f = (R - d) * 0.02;
+        n.vx += (dx / d) * f; n.vy += (dy / d) * f; n.vz += (dz / d) * f;
+      });
+    }
     // very weak centering on the node's own zone
     nodes.forEach(n => {
       const z = zoneOf(n);
@@ -665,6 +688,14 @@
     updatePositionsOnly();
     settleFrames = 60;
     refitOverview(true);
+  }
+  document.getElementById('isoMode').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    setIsoMode(b.dataset.mode); applyFilters();
+  });
+  function setIsoMode(mode){
+    isoMode = mode;
+    [...document.getElementById('isoMode').children].forEach(x => x.classList.toggle('on', x.dataset.mode === mode));
   }
   const legendEl = document.getElementById('legend');
   const adjacentIds = CATS.filter(c => c.adjacent).map(c => c.id);
@@ -721,10 +752,15 @@
   `;
 
   // a company shows if ANY of its roles is switched on; investors have their own switch
-  function nodeVisible(n){
+  function baseVisible(n){
     if(n.kind === 'investor') return !!filters.investor;
     return (n.roles || [n.category]).some(r => filters[r]);
   }
+  // unconnected = no line to anything currently shown (recomputed on every filter change)
+  let isoMode = 'show';               // show | apart | hide
+  const visDeg = {};
+  const isIsolated = n => !visDeg[n.id];
+  function nodeVisible(n){ return baseVisible(n) && (isoMode !== 'hide' || !isIsolated(n)); }
 
   // ---------- three.js scene ----------
   const stage = document.getElementById('stage');
@@ -1089,9 +1125,10 @@
 
     GRAPH.nodes.forEach(n => {
       if(!nodeVisible(n)) return;
-      const r = radiusForNode(n);
+      const apart = isoMode === 'apart' && isIsolated(n);
+      const r = radiusForNode(n) * (apart ? 0.7 : 1);
       const c = colorForNode(n);
-      const op = nodeOpacity(n);
+      const op = nodeOpacity(n) * (apart ? 0.3 : 1);
       const multi = n.kind === 'company' && n.roles && n.roles.length > 1;
       const mat = multi
         ? new THREE.MeshBasicMaterial({ vertexColors: true, transparent: true, opacity: op })
@@ -1133,7 +1170,7 @@
     labelEls.clear();
     GRAPH.nodes.forEach(n => {
       if(!nodeVisible(n)) return;
-      const always = n.deg >= 2;
+      const always = visDeg[n.id] >= 2;
       const div = document.createElement('div');
       div.className = 'label3d';
       div.textContent = n.name;
@@ -1514,6 +1551,7 @@
         if(!needed.some(r => filters[r])){ needed.forEach(r => { filters[r] = true; }); switchedOn = true; }
         syncLegend();
         recomputeActive();
+        if(!nodeVisible(target)){ setIsoMode('show'); recomputeActive(); switchedOn = true; } // it was hidden as unconnected
         // settle the newly shown tier BEFORE focusing, so the target doesn't drift out from under the camera
         if(switchedOn){ for(let i = 0; i < 80; i++) runForceStep(); settleFrames = 30; refitOverview(false); }
         buildScene();
