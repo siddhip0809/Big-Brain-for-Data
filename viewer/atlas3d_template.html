@@ -99,9 +99,16 @@
   .edge-key{ display:flex; align-items:center; gap:6px; }
   .edge-key i{ display:inline-block; width:16px; height:2px; border-radius:1px; }
   .legend-heading{
+    display:flex; align-items:center; justify-content:space-between;
     font-family:var(--font-mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase;
-    color:var(--text-dim); margin:12px 0 4px; padding-top:10px; border-top:1px dashed var(--border);
+    color:var(--text-dim); margin:0 0 4px;
   }
+  .legend-heading + .legend-heading, .legend-row + .legend-heading{ margin-top:12px; padding-top:10px; border-top:1px dashed var(--border); }
+  .legend-heading button{
+    background:none; border:1px solid var(--border); color:var(--text-muted); font:inherit;
+    letter-spacing:inherit; text-transform:inherit; padding:2px 7px; border-radius:3px; cursor:pointer;
+  }
+  .legend-heading button:hover{ border-color:var(--pure); color:var(--text); }
   .swatch{ width:11px; height:11px; border-radius:50%; flex:none; }
   .legend-row .lg-label{ flex:1; }
   .legend-row .lg-count{ font-family:var(--font-mono); color:var(--text-dim); font-size:11px; }
@@ -133,6 +140,10 @@
     font-family:'Chakra Petch', sans-serif; font-weight:600; font-size:12px;
     color:#e8f1f7; text-shadow:0 0 6px rgba(0,0,0,.9), 0 0 3px rgba(0,0,0,.9);
     pointer-events:none;
+  }
+  .label3d.zone-cap{
+    font-family:var(--font-mono); font-weight:500; font-size:11px; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--text-dim);
   }
 
   .tooltip{
@@ -280,14 +291,16 @@
       Four <b>adjacent-industry</b> tiers — energy developers, general
       contractors, civil/land engineers, industrial &amp; cold-storage
       developers — are in the brain from Siddhi's own lists but start
-      switched off; flip them on in the legend. A company on more than
+      switched off. Switch them on and they appear as their own
+      <b>separate zone</b> beside the data-center core, never mixed into
+      it; investors that back both stretch between the two. A company on more than
       one list shows as a <b>banded</b> node, one colour stripe per role
       (AECOM: civil + industrial + GC; TeraWulf: crypto pivot + neocloud).<br><br>
-      <b>Solid</b> company nodes are pure-play — data centers are the
-      whole business, a direct-tap recruiting pool. <b>Faded</b> nodes are
-      one arm of a bigger real estate, energy, telecom, or construction
-      company (a Prologis, not a STACK) — check the detail panel before
-      treating a candidate there as a straight DC hire.<br><br>
+      In the core, <b>solid</b> company nodes are pure-play — data centers
+      are the whole business, a direct-tap recruiting pool. <b>Faded</b>
+      nodes are one arm of a bigger real estate, energy, telecom, or
+      construction company (a Prologis, not a STACK) — check the detail
+      panel before treating a candidate there as a straight DC hire.<br><br>
       Source: Clockwork CRM export, Siddhi's company lists, and web research.
     </div>
   </aside>
@@ -363,8 +376,14 @@
     jv_partner:  { color: 0x4ade80, opacity: 0.5,  label: 'Joint venture' },
   };
 
-  // ---------- invisible layout anchors, one per company role (Fibonacci sphere) ----------
-  const ANCHOR_R = 300;
+  // ---------- two zones of space: the data-center core, and a separate
+  // region beside it for the adjacent industries. Each zone has invisible
+  // anchors, one per company role, spread on a Fibonacci sphere ----------
+  const ZONES = {
+    core:     { x: 0,    y: 0, z: 0, r: 300, label: 'Data center core' },
+    adjacent: { x: 1150, y: 0, z: -1150, r: 240, label: 'Adjacent industries' }, // camera-right of the core from the default view
+  };
+  const zoneOf = n => (n.kind === 'company' && n.is_adjacent_only) ? ZONES.adjacent : ZONES.core;
   function fibonacciSpherePoints(n, radius){
     const pts = [];
     const golden = Math.PI * (3 - Math.sqrt(5));
@@ -379,10 +398,13 @@
   // Companies get an anchor (a company's primary tier is a coherent "home");
   // investors don't -- one can back companies in every tier, so it sits
   // wherever its actual backing and co-investments pull it (runForceStep).
-  const anchorOrder = CATS.filter(c => c.id !== 'investor').map(c => c.id);
-  const anchorPts = fibonacciSpherePoints(anchorOrder.length, ANCHOR_R);
   const anchorPos = {};
-  anchorOrder.forEach((cid, i) => { anchorPos[cid] = anchorPts[i]; });
+  [[ZONES.core, CATS.filter(c => !c.adjacent && c.id !== 'investor')], [ZONES.adjacent, CATS.filter(c => c.adjacent)]]
+    .forEach(([zone, cats]) => {
+      fibonacciSpherePoints(cats.length, zone.r).forEach((p, i) => {
+        anchorPos[cats[i].id] = { x: zone.x + p.x, y: zone.y + p.y, z: zone.z + p.z };
+      });
+    });
 
   // co-investment pairs: investors who've backed the same company get a
   // (very weak) mutual pull -- real, data-driven cohesion ("these two
@@ -478,11 +500,12 @@
       n.vy += (a.y - n.py) * ANCHOR_K;
       n.vz += (a.z - n.pz) * ANCHOR_K;
     });
-    // very weak overall centering
+    // very weak centering on the node's own zone
     nodes.forEach(n => {
-      n.vx += -n.px * 0.0008;
-      n.vy += -n.py * 0.0008;
-      n.vz += -n.pz * 0.0008;
+      const z = zoneOf(n);
+      n.vx += (z.x - n.px) * 0.0008;
+      n.vy += (z.y - n.py) * 0.0008;
+      n.vz += (z.z - n.pz) * 0.0008;
     });
     // integrate + damping
     const DAMP = 0.82;
@@ -503,8 +526,10 @@
   // of a broader real estate / energy / telecom / construction / other
   // business render translucent -- a signal to check what a candidate
   // there actually works on before treating them as a DC hire.
+  // Inside the adjacent zone every company is non-pure-play by definition,
+  // so the fade would say nothing there -- it applies within the core only.
   function nodeOpacity(n){
-    if(n.kind !== 'company' || n.is_pure_play) return 1;
+    if(n.kind !== 'company' || n.is_pure_play || n.is_adjacent_only) return 1;
     return 0.4;
   }
 
@@ -512,37 +537,52 @@
   const filters = {};
   CATS.forEach(c => filters[c.id] = !c.adjacent); // adjacent industries start hidden
 
+  // after any filter change: rebuild what's shown, pre-settle it, reframe the camera
+  function applyFilters(){
+    if(focusMode) exitFocus();
+    syncLegend();
+    recomputeActive();
+    buildScene();
+    for(let i = 0; i < 40; i++) runForceStep(); // pre-settle what just appeared
+    updatePositionsOnly();
+    settleFrames = 60;
+    refitOverview(true);
+  }
   const legendEl = document.getElementById('legend');
-  let headingAdded = false;
-  CATS.forEach(c => {
-    if(c.adjacent && !headingAdded){
-      const h = document.createElement('p');
-      h.className = 'legend-heading';
-      h.textContent = 'Adjacent industries · off by default';
-      legendEl.appendChild(h);
-      headingAdded = true;
+  const adjacentIds = CATS.filter(c => c.adjacent).map(c => c.id);
+  function addHeading(text, zone){
+    const h = document.createElement('p');
+    h.className = 'legend-heading';
+    h.innerHTML = `<span>${text}</span>`;
+    if(zone){ // whole-group switch
+      const b = document.createElement('button');
+      b.id = 'adjacentSwitch';
+      b.addEventListener('click', () => {
+        const anyOn = adjacentIds.some(id => filters[id]);
+        adjacentIds.forEach(id => { filters[id] = !anyOn; });
+        applyFilters();
+      });
+      h.appendChild(b);
     }
+    legendEl.appendChild(h);
+  }
+  addHeading(ZONES.core.label);
+  CATS.forEach((c, i) => {
+    if(c.adjacent && !CATS[i - 1].adjacent) addHeading(ZONES.adjacent.label + ' · separate zone', true);
+    if(c.id === 'investor') addHeading('Backers · follow their portfolio');
     const row = document.createElement('div');
-    row.className = 'legend-row' + (filters[c.id] ? '' : ' off');
+    row.className = 'legend-row';
     row.dataset.cat = c.id;
     row.innerHTML = `<span class="swatch" style="background:${c.color}"></span>
       <span class="lg-label">${c.name}</span><span class="lg-count">${c.count}</span>`;
-    row.addEventListener('click', () => {
-      if(focusMode) exitFocus();
-      filters[c.id] = !filters[c.id];
-      syncLegend();
-      recomputeActive();
-      buildScene();
-      for(let i = 0; i < 40; i++) runForceStep(); // pre-settle what just appeared
-      updatePositionsOnly();
-      settleFrames = 60;
-      refitOverview(true);
-    });
+    row.addEventListener('click', () => { filters[c.id] = !filters[c.id]; applyFilters(); });
     legendEl.appendChild(row);
   });
   function syncLegend(){
     document.querySelectorAll('.legend-row').forEach(r => r.classList.toggle('off', !filters[r.dataset.cat]));
+    document.getElementById('adjacentSwitch').textContent = adjacentIds.some(id => filters[id]) ? 'hide all' : 'show all';
   }
+  syncLegend();
   document.getElementById('edgeLegend').innerHTML = Object.values(LINK_STYLE).map(s =>
     `<span class="edge-key"><i style="background:#${s.color.toString(16).padStart(6, '0')}"></i>${s.label}</span>`).join('');
 
@@ -570,9 +610,10 @@
   let width = stage.clientWidth || 1000, height = stage.clientHeight || 700;
 
   const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(50, width / height, 1, 6000);
+  const camera = new THREE.PerspectiveCamera(50, width / height, 1, 9000);
   const OVERVIEW_DIR = new THREE.Vector3(720, 480, 720).normalize();
-  const OVERVIEW_CAM = new THREE.Vector3(720, 480, 720); // refit to the settled structure below
+  const OVERVIEW_CAM = new THREE.Vector3(720, 480, 720);   // both refit to the visible structure below
+  const OVERVIEW_TARGET = new THREE.Vector3(0, 0, 0);
   camera.position.copy(OVERVIEW_CAM);
 
   const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -585,23 +626,26 @@
   controls.dampingFactor = 0.08;
   controls.target.set(0, 0, 0);
   controls.minDistance = 60;
-  controls.maxDistance = 2600;
+  controls.maxDistance = 4200;
   controls.update();
 
-  // pull the overview camera back far enough to frame whatever is visible
+  // aim the overview camera at the centre of whatever is visible, far enough back to frame it
   function refitOverview(animateTo){
-    let r = 0;
-    activeNodes.forEach(n => { r = Math.max(r, Math.hypot(n.px, n.py, n.pz)); });
-    OVERVIEW_CAM.copy(OVERVIEW_DIR).multiplyScalar(Math.max(750, r * 2.1));
+    const box = new THREE.Box3();
+    activeNodes.forEach(n => box.expandByPoint(new THREE.Vector3(n.px, n.py, n.pz)));
+    if(box.isEmpty()) box.setFromCenterAndSize(new THREE.Vector3(), new THREE.Vector3(1, 1, 1));
+    box.getCenter(OVERVIEW_TARGET);
+    const r = box.getSize(new THREE.Vector3()).length() / 2;
+    OVERVIEW_CAM.copy(OVERVIEW_TARGET).addScaledVector(OVERVIEW_DIR, Math.max(750, r * 2.1));
     if(focusMode) return;
     if(animateTo){
       const startCam = camera.position.clone(), startTarget = controls.target.clone();
       runTween(600, (e) => {
         camera.position.lerpVectors(startCam, OVERVIEW_CAM, e);
-        controls.target.lerpVectors(startTarget, new THREE.Vector3(0, 0, 0), e);
+        controls.target.lerpVectors(startTarget, OVERVIEW_TARGET, e);
         controls.update();
       });
-    } else { camera.position.copy(OVERVIEW_CAM); controls.update(); }
+    } else { camera.position.copy(OVERVIEW_CAM); controls.target.copy(OVERVIEW_TARGET); controls.update(); }
   }
 
   const glowTexture = (() => {
@@ -852,7 +896,7 @@
     const startCam = camera.position.clone(), startTarget = controls.target.clone();
     runTween(650, (ease) => {
       camera.position.lerpVectors(startCam, OVERVIEW_CAM, ease);
-      controls.target.lerpVectors(startTarget, new THREE.Vector3(0,0,0), ease);
+      controls.target.lerpVectors(startTarget, OVERVIEW_TARGET, ease);
       controls.update();
     });
 
@@ -947,21 +991,38 @@
     });
   }
 
+  const zoneCaps = Object.values(ZONES).map(zone => {
+    const el = document.createElement('div');
+    el.className = 'label3d zone-cap'; el.textContent = zone.label; el.hidden = true;
+    stage.appendChild(el);
+    return { el, zone };
+  });
+  function place(el, x, y, z){
+    projVec.set(x, y, z).project(camera);
+    if(projVec.z > 1){ el.hidden = true; return; }
+    el.hidden = false;
+    el.style.left = ((projVec.x * 0.5 + 0.5) * width) + 'px';
+    el.style.top = ((-projVec.y * 0.5 + 0.5) * height) + 'px';
+  }
+
   const PROMINENCE_ZOOM_DIST = 420;
   const projVec = new THREE.Vector3();
   function updateLabels(){
     const camDist = camera.position.distanceTo(controls.target);
     const showAll = camDist < PROMINENCE_ZOOM_DIST;
+    zoneCaps.forEach(({ el, zone }) => {
+      // caption sits just above the highest visible node of that zone; hidden in focus mode
+      let top = -Infinity;
+      if(!focusMode) activeNodes.forEach(n => { if(zoneOf(n) === zone) top = Math.max(top, n.py); });
+      if(top === -Infinity){ el.hidden = true; return; }
+      place(el, zone.x, top + 70, zone.z);
+    });
     labelEls.forEach(({ el, node, always }) => {
       const isSel = node === hoverNode || node === selectedNode;
       if(focusMode){
         if(node !== focusedNode && !focusNeighbors.includes(node)){ el.hidden = true; return; } // ring only
       } else if(!always && !isSel && !showAll){ el.hidden = true; return; }
-      projVec.set(node.px, node.py, node.pz).project(camera);
-      if(projVec.z > 1){ el.hidden = true; return; }
-      el.hidden = false;
-      el.style.left = ((projVec.x * 0.5 + 0.5) * width) + 'px';
-      el.style.top = ((-projVec.y * 0.5 + 0.5) * height) + 'px';
+      place(el, node.px, node.py, node.pz);
     });
   }
 

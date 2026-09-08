@@ -121,7 +121,19 @@ legible via the sidebar legend.
   developer) that the atlas keeps **switched off by default**; a company
   holding several roles is drawn as a **banded sphere**, one horizontal
   colour stripe per role. The nine colours were validated together as a
-  CVD-safe set on the dark surface. Each company also carries a
+  CVD-safe set on the dark surface. The adjacent industries are a
+  **separate zone** of space (per Siddhi, 2026-09-08): companies whose
+  roles are *all* adjacent get their anchors on a second, smaller sphere
+  set to the right of the data-center core from the default camera angle,
+  each zone carries a quiet floating caption, and the legend has a
+  one-click "show all / hide all" switch for the whole group. A company
+  with any data-center role (e.g. a developer that is also an energy
+  developer) stays in the core; investors sit wherever their portfolio
+  pulls them, so a backer of both groups stretches between the zones. The
+  pure-play/"needs vetting" fade applies inside the core only — every
+  adjacent company is non-pure-play by definition, so fading the whole
+  zone would say nothing. The overview camera frames whichever zones are
+  switched on. Each company also carries a
   `parent_industry` (`pure_play`, `real_estate`, `energy_utilities`,
   `telecom`, `construction_engineering`, or `diversified_conglomerate`)
   saying whether data centers are its own dedicated business or one arm
