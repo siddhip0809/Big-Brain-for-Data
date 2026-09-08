@@ -209,6 +209,9 @@
   }
   .pipeline-entry .pe-title{ font-size:12.5px; margin-bottom:5px; color:var(--text); }
   .pipeline-entry .pe-meta{ font-family:var(--font-mono); font-size:10.5px; color:var(--text-dim); }
+  .src{ font-family:var(--font-mono); font-size:10px; color:var(--text-dim); margin-top:5px; line-height:1.6; }
+  .src a{ color:var(--pure); text-decoration:none; border-bottom:1px dotted var(--pure); }
+  .src-none{ color:#fca5a5; }
   .section-label{
     font-family:var(--font-mono); font-size:10px; letter-spacing:.09em; text-transform:uppercase;
     color:var(--text-dim); margin:16px 0 8px;
@@ -436,6 +439,17 @@
     }[c]));
   }
 
+  // Every claim shows its sources as links so it can be checked. A claim
+  // with no URL is flagged -- it came from an earlier research round that
+  // recorded only "web research", and has not been independently verified.
+  const isUrl = s => typeof s === 'string' && /^https?:\/\//i.test(s.trim());
+  const domainOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch(e){ return u; } };
+  function sourceLinks(sources){
+    const urls = (sources || []).filter(isUrl);
+    if(!urls.length) return `<div class="src src-none">no source link — unverified, check before relying on it</div>`;
+    return `<div class="src">sources: ${urls.map((u, i) => `<a href="${escapeHtml(u.trim())}" target="_blank" rel="noopener" title="${escapeHtml(u.trim())}">${escapeHtml(domainOf(u.trim()))}</a>`).join(' · ')}</div>`;
+  }
+
   // ---------- node/link index ----------
   const nodeById = {};
   GRAPH.nodes.forEach(n => { n.deg = 0; nodeById[n.id] = n; });
@@ -448,15 +462,17 @@
   // reverse lookups for the detail panel
   const backersOf = {};      // companyId -> [investor node, ...]
   const portfolioOf = {};    // investorId -> [company node, ...]
-  const dealsOf = {};        // nodeId -> [{other, type, dir:'out'|'in', detail, status, confidence}]
+  const dealsOf = {};        // nodeId -> [{other, type, dir:'out'|'in', detail, status, confidence, sources}]
+  const backingLink = {};    // "investorNodeId|companyId" -> link (detail + sources of the backing claim)
   GRAPH.links.forEach(l => {
     if(!l.sourceNode || !l.targetNode) return;
     if(l.type === 'invested_in'){
       (backersOf[l.target] = backersOf[l.target] || []).push(l.sourceNode);
       (portfolioOf[l.source] = portfolioOf[l.source] || []).push(l.targetNode);
+      backingLink[l.source + '|' + l.target] = l;
     } else {
-      (dealsOf[l.source] = dealsOf[l.source] || []).push({ other: l.targetNode, type: l.type, dir: 'out', detail: l.detail, status: l.status, confidence: l.confidence });
-      (dealsOf[l.target] = dealsOf[l.target] || []).push({ other: l.sourceNode, type: l.type, dir: 'in',  detail: l.detail, status: l.status, confidence: l.confidence });
+      (dealsOf[l.source] = dealsOf[l.source] || []).push({ other: l.targetNode, type: l.type, dir: 'out', detail: l.detail, status: l.status, confidence: l.confidence, sources: l.sources });
+      (dealsOf[l.target] = dealsOf[l.target] || []).push({ other: l.sourceNode, type: l.type, dir: 'in',  detail: l.detail, status: l.status, confidence: l.confidence, sources: l.sources });
     }
   });
   // colour = relationship type; dash pattern = the edge's `style` (set by
@@ -894,7 +910,7 @@
         const c = catById[d.other.category] || {};
         const meta = [d.status, d.confidence ? `confidence: ${d.confidence}` : null].filter(Boolean).join(' · ');
         html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(d.other.name)} <span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span></div>
-          <div class="pe-meta">${escapeHtml(d.detail || '')}${meta ? '<br>' + escapeHtml(meta) : ''}</div></div>`;
+          <div class="pe-meta">${escapeHtml(d.detail || '')}${meta ? '<br>' + escapeHtml(meta) : ''}</div>${sourceLinks(d.sources)}</div>`;
       });
     });
     return html;
@@ -1296,14 +1312,17 @@
       if(backers.length){
         html += `<div class="section-label">Backed by (${backers.length})</div>`;
         backers.forEach(b => {
+          const l = backingLink[b.id + '|' + n.id] || {};
+          const meta = [b.investor_type || 'Investor', l.confidence ? `confidence: ${l.confidence}` : null].filter(Boolean).join(' · ');
           html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(b.name)}</div>
-            <div class="pe-meta">${escapeHtml(b.investor_type || 'Investor')}</div></div>`;
+            <div class="pe-meta">${l.detail ? escapeHtml(l.detail) + '<br>' : ''}${escapeHtml(meta)}</div>${sourceLinks(l.sources)}</div>`;
         });
       } else {
         html += `<div class="banner-note">No investor backing on record yet in this graph.</div>`;
       }
       html += dealSections(n);
       if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
+      html += recordSources(n);
     } else {
       if(n.investor_type) html += `<div class="dt-row"><div class="dt-k">Type</div><div class="dt-v">${escapeHtml(n.investor_type)}</div></div>`;
       if(n.hq) html += `<div class="dt-row"><div class="dt-k">HQ</div><div class="dt-v">${escapeHtml(n.hq)}</div></div>`;
@@ -1314,12 +1333,14 @@
         html += `<div class="section-label">Portfolio (${portfolio.length})</div>`;
         portfolio.forEach(p => {
           const c = catById[p.category];
+          const l = backingLink[n.id + '|' + p.id] || {};
           html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(p.name)}</div>
-            <div class="pe-meta" style="color:${c.color}">${escapeHtml(c.name)}</div></div>`;
+            <div class="pe-meta"><span style="color:${c.color}">${escapeHtml(c.name)}</span>${l.detail ? ' · ' + escapeHtml(l.detail) : ''}${l.confidence ? ' · confidence: ' + escapeHtml(l.confidence) : ''}</div>${sourceLinks(l.sources)}</div>`;
         });
       }
       html += dealSections(n);
       if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
+      html += recordSources(n);
     }
     detailBody.innerHTML = html;
     const openBtn = document.getElementById('openOrg');
@@ -1445,6 +1466,15 @@
     else if(focusMode) exitFocus();
   });
 
+  // where the record itself came from (sheet, CRM export, research URLs)
+  function recordSources(n){
+    const srcs = n.sources || [];
+    if(!srcs.length) return '';
+    const urls = srcs.filter(isUrl), other = srcs.filter(s => !isUrl(s));
+    return `<div class="section-label">Record sources (${srcs.length})</div>` +
+      (urls.length ? sourceLinks(urls) : '') +
+      (other.length ? `<div class="src">${other.map(escapeHtml).join('<br>')}</div>` : '');
+  }
   function selectNode(n){ selectedNode = n; renderDetail(n); detail.classList.add('open'); }
   function closeDetail(){ selectedNode = null; detail.classList.remove('open'); if(!org.hidden) closeOrg(); }
   document.getElementById('detailClose').addEventListener('click', closeDetail);

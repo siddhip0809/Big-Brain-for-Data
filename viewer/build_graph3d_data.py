@@ -126,7 +126,8 @@ for path in investor_files:
     for cid in valid:
         rel = backing_rel.get((d["id"], cid), {})
         links.append({"source": f"investor:{d['id']}", "target": cid, "type": "invested_in",
-                      "confidence": rel.get("confidence"), "style": line_style("invested_in", None, rel.get("confidence"))})
+                      "confidence": rel.get("confidence"), "style": line_style("invested_in", None, rel.get("confidence")),
+                      "detail": rel.get("detail"), "sources": rel.get("sources", [])})
 
 # company<->company (and investor<->investor) deal edges live in
 # data/relationships.json: acquisitions, tenant/lease relationships, JVs.
@@ -145,7 +146,7 @@ if True:
         if src_id in all_ids and dst_id in all_ids:
             links.append({"source": src_id, "target": dst_id, "type": r["type"],
                           "detail": r.get("detail"), "status": r.get("status"),
-                          "confidence": r.get("confidence"),
+                          "confidence": r.get("confidence"), "sources": r.get("sources", []),
                           "style": line_style(r["type"], r.get("status"), r.get("confidence"))})
             deal_edges += 1
 
