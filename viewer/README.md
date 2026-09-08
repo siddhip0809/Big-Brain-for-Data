@@ -146,10 +146,18 @@ legible via the sidebar legend.
 
 **Lines:** four relationship types are drawn, each its own colour (key in
 the sidebar): violet = investor backing, white = lease/tenant, amber =
-acquisition, green = joint venture. Deal edges (`tenant_of`, `acquired`,
-`jv_partner`, see `docs/schema.md`) use softer, longer springs than
-backing edges, so related companies lean toward each other without being
-pulled out of their tier.
+acquisition, green = joint venture. Since 2026-09-08 they are real
+pixel-width "fat" lines (Three.js `LineSegments2`) and the **dash pattern
+carries a second dimension within the colour**: for acquisitions, solid =
+completed, dashed = announced/pending, dotted = terminated; for backing
+and leases, solid = high-confidence (official or multi-source), dashed =
+single-source, verify. The build sets `style` on every edge
+(`line_style()` in `build_graph3d_data.py`). In focus mode the focused
+node's own edges are redrawn thicker and brighter in the same colours and
+patterns. Deal edges (`tenant_of`, `acquired`, `jv_partner`, see
+`docs/schema.md`) use softer, longer springs than backing edges, so
+related companies lean toward each other without being pulled out of
+their tier.
 
 **Node interaction — "focus mode":** clicking a node doesn't just open the
 text detail panel — it zooms the camera in, arranges that node's direct

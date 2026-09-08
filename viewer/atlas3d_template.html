@@ -95,9 +95,11 @@
   }
   .legend-row:hover{ background:var(--panel); }
   .legend-row.off{ opacity:.38; }
-  .edge-legend{ display:flex; flex-wrap:wrap; gap:6px 14px; font-size:11px; color:var(--text-muted); }
+  .edge-legend{ display:flex; flex-direction:column; gap:7px; font-size:11px; color:var(--text-muted); }
+  .edge-type{ display:flex; flex-wrap:wrap; gap:3px 12px; align-items:center; }
+  .edge-type b{ color:var(--text); font-weight:500; }
   .edge-key{ display:flex; align-items:center; gap:6px; }
-  .edge-key i{ display:inline-block; width:16px; height:2px; border-radius:1px; }
+  .edge-variant{ font-size:10.5px; color:var(--text-dim); padding-left:6px; }
   .legend-heading{
     display:flex; align-items:center; justify-content:space-between;
     font-family:var(--font-mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase;
@@ -409,6 +411,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/lines/LineSegmentsGeometry.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/lines/LineMaterial.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/lines/LineSegments2.js"></script>
 <script>
 (function(){
   const GRAPH = JSON.parse(document.getElementById('graph-data').textContent);
@@ -450,13 +455,17 @@
       (dealsOf[l.target] = dealsOf[l.target] || []).push({ other: l.sourceNode, type: l.type, dir: 'in',  detail: l.detail, status: l.status, confidence: l.confidence });
     }
   });
-  // one line style per relationship type
+  // colour = relationship type; dash pattern = the edge's `style` (set by
+  // the build: acquisitions encode status, everything else encodes confidence)
   const LINK_STYLE = {
-    invested_in: { color: 0x9333ea, opacity: 0.28, label: 'Investor backing' },
-    tenant_of:   { color: 0xf8fafc, opacity: 0.32, label: 'Lease / tenant' },
-    acquired:    { color: 0xf59e0b, opacity: 0.6,  label: 'Acquisition' },
-    jv_partner:  { color: 0x4ade80, opacity: 0.5,  label: 'Joint venture' },
+    invested_in: { color: 0x9333ea, opacity: 0.55, width: 1.8, label: 'Investor backing', variants: { solid: 'confirmed', dashed: 'single-source · verify' } },
+    tenant_of:   { color: 0xf8fafc, opacity: 0.6,  width: 2.2, label: 'Lease / tenant',   variants: { solid: 'confirmed', dashed: 'reported · verify' } },
+    acquired:    { color: 0xf59e0b, opacity: 0.85, width: 2.6, label: 'Acquisition',      variants: { solid: 'completed', dashed: 'announced / pending', dotted: 'terminated' } },
+    jv_partner:  { color: 0x4ade80, opacity: 0.8,  width: 2.4, label: 'Joint venture',    variants: { solid: 'active' } },
   };
+  const DASH = { dashed: { dashSize: 7, gapSize: 4 }, dotted: { dashSize: 1.6, gapSize: 3.4 } }; // world units
+  const SVG_DASH = { solid: '', dashed: '6 3', dotted: '1.5 3' };
+  const cssColor = c => '#' + c.toString(16).padStart(6, '0');
 
   // ---------- two zones of space: the data-center core, and a separate
   // region beside it for the adjacent industries. Each zone has invisible
@@ -665,8 +674,11 @@
     document.getElementById('adjacentSwitch').textContent = adjacentIds.some(id => filters[id]) ? 'hide all' : 'show all';
   }
   syncLegend();
+  const sample = (color, variant, w) => `<svg width="30" height="8" style="flex:none"><line x1="1" y1="4" x2="29" y2="4" stroke="${cssColor(color)}" stroke-width="${w}" stroke-linecap="round" stroke-dasharray="${SVG_DASH[variant]}"/></svg>`;
   document.getElementById('edgeLegend').innerHTML = Object.values(LINK_STYLE).map(s =>
-    `<span class="edge-key"><i style="background:#${s.color.toString(16).padStart(6, '0')}"></i>${s.label}</span>`).join('');
+    `<div class="edge-type"><span class="edge-key">${sample(s.color, 'solid', s.width)}<b>${s.label}</b></span>` +
+      Object.entries(s.variants).map(([v, txt]) => `<span class="edge-key edge-variant">${sample(s.color, v, s.width)}${txt}</span>`).join('') +
+    `</div>`).join('');
 
   const backedCompanyCount = Object.keys(backersOf).length;
   document.getElementById('statNodes').textContent = GRAPH.nodes.length;
@@ -768,24 +780,58 @@
     return g;
   }
 
-  function buildLineGroup(){
-    const group = new THREE.Group();
-    const byType = {};
-    GRAPH.links.forEach(l => {
-      if(!l.sourceNode || !l.targetNode) return;
-      if(!nodeVisible(l.sourceNode) || !nodeVisible(l.targetNode)) return;
-      (byType[l.type] = byType[l.type] || []).push(l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz,
-                                                   l.targetNode.px, l.targetNode.py, l.targetNode.pz);
+  // "fat" lines (LineSegments2) so width is real pixels and dashes work;
+  // one object per (type, style) pair. Materials need the viewport size.
+  const lineMaterials = [];
+  function lineMaterial(type, style, boost){
+    const st = LINK_STYLE[type] || LINK_STYLE.invested_in, d = DASH[style];
+    const m = new THREE.LineMaterial({
+      color: st.color, linewidth: st.width * (boost ? 1.35 : 1), transparent: true, depthWrite: false,
+      opacity: boost ? 0.95 : st.opacity, dashed: !!d, dashSize: d ? d.dashSize : 1, gapSize: d ? d.gapSize : 1,
     });
-    Object.entries(byType).forEach(([type, pos]) => {
-      const st = LINK_STYLE[type] || LINK_STYLE.invested_in;
-      const geo = new THREE.BufferGeometry();
-      geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
-      group.add(new THREE.LineSegments(geo, new THREE.LineBasicMaterial({ color: st.color, transparent: true, opacity: st.opacity })));
+    if(d){ m.defines.USE_DASH = ''; m.needsUpdate = true; } // r128: `dashed` alone doesn't switch the shader on
+    m.resolution.set(width, height);
+    lineMaterials.push(m);
+    return m;
+  }
+  function fatLines(positions, mat){
+    const obj = new THREE.LineSegments2(new THREE.LineSegmentsGeometry().setPositions(positions), mat);
+    if(mat.dashed) obj.computeLineDistances();
+    return obj;
+  }
+  function linkGroup(links, boost){
+    const group = new THREE.Group(), byKey = {};
+    links.forEach(l => {
+      const k = l.type + '|' + (l.style || 'solid');
+      (byKey[k] = byKey[k] || { type: l.type, style: l.style || 'solid', links: [] }).links.push(l);
+    });
+    Object.values(byKey).forEach(({ type, style, links }) => {
+      const pos = [];
+      links.forEach(l => pos.push(l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz, l.targetNode.px, l.targetNode.py, l.targetNode.pz));
+      const obj = fatLines(pos, lineMaterial(type, style, boost));
+      obj.userData.links = links;
+      group.add(obj);
     });
     return group;
   }
-  function disposeGroup(g){ if(!g) return; g.children.forEach(c => { c.geometry.dispose(); c.material.dispose(); }); scene.remove(g); }
+  // rewrite an existing group's positions in place (same links, nodes moved)
+  function refreshGroupPositions(group){
+    group.children.forEach(obj => {
+      const arr = obj.geometry.attributes.instanceStart.data.array;
+      obj.userData.links.forEach((l, i) => arr.set([l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz, l.targetNode.px, l.targetNode.py, l.targetNode.pz], i * 6));
+      obj.geometry.attributes.instanceStart.data.needsUpdate = true;
+      if(obj.material.dashed) obj.computeLineDistances();
+      obj.geometry.computeBoundingSphere();
+    });
+  }
+  function buildLineGroup(){
+    return linkGroup(GRAPH.links.filter(l => l.sourceNode && l.targetNode && nodeVisible(l.sourceNode) && nodeVisible(l.targetNode)), false);
+  }
+  function disposeGroup(g){
+    if(!g) return;
+    g.children.forEach(c => { c.geometry.dispose(); c.material.dispose(); const i = lineMaterials.indexOf(c.material); if(i >= 0) lineMaterials.splice(i, 1); });
+    scene.remove(g);
+  }
 
   function clearScene(){
     nodeMeshes.forEach(m => scene.remove(m));
@@ -877,24 +923,18 @@
     if(g) g.position.set(x, y, z);
   }
 
-  function disposeFocusLines(){
-    if(!focusLinesObj) return;
-    scene.remove(focusLinesObj); focusLinesObj.geometry.dispose(); focusLinesObj.material.dispose();
-    focusLinesObj = null;
-  }
+  function disposeFocusLines(){ disposeGroup(focusLinesObj); focusLinesObj = null; }
+  // the focused node's own edges, drawn brighter and thicker in their real type colour/style
   function updateFocusLines(centerNode, neighbors){
-    const need = neighbors.length * 6;
-    if(!focusLinesObj || focusLinesObj.geometry.attributes.position.array.length !== need){
+    const ids = new Set(neighbors.map(nb => nb.id));
+    const mine = GRAPH.links.filter(l => l.sourceNode && l.targetNode &&
+      ((l.source === centerNode.id && ids.has(l.target)) || (l.target === centerNode.id && ids.has(l.source))));
+    if(!focusLinesObj || focusLinesObj.userData.count !== mine.length){
       disposeFocusLines();
-      const geo = new THREE.BufferGeometry();
-      geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(need), 3));
-      focusLinesObj = new THREE.LineSegments(geo, new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.55 }));
+      focusLinesObj = linkGroup(mine, true);
+      focusLinesObj.userData.count = mine.length;
       scene.add(focusLinesObj);
-    }
-    const pos = focusLinesObj.geometry.attributes.position;
-    neighbors.forEach((nb, i) => pos.array.set([centerNode.px, centerNode.py, centerNode.pz, nb.px, nb.py, nb.pz], i * 6));
-    pos.needsUpdate = true;
-    focusLinesObj.geometry.computeBoundingSphere();
+    } else refreshGroupPositions(focusLinesObj);
   }
 
   function enterFocus(node){
@@ -1050,12 +1090,7 @@
 
   function updatePositionsOnly(){
     nodeMeshes.forEach(m => { const n = m.userData.node; moveNode(n, n.px, n.py, n.pz); });
-    if(linesObj){
-      const vis = linesObj.visible;
-      disposeGroup(linesObj);
-      linesObj = buildLineGroup(); linesObj.visible = vis;
-      scene.add(linesObj);
-    }
+    if(linesObj) refreshGroupPositions(linesObj);
   }
 
   // ---------- labels: nodes with 2+ links always; the rest on hover/select/zoom-in ----------
@@ -1115,6 +1150,7 @@
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
     renderer.setSize(width, height);
+    lineMaterials.forEach(m => m.resolution.set(width, height));
   }
   window.addEventListener('resize', resize);
 

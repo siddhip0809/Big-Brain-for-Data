@@ -63,6 +63,16 @@ PARENT_INDUSTRY_META = {
     "diversified_conglomerate":{"name": "Diversified conglomerate",                 "note": "A diversified holding company or alt-asset manager with a data center arm."},
 }
 
+def line_style(rtype, status, confidence):
+    """How the atlas draws an edge: solid / dashed / dotted. Acquisitions
+    encode status (completed / announced / terminated); every other edge
+    encodes confidence (high = solid, anything less = dashed = verify)."""
+    if rtype == "acquired":
+        st = (status or "").lower()
+        if any(w in st for w in ("terminated", "rejected", "withdrawn", "abandoned")): return "dotted"
+        return "solid" if "completed" in st else "dashed"
+    return "solid" if (confidence or "").lower() == "high" else "dashed"
+
 def load_json(path):
     with open(path) as f:
         return json.load(f)
@@ -91,6 +101,12 @@ for path in company_files:
     })
     node_ids.add(d["id"])
 
+rel_path = os.path.join(REPO, "data/relationships.json")
+relationships = load_json(rel_path) if os.path.exists(rel_path) else []
+# investor backing confidence lives on the invested_in relationship
+backing_rel = {(r["from"].split(":", 1)[-1], r["to"].split(":", 1)[-1]): r
+               for r in relationships if r.get("type") == "invested_in"}
+
 investor_files = sorted(glob.glob(os.path.join(INVESTORS_DIR, "*.json")))
 links = []
 for path in investor_files:
@@ -103,23 +119,25 @@ for path in investor_files:
         "notes": d.get("notes"), "sources": d.get("sources", []),
     })
     for cid in valid:
-        links.append({"source": d["id"], "target": cid, "type": "invested_in"})
+        rel = backing_rel.get((d["id"], cid), {})
+        links.append({"source": d["id"], "target": cid, "type": "invested_in",
+                      "confidence": rel.get("confidence"), "style": line_style("invested_in", None, rel.get("confidence"))})
 
 # company<->company (and investor<->investor) deal edges live in
 # data/relationships.json: acquisitions, tenant/lease relationships, JVs.
 # Only edges whose two endpoints are both nodes in this graph are emitted.
 DEAL_TYPES = {"acquired", "tenant_of", "jv_partner"}
 all_ids = {n["id"] for n in nodes}
-rel_path = os.path.join(REPO, "data/relationships.json")
 deal_edges = 0
-if os.path.exists(rel_path):
-    for r in load_json(rel_path):
+if True:
+    for r in relationships:
         if r.get("type") not in DEAL_TYPES: continue
         src_id = r["from"].split(":", 1)[-1]; dst_id = r["to"].split(":", 1)[-1]
         if src_id in all_ids and dst_id in all_ids:
             links.append({"source": src_id, "target": dst_id, "type": r["type"],
                           "detail": r.get("detail"), "status": r.get("status"),
-                          "confidence": r.get("confidence")})
+                          "confidence": r.get("confidence"),
+                          "style": line_style(r["type"], r.get("status"), r.get("confidence"))})
             deal_edges += 1
 
 # people, grouped by the company they work at today. Only the fields the org
@@ -187,5 +205,8 @@ print("companies:", len(company_files), "| DC-tier:", dc_companies, "| adjacent-
       "| multi-role:", multi_role)
 print("investors:", len(investor_files), "| links:", len(links), "| of which deal links:", deal_edges)
 print("people:", people_count, "at", len(people), "companies")
+style_counts = {}
+for l in links: style_counts[(l["type"], l["style"])] = style_counts.get((l["type"], l["style"]), 0) + 1
+print("line styles:", style_counts)
 print("role counts:", role_counts)
 print("wrote:", out_path, os.path.getsize(out_path), "bytes")
