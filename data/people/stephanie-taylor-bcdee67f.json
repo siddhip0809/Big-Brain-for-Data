@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "mapping list",
   "seniority_rank": 1,
@@ -114,5 +114,22 @@
     "region": "Missouri",
     "country": "United States",
     "group": "Missouri"
+  },
+  "education": [
+    "Masters, King's College London, 2006 to 2007",
+    "Universita' di Padova, 2002 to 2005"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

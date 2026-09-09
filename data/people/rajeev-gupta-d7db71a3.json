@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "colt-data-centre-services",
   "function": "Sales & Leasing",
@@ -204,5 +204,27 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "MBA International Marketing and Strategy, École des Ponts Business School, 1998 to 1999",
+    "B.A. English Literature, Delhi University, 1993 to 1996",
+    "ITIL v3 Foundation, ITIL, 2010",
+    "Strategic Decision Making, London School of Economics (LSE), 2025",
+    "BA in English Literature, BA, 1996",
+    "MBA, MBA, 1999",
+    "Leadership Accelerator Program, Leadership Accelerator Program, 2022"
+  ],
+  "biography": "Senior commercial and growth executive with deep experience across digital infrastructure, hyperscale data centres, cloud, and enterprise markets, leading complex strategic opportunities from qualification through commercial structuring, governance, executive approval, and contract execution. Brings a strong record of converting major opportunities into bankable, executable, and investor-relevant outcomes by aligning customer demand with technical feasibility, delivery capability, governance discipline, and strategic investment priorities.\n\nTrusted by executive leadership to shape business cases, board papers, funding approvals, commercial strategy, and decision frameworks for high-value growth opportunities across Europe, Japan, and India. Track record includes supporting more than 300MW of IT capacity commitments, sustaining a 50MW+ annual run rate over the last three years, and contributing to performance that exceeded corporate targets for five consecutive years.\n\nBrings particular strength in environments where growth requires cross-functional alignment, disciplined executive governance, sophisticated customer engagement, and clear translation of market opportunity into strategic investment action.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

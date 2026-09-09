@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -103,5 +103,20 @@
     "region": "Washington, DC",
     "country": "United States",
     "group": "Washington, DC"
+  },
+  "education": [
+    "Bachelor of Arts - BA, Thomas Edison State University"
+  ],
+  "biography": "I build the physical infrastructure that AI runs on. At Nebius Group, I lead site selection and colocation development for North America, responsible for the market decisions, commercial structures, and capital deployments that determine where compute gets built and how it performs at scale. The work requires a specific kind of judgment. Infrastructure decisions are made years before demand arrives. They involve land, power topology, grid access, network placement, and cooling architecture. They require commercial structures that hold up under hyperscale scrutiny and partner relationships that compound over time. Getting them right creates durable strategic advantage. My counterparts are operators, developers, utilities, and capital partners. My job is to align all of them around decisions that will define platform capability years into the future. AI is not a software story. It is a physical systems story. The next decade will be defined by who controls the infrastructure layer, and those positions are being established now.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -97,5 +97,17 @@
     "region": "County Dublin",
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "education": [
+    "Master Of Science, Masters, Construction, Project Management, Unsw, 2013 to 2013",
+    "Bachelor Of Science, Bachelors, Mechanical Engineering, University Of West Attica, 2007 to 2012"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

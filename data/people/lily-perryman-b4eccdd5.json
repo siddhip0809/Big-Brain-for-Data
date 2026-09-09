@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 5,
@@ -83,5 +83,23 @@
     "region": "Oregon",
     "country": "United States",
     "group": "Oregon"
+  },
+  "education": [
+    "Master Of Business Administration, Masters, Business Administration, Business Administration And Management, Management, The University of Georgia, 2022 to 2023",
+    "Bachelors, Environmental Science, University Of Southern California, 2020 to 2022",
+    "Bachelors, Environmental Science, Boston University, 2018 to 2020"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

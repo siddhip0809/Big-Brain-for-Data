@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "mapping list",
   "seniority_rank": 3,
@@ -111,5 +111,15 @@
     "region": null,
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Master's Degree, Digital Telecommunication, Technical University of Cluj Napoca, 2000 to 2001",
+    "Bachelor's Degree, Telecommunications Engineering, Technical University of Cluj Napoca, 1995 to 2000"
+  ],
+  "biography": "Director - Global Infrastructure at Google",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

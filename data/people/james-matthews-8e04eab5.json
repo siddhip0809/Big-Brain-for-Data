@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "tillion-data-centers",
   "function": "Sales & Leasing",
@@ -112,5 +112,19 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "biography": "James Matthews moved to Altea, Spain, at the beginning of August 2026 and plans to move to Valencia on August 29th, 2026. His wife vetoed Madrid as a living location, preferring to be closer to the sea, hence the move to Valencia. He finds Lima, Peru, where Ward is located, to have great food but would prefer to live in a more remote area of Peru. He notes only 4-5 districts in Lima are safe. James Matthews started officially on January 1st, 2026, with a startup based in Madrid, an in-portfolio business of Azora Capital. He accepted the role in October 2025. The company is building large-scale data center capacity in Zaragoza, Spain, with capacity coming online in Q4 2028. There are 5 permanent employees. They are building 2 data centers in 2 locations. Both have current LOIs being negotiated, with 2 additional backup LOIs. These LOIs are for 150-megawatt data centers (120-125 IT delivered). One LOI is for a Neo Cloud, and backup LOIs are also for Neo Clouds. Another LOI is with a large cloud operator. His role involves prospecting, due diligence, commercial conversations (including rough yield, EBITDA, NPV), writing LOIs, and negotiating MSAs and service penalties. He presents to the board weekly. James Matthews interviewed with Pure Data Centers last summer (2025) before taking his current role. He noted their commission structure was unclear and dependent on changes in financiers. He mentioned Phil Davis (ex-CIO) who went to Ares.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

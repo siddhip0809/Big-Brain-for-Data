@@ -39,7 +39,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -171,5 +171,26 @@
     "region": "Île-de-France",
     "country": "France",
     "group": "France"
+  },
+  "education": [
+    "Auditeur, IHEDN - Institut des Hautes Etudes de la Défense Nationale, 2012 to 2012",
+    "Master in Business Management, Finance, General, EDHEC Business School, 2010 to 2014",
+    "Preparatory Studies in Mathematics, Prytanée National Militaire, 2008 to 2011",
+    "Mathematics, Lycée Henri IV, 2010",
+    "Master in Management & MSc in Innovation and Entrepreneurship Real Estate, Finance, EDHEC, Grande École, 2014"
+  ],
+  "biography": "Antoine is passionate about real estate, specifically the dynamic mix of development, sales, and the technical complexities of local regulations and contracts. He views Paris and Europe as growing markets for the data center industry and believes there is a shortage of strong talent, seeing an opportunity for his blend of tech company and real estate development experience. He seeks a more dynamic, less process-driven environment with more space for personal growth compared to a large, established company like AWS. He values a strong, trusting relationship with his direct manager and the European Director of AWS, which enables rapid decision-making. His biggest frustration is the extensive legal review processes, which he finds slow and bureaucratic due to the company's U.S. culture. He is currently an L5 at AWS and expects to be promoted to L6 within one or two quarters. He is working on three data center deals in France totaling 350 MW, close to signing, and two other early-stage sites of 400 MW each. He has prior real estate experience in Spain and the UK, and worked in a tech company in New York City for three years.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

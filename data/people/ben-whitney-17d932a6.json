@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "mapping list",
   "seniority_rank": 4,
@@ -97,5 +97,14 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Master of Business Administration - MBA Business Administration and Management General, Cass Business School, 2003 to 2004",
+    "BA (Hons) Politics & International Relations, University of Reading, 1993 to 1997"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

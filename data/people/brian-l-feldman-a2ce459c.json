@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 2,
@@ -138,5 +138,24 @@
     "region": "Washington",
     "country": "United States",
     "group": "Washington"
+  },
+  "education": [
+    "Master of Business Administration (M.B.A.), Real Estate and Finance, Columbia Business School, 2015 to 2017",
+    "Bachelor of Science, Environmental Science and Resource Management, University Of Washington, 2005 to 2009"
+  ],
+  "biography": "Digital Infrastructure and real estate professional skilled in data center site selection, AI/ML/Cloud infrastructure strategy, contract execution, real estate transactions, portfolio strategy, business development, program and project management, process optimization, financial modeling, and product development.\r\n\r\nOver 15 years of experience working across a variety of interrelated industries: \r\n- Environmental consulting at EnviroIssues where I worked on transportation and energy infrastructure projects. Some of those transmission lines would later power AWS data centers. \r\n- E-Commerce as a Brand Specialist and Instock Manager at Amazon.com. I was responsible for the Home Decor and Furniture categories and oversaw explosive growth as e-commerce became commonplace from 2012-2015. Here I learned the fundamentals of automation and scaling.\r\n- Real estate development with Trammel Crow Companies. TCC had industrial properties in each stage of development (land acquisition, permitting, site improvements, construction, leasing, disposition) throughout Pennsylvania, Delaware and New Jersey. Some of which would be leased by Amazon.com.\r\n- Cloud strategy with AWS. I was responsible for developing 15-year strategic plans for AWS regions across EMEA. This included data center supply and demand planning, real estate expansion strategy, addressing regional issues and energy challenges. \r\n- Real estate transactions, portfolio management and facility management with Amazon's Global Real Estate and Facilities (GREF) team. I executed office lease deals, site acquisitions, office portfolio plans and continuous improvement projects. \r\n- Data center expansion management with AWS. I managed a team responsible for site selection in new country expansions and new infrastructure product launches, internal product development and bespoke data center strategies to meet unique customer needs.\r\n- Data center leasing with Meta. I helped to build Meta's leasing program, wrote the Leasing Playbook and acquired over 1GW of leased capacity to support AI/ML.\r\n\r\nPersonal interests are history, cars, airplanes, boats, reading, urban planning, architecture, the natural world, hiking, snowboarding and sailing. Top three books of 2024: 1. Hidden Potential 2. Scarcity Brain 3. Eve.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

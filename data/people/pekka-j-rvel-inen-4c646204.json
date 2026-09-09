@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 3,
@@ -167,5 +167,20 @@
     "region": "Pirkanmaa",
     "country": "Finland",
     "group": "Finland"
+  },
+  "education": [
+    "Master's degree, Cyber security (ongoing studies), University of Jyväskylä, 2022 to 2026",
+    "Executive MBA, International business and marketing, Tampere University of Applied Sciences, 2007 to 2015",
+    "DNA, Data network administrator degree (in IT administration), Tampere University of Technology 1965-2018, 2000 to 2000",
+    "Bachelor of science, Electrical systems engineer, Building services technology, Tampere University of Applied Sciences, 1997 to 2004"
+  ],
+  "biography": "Sales Director Colocation Europe. My target is to drive and lead sales initiatives across Europe for our sustainable and flexible Data Center colocation services in Nordics. We offer unparalleled sustainability and operational cost savings for HPC&AI workloads from Nordics. All of our energy is genuinely from 100% renewable sources. I am also board member and founder at Finnish Data center industry cluster - FDCA.",
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

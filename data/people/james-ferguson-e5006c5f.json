@@ -37,7 +37,7 @@
     "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Pre-Construction",
   "current_company_id": "t5-data-centers",
   "function": "Pre-Construction & Cost",
@@ -108,5 +108,20 @@
     "region": "Georgia",
     "country": "United States",
     "group": "Georgia"
+  },
+  "education": [
+    "Master Of Science, Masters, Construction Management, Southern Polytechnic State University, 2004 to 2004",
+    "Bachelors, Civil Engineering, The University Of Alabama, 1999 to 1999"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

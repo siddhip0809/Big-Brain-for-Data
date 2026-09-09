@@ -13,7 +13,7 @@ pivot AND typed "Neocloud" on Siddhi's sheet -- and the atlas renders those
 as multi-colour nodes. The first role by ROLE_PRIORITY is the node's
 primary tier (its colour body and its invisible layout anchor).
 """
-import json, glob, os, re, sys
+import json, glob, os, re, sys, collections
 from datetime import date
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "scripts"))
 from build_talent_flows import flows as talent_flows
@@ -179,6 +179,9 @@ for path in sorted(glob.glob(os.path.join(PEOPLE_DIR, "*.json"))):
         "location": d.get("location"), "loc": d.get("location_norm"), "linkedin": d.get("linkedin"),
         "department": d.get("department"), "do_not_contact": bool(d.get("do_not_contact")),
         "grade": d.get("record_grade"),
+        # Ward's own assessment layer (Clockwork): judgement, not researched fact
+        "assess": {k: v for k, v in (d.get("assessment") or {}).items() if k not in ("source", "note")} or None,
+        "education": d.get("education"), "bio": d.get("biography"),
         "since": (current[0].get("start") if current else None), "past": past,
     })
     people_count += 1
@@ -226,6 +229,11 @@ for cid, ppl in people.items():
     node["hires_by_tier"] = sorted(by_tier.items(), key=lambda kv: -kv[1])
     node["alumni_at"] = sorted(alumni_at.get(cid, {}).items(), key=lambda kv: -kv[1])[:12]
     node["recent_joiners"] = sum(1 for p in ppl if p["recent"])
+    tt = collections.Counter(t for p in ppl for t in ((p.get("assess") or {}).get("top_tier") or []))
+    sk = collections.Counter(s for p in ppl for s, v in ((p.get("assess") or {}).get("skills") or {}).items() if v == "High Confidence")
+    node["top_tier_counts"] = tt.most_common()
+    node["skill_counts"] = sk.most_common(8)
+    node["assessed_count"] = sum(1 for p in ppl if p.get("assess"))
 
 # every link gets a stable key -- the id of its verification document in the
 # atlas's shared store (scripts/pull_verifications.py reads them back)

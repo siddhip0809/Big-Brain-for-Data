@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "stack-infrastructure",
   "function": "Sales & Leasing",
@@ -112,5 +112,21 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "BSc 2.1 with honours, Sport Studies, University of Southampton, 2003 to 2006"
+  ],
+  "biography": "An established and successful Senior Account Manager & New Business Sales Professional   \n\nHighly motivated, performance-oriented individual with a proven background in exceeding targets, as well as thorough account management of existing clients and relationships.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

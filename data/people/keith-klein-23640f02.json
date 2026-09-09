@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "mapping list",
   "seniority_rank": 3,
@@ -103,5 +103,25 @@
     "region": "Washington",
     "country": "United States",
     "group": "Washington"
+  },
+  "education": [
+    "BS, Hotel Management, University of Nevada-Las Vegas, 2005 to 2007"
+  ],
+  "biography": "Director, AMER Data Center Real Estate Acquisition and Leasing",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

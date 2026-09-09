@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "greenscale-data-centres",
   "function": "Development & Real Estate",
@@ -108,5 +108,26 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "MSc, Real Estate, Cass Business School, 2011 to 2012",
+    "Investment Management Certificate (IMC), Investments and Securities, CFA Society of the UK, 2009 to 2009",
+    "Wits Business School - Post Grad in Management, University of the Witwatersrand, 2004 to 2004",
+    "Bachelor’s Degree, Economics, University of Cape Town, 2001 to 2003"
+  ],
+  "biography": "Stephen is an Investment Manager with a background in logistics investment and data centers. His career includes roles at MNG Real Estate, Capitaland (heading UK and Europe investments in data centers, logistics, and office parks), and ST Telemedia Logistics (Blackstone-owned, focusing on investment in built assets across the UK). Currently, he is the Site Selection Director at GreenScale, a data center operator owned by a German VC fund (TTCP), where he is responsible for site sourcing, due diligence, IC presentation, and land site execution, including power and permitting. GreenScale is a pre-revenue startup, and Stephen's role in site expansion is on hold until the business secures its first income from existing assets in Ireland and Norway. Stephen is actively seeking opportunities with larger, more established companies, or startups with strong capital backing and long-term investment horizons. He values the people, vision, ownership, and autonomy at GreenScale, appreciating the quick decision-making process compared to larger institutional firms. His main frustration at GreenScale is the challenge of getting clear signals on end-customer interest and demand in the data center sector. Stephen has experience with projects ranging from 50 MW to 100+ MW, primarily in the UK, Nordics, France, and Poland. He led the due diligence for 11 operational data centers across the UK and Europe at Capitaland. He is currently working on two GreenScale data center sites: one in Northern Ireland (160-170 MW) and one in Norway (300 MW), with an additional pipeline of over 30 sites across the UK and Europe. Stephen has approximately 15 years of real estate development experience, with about 5 years of planning application experience and 2-3 years of permitting experience.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

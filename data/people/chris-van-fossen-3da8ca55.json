@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -90,5 +90,26 @@
     "region": null,
     "country": "Switzerland",
     "group": "Switzerland"
+  },
+  "education": [
+    "Gustavus Adolphus College, 2002 to 2006"
+  ],
+  "biography": "Global Network Infrastructure at Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

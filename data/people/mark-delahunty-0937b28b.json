@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "bgo",
   "function": "Sales & Leasing",
@@ -94,5 +94,12 @@
     "region": null,
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "biography": "Mark Delahunty is currently at BGO, a private equity REIT under SunLife, with $90 billion in assets under management. Mark joined BGO a year ago, specifically in the private equity side. His role involves site selection and leasing. He is working towards a CDO role within the data center side of BGO. Mark established a front-door team and an end-to-end process, \"Microsofting\" BGO's approach to site vetting. BGO is currently going through pre-ICOM on a site in London and a large site in Germany, with Milan and Madrid sites further out. Mark attended Data Cloud this year, his first outside of Microsoft, and noted a significant presence of Microsoft (and ex-Microsoft) people. He plans to attend PTC and Data Cloud, limiting himself to two conferences a year. He found Kickstart in Amsterdam to be worthwhile but will not be attending Antibes this year. Mark shared insights on Val's move from Microsoft to QTS, believing it's a strategic move towards a PE operating partner role with Blackstone. Mark noted the current US market is a \"bloodbath.\" He highlighted the rapid decision-making of Neo Clouds (e.g., CoreWeave) with 6-week deal closures from LOI to close, contrasting it with traditional hyperscaler timelines.",
+  "assessment": {
+    "tenure": "Good",
+    "rating": 3.0,
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

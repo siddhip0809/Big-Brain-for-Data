@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "mapping list",
   "seniority_rank": 4,
@@ -97,5 +97,17 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "MA Sales Management, University of Portsmouth, 2010 to 2012"
+  ],
+  "biography": "I help the world’s most ambitious data center and hyperscale solution providers solve their greatest challenge: combing access to clean, reliable, scalable power, with the ability to deliver tens and even hundreds of MW in around 90-180 days.\n\nAs leader for Bloom Energy’s data center practice in EMEA, I work at the intersection of digital infrastructure and the energy transition—partnering with colocation leaders, and the hyperscale community, to deliver sustainable power solutions that de-risk growth, accelerate decarbonisation and enable our partners to respond to the AI opportunity at warp speed.\n\nWith 25 years of experience across digital infrastructure, energy, and enterprise technology, I bring a track record of helping global enterprises scale while staying ahead of regulatory, environmental, and economic change. In building trusted partnerships, shaping long-term energy strategies, and ensuring customers can expand with confidence in a volatile energy landscape, Bloom Energy is game changing technology.",
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

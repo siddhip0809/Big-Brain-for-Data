@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "qts-data-centers",
   "function": "Sales & Leasing",
@@ -153,5 +153,23 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "MSc, Information Technology, Loughborough University, 2002 to 2005",
+    "BSc Hons, Management, Loughborough University, 1998 to 2002"
+  ],
+  "biography": "Global Client Director with 20+ years consistent track record of success in building long term relationships with clients, to help them extract maximum benefit from their relationship with my organisation\n\nCreation and development of ICT road-maps for customers with the intention of moving them to a Hybrid Multi-Cloud environment.\n\nA true global account development and management remit leading internal and customer relationships across various geographies and timezones.\n\nCurrently working with Equinix’s most strategic global client, supporting their incredible growth as they continue to support customers digital transformation strategies. I lead the entire sales cycle for multi-hundred-million-dollar contracts, from initial pitch, pre-qualification, and technical due diligence (SOQ), to contract negotiation and signature capture. This role involves xScale Hyperscale sales.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

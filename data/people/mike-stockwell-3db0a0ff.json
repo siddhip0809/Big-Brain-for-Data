@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -82,5 +82,24 @@
     "region": "Illinois",
     "country": "United States",
     "group": "Illinois"
+  },
+  "education": [
+    "Bachelor of Science (B.S.), Civil Engineering, Purdue University, 2008 to 2012"
+  ],
+  "biography": "Land Development at Microsoft",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "hyperscaler_equivalent_seniority": "Director",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

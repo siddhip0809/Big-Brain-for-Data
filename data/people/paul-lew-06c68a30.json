@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 2,
@@ -137,5 +137,23 @@
     "region": null,
     "country": "Singapore",
     "group": "Singapore"
+  },
+  "education": [
+    "Bachelor in Business Administration, Western Sydney University, 1999 to 2001",
+    "Diploma in Marketing and Sales Management, Singapore Productivity and Statutory Board (PSB), 1998 to 1999",
+    "Diploma in Electronic, Communication and Computrer Engineering, Singapore Polytechnic, 1991 to 1996"
+  ],
+  "biography": "Responsible for the company’s sales and marketing efforts, as well as in building strong relationships with customers and partners in Asia.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

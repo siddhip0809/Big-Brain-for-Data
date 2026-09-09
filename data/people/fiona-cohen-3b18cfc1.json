@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "equinix",
   "function": "Development & Real Estate",
@@ -112,5 +112,24 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Land Management BSc, UPMV (Urban Property Management and Valuation), University of Reading, 2006 to 2009"
+  ],
+  "biography": "Senior-level chartered surveyor specialising in industrial / logistics and data center commercial real estate with 15+ years of experience. \n\nCurrently working within Global Real Estate at Equinix to facilitate expansion and improvements to their data center network. \n\nKey skills include investment transactions, leasing, negotiation, development, valuation appraisal and project management.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

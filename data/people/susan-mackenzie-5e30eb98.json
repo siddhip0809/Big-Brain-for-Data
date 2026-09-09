@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "google",
   "function": "Development & Real Estate",
@@ -80,5 +80,18 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Master of Engineering (MEng) Hons, Civil and Structural Engineering, 1st Class, The University Of Manchester, 2007 to 2011"
+  ],
+  "biography": "I work in the Energy and Location Strategy team at Google on data centre portfolio management and new site selection. I have a focus on efficient and environmentally conscious design and delivery. My past experience includes 11 years’ at Arup as a design manager and structural engineer. I am charted with the Institution of Civil Engineers and a member of the Association of Project Management. I have experience in complex projects requiring multi-disciplinary coordination, including data centres and large infrastructure projects. I have capabilities in building rapport with design teams, contractors, clients and stakeholders due to my technical background and approach to complex problems. I have a strong focus on data centre sustainability and co-authored a white paper on whole lifecycle carbon assessments for data centres. I pioneered efforts in Arup to track carbon emissions on all projects. This work led to the Arup Chairman, Alan Belfield announcing at COP26 in Glasgow that Arup would be undertaking whole lifecycle carbon assessments for all its buildings projects from April 2022.",
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
   }
 }

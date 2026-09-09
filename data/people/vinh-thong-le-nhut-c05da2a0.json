@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Energy & Utilities",
   "function_source": "title",
   "seniority_rank": 3,
@@ -111,5 +111,25 @@
     "region": "North Holland",
     "country": "Netherlands",
     "group": "Netherlands"
+  },
+  "education": [
+    "Master of Engineering - MEng, Engineering in electronics, networking, telecommunications, EFREI - Grande école du numérique, 1993 to 1997",
+    "Bachelor's degree, Mathematics, Physics, Chemistry (Maths Sup/Spé), 2-year University degree : Mathematics, Physics, Chemistry, 1990 to 1993"
+  ],
+  "biography": "Experienced Director Energy with a demonstrated history of working in energy purchasing, of defining & implementing strategies for energy efficiency & sustainability. Skilled in data center Operations Management. Telecom engineer graduated from ESIGETEL/EFREI, Paris, France.",
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "High Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence",
+      "Water · WSA negotiation": "Low Confidence",
+      "Water · engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Executive leadership",
   "function_source": "title",
   "seniority_rank": 0,
@@ -124,5 +124,25 @@
     "region": "Washington, DC",
     "country": "United States",
     "group": "Washington, DC"
+  },
+  "education": [
+    "Doctor of Law - JD, Tulane University Law School, 2002 to 2005",
+    "Master of Science - MS, Chemistry, University Of California, Berkeley, 1999 to 2002",
+    "Bachelor of Science - BS, Chemistry, Mississippi State University, 1995 to 1999"
+  ],
+  "biography": "Focused on improving AWS existing and new data center and networking infrastructure for a better customer experience and strengthening core services offerings, while also working to develop the careers of hundreds of engineers, project managers, operators, software developers, and business developers.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -25,5 +25,23 @@
   "sources": [
     "Bulk people export (de11fc69-people.csv), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-09",
+  "education": [
+    "Masters in Business Administration (MBA), Management and IT, Clark University, 2002 to 2006",
+    "Bachelor of Science, Mechanical Engineering, Lafayette College, 1994 to 1998"
+  ],
+  "biography": "Construction executive experienced with the ground up development and property management of multi-million dollar geographically diverse asset portfolio. Possesses an MBA and a BS in Mechanical Engineering, with an additional 10 years experience in IT/Project Management within the financial services industry.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
 }

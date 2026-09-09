@@ -39,7 +39,7 @@
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 1,
@@ -107,5 +107,22 @@
     "region": "Texas",
     "country": "United States",
     "group": "Texas"
+  },
+  "education": [
+    "B.S., Technical Management, Embry-Riddle Aeronautical University"
+  ],
+  "biography": "Senior Vice President of Development at QTS",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

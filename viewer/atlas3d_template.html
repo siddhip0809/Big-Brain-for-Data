@@ -318,6 +318,16 @@
   .pill.dnc{ border-color:#ef4444; color:#fca5a5; }
   .pill.new{ border-color:#4ade80; color:#4ade80; }
   .pill.dir{ opacity:.75; }
+  .pill.tier{ border-color:#0e7490; color:#0e7490; }
+  .pill.spoke{ border-color:#7c3aed; color:#7c3aed; }
+  .pill.recent-move{ border-color:#f59e0b; color:#b45309; }
+  body.dark .pill.tier{ border-color:#22d3ee; color:#22d3ee; }
+  body.dark .pill.spoke{ border-color:#c084fc; color:#c084fc; }
+  body.dark .pill.recent-move{ border-color:#f59e0b; color:#fbbf24; }
+  .skillbar{ display:flex; justify-content:space-between; gap:8px; padding:2px 0; font-size:11px; }
+  .skillbar .hi{ color:#0e7490; font-family:var(--font-mono); font-size:10px; }
+  .skillbar .lo{ color:var(--text-dim); font-family:var(--font-mono); font-size:10px; }
+  body.dark .skillbar .hi{ color:#22d3ee; }
   .org-empty{ color:var(--text-dim); font-size:12px; padding:20px; }
   .matrix{ border-collapse:separate; border-spacing:3px; font-size:12px; }
   .matrix th{ font-family:var(--font-mono); font-size:10px; letter-spacing:.04em; color:var(--text-dim); text-align:left; padding:6px 8px; font-weight:500; max-width:150px; }
@@ -480,6 +490,8 @@
             <button data-mode="location">By location</button>
             <button data-mode="prev">By previous employer</button>
             <button data-mode="prevtier">By previous industry</button>
+            <button data-mode="toptier">By top tier</button>
+            <button data-mode="skill">By assessed skill</button>
           </div>
           <input id="orgFilter" type="text" placeholder="filter people… (also matches past employers)" autocomplete="off" title="Matches name, title, location, department and past employers">
           <button class="detail-close" id="orgClose" title="Close org chart">&times;</button>
@@ -1562,6 +1574,12 @@
       }
       if(ppl.length){
         html += `<div class="section-label">People in the brain (${ppl.length}) · <a id="openOrg">Open org chart →</a></div>`;
+        if(n.assessed_count){
+          html += `<div class="dt-row"><div class="dt-k">Assessed</div><div class="dt-v">${n.assessed_count} of ${ppl.length} carry a Ward assessment` +
+            ((n.top_tier_counts || []).length ? '<br>top tier: ' + n.top_tier_counts.map(([t, c]) => `${escapeHtml(t)} ${c}`).join(' · ') : '') +
+            ((n.skill_counts || []).length ? `<div class="section-label" style="margin:8px 0 2px">High-confidence skills here</div>` + n.skill_counts.map(([s, c]) => `<div class="flow-row"><span>${escapeHtml(s)}</span><span>${c}</span></div>`).join('') : '') +
+            `</div></div>`;
+        }
         groupBy(ppl, 'function').forEach(([fn, rows]) => {
           const lead = rows[0];
           html += `<div class="fn-row"><span>${escapeHtml(fn)} <span style="color:var(--text-dim)">· ${rows.length}</span></span>
@@ -1644,6 +1662,17 @@
   // house order, locations by size
   function groupBy(ppl, mode){
     const g = {};
+    if(mode === 'toptier' || mode === 'skill'){          // a person can appear under several
+      ppl.forEach(p => {
+        const A = p.assess || {};
+        const keys = mode === 'toptier' ? (A.top_tier || []) : Object.entries(A.skills || {}).filter(([, v]) => v === 'High Confidence').map(([s]) => s);
+        (keys.length ? keys : ['Not assessed']).forEach(k => (g[k] = g[k] || []).push(p));
+      });
+      const entries = Object.entries(g);
+      entries.forEach(([, rows]) => rows.sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name)));
+      entries.sort((a, b) => (a[0] === 'Not assessed') - (b[0] === 'Not assessed') || b[1].length - a[1].length || a[0].localeCompare(b[0]));
+      return entries;
+    }
     ppl.forEach(p => {
       const k = mode === 'function' ? (p.function || 'Unclassified') : mode === 'prev' ? (p.prev || 'No previous employer on record') : mode === 'prevtier' ? (p.prev_tier || 'No previous employer on record') : regionOf(p);
       (g[k] = g[k] || []).push(p);
@@ -1659,8 +1688,30 @@
   }
   function personMatches(p, q){
     if(!q) return true;
-    const hay = [p.name, p.title, p.location, placeOf(p), regionOf(p), p.seniority, p.function, ...(p.past || []).map(j => j.company + ' ' + (j.title || ''))].join(' ').toLowerCase();
+    const A = p.assess || {};
+    const hay = [p.name, p.title, p.location, placeOf(p), regionOf(p), p.seniority, p.function, p.bio,
+      ...(p.education || []), ...(A.top_tier || []), ...Object.keys(A.skills || {}),
+      ...Object.entries(A.skills || {}).filter(([, v]) => v === 'High Confidence').map(([s]) => s + ' high confidence'),
+      A.tenure, A.spoken_with_before ? 'spoken with before' : '',
+      ...(p.past || []).map(j => j.company + ' ' + (j.title || ''))].filter(Boolean).join(' ').toLowerCase();
     return hay.includes(q);
+  }
+  // Ward's assessment of a person: skills with confidence, rating, tenure, education, bio
+  function assessBlock(A, p){
+    const bits = [];
+    const skills = Object.entries(A.skills || {});
+    if(skills.length) bits.push(`<div class="section-label" style="margin:0 0 4px">Assessed skills</div>` +
+      skills.map(([s, v]) => `<div class="skillbar"><span>${escapeHtml(s)}</span><span class="${v === 'High Confidence' ? 'hi' : 'lo'}">${v === 'High Confidence' ? 'high' : 'low'}</span></div>`).join(''));
+    const meta = [];
+    if(A.rating) meta.push(`rated ${A.rating}/4`);
+    if(A.tenure) meta.push(`tenure: ${escapeHtml(A.tenure)}`);
+    if(A.hyperscaler_equivalent_seniority) meta.push(`hyperscaler-equivalent: ${escapeHtml(A.hyperscaler_equivalent_seniority)}`);
+    if(meta.length) bits.push(`<div class="p-meta" style="margin-top:6px">${meta.join(' · ')}</div>`);
+    if(p.education && p.education.length) bits.push(`<div class="section-label" style="margin:8px 0 4px">Education</div>` +
+      p.education.map(e => `<div class="skillbar"><span>${escapeHtml(e)}</span></div>`).join(''));
+    if(p.bio) bits.push(`<div class="section-label" style="margin:8px 0 4px">Biography</div><div style="color:var(--text-muted);line-height:1.5">${escapeHtml(p.bio)}</div>`);
+    if(bits.length) bits.push(`<div class="src" style="margin-top:6px">Ward Search's own judgement from Clockwork, not a researched fact.</div>`);
+    return bits.join('');
   }
   function personCard(p, isLead){
     const pills = [];
@@ -1668,6 +1719,10 @@
     if(p.recent) pills.push('<span class="pill new" title="started this role in the last 6 months">new</span>');
     if(p.do_not_contact) pills.push('<span class="pill dnc">do not contact</span>');
     if(p.grade === 'directory') pills.push('<span class="pill dir" title="Directory profile: name, title and employer only — no career history or location">directory</span>');
+    const A = p.assess || {};
+    (A.top_tier || []).forEach(t => pills.push(`<span class="pill tier" title="Ward rates this person top tier for ${escapeHtml(t)}">top tier · ${escapeHtml(t)}</span>`));
+    if(A.spoken_with_before) pills.push('<span class="pill spoke" title="Ward has spoken with this person before">spoken with</span>');
+    if(A.tenure === 'Recent Move') pills.push('<span class="pill recent-move" title="Ward tenure judgement: recently moved, probably not approachable yet">recent move</span>');
     const meta = [p.seniority ? `<span class="sen">${escapeHtml(p.seniority)}</span>` : '',
                   escapeHtml(placeOf(p)),
                   p.since ? `since ${escapeHtml(p.since)}` : '',
@@ -1683,7 +1738,8 @@
       <div class="p-title">${escapeHtml(p.title || '')}</div>
       <div class="p-meta">${meta}</div>
       <div class="p-more">
-        <div class="section-label" style="margin:0 0 4px">Past employers${past ? '' : ' · none on record'}</div>${past}
+        ${assessBlock(A, p)}
+        <div class="section-label" style="margin:8px 0 4px">Past employers${past ? '' : ' · none on record'}</div>${past}
         ${earlier ? `<div class="section-label" style="margin:8px 0 4px">Earlier roles here</div>${earlier}` : ''}
         ${notes.length ? `<div style="margin-top:8px;color:var(--text-dim)">${notes.join(' · ')}</div>` : ''}
       </div></div>`;

@@ -39,7 +39,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 3,
@@ -142,5 +142,28 @@
     "region": "County Dublin",
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "education": [
+    "Dip, School of Engineering - Construction Project Management, Trinity College Dublin, 2019 to 2020",
+    "ACA, Accounting and Finance, Chartered Accountants Ireland, 2013 to 2016",
+    "Bachelor of Commerce (B.Comm), Accounting and Finance, University College Dublin, 2009 to 2012",
+    "Associate of Chartered Accountants Ireland Chartered Accountants Ireland, 2017",
+    "Postgraduate Diploma Construction Project Management, Trinity College Dublin, 2020"
+  ],
+  "biography": "Chartered Accountant with 10+ years experience in the Real Estate industry. Experienced across Acquisition, Development and Investment (Private Equity) across multiple asset classes including Data Centres and Industrial. Currently responsible for investment and growth strategy for a number of AWS cloud computing regions in EMEA.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

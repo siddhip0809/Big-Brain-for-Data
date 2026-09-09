@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -89,5 +89,23 @@
     "region": "Illinois",
     "country": "United States",
     "group": "Illinois"
+  },
+  "education": [
+    "Business Administration, Management and Operations, East Texas A&M University",
+    "Finance, Investments and Securities, Midwestern State University"
+  ],
+  "biography": "Data Center Site Negotiator at Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Poor",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -120,6 +120,20 @@ Real data has started loading. Currently in the brain:
   and `data/derived/job_titles.csv` + `job_titles_by_function.csv` index
   every job title in use per company and per department — the exact
   wording to search on (rebuild with `scripts/build_title_index.py`).
+  **Ward's own assessment layer** was imported from the same Clockwork
+  exports on 2026-09-09 (`scripts/import_clockwork_assessments.py`):
+  2,105 people now carry skill confidences across twelve specialisms
+  (site acquisition 330 high-confidence, estimating & cost control 430,
+  permitting 197, selling 262 …), top-tier flags (Development 585,
+  Pre-Construction 540, Sales 334, Energy 165), a tenure judgement
+  (1,239 Good, 443 Recent Move), 228 "spoken with before", 1,730
+  education records and 1,435 biographies. It is judgement, not research,
+  and is labelled as such wherever it appears. Clockwork's "Under
+  Represented Group" column was deliberately left out as sensitive
+  personal data. In the atlas: top-tier and "spoken with" badges, a
+  "recent move" warning, org-chart groupings by top tier and by assessed
+  skill, per-company skill coverage, and the filter matches skills,
+  education and biographies.
   On 2026-09-09 a **bulk people export** (14,972 rows: name, title,
   employer, LinkedIn) added **7,110** more at companies already tracked —
   Kimley-Horn 384, AWS 349, Microsoft 247, Google 221, Equinix 181 — after

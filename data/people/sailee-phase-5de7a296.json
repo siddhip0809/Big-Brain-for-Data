@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Energy & Utilities",
   "function_source": "title",
   "seniority_rank": 3,
@@ -135,5 +135,18 @@
     "region": "Washington",
     "country": "United States",
     "group": "Washington"
+  },
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "High Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

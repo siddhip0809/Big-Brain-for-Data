@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "nlighten",
   "function": "Sales & Leasing",
@@ -108,5 +108,13 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "LLB, Law, University of Lancashire"
+  ],
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

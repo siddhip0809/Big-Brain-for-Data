@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 2,
@@ -184,5 +184,24 @@
     "region": "Maryland",
     "country": "United States",
     "group": "Maryland"
+  },
+  "education": [
+    "Masters, Washington University in St. Louis - Olin Business School, 2002 to 2004",
+    "MBA, Marketing, Washington University in St. Louis - Olin Business School, 2002 to 2004",
+    "BA, History, Communications, The College of Wooster, 1991 to 1995",
+    "Bachelors, The College of Wooster, 1991 to 1995"
+  ],
+  "biography": "Senior executive and entrepreneur adept at forging connections across the digital infrastructure value chain—from landowners, developers, service providers, engineers, and AI/ML-hyperscale cloud firms —underscoring the effectiveness of a collaborative professional.  Across several decades, strategic thinking and creativity have been core drivers establishing Dan as a leader in navigating the complexities of digital ecosystems.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

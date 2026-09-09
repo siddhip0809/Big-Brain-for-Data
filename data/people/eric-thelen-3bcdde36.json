@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 2,
@@ -104,5 +104,22 @@
     "region": "New York",
     "country": "United States",
     "group": "New York"
+  },
+  "education": [
+    "Business Administration and Management, General, East Carolina University",
+    "Sales Leadership Council, Customer Centric Selling, The Complex Sale, Solution Selling, Various Sales Executive Trainings"
+  ],
+  "biography": "High performing, sales executive with 20+ years of experience across cloud, data center, software, network, and the evolving AI industry. Consistently ranked in the top 1% of sales achievers, excelling at industry leaders like Amazon Web Services (AWS) and Equinix, as well as PE-backed high-growth firms acquired by major players, including Savvis (Lumen), Yipes (Reliance), Telx (Digital Realty), and Xand (TierPoint). \n\nRecognized for shaping go-to-market strategies, expanding high-profile accounts, and mobilizing global teams to drive exceptional outcomes. Proven ability to secure complex, high-value deals across enterprise, mid-market, and startup segments. Expert in revenue growth, product-market fits, process optimization, and cross-functional alignment to accelerate scaling and strategic exits. Dedicated to cultivating a high-trust, high-performance culture fueled by innovation, continuous learning, and customer obsession.\n\nKey Skills: Vision/GTM Strategy | Sales Leadership | Sales | Innovation & Adaptability | Managing Complexity | Earning Trust| Fostering High-Performance Sales Cultures | Analytical Thinking | Negotiating & Deal Management\n\nKey Expertise: Cloud Technologies | GPUaaS | Network Interconnections | Artificial Intelligence (AI) | Edge Computing | SaaS | Data Centers | Product Market Fits",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Poor",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

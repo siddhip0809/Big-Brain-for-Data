@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Pre-Construction & Cost",
   "function_source": "title",
   "seniority_rank": 3,
@@ -104,5 +104,22 @@
     "region": null,
     "country": "Singapore",
     "group": "Singapore"
+  },
+  "education": [
+    "MSc, Project Management, University of Reading, 2008 to 2010",
+    "MEng, Architecture and Environmental Engineering, University Of Nottingham, 2002 to 2006"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Pre-Construction & Cost",
   "function_source": "title",
   "seniority_rank": 0,
@@ -118,5 +118,19 @@
     "region": "Colorado",
     "country": "United States",
     "group": "Colorado"
+  },
+  "education": [
+    "BS, Construction Science, Texas A&M University, 2000 to 2005"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

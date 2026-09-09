@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 5,
@@ -125,5 +125,31 @@
     "region": "Île-de-France",
     "country": "France",
     "group": "France"
+  },
+  "education": [
+    "BOSIET HUET, Falck Nutec, 2016 to 2016",
+    "Black-Belt, LSS Methodology & experience, Georges Group University, 2010 to 2011",
+    "Green Belt, Lean Six Sigma certification, Georges Group University, 2009 to 2009",
+    "Master 2, Internal Audit, Aix-Marseille Graduate School of Management - IAE, 2005 to 2006",
+    "Strategy & Financial acumen, Insead",
+    "Institut de Hautes Etudes de Defense Nationale jeunes, IHEDN"
+  ],
+  "biography": "Enia identifie qualifie et développe des projets de production de biogaz, tels que le projet ORYAZ développé par Enia à Fos-sur-Mer. . Sepia Infrastructure identifie qualifie et développe des projets industriels numériques ainsi que l’infrastructure énergétique associée.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Energy · ESA negotiation": "High Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -39,7 +39,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 2,
@@ -120,5 +120,31 @@
     "region": "North Holland",
     "country": "Netherlands",
     "group": "Netherlands"
+  },
+  "education": [
+    "M.S., Building Design, Arizona State University, 2002 to 2004",
+    "B.Arch, Architecture, PVP College of Architecture, 1996 to 2001",
+    "High School, Vidya Bhavan, 1981 to 1996",
+    "Registered for PMP exam, Project Management, PMI",
+    "Master of Science Building Design and Energy Systems, Arizona State University, 2004",
+    "Bachelor of Architecture Architecture, University of Pune, 2001"
+  ],
+  "biography": "Senior leader with deep expertise in the development of digital infrastructure at scale.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Pre-Construction · estimating & cost control": "High Confidence",
+      "Pre-Construction · project scheduling": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

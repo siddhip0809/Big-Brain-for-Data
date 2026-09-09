@@ -37,7 +37,7 @@
     "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Pre-Construction",
   "current_company_id": "switch",
   "function": "Pre-Construction & Cost",
@@ -87,5 +87,16 @@
     "region": "Nevada",
     "country": "United States",
     "group": "Nevada"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

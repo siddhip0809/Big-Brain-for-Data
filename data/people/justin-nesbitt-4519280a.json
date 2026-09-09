@@ -39,7 +39,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Executive leadership",
   "function_source": "title",
   "seniority_rank": 1,
@@ -107,5 +107,22 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Business Studies, Sales & Marketing , Buckingham College of Further Education, 1989 to 1991",
+    "Business , Davies College London, 1987 to 1989"
+  ],
+  "biography": "As Managing Director at nLighten UK, I’m passionate about driving innovation in the data centre industry. Here’s what sets us apart:\n\nStrategic Locations: nLighten’s Datacentre's span metropolitan areas in the UK and across EMEA, providing a unique advantage for both enterprise and edge users.\nSustainability Focus: We actively integrate our data centres into local utility infrastructures, promoting energy recovery and community sharing.\nDigital Marketplaces: Our local digital marketplaces empower customers and partners, enabling them to thrive in the dynamic digital economy.\nPersonal Drive: I thrive in high-pressure environments, leveraging my confidence and self-motivation to achieve success.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

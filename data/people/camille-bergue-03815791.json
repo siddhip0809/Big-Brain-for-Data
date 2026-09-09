@@ -39,7 +39,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -94,5 +94,23 @@
     "region": "Île-de-France",
     "country": "France",
     "group": "France"
+  },
+  "education": [
+    "Real Estate, University College of Estate Management, 2012 to 2015",
+    "Business Administration, Business Administration And Management, Management, Université Paris Dauphine   Psl, 2010 to 2012"
+  ],
+  "biography": "Camille Bergue has 20 years of experience in real estate development, including industrial, light industrial, farmland, and office asset classes. She has a minimum of 8 years in entitlements and permitting, and 18-19 years in lease negotiations across various contract types. Her current role is Data Center Land Acquisition Manager at Microsoft, where she focuses on hyperscale data center projects primarily in Western Europe. She is an individual contributor and reports to John Belton, Head of Development. She has previously worked at Cushman & Wakefield, Danone, and Hermes.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

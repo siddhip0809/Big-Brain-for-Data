@@ -39,7 +39,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "mapping list",
   "seniority_rank": 3,
@@ -142,5 +142,31 @@
     "region": "County Dublin",
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "education": [
+    "Certificate, Corporate Real Estate and Facilities Management, RICS, 2014 to 2015",
+    "Construction, Design, Northern Regional College, 2012 to 2013",
+    "PgDip, Management Practice, Ulster University, 2012 to 2013",
+    "City and Guilds L2 Computer Aided Design and Manufacturing, Building Construction Technology, Northern Regional College, 2012 to 2013",
+    "Management, Ulster University, 2012 to 2013",
+    "Certificate, Fire Safety and Risk Management, Nebosh, 2011 to 2011",
+    "Management, Nebosh, 2011 to 2011",
+    "Bachelor Of Science, Bachelors, Ulster University, 2006 to 2010",
+    "BSc (Hons), Property Investment and Development, Ulster University, 2006 to 2010"
+  ],
+  "biography": "Corporate Real Estate professional with experience in all aspects of corporate occupier portfolio management and design & construction project management. International experience in negotiating hyper scale data centre acquisition and development.\nLeading in the delivery and implementation of corporate real estate strategy, aligned to the broader business objective.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "rating": 3.0,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

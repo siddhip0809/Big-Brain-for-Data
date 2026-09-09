@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "bytedance",
   "function": "Development & Real Estate",
@@ -121,5 +121,28 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor of Arts (BA), Public Policy Studies",
+    "Politics, Philosophy, and Economics Certificate",
+    "History Minor, Duke University, 2011 to 2015"
+  ],
+  "biography": "Senior Site Acquisitions Manager in EMEA Data Center Supply Solutions for Amazon Web Services (AWS), based in London, England. Previously in AWS Professional Services leading Business Planning & Governance global team. Prior to that, Senior Launch Program Manager on Amazon's Global Specialty Fulfillment, EU Launch & Expansion team. Based in Amazon EU Headquarters in Luxembourg and managed AMXL Last Mile launches for the UK and EU (DE, AT, FR, IT, ES).Formerly Associate Consultant and Project Manager in McChrystal Group’s London, England office, focusing on advisory support to a range of European businesses. Previously located in the firm's Leadership Institute in Washington DC, working with a wide range of clients across industries to develop leaders, help organizations move faster and build high performing teams. Special focus and experience in the oil & gas, finance and healthcare sectors.Duke University alum, B.A. Public Policy Studies with additional degrees in Philosophy, Politics, & Economics and History.Previous interest in U.S. Foreign Policy, Intelligence, National Security, Civil-Military Affairs, and Counter-Proliferation.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "rating": 3.0,
+    "hyperscaler_equivalent_seniority": "Director",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

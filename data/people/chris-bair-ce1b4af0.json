@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Executive leadership",
   "function_source": "title",
   "seniority_rank": 0,
@@ -86,5 +86,21 @@
     "region": "Colorado",
     "country": "United States",
     "group": "Colorado"
+  },
+  "education": [
+    "Masters, Embry-Riddle Aeronautical University, 1993 to 1995",
+    "Bachelors, United States Air Force Academy, 1987 to 1991"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

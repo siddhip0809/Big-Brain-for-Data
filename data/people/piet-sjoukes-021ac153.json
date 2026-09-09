@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 3,
@@ -111,5 +111,24 @@
     "region": "North Holland",
     "country": "Netherlands",
     "group": "Netherlands"
+  },
+  "education": [
+    "Drs., Information Studies, Doctoraal, University of Amsterdam, 1988 to 1994",
+    "Bachelors, Economics, Vrije Universiteit Amsterdam (VU Amsterdam), 1988 to 1994",
+    "-, Stella Maris, 1980 to 1988",
+    "-, CSA ML"
+  ],
+  "biography": "Piet Sjoukes, Director Sales @NorthC datacenters With eleven data centers NorthC is the largest regional data center business in the Netherlands that serves both large organizations and government institutions as well as cloud and IT providers and small businesses. NorthC differentiates itself by their strong local presence in different regions, qualitative high-end services, and custom solutions when it comes to connectivity and hybrid cloud solutions, among other things. Thanks to close collaborations with regional IT partners, NorthC can offer complete solutions that help customers with their digital transformation. Together the ten locations have a surface area of 60.000 m2 and an electrical capacity of 35 megawatts Mr. Sjoukes previously worked for industry leaders such as: Interxion - Sales & Marketing Director (2016-2021); Akamai, Regional Sales Manager (2015- 2016); Ericsson, Sales Manager (2010-2015) Dutchview; (Sales Manager, 2005-2010); Cap Gemini (New Business development manager 1993 – 1999); WorldOnline (Director E-commerce, 1999 – 2001) and Sybase Inc. (Sales Manager, 2001 – 2005). Piet Sjoukes was also associated partner the CostFocus consultancy firm and above all ....a fanatic Wine lover & expert.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

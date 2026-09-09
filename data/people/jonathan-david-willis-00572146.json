@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Construction & Delivery",
   "function_source": "title",
   "seniority_rank": 4,
@@ -103,5 +103,23 @@
     "region": "Washington",
     "country": "United States",
     "group": "Washington"
+  },
+  "education": [
+    "Bachelor of Arts (B.A.) - Music, Business Minor, University Of Southern California, 2004 to 2008"
+  ],
+  "biography": "Senior Program Manager (Microsoft Cloud Infrastructure)",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "hyperscaler_equivalent_seniority": "Director",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

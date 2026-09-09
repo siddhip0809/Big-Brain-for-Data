@@ -240,6 +240,16 @@ between tracked companies are off by default (toggle in the Lines key)
 because they are a people signal, not a structural tie — they carry no
 layout spring and, when on, count toward "connected".
 
+**Ward's assessment layer (2026-09-09).** Person cards badge top-tier
+functions, "spoken with before" and a "recent move" warning; expanding a
+card shows assessed skills with high/low confidence, the 1-4 rating, the
+tenure judgement, the hyperscaler-equivalent seniority, education and
+biography, over a line saying it is Ward's judgement rather than research.
+The org chart groups by **top tier** or **assessed skill** (a person can
+appear under several), each company panel summarises how many of its
+people are assessed and which high-confidence skills sit there, and the
+filter matches skills, education and biography text.
+
 **People — the org chart (added 2026-09-08).** People are deliberately
 *not* drawn as nodes in the 3D view (that was what made the earlier full
 graph unreadable). Instead they come back through each company: the

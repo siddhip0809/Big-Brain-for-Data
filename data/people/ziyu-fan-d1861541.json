@@ -37,7 +37,7 @@
     "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Pre-Construction",
   "current_company_id": "microsoft",
   "function": "Pre-Construction & Cost",
@@ -87,5 +87,22 @@
     "region": "Washington",
     "country": "United States",
     "group": "Washington"
+  },
+  "education": [
+    "Summer Insititute of General Management, Stanford University Graduate School of Business, 2017 to 2017",
+    "Master of Science - MS, Chemical Engineering, Columbia University",
+    "Bachelor of Arts (B.A.) Cum Laude, The Dean's List, Chemistry, Carleton College"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 1,
@@ -152,5 +152,23 @@
     "region": "California",
     "country": "United States",
     "group": "California"
+  },
+  "education": [
+    "Bachelor of Science, Penn State University",
+    "Juris Doctor (J.D.), Corporate Law, American University Washington College of Law"
+  ],
+  "biography": "Commercial real estate leader with two decades of experience successfully structuring, diligencing, negotiating, and managing investment transactions. Builds and manages teams and leads global cross-functional strategic initiatives. Strong communicator who thrives in a fast-paced, collegial environment.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

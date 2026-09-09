@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Energy & Utilities",
   "current_company_id": "google",
   "function": "Energy & Utilities",
@@ -86,5 +86,34 @@
     "region": null,
     "country": "France",
     "group": "France"
+  },
+  "education": [
+    "Master of Business Administration (MBA), Energy & Clean Tech, Texas Mccombs School Of Business, 2014 to 2014",
+    "Master of Business Administration (MBA), Energy & Clean Tech, Texas Mc Combs School Of Business, 2014 to present",
+    "Master of Business Administration (MBA), Energy & Clean Tech, The University of Texas at Austin - Red McCombs School of Business, 2014 to 2014",
+    "MBA, Buenos Aires, Argentina, IAE Business School, 2013 to 2013",
+    "Master's degree, Business School, Saint Louis University, 2005 to 2005",
+    "Master II, International Business, ESSCA Ecole de management, 2002 to 2007",
+    "Master II, International Business, ESSCA, 2002 to 2007"
+  ],
+  "biography": "Data Centre Energy & Location Strategy at Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence",
+      "Energy · ESA negotiation": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
   }
 }

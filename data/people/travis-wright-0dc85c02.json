@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Energy & Utilities",
   "function_source": "title",
   "seniority_rank": 2,
@@ -86,5 +86,23 @@
     "region": "Arizona",
     "country": "United States",
     "group": "Arizona"
+  },
+  "education": [
+    "Bachelors, Marquette University, 1988 to 1993"
+  ],
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "High Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence",
+      "Water · WSA negotiation": "Low Confidence",
+      "Water · engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

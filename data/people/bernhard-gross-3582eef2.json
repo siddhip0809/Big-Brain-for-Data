@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 5,
@@ -86,5 +86,17 @@
     "region": null,
     "country": "Austria",
     "group": "Austria"
+  },
+  "education": [
+    "Vertriebsmanagement Vertrieb und Marketing allgemein, WIFI Wien, 2004 to 2005",
+    "Nachrichtentechnik und Elektronik, HTL Mödling"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

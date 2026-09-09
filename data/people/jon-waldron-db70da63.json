@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "digital-realty",
   "function": "Sales & Leasing",
@@ -140,5 +140,23 @@
     "region": null,
     "country": "Netherlands",
     "group": "Netherlands"
+  },
+  "education": [
+    "Dutch Language Level 3 and 4, British Language School, 2009 to 2010",
+    "Strategic Selling, Miller Heiman Sales Training, 2006 to 2007"
+  ],
+  "biography": "Accomplished sales and business development professional with a strong technical background. Having managed and developed customers worldwide I have an extensive network of diverse contacts across the globe.\n\nData Center, Colocation, Internet Exchange, Peering, 10G, 100G, Cloud Connect, Dark Fiber, IP Transit.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
   }
 }

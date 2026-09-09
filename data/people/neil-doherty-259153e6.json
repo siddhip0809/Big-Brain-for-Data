@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 3,
@@ -90,5 +90,17 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Pearson Edexcel Level 7 NVQ Diploma in Construction Senior Management, Endeavour Training and Assessment UK Ltd",
+    "BSc (Hons), Construction Management, The Nottingham Trent University"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

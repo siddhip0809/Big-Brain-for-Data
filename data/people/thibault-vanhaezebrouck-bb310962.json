@@ -25,5 +25,18 @@
   "sources": [
     "Bulk people export (de11fc69-people.csv), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-09",
+  "education": [
+    "Master of Science: International Project Management, ENGINEERING, Glasgow Caledonian University, 2016 to 2017",
+    "Diplôme d'ingénieur, Construction Engineering, Ecole spéciale des Travaux publics, du Bâtiment et de l'Industrie, 2014 to 2017",
+    "PSI (Physique / Sciences de l'ingénieur), Lycee Stanislas, Paris VI, 2012 to 2014"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
 }

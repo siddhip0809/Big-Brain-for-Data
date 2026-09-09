@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "microsoft",
   "function": "Development & Real Estate",
@@ -104,5 +104,23 @@
     "region": "County Dublin",
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "education": [
+    "Master of Economic Science International Finance, International Finance, Macro Econmics, Financial Economics, Econometrics etc., NUI Galway, 2011 to 2012",
+    "Bachelor of Science in Property Studies, Valuations, Law, Tax, Planning, Investments, Business Management, Property Management,, Galway-Mayo Institute of Technology, 2007 to 2011"
+  ],
+  "biography": "In 2007 I undertook an honours degree in Property Studies.  This degree challenged me across a wide spectrum of areas including Valuations, Landlord & Tenant, Measurement, Building Technology, development, Property Law, presentations, negotiations and report writing. I am proficient in IT skills having completed the ECDL advanced. In the final year of the degree with additional hard work I managed to achieve top of the class and was awarded student of the year. This encouraged me to undertake a Masters in International Finance. The programme provided a special emphasis on current issues in international economic policy and on recent developments in the areas of multinational investment flows, dynamics of exchange rates, risk management and asset pricing.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
   }
 }

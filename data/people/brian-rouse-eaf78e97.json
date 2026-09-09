@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "krios-infrastructure",
   "function": "Development & Real Estate",
@@ -111,5 +111,23 @@
     "region": "County Dublin",
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "education": [
+    "Bachelor Of Science, Bachelors, Chemistry, Geochemistry, Geology, University College Dublin, 1994 to 1999"
+  ],
+  "biography": "Brian Rouse has 12 years of experience developing data centers for AWS, Meta, and Microsoft, delivering gigawatts of data center capacity across the US, Europe, Canada, Singapore, Australia, and India. He is proficient in legal and permitting systems across Europe and prides himself on stakeholder engagement, working effectively with jurisdictional authorities (AHJs) to deliver projects on time and budget. Brian emphasizes his ability to navigate the potential negative media connotations of data centers while ensuring projects benefit local communities. He enjoys new projects, problem-solving, and delivering strong results from uncertain beginnings.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

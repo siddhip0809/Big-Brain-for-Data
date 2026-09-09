@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 3,
@@ -90,5 +90,21 @@
     "region": "New Jersey",
     "country": "United States",
     "group": "New Jersey"
+  },
+  "education": [
+    "Bachelors of Science, Marketing, Stockton University, 1998 to 2004"
+  ],
+  "biography": "CoreSite, An American Tower Company (NYSE: AMT), delivers secure, reliable, high-performance data center solutions across eight key North American markets. More than 1,350 of the world’s leading enterprises, network operators, cloud providers and supporting service providers choose CoreSite to connect, protect and optimize their performance-sensitive data, applications and computing workloads. Our scalable, flexible solutions and 400+ dedicated employees consistently deliver unmatched data center options—all of which leads to a best-in-class customer experience and lasting relationships.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

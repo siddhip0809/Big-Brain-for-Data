@@ -37,7 +37,7 @@
     "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Pre-Construction",
   "current_company_id": "yondr",
   "function": "Pre-Construction & Cost",
@@ -164,5 +164,20 @@
     "region": "Texas",
     "country": "United States",
     "group": "Texas"
+  },
+  "education": [
+    "BSc (Hons), Construction Cost Management, Kingston University, 1993 to 1997",
+    "BTEC National Diploma, Construction, University Of West London, 1991 to 1993"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

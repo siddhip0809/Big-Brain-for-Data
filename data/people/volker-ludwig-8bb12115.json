@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "mapping list",
   "seniority_rank": 1,
@@ -132,5 +132,21 @@
     "region": "Hesse",
     "country": "Germany",
     "group": "Germany"
+  },
+  "education": [
+    "Master Of Business Administration, Masters, Business Administration, Business Administration And Management, Management, Euro   Fh Europäische Fernhochschule Hamburg, 2009 to 2010",
+    "Bachelor Of Arts, Bachelors, Business Administration, Euro   Fh Europäische Fernhochschule Hamburg, 2006 to 2009"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

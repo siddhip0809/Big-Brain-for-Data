@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "virtus-data-centers",
   "function": "Sales & Leasing",
@@ -84,5 +84,18 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "biography": "Currently the SVP of Sales at Virtus, where he leads a lean sales team with a focus on hyperscale deals (80-84% of business). He has been with Virtus since its inception, handling deals and engaging in \"upward management.\" He has experience selling to 5-10 clients, including the \"big 3\" and Chinese companies in Europe. Before his career in sales, he was an opera singer until age 25. He is open to new opportunities after April 2027, seeking roles with financial flexibility and upside against salary, where his experience is valued, and he can make significant contributions. He is not interested in large, bureaucratic companies like CyrusOne, Digital Realty, or Equinix, preferring startups and scale-ups. He is open to consulting but not interested in \"coasting\" or being a \"cog in a machine.\" He values direct communication and prefers work environments without excessive HR policies. He describes himself as \"northern grumpy,\" enjoys working alone, and dislikes industry events. He is 45 years old, based in London, married with two children, and originally from York.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -103,6 +103,22 @@ Every node also carries these common fields, regardless of type:
 - `linkedin`
 - `do_not_contact`, `pipeline` (search/stage/rank/date per Clockwork
   candidacy), `industry_segment`
+- `assessment` — **Ward Search's own judgement, imported from Clockwork
+  2026-09-09, not a researched fact.** Holds `skills` (twelve named
+  specialisms — development site acquisition, permitting & entitlements,
+  financial modelling, pre-con estimating & cost control, project
+  scheduling, sales selling and leasing, energy ESA negotiation,
+  interconnection & transmission negotiation, transmission engineering,
+  water WSA negotiation and engineering — each `"High Confidence"` or
+  `"Low Confidence"`), `top_tier` (the functions Ward rates this person
+  top tier in), `tenure` (Good / Average / Poor / Recent Move),
+  `rating` (1-4; Clockwork's 0 means unrated and is dropped),
+  `spoken_with_before`, `hyperscaler_equivalent_seniority` (Ward's
+  title-equivalence assumption between hyperscalers and developers),
+  plus `source` and a `note` restating that it is judgement.
+- `education`, `biography` — from the same exports.
+- **Not imported:** Clockwork's "Under Represented Group" column is
+  sensitive personal data and stays in Clockwork.
 - `record_grade` — `"directory"` on profiles from the 2026-09-09 bulk
   export (name, title, employer, LinkedIn only; unverified). Absent on the
   Clockwork-sourced records, which carry career history, location and

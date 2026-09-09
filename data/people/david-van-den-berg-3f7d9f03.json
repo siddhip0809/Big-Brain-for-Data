@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 3,
@@ -104,5 +104,17 @@
     "region": "North Holland",
     "country": "Netherlands",
     "group": "Netherlands"
+  },
+  "education": [
+    "Bachelor programme Cultural Sciences, Humanities/Humanistic Studies, Open Universiteit, 2020 to 2022",
+    "Master's degree, Computer Science, University of Groningen, 2008 to 2009",
+    "BSc. (three yrs), Dutch language and literature, Vrije Universiteit Amsterdam (VU Amsterdam), 2002 to 2007",
+    "Bachelor (not completed, just two years), Cultural Anthropology and Sociology, Vrije Universiteit Amsterdam (VU Amsterdam), 2000 to 2002",
+    "Bachelor of Economics, Business Economics and Information Technology, Amsterdam University of Applied Sciences, 1989 to 1993"
+  ],
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

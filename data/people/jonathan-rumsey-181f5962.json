@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 2,
@@ -110,5 +110,23 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Master of Science (MSc), Remote Sensing and Spatial Analysis, University of Southampton, 2006 to 2007",
+    "Bachelor of Science (BSc), Geology with Physical Geography, University of Southampton, 2003 to 2006"
+  ],
+  "biography": "I am currently Senior Director, Site Selection and Acquisition at NTT GDC, responsible for leading the end-to-end delivery of real estate acquisitions and early phase development across EMEA, driving cross functional development of real estate acquisition strategy and early stage development.\n\nI have a vast wealth of experience in the real estate industry including a wide range of projects throughout the property lifecycle. This, alongside strong stakeholder engagement and financial acumen, has allowed me to develop and execute effective global real estate strategy.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

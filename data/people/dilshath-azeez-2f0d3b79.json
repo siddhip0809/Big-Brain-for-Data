@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Pre-Construction & Cost",
   "function_source": "title",
   "seniority_rank": 5,
@@ -104,5 +104,16 @@
     "region": "Maryland",
     "country": "United States",
     "group": "Maryland"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

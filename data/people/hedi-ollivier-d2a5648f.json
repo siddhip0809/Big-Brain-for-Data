@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "colt-data-centre-services",
   "function": "Development & Real Estate",
@@ -139,5 +139,18 @@
     "region": "Île-de-France",
     "country": "France",
     "group": "France"
+  },
+  "education": [
+    "Master of Science (MSc), Civil Engineering, Structural Design, London South Bank University, 2007 to 2009",
+    "Master 2 (Master's degree), Civil Engineering, Project Management, Quantity surveying, Cost management, Université Claude Bernard Lyon 1, 2006 to 2009"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

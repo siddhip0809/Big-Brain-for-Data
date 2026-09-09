@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "atlasedge",
   "function": "Development & Real Estate",
@@ -121,5 +121,27 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Master of Engineering - MEng, Mechanical Engineering, The University of British Columbia, 2007 to 2008",
+    "Master of Engineering - MEng, University Of Nottingham, 2005 to 2009",
+    "A-Levels Maths Physics, Brighton College, 2004",
+    "MEng Mechanical Engineering, The University of Nottingham & The University of British Colombia, 2009"
+  ],
+  "biography": "Experienced Real Estate Finance Professional with a well balanced skill set and exceptional communication skills.  Confident, intelligent and adaptable with a positive attitude and proven numeric and analytic capabilities.  Highly motivated and driven to achieve improvement through identifying key priorities and delivering fast, appropriate and creative solutions.  I am able to master new challenges swiftly, effectively and under pressure.  This has enabled me to work productively, both individually and collaboratively.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 1.0
   }
 }

@@ -39,7 +39,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 2,
@@ -142,5 +142,24 @@
     "region": "Lombardy",
     "country": "Italy",
     "group": "Italy"
+  },
+  "education": [
+    "Master's degree, Electrical and Electronics Engineering, Università degli studi Roma TRE, 1997 to 2003",
+    "Master's degree, Electrical and Electronics Engineering, Università degli Studi di Roma Tre, 1997 to 2003"
+  ],
+  "biography": "I lead a international team responsible for identifying, evaluating, and securing strategic locations for building and operating data centers across Europe, Middle East, and Africa. I have 20 years of experience in different fields including operations, engineering, and business development roles.\n\nI leverage my MS degree in Electrical Engineering and my certifications in Program/Project Management and Artificial Intelligence to deliver data center solutions that meet the needs and expectations of our customers, partners, and stakeholders. I am passionate about driving innovation, sustainability, and efficiency in the data center sector, and I collaborate with industry associations, government agencies, and local communities to promote best practices and standards.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

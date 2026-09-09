@@ -39,7 +39,7 @@
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 1,
@@ -142,5 +142,26 @@
     "region": "Washington",
     "country": "United States",
     "group": "Washington"
+  },
+  "education": [
+    "BBA, Marketing, Texas A&M University, 1993 to 1997",
+    "Bachelor of Business Administration (B.B.A.), Marketing, Mays Business School - Texas A&M University, 1993 to 1997"
+  ],
+  "biography": "Josh has been involved in data centers for the past 20 years.  He has evolved into a leader in the industry by demonstrating success in all aspects of the business:  Site Selection, Development, Leasing, Financing, and Operating.\n\nSpecialties: Data Center Site Selection, Capital Financing, Data Center Development, Data Center Leasing, Colocation, Utility Availability\nJosh has been involved in data centers for the past 20 years. He has evolved into a leader in the industry by demonstrating success in all aspects of the business: Site Selection, Development, Leasing, Financing, and Operating.\r\n\r\nSpecialties: Data Center Site Selection, Capital Financing, Data Center Development, Data Center Leasing, Colocation, Utility Availability",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

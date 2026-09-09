@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 1,
@@ -128,5 +128,23 @@
     "region": "Texas",
     "country": "United States",
     "group": "Texas"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Real Estate Development, Finance, Southern Methodist University, 2020 to 2022",
+    "BS, Biomechanical Engineering, UMass Boston, 2000 to 2003"
+  ],
+  "biography": "Bilingual (English/Spanish) Data Center Executive with over 16 years of comprehensive…\nBilingual (English/Spanish) Data Center Executive with over 16 years of comprehensive experience in data center development, engineering, operations, and strategy, both domestically and internationally. Proven track record in commercial/sales strategy, demonstrating adeptness in negotiating complex deals and fostering strategic partnerships. Recognized for a unique blend of technical acumen, entrepreneurial spirit, and sales finesse, resulting in industry-leading achievements such as the establishment of multi-billion-dollar joint ventures and securing pivotal patents. Former Lieutenant Commander and Naval Aviator in the US Navy, embodying a commitment to leadership, innovation, and excellence.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

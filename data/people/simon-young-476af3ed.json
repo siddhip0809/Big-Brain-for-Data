@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Energy & Utilities",
   "function_source": "title",
   "seniority_rank": 4,
@@ -110,5 +110,29 @@
     "region": null,
     "country": "United Arab Emirates",
     "group": "United Arab Emirates"
+  },
+  "education": [
+    "Miller Heiman Academy, Sales Management , University of Portsmouth, 2015 to 2016"
+  ],
+  "biography": "With over 25 years of expertise in technical sales and business development, I currently lead Google's Energy & Location Strategy for the Middle East and Africa. By driving infrastructure acquisition, site selection, and portfolio management, our team enhances Google's cloud services across the region. Certified in data centre design and sustainability, I bring a strategic approach to optimizing data centre assets and expanding into key markets.  \n\nPreviously, as Director at RED Engineering, I spearheaded business development across MEA, delivering impactful strategies for regional growth. My consultative approach and ability to foster global partnerships have consistently enabled successful market expansions. Passionate about advancing energy and infrastructure solutions, I aim to empower organizations to achieve scalable, sustainable growth.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence",
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

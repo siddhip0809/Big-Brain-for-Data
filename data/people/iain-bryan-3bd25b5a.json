@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 3,
@@ -104,5 +104,21 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "A levels, King Edwards VI Lichfield, 1997 to 2004"
+  ],
+  "biography": "As a Global Key Account Director at Alibaba Cloud, I am responsible for managing and growing the largest blue-chip businesses across the Nordics and UKI regions. I have over 15 years of experience in sales and more recently within the cloud, telecoms, and IT industry, with a proven track record of delivering results and exceeding targets. I have a strong passion and ambition for driving new business, creating strategic business plans, and generating meaningful growth for my clients and my company. I have a deep understanding of the cloud services market and key technologies, such as WIFI, data-com, and network energy, that enable digital transformation and innovation. I also have a consultative approach, a complex sales model, and a collaborative mindset, which allow me to work with the end users, the channel, the solution managers, and the international teams effectively. I am proud to be a part of Alibaba Cloud, the leading cloud service provider in the world, and to contribute to its mission of making it easy to do business anywhere.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -104,5 +104,22 @@
     "region": null,
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Diploma, Property Investment, The College of Estate Management, Reading, 2000 to 2002",
+    "Bachelor of Science (BS), Land Economics, University of the West of Scotland, 1990 to 1994",
+    "Bachelor of Science (BS), Land Economics, University of Paisley, 1990 to 1994"
+  ],
+  "biography": "Regional Leader - Real Estate, Data Centre Supply Solutions (DCSS) EMEA",
+  "assessment": {
+    "skills": {
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

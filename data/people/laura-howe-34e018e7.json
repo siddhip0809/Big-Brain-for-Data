@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Energy & Utilities",
   "function_source": "title",
   "seniority_rank": 3,
@@ -75,5 +75,24 @@
     "region": "California",
     "country": "United States",
     "group": "California"
+  },
+  "education": [
+    "BA, Economics, Middlebury College, 2003 to 2007",
+    "High School, Deerfield Academy, 2000 to 2003"
+  ],
+  "biography": "Director at Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

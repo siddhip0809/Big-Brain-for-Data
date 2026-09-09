@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 3,
@@ -111,5 +111,21 @@
     "region": "Virginia",
     "country": "United States",
     "group": "Virginia"
+  },
+  "education": [
+    "Bachelors Science, Industrial Technology and Design, Montclair State University, 1991 to 1995"
+  ],
+  "biography": "Jon Litvany has been directly involved in more than 1,000 data center projects of various size and scope ranging from global 1M+ square feet multi-site build to suits down to turn-key rack based telco closets.  His endeavors have encompassed over 30 million square feet of data center space over the past 27 years.  Jon has unique insight into communications, mission critical design, financial, real estate issues facing datacenter professionals.    \n\nCore Centers of Expertise:\n\n•\tGlobal IP Backbone and Networking – Design / Implementation / Operations\n•\tMission Critical Infrastructure – Design / Construction / Operations\n•\tReal Estate Brokerage – Analysis / Site Selection / Execution\n\nIt is the overlap of these three core centers of expertise that enabled Jon to excel and differentiate from all others in datacenter and infrastructure design development, engineering, construction, operation, and financial analysis.  Many datacenter experts understand or have proficiency in one or maybe two of these core centers of expertise, but Jon is an industry leader in all three.  A true full-stack engineer, with end-to-end expertise!\n\nJon’s diverse range of data center experience and technology knowledge distinguish him as one of the world's most experienced data center developers and consultants. Direct experience working with most of the Fortune 500 companies and several of the largest government agencies has provided deep knowledge of the appetite’s the stakeholders have for Risk, Control, and Financial Structure.  These three factors have defined direction for every one of these organization’s datacenter projects and decision making processes.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

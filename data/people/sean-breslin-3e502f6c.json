@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "aws",
   "function": "Development & Real Estate",
@@ -126,5 +126,27 @@
     "region": "County Dublin",
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "education": [
+    "MSc in Finance, University College Dublin, 2012 to 2013",
+    "Bachelor of Commerce (BCom), Finance, University College Dublin, 2009 to 2012",
+    "Irish Leaving Certificate, St. Michaels College, 2003 to 2009",
+    "MSc in Finance Finance, University College Dublin Michael Smurfit Graduate Business School, 2013",
+    "Bachelor of Commerce degree Commerce, University College Dublin, 2012"
+  ],
+  "biography": "Sean Breslin has 12 years of experience in real estate development, including extensive due diligence, entitlements, permitting, and rezoning. He has led significant acquisitions and complex lease structures for data centers, including a 126 MW acquisition and a 140 MW build-to-suit lease in Frankfurt. He has also been involved in strategic land acquisitions and hybrid lease agreements. Currently an L6 Real Estate Acquisition Manager EMEA at AWS, Sean enjoys the autonomy and individual contribution aspects of his role, managing transactions from origination to closing. His career progression at AWS would lead to people management, which is not his primary interest. He is seeking a Development Director role that focuses on deal-making and transaction work, particularly one based in Ireland with an EMEA focus. His biggest frustration at AWS is the extensive internal processes and \"red tape\" involved in deal approvals. Sean has experience managing partner teams and is responsible for the full development process. He has also led the EMEA Machine Learning team.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

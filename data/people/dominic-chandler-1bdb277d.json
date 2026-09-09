@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "quantum-switch",
   "function": "Development & Real Estate",
@@ -189,5 +189,26 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor of Science (BS), Urban Planning, Design & Management, Ucl, 2008 to 2011",
+    "Master Of Corporate Real Estate Real Estate, CoreNet Global, Wharton Business School University Of Pennsylvania, 2016",
+    "Business Operations And Finance, University of Illinois at Urbana-Champaign, 2016",
+    "BSc Urban Planning, Design And Management, University College London, 2011"
+  ],
+  "biography": "Dominic Chandler is the Head of Corporate Development at Quantum, with six months in this role, previously holding various Development Director titles. His responsibilities include land acquisition, power sourcing, sales, and project financing, focusing on integrating these elements into commercially viable and fundable deals across Europe. He enjoys the autonomy to identify and pursue deals across various European countries and cities, without a narrow mandate on site size or deal type. He also appreciates the travel and networking involved in meeting diverse stakeholders. His primary frustration is the challenge in securing adequate funding, which he believes hinders QS's ability to capitalize on market opportunities and move quickly on deals. He has experience with projects in the Middle East (up to 48 MW across five sites) and Europe, with current European projects ranging from 160 MW to 600 MW.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "rating": 3.0,
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

@@ -25,5 +25,23 @@
   "sources": [
     "Bulk people export (de11fc69-people.csv), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-09",
+  "education": [
+    "Bachelor of Science (BS), Civil Engineering",
+    "Surveying, California State Polytechnic University-Pomona, 2003 to 2009"
+  ],
+  "biography": "Vice President, Development & Entitlements at Prologis",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
 }

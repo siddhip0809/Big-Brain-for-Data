@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 1,
@@ -99,5 +99,25 @@
     "region": "Washington",
     "country": "United States",
     "group": "Washington"
+  },
+  "education": [
+    "MSC Finance, Financial Management, Nyenrode Business University, 2003 to 2004",
+    "BA, International Marketing & Management, Hanze, 1998 to 2003",
+    "BA, International Marketing & Management, Hanzehogeschool Groningen, 1998 to 2003"
+  ],
+  "biography": "Critical Infrastructure Acquisition @ Microsoft",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

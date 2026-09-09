@@ -37,7 +37,7 @@
     "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Energy & Utilities",
   "current_company_id": "google",
   "function": "Development & Real Estate",
@@ -122,5 +122,31 @@
     "region": "North Holland",
     "country": "Netherlands",
     "group": "Netherlands"
+  },
+  "education": [
+    "Prince of Wales Business and Sustainability Programme, University Of Cambridge, 2016 to present",
+    "Post grad, International Doctoral Program in Complexity Sciences, Iscte - Instituto Universitário de Lisboa, 2009 to 2011"
+  ],
+  "biography": "Experienced professional with solid experience in: \r\n\r\n- Real Estate Development & strategic planning (multi billion real estate portfolio development)\r\n- Large program development and implementation\r\n- Strategic planning and change management.\r\n- Stakeholders management and liason\r\n- Thought leadership, innovation management and new technologies implementation \r\n- Strategy development and project/program risk management \r\n- Project analysis and due diligence procedures;\r\n- Low carbon design solutions and strategies;\r\n- Master Planning and Design strategies implementation\r\n- Energy audits and energy management plans (ISO 50001, IPMVP);\r\n- Supply Chain strategies;\r\n- EU environmental policy advice and compliance; \r\n\r\nStrong technical engineering and environmental background",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence",
+      "Energy · ESA negotiation": "High Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 4.0
   }
 }

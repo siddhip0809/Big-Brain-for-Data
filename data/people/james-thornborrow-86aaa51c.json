@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "edged",
   "function": "Sales & Leasing",
@@ -140,5 +140,22 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "BEng Hons, Engineering, University of Portsmouth, 1990 to 1994"
+  ],
+  "biography": "Accomplished Exec with 30+ years strategic and consultative sales management of IT solutions across vertical markets. Proven ability to create, develop, and lead sales and services oriented teams. Reputation for developing larger consultative engagements delivering positive customer outcomes. Adept at controlling cost and accelerating sales and service while improving customer experience.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
   }
 }

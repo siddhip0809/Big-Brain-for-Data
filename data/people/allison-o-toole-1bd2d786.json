@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "vantage",
   "function": "Development & Real Estate",
@@ -132,5 +132,25 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "MRICS, Royal Institution of Chartered Surveyors (RICS), 2003 to 2025",
+    "BSc (Hons) Real Estate Management, Oxford Brookes University, 1999 to 2000",
+    "Hons Dip Auctioneering, Valuations & Estate Agency (AVEA), Technological University Dublin, 1996 to 1999"
+  ],
+  "biography": "I am a RICS qualified Chartered Surveyor & Real Estate Consultant with 24 years of experience spanning a diverse range of projects and geographies operating in an advisory and client capacity throughout EMEA, APAC and North America. \n\nI have represented a wide range of clients throughout my career including the healthcare, insurance, financial services, data centers, technology, information management and retail industries.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
   }
 }

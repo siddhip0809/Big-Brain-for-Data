@@ -96,5 +96,23 @@
     "region": "Texas",
     "country": "United States",
     "group": "Texas"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Real Estate, Cornell University, 2017 to 2019",
+    "BS, Civil Engineering, Virginia Tech, 2009 to 2013"
+  ],
+  "biography": "Senior Real Estate Development Manager at Amazon Web Services",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

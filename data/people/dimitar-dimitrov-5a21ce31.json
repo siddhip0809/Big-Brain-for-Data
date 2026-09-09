@@ -39,7 +39,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 4,
@@ -157,5 +157,25 @@
     "region": "Hesse",
     "country": "Germany",
     "group": "Germany"
+  },
+  "education": [
+    "MSc. Wirtschaftsmathematik, Technische Universität Darmstadt",
+    "Bachelor of Science - BS, Mathematics and Computer Science, Technische Universität Darmstadt",
+    "BSc. Mathematics, Technische Universität Darmstadt"
+  ],
+  "biography": "Dimitar Dimitrov is a Senior Investment Transaction Manager at NTT with 14 years of commercial real estate experience, specializing in the data center sector for the past 1.5 years. He views his current role as below his experience level, seeing himself as a Director or VP. He has successfully sourced and executed data center transactions across Germany, Austria, and France, and has experience with deals in the Nordics, UK, Ireland, US, and Mexico. Dimitar has led or managed three data center development projects in Berlin (200 MW), Paris (100 MW), and Vienna (36 MW and 200 MW). He possesses approximately 3 years of pure real estate development experience and 15-16 years of acquisition experience, including 2-3 years in entitlements and permitting. He is actively seeking a director-level position and is a strong candidate to replace his departing boss, the Senior Director, Head of EMEA Strategy and Expansion. Dimitar's notice period at NTT is 3 months, likely to be garden leave.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

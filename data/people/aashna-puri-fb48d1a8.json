@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "title",
   "seniority_rank": 2,
@@ -111,5 +111,27 @@
     "region": "England",
     "country": "United Kingdom",
     "group": "United Kingdom"
+  },
+  "education": [
+    "Master's degree Entrepreneurship, University Of Cambridge",
+    "Bachelor of Arts (B.A.) Economics",
+    "Earth and Environmental Sciences, University Of Pennsylvania"
+  ],
+  "biography": "I am a global strategic leader passionate about advancing digital infrastructure through investment, sustainability, and growth initiatives. My experience spans key markets in Europe, the US, and Asia, where I’ve led impactful projects in data center expansion, market analysis, and sustainable growth. Currently, as Director of Business Development and Sustainability at CyrusOne, I work at the intersection of private equity and operational strategy, guiding multi-million-dollar acquisitions and optimizing portfolios to drive EBITDA growth and long-term value.\n\nI specialize in developing high-value strategies that align with market needs, ensuring that each project not only meets immediate business objectives but also contributes to sustainable growth. My approach is grounded in collaboration and data-driven insights, allowing me to build resilient, future-ready portfolios that anticipate industry trends. I’m deeply committed to fostering growth in the digital infrastructure sector and look forward to connecting with others who share a vision for building sustainable, impactful solutions.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

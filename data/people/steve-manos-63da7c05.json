@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "mapping list",
   "seniority_rank": 1,
@@ -111,5 +111,21 @@
     "region": "Illinois",
     "country": "United States",
     "group": "Illinois"
+  },
+  "education": [
+    "BS, Geography-Environmental Engineering, Drake University, 1992 to 1996"
+  ],
+  "biography": "A technically sophisticated and business savvy technology executive intimately familiar with enterprise business development, critical facility infrastructure, cutting edge modular data center solutions, technology design, deployment, and operations management of large scale mission-critical IT environments. A strong results–oriented approach focusing on bottom line deliverables has resulted in a superior record of successful revenue generation, on-budget technology and business need integration initiatives.  A proven leader accustomed to the role of operational business consultant and organizational change agent who specializes in developing and cultivating strong technology teams to deliver innovative solutions.Specialties: Critical facility operations, corporate expansion, cloud computing, data center management, technology-based project management, information technology platforms, network management, and telecommunication technologies.Risk assessment consulting experience in delivering comprehensive disaster recovery/business continuity planning.Executive leadership with a proven track record of delivering strong business growth and corporate development.Extensive consulting knowledge relating to all bleeding edge lifecycle critical facility and IT based services.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

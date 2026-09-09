@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Development & Real Estate",
   "function_source": "mapping list",
   "seniority_rank": 2,
@@ -141,5 +141,21 @@
       "current": false
     }
   ],
-  "location_norm": null
+  "location_norm": null,
+  "education": [
+    "Bachelor of Science (BS), Construction Management, Illinois State University"
+  ],
+  "biography": "Senior Director | Development, T5 Data Centers\nDirector, T5 Data Centers",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Poor",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
 }

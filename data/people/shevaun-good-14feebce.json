@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Sales & Leasing",
   "function_source": "title",
   "seniority_rank": 3,
@@ -90,5 +90,23 @@
     "region": "Oregon",
     "country": "United States",
     "group": "Oregon"
+  },
+  "education": [
+    "Master's degree, Sports Management, California State University, Long Beach, 2001 to 2003",
+    "Master's degree, Sports Management, California State University-Long Beach, 2001 to 2003",
+    "Bachelor's degree, Pychology and Speech Communications, Portland State University, 1996 to 2000"
+  ],
+  "biography": "Aligned is an infrastructure technology company that offers adaptable colocation and build-to-scale solutions to cloud, enterprise, and managed service providers. Our intelligent infrastructure allows densification and vertical growth within the same footprint, enabling customers to scale up without disruption, all while maintaining industry-leading Power Usage Effectiveness (PUE). By reducing the energy, water and space needed to operate, our data center solutions, combined with our patented cooling technology, offer businesses a competitive advantage by improving reliability and their bottom line.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }

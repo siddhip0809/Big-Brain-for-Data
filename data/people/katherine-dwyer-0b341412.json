@@ -48,7 +48,7 @@
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
     "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Sales",
   "current_company_id": "microsoft",
   "function": "Development & Real Estate",
@@ -90,5 +90,24 @@
     "region": "County Dublin",
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "education": [
+    "Chartered Surveyor, General Practice, RICS/SCS, 2004 to 2006",
+    "Postgraduate Diploma, Property Investment, College of Estate Management, UK, 1997 to 2000",
+    "Diploma Estate Agency, Property, DIT Bolton St, 1993 to 1995",
+    "Bachelor of Arts (B.A.), Economics & Philosophy, UCD, 1989 to 1993"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
   }
 }

@@ -28,7 +28,7 @@
   "sources": [
     "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Construction & Delivery",
   "function_source": "title",
   "seniority_rank": 5,
@@ -90,5 +90,15 @@
     "region": "County Limerick",
     "country": "Ireland",
     "group": "Ireland"
+  },
+  "education": [
+    "Master's degree, MSC Project Management, University Of Limerick, 2022 to 2024",
+    "Bachelor's degree, Engineering/Industrial Management, Beijing University of Posts and Telecommunications, 2016 to 2020"
+  ],
+  "biography": "Every breakthrough in AI begins with the right infrastructure. I’m driven to create GPU, HPC and data center solutions that empower the future of intelligent computing.",
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
   }
 }
