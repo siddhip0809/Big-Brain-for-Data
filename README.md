@@ -153,6 +153,24 @@ Real data has started loading. Currently in the brain:
   landlords (TeraWulf, Hut 8, Cipher, Applied Digital) and the Stargate
   landlords (Vantage, Related Digital, STACK, Crusoe, SB Energy) are where
   the 2026–28 construction, commissioning and operations demand sits.
+- **Weekly hiring signals (automated).** A Routine ("Data center brain —
+  weekly hiring signals", Mondays 06:00 UTC, set up 2026-09-09) runs in a
+  fresh session: theme-based web searches over the past week (campus
+  announcements, leases, PPAs, M&A, JVs, executive appointments), writes
+  sourced signals to `data/signals/YYYY-MM-DD.json`, adds relationships
+  where both parties are tracked, rebuilds, republishes the atlas, commits
+  to this branch, and emails Siddhi a summary. Same evidence rules as the
+  rest of the brain: only URLs returned by search results, nothing
+  guessed, an empty week is a valid result. Pause or edit it in the
+  claude.ai Routines list.
+- **Verification flags.** Every researched relationship can carry
+  `verified_by` (research team / Siddhi / Ward confirmed, each dated),
+  set by clicking in the atlas and pulled back with
+  `scripts/pull_verifications.py`.
+- **Gap list.** `data/derived/` also holds the per-company talent flows;
+  the list of unconnected companies with columns to fill was sent to
+  Siddhi on 2026-09-09 as a spreadsheet — send it back filled and each
+  row becomes sourced relationships.
 - An interactive visual graph of all of this — see `viewer/README.md`
 
 **Known issue:** "Pure Data Centers" and "Pure Data Centres" exist as two
