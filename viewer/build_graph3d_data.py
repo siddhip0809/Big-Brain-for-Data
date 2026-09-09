@@ -178,6 +178,7 @@ for path in sorted(glob.glob(os.path.join(PEOPLE_DIR, "*.json"))):
         "rank": d.get("seniority_rank", 5), "seniority": d.get("seniority_label"),
         "location": d.get("location"), "loc": d.get("location_norm"), "linkedin": d.get("linkedin"),
         "department": d.get("department"), "do_not_contact": bool(d.get("do_not_contact")),
+        "grade": d.get("record_grade"),
         "since": (current[0].get("start") if current else None), "past": past,
     })
     people_count += 1
@@ -261,6 +262,15 @@ out = {
               "investors": len(investor_files), "links": len(links), "deal_links": deal_edges,
               "generated": date.today().isoformat()},
 }
+
+# drop null/empty values from the people payload -- most directory-grade records
+# have no location, career or pipeline, and the page treats missing as absent
+def prune(o):
+    if isinstance(o, dict): return {k: prune(v) for k, v in o.items() if v not in (None, "", [], {}, False)}
+    if isinstance(o, list): return [prune(x) for x in o]
+    return o
+out["people"] = {cid: [prune(p) for p in ppl] for cid, ppl in out["people"].items()}
+out["talent_moves"] = [prune(m) for m in out["talent_moves"]]
 
 out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "graph3d_data.json")
 with open(out_path, "w") as f:

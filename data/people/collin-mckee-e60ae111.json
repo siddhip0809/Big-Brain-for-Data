@@ -1,0 +1,29 @@
+{
+  "id": "collin-mckee-e60ae111",
+  "type": "person",
+  "name": "Collin McKee",
+  "current_title": "Account Director",
+  "current_company": "Cologix",
+  "current_company_id": "cologix",
+  "linkedin": "https://www.linkedin.com/in/collin-mckee-7883a816",
+  "location": null,
+  "seniority": null,
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "industry_segment": null,
+  "career_history": null,
+  "career": [],
+  "do_not_contact": false,
+  "pipeline": [],
+  "department": null,
+  "record_grade": "directory",
+  "tags": [],
+  "notes": "Directory-grade profile from a bulk people export: name, title, employer and LinkedIn only — no career history, location or pipeline. Not verified against Clockwork.",
+  "sources": [
+    "Bulk people export (de11fc69-people.csv), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

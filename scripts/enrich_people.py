@@ -171,33 +171,38 @@ def normalise_location(raw):
     group = region if country == 'United States' and region else (country or region or city)
     return {'city': city, 'region': region, 'country': country, 'group': group}
 
-files = sorted(glob.glob(os.path.join(REPO, 'data/people/*.json')))
-fn_c, sn_c, loc_c, unparsed = collections.Counter(), collections.Counter(), collections.Counter(), 0
-loc_nocountry = []
-sample = collections.defaultdict(list)
-for path in files:
-    p = json.load(open(path))
-    rank, label, src = seniority_for(p)
-    fn, fn_src = function_for(p)
-    career = parse_career(p.get('career_history'))
-    unparsed += sum(1 for c in career if 'raw' in c)
-    loc = normalise_location(p.get('location'))
-    loc_c[(loc or {}).get('group')] += 1
-    if loc and not loc.get('country'): loc_nocountry.append(p.get('location'))
-    fn_c[fn] += 1; sn_c[label] += 1
-    if len(sample[fn]) < 6: sample[fn].append(p.get('current_title'))
-    if APPLY:
-        p['function'] = fn
-        p['function_source'] = fn_src
-        p['seniority_rank'] = rank
-        p['seniority_label'] = label
-        if not p.get('seniority'): p['seniority_source'] = 'derived from title'
-        p['career'] = career
-        p['location_norm'] = loc
-        json.dump(p, open(path, 'w'), indent=2, ensure_ascii=False); open(path,'a').write('\n')
+def main():
+    files = sorted(glob.glob(os.path.join(REPO, 'data/people/*.json')))
+    fn_c, sn_c, loc_c, unparsed = collections.Counter(), collections.Counter(), collections.Counter(), 0
+    loc_nocountry = []
+    sample = collections.defaultdict(list)
+    for path in files:
+        p = json.load(open(path))
+        rank, label, src = seniority_for(p)
+        fn, fn_src = function_for(p)
+        career = parse_career(p.get('career_history'))
+        unparsed += sum(1 for c in career if 'raw' in c)
+        loc = normalise_location(p.get('location'))
+        loc_c[(loc or {}).get('group')] += 1
+        if loc and not loc.get('country'): loc_nocountry.append(p.get('location'))
+        fn_c[fn] += 1; sn_c[label] += 1
+        if len(sample[fn]) < 6: sample[fn].append(p.get('current_title'))
+        if APPLY:
+            p['function'] = fn
+            p['function_source'] = fn_src
+            p['seniority_rank'] = rank
+            p['seniority_label'] = label
+            if not p.get('seniority'): p['seniority_source'] = 'derived from title'
+            p['career'] = career
+            p['location_norm'] = loc
+            json.dump(p, open(path, 'w'), indent=2, ensure_ascii=False); open(path,'a').write('\n')
 
-print('functions:', fn_c.most_common()); print('seniority:', sn_c.most_common()); print('unparsed career entries:', unparsed)
-for fn, ts in sample.items(): print(f'  {fn}: {ts}')
-print('location groups:', loc_c.most_common(45))
-print('locations without a country (%d):' % len(loc_nocountry), sorted(set(loc_nocountry))[:60])
-print('APPLIED' if APPLY else 'dry run')
+    print('functions:', fn_c.most_common()); print('seniority:', sn_c.most_common()); print('unparsed career entries:', unparsed)
+    for fn, ts in sample.items(): print(f'  {fn}: {ts}')
+    print('location groups:', loc_c.most_common(45))
+    print('locations without a country (%d):' % len(loc_nocountry), sorted(set(loc_nocountry))[:60])
+    print('APPLIED' if APPLY else 'dry run')
+
+
+if __name__ == "__main__":
+    main()

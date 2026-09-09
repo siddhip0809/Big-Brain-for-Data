@@ -103,6 +103,10 @@ Every node also carries these common fields, regardless of type:
 - `linkedin`
 - `do_not_contact`, `pipeline` (search/stage/rank/date per Clockwork
   candidacy), `industry_segment`
+- `record_grade` — `"directory"` on profiles from the 2026-09-09 bulk
+  export (name, title, employer, LinkedIn only; unverified). Absent on the
+  Clockwork-sourced records, which carry career history, location and
+  pipeline. The atlas badges directory profiles and counts them separately.
 - **Never stored:** email, phone, or compensation — those stay in
   Clockwork only.
 

@@ -317,6 +317,7 @@
   .pill.lead{ border-color:var(--pure); color:var(--pure); }
   .pill.dnc{ border-color:#ef4444; color:#fca5a5; }
   .pill.new{ border-color:#4ade80; color:#4ade80; }
+  .pill.dir{ opacity:.75; }
   .org-empty{ color:var(--text-dim); font-size:12px; padding:20px; }
   .matrix{ border-collapse:separate; border-spacing:3px; font-size:12px; }
   .matrix th{ font-family:var(--font-mono); font-size:10px; letter-spacing:.04em; color:var(--text-dim); text-align:left; padding:6px 8px; font-weight:500; max-width:150px; }
@@ -1652,7 +1653,8 @@
     if(mode === 'function'){
       const idx = k => { const i = FUNCTION_ORDER.indexOf(k); return i < 0 ? 99 : i; };
       entries.sort((a, b) => idx(a[0]) - idx(b[0]));
-    } else entries.sort((a, b) => (a[0].startsWith('No previous') - b[0].startsWith('No previous')) || b[1].length - a[1].length || a[0].localeCompare(b[0]));
+    } else { const last = k => k.startsWith('No previous') || k === 'Location unknown' ? 1 : 0;
+      entries.sort((a, b) => last(a[0]) - last(b[0]) || b[1].length - a[1].length || a[0].localeCompare(b[0])); }
     return entries;
   }
   function personMatches(p, q){
@@ -1665,6 +1667,7 @@
     if(isLead) pills.push('<span class="pill lead">most senior</span>');
     if(p.recent) pills.push('<span class="pill new" title="started this role in the last 6 months">new</span>');
     if(p.do_not_contact) pills.push('<span class="pill dnc">do not contact</span>');
+    if(p.grade === 'directory') pills.push('<span class="pill dir" title="Directory profile: name, title and employer only — no career history or location">directory</span>');
     const meta = [p.seniority ? `<span class="sen">${escapeHtml(p.seniority)}</span>` : '',
                   escapeHtml(placeOf(p)),
                   p.since ? `since ${escapeHtml(p.since)}` : '',
@@ -1693,6 +1696,7 @@
     document.getElementById('orgName').textContent = orgCompany.name;
     document.getElementById('orgSub').textContent =
       `${all.length} people mapped · ${groupBy(all, 'function').length} departments · ${groupBy(all, 'location').length} locations · ${all.filter(p => p.recent).length} new in 6 months` +
+      (all.some(p => p.grade === 'directory') ? ` · ${all.filter(p => p.grade === 'directory').length} directory-only` : '') +
       (q ? ` · ${ppl.length} match "${orgFilter.value.trim()}"` : '') +
       ' · from Ward Search mapping, not the company\'s full org';
     // who's in charge: C-suite and EVP/SVP/MD across the whole company

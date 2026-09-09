@@ -82,7 +82,7 @@ Real data has started loading. Currently in the brain:
   crypto-mining-pivot round added 4 more (Starwood Capital Group,
   Generate Capital, Spring Lane Capital, and Galaxy Digital in its dual
   role as both a company and an investor).
-- **2,129 people**: candidates from Ward Search's two active searches
+- **9,239 people**: candidates from Ward Search's two active searches
   (Pure Data Centers "VP Sales," STACK Infrastructure "Cost Strategy")
   plus their long-term mapping pools, and 5 firm-wide "Long Term Mapping"
   lists (Sales, Precon, Development, Construction, Utilities) — imported
@@ -120,8 +120,17 @@ Real data has started loading. Currently in the brain:
   and `data/derived/job_titles.csv` + `job_titles_by_function.csv` index
   every job title in use per company and per department — the exact
   wording to search on (rebuild with `scripts/build_title_index.py`).
-  Email, phone, and compensation were deliberately left out of every
-  record (kept in Clockwork only) — see `docs/schema.md`.
+  On 2026-09-09 a **bulk people export** (14,972 rows: name, title,
+  employer, LinkedIn) added **7,110** more at companies already tracked —
+  Kimley-Horn 384, AWS 349, Microsoft 247, Google 221, Equinix 181 — after
+  dropping 1,957 already in the brain and 5,905 whose employer isn't
+  tracked (`scripts/import_people_dump.py`). These are marked
+  `record_grade: "directory"` and badged in the atlas: title and employer
+  only, no career history, location or pipeline, and not verified against
+  Clockwork, so they deepen org charts but contribute nothing to talent
+  flows. The export's email and phone columns are dropped at read time and
+  never written. Email, phone, and compensation are deliberately left out
+  of every record (kept in Clockwork only) — see `docs/schema.md`.
 - **3,076 relationships** connecting the above — candidacy links,
   employment links, investor backing (124 investors incl. Google and
   NVIDIA in their dual role as strategic investors), and, since
