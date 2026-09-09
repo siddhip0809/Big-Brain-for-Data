@@ -117,8 +117,14 @@ Every node also carries these common fields, regardless of type:
   title-equivalence assumption between hyperscalers and developers),
   plus `source` and a `note` restating that it is judgement.
 - `education`, `biography` — from the same exports.
-- **Not imported:** Clockwork's "Under Represented Group" column is
-  sensitive personal data and stays in Clockwork.
+- `assessment.under_represented_group` — Clockwork's column, imported
+  2026-09-09 at Siddhi's instruction for diverse-slate reporting (Yes 488,
+  No 1,156, Not Apparent 52). **It is Ward's own observation, not
+  self-declared by the candidate** — Clockwork's own "Not Apparent" value
+  makes that explicit — so treat it as slate-composition data for internal
+  use, not as a fact about a person and not for anything shown to a client
+  or the candidate. The atlas shows it as an aggregate per company and org
+  chart, with a per-person marker.
 - `record_grade` — `"directory"` on profiles from the 2026-09-09 bulk
   export (name, title, employer, LinkedIn only; unverified). Absent on the
   Clockwork-sourced records, which carry career history, location and

@@ -245,7 +245,11 @@ functions, "spoken with before" and a "recent move" warning; expanding a
 card shows assessed skills with high/low confidence, the 1-4 rating, the
 tenure judgement, the hyperscaler-equivalent seniority, education and
 biography, over a line saying it is Ward's judgement rather than research.
-The org chart groups by **top tier** or **assessed skill** (a person can
+Slate diversity is reported as an aggregate — "18 of 105 assessed
+recorded as from an under-represented group" — on each company panel and
+in the org-chart header, with a discreet per-person marker and a line
+noting it is Ward's observation rather than self-declared. The org chart
+groups by **top tier** or **assessed skill** (a person can
 appear under several), each company panel summarises how many of its
 people are assessed and which high-confidence skills sit there, and the
 filter matches skills, education and biography text.

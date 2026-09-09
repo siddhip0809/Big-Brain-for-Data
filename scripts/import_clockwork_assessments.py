@@ -4,8 +4,13 @@ the existing person records: skill confidences, top-tier flags, tenure
 judgement, candidate rating, "spoken with before", the hyperscaler-equivalent
 seniority tag, education and biography.
 
+"Under Represented Group" is included at Siddhi's explicit instruction
+(2026-09-09) for diverse-slate reporting. Note it is Ward's own
+observation, not self-declared by the candidate — Clockwork's own
+"Not Apparent" value makes that plain — so it belongs in aggregate slate
+reporting, not in anything shown to a client or the candidate.
+
 Deliberately NOT imported:
-  - "Under Represented Group" — sensitive personal data; stays in Clockwork.
   - email, phone, compensation — the standing rule (see docs/schema.md).
 
 These are Ward's subjective judgements, not researched facts, so everything
@@ -38,7 +43,7 @@ SKILLS = {
     "Tag F   Water Engineering": "Water · engineering",
 }
 SKIP_VALUES = {None, "", "Not applicable", "Not Applicable", "not applicable"}
-EXCLUDED = {"Under Represented Group"}          # sensitive; never imported
+EXCLUDED = set()                                # email/phone/comp are never read at all
 clean = lambda v: (v.strip() or None) if isinstance(v, str) else v
 squash = lambda h: re.sub(r"\s+", " ", h).strip() if isinstance(h, str) else h
 SKILLS_SQ = {squash(k): v for k, v in SKILLS.items()}
@@ -75,6 +80,9 @@ for path in FILES:
         except (TypeError, ValueError): rating = None
         if rating: a["rating"] = rating; per_field["rating"] += 1        # 0.0 means unrated
         if col(r, "Tag Spoken With Before") == "Yes": a["spoken_with_before"] = True; per_field["spoken_with_before"] += 1
+        urg = col(r, "Under Represented Group")
+        if urg not in SKIP_VALUES:
+            a["under_represented_group"] = urg; per_field["under_represented_group"] += 1
         eq = col(r, "Tag E Dc Developer Equivalent Seniority(for Hyperscalers)")
         if eq not in SKIP_VALUES: a["hyperscaler_equivalent_seniority"] = eq; per_field["equivalent_seniority"] += 1
         edu = col(r, "All Education")
@@ -93,5 +101,5 @@ if APPLY:
         json.dump(p, open(f, "w"), indent=2, ensure_ascii=False); open(f, "a").write("\n")
 print("rows:", dict(found), "| people updated:", len(updated))
 print("fields written:", dict(per_field))
-print("never imported:", ", ".join(sorted(EXCLUDED)), "+ email / phone / compensation")
+print("never imported: email / phone / compensation")
 print("APPLIED" if APPLY else "dry run")

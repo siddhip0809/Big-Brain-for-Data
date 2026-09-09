@@ -234,6 +234,8 @@ for cid, ppl in people.items():
     node["top_tier_counts"] = tt.most_common()
     node["skill_counts"] = sk.most_common(8)
     node["assessed_count"] = sum(1 for p in ppl if p.get("assess"))
+    urg = collections.Counter((p.get("assess") or {}).get("under_represented_group") for p in ppl)
+    node["urg_counts"] = {k: v for k, v in urg.items() if k}
 
 # every link gets a stable key -- the id of its verification document in the
 # atlas's shared store (scripts/pull_verifications.py reads them back)

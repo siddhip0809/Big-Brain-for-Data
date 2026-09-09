@@ -128,9 +128,11 @@ Real data has started loading. Currently in the brain:
   Pre-Construction 540, Sales 334, Energy 165), a tenure judgement
   (1,239 Good, 443 Recent Move), 228 "spoken with before", 1,730
   education records and 1,435 biographies. It is judgement, not research,
-  and is labelled as such wherever it appears. Clockwork's "Under
-  Represented Group" column was deliberately left out as sensitive
-  personal data. In the atlas: top-tier and "spoken with" badges, a
+  and is labelled as such wherever it appears. Clockwork's **Under
+  Represented Group** column is included too (Yes 488, No 1,156, Not
+  Apparent 52) for diverse-slate reporting — Ward's own observation rather
+  than a self-declaration, shown as a per-company and per-org-chart
+  aggregate with a per-person marker. In the atlas: top-tier and "spoken with" badges, a
   "recent move" warning, org-chart groupings by top tier and by assessed
   skill, per-company skill coverage, and the filter matches skills,
   education and biographies.

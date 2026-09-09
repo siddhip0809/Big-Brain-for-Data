@@ -321,6 +321,10 @@
   .pill.tier{ border-color:#0e7490; color:#0e7490; }
   .pill.spoke{ border-color:#7c3aed; color:#7c3aed; }
   .pill.recent-move{ border-color:#f59e0b; color:#b45309; }
+  .pill.urg{ border-color:#64748b; color:#475569; }
+  body.dark .pill.urg{ border-color:#94a3b8; color:#cbd5e1; }
+  .slate{ display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; margin-top:4px; }
+  .slate b{ font-family:var(--font-mono); font-size:13px; }
   body.dark .pill.tier{ border-color:#22d3ee; color:#22d3ee; }
   body.dark .pill.spoke{ border-color:#c084fc; color:#c084fc; }
   body.dark .pill.recent-move{ border-color:#f59e0b; color:#fbbf24; }
@@ -1578,6 +1582,9 @@
           html += `<div class="dt-row"><div class="dt-k">Assessed</div><div class="dt-v">${n.assessed_count} of ${ppl.length} carry a Ward assessment` +
             ((n.top_tier_counts || []).length ? '<br>top tier: ' + n.top_tier_counts.map(([t, c]) => `${escapeHtml(t)} ${c}`).join(' · ') : '') +
             ((n.skill_counts || []).length ? `<div class="section-label" style="margin:8px 0 2px">High-confidence skills here</div>` + n.skill_counts.map(([s, c]) => `<div class="flow-row"><span>${escapeHtml(s)}</span><span>${c}</span></div>`).join('') : '') +
+            (n.urg_counts && Object.keys(n.urg_counts).length ? (() => { const u = n.urg_counts, k = Object.values(u).reduce((a, b) => a + b, 0);
+              return `<div class="section-label" style="margin:8px 0 2px">Slate diversity</div><div class="slate"><b>${u.Yes || 0}</b> of ${k} assessed recorded as from an under-represented group` +
+                     `</div><div class="src">Ward's own observation, not self-declared. For slate reporting.</div>`; })() : '') +
             `</div></div>`;
         }
         groupBy(ppl, 'function').forEach(([fn, rows]) => {
@@ -1693,6 +1700,7 @@
       ...(p.education || []), ...(A.top_tier || []), ...Object.keys(A.skills || {}),
       ...Object.entries(A.skills || {}).filter(([, v]) => v === 'High Confidence').map(([s]) => s + ' high confidence'),
       A.tenure, A.spoken_with_before ? 'spoken with before' : '',
+      A.under_represented_group === 'Yes' ? 'under-represented group urg diverse' : '',
       ...(p.past || []).map(j => j.company + ' ' + (j.title || ''))].filter(Boolean).join(' ').toLowerCase();
     return hay.includes(q);
   }
@@ -1722,6 +1730,7 @@
     const A = p.assess || {};
     (A.top_tier || []).forEach(t => pills.push(`<span class="pill tier" title="Ward rates this person top tier for ${escapeHtml(t)}">top tier · ${escapeHtml(t)}</span>`));
     if(A.spoken_with_before) pills.push('<span class="pill spoke" title="Ward has spoken with this person before">spoken with</span>');
+    if(A.under_represented_group === 'Yes') pills.push('<span class="pill urg" title="Ward records this person as from an under-represented group. Ward\u2019s own observation, not self-declared \u2014 for slate reporting only.">URG</span>');
     if(A.tenure === 'Recent Move') pills.push('<span class="pill recent-move" title="Ward tenure judgement: recently moved, probably not approachable yet">recent move</span>');
     const meta = [p.seniority ? `<span class="sen">${escapeHtml(p.seniority)}</span>` : '',
                   escapeHtml(placeOf(p)),
@@ -1753,6 +1762,9 @@
     document.getElementById('orgSub').textContent =
       `${all.length} people mapped · ${groupBy(all, 'function').length} departments · ${groupBy(all, 'location').length} locations · ${all.filter(p => p.recent).length} new in 6 months` +
       (all.some(p => p.grade === 'directory') ? ` · ${all.filter(p => p.grade === 'directory').length} directory-only` : '') +
+      (() => { const y = all.filter(p => (p.assess || {}).under_represented_group === 'Yes').length,
+                     k = all.filter(p => (p.assess || {}).under_represented_group).length;
+               return k ? ` · ${y} of ${k} assessed are from an under-represented group` : ''; })() +
       (q ? ` · ${ppl.length} match "${orgFilter.value.trim()}"` : '') +
       ' · from Ward Search mapping, not the company\'s full org';
     // who's in charge: C-suite and EVP/SVP/MD across the whole company
