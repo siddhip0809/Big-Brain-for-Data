@@ -37,7 +37,7 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **1,213 companies** — in two groups, both carried on each record as
+- **1,210 companies** — in two groups, both carried on each record as
   `roles` (see `docs/schema.md`):
   - **726 data-center companies** — Pure Data Centers and STACK
     Infrastructure (active Ward Search client engagements, hand-written
@@ -54,12 +54,12 @@ Real data has started loading. Currently in the brain:
     "Other/Not Relevant"), which also brought website, LinkedIn, HQ,
     headcount, hyperscale focus, and **MW capacity by region** for 638
     companies.
-  - **487 adjacent-industry companies** from five more of Siddhi's lists —
+  - **484 adjacent-industry companies** from four more of Siddhi's lists —
     Energy Developers (159), Civil/Land Engineers (116), General
-    Contractors USA (150), Cold Storage & Industrial Developers (29, shown as
-    "Industrial developer"), and Real Estate Development USA (84, added
-    2026-09-09 — 72 new companies plus the role on 12 existing ones such as
-    Prologis, Panattoni, Dermody and Clayco; drawn as a fifth petal) —
+    Contractors USA (150), Cold Storage & Industrial Developers (29) and Real Estate
+    Development USA (84, added 2026-09-09 — 72 new companies plus the role
+    on 12 existing ones such as Prologis, Panattoni, Dermody and Clayco),
+    which together form one "Real estate & industrial developer" tier —
     kept in the brain with her DC-exposure rating and every column from
     the sheets, but switched off by default in the 3D atlas. 42 companies
     sit on more than one list (AECOM is a civil engineer, an industrial

@@ -42,8 +42,7 @@ CATS = {
     "energy_developer":   {"name": "Energy developer / utility",           "color": "#b45309", "adjacent": True},
     "general_contractor": {"name": "General contractor",                   "color": "#2563eb", "adjacent": True},
     "civil_land_engineering":         {"name": "Civil / land engineering",  "color": "#dc2626", "adjacent": True},
-    "industrial_logistics_developer": {"name": "Industrial developer",              "color": "#4d7c0f", "adjacent": True},
-    "real_estate_developer":          {"name": "Real estate developer",             "color": "#64748b", "adjacent": True},
+    "real_estate_developer":          {"name": "Real estate & industrial developer", "color": "#4d7c0f", "adjacent": True},
     "investor":           {"name": "Investor",                             "color": "#9333ea", "adjacent": False},
 }
 ROLE_PRIORITY = [c for c in CATS if c != "investor"]

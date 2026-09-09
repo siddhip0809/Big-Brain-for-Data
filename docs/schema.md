@@ -37,7 +37,7 @@ Every node also carries these common fields, regardless of type:
   source of truth for how the 3D atlas colours it. One or more of:
   `hyperscaler`, `neocloud`, `cryptomining`, `developer_operator` (the
   data-center tiers), and `energy_developer`, `general_contractor`,
-  `civil_land_engineering`, `industrial_logistics_developer` (label "Industrial developer"; the source list was called Cold Storage & Industrial Developers), `real_estate_developer` (Siddhi's Real Estate Development USA list, 2026-09-09) (adjacent
+  `civil_land_engineering`, `real_estate_developer` (label "Real estate & industrial developer" — one tier for Siddhi's Cold Storage & Industrial Developers and Real Estate Development USA lists; the two were merged 2026-09-09) (adjacent
   industries, imported from Siddhi's curated lists 2026-09-05). A company
   on several lists holds several roles — AECOM is a civil/land engineer, an
   industrial developer *and* a general contractor — and the atlas draws it

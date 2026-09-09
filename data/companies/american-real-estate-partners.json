@@ -2,11 +2,14 @@
   "id": "american-real-estate-partners",
   "type": "company",
   "name": "American Real Estate Partners",
-  "aliases": [],
+  "aliases": [
+    "American Real Estate Partners (AREP)",
+    "AREP"
+  ],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "Vienna, Virginia",
   "founded": null,
-  "website": null,
+  "website": "https://www.arep.com",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -15,14 +18,29 @@
     "Data Center Developer",
     "Hyperscaler"
   ],
-  "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): founder-owned, raises its own investment funds. Founder-owned/operated (Doug Fleit, Brian Katz, 2003); raises its own real estate/data center investment funds but no single named majority outside PE owner found.",
+  "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): founder-owned, raises its own investment funds. Founder-owned/operated (Doug Fleit, Brian Katz, 2003); raises its own real estate/data center investment funds but no single named majority outside PE owner found.\n\nMerged 2026-09-09: absorbed duplicate record 'American Real Estate Partners (AREP)' (american-real-estate-partners-arep).",
   "sources": [
-    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "parent_industry": "real_estate",
   "roles": [
-    "developer_operator"
+    "developer_operator",
+    "real_estate_developer"
   ],
-  "source_lists": []
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "linkedin": "https://www.linkedin.com/company/american-real-estate-partners/",
+  "headcount": "201-500",
+  "dc_exposure_level": "High",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  }
 }
