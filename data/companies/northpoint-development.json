@@ -16,11 +16,13 @@
   "parent_industry": "real_estate",
   "roles": [
     "developer_operator",
-    "industrial_logistics_developer"
+    "industrial_logistics_developer",
+    "real_estate_developer"
   ],
   "source_lists": [
     "Cold Storage & Industrial Developers",
-    "Data Centre Developer"
+    "Data Centre Developer",
+    "Real Estate Developers USA"
   ],
   "list_attributes": {
     "Data Centre Developer": {
@@ -40,14 +42,21 @@
       "Has Internal Dev Team": "Yes",
       "Key Markets": "National",
       "NoVA Relevance": "Medium"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
     }
   },
   "dc_exposure_level": "Medium",
-  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nSiddhi's sheet note: Already in RE list. Large industrial developer with growing DC campus land interest. Permitting and entitlement team has large-format industrial site experience.",
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nSiddhi's sheet note: Already in RE list. Large industrial developer with growing DC campus land interest. Permitting and entitlement team has large-format industrial site experience.\n\nSiddhi's real-estate sheet note: Large industrial developer. Active in Midwest and expanding into key DC markets.",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "capacity_mw": {
     "north_america": {
       "total_mw": 230.0

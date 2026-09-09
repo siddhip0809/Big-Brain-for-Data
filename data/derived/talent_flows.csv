@@ -91,13 +91,13 @@ Dominion,False,QTS Data Centers,2,Andrew Hedrick; Erica Bridges,Energy & Utiliti
 Microsoft,True,QTS Data Centers,2,Andy Lawson; Richard Currie,Development & Real Estate 1; Sales & Leasing 1,3/2025
 Portland General Electric,False,QTS Data Centers,2,Carl Krutka; Geoff Bastian,Energy & Utilities 2,8/2023
 Bowman Consulting,False,STACK Infrastructure,2,Lisa Gerben; Matthew Leslie,Development & Real Estate 2,8/2025
-Dalfen Industrial,False,STACK Infrastructure,2,Daniel Jackson; Tim Kraftson,Development & Real Estate 2,2/2026
+Dalfen Industrial,True,STACK Infrastructure,2,Daniel Jackson; Tim Kraftson,Development & Real Estate 2,2/2026
 Google,True,Stream Data Centers,2,Michael Lebow; Oisín Ó Murchú,Development & Real Estate 1; Executive leadership 1,1/2026
 Microsoft,True,Stream Data Centers,2,Avery Africa; Lee Mills,Development & Real Estate 1; Sales & Leasing 1,7/2025
 GLP,True,Switch,2,Chris Sachse; Stephen Johnston,Design & Engineering 1; Sales & Leasing 1,9/2023
 Meta,True,Tract,2,Dennis Bartlett; Kevin Arrow,Development & Real Estate 1; Energy & Utilities 1,3/2025
 Gleeds,False,Turner & Townsend,2,Kabrina Ramnath; Mark W. Wright,Pre-Construction & Cost 2,11/2025
-Affinius Capital,False,Vantage,2,Cameron Brandt Scheib; Conner Carlson,Development & Real Estate 2,11/2025
+Affinius Capital,True,Vantage,2,Cameron Brandt Scheib; Conner Carlson,Development & Real Estate 2,11/2025
 Cushman & Wakefield,False,Vantage,2,Mayara Manning; Vivek Dahiya,Construction & Delivery 1; Development & Real Estate 1,9/2025
 EN Engineering,False,Vantage,2,Frank Sinche; Shawn Taylor,Energy & Utilities 2,9/2025
 Holder Construction,True,Vantage,2,Kyle Utz; Ryan Dorsett,Construction & Delivery 2,7/2025
@@ -117,7 +117,7 @@ Hilti France,False,APL expert en data centers,1,Benoît GANOUSSE,Sales & Leasing
 Ballymore,False,AWS,1,Ally Holmes,Development & Real Estate 1,5/2020
 Barratt Developments plc,False,AWS,1,Darryl Palmer,Development & Real Estate 1,6/2024
 Bonneville Power Administration,False,AWS,1,Paul Garrett,Energy & Utilities 1,9/2025
-Carmel Partners,False,AWS,1,Alec Jennison,Development & Real Estate 1,10/2023
+Carmel Partners,True,AWS,1,Alec Jennison,Development & Real Estate 1,10/2023
 Citi,False,AWS,1,Keelin O'Connor Doyle,Development & Real Estate 1,11/2020
 Cleveland Electric,False,AWS,1,Abdullah Zaher,Design & Engineering 1,1/2024
 ComEd,False,AWS,1,Christian Mukania,Energy & Utilities 1,4/2023
@@ -135,7 +135,7 @@ Georgetown University,False,AWS,1,April Choo,Development & Real Estate 1,5/2021
 Grid,False,AWS,1,Patrick Griffin,Development & Real Estate 1,4/2026
 HS2,False,AWS,1,Laura Steventon,Development & Real Estate 1,12/2025
 HSBC Bank - Brasil,False,AWS,1,Rebecca Mau,Development & Real Estate 1,1/2024
-Hines,False,AWS,1,Ronan Ward,Development & Real Estate 1,6/2022
+Hines,True,AWS,1,Ronan Ward,Development & Real Estate 1,6/2022
 Hines Real Estate,False,AWS,1,Sean Breslin,Development & Real Estate 1,6/2024
 Horizon Nuclear Power,False,AWS,1,John Cooper,Sales & Leasing 1,4/2005
 Jacobs,True,AWS,1,Amy Vetal,Development & Real Estate 1,9/2023
@@ -246,6 +246,7 @@ Equinix,True,Bloom Energy,1,David Lucas-Smith,Sales & Leasing 1,9/2025
 "Middle Street Partners, LLC",False,Brasfield & Gorrie,1,Annie Sistrunk,Pre-Construction & Cost 1,1/2026
 United States Department of Defense,False,Brasfield & Gorrie,1,Greg Wolf,Pre-Construction & Cost 1,1/2026
 Yondr,True,Bridge Data Centres,1,Rachel Lee,Development & Real Estate 1,10/2024
+Seritage Growth Properties,False,Bridge Industrial,1,Arlin Pischke,Development & Real Estate 1,4/2022
 Linesight,False,"Build Group, Inc",1,Nwe Ni Win,Pre-Construction & Cost 1,4/2019
 Swinerton,True,"Build Group, Inc",1,Damon Moore,Pre-Construction & Cost 1,6/2025
 NCB,False,Burns & McDonnell,1,Gregory Wienberg,Pre-Construction & Cost 1,11/2021
@@ -258,7 +259,7 @@ Redcentric,False,CapitaLand,1,Jignesh Patel,Sales & Leasing 1,4/2022
 Vantage,True,Cerebras,1,Miguel Sequera,Sales & Leasing 1,7/2026
 Samet,False,Choate Construction,1,David Truesdale,Pre-Construction & Cost 1,8/2017
 DPR Construction,True,Clark Construction Group,1,Cason Simpson,Pre-Construction & Cost 1,1/2025
-Lendlease,False,Clark Construction Group,1,Caroll Moya,Pre-Construction & Cost 1,9/2023
+Lendlease,True,Clark Construction Group,1,Caroll Moya,Pre-Construction & Cost 1,9/2023
 DPR Construction,True,Clayco,1,Kiran Nerlekar,Pre-Construction & Cost 1,11/2024
 Data Center Coalition,False,CleanArc Data Centers,1,Jennifer Reininger,Development & Real Estate 1,6/2026
 Digital Realty,True,CleanArc Data Centers,1,Manny Morales,Sales & Leasing 1,9/2025
@@ -632,7 +633,7 @@ ICF,False,Google,1,Patricia D'Costa,Energy & Utilities 1,7/2023
 JLL,False,Google,1,Ben Collis,Energy & Utilities 1,11/2024
 King Abdullah Port,False,Google,1,Mustafa Husaini,Construction & Delivery 1,9/2018
 Laminar Projects,False,Google,1,George Mantsos,Development & Real Estate 1,9/2025
-Lendlease,False,Google,1,Alexa Arena,Development & Real Estate 1,5/2023
+Lendlease,True,Google,1,Alexa Arena,Development & Real Estate 1,5/2023
 MIT Sloan School of Management,False,Google,1,Ryan Sheinbein,Construction & Delivery 1,4/2024
 Michigan Democratic Party,False,Google,1,Tom Kelly,Development & Real Estate 1,3/2025
 MindSwarms,False,Google,1,Chris Van Fossen,Development & Real Estate 1,7/2020
@@ -760,7 +761,7 @@ Edison Energy,False,Meta,1,Mike Vincent,Energy & Utilities 1,4/2022
 GDS Associates,False,Meta,1,Paul Kelly,Energy & Utilities 1,6/2022
 Google,True,Meta,1,Sarah Stodter Whitney,Development & Real Estate 1,4/2026
 Jacobs,True,Meta,1,Mallory Spagnoli,Development & Real Estate 1,6/2022
-Lendlease,False,Meta,1,Shivani D Patel,Development & Real Estate 1,1/2019
+Lendlease,True,Meta,1,Shivani D Patel,Development & Real Estate 1,1/2019
 LinkedIn,False,Meta,1,Joel Wood,Development & Real Estate 1,6/2020
 Microsoft,True,Meta,1,Matthew Bourne,Development & Real Estate 1,3/2026
 Olsson,True,Meta,1,Jessica Yeargan,Development & Real Estate 1,6/2025
@@ -1025,7 +1026,7 @@ Microsoft,True,SCOR,1,Camille Bergue,Development & Real Estate 1,3/2026
 Google,True,SELF Infrastructure,1,Chris George,Sales & Leasing 1,1/2024
 A Black & Veatch Company,False,STACK Infrastructure,1,Sumanth Chejarla,Development & Real Estate 1,1/2026
 AWS,True,STACK Infrastructure,1,Mark Gethings,Development & Real Estate 1,12/2024
-Brookfield Properties,False,STACK Infrastructure,1,Rich Fernicola,Development & Real Estate 1,3/2024
+Brookfield Properties,True,STACK Infrastructure,1,Rich Fernicola,Development & Real Estate 1,3/2024
 CBRE,False,STACK Infrastructure,1,Katie Hoggarth,Sales & Leasing 1,1/2025
 CTS Nordics AS,False,STACK Infrastructure,1,Atle Haga,Development & Real Estate 1,6/2021
 CenterPoint Integrated Solutions,False,STACK Infrastructure,1,Stacey Koury,Development & Real Estate 1,3/2025
@@ -1074,7 +1075,7 @@ Citi,False,Skybox Datacenters,1,Ken Clausen,Design & Engineering 1,11/2023
 Critical Project Services,False,Skybox Datacenters,1,Jason Valudos,Construction & Delivery 1,5/2021
 Dallas Pedicab Services,False,Skybox Datacenters,1,Gordon Kellerman,Sales & Leasing 1,2/2019
 Frontier Group of Companies,False,Skybox Datacenters,1,Eric Logan,Energy & Utilities 1,1/2025
-Hines,False,Skybox Datacenters,1,William Shannon,Development & Real Estate 1,6/2022
+Hines,True,Skybox Datacenters,1,William Shannon,Development & Real Estate 1,6/2022
 RecNation RV & Boat Storage,False,Skybox Datacenters,1,Jack O’Neill,Development & Real Estate 1,2/2026
 Vantage,True,Skybox Datacenters,1,Michael K.,Energy & Utilities 1,4/2026
 None,False,Stellanor Datacentres,1,Mike Styring,Sales & Leasing 1,4/2026
@@ -1094,6 +1095,7 @@ Leon Capital Group,False,Stream Data Centers,1,Alex Stewart,Development & Real E
 PG&E,False,Stream Data Centers,1,Taylor Ogilvie,Development & Real Estate 1,7/2022
 Priority Power,False,Stream Data Centers,1,Brian Frazier,Energy & Utilities 1,8/2023
 QTS Data Centers,True,Stream Data Centers,1,Santiago Escobar,Development & Real Estate 1,10/2024
+Accent Construction Management,False,Stream Realty Partners,1,Albert Jarrell,Executive leadership 1,6/2021
 JE Dunn Construction,True,Structure Tone,1,Joseph H.,Pre-Construction & Cost 1,1/2023
 MDI Inc General Contractors,False,Structure Tone,1,Andres Montoya,Pre-Construction & Cost 1,4/2023
 DPR Construction,True,Suffolk Construction,1,Eddie Spinella,Pre-Construction & Cost 1,9/2025
@@ -1182,7 +1184,7 @@ Shell,False,Tract,1,Juanita Ojeda Mor,Development & Real Estate 1,5/2025
 Stellar Renewable Power,False,Tract,1,Melissa Funsten,Energy & Utilities 1,10/2025
 Terra CO2 Technology Holdings,False,Tract,1,Isaac Smeltzer,Development & Real Estate 1,1/2025
 The AES Corporation,False,Tract,1,Rupin Menon,Energy & Utilities 1,8/2024
-Trammell Crow Company,False,Tract,1,Brad Stevinson,Development & Real Estate 1,12/2024
+Trammell Crow Company,True,Tract,1,Brad Stevinson,Development & Real Estate 1,12/2024
 Uga Athletics,False,Tract,1,Lily Perryman,Development & Real Estate 1,6/2023
 VGP,True,Tract,1,Carsten Schicht,Development & Real Estate 1,12/2025
 Vail Resorts,False,Tract,1,Kara Bowyer,Development & Real Estate 1,3/2025

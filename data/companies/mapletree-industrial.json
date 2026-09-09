@@ -4,7 +4,7 @@
   "name": "Mapletree Industrial",
   "aliases": [],
   "industry_role": "developer operator",
-  "headquarters": null,
+  "headquarters": "Singapore",
   "founded": null,
   "website": "http://www.mapletree.com.sg",
   "linkedin": "https://www.linkedin.com/company/mapletree/",
@@ -15,10 +15,12 @@
   "tags": [],
   "parent_industry": "pure_play",
   "roles": [
-    "developer_operator"
+    "developer_operator",
+    "real_estate_developer"
   ],
   "source_lists": [
-    "Data Centre Developer"
+    "Data Centre Developer",
+    "Real Estate Developers USA"
   ],
   "list_attributes": {
     "Data Centre Developer": {
@@ -29,14 +31,21 @@
       "Regional Presence (N. America)": "Yes",
       "Regional Presence  S. America": "No",
       "Date Updated": "2026-03-20 00:00:00"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
     }
   },
-  "dc_exposure_level": null,
-  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.",
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nSiddhi's real-estate sheet note: Singapore sovereign-backed real estate developer and REIT manager. Active DC campus developer in US, Europe, and Asia. Strong development and acquisition talent globally.",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "hyperscale_focus": "Secondary Focus",
   "capacity_mw": {
     "north_america": {

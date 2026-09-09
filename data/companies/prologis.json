@@ -18,11 +18,13 @@
   "parent_industry": "real_estate",
   "roles": [
     "developer_operator",
-    "industrial_logistics_developer"
+    "industrial_logistics_developer",
+    "real_estate_developer"
   ],
   "source_lists": [
     "Cold Storage & Industrial Developers",
-    "Data Centre Developer"
+    "Data Centre Developer",
+    "Real Estate Developers USA"
   ],
   "list_attributes": {
     "Data Centre Developer": {
@@ -42,14 +44,21 @@
       "Has Internal Dev Team": "Yes",
       "Key Markets": "National",
       "NoVA Relevance": "High"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nSiddhi's sheet note: Already in RE list but worth noting separately: Prologis's internal development team for large-format logistics and DC-adjacent sites in NoVA has done complex entitlement work in Loudoun and Prince William counties. Target their development division specifically.",
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nSiddhi's sheet note: Already in RE list but worth noting separately: Prologis's internal development team for large-format logistics and DC-adjacent sites in NoVA has done complex entitlement work in Loudoun and Prince William counties. Target their development division specifically.\n\nSiddhi's real-estate sheet note: Largest industrial REIT globally. Active DC campus land developer. Partners with hyperscalers. Strong land acquisition and development talent pool.",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "hyperscale_focus": "Secondary Focus",
   "capacity_mw": {
     "north_america": {

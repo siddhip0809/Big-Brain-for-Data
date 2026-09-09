@@ -16,11 +16,13 @@
   "parent_industry": "construction_engineering",
   "roles": [
     "civil_land_engineering",
-    "general_contractor"
+    "general_contractor",
+    "real_estate_developer"
   ],
   "source_lists": [
     "Civil Land Developers",
-    "General Contractors USA"
+    "General Contractors USA",
+    "Real Estate Developers USA"
   ],
   "list_attributes": {
     "Civil Land Developers": {
@@ -29,12 +31,19 @@
       "Multidisciplinary": "No",
       "Mission Critical / DC Experience": "Yes",
       "DC Exposure Level": "High"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet note: Design-build + land dev. Active hyperscale DC delivery.",
+  "notes": "Siddhi's sheet note: Design-build + land dev. Active hyperscale DC delivery.\n\nSiddhi's real-estate sheet note: Design-build developer and contractor. Very active in hyperscale DC campus delivery. Strong pre-construction and delivery talent.",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-09"
 }

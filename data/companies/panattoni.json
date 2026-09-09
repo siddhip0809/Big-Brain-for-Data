@@ -16,18 +16,21 @@
     "Hyperscaler",
     "Real Estate Development"
   ],
-  "notes": "Minimal stub record: identified as the current employer of 3 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): founder-owned (Panattoni family). Privately/founder-owned by the Panattoni family (founded 1986 by Carl Panattoni; Adon Panattoni is Global CEO). No outside PE/VC ownership found.\n\nSiddhi's sheet comment: Real estate / PE firm with DC arm.",
+  "notes": "Minimal stub record: identified as the current employer of 3 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): founder-owned (Panattoni family). Privately/founder-owned by the Panattoni family (founded 1986 by Carl Panattoni; Adon Panattoni is Global CEO). No outside PE/VC ownership found.\n\nSiddhi's sheet comment: Real estate / PE firm with DC arm.\n\nSiddhi's real-estate sheet note: One of the largest private industrial developers globally. Highly active in DC campus land development across NoVA, Phoenix, Chicago, and Europe.",
   "sources": [
     "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "parent_industry": "real_estate",
   "roles": [
-    "developer_operator"
+    "developer_operator",
+    "real_estate_developer"
   ],
   "source_lists": [
-    "Data Centre Developer"
+    "Data Centre Developer",
+    "Real Estate Developers USA"
   ],
   "list_attributes": {
     "Data Centre Developer": {
@@ -38,6 +41,12 @@
       "Regional Presence (N. America)": "Yes",
       "Regional Presence  S. America": "No",
       "Date Updated": "2026-03-20 00:00:00"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
     }
   },
   "linkedin": "https://www.linkedin.com/company/panattoni-europe/",
@@ -48,5 +57,6 @@
       "total_mw": 88.0,
       "early_stage_mw": 46.0
     }
-  }
+  },
+  "dc_exposure_level": "High"
 }

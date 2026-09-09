@@ -1,0 +1,37 @@
+{
+  "id": "rockefeller-group",
+  "type": "company",
+  "name": "Rockefeller Group",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "New York, New York",
+  "founded": null,
+  "website": "https://www.rockefellergroup.com",
+  "linkedin": "https://www.linkedin.com/company/rockefeller-group/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Medium",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Commercial real estate developer. Active in industrial and mixed-use development. Some DC campus land exposure in key markets.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "harrison-street-real-estate",
+  "type": "company",
+  "name": "Harrison Street Real Estate",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Chicago, Illinois",
+  "founded": null,
+  "website": "https://www.harrisonst.com",
+  "linkedin": "https://www.linkedin.com/company/harrison-street-real-estate/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Medium",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Alternative real estate investment manager. Some data infrastructure and DC-adjacent investments. Growing DC focus.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}
