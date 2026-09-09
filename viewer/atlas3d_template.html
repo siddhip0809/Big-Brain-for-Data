@@ -1035,7 +1035,7 @@
   const displacedIds = new Set(); // every node moved off its settled position since focus began
 
   function neighborsOf(n){
-    const base = lineOn.invested_in ? (n.kind === 'company' ? (backersOf[n.id] || []) : (portfolioOf[n.id] || [])) : [];
+    const base = lineOn.invested_in ? [...(n.kind === 'company' ? (backersOf[n.id] || []) : []), ...(portfolioOf[n.id] || [])] : [];
     const deals = (dealsOf[n.id] || []).filter(d => lineOn[d.type]).map(d => d.other);
     const seen = new Set(); const out = [];
     [...base, ...deals].forEach(x => { if(!seen.has(x.id)){ seen.add(x.id); out.push(x); } });
@@ -1528,6 +1528,15 @@
         });
       } else {
         html += `<div class="banner-note">No people mapped at this company yet.</div>`;
+      }
+      const stakes = portfolioOf[n.id] || [];
+      if(stakes.length){
+        html += `<div class="section-label">Stakes in data-center companies (${stakes.length})</div>`;
+        stakes.forEach(p => {
+          const c = catById[p.category] || {}, l = backingLink[n.id + '|' + p.id] || {};
+          html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(p.name)} <span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span></div>
+            <div class="pe-meta">${escapeHtml(l.detail || '')}${l.confidence ? '<br>confidence: ' + escapeHtml(l.confidence) : ''}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
+        });
       }
       const backers = backersOf[n.id] || [];
       if(backers.length){

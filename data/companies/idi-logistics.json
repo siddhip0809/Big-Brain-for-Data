@@ -2,7 +2,9 @@
   "id": "idi-logistics",
   "type": "company",
   "name": "IDI Logistics",
-  "aliases": [],
+  "aliases": [
+    "IDR (Industrial Developments International)"
+  ],
   "industry_role": "real estate / industrial developer",
   "headquarters": "Greenville, South Carolina",
   "founded": null,
@@ -39,7 +41,7 @@
     }
   },
   "dc_exposure_level": "Low",
-  "notes": "Siddhi's sheet note: Already in RE list. Industrial developer. Southeast and Mid-Atlantic presence. Some NoVA-adjacent activity. Limited DC relevance.\n\nSiddhi's real-estate sheet note: Industrial developer. Southeast focus. Limited DC exposure.",
+  "notes": "Siddhi's sheet note: Already in RE list. Industrial developer. Southeast and Mid-Atlantic presence. Some NoVA-adjacent activity. Limited DC relevance.\n\nSiddhi's real-estate sheet note: Industrial developer. Southeast focus. Limited DC exposure.\n\nMerged 2026-09-09: absorbed duplicate record 'IDR (Industrial Developments International)' (idr-industrial-developments-international).",
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05",
     "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"

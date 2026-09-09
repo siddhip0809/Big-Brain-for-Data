@@ -2,7 +2,9 @@
   "id": "clayco",
   "type": "company",
   "name": "Clayco",
-  "aliases": [],
+  "aliases": [
+    "CRG (Clayco Real Estate Group)"
+  ],
   "industry_role": "civil land engineering / general contractor",
   "headquarters": "Chicago, Illinois",
   "founded": null,
@@ -40,7 +42,7 @@
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet note: Design-build + land dev. Active hyperscale DC delivery.\n\nSiddhi's real-estate sheet note: Design-build developer and contractor. Very active in hyperscale DC campus delivery. Strong pre-construction and delivery talent.",
+  "notes": "Siddhi's sheet note: Design-build + land dev. Active hyperscale DC delivery.\n\nSiddhi's real-estate sheet note: Design-build developer and contractor. Very active in hyperscale DC campus delivery. Strong pre-construction and delivery talent.\n\nMerged 2026-09-09: absorbed duplicate record 'CRG (Clayco Real Estate Group)' (crg-clayco-real-estate-group).",
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05",
     "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"

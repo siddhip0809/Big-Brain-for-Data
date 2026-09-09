@@ -37,7 +37,7 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **1,210 companies** — in two groups, both carried on each record as
+- **1,204 companies** — in two groups, both carried on each record as
   `roles` (see `docs/schema.md`):
   - **726 data-center companies** — Pure Data Centers and STACK
     Infrastructure (active Ward Search client engagements, hand-written
@@ -54,7 +54,7 @@ Real data has started loading. Currently in the brain:
     "Other/Not Relevant"), which also brought website, LinkedIn, HQ,
     headcount, hyperscale focus, and **MW capacity by region** for 638
     companies.
-  - **484 adjacent-industry companies** from four more of Siddhi's lists —
+  - **478 adjacent-industry companies** from four more of Siddhi's lists —
     Energy Developers (159), Civil/Land Engineers (116), General
     Contractors USA (150), Cold Storage & Industrial Developers (29) and Real Estate
     Development USA (84, added 2026-09-09 — 72 new companies plus the role
@@ -119,7 +119,7 @@ Real data has started loading. Currently in the brain:
   wording to search on (rebuild with `scripts/build_title_index.py`).
   Email, phone, and compensation were deliberately left out of every
   record (kept in Clockwork only) — see `docs/schema.md`.
-- **3,048 relationships** connecting the above — candidacy links,
+- **3,076 relationships** connecting the above — candidacy links,
   employment links, investor backing (124 investors incl. Google and
   NVIDIA in their dual role as strategic investors), and, since
   2026-09-05, a **company-to-company deal layer** of 98 edges:
@@ -142,8 +142,19 @@ Real data has started loading. Currently in the brain:
     `supplies_power_to` (61 — AES → Meta / Google / AWS / Microsoft, Talen
     → AWS Susquehanna, Brookfield → Microsoft 10.5 GW, Ørsted, Avangrid,
     Invenergy, Entergy-style utility agreements; ~36 GW where stated) and
-    `site_partner` (5 — Hillwood → Meta / T5, Affinius → Corscale, Seefried
-    → Edged). **Coverage caveat:** the researchers' web-search budget ran
+    `site_partner` (24 after the 2026-09-09 real-estate round — Hillwood →
+    Meta / T5 / STACK, VanTrust → Novva / QTS / EdgeConneX / Aligned, COPT →
+    AWS, Prologis → Skybox, Crow Holdings → CleanArc, Hines → Compass,
+    Lendlease → PDG, Majestic → Switch, Mapletree → Digital Realty …) plus
+    9 company-to-company `invested_in` stakes where a real-estate firm
+    seeded a data-center platform (AREP → PowerHouse, Harrison Street →
+    1547, Stream Realty → Stream Data Centers, GLP → Ada, QuadReal → T5,
+    Affinius → Corscale, Ares → Sabey, Principal → Stream / Lincoln
+    Rackhouse, Transwestern → FrontierGen). 68 of the 106 real-estate and
+    industrial developers had no findable named counterparty; the
+    researcher's list of "DC ambitions, no counterparty" firms (Trammell
+    Crow, Panattoni, Scannell, NorthPoint, CRG, Link Logistics …) is in the
+    commit history. **Coverage caveat:** the researchers' web-search budget ran
     out part-way, so roughly a third of the contractors and a fifth of the
     energy companies were checked; the rest are unverified, not
     confirmed-negative. Firms with a confirmed DC practice but confidential

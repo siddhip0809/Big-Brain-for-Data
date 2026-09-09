@@ -2,23 +2,27 @@
   "id": "tpa",
   "type": "company",
   "name": "TPA",
-  "aliases": [],
+  "aliases": [
+    "TPA Group, LLC"
+  ],
   "industry_role": "developer operator",
-  "headquarters": null,
+  "headquarters": "Birmingham, Alabama",
   "founded": null,
-  "website": null,
-  "linkedin": null,
-  "headcount": null,
+  "website": "https://www.tpagroup.com",
+  "linkedin": "https://www.linkedin.com/company/tpa-group/",
+  "headcount": "51-200",
   "description": null,
   "facilities": [],
   "financials": {},
   "tags": [],
   "parent_industry": "pure_play",
   "roles": [
-    "developer_operator"
+    "developer_operator",
+    "real_estate_developer"
   ],
   "source_lists": [
-    "Data Centre Developer"
+    "Data Centre Developer",
+    "Real Estate Developers USA"
   ],
   "list_attributes": {
     "Data Centre Developer": {
@@ -29,14 +33,21 @@
       "Regional Presence (N. America)": "Yes",
       "Regional Presence  S. America": "No",
       "Date Updated": "2026-03-20 00:00:00"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "No",
+      "DC Exposure Level": "None"
     }
   },
-  "dc_exposure_level": null,
-  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "dc_exposure_level": "None",
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.\n\nMerged 2026-09-09: absorbed duplicate record 'TPA Group, LLC' (tpa-group-llc).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "capacity_mw": {
     "north_america": {
       "total_mw": 1782.0

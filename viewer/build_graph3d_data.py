@@ -142,7 +142,11 @@ all_ids = {n["id"] for n in nodes}
 deal_edges = 0
 if True:
     for r in relationships:
-        if r.get("type") not in DEAL_TYPES: continue
+        # company -> company backing (a real-estate firm seeding a DC platform) is
+        # drawn from the relationship; investor -> company backing comes from the
+        # investor records above, so skip it here to avoid double edges
+        if r.get("type") == "invested_in" and not (r["from"].startswith("company:") and r["to"].startswith("company:")): continue
+        if r.get("type") not in DEAL_TYPES and r.get("type") != "invested_in": continue
         # "company:x" -> node "x"; "investor:x" -> node "investor:x"
         node_ref = lambda ref: ref.split(":", 1)[-1] if ref.startswith("company:") else ref
         src_id, dst_id = node_ref(r["from"]), node_ref(r["to"])

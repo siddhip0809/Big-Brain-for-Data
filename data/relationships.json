@@ -31941,7 +31941,7 @@
     "note": "Project appears on ARCO National Construction's data center page; ARCO Design/Build, ARCO National and ARCO/Murray are affiliated ARCO companies, so confirm which entity contracted. ARCO/Murray separately markets hyperscale campus and powered-shell DC construction."
   },
   {
-    "from": "company:usaa-real-estate-affinius-capital",
+    "from": "company:affinius-capital",
     "to": "company:corscale-data-centers",
     "type": "site_partner",
     "detail": "Affinius Capital (ex-USAA Real Estate) is JV partner and capital behind Corscale (an affiliate of Patrinely and Affinius) on the 130-acre Gainesville Crossing Data Center Campus in Gainesville/Prince William County, VA: five buildings, ~2.3M sq ft, ~306-326 MW with on-site substation; the 72 MW 'Project Helios' building, fully leased to an undisclosed cloud provider, was refinanced with a $975M Blue Owl loan in June 2026; third building under construction.",
@@ -31998,5 +31998,456 @@
     ],
     "last_updated": "2026-09-08",
     "note": "Industrial lease rather than a confirmed data center land/campus deal; verify whether the leased buildings support Google's DC program. Own DC exposure: Majestic's 360-acre Las Vegas Digital Exchange Campus (Decatur Blvd / Southern Beltway) is master-planned for office, warehouse and data center space, no operator named in sources reviewed."
+  },
+  {
+    "from": "company:hillwood-investment-properties",
+    "to": "company:stack-infrastructure",
+    "type": "site_partner",
+    "detail": "STACK Infrastructure continued the T5@Alliance hyperscale campus plan at Hillwood's AllianceTexas (Fort Worth) after T5.",
+    "status": "under way",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/stack-infrastructure-continues-t5s-texas-campus-plan/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:american-real-estate-partners",
+    "to": "company:powerhouse-data-centers",
+    "type": "invested_in",
+    "detail": "PowerHouse Data Centers is AREP's wholly owned data center division, launched 2021 in Ashburn/Loudoun County (initial plan 2.1M sq ft, 338MW); now ~10GW pipeline across nine US markets, backed by a $1B+ development JV with Harrison Street.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.americanrepartners.com/news/arep-launches-powerhouse-data-centers-plans-2-1-million-sq-ft-338mw-across-virginias-loudoun-county",
+      "https://www.americanrepartners.com/news/arep-debuts-powerhouse-data-centers-as-an-all-in-one-solution-to-the-ashburn-data-center-market",
+      "https://baxtel.com/news/american-real-estate-partners-arep-launches-a-new-data-center-division-called-powerhouse-data-centers",
+      "https://www.powerhousedata.com/news/arep-and-harrison-street-joint-venture-commits-1-billion-to-develop-2-1-million-square-feet-of-powered-shell-data-centers-across-northern-virginias-data-center-alley"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:harrison-street-real-estate",
+    "to": "company:powerhouse-data-centers",
+    "type": "site_partner",
+    "detail": "JV with AREP/PowerHouse formed 2021-22: $1B commitment for six powered-shell data centers (2.1M sq ft) in Ashburn and Arcola, VA; JV commitment later reported at $3.2B / ~6M sq ft, including PowerHouse Reno (NV) and the 200MW PowerHouse Irving campus (DFW); JV has sold completed powered shells.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.powerhousedata.com/news/arep-and-harrison-street-joint-venture-commits-1-billion-to-develop-2-1-million-square-feet-of-powered-shell-data-centers-across-northern-virginias-data-center-alley",
+      "https://www.commercialsearch.com/news/jv-commits-1b-to-northern-virginia-data-center-development/",
+      "https://www.bisnow.com/national/news/data-center/arep-harrison-street-jv-powerhouse-plans-data-center-campus-in-reno-122501",
+      "https://newswire.telecomramblings.com/2024/05/powerhouse-harrison-street-joint-ventures-sixth-data-center-development-enters-the-red-hot-dfw-market-with-a-new-200-mw-campus-powerhouse-irving/",
+      "https://harrisonst.com/wp-content/uploads/2024/12/Harrison-Street-and-PowerHouse-Data-Centers-Sell-Powered-Shell-Data-Center.pdf"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:harrison-street-real-estate",
+    "to": "company:1547-critical-systems-realty",
+    "type": "invested_in",
+    "detail": "Joint national data center and connectivity platform with fifteenfortyseven Critical Systems Realty (>1M sq ft): acquisitions include a four-asset portfolio in Chicago, Orangeburg NY and Cheyenne WY (560,000+ sq ft), Union Station carrier hotel in South Bend, Chase Tower McAllen TX, DRFortress carrier hotel in Hawaii (2025) and four data centers from CIM Group (2025); Orangeburg expansion fully leased.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.1547realty.com/resource/fifteenfortyseven-critical-systems-realty-and-harrison-street-acquire-portfolio-of-four-strategically-located-data-centers-in-new-york-chicago-and-wyoming/",
+      "https://www.datacenterdynamics.com/en/news/cim-group-sells-four-data-centers-to-harrison-street1547-crs/",
+      "https://www.dlapiper.com/en-us/news/2025/04/dla-piper-advises-harrison-street-and-1547-critical-systems-realty-on-acquisition",
+      "https://www.1547realty.com/resource/harrison-street-1547-acquire-carrier-hotel-data-center-hawaii-and-announce-expansion/",
+      "https://harrisonst.com/harrison-street-asset-management-and-fifteenfortyseven-critical-systems-realty-achieve-full-occupancy-at-orangeburg-data-center-with-further-expansion-underway/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:stream-realty-partners",
+    "to": "company:stream-data-centers",
+    "type": "invested_in",
+    "detail": "Stream Data Centers is the technical real estate affiliate of Stream Realty Partners; in 2025 Apollo-managed funds acquired a majority interest from Stream Realty Partners (closed Nov 3, 2025) with Principal Asset Management taking a minority stake and management retaining a minority.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://streamrealty.com/stream-realty-partners-announces-completion-of-the-acquisition-of-stream-data-centers-by-apollo-funds/",
+      "https://www.apollo.com/insights-news/pressreleases/2025/08/apollo-funds-to-acquire-majority-stake-in-stream-data-centers-forming-a-scaled-digital-infrastructure-leader-3128284",
+      "https://www.streamdatacenters.com/news/apollo-funds-to-acquire-majority-stake-in-stream-data-centers/",
+      "https://streamrealty.com/property-types/data-centers/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:corporate-office-properties-trust",
+    "to": "company:aws",
+    "type": "site_partner",
+    "detail": "Largest third-party developer of build-to-suit powered-shell data centers for Amazon Web Services (via subsidiary Vadata) in Northern Virginia: 2017 program of 11 AWS shells followed by land for seven more; Vadata occupies ~3.1M sq ft of COPT shells with 1M+ sq ft more under development; Vadata is COPT's second-largest tenant.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterknowledge.com/business/amazon-s-relentless-growth-in-northern-virginia-continues",
+      "https://www.datacenterfrontier.com/cloud/article/11431086/huge-cloud-expansion-underway-in-amazon-us-east",
+      "https://www.datacenterknowledge.com/data-center-construction/half-a-million-square-feet-of-amazon-data-center-space-under-construction-in-virginia"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "COPT now trades as COPT Defense Properties."
+  },
+  {
+    "from": "company:prologis",
+    "to": "company:skybox-datacenters",
+    "type": "site_partner",
+    "detail": "Repeated partner converting Prologis warehouses to data centers: 30MW / ~189,000 sq ft powered shell at 800 E Devon, Elk Grove Village IL (completed 2022, later leased turnkey to a hyperscaler and the asset sold to HMC Capital); Skybox and Prologis also plan a data center campus in Austin, TX.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterfrontier.com/site-selection/article/11428324/logistics-meets-data-skybox-teams-with-prologis-on-data-center-projects",
+      "https://www.journal-topics.com/articles/skybox-prologis-investing-13-7-million-turning-vacant-warehouse-into-data-center/",
+      "https://www.businesswire.com/news/home/20220112005169/en/ComEd-Skybox-Datacenters-Announce-Completion-of-Latest-Data-Center-in-Northern-Illinois",
+      "https://www.skyboxdatacenters.com/news/skybox-prologis-plan-new-data-center-campus-in-austin",
+      "https://www.datacenterfrontier.com/design/article/55260691/prologis-and-skybox-advance-warehouse-conversion-strategy-with-illinois-data-center-sale"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "List entries 'DCT Industrial' and 'Duke Realty' are now part of Prologis; no separate DC deals found for them."
+  },
+  {
+    "from": "company:mapletree-industrial",
+    "to": "company:digital-realty",
+    "type": "site_partner",
+    "detail": "2019 $1.4B transaction: Mapletree Investments/Mapletree Industrial Trust 50:50 JV bought 10 Powered Base Building data centers from Digital Realty (~US$557M) and took an 80% stake in a JV holding three Turn-Key Flex hyperscale data centers in Ashburn, VA (~US$811M); Digital Realty retained 20% (Mapletree Rosewood Data Centre Trust).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.mapletree.com.sg/newsroom/mapletree-investments-and-mapletree-industrial-trust-to-acquire-us1-4-billion-data-centre-portfolio-in-north-america-from-digital-realty/",
+      "https://www.digitalrealty.com/about/newsroom/press-releases/122637/digital-realty-collaborates-with-mapletree-investments-and-mapletree-industrial-trust-on-14-billion-north-american-data-center-portfolio",
+      "https://www.datacenterdynamics.com/en/news/digital-realty-sells-10-us-data-centers-shares-three-14bn-mapletree-deal/",
+      "https://www.prnewswire.com/news-releases/digital-realty-closes-1-billion-joint-venture-transaction-with-mapletree-300951046.html"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:principal-real-estate-investors",
+    "to": "company:stream-data-centers",
+    "type": "invested_in",
+    "detail": "Principal Data Center Growth & Income Fund (closed Feb 2025 at $3.64B; Principal's third dedicated DC vehicle) is to capitalize >$8B of US hyperscale development in partnership with Stream Data Centers; Principal Asset Management also took a minority stake in Stream Data Centers alongside Apollo's majority acquisition (closed Nov 2025).",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.businesswire.com/news/home/20250228951453/en/Principal%C2%AE-closes-3.64-billion-capital-raise-for-Data-Center-Growth-Income-Fund",
+      "https://www.datacenterdynamics.com/en/news/principal-closes-364bn-dedicated-data-center-fundraise/",
+      "https://www.principal.com/about-us/news-room/news-releases/principal-closes-364-billion-capital-raise-data-center-growth",
+      "https://streamrealty.com/stream-realty-partners-announces-completion-of-the-acquisition-of-stream-data-centers-by-apollo-funds/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:lincoln",
+    "to": "company:metrobloks",
+    "type": "site_partner",
+    "detail": "Lincoln Property Company partnered with data center firm Metrobloks on a Kansas City data center.",
+    "status": "announced",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/lincoln-property-partners-with-data-center-firm-metrobloks-for-kansas-city-data-center/"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "Lincoln also runs its own DC platform (formerly Lincoln Rackhouse) and a 190-acre, 144MW New Albany OH campus JV with Harrison Street (investor, not an operator)."
+  },
+  {
+    "from": "company:crow-holdings",
+    "to": "company:cleanarc-data-centers",
+    "type": "site_partner",
+    "detail": "245MW multi-building turnkey data center campus on ~40 Crow-owned acres along the Stemmons Corridor / Dallas Market Center site in central Dallas; CleanArc selected to lead development and leasing, first 70MW building due late 2027 (announced Jan-Feb 2026).",
+    "status": "announced",
+    "confidence": "high",
+    "sources": [
+      "https://www.crowholdings.com/insights/crow-holdings-announces-245mw-flagship-data-center-campus-in-central-dallas/",
+      "https://www.businesswire.com/news/home/20260120363268/en/Crow-Holdings-Announces-245MW-Flagship-Data-Center-Campus-in-Central-Dallas",
+      "https://www.datacenterdynamics.com/en/news/cleanarc-partners-with-crow-holdings-for-245mw-campus-in-dallas-texas/",
+      "https://www.prnewswire.com/news-releases/cleanarc-data-centers-selected-to-lead-development-and-leasing-for-crow-holdings-245mw-flagship-campus-in-central-dallas-302682209.html"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "Crow Holdings is distinct from Trammell Crow Company (CBRE)."
+  },
+  {
+    "from": "company:hines",
+    "to": "company:compass-datacenters",
+    "type": "site_partner",
+    "detail": "JV with Compass Datacenters (2022) acquiring a 2.3M sq ft site in Noviglio, Milan metro, for a 48MW+ data center campus - Compass's first European project and Hines's first data center delivery in Europe; construction from 2023.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.hines.com/news/compass-datacenters-enters-european-data-center-market-in-joint-venture-with-hines-in-milan",
+      "https://www.compassdatacenters.com/news/milan/",
+      "https://www.prnewswire.com/news-releases/compass-datacenters-enters-european-data-center-market-in-joint-venture-with-hines-in-milan-301600350.html",
+      "https://datacentremagazine.com/data-centres/compass-datacenters-hines-enter-european-data-centre-market"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "Hines also has a 17MW Redmond WA campus JV with North Pacific Realty Advisors (not a DC operator) and its own 'Americas Data Center' platform."
+  },
+  {
+    "from": "company:global-logistics-properties",
+    "to": "company:ada-infrastructure",
+    "type": "invested_in",
+    "detail": "GLP launched Ada Infrastructure (Sept 2023) as its global data center business outside China, with 850MW of secured IT capacity across Japan, the UK and Brazil and ~1.5GW total pipeline; led by ex-Microsoft executive Jennifer Weitzel; includes a 210MW campus in London's Royal Docks.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.glp.com/global/article/announcing-ada-infrastructure-new-global-data-center-platform-serving-worlds-most",
+      "https://www.prnewswire.com/news-releases/announcing-ada-infrastructure-a-new-global-data-center-platform-serving-the-worlds-most-transformative-companies-301933631.html",
+      "https://www.datacenterdynamics.com/en/news/glp-launches-ada-infrastructure-data-center-platform-details-850mw-pipeline/",
+      "https://eu.glp.com/ada-infrastructure-approved-to-develop-210-mw-data-center-campus-in-east-londons-royal-docks/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:quadreal-property-group",
+    "to": "company:t5-data-centers",
+    "type": "invested_in",
+    "detail": "Launched a $2.5B fully integrated platform with T5 in 2019 to develop, acquire and operate data centers (Silicon Valley, Hillsboro, Chicago, Atlanta, Charlotte); 2025 capital raise expands the jointly owned platform to $8B to fund a ~5GW Scaled Campus build-out.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.globenewswire.com/news-release/2019/04/26/1810567/0/en/T5-Data-Centers-and-QuadReal-Launch-2-5-Billion-Fully-Integrated-Platform-to-Develop-Acquire-and-Operate-Data-Centers.html",
+      "https://quadreal.com/quadreal-and-t5-capital-raise-to-support-data-centers-platform-growth-to-8-0-billion/",
+      "https://t5datacenters.com/resources/quadreal-and-t5-data-centers-announce-capital-raise-to-support-data-center-expansion-development-and-platform-growth-to-8-billion/",
+      "https://www.datacenterdynamics.com/en/news/t5-and-quadreal-form-8bn-partnership-to-fund-5gw-build-out/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:lendlease",
+    "to": "company:princeton-digital-group",
+    "type": "site_partner",
+    "detail": "Lendlease Data Centre Partners (Lendlease 20% / Singapore institutional investor 80%) is developing a 100MW hyperscale campus in Greater Tokyo (33,000 sqm site, >60,000 sqm GFA, GDV >$600M) on a built-to-suit core-and-shell basis for PDG under a long-term lease; core and shell construction completed.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.lendlease.com/media-centre/media-releases/lendlease-commences-construction-on-100-mw-data-centre-campus-in-japan-for-princeton-digital-group/",
+      "https://www.lendlease.com/uk/media-centre/media-releases/lendlease-and-pdg-complete-core-and-shell-construction-of-one-of-japans-largest-data-centre-campuses/",
+      "https://princetondg.com/newsroom/lendlease-commences-construction-100mw-dc-campus-japan-pdg/",
+      "https://www.datacenterdynamics.com/en/news/lendlease-announces-600-million-hyperscale-facility-in-japan/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:nuveen-real-estate",
+    "to": "company:prime-data-centers",
+    "type": "invested_in",
+    "detail": "Nuveen and Snowhawk made a strategic equity investment in Prime Data Centers (July 31, 2025), joining Macquarie Capital, Ares Management and Siemens Financial Services; supports Prime's ~4GW US/Europe roadmap.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/snowhawk-and-nuveen-invest-in-prime-data-centers/",
+      "https://www.prnewswire.com/news-releases/snowhawk-and-nuveen-make-strategic-investment-in-prime-data-centers-302518704.html",
+      "https://primedatacenters.com/news/snowhawk-and-nuveen-make-strategic-investment-in-prime-data-centers/",
+      "https://www.commercialsearch.com/news/nuveen-jv-invests-in-prime-data-centers/"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "Announced by Nuveen (TIAA) at parent level; CPE reports it as a Nuveen JV."
+  },
+  {
+    "from": "company:invesco-real-estate",
+    "to": "company:flexential",
+    "type": "site_partner",
+    "detail": "JV with Legacy Investing completed sale-leasebacks with Flexential: construction financing/sale-leaseback of Hillsboro 3 data center near Portland (April 2021) and the 18MW Plano, TX facility being expanded to 260,000+ sq ft (2021).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/legacy-investing-and-invesco-real-estate-expand-data-center-portfolio-with-sale-leaseback-of-flexentials-plano-texas-facility-and-hillsboro-3-data-center-in-portland-301349650.html",
+      "https://irei.com/news/legacy-investing-invesco-real-estate-expand-data-center-portfolio/",
+      "https://www.commercialsearch.com/news/legacy-invesco-jv-completes-dfw-sale-leaseback/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:affinius-capital",
+    "to": "company:corscale-data-centers",
+    "type": "invested_in",
+    "detail": "Affinius (formerly USAA Real Estate) has been Corscale's investment partner since the platform launched in 2021 (Corscale is Patrinely Group's DC platform); JV broke ground on the 300+MW, 130-acre Gainesville Crossing campus in Northern Virginia and secured a $975M refinancing of Project Helios there; 2025 joint exclusivity partnership with e2Companies; Affinius raised $905M for its Digital Economy Real Estate Partners data center fund (2026).",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.commercialsearch.com/news/affinius-corscale-jv-lands-975m-refi-for-nova-data-center/",
+      "https://www.businesswire.com/news/home/20250422302569/en/Corscale-Data-Centers-and-Affinius-Capital-Announce-Strategic-Partnership-with-e2Companies-to-Exclusively-Utilize-its-Virtual-Utility-Technology-in-the-United-States-Hyperscale-Data-Center-Market",
+      "https://dcnnmagazine.com/data-centres/corscale-data-centers-announces-partnership-with-affinius/",
+      "https://irei.com/news/ussa-jv-launches-300mw-data-center-campus-northern-virginia/",
+      "https://news.datacenterview.com/p/july-7-2026-affinius-capital-raises-905m-for-data-center-fund"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "List entry 'USAA Real Estate / Affinius Capital' is the same firm."
+  },
+  {
+    "from": "company:ares-real-estate",
+    "to": "company:sabey-data-centers",
+    "type": "invested_in",
+    "detail": "Ares Management's real estate secondaries funds made a minority equity investment in Sabey Data Center Properties (announced July 2026) to accelerate development across Sabey's campuses (Quincy, Seattle, East Wenatchee, NYC, Austin, Umatilla, Indianapolis, Ashburn; ~251MW operational).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/ares-invests-in-sabey-data-centers/",
+      "https://www.globenewswire.com/news-release/2026/07/08/3324085/0/en/sabey-data-center-properties-welcomes-strategic-investment-from-ares-strengthening-platform-for-continued-growth.html",
+      "https://realassets.ipe.com/news/ares-real-estate-secondaries-arm-takes-stake-in-sabey-data-center-properties/10137648.article"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "Investment made by Ares' real estate secondaries arm rather than the core Ares Real Estate equity funds; Ares Management is also an existing investor in Prime Data Centers."
+  },
+  {
+    "from": "company:tishman-speyer",
+    "to": "company:mainova-webhouse",
+    "type": "site_partner",
+    "detail": "Acquired a 75,000 sqm site in Frankfurt Osthafen from Samson AG (2024) and formed a JV with utility-owned Mainova WebHouse for a data center campus of 32MW initial / up to 70MW IT load plus light industrial - Tishman Speyer's first data center project.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/tishman-speyer-to-build-major-data-center-campus-in-frankfurt-as-ai-drives-demand-for-significantly-increased-computing-power-302143641.html",
+      "https://www.datacenterdynamics.com/en/news/real-estate-firm-tishman-moves-into-data-centers-plans-frankfurt-campus-alongside-mainova/",
+      "https://www.cliffordchance.com/news/news/2024/05/clifford-chance-advises-tishman-speyer-on-the-acquisition-of-a-7.html",
+      "https://www.lw.com/en/news/latham-advises-mainova-webhouse-on-joint-venture-with-tishman-speyer"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "Mainova WebHouse is not on the core list."
+  },
+  {
+    "from": "company:kdc-real-estate-development",
+    "to": "company:digital-realty",
+    "type": "contractor_for",
+    "detail": "Development alliance with Digital Realty since Dec 2009: seven data centers completed or under construction (~790,000 sq ft) in Ashburn VA, Richardson TX, Austin TX and San Antonio TX, including two new buildings at the Digital Dallas datacampus in Richardson.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://kdc.com/news/kdc-developing-two-new-data-centers-for-digital-realty-at-digital-dallas-datacampus-in-richardson-texas",
+      "https://kdc.com/real-talk/35-years-of-delivering-for-leading-financial-institutions"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "KDC also partners with University of Dallas on a 770,000 sq ft Irving data center campus (rezoned 2025) - no operator named."
+  },
+  {
+    "from": "company:ryan-companies-us-inc",
+    "to": "company:edgecore-digital-infrastructure",
+    "type": "site_partner",
+    "detail": "Ryan Companies and EdgeCore are jointly planning a 780+ acre data center and industrial campus in Florence, AZ (Florence Tech Park / Dobson Farms): EdgeCore proposes ten two-story 332,100 sq ft data centers and four substations; Ryan's portion includes up to 11 industrial buildings; rezoning under review.",
+    "status": "announced",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/ryan-companies-and-edgecore-target-data-center-developments-outside-phoenix-arizona/",
+      "https://www.connectcre.com/stories/edgecore-scoping-332k-sf-data-center-in-florence/",
+      "https://www.datacentermap.com/usa/arizona/phoenix/edgecore-florence-tech-park/"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "Ryan separately filed its own 400MW Southwest Crossing campus in Eloy, AZ with no named operator."
+  },
+  {
+    "from": "company:clayco",
+    "to": "company:equinix",
+    "type": "contractor_for",
+    "detail": "Design-build contractor for Equinix CH3 data center in Elk Grove Village, IL.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://claycorp.com/project/equinix-ch3"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:ware-malcomb",
+    "to": "company:edged",
+    "type": "contractor_for",
+    "detail": "Architect of record / interior designer for the first 210,000 sq ft building (195,000 sq ft data center + 13,000 sq ft office) of the Edged Chicago 96MW campus in Aurora, IL, developed by Seefried.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://waremalcomb.com/news/ware-malcomb-announces-construction-is-complete-on-edged-chicago-data-center-campus-in-aurora-il/",
+      "https://waremalcomb.com/projects/edged-data-center/",
+      "https://rejournals.com/ware-malcomb-provides-architecture-interior-design-work-on-first-phase-of-edged-data-center-in-aurora/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:ta-associates-realty",
+    "to": "company:edgeconnex",
+    "type": "site_partner",
+    "detail": "TA Realty (via TA Digital Group) and EdgeConneX announced (July 2024) joint development of a 324MW, ~2.1M sq ft, ~$1.8B hyperscale campus in Atlanta, GA; TA handles power, entitlements and utilities, EdgeConneX designs/builds/operates; first phase 2026, completion 2030.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.businesswire.com/news/home/20240716972388/en/TA-Realty-and-EdgeConneX-to-Develop-324-MW-Hyperscale-Campus-in-Atlanta-GA",
+      "https://www.tadigitalgroup.com/news/ta-realty-and-edgeconnex-r-to-develop-324-mw-hyperscale-campus-in-atlanta-ga",
+      "https://www.commercialsearch.com/news/ta-realty-edgeconnex-eye-microsoft-hyperscale-campus/",
+      "https://www.silicon.co.uk/press-release/ta-realty-and-edgeconnex-to-develop-324-mw-hyperscale-campus-in-atlanta-ga"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "TA Realty is owned by Rockefeller Group / Mitsubishi Estate (Rockefeller Group is also on the developer list). TA Realty also signed a 430MW lease at its Loudoun County campus - tenant not named."
+  },
+  {
+    "from": "company:ta-associates-realty",
+    "to": "company:microsoft",
+    "type": "site_partner",
+    "detail": "Microsoft reported as the end user of the 324MW Atlanta hyperscale campus being developed by TA Realty with EdgeConneX.",
+    "status": "under way",
+    "confidence": "medium",
+    "sources": [
+      "https://www.commercialsearch.com/news/ta-realty-edgeconnex-eye-microsoft-hyperscale-campus/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:vantrust-real-estate",
+    "to": "company:novva-data-centers",
+    "type": "site_partner",
+    "detail": "Sold ~205 acres at Apex Industrial Park, North Las Vegas to Novva Data Centers for $181M (2025; >$880,000/acre) - land VanTrust bought in 2021 as part of a ~350-acre purchase for $44.75M.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/novva-data-centers-buys-205-acres-of-land-in-las-vegas-nevada/",
+      "https://www.reviewjournal.com/business/developer-sells-200-acres-in-apex-industrial-park-3431263/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:vantrust-real-estate",
+    "to": "company:qts-data-centers",
+    "type": "site_partner",
+    "detail": "Leased an industrial property in Kansas City, KS to QTS for a data center.",
+    "status": "completed",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/novva-data-centers-buys-205-acres-of-land-in-las-vegas-nevada/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:vantrust-real-estate",
+    "to": "company:edgeconnex",
+    "type": "site_partner",
+    "detail": "Sold a building and land outside Columbus, OH to EdgeConneX for data center development.",
+    "status": "completed",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/novva-data-centers-buys-205-acres-of-land-in-las-vegas-nevada/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:vantrust-real-estate",
+    "to": "company:aligned-data-centers",
+    "type": "site_partner",
+    "detail": "Acquired land from Aligned in Phoenix, AZ (reverse direction: VanTrust as buyer).",
+    "status": "completed",
+    "confidence": "medium",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/novva-data-centers-buys-205-acres-of-land-in-las-vegas-nevada/"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "from": "company:majestic-realty",
+    "to": "company:switch",
+    "type": "site_partner",
+    "detail": "Majestic Realty (with Thomas & Mack Development Group) developed the ~360-acre Las Vegas Digital Exchange Campus / Beltway Business Park in southwest Las Vegas, whose tenants include Switch data centers.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.majesticrealty.com/las-vegas-nevada/",
+      "https://www.reviewjournal.com/business/new-warehouses-taking-shape-in-southwest-valley-business-park-2186001/",
+      "https://www.majesticrealty.com/news/majestic-realty-co-signs-two-new-tenants-accelerates-2018-development-plans-las-vegas/"
+    ],
+    "last_updated": "2026-09-08",
+    "note": "List entries 'Majestic Realty' and 'Majestic Realty (Logistics Dev)' are the same company."
   }
 ]
