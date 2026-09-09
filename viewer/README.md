@@ -227,7 +227,12 @@ core / into the core); click a cell for the people and a card to focus
 their company. Each company panel shows "Where from" (group split with
 percentages) and "By tier"; the org chart has a "By previous industry"
 grouping. Flow lines: solid = same tier, dashed = another tier in the same
-group, dotted = across groups. Each company panel shows **Hires from** and **Alumni
+group, dotted = across groups. The overview also has a **By function**
+view (rows = the department people work in now, columns = where they came
+from, with row percentages; click a cell for the people and their top
+source employers) and a function filter that applies to the tier matrix
+too — "where do energy & utilities people come from" is one selection.
+`data/derived/talent_flow_by_function.csv` is the same table as data. Each company panel shows **Hires from** and **Alumni
 now at** (top counts, untracked employers included by name) and how many
 people started in the last six months; the org chart has a **By previous
 employer** grouping and a green **new** badge; grey **talent-flow lines**

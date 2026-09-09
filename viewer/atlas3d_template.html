@@ -323,6 +323,8 @@
   .matrix th.col{ writing-mode:vertical-rl; transform:rotate(180deg); text-align:left; height:150px; vertical-align:bottom; }
   .matrix td{ text-align:center; padding:8px 6px; border-radius:5px; background:var(--panel-2); color:var(--text); cursor:pointer; min-width:48px; font-variant-numeric:tabular-nums; }
   .matrix td.z{ color:var(--text-dim); cursor:default; background:transparent; }
+  .matrix td .pct{ font-family:var(--font-mono); font-size:9px; color:var(--text-dim); margin-top:1px; }
+  select.theme-btn{ appearance:auto; }
   .matrix td.sel{ outline:2px solid var(--pure); }
   .matrix tr.grp td, .matrix tr.grp th{ border-top:1px dashed var(--border); }
   .flows-list{ margin-top:16px; display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:8px; }
@@ -456,9 +458,13 @@
       <div class="org-head">
         <div><h2>Talent flow · who moves where</h2><div class="org-sub" id="flowsSub"></div></div>
         <div class="org-controls">
+          <div class="seg" id="flowsView">
+            <button data-view="tier" class="on">Tier → tier</button><button data-view="fn">By function</button>
+          </div>
           <div class="seg" id="flowsScope">
             <button data-scope="all" class="on">All moves</button><button data-scope="core">Within the core only</button><button data-scope="in">Into the core</button>
           </div>
+          <select id="flowsFn" class="theme-btn" title="Only people in this department"><option value="">All functions</option></select>
           <button class="detail-close" id="flowsClose" title="Close">&times;</button>
         </div>
       </div>
@@ -1708,12 +1714,24 @@
   }
   // ---------- talent flow overview: tier -> tier matrix over every move ----------
   const flowsEl = document.getElementById('flows'), flowsBody = document.getElementById('flowsBody');
-  let flowsScope = 'all', flowsSel = null;
+  let flowsScope = 'all', flowsSel = null, flowsView = 'tier', flowsFn = '';
+  const flowsFnSel = document.getElementById('flowsFn');
+  FUNCTION_ORDER.forEach(f => { const o = document.createElement('option'); o.value = f; o.textContent = f; flowsFnSel.appendChild(o); });
+  flowsFnSel.addEventListener('change', () => { flowsFn = flowsFnSel.value; flowsSel = null; renderFlows(); });
+  document.getElementById('flowsView').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    flowsView = b.dataset.view; flowsSel = null;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b)); renderFlows();
+  });
+  // origin buckets for the by-function view: the four core tiers, then adjacent, investor, and the outside kinds
+  const ORIGIN_COLS = m => m.flow_class.startsWith('core') ? m.from_label : m.flow_class.startsWith('adjacent') ? 'Adjacent industries' : m.flow_class.startsWith('investor') ? 'Investor' : m.from_label.replace('Outside the industry · ', 'Outside · ');
   const CORE_TIERS = ['Hyperscaler', 'NeoCloud / AI Infra', 'Cryptomining pivot', 'Data Center Developer / Operator'];
   function renderFlows(){
     let moves = GRAPH.talent_moves || [];
     if(flowsScope === 'core') moves = moves.filter(m => m.flow_class === 'core → core');
     if(flowsScope === 'in') moves = moves.filter(m => m.flow_class.endsWith('→ core'));
+    if(flowsFn) moves = moves.filter(m => (m.function || 'Unclassified') === flowsFn);
+    if(flowsView === 'fn') return renderFlowsByFunction(moves);
     const froms = {}, tos = {}, cell = {};
     moves.forEach(m => { froms[m.from_label] = (froms[m.from_label] || 0) + 1; tos[m.to_label] = (tos[m.to_label] || 0) + 1; const k = m.from_label + '|' + m.to_label; cell[k] = (cell[k] || 0) + 1; });
     const order = lbl => { const i = CORE_TIERS.indexOf(lbl); return i >= 0 ? i : lbl.startsWith('Outside') ? 50 : lbl === 'Investor' ? 40 : 20; };
@@ -1737,6 +1755,36 @@
         list.map(m => `<div class="pcard" data-company="${escapeHtml(m.to_id)}"><div class="p-name"><span>${escapeHtml(m.person)}</span></div>
           <div class="p-title">${escapeHtml(m.title || '')} · <b>${escapeHtml(m.to_name)}</b></div>
           <div class="p-meta">from ${escapeHtml(m.from_name || '?')}${m.start ? ' · since ' + escapeHtml(m.start) : ''}${m.function ? ' · ' + escapeHtml(m.function) : ''}</div></div>`).join('') + `</div></div>`;
+    }
+    flowsBody.innerHTML = html + '</div>';
+  }
+  // rows = the department people work in now, columns = where they came from
+  function renderFlowsByFunction(moves){
+    const cell = {}, rowTot = {}, colTot = {};
+    moves.forEach(m => { const r = m.function || 'Unclassified', c = ORIGIN_COLS(m); const k = r + '|' + c;
+      cell[k] = (cell[k] || 0) + 1; rowTot[r] = (rowTot[r] || 0) + 1; colTot[c] = (colTot[c] || 0) + 1; });
+    const colOrder = c => { const i = CORE_TIERS.indexOf(c); return i >= 0 ? i : c === 'Adjacent industries' ? 10 : c === 'Investor' ? 11 : 20; };
+    const rows = FUNCTION_ORDER.filter(f => rowTot[f]).concat(Object.keys(rowTot).filter(f => !FUNCTION_ORDER.includes(f)));
+    const cols = Object.keys(colTot).sort((a, b) => colOrder(a) - colOrder(b) || colTot[b] - colTot[a]);
+    document.getElementById('flowsSub').textContent = `${moves.length} moves · rows = the department people work in now, columns = where they came from · click a number for the people`;
+    let html = `<div class="flows-wrap"><table class="matrix"><thead><tr><th></th>${cols.map(c => `<th class="col">${escapeHtml(c)}</th>`).join('')}<th class="col">total</th></tr></thead><tbody>`;
+    rows.forEach(r => {
+      html += `<tr><th>${escapeHtml(r)}</th>` + cols.map(c => { const n = cell[r + '|' + c] || 0, k = r + '|' + c;
+        const pct = Math.round(100 * n / rowTot[r]);
+        return n ? `<td data-k="${escapeHtml(k)}" class="${flowsSel === k ? 'sel' : ''}" style="background:rgba(14,116,144,${Math.min(0.08 + pct / 120, 0.65)})" title="${pct}% of ${escapeHtml(r)} hires">${n}<div class="pct">${pct}%</div></td>` : `<td class="z">·</td>`; }).join('') +
+        `<td class="z"><b>${rowTot[r]}</b></td></tr>`;
+    });
+    html += `<tr class="grp"><th>total</th>${cols.map(c => `<td class="z"><b>${colTot[c]}</b></td>`).join('')}<td class="z"><b>${moves.length}</b></td></tr></tbody></table>`;
+    if(flowsSel){
+      const [fn, origin] = flowsSel.split('|');
+      const list = moves.filter(m => (m.function || 'Unclassified') === fn && ORIGIN_COLS(m) === origin).sort((a, b) => (b.start || '').localeCompare(a.start || ''));
+      const srcs = {}; list.forEach(m => { srcs[m.from_name] = (srcs[m.from_name] || 0) + 1; });
+      const top = Object.entries(srcs).sort((a, b) => b[1] - a[1]).slice(0, 12);
+      html += `<div style="flex:1;min-width:320px"><div class="section-label">${escapeHtml(fn)} ← ${escapeHtml(origin)} · ${list.length} people</div>
+        <div class="dt-row"><div class="dt-k">Top sources</div><div class="dt-v">${top.map(([n, c]) => `<div class="flow-row"><span>${escapeHtml(n)}</span><span>${c}</span></div>`).join('')}</div></div><div class="flows-list">` +
+        list.map(m => `<div class="pcard" data-company="${escapeHtml(m.to_id)}"><div class="p-name"><span>${escapeHtml(m.person)}</span></div>
+          <div class="p-title">${escapeHtml(m.title || '')} · <b>${escapeHtml(m.to_name)}</b></div>
+          <div class="p-meta">from ${escapeHtml(m.from_name || '?')}${m.start ? ' · since ' + escapeHtml(m.start) : ''}</div></div>`).join('') + `</div></div>`;
     }
     flowsBody.innerHTML = html + '</div>';
   }

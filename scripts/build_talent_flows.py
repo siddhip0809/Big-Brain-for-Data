@@ -98,7 +98,7 @@ def flows():
         to_tier = companies[cur_id]["_tier"]
         rec = {"person": p["name"], "person_id": p["id"], "to_id": cur_id, "to_name": companies[cur_id]["name"],
                "function": p.get("function"), "title": p.get("current_title"), "start": f"{start[1]}/{start[0]}" if start else None,
-               "from_name": prev["company"] if prev else None, "from_id": from_id,
+               "from_name": (companies[from_id]["name"] if from_id else prev["company"]) if prev else None, "from_id": from_id,
                "from_title": prev.get("title") if prev else None,
                # classification: where they came from, and the exact tier pair
                "from_tier": from_tier, "to_tier": to_tier,
@@ -131,6 +131,10 @@ if __name__ == "__main__":
     with open(f"{REPO}/data/derived/talent_flow_matrix.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(["from_tier", "to_tier", "moves"])
         for (a, b), n in sorted(matrix.items(), key=lambda kv: -kv[1]): w.writerow([a, b, n])
+    by_fn = collections.Counter((m["function"] or "Unclassified", m["from_label"]) for m in moves)
+    with open(f"{REPO}/data/derived/talent_flow_by_function.csv", "w", newline="") as f:
+        w = csv.writer(f); w.writerow(["function", "from_tier", "moves"])
+        for (fn, frm), n in sorted(by_fn.items(), key=lambda kv: (kv[0][0], -kv[1])): w.writerow([fn, frm, n])
     by_class = collections.Counter(m["flow_class"] for m in moves)
     print("by class:", dict(by_class))
     print("top tier pairs:", matrix.most_common(10))
