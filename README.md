@@ -110,9 +110,12 @@ Real data has started loading. Currently in the brain:
   companies, e.g. AWS → Microsoft 11, AWS → Google 10, Equinix → Digital
   Realty 7) plus a list of the 226 people who started their current role
   in the last six months — `data/derived/talent_flows.csv` and
-  `recent_moves.csv`, and in the atlas as each company's "Hires from /
-  Alumni now at" panel, an org-chart grouping by previous employer, a
-  "new" badge, and toggleable grey flow lines.
+  `recent_moves.csv`, and in the atlas as each company's "Where from / By tier /
+  Top sources" panel, an org-chart grouping by previous employer or
+  previous industry, a "new" badge, toggleable grey flow lines, and a
+  tier-to-tier matrix of all 1,526 moves (`data/derived/talent_flow_matrix.csv`):
+  748 came from outside the industry, 422 moved within the core, 114 came
+  in from adjacent industries, 26 from investors.
   Locations are normalised too (`location_norm`: US state or country),
   and `data/derived/job_titles.csv` + `job_titles_by_function.csv` index
   every job title in use per company and per department — the exact

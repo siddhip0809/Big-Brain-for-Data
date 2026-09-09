@@ -194,9 +194,16 @@ flow_pairs = {}
 for m in moves:
     if m["from_id"] and m["from_id"] in node_ids:
         flow_pairs.setdefault((m["from_id"], m["to_id"]), []).append(m["person"])
+flow_meta = {}
+for m in moves:
+    if m["from_id"] and m["from_id"] in node_ids: flow_meta.setdefault((m["from_id"], m["to_id"]), m)
 for (a, b), names in flow_pairs.items():
-    links.append({"source": a, "target": b, "type": "talent_flow", "style": "solid", "count": len(names),
-                  "detail": f"{len(names)} moved {a} -> {b}: " + ", ".join(sorted(names)[:8]) + (" …" if len(names) > 8 else "")})
+    m = flow_meta[(a, b)]
+    # solid = same tier, dashed = another tier inside the same group, dotted = across groups (adjacent/investor <-> core)
+    style = "solid" if m["from_tier"] == m["to_tier"] else ("dashed" if m["flow_class"] in ("core → core", "adjacent → adjacent") else "dotted")
+    links.append({"source": a, "target": b, "type": "talent_flow", "style": style, "count": len(names),
+                  "flow_class": m["flow_class"], "from_tier": m["from_label"], "to_tier": m["to_label"],
+                  "detail": f"{len(names)} moved {m['from_label']} → {m['to_label']}: " + ", ".join(sorted(names)[:8]) + (" …" if len(names) > 8 else "")})
 for cid, ppl in people.items():
     ppl.sort(key=lambda x: (x["rank"], x["name"]))
     for p in ppl:
@@ -204,9 +211,18 @@ for cid, ppl in people.items():
         p["prev"] = m["from_name"] if m else None
         p["prev_tracked"] = bool(m and m["from_id"])
         p["recent"] = p["id"] in recent_ids
+        p["prev_tier"] = m["from_label"] if m else None
+        p["flow_class"] = m["flow_class"] if m else None
     node = next(n for n in nodes if n["id"] == cid)
     node["people_count"] = len(ppl)
     node["hires_from"] = sorted(hires_from.get(cid, {}).items(), key=lambda kv: -kv[1])[:12]
+    mine = [m for m in moves if m["to_id"] == cid]
+    by_group = {}; by_tier = {}
+    for m in mine:
+        g = m["flow_class"].split(" → ")[0]; by_group[g] = by_group.get(g, 0) + 1
+        by_tier[m["from_label"]] = by_tier.get(m["from_label"], 0) + 1
+    node["hires_by_group"] = by_group
+    node["hires_by_tier"] = sorted(by_tier.items(), key=lambda kv: -kv[1])
     node["alumni_at"] = sorted(alumni_at.get(cid, {}).items(), key=lambda kv: -kv[1])[:12]
     node["recent_joiners"] = sum(1 for p in ppl if p["recent"])
 
@@ -237,6 +253,7 @@ out = {
     "parent_industry_meta": [{"id": pid, "name": m["name"], "note": m["note"], "count": pi_counts.get(pid, 0)}
                              for pid, m in PARENT_INDUSTRY_META.items()],
     "nodes": nodes, "links": links, "people": people, "functions": FUNCTIONS,
+    "talent_moves": [{k: m[k] for k in ("person", "to_id", "to_name", "to_label", "from_name", "from_id", "from_label", "flow_class", "function", "title", "start")} for m in moves],
     "stats": {"people": people_count, "companies_with_people": len(people),
               "moves": len(moves), "flow_pairs": len(flow_pairs), "recent_joiners": len(recent),
               "companies": len(company_files), "dc_companies": dc_companies,

@@ -214,7 +214,20 @@ Show so it can be focused.
 
 **Talent flows (2026-09-09).** Derived from career histories by
 `scripts/build_talent_flows.py`: a move is a person's previous employer →
-current employer. Each company panel shows **Hires from** and **Alumni
+current employer. Every move is classified two ways: by **origin group**
+(within the data-center core, from an adjacent industry, from an investor,
+or from outside the industry — outside is bucketed by keyword into
+brokerage & advisory, consultancy & engineering, telecom & network,
+technology, untracked data-center operators, untracked utilities and
+construction, finance, government & military, other) and by the exact
+**tier-to-tier pair** (hyperscaler → developer, developer → neocloud …).
+The sidebar's "Open tier-to-tier matrix" shows the whole matrix (rows =
+previous tier, columns = current tier, scoped to all moves / within the
+core / into the core); click a cell for the people and a card to focus
+their company. Each company panel shows "Where from" (group split with
+percentages) and "By tier"; the org chart has a "By previous industry"
+grouping. Flow lines: solid = same tier, dashed = another tier in the same
+group, dotted = across groups. Each company panel shows **Hires from** and **Alumni
 now at** (top counts, untracked employers included by name) and how many
 people started in the last six months; the org chart has a **By previous
 employer** grouping and a green **new** badge; grey **talent-flow lines**
