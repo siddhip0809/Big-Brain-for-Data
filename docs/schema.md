@@ -192,6 +192,11 @@ stay apart and the line alone shows the connection. Each carries a
 `high` came from press reporting rather than an official announcement.
 - `contact_at` — person → investor (a person we know at a fund)
 
+Every researched relationship can also carry **`verified_by`** — `{research_team, siddhi, ward}`
+with a date for each check that has been made. The flags are set by clicking in the atlas
+(stored in the page's shared database) and pulled back into this file with
+`scripts/pull_verifications.py`; "ward" means confirmed by Ward Search as a firm.
+
 Keeping relationships in one file (instead of scattered inside each node)
 makes it easy to answer questions like "show me everything connected to
 Company X" or "which investors and people overlap across these three

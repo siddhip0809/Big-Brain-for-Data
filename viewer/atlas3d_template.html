@@ -216,6 +216,15 @@
   .src{ font-family:var(--font-mono); font-size:10px; color:var(--text-dim); margin-top:5px; line-height:1.6; }
   .src a{ color:var(--pure); text-decoration:none; border-bottom:1px dotted var(--pure); }
   .src-none{ color:#fca5a5; }
+  .vflags{ display:flex; gap:5px; flex-wrap:wrap; margin-top:6px; }
+  .vflag{
+    font-family:var(--font-mono); font-size:9.5px; letter-spacing:.03em; padding:2px 7px; border-radius:3px;
+    border:1px solid var(--border); color:var(--text-dim); background:none; cursor:pointer;
+  }
+  .vflag:hover{ border-color:var(--text-muted); color:var(--text); }
+  .vflag.on{ border-color:#4ade80; color:#4ade80; }
+  .vflag.on.ward{ border-color:#facc15; color:#facc15; }
+  .vflag[disabled]{ cursor:default; opacity:.7; }
   .section-label{
     font-family:var(--font-mono); font-size:10px; letter-spacing:.09em; text-transform:uppercase;
     color:var(--text-dim); margin:16px 0 8px;
@@ -371,6 +380,10 @@
       each one sits wherever its actual backing pulls it: close to a
       single portfolio company, or toward the middle if it backs a
       spread of them.<br><br>
+      Every claim carries its <b>source links</b> and three <b>check flags</b>
+      — research team, Siddhi, Ward confirmed — click one to mark a claim as
+      checked; the mark is saved for everyone who opens this page and pulled
+      back into the brain.<br><br>
       <b>Unconnected nodes</b> (no line to anything shown) can be set apart
       — faded and pushed to an outer shell around their zone — or hidden
       altogether, from the switch under the legend.<br><br>
@@ -463,6 +476,47 @@
     return `<div class="src">sources: ${urls.map((u, i) => `<a href="${escapeHtml(u.trim())}" target="_blank" rel="noopener" title="${escapeHtml(u.trim())}">${escapeHtml(domainOf(u.trim()))}</a>`).join(' · ')}</div>`;
   }
 
+  // ---------- verification flags ----------
+  // Three checks a person can set on any claim; stored in the artifact's
+  // shared store (doc verifications/<link key>) so they persist across
+  // republishes and can be pulled back into the repo. Baseline values come
+  // from relationships.json (`verified_by`) via the build.
+  const FLAGS = [['research_team', 'research team'], ['siddhi', 'Siddhi'], ['ward', 'Ward confirmed']];
+  const VER = {};                       // link key -> {research_team, siddhi, ward}  (date string or null)
+  let vdb = null, vdbReady = false;     // db namespace (null = flags read-only in this view)
+  function flagChips(key){
+    const v = VER[key] || {};
+    return `<div class="vflags" data-key="${escapeHtml(key)}">` + FLAGS.map(([f, label]) =>
+      `<button class="vflag ${f}${v[f] ? ' on' : ''}" data-flag="${f}" ${vdbReady && !vdb ? 'disabled title="verification store not available in this view"' : ''} title="${v[f] ? 'checked ' + escapeHtml(v[f]) + ' — click to clear' : 'click to mark as checked'}">${v[f] ? '✓ ' : ''}${label}</button>`).join('') + `</div>`;
+  }
+  async function toggleFlag(key, flag, btn){
+    if(!vdb) return;
+    const v = VER[key] = VER[key] || {};
+    v[flag] = v[flag] ? null : new Date().toISOString().slice(0, 10);
+    v.updated = new Date().toISOString();
+    btn.classList.toggle('on', !!v[flag]);
+    btn.textContent = (v[flag] ? '✓ ' : '') + FLAGS.find(x => x[0] === flag)[1];
+    try { await vdb.doc('verifications/' + key).set(v); }
+    catch(e){ console.warn('verification save failed', e); }
+  }
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('.vflag'); if(!b || b.disabled) return;
+    toggleFlag(b.closest('.vflags').dataset.key, b.dataset.flag, b);
+  });
+  (async () => {
+    // baseline from the build first, then whatever viewers have set since
+    GRAPH.links.forEach(l => { if(l.verified_by && Object.keys(l.verified_by).length) VER[l.key] = Object.assign({}, l.verified_by); });
+    try {
+      vdb = window.claude && claude.use ? await claude.use('db') : null;
+      if(vdb){
+        const snap = await vdb.collection('verifications').get();
+        snap.docs.forEach(d => { if(d.exists) VER[d.id] = Object.assign(VER[d.id] || {}, d.data()); });
+      }
+    } catch(e){ console.warn('verification store unavailable', e); vdb = null; }
+    vdbReady = true;
+    setTimeout(() => { if(selectedNode) renderDetail(selectedNode); }, 0); // refresh chips if a panel is already open
+  })();
+
   // ---------- node/link index ----------
   const nodeById = {};
   GRAPH.nodes.forEach(n => { n.deg = 0; nodeById[n.id] = n; });
@@ -484,8 +538,8 @@
       (portfolioOf[l.source] = portfolioOf[l.source] || []).push(l.targetNode);
       backingLink[l.source + '|' + l.target] = l;
     } else {
-      (dealsOf[l.source] = dealsOf[l.source] || []).push({ other: l.targetNode, type: l.type, dir: 'out', detail: l.detail, status: l.status, confidence: l.confidence, sources: l.sources });
-      (dealsOf[l.target] = dealsOf[l.target] || []).push({ other: l.sourceNode, type: l.type, dir: 'in',  detail: l.detail, status: l.status, confidence: l.confidence, sources: l.sources });
+      (dealsOf[l.source] = dealsOf[l.source] || []).push({ other: l.targetNode, type: l.type, dir: 'out', detail: l.detail, status: l.status, confidence: l.confidence, sources: l.sources, key: l.key });
+      (dealsOf[l.target] = dealsOf[l.target] || []).push({ other: l.sourceNode, type: l.type, dir: 'in',  detail: l.detail, status: l.status, confidence: l.confidence, sources: l.sources, key: l.key });
     }
   });
   // colour = relationship type; dash pattern = the edge's `style` (set by
@@ -962,7 +1016,7 @@
         const c = catById[d.other.category] || {};
         const meta = [d.status, d.confidence ? `confidence: ${d.confidence}` : null].filter(Boolean).join(' · ');
         html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(d.other.name)} <span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span></div>
-          <div class="pe-meta">${escapeHtml(d.detail || '')}${meta ? '<br>' + escapeHtml(meta) : ''}</div>${sourceLinks(d.sources)}</div>`;
+          <div class="pe-meta">${escapeHtml(d.detail || '')}${meta ? '<br>' + escapeHtml(meta) : ''}</div>${sourceLinks(d.sources)}${flagChips(d.key)}</div>`;
       });
     });
     return html;
@@ -1375,7 +1429,7 @@
           const l = backingLink[b.id + '|' + n.id] || {};
           const meta = [b.investor_type || 'Investor', l.confidence ? `confidence: ${l.confidence}` : null].filter(Boolean).join(' · ');
           html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(b.name)}</div>
-            <div class="pe-meta">${l.detail ? escapeHtml(l.detail) + '<br>' : ''}${escapeHtml(meta)}</div>${sourceLinks(l.sources)}</div>`;
+            <div class="pe-meta">${l.detail ? escapeHtml(l.detail) + '<br>' : ''}${escapeHtml(meta)}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
         });
       } else {
         html += `<div class="banner-note">No investor backing on record yet in this graph.</div>`;
@@ -1395,7 +1449,7 @@
           const c = catById[p.category];
           const l = backingLink[n.id + '|' + p.id] || {};
           html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(p.name)}</div>
-            <div class="pe-meta"><span style="color:${c.color}">${escapeHtml(c.name)}</span>${l.detail ? ' · ' + escapeHtml(l.detail) : ''}${l.confidence ? ' · confidence: ' + escapeHtml(l.confidence) : ''}</div>${sourceLinks(l.sources)}</div>`;
+            <div class="pe-meta"><span style="color:${c.color}">${escapeHtml(c.name)}</span>${l.detail ? ' · ' + escapeHtml(l.detail) : ''}${l.confidence ? ' · confidence: ' + escapeHtml(l.confidence) : ''}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
         });
       }
       html += dealSections(n);

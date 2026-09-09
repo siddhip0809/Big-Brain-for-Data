@@ -129,7 +129,8 @@ for path in investor_files:
         rel = backing_rel.get((d["id"], cid), {})
         links.append({"source": f"investor:{d['id']}", "target": cid, "type": "invested_in",
                       "confidence": rel.get("confidence"), "style": line_style("invested_in", None, rel.get("confidence")),
-                      "detail": rel.get("detail"), "sources": rel.get("sources", [])})
+                      "detail": rel.get("detail"), "sources": rel.get("sources", []),
+                      "verified_by": rel.get("verified_by") or {}})
 
 # company<->company (and investor<->investor) deal edges live in
 # data/relationships.json: acquisitions, tenant/lease relationships, JVs.
@@ -149,6 +150,7 @@ if True:
             links.append({"source": src_id, "target": dst_id, "type": r["type"],
                           "detail": r.get("detail"), "status": r.get("status"),
                           "confidence": r.get("confidence"), "sources": r.get("sources", []),
+                          "verified_by": r.get("verified_by") or {},
                           "style": line_style(r["type"], r.get("status"), r.get("confidence"))})
             deal_edges += 1
 
@@ -203,6 +205,11 @@ for cid, ppl in people.items():
     node["hires_from"] = sorted(hires_from.get(cid, {}).items(), key=lambda kv: -kv[1])[:12]
     node["alumni_at"] = sorted(alumni_at.get(cid, {}).items(), key=lambda kv: -kv[1])[:12]
     node["recent_joiners"] = sum(1 for p in ppl if p["recent"])
+
+# every link gets a stable key -- the id of its verification document in the
+# atlas's shared store (scripts/pull_verifications.py reads them back)
+for l in links:
+    l["key"] = f"{l['type']}__{l['source']}__{l['target']}"
 
 # legend counts = how many nodes HOLD each role (a multi-role company counts once per role)
 role_counts = {c: 0 for c in CATS}
