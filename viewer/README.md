@@ -176,6 +176,26 @@ control pair (top-left of the stage) steps back out. This replaces a
 static text card with a spatial, explorable "atomic diagram" of each
 node's neighborhood, per Siddhi's request.
 
+**Calm view (2026-09-09, at Siddhi's request — the graph "looked scary").**
+Three changes, all in the template:
+- **Light theme by default**, the original dark "terminal" look behind a
+  header toggle (remembered per browser). On the light ground the glow
+  sprites are off, lease lines are slate instead of white, labels are dark
+  with a white halo, and the grid is gone.
+- **Progressive disclosure.** The atlas opens on the connected structure
+  only (unconnected switch defaults to Hide, ~270 nodes instead of 865);
+  node size follows weight (connections + people mapped); labels are
+  ranked by weight and placed greedily with collision avoidance under a
+  zoom-dependent budget (24 far out → 140 close in), so they never pile
+  up; hovering a node lights up its neighbours and its own lines and dims
+  everything else; the settled layout fades in instead of exploding.
+- **Flower layout.** The data-center core is the centre; each adjacent
+  industry is its own petal (energy, GC, civil, industrial) on a ring in
+  the plane facing the default camera, at 45° offsets, so the four sit
+  top-right / top-left / bottom-left / bottom-right around the core with a
+  coloured caption each. Orbiting still works; the ring is only planar
+  from the opening angle.
+
 **Every line type has its own switch** (2026-09-09) in the Lines key, plus
 "all on / all off". A type that is off is not drawn, does not count toward
 "connected", and drops out of focus rings — so "only leases" or "only
