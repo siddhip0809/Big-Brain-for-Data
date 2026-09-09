@@ -176,6 +176,11 @@ control pair (top-left of the stage) steps back out. This replaces a
 static text card with a spatial, explorable "atomic diagram" of each
 node's neighborhood, per Siddhi's request.
 
+**Every line type has its own switch** (2026-09-09) in the Lines key, plus
+"all on / all off". A type that is off is not drawn, does not count toward
+"connected", and drops out of focus rings — so "only leases" or "only
+power supply" are one click. Talent flow starts off; everything else on.
+
 **Unconnected nodes.** 593 of the 865 default-view nodes have no line to
 anything else shown (companies from Siddhi's lists with no researched
 backer, tenant or deal yet). A three-way switch under the legend leaves

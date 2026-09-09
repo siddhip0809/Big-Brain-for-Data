@@ -357,7 +357,7 @@
       <div class="seg" id="isoMode" title="Nodes with no line to anything currently shown">
         <button data-mode="show" class="on">Show</button><button data-mode="apart">Set apart</button><button data-mode="hide">Hide</button>
       </div>
-      <p class="field-label" style="margin-top:14px">Lines</p>
+      <p class="field-label" style="margin-top:14px">Lines &middot; each type on/off</p>
       <div id="edgeLegend" class="edge-legend"></div>
     </div>
 
@@ -554,10 +554,13 @@
     supplies_power_to: { color: 0xef4444, opacity: 0.75, width: 2.2, label: 'Supplies power to',     variants: { solid: 'operating / contracted', dashed: 'announced / MOU · verify', dotted: 'cancelled' } },
     site_partner:      { color: 0xf472b6, opacity: 0.7, width: 2.0, label: 'Land / campus partner',  variants: { solid: 'done or under way', dashed: 'announced · verify' } },
     // people moving between companies (derived from career histories; off by default)
-    talent_flow:       { color: 0x94a3b8, opacity: 0.45, width: 1.3, label: 'Talent flow (people moved)', variants: { solid: 'previous employer → current' }, toggle: true },
+    talent_flow:       { color: 0x94a3b8, opacity: 0.45, width: 1.3, label: 'Talent flow (people moved)', variants: { solid: 'previous employer → current' }, off: true },
   };
-  let showFlows = false;
-  const linkShown = l => l.type !== 'talent_flow' || showFlows;
+  // every line type has its own switch; off = not drawn, not counted as a
+  // connection, not part of a focus ring
+  const lineOn = {};
+  Object.entries(LINK_STYLE).forEach(([t, st]) => { lineOn[t] = !st.off; });
+  const linkShown = l => !!lineOn[l.type];
   const DASH = { dashed: { dashSize: 7, gapSize: 4 }, dotted: { dashSize: 1.6, gapSize: 3.4 } }; // world units
   const SVG_DASH = { solid: '', dashed: '6 3', dotted: '1.5 3' };
   const cssColor = c => '#' + c.toString(16).padStart(6, '0');
@@ -801,11 +804,18 @@
   document.getElementById('edgeLegend').innerHTML = Object.entries(LINK_STYLE).map(([t, s]) =>
     `<div class="edge-type"><span class="edge-key">${sample(s.color, 'solid', s.width)}<b>${s.label}</b></span>` +
       Object.entries(s.variants).map(([v, txt]) => `<span class="edge-key edge-variant">${sample(s.color, v, s.width)}${txt}</span>`).join('') +
-      (s.toggle ? `<button class="mini-toggle" id="toggle-${t}">off</button>` : '') +
-    `</div>`).join('');
-  document.getElementById('toggle-talent_flow').addEventListener('click', (e) => {
-    showFlows = !showFlows; e.target.textContent = showFlows ? 'on' : 'off'; e.target.classList.toggle('on', showFlows);
-    applyFilters();
+      `<button class="mini-toggle${lineOn[t] ? ' on' : ''}" data-line="${t}">${lineOn[t] ? 'on' : 'off'}</button>` +
+    `</div>`).join('') +
+    `<div class="edge-type" style="justify-content:flex-end"><button class="mini-toggle" id="linesAll">all on</button><button class="mini-toggle" id="linesNone">all off</button></div>`;
+  function syncLineToggles(){
+    document.querySelectorAll('.mini-toggle[data-line]').forEach(b => { const on = lineOn[b.dataset.line]; b.textContent = on ? 'on' : 'off'; b.classList.toggle('on', on); });
+  }
+  document.getElementById('edgeLegend').addEventListener('click', (e) => {
+    const b = e.target.closest('.mini-toggle'); if(!b) return;
+    if(b.id === 'linesAll') Object.keys(lineOn).forEach(t => { lineOn[t] = true; });
+    else if(b.id === 'linesNone') Object.keys(lineOn).forEach(t => { lineOn[t] = false; });
+    else lineOn[b.dataset.line] = !lineOn[b.dataset.line];
+    syncLineToggles(); applyFilters();
   });
 
   const backedCompanyCount = Object.keys(backersOf).length;
@@ -984,8 +994,8 @@
   const displacedIds = new Set(); // every node moved off its settled position since focus began
 
   function neighborsOf(n){
-    const base = n.kind === 'company' ? (backersOf[n.id] || []) : (portfolioOf[n.id] || []);
-    const deals = (dealsOf[n.id] || []).filter(d => d.type !== 'talent_flow' || showFlows).map(d => d.other);
+    const base = lineOn.invested_in ? (n.kind === 'company' ? (backersOf[n.id] || []) : (portfolioOf[n.id] || [])) : [];
+    const deals = (dealsOf[n.id] || []).filter(d => lineOn[d.type]).map(d => d.other);
     const seen = new Set(); const out = [];
     [...base, ...deals].forEach(x => { if(!seen.has(x.id)){ seen.add(x.id); out.push(x); } });
     return out;
