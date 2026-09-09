@@ -1,0 +1,95 @@
+{
+  "id": "nancy-yusuf-7a488350",
+  "type": "person",
+  "name": "Nancy Yusuf",
+  "current_title": "Senior Estimator",
+  "current_company": "W E O'Neil Construction",
+  "linkedin": "https://www.linkedin.com/in/nancyyusuf",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at W E O'Neil Construction, 8/2024 to present; Construction Estimator at Alliance Residential, 7/2019 to 5/2024; Senior Pre-Construction Manager at Irvine, 9/2017 to 7/2019; Senior Manager of Pre-Construction at Western National Group, 8/2016 to 9/2017; Senior Manager, Pre-Construction at Irvine, 3/2016 to 8/2016; Pre-Construction Manager at Irvine, 1/2014 to 3/2016; Project Manager at CoreSite, 1/2007 to 1/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 13,
+      "date_added": "2026-08-03 06:51:26 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "w-e-o-neil-construction",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "W E O'Neil Construction",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Alliance Residential",
+      "start": "7/2019",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Pre-Construction Manager",
+      "company": "Irvine",
+      "start": "9/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Manager of Pre-Construction",
+      "company": "Western National Group",
+      "start": "8/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Pre-Construction",
+      "company": "Irvine",
+      "start": "3/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Manager",
+      "company": "Irvine",
+      "start": "1/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "CoreSite",
+      "start": "1/2007",
+      "end": "1/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "alfredo-puyol-c6e43ea8",
+  "type": "person",
+  "name": "Alfredo Puyol",
+  "current_title": "Estimator II",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/apuyol",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre;Mission Critical",
+  "career_history": "Estimator II at Mortenson, 3/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 145,
+      "date_added": "2026-08-10 12:18:52 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator II",
+      "company": "Mortenson",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  }
+}

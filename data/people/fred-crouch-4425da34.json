@@ -1,0 +1,53 @@
+{
+  "id": "fred-crouch-4425da34",
+  "type": "person",
+  "name": "Fred Crouch",
+  "current_title": "Associate Director - Cost Management",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/fred-crouch-mrics-ab98bb47",
+  "location": "New York, New York",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director - Cost Management at Turner & Townsend, 6/2022 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 291,
+      "date_added": "2026-08-12 13:27:49 UTC",
+      "date_updated": "2026-08-19 07:53:10 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director - Cost Management",
+      "company": "Turner & Townsend",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  }
+}

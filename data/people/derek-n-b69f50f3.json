@@ -1,0 +1,87 @@
+{
+  "id": "derek-n-b69f50f3",
+  "type": "person",
+  "name": "Derek N",
+  "current_title": "Associate Director Estimating",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/derek-n-9570601a1",
+  "location": "Stevens Point, Wisconsin",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director Estimating  at Turner & Townsend, 7/2026 to present; Preconstruction Manager at T5 Data Centers, 1/2025 to 7/2026; Cost Engineer at Bb&E Consulting Engineers And Professionals, 1/2024 to 12/2024; Senior Estimator at Burns & Mc Donnell, 3/2022 to 12/2023; Senior Preconstruction Manager at Northern Builders, 10/2021 to 2/2022; Preconstruction Manager at Clayco, 3/2020 to 10/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 514,
+      "date_added": "2026-08-26 08:30:12 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director Estimating ",
+      "company": "Turner & Townsend",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "T5 Data Centers",
+      "start": "1/2025",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Bb&E Consulting Engineers And Professionals",
+      "start": "1/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Burns & Mc Donnell",
+      "start": "3/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Northern Builders",
+      "start": "10/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Clayco",
+      "start": "3/2020",
+      "end": "10/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Stevens Point",
+    "region": "Wisconsin",
+    "country": "United States",
+    "group": "Wisconsin"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ghayath-omer-fba34737",
+  "type": "person",
+  "name": "Ghayath Omer",
+  "current_title": "Senior Electrical Estimator | Hyper-scale Data Centers",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/ghayath-omer",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Electrical Estimator | Hyper-scale Data Centers at Turner & Townsend, 11/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 524,
+      "date_added": "2026-08-26 13:07:00 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Senior Electrical Estimator"
+    },
+    {
+      "title": "Hyper-scale Data Centers",
+      "company": "Turner & Townsend",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  }
+}

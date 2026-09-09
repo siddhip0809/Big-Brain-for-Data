@@ -1,0 +1,115 @@
+{
+  "id": "chantel-columna-ca301286",
+  "type": "person",
+  "name": "Chantel Columna",
+  "current_title": "Design Phase Manager",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/chantel-columna",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Design Phase Manager at Mortenson, 10/2025 to present; Director of Customer Success at Riskcast Solutions, 3/2022 to 10/2025; Customer Success Lead at Riskcast Solutions, 3/2020 to 3/2022; Assistant Project Manager at Mortenson, 3/2019 to 3/2020; Project Engineer II at Mortenson, 11/2016 to 3/2019; Co-Founder & General Manager at Novel Strand Brewing, 7/2016 to present; Estimator II at Gilbane Building, 9/2015 to 11/2016; Engineer, Core Competency Training Program at Skanska, 7/2013 to 8/2015; Intern at Skanska, 5/2012 to 8/2012; Undergraduate Research Assistant at Rensselaer Polytechnic Institute, 6/2011 to 5/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 53,
+      "date_added": "2026-08-04 16:07:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Design Phase Manager",
+      "company": "Mortenson",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Customer Success",
+      "company": "Riskcast Solutions",
+      "start": "3/2022",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Customer Success Lead",
+      "company": "Riskcast Solutions",
+      "start": "3/2020",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Mortenson",
+      "start": "3/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer II",
+      "company": "Mortenson",
+      "start": "11/2016",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Co-Founder & General Manager",
+      "company": "Novel Strand Brewing",
+      "start": "7/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator II",
+      "company": "Gilbane Building",
+      "start": "9/2015",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Engineer, Core Competency Training Program",
+      "company": "Skanska",
+      "start": "7/2013",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Skanska",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "Rensselaer Polytechnic Institute",
+      "start": "6/2011",
+      "end": "5/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  }
+}

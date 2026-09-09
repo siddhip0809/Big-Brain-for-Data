@@ -1,0 +1,95 @@
+{
+  "id": "jonathan-mcgowan-8ed38bf1",
+  "type": "person",
+  "name": "Jonathan McGowan",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/jonathan-mcgowan-bbb3328a",
+  "location": "San Diego, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 3/2026 to present; Senior Consultant at Turner & Townsend, 9/2024 to 3/2026; Senior Cost Manager at Cumming, 4/2023 to 9/2024; Cost Manager at Cumming, 8/2019 to 4/2023; Quantity Surveyor at HMS, 1/2017 to 12/2018; Assistant Quantity Surveyor at HMS, 12/2015 to 1/2017; Graduate Quantity Surveyor at HMS, 3/2015 to 12/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 471,
+      "date_added": "2026-08-24 14:39:19 UTC",
+      "date_updated": "2026-08-26 07:28:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "9/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming",
+      "start": "4/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Cumming",
+      "start": "8/2019",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "HMS",
+      "start": "1/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "HMS",
+      "start": "12/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Graduate Quantity Surveyor",
+      "company": "HMS",
+      "start": "3/2015",
+      "end": "12/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Diego",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  }
+}

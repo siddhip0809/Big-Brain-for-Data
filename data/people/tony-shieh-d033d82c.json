@@ -1,0 +1,80 @@
+{
+  "id": "tony-shieh-d033d82c",
+  "type": "person",
+  "name": "Tony Shieh",
+  "current_title": "Estimator",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/tony-shieh",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Estimator at Mortenson, 10/2022 to present; Project Manager at Mortenson, 5/2020 to 8/2022; Assistant Project Manager at Mortenson, 4/2014 to 10/2014; Project Engineer at Mortenson, 6/2010 to 9/2013; Field Engineer at Mortenson, 2/2007 to 8/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 55,
+      "date_added": "2026-08-04 16:07:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator",
+      "company": "Mortenson",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Mortenson",
+      "start": "5/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Mortenson",
+      "start": "4/2014",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Mortenson",
+      "start": "6/2010",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Mortenson",
+      "start": "2/2007",
+      "end": "8/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "vidyadhar-bhojaraj-d13925eb",
+  "type": "person",
+  "name": "Vidyadhar Bhojaraj",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/vidyadhar-b-44050853",
+  "location": "Houston, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 4/2022 to present; Area Manager at Turner & Townsend, 11/2016 to 11/2019; Senior Cost Manager at Turner & Townsend, 11/2014 to 11/2016; Cost Manager at Turner & Townsend, 5/2012 to 11/2014; Assistant Cost Manager at Turner & Townsend, 9/2010 to 5/2012; Mechanical Engineer at ETA Engineering Private Limited, 4/2009 to 9/2010; HVAC Engineer at BILT MIDDLE EAST, 2/2006 to 4/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 287,
+      "date_added": "2026-08-12 13:09:52 UTC",
+      "date_updated": "2026-08-19 07:46:07 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Area Manager",
+      "company": "Turner & Townsend",
+      "start": "11/2016",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "11/2014",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "5/2012",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "9/2010",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "ETA Engineering Private Limited",
+      "start": "4/2009",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "HVAC Engineer",
+      "company": "BILT MIDDLE EAST",
+      "start": "2/2006",
+      "end": "4/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Houston",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  }
+}

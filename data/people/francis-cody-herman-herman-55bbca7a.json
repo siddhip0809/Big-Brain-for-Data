@@ -1,0 +1,52 @@
+{
+  "id": "francis-cody-herman-herman-55bbca7a",
+  "type": "person",
+  "name": "Francis (Cody Herman) Herman",
+  "current_title": "Senior Estimator I",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/francis-herman-718578198",
+  "location": "Seattle, Washington",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator I at Mortenson, 12/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 238,
+      "date_added": "2026-08-12 08:09:20 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator I",
+      "company": "Mortenson",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  }
+}

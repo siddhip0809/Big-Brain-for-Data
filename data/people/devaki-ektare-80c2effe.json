@@ -30,16 +30,28 @@
       "date_updated": "2026-08-21 10:26:41 -0500",
       "sourced_by": "Diksha",
       "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 328,
+      "date_added": "2026-08-13 12:08:15 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
     }
   ],
   "notes": "",
   "sources": [
     "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
-    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Pre-Construction",
-  "current_company_id": null,
+  "current_company_id": "dpr-construction",
   "function": "Construction & Delivery",
   "function_source": "title",
   "seniority_rank": 4,

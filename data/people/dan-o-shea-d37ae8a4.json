@@ -1,0 +1,95 @@
+{
+  "id": "dan-o-shea-d37ae8a4",
+  "type": "person",
+  "name": "Dan O'shea",
+  "current_title": "Estimating Manager",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/dan-o-shea-6a6a8413a",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Estimating Manager at Mortenson, 12/2023 to present; Estimating Manager / Director Of Preconstruction   Aviation at Austin Commercial, 2/2023 to 12/2023; Vice President Of Preconstruction at Suffolk Construction, 8/2020 to 1/2023; Vice President Of Preconstruction And Estimating Manager at Hunt Construction Group, 9/2014 to 8/2020; Chief Estimator at Balfour Beatty US, 5/2008 to 9/2014; Preconstruction Manager at CG Schmidt, 9/2003 to 5/2008; Project Manager at CG Schmidt, 12/1998 to 9/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 376,
+      "date_added": "2026-08-18 13:05:48 UTC",
+      "date_updated": "2026-08-21 11:57:12 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Manager",
+      "company": "Mortenson",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimating Manager / Director Of Preconstruction   Aviation",
+      "company": "Austin Commercial",
+      "start": "2/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Vice President Of Preconstruction",
+      "company": "Suffolk Construction",
+      "start": "8/2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Vice President Of Preconstruction And Estimating Manager",
+      "company": "Hunt Construction Group",
+      "start": "9/2014",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Balfour Beatty US",
+      "start": "5/2008",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "CG Schmidt",
+      "start": "9/2003",
+      "end": "5/2008",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "CG Schmidt",
+      "start": "12/1998",
+      "end": "9/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  }
+}

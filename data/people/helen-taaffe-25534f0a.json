@@ -20,15 +20,26 @@
       "date_updated": "2026-09-02 07:33:52 -0500",
       "sourced_by": "Diksha",
       "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 606,
+      "date_added": "2026-09-02 12:33:32 UTC",
+      "date_updated": "2026-09-02 07:33:52 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
     }
   ],
   "department": "Pre-Construction",
-  "current_company_id": null,
+  "current_company_id": "pma-consultants",
   "notes": "",
   "sources": [
-    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Pre-Construction & Cost",
   "function_source": "mapping list",
   "seniority_rank": 3,

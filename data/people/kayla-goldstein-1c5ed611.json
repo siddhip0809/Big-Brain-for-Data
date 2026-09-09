@@ -1,0 +1,101 @@
+{
+  "id": "kayla-goldstein-1c5ed611",
+  "type": "person",
+  "name": "Kayla Goldstein",
+  "current_title": "Estimator",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/kayla-goldstein",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Estimator at Mortenson, 7/2026 to present; Estimator at Taylor Kohrs, 2/2026 to 7/2026; Estimator Associate at Hensel Phelps, 11/2023 to 2/2026; Estimator at QualTek, 12/2021 to 9/2023; Estimator at RK, 3/2020 to 12/2021; Office Engineer at Holder Construction, 6/2018 to 2/2020; Mold Shop Supervisor Assistant at Rocky Mountain Prestress, 5/2017 to 8/2017; Intern at D R Horton, 3/2016 to 5/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 11,
+      "date_added": "2026-08-04 16:07:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator",
+      "company": "Mortenson",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Taylor Kohrs",
+      "start": "2/2026",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Estimator Associate",
+      "company": "Hensel Phelps",
+      "start": "11/2023",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "QualTek",
+      "start": "12/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "RK",
+      "start": "3/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Holder Construction",
+      "start": "6/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Mold Shop Supervisor Assistant",
+      "company": "Rocky Mountain Prestress",
+      "start": "5/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "D R Horton",
+      "start": "3/2016",
+      "end": "5/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  }
+}

@@ -2,12 +2,12 @@ function,title,count,companies,used_at
 Construction & Delivery,Director of Construction,23,13,CloudHQ; CyrusOne; DataBank; Digital Realty; Equinix; Iron Mountian; Microsoft; NTT; NTT Global Data Centre Americas; Serverfarm; STACK Infrastructure; Switch; Vantage
 Construction & Delivery,Senior Construction Manager,23,8,Cloud HQ; Compass Datacenters; Corscale Data Centers; CyrusOne; Digital Realty; Equinix; NTT Global Data Centre Americas; Vantage
 Construction & Delivery,Construction Manager,22,5,Compass Datacenters; Crusoe; Equinix; NTT Global Data Centre; Vantage
+Construction & Delivery,Project Manager,12,12,AWS; Black & Veatch; DPR Construction; Harris; HITT Contracting; Jacobs; Layton Construction; Level 10 Construction; Prime Data Centers; Rosendin; Swinerton; T5 Data Centers
 Construction & Delivery,Construction Project Manager,11,7,CyrusOne; Digital Realty; Equinix; NTT; NTT Global Data Centre; Prime Data Centers; T5 Data Centers
-Construction & Delivery,Project Manager,11,11,AWS; Black & Veatch; DPR Construction; Harris; Jacobs; Layton Construction; Level 10 Construction; Prime Data Centers; Rosendin; Swinerton; T5 Data Centers
 Construction & Delivery,Vice President of Construction,10,9,CloudHQ; CoreSite; CyrusOne; DataSite; PointOne; Prime Data Centers; Skybox Datacenters; T5 Data Centers; Vantage
+Construction & Delivery,Senior Project Manager,9,6,Clune Construction; Diode Ventures | A Black & Veatch Company; Iron Mountian; Turner & Townsend; Webcor Builders; Whiting-Turner Contracting
 Construction & Delivery,"Director, Construction",8,3,Equinix; STACK Infrastructure; Vantage
 Construction & Delivery,Senior Construction Project Manager,8,6,CyrusOne; Digital Realty; Equinix; NTT Global Data Centre; Prime Data Centers; Vantage
-Construction & Delivery,Senior Project Manager,8,5,Clune Construction; Diode Ventures | A Black & Veatch Company; Iron Mountian; Webcor Builders; Whiting-Turner Contracting
 Construction & Delivery,"Vice President, Construction",6,6,EdgeCore Digital Infrastructure; NTT; Skybox Datacenters; STACK Infrastructure; Stream Data Centers; Vantage
 Construction & Delivery,Project Controls Manager,4,4,DPR Construction; MGAC; RES; The Weitz Company
 Construction & Delivery,Project Executive,4,4,DPR Construction; Kiewit; LIG; Rosendin
@@ -53,6 +53,7 @@ Construction & Delivery,Director of Site Construction,1,1,Yondr
 Construction & Delivery,Director of TFO Construction,1,1,Prime Data Centers
 Construction & Delivery,Director Pre- Construction Services,1,1,Tract
 Construction & Delivery,Director Project Controls,1,1,Nscale
+Construction & Delivery,Director | Major Program Controls - West Life Sciences Lead,1,1,Turner & Townsend
 Construction & Delivery,"Director, BTS Construction",1,1,STACK Infrastructure
 Construction & Delivery,"Director, Construction Project Management (AMER)",1,1,Equinix
 Construction & Delivery,"Director, DC",1,1,AMD
@@ -74,6 +75,7 @@ Construction & Delivery,Market Director of Data Center Construction,1,1,STACK In
 Construction & Delivery,"Market Director, Construction",1,1,STACK Infrastructure
 Construction & Delivery,Mgr. of Construction,1,1,AWS
 Construction & Delivery,Mission Critical Consultant,1,1,Insight Global
+Construction & Delivery,Mortenson Construction,1,1,Mortenson
 Construction & Delivery,Pre Construction Managaer,1,1,Weifield Group Contracting
 Construction & Delivery,Principal Construction Manager,1,1,Vantage
 Construction & Delivery,"Principal PM, AGC Data Center Construction",1,1,Microsoft
@@ -153,13 +155,25 @@ Construction & Delivery,VP Construction,1,1,STACK Infrastructure
 Construction & Delivery,VP of Construction BTS- Stack Infrastructure,1,1,STACK Infrastructure
 Construction & Delivery,"VP, Capacity & Delivery",1,1,Sabey Data Centers
 Construction & Delivery,"VP, Construction US",1,1,DayOne
+Design & Engineering,Design Phase Manager,6,1,Mortenson
+Design & Engineering,Senior Design Phase Manager,6,2,Mortenson; Morteson
+Design & Engineering,Design Phase Manager II,2,1,Mortenson
+Design & Engineering,Senior Design Phase Manager II,2,2,MA Mortenson; Mortenson
+Design & Engineering,Sr. Design Phase Manager,2,1,Mortenson
 Design & Engineering,"(former) Senior Director, Design, Engineering & Construction",1,1,Meta
+Design & Engineering,Assistant Design Phase Manager,1,1,Mortenson
+Design & Engineering,Design Phase Executive,1,1,Mortenson
+Design & Engineering,Design Phase Manager 1,1,1,Mortenson
+Design & Engineering,Design Phase Manager II - Data Center Solutions G+,1,1,Mortenson
+Design & Engineering,Director of Design Phase,1,1,Mortenson
+Design & Engineering,Electrical and Data Center Consultant,1,1,Turner & Townsend
 Design & Engineering,"Executive Vice President - Engineering, Construction & Operations",1,1,Fleet Data Centers
 Design & Engineering,Google Submarine Networks | Global Design & Engineering Lead,1,1,Google
 Design & Engineering,MEP,1,1,DPR Construction
+Design & Engineering,MEP Design Phase Manager,1,1,Mortenson
 Design & Engineering,"Project Engineer, Data Center Construction",1,1,AWS
-Design & Engineering,Senior Design Phase Manager,1,1,Morteson
-Design & Engineering,Senior Design Phase Manager II,1,1,MA Mortenson
+Design & Engineering,Senior Design Phase Manager - Hyperscale Data Centers,1,1,Mortenson
+Design & Engineering,Senior Design Phase Manager I,1,1,Mortenson
 Design & Engineering,Senior Director Global Design and Construction,1,1,Equinix
 Design & Engineering,"Senior Director, Design & Construction North America",1,1,Iron Mountian
 Design & Engineering,"Senior Director, Global Operations Design and Construction",1,1,Iron Mountian
@@ -183,7 +197,7 @@ Design & Engineering,VP Data Center Engineering and Construction,1,1,Flexential
 Design & Engineering,VP Design & Construction,1,1,Aligned Data Centers
 Design & Engineering,"VP of Design, Design & Construction",1,1,EdgeCore Digital Infrastructure
 Design & Engineering,"VP, Data Center Engineering",1,1,Keel Infrastructure
-Development & Real Estate,Director of Development,15,8,Edged; Equinix; PointOne; QTS Data Centers; RadiusDC; Rowan Digital Infrastructure; STACK Infrastructure; Sun2o Partners
+Development & Real Estate,Director of Development,16,9,Edged; Equinix; PointOne; QTS Data Centers; RadiusDC; Rowan Digital Infrastructure; STACK Infrastructure; Sun2o Partners; Worldwide Mission Critical
 Development & Real Estate,Development Manager,12,11,AWS; Beale; CloudHQ; Corscale Data Centers; Edgemoor Infrastructure & Real Estate; Greenlight Data Centers; Meta; TA Digital Group; Tract; Vantage; Yondr
 Development & Real Estate,Strategic Negotiator,10,1,Google
 Development & Real Estate,"Vice President, Development",10,5,Beale; QTS Data Centers; Related Digital; STACK Infrastructure; Switch
@@ -248,6 +262,7 @@ Development & Real Estate,"Americas Strategic Negotiator - Global AI, Cloud & Te
 Development & Real Estate,AMERS East Land Development Leadership,1,1,Microsoft
 Development & Real Estate,APAC Site Development Manager,1,1,Vantage
 Development & Real Estate,Assistant Development Manager,1,1,CloudHQ
+Development & Real Estate,Associate Director | Corporate Real Estate,1,1,Turner & Townsend
 Development & Real Estate,Campus Development Manager,1,1,Digital Realty
 Development & Real Estate,CEO & Chairman,1,1,T5 Data Centers
 Development & Real Estate,Chief Real Estate Officer,1,1,Colt Data Centre Services
@@ -833,35 +848,40 @@ Executive leadership,"Managing Director, Acquisitions",1,1,PowerHouse Data Cente
 "Legal, People & Support",Vice President of EHS,1,1,Stream Data Centers
 Operations & Facilities,Director of Execution & Operational Planning,1,1,Microsoft
 Operations & Facilities,President - Data Center Operations,1,1,Saragon
-Pre-Construction & Cost,Senior Estimator,43,30,Balfour Beatty US; Burns & Mc Donnell; Consigli Construction Co; Currie & Brown; Currie & Brown ·; DPR Construction; Fluor; Fransen Pittman Construction; GH Phipps Construction Companies; Hensel Phelps; Integra; Joseph J Albanese; Layton Construction; Lease Crutcher Lewis; Lithko Contracting; McCarthy Building Companies; Oltmans Construction; P1 Group; PCL Construction; RK; Rosedin; Rosendin; Rosendin Electric; Saunders Construction; Structure Tone Southwest; Suffolk Construction; Sun Country Builders; Swinerton; The Weitz Company; Turner Construction
-Pre-Construction & Cost,Preconstruction Manager,39,31,Alston Construction; Archkey Solutions; Balfour Beatty US; Caddell Construction; CEC; Choate Construction; CloudHQ; Comfort Systems USA - Design Mechanical; CoreWeave; Digital Realty; DPR Construction; Evans General Contractors; Fransen Pittman General Contractors; Haselden Construction; Hensel Phelps; Layton Construction; Manhattan Construction; McGough; Megawatt Construction; Meta; Power Construction; Rosendin; Ryan Companies US; Sampson Construction Co; Shawmut Design and Construction; Southway Builders; Swinerton; Switch; The Beck Group; The Haskell Company; Vantage
-Pre-Construction & Cost,Senior Preconstruction Manager,30,25,Adolfson & Peterson Construction; Archkey Solutions; Barton Malow; Braconier Mechanical & Plumbing; Burns and McDonnell; Choate Construction; Clayco; CloudHQ; Crusoe; Currie & Brown; Digital Realty; GH Phipps Construction Companies; Holder Construction; McCownGordon Construction; McKinstry; Rogers-O'Brien Construction; Rosendin; Suffolk Construction; Swinerton; T5 Data Centers; The Christman Company; The Weitz Company; Turner Construction; U S Engineering; Vantage
+Pre-Construction & Cost,Senior Estimator,47,32,Balfour Beatty US; Burns & Mc Donnell; Consigli Construction Co; Currie & Brown; Currie & Brown ·; DPR Construction; Fluor; Fransen Pittman Construction; GH Phipps Construction Companies; Hensel Phelps; Integra; Joseph J Albanese; Layton Construction; Lease Crutcher Lewis; Lithko Contracting; McCarthy Building Companies; Mortenson; Oltmans Construction; P1 Group; PCL Construction; RK; Rosedin; Rosendin; Rosendin Electric; Saunders Construction; Structure Tone Southwest; Suffolk Construction; Sun Country Builders; Swinerton; The Weitz Company; Turner Construction; W E O'Neil Construction
+Pre-Construction & Cost,Associate Director,43,10,Accenture; Cumming Group; Currie & Brown; Gardiner & Theobald; Mace; Mace Group; MGAC; Soben; Turner & Townsend; Turton Bond
+Pre-Construction & Cost,Preconstruction Manager,43,33,Alston Construction; Archkey Solutions; Balfour Beatty US; Caddell Construction; CEC; Choate Construction; CloudHQ; Comfort Systems USA - Design Mechanical; CoreWeave; Digital Realty; DPR Construction; Evans General Contractors; Fransen Pittman General Contractors; Haselden Construction; Hensel Phelps; HITT Contracting; Layton Construction; Manhattan Construction; McGough; Megawatt Construction; Meta; Power Construction; Rosendin; Ryan Companies US; Sampson Construction Co; Shawmut Design and Construction; Southway Builders; Swinerton; Switch; The Beck Group; The Haskell Company; Vantage; Worldwide Mission Critical
+Pre-Construction & Cost,Senior Preconstruction Manager,32,27,Adolfson & Peterson Construction; Archkey Solutions; Barton Malow; Braconier Mechanical & Plumbing; Brasfield & Gorrie; Burns and McDonnell; Choate Construction; Clayco; CloudHQ; Crusoe; Currie & Brown; Digital Realty; GH Phipps Construction Companies; Holder Construction; McCownGordon Construction; McKinstry; Rogers-O'Brien Construction; Rosendin; Suffolk Construction; Swinerton; T5 Data Centers; The Christman Company; The Weitz Company; Turner Construction; U S Engineering; Vantage; Worldwide Mission Critical
+Pre-Construction & Cost,Senior Consultant,21,2,Turner & Townsend; Turner and Townsend
 Pre-Construction & Cost,Director of Preconstruction,19,18,Adolfson & Peterson Construction; Aligned Data Centers; Barton Malow; BW Design Group; Digital Realty; Gilbane Building; Hathaway Dinwiddie; Howell Construction; Kent Companies; P1 Group; PCL Construction; Poolside; Ryan Companies US; Satterfield & Pontikes Construction; Serverfarm; Swinerton; Switch; TDIndustries
-Pre-Construction & Cost,Associate Director,16,9,Accenture; Cumming Group; Currie & Brown; Gardiner & Theobald; Mace; Mace Group; MGAC; Soben; Turton Bond
-Pre-Construction & Cost,Chief Estimator,9,9,Balfour Beatty US; Collins Contracting Company; Hensel Phelps; Howard S Wright Construction; Keystone Integrated Solutions; Shawmut Design and Construction; Swinerton; The Haskell Company; Vicon Construction
+Pre-Construction & Cost,Chief Estimator,12,10,Balfour Beatty US; Collins Contracting Company; Hensel Phelps; Howard S Wright Construction; Keystone Integrated Solutions; Mortenson; Shawmut Design and Construction; Swinerton; The Haskell Company; Vicon Construction
+Pre-Construction & Cost,Estimator,9,7,Currie & Brown; DPR Construction; Google; Haselden Construction; Microsoft; Mortenson; Turner Construction
+Pre-Construction & Cost,Senior Cost Manager,9,4,Microsoft; NTT Global Data Centre; Soben; Turner & Townsend
 Pre-Construction & Cost,Lead Estimator,8,6,Blattner; DPR Construction; Hensel Phelps; Kiewit; Rosendin; Swinerton
-Pre-Construction & Cost,Estimator,7,6,Currie & Brown; DPR Construction; Google; Haselden Construction; Microsoft; Turner Construction
-Pre-Construction & Cost,Preconstruction Director,7,2,Holder Construction; McCarthy Building Companies
-Pre-Construction & Cost,Estimating Manager,6,6,ATG; JE Dunn Construction; Kiewit; McCarthy Building Companies; Structure Tone; Swinerton
+Pre-Construction & Cost,Preconstruction Director,8,3,Brasfield & Gorrie; Holder Construction; McCarthy Building Companies
+Pre-Construction & Cost,Estimating Manager,7,7,ATG; JE Dunn Construction; Kiewit; McCarthy Building Companies; Mortenson; Structure Tone; Swinerton
+Pre-Construction & Cost,Preconstruction Executive,7,5,Clark Construction Group; DPR Construction; HITT Contracting; rand* construction; Turner Construction
+Pre-Construction & Cost,Senior Cost Consultant,6,3,Alpine Datacenter Group; Mace; Turner & Townsend
 Pre-Construction & Cost,Senior Electrical Estimator,6,6,Accenture; DPR Construction; Loenbro; Rosendin; Rosendin Electric; Walbridge
-Pre-Construction & Cost,Senior MEP Estimator,5,2,DPR Construction; Suffolk Construction
+Pre-Construction & Cost,Senior MEP Estimator,6,3,DPR Construction; Mortenson; Suffolk Construction
 Pre-Construction & Cost,Sr. Preconstruction Manager,5,5,Fortis Construction; PCL Construction; Swinerton; T5 Data Centers; Turner Construction
 Pre-Construction & Cost,Associate,4,1,Currie & Brown
+Pre-Construction & Cost,Cost Control Manager,4,4,ByteDance; Crusoe; QTS Data Centers; Worldwide Mission Critical
 Pre-Construction & Cost,Project Estimator,4,3,Arcadis; Hensel Phelps; Shannon Construction
-Pre-Construction & Cost,Senior Cost Manager,4,3,Microsoft; NTT Global Data Centre; Soben
 Pre-Construction & Cost,Area Cost Lead,3,1,Google
-Pre-Construction & Cost,Cost Control Manager,3,3,ByteDance; Crusoe; QTS Data Centers
+Pre-Construction & Cost,Associate Director - Cost Management,3,2,Turner & Townsend; Turton Bond
 Pre-Construction & Cost,Cost Manager,3,3,DPR Construction; Hensel Phelps; Microsoft
 Pre-Construction & Cost,Director,3,3,PMA Consultants; Soben; Vantage
 Pre-Construction & Cost,Director Of Preconstruction,3,3,GH Phipps Construction Companies; Rubicon Professional Services; T5 Data Centers
 Pre-Construction & Cost,Director of Preconstruction & Estimating,3,3,Gilmore Construction; PCL Construction; The Weitz Company
 Pre-Construction & Cost,Director of Preconstruction - Mission Critical,3,1,Ryan Companies US
-Pre-Construction & Cost,Preconstruction Executive,3,3,DPR Construction; rand* construction; Turner Construction
 Pre-Construction & Cost,Preconstruction Manager II,3,2,Ryan Companies US; The Weitz Company
-Pre-Construction & Cost,Senior Cost Consultant,3,2,Alpine Datacenter Group; Mace
+Pre-Construction & Cost,Senior Cost Estimator,3,3,Hill International; OCMI; Turner & Townsend
 Pre-Construction & Cost,Senior Estimator - Mission Critical,3,2,Big-D Construction; Hensel Phelps
 Pre-Construction & Cost,Senior Mechanical Estimator,3,3,Accenture; Jacobs; Turner Construction
+Pre-Construction & Cost,Associate Director - Data Centers,2,2,Currie & Brown; Turner & Townsend
 Pre-Construction & Cost,Commercial Manager,2,2,Equinix; Yondr
+Pre-Construction & Cost,Consultant,2,1,Turner & Townsend
 Pre-Construction & Cost,Data Center Cost Control Program Manager,2,1,Google
 Pre-Construction & Cost,Director of Estimating,2,2,Accenture; Adolfson & Peterson Construction
 Pre-Construction & Cost,"Director, Preconstruction",2,2,Aligned Data Centers; Nscale
@@ -869,7 +889,8 @@ Pre-Construction & Cost,Lead Cost Manager,2,1,Accenture
 Pre-Construction & Cost,Preconstruction,2,1,DPR Construction
 Pre-Construction & Cost,Preconstruction Services,2,2,DPR Construction; Turner Construction
 Pre-Construction & Cost,Senior Cost Controls Manager,2,1,Crusoe
-Pre-Construction & Cost,Senior Cost Estimator,2,2,Hill International; OCMI
+Pre-Construction & Cost,Senior Cost Manager/Consultant - Data Centers,2,1,Turner & Townsend
+Pre-Construction & Cost,Senior Estimator I,2,1,Mortenson
 Pre-Construction & Cost,Senior Pre-Construction Manager,2,2,Crusoe; Matrix Technologies
 Pre-Construction & Cost,Sr Preconstruction Manager,2,2,Fortis Construction; Turner Construction
 Pre-Construction & Cost,Strategic Estimator,2,1,Microsoft
@@ -881,11 +902,13 @@ Pre-Construction & Cost,AI - DC Cost Management Lead,1,1,Microsoft
 Pre-Construction & Cost,AMERs Portfolio Cost Mgmt. Lead,1,1,Microsoft
 Pre-Construction & Cost,AMERS W Regional Cost Manager: CO&I,1,1,Microsoft
 Pre-Construction & Cost,"Assistant Estimator, Mission Critical",1,1,Suffolk Construction
+Pre-Construction & Cost,Assistant Preconstruction Manager,1,1,HITT Contracting
 Pre-Construction & Cost,Associate Cost Manager & Data Analyst,1,1,Currie & Brown ·
-Pre-Construction & Cost,Associate Director - Cost Management,1,1,Turton Bond
-Pre-Construction & Cost,Associate Director - Data Centers,1,1,Currie & Brown
+Pre-Construction & Cost,Associate Director - Commission Lead,1,1,Turner & Townsend
 Pre-Construction & Cost,Associate Director Cost Management,1,1,Cumming Group
+Pre-Construction & Cost,Associate Director Estimating,1,1,Turner & Townsend
 Pre-Construction & Cost,Associate Director of Cost Management,1,1,Gardiner & Theobald
+Pre-Construction & Cost,Associate Director SME Electrical Estimator /QS,1,1,Turner & Townsend
 Pre-Construction & Cost,Associate Director | Mission Critical Electrical Estimating,1,1,Accenture
 Pre-Construction & Cost,"Associate Director, Cost Management",1,1,Gardiner & Theobald
 Pre-Construction & Cost,Associate Principal,1,1,TBD Consultants
@@ -900,9 +923,12 @@ Pre-Construction & Cost,Construction Estimating & Cost Optimization Manager - AM
 Pre-Construction & Cost,Construction Estimator,1,1,National Technology Integrators
 Pre-Construction & Cost,Construction Project Coordinator / Estimator,1,1,Lawrence Livermore National Laboratory
 Pre-Construction & Cost,Cost Control Manager - Data Center Development,1,1,Applied Digital
+Pre-Construction & Cost,COST ESTIMATOR,1,1,Build Group
 Pre-Construction & Cost,Cost Estimator-SPW,1,1,DPR Construction
+Pre-Construction & Cost,Cost Management Consultant,1,1,Turner & Townsend
 Pre-Construction & Cost,Cost Manager II,1,1,Cumming Group
 Pre-Construction & Cost,Cost Manager- Data center & Healthcare,1,1,Cumming Group
+Pre-Construction & Cost,CSA Cost Lead,1,1,Turner & Townsend
 Pre-Construction & Cost,Data Center Business Unit - Mechanical and Electrical Preconstruction Lead,1,1,Fortis Construction
 Pre-Construction & Cost,Data Center Cost & Commercial Management,1,1,OpenAI
 Pre-Construction & Cost,Data Center Preconstruction Manager,1,1,Meta
@@ -925,6 +951,7 @@ Pre-Construction & Cost,"Director, Data Center Preconstruction Program",1,1,Amer
 Pre-Construction & Cost,"Director, Global Cost Estimating",1,1,Digital Realty
 Pre-Construction & Cost,"Director, Pre-Construction - Data Centers",1,1,Gray
 Pre-Construction & Cost,"Director, Preconstruction Services",1,1,Kraus‑Anderson
+Pre-Construction & Cost,Electrical Cost Consultant,1,1,Turner & Townsend
 Pre-Construction & Cost,Electrical Estimator,1,1,Accenture
 Pre-Construction & Cost,Electrical Preconstruction Manager,1,1,The Weitz Company
 Pre-Construction & Cost,Electrical Preconstruction Manager - Hyperscaler Campus Lead,1,1,Clayco
@@ -932,6 +959,7 @@ Pre-Construction & Cost,Estimating Department Manager,1,1,T5 Data Centers
 Pre-Construction & Cost,Estimating Director,1,1,Archkey Solutions
 Pre-Construction & Cost,Estimating Manager / Project Controls Manger,1,1,Bechtel
 Pre-Construction & Cost,Estimating Professional Senior Level,1,1,Jacobs
+Pre-Construction & Cost,Estimator II,1,1,Mortenson
 Pre-Construction & Cost,Estimator/ Project Manager,1,1,Rosendin Electric
 Pre-Construction & Cost,Founding Head of Estimating and Procurement,1,1,MeltPlan
 Pre-Construction & Cost,"Global Cost Management Lead, Data Centers",1,1,Microsoft
@@ -944,6 +972,8 @@ Pre-Construction & Cost,Manager of Americas Estimating,1,1,Microsoft
 Pre-Construction & Cost,"Manager of Construction Management, Cost Estimating",1,1,Kaiser Permanente National Facilities Design & Construction
 Pre-Construction & Cost,MEP Estimating Consultant (Contract),1,1,T5 Data Centers
 Pre-Construction & Cost,MEP Estimator,1,1,DPR Construction
+Pre-Construction & Cost,MEP Estimator II,1,1,Mortenson
+Pre-Construction & Cost,MEP Estimator III,1,1,Mortenson
 Pre-Construction & Cost,MEP Manager– Preconstruction,1,1,Whiting-Turner Contracting
 Pre-Construction & Cost,MEP Pre-Construction Manager,1,1,McCarthy Building Companies
 Pre-Construction & Cost,MEP Preconstruction Manager - Mission Critical,1,1,Layton Construction
@@ -976,6 +1006,7 @@ Pre-Construction & Cost,Principal Regional Cost Lead,1,1,Microsoft
 Pre-Construction & Cost,Program Manager - Cost Controls,1,1,Google
 Pre-Construction & Cost,Program Manager - Strategic Estimating,1,1,Google
 Pre-Construction & Cost,Program Manager | Area Cost Lead,1,1,Google
+Pre-Construction & Cost,"Program Manager | Senior Preconstruction Manager, Head of ESG",1,1,XL Construction
 Pre-Construction & Cost,"Program Manager, Data Center Preconstruction",1,1,Google
 Pre-Construction & Cost,Project cost estimator -Data centre infrastructure solutions,1,1,Tate
 Pre-Construction & Cost,Project Engineer II / Estimator,1,1,The Walsh Group - Walsh Construction & Archer Western
@@ -991,21 +1022,34 @@ Pre-Construction & Cost,Regional Estimator,1,1,Microsoft
 Pre-Construction & Cost,Senior Commercial Manager,1,1,Equinix
 Pre-Construction & Cost,Senior Construction Cost Estimator,1,1,Crusoe
 Pre-Construction & Cost,"Senior Construction Manager, Preconstruction",1,1,Crusoe
-Pre-Construction & Cost,Senior Consultant,1,1,Turner and Townsend
+Pre-Construction & Cost,Senior Consultant - Cost Controller | ConocoPhillips | Anchorage | AK,1,1,Turner & Townsend
+Pre-Construction & Cost,Senior Consultant - Cost Management,1,1,Turner & Townsend
+Pre-Construction & Cost,Senior Consultant - Cost Management & Project Controls,1,1,Turner & Townsend
+Pre-Construction & Cost,Senior Consultant - Cost Manager,1,1,Turner & Townsend
+Pre-Construction & Cost,Senior Consultant - Data Center Project Controls / Estimating,1,1,Turner & Townsend
+Pre-Construction & Cost,Senior Consultant - Estimating,1,1,Turner & Townsend
+Pre-Construction & Cost,Senior Consultant | Estimating & Cost Controls | Hyperscale Data Centers,1,1,Turner & Townsend
+Pre-Construction & Cost,Senior Consultant · Cost Management & Estimating,1,1,Turner & Townsend
+Pre-Construction & Cost,"Senior Consultant, Estimation",1,1,Turner & Townsend
 Pre-Construction & Cost,"Senior Cost & Project Controls Manager | MRICS, PrQS, PMAQS | Mission Critical | Data Centers",1,1,SLS Consultants
+Pre-Construction & Cost,Senior Cost Consultant - Data Center Construction,1,1,Turner & Townsend
 Pre-Construction & Cost,Senior Cost Engineer Leader,1,1,M C Dean
 Pre-Construction & Cost,"Senior Cost Manager, Construction",1,1,Crusoe
 Pre-Construction & Cost,Senior CSA Estimator,1,1,Accenture
 Pre-Construction & Cost,"Senior Director, Data Center Construction Cost & Finance",1,1,Vantage
 Pre-Construction & Cost,"Senior Director, Pre-construction APAC",1,1,Vantage
 Pre-Construction & Cost,"Senior Director, Preconstruction",1,1,CloudHQ
+Pre-Construction & Cost,Senior Electrical Cost Consultant,1,1,Turner & Townsend
 Pre-Construction & Cost,Senior Electrical Cost Manager,1,1,Aligned Data Centers
+Pre-Construction & Cost,Senior Electrical Estimator | Hyper-scale Data Centers,1,1,Turner & Townsend
 Pre-Construction & Cost,Senior Estimating Manager,1,1,Gilbane Building
 Pre-Construction & Cost,Senior Estimator & BIM,1,1,Miller and Long DC Concrete Construction
 Pre-Construction & Cost,Senior Estimator - Concrete,1,1,McCarthy Building Companies
 Pre-Construction & Cost,Senior Estimator - Data Center Construction,1,1,Lemartec Corporation a MasTec
 Pre-Construction & Cost,Senior Estimator / Cost Manager,1,1,Currie & Brown
 Pre-Construction & Cost,Senior Estimator / Pre-construction Lead - Self Perform,1,1,Turner Construction
+Pre-Construction & Cost,Senior Estimator II - Data Center Solutions,1,1,Mortenson
+Pre-Construction & Cost,Senior Estimator/Preconstruction,1,1,Build Group
 Pre-Construction & Cost,Senior Manager Cost,1,1,Crusoe
 Pre-Construction & Cost,Senior Manager of Estimating,1,1,Beale
 Pre-Construction & Cost,Senior Manager Program Cost,1,1,Beale
@@ -1014,15 +1058,18 @@ Pre-Construction & Cost,"Senior Manager, Cost Control",1,1,QTS Data Centers
 Pre-Construction & Cost,"Senior Manager, Cost Controls",1,1,Rowan Digital Infrastructure
 Pre-Construction & Cost,"Senior Manager, Preconstruction, North America",1,1,Vantage
 Pre-Construction & Cost,Senior MEP Cost Estimator - Hyperscale Data Center,1,1,Accenture
+Pre-Construction & Cost,Senior MEP Estimator I,1,1,Mortenson
 Pre-Construction & Cost,Senior Pre-construction Manager,1,1,Crusoe
 Pre-Construction & Cost,Senior Preconstruction and Estimating Manager,1,1,JE Dunn Construction
 Pre-Construction & Cost,Senior Preconstruction Manager - Chicago Business Unit,1,1,Turner Construction
 Pre-Construction & Cost,Senior Project Preconstruction Manager,1,1,Turner Construction
 Pre-Construction & Cost,Sr Electrical Estimator,1,1,Accenture
 Pre-Construction & Cost,Sr Preconstruction Manager - Mechanical,1,1,The Weitz Company
+Pre-Construction & Cost,Sr. Consultant,1,1,Turner & Townsend
 Pre-Construction & Cost,Sr. Cost Manager,1,1,NTT Global Data Centre
 Pre-Construction & Cost,Sr. Estimating Manager,1,1,JE Dunn Construction
 Pre-Construction & Cost,Sr. Estimator,1,1,Structure Tone Southwest
+Pre-Construction & Cost,Sr. Estimator/ Design Phase Manager,1,1,Mortenson
 Pre-Construction & Cost,"Sr. Lead CSA (Civil, Structural, and Architectural) Estimator",1,1,Kiewet
 Pre-Construction & Cost,Sr. M&E Preconstruction Manager (Mission Critical),1,1,Fortis Construction
 Pre-Construction & Cost,Sr. Manager - Preconstruction,1,1,CloudHQ
@@ -1030,6 +1077,7 @@ Pre-Construction & Cost,Sr. MEP Estimator,1,1,Suffolk Construction
 Pre-Construction & Cost,Strategic Construction Estimator,1,1,Microsoft
 Pre-Construction & Cost,Strategic Cost Estimator,1,1,Microsoft
 Pre-Construction & Cost,Strategic Estimating Lead,1,1,Microsoft
+Pre-Construction & Cost,Sub-Region Precon & Buyout Lead,1,1,Turner & Townsend
 Sales & Leasing,Sales Director,19,13,atNorth Data Center; CoreSite; DataBank; Digital Realty; Equinix; H5 Data Centers; KevlinX; Lefdal Mine Data Centers; Nation Data Center; Prime Data Centers; Pulsant; Scandinavian Data Centers; Stellium Data Centres - The Data Meridian
 Sales & Leasing,Global Account Director,8,4,BGO; CyrusOne; Global Switch; Switch
 Sales & Leasing,Vice President of Sales,8,8,Element Critical; GreenScale Data Centres; Novva Data Centers; OPCORE SAS; Sabey Data Centers; T5 Data Centers; TierPoint; Vantage

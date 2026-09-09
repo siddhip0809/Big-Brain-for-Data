@@ -20,15 +20,26 @@
       "date_updated": null,
       "sourced_by": "Diksha",
       "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Years Experience",
+      "rank": 322,
+      "date_added": "2026-08-13 11:40:18 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
     }
   ],
   "department": "Pre-Construction",
-  "current_company_id": null,
+  "current_company_id": "je-dunn-construction",
   "notes": "",
   "sources": [
-    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Pre-Construction & Cost",
   "function_source": "title",
   "seniority_rank": 4,

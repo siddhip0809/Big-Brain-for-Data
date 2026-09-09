@@ -79,7 +79,7 @@ Real data has started loading. Currently in the brain:
   crypto-mining-pivot round added 4 more (Starwood Capital Group,
   Generate Capital, Spring Lane Capital, and Galaxy Digital in its dual
   role as both a company and an investor).
-- **1,980 people**: candidates from Ward Search's two active searches
+- **2,129 people**: candidates from Ward Search's two active searches
   (Pure Data Centers "VP Sales," STACK Infrastructure "Cost Strategy")
   plus their long-term mapping pools, and 5 firm-wide "Long Term Mapping"
   lists (Sales, Precon, Development, Construction, Utilities) — imported
@@ -87,8 +87,12 @@ Real data has started loading. Currently in the brain:
   `department` — Sales (547), Pre-Construction (486), Development (445),
   Construction (321), or Energy & Utilities (191) — and, where their
   current employer qualifies as a data center company, a `works_at` link
-  to it. Anyone whose employer didn't qualify was **not** kept as an
-  individual profile (see `viewer/README.md`). Since 2026-09-08 each
+  to it. Candidates at **adjacent-industry** employers (Turner & Townsend,
+  Mortenson, HITT, Clark …) were re-imported on 2026-09-09 at Siddhi's
+  request (`scripts/import_adjacent_people.py`; 149 new people, 350 more
+  linked to their employer), so those companies now have org charts too;
+  the ~85 candidates still left out work at consultancies that are on none
+  of the lists (Linesight, Cumming, RLB, AtkinsRéalis, JLL, C&W). Since 2026-09-08 each
   person also carries a derived **`function`** — the company department
   their title belongs to (Development & Real Estate 574, Pre-Construction
   & Cost 429, Sales & Leasing 365, Construction & Delivery 295, Energy &
@@ -97,6 +101,15 @@ Real data has started loading. Currently in the brain:
   667, IC 190; Clockwork's own level where it had one, otherwise from the
   title) and a parsed **`career`** list (11,666 past-employer entries).
   Those three fields drive the per-company **org chart** in the atlas.
+  **Talent flows** (`scripts/build_talent_flows.py`, 2026-09-09) turn the
+  career histories into "who hires from whom": each person's previous
+  employer → current employer (1,524 moves, 484 pairs between tracked
+  companies, e.g. AWS → Microsoft 11, AWS → Google 10, Equinix → Digital
+  Realty 7) plus a list of the 226 people who started their current role
+  in the last six months — `data/derived/talent_flows.csv` and
+  `recent_moves.csv`, and in the atlas as each company's "Hires from /
+  Alumni now at" panel, an org-chart grouping by previous employer, a
+  "new" badge, and toggleable grey flow lines.
   Locations are normalised too (`location_norm`: US state or country),
   and `data/derived/job_titles.csv` + `job_titles_by_function.csv` index
   every job title in use per company and per department — the exact

@@ -1,0 +1,116 @@
+{
+  "id": "charles-yang-70db07a7",
+  "type": "person",
+  "name": "Charles Yang",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/charles-yang-msc-mrics-4657a2a8",
+  "location": "Gilbert, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 2/2024 to present; Sr. Contract and Commercial Manager at Turner & Townsend, 10/2021 to 2/2024; Sr. Contracts Manager (Acting Commercial Manager) at Al Akaria Hanmi, 8/2019 to 11/2020; Sr. Contracts Manager at Al Akaria Hanmi, 9/2018 to 5/2019; Sr. Contracts and Claim Manager at Landing Jeju Development Co, 3/2016 to 8/2018; Senior Cost Manager at K-C PMC, 4/2011 to 2/2016; Cost Manager at K-C PMC, 10/2007 to 3/2011; Assistant Quantity Surveyor at Langdon & Seah an Arcadis, 10/2006 to 9/2007; Project Coordinator at ITM, 1/2005 to 9/2006; Engineering Officer (Captain) at Republic of Korea Army, 7/1997 to 9/2002",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 297,
+      "date_added": "2026-08-12 14:22:08 UTC",
+      "date_updated": "2026-08-19 07:53:10 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Contract and Commercial Manager",
+      "company": "Turner & Townsend",
+      "start": "10/2021",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Contracts Manager (Acting Commercial Manager)",
+      "company": "Al Akaria Hanmi",
+      "start": "8/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Sr. Contracts Manager",
+      "company": "Al Akaria Hanmi",
+      "start": "9/2018",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Sr. Contracts and Claim Manager",
+      "company": "Landing Jeju Development Co",
+      "start": "3/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "K-C PMC",
+      "start": "4/2011",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "K-C PMC",
+      "start": "10/2007",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "Langdon & Seah an Arcadis",
+      "start": "10/2006",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "ITM",
+      "start": "1/2005",
+      "end": "9/2006",
+      "current": false
+    },
+    {
+      "title": "Engineering Officer (Captain)",
+      "company": "Republic of Korea Army",
+      "start": "7/1997",
+      "end": "9/2002",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Gilbert",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "brennetta-harris-0f03df05",
+  "type": "person",
+  "name": "Brennetta Harris",
+  "current_title": "Assistant Design Phase Manager",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/brennetta-harris-47055132",
+  "location": "Minneapolis, Minnesota",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Assistant Design Phase Manager at Mortenson, 3/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 380,
+      "date_added": "2026-08-18 13:39:59 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Assistant Design Phase Manager",
+      "company": "Mortenson",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Minneapolis",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  }
+}

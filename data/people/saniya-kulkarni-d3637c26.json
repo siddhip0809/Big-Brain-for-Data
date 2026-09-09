@@ -1,0 +1,52 @@
+{
+  "id": "saniya-kulkarni-d3637c26",
+  "type": "person",
+  "name": "Saniya Kulkarni",
+  "current_title": "Senior Cost Manager",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/saniya-kulkarni-538259118",
+  "location": "Phoenix , Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Cost Manager at Turner & Townsend, 3/2022 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 302,
+      "date_added": "2026-08-12 15:23:12 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  }
+}

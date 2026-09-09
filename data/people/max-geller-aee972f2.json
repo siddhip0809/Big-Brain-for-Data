@@ -1,0 +1,53 @@
+{
+  "id": "max-geller-aee972f2",
+  "type": "person",
+  "name": "Max Geller",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "Worldwide Mission Critical",
+  "linkedin": "https://www.linkedin.com/in/maxgeller",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at Worldwide Mission Critical, 5/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 330,
+      "date_added": "2026-08-13 12:28:07 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "worldwide-mission-critical",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Worldwide Mission Critical",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "ted-mehdi-tadayon-d5220bad",
+  "type": "person",
+  "name": "Ted (Mehdi) Tadayon",
+  "current_title": "Preconstruction Manager",
+  "current_company": "HITT Contracting",
+  "linkedin": "https://www.linkedin.com/in/tedtadayon",
+  "location": "Falls Church, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at HITT Contracting, 9/2020 to present; Preconstruction Manager at The Haskell Company, 5/2019 to 8/2020; Estimator | Preconstruction Services at Clark Construction, 10/2016 to 6/2019; Construction Management Intern at Wyndham Worldwide, 5/2015 to 8/2015; Graduate Assistant at University of Florida, 8/2014 to 12/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 55,
+      "date_added": "2026-08-05 10:38:21 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hitt-contracting",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "HITT Contracting",
+      "start": "9/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "The Haskell Company",
+      "start": "5/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "raw": "Estimator"
+    },
+    {
+      "title": "Preconstruction Services",
+      "company": "Clark Construction",
+      "start": "10/2016",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Construction Management Intern",
+      "company": "Wyndham Worldwide",
+      "start": "5/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Graduate Assistant",
+      "company": "University of Florida",
+      "start": "8/2014",
+      "end": "12/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Falls Church",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  }
+}

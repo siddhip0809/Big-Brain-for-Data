@@ -1,0 +1,129 @@
+{
+  "id": "tyler-p-watson-51c044d5",
+  "type": "person",
+  "name": "Tyler P. Watson",
+  "current_title": "Senior Project Manager",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/tyler-p-watson-a3103725",
+  "location": "Gilbert, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Project Manager at Turner & Townsend, 10/2023 to present; Project Manager at DPR Construction, 1/2020 to 10/2023; Preconstruction Manager (CSA) at BE&K Building Group, 4/2019 to 1/2020; Senior Consultant QS/Estimating at PlanB Consultancy International, 6/2018 to 1/2019; Senior Consultant at Turner & Townsend, 7/2011 to 4/2018; Project Manager at Greenfuel Technologies, 10/2010 to 7/2011; Project Manager at Sygnos, 1/2009 to 4/2010; Construction Manager at AVB Development Partners, 6/2005 to 1/2009; Project Manager at Centennial Contractor Enterprises, 1/2002 to 12/2003; Construction Manager at Centres Development, 1/2002 to 11/2003; Project Manager / Estimator at DPR Construction, 1/1996 to 12/2002; Estimator at Jacobs, 1/1994 to 12/1996",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 566,
+      "date_added": "2026-08-27 11:18:37 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "Turner & Townsend",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "1/2020",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager (CSA)",
+      "company": "BE&K Building Group",
+      "start": "4/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant QS/Estimating",
+      "company": "PlanB Consultancy International",
+      "start": "6/2018",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "7/2011",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Greenfuel Technologies",
+      "start": "10/2010",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Sygnos",
+      "start": "1/2009",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "AVB Development Partners",
+      "start": "6/2005",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Centennial Contractor Enterprises",
+      "start": "1/2002",
+      "end": "12/2003",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Centres Development",
+      "start": "1/2002",
+      "end": "11/2003",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Estimator",
+      "company": "DPR Construction",
+      "start": "1/1996",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Jacobs",
+      "start": "1/1994",
+      "end": "12/1996",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Gilbert",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  }
+}

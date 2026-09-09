@@ -1,0 +1,67 @@
+{
+  "id": "apurupa-satturu-a38bf05d",
+  "type": "person",
+  "name": "Apurupa Satturu",
+  "current_title": "Senior Electrical Cost Consultant",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/apurupasatturu000756",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Electrical Cost Consultant at Turner & Townsend, 5/2023 to present; Electrical Cost Consultant (Data Centers) at Turner & Townsend, 10/2020 to 5/2023; Assistant Project Manager/Engineer Electrical Estimator at Titan Electric, 6/2017 to 10/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 119,
+      "date_added": "2026-08-07 14:43:00 UTC",
+      "date_updated": "2026-08-19 07:31:22 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Electrical Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Electrical Cost Consultant (Data Centers)",
+      "company": "Turner & Townsend",
+      "start": "10/2020",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager/Engineer Electrical Estimator",
+      "company": "Titan Electric",
+      "start": "6/2017",
+      "end": "10/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  }
+}

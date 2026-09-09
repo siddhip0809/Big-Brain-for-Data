@@ -20,15 +20,26 @@
       "date_updated": null,
       "sourced_by": "Rhea Fernandes",
       "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 150,
+      "date_added": "2026-08-10 12:35:04 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
     }
   ],
   "department": "Pre-Construction",
-  "current_company_id": null,
+  "current_company_id": "dpr-construction",
   "notes": "",
   "sources": [
-    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "function": "Construction & Delivery",
   "function_source": "title",
   "seniority_rank": 4,

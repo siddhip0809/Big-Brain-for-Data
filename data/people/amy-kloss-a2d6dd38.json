@@ -1,0 +1,53 @@
+{
+  "id": "amy-kloss-a2d6dd38",
+  "type": "person",
+  "name": "Amy Kloss",
+  "current_title": "Design Phase Manager",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/amy-kloss-3b677412",
+  "location": "Rockford, Minnesota",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Design Phase Manager at Mortenson, 6/2019 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 267,
+      "date_added": "2026-08-12 11:11:06 UTC",
+      "date_updated": "2026-08-18 05:31:49 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Design Phase Manager",
+      "company": "Mortenson",
+      "start": "6/2019",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Rockford",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  }
+}

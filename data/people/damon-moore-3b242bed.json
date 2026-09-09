@@ -1,0 +1,102 @@
+{
+  "id": "damon-moore-3b242bed",
+  "type": "person",
+  "name": "Damon Moore",
+  "current_title": "Senior Estimator/Preconstruction",
+  "current_company": "Build Group",
+  "linkedin": "https://www.linkedin.com/in/damon-moore-23b28031",
+  "location": "Benicia, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator/Preconstruction at Build Group, 6/2025 to present; Senior Estimator at Swinerton, 4/2016 to 5/2025; Senior Estimator at Suffolk Construction, 5/2013 to 4/2016; Estimator LEED AP at Gilbane Building, 6/2012 to 5/2013; Estimator LEED AP at Lendlease, 1/2006 to 6/2012; Purchasing Manager at Streamline Construction & Development, 11/2004 to 11/2005; Superintendent/Custom Builder at Summit Contracting, 1/2004 to 11/2004; Assistant Superintendent at Warmington Homes, 1/2000 to 1/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 438,
+      "date_added": "2026-08-24 09:07:34 UTC",
+      "date_updated": "2026-08-26 07:17:35 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "build-group-inc",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator/Preconstruction",
+      "company": "Build Group",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Swinerton",
+      "start": "4/2016",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Suffolk Construction",
+      "start": "5/2013",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Estimator LEED AP",
+      "company": "Gilbane Building",
+      "start": "6/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Estimator LEED AP",
+      "company": "Lendlease",
+      "start": "1/2006",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Purchasing Manager",
+      "company": "Streamline Construction & Development",
+      "start": "11/2004",
+      "end": "11/2005",
+      "current": false
+    },
+    {
+      "title": "Superintendent/Custom Builder",
+      "company": "Summit Contracting",
+      "start": "1/2004",
+      "end": "11/2004",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "Warmington Homes",
+      "start": "1/2000",
+      "end": "1/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Benicia",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  }
+}

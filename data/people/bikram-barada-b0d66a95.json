@@ -1,0 +1,59 @@
+{
+  "id": "bikram-barada-b0d66a95",
+  "type": "person",
+  "name": "Bikram Barada",
+  "current_title": "Senior Consultant | Estimating & Cost Controls | Hyperscale Data Centers",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/bikram-barada",
+  "location": "Omaha, Nebraska",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Consultant | Estimating & Cost Controls | Hyperscale Data Centers at Turner & Townsend, 1/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 312,
+      "date_added": "2026-08-13 11:05:23 UTC",
+      "date_updated": "2026-08-19 07:58:54 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Senior Consultant"
+    },
+    {
+      "raw": "Estimating & Cost Controls"
+    },
+    {
+      "title": "Hyperscale Data Centers",
+      "company": "Turner & Townsend",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Omaha",
+    "region": "Nebraska",
+    "country": "United States",
+    "group": "Nebraska"
+  }
+}

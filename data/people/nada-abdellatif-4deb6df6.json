@@ -1,0 +1,151 @@
+{
+  "id": "nada-abdellatif-4deb6df6",
+  "type": "person",
+  "name": "Nada Abdellatif",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/nadaabdellatif",
+  "location": "San Diego, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 10/2025 to present; Project Control Manager at OCMI, 2/2023 to 1/2025; Cost Manager at OCMI, 2/2023 to 10/2025; Senior Project Controls Engineer at OCMI, 12/2021 to 3/2023; Innovation Leader at OCMI, 5/2021 to 3/2023; Cost Estimator II at OCMI, 1/2021 to 1/2022; Project Control Engineer at San Diego Gas & Electric, 11/2020 to 8/2023; Cost Estimator at OCMI, 9/2018 to 1/2021; Project Engineer at TriMark R W Smith, 5/2017 to 9/2018; Residential Construction Intern at Habitat for Humanity International, 6/2016 to 8/2016; Archives Team Member at The American University in Cairo, 2/2016 to 3/2016; Peer Coach at The American University in Cairo, 2/2016 to 12/2016; Structural Design Teaching Assistant at The American University in Cairo, 9/2015 to 12/2015; Project Engineer Intern at Abu Dhabi Ports, 7/2015 to 8/2015; Undergraduate Teaching Assistant at The American University in Cairo, 1/2014 to 5/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 475,
+      "date_added": "2026-08-24 14:56:41 UTC",
+      "date_updated": "2026-08-26 07:28:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Control Manager",
+      "company": "OCMI",
+      "start": "2/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "OCMI",
+      "start": "2/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Project Controls Engineer",
+      "company": "OCMI",
+      "start": "12/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Innovation Leader",
+      "company": "OCMI",
+      "start": "5/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator II",
+      "company": "OCMI",
+      "start": "1/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Project Control Engineer",
+      "company": "San Diego Gas & Electric",
+      "start": "11/2020",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator",
+      "company": "OCMI",
+      "start": "9/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "TriMark R W Smith",
+      "start": "5/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Residential Construction Intern",
+      "company": "Habitat for Humanity International",
+      "start": "6/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Archives Team Member",
+      "company": "The American University in Cairo",
+      "start": "2/2016",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Peer Coach",
+      "company": "The American University in Cairo",
+      "start": "2/2016",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Structural Design Teaching Assistant",
+      "company": "The American University in Cairo",
+      "start": "9/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Abu Dhabi Ports",
+      "start": "7/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Undergraduate Teaching Assistant",
+      "company": "The American University in Cairo",
+      "start": "1/2014",
+      "end": "5/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Diego",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  }
+}

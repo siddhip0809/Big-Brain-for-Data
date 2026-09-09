@@ -1,0 +1,94 @@
+{
+  "id": "nwe-ni-win-e40c1cae",
+  "type": "person",
+  "name": "Nwe Ni Win",
+  "current_title": "COST ESTIMATOR",
+  "current_company": "Build Group",
+  "linkedin": "https://www.linkedin.com/in/nweniwin",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "COST ESTIMATOR at Build Group, 4/2019 to present; Cost Manager at Linesight, 1/2018 to 4/2019; Estimator at Pub construction, 6/2017 to 1/2018; Quantity Surveyor at Penta Ocean Constrution Co, 5/2015 to 4/2017; Contract Engineer at Sembawang Engineers and Constructors Pte, 3/2008 to 5/2015; Quantity Surveyor at Sing & San Construction Pte, 11/2007 to 3/2008; Project Executive at Project Executive, 2/2001 to 11/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 12,
+      "date_added": "2026-08-03 06:44:34 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "build-group-inc",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "COST ESTIMATOR",
+      "company": "Build Group",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Linesight",
+      "start": "1/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Pub construction",
+      "start": "6/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Penta Ocean Constrution Co",
+      "start": "5/2015",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Contract Engineer",
+      "company": "Sembawang Engineers and Constructors Pte",
+      "start": "3/2008",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Sing & San Construction Pte",
+      "start": "11/2007",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "Project Executive",
+      "company": "Project Executive",
+      "start": "2/2001",
+      "end": "11/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  }
+}

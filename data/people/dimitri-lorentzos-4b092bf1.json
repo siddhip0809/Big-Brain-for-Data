@@ -1,0 +1,102 @@
+{
+  "id": "dimitri-lorentzos-4b092bf1",
+  "type": "person",
+  "name": "Dimitri Lorentzos",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/dimitri-lorentzos-2a8958108",
+  "location": "Columbus, Ohio",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 3/2026 to present; Senior Cost Manager at Turner & Townsend, 3/2024 to 3/2026; Project Control Specialist at ARCADIS US, 2/2023 to 3/2024; Project Cost Consultant at Arcadis, 3/2021 to 2/2023; Assistant Cost Consultant at Arcadis, 10/2019 to 2/2021; Graduate cost consultant at Arcadis, 9/2018 to 10/2019; Trainee Quantity Surveyor at Pert Bruce Construction, 5/2016 to 8/2016; Graduate Quantity Surveyor at Robert Gordon University, 9/2013 to 7/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 340,
+      "date_added": "2026-08-13 13:51:44 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "3/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Project Control Specialist",
+      "company": "ARCADIS US",
+      "start": "2/2023",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Project Cost Consultant",
+      "company": "Arcadis",
+      "start": "3/2021",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Consultant",
+      "company": "Arcadis",
+      "start": "10/2019",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Graduate cost consultant",
+      "company": "Arcadis",
+      "start": "9/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Trainee Quantity Surveyor",
+      "company": "Pert Bruce Construction",
+      "start": "5/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Graduate Quantity Surveyor",
+      "company": "Robert Gordon University",
+      "start": "9/2013",
+      "end": "7/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  }
+}

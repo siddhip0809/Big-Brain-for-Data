@@ -40,17 +40,30 @@
       "date_updated": null,
       "sourced_by": "Rhea Fernandes",
       "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 490,
+      "date_added": "2026-08-25 07:59:05 UTC",
+      "date_updated": "2026-08-26 07:17:36 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
     }
   ],
   "notes": "",
   "sources": [
     "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
     "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
-    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "department": "Pre-Construction",
-  "current_company_id": null,
+  "current_company_id": "turner-construction",
   "function": "Pre-Construction & Cost",
   "function_source": "title",
   "seniority_rank": 3,

@@ -1,0 +1,84 @@
+{
+  "id": "cason-simpson-4180c749",
+  "type": "person",
+  "name": "Cason Simpson",
+  "current_title": "Preconstruction Executive",
+  "current_company": "Clark Construction Group",
+  "linkedin": "https://www.linkedin.com/in/casonsimpson",
+  "location": "Aurora, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Executive at Clark Construction Group, 1/2025 to present; Preconstruction | Advanced Tech/Mission Critical Core Market at DPR Construction, 11/2016 to 12/2024; Project Manger at GE Johnson Construction, 11/2015 to 11/2016; Preconstruction Services at GE Johnson Construction, 2/2012 to 11/2015; Preconstruction and MC2 Specialist at The Neenan Company, 1/2011 to 1/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 8,
+      "date_added": "2026-07-31 11:08:40 UTC",
+      "date_updated": "2026-08-14 09:14:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "clark-construction-group",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Executive",
+      "company": "Clark Construction Group",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Preconstruction"
+    },
+    {
+      "title": "Advanced Tech/Mission Critical Core Market",
+      "company": "DPR Construction",
+      "start": "11/2016",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manger",
+      "company": "GE Johnson Construction",
+      "start": "11/2015",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Services",
+      "company": "GE Johnson Construction",
+      "start": "2/2012",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Preconstruction and MC2 Specialist",
+      "company": "The Neenan Company",
+      "start": "1/2011",
+      "end": "1/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Aurora",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  }
+}

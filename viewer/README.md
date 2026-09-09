@@ -187,6 +187,16 @@ only partner sits in the hidden adjacent zone counts as unconnected until
 that zone is shown; searching for a hidden node flips the switch back to
 Show so it can be focused.
 
+**Talent flows (2026-09-09).** Derived from career histories by
+`scripts/build_talent_flows.py`: a move is a person's previous employer →
+current employer. Each company panel shows **Hires from** and **Alumni
+now at** (top counts, untracked employers included by name) and how many
+people started in the last six months; the org chart has a **By previous
+employer** grouping and a green **new** badge; grey **talent-flow lines**
+between tracked companies are off by default (toggle in the Lines key)
+because they are a people signal, not a structural tie — they carry no
+layout spring and, when on, count toward "connected".
+
 **People — the org chart (added 2026-09-08).** People are deliberately
 *not* drawn as nodes in the 3D view (that was what made the earlier full
 graph unreadable). Instead they come back through each company: the

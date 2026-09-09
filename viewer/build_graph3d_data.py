@@ -13,8 +13,10 @@ pivot AND typed "Neocloud" on Siddhi's sheet -- and the atlas renders those
 as multi-colour nodes. The first role by ROLE_PRIORITY is the node's
 primary tier (its colour body and its invisible layout anchor).
 """
-import json, glob, os, re
+import json, glob, os, re, sys
 from datetime import date
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "scripts"))
+from build_talent_flows import flows as talent_flows
 
 REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 COMPANIES_DIR = os.path.join(REPO, "data/companies")
@@ -173,10 +175,34 @@ for path in sorted(glob.glob(os.path.join(PEOPLE_DIR, "*.json"))):
         "since": (current[0].get("start") if current else None), "past": past,
     })
     people_count += 1
+# talent flows (scripts/build_talent_flows.py): previous employer -> current employer
+moves, recent = talent_flows()
+move_by_person = {m["person_id"]: m for m in moves}
+recent_ids = {m["person_id"] for m in recent}
+hires_from, alumni_at = {}, {}   # company -> Counter of names
+for m in moves:
+    hires_from.setdefault(m["to_id"], {}); hires_from[m["to_id"]][m["from_name"]] = hires_from[m["to_id"]].get(m["from_name"], 0) + 1
+    if m["from_id"]:
+        alumni_at.setdefault(m["from_id"], {}); alumni_at[m["from_id"]][m["to_name"]] = alumni_at[m["from_id"]].get(m["to_name"], 0) + 1
+flow_pairs = {}
+for m in moves:
+    if m["from_id"] and m["from_id"] in node_ids:
+        flow_pairs.setdefault((m["from_id"], m["to_id"]), []).append(m["person"])
+for (a, b), names in flow_pairs.items():
+    links.append({"source": a, "target": b, "type": "talent_flow", "style": "solid", "count": len(names),
+                  "detail": f"{len(names)} moved {a} -> {b}: " + ", ".join(sorted(names)[:8]) + (" …" if len(names) > 8 else "")})
 for cid, ppl in people.items():
     ppl.sort(key=lambda x: (x["rank"], x["name"]))
+    for p in ppl:
+        m = move_by_person.get(p["id"])
+        p["prev"] = m["from_name"] if m else None
+        p["prev_tracked"] = bool(m and m["from_id"])
+        p["recent"] = p["id"] in recent_ids
     node = next(n for n in nodes if n["id"] == cid)
     node["people_count"] = len(ppl)
+    node["hires_from"] = sorted(hires_from.get(cid, {}).items(), key=lambda kv: -kv[1])[:12]
+    node["alumni_at"] = sorted(alumni_at.get(cid, {}).items(), key=lambda kv: -kv[1])[:12]
+    node["recent_joiners"] = sum(1 for p in ppl if p["recent"])
 
 # legend counts = how many nodes HOLD each role (a multi-role company counts once per role)
 role_counts = {c: 0 for c in CATS}
@@ -201,6 +227,7 @@ out = {
                              for pid, m in PARENT_INDUSTRY_META.items()],
     "nodes": nodes, "links": links, "people": people, "functions": FUNCTIONS,
     "stats": {"people": people_count, "companies_with_people": len(people),
+              "moves": len(moves), "flow_pairs": len(flow_pairs), "recent_joiners": len(recent),
               "companies": len(company_files), "dc_companies": dc_companies,
               "adjacent_companies": adjacent_only, "multi_role_companies": multi_role,
               "investors": len(investor_files), "links": len(links), "deal_links": deal_edges,
@@ -214,7 +241,7 @@ with open(out_path, "w") as f:
 print("companies:", len(company_files), "| DC-tier:", dc_companies, "| adjacent-only:", adjacent_only,
       "| multi-role:", multi_role)
 print("investors:", len(investor_files), "| links:", len(links), "| of which deal links:", deal_edges)
-print("people:", people_count, "at", len(people), "companies")
+print("people:", people_count, "at", len(people), "companies", "| talent moves:", len(moves), "| flow pairs between tracked companies:", len(flow_pairs), "| recent joiners:", len(recent))
 style_counts = {}
 for l in links: style_counts[(l["type"], l["style"])] = style_counts.get((l["type"], l["style"]), 0) + 1
 print("line styles:", style_counts)

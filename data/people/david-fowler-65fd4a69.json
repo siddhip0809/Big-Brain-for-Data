@@ -1,0 +1,53 @@
+{
+  "id": "david-fowler-65fd4a69",
+  "type": "person",
+  "name": "David Fowler",
+  "current_title": "Associate Director SME Electrical Estimator /QS",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/david-fowler-74a53a9",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director SME Electrical Estimator /QS at Turner & Townsend, 5/2021 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 256,
+      "date_added": "2026-08-12 10:09:01 UTC",
+      "date_updated": "2026-08-19 07:46:07 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director SME Electrical Estimator /QS",
+      "company": "Turner & Townsend",
+      "start": "5/2021",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  }
+}

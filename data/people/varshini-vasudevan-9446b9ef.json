@@ -1,0 +1,101 @@
+{
+  "id": "varshini-vasudevan-9446b9ef",
+  "type": "person",
+  "name": "Varshini Vasudevan",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/varshinivasudevan",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 11/2022 to present; Project Controls Manager at Turner & Townsend, 7/2021 to 11/2022; Project Controls at AECOM, 9/2018 to 7/2021; Project Controls Specialist at Microsoft, 3/2017 to 9/2018; Owner at Simon Stelz, 2/2016 to 3/2017; Field Project Control Specialist at Suncor Energy, 1/2015 to 2/2016; Field Project Controls Specialist at URS, 7/2012 to 10/2014; Summer Intern, User Experience Design Analyst at PayPal, 5/2011 to 7/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 473,
+      "date_added": "2026-08-24 14:43:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "Turner & Townsend",
+      "start": "7/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Project Controls",
+      "company": "AECOM",
+      "start": "9/2018",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Microsoft",
+      "start": "3/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "Simon Stelz",
+      "start": "2/2016",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Field Project Control Specialist",
+      "company": "Suncor Energy",
+      "start": "1/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Field Project Controls Specialist",
+      "company": "URS",
+      "start": "7/2012",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Summer Intern, User Experience Design Analyst",
+      "company": "PayPal",
+      "start": "5/2011",
+      "end": "7/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  }
+}
