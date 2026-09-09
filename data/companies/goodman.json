@@ -2,7 +2,9 @@
   "id": "goodman",
   "type": "company",
   "name": "Goodman",
-  "aliases": [],
+  "aliases": [
+    "Goodman North America"
+  ],
   "industry_role": "developer operator",
   "headquarters": "Sydney, New South Wales, Australia",
   "founded": null,
@@ -12,7 +14,9 @@
   "description": null,
   "facilities": [],
   "financials": {},
-  "tags": [],
+  "tags": [
+    "Data Center Developer"
+  ],
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
@@ -32,11 +36,12 @@
     }
   },
   "dc_exposure_level": null,
-  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.",
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nMerged 2026-09-09: absorbed duplicate record 'Goodman North America' (goodman-north-america).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "hyperscale_focus": "Secondary Focus",
   "capacity_mw": {
     "apac": {

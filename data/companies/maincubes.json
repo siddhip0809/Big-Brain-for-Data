@@ -2,7 +2,9 @@
   "id": "maincubes",
   "type": "company",
   "name": "maincubes",
-  "aliases": [],
+  "aliases": [
+    "maincubes B.V."
+  ],
   "industry_role": "data center developer",
   "headquarters": null,
   "founded": null,
@@ -14,14 +16,34 @@
     "Data Center Developer",
     "Real Estate Development"
   ],
-  "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.",
+  "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nMerged 2026-09-09: absorbed duplicate record 'maincubes B.V.' (maincubes-b-v).",
   "sources": [
-    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
   ],
-  "source_lists": []
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 210.4,
+      "early_stage_mw": 38.0
+    }
+  }
 }

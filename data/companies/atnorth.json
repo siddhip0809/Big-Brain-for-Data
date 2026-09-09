@@ -2,7 +2,9 @@
   "id": "atnorth",
   "type": "company",
   "name": "atNorth",
-  "aliases": [],
+  "aliases": [
+    "atNorth Data Center"
+  ],
   "industry_role": "hyperscaler / data center developer",
   "headquarters": "Hafnarfjörður",
   "founded": null,
@@ -14,12 +16,13 @@
     "Data Center Developer",
     "Hyperscaler"
   ],
-  "notes": "Minimal stub record: identified as the current employer of 2 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nM&A: acquired Gompute -- Aug 2023: Swedish HPC provider + 10MW Gothenburg site. [completed; confidence high; https://www.atnorth.com/news/atnorth-acquires-gompute/]",
+  "notes": "Minimal stub record: identified as the current employer of 2 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nM&A: acquired Gompute -- Aug 2023: Swedish HPC provider + 10MW Gothenburg site. [completed; confidence high; https://www.atnorth.com/news/atnorth-acquires-gompute/]\n\nMerged 2026-09-09: absorbed duplicate record 'atNorth Data Center' (atnorth-data-center).",
   "sources": [
     "Clockwork CRM mapping-project export, imported 2026-09-05",
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"

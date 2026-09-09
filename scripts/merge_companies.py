@@ -50,7 +50,7 @@ for f in glob.glob(f"{REPO}/data/investors/*.json"):
     if drop_id in (inv.get("investments") or []):
         inv["investments"] = list(dict.fromkeys(keep_id if x == drop_id else x for x in inv["investments"])); investors.append((f, inv)); touched["investors"] += 1
 
-print("keep:", json.dumps({k: keep[k] for k in ("name", "aliases", "headquarters", "website", "parent_industry", "roles", "source_lists", "hyperscale_focus")}, ensure_ascii=False))
+print("keep:", json.dumps({k: keep.get(k) for k in ("name", "aliases", "headquarters", "website", "parent_industry", "roles", "source_lists", "hyperscale_focus")}, ensure_ascii=False))
 print("repointed:", touched, "| relationships:", len(out), "of", len(rels))
 if APPLY:
     dump = lambda path, obj: (json.dump(obj, open(path, "w"), indent=2, ensure_ascii=False), open(path, "a").write("\n"))

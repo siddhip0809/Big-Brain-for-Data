@@ -2025,7 +2025,7 @@
   },
   {
     "from": "person:howard-pheby-97d61e55",
-    "to": "company:pure-data-centres",
+    "to": "company:pure-data-centers",
     "type": "works_at",
     "detail": "Business Development Director",
     "sources": [
@@ -5435,7 +5435,7 @@
   },
   {
     "from": "person:lewis-mcmahon-d32783e3",
-    "to": "company:bgo-data-centre",
+    "to": "company:bgo",
     "type": "works_at",
     "detail": "Global Account Director at BGO Datacenters",
     "sources": [
@@ -11355,7 +11355,7 @@
   },
   {
     "from": "person:nicolas-font-s-ce0472b1",
-    "to": "company:opcore-sas",
+    "to": "company:opcore",
     "type": "works_at",
     "detail": "Vice President of Sales",
     "sources": [
@@ -12685,7 +12685,7 @@
   },
   {
     "from": "person:stephen-hing-36ecee3f",
-    "to": "company:pure-data-centres",
+    "to": "company:pure-data-centers",
     "type": "works_at",
     "detail": "Development Director",
     "sources": [
@@ -13225,7 +13225,7 @@
   },
   {
     "from": "person:andrew-morrow-b7c3aa87",
-    "to": "company:pure-data-centres",
+    "to": "company:pure-data-centers",
     "type": "works_at",
     "detail": "Strategy & Investment",
     "sources": [
@@ -15335,7 +15335,7 @@
   },
   {
     "from": "person:shannon-hondl-5ae4a03a",
-    "to": "company:goodman-north-america",
+    "to": "company:goodman",
     "type": "works_at",
     "detail": "Chief Development Officer",
     "sources": [
@@ -15405,7 +15405,7 @@
   },
   {
     "from": "person:jason-o-conaill-4cbfdf68",
-    "to": "company:green-mountain-as-data-centres",
+    "to": "company:green-mountain-global-data-centers",
     "type": "works_at",
     "detail": "Country Director of Business Development at Green Mountain Data Centres",
     "sources": [
@@ -17875,7 +17875,7 @@
   },
   {
     "from": "person:espen-bjanes-fc023c5d",
-    "to": "company:atnorth-data-center",
+    "to": "company:atnorth",
     "type": "works_at",
     "detail": "Sales Director",
     "sources": [
@@ -20795,7 +20795,7 @@
   },
   {
     "from": "person:espen-opsanger-f9c1f7e3",
-    "to": "company:green-mountain-as-data-centres",
+    "to": "company:green-mountain-global-data-centers",
     "type": "works_at",
     "detail": "Site selection Director",
     "sources": [
@@ -26255,7 +26255,7 @@
   },
   {
     "from": "person:paul-hicks-81687703",
-    "to": "company:polar",
+    "to": "company:polar-dc",
     "type": "works_at",
     "detail": "Vice President Acquisition & Development",
     "sources": [
@@ -27421,7 +27421,7 @@
   },
   {
     "from": "investor:oaktree-capital-management",
-    "to": "company:pure-data-centres",
+    "to": "company:pure-data-centers",
     "type": "invested_in",
     "detail": "Oaktree is majority-owned (62%) by Brookfield Asset Management, an indirect ultimate backer.",
     "confidence": "high",
@@ -27433,7 +27433,7 @@
   },
   {
     "from": "investor:government-of-ras-al-khaimah-investment-and-development-office",
-    "to": "company:pure-data-centres",
+    "to": "company:pure-data-centers",
     "type": "invested_in",
     "detail": "Oaktree is majority-owned (62%) by Brookfield Asset Management, an indirect ultimate backer.",
     "confidence": "high",
@@ -28221,20 +28221,6 @@
     "verification": "confirmed (re-sourcing pass 2026-09-08)"
   },
   {
-    "from": "investor:infravia-capital-partners",
-    "to": "company:opcore-sas",
-    "type": "invested_in",
-    "detail": "Acquired a 50% stake (March 2025); French legal entity of the OPCORE platform. — Re-sourcing note (2026-09-08): Same transaction as idx 2777 (duplicate entity); closing was April 3, 2025, not March 2025.",
-    "sources": [
-      "https://infraviacapital.com/the-iliad-group-and-infravia-have-closed-the-transaction-aimed-at-developing-opcore-into-a-major-european-hyperscale-data-center-platform/",
-      "https://www.marketscreener.com/quote/stock/ILIAD-4765/news/InfraVia-Capital-Partners-completed-the-acquisition-of-50-stake-in-OpCore-Datacenter-49544181/",
-      "Web research, 2026-09-05"
-    ],
-    "last_updated": "2026-09-05",
-    "confidence": "high",
-    "verification": "confirmed (re-sourcing pass 2026-09-08)"
-  },
-  {
     "from": "investor:five-point-infrastructure",
     "to": "company:powerbridge",
     "type": "invested_in",
@@ -28264,7 +28250,7 @@
   },
   {
     "from": "investor:hig-capital",
-    "to": "company:polar",
+    "to": "company:polar-dc",
     "type": "invested_in",
     "detail": "H.I.G. Infrastructure took a controlling interest (~€500M deal, Oct 2024).",
     "sources": [
@@ -28279,7 +28265,7 @@
   },
   {
     "from": "investor:tikehau-capital",
-    "to": "company:polar",
+    "to": "company:polar-dc",
     "type": "invested_in",
     "detail": "Provided unitranche financing (March 2025) for Polar's Norwegian HPC site. — Re-sourcing note (2026-09-08): EUR80M senior secured loan; later refinanced by a EUR750M/800M Nordic bond in 2026 (debt, not equity).",
     "sources": [
@@ -28375,20 +28361,6 @@
       "https://newsroom.equinix.com/2026-09-02-CPP-Investments-and-Equinix-Complete-atNorth-Acquisition-to-Support-Growth-of-Leading-Nordic-Data-Center-Platform",
       "https://www.atnorth.com/news/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform/",
       "https://www.prnewswire.com/news-releases/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform-302867735.html",
-      "Web research, 2026-09-05"
-    ],
-    "last_updated": "2026-09-05",
-    "confidence": "medium",
-    "verification": "partial (re-sourcing pass 2026-09-08)"
-  },
-  {
-    "from": "investor:cpp-investments",
-    "to": "company:atnorth-data-center",
-    "type": "invested_in",
-    "detail": "Acquired ~60% (alongside Equinix) in a completed deal, Sept 2, 2026 (~$1.6B for CPPIB's stake). — Re-sourcing note (2026-09-08): Duplicate of idx 2788; completed deal is ~51% / US$1.3B for CPP Investments, not ~60% / ~$1.6B.",
-    "sources": [
-      "https://newsroom.equinix.com/2026-09-02-CPP-Investments-and-Equinix-Complete-atNorth-Acquisition-to-Support-Growth-of-Leading-Nordic-Data-Center-Platform",
-      "https://www.atnorth.com/news/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform/",
       "Web research, 2026-09-05"
     ],
     "last_updated": "2026-09-05",
@@ -29838,7 +29810,7 @@
     "last_updated": "2026-09-05"
   },
   {
-    "from": "company:bit-digital-2",
+    "from": "company:bit-digital",
     "to": "company:enovum-data-centers",
     "type": "acquired",
     "detail": "C$62.8M (~US$46M), closed 11 Oct 2024: Tier 3 Montreal colocation + 280MW pipeline -- the basis of WhiteFiber.",
@@ -30265,20 +30237,6 @@
     "confidence": "high",
     "sources": [
       "https://www.dpr.com/projects/vantage-ca2-data-center-campus"
-    ],
-    "last_updated": "2026-09-08"
-  },
-  {
-    "from": "company:mortenson-construction",
-    "to": "company:meta",
-    "type": "contractor_for",
-    "detail": "General contractor: Meta Beaver Dam, WI $1B 700,000 SF data center (2025-); Meta Lebanon, IN campus ($10B+, 1 GW, with Turner); one of three GCs on Meta Richland Parish, LA 4M SF campus",
-    "status": "ongoing",
-    "confidence": "high",
-    "sources": [
-      "https://www.enr.com/articles/62090-wisconsin-lands-1b-meta-data-center-as-mortenson-expands-hyperscale-work",
-      "https://www.mortenson.com/news-insights/mortenson-begins-indiana-data-center-construction",
-      "https://www.richlandparishdatacenter.com/mortenson"
     ],
     "last_updated": "2026-09-08"
   },
@@ -30862,7 +30820,7 @@
     "mw": 2575
   },
   {
-    "from": "company:edp-renewables-north-america",
+    "from": "company:edp-renewables",
     "to": "company:meta",
     "type": "supplies_power_to",
     "detail": "Three agreements totaling 545 MW, most recently a PPA for Cypress Knee Solar, 250 MW, southeast Arkansas (May 2026, COD 2028).",
@@ -30878,7 +30836,7 @@
     "note": "EDPR NA says ~45% of power from PPAs signed in 2024 supports data centers; 11 GW of EDP's 15 GW global PPAs are North American."
   },
   {
-    "from": "company:edp-renewables-north-america",
+    "from": "company:edp-renewables",
     "to": "company:microsoft",
     "type": "supplies_power_to",
     "detail": "VPPAs for 389 MW from three solar projects totaling 400 MW: Wolf Run 140 MW and Hickory 110 MW (Illinois), Cattlemen II 150 MW (Texas); delivered Feb 2025.",
@@ -30893,7 +30851,7 @@
     "note": "EDPR NA says ~45% of power from PPAs signed in 2024 supports data centers; 11 GW of EDP's 15 GW global PPAs are North American."
   },
   {
-    "from": "company:edp-renewables-north-america",
+    "from": "company:edp-renewables",
     "to": "company:aws",
     "type": "supplies_power_to",
     "detail": "Long-term supply agreement for a Mississippi renewable project (MW not captured).",
@@ -30907,7 +30865,7 @@
     "note": "EDPR NA says ~45% of power from PPAs signed in 2024 supports data centers; 11 GW of EDP's 15 GW global PPAs are North American."
   },
   {
-    "from": "company:engie-north-america",
+    "from": "company:engie",
     "to": "company:meta",
     "type": "supplies_power_to",
     "detail": "PPAs across four Texas projects totaling >1.3 GW, including 100% of the 600 MW Swenson Ranch Solar project (Stonewall County, TX; $900M; COD 2027).",
@@ -30922,7 +30880,7 @@
     "note": "ENGIE group: 13.8 GW of corporate PPAs since 2011, largest globally over 2011-2025, led by tech buyers."
   },
   {
-    "from": "company:engie-north-america",
+    "from": "company:engie",
     "to": "company:google",
     "type": "supplies_power_to",
     "detail": "Corporate PPAs with Google (ENGIE group cites Google among its leading tech offtakers; US MW not captured).",
@@ -30935,7 +30893,7 @@
     "note": "ENGIE group: 13.8 GW of corporate PPAs since 2011, largest globally over 2011-2025, led by tech buyers."
   },
   {
-    "from": "company:engie-north-america",
+    "from": "company:engie",
     "to": "company:apple",
     "type": "supplies_power_to",
     "detail": "Corporate PPAs with Apple (ENGIE group cites Apple among its leading tech offtakers; US MW not captured).",
@@ -31757,7 +31715,7 @@
     "last_updated": "2026-09-08"
   },
   {
-    "from": "company:structure-tone-southwest",
+    "from": "company:structure-tone",
     "to": "company:switch",
     "type": "contractor_for",
     "detail": "GC for Data Foundry's 325,000 sq ft Texas 1 data center, Austin TX (Data Foundry later acquired by Switch); STSW also has a 230,000 sq ft data center build in Dallas/Irving.",

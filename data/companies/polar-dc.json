@@ -2,7 +2,9 @@
   "id": "polar-dc",
   "type": "company",
   "name": "Polar DC",
-  "aliases": [],
+  "aliases": [
+    "Polar"
+  ],
   "industry_role": "developer operator",
   "headquarters": "London, United Kingdom",
   "founded": null,
@@ -12,7 +14,10 @@
   "description": null,
   "facilities": [],
   "financials": {},
-  "tags": [],
+  "tags": [
+    "Data Center Developer",
+    "Real Estate Development"
+  ],
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
@@ -32,11 +37,12 @@
     }
   },
   "dc_exposure_level": null,
-  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.\n\nMerged 2026-09-09: absorbed duplicate record 'Polar' (polar).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "capacity_mw": {
     "emea": {
       "total_mw": 113.0,

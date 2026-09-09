@@ -2,11 +2,13 @@
   "id": "bit-digital",
   "type": "company",
   "name": "Bit Digital (WhiteFiber)",
-  "aliases": [],
+  "aliases": [
+    "Bit Digital"
+  ],
   "industry_role": "AI/HPC infrastructure company (fully exited bitcoin mining)",
-  "headquarters": null,
+  "headquarters": "New York",
   "founded": null,
-  "website": null,
+  "website": "https://bit-digital.com/",
   "description": null,
   "facilities": [],
   "financials": {},
@@ -15,13 +17,33 @@
     "Neo Clouds/AI Infra"
   ],
   "parent_industry": "pure_play",
-  "notes": "Crypto-mining pivot -- the most complete divestiture in the group: announced a full wind-down of bitcoin mining (2025) to become a pure-play Ethereum-staking company, while majority-owned subsidiary WhiteFiber runs the AI/HPC business, now ~60% of total company revenue. One of the earliest movers, having launched \"Bit Digital AI\" back in 2023.",
+  "notes": "Crypto-mining pivot -- the most complete divestiture in the group: announced a full wind-down of bitcoin mining (2025) to become a pure-play Ethereum-staking company, while majority-owned subsidiary WhiteFiber runs the AI/HPC business, now ~60% of total company revenue. One of the earliest movers, having launched \"Bit Digital AI\" back in 2023.\n\nMerged 2026-09-09: absorbed duplicate record 'Bit Digital' (bit-digital-2).",
   "sources": [
-    "Web research, 2026-09-05"
+    "Web research, 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "roles": [
     "neocloud"
   ],
-  "source_lists": []
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 99.0,
+      "early_stage_mw": 100.0
+    }
+  }
 }

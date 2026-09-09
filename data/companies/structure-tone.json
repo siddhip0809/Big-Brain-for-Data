@@ -2,7 +2,9 @@
   "id": "structure-tone",
   "type": "company",
   "name": "Structure Tone",
-  "aliases": [],
+  "aliases": [
+    "Structure Tone Southwest"
+  ],
   "industry_role": "civil land engineering",
   "headquarters": "New York",
   "founded": null,
@@ -15,10 +17,12 @@
   "tags": [],
   "parent_industry": "construction_engineering",
   "roles": [
-    "civil_land_engineering"
+    "civil_land_engineering",
+    "general_contractor"
   ],
   "source_lists": [
-    "Civil Land Developers"
+    "Civil Land Developers",
+    "General Contractors USA"
   ],
   "list_attributes": {
     "Civil Land Developers": {
@@ -30,9 +34,9 @@
     }
   },
   "dc_exposure_level": "Medium",
-  "notes": "Siddhi's sheet note: GC. Some DC fit-out and construction work.",
+  "notes": "Siddhi's sheet note: GC. Some DC fit-out and construction work.\n\nMerged 2026-09-09: absorbed duplicate record 'Structure Tone Southwest' (structure-tone-southwest).",
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-09"
 }

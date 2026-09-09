@@ -37,9 +37,9 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **1,162 companies** — in two groups, both carried on each record as
+- **1,141 companies** — in two groups, both carried on each record as
   `roles` (see `docs/schema.md`):
-  - **740 data-center companies** — Pure Data Centers and STACK
+  - **726 data-center companies** — Pure Data Centers and STACK
     Infrastructure (active Ward Search client engagements, hand-written
     records); ~190 more identified as current employers of candidates in
     Clockwork and classified as genuine operators/developers/hyperscalers/
@@ -54,7 +54,7 @@ Real data has started loading. Currently in the brain:
     "Other/Not Relevant"), which also brought website, LinkedIn, HQ,
     headcount, hyperscale focus, and **MW capacity by region** for 638
     companies.
-  - **422 adjacent-industry companies** from four more of Siddhi's lists —
+  - **415 adjacent-industry companies** from four more of Siddhi's lists —
     Energy Developers (159), Civil/Land Engineers (116), General
     Contractors USA (150), Cold Storage & Industrial Developers (29) —
     kept in the brain with her DC-exposure rating and every column from
@@ -173,10 +173,16 @@ Real data has started loading. Currently in the brain:
   row becomes sourced relationships.
 - An interactive visual graph of all of this — see `viewer/README.md`
 
-**Known issue:** "Pure Data Centers" and "Pure Data Centres" exist as two
-separate company records (American vs. British spelling, one hand-written
-as the client company, one auto-generated from candidate data) — worth
-merging.
+**Duplicates:** 22 double records were merged on 2026-09-09 with
+`scripts/merge_companies.py` (Pure Data Centers/Centres, STACK
+Infrastructure/STACK Americas, NTT/NTT Global Data Centers, Mortenson,
+Ark, atNorth, BGO, Green Mountain ×3, ENGIE, Telehouse, EDP and EDF
+Renewables' North America arms, Bit Digital, Goodman, Webcor, Bohler,
+OPCORE, maincubes, Structure Tone Southwest, Digital Realty Bersama,
+Polar/Polar DC). Regional arms fold into the parent; the dropped name
+becomes an alias so search still finds it. Deliberately *not* merged:
+Switch vs Global Switch, Galaxy Digital vs Galaxy Data Centers, Switch vs
+Switch Datacenters — different companies with similar names.
 
 Placeholder `example-` entries used during initial setup have been removed
 now that real data is in place.

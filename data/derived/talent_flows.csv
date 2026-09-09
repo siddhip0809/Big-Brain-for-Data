@@ -9,6 +9,7 @@ Microsoft,True,AWS,4,Nicole Madin; Roxanne Dingwall-Fordyce; Stuart Spalding; Tr
 AWS,True,Equinix,4,Andrew Williams; David Forester; Fiona Cohen; Tamer Abdelsatar Hashala,Development & Real Estate 2; Construction & Delivery 1; Design & Engineering 1,4/2026
 Meta,True,Google,4,Jarrett Mackey; Rosemary Lewis; Sridhar Avva; Tony Boetto,Development & Real Estate 3; Construction & Delivery 1,8/2026
 Turner & Townsend,True,Google,4,Jackson Le; Kelsey Sinclair; Kurt Russell; Naomi Lemieux,Pre-Construction & Cost 2; Construction & Delivery 1; Development & Real Estate 1,10/2025
+Structure Tone,True,QTS Data Centers,4,Collin Scott; Gary Hinds; Lane Anderson; Michael Lu,Development & Real Estate 4,12/2025
 Google,True,STACK Infrastructure,4,Emily Sotherlund; Jenna de Hoop Scheffer; Jennifer Braschayko; Josh Timberlake,"Strategy, Finance & Investment 4",6/2026
 The Staubach Company,False,T5 Data Centers,4,Frank Lyles; Jason Chartrand; Jimmy Bailey; Pete Marin,Executive leadership 2; Sales & Leasing 1; Development & Real Estate 1,1/2013
 AWS,True,Vantage,4,Adam Ries; Anaïs Grimm; John B Thomas; Steven Scott,Development & Real Estate 1; Sales & Leasing 1; Construction & Delivery 1; Pre-Construction & Cost 1,8/2026
@@ -89,8 +90,6 @@ DPR Construction,True,QTS Data Centers,2,Mark Ireland; Matthew Ondek,Development
 Dominion,False,QTS Data Centers,2,Andrew Hedrick; Erica Bridges,Energy & Utilities 2,6/2025
 Microsoft,True,QTS Data Centers,2,Andy Lawson; Richard Currie,Development & Real Estate 1; Sales & Leasing 1,3/2025
 Portland General Electric,False,QTS Data Centers,2,Carl Krutka; Geoff Bastian,Energy & Utilities 2,8/2023
-Structure Tone,True,QTS Data Centers,2,Lane Anderson; Michael Lu,Development & Real Estate 2,1/2024
-Structure Tone Southwest,True,QTS Data Centers,2,Collin Scott; Gary Hinds,Development & Real Estate 2,12/2025
 Bowman Consulting,False,STACK Infrastructure,2,Lisa Gerben; Matthew Leslie,Development & Real Estate 2,8/2025
 Dalfen Industrial,False,STACK Infrastructure,2,Daniel Jackson; Tim Kraftson,Development & Real Estate 2,2/2026
 Google,True,Stream Data Centers,2,Michael Lebow; Oisín Ó Murchú,Development & Real Estate 1; Executive leadership 1,1/2026
@@ -107,6 +106,7 @@ Meta,True,Vantage,2,D K; Ron Young,Construction & Delivery 2,1/2026
 QTS Data Centers,True,Vantage,2,Cody Thornton; Yassine Houl,Construction & Delivery 2,4/2026
 STACK Infrastructure,True,Vaultica Data Centers,2,Anders Hansen; Rickard Hilmersson,Development & Real Estate 1; Sales & Leasing 1,12/2025
 AWS,True,Yondr,2,Adam Sharp; Osama Bakhet,Energy & Utilities 1; Development & Real Estate 1,6/2023
+Green Mountain Global Data Centers,True,atNorth,2,Espen Bjanes; Howard Shutt,Sales & Leasing 2,6/2025
 Microsoft,True,ACS Infrastructure,1,Sourojit Dhar,Development & Real Estate 1,11/2024
 HNTB,True,AECOM,1,Ed Kucher,Construction & Delivery 1,10/2025
 AWS,True,AGP Sustainable Real Assets,1,David Ameneyro,Development & Real Estate 1,4/2026
@@ -217,7 +217,7 @@ Switch,True,Applied Digital,1,Aaron Prill,Construction & Delivery 1,2/2026
 Microsoft,True,Apto,1,David Cologne,Sales & Leasing 1,11/2023
 Infinity Sdc,False,Ark Data Centres,1,Wesley Anastase-Brookes,Sales & Leasing 1,1/2022
 Silco Consulting Limited,False,Ark Data Centres,1,Rob Silvester,Executive leadership 1,7/2016
-Pure Data Centres,True,Arrow Capital Partners,1,Lawrence Harkness,Development & Real Estate 1,4/2022
+Pure Data Centers,True,Arrow Capital Partners,1,Lawrence Harkness,Development & Real Estate 1,4/2022
 Alibaba Cloud,True,AtlasEdge,1,Iain Bryan,Sales & Leasing 1,5/2024
 CBRE,False,AtlasEdge,1,Frederick Pett,Development & Real Estate 1,6/2023
 Google at Google,False,AtlasEdge,1,Eric Ryan,Development & Real Estate 1,
@@ -372,7 +372,7 @@ Colliers,False,CyrusOne,1,Simon Ford,Sales & Leasing 1,
 DATA4,True,CyrusOne,1,Alex Safronoff,Sales & Leasing 1,4/2019
 Dell,False,CyrusOne,1,Todd Otte,Sales & Leasing 1,1/2018
 Digital Realty,True,CyrusOne,1,Tom Kingham,Energy & Utilities 1,3/2025
-EDP Renewables North America,True,CyrusOne,1,April McDermand,Energy & Utilities 1,2/2026
+EDP Renewables,True,CyrusOne,1,April McDermand,Energy & Utilities 1,2/2026
 Equinix,True,CyrusOne,1,Sarah Wood,Sales & Leasing 1,1/2017
 Fibertown Data Centers,False,CyrusOne,1,Shane Stewart,Sales & Leasing 1,9/2017
 Lonestar Development Partners,False,CyrusOne,1,Alex Raff,Development & Real Estate 1,1/2025
@@ -446,7 +446,7 @@ CoreSite,True,Digital Realty,1,Alexander Chan,Sales & Leasing 1,1/2025
 DMC Global Partners,False,Digital Realty,1,Ravi Shankar,Pre-Construction & Cost 1,9/2024
 DPR Construction,True,Digital Realty,1,Justin Gregory,Pre-Construction & Cost 1,10/2024
 Dell,False,Digital Realty,1,Patrick E. Sullivan,Sales & Leasing 1,7/2014
-ENGIE North America,True,Digital Realty,1,Ian Black,Energy & Utilities 1,2/2025
+Engie,True,Digital Realty,1,Ian Black,Energy & Utilities 1,2/2025
 Equinix at Equinix,False,Digital Realty,1,Sean Reilly,Sales & Leasing 1,1/2021
 Evoque Data Center Solutions,False,Digital Realty,1,Christopher Canterbury,Construction & Delivery 1,7/2024
 Flexential,True,Digital Realty,1,Michael Smith,Sales & Leasing 1,5/2025
@@ -665,8 +665,8 @@ fifteenfortyseven Critical Systems Realty (1547) at fifteenfortyseven Critical S
 kgb,False,Google,1,Amy C.,Sales & Leasing 1,7/2014
 sPower,False,Google,1,Donna Calderon,Energy & Utilities 1,4/2019
 Sonic Edge,False,Gravity Edge - a BlackRock and DGP platform,1,Stuart Priest,Development & Real Estate 1,1/2021
-Buøy Invest AS,False,Green Mountain AS - Data centres,1,Espen Opsanger,Development & Real Estate 1,2/2025
-International Partner,False,Green Mountain AS - Data centres,1,Jason O'Conaill,Sales & Leasing 1,2/2013
+Buøy Invest AS,False,Green Mountain Global Data Centers,1,Espen Opsanger,Development & Real Estate 1,2/2025
+International Partner,False,Green Mountain Global Data Centers,1,Jason O'Conaill,Sales & Leasing 1,2/2013
 Vantage,True,Green Mountain Global Data Centers,1,James Green,Sales & Leasing 1,7/2026
 CapitaLand,True,GreenScale Data Centres,1,Stephen Hibbert,Development & Real Estate 1,9/2022
 Digital Power Optimization,False,Greenlight Data Centers,1,Kevin Porter,Development & Real Estate 1,6/2025
@@ -754,7 +754,7 @@ Cisco at JLL,False,Meta,1,Vineetha Gambhir,"Strategy, Finance & Investment 1",6/
 Crosby Group,False,Meta,1,Darin Daskarolis,Design & Engineering 1,
 DPR Construction,True,Meta,1,Jeremy Bray,Pre-Construction & Cost 1,3/2025
 Dynalectric Colorado,False,Meta,1,Zachary Howard,Pre-Construction & Cost 1,5/2024
-EDP Renewables North America,True,Meta,1,Josh Bohach,Development & Real Estate 1,6/2016
+EDP Renewables,True,Meta,1,Josh Bohach,Development & Real Estate 1,6/2016
 EY,False,Meta,1,Zachary Weinstein,Development & Real Estate 1,1/2025
 Edison Energy,False,Meta,1,Mike Vincent,Energy & Utilities 1,4/2022
 GDS Associates,False,Meta,1,Paul Kelly,Energy & Utilities 1,6/2022
@@ -822,7 +822,7 @@ PETRA,False,Microsoft,1,Aaron Lee,Operations & Facilities 1,4/2023
 Portland General Electric,False,Microsoft,1,Ryin Khandoker,Energy & Utilities 1,3/2024
 Prologis,True,Microsoft,1,Jennifer Guckin,Development & Real Estate 1,10/2024
 PulteGroup,False,Microsoft,1,Mike Behn,Development & Real Estate 1,12/2025
-Pure Data Centres,True,Microsoft,1,Otto Kerasidis,Development & Real Estate 1,10/2022
+Pure Data Centers,True,Microsoft,1,Otto Kerasidis,Development & Real Estate 1,10/2022
 RDO Equipment,False,Microsoft,1,Jennifer Werlinger,Development & Real Estate 1,6/2024
 RIB U S Cost,False,Microsoft,1,Philips Akinola,Pre-Construction & Cost 1,12/2024
 RP AND ASSOCIATES PROPERTIES LIMITED,False,Microsoft,1,Richard Petyt,Development & Real Estate 1,4/2024
@@ -893,7 +893,7 @@ nLighten,True,Nscale,1,Hiren Vaghela,Sales & Leasing 1,7/2013
 EDGNEX,True,O-Green Data Centers,1,Jim Kavanagh,Development & Real Estate 1,10/2022
 Euclyde Datacenters,False,OPCORE,1,Frédéric Davillé,Sales & Leasing 1,1/2020
 Linkcity,False,OPCORE,1,Bruno Morvan,Development & Real Estate 1,10/2025
-Scaleway,False,OPCORE SAS,1,Nicolas Fontés,Sales & Leasing 1,12/2020
+Scaleway,False,OPCORE,1,Nicolas Fontés,Sales & Leasing 1,12/2020
 CBRE,False,OVHcloud,1,Michael Cohen,Development & Real Estate 1,6/2023
 ByteDance,True,OpenAI,1,Oliver Lam,Development & Real Estate 1,7/2025
 Rowan Digital Infrastructure,True,OpenAI,1,Marcia Jones,Development & Real Estate 1,7/2025
@@ -910,7 +910,7 @@ DataBank,True,PointOne,1,Dan Ephraim,Sales & Leasing 1,10/2020
 Holder Construction,True,PointOne,1,Don Miller,Construction & Delivery 1,9/2024
 NAIOP Edmonton,False,PointOne,1,Colin Clish,Development & Real Estate 1,3/2017
 NORESCO,False,PointOne,1,Michael Kennedy,Energy & Utilities 1,4/2025
-CyrusOne,True,Polar,1,Paul Hicks,Development & Real Estate 1,5/2025
+CyrusOne,True,Polar DC,1,Paul Hicks,Development & Real Estate 1,5/2025
 NetEngine,False,Polaris Data Centre,1,Ray Duncan,Sales & Leasing 1,1/2021
 Digital Realty,True,PowerBridge,1,Melissa Podesto,Sales & Leasing 1,5/2025
 Dsi Tech,False,PowerHouse Data Centers,1,Andrea Figueroa,Development & Real Estate 1,7/2025
@@ -929,9 +929,9 @@ ST Telemedia Global Data Centres India,False,Princeton Digital Group,1,Sachin To
 Vantage,True,Princeton Digital Group,1,Paul Gilsenan,Development & Real Estate 1,1/2025
 Leidos,False,Prometheus Hyperscale,1,James Hannigan,Energy & Utilities 1,4/2025
 Onyx Group,False,Pulsant,1,Sarah Weston,Sales & Leasing 1,12/2025
-Microsoft,True,Pure Data Centres,1,Andrew Morrow,"Strategy, Finance & Investment 1",11/2021
-R&F Properties UK,False,Pure Data Centres,1,Stephen Hing,Development & Real Estate 1,2/2023
-Rack Centre,True,Pure Data Centres,1,Howard Pheby,Sales & Leasing 1,7/2016
+Microsoft,True,Pure Data Centers,1,Andrew Morrow,"Strategy, Finance & Investment 1",11/2021
+R&F Properties UK,False,Pure Data Centers,1,Stephen Hing,Development & Real Estate 1,2/2023
+Rack Centre,True,Pure Data Centers,1,Howard Pheby,Sales & Leasing 1,7/2016
 AXI IMMO,False,QTS Data Centers,1,Roger K. Mroczek,Development & Real Estate 1,1/2022
 Achieve One,False,QTS Data Centers,1,Lisa Kopecko,Sales & Leasing 1,11/2015
 Advantis Global is now INSPYR Solutions,False,QTS Data Centers,1,Emily (Lewandowski) Lynn,Development & Real Estate 1,1/2026
@@ -1094,8 +1094,8 @@ Leon Capital Group,False,Stream Data Centers,1,Alex Stewart,Development & Real E
 PG&E,False,Stream Data Centers,1,Taylor Ogilvie,Development & Real Estate 1,7/2022
 Priority Power,False,Stream Data Centers,1,Brian Frazier,Energy & Utilities 1,8/2023
 QTS Data Centers,True,Stream Data Centers,1,Santiago Escobar,Development & Real Estate 1,10/2024
-JE Dunn Construction,True,Structure Tone Southwest,1,Joseph H.,Pre-Construction & Cost 1,1/2023
-MDI Inc General Contractors,False,Structure Tone Southwest,1,Andres Montoya,Pre-Construction & Cost 1,4/2023
+JE Dunn Construction,True,Structure Tone,1,Joseph H.,Pre-Construction & Cost 1,1/2023
+MDI Inc General Contractors,False,Structure Tone,1,Andres Montoya,Pre-Construction & Cost 1,4/2023
 DPR Construction,True,Suffolk Construction,1,Eddie Spinella,Pre-Construction & Cost 1,9/2025
 Kenny Electric,False,Suffolk Construction,1,Shawn Kalsbeck,Pre-Construction & Cost 1,2/2025
 Lee Kennedy Co,False,Suffolk Construction,1,Ryan Smith,Pre-Construction & Cost 1,8/2024
@@ -1310,10 +1310,10 @@ Obsidian Group,False,Virtus Data Centers,1,Peter Miles,Sales & Leasing 1,1/2025
 Odyssey Mobile Interaction,False,Virtus Data Centers,1,Darren Watkins,Executive leadership 1,11/2013
 Prologis,True,Virtus Data Centers,1,Simon Ramsell,Development & Real Estate 1,12/2022
 Alliance Residential,False,W.E. O'Neil Construction,1,Nancy Yusuf,Pre-Construction & Cost 1,8/2024
-Samsung C&T,False,Webcor Builders,1,Minho Han,Construction & Delivery 1,6/2017
+Samsung C&T,False,Webcor,1,Minho Han,Construction & Delivery 1,6/2017
 AWS,True,Worldwide Mission Critical,1,Dustin Dorph,Development & Real Estate 1,6/2026
 Clayco,True,Worldwide Mission Critical,1,Nirek Rao,Pre-Construction & Cost 1,4/2024
-Structure Tone Southwest,True,Worldwide Mission Critical,1,Hank Hundhausen,Pre-Construction & Cost 1,8/2026
+Structure Tone,True,Worldwide Mission Critical,1,Hank Hundhausen,Pre-Construction & Cost 1,8/2026
 Linesight,False,XL Construction,1,Lisa Tight,Pre-Construction & Cost 1,3/2025
 Sundt Construction,False,Yates Construction,1,Mark Debenport,Pre-Construction & Cost 1,8/2021
 Barhale,False,Yondr,1,Maria Marques,Energy & Utilities 1,1/2022
@@ -1329,9 +1329,7 @@ Solidus Private Equity / Gemini Data Centers,False,Yondr,1,Paul Dillon,Executive
 The Doyle Collection,False,Yondr,1,Mark Ryan,Sales & Leasing 1,11/2023
 Three Ireland,False,Yondr,1,Ailish McDonnell,Development & Real Estate 1,6/2023
 Turner & Townsend,True,Yondr,1,Jason Maxwell,Pre-Construction & Cost 1,6/2025
-Green Mountain AS - Data centres,True,atNorth,1,Howard Shutt,Sales & Leasing 1,6/2025
 Justin,False,atNorth,1,Pekka Järveläinen,Sales & Leasing 1,2/2019
-Green Mountain AS - Data centres,True,atNorth Data Center,1,Espen Bjanes,Sales & Leasing 1,6/2025
 Digital Realty,True,fifteenfortyseven Critical Systems Realty (1547),1,Richard Coleman,Development & Real Estate 1,8/2021
 Elara Caring,False,fifteenfortyseven Critical Systems Realty (1547),1,Michael Henthorn,Development & Real Estate 1,9/2020
 AWS,True,hscale,1,Amy Chen,Sales & Leasing 1,12/2025
@@ -1344,5 +1342,5 @@ Colt Data Centre Services,True,maincubes Secure Datacenters,1,Stefanie Dohse,Sal
 The Festival Companies,False,metrobloks,1,Ryan Shea,Development & Real Estate 1,1/2016
 EXA Infrastructure,False,nLighten,1,John Fitsiou,Sales & Leasing 1,1/2024
 Equinix,True,nLighten,1,Justin Nesbitt,Executive leadership 1,4/2025
-Green Mountain AS - Data centres,True,nLighten,1,Andreas Herden,Executive leadership 1,7/2025
+Green Mountain Global Data Centers,True,nLighten,1,Andreas Herden,Executive leadership 1,7/2025
 Proact IT UK,False,nLighten,1,Andrew Ward,Sales & Leasing 1,2/2025

@@ -2,7 +2,9 @@
   "id": "bohler",
   "type": "company",
   "name": "Bohler",
-  "aliases": [],
+  "aliases": [
+    "Bohler Places LLC"
+  ],
   "industry_role": "civil land engineering",
   "headquarters": "Warren, New Jersey",
   "founded": null,
@@ -15,10 +17,12 @@
   "tags": [],
   "parent_industry": "construction_engineering",
   "roles": [
-    "civil_land_engineering"
+    "civil_land_engineering",
+    "developer_operator"
   ],
   "source_lists": [
-    "Civil Land Developers"
+    "Civil Land Developers",
+    "Data Centre Developer"
   ],
   "list_attributes": {
     "Civil Land Developers": {
@@ -27,12 +31,26 @@
       "Multidisciplinary": "No",
       "Mission Critical / DC Experience": "Yes",
       "DC Exposure Level": "Medium"
+    },
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
     }
   },
   "dc_exposure_level": "Medium",
-  "notes": "Siddhi's sheet note: Pure land development. Active in DC campus site work, NoVA/DC markets.",
+  "notes": "Siddhi's sheet note: Pure land development. Active in DC campus site work, NoVA/DC markets.\n\nMerged 2026-09-09: absorbed duplicate record 'Bohler Places LLC' (bohler-places-llc).",
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-09",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 448.0
+    }
+  }
 }

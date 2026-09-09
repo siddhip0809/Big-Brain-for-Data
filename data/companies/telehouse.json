@@ -2,25 +2,48 @@
   "id": "telehouse",
   "type": "company",
   "name": "Telehouse",
-  "aliases": [],
+  "aliases": [
+    "Telehouse Canada"
+  ],
   "industry_role": "data center developer",
-  "headquarters": null,
+  "headquarters": "Toronto, Canada",
   "founded": null,
-  "website": null,
+  "website": "https://www.telehouse.ca/",
   "description": null,
   "facilities": [],
   "financials": {},
   "tags": [
     "Data Center Developer"
   ],
-  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.",
+  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nMerged 2026-09-09: absorbed duplicate record 'Telehouse Canada' (telehouse-canada).",
   "sources": [
-    "Clockwork CRM mapping-project export, imported 2026-09-05"
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "parent_industry": "telecom",
   "roles": [
     "developer_operator"
   ],
-  "source_lists": []
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "linkedin": "https://www.linkedin.com/company/telehouse-canada/",
+  "headcount": "11 to 50",
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 38.0
+    }
+  }
 }

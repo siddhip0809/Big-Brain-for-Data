@@ -2,26 +2,58 @@
   "id": "pure-data-centers",
   "type": "company",
   "name": "Pure Data Centers",
-  "aliases": [],
+  "aliases": [
+    "Pure Data Centres"
+  ],
   "industry_role": "data center operator",
-  "headquarters": null,
+  "headquarters": "London, United Kingdom",
   "founded": null,
-  "website": null,
+  "website": "http://www.puredc.com",
   "description": "Data center operator. Client of Ward Search for a VP Sales search.",
   "facilities": [],
   "financials": {},
   "tags": [
     "client-company",
-    "data-center-operator"
+    "data-center-operator",
+    "Data Center Developer",
+    "Hyperscaler",
+    "Real Estate Development"
   ],
-  "notes": "Subtitle in Clockwork reads \"Oaktree-Owned\" — recorded as a probable investor relationship (see data/investors/oaktree.json); not independently verified.",
+  "notes": "Subtitle in Clockwork reads \"Oaktree-Owned\" — recorded as a probable investor relationship (see data/investors/oaktree.json); not independently verified.\n\nMerged 2026-09-09: absorbed duplicate record 'Pure Data Centres' (pure-data-centres).",
   "sources": [
-    "Clockwork CRM (Ward Search), pulled 2026-09-04"
+    "Clockwork CRM (Ward Search), pulled 2026-09-04",
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
   ],
-  "source_lists": []
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/pure-data-centres-group/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 20.0
+    },
+    "emea": {
+      "total_mw": 909.2,
+      "early_stage_mw": 612.0
+    }
+  }
 }

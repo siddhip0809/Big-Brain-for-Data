@@ -2,7 +2,9 @@
   "id": "bgo",
   "type": "company",
   "name": "BGO",
-  "aliases": [],
+  "aliases": [
+    "BGO Data Centre"
+  ],
   "industry_role": "hyperscaler / data center developer",
   "headquarters": null,
   "founded": null,
@@ -15,13 +17,14 @@
     "Data Center Developer",
     "General Contractor",
     "Hyperscaler",
-    "Real Estate Development"
+    "Real Estate Development",
+    "Neo Clouds/AI Infra"
   ],
-  "notes": "Minimal stub record: identified only as the current employer of 2 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.",
+  "notes": "Minimal stub record: identified only as the current employer of 2 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nMerged 2026-09-09: absorbed duplicate record 'BGO Data Centre' (bgo-data-centre).",
   "sources": [
     "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "parent_industry": "real_estate",
   "roles": [
     "developer_operator"

@@ -2,7 +2,9 @@
   "id": "stack-infrastructure",
   "type": "company",
   "name": "STACK Infrastructure",
-  "aliases": [],
+  "aliases": [
+    "STACK Americas"
+  ],
   "industry_role": "hyperscale/colocation data center operator",
   "headquarters": "Denver, Colorado, United States",
   "founded": null,
@@ -15,12 +17,12 @@
     "hyperscale",
     "colocation"
   ],
-  "notes": "Client of Ward Search for a Director/Sr Director Cost Strategy search (Pre-Construction/Estimating focus, primarily Northern Virginia).",
+  "notes": "Client of Ward Search for a Director/Sr Director Cost Strategy search (Pre-Construction/Estimating focus, primarily Northern Virginia).\n\nMerged 2026-09-09: absorbed duplicate record 'STACK Americas' (stack-americas).",
   "sources": [
     "Clockwork CRM (Ward Search), pulled 2026-09-04",
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"

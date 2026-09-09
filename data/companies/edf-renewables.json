@@ -2,7 +2,9 @@
   "id": "edf-renewables",
   "type": "company",
   "name": "EDF Renewables",
-  "aliases": [],
+  "aliases": [
+    "EDF Renewables North America"
+  ],
   "industry_role": "energy developer",
   "headquarters": "San Diego, California",
   "founded": null,
@@ -31,9 +33,9 @@
     }
   },
   "dc_exposure_level": "Relevant",
-  "notes": "Siddhi's sheet note: Same as EDF Renewables North America — possible duplicate. Verify and consolidate.",
+  "notes": "Siddhi's sheet note: Same as EDF Renewables North America — possible duplicate. Verify and consolidate.\n\nMerged 2026-09-09: absorbed duplicate record 'EDF Renewables North America' (edf-renewables-north-america).",
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-09"
 }
