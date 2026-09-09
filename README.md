@@ -37,9 +37,9 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **1,163 companies** — in two groups, both carried on each record as
+- **1,162 companies** — in two groups, both carried on each record as
   `roles` (see `docs/schema.md`):
-  - **741 data-center companies** — Pure Data Centers and STACK
+  - **740 data-center companies** — Pure Data Centers and STACK
     Infrastructure (active Ward Search client engagements, hand-written
     records); ~190 more identified as current employers of candidates in
     Clockwork and classified as genuine operators/developers/hyperscalers/
