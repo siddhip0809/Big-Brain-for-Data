@@ -163,7 +163,7 @@ pipeline and how far each person got.
   role, e.g. "2412C SVP Operations"
 - `client_company` — the client's name as Clockwork holds it
 - `client_company_id` — the matching company node in this brain, or
-  `null` where the client isn't tracked here yet (8 of 91)
+  `null` where the client isn't tracked here yet (8 of 90)
 - `status` — `active`, `on_hold`, `pitch`, or `closed`
 - `project_type` — Retained, Long Term Mapping, etc.
 - `started_at`, `closed_at` — dates
@@ -179,9 +179,9 @@ pipeline and how far each person got.
   `out-client_rejected` …), `rank` (Clockwork's own ordering of how far
   along a status is) and `updated_at`
 - `counts` — `pipeline`, `placed`, `active`, `out`
-- `pipeline_not_pulled` — present and `true` on 39 searches whose
-  pipelines are large mapping pools (11,071 candidacies in total) that
-  were not paged through on the first pull
+- `pipeline_not_pulled` — present on 38 searches whose pipelines are large
+  mapping pools, carrying `clockwork_candidacy_total` (10,855 candidacies
+  in total) and the reason they were not paged through on the first pull
 
 **What is deliberately not here.** Compensation and fee data exist in
 Clockwork and were not pulled. One confidential search was skipped

@@ -3,7 +3,8 @@
 Builds the companies + investors graph for the 3D atlas, plus the people
 behind each company for its org chart.
 
-Output: graph3d_data.json -> {categories, parent_industry_meta, nodes, links, people, functions, stats}
+Output: graph3d_data.json -> {categories, parent_industry_meta, nodes, links, people,
+                             functions, searches, talent_moves, stats}
 
 Every company carries a `roles` list (single source of truth, stored on the
 record itself since the 2026-09-05 import of Siddhi's curated lists). A
@@ -22,6 +23,7 @@ REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 COMPANIES_DIR = os.path.join(REPO, "data/companies")
 INVESTORS_DIR = os.path.join(REPO, "data/investors")
 PEOPLE_DIR = os.path.join(REPO, "data/people")
+SEARCHES_DIR = os.path.join(REPO, "data/searches")
 
 # Company departments a title is filed under (derived on the person record as
 # `function`, see docs/schema.md). Order = column order in the org chart.
@@ -237,6 +239,48 @@ for cid, ppl in people.items():
     urg = collections.Counter((p.get("assess") or {}).get("under_represented_group") for p in ppl)
     node["urg_counts"] = {k: v for k, v in urg.items() if k}
 
+# Ward Search's own assignments (data/searches/, pulled from Clockwork). These are
+# NOT graph nodes -- 91 extra dots would clutter the map for no gain. They hang off
+# the client company and off each candidate instead, so the map answers "have we
+# been here before?" without changing what it looks like.
+searches = []
+for path in sorted(glob.glob(os.path.join(SEARCHES_DIR, "*.json"))):
+    d = load_json(path)
+    slug = os.path.basename(path)[:-5]
+    pipe = d.get("pipeline") or []
+    placed = d.get("placement") or {}
+    searches.append({
+        "slug": slug, "name": d.get("name"), "client": d.get("client_company"),
+        "client_id": d.get("client_company_id"), "status": d.get("status"),
+        "project_type": d.get("project_type"), "started": d.get("started_at"),
+        "closed": d.get("closed_at"), "reason": d.get("closing_reason"),
+        "placed": placed.get("person"), "counts": d.get("counts") or {},
+        "brief": bool(d.get("job_description") or d.get("job_requirements") or d.get("strategy")),
+        "partial": bool(d.get("pipeline_not_pulled")),
+        "pipeline": [{"name": e.get("person"), "id": e.get("brain_person_id"),
+                      "status": e.get("status"), "cat": e.get("category")} for e in pipe],
+    })
+SEARCH_STATUS_ORDER = {"active": 0, "on_hold": 1, "pitch": 2, "closed": 3}
+searches.sort(key=lambda s: (SEARCH_STATUS_ORDER.get(s["status"], 9), s["closed"] or "", s["name"] or ""))
+
+# client company -> its searches; candidate -> the searches they appeared in
+searches_by_client, searches_by_person = {}, {}
+for s in searches:
+    if s["client_id"] in node_ids:
+        searches_by_client.setdefault(s["client_id"], []).append(s["slug"])
+    for e in s["pipeline"]:
+        if e["id"]:
+            searches_by_person.setdefault(e["id"], []).append(
+                {"slug": s["slug"], "name": s["name"], "client": s["client"],
+                 "status": e["status"], "cat": e["cat"]})
+for cid, slugs in searches_by_client.items():
+    node = next(n for n in nodes if n["id"] == cid)
+    node["searches"] = slugs
+    node["is_ward_client"] = True
+for ppl in people.values():
+    for p in ppl:
+        p["searches"] = searches_by_person.get(p["id"]) or None
+
 # every link gets a stable key -- the id of its verification document in the
 # atlas's shared store (scripts/pull_verifications.py reads them back)
 for l in links:
@@ -264,12 +308,16 @@ out = {
     "parent_industry_meta": [{"id": pid, "name": m["name"], "note": m["note"], "count": pi_counts.get(pid, 0)}
                              for pid, m in PARENT_INDUSTRY_META.items()],
     "nodes": nodes, "links": links, "people": people, "functions": FUNCTIONS,
+    "searches": searches,
     "talent_moves": [{k: m[k] for k in ("person", "to_id", "to_name", "to_label", "from_name", "from_id", "from_label", "flow_class", "function", "title", "start")} for m in moves],
     "stats": {"people": people_count, "companies_with_people": len(people),
               "moves": len(moves), "flow_pairs": len(flow_pairs), "recent_joiners": len(recent),
               "companies": len(company_files), "dc_companies": dc_companies,
               "adjacent_companies": adjacent_only, "multi_role_companies": multi_role,
               "investors": len(investor_files), "links": len(links), "deal_links": deal_edges,
+              "searches": len(searches), "ward_clients": len(searches_by_client),
+              "search_candidates": len(searches_by_person),
+              "placements": sum(1 for s in searches if s["placed"]),
               "generated": date.today().isoformat()},
 }
 
@@ -289,6 +337,9 @@ with open(out_path, "w") as f:
 print("companies:", len(company_files), "| DC-tier:", dc_companies, "| adjacent-only:", adjacent_only,
       "| multi-role:", multi_role)
 print("investors:", len(investor_files), "| links:", len(links), "| of which deal links:", deal_edges)
+print("searches:", len(searches), "| at tracked clients:", len(searches_by_client),
+      "| candidates linked:", len(searches_by_person),
+      "| placements:", sum(1 for s in searches if s["placed"]))
 print("people:", people_count, "at", len(people), "companies", "| talent moves:", len(moves), "| flow pairs between tracked companies:", len(flow_pairs), "| recent joiners:", len(recent))
 style_counts = {}
 for l in links: style_counts[(l["type"], l["style"])] = style_counts.get((l["type"], l["style"]), 0) + 1

@@ -292,6 +292,8 @@
   }
   .org-col-head span{ font-family:var(--font-mono); color:var(--text-dim); font-size:11px; }
   .org-col-head a{ color:var(--pure); cursor:pointer; }
+  .org-col-head .srch-client{ color:var(--text); font-family:inherit; font-size:inherit; }
+  .org-col-head .srch-client[data-company]{ color:var(--pure); cursor:pointer; }
   .org-titles{ padding:6px 10px 8px; border-bottom:1px solid var(--border); background:var(--panel); font-size:11px; }
   .org-titles .title-row{ display:flex; justify-content:space-between; gap:8px; padding:3px 0; color:var(--text-muted); }
   .org-titles .title-row span:last-child{ font-family:var(--font-mono); color:var(--text-dim); flex:none; }
@@ -416,6 +418,11 @@
     <div>
       <p class="field-label">Talent flow overview</p>
       <button class="theme-btn" id="flowsBtn" style="width:100%">Open tier-to-tier matrix</button>
+      <p class="field-label" style="margin-top:14px">Ward's own searches <span id="srchCount" class="lg-count"></span></p>
+      <button class="theme-btn" id="srchBtn" style="width:100%">Where we have worked</button>
+      <div class="seg" id="wardOnly" style="margin-top:8px" title="Show only the companies Ward has run a search for">
+        <button data-on="0" class="on">All companies</button><button data-on="1">Clients only</button>
+      </div>
     </div>
 
     <div>
@@ -485,6 +492,19 @@
       </div>
       <div class="org-body" id="flowsBody" style="display:block"></div>
     </div>
+    <div class="org" id="searches" hidden>
+      <div class="org-head">
+        <div><h2>Where Ward has worked</h2><div class="org-sub" id="srchSub"></div></div>
+        <div class="org-controls">
+          <div class="seg" id="srchStatus">
+            <button data-st="" class="on">All</button><button data-st="active">Active</button><button data-st="on_hold">On hold</button><button data-st="pitch">Pitch</button><button data-st="closed">Closed</button>
+          </div>
+          <input id="srchFilter" type="text" placeholder="filter searches… (client, role, candidate)" autocomplete="off">
+          <button class="detail-close" id="srchClose" title="Close">&times;</button>
+        </div>
+      </div>
+      <div class="org-body" id="srchBody"></div>
+    </div>
     <div class="org" id="org" hidden>
       <div class="org-head">
         <div><h2 id="orgName">—</h2><div class="org-sub" id="orgSub"></div></div>
@@ -532,6 +552,21 @@
   const PARENT_INDUSTRY = GRAPH.parent_industry_meta || []; // [{id,name,note,count}]
   const PEOPLE = GRAPH.people || {};          // companyId -> [person, ...] sorted most senior first
   const FUNCTION_ORDER = GRAPH.functions || [];
+  // Ward Search's own assignments (data/searches/, pulled from Clockwork). Not nodes
+  // on the map -- they hang off the client company and off each candidate.
+  const SEARCHES = GRAPH.searches || [];
+  const searchBySlug = {};
+  SEARCHES.forEach(x => searchBySlug[x.slug] = x);
+  const SEARCH_STATUS = { active:{label:'Active', color:'#16a34a'}, on_hold:{label:'On hold', color:'#d97706'},
+                          pitch:{label:'Pitch', color:'#0891b2'}, closed:{label:'Closed', color:'#94a3b8'} };
+  // how far a candidate got, from the Clockwork status category
+  const CAND_STAGE = { 'in-placed':{label:'placed', color:'#16a34a'}, 'in-offered':{label:'offered', color:'#16a34a'},
+                       'in-contenders':{label:'contender', color:'#0891b2'}, 'in-outreach':{label:'approached', color:'#0891b2'},
+                       'research-researching':{label:'researched', color:'#94a3b8'},
+                       'out-withdrew':{label:'withdrew', color:'#d97706'},
+                       'out-firm_rejected':{label:'we passed', color:'#dc2626'},
+                       'out-client_rejected':{label:'client passed', color:'#dc2626'} };
+  const candStage = c => CAND_STAGE[c] || { label:(c||'').replace(/^\w+-/,'').replace(/_/g,' '), color:'#94a3b8' };
   const piById = {};
   PARENT_INDUSTRY.forEach(p => piById[p.id] = p);
 
@@ -919,13 +954,28 @@
     <div class="stat-tile"><div class="num">${backedCompanyCount}</div><div class="lbl">Companies backed</div></div>
     <div class="stat-tile"><div class="num">${GRAPH.stats.people || 0}</div><div class="lbl">People mapped</div></div>
     <div class="stat-tile"><div class="num">${GRAPH.stats.companies_with_people || 0}</div><div class="lbl">Cos. with people</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.searches || 0}</div><div class="lbl">Ward searches</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.placements || 0}</div><div class="lbl">Placements</div></div>
   `;
 
   // a company shows if ANY of its roles is switched on; investors have their own switch
+  let wardOnly = false;   // narrow the map to companies Ward has run a search for
   function baseVisible(n){
+    if(wardOnly && !n.is_ward_client) return false;
     if(n.kind === 'investor') return !!filters.investor;
     return (n.roles || [n.category]).some(r => filters[r]);
   }
+  document.getElementById('srchCount').textContent =
+    `${GRAPH.stats.searches || 0} · ${GRAPH.stats.ward_clients || 0} clients on the map`;
+  document.getElementById('wardOnly').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    wardOnly = b.dataset.on === '1';
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+    // 21 clients rarely have a line to each other, so with "hide unconnected" on
+    // this filter would empty the map. Show them regardless while it is narrowed.
+    if(wardOnly && isoMode === 'hide') setIsoMode('show');
+    applyFilters();
+  });
   // unconnected = no line to anything currently shown (recomputed on every filter change)
   let isoMode = 'hide';               // show | apart | hide  (opens on the connected structure only)
   const visDeg = {};
@@ -1530,6 +1580,15 @@
       if(n.roles && n.roles.length){
         html += `<div class="tag-row">${n.roles.map(r => { const c = catById[r] || {}; return `<span class="tag" style="border-color:${c.color}88; color:${c.color}">${escapeHtml(c.name || r)}</span>`; }).join('')}</div>`;
       }
+      const mySearches = (n.searches || []).map(sl => searchBySlug[sl]).filter(Boolean);
+      if(mySearches.length){
+        const placed = mySearches.filter(x => x.placed);
+        html += `<div class="section-label">Ward history &middot; <a id="openSearches">see all searches &rarr;</a></div>`;
+        html += `<div class="dt-row"><div class="dt-k">We have run</div><div class="dt-v">${mySearches.length} search${mySearches.length === 1 ? '' : 'es'} for this client` +
+          (placed.length ? ` &middot; <span style="color:#16a34a;font-weight:600">${placed.length} placed</span>` : '') + `</div></div>`;
+        mySearches.slice(0, 6).forEach(x => { html += searchRow(x); });
+        if(mySearches.length > 6) html += `<div class="src">+ ${mySearches.length - 6} more &mdash; open the searches panel</div>`;
+      }
       if(n.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(n.industry_role)}</div></div>`;
       if(n.headquarters) html += `<div class="dt-row"><div class="dt-k">HQ</div><div class="dt-v">${escapeHtml(n.headquarters)}</div></div>`;
       if(n.headcount) html += `<div class="dt-row"><div class="dt-k">Headcount</div><div class="dt-v">${escapeHtml(n.headcount)}</div></div>`;
@@ -1641,6 +1700,12 @@
     detailBody.innerHTML = html;
     const openBtn = document.getElementById('openOrg');
     if(openBtn) openBtn.addEventListener('click', () => openOrg(n));
+    const openSrch = document.getElementById('openSearches');
+    if(openSrch) openSrch.addEventListener('click', () => {
+      searchesEl.hidden = false; srchFilter.value = n.name; srchStatus = '';
+      [...document.getElementById('srchStatus').children].forEach(x => x.classList.toggle('on', x.dataset.st === ''));
+      renderSearches();
+    });
     const showAdj = document.getElementById('showAdjacent');
     if(showAdj) showAdj.addEventListener('click', () => {
       adjacentIds.forEach(id => { filters[id] = true; });
@@ -1701,8 +1766,24 @@
       ...Object.entries(A.skills || {}).filter(([, v]) => v === 'High Confidence').map(([s]) => s + ' high confidence'),
       A.tenure, A.spoken_with_before ? 'spoken with before' : '',
       A.under_represented_group === 'Yes' ? 'under-represented group urg diverse' : '',
+      ...(p.searches || []).map(x => (x.client || '') + ' ' + (x.name || '') + ' ' + (x.status || '')),
       ...(p.past || []).map(j => j.company + ' ' + (j.title || ''))].filter(Boolean).join(' ').toLowerCase();
     return hay.includes(q);
+  }
+  // one line per Ward search: status, dates, pipeline size, who was placed
+  function searchRow(x, showClient){
+    const st = SEARCH_STATUS[x.status] || { label: x.status, color: '#94a3b8' };
+    const c = x.counts || {};
+    const meta = [x.project_type, x.started ? `opened ${x.started}` : '', x.closed ? `closed ${x.closed}` : '',
+                  c.pipeline ? `${c.pipeline} in pipeline${x.partial ? '+' : ''}` : '',
+                  x.reason].filter(Boolean).join(' · ');
+    return `<div class="pipeline-entry" data-srch="${escapeHtml(x.slug)}">
+      <div class="pe-title">${escapeHtml(x.name || '')} <span style="color:${st.color}; font-size:10.5px">${st.label}</span></div>
+      ${showClient ? `<div class="pe-meta" style="color:var(--text)">${escapeHtml(x.client || '')}</div>` : ''}
+      <div class="pe-meta">${escapeHtml(meta)}</div>
+      ${x.placed ? `<div class="pe-meta" style="color:#16a34a">placed ${escapeHtml(x.placed)}</div>` : ''}
+      ${x.partial ? `<div class="src" title="A long-term mapping pool. Its full candidate list has not been pulled from Clockwork yet, so treat the pipeline number as a floor.">pipeline count is a floor &mdash; mapping pool not fully pulled</div>` : ''}
+    </div>`;
   }
   // Ward's assessment of a person: skills with confidence, rating, tenure, education, bio
   function assessBlock(A, p){
@@ -1732,6 +1813,11 @@
     if(A.spoken_with_before) pills.push('<span class="pill spoke" title="Ward has spoken with this person before">spoken with</span>');
     if(A.under_represented_group === 'Yes') pills.push('<span class="pill urg" title="Ward records this person as from an under-represented group. Ward\u2019s own observation, not self-declared \u2014 for slate reporting only.">URG</span>');
     if(A.tenure === 'Recent Move') pills.push('<span class="pill recent-move" title="Ward tenure judgement: recently moved, probably not approachable yet">recent move</span>');
+    const inSearches = p.searches || [];
+    if(inSearches.length){
+      const best = inSearches.find(x => x.cat === 'in-placed');
+      pills.push(`<span class="pill ${best ? 'lead' : 'spoke'}" title="${escapeHtml(inSearches.map(x => x.client + ' — ' + x.name + ': ' + x.status).join(' | '))}">${best ? 'we placed' : 'in our pipeline'} &middot; ${inSearches.length}</span>`);
+    }
     const meta = [p.seniority ? `<span class="sen">${escapeHtml(p.seniority)}</span>` : '',
                   escapeHtml(placeOf(p)),
                   p.since ? `since ${escapeHtml(p.since)}` : '',
@@ -1748,6 +1834,10 @@
       <div class="p-meta">${meta}</div>
       <div class="p-more">
         ${assessBlock(A, p)}
+        ${inSearches.length ? `<div class="section-label" style="margin:8px 0 4px">Ward has had them in a pipeline (${inSearches.length})</div>` +
+          inSearches.map(x => { const g = candStage(x.cat);
+            return `<div class="job"><span class="yrs" style="color:${g.color}">${escapeHtml(g.label)}</span><span><b>${escapeHtml(x.client || '')}</b> — ${escapeHtml(x.name || '')}<br><span style="color:var(--text-dim)">${escapeHtml(x.status || '')}</span></span></div>`;
+          }).join('') + `<div class="src">from Clockwork, our own record of the search</div>` : ''}
         <div class="section-label" style="margin:8px 0 4px">Past employers${past ? '' : ' · none on record'}</div>${past}
         ${earlier ? `<div class="section-label" style="margin:8px 0 4px">Earlier roles here</div>${earlier}` : ''}
         ${notes.length ? `<div style="margin-top:8px;color:var(--text-dim)">${notes.join(' · ')}</div>` : ''}
@@ -1872,6 +1962,51 @@
     if(td){ flowsSel = flowsSel === td.dataset.k ? null : td.dataset.k; renderFlows(); return; }
     const card = e.target.closest('.pcard[data-company]');
     if(card){ const n = nodeById[card.dataset.company]; if(n){ flowsEl.hidden = true; if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); } }
+  });
+
+  // ---------- Ward's own searches ----------
+  const searchesEl = document.getElementById('searches');
+  const srchBody = document.getElementById('srchBody');
+  const srchFilter = document.getElementById('srchFilter');
+  let srchStatus = '';
+  function renderSearches(){
+    const q = srchFilter.value.trim().toLowerCase();
+    const rows = SEARCHES.filter(x => (!srchStatus || x.status === srchStatus) && (!q ||
+      [x.name, x.client, x.project_type, x.reason, x.placed,
+       ...(x.pipeline || []).map(e => e.name)].filter(Boolean).join(' ').toLowerCase().includes(q)));
+    const placed = rows.filter(x => x.placed).length;
+    const cands = new Set(rows.flatMap(x => (x.pipeline || []).map(e => e.name).filter(Boolean)));
+    document.getElementById('srchSub').textContent =
+      `${rows.length} search${rows.length === 1 ? '' : 'es'} · ${new Set(rows.map(x => x.client)).size} clients · ` +
+      `${placed} placement${placed === 1 ? '' : 's'} · ${cands.size} people we have had in a pipeline · ` +
+      `from Clockwork. Confidential searches are not in here at all.`;
+    // grouped by client, biggest relationship first
+    const byClient = {};
+    rows.forEach(x => { (byClient[x.client || '—'] = byClient[x.client || '—'] || []).push(x); });
+    const clients = Object.entries(byClient).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+    srchBody.innerHTML = clients.map(([client, list]) => {
+      const cid = nodeById[list[0].client_id] ? list[0].client_id : null;
+      const wins = list.filter(x => x.placed).length;
+      return `<div class="org-col"><div class="org-col-head">` +
+        `<span class="srch-client"${cid ? ` data-company="${escapeHtml(cid)}" title="Show ${escapeHtml(client)} on the map"` : ''}>${escapeHtml(client)}</span>` +
+        `<span>${list.length}${wins ? ` · ${wins} placed` : ''}</span></div>` +
+        `<div class="org-col-body">` + list.map(x => searchRow(x, false)).join('') +
+        (cid ? '' : `<div class="src">not a company on the map yet</div>`) + `</div></div>`;
+    }).join('') || `<div class="banner-note">No searches match that.</div>`;
+  }
+  document.getElementById('srchBtn').addEventListener('click', () => { searchesEl.hidden = false; renderSearches(); });
+  document.getElementById('srchClose').addEventListener('click', () => { searchesEl.hidden = true; });
+  srchFilter.addEventListener('input', renderSearches);
+  document.getElementById('srchStatus').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    srchStatus = b.dataset.st;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+    renderSearches();
+  });
+  srchBody.addEventListener('click', (e) => {
+    const c = e.target.closest('.srch-client'); if(!c) return;
+    const n = nodeById[c.dataset.company];
+    if(n){ searchesEl.hidden = true; if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); selectNode(n); }
   });
 
   function openOrg(company){

@@ -25,7 +25,7 @@ data/companies/*.json     1,204 companies. `roles` is the single source of truth
 data/investors/*.json     124 funds. `investments` lists company ids.
 data/people/*.json        9,239 people. Filename ends in the first 8 chars of the Clockwork id.
 data/relationships.json   3,626 edges, one flat list. See docs/schema.md for the types.
-data/searches/*.json      91 searches pulled from Clockwork (client, brief, pipeline, placement).
+data/searches/*.json      90 searches pulled from Clockwork (client, brief, pipeline, placement).
                           Referred to as `search:<filename>`; the `id` field is the Clockwork UUID.
 data/derived/*.csv        Generated. Never hand-edit; rerun the script.
 scripts/                  Importers (import_*) and derivations (build_*, enrich_*, merge_*).
@@ -140,5 +140,5 @@ The search pull is therefore an agent task, not a script. To repeat or extend it
   suffix of the person filename. No match means write `brain_person_id: null`; do
   not create a thin person record from a pipeline row.
 - Job descriptions occasionally contain a salary range. Redact it — rule 1.
-- 39 searches carry `pipeline_not_pulled: true` (11,071 candidacies, mostly Long
+- 38 searches carry `pipeline_not_pulled` (10,855 candidacies, mostly Long
   Term Mapping pools). Resuming those means paging `clockwork_list_candidacies`.

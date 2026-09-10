@@ -149,21 +149,22 @@ Real data has started loading. Currently in the brain:
   flows. The export's email and phone columns are dropped at read time and
   never written. Email, phone, and compensation are deliberately left out
   of every record (kept in Clockwork only) — see `docs/schema.md`.
-- **91 searches** (`data/searches/`, added 2026-09-10) — Ward Search's own
+- **90 searches** (`data/searches/`, added 2026-09-10) — Ward Search's own
   assignments, pulled live from Clockwork: 48 closed, 19 active, 15 pitch,
-  9 on hold, across 45 clients (STACK Infrastructure 28, Goodman 11, Rowan
-  6, Beale 5, Colt 5, Panattoni 5). 83 of the 91 clients matched to a
-  company already in the brain. Each carries the brief as written, the
+  8 on hold, across 28 clients (STACK Infrastructure 28, Goodman 10, Rowan
+  Digital 6, Colt 5, Panattoni 5, Beale 5). 82 of the 90 sit with a company
+  already in the brain; the other 8 clients aren't tracked here yet. Each carries the brief as written, the
   candidate pipeline with each person's Clockwork status, and the
   placement where there was one (19 placements, 15 with a named person).
+  601 pipeline entries, 556 of them matched to a person already in the brain.
   This is the record of work Ward has actually done, so it answers "have
   we been here before?" for any company or person on the map.
   **One confidential search was skipped entirely** — no file, no client
   name, no candidates — because this repository syncs to GitHub.
-  Compensation and fee data were not pulled. 39 of the 91 are large
-  mapping pools whose pipelines (11,071 candidacies) were not paged
-  through; they carry `pipeline_not_pulled: true` so it's obvious the
-  count is incomplete rather than zero.
+  Compensation and fee data were not pulled. 38 of the 90 are large
+  mapping pools whose pipelines (10,855 candidacies) were not paged
+  through; they carry `pipeline_not_pulled` so it's obvious the count is a
+  floor rather than a total.
 - **3,626 relationships** connecting the above — candidacy links,
   employment links, investor backing (124 investors incl. Google and
   NVIDIA in their dual role as strategic investors), and, since

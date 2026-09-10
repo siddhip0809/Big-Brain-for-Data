@@ -219,3 +219,28 @@ Search mapping, not the company's full org", and "most senior" means most
 senior *among the people we have mapped*. `build_graph3d_data.py` emits
 only the fields the chart needs (name, title, function, seniority,
 location, LinkedIn, career) — never email, phone, or compensation.
+
+**Ward's own searches (2026-09-10).** `data/searches/` is read into the page but
+deliberately **not** drawn as nodes — 90 extra dots would clutter the map for no
+gain. The searches reach the map three ways instead:
+
+- **On the client company.** Its detail panel opens with a **Ward history** block:
+  how many searches we have run for them, how many we placed, then a row per
+  search with its status, dates, pipeline size and who was placed.
+- **On the candidate.** A person card carries an "in our pipeline · N" pill (or
+  "we placed" where we did), and expanding the card lists each search with how
+  far they got — approached, contender, offered, we passed, client passed,
+  withdrew — translated from the Clockwork status. 478 mapped people carry this.
+- **"Where we have worked"** — a full-stage overlay grouping every search by
+  client, biggest relationship first, filterable by status and by free text
+  (client, role or candidate name). Clicking a client name focuses it on the map.
+
+A **"Clients only"** switch narrows the whole graph to the 21 clients that are
+companies here. Because those rarely have lines to each other, turning it on also
+moves the unconnected switch to Show (visibly, in the sidebar) so the map doesn't
+empty out.
+
+Two things this deliberately does not show: **confidential searches are not in
+the data at all** (the repo syncs to GitHub), and compensation and fee data were
+never pulled. A "pipeline count is a floor" note appears on the 38 long-term
+mapping pools whose full candidate lists have not been paged out of Clockwork.
