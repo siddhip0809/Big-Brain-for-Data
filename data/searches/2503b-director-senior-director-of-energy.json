@@ -1,0 +1,31 @@
+{
+  "id": "651ae6bb-8e7a-4807-a765-31f8f9871402",
+  "type": "search",
+  "name": "2503B Director/ Senior Director of Energy",
+  "client_company": "Rowan Digital Infrastructure",
+  "client_company_id": "rowan-digital-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2025-03-31",
+  "closed_at": "2025-10-13",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 412,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

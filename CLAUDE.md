@@ -24,8 +24,9 @@ dependencies beyond `openpyxl` for the spreadsheet importers.
 data/companies/*.json     1,204 companies. `roles` is the single source of truth for tier.
 data/investors/*.json     124 funds. `investments` lists company ids.
 data/people/*.json        9,239 people. Filename ends in the first 8 chars of the Clockwork id.
-data/relationships.json   ~3,100 edges, one flat list. See docs/schema.md for the types.
-data/searches/*.json      Searches pulled from Clockwork (client, brief, pipeline, placement).
+data/relationships.json   3,626 edges, one flat list. See docs/schema.md for the types.
+data/searches/*.json      91 searches pulled from Clockwork (client, brief, pipeline, placement).
+                          Referred to as `search:<filename>`; the `id` field is the Clockwork UUID.
 data/derived/*.csv        Generated. Never hand-edit; rerun the script.
 scripts/                  Importers (import_*) and derivations (build_*, enrich_*, merge_*).
 viewer/build_graph3d_data.py   Reads all of data/, writes viewer/graph3d_data.json.
@@ -125,3 +126,19 @@ first — they encode rules you must follow (do-not-contact is a hard stop,
 confidential searches, the client-visibility flag, how status name/category/rank
 differ). Internal projects (`isInternal`) are firm-side mapping duplicates,
 usually named `[M] …`, and are filtered out.
+
+There is deliberately **no `scripts/import_clockwork_searches.py`**: Clockwork is
+reachable only through MCP tools, which a standalone Python process cannot call.
+The search pull is therefore an agent task, not a script. To repeat or extend it:
+
+- `clockwork_list_projects` pages with `offset` behaving as a **page index**, not a
+  row offset — use `offset = page` with a fixed `limit`, or you will re-read page 0.
+- Skip `isConfidential` (write nothing at all, not even the id) and `isInternal`.
+- Keep a pipeline entry only when its status `rank` >= 100; below that it is a raw
+  long-list touch, not a candidacy.
+- Match a candidate to `data/people/` on the Clockwork person id, which is the
+  suffix of the person filename. No match means write `brain_person_id: null`; do
+  not create a thin person record from a pipeline row.
+- Job descriptions occasionally contain a salary range. Redact it — rule 1.
+- 39 searches carry `pipeline_not_pulled: true` (11,071 candidacies, mostly Long
+  Term Mapping pools). Resuming those means paging `clockwork_list_candidacies`.

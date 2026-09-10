@@ -1,0 +1,31 @@
+{
+  "id": "4cf06c55-9a64-4843-90f8-590164e0847d",
+  "type": "search",
+  "name": "Sr Project Development Manager",
+  "client_company": "Stream Data Centers",
+  "client_company_id": "stream-data-centers",
+  "status": "active",
+  "project_type": "Retained",
+  "started_at": "2026-05-18",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 251,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

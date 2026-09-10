@@ -1,0 +1,136 @@
+{
+  "id": "43d9adfa-64cd-4289-9fbf-ca23f4852ff3",
+  "type": "search",
+  "name": "Development Director",
+  "client_company": "Goldacre",
+  "client_company_id": null,
+  "status": "active",
+  "project_type": "Contingency",
+  "started_at": "2026-07-31",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Isabel Fazan",
+      "clockwork_person_id": "14d13d3c-8a82-4843-854b-0a5f4614d1d2",
+      "brain_person_id": "isabel-fazan-14d13d3c",
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-09-04T13:44:05Z"
+    },
+    {
+      "person": "Bradley McCann",
+      "clockwork_person_id": "2f223453-debe-4d46-82bc-9fe4e2a01b96",
+      "brain_person_id": "bradley-mccann-2f223453",
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-09-04T13:44:07Z"
+    },
+    {
+      "person": "Stephen Hibbert",
+      "clockwork_person_id": "4978a596-a1c3-4ded-9e4e-f56deaf9d79f",
+      "brain_person_id": "stephen-hibbert-4978a596",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2026-08-24T13:40:33Z"
+    },
+    {
+      "person": "Steven Gay",
+      "clockwork_person_id": "5283285b-a493-41af-bffa-d0c9058f4607",
+      "brain_person_id": "steven-gay-5283285b",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-08-25T15:50:33Z"
+    },
+    {
+      "person": "Robert Holmans",
+      "clockwork_person_id": "58b406e0-aafe-4273-9c4b-dbba249b3bd8",
+      "brain_person_id": "robert-holmans-58b406e0",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-08-25T15:49:33Z"
+    },
+    {
+      "person": "Frederick Pett",
+      "clockwork_person_id": "8937bc30-04b2-47e4-819f-c044ef37ad67",
+      "brain_person_id": "frederick-pett-8937bc30",
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-09-04T13:44:12Z"
+    },
+    {
+      "person": "Louis Wildenboer",
+      "clockwork_person_id": "e887d916-8594-4200-b670-4a13bcaa88a3",
+      "brain_person_id": "louis-wildenboer-e887d916",
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-09-04T13:44:24Z"
+    },
+    {
+      "person": "Mark David Emanuel",
+      "clockwork_person_id": "ed9e8b78-e352-4f46-8a81-1084565cf1d2",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-09-01T07:50:40Z"
+    },
+    {
+      "person": "Julio Bazo",
+      "clockwork_person_id": "372c7399-feb9-414c-99b1-024e72445166",
+      "brain_person_id": "julio-bazo-372c7399",
+      "status": "2c. Position Pitched",
+      "category": "in-contenders",
+      "rank": 1346,
+      "updated_at": "2026-08-24T12:38:38Z"
+    },
+    {
+      "person": "Glen Munro",
+      "clockwork_person_id": "3f44a001-c6c1-438c-80ba-2bb771da9060",
+      "brain_person_id": null,
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-09-04T13:44:27Z"
+    },
+    {
+      "person": "Eugene Murray",
+      "clockwork_person_id": "7999801d-1a7a-45b9-bec6-669d3180f80c",
+      "brain_person_id": "eugene-murray-7999801d",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-09-04T13:44:19Z"
+    },
+    {
+      "person": "Colin Whiting",
+      "clockwork_person_id": "589100d5-2afa-4bc9-9f8d-f4c38af89073",
+      "brain_person_id": "colin-whiting-589100d5",
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-09-04T13:44:29Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 12,
+    "placed": 0,
+    "active": 7,
+    "out": 5
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

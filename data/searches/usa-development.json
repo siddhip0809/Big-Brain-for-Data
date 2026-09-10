@@ -1,0 +1,31 @@
+{
+  "id": "aaa52e17-9770-4cf6-be38-2c17259a727f",
+  "type": "search",
+  "name": "USA - Development",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "pitch",
+  "project_type": "Special Project",
+  "started_at": "2026-07-14",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 662,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

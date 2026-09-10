@@ -1,0 +1,27 @@
+{
+  "id": "2a550024-9e57-47f6-ba48-5873abdf38cb",
+  "type": "search",
+  "name": "Sales roles",
+  "client_company": "Edged",
+  "client_company_id": "edged",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2026-02-06",
+  "closed_at": "2026-04-23",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

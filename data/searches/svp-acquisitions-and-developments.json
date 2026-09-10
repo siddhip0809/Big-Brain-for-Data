@@ -1,0 +1,31 @@
+{
+  "id": "163a8082-e0b0-4290-90d7-f92c06120d5d",
+  "type": "search",
+  "name": "SVP Acquisitions & Developments",
+  "client_company": "Goodman",
+  "client_company_id": "goodman",
+  "status": "on_hold",
+  "project_type": "Retained",
+  "started_at": "2026-05-12",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 83,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

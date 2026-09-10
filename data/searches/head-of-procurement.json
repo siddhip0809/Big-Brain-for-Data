@@ -1,0 +1,46 @@
+{
+  "id": "7e2b037e-acb8-4ccd-8879-efe482366076",
+  "type": "search",
+  "name": "Head of Procurement",
+  "client_company": "hscale",
+  "client_company_id": "hscale",
+  "status": "active",
+  "project_type": "Contingency",
+  "started_at": "2026-07-20",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Peter Bench",
+      "clockwork_person_id": "efef02a6-d919-450a-839c-b7e250e40135",
+      "brain_person_id": null,
+      "status": "4b. Offer Accepted",
+      "category": "in-placed",
+      "rank": 1501,
+      "updated_at": "2026-09-02T15:58:41Z"
+    },
+    {
+      "person": "Luke Banks",
+      "clockwork_person_id": "580d1100-32b9-4d81-bce2-39f81a5df303",
+      "brain_person_id": null,
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-07-30T15:56:09Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 2,
+    "placed": 1,
+    "active": 1,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

@@ -1665,16 +1665,6 @@
   },
   {
     "from": "person:jena-jones-74bcf180",
-    "to": "company:stack-infrastructure",
-    "type": "candidate_for",
-    "detail": "[M] Director/Sr Director Cost Strategy [Non dc] — stage: Research",
-    "sources": [
-      "Clockwork export, imported 2026-09-05"
-    ],
-    "last_updated": "2026-09-05"
-  },
-  {
-    "from": "person:jena-jones-74bcf180",
     "to": "company:jw-chain-contractors",
     "type": "works_at",
     "detail": "Project Manager",
@@ -7138,16 +7128,6 @@
     "to": "company:meta",
     "type": "works_at",
     "detail": "Site Selection Strategy Manager",
-    "sources": [
-      "Clockwork export, imported 2026-09-05"
-    ],
-    "last_updated": "2026-09-05"
-  },
-  {
-    "from": "person:kevin-powell-91cfb0ba",
-    "to": "company:pure-data-centers",
-    "type": "candidate_for",
-    "detail": "[M] VP Sales — stage: WARD - Culture Fit",
     "sources": [
       "Clockwork export, imported 2026-09-05"
     ],
@@ -14485,16 +14465,6 @@
   },
   {
     "from": "person:david-williamson-jones-d60a1123",
-    "to": "company:pure-data-centers",
-    "type": "candidate_for",
-    "detail": "[M] VP Sales — stage: WARD - Role Scope",
-    "sources": [
-      "Clockwork export, imported 2026-09-05"
-    ],
-    "last_updated": "2026-09-05"
-  },
-  {
-    "from": "person:david-williamson-jones-d60a1123",
     "to": "company:blackhall-powis",
     "type": "works_at",
     "detail": "Director of Infrastructure",
@@ -17755,16 +17725,6 @@
   },
   {
     "from": "person:wade-bowers-33afc21f",
-    "to": "company:stack-infrastructure",
-    "type": "candidate_for",
-    "detail": "[M] Director/Sr Director Cost Strategy [Non dc] — stage: Research",
-    "sources": [
-      "Clockwork export, imported 2026-09-05"
-    ],
-    "last_updated": "2026-09-05"
-  },
-  {
-    "from": "person:wade-bowers-33afc21f",
     "to": "company:overwatch",
     "type": "works_at",
     "detail": "Senior Project Manager OCB",
@@ -20308,16 +20268,6 @@
     "to": "company:microsoft",
     "type": "works_at",
     "detail": "Director, Site Acquisition and Portfolio - Middle East & Africa",
-    "sources": [
-      "Clockwork export, imported 2026-09-05"
-    ],
-    "last_updated": "2026-09-05"
-  },
-  {
-    "from": "person:jodi-bars-bc28d234",
-    "to": "company:stack-infrastructure",
-    "type": "candidate_for",
-    "detail": "[M] Director/Sr Director Cost Strategy [Non dc] — stage: Research",
     "sources": [
       "Clockwork export, imported 2026-09-05"
     ],
@@ -24188,16 +24138,6 @@
     "to": "company:stack-infrastructure",
     "type": "candidate_for",
     "detail": "[M] Director/Sr Director Cost Strategy [Non dc] — stage: WARD - Role Scope",
-    "sources": [
-      "Clockwork export, imported 2026-09-05"
-    ],
-    "last_updated": "2026-09-05"
-  },
-  {
-    "from": "person:ash-chowdhury-1a583ca9",
-    "to": "company:pure-data-centers",
-    "type": "candidate_for",
-    "detail": "[M] VP Sales — stage: WARD - Tenure",
     "sources": [
       "Clockwork export, imported 2026-09-05"
     ],
@@ -32449,5 +32389,6677 @@
     ],
     "last_updated": "2026-09-08",
     "note": "List entries 'Majestic Realty' and 'Majestic Realty (Logistics Dev)' are the same company."
+  },
+  {
+    "from": "person:joseph-curto-73c4eeac",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:connor-henderson-c61665aa",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sweta-dutta-a208ec8d",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:somesh-kumar-6fdac84b",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:cecille-hong-305c322d",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jorge-florez-7da931a8",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:hazel-guan-cc3f297d",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chandler-boyd-11ca934b",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:matthew-bourne-084f24a2",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ambieca-saha-38654e85",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:santiago-escobar-255d0517",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alex-deng-4d3b8bcd",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jennifer-reininger-cf6dcd8c",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rahul-agarwal-aeeb48f8",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:glenn-gold-b48058eb",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:louis-tong-a46bb544",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bradley-wells-7dfc6b7a",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:josh-bohach-22c1fae8",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:peter-white-24f76d81",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:edward-ruiz-0700dec9",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jarrett-mackey-68881fce",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:matt-brucker-aadd3192",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:heather-hafey-4f2f416f",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lee-loftis-aac3829d",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:katrina-rainey-0b571ecb",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ian-brown-e65c2c62",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:miguel-crespo-5bc1f8bd",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gordon-hom-f6948db4",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kevin-williams-aea5f284",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:serene-smart-1bb0df60",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alejandro-sequera-67ece799",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:keith-klein-23640f02",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chelsea-kulhanek-04cf0c42",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christopher-coughlin-7c70376c",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kristina-zaccardelli-68b01948",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brian-knies-b62847dd",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:april-choo-e02d4b03",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sid-dhodi-458ec3eb",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:camila-goetze-2ac5f19d",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andres-claux-e6eb161f",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bethany-allen-a055de27",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:erik-draaisma-1a1d6b57",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:matt-witlin-55cc429f",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nicholas-dowd-80fedc86",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:koryn-kendall-727fbe56",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:steven-walton-787757e3",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brian-boyter-7f170e19",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-warren-882d99b5",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jenna-de-hoop-scheffer-516c9884",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:natalie-nicol-35963715",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tony-boetto-a0f6b920",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:juan-carlos-soria-ii-bb7ecf92",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:neda-vassey-f7392fc2",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-anderson-2c6c0bae",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:heidi-gorle-f9361924",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:matt-schneider-5bbc414b",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-irwin-793ae3d5",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:clint-jackson-66109516",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:heather-buckles-455e7534",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jacob-teresi-61c99347",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kelly-layton-mosley-2ee5005a",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:abhishek-garg-d4504ccc",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:david-forester-f4db7540",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mike-behn-7e2b6f0a",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lt-clay-b29a7121",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alex-bhagat-2b2bc0df",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:justin-guy-98af0284",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rich-modliszewski-67d8721b",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andrew-harnish-c4053da4",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ryan-wehmann-faa65313",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jennifer-maco-mathews-959e2eb4",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kyle-riley-5d97f19a",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:shivani-d-patel-3f3c92f9",
+    "to": "search:director-of-acquisition",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:neil-morris-6822a4ea",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alfonso-aranda-arias-518d0e5e",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ramzi-charif-e2865401",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dominic-fulford-011a7f3e",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jeroen-schlosser-3be74452",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brian-taaffe-c786f8d3",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kraig-knight-4e669e7d",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "5. Placed (in-placed)",
+    "status": "5. Placed",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:timothy-satrom-e233e7eb",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tim-hall-0127cdbf",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alex-loobeek-64be3b07",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:arno-van-gennip-e79cd6d3",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ben-stewart-432bebbd",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:benjamin-treynor-sloss-f568c968",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:billie-haggard-f8d44d17",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:buddha-manandhar-293a7185",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-heffernan-ed515c4a",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:cody-schnakenburg-30922e25",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dana-nelson-16281aeb",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:darin-divinia-739d156a",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:darren-eyler-0bb6b391",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:david-kim-647932b5",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:derek-allen-9edd5e68",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gary-aitkenhead-14bf5bb3",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gustavo-gutierrez-7caef698",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ian-williams-66feafd4",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jag-singh-b1d5597a",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:james-gilman-cc42bb3e",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jim-kirkby-65e67f19",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jiten-patel-14171025",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:joe-minarik-512889b5",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:john-kuchta-8fd7f65a",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:john-le-tissier-939b260b",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jon-curry-ba3bef36",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kev-shieber-b8bed615",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:luke-sheppard-5dc9c272",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:matt-beckman-9637596a",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:padraig-maccolgain-4b7829c0",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-finch-41b105a3",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:peter-judson-be35ee9b",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ross-henderson-289e52b4",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ryan-hunter-8560a153",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ryan-young-3130ac0a",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:satoko-tsuchida-1255764b",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:scott-patrick-campbell-a25c578a",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:spas-lazarov-86d4dd64",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:steve-hayward-856f675f",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:stuart-james-kennedy-4a491c7b",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:thomas-wayne-busey-db4177ec",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:wayne-louw-d659f2de",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jeff-pasquino-greco-e8047652",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:eddie-reed-cd05d353",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:adrain-garner-0cd2269a",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brian-ro-0efd7964",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:carie-y-1e4abd81",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chandrag-krishnan-49a01ddb",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:david-johns-cb1d8254",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dylan-coyle-0bbd1b55",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dz-shing-lim-1e3062db",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:elisabeth-arslaner-375f7d22",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:george-seet-bf8ffd21",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:henrik-gr-nlund-f6ed2b8c",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:hichem-garnaoui-0066ee10",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:johan-groeneweg-fa1f3ede",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:john-shorten-9653d28f",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kamran-lateef-7dfb4b0e",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:luis-rodrigues-5a3b4710",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-martin-b9e70c24",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:richard-banks-9be0b2d0",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:thiam-poh-goh-068b7355",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "[STOP USING] FDQ - Should Not Have Been Mapped (out-firm_rejected)",
+    "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lavinia-morris-9a38c261",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "WARD - Off Limits (out-firm_rejected)",
+    "status": "WARD - Off Limits",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:michael-hughes-53ca0dcb",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "WARD - Off Limits (out-firm_rejected)",
+    "status": "WARD - Off Limits",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:robert-owens-9ed5e546",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "WARD - Off Limits (out-firm_rejected)",
+    "status": "WARD - Off Limits",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:joseph-milner-44f288aa",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "WARD - Off Limits (out-firm_rejected)",
+    "status": "WARD - Off Limits",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sudhir-kalra-9fdb065c",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:saji-pk-7629e020",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bryan-evans-61c92e7c",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:simon-cooper-eb666a24",
+    "to": "search:2412c-svp-operations",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-wright-a2324111",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:david-hyatt-38d56986",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:belal-aly-d86aff7f",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:patrick-nanninga-91c70a68",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:vaibhav-potnis-d932aa25",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Tenure (out-firm_rejected)",
+    "status": "WARD - Tenure",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:emmanuel-wendrix-ecf2b3a0",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:will-jobling-dc93aedd",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:niall-dillon-ca28fe21",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "4b. Offer Accepted (in-placed)",
+    "status": "4b. Offer Accepted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lorne-hayward-f9659540",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christian-caye-ad550eeb",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-nesbit-86935cc3",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:padraig-carton-2858176b",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:denise-breen-5e9d8efe",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alex-ramos-thomson-35d66ab5",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bj-rn-wagenknecht-6062bc82",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "2d. CV Received / Scheduling Full Assessment (in-contenders)",
+    "status": "2d. CV Received / Scheduling Full Assessment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:arno-grah-4773f5ac",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-price-b160b17d",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "2a. Interested to Know More (in-contenders)",
+    "status": "2a. Interested to Know More",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:zack-zahariev-abfe5cec",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kenneth-power-e08d3347",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gary-o-leary-93e0002d",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Compensation (out-firm_rejected)",
+    "status": "WARD - Compensation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andrew-lee-ecdcf161",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mike-golding-dbabd045",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "WARD - Compensation (out-firm_rejected)",
+    "status": "WARD - Compensation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mark-rickson-5f326a9f",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:anna-mcdarby-83d66fd3",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:raymond-forde-181cf577",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kieran-connor-b551b538",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:frank-jordan-e9ade256",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:daniel-mace-e4995e6a",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dave-denver-db7be519",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tommy-o-rourke-cac31e5d",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:eamonn-coghlan-c6a5a2eb",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:allen-clarke-c164140d",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:seamus-fitzmaurice-ad359196",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tom-wilson-8febb84d",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:edward-van-aalst-7a2ca57b",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sean-cavin-78ccbb84",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:adrian-toovey-71868ac6",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jeremy-williams-63451c61",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:john-sweeney-58db7351",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:p-draic-fahey-56a9f743",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:simon-anderson-4f47b506",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:thomas-de-colle-4f2549f5",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:marek-kuzian-4c98228a",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:stephen-henley-3867f280",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:colin-gray-2e2a5f3d",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mark-fletcher-2a40114b",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:danny-sadler-29886613",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:cristina-alonso-2415ac62",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:stuart-gray-14328046",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:fiachra-mu-neach-in-08ba78dc",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:patrick-mccourt-0736d750",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-sharp-055ba819",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:frederico-braga-58de1e31",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:john-griffin-8ddb34c4",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:peter-morley-hill-8f093258",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kenneth-moore-92a8b96b",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:steve-thomas-a4798355",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gary-mills-9a989820",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "1b. Manual Outreach (in-outreach)",
+    "status": "1b. Manual Outreach",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:colin-mcnally-10650cd8",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:michael-woodroffe-6bffb21a",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:frank-ostermann-f0083330",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ross-macdonald-b5117234",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:adam-couch-d14398d7",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "2c. Position Pitched (in-contenders)",
+    "status": "2c. Position Pitched",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ilker-esener-c51f3d20",
+    "to": "search:vp-construction-emea",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Offer Declined (out-withdrew)",
+    "status": "CANDIDATE - Offer Declined",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nigel-warner-06341254",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kevin-holland-3115a121",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "2a. Interested to Know More (in-contenders)",
+    "status": "2a. Interested to Know More",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ewan-jones-364caac1",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:wasif-khan-4fe3a8be",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Culture Fit (out-firm_rejected)",
+    "status": "WARD - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:suhal-lad-50c89c5b",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:fred-howard-7b612dce",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:james-thornborrow-86aaa51c",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:james-matthews-8e04eab5",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:richard-pow-9df9284e",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:oliver-salter-c742cbe3",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CLIENT - Exclusion List (out-client_rejected)",
+    "status": "CLIENT - Exclusion List",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:heidi-durrant-ce1d69f9",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:simon-warner-e55490d8",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "2d. CV Received / Scheduling Full Assessment (in-contenders)",
+    "status": "2d. CV Received / Scheduling Full Assessment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:hugo-jack-ebf2039b",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:soumaya-graine-f7cdbb6d",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "2b. Pitch Call Scheduled (in-contenders)",
+    "status": "2b. Pitch Call Scheduled",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:max-elswood-00b36c3f",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jess-simmonds-522f68ff",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:eduardo-albuquerque-6acc0544",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:aly-breuer-van-der-riet-6bb22fb8",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:cl-udia-alves-6bfcd24e",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rosemary-lewis-fba78768",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ben-stirk-7a314ced",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sarah-wood-aded8215",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:peter-miles-ce2bd72b",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:michael-singleton-f4a5d24a",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:david-cologne-05b886f0",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Culture Fit (out-firm_rejected)",
+    "status": "WARD - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bradley-mccann-2f223453",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Culture Fit (out-firm_rejected)",
+    "status": "WARD - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andy-lawson-302a1d22",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:simon-ramsell-35f06971",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:neil-gallamore-800510ea",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "2d. CV Received / Scheduling Full Assessment (in-contenders)",
+    "status": "2d. CV Received / Scheduling Full Assessment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-hicks-81687703",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:frederick-pett-8937bc30",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Culture Fit (out-firm_rejected)",
+    "status": "WARD - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:adam-cookson-baa9b951",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dominic-chandler-1bdb277d",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Culture Fit (out-firm_rejected)",
+    "status": "WARD - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:karen-horton-b8902214",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:scott-laidlaw-ed577c05",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mark-delahunty-0937b28b",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mark-ryan-23c7b0e2",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "2c. Position Pitched (in-contenders)",
+    "status": "2c. Position Pitched",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:martijn-kooiman-76632661",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:joeri-keijzers-774f82e1",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jon-waldron-db70da63",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:espen-bjanes-fc023c5d",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:maryclaire-ryan-fe1db6f4",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nicolas-pisani-66c9b475",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sarah-raimond-6e553f70",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sarah-ward-955c3cf2",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christophe-marchiano-c2de7597",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rita-margarido-ca032a66",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:keelin-o-connor-doyle-cd1d975e",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andy-broe-da89ca5f",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sin-ad-martha-o-donnell-a79b4c99",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Years Experience (out-firm_rejected)",
+    "status": "WARD - Years Experience",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nick-henton-c38a935c",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:begona-cerdan-824d948e",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:fernando-turr-valls-a095c59c",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:emilia-bocan-b2585597",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ailish-mcdonnell-d1eabeea",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:fr-d-ric-bourset-1a173ff6",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-mann-46f5bdc7",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:arjan-de-haan-5fe609e9",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "2b. Pitch Call Scheduled (in-contenders)",
+    "status": "2b. Pitch Call Scheduled",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andreas-myr-68bbacbe",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rogier-van-der-wal-96f2d345",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Recently Moved (out-firm_rejected)",
+    "status": "WARD - Recently Moved",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alex-safronoff-a6754f08",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Culture Fit (out-firm_rejected)",
+    "status": "WARD - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dodo-malic-bedd4ec1",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lewis-mcmahon-d32783e3",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:enrico-de-boer-d9b17124",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:niamh-corrigan-4cfd44b2",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rajeev-gupta-d7db71a3",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "WARD - Culture Fit (out-firm_rejected)",
+    "status": "WARD - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andrew-ward-65bf194c",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:guillaume-goury-9f5bdc41",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tony-ford-f8bb7e83",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:william-king-a57f3352",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:daniel-mitchell-dbd9a737",
+    "to": "search:vp-sales",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brian-zemcik-0f5b0b88",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:serene-smart-1bb0df60",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:eric-murray-2def093c",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jeff-lake-343f6e84",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "[STOP USING] 1a. Approved - Awaiting Enrichment (in-outreach)",
+    "status": "[STOP USING] 1a. Approved - Awaiting Enrichment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:laura-howe-34e018e7",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:adam-sharp-40d197fa",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:matt-muell-47dae9b9",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dana-ostfeld-5cbf7b30",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kevin-arrow-5f08d972",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:koryn-kendall-727fbe56",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:robert-lynn-752799de",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mike-behn-7e2b6f0a",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:josh-buis-8a5430c1",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-silliman-98549a60",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:pete-hohm-9c14e195",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brian-l-feldman-a2ce459c",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bryant-tam-ac76beb7",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lt-clay-b29a7121",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christopher-silis-b3fe3d80",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "1b. Manual Outreach (in-outreach)",
+    "status": "1b. Manual Outreach",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:colton-brown-c08102c3",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:joshua-fields-c5a286e7",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "2a. Interested to Know More (in-contenders)",
+    "status": "2a. Interested to Know More",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:grace-stephens-c828c3b4",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:abhishek-garg-d4504ccc",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jason-cofield-d5b36fa2",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "[STOP USING] 1a. Approved - Awaiting Enrichment (in-outreach)",
+    "status": "[STOP USING] 1a. Approved - Awaiting Enrichment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sean-stinnett-da5b482a",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "2b. Pitch Call Scheduled (in-contenders)",
+    "status": "2b. Pitch Call Scheduled",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:hector-baez-ebebc3c5",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gordon-hom-f6948db4",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:marco-muoio-f7cb37f5",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "Pursuing (in-outreach)",
+    "status": "Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jay-reinke-f82f1b0f",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "2a. Interested to Know More (in-contenders)",
+    "status": "2a. Interested to Know More",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:maria-poyer-0264b823",
+    "to": "search:2504a-head-of-data-centers",
+    "type": "candidate_for",
+    "detail": "1b. Manual Outreach (in-outreach)",
+    "status": "1b. Manual Outreach",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:stephen-henley-3867f280",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gary-o-leary-93e0002d",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-wright-a2324111",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:john-wilson-a70dfa1b",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:belal-aly-d86aff7f",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-sharp-055ba819",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "4b. Offer Accepted (in-placed)",
+    "status": "4b. Offer Accepted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:colin-mcnally-10650cd8",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "2d. CV Received / Scheduling Full Assessment (in-contenders)",
+    "status": "2d. CV Received / Scheduling Full Assessment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:cristina-alonso-2415ac62",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:padraig-carton-2858176b",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:robert-smith-36efe2d7",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:arno-grah-4773f5ac",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:thomas-de-colle-4f2549f5",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Location Issue (out-firm_rejected)",
+    "status": "WARD - Location Issue",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:simon-anderson-4f47b506",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:edward-van-aalst-7a2ca57b",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-nesbit-86935cc3",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Culture Fit (out-firm_rejected)",
+    "status": "WARD - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gary-mills-9a989820",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CLIENT - Culture Fit (out-client_rejected)",
+    "status": "CLIENT - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:martin-langthaler-9d580c06",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "2d. CV Received / Scheduling Full Assessment (in-contenders)",
+    "status": "2d. CV Received / Scheduling Full Assessment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:zack-zahariev-abfe5cec",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Location Issue (out-firm_rejected)",
+    "status": "WARD - Location Issue",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christian-caye-ad550eeb",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tommy-o-rourke-cac31e5d",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:adam-couch-d14398d7",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-gallagher-e36e0e64",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andrew-lee-ecdcf161",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lorne-hayward-f9659540",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:steffen-zimmermann-259ca89b",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Location Issue (out-firm_rejected)",
+    "status": "WARD - Location Issue",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:frederico-braga-58de1e31",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alexander-delve-5ee069a9",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:karim-harmouche-7eaab782",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:will-jobling-dc93aedd",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:laurie-furst-6eb995ac",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:barry-dooley-ca0fb7d4",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:emmanuel-wendrix-ecf2b3a0",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Location Issue (out-firm_rejected)",
+    "status": "WARD - Location Issue",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bartosz-kwiecien-613d84e3",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Location Issue (out-firm_rejected)",
+    "status": "WARD - Location Issue",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:neil-grocock-1341a0d1",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:padraigh-mc-ardle-33ec4ff9",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:conor-nolan-643d773f",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alan-olsson-80560365",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:patrick-higgins-d9c5e881",
+    "to": "search:head-of-construction",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dan-malouf-8958e094",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:melanie-kiely-db3ba6b0",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-street-68a6cd0c",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:drew-byrnes-d24f7f0b",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Offer Declined (out-withdrew)",
+    "status": "CANDIDATE - Offer Declined",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:thiago-gaspar-7402e10a",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:charmaine-lee-06f1d243",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:anurag-khilnani-46665c15",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:william-grounds-99cb9cc7",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ploychompu-srisa-an-a4421e31",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:richa-rauniar-43a89f50",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "WARD - Years Experience (out-firm_rejected)",
+    "status": "WARD - Years Experience",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ken-choo-416cdff6",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CLIENT - Culture Fit (out-client_rejected)",
+    "status": "CLIENT - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sid-jaiswal-4066e7dd",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:suren-maheswaran-5ef8d117",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tom-duncan-8dab6016",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ernest-popescu-34026dae",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:otto-kreiter-b2ee4dfa",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:akira-aj-maruyama-02f2001b",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:aaron-bilyeu-897830cd",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jorge-florez-7da931a8",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lt-clay-b29a7121",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:hazel-guan-cc3f297d",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andrew-gordey-6e38b237",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andrew-edwards-02b44552",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:raj-vohra-05eab588",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:laurance-lewis-36a7b22c",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brokaw-price-f466cad4",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sharad-agarwal-f76db108",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:erik-draaisma-1a1d6b57",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:josh-buis-8a5430c1",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:thinzar-hlaing-c227eba5",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:peter-jedrey-b5843689",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jean-fran-ois-berche-b36332b7",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tom-traugott-bb931fc1",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andreas-zoll-9d71adff",
+    "to": "search:head-of-data-center-strategy",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:isabel-fazan-14d13d3c",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bradley-mccann-2f223453",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:stephen-hibbert-4978a596",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:steven-gay-5283285b",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:robert-holmans-58b406e0",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:frederick-pett-8937bc30",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:louis-wildenboer-e887d916",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:julio-bazo-372c7399",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "2c. Position Pitched (in-contenders)",
+    "status": "2c. Position Pitched",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:eugene-murray-7999801d",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:colin-whiting-589100d5",
+    "to": "search:development-director-43d9adfa",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:patrick-nanninga-91c70a68",
+    "to": "search:2505b-program-director-norway",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:meg-davis-92de8f3d",
+    "to": "search:construction-leader",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:daniel-becht-6b45c3df",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tim-denenberg-af59bd90",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:cameron-brandt-scheib-caf63fbe",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jeff-kim-d1feaa4e",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "2a. Interested to Know More (in-contenders)",
+    "status": "2a. Interested to Know More",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kristin-dean-d29dbb23",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mitchell-nelson-e4eb047b",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chelsea-kulhanek-04cf0c42",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:luke-denny-1274f1b6",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "2b. Pitch Call Scheduled (in-contenders)",
+    "status": "2b. Pitch Call Scheduled",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andrew-burke-151aec65",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tyler-g-latimer-22a5ffc5",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:evan-weisman-2e833200",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "2c. Position Pitched (in-contenders)",
+    "status": "2c. Position Pitched",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ambieca-saha-38654e85",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chad-horton-3bc0c242",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-adams-44492317",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ashley-peace-48973d46",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-jamieson-5b05859c",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:eleanor-shi-5c4b07fa",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:monica-trott-5ea87d19",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:david-shiflett-781d62d7",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:madeliene-zimmerman-7bcc527d",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christopher-coughlin-7c70376c",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mike-behn-7e2b6f0a",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brett-severson-7fc686b6",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jessica-albietz-8af097cf",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alexa-arena-a2132ac0",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lee-loftis-aac3829d",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:justin-hu-baebda73",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-helow-c7adc109",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:grace-stephens-c828c3b4",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:neil-hirannet-c97aca01",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jennifer-reininger-cf6dcd8c",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jason-cofield-d5b36fa2",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:omar-cardenas-dfefd56f",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jon-sizemore-e7c0e1af",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jeffrey-kalb-ea482897",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:hector-baez-ebebc3c5",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:joy-park-efed0fd2",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:evan-caso-fb511648",
+    "to": "search:future-vps",
+    "type": "candidate_for",
+    "detail": "2b. Pitch Call Scheduled (in-contenders)",
+    "status": "2b. Pitch Call Scheduled",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tom-powlay-07309eab",
+    "to": "search:operations-director-uk-and-europe",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:peter-morley-hill-ced4924b",
+    "to": "search:senior-director-of-development-and-delivery",
+    "type": "candidate_for",
+    "detail": "4b. Offer Accepted (in-placed)",
+    "status": "4b. Offer Accepted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ian-jones-8b6930ce",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:scott-closner-14451cb0",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:cody-d-angelo-1f84b03f",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:scott-duxbury-06ffeaa6",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christopher-barber-6e43fdf6",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:patrice-mccann-b14f4f70",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:greg-christensen-73d939c5",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:erik-silver-940abde2",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kristi-abbey-d6cee481",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lily-le-valladon-10520a7b",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kara-bierton-f7521fd7",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:manny-morales-c5e18d8c",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dinesh-sajnani-be38dc4b",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:aryeh-cohen-631b7bd5",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:angela-fulbright-c0230ad7",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:louis-ma-5ff37f05",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brent-crable-3c239233",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:john-pasta-2942ce5e",
+    "to": "search:business-development-bd-director",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sunny-jassal-405bfd1c",
+    "to": "search:head-of-project-management",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nick-de-palma-a8acefed",
+    "to": "search:head-of-project-management",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mark-dimmick-91d02045",
+    "to": "search:head-of-project-management",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:stewart-m-woolston-4bb98aa4",
+    "to": "search:head-of-project-management",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ahmed-el-shaal-5d1ee446",
+    "to": "search:operations-transition-manager",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:damir-maric-1ed63017",
+    "to": "search:operations-transition-manager",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ian-maitland-stuart-cdd029e6",
+    "to": "search:operations-transition-manager",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dominic-ryan-e8b87f39",
+    "to": "search:operations-transition-manager",
+    "type": "candidate_for",
+    "detail": "4a. Offer Extended (in-placed)",
+    "status": "4a. Offer Extended",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:peter-o-connor-51a6eba2",
+    "to": "search:site-origination-director-2404l",
+    "type": "candidate_for",
+    "detail": "[STOP USING] 1a. Approved - Awaiting Enrichment (in-outreach)",
+    "status": "[STOP USING] 1a. Approved - Awaiting Enrichment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:oliver-lam-298f4357",
+    "to": "search:site-origination-director-2404l",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rich-modliszewski-67d8721b",
+    "to": "search:site-origination-director-2404l",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:paul-martin-b9e70c24",
+    "to": "search:site-origination-director-2404l",
+    "type": "candidate_for",
+    "detail": "Research (research-researching)",
+    "status": "Research",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mourad-hammoud-14e2e4b2",
+    "to": "search:head-of-mechanical-engineering",
+    "type": "candidate_for",
+    "detail": "4a. Offer Extended (in-placed)",
+    "status": "4a. Offer Extended",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ryan-schnell-099dfe55",
+    "to": "search:695-director-project-and-portfolio-controls",
+    "type": "candidate_for",
+    "detail": "4b. Offer Accepted (in-placed)",
+    "status": "4b. Offer Accepted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:leong-poh-6f256fcc",
+    "to": "search:2505a-director-digital-infrastructure",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brett-burnette-f2dfa5b9",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mike-kaestner-5b89b547",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:yosra-altahan-84aab3df",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:bethany-allen-a055de27",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jeffrey-kalb-ea482897",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:david-farhat-1f62d6ef",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tamir-mengesha-e599f0f6",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ashley-peace-48973d46",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jeff-kim-d1feaa4e",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:scott-troise-06c33765",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nathan-shriver-21a2321f",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "3b. Shortlisted (in-offered)",
+    "status": "3b. Shortlisted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:frazier-cavness-7eadb0db",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:samuel-bishop-3e9aa7e9",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:dan-michaud-a5e60488",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tim-denenberg-af59bd90",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alex-raff-4f0d728d",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:vishal-patel-af68326e",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:michael-labelle-09d2cfd0",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mona-douillard-1d1f1613",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mitchell-visbara-22af2c65",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ron-olsen-341a7f66",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:brian-bertelsen-58c44bf7",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:gevon-madrid-c3a18067",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:cody-bell-feed0f01",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:meghan-thomas-af832a12",
+    "to": "search:vp-development-east-and-development-director-senior-east-region",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:vijay-kerai-b8856503",
+    "to": "search:project-manager-uk",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:andrew-morrow-b7c3aa87",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:michael-singleton-f4a5d24a",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:james-chenery-53cda8b6",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:marcus-bartolini-602c5155",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ash-evans-7705268b",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CLIENT - Compensation (out-client_rejected)",
+    "status": "CLIENT - Compensation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:austin-weymouth-b14d5e53",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "4b. Offer Accepted (in-placed)",
+    "status": "4b. Offer Accepted",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ben-stirk-7a314ced",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:hal-clarke-774e2f7b",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alex-safronoff-a6754f08",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CLIENT - Culture Fit (out-client_rejected)",
+    "status": "CLIENT - Culture Fit",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:enrico-de-boer-d9b17124",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nigel-warner-06341254",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:matthew-larbey-a55932cc",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:oscar-matthews-59ec7dfd",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:david-cologne-05b886f0",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:luke-pasterfield-e1ccab83",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Too Junior (out-firm_rejected)",
+    "status": "WARD - Too Junior",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:steven-gay-5283285b",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:mark-pestridge-33793f9e",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:richard-gulson-b4ed1959",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:barry-parris-d5e6bba3",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:tom-newton-748bb98a",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ben-green-5c834bcb",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Compensation (out-firm_rejected)",
+    "status": "WARD - Compensation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christopher-conway-e39bd8d5",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:william-king-a57f3352",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Motivation (out-firm_rejected)",
+    "status": "WARD - Motivation",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:warren-barrie-d5027b88",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Recently Moved (out-firm_rejected)",
+    "status": "WARD - Recently Moved",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:lottie-tollman-5ba5f671",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Recently Moved (out-firm_rejected)",
+    "status": "WARD - Recently Moved",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:matthew-harris-9822daf7",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CLIENT - Experience / Skills (out-client_rejected)",
+    "status": "CLIENT - Experience / Skills",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rod-faul-22f61eaf",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CLIENT - Exclusion List (out-client_rejected)",
+    "status": "CLIENT - Exclusion List",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jon-arnold-4aa0dc5d",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:peter-miles-ce2bd72b",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nick-dale-4933ea8f",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:alex-tilley-def27ac8",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:jon-waldron-db70da63",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:james-miller-c9774af6",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sarah-wood-aded8215",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rogier-van-der-wal-96f2d345",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:phil-barnett-3c9c48b7",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:ewan-jones-364caac1",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:kevin-holland-3115a121",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:rob-elder-15eae7b6",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:daniel-thomas-6776e1d0",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:christina-mertens-1fe786d9",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:martijn-kooiman-76632661",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:soumaya-graine-f7cdbb6d",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:scott-laidlaw-ed577c05",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:chris-baxter-e051f6ab",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:adam-levine-b66db82b",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:arjan-de-haan-5fe609e9",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:suhal-lad-50c89c5b",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:fred-howard-7b612dce",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:hugo-jack-ebf2039b",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:james-thornborrow-86aaa51c",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:arun-shenoy-5463d125",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:svein-atle-hagaseth-1e805e2d",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:james-matthews-8e04eab5",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Withdrew (out-withdrew)",
+    "status": "CANDIDATE - Withdrew",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:simon-ford-5fe64d16",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Offer Declined (out-withdrew)",
+    "status": "CANDIDATE - Offer Declined",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:sarah-ward-955c3cf2",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "WARD - Location Issue (out-firm_rejected)",
+    "status": "WARD - Location Issue",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:nick-henton-c38a935c",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "from": "person:elvira-van-bruggen-88d5ce60",
+    "to": "search:head-of-commercial-europe",
+    "type": "candidate_for",
+    "detail": "CLIENT - Superior Alternative Candidate (out-client_rejected)",
+    "status": "CLIENT - Superior Alternative Candidate",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-09-10"
+    ],
+    "last_updated": "2026-09-10"
   }
 ]

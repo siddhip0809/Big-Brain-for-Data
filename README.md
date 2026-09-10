@@ -20,6 +20,8 @@ is ever silently lost or overwritten.
   candidates, contacts)
 - **`data/investors/`** — one file per investor or fund (private equity,
   venture capital, infrastructure funds, etc.)
+- **`data/searches/`** — one file per Ward Search assignment pulled from
+  Clockwork: the client, the brief, the pipeline and who was placed
 - **`data/relationships.json`** — the connections between all of the above
   (e.g. "works at," "invested in," "board member of")
 - **`docs/schema.md`** — a plain-English description of what information
@@ -147,7 +149,22 @@ Real data has started loading. Currently in the brain:
   flows. The export's email and phone columns are dropped at read time and
   never written. Email, phone, and compensation are deliberately left out
   of every record (kept in Clockwork only) — see `docs/schema.md`.
-- **3,076 relationships** connecting the above — candidacy links,
+- **91 searches** (`data/searches/`, added 2026-09-10) — Ward Search's own
+  assignments, pulled live from Clockwork: 48 closed, 19 active, 15 pitch,
+  9 on hold, across 45 clients (STACK Infrastructure 28, Goodman 11, Rowan
+  6, Beale 5, Colt 5, Panattoni 5). 83 of the 91 clients matched to a
+  company already in the brain. Each carries the brief as written, the
+  candidate pipeline with each person's Clockwork status, and the
+  placement where there was one (19 placements, 15 with a named person).
+  This is the record of work Ward has actually done, so it answers "have
+  we been here before?" for any company or person on the map.
+  **One confidential search was skipped entirely** — no file, no client
+  name, no candidates — because this repository syncs to GitHub.
+  Compensation and fee data were not pulled. 39 of the 91 are large
+  mapping pools whose pipelines (11,071 candidacies) were not paged
+  through; they carry `pipeline_not_pulled: true` so it's obvious the
+  count is incomplete rather than zero.
+- **3,626 relationships** connecting the above — candidacy links,
   employment links, investor backing (124 investors incl. Google and
   NVIDIA in their dual role as strategic investors), and, since
   2026-09-05, a **company-to-company deal layer** of 98 edges:

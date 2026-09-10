@@ -1,0 +1,64 @@
+{
+  "id": "bd7d6700-36dc-4faf-bc7b-5f96d3753856",
+  "type": "search",
+  "name": "Operations Transition Manager",
+  "client_company": "hscale",
+  "client_company_id": "hscale",
+  "status": "active",
+  "project_type": "Contingency",
+  "started_at": "2026-07-20",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Ahmed El Shaal",
+      "clockwork_person_id": "5d1ee446-8754-4394-88de-28201ed1ab7a",
+      "brain_person_id": "ahmed-el-shaal-5d1ee446",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-07-29T08:38:10Z"
+    },
+    {
+      "person": "Damir Maric",
+      "clockwork_person_id": "1ed63017-22e3-4222-be5d-584d774d5195",
+      "brain_person_id": "damir-maric-1ed63017",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-09-09T09:55:44Z"
+    },
+    {
+      "person": "Ian Maitland-Stuart",
+      "clockwork_person_id": "cdd029e6-0060-4fce-b7fa-e92130faae72",
+      "brain_person_id": "ian-maitland-stuart-cdd029e6",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-09-09T09:55:52Z"
+    },
+    {
+      "person": "Dominic Ryan",
+      "clockwork_person_id": "e8b87f39-6655-4606-8c51-b1431e68995a",
+      "brain_person_id": "dominic-ryan-e8b87f39",
+      "status": "4a. Offer Extended",
+      "category": "in-placed",
+      "rank": 1502,
+      "updated_at": "2026-09-09T09:58:19Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 4,
+    "placed": 1,
+    "active": 0,
+    "out": 3
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

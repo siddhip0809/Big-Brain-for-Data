@@ -14,7 +14,7 @@ to it.
 
 Every node also carries these common fields, regardless of type:
 - `id` — the slug used to refer to this node elsewhere
-- `type` — `company`, `person`, or `investor`
+- `type` — `company`, `person`, `investor`, or `search`
 - `name` — the display name
 - `notes` — free-text notes
 - `sources` — list of where this info came from (a URL, "told by Siddhi
@@ -149,6 +149,47 @@ summarizing the deal, and `sources` (URLs). Anything below `high` came
 from a single source or secondary reporting rather than an official
 announcement — worth independent confirmation before relying on it.
 
+### `search` (in `data/searches/`)
+
+One file per Ward Search assignment, pulled from Clockwork (the firm's
+search database) rather than hand-typed. This is the record of work Ward
+has actually done: who the client was, what the role was, who was in the
+pipeline and how far each person got.
+
+- `id` — the Clockwork project id (a UUID). The **filename** is the slug
+  used in relationships, e.g. `data/searches/2412c-svp-operations.json`
+  is referred to as `search:2412c-svp-operations`.
+- `name` — the search name as Ward writes it, usually a job code plus the
+  role, e.g. "2412C SVP Operations"
+- `client_company` — the client's name as Clockwork holds it
+- `client_company_id` — the matching company node in this brain, or
+  `null` where the client isn't tracked here yet (8 of 91)
+- `status` — `active`, `on_hold`, `pitch`, or `closed`
+- `project_type` — Retained, Long Term Mapping, etc.
+- `started_at`, `closed_at` — dates
+- `closing_reason` — why it ended (Placement, Client Cancelled …)
+- `strategy`, `job_description`, `job_requirements` — the brief as
+  written in Clockwork, or `null` where none was recorded
+- `placement` — the person who got the job (`person`, `person_id`,
+  `title`, `start_date`), or `null`
+- `pipeline` — the candidates, each with `person`,
+  `clockwork_person_id`, `brain_person_id` (or `null` if that person
+  isn't a node here), `status` (the Clockwork status name),
+  `category` (a coarse grouping: `active`, `placed`, `out-withdrew`,
+  `out-client_rejected` …), `rank` (Clockwork's own ordering of how far
+  along a status is) and `updated_at`
+- `counts` — `pipeline`, `placed`, `active`, `out`
+- `pipeline_not_pulled` — present and `true` on 39 searches whose
+  pipelines are large mapping pools (11,071 candidacies in total) that
+  were not paged through on the first pull
+
+**What is deliberately not here.** Compensation and fee data exist in
+Clockwork and were not pulled. One confidential search was skipped
+entirely — no file, no client name, no candidates — because this
+repository syncs to GitHub. Only pipeline entries whose status rank is
+100 or above (i.e. a real candidacy, not a raw long-list touch) were
+written.
+
 ## Relationships (the "connections")
 
 All relationships live together in one file: `data/relationships.json`.
@@ -170,9 +211,14 @@ Common relationship `type` values (not a fixed list — new ones can be
 added any time):
 - `works_at` — person → company (their actual current employer; only
   created when that employer is itself a tracked company node)
-- `candidate_for` — person → company (they're a candidate in Ward Search's
-  pipeline for a search at that company — a recruiting relationship,
-  separate from `works_at`)
+- `candidate_for` — person → the search they're a candidate for (a
+  recruiting relationship, separate from `works_at`). Two generations of
+  these exist side by side: the 1,063 older edges point at a **company**
+  (`to: "company:goodman"`) because they were imported from Siddhi's
+  spreadsheets before searches were nodes; the 556 added on 2026-09-10
+  point at a **search** (`to: "search:2412c-svp-operations"`) and carry
+  the candidate's Clockwork status in `detail`, so you can see not just
+  that someone was considered but how far they got.
 - `invested_in` — investor → company
 - `board_member_of` — person → company or investor
 - `acquired` — acquirer → target (company → company, or investor →

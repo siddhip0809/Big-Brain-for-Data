@@ -1,0 +1,37 @@
+{
+  "id": "c9fb5896-560a-4df7-914b-5c9d4054e519",
+  "type": "search",
+  "name": "Head of Mechanical Engineering",
+  "client_company": "Colt Data Centre Services",
+  "client_company_id": "colt-data-centre-services",
+  "status": "active",
+  "project_type": "Contingency",
+  "started_at": "2026-08-18",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Mourad Hammoud",
+      "clockwork_person_id": "14e2e4b2-4178-498f-8280-fd83a374692b",
+      "brain_person_id": "mourad-hammoud-14e2e4b2",
+      "status": "4a. Offer Extended",
+      "category": "in-placed",
+      "rank": 1502,
+      "updated_at": "2026-08-26T12:44:23Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 1,
+    "placed": 1,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}
