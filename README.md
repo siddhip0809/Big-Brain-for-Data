@@ -213,7 +213,8 @@ Real data has started loading. Currently in the brain:
   the list of unconnected companies with columns to fill was sent to
   Siddhi on 2026-09-09 as a spreadsheet — send it back filled and each
   row becomes sourced relationships.
-- An interactive visual graph of all of this — see `viewer/README.md`.
+- An interactive visual graph of all of this — see `viewer/README.md`,
+  and `CLAUDE.md` for how the whole thing is built.
   Since 2026-09-09 it opens in a calm light view on the connected
   structure only, with the adjacent industries as four petals around the
   data-center core; the original dark look is one click away.
