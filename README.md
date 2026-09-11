@@ -227,10 +227,20 @@ Real data has started loading. Currently in the brain:
   `verified_by` (research team / Siddhi / Ward confirmed, each dated),
   set by clicking in the atlas and pulled back with
   `scripts/pull_verifications.py`.
-- **Gap list.** `data/derived/` also holds the per-company talent flows;
-  the list of unconnected companies with columns to fill was sent to
-  Siddhi on 2026-09-09 as a spreadsheet — send it back filled and each
-  row becomes sourced relationships.
+- **Gap list.** `scripts/build_gap_list.py` writes
+  `data/derived/company_gaps.csv` and a spreadsheet to fill in: the **946
+  companies with no connection at all** (no backer, no lease, no deal,
+  nothing), banded by how much it would cost us to be wrong about them
+  (270 band A, 264 band B, 412 band C), plus the **135 that are on the map
+  but with nobody recorded as owning them**. Columns to fill: ownership,
+  who owns them, who backs them, who they lease to, who they lease from,
+  who builds for them, their power partner, whether they are still a real
+  DC business, and a source URL. Send it back filled and each row becomes
+  sourced data — ownership onto the company record, every named
+  counterparty a relationship, marked as checked by Siddhi.
+  **Ownership is blank on every one of the 1,204 companies**: the brain has
+  never held public-vs-private, so `docs/schema.md` defines the field and
+  this sheet is how it gets filled.
 - An interactive visual graph of all of this — see `viewer/README.md`,
   and `CLAUDE.md` for how the whole thing is built.
   Since 2026-09-09 it opens in a calm light view on the connected

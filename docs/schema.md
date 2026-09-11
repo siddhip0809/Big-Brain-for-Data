@@ -58,6 +58,12 @@ Every node also carries these common fields, regardless of type:
 - `dc_exposure_level` — for adjacent-industry companies: Siddhi's own
   read of how much data-center work they actually do ("High" / "Medium" /
   "Low", or "Relevant" / "Not relevant" for energy developers)
+- `ownership` — public / private / PE or infra-fund owned / subsidiary of a
+  listed group / joint venture / state-owned. **Not yet populated on any
+  record**: the brain has never held it. `scripts/build_gap_list.py` produces
+  the sheet that collects it, so the field is defined here first and fills up
+  as that sheet comes back. `owned_by` carries the ticker, parent or fund
+  alongside it, and `ownership_source` the URL or "told by Siddhi on <date>".
 - `source_lists` — which of Siddhi's curated lists the company came from
 - `list_attributes` — every other column from those lists, kept verbatim
   per list (scope, noise category, energy mix, has-internal-dev-team, …) so
