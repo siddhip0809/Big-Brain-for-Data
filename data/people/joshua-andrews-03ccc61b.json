@@ -1,0 +1,103 @@
+{
+  "id": "joshua-andrews-03ccc61b",
+  "type": "person",
+  "name": "Joshua Andrews",
+  "current_title": "Site Acquisition Manager",
+  "current_company": "TikTok",
+  "linkedin": "https://www.linkedin.com/in/josheandrews",
+  "location": "London, England, United Kingdom",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Site Acquisition Manager at TikTok, 9/2025 to present; Land Acquisition Manager at Microsoft, 1/2024 to 8/2025; New Site Development Manager at Vantage, 1/2023 to 1/2023; Data Centre Selection Manager at Cloudflare, 1/2020 to 1/2023; Data Centre at CB Richard Ellis, 1/2017 to 1/2020; Cultural Ambassador And English Language Teacher at Japan Exchange And Teaching Program, 1/2014 to 1/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Tenure",
+      "rank": 303,
+      "date_added": "2026-08-27 07:41:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "tiktok",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Site Acquisition Manager",
+      "company": "TikTok",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Acquisition Manager",
+      "company": "Microsoft",
+      "start": "1/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "New Site Development Manager",
+      "company": "Vantage",
+      "start": "1/2023",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Data Centre Selection Manager",
+      "company": "Cloudflare",
+      "start": "1/2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Data Centre",
+      "company": "CB Richard Ellis",
+      "start": "1/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Cultural Ambassador And English Language Teacher",
+      "company": "Japan Exchange And Teaching Program",
+      "start": "1/2014",
+      "end": "1/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Master Of Science, Masters, Real Estate, Henley Business School, 2016 to 2017",
+    "Bachelor Of Arts, Bachelors, Geography, King's College London, 2011 to 2014"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

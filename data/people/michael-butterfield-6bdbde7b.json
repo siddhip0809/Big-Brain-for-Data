@@ -1,0 +1,99 @@
+{
+  "id": "michael-butterfield-6bdbde7b",
+  "type": "person",
+  "name": "Michael Butterfield",
+  "current_title": "Account Director",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/mbutterfield",
+  "location": "Walnut Creek, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Account Director at Digital Realty, 1/2026 to present; Sr. Account Executive at Digital Realty, 5/2025 to 2/2026; Senior Enterprise Account Executive at Equinix, 1/2015 to 5/2025; Sr. Account Executive at Bizness Apps, 4/2012 to 1/2015; Sales Representative at Streetline, 10/2011 to 3/2012; Concierge at The Portofino Hotel & Marina, 8/2010 to 3/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 261,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Director",
+      "company": "Digital Realty",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Digital Realty",
+      "start": "5/2025",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Enterprise Account Executive",
+      "company": "Equinix",
+      "start": "1/2015",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Bizness Apps",
+      "start": "4/2012",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Representative",
+      "company": "Streetline",
+      "start": "10/2011",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Concierge",
+      "company": "The Portofino Hotel & Marina",
+      "start": "8/2010",
+      "end": "3/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Walnut Creek",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bs, Business Finance - Investments, California State University-Long Beach, 2008 to 2011"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

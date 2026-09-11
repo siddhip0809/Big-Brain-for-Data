@@ -1,0 +1,40 @@
+{
+  "id": "hensel-phelps",
+  "type": "company",
+  "name": "Hensel Phelps",
+  "aliases": [],
+  "industry_role": "civil land engineering / general contractor",
+  "headquarters": "Greeley, Colorado",
+  "founded": null,
+  "website": "https://www.henselphelps.com",
+  "linkedin": "https://www.linkedin.com/company/hensel-phelps/",
+  "headcount": "5,001 to 10,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: GC + developer. Active hyperscale and colo DC construction.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

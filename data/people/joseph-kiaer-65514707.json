@@ -1,0 +1,65 @@
+{
+  "id": "joseph-kiaer-65514707",
+  "type": "person",
+  "name": "Joseph Kiaer",
+  "current_title": "Sr. Director Sales",
+  "current_company": "CoreSite",
+  "linkedin": "https://www.linkedin.com/in/josephkiaer",
+  "location": "New York City Metropolitan Area",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sr. Director Sales at CoreSite, 12/2016 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 156,
+      "date_added": "2026-01-09 15:42:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "coresite",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Director Sales",
+      "company": "CoreSite",
+      "start": "12/2016",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

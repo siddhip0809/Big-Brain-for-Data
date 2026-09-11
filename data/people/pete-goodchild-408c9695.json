@@ -1,0 +1,118 @@
+{
+  "id": "pete-goodchild-408c9695",
+  "type": "person",
+  "name": "Pete Goodchild",
+  "current_title": "Sales Director",
+  "current_company": "DataBank",
+  "linkedin": "https://www.linkedin.com/in/pete-goodchild-b8755b2",
+  "location": "Woodbridge, VA",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director at DataBank, 10/2023 to present; Account Manager at Data Intensity, 10/2021 to 7/2023; Director, Channel & Strategic Alliances at NTT, 9/2017 to 10/2021; Engagement Manager, Systems Integration at NTT, 1/2006 to 7/2019; Senior Account Executive, Field Sales at NTT, 1/2004 to 12/2006; Higher Education Sales, Oracle Direct at Oracle, 1/2002 to 12/2004; Sales Consultant at NTT, 1/2000 to 12/2002; Exhibit Sales at Food Marketing Institute, 1/1997 to 12/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 116,
+      "date_added": "2025-11-21 09:29:57 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "databank",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "DataBank",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Manager",
+      "company": "Data Intensity",
+      "start": "10/2021",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Director, Channel & Strategic Alliances",
+      "company": "NTT",
+      "start": "9/2017",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Engagement Manager, Systems Integration",
+      "company": "NTT",
+      "start": "1/2006",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive, Field Sales",
+      "company": "NTT",
+      "start": "1/2004",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Higher Education Sales, Oracle Direct",
+      "company": "Oracle",
+      "start": "1/2002",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant",
+      "company": "NTT",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Exhibit Sales",
+      "company": "Food Marketing Institute",
+      "start": "1/1997",
+      "end": "12/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Woodbridge",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Bachelor of Arts (B.A.), Environmental Studies, Ashford University"
+  ],
+  "biography": "I am a high-performing, versatile, go-to-market executive with a two-decade track record of negotiating and contracting complex, long-term managed services and data center agreements structured to help produce optimal business outcomes. I'm passionate about building strong relationships with my clients because I believe that trust and rapport is the foundation of successful collaboration. By investing in these relationships, I can truly comprehend their objectives, offer personalized support, and ensure their satisfaction. This approach not only fuels my professional growth but also fosters a sense of fulfillment in delivering value to those I serve. \n\nI am now part of the amazing team at DataBank and driven to capitalize on our top tier data centers, private and public platforms, our global network, and the most sophisticated and compliant managed services the industry has to offer. Combine that with our people first culture, DataBank's customer service is the best in the industry.\n\nOn a personal note, I hail from Connecticut but polished in Virginia. I coach high school lacrosse, avid outdoor enthusiast, curious, happy husband, and father to my daughter who is incredibly smart, funny, compassionate, and simply awesome.\n\nSend me a message at pgoodchild@databank.com or cell/text at 703-994-8748 and let's discuss a partnership.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

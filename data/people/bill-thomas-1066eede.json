@@ -1,0 +1,92 @@
+{
+  "id": "bill-thomas-1066eede",
+  "type": "person",
+  "name": "Bill Thomas",
+  "current_title": "Chief Energy Officer",
+  "current_company": "CleanArc Data Centers",
+  "linkedin": "https://www.linkedin.com/in/bill-thomas-335a0843",
+  "location": "Las Vegas, Nevada",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Chief Energy Officer at CleanArc Data Centers, 5/2022 to present; VP Energy Marketing at RWE, 5/2018 to 5/2022; Chief Commercial Officer at LevelTen Energy, 9/2016 to 5/2018; Director, Global Commercial & Industrial Origination at First Solar, 9/2014 to 9/2016; VP Development & Energy Marketing at E.ON Climate & Renewables Solar PV, 4/2011 to 8/2014; CleanArc Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 169,
+      "date_added": "2026-06-05 07:06:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "cleanarc-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Energy Officer",
+      "company": "CleanArc Data Centers",
+      "start": "5/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Energy Marketing",
+      "company": "RWE",
+      "start": "5/2018",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Chief Commercial Officer",
+      "company": "LevelTen Energy",
+      "start": "9/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Director, Global Commercial & Industrial Origination",
+      "company": "First Solar",
+      "start": "9/2014",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "VP Development & Energy Marketing",
+      "company": "E.ON Climate & Renewables Solar PV",
+      "start": "4/2011",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "raw": "CleanArc Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Las Vegas",
+    "region": "Nevada",
+    "country": "United States",
+    "group": "Nevada"
+  },
+  "education": [
+    "Masters, Dartmouth College, 1991 to 1992",
+    "Bachelors, University Of Colorado Boulder, 1987 to 1990"
+  ],
+  "assessment": {
+    "under_represented_group": "No",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

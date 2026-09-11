@@ -1,0 +1,124 @@
+{
+  "id": "dhaval-jagani-77157b6e",
+  "type": "person",
+  "name": "Dhaval Jagani",
+  "current_title": "Senior Pre-Construction Manager",
+  "current_company": "Crusoe",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/dhavaljagani",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Pre-Construction Manager at Crusoe, 7/2025 to present; Associate Director - Google Data Centers at Turner & Townsend, 10/2024 to 7/2025;  Cost Consultant - Google Data Centers at Turner & Townsend, 5/2023 to 10/2024; Senior Consultant - Google Data Centers at Turner & Townsend, 5/2023 to 10/2024; Cost Consultant - Google Data Centers at Turner & Townsend, 5/2021 to 5/2023; Project Manager at Cahill Contractors, 7/2019 to 5/2021; Assistant Project Manager at BFC PARTNERS, 8/2015 to 7/2019; Project Engineer at Kunj Construction, 5/2015 to 8/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 256,
+      "date_added": "2026-08-26 13:22:20 UTC",
+      "date_updated": "2026-08-26 08:23:44 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 81,
+      "date_added": "2026-08-06 09:38:07 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "crusoe",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Pre-Construction Manager",
+      "company": "Crusoe",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "10/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "5/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Cahill Contractors",
+      "start": "7/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "BFC PARTNERS",
+      "start": "8/2015",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Kunj Construction",
+      "start": "5/2015",
+      "end": "8/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

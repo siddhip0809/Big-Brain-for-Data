@@ -1,0 +1,100 @@
+{
+  "id": "andrea-menechini-512c3135",
+  "type": "person",
+  "name": "Andrea Menechini",
+  "current_title": "Real Estate Development Manager - DCSS Emea",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/andrea-menechini-8009aa17",
+  "location": "Milan, Lombardy, Italy",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Development Manager - DCSS Emea at AWS, 10/2025 to present; Head of Development at P3 Logistic Parks, 11/2024 to 10/2025; Senior Development Manager | REAL ESTATE (Logistics) at Aquila Capital, 6/2021 to 12/2024; Technical & Pilotage Manager at Arcus Real Estate S r l, 10/2012 to 6/2021; Leasing Coordinator & Project Developer at Premium Retail S r l, 11/2008 to 10/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Years Experience",
+      "rank": 147,
+      "date_added": "2026-07-10 10:58:04 UTC",
+      "date_updated": "2026-07-30 01:40:17 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Development Manager - DCSS Emea",
+      "company": "AWS",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Development",
+      "company": "P3 Logistic Parks",
+      "start": "11/2024",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "raw": "Senior Development Manager"
+    },
+    {
+      "title": "REAL ESTATE (Logistics)",
+      "company": "Aquila Capital",
+      "start": "6/2021",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Technical & Pilotage Manager",
+      "company": "Arcus Real Estate S r l",
+      "start": "10/2012",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Leasing Coordinator & Project Developer",
+      "company": "Premium Retail S r l",
+      "start": "11/2008",
+      "end": "10/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Milan",
+    "region": "Lombardy",
+    "country": "Italy",
+    "group": "Italy"
+  },
+  "education": [
+    "Laurea, Urbanistica, Politecnico Di Milano, 2004 to 2008",
+    "Perito Edile, Edilizia, Carlo Bazzi"
+  ],
+  "biography": "Experienced Technical Manager with a demonstrated history of working in the real estate industry. Skilled in AutoCAD, Negotiation, Retail, Advertising, and Adobe Creative Suite. Strong engineering professional with a Laurea focused in Urbanistica from Politecnico di Milano.",
+  "assessment": {
+    "skills": {
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dan-mickelberry-10d87bfe",
+  "type": "person",
+  "name": "Dan Mickelberry",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Sampson Construction Co",
+  "linkedin": "https://www.linkedin.com/in/dan-mickelberry-169a7620",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Retail / Mixed Use / Multifamily Residential",
+  "career_history": "Preconstruction Manager at Sampson Construction Co, 10/2025 to present; Estimating Manager at Mortenson, 1/2016 to 1/2025; Senior Estimator II at Mortenson, 9/2003 to 1/2025",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 8,
+      "date_added": "2026-08-04 16:07:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Sampson Construction Co",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Mortenson",
+      "start": "1/2016",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator II",
+      "company": "Mortenson",
+      "start": "9/2003",
+      "end": "1/2025",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, Architecture/Construction Mgmt, The University of Memphis, 1988 to 1993"
+  ],
+  "biography": "Leading estimates for challenging projects ranging from the Gaylord Rockies, and Colorado Judicial Center, to the Hotel and Transit Center at Denver International Airport while creating an open and collaborative environment for all stakeholders in the design phase of project.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "adam-ries-4a3a4ba2",
+  "type": "person",
+  "name": "Adam Ries",
+  "current_title": "Director of Construction",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/adam-ries-0a20b591",
+  "location": "Buchanan, Michigan",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Construction at Vantage, 2/2026 to present; Project Manager at AWS, 11/2022 to 12/2025; Construction Manager at AWS, 11/2022 to 12/2025; Senior Project Manager at Vertiv, 9/2020 to 11/2022; Project Manager at Vertiv, 4/2020 to 9/2020; Project Manager at Siemens, 1/2017 to 4/2020; Project Manager at Schneider Electric, 5/2014 to 8/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 120,
+      "date_added": "2026-07-06 12:23:02 UTC",
+      "date_updated": "2026-07-06 07:23:02 -0500",
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "AWS",
+      "start": "11/2022",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "11/2022",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Vertiv",
+      "start": "9/2020",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Vertiv",
+      "start": "4/2020",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Siemens",
+      "start": "1/2017",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Schneider Electric",
+      "start": "5/2014",
+      "end": "8/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Buchanan",
+    "region": "Michigan",
+    "country": "United States",
+    "group": "Michigan"
+  },
+  "education": [
+    "Bachelor's degree, International Business, Davenport University, 2010 to 2013",
+    "Grand Valley State University, 2008 to 2010"
+  ],
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

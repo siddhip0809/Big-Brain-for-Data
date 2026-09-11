@@ -1,0 +1,127 @@
+{
+  "id": "nathan-smith-43780985",
+  "type": "person",
+  "name": "Nathan Smith",
+  "current_title": "Vice President Energy Business Development",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/nathan-smith-68840259",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President Energy Business Development at Vantage, 1/2026 to present; Utility Business Development Manager Na at Vantage, 5/2023 to 3/2025; Key Account Manager at Xcel Energy, 11/2022 to 5/2023; Account Manager at Xcel Energy, 1/2020 to 11/2022; C & I Billing Analyst at Xcel Energy, 10/2015 to 1/2020; Chief Operating Officer at Global Compression Group, 10/2014 to 1/2020; Major Account Executive at Squash Compression, 4/2014 to 8/2016; Chief Executive Officer at Nr Smith Consulting, 3/2014 to 1/2020; Inside Sales Executive at DISH Network, 10/2012 to 4/2014; F2 at Fiberteq, 3/2006 to 7/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 28,
+      "date_added": "2025-11-07 14:48:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Energy Business Development",
+      "company": "Vantage",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Utility Business Development Manager Na",
+      "company": "Vantage",
+      "start": "5/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Xcel Energy",
+      "start": "11/2022",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Xcel Energy",
+      "start": "1/2020",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "C & I Billing Analyst",
+      "company": "Xcel Energy",
+      "start": "10/2015",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Chief Operating Officer",
+      "company": "Global Compression Group",
+      "start": "10/2014",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Major Account Executive",
+      "company": "Squash Compression",
+      "start": "4/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Chief Executive Officer",
+      "company": "Nr Smith Consulting",
+      "start": "3/2014",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Inside Sales Executive",
+      "company": "DISH Network",
+      "start": "10/2012",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "F2",
+      "company": "Fiberteq",
+      "start": "3/2006",
+      "end": "7/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelors, Bachelor Of Science, Business Administration, Management, Business Administration And Management, Southern New Hampshire University"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "andy-hobbs-a9069f4a",
+  "type": "person",
+  "name": "Andy Hobbs",
+  "current_title": "Vice President, Sales, APAC",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/andy-hobbs-7923b3121",
+  "location": "Singapore",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Sales, APAC at Vantage, 3/2023 to present; Managing Director, APAC - CBRE, Data Centre Solutions at CBRE, 10/2020 to 2/2023; Executive Director, APAC - CBRE, Data Centre Solutions at CBRE, 1/2016 to 10/2020; Area General Manager, Critical Environments Services at CB Richard Ellis, 5/2014 to 12/2015; Head of Projects, Critical Environment Services at CB Richard Ellis, 6/2013 to 4/2014; Senior Facilities Manager, Data Centres at Johnson Controls, 12/2010 to 5/2013; Project Manager, Data Centres at Brenmar, 1/2005 to 11/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 10,
+      "date_added": "2025-11-06 13:30:12 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Sales, APAC",
+      "company": "Vantage",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director, APAC - CBRE, Data Centre Solutions",
+      "company": "CBRE",
+      "start": "10/2020",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Executive Director, APAC - CBRE, Data Centre Solutions",
+      "company": "CBRE",
+      "start": "1/2016",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Area General Manager, Critical Environments Services",
+      "company": "CB Richard Ellis",
+      "start": "5/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Head of Projects, Critical Environment Services",
+      "company": "CB Richard Ellis",
+      "start": "6/2013",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Facilities Manager, Data Centres",
+      "company": "Johnson Controls",
+      "start": "12/2010",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager, Data Centres",
+      "company": "Brenmar",
+      "start": "1/2005",
+      "end": "11/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Singapore",
+    "region": null,
+    "country": "Singapore",
+    "group": "Singapore"
+  },
+  "education": [
+    "Bachelor's degree, Economics and Business Policy, University of Portsmouth, 2001 to 2004"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

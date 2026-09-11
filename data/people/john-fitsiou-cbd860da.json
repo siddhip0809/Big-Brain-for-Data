@@ -1,0 +1,89 @@
+{
+  "id": "john-fitsiou-cbd860da",
+  "type": "person",
+  "name": "John Fitsiou",
+  "current_title": "Senior Account Director",
+  "current_company": "nLighten",
+  "linkedin": "https://www.linkedin.com/in/johnfitsiou",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Account Director at nLighten, 1/2024 to present; Senior Account Director at EXA Infrastructure, 9/2021 to 1/2024; Channel Account Manager at Interoute, 5/2010 to 12/2015; Account Director - Infrastructure Division at GTT, 5/2010 to 9/2021; Business Development Manager at Credit Quest, 7/2009 to 5/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 184,
+      "date_added": "2026-07-14 13:24:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "nlighten",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Account Director",
+      "company": "nLighten",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Director",
+      "company": "EXA Infrastructure",
+      "start": "9/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Channel Account Manager",
+      "company": "Interoute",
+      "start": "5/2010",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Account Director - Infrastructure Division",
+      "company": "GTT",
+      "start": "5/2010",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Credit Quest",
+      "start": "7/2009",
+      "end": "5/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "biography": "Experienced, pragmatic, successful Senior Account Director within the global telecommunications industry. Passionate about pan-European Edge colocation, with strong solution and commercial acumen in the field. Proficient in L1, L2, and L3 connectivity both in terms of sourcing and selling. A very well-rounded business development professional within the Telco world. Get in touch - john.fitsiou@nlighten.com - +44(0)7792 915485",
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

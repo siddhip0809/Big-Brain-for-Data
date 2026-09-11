@@ -1,0 +1,96 @@
+{
+  "id": "amber-swicicki-87f3e47f",
+  "type": "person",
+  "name": "Amber Swicicki",
+  "current_title": "Senior Vice President, Account Management",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/amber-swicicki-0408b34",
+  "location": "Alpharetta, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Vice President, Account Management at QTS Data Centers, 3/2022 to present; Director, Sales Account Management at QTS Data Centers, 2/2015 to 3/2022; Account Executive at QTS Data Centers, 2/2012 to 2/2015; Sales Consultant at Marquis Jet, 1/2008 to 12/2011; Sales Support Team at Marquis Jet, 1/2006 to 12/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 70,
+      "date_added": "2025-11-07 13:21:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Account Management",
+      "company": "QTS Data Centers",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Sales Account Management",
+      "company": "QTS Data Centers",
+      "start": "2/2015",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "QTS Data Centers",
+      "start": "2/2012",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant",
+      "company": "Marquis Jet",
+      "start": "1/2008",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Support Team",
+      "company": "Marquis Jet",
+      "start": "1/2006",
+      "end": "12/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Alpharetta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Bachelor Of Arts, Bachelors, Education, Mathematics, University At Albany, 2001 to 2005"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

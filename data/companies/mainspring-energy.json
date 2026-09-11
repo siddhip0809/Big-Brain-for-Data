@@ -1,0 +1,39 @@
+{
+  "id": "mainspring-energy",
+  "type": "company",
+  "name": "Mainspring Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Menlo Park, California",
+  "founded": null,
+  "website": "https://www.mainspringenergy.com",
+  "linkedin": "https://www.linkedin.com/company/mainspring-energy/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Grid Technology",
+      "Utility Scale": "No",
+      "Primary Scope": "National",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Linear generator technology company. Distributed power. Growing DC on-site power application. Some talent relevance for DC power resilience roles.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

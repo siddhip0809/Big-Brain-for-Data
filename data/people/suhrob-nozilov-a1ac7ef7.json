@@ -1,0 +1,110 @@
+{
+  "id": "suhrob-nozilov-a1ac7ef7",
+  "type": "person",
+  "name": "Suhrob Nozilov",
+  "current_title": "Project Controls Manager",
+  "current_company": "The Weitz Company",
+  "linkedin": "https://www.linkedin.com/in/suhrob-n-5ba70579",
+  "location": "Sterling, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Controls Manager at The Weitz Company, 9/2025 to present; Assistant Project Manager / Project Controls at WCS Construction, 9/2020 to 8/2024; Assistant Project Manager / Project Controls at Monarc Construction, 10/2015 to 9/2020; Project Management Assistant (Temporary Duty) at U S Department of State Overseas Building Operations, 8/2014 to 3/2015; Project Management Assistant at U S Department of State Overseas Building Operations, 3/2011 to 6/2015; Realty/Procurement Assistant at U S Department of State Overseas Building Operations, 2/2006 to 2/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 59,
+      "date_added": "2026-08-05 11:56:33 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 59,
+      "date_added": "2026-08-05 11:56:33 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "the-weitz-company",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Controls Manager",
+      "company": "The Weitz Company",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Project Manager / Project Controls",
+      "company": "WCS Construction",
+      "start": "9/2020",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager / Project Controls",
+      "company": "Monarc Construction",
+      "start": "10/2015",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Project Management Assistant (Temporary Duty)",
+      "company": "U S Department of State Overseas Building Operations",
+      "start": "8/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Project Management Assistant",
+      "company": "U S Department of State Overseas Building Operations",
+      "start": "3/2011",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Realty/Procurement Assistant",
+      "company": "U S Department of State Overseas Building Operations",
+      "start": "2/2006",
+      "end": "2/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Sterling",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

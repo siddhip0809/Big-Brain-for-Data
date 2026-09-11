@@ -1,0 +1,75 @@
+{
+  "id": "scott-maxwell-3675192b",
+  "type": "person",
+  "name": "Scott Maxwell",
+  "current_title": "Chief Estimator",
+  "current_company": "Howard S Wright Construction",
+  "location": "Beaverton, Oregon",
+  "linkedin": "https://www.linkedin.com/in/scott-maxwell-855ab170",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Estimator at Howard S Wright Construction, 3/2023 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 55,
+      "date_added": "2026-08-18 10:06:42 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 234,
+      "date_added": "2026-08-12 06:43:16 UTC",
+      "date_updated": "2026-08-18 05:06:42 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Estimator",
+      "company": "Howard S Wright Construction",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Beaverton",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

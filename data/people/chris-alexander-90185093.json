@@ -1,0 +1,97 @@
+{
+  "id": "chris-alexander-90185093",
+  "type": "person",
+  "name": "Chris Alexander",
+  "current_title": "Sales Director, South Central Region",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/digitalrealtychrisalexander",
+  "location": "Dallas,  Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director, South Central Region at Digital Realty, 10/2018 to present; Senior Account Executive at Equinix, 7/2013 to 9/2018; Global National Account Manager at XO Communications, 9/2009 to 7/2013; National Account Manager at AboveNet, 1/2002 to 9/2009; National Account Manager at Sarcom, 4/1998 to 12/2001",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 41,
+      "date_added": "2025-11-07 12:16:59 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director, South Central Region",
+      "company": "Digital Realty",
+      "start": "10/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Equinix",
+      "start": "7/2013",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Global National Account Manager",
+      "company": "XO Communications",
+      "start": "9/2009",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "AboveNet",
+      "start": "1/2002",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Sarcom",
+      "start": "4/1998",
+      "end": "12/2001",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Business Administration (B.B.A.), Marketing, University of North Texas, 1990 to 1995"
+  ],
+  "biography": "Delivering AI Solutions for the Enterprise",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

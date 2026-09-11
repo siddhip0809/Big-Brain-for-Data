@@ -1,0 +1,119 @@
+{
+  "id": "john-hiddema-7bd9d97f",
+  "type": "person",
+  "name": "John Hiddema",
+  "current_title": "(former) Vice President Electric Utilities",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/jhiddema",
+  "location": "Detroit, Michigan",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President Electric Utilities at STACK Infrastructure, 6/2025 to 10/2025; Director of Electrical Engineering at STACK Infrastructure, 6/2024 to 6/2025; Director Electric Services - Substations and Metro Underground at Consumers Energy, 3/2019 to 6/2024; Senior Electrical Engineering Lead at Consumers Energy, 12/2016 to 3/2019; Production Operations Engineer at Consumers Energy, 6/2014 to 12/2016; Senior Electrical Engineer at Consumers Energy, 9/2011 to 6/2014; Assistant Engineering Manager / Project Electrical Engineer at 3C Electrical Company, 5/2009 to 9/2011; Project Electrical Engineer at Vanderweil Engineers, 2/2008 to 5/2009; Senior Applications Engineer at Telvent / Schneider Electric, 6/2004 to 2/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 172,
+      "date_added": "2026-06-15 14:43:56 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Electric Utilities",
+      "company": "STACK Infrastructure",
+      "start": "6/2025",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Director of Electrical Engineering",
+      "company": "STACK Infrastructure",
+      "start": "6/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Director Electric Services - Substations and Metro Underground",
+      "company": "Consumers Energy",
+      "start": "3/2019",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Engineering Lead",
+      "company": "Consumers Energy",
+      "start": "12/2016",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Production Operations Engineer",
+      "company": "Consumers Energy",
+      "start": "6/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Engineer",
+      "company": "Consumers Energy",
+      "start": "9/2011",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineering Manager / Project Electrical Engineer",
+      "company": "3C Electrical Company",
+      "start": "5/2009",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Project Electrical Engineer",
+      "company": "Vanderweil Engineers",
+      "start": "2/2008",
+      "end": "5/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Applications Engineer",
+      "company": "Telvent / Schneider Electric",
+      "start": "6/2004",
+      "end": "2/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Detroit",
+    "region": "Michigan",
+    "country": "United States",
+    "group": "Michigan"
+  },
+  "education": [
+    "Bachelor of Science (B.S.) Electrical Engineering, University of Michigan College of Engineering",
+    "Master of Engineering (M.Eng.) Electric Power Engineering, University of Idaho"
+  ],
+  "biography": "Manager/Director and Power Engineer with over 18 years of experience with a diverse engineering and operations background in the electric energy and data center industries. Leader of high-performing teams. Strong communicator with the ability to effectively bring people together to solve complex problems.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

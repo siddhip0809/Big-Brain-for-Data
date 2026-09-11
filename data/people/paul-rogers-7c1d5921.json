@@ -1,0 +1,93 @@
+{
+  "id": "paul-rogers-7c1d5921",
+  "type": "person",
+  "name": "Paul Rogers",
+  "current_title": "Director, Construction",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/pauldonaldrogers",
+  "location": "Columbus, Ohia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Construction at Vantage, 3/2026 to present; Manager, Project Engineering at Abbott, 10/2024 to 3/2026; Senior Project Engineer at Abbott, 1/2023 to 5/2025; Sr Project Manager at John W Danforth, 6/2020 to 1/2023; Business Team Manager at Rogue Fitness, 8/2018 to 3/2020; Project Manager at Conception to Reality, 8/2014 to 8/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 131,
+      "date_added": "2026-07-06 13:47:34 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Project Engineering",
+      "company": "Abbott",
+      "start": "10/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Abbott",
+      "start": "1/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Sr Project Manager",
+      "company": "John W Danforth",
+      "start": "6/2020",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Business Team Manager",
+      "company": "Rogue Fitness",
+      "start": "8/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Conception to Reality",
+      "start": "8/2014",
+      "end": "8/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "james-toy-29bbf01f",
+  "type": "person",
+  "name": "James Toy",
+  "current_title": "Lead Estimator",
+  "current_company": "Rosendin",
+  "linkedin": "https://www.linkedin.com/in/james-toy-47367a12",
+  "location": "Boise, Idaho",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Lead Estimator at Rosendin, 4/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "HOLD - On Hold",
+      "rank": 240,
+      "date_added": "2026-08-12 08:26:31 UTC",
+      "date_updated": "2026-08-19 06:33:28 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Rosendin",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Boise",
+    "region": "Idaho",
+    "country": "United States",
+    "group": "Idaho"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

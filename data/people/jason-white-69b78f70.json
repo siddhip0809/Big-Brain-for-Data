@@ -1,0 +1,58 @@
+{
+  "id": "jason-white-69b78f70",
+  "type": "person",
+  "name": "Jason White",
+  "current_title": "Construction Management",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/jason-white-74752a25",
+  "location": "Columbus, Ohio",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Construction Management at Vantage, 4/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 321,
+      "date_added": "2026-07-10 13:52:42 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Management",
+      "company": "Vantage",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

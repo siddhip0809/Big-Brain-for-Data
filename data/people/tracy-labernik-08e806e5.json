@@ -1,0 +1,124 @@
+{
+  "id": "tracy-labernik-08e806e5",
+  "type": "person",
+  "name": "Tracy Labernik",
+  "current_title": "Vice President, Leasing, North America",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/tracy-labernik",
+  "location": "San Francisco, California",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Leasing, North America at Vantage, 8/2025 to present; Senior Director, Assistant General Counsel, Leasing (North America) at Vantage, 7/2022 to present; Senior Director, Corporate Counsel at Digital Realty, 3/2020 to 7/2022; Director, Corporate Counsel at Digital Realty, 5/2015 to 3/2020; Attorney at Pennington Lawson, 1/2013 to 1/2015; Real Estate Associate at Paul Hastings, 1/2012 to 1/2013; Real Estate Associate at Dorsey & Whitney, 1/2007 to 1/2012; Summer Associate at Dorsey & Whitney, 5/2006 to 8/2006; Law Clerk at Valspar, 1/2004 to 1/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 236,
+      "date_added": "2026-04-22 14:37:49 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Leasing, North America",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Assistant General Counsel, Leasing (North America)",
+      "company": "Vantage",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Corporate Counsel",
+      "company": "Digital Realty",
+      "start": "3/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director, Corporate Counsel",
+      "company": "Digital Realty",
+      "start": "5/2015",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Attorney",
+      "company": "Pennington Lawson",
+      "start": "1/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Real Estate Associate",
+      "company": "Paul Hastings",
+      "start": "1/2012",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Real Estate Associate",
+      "company": "Dorsey & Whitney",
+      "start": "1/2007",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Summer Associate",
+      "company": "Dorsey & Whitney",
+      "start": "5/2006",
+      "end": "8/2006",
+      "current": false
+    },
+    {
+      "title": "Law Clerk",
+      "company": "Valspar",
+      "start": "1/2004",
+      "end": "1/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor of Arts (B.A.), University of Minnesota-Twin Cities",
+    "Doctor of Law (J.D.), William Mitchell College of Law"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

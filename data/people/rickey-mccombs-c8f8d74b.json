@@ -1,0 +1,133 @@
+{
+  "id": "rickey-mccombs-c8f8d74b",
+  "type": "person",
+  "name": "Rickey Mccombs",
+  "current_title": "Preconstruction Manager",
+  "current_company": "HITT Contracting",
+  "linkedin": "https://www.linkedin.com/in/rickey-m-b5b199133",
+  "location": "Baltimore, Washington, DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at HITT Contracting, 2/2026 to present; Preconstruction Manager - Mission Critical at Suffolk Construction, 8/2025 to 1/2026; Assistant Project Manager - Construction at The NRP Group, 10/2022 to 8/2025; Assistant Project Manager at HITT Contracting, 8/2021 to 10/2022; Assistant Project Manager at HITT Contracting, 2/2020 to 8/2021; Preconstruction Project Engineer at HITT Contracting, 8/2019 to 1/2020; Project Engineer at HITT Contracting, 8/2018 to 7/2019; Assistant Project Manager at Absolute Builders, 1/2018 to 8/2018; Estimating Intern at GB Shades, 5/2017 to 10/2017; Intern at Tadjer Cohen Edelson Associates, 6/2012 to 8/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 44,
+      "date_added": "2026-08-05 07:27:56 UTC",
+      "date_updated": "2026-08-14 09:42:08 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hitt-contracting",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "HITT Contracting",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager - Mission Critical",
+      "company": "Suffolk Construction",
+      "start": "8/2025",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager - Construction",
+      "company": "The NRP Group",
+      "start": "10/2022",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "HITT Contracting",
+      "start": "8/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "HITT Contracting",
+      "start": "2/2020",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Project Engineer",
+      "company": "HITT Contracting",
+      "start": "8/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "HITT Contracting",
+      "start": "8/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Absolute Builders",
+      "start": "1/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "GB Shades",
+      "start": "5/2017",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Tadjer Cohen Edelson Associates",
+      "start": "6/2012",
+      "end": "8/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Associate's degree, Construction Management, Montgomery College, 2012 to 2015",
+    "Architecture, Thomas Edison High School of technology, 2010 to 2012",
+    "High School Diploma, Montgomery Blair High School, 2009 to 2012"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

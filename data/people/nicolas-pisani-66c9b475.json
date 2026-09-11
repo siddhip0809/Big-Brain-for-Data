@@ -1,0 +1,140 @@
+{
+  "id": "nicolas-pisani-66c9b475",
+  "type": "person",
+  "name": "Nicolas Pisani",
+  "current_title": "Data center development & acquisition EMEA",
+  "current_company": "Google",
+  "location": "Paris, France",
+  "linkedin": "https://www.linkedin.com/in/nicolaspisani",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Data center development & acquisition EMEA at Google, 4/2020 to present; Network Strategy Manager - Southern Europe at Akamai Technologies, 8/2015 to 3/2020; Sr Account Executive - Orange group at Gartner, 9/2011 to 7/2015; Sales Director Europe - Media & Entertainment at Tata Communications, 4/2009 to 8/2011; Regional Sales Director at Tata Communications, 4/2006 to 3/2009; Regional Sales Manager at Teleglobe France International, 12/2003 to 3/2006; Account Manager at Prosodie, 7/2002 to 12/2003; Sales Manager IP Services at Teleglobe France, 2/1999 to 5/2002; Account Manager at Easynet, 1998 to 1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Withdrew",
+      "rank": 61,
+      "date_added": "2026-08-14 12:28:16 UTC",
+      "date_updated": "2026-08-14 07:33:38 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 19,
+      "date_added": "2026-07-08 17:34:07 UTC",
+      "date_updated": "2026-08-14 07:28:16 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Data center development & acquisition EMEA",
+      "company": "Google",
+      "start": "4/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Network Strategy Manager - Southern Europe",
+      "company": "Akamai Technologies",
+      "start": "8/2015",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Sr Account Executive - Orange group",
+      "company": "Gartner",
+      "start": "9/2011",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Director Europe - Media & Entertainment",
+      "company": "Tata Communications",
+      "start": "4/2009",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Tata Communications",
+      "start": "4/2006",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Teleglobe France International",
+      "start": "12/2003",
+      "end": "3/2006",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Prosodie",
+      "start": "7/2002",
+      "end": "12/2003",
+      "current": false
+    },
+    {
+      "title": "Sales Manager IP Services",
+      "company": "Teleglobe France",
+      "start": "2/1999",
+      "end": "5/2002",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Easynet",
+      "start": "1998",
+      "end": "1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "France",
+    "group": "France"
+  },
+  "education": [
+    "Bac+4, Sales, Marketing and Management, Ecole Commerciale de la Chambre de Commerce et d'Industrie de Paris (ECCIP), 1993 to 1995",
+    "BTS Actions Commerciales, Sales and Marketing, Ecole Supérieure de Vente et d'Exportation (ESVE), 1991 to 1993"
+  ],
+  "biography": "Data centers development & acquisition chez Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
+  }
+}

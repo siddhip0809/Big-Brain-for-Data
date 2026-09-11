@@ -1,0 +1,48 @@
+{
+  "id": "verne",
+  "type": "company",
+  "name": "Verne",
+  "aliases": [],
+  "industry_role": "hyperscaler",
+  "headquarters": "San Francisco, California, United States",
+  "founded": null,
+  "website": "https://www.verne-power.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Hyperscaler"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 2 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Ardian acquired Verne Global from Digital 9 Infrastructure plc (~2023, up to $575M). Digital 9 had bought it from earlier owners (Wellcome Trust, Stefnir, Novator Partners, General Catalyst) in Sept 2021.",
+  "sources": [
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/vernepower/",
+  "headcount": "11 to 50",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 281.3,
+      "early_stage_mw": 187.0
+    }
+  }
+}

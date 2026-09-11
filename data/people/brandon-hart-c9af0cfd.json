@@ -1,0 +1,128 @@
+{
+  "id": "brandon-hart-c9af0cfd",
+  "type": "person",
+  "name": "Brandon Hart",
+  "current_title": "Senior Estimator",
+  "current_company": "Hensel Phelps",
+  "linkedin": "https://www.linkedin.com/in/brandon-hart-8a2360163",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Hensel Phelps, 9/2025 to present; Senior Estimator at Skanska, 9/2024 to 9/2025; Construction Estimator at The Weitz Company, 5/2023 to 9/2024; Estimator II at ISEC, 12/2021 to 6/2023; Estimator at ISEC, 9/2020 to 6/2023; Estimator at Glenn Rieder, 6/2019 to 9/2020; Project Manager/ Estimator at The Kitchen Shop, 6/2004 to 3/2019; Maintenance Technician at Middlemore Hospital, 5/2001 to 5/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Tenure",
+      "rank": 236,
+      "date_added": "2026-08-12 08:01:29 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Tenure",
+      "rank": 236,
+      "date_added": "2026-08-12 08:01:29 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Skanska",
+      "start": "9/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "The Weitz Company",
+      "start": "5/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator II",
+      "company": "ISEC",
+      "start": "12/2021",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "ISEC",
+      "start": "9/2020",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Glenn Rieder",
+      "start": "6/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager/ Estimator",
+      "company": "The Kitchen Shop",
+      "start": "6/2004",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Maintenance Technician",
+      "company": "Middlemore Hospital",
+      "start": "5/2001",
+      "end": "5/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Bachelor's degree Construction Management/Quantity surveying, Bond University, 2015 to 2019"
+  ],
+  "biography": "I am a passionate, proactive, dynamic and diligent professional with a demonstrated track record of achievement. I am a Dedicated construction engineer / Manager with 10+ years of construction experience. Seeking to improve efficiency and profitability in all my construction endeavours. I strive to deliver fast, on time, defect-free work. I Have worked in the construction industry with a trade background in shop-fitting/cabinet making for various construction firms. Commended many times by management for a strong work ethic.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

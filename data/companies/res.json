@@ -1,0 +1,39 @@
+{
+  "id": "res",
+  "type": "company",
+  "name": "RES",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Broomfield, Colorado",
+  "founded": null,
+  "website": "https://www.res-group.com",
+  "linkedin": "https://www.linkedin.com/company/res-group/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Global renewable energy developer and contractor. Wind, solar, storage. Operates across WECC, ERCOT, MISO, PJM.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

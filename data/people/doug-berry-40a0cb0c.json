@@ -1,0 +1,60 @@
+{
+  "id": "doug-berry-40a0cb0c",
+  "type": "person",
+  "name": "Doug Berry",
+  "current_title": "Director of Construction",
+  "current_company": "Iron Mountian",
+  "linkedin": "https://www.linkedin.com/in/doug-berry-3330a86",
+  "location": "Boston, Massachusetts, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Construction at Iron Mountian",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 22,
+      "date_added": "2026-07-02 11:47:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "iron-mountian",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Iron Mountian",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Boston",
+    "region": "Massachusetts",
+    "country": "United States",
+    "group": "Massachusetts"
+  },
+  "education": [
+    "University Of Massachusetts Amherst, 1988 to 1993"
+  ],
+  "biography": "Director of Construction at Iron Mountain",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

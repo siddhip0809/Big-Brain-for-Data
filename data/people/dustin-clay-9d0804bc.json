@@ -1,0 +1,136 @@
+{
+  "id": "dustin-clay-9d0804bc",
+  "type": "person",
+  "name": "Dustin Clay",
+  "current_title": "Director Energy",
+  "current_company": "DC BLOX",
+  "linkedin": "https://www.linkedin.com/in/dustin-clay-a64b0210b",
+  "location": "Cumming, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director Energy at DC BLOX, 8/2025 to present; Distribution Engineer at Georgia Power, 1/2025 to 8/2025; Electrical Engineering Services and Systems - Project Manager at Eaton Corporation - Beaver PA, 1/2024 to 1/2025; Electric Transportation Construction Manager at Georgia Power, 2/2022 to 1/2024; Construction Coordinator at Georgia Power, 1/2021 to 2/2022; Power system coordinator at Georgia Power, 1/2017 to 6/2019; Transmission Analyst, Sr at Georgia Power, 1/2017 to 1/2021; Project Manager at Gaylor Electric, 3/2015 to 1/2017; Project Manager at FTI, 1/2012 to 3/2015; Chief Estimator at Clay Electric, 1/2000 to 1/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 95,
+      "date_added": "2026-04-20 10:52:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "dc-blox",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Energy",
+      "company": "DC BLOX",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Distribution Engineer",
+      "company": "Georgia Power",
+      "start": "1/2025",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineering Services and Systems - Project Manager",
+      "company": "Eaton Corporation - Beaver PA",
+      "start": "1/2024",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Electric Transportation Construction Manager",
+      "company": "Georgia Power",
+      "start": "2/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Construction Coordinator",
+      "company": "Georgia Power",
+      "start": "1/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Power system coordinator",
+      "company": "Georgia Power",
+      "start": "1/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Transmission Analyst, Sr",
+      "company": "Georgia Power",
+      "start": "1/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Gaylor Electric",
+      "start": "3/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "FTI",
+      "start": "1/2012",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Clay Electric",
+      "start": "1/2000",
+      "end": "1/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Cumming",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Computer aided drafting, Computer aided drafting, Kennesaw State University, 2016 to 2016",
+    "Bachelor's degree, Organizational Managememt, University Of Arizona, 1998 to 2007",
+    "Project management professional, Georgia Institute Of Technology"
+  ],
+  "biography": "Dustin is not actively looking to leave his current role but is interested in upward mobility. He is intrigued by the idea of building something new from the ground up, as he understands this company is establishing a presence in the U.S. Dustin anticipates his boss, the VP of Energy, will move into the CDO role within the next one to two years, as the current CDO is expected to retire. He would then be in a position to take on the VP of Energy role, which is his next desired step in progression. Dustin enjoys leading his own team and the success they have achieved. He values the strong team atmosphere, good benefits, and competitive pay. The hybrid work schedule, which includes a balance of remote work, office time, and on-site work, is also a significant positive. Dustin's primary frustration is the lack of knowledge about utility power from others within the company. This often leads to decisions being made without his consultation, resulting in more complex and time-consuming fixes later.",
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "High Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Poor",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

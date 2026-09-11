@@ -1,0 +1,124 @@
+{
+  "id": "john-cooper-a7dd4a8b",
+  "type": "person",
+  "name": "John Cooper",
+  "current_title": "Data Centre Supply Solutions - EMEA Amazon Web Services",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/john-cooper-245388",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Data Centre Supply Solutions - EMEA Amazon Web Services at AWS, 3/2025 to present; National Infrastructure Land Acquisition at UK Offshore Wind Project, 1/2020 to present; Land & Property Manager - Consultancy Role at Horizon Nuclear Power, 3/2015 to 7/2019; Managing Director at ENRICHMENT SOLUTIONS, 4/2012 to present; Development Consultant at John Cooper Property Consultant, 4/2005 to present; Director at Harris Keane Property Consultants, 1/2001 to 4/2012; Associate Director at Colliers Conrad Ritbalt Erdman/ ColliersCRE, 4/1997 to 12/2000; Property Manager at Phillips, 9/1994 to 4/1997",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Years Experience",
+      "rank": 123,
+      "date_added": "2026-07-10 08:16:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 361,
+      "date_added": "2026-04-21 15:51:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Centre Supply Solutions - EMEA Amazon Web Services",
+      "company": "AWS",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "National Infrastructure Land Acquisition",
+      "company": "UK Offshore Wind Project",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land & Property Manager - Consultancy Role",
+      "company": "Horizon Nuclear Power",
+      "start": "3/2015",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "ENRICHMENT SOLUTIONS",
+      "start": "4/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Consultant",
+      "company": "John Cooper Property Consultant",
+      "start": "4/2005",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Harris Keane Property Consultants",
+      "start": "1/2001",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Colliers Conrad Ritbalt Erdman/ ColliersCRE",
+      "start": "4/1997",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Property Manager",
+      "company": "Phillips",
+      "start": "9/1994",
+      "end": "4/1997",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

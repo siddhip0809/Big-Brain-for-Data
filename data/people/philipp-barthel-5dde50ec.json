@@ -1,0 +1,102 @@
+{
+  "id": "philipp-barthel-5dde50ec",
+  "type": "person",
+  "name": "Philipp Barthel",
+  "current_title": "Director Sales Germany",
+  "current_company": "Virtus Data Centers",
+  "linkedin": "https://www.linkedin.com/in/philipp-barthel-b9a76597",
+  "location": "Germany",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director Sales Germany at Virtus Data Centers, 6/2025 to present; Business Development at Virtus Data Centers, 10/2024 to 6/2025; Director International Sales at Legrand Data Center Solutions, 7/2023 to 1/2024; Key-Account & Expansion Manager at modulan, 10/2018 to 7/2023; Key-Account & Export Manager at modulan, 8/2015 to 10/2018; Account-Manager at modulan, 1/2012 to 7/2015; Account-Manager at henneveld office, 1/2009 to 12/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Years Experience",
+      "rank": 306,
+      "date_added": "2026-08-27 07:41:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "virtus-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Sales Germany",
+      "company": "Virtus Data Centers",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development",
+      "company": "Virtus Data Centers",
+      "start": "10/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Director International Sales",
+      "company": "Legrand Data Center Solutions",
+      "start": "7/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Key-Account & Expansion Manager",
+      "company": "modulan",
+      "start": "10/2018",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Key-Account & Export Manager",
+      "company": "modulan",
+      "start": "8/2015",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Account-Manager",
+      "company": "modulan",
+      "start": "1/2012",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Account-Manager",
+      "company": "henneveld office",
+      "start": "1/2009",
+      "end": "12/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Germany",
+    "group": "Germany"
+  },
+  "education": [
+    "Diplom, Angewandte Volkswirtschaftslehre, Johann-Wolfgang-Goethe Universität Frankfurt a.M., 2003 to 2008"
+  ],
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

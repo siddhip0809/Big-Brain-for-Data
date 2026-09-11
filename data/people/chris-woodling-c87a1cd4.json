@@ -1,0 +1,122 @@
+{
+  "id": "chris-woodling-c87a1cd4",
+  "type": "person",
+  "name": "Chris Woodling",
+  "current_title": "Senior Estimator",
+  "current_company": "Hensel Phelps",
+  "location": "McLean, Virginia",
+  "linkedin": "https://www.linkedin.com/in/chris-woodling-b48b8a19",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Hensel Phelps, 4/2011 to present; Lead Estimator at Hensel Phelps, 1/2007 to 4/2011; Project Engineer at Hensel Phelps, 4/2004 to 1/2007; Office Engineer at Hensel Phelps, 11/2002 to 4/2004; Project Coordinator at Nello L Teer, 8/2000 to 11/2002; Field Engineer at Hensel Phelps, 7/1999 to 8/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 29,
+      "date_added": "2026-08-14 14:50:29 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 58,
+      "date_added": "2026-08-05 11:22:26 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 58,
+      "date_added": "2026-08-05 11:22:26 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "4/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "1/2007",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "4/2004",
+      "end": "1/2007",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "11/2002",
+      "end": "4/2004",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "Nello L Teer",
+      "start": "8/2000",
+      "end": "11/2002",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "7/1999",
+      "end": "8/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "McLean",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

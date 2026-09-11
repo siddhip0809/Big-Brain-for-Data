@@ -1,0 +1,85 @@
+{
+  "id": "jesse-gonzalez-0a9a20c1",
+  "type": "person",
+  "name": "Jesse Gonzalez",
+  "current_title": "Associate Director",
+  "current_company": "Cumming Group",
+  "linkedin": "https://www.linkedin.com/in/jesse-gonzalez-30968b339",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Cumming Group, 4/2026 to present; Estimating Manager at Exyte, 10/2024 to 4/2026; Senior Estimator at EXYTE U S, 8/2019 to 10/2024; QAQC at Harris & Hart Sheet Metal Contractors, 9/2008 to 8/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 337,
+      "date_added": "2026-08-13 13:46:27 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Cumming Group",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Exyte",
+      "start": "10/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "EXYTE U S",
+      "start": "8/2019",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "QAQC",
+      "company": "Harris & Hart Sheet Metal Contractors",
+      "start": "9/2008",
+      "end": "8/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

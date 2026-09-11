@@ -1,0 +1,39 @@
+{
+  "id": "dsd-renewables",
+  "type": "company",
+  "name": "DSD Renewables",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "New York",
+  "founded": null,
+  "website": "https://www.dsdrenewables.com",
+  "linkedin": "https://www.linkedin.com/company/dsd-renewables/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "No",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Distributed solar developer. C&I and community focus. Not utility-scale. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

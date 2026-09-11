@@ -1,0 +1,115 @@
+{
+  "id": "colin-clish-16e5ffa7",
+  "type": "person",
+  "name": "Colin Clish",
+  "current_title": "President & Chief Executive Officer",
+  "current_company": "PointOne",
+  "linkedin": "https://www.linkedin.com/in/colin-clish-3bb50619",
+  "location": "Edmonton, Alberta",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "President & Chief Executive Officer at PointOne, 3/2017 to present; Past President - NAIOP Edmonton at NAIOP Edmonton, 12/2015 to 1/2019; Real Estate Developer at Clish Development, 7/2015 to 1/2019; President at NAIOP Edmonton, 12/2014 to 12/2015; Director, Leasing and Land Sales at Remington Development, 5/2013 to 6/2015; Leasing & Land Coordinator at Remington Development, 11/2007 to 5/2013; Supervisor, Technical Services at Parkland County, 5/2002 to 11/2007; PointOne",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 151,
+      "date_added": "2026-01-07 15:48:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "pointone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "President & Chief Executive Officer",
+      "company": "PointOne",
+      "start": "3/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Past President - NAIOP Edmonton",
+      "company": "NAIOP Edmonton",
+      "start": "12/2015",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Real Estate Developer",
+      "company": "Clish Development",
+      "start": "7/2015",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "NAIOP Edmonton",
+      "start": "12/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Director, Leasing and Land Sales",
+      "company": "Remington Development",
+      "start": "5/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Leasing & Land Coordinator",
+      "company": "Remington Development",
+      "start": "11/2007",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Supervisor, Technical Services",
+      "company": "Parkland County",
+      "start": "5/2002",
+      "end": "11/2007",
+      "current": false
+    },
+    {
+      "raw": "PointOne"
+    }
+  ],
+  "location_norm": {
+    "city": "Edmonton",
+    "region": "Alberta",
+    "country": "Canada",
+    "group": "Canada"
+  },
+  "education": [
+    "Diploma, The University of British Columbia, 2009 to 2014",
+    "Certificate, University of Alberta, 2003 to 2006"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

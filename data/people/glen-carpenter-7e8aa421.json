@@ -1,0 +1,113 @@
+{
+  "id": "glen-carpenter-7e8aa421",
+  "type": "person",
+  "name": "Glen Carpenter",
+  "current_title": "Senior Estimator",
+  "current_company": "Currie & Brown",
+  "location": "Tempe, Arizona",
+  "linkedin": "https://www.linkedin.com/in/glen-carpenter-48013010",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Currie & Brown, 5/2020 to present; Senior Consultant / Estimator at Turner & Townsend, 6/2012 to 5/2020; Senior Project Manager, JOC Operations Mgr at Parsons, 4/2004 to 12/2008; Project Manager at Sahara, 4/2002 to 4/2004; Project Manager at DPR Construction, 3/1997 to 3/2002; Project Manager - Project Engineer at McCarthy Building Companies, 1/1990 to 3/1997",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 116,
+      "date_added": "2026-08-19 12:46:07 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 273,
+      "date_added": "2026-08-12 12:01:13 UTC",
+      "date_updated": "2026-08-19 07:46:07 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Currie & Brown",
+      "start": "5/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant / Estimator",
+      "company": "Turner & Townsend",
+      "start": "6/2012",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager, JOC Operations Mgr",
+      "company": "Parsons",
+      "start": "4/2004",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Sahara",
+      "start": "4/2002",
+      "end": "4/2004",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "3/1997",
+      "end": "3/2002",
+      "current": false
+    },
+    {
+      "title": "Project Manager - Project Engineer",
+      "company": "McCarthy Building Companies",
+      "start": "1/1990",
+      "end": "3/1997",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Tempe",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "BS, Construction, Arizona State University, 1986 to 1989"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

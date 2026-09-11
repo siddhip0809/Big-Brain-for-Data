@@ -1,0 +1,65 @@
+{
+  "id": "jim-courts-cbf99f55",
+  "type": "person",
+  "name": "Jim Courts",
+  "current_title": "Construction Manager Digital Realty",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/jim-courts-67411126",
+  "location": "Santa Rosa, Califfornia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Construction Manager Digital Realty at Digital Realty, 1/2011 to present; Construction Manager Western Region at Digital Realty, 2011 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 129,
+      "date_added": "2026-07-06 13:45:30 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Manager Digital Realty",
+      "company": "Digital Realty",
+      "start": "1/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager Western Region",
+      "company": "Digital Realty",
+      "start": "2011",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Santa Rosa",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

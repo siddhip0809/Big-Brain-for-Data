@@ -1,0 +1,126 @@
+{
+  "id": "otto-kreiter-b2ee4dfa",
+  "type": "person",
+  "name": "Otto Kreiter",
+  "current_title": "Director, Global Infrastructure",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/ottokreiter",
+  "location": "United Kingdom",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Global Infrastructure at Google, 9/2024 to present; Principal, Global Infrastructure at Google, 10/2017 to 8/2024; Strategic Negotiator - Global Network Acqusition at Google, 11/2013 to 10/2017; Technical Program Manager- Global Network Acquisition at Google, 6/2011 to 11/2013; Technical consultant at DEIP - private consultancy, 10/2009 to 12/2011; Service Introduction Manager at DANTE, 1/2008 to 5/2011; Network Engineer at DANTE, 8/2003 to 12/2007; Network Engineer at RoEduNet, 1/2001 to 7/2003; Network Engineer at Technical University of Cluj-Napoca - Data Communication Center, 9/2000 to 7/2003; System Administrator at Technical University of Cluj-Napoca, 1/1997 to 6/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Too Senior",
+      "rank": 294,
+      "date_added": "2026-08-26 19:19:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Global Infrastructure",
+      "company": "Google",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal, Global Infrastructure",
+      "company": "Google",
+      "start": "10/2017",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Strategic Negotiator - Global Network Acqusition",
+      "company": "Google",
+      "start": "11/2013",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Technical Program Manager- Global Network Acquisition",
+      "company": "Google",
+      "start": "6/2011",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Technical consultant",
+      "company": "DEIP - private consultancy",
+      "start": "10/2009",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Service Introduction Manager",
+      "company": "DANTE",
+      "start": "1/2008",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "DANTE",
+      "start": "8/2003",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "RoEduNet",
+      "start": "1/2001",
+      "end": "7/2003",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "Technical University of Cluj-Napoca - Data Communication Center",
+      "start": "9/2000",
+      "end": "7/2003",
+      "current": false
+    },
+    {
+      "title": "System Administrator",
+      "company": "Technical University of Cluj-Napoca",
+      "start": "1/1997",
+      "end": "6/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Master's Degree, Digital Telecommunication, Technical University of Cluj Napoca, 2000 to 2001",
+    "Bachelor's Degree, Telecommunications Engineering, Technical University of Cluj Napoca, 1995 to 2000"
+  ],
+  "biography": "Director - Global Infrastructure at Google",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

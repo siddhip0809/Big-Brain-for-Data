@@ -1,0 +1,42 @@
+{
+  "id": "skanska-usa",
+  "type": "company",
+  "name": "Skanska USA",
+  "aliases": [
+    "Skanska"
+  ],
+  "industry_role": "civil land engineering / general contractor",
+  "headquarters": "New York",
+  "founded": null,
+  "website": "https://www.usa.skanska.com",
+  "linkedin": "https://www.linkedin.com/company/skanska/",
+  "headcount": "10,001+",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: GC. Some DC construction work.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

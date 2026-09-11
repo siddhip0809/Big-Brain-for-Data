@@ -1,0 +1,64 @@
+{
+  "id": "phil-barnett-3c9c48b7",
+  "type": "person",
+  "name": "Phil Barnett",
+  "current_title": "SVP Sales EMEA",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/phil-barnett-682a76",
+  "location": "London, England",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "SVP Sales EMEA at Digital Realty, 3/2022 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 22,
+      "date_added": "2025-11-06 14:04:05 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP Sales EMEA",
+      "company": "Digital Realty",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

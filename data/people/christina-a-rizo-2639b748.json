@@ -1,0 +1,61 @@
+{
+  "id": "christina-a-rizo-2639b748",
+  "type": "person",
+  "name": "Christina A. Rizo",
+  "current_title": "Senior Cost Consultant",
+  "current_company": "Alpine Datacenter Group",
+  "linkedin": "https://www.linkedin.com/in/christina-ninh",
+  "location": "San Jose, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Cost Consultant at Alpine Datacenter Group, 7/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 505,
+      "date_added": "2026-08-26 06:50:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "alpine-datacenter-group",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Alpine Datacenter Group",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "San Jose",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "robert-mcintyre-7dc8d41f",
+  "type": "person",
+  "name": "Robert McIntyre",
+  "current_title": "Sr. Construction Manager",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/robert-mcintyre-b7235929",
+  "location": "Trumansburg, New York",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Sr. Construction Manager at Digital Realty, 5/2025 to present; Owners Representative at Roberts Engineering Group LLC - Texas, 2/2018 to 3/2025; Construction Manager at Hill International, 9/2016 to 1/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 251,
+      "date_added": "2026-07-08 12:28:20 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Construction Manager",
+      "company": "Digital Realty",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Owners Representative",
+      "company": "Roberts Engineering Group LLC - Texas",
+      "start": "2/2018",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Hill International",
+      "start": "9/2016",
+      "end": "1/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Trumansburg",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

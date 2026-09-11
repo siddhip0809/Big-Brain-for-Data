@@ -1,0 +1,107 @@
+{
+  "id": "tom-mondani-1c673077",
+  "type": "person",
+  "name": "Tom Mondani",
+  "current_title": "West Region Sales Director",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/tom-mondani-5263965",
+  "location": "Danville, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "West Region Sales Director at Digital Realty, 1/2018 to present; Western Regional Manager Archive and Archive Cloud Services at Oracle, 8/2013 to 8/2017; Western Region VP of Sales at CompuCom, 8/2011 to 7/2013; Senior Enterprise Client Executive at CompuCom, 1/2009 to 12/2011; Regional Manager at CommVault, 1/2006 to 12/2008; District Manager at Sun Microsystems, 1/2003 to 12/2006; District Sales Manager at Dell, 1/1998 to 12/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 35,
+      "date_added": "2025-11-07 12:10:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "West Region Sales Director",
+      "company": "Digital Realty",
+      "start": "1/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Western Regional Manager Archive and Archive Cloud Services",
+      "company": "Oracle",
+      "start": "8/2013",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Western Region VP of Sales",
+      "company": "CompuCom",
+      "start": "8/2011",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Enterprise Client Executive",
+      "company": "CompuCom",
+      "start": "1/2009",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Manager",
+      "company": "CommVault",
+      "start": "1/2006",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "District Manager",
+      "company": "Sun Microsystems",
+      "start": "1/2003",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "District Sales Manager",
+      "company": "Dell",
+      "start": "1/1998",
+      "end": "12/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Danville",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

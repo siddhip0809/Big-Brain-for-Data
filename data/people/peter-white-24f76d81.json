@@ -1,0 +1,32 @@
+{
+  "id": "peter-white-24f76d81",
+  "type": "person",
+  "name": "Peter White",
+  "current_title": "Director Investmests",
+  "current_company": "NTT",
+  "current_company_id": "ntt",
+  "linkedin": "https://www.linkedin.com/in/peter-james-white",
+  "location": null,
+  "seniority": null,
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "function": "Unclassified",
+  "function_source": "title",
+  "industry_segment": null,
+  "career_history": null,
+  "career": [],
+  "do_not_contact": false,
+  "pipeline": [],
+  "department": null,
+  "record_grade": "directory",
+  "tags": [
+    "Data Center Developer",
+    "Outreached/reply"
+  ],
+  "notes": "Directory-grade profile from a bulk people export: name, title, employer and LinkedIn only — no career history, location or pipeline. Not verified against Clockwork.",
+  "sources": [
+    "Bulk people export (de11fc69-people.csv), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

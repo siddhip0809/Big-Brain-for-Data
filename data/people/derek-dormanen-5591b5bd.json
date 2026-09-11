@@ -1,0 +1,144 @@
+{
+  "id": "derek-dormanen-5591b5bd",
+  "type": "person",
+  "name": "Derek Dormanen",
+  "current_title": "Preconstruction Manager",
+  "current_company": "McGough",
+  "linkedin": "https://www.linkedin.com/in/derekdormanen",
+  "location": "Fargo, North Dakota",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at McGough, 1/2025 to present; Preconstruction Project Manager at Kilbourne Group, 1/2024 to 12/2024; Senior Estimator at Comstock Construction, 10/2022 to 12/2023; Sr. Estimator at Thomsen Homes, 12/2020 to 10/2022; Project Manager/Engineering Manager at O'Day Equipment, 2/2020 to 12/2020; Estimator at O'Day Equipment, 5/2018 to 2/2020; Technical Specialist II at HERE Technologies, 11/2009 to 12/2017; Geographic Technician at NAVTEQ, 11/2008 to 11/2009; Independent Owner/Operator at FedEx Ground, 2007 to 2008; Assistant Baseball Coach at Concordia College, 2005 to 2006; Assistant Baseball Coach at North Dakota State University, 2004 to 2004; Professional Baseball Player at Fargo-Moorhead RedHawks Baseball, 2003 to 2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Tenure",
+      "rank": 371,
+      "date_added": "2026-08-17 09:52:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "McGough",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Project Manager",
+      "company": "Kilbourne Group",
+      "start": "1/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Comstock Construction",
+      "start": "10/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "Thomsen Homes",
+      "start": "12/2020",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Engineering Manager",
+      "company": "O'Day Equipment",
+      "start": "2/2020",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "O'Day Equipment",
+      "start": "5/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Technical Specialist II",
+      "company": "HERE Technologies",
+      "start": "11/2009",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Geographic Technician",
+      "company": "NAVTEQ",
+      "start": "11/2008",
+      "end": "11/2009",
+      "current": false
+    },
+    {
+      "title": "Independent Owner/Operator",
+      "company": "FedEx Ground",
+      "start": "2007",
+      "end": "2008",
+      "current": false
+    },
+    {
+      "title": "Assistant Baseball Coach",
+      "company": "Concordia College",
+      "start": "2005",
+      "end": "2006",
+      "current": false
+    },
+    {
+      "title": "Assistant Baseball Coach",
+      "company": "North Dakota State University",
+      "start": "2004",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "Professional Baseball Player",
+      "company": "Fargo-Moorhead RedHawks Baseball",
+      "start": "2003",
+      "end": "2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Fargo",
+    "region": "North Dakota",
+    "country": "United States",
+    "group": "North Dakota"
+  },
+  "education": [
+    "Bachelor's degree, Kinesiology and Exercise Science, Concordia College, 1999 to 2004"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

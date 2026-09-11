@@ -1,0 +1,41 @@
+{
+  "id": "rwe-clean-energy",
+  "type": "company",
+  "name": "RWE Clean Energy",
+  "aliases": [
+    "RWE"
+  ],
+  "industry_role": "energy developer",
+  "headquarters": "Chicago, Illinois",
+  "founded": null,
+  "website": "https://www.rwe.com/en/rwe-clean-energy/",
+  "linkedin": "https://www.linkedin.com/company/rwe-clean-energy/",
+  "headcount": "501-1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: US arm of RWE AG. Wind, solar, hydro, storage developer. Operates across PJM, MISO, ERCOT, CAISO.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

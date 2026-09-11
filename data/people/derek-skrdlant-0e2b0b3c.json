@@ -1,0 +1,118 @@
+{
+  "id": "derek-skrdlant-0e2b0b3c",
+  "type": "person",
+  "name": "Derek Skrdlant",
+  "current_title": "Project Manager",
+  "current_company": "Black & Veatch",
+  "linkedin": "https://www.linkedin.com/in/derek-skrdlant-p-e-4986a292",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Project Manager at Black & Veatch, 8/2025 to present; Senior Esimator at Black & Veatch, 3/2024 to 9/2025; Lead Estimator/Pre-Construction Engineer at Black & Veatch, 5/2022 to 3/2024; Engineer 4 at Black & Veatch, 11/2021 to 5/2022; Engineer 3 at Black & Veatch, 10/2017 to 12/2021; Engineer 2 at Black & Veatch, 10/2015 to 10/2017; Engineer 1 at Black & Veatch, 6/2014 to 10/2015; Engineering Support Technician at Colorado Springs Utilities, 6/2013 to 8/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 5,
+      "date_added": "2026-08-04 16:07:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "black-veatch",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Manager",
+      "company": "Black & Veatch",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Esimator",
+      "company": "Black & Veatch",
+      "start": "3/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator/Pre-Construction Engineer",
+      "company": "Black & Veatch",
+      "start": "5/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Engineer 4",
+      "company": "Black & Veatch",
+      "start": "11/2021",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Engineer 3",
+      "company": "Black & Veatch",
+      "start": "10/2017",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Engineer 2",
+      "company": "Black & Veatch",
+      "start": "10/2015",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Engineer 1",
+      "company": "Black & Veatch",
+      "start": "6/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Engineering Support Technician",
+      "company": "Colorado Springs Utilities",
+      "start": "6/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of Science (BS), Environmental Engineering, Colorado School Of Mines, 2010 to 2014"
+  ],
+  "biography": "Mr. Skrdlant is a licensed Civil Engineer whose role as a Senior Estimator has provided experience both in the U.S. and internationally. He is responsible for the Civil/Structural/Architectural takeoff and cost development, complete estimate integration, and working with the entire project team for all Mining & Metals projects at Black & Veatch. He has led teams, including subcontractors, to complete estimates on time, within client accuracy ranges, and to the satisfaction of Clients. He also contains experience supporting design development, project controls, scheduling, procurement, and many other aspects of his projects. His software expertise includes InEight Estimate, MC2 ICE Estimating, On-Screen Takeoff (OST), @Risk Monte Carlo Simulation (Probabilistic Contingency Evaluation), Assemble Systems, and Microsoft Office.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

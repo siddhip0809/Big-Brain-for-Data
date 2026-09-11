@@ -1,0 +1,104 @@
+{
+  "id": "declan-carr-5144f5ef",
+  "type": "person",
+  "name": "Declan Carr",
+  "current_title": "Director, Pre-Development - Europe",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/declan-carr-851b3b29",
+  "location": "Ireland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Pre-Development - Europe at QTS Data Centers, 4/2025 to present; Pre-Construction Manager EMEA | ICM at Meta, 10/2018 to 4/2025; Contracts Manager at John Sisk & Son, 1/2000 to 10/2018; Bid Manager / Contracts Manager at John Sisk & Son, 1/2000 to 10/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Active in another SW campaign",
+      "rank": 158,
+      "date_added": "2026-07-10 11:23:07 UTC",
+      "date_updated": "2026-07-30 01:40:17 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 228,
+      "date_added": "2026-02-05 14:16:05 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Pre-Development - Europe",
+      "company": "QTS Data Centers",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Pre-Construction Manager EMEA"
+    },
+    {
+      "title": "ICM",
+      "company": "Meta",
+      "start": "10/2018",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Contracts Manager",
+      "company": "John Sisk & Son",
+      "start": "1/2000",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Bid Manager / Contracts Manager",
+      "company": "John Sisk & Son",
+      "start": "1/2000",
+      "end": "10/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "education": [
+    "Civil Engineering, Abertay University, 1995 to 1997"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "rating": 2.0,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "jones-carter",
+  "type": "company",
+  "name": "Jones & Carter",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Bellarie, Texas",
+  "founded": null,
+  "website": "https://www.jonescarter.com",
+  "linkedin": "https://www.linkedin.com/company/jonescarter/",
+  "headcount": "501 to 1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "No"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet note: Civil engineering. Texas. Primarily commercial/municipal.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

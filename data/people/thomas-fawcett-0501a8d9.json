@@ -1,0 +1,69 @@
+{
+  "id": "thomas-fawcett-0501a8d9",
+  "type": "person",
+  "name": "Thomas Fawcett",
+  "current_title": "Senior Electrical Estimator",
+  "current_company": "Walbridge",
+  "linkedin": "https://www.linkedin.com/in/thomas-fawcett-48430012",
+  "location": "Charlotte , North Carolina",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Electrical Estimator at Walbridge, 5/2023 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 567,
+      "date_added": "2026-08-27 11:21:26 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 567,
+      "date_added": "2026-08-27 11:21:26 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "walbridge",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Walbridge",
+      "start": "5/2023",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Charlotte",
+    "region": "North Carolina",
+    "country": "United States",
+    "group": "North Carolina"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

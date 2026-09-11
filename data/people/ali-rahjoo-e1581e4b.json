@@ -1,0 +1,146 @@
+{
+  "id": "ali-rahjoo-e1581e4b",
+  "type": "person",
+  "name": "Ali Rahjoo",
+  "current_title": "Senior Project Manager",
+  "current_company": "Clune Construction",
+  "linkedin": "https://www.linkedin.com/in/ali-rahjoo-99283287",
+  "location": "Gaithersburg, Maryland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Project Manager at Clune Construction, 4/2026 to present; Senior Project Manager at KADCON, 8/2024 to 4/2026; Project Manager at GCS | SIGAL, 12/2019 to 8/2024; Assistant Project Manager at GCS | SIGAL, 4/2019 to 12/2019; Assistant Project Manager at Forrester Construction, 7/2018 to 4/2019; Project Engineer at Balfour Beatty US, 10/2016 to 7/2018; Project Engineer at Judlau Contracting, 6/2015 to 9/2016; Research Assistant at University of Maryland, 1/2015 to 6/2015; Field Supervisor Project Manager at NVE Mechanical and Construction, 5/2011 to 8/2014; Director of Sales and Marketing at Dominion Jewelers, 12/2008 to 4/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 57,
+      "date_added": "2026-08-05 11:03:28 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 57,
+      "date_added": "2026-08-05 11:03:28 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "clune-construction-company",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "Clune Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "KADCON",
+      "start": "8/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "GCS",
+      "current": false
+    },
+    {
+      "company": "SIGAL",
+      "start": "12/2019",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "GCS",
+      "current": false
+    },
+    {
+      "company": "SIGAL",
+      "start": "4/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Forrester Construction",
+      "start": "7/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Balfour Beatty US",
+      "start": "10/2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Judlau Contracting",
+      "start": "6/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Research Assistant",
+      "company": "University of Maryland",
+      "start": "1/2015",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Field Supervisor Project Manager",
+      "company": "NVE Mechanical and Construction",
+      "start": "5/2011",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Director of Sales and Marketing",
+      "company": "Dominion Jewelers",
+      "start": "12/2008",
+      "end": "4/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Gaithersburg",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

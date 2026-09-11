@@ -1,0 +1,112 @@
+{
+  "id": "john-hagan-7c4e0b8f",
+  "type": "person",
+  "name": "John Hagan",
+  "current_title": "Preconstruction Executive",
+  "current_company": "HITT Contracting",
+  "linkedin": "https://www.linkedin.com/in/jhaganiv",
+  "location": "Washington, DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Executive at HITT Contracting, 11/2025 to present; Senior Preconstruction Manager at HITT Contracting, 11/2023 to 11/2025; Preconstruction Manager at HITT Contracting, 10/2021 to 11/2023; Preconstruction Estimator at L F Jennings, 11/2019 to 10/2021; Civil Estimator at F O Day, 7/2018 to 11/2019; Project Manager at M OF TALLAHASSEE, 2015 to 2018; Project Manager & Engineering Specialist at Florida Department of Environmental Protection, 9/2013 to 3/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 77,
+      "date_added": "2026-08-06 08:39:52 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hitt-contracting",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Executive",
+      "company": "HITT Contracting",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "HITT Contracting",
+      "start": "11/2023",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "HITT Contracting",
+      "start": "10/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Estimator",
+      "company": "L F Jennings",
+      "start": "11/2019",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Civil Estimator",
+      "company": "F O Day",
+      "start": "7/2018",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "M OF TALLAHASSEE",
+      "start": "2015",
+      "end": "2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager & Engineering Specialist",
+      "company": "Florida Department of Environmental Protection",
+      "start": "9/2013",
+      "end": "3/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Bachelor of Science - BS, Civil Engineering, Florida State University",
+    "Maclay School"
+  ],
+  "biography": "Senior Manager, Preconstruction at HITT",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

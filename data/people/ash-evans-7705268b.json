@@ -1,0 +1,137 @@
+{
+  "id": "ash-evans-7705268b",
+  "type": "person",
+  "name": "Ash Evans",
+  "current_title": "Managing Director",
+  "current_company": "Form8tion Data Centers",
+  "linkedin": "https://www.linkedin.com/in/ash-evans-57a14653",
+  "location": "London, England, United Kingdom",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Managing Director at Form8tion Data Centers, 5/2026 to present; EMEA Lead - Data Centre & Cloud Strategy | Energy Infrastructure | Data Centre Development  at Google, 5/2016 to 6/2026; Program Manager - Energy and Location Strategy at Google, 3/2015 to 5/2016; Mechanical Engineer at Foster + Partners, 12/2014 to 3/2015; Lead Mechanical Engineer & Project Manager at Atkins, 7/2014 to 1/2015; Project Design Engineer at Quality Group, 4/2011 to 9/2011; Sustainability & Building Services Design Engineer at Atkins, 9/2010 to 1/2015; Summer Internship - Solar Decathlon at The University of Nottingham, 5/2010 to 9/2010; Freelance Project Consultant & Project Engineer at Evolve Growing Solutions, 3/2009 to 6/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Too Senior",
+      "rank": 24,
+      "date_added": "2026-07-08 17:34:07 UTC",
+      "date_updated": "2026-07-30 01:40:16 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "form8tion-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Managing Director",
+      "company": "Form8tion Data Centers",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "EMEA Lead - Data Centre & Cloud Strategy"
+    },
+    {
+      "raw": "Energy Infrastructure"
+    },
+    {
+      "title": "Data Centre Development ",
+      "company": "Google",
+      "start": "5/2016",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Program Manager - Energy and Location Strategy",
+      "company": "Google",
+      "start": "3/2015",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "Foster + Partners",
+      "start": "12/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Lead Mechanical Engineer & Project Manager",
+      "company": "Atkins",
+      "start": "7/2014",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Project Design Engineer",
+      "company": "Quality Group",
+      "start": "4/2011",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Sustainability & Building Services Design Engineer",
+      "company": "Atkins",
+      "start": "9/2010",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Summer Internship - Solar Decathlon",
+      "company": "The University of Nottingham",
+      "start": "5/2010",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Freelance Project Consultant & Project Engineer",
+      "company": "Evolve Growing Solutions",
+      "start": "3/2009",
+      "end": "6/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Master of Engineering (MEng), Architecture and Environmental Engineering, University Of Nottingham, 2007 to 2011"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence",
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy",
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "spoken_with_before": true,
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

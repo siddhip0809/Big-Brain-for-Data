@@ -1,0 +1,70 @@
+{
+  "id": "andy-kowalchuk-17f7df9b",
+  "type": "person",
+  "name": "Andy Kowalchuk",
+  "current_title": "Vice President, Construction Supply Chain/ Project Controls",
+  "current_company": "NTT",
+  "linkedin": "https://www.linkedin.com/in/andy-kowalchuk-4232a0119",
+  "location": "Gilbert, Arizona, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President, Construction Supply Chain/ Project Controls at NTT, 2/2021 to present; Director, Strategic Sourcing and Procurement at Intel, 1998 to 1/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 8,
+      "date_added": "2026-07-02 11:47:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "ntt",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction Supply Chain/ Project Controls",
+      "company": "NTT",
+      "start": "2/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Strategic Sourcing and Procurement",
+      "company": "Intel",
+      "start": "1998",
+      "end": "1/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Gilbert",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Master of Business Administration (MBA), UC Irvine, 1996 to 1998",
+    "Bachelor's of Science in Engineering, Bioengineering and Biomedical Engineering, Arizona State University, 1992 to 1996"
+  ],
+  "biography": "Vice President, Construction Supply Chain/ Project Controls at NTT Global Data Centers Americas",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

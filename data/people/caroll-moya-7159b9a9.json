@@ -1,0 +1,112 @@
+{
+  "id": "caroll-moya-7159b9a9",
+  "type": "person",
+  "name": "Caroll Moya",
+  "current_title": "Preconstruction Executive",
+  "current_company": "Clark Construction Group",
+  "linkedin": "https://www.linkedin.com/in/carollmoya",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Executive at Clark Construction Group, 9/2023 to present; Senior Preconstruction Manager & Cost Planner - Lendlease West Coast Development at Lendlease, 4/2021 to 7/2023; Senior Estimator/ Preconstruction Manager at Truebeck Construction, 2/2014 to 4/2021; Estimator/ Preconstruction Manager at Dome Construction, 8/2006 to 2/2014; Scheduler at Raytheon Space and Airborne Systems, 5/2005 to 9/2005; Technical Writter at JDSU, 6/2004 to 1/2005; Undergraduate Research, Non-Linear Dynamics of Liquid Crystals at Kent State University Liquid Crystals Institute, 6/2001 to 9/2001",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 30,
+      "date_added": "2026-08-04 07:34:41 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "clark-construction-group",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Executive",
+      "company": "Clark Construction Group",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager & Cost Planner - Lendlease West Coast Development",
+      "company": "Lendlease",
+      "start": "4/2021",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator/ Preconstruction Manager",
+      "company": "Truebeck Construction",
+      "start": "2/2014",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Estimator/ Preconstruction Manager",
+      "company": "Dome Construction",
+      "start": "8/2006",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Scheduler",
+      "company": "Raytheon Space and Airborne Systems",
+      "start": "5/2005",
+      "end": "9/2005",
+      "current": false
+    },
+    {
+      "title": "Technical Writter",
+      "company": "JDSU",
+      "start": "6/2004",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Undergraduate Research, Non-Linear Dynamics of Liquid Crystals",
+      "company": "Kent State University Liquid Crystals Institute",
+      "start": "6/2001",
+      "end": "9/2001",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "MS & MBA, Industrial & Manufacturing Engineering, California Polytechnic State University-San Luis Obispo, 2004 to 2006",
+    "Bachelor's Degree, Physics, California Polytechnic State University-San Luis Obispo, 2001 to 2004"
+  ],
+  "biography": "Preconstruction Executive",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "green-mountain-global-data-centers",
+  "type": "company",
+  "name": "Green Mountain Global Data Centers",
+  "aliases": [
+    "Green Mountain",
+    "Green Mountain AS - Data centres"
+  ],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Hyperscaler",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nMerged 2026-09-09: absorbed duplicate record 'Green Mountain' (green-mountain).\n\nMerged 2026-09-09: absorbed duplicate record 'Green Mountain AS - Data centres' (green-mountain-as-data-centres).",
+  "sources": [
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 813.2,
+      "early_stage_mw": 320.0
+    }
+  }
+}

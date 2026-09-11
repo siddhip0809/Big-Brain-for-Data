@@ -1,0 +1,40 @@
+{
+  "id": "oxford-cold-storage",
+  "type": "company",
+  "name": "Oxford Cold Storage",
+  "aliases": [],
+  "industry_role": "real estate / industrial developer",
+  "headquarters": "Versailles, Indiana",
+  "founded": null,
+  "website": "https://www.oxfordcold.com",
+  "linkedin": "https://www.linkedin.com/company/oxford-cold-storage/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Cold Storage Developer / Operator",
+      "Primary Scope": "Regional",
+      "DC Exposure Level": "Low",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "Semi-national",
+      "NoVA Relevance": "Low"
+    }
+  },
+  "dc_exposure_level": "Low",
+  "notes": "Siddhi's sheet note: Regional cold storage developer. Indiana and Ohio focus. Limited NoVA relevance but solid permitting team for industrial development.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

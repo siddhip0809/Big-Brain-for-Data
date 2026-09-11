@@ -1,0 +1,90 @@
+{
+  "id": "andrew-brodeur-2a4c6f29",
+  "type": "person",
+  "name": "Andrew Brodeur",
+  "current_title": "Vice President - National Real Estate",
+  "current_company": "EdgeConneX",
+  "linkedin": "https://www.linkedin.com/in/andrewbrodeur",
+  "location": "Westford, Massachusetts",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President - National Real Estate at EdgeConneX, 8/2010 to present; Vice President - Real Estate at Global Tower Partners, 10/2006 to 8/2010; Director of Real Estate at Global Tower Partners, 10/2005 to 10/2006; Vice President at Tower Resource Management, 1999 to 2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 109,
+      "date_added": "2025-11-19 14:44:19 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "edgeconnex",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President - National Real Estate",
+      "company": "EdgeConneX",
+      "start": "8/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Real Estate",
+      "company": "Global Tower Partners",
+      "start": "10/2006",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Director of Real Estate",
+      "company": "Global Tower Partners",
+      "start": "10/2005",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "Tower Resource Management",
+      "start": "1999",
+      "end": "2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Westford",
+    "region": "Massachusetts",
+    "country": "United States",
+    "group": "Massachusetts"
+  },
+  "education": [
+    "BA, Political Science, The Citadel, 1989 to 1993"
+  ],
+  "biography": "Entrepreneurial Senior Executive with broad experience in the wireless industry focused on marketing to and management for tower and large real estate companies. Equally effective at securing new clients and building long-term client relationships. Excellent track record of recognizing and exploiting unrealized opportunities for business growth and penetrating new markets. Dynamic, self-directed leader with a cooperative management style. Strong history of effective collaboration to integrate technology and meet or exceed company goals.\r\n\r\nSpecialties: ▪ Business Management & Operations\r\n▪ New Business Development\r\n▪ Strategic Market Planning\r\n▪ Financial Modeling and Planning\r\n▪ Contract Negotiations\r\n▪ Forecast and Meeting Revenue Targets\r\n▪ Budget Control and Implementation\r\n▪ Effective Group Presentations",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "pete-marin-cce6e64c",
+  "type": "person",
+  "name": "Pete Marin",
+  "current_title": "CEO & Chairman",
+  "current_company": "T5 Data Centers",
+  "linkedin": "https://www.linkedin.com/in/petemarin",
+  "location": "Atlanta, Georgia",
+  "seniority": "CXO",
+  "industry_segment": "Data Centre",
+  "career_history": "CEO & Chairman at T5 Data Centers, 3/2008 to present; Executive Vice President at The Staubach Company, 7/1994 to 3/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 130,
+      "date_added": "2025-12-15 15:08:27 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "t5-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "CEO & Chairman",
+      "company": "T5 Data Centers",
+      "start": "3/2008",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President",
+      "company": "The Staubach Company",
+      "start": "7/1994",
+      "end": "3/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Bachelors, Virginia Tech, 1989 to 1989",
+    "Langley HS, 1984 to 1984"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "mike-campbell-e5d6b708",
+  "type": "person",
+  "name": "Mike Campbell",
+  "current_title": "Chief Sales Officer",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/mikecampbell32",
+  "location": "Boston, Massachusetts",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Sales Officer at Equinix, 7/2016 to present; Senior Vice President Of Sales, Americas at Equinix, 9/2015 to 7/2016; Senior Vice President, Sales at Symantec, 5/2014 to 8/2015; Vice President, Sales at Symantec, 8/2010 to 5/2014; Vice President Sales, Americas at VERISIGN, 2/2004 to 8/2010; Vice President, Sales at Guardent, 12/2001 to 2/2004; Vice President, Sales at Akamai Technologies, 1/2001 to 12/2001; Rvp, Data Services Sales at Data Return, 6/2000 to 1/2001; Vice President, Sales at UUNET, 5/1999 to 6/2000; Regional Vice President, Sales at Compuserve Network Services, 9/1989 to 5/1999; National Account Executive at NCR, 6/1987 to 9/1989",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 4,
+      "date_added": "2025-11-06 13:07:17 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Sales Officer",
+      "company": "Equinix",
+      "start": "7/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President Of Sales, Americas",
+      "company": "Equinix",
+      "start": "9/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President, Sales",
+      "company": "Symantec",
+      "start": "5/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Vice President, Sales",
+      "company": "Symantec",
+      "start": "8/2010",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Vice President Sales, Americas",
+      "company": "VERISIGN",
+      "start": "2/2004",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Vice President, Sales",
+      "company": "Guardent",
+      "start": "12/2001",
+      "end": "2/2004",
+      "current": false
+    },
+    {
+      "title": "Vice President, Sales",
+      "company": "Akamai Technologies",
+      "start": "1/2001",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Rvp, Data Services Sales",
+      "company": "Data Return",
+      "start": "6/2000",
+      "end": "1/2001",
+      "current": false
+    },
+    {
+      "title": "Vice President, Sales",
+      "company": "UUNET",
+      "start": "5/1999",
+      "end": "6/2000",
+      "current": false
+    },
+    {
+      "title": "Regional Vice President, Sales",
+      "company": "Compuserve Network Services",
+      "start": "9/1989",
+      "end": "5/1999",
+      "current": false
+    },
+    {
+      "title": "National Account Executive",
+      "company": "NCR",
+      "start": "6/1987",
+      "end": "9/1989",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Boston",
+    "region": "Massachusetts",
+    "country": "United States",
+    "group": "Massachusetts"
+  },
+  "education": [
+    "Bachelor Of Science, Bachelors, Communications, Marketing, University of Dayton, 1983 to 1987"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

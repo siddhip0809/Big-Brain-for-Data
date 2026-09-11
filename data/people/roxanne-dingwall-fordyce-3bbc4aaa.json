@@ -1,0 +1,154 @@
+{
+  "id": "roxanne-dingwall-fordyce-3bbc4aaa",
+  "type": "person",
+  "name": "Roxanne Dingwall-Fordyce",
+  "current_title": "Site Acquisition Manager",
+  "current_company": "AWS",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/roxanne-fordyce",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Site Acquisition Manager at AWS, 10/2025 to present; EMEA Land Acquisition Manager at Microsoft, 1/2024 to 8/2025; Transaction Services: Head of Tenant Representation at Cushman and Wakefield | BROLL, 5/2022 to 1/2024; Senior Transactions Manager at Cushman and Wakefield | BROLL, 6/2019 to 1/2024; Senior Transactions Manager at Broll Property Group, 4/2018 to 1/2024; Developments Leasing Executive at Growthpoint Properties, 5/2014 to 4/2018; Commercial Leasing Executive at Redefine Properties, 11/2010 to 4/2014; Leasing Executive: Commercial & Industrial at Redefine Properties, 3/2010 to 4/2014; Commercial Property Broker at Bradford McCormack, 2/2010 to 11/2010; Commercial Property Broker at Lalela Properties, 10/2006 to 2/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 83,
+      "date_added": "2026-08-14 13:08:01 UTC",
+      "date_updated": "2026-08-14 08:24:45 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 129,
+      "date_added": "2026-07-10 08:19:00 UTC",
+      "date_updated": "2026-08-14 08:08:01 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Site Acquisition Manager",
+      "company": "AWS",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EMEA Land Acquisition Manager",
+      "company": "Microsoft",
+      "start": "1/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Transaction Services: Head of Tenant Representation",
+      "company": "Cushman and Wakefield",
+      "current": false
+    },
+    {
+      "company": "BROLL",
+      "start": "5/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Transactions Manager",
+      "company": "Cushman and Wakefield",
+      "current": false
+    },
+    {
+      "company": "BROLL",
+      "start": "6/2019",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Transactions Manager",
+      "company": "Broll Property Group",
+      "start": "4/2018",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Developments Leasing Executive",
+      "company": "Growthpoint Properties",
+      "start": "5/2014",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Commercial Leasing Executive",
+      "company": "Redefine Properties",
+      "start": "11/2010",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Leasing Executive: Commercial & Industrial",
+      "company": "Redefine Properties",
+      "start": "3/2010",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Commercial Property Broker",
+      "company": "Bradford McCormack",
+      "start": "2/2010",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Commercial Property Broker",
+      "company": "Lalela Properties",
+      "start": "10/2006",
+      "end": "2/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor of journalism, Broadcast Journalism, Rhodes University"
+  ],
+  "biography": "Experienced Land Acquisition Manager with a demonstrated history of working in data center development, land, logistics, warehousing and office real estate markets. Skilled in land acquisitions, commercial leasing, commercial real estate, sales, marketing, and sale and lease negotiations. Strong business development professional with 18 years in corporate real estate.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

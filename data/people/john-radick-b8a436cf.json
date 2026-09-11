@@ -1,0 +1,139 @@
+{
+  "id": "john-radick-b8a436cf",
+  "type": "person",
+  "name": "John Radick",
+  "current_title": "Director, Data Center Construction",
+  "current_company": "McGough Construction",
+  "linkedin": "https://www.linkedin.com/in/johnradick",
+  "location": "Seattle, Washington",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Data Center Construction at McGough Construction, 9/2025 to present; AI Mega Campus Design Manager at AWS, 11/2023 to 9/2025; AI/ML Design Management Lead at Amazon, 8/2023 to 7/2025; Critical Environments Global Director at Cushman & Wakefield, 2022 to 2023; Managing Director, Critical Environments Project & Development Services at Cushman & Wakefield, 2022 to 2023; Director of Mission Critical Design/Construction at Jacobs, 2016 to 2022; Construction Program Executive at Jacobs, 2016 to 2022; Senior Data Center Program Manager - Western United States and Latin America at Microsoft, 2010 to 2016; Vice President at Pacific Fire and Security / Prestige Communications, 2009 to 2010; Vice President at SME Electrical and Pacific Fire and Security, 2009 to 2010; Regional Program Director at Microsoft, 2007 to 2016; Senior Program Manager at TenantWorks, 2004 to 2007; Associate / Senior Construction Manager at TenantWorks / GVA Kidder Mathews, 2004 to 8/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 342,
+      "date_added": "2026-08-27 13:16:36 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Data Center Construction",
+      "company": "McGough Construction",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AI Mega Campus Design Manager",
+      "company": "AWS",
+      "start": "11/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "AI/ML Design Management Lead",
+      "company": "Amazon",
+      "start": "8/2023",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Critical Environments Global Director",
+      "company": "Cushman & Wakefield",
+      "start": "2022",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Managing Director, Critical Environments Project & Development Services",
+      "company": "Cushman & Wakefield",
+      "start": "2022",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Director of Mission Critical Design/Construction",
+      "company": "Jacobs",
+      "start": "2016",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Construction Program Executive",
+      "company": "Jacobs",
+      "start": "2016",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Senior Data Center Program Manager - Western United States and Latin America",
+      "company": "Microsoft",
+      "start": "2010",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "Pacific Fire and Security / Prestige Communications",
+      "start": "2009",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "SME Electrical and Pacific Fire and Security",
+      "start": "2009",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Regional Program Director",
+      "company": "Microsoft",
+      "start": "2007",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Senior Program Manager",
+      "company": "TenantWorks",
+      "start": "2004",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Associate / Senior Construction Manager",
+      "company": "TenantWorks / GVA Kidder Mathews",
+      "start": "2004",
+      "end": "8/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Electrical and Electronics Engineering, University Of Washington"
+  ]
+}

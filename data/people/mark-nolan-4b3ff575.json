@@ -1,0 +1,99 @@
+{
+  "id": "mark-nolan-4b3ff575",
+  "type": "person",
+  "name": "Mark Nolan",
+  "current_title": "Data Center Cost & Commercial Management",
+  "current_company": "OpenAI",
+  "linkedin": "https://www.linkedin.com/in/mark-nolan-6aab5562",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Cost & Commercial Management at OpenAI, 11/2025 to present; Director, Commercial Management - Americas at Equinix, 3/2021 to 11/2025;  Senior Director, Head of Commercial Management - Americas  at WeWork, 9/2020 to 3/2021;  Director, Commercial Management - US & Canada West at WeWork, 7/2018 to 3/2021; Preconstruction at DPR Construction, 5/2015 to 7/2018; Quantity Surveyor / Cost Consultant at Omnium International, 5/2009 to 5/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Senior",
+      "rank": 65,
+      "date_added": "2026-08-05 13:10:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "openai",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Cost & Commercial Management",
+      "company": "OpenAI",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Commercial Management - Americas",
+      "company": "Equinix",
+      "start": "3/2021",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Head of Commercial Management - Americas ",
+      "company": "WeWork",
+      "start": "9/2020",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Commercial Management - US & Canada West",
+      "company": "WeWork",
+      "start": "7/2018",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Preconstruction",
+      "company": "DPR Construction",
+      "start": "5/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor / Cost Consultant",
+      "company": "Omnium International",
+      "start": "5/2009",
+      "end": "5/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

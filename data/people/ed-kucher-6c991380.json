@@ -1,0 +1,129 @@
+{
+  "id": "ed-kucher-6c991380",
+  "type": "person",
+  "name": "Ed Kucher",
+  "current_title": "Senior Project Controls Manager/senior Master scheduler",
+  "current_company": "AECOM",
+  "linkedin": "https://www.linkedin.com/in/edkucher",
+  "location": "Vienna, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Project Controls Manager/senior Master scheduler at AECOM, 10/2025 to present; Project Controls Manager/senior Master scheduler at AECOM, 6/2019 to 10/2025; Senior Scheduler/Team Leader at HNTB, 7/2018 to 5/2019; Project Controls Specialist at Arcadis, 1/2016 to 7/2018; Project Controls Manager at Star Oil, 9/2011 to 12/2015; Senior Project Scheduler, and Project Controls at TP Engineering & Management, 2/2009 to 9/2011; Project Controls Specialist at Rahbaran PM/CM, 5/2008 to 2/2009; Project Controls Specialist at Rasin Construction, 6/2004 to 5/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 54,
+      "date_added": "2026-08-05 10:38:20 UTC",
+      "date_updated": "2026-08-05 07:26:35 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 54,
+      "date_added": "2026-08-05 10:38:20 UTC",
+      "date_updated": "2026-08-05 07:26:35 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "aecom",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Controls Manager/senior Master scheduler",
+      "company": "AECOM",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Controls Manager/senior Master scheduler",
+      "company": "AECOM",
+      "start": "6/2019",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Scheduler/Team Leader",
+      "company": "HNTB",
+      "start": "7/2018",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Arcadis",
+      "start": "1/2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "Star Oil",
+      "start": "9/2011",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Project Scheduler, and Project Controls",
+      "company": "TP Engineering & Management",
+      "start": "2/2009",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Rahbaran PM/CM",
+      "start": "5/2008",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Rasin Construction",
+      "start": "6/2004",
+      "end": "5/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Vienna",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Master of Science (MS), Financial Engineering, Raja University, 2006 to 2009",
+    "Bachelor of Science (BS), Industrial Engineering, IAU, 2001 to 2006"
+  ],
+  "biography": "Project Controls and Project Scheduler Specialist with 18 years of experience in Program/Construction Management, specializing in Program/Project Controls disciplines of Planning & Scheduling, Cost Management, Risk Management, and Forensic Analysis. Experienced in FEED, Engineering, Procurement, Construction, Installation, and Pre-Commissioning on mega-projects in the Oil and Gas, Infrastructure, and construction industries with a combined value of $12B. Well-versed in CPM, PERT, and EVM project management techniques. A seasoned Primavera P6 user and administrator with advanced knowledge of P6 capabilities. Highly experienced in creating highly sophisticated ad-hoc reports, and setting up Primavera P6 automation by using the most appropriate and reliable though fastest method based on the project needs, and existing Primavera P6 permissions\\limitations, including SQL Queries, Primavera Integration API (Java programming), Primavera SDK, and direct XML, XER modifications. PMI PMP holder, AACE CCP, and PSP holder, CSI CDT holder, CMAA CCM holder, and Oracle Primavera EPPM Implementation Certified Specialist.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

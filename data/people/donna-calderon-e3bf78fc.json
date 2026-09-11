@@ -1,0 +1,91 @@
+{
+  "id": "donna-calderon-e3bf78fc",
+  "type": "person",
+  "name": "Donna Calderon",
+  "current_title": "Energy Strategy",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/donna-calderon-38740733",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Energy Strategy at Google, 4/2019 to present; sPower, 3/2018 to 4/2019; Renewable Energy Systems Americas, 7/2014 to 2/2018; Renewable Energy Manager at Liberty Power, 9/2012 to 7/2014; Senior Energy Market Analyst at Liberty Power, 7/2009 to 10/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 117,
+      "date_added": "2026-04-20 15:49:54 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Strategy",
+      "company": "Google",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "sPower",
+      "start": "3/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "company": "Renewable Energy Systems Americas",
+      "start": "7/2014",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy Manager",
+      "company": "Liberty Power",
+      "start": "9/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Energy Market Analyst",
+      "company": "Liberty Power",
+      "start": "7/2009",
+      "end": "10/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BS, Energy Business and Finance, Penn State University, 2004 to 2009"
+  ],
+  "biography": "Energy Strategy at Google",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "wesley-anastase-brookes-a9f4b14d",
+  "type": "person",
+  "name": "Wesley Anastase-Brookes",
+  "current_title": "Commercial Sales and Marketing Director",
+  "current_company": "Ark Data Centres",
+  "linkedin": "https://www.linkedin.com/in/wesleybrookes",
+  "location": "London, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Commercial Sales and Marketing Director at Ark Data Centres, 1/2022 to present; Head of Commercial Sector Sales at Ark Data Centres, 5/2021 to 1/2022; Sales Executive at Ark Data Centres, 7/2015 to 1/2022; Client Partner at Infinity Sdc, 4/2014 to 7/2015; EMEA Sales Manager at Source Managed Services, 3/2013 to 3/2014; Sales Manager at LAN3, 1/2013 to 2/2013; Business Development Manager at LAN3, 9/2009 to 2/2013; Director at Plan22, 9/2005 to 7/2009; Sales Manager at SyndeSys, 3/2002 to 9/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 280,
+      "date_added": "2026-08-21 14:38:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "ark-data-centres",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial Sales and Marketing Director",
+      "company": "Ark Data Centres",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Commercial Sector Sales",
+      "company": "Ark Data Centres",
+      "start": "5/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Ark Data Centres",
+      "start": "7/2015",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Client Partner",
+      "company": "Infinity Sdc",
+      "start": "4/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "EMEA Sales Manager",
+      "company": "Source Managed Services",
+      "start": "3/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "LAN3",
+      "start": "1/2013",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "LAN3",
+      "start": "9/2009",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Plan22",
+      "start": "9/2005",
+      "end": "7/2009",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "SyndeSys",
+      "start": "3/2002",
+      "end": "9/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "A Level, Abingdon & Witney College, 1995 to 1997",
+    "GCSE, Woodgreen School, 1990 to 1995"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "terrasmart",
+  "type": "company",
+  "name": "TerraSmart",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Fort Myers, Florida",
+  "founded": null,
+  "website": "https://www.terrasmart.com",
+  "linkedin": "https://www.linkedin.com/company/terrasmart/",
+  "headcount": "501-1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "EPC / Racking",
+      "Utility Scale": "No",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "No Physical Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Solar racking and EPC company. Not a developer or power owner. Not a talent hunting ground for power roles.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

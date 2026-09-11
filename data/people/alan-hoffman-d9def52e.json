@@ -1,0 +1,83 @@
+{
+  "id": "alan-hoffman-d9def52e",
+  "type": "person",
+  "name": "Alan Hoffman",
+  "current_title": "Senior Estimator",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/alan-j-hoffman-pe",
+  "location": "Chicago, Illinois",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Mortenson, 4/2010 to present; Associate Project Manager II at Opus North, 5/2005 to 2/2010; Project Engineer at Weis Builders, 6/2002 to 4/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 249,
+      "date_added": "2026-08-12 09:34:54 UTC",
+      "date_updated": "2026-08-18 05:20:07 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Mortenson",
+      "start": "4/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Project Manager II",
+      "company": "Opus North",
+      "start": "5/2005",
+      "end": "2/2010",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Weis Builders",
+      "start": "6/2002",
+      "end": "4/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Chicago",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "education": [
+    "BS, Construction Engineering and Management, Purdue University, 1997 to 2002"
+  ],
+  "biography": "Specialties: Scheduling (Project & Suretrak)BudgetingDesign/Build ExperienceComparison EstimatingHard BiddingBid Analysis, Scope Reviews, and ContractingMicrosoft: Outlook, Word, Excel, PowerPointProposal Specification Writing",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

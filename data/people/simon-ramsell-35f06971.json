@@ -1,0 +1,153 @@
+{
+  "id": "simon-ramsell-35f06971",
+  "type": "person",
+  "name": "Simon Ramsell",
+  "current_title": "Senior Director, Real Estate Expansion EMEA VIRTUS",
+  "current_company": "Virtus Data Centers",
+  "location": "Reading, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/simon-ramsell-0b373821",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director, Real Estate Expansion EMEA VIRTUS at Virtus Data Centers, 12/2022 to present; VP Data Centers Europe at Prologis, 12/2021 to 3/2023; EMEA Manager Real Estate at AWS, 9/2017 to 1/2022; Principal EMEA Real Estate at Amazon, 10/2016 to 12/2021; Acquisition and Asset Manager - UK Real Estate at Amazon, 9/2012 to 8/2017; Property Manager, Retail Development at John Lewis, 9/2011 to 9/2012; Head of Property at Wincanton, 5/2011 to 9/2011; Property Development Manager at Wincanton, 10/2006 to 4/2011; Regional Property Manager at Wincanton, 1/2004 to 10/2006; Acquisition Manager at CPS Global, 2/2001 to 1/2004; Agency Surveyor at Dreweatt Neate, 1/1999 to 12/2001; Estates Manager at UKAEA Harwell International Business Centre, 9/1995 to 12/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Not Interested",
+      "rank": 36,
+      "date_added": "2026-08-12 09:34:33 UTC",
+      "date_updated": "2026-08-12 04:36:21 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 85,
+      "date_added": "2026-07-09 11:12:52 UTC",
+      "date_updated": "2026-08-12 04:34:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "virtus-data-centers",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director, Real Estate Expansion EMEA VIRTUS",
+      "company": "Virtus Data Centers",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Data Centers Europe",
+      "company": "Prologis",
+      "start": "12/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "EMEA Manager Real Estate",
+      "company": "AWS",
+      "start": "9/2017",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Principal EMEA Real Estate",
+      "company": "Amazon",
+      "start": "10/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Acquisition and Asset Manager - UK Real Estate",
+      "company": "Amazon",
+      "start": "9/2012",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Property Manager, Retail Development",
+      "company": "John Lewis",
+      "start": "9/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Head of Property",
+      "company": "Wincanton",
+      "start": "5/2011",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Property Development Manager",
+      "company": "Wincanton",
+      "start": "10/2006",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Property Manager",
+      "company": "Wincanton",
+      "start": "1/2004",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Acquisition Manager",
+      "company": "CPS Global",
+      "start": "2/2001",
+      "end": "1/2004",
+      "current": false
+    },
+    {
+      "title": "Agency Surveyor",
+      "company": "Dreweatt Neate",
+      "start": "1/1999",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Estates Manager",
+      "company": "UKAEA Harwell International Business Centre",
+      "start": "9/1995",
+      "end": "12/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Reading",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

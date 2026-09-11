@@ -1,0 +1,113 @@
+{
+  "id": "george-papako-686ae7fc",
+  "type": "person",
+  "name": "George Papako",
+  "current_title": "Real Estate Development Manager",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/george-papako",
+  "location": "Dublin, Dublin",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Development Manager at AWS, 3/2025 to present; Senior Consultant at Churchill, 2/2024 to present; Project Manager at Linesight, 11/2022 to 2/2024; Property Development Manager at Stefatos Bros, 9/2017 to 3/2022; Construction Project Manager at Stefatos Bros, 9/2016 to 8/2017; Site Mep Engineer at Harinsa Contracting Company Qatar Wll, 5/2015 to 8/2016; Sales Consultant at Italtherm Olvino Cossio & Sia E E, 2/2014 to 4/2015; Military Service at 401 General Military Hospital Of Athens, 11/2011 to 6/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Years Experience",
+      "rank": 143,
+      "date_added": "2026-07-10 10:38:49 UTC",
+      "date_updated": "2026-07-30 01:40:17 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "AWS",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Churchill",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Linesight",
+      "start": "11/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Property Development Manager",
+      "company": "Stefatos Bros",
+      "start": "9/2017",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Stefatos Bros",
+      "start": "9/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Site Mep Engineer",
+      "company": "Harinsa Contracting Company Qatar Wll",
+      "start": "5/2015",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant",
+      "company": "Italtherm Olvino Cossio & Sia E E",
+      "start": "2/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Military Service",
+      "company": "401 General Military Hospital Of Athens",
+      "start": "11/2011",
+      "end": "6/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dublin",
+    "region": "County Dublin",
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "education": [
+    "Master Of Science, Masters, Construction, Project Management, Unsw, 2013 to 2013",
+    "Bachelor Of Science, Bachelors, Mechanical Engineering, University Of West Attica, 2007 to 2012"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

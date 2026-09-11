@@ -1,0 +1,121 @@
+{
+  "id": "tim-streeter-5fb3ec8f",
+  "type": "person",
+  "name": "Tim Streeter",
+  "current_title": "Director, Interconnection",
+  "current_company": "CyrusOne",
+  "linkedin": "https://www.linkedin.com/in/tim-streeter-6ab551",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Interconnection  at CyrusOne, 4/2024 to present; Interconnection Sales Engineer at CyrusOne, 11/2018 to 4/2024; Account Director - Carrier Sales at Zayo, 7/2012 to 12/2018; Carrier Account Manager at AboveNet Communications, 4/2012 to 7/2012; Regional Sales Manager at AboveNet Communications, 1/2010 to 4/2012; Carrier Account Director at AboveNet Communications, 5/1999 to 12/2009; Carrier Sales at Broadwing Communications, 9/1997 to 5/1999; National Account Manager/Sales Manager at WorldCom, 10/1992 to 9/1997; Account Executive at Allnet Communications, 2/1992 to 8/1992",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 40,
+      "date_added": "2025-11-12 13:00:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "cyrusone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Interconnection ",
+      "company": "CyrusOne",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Interconnection Sales Engineer",
+      "company": "CyrusOne",
+      "start": "11/2018",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Account Director - Carrier Sales",
+      "company": "Zayo",
+      "start": "7/2012",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Carrier Account Manager",
+      "company": "AboveNet Communications",
+      "start": "4/2012",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "AboveNet Communications",
+      "start": "1/2010",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Carrier Account Director",
+      "company": "AboveNet Communications",
+      "start": "5/1999",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Carrier Sales",
+      "company": "Broadwing Communications",
+      "start": "9/1997",
+      "end": "5/1999",
+      "current": false
+    },
+    {
+      "title": "National Account Manager/Sales Manager",
+      "company": "WorldCom",
+      "start": "10/1992",
+      "end": "9/1997",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Allnet Communications",
+      "start": "2/1992",
+      "end": "8/1992",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Arts, Economics, Miami University, 1987 to 1991"
+  ],
+  "biography": "Specialties: Metro dark fiber, metro lit services (WDM and Ethernet) and IP bandwidth to carrier and enterprise customers.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

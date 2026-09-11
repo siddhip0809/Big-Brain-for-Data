@@ -1,0 +1,163 @@
+{
+  "id": "emilia-bocan-b2585597",
+  "type": "person",
+  "name": "Emilia Bocan",
+  "current_title": "Real Estate Acquisition Manager",
+  "current_company": "Microsoft",
+  "location": "Amsterdam, North Holland, Netherlands",
+  "linkedin": "https://www.linkedin.com/in/bocan-emilia-9083799",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Acquisition Manager at Microsoft, 10/2023 to present; Real Estate Transaction Manager EMEA at AWS, 9/2021 to 11/2023; Real Estate Expansion Manager at Amazon, 12/2019 to 9/2021; Head of Urban Logistics Spain at P3 Logistic Parks, 1/2019 to 10/2019; Senior Leasing and Development Manager at P3 Logistic Parks, 11/2016 to 12/2018; Senior Leasing Manager at IMMOFINANZ, 5/2016 to 11/2016; Leasing Manager and Marketing Coordinator Office and Logistics at IMMOFINANZ, 4/2013 to 11/2016; Associate Retail Agency at Colliers, 11/2012 to 4/2013; Assistant Retail Agency at Colliers, 4/2010 to 4/2013; Responsabil Departamentul Relatii cu Distribuitorii at Vision Romania, 3/2008 to 4/2010; Analist Servicii Clienti at GENPACT, 7/2007 to 4/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "2d. CV Received / Scheduling Full Assessment",
+      "rank": 80,
+      "date_added": "2026-08-14 13:00:17 UTC",
+      "date_updated": "2026-08-19 09:22:54 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 102,
+      "date_added": "2026-07-09 11:34:57 UTC",
+      "date_updated": "2026-08-14 08:00:17 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 364,
+      "date_added": "2026-04-21 15:51:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Acquisition Manager",
+      "company": "Microsoft",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Transaction Manager EMEA",
+      "company": "AWS",
+      "start": "9/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Real Estate Expansion Manager",
+      "company": "Amazon",
+      "start": "12/2019",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Head of Urban Logistics Spain",
+      "company": "P3 Logistic Parks",
+      "start": "1/2019",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Leasing and Development Manager",
+      "company": "P3 Logistic Parks",
+      "start": "11/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Leasing Manager",
+      "company": "IMMOFINANZ",
+      "start": "5/2016",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Leasing Manager and Marketing Coordinator Office and Logistics",
+      "company": "IMMOFINANZ",
+      "start": "4/2013",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Associate Retail Agency",
+      "company": "Colliers",
+      "start": "11/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Retail Agency",
+      "company": "Colliers",
+      "start": "4/2010",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Responsabil Departamentul Relatii cu Distribuitorii",
+      "company": "Vision Romania",
+      "start": "3/2008",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Analist Servicii Clienti",
+      "company": "GENPACT",
+      "start": "7/2007",
+      "end": "4/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Amsterdam",
+    "region": "North Holland",
+    "country": "Netherlands",
+    "group": "Netherlands"
+  },
+  "education": [
+    "Bachelor's degree, Academy of Economic Studies Bucharest, 2005 to 2008"
+  ],
+  "biography": "Emilia Bocan is a Land Acquisitions Lead at Microsoft in Amsterdam with over 15 years of real estate experience, including past roles at Amazon Logistics and AWS.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Average",
+    "rating": 3.0,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ben-prock-6544a53f",
+  "type": "person",
+  "name": "Ben Prock",
+  "current_title": "(former) Director of Acquisitions and Development",
+  "current_company": "Atmosphere Data Centers",
+  "linkedin": "https://www.linkedin.com/in/benton-prock",
+  "location": "Newport Beach, California",
+  "seniority": "CXO",
+  "industry_segment": "Data Centre",
+  "career_history": "Co-Founder and Partner at Bay Hill Development, 4/2026 to present; Director of Acquisitions and Development at Atmosphere Data Centers, 2/2025 to 7/2026; Corporate Development (M&A) Analyst at Microsoft, 3/2023 to 2/2025; Financial Analyst (Rotation Program) at Microsoft, 9/2021 to 3/2023; Specialty Lending Group - Summer Analyst at Goldman Sachs, 7/2020 to 8/2020; Business Development Intern at K1 Investment Management, 5/2019 to 7/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 240,
+      "date_added": "2026-04-20 10:30:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "atmosphere-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Co-Founder and Partner",
+      "company": "Bay Hill Development",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Acquisitions and Development",
+      "company": "Atmosphere Data Centers",
+      "start": "2/2025",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Corporate Development (M&A) Analyst",
+      "company": "Microsoft",
+      "start": "3/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst (Rotation Program)",
+      "company": "Microsoft",
+      "start": "9/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Specialty Lending Group - Summer Analyst",
+      "company": "Goldman Sachs",
+      "start": "7/2020",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Business Development Intern",
+      "company": "K1 Investment Management",
+      "start": "5/2019",
+      "end": "7/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Newport Beach",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor's Degree, Finance,  Accounting Minor, Texas Christian University, 2017 to 2021"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

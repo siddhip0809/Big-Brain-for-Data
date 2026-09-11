@@ -1,0 +1,131 @@
+{
+  "id": "abe-gausepohl-b226fbce",
+  "type": "person",
+  "name": "Abe Gausepohl",
+  "current_title": "Renewable Energy Manager",
+  "current_company": "Meta",
+  "linkedin": "https://www.linkedin.com/in/abe-gausepohl-6798aa6a",
+  "location": "Louisville, Kentucky",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Renewable Energy Manager at Meta, 11/2022 to present; Utility Engagement and Renewable Energy Strategist at Samsung Austin Semiconductor, 12/2021 to 11/2022; Renewable Energy and Carbon Advisory Manager at Schneider Electric Energy & Sustainability Services, 4/2021 to 12/2021; Cleantech Services Specialist at Schneider Electric Energy & Sustainability Services, 6/2018 to 4/2021; Cleantech Services Associate at Schneider Electric Energy & Sustainability Services, 6/2017 to 6/2018; Regional Energy Buyer at Schneider Electric Energy & Sustainability Services, 6/2015 to 7/2017; Regulated and Emerging Markets Analyst at TAC, 11/2013 to 6/2015; Peregrino at Camino de Santiago, 5/2013 to 7/2013; Scholar Intern at The Wilson Center, 5/2012 to 8/2012; Student at University of Kentucky, 2011 to 2012; Meta",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 154,
+      "date_added": "2026-06-02 15:01:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "meta",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Renewable Energy Manager",
+      "company": "Meta",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Utility Engagement and Renewable Energy Strategist",
+      "company": "Samsung Austin Semiconductor",
+      "start": "12/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy and Carbon Advisory Manager",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "4/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Cleantech Services Specialist",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "6/2018",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Cleantech Services Associate",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "6/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Energy Buyer",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "6/2015",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Regulated and Emerging Markets Analyst",
+      "company": "TAC",
+      "start": "11/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Peregrino",
+      "company": "Camino de Santiago",
+      "start": "5/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Scholar Intern",
+      "company": "The Wilson Center",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Student",
+      "company": "University of Kentucky",
+      "start": "2011",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "raw": "Meta"
+    }
+  ],
+  "location_norm": {
+    "city": "Louisville",
+    "region": "Kentucky",
+    "country": "United States",
+    "group": "Kentucky"
+  },
+  "education": [
+    "Master's degree, Diplomacy and International Commerce, University of Kentucky, 2011 to 2012",
+    "Bachelor's degree, Political Science, Transylvania University, 2007 to 2011"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

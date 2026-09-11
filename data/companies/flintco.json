@@ -1,0 +1,44 @@
+{
+  "id": "flintco",
+  "type": "company",
+  "name": "Flintco",
+  "aliases": [
+    "Flintco, LLC"
+  ],
+  "industry_role": "real estate / industrial developer / general contractor",
+  "headquarters": "Tulsa, Oklahoma",
+  "founded": null,
+  "website": "https://www.flintco.com",
+  "linkedin": "https://www.linkedin.com/company/flintco/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "general_contractor",
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "GC / Design-Build (Industrial / Food Processing)",
+      "Primary Scope": "National",
+      "DC Exposure Level": "Medium",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: GC specializing in industrial, food processing, and cold storage. Permitting team familiar with complex utility and environmental compliance for large industrial sites. Somewhat transferable to DC.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

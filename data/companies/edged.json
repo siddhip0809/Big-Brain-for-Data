@@ -1,0 +1,49 @@
+{
+  "id": "edged",
+  "type": "company",
+  "name": "Edged",
+  "aliases": [],
+  "industry_role": "data center developer",
+  "headquarters": "New York, United States",
+  "founded": null,
+  "website": "http://www.edgedenergy.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 3 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): corporate subsidiary of Koch Inc.. Portfolio company of Koch Real Estate Investments (Koch Inc. subsidiary). As of Sept 2026, Koch was reportedly exploring a sale valued up to $15B (not yet closed).",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/edgedenergy/",
+  "headcount": "51-200",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 378.9,
+      "early_stage_mw": 306.6
+    }
+  }
+}

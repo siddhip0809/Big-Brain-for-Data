@@ -1,0 +1,37 @@
+{
+  "id": "urban-ltd",
+  "type": "company",
+  "name": "Urban Ltd",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Philadelphia, Pennsylvania",
+  "founded": null,
+  "website": "https://urbanengineers.com",
+  "linkedin": "https://www.linkedin.com/company/urban-ltd/",
+  "headcount": "51 to 200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Medium",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "No"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet note: Civil + infra. Limited DC exposure.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

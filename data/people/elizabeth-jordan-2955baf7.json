@@ -1,0 +1,123 @@
+{
+  "id": "elizabeth-jordan-2955baf7",
+  "type": "person",
+  "name": "Elizabeth Jordan",
+  "current_title": "Lead Estimator",
+  "current_company": "Hensel Phelps",
+  "location": "Mount Airy, Maryland",
+  "linkedin": "https://www.linkedin.com/in/elizabeth-jordan-5688415a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Lead Estimator at Hensel Phelps, 9/2023 to present; Project Engineer at Hensel Phelps, 1/2021 to 9/2023; Office Engineer at Hensel Phelps, 9/2017 to 1/2021; Commissioning Engineer at Hensel Phelps, 11/2016 to 9/2017; Field Engineer at Hensel Phelps, 7/2016 to 11/2016; Estimating Intern at Elford, 5/2015 to 1/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 271,
+      "date_added": "2026-09-02 08:52:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 503,
+      "date_added": "2026-08-26 06:40:16 UTC",
+      "date_updated": "2026-09-02 03:52:32 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 503,
+      "date_added": "2026-08-26 06:40:16 UTC",
+      "date_updated": "2026-09-02 03:52:32 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "1/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "9/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer",
+      "company": "Hensel Phelps",
+      "start": "11/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "7/2016",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "Elford",
+      "start": "5/2015",
+      "end": "1/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Mount Airy",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "education": [
+    "Bachelor’s Degree, Construction Management, Kent State University, 2012 to 2016"
+  ],
+  "biography": "I currently have several years of professional experience in the construction industry. My skills include but are not limited to personnel management, financials (change orders, budgets, progress payments), project schedule, construction safety, submittals & RFI's, owner liaison experience, subcontractor management, contract document understanding, mechanical/electrical/plumbing knowledge, structural knowledge, design build construction, estimating experience, negotiating, excellent written and verbal skills, etc.",
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

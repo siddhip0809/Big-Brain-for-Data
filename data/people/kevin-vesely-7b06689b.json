@@ -1,0 +1,58 @@
+{
+  "id": "kevin-vesely-7b06689b",
+  "type": "person",
+  "name": "Kevin Vesely",
+  "current_title": "Vice President, Construction",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/kevinvesely",
+  "location": "Chicago, Illinois",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President, Construction at STACK Infrastructure, 1/2020 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 196,
+      "date_added": "2026-07-08 08:22:42 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction",
+      "company": "STACK Infrastructure",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Chicago",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

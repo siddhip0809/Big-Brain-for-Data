@@ -1,0 +1,106 @@
+{
+  "id": "peter-matthews-e4102925",
+  "type": "person",
+  "name": "Peter Matthews",
+  "current_title": "Development Manager",
+  "current_company": "Yondr",
+  "linkedin": "https://www.linkedin.com/in/peter-matthews-09aa7318a",
+  "location": "San Francisco,  California",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Development Manager at Yondr, 4/2023 to present; GIS Development Manager at Yondr, 5/2021 to 10/2023; Development Analyst at Yondr, 9/2020 to 5/2021; Geographic Information Systems Analyst at Linesight, 4/2020 to 9/2020; Sales at Fad Saoil Saunas, 9/2019 to 12/2019; Outdoor Services at Old Head Golf Links, 4/2013 to 9/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 190,
+      "date_added": "2026-01-22 11:58:22 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "yondr",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Development Manager",
+      "company": "Yondr",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "GIS Development Manager",
+      "company": "Yondr",
+      "start": "5/2021",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Development Analyst",
+      "company": "Yondr",
+      "start": "9/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Geographic Information Systems Analyst",
+      "company": "Linesight",
+      "start": "4/2020",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "Fad Saoil Saunas",
+      "start": "9/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Outdoor Services",
+      "company": "Old Head Golf Links",
+      "start": "4/2013",
+      "end": "9/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor of Science - BS, Geology/Earth Science, General, University College Cork, 2015 to 2019",
+    "Midleton College, 2009 to 2015"
+  ],
+  "biography": "Operating as a Development Manager in the Americas Region as part of the Site Selection Team at Yondr Group",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "brent-chacon-71d52d20",
+  "type": "person",
+  "name": "Brent Chacon",
+  "current_title": "Director of Concrete Services",
+  "current_company": "GH Phipps Construction Companies",
+  "linkedin": "https://www.linkedin.com/in/brent-chacon-35b3256",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Retail / Mixed Use / Multifamily Residential",
+  "career_history": "Director of Concrete Services at GH Phipps Construction Companies, 4/2025 to present; Preconstruction Manager/BD - Concrete Services at GH Phipps Construction Companies, 5/2022 to 4/2025; Project Manager at GH Phipps Construction Companies, 5/2017 to 5/2022; Senior Project Manager at Ceco Concrete Construction, 6/2007 to 3/2017; Project Engineer at Ceco Concrete Construction, 2007 to 2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 33,
+      "date_added": "2026-08-04 16:07:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "gh-phipps-construction-companies",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Concrete Services",
+      "company": "GH Phipps Construction Companies",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager/BD - Concrete Services",
+      "company": "GH Phipps Construction Companies",
+      "start": "5/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "GH Phipps Construction Companies",
+      "start": "5/2017",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Ceco Concrete Construction",
+      "start": "6/2007",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Ceco Concrete Construction",
+      "start": "2007",
+      "end": "2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, Engineering - Mechanical Specialty, Colorado School Of Mines, 2002 to 2007",
+    "Valley High School, 1998 to 2002"
+  ],
+  "biography": "Preconstruction Manager/BD at GH Phipps Construction Companies",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

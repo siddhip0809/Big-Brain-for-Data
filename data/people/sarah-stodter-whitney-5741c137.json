@@ -1,0 +1,138 @@
+{
+  "id": "sarah-stodter-whitney-5741c137",
+  "type": "person",
+  "name": "Sarah Stodter Whitney",
+  "current_title": "Data Center Site Selection Manager",
+  "current_company": "Meta",
+  "linkedin": "https://www.linkedin.com/in/sarah-stodter-whitney",
+  "location": "Menlo Park, California",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Site Selection Manager at Meta, 4/2026 to present; Regional Lead (West + LatAm) Data Center Acquisitions & Development at Google, 1/2024 to 4/2026; Strategic Negotiator at Google, 12/2021 to 1/2024; AWS, 5/2019 to 12/2021; Risk & Due Diligence Manager at AWS, 5/2019 to 12/2021; Senior Manager at Roux Associates, 1/2018 to 7/2018; Project Manager at Roux Associates, 6/2016 to 12/2017; Associate Engineer at Ramboll, 9/2012 to 6/2016; Associate Engineer at Ramboll, 2/2011 to 8/2012; Water Treatment Research - Filtration Team Lead at AguaClara Cornell, 5/2008 to 12/2010; AguaClara Cornell, 5/2008 to 12/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 326,
+      "date_added": "2026-04-20 15:52:01 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "meta",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Site Selection Manager",
+      "company": "Meta",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Lead (West + LatAm) Data Center Acquisitions & Development",
+      "company": "Google",
+      "start": "1/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "12/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "company": "AWS",
+      "start": "5/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Risk & Due Diligence Manager",
+      "company": "AWS",
+      "start": "5/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Roux Associates",
+      "start": "1/2018",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Roux Associates",
+      "start": "6/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Associate Engineer",
+      "company": "Ramboll",
+      "start": "9/2012",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Associate Engineer",
+      "company": "Ramboll",
+      "start": "2/2011",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Water Treatment Research - Filtration Team Lead",
+      "company": "AguaClara Cornell",
+      "start": "5/2008",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "company": "AguaClara Cornell",
+      "start": "5/2008",
+      "end": "12/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Menlo Park",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor of Science (B.S.), Environmental Engineering, Cornell University",
+    "Master of Science (M.S.), Environmental Engineering, University Of Southern California"
+  ],
+  "biography": "Data Center Infrastructure - Energy & Location Strategy",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

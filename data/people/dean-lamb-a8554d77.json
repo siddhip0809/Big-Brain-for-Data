@@ -1,0 +1,93 @@
+{
+  "id": "dean-lamb-a8554d77",
+  "type": "person",
+  "name": "Dean Lamb",
+  "current_title": "Director of Leasing",
+  "current_company": "Sabey Data Centers",
+  "linkedin": "https://www.linkedin.com/in/delamb",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Leasing at Sabey Data Centers, 4/2023 to present; Sales Director at Element Critical, 11/2020 to 4/2023; Sales Director at Evocative, 1/2020 to 11/2020; VP, Sales & Business Development at Fortress Data Centers, 4/2018 to 1/2020; Founding Member - Sales Director at Evocative, 6/2015 to 4/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 161,
+      "date_added": "2026-01-09 15:45:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "sabey-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Leasing",
+      "company": "Sabey Data Centers",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "Element Critical",
+      "start": "11/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Evocative",
+      "start": "1/2020",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "VP, Sales & Business Development",
+      "company": "Fortress Data Centers",
+      "start": "4/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Founding Member - Sales Director",
+      "company": "Evocative",
+      "start": "6/2015",
+      "end": "4/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

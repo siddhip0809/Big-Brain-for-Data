@@ -1,0 +1,161 @@
+{
+  "id": "matt-winters-cbc0eb1d",
+  "type": "person",
+  "name": "Matt Winters",
+  "current_title": "Head of Data Center Delivery",
+  "current_company": "OpenAI",
+  "linkedin": "https://www.linkedin.com/in/mwint",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Head of Data Center Delivery at OpenAI, 3/2025 to present; Director of Construction at Equinix, 5/2021 to 3/2025; Geographical Manager Asia Pacific, Data Center Design at Meta, 9/2019 to 5/2021; Program Manager, Data Center Solutions Group at Meta, 2/2018 to 9/2019; Preconstruction Manager, Special Projects at Meta, 10/2017 to 2/2018; Project Engineer, Appomattox at Shell, 12/2015 to 9/2017; Project Engineer, Arctic at Shell, 1/2014 to 12/2015; Project Engineer, Gulf Coast GtL at Shell, 10/2013 to 1/2014; Engineering Intern at US Army Corps of Engineers, 5/2012 to 8/2012; Engineering Intern at US Steel, 5/2011 to 8/2011; Engineering Intern at United States Steel, 5/2011 to 8/2011; Engineering Intern II at Michael Baker International, 1/2011 to 4/2011; Engineering Intern at The Great Lakes Construction Company, 6/2010 to 8/2010; Engineering Intern at The Great Lakes Construction Company, 5/2009 to 8/2009; Project Manager at Storage Condominiums, 9/2004 to 5/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 85,
+      "date_added": "2026-07-02 11:47:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "openai",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Data Center Delivery",
+      "company": "OpenAI",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Equinix",
+      "start": "5/2021",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Geographical Manager Asia Pacific, Data Center Design",
+      "company": "Meta",
+      "start": "9/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Program Manager, Data Center Solutions Group",
+      "company": "Meta",
+      "start": "2/2018",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager, Special Projects",
+      "company": "Meta",
+      "start": "10/2017",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, Appomattox",
+      "company": "Shell",
+      "start": "12/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, Arctic",
+      "company": "Shell",
+      "start": "1/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, Gulf Coast GtL",
+      "company": "Shell",
+      "start": "10/2013",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "US Army Corps of Engineers",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "US Steel",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "United States Steel",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern II",
+      "company": "Michael Baker International",
+      "start": "1/2011",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "The Great Lakes Construction Company",
+      "start": "6/2010",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "The Great Lakes Construction Company",
+      "start": "5/2009",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Storage Condominiums",
+      "start": "9/2004",
+      "end": "5/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BS, Civil Engineering, Cleveland State University",
+    "MS, Civil Engineering, Stanford University"
+  ],
+  "biography": "Director of Construction, Equinix",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

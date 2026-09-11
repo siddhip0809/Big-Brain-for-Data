@@ -1,0 +1,38 @@
+{
+  "id": "bowman",
+  "type": "company",
+  "name": "Bowman",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Reston, Virginia",
+  "founded": null,
+  "website": "https://bowman.com",
+  "linkedin": "https://www.linkedin.com/company/bowman-consulting/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: Land dev heavy. Growing DC site civil practice.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

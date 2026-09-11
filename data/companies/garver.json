@@ -1,0 +1,37 @@
+{
+  "id": "garver",
+  "type": "company",
+  "name": "Garver",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "North Little Rock, Arkansas",
+  "founded": null,
+  "website": "https://www.garverusa.com",
+  "linkedin": "https://www.linkedin.com/company/garverusa/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "No"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet note: Civil + water + transport. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

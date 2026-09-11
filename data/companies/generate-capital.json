@@ -1,0 +1,39 @@
+{
+  "id": "generate-capital",
+  "type": "company",
+  "name": "Generate Capital",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "San Francisco, California",
+  "founded": null,
+  "website": "https://www.generatecapital.com",
+  "linkedin": "https://www.linkedin.com/company/generate-capital/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Developer / Financier",
+      "Utility Scale": "No",
+      "Primary Scope": "National",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Sustainable infrastructure finance and development. Not a pure energy developer. Limited direct talent relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

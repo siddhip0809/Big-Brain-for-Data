@@ -1,0 +1,120 @@
+{
+  "id": "parvez-ahmed-27420c32",
+  "type": "person",
+  "name": "Parvez Ahmed",
+  "current_title": "Director - Sales",
+  "current_company": "Khazna Data Centers",
+  "linkedin": "https://www.linkedin.com/in/parvezahmed",
+  "location": "Dubai, UAE",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director - Sales at Khazna Data Centers, 10/2022 to present; Chief Sales Officer at Arc Solutions, 1/2021 to 12/2022; Regional Sales Director at Aryaka Networks, 1/2019 to 12/2021; Field Sales Manager at Rogers Data Centres, 1/2018 to 12/2018; Regional Sales Manager at China Telecom Americas, 1/2018 to 12/2019; Director - Sales at du, 1/2012 to 12/2017; Senior Manager at du, 1/2008 to 12/2012; Account Manager at Etisalat, 1/2007 to 12/2008; Khazna Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Location Issue",
+      "rank": 106,
+      "date_added": "2026-07-09 11:53:09 UTC",
+      "date_updated": "2026-07-30 02:24:54 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "khazna-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director - Sales",
+      "company": "Khazna Data Centers",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Sales Officer",
+      "company": "Arc Solutions",
+      "start": "1/2021",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Aryaka Networks",
+      "start": "1/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Field Sales Manager",
+      "company": "Rogers Data Centres",
+      "start": "1/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "China Telecom Americas",
+      "start": "1/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Director - Sales",
+      "company": "du",
+      "start": "1/2012",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "du",
+      "start": "1/2008",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Etisalat",
+      "start": "1/2007",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "raw": "Khazna Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Dubai",
+    "region": null,
+    "country": "United Arab Emirates",
+    "group": "United Arab Emirates"
+  },
+  "education": [
+    "Master of Business Administration - MBA, University of Birmingham",
+    "Bachelor of Engineering, Computer Science, University of Madras"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

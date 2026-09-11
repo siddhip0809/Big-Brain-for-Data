@@ -1,0 +1,111 @@
+{
+  "id": "dawson-jones-03f996e9",
+  "type": "person",
+  "name": "Dawson Jones",
+  "current_title": "Chief Estimator",
+  "current_company": "Swinerton",
+  "linkedin": "https://www.linkedin.com/in/dawson-jones-74a238b3",
+  "location": "Denver metropolitan area, Colorado",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Chief Estimator at Swinerton, 10/2024 to present; Estimating Manager at Swinerton, 5/2023 to 12/2024; Senior Estimator at Swinerton, 7/2018 to 5/2023; Team Supervisor at Sundyne, 2/2013 to 5/2014; Project Manager at Sundyne, 10/2011 to 2/2013; Lead Estimator at Watts Constructors, 8/2008 to 10/2011; Estimator / Project Engineer at The Weitz Company, 5/2004 to 8/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 3,
+      "date_added": "2026-08-04 16:07:12 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "swinerton",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Estimator",
+      "company": "Swinerton",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimating Manager",
+      "company": "Swinerton",
+      "start": "5/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Swinerton",
+      "start": "7/2018",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Team Supervisor",
+      "company": "Sundyne",
+      "start": "2/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Sundyne",
+      "start": "10/2011",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Watts Constructors",
+      "start": "8/2008",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Engineer",
+      "company": "The Weitz Company",
+      "start": "5/2004",
+      "end": "8/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS of Construction Management, Construction Management, The University of New Mexico, 2000 to 2004"
+  ],
+  "biography": "Swinerton provides commercial construction and construction management services throughout the United States and is a 100% employee-owned company. Recognized nationally since 1888, Swinerton is the preferred builder and trusted partner in every market it serves—proudly leading with integrity, passion, and excellence.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

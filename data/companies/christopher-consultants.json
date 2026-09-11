@@ -1,0 +1,38 @@
+{
+  "id": "christopher-consultants",
+  "type": "company",
+  "name": "Christopher Consultants (if not already in your final)",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Manassas, Virginia",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: Civil/land dev. NoVA. Active in DC campus site work in Virginia.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

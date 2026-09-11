@@ -1,0 +1,118 @@
+{
+  "id": "jason-dill-80265188",
+  "type": "person",
+  "name": "Jason Dill",
+  "current_title": "VP of Sales",
+  "current_company": "Prime Data Centers",
+  "linkedin": "https://www.linkedin.com/in/jasondill1",
+  "location": "Los Angeles, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "VP of Sales at Prime Data Centers, 11/2021 to present; VP of Data Center Sales & Marketing at CIM Group L P, 5/2019 to 11/2021; Vice President of Sales at EdgeConneX, 3/2016 to 5/2019; Strategic Business Development Director at Zayo, 6/2015 to 3/2016; Sr Account Executive West Coast zColo at Zayo, 4/2013 to 6/2015; Account Executive at Equinix, 5/2009 to 4/2013; Sr. Data Center Sales Consultant at AT&T, 1/1999 to 12/2002; Sales Executive at Exodus, 1/1997 to 12/1998",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 152,
+      "date_added": "2026-01-08 12:11:38 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "prime-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP of Sales",
+      "company": "Prime Data Centers",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP of Data Center Sales & Marketing",
+      "company": "CIM Group L P",
+      "start": "5/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "EdgeConneX",
+      "start": "3/2016",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Strategic Business Development Director",
+      "company": "Zayo",
+      "start": "6/2015",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Sr Account Executive West Coast zColo",
+      "company": "Zayo",
+      "start": "4/2013",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Equinix",
+      "start": "5/2009",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Sr. Data Center Sales Consultant",
+      "company": "AT&T",
+      "start": "1/1999",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Exodus",
+      "start": "1/1997",
+      "end": "12/1998",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor of Arts (BA), Information and Communication Studies, California State University, Chico, 1989 to 1993"
+  ],
+  "biography": "With over 20 years of experience in enterprise technology sales, I am a passionate and results-oriented Director of Sales at Prime Data Centers, a company that designs, builds, and manages data centers and data center infrastructure globally. My mission is to help clients achieve their business goals by providing them with innovative and customized data center solutions that meet their current and future needs.\n\nAs a sales leader, I leverage my strong relationship management, communication, and presentation skills to generate new business opportunities, expand existing accounts, and negotiate profitable contracts. I have successfully closed deals with some of the top data center buyers and operators in the industry, contributing to the growth and development of Prime's portfolio. I also collaborate with cross-functional teams and stakeholders to ensure the delivery of high-quality service and customer satisfaction. I am always eager to learn new trends and technologies in the data center space and share my insights and expertise with others.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sunbelt-holdings",
+  "type": "company",
+  "name": "Sunbelt Holdings",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Scottsdale, Arizona",
+  "founded": null,
+  "website": "https://www.sunbeltholdings.com",
+  "linkedin": "https://www.linkedin.com/company/sunbelt-holdings/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Low",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Low"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Commercial and industrial developer. Arizona focus. Some large-site development in Phoenix DC market.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

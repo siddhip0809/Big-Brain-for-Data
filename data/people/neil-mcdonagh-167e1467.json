@@ -1,0 +1,94 @@
+{
+  "id": "neil-mcdonagh-167e1467",
+  "type": "person",
+  "name": "Neil McDonagh",
+  "current_title": "Director, Utilities - Europe",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/neil-mcdonagh-58253127",
+  "location": "Ireland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Utilities - Europe at QTS Data Centers, 1/2025 to present; Energy Infrastructure Manager EMEA and APAC at Meta, 10/2017 to 12/2024; Head of Power, Ireland at AECOM, 7/2013 to 10/2017; Distance Learning Tutor at University of Bath, 3/2010 to 12/2012; Consultant Engineer at Esb International, 3/2004 to 6/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 80,
+      "date_added": "2026-01-05 16:06:19 UTC",
+      "date_updated": "2026-08-27 07:33:38 -0500",
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Utilities - Europe",
+      "company": "QTS Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy Infrastructure Manager EMEA and APAC",
+      "company": "Meta",
+      "start": "10/2017",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Power, Ireland",
+      "company": "AECOM",
+      "start": "7/2013",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Distance Learning Tutor",
+      "company": "University of Bath",
+      "start": "3/2010",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Consultant Engineer",
+      "company": "Esb International",
+      "start": "3/2004",
+      "end": "6/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "education": [
+    "Master of Business Administration - MBA, University of Bradford",
+    "BE, Mechanical Enginnering, University College Dublin",
+    "MSc, Electrical Power Systems, University of Bath"
+  ],
+  "biography": "Experienced Infrastructure Manager with a demonstrated history of working on and unlocking complex multi-disciplinary projects.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

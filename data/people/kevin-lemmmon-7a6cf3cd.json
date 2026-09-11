@@ -1,0 +1,96 @@
+{
+  "id": "kevin-lemmmon-7a6cf3cd",
+  "type": "person",
+  "name": "Kevin Lemmmon",
+  "current_title": "Preconstruction Manager",
+  "current_company": "CEC",
+  "location": "Dallas, Texas",
+  "linkedin": "https://www.linkedin.com/in/kevin-lemmon-5a11ab41",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at CEC, 6/2024 to present; Project Manager and Electrical Estmator at George-McKenna Electrical Contractors, 8/2019 to 2/2024; Project Manager at The Brandt Companies, 5/2012 to 8/2019;  Electrical Estimator at The Brandt Companies, 7/2010 to 5/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 179,
+      "date_added": "2026-08-21 15:53:37 UTC",
+      "date_updated": "2026-08-21 11:09:28 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 350,
+      "date_added": "2026-08-14 10:00:08 UTC",
+      "date_updated": "2026-08-21 10:53:37 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "CEC",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager and Electrical Estmator",
+      "company": "George-McKenna Electrical Contractors",
+      "start": "8/2019",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "The Brandt Companies",
+      "start": "5/2012",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "The Brandt Companies",
+      "start": "7/2010",
+      "end": "5/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

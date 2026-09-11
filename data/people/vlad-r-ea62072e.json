@@ -1,0 +1,92 @@
+{
+  "id": "vlad-r-ea62072e",
+  "type": "person",
+  "name": "Vlad R.",
+  "current_title": "Project Executive",
+  "current_company": "Rosendin",
+  "linkedin": "https://www.linkedin.com/in/vladraz",
+  "location": "Herndon, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Executive at Rosendin, 1/2026 to present; Senior Project Manager at VECA Electric & Technologies, 11/2024 to 1/2026; Senior Project Manager at Cumming, 10/2020 to 9/2022; Sr Preconstruction Manager at Amazon, 7/2020 to 11/2024; Construction Project Manager at OAC Services, 11/2018 to 5/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "HOLD - On Hold",
+      "rank": 113,
+      "date_added": "2026-08-07 12:53:02 UTC",
+      "date_updated": "2026-08-19 06:13:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Executive",
+      "company": "Rosendin",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "VECA Electric & Technologies",
+      "start": "11/2024",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Cumming",
+      "start": "10/2020",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Sr Preconstruction Manager",
+      "company": "Amazon",
+      "start": "7/2020",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "OAC Services",
+      "start": "11/2018",
+      "end": "5/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Herndon",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

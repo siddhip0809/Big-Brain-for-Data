@@ -1,0 +1,118 @@
+{
+  "id": "william-sargent-b12bc8b0",
+  "type": "person",
+  "name": "William Sargent",
+  "current_title": "Account Director",
+  "current_company": "Datum Datacentres",
+  "linkedin": "https://www.linkedin.com/in/wisargent",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Account Director at Datum Datacentres, 6/2019 to present; Business Development Manager at NTT, 3/2018 to 5/2019; Senior Sales Specialist - Cloud and Hosting at Timico, 9/2017 to 3/2018; Cloud & Hosting - Business Development Manager at Timico, 11/2014 to 3/2018; Business Development Manager - Enterprise Team at iomart Hosting, 5/2013 to 11/2014; New Acquisition Sales - Enterprise Team at Cogeco Peer 1, 6/2012 to 5/2013; New Business Manager at NetBenefit, 2/2011 to 6/2012; Senior Client Relationship Manager at G4S Policing Solutions, 10/2006 to 2/2011; Logistics Planner at Rolls-Royce Motor Cars, 6/2004 to 6/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Company History",
+      "rank": 282,
+      "date_added": "2026-08-21 14:54:05 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "datum-datacentres",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Director",
+      "company": "Datum Datacentres",
+      "start": "6/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "NTT",
+      "start": "3/2018",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Specialist - Cloud and Hosting",
+      "company": "Timico",
+      "start": "9/2017",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Cloud & Hosting - Business Development Manager",
+      "company": "Timico",
+      "start": "11/2014",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager - Enterprise Team",
+      "company": "iomart Hosting",
+      "start": "5/2013",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "New Acquisition Sales - Enterprise Team",
+      "company": "Cogeco Peer 1",
+      "start": "6/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "New Business Manager",
+      "company": "NetBenefit",
+      "start": "2/2011",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Client Relationship Manager",
+      "company": "G4S Policing Solutions",
+      "start": "10/2006",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Logistics Planner",
+      "company": "Rolls-Royce Motor Cars",
+      "start": "6/2004",
+      "end": "6/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bsc Logistics, Aston University, 2002 to 2006",
+    "A Levels Business Management Design Technology and Geography, HSDC Alton",
+    "GCSE's, Perins Community School"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

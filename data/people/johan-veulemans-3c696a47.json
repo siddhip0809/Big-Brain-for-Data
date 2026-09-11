@@ -1,0 +1,136 @@
+{
+  "id": "johan-veulemans-3c696a47",
+  "type": "person",
+  "name": "Johan Veulemans",
+  "current_title": "Real Estate & Corporate Development Director EMEA",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/johan-veulemans-1366013",
+  "location": "Amsterdam, North Holland, Netherlands",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate & Corporate Development Director EMEA at Equinix, 3/2021 to present; Real Estate Transactions Senior Manager EMEA at Equinix, 4/2018 to 3/2021; Real Estate Portfolio Mgt & Transactions Senior Manager EMEA  at Equinix, 8/2015 to 7/2018; Corporate Real Estate Planner EMEA at Stanley Black & Decker at Stanley Black & Decker, 7/2012 to 8/2015; FP&A Analyst Europe at Stanley Black & Decker at Stanley Black & Decker, 7/2009 to 6/2012; Controller Stanley Belgium - European DC at Stanley Black & Decker, 4/2004 to 6/2009; Accountant at Ansell Healthcare Europe, 1/2003 to 12/2004; Auditor at EY, 1/2002 to 12/2003; Project member Risk management - RatingTools/Basle II at Fortis Meespierson private banking, 7/2001 to 9/2001",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 86,
+      "date_added": "2026-07-09 11:12:52 UTC",
+      "date_updated": "2026-07-13 03:37:27 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 42,
+      "date_added": "2025-11-06 10:56:09 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate & Corporate Development Director EMEA",
+      "company": "Equinix",
+      "start": "3/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Transactions Senior Manager EMEA",
+      "company": "Equinix",
+      "start": "4/2018",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Real Estate Portfolio Mgt & Transactions Senior Manager EMEA ",
+      "company": "Equinix",
+      "start": "8/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Corporate Real Estate Planner EMEA",
+      "company": "Stanley Black & Decker at Stanley Black & Decker",
+      "start": "7/2012",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "FP&A Analyst Europe",
+      "company": "Stanley Black & Decker at Stanley Black & Decker",
+      "start": "7/2009",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Controller Stanley Belgium - European DC",
+      "company": "Stanley Black & Decker",
+      "start": "4/2004",
+      "end": "6/2009",
+      "current": false
+    },
+    {
+      "title": "Accountant",
+      "company": "Ansell Healthcare Europe",
+      "start": "1/2003",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Auditor",
+      "company": "EY",
+      "start": "1/2002",
+      "end": "12/2003",
+      "current": false
+    },
+    {
+      "title": "Project member Risk management - RatingTools/Basle II",
+      "company": "Fortis Meespierson private banking",
+      "start": "7/2001",
+      "end": "9/2001",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Amsterdam",
+    "region": "North Holland",
+    "country": "Netherlands",
+    "group": "Netherlands"
+  },
+  "education": [
+    "Master of Corporate Real Estate, CoreNet Global, 2013 to 2016",
+    "Master in real estate, KULAK university - Master in real estate, 2001 to 2002"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

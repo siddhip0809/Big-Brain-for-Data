@@ -1,0 +1,107 @@
+{
+  "id": "nirek-rao-c42e2d42",
+  "type": "person",
+  "name": "Nirek Rao",
+  "current_title": "Cost Control Manager",
+  "current_company": "Worldwide Mission Critical",
+  "linkedin": "https://www.linkedin.com/in/nirek-rao-b86b42101",
+  "location": "Washington, DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Cost Control Manager at Worldwide Mission Critical, 4/2024 to present; Senior Project Engineer at Clayco, 4/2023 to 4/2024; Assistant Project Manager at Sorensen Gross, 9/2022 to 4/2023;  Assistant Project Manager at Sorensen Gross, 5/2020 to 12/2022; Assistant Project Manager at Potomac Construction Services, 5/2019 to 4/2020; Asst. Superintendent Intern at Monarc Construction, 3/2019 to 5/2019; Project Management Intern at Monarc Construction, 5/2018 to 2/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 27,
+      "date_added": "2026-08-04 06:45:29 UTC",
+      "date_updated": "2026-08-18 04:47:46 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "worldwide-mission-critical",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Cost Control Manager",
+      "company": "Worldwide Mission Critical",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Clayco",
+      "start": "4/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Sorensen Gross",
+      "start": "9/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Sorensen Gross",
+      "start": "5/2020",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Potomac Construction Services",
+      "start": "5/2019",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Asst. Superintendent Intern",
+      "company": "Monarc Construction",
+      "start": "3/2019",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "Monarc Construction",
+      "start": "5/2018",
+      "end": "2/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

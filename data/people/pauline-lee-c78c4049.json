@@ -1,0 +1,114 @@
+{
+  "id": "pauline-lee-c78c4049",
+  "type": "person",
+  "name": "Pauline Lee",
+  "current_title": "Sales Director   Hyperscale Sales Apac | Global Data Centers",
+  "current_company": "NTT",
+  "linkedin": "https://www.linkedin.com/in/pauline-lee-bb34a41a",
+  "location": "Hong Kong",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director   Hyperscale Sales Apac | Global Data Centers at NTT, 10/2020 to present; Sales Director at NTT, 6/2016 to 10/2020; Senior Sales Manager at NTT, 1/2009 to 6/2016; Sales Manager at NTT, 7/2004 to 1/2009; Channel Sales Manager   Business Development at Pacific Century System, 7/2002 to 7/2004; Sales Manager at Dcl Communications, 7/2000 to 6/2002; Account Manager at Intel Security, 1/2000 to 6/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 105,
+      "date_added": "2025-11-18 15:42:59 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "ntt",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Sales Director   Hyperscale Sales Apac"
+    },
+    {
+      "title": "Global Data Centers",
+      "company": "NTT",
+      "start": "10/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "NTT",
+      "start": "6/2016",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Manager",
+      "company": "NTT",
+      "start": "1/2009",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "NTT",
+      "start": "7/2004",
+      "end": "1/2009",
+      "current": false
+    },
+    {
+      "title": "Channel Sales Manager   Business Development",
+      "company": "Pacific Century System",
+      "start": "7/2002",
+      "end": "7/2004",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Dcl Communications",
+      "start": "7/2000",
+      "end": "6/2002",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Intel Security",
+      "start": "1/2000",
+      "end": "6/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Hong Kong",
+    "region": null,
+    "country": "Hong Kong",
+    "group": "Hong Kong"
+  },
+  "education": [
+    "Masters, Business Admin, University of Lancashire, 1998 to 1999",
+    "English, International Business, University of Lancashire, 1997 to 1998"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

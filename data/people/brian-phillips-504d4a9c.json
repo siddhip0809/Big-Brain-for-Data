@@ -1,0 +1,96 @@
+{
+  "id": "brian-phillips-504d4a9c",
+  "type": "person",
+  "name": "Brian Phillips",
+  "current_title": "Senior Estimator",
+  "current_company": "Rosedin",
+  "linkedin": "https://www.linkedin.com/in/brian-phillips-dc",
+  "location": "Baltimore, Maryland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Rosedin, 3/2026 to present; Estimator at Rosendin Electric, 10/2018 to 3/2026; Estimator at Power Solutions, 9/2007 to 8/2018; Counter Sales at Dominion Electric Supply Company, 9/2002 to 9/2007; Warehouse Stock/Pack at Dominion Electric Supply Company, 1/2000 to 9/2002",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "HOLD - On Hold",
+      "rank": 101,
+      "date_added": "2026-08-06 15:09:00 UTC",
+      "date_updated": "2026-08-19 06:13:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Rosedin",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Rosendin Electric",
+      "start": "10/2018",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Power Solutions",
+      "start": "9/2007",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Counter Sales",
+      "company": "Dominion Electric Supply Company",
+      "start": "9/2002",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Warehouse Stock/Pack",
+      "company": "Dominion Electric Supply Company",
+      "start": "1/2000",
+      "end": "9/2002",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "education": [
+    "None, General Studies, Anne Arundel Community College, 2000 to 2001"
+  ],
+  "biography": "15+ years as an Estimator in the DC/Baltimore area, as well as 5 years experience as a electrical supply salesperson. In my capacity as an Estimator, I have worked on bids for all manner of work, including but not limited to: Healthcare facilities, Education, Mission Critical, and (Federal/State/Local) Government",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

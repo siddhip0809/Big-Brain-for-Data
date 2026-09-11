@@ -1,0 +1,42 @@
+{
+  "id": "ryan-companies-us-inc",
+  "type": "company",
+  "name": "Ryan Companies US, Inc.",
+  "aliases": [
+    "Ryan Companies US"
+  ],
+  "industry_role": "general contractor",
+  "headquarters": "Minneapolis, Minnesota",
+  "founded": null,
+  "website": "https://www.ryancompanies.com",
+  "linkedin": "https://www.linkedin.com/company/ryan-companies-us-inc-/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "general_contractor",
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "General Contractors USA",
+    "Real Estate Developers USA"
+  ],
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.\n\nSiddhi's real-estate sheet note: Design-build developer and contractor. Active in DC campus delivery. Known for large-scale industrial and mission-critical builds. Strong pre-construction and delivery talent.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

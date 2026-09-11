@@ -1,0 +1,117 @@
+{
+  "id": "pranav-joshi-5be86a22",
+  "type": "person",
+  "name": "Pranav Joshi",
+  "current_title": "Associate Director",
+  "current_company": "Cumming Group",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/pranavjoshi29",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Cumming Group, 12/2024 to present; Senior Consultant at Cumming Group, 1/2022 to 12/2024; Consultant at Cumming Group, 4/2019 to 12/2021; Consultant at Cumming Group, 1/2019 to 4/2019; Cost Management Intern at Cumming Group, 5/2018 to 12/2018; Project Management Intern at Central Public Works Department Govt of India, 7/2016 to 8/2016; Architectural Intern at Architectural and Interior Design Solutions, 6/2015 to 7/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 106,
+      "date_added": "2026-08-19 12:31:22 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 94,
+      "date_added": "2026-08-06 14:25:37 UTC",
+      "date_updated": "2026-08-19 07:31:22 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Cumming Group",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Cumming Group",
+      "start": "1/2022",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Cumming Group",
+      "start": "4/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Cumming Group",
+      "start": "1/2019",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Cost Management Intern",
+      "company": "Cumming Group",
+      "start": "5/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "Central Public Works Department Govt of India",
+      "start": "7/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Architectural Intern",
+      "company": "Architectural and Interior Design Solutions",
+      "start": "6/2015",
+      "end": "7/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

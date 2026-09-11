@@ -1,0 +1,74 @@
+{
+  "id": "ann-churlik-49fa8e6c",
+  "type": "person",
+  "name": "Ann Churlik",
+  "current_title": "Senior Estimator",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/ann-churlik-4487b16",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Senior Estimator at Mortenson, 4/2005 to present; Estimator at O'Neal Construction, 5/1998 to 4/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 17,
+      "date_added": "2026-08-04 16:07:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Mortenson",
+      "start": "4/2005",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "O'Neal Construction",
+      "start": "5/1998",
+      "end": "4/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of Science (BS), Construction Management, Eastern Michigan University, 1995 to 1999"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

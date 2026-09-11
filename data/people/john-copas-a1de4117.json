@@ -1,0 +1,79 @@
+{
+  "id": "john-copas-a1de4117",
+  "type": "person",
+  "name": "John Copas",
+  "current_title": "Director of Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/john-copas-0650a8239",
+  "location": "Grove City, Ohio",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Construction Manager at AWS, 5/2024 to present; Director of Development at QTS Data Centers, 4/2024 to present; Critical Project Engineer at AWS, 3/2019 to 8/2021; Project Manager at Denier Electric Company, 4/2000 to 3/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 165,
+      "date_added": "2026-07-07 11:12:56 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Development",
+      "company": "QTS Data Centers",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Critical Project Engineer",
+      "company": "AWS",
+      "start": "3/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Denier Electric Company",
+      "start": "4/2000",
+      "end": "3/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Grove City",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

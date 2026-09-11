@@ -1,0 +1,143 @@
+{
+  "id": "fr-d-ric-bourset-1a173ff6",
+  "type": "person",
+  "name": "Frédéric Bourset",
+  "current_title": "Head of Sales",
+  "current_company": "DATA4",
+  "location": "Paris, France",
+  "linkedin": "https://www.linkedin.com/in/frbourset",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Head of Sales at DATA4, 10/2023 to present; Senior Client Manager Multi National Account at NTT, 4/2020 to 11/2023; Strategic Account Director at NTT, 10/2019 to 11/2023; Strategic Account Director at NTT, 1/2013 to 11/2023; Account Director-Sales Manager-BU Ecommerce/Retail/Luxury/tourism at NTT, 1/2012 to 1/2014; Account Director at NTT, 1/2007 to 12/2011; Senior Account Manager at NTT, 1/2004 to 12/2007; Business and Channel development at NTT, 4/2002 to 12/2004; Business and Channel development at Alpha CSP, 1/2000 to 12/2002; Sales and marketing development at Lactalis Group, 1/1997 to 12/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 87,
+      "date_added": "2026-08-26 09:14:03 UTC",
+      "date_updated": "2026-08-26 04:16:49 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 63,
+      "date_added": "2026-07-09 04:25:32 UTC",
+      "date_updated": "2026-08-26 04:14:03 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "data4",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Sales",
+      "company": "DATA4",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Client Manager Multi National Account",
+      "company": "NTT",
+      "start": "4/2020",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "NTT",
+      "start": "10/2019",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "NTT",
+      "start": "1/2013",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Account Director-Sales Manager-BU Ecommerce/Retail/Luxury/tourism",
+      "company": "NTT",
+      "start": "1/2012",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "NTT",
+      "start": "1/2007",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "NTT",
+      "start": "1/2004",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Business and Channel development",
+      "company": "NTT",
+      "start": "4/2002",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Business and Channel development",
+      "company": "Alpha CSP",
+      "start": "1/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sales and marketing development",
+      "company": "Lactalis Group",
+      "start": "1/1997",
+      "end": "12/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "France",
+    "group": "France"
+  },
+  "education": [
+    "Bac+4, International Business school, Weller International Business school, 1991 to 1995"
+  ],
+  "biography": "I am a generalist with strong technical understanding and strong relationship capacity, specialized in both telecommunications and ICT outsourcing services with over 10 years of experience in European market.\n\nI am customer needs oriented, always linking the customer strategy to the company targets I work for.\n\nStrong skills from lead teaming, using sales methodologies, till operational organization, deployment, follows up and up-sell.\n\nAbility to communicate to a senior management audience e.g. CIO, CTO and managing International larger companies (Europe, Israel, US and India).\n\nProven record of results in fast changing small companies as well as in larger organisations demonstrating a solid understanding of business issues, intelligent analysis and common sense solutions.\n\nSpecialties: •Customer core business understanding oriented (synergy, consolidation, evolution)\n•Strong relationship and adaptation abilities\n•Sales strategy and operational sales Account management\n•Solutions and consultancy based selling\n•Lead teaming in order to meet customers expectations\n•Internet Architecture\n•Professional services business operation\n•Able to quickly establish rapport with colleagues and customers regardless of backgrounds and skills.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

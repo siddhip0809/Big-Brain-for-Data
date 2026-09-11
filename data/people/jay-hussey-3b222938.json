@@ -1,0 +1,58 @@
+{
+  "id": "jay-hussey-3b222938",
+  "type": "person",
+  "name": "Jay Hussey",
+  "current_title": "Sales Director",
+  "current_company": "H5 Data Centers",
+  "linkedin": "https://www.linkedin.com/in/jay-hussey-bb75221",
+  "location": "Oakland, California",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Sales Director at H5 Data Centers, 10/2019 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 247,
+      "date_added": "2026-04-22 14:37:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "h5-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "H5 Data Centers",
+      "start": "10/2019",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Oakland",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

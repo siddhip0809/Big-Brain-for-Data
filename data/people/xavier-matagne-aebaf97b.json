@@ -1,0 +1,106 @@
+{
+  "id": "xavier-matagne-aebaf97b",
+  "type": "person",
+  "name": "Xavier Matagne",
+  "current_title": "Chief Real Estate Officer",
+  "current_company": "Colt Data Centre Services",
+  "linkedin": "https://www.linkedin.com/in/xmatagne",
+  "location": "Nice",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Real Estate Officer at Colt Data Centre Services, 6/2025 to present; Chief Development Officer at Africa Data Centres, 6/2022 to 6/2025; Group Development Director at Africa Data Centres, 10/2018 to 6/2022; Project Director at Equinix, 6/2010 to 9/2018; Project Manager at Close International, 12/2007 to 4/2010; Business Analyst at Accenture, 9/2007 to 12/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 197,
+      "date_added": "2026-01-22 15:17:34 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "colt-data-centre-services",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Real Estate Officer",
+      "company": "Colt Data Centre Services",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Development Officer",
+      "company": "Africa Data Centres",
+      "start": "6/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Group Development Director",
+      "company": "Africa Data Centres",
+      "start": "10/2018",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Equinix",
+      "start": "6/2010",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Close International",
+      "start": "12/2007",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Accenture",
+      "start": "9/2007",
+      "end": "12/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Nice",
+    "region": null,
+    "country": "France",
+    "group": "France"
+  },
+  "education": [
+    "Executive MBA, Major in Entrepreneurship & Innovation, Hec Paris, 2017 to 2018",
+    "Executive Certificate, Innovative Management & Entrepreneurial Leadership, Babson College, 2017 to 2017",
+    "Engineer's degree, Master Thesis, Northwestern Polytechnic University (CN), 2007 to 2007",
+    "MSc, Engineering, Electro Mechanical (Aerospace), Université de Liège, 2002 to 2007"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

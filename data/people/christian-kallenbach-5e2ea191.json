@@ -1,0 +1,68 @@
+{
+  "id": "christian-kallenbach-5e2ea191",
+  "type": "person",
+  "name": "Christian Kallenbach",
+  "current_title": "Head of BD, Sales & Marketing",
+  "current_company": "GARBE.DC",
+  "linkedin": "https://www.linkedin.com/in/christian-kallenbach-62408554",
+  "location": "Friedberg, Hesse, Germany",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Head of BD, Sales & Marketing at GARBE.DC, 4/2023 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 286,
+      "date_added": "2026-08-21 15:30:52 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 280,
+      "date_added": "2026-07-27 06:15:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "garbe-dc",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of BD, Sales & Marketing",
+      "company": "GARBE.DC",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Friedberg",
+    "region": "Hesse",
+    "country": "Germany",
+    "group": "Germany"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

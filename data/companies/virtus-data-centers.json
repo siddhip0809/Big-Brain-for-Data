@@ -1,0 +1,53 @@
+{
+  "id": "virtus-data-centers",
+  "type": "company",
+  "name": "Virtus Data Centers",
+  "aliases": [
+    "VIRTUS Data Centres"
+  ],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": "London, United Kingdom",
+  "founded": null,
+  "website": "http://www.virtusdatacentres.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Hyperscaler",
+    "Retail"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 3 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Owned via parent ST Telemedia Global Data Centres (STT GDC); KKR and Singtel are acquiring full ownership from ST Telemedia (~US$3.9B enterprise value), expected to close H2 2026 -- KKR 75%, Singtel 25%.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/virtus-data-centres/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 597.72,
+      "early_stage_mw": 243.2
+    }
+  }
+}

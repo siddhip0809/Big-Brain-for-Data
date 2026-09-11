@@ -1,0 +1,69 @@
+{
+  "id": "brenda-getsinger-dec5abc5",
+  "type": "person",
+  "name": "Brenda Getsinger",
+  "current_title": "Project Estimator",
+  "current_company": "Arcadis",
+  "linkedin": "https://www.linkedin.com/in/brendagetsinger",
+  "location": "Yonkers, New York",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Estimator at Arcadis, 7/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 535,
+      "date_added": "2026-08-27 06:42:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 535,
+      "date_added": "2026-08-27 06:42:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "arcadis",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Estimator",
+      "company": "Arcadis",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Yonkers",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "andrew-ward-65bf194c",
+  "type": "person",
+  "name": "Andrew Ward",
+  "current_title": "Director of Hyperscale, Platform and AI Sales",
+  "current_company": "nLighten",
+  "location": "Greater London, England",
+  "linkedin": "https://www.linkedin.com/in/andrew-ward-7ba89638",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Hyperscale, Platform and AI Sales at nLighten, 2/2025 to present; Account Director at nLighten, 2/2024 to 2/2025; Client Director at Proact IT UK, 6/2022 to 2/2024; Major Accounts Director at Sungard Availability Services UK & Ireland, 1/2022 to 7/2022; Business Development Manager at Sungard Availability Services, 9/2017 to 1/2022; Senior Account Manager at Vodafone Global Enterprise, 5/2015 to 8/2017; Account Manager at Phoenix IT Group, 5/2013 to 5/2015; Account Manager - Health at BT Group, 5/2011 to 5/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 106,
+      "date_added": "2026-08-31 10:54:58 UTC",
+      "date_updated": "2026-08-31 06:47:36 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 308,
+      "date_added": "2026-08-27 07:41:11 UTC",
+      "date_updated": "2026-08-31 05:54:58 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "nlighten",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Hyperscale, Platform and AI Sales",
+      "company": "nLighten",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "nLighten",
+      "start": "2/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Client Director",
+      "company": "Proact IT UK",
+      "start": "6/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Major Accounts Director",
+      "company": "Sungard Availability Services UK & Ireland",
+      "start": "1/2022",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Sungard Availability Services",
+      "start": "9/2017",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Vodafone Global Enterprise",
+      "start": "5/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Phoenix IT Group",
+      "start": "5/2013",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Account Manager - Health",
+      "company": "BT Group",
+      "start": "5/2011",
+      "end": "5/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "LLB, Law, University of Lancashire"
+  ],
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

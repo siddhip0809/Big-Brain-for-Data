@@ -1,0 +1,81 @@
+{
+  "id": "shunya-takei-d980e741",
+  "type": "person",
+  "name": "Shunya Takei",
+  "current_title": "Hyperscale Sales, Japan",
+  "current_company": "NTT",
+  "linkedin": "https://www.linkedin.com/in/shunya-takei-334976364",
+  "location": "Tokyo",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Hyperscale Sales, Japan at NTT, 2025 to present; Account Manager for Global Japanese Account, Thailand at NTT, 2022 to 2025; Account Manager for Hyperscaler, Japan at NTT, 2019 to 2022",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 106,
+      "date_added": "2025-11-18 16:14:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "ntt",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Hyperscale Sales, Japan",
+      "company": "NTT",
+      "start": "2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Manager for Global Japanese Account, Thailand",
+      "company": "NTT",
+      "start": "2022",
+      "end": "2025",
+      "current": false
+    },
+    {
+      "title": "Account Manager for Hyperscaler, Japan",
+      "company": "NTT",
+      "start": "2019",
+      "end": "2022",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Tokyo",
+    "region": null,
+    "country": "Japan",
+    "group": "Japan"
+  },
+  "education": [
+    "Bachelor's degree Law, Waseda University, 2019"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

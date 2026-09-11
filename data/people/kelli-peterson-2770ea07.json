@@ -1,0 +1,100 @@
+{
+  "id": "kelli-peterson-2770ea07",
+  "type": "person",
+  "name": "Kelli Peterson",
+  "current_title": "Senior Estimator",
+  "current_company": "Lithko Contracting",
+  "location": "Lexington, Kentucky",
+  "linkedin": "https://www.linkedin.com/in/kelli-peterson-05250346",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Lithko Contracting, 10/2021 to present; Lead Estimator at Mark Young Construction, 4/2018 to 10/2021; Senior Project Coordinator/Estimator at CONCRETE STRUCTURES, 1/2015 to 3/2018; Construction Estimator at Groathouse Construction, 1/2002 to 2/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 65,
+      "date_added": "2026-08-18 10:20:07 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 253,
+      "date_added": "2026-08-12 10:00:31 UTC",
+      "date_updated": "2026-08-18 05:20:07 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Lithko Contracting",
+      "start": "10/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Mark Young Construction",
+      "start": "4/2018",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Coordinator/Estimator",
+      "company": "CONCRETE STRUCTURES",
+      "start": "1/2015",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Groathouse Construction",
+      "start": "1/2002",
+      "end": "2/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Lexington",
+    "region": "Kentucky",
+    "country": "United States",
+    "group": "Kentucky"
+  },
+  "education": [
+    "BA, International Economics, University Of Colorado Boulder, 2008 to 2012"
+  ],
+  "biography": "15+ years in commercial construction estimating. 12 years as a \"lead\" or \"senior\" estimator, compiling accurate pricing, per plans and specs, by running a team of estimators. More than $700 million in estimates completed for projects seen through construction completion. Experience in ground-up, tenet improvement, municipal, retail, warehouse, data center and health care projects ranging from $250,000 to $30 million. Training of dozens of new estimators. Preparing initial schedules and general requirements based on front-end specifications. Growing and maintaining relationships with hundreds of subcontractors and suppliers. Communication with design teams throughout preconstruction. Project handoff to operations team, with buyout options, and best value information.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "jordan-ricks-f98c8f22",
+  "type": "person",
+  "name": "Jordan Ricks",
+  "current_title": "Director of Estimating",
+  "current_company": "Adolfson & Peterson Construction",
+  "linkedin": "https://www.linkedin.com/in/jordan-ricks-81085041",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Director of Estimating at Adolfson & Peterson Construction, 4/2026 to present; Sr Preconstruction Manager at Adolfson & Peterson Construction, 4/2025 to 4/2026; Preconstruction Manager at Adolfson & Peterson Construction, 12/2019 to present; Healthcare Preconstruction Manager at The Lemoine Company, 1/2019 to 12/2019; Lead Estimator at The Lemoine Company, 11/2010 to 12/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 63,
+      "date_added": "2026-08-04 16:07:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "adolfson-peterson-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Estimating",
+      "company": "Adolfson & Peterson Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr Preconstruction Manager",
+      "company": "Adolfson & Peterson Construction",
+      "start": "4/2025",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Adolfson & Peterson Construction",
+      "start": "12/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Healthcare Preconstruction Manager",
+      "company": "The Lemoine Company",
+      "start": "1/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "The Lemoine Company",
+      "start": "11/2010",
+      "end": "12/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of Engineering (B.E.), Construction Management, Louisiana State University, 2004 to 2009"
+  ],
+  "biography": "Preconstruction Manager at Adolfson & Peterson Construction",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

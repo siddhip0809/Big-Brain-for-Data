@@ -1,0 +1,108 @@
+{
+  "id": "cameron-matthews-6a714788",
+  "type": "person",
+  "name": "Cameron Matthews",
+  "current_title": "Metro Cost Management Lead",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/cameronmatthews",
+  "location": "Atlanta, Georgia",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Metro Cost Management Lead at Microsoft, 1/2025 to present; Cost Estimating SME at Amazon, 4/2024 to 2/2025; Project Director at Turner & Townsend, 4/2022 to 1/2024; Director at Western Cape Education Department, 1/2011 to 12/2011; Associate Director at Turner & Townsend, 8/2006 to 4/2022; Project Manager at Bisiwe & Van Niekerk, 1/2004 to 8/2006; Credit Consultant at Edgars, 1/2002 to 12/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 499,
+      "date_added": "2026-08-25 15:13:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Metro Cost Management Lead",
+      "company": "Microsoft",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Estimating SME",
+      "company": "Amazon",
+      "start": "4/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Turner & Townsend",
+      "start": "4/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Western Cape Education Department",
+      "start": "1/2011",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "8/2006",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Bisiwe & Van Niekerk",
+      "start": "1/2004",
+      "end": "8/2006",
+      "current": false
+    },
+    {
+      "title": "Credit Consultant",
+      "company": "Edgars",
+      "start": "1/2002",
+      "end": "12/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Master of Business Administration (MBA) Business Administration and Management General, Colorado State University, 2021 to 2023",
+    "B Sc (Honors) Quantity Surveying, Nelson Mandela University, 2001 to 2023",
+    "Certified Cost Technician AACEI, AACEI"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "paul-gilsenan-a7ee1a3b",
+  "type": "person",
+  "name": "Paul Gilsenan",
+  "current_title": "Vice President, Strategic Initiatives, APAC",
+  "current_company": "Princeton Digital Group",
+  "linkedin": "https://www.linkedin.com/in/paul-gilsenan-1619b25",
+  "location": "Greater Tokyo Area",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Strategic Initiatives, APAC at Princeton Digital Group, 1/2025 to present; Vice President, Site Selection and Acquisition , APAC at Vantage, 12/2022 to 1/2025; Principal, Strategy and Investment, Data Center Supply Solutions at AWS, 1/2020 to 12/2022; Global Real Estate Acquisition & Development at AWS, 4/2019 to 1/2020; Property Leader at GE, 5/2017 to 4/2019; Executive Director at CBRE, 9/2014 to 5/2017; Corporate Real Estate Solutions, VP at Barclays Capital, 8/2007 to 8/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 198,
+      "date_added": "2026-01-22 15:19:47 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "princeton-digital-group",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Strategic Initiatives, APAC",
+      "company": "Princeton Digital Group",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Site Selection and Acquisition , APAC",
+      "company": "Vantage",
+      "start": "12/2022",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Principal, Strategy and Investment, Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "1/2020",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Global Real Estate Acquisition & Development",
+      "company": "AWS",
+      "start": "4/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Property Leader",
+      "company": "GE",
+      "start": "5/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Executive Director",
+      "company": "CBRE",
+      "start": "9/2014",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Corporate Real Estate Solutions, VP",
+      "company": "Barclays Capital",
+      "start": "8/2007",
+      "end": "8/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Tokyo",
+    "region": null,
+    "country": "Japan",
+    "group": "Japan"
+  },
+  "education": [
+    "Engineer's Degree, Manufacturing Engineering, Institute of Technology Tallaght Dublin, 1995 to 2001"
+  ],
+  "biography": "A seasoned professional in infrastructure development and management. Extensive experience in numerous sectors including agricultural, electronics manufacturing, financial services, petrochemicals, aviation, medical devices and most recently Data Center developments across the APAC region. \r\nHe has extensive commercial real estate experiences from all perspectives including the being the occupier, consulting developer, and financier. The culmination of dealing with all assets classes from all perspectives of a transaction is a formidable and unique skill set.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

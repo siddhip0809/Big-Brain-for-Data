@@ -1,0 +1,187 @@
+{
+  "id": "daniel-siira-fcf68882",
+  "type": "person",
+  "name": "Daniel Siira",
+  "current_title": "Project Controls Lead",
+  "current_company": "Hilcorp",
+  "linkedin": "https://www.linkedin.com/in/daniel-siira-b9743376",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Controls Lead at Hilcorp, 4/2026 to present; Project Controls Manager at ICE Services, 10/2024 to 4/2026; Sr. Consultant at Turner & Townsend, 9/2023 to 10/2024; Work Group Lead at Anvil, 3/2023 to 9/2023; Project Controls Manager at HHI, 10/2022 to 3/2023; Project Controls Manager at Project X, 6/2021 to 7/2022; Construction Manager at Project X, 6/2021 to 7/2022; Assistant Coach at Anchorage School District, 11/2019 to 3/2020; Project Controls Manager at MGJ Home Building Group, 5/2019 to 3/2021; Construction Manager at MGJ Home Building Group, 5/2019 to 3/2021; Owner / Operator at AVID Alaska, 11/2016 to 12/2021; Owner / Operator at Latitude 61 Technologies, 2/2016 to 12/2021; Project Controls Specialist at GIS / NANA, 2/2015 to 2/2016; Project Controls Specialist at Hawk Consultants, 3/2014 to 2/2015; Project Controls Specialist at CH2M, 3/2013 to 3/2014; Project Controls Specialist at CH2M HILL, 3/2013 to 3/2014; Field Engineer at Alaska Interstate Construction, 9/2011 to 2/2013; Project Management Intern at NANA Construction, 6/2010 to 7/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 156,
+      "date_added": "2026-08-10 13:08:26 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Controls Lead",
+      "company": "Hilcorp",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "ICE Services",
+      "start": "10/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Sr. Consultant",
+      "company": "Turner & Townsend",
+      "start": "9/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Work Group Lead",
+      "company": "Anvil",
+      "start": "3/2023",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "HHI",
+      "start": "10/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "Project X",
+      "start": "6/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Project X",
+      "start": "6/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Coach",
+      "company": "Anchorage School District",
+      "start": "11/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "MGJ Home Building Group",
+      "start": "5/2019",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "MGJ Home Building Group",
+      "start": "5/2019",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Owner / Operator",
+      "company": "AVID Alaska",
+      "start": "11/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Owner / Operator",
+      "company": "Latitude 61 Technologies",
+      "start": "2/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "GIS / NANA",
+      "start": "2/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Hawk Consultants",
+      "start": "3/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "CH2M",
+      "start": "3/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "CH2M HILL",
+      "start": "3/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Alaska Interstate Construction",
+      "start": "9/2011",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Project Management Intern",
+      "company": "NANA Construction",
+      "start": "6/2010",
+      "end": "7/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Construction Management, University Of Oklahoma"
+  ],
+  "biography": "I am a fifth generation Alaskan; Highly trained & experienced working in Construction Project Management with over 10 years of experience using Primavera P6.  I am extremely familiar with project management processes & implementation, scheduling best practices, & EVM.  I strive to lead by example, while continuously expanding my knowledge & expertise of a leadership role.\nI am a fifth generation Alaskan; Highly trained & experienced working in Construction Project Management with over 10 years of experience using Primavera P6. I am extremely familiar with project management processes & implementation, scheduling best practices, & EVM. I strive to lead by example, while continuously expanding my knowledge & expertise of a leadership role.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

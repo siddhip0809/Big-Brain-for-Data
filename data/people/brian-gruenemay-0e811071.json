@@ -1,0 +1,88 @@
+{
+  "id": "brian-gruenemay-0e811071",
+  "type": "person",
+  "name": "Brian Gruenemay",
+  "current_title": "Sr Preconstruction Manager",
+  "current_company": "Fortis Construction",
+  "linkedin": "https://www.linkedin.com/in/brian-gruenemay-39371225",
+  "location": "Corvallis, Oregon",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sr Preconstruction Manager at Fortis Construction, 4/2025 to present; Senior Project Manager at Fortis Construction, 10/2016 to present; Project Manager at DPR Construction, 6/2003 to 9/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 419,
+      "date_added": "2026-08-21 12:44:49 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 419,
+      "date_added": "2026-08-21 12:44:49 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "fortis-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Fortis Construction",
+      "start": "10/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "6/2003",
+      "end": "9/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Corvallis",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "education": [
+    "B.S. Construction Engineering Management, Oregon State University, 1999 to 2003",
+    "Mechanical Engineering, University Of Washington, 1998 to 1999"
+  ],
+  "biography": "Higher Education, K-12, Tenant Improvements, Healthcare, OSHPD, Data Centers, Mission Critical, Call Centers, Advanced Technology, Corporate Banks, Museum, Lab Spaces, Parking Structure, Conference Rooms, Medical Office Buildings",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

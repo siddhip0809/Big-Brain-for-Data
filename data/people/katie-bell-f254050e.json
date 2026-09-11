@@ -1,0 +1,124 @@
+{
+  "id": "katie-bell-f254050e",
+  "type": "person",
+  "name": "Katie Bell",
+  "current_title": "Energy Program Manager",
+  "current_company": "Meta",
+  "linkedin": "https://www.linkedin.com/in/katie-bell-bespoke",
+  "location": "Austin, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Energy Program Manager at Meta, 11/2024 to present; Energy & Infrastructure Policy Manager at Tesla, 4/2024 to 10/2024; Energy & Infrastructure Manager at Tesla, 4/2023 to 4/2024; Staff Analyst at Tesla, 11/2020 to 4/2023; Energy Markets Manager at Cummins Engine, 10/2019 to 10/2020; Research Analyst at SolarCity, 2014 to 2015; Sr. Policy Advisor at Tesla, 2012 to 9/2019; Interconnection (various roles) at SolarCity, 2012 to 2014; Customer Accounts at Xcel Energy, 2011 to 2011; Intern at US Senator Amy Klobuchar, 2010 to 2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 159,
+      "date_added": "2026-06-02 15:01:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "meta",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Program Manager",
+      "company": "Meta",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy & Infrastructure Policy Manager",
+      "company": "Tesla",
+      "start": "4/2024",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Energy & Infrastructure Manager",
+      "company": "Tesla",
+      "start": "4/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Staff Analyst",
+      "company": "Tesla",
+      "start": "11/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Energy Markets Manager",
+      "company": "Cummins Engine",
+      "start": "10/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Research Analyst",
+      "company": "SolarCity",
+      "start": "2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Sr. Policy Advisor",
+      "company": "Tesla",
+      "start": "2012",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Interconnection (various roles)",
+      "company": "SolarCity",
+      "start": "2012",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Customer Accounts",
+      "company": "Xcel Energy",
+      "start": "2011",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "US Senator Amy Klobuchar",
+      "start": "2010",
+      "end": "2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Austin",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

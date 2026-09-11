@@ -1,0 +1,97 @@
+{
+  "id": "beth-mccallister-25c791f3",
+  "type": "person",
+  "name": "Beth McCallister",
+  "current_title": "Consultant",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/beth-mccallister-a5174b172",
+  "location": "De Soto, Kansas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Consultant at Turner & Townsend, 12/2024 to present; Cost Control Analyst - I at CRB, 5/2021 to 12/2024; Project Controls Senior Associate - Cost at FTI, 11/2018 to 4/2021; Accounting/Finance at Crosslists Cross and Company, 9/2016 to 10/2018; Regional Payroll Manager at Enerfab, 8/2008 to 9/2015; Administrative Support at Black & Veatch, 10/2007 to 8/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 589,
+      "date_added": "2026-09-01 10:43:25 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Consultant",
+      "company": "Turner & Townsend",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Control Analyst - I",
+      "company": "CRB",
+      "start": "5/2021",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Project Controls Senior Associate - Cost",
+      "company": "FTI",
+      "start": "11/2018",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Accounting/Finance",
+      "company": "Crosslists Cross and Company",
+      "start": "9/2016",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Payroll Manager",
+      "company": "Enerfab",
+      "start": "8/2008",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Administrative Support",
+      "company": "Black & Veatch",
+      "start": "10/2007",
+      "end": "8/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "De Soto",
+    "region": "Kansas",
+    "country": "United States",
+    "group": "Kansas"
+  },
+  "biography": "Analytically minded problem-solver. Excellent soft skills; able to build relationships and communicate effectively with all types. Technically astute and fast-paced learner; early adopter of new systems and tools. Motivated self-starter accustomed to working with limited supervision. Strong understanding of finance and project cost control. Relevant Skills: Field Progress Measurement Estimate Reconciliation Cost Control Primavera P6 – Some experience. Proficient in Microsoft Office Suite",
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "mauricio-mu-oz-b6e3f252",
+  "type": "person",
+  "name": "Mauricio Muñoz",
+  "current_title": "Director - Power Solutions",
+  "current_company": "CoreSite",
+  "linkedin": "https://www.linkedin.com/in/munozmauricio",
+  "location": "New York, New York",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director - Power Solutions at CoreSite, 6/2016 to present; CoreSite, 6/2016 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 85,
+      "date_added": "2026-01-09 15:35:57 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "coresite",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director - Power Solutions",
+      "company": "CoreSite",
+      "start": "6/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "CoreSite",
+      "start": "6/2016",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "education": [
+    "Bachelor of Science, Chemical Engineering, University Of Colorado Boulder"
+  ],
+  "biography": "I'm passionate about people, energy, and technology. I am currently working at CoreSite leading our power & energy management and strategy.\n\nmunoz.e.mauricio@gmail.com\nI'm passionate about people, energy, and technology. I am currently working at CoreSite leading our power & energy management and strategy.\r\n\r\nmunoz.e.mauricio@gmail.com",
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "High Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

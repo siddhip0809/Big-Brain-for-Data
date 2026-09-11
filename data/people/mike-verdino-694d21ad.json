@@ -1,0 +1,106 @@
+{
+  "id": "mike-verdino-694d21ad",
+  "type": "person",
+  "name": "Mike Verdino",
+  "current_title": "Senior Estimator",
+  "current_company": "Rosendin Electric",
+  "linkedin": "https://www.linkedin.com/in/mike-verdino-937b395",
+  "location": "Baltimore, Washington DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Rosendin Electric, 4/2022 to present; Senior Estimator at Dynalectric, 1/2020 to 4/2022; Senior Estimator at Power Design, 7/2016 to 12/2019; Chief Estimator at Belway Electrical Contracting, 9/2012 to 7/2016; Senior Estimator at Corporate Electric Group, 10/2011 to 9/2012; Estimator at Belway Electrical Contracting, 10/2005 to 9/2011; Draftsman / Project Coordinator at Belway Electrical Contracting, 1/2003 to 9/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 100,
+      "date_added": "2026-08-06 15:06:59 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Rosendin Electric",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Dynalectric",
+      "start": "1/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Power Design",
+      "start": "7/2016",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Belway Electrical Contracting",
+      "start": "9/2012",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Corporate Electric Group",
+      "start": "10/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Belway Electrical Contracting",
+      "start": "10/2005",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Draftsman / Project Coordinator",
+      "company": "Belway Electrical Contracting",
+      "start": "1/2003",
+      "end": "9/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

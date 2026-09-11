@@ -1,0 +1,111 @@
+{
+  "id": "james-gohng-0065c3e3",
+  "type": "person",
+  "name": "James Gohng",
+  "current_title": "Sales - Wholesale Colocation",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/james-gohng-3717225",
+  "location": "Leesburg, VA",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales - Wholesale Colocation at QTS Data Centers, 3/2015 to present; Director of Sales/Business Development at TierPoint, 7/2013 to 3/2015; Director of Sales/Business Development at Baltimore Technology Park, 11/2003 to 7/2013; Senior Sales Executive at DCT Telecom Group, 9/2002 to 9/2003; Senior Sales Executive at Qwest Communications, 10/2000 to 8/2002; Sales Executive - Mid-Atlantic at UUNET, 10/1999 to 10/2000; National Account Support Consultant at Data Return, 5/1997 to 10/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 63,
+      "date_added": "2025-11-07 13:11:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales - Wholesale Colocation",
+      "company": "QTS Data Centers",
+      "start": "3/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Sales/Business Development",
+      "company": "TierPoint",
+      "start": "7/2013",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Director of Sales/Business Development",
+      "company": "Baltimore Technology Park",
+      "start": "11/2003",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Executive",
+      "company": "DCT Telecom Group",
+      "start": "9/2002",
+      "end": "9/2003",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Executive",
+      "company": "Qwest Communications",
+      "start": "10/2000",
+      "end": "8/2002",
+      "current": false
+    },
+    {
+      "title": "Sales Executive - Mid-Atlantic",
+      "company": "UUNET",
+      "start": "10/1999",
+      "end": "10/2000",
+      "current": false
+    },
+    {
+      "title": "National Account Support Consultant",
+      "company": "Data Return",
+      "start": "5/1997",
+      "end": "10/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Leesburg",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "BA, Biology, Gettysburg College, 1993 to 1997"
+  ],
+  "biography": "Experienced sales, business development and marketing professional with extensive track record of helping both private enterprise business and public sector agencies with consulting, designing and engineering of custom data center environments.  Successfully demonstrated ability to prospect, engage, discover and secure new business. Worked in all phases of the sales and project life cycle from design and development to migration and implementation to ongoing support and management. Utilizes deep industry and strong/functional knowledge of all supporting components of the data center environment to thoroughly understand customer needs and deliver the applicable sales solutions. Proven ability to engage and develop strong customer relationships in improving efficiencies, productivity, controlling capital expenditures and uptime for their custom I.T. environments translating into consistent top line revenue growth.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

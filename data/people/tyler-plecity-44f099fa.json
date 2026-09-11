@@ -1,0 +1,91 @@
+{
+  "id": "tyler-plecity-44f099fa",
+  "type": "person",
+  "name": "Tyler Plecity",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/tyler-plecity",
+  "location": "San Antonio, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 4/2026 to present; Sr Consultant / Estimator at Turner & Townsend, 7/2022 to 3/2026; Preconstruction Leader at Tessiers, 2/2022 to 7/2022; Project Manager / Estimator at Tessiers, 2/2017 to 2/2022; Internship at Duininck Golf, 5/2016 to 8/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 468,
+      "date_added": "2026-08-24 14:00:39 UTC",
+      "date_updated": "2026-08-26 07:28:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr Consultant / Estimator",
+      "company": "Turner & Townsend",
+      "start": "7/2022",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Leader",
+      "company": "Tessiers",
+      "start": "2/2022",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Estimator",
+      "company": "Tessiers",
+      "start": "2/2017",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Internship",
+      "company": "Duininck Golf",
+      "start": "5/2016",
+      "end": "8/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Antonio",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Science (B.S.), Construction Management, South Dakota State University, 2012 to 2016"
+  ],
+  "biography": "Natural Leader. Quick learner who thrives in fast pace environments. \"Do it once and do it right.\"",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

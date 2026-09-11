@@ -1,0 +1,96 @@
+{
+  "id": "alexander-kopylov-a7ca3633",
+  "type": "person",
+  "name": "Alexander Kopylov",
+  "current_title": "Director, Project Delivery",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/alexander-kopylov-727aa835",
+  "location": "Washington, District of Columbia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Project Delivery at QTS Data Centers, 12/2023 to present; Hyperscale Development Program Manager at QTS Data Centers, 11/2022 to 12/2023; Project Manager at Clune Construction Company L P, 1/2019 to 11/2022; Assistant Project Manager at HITT Contracting, 1/2017 to 12/2018; Project Engineer at HITT Contracting, 7/2015 to 1/2017; Production Supervisor at NVR, 7/2013 to 2/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 171,
+      "date_added": "2026-07-07 11:37:17 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Project Delivery",
+      "company": "QTS Data Centers",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Hyperscale Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "11/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Clune Construction Company L P",
+      "start": "1/2019",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "HITT Contracting",
+      "start": "1/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "HITT Contracting",
+      "start": "7/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Production Supervisor",
+      "company": "NVR",
+      "start": "7/2013",
+      "end": "2/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Bachelor of Science (BS) Geology (Engineering), James Madison University, 2009 to 2013"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

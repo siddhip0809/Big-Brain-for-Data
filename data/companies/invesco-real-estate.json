@@ -1,0 +1,37 @@
+{
+  "id": "invesco-real-estate",
+  "type": "company",
+  "name": "Invesco Real Estate",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Dallas, Texas",
+  "founded": null,
+  "website": "https://www.invesco.com/real-estate",
+  "linkedin": "https://www.linkedin.com/company/invesco/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Medium",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Global real estate investment manager. Industrial and office. Some DC-adjacent investments. Strong acquisition talent.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "rob-silvester-563f0b20",
+  "type": "person",
+  "name": "Rob Silvester",
+  "current_title": "Chief Revenue Officer (CRO)",
+  "current_company": "Ark Data Centres",
+  "linkedin": "https://www.linkedin.com/in/rob-silvester-522912b2",
+  "location": "London, Greater London",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Chief Revenue Officer (CRO) at Ark Data Centres, 8/2023 to present; Real Estate Director at Ark Data Centres, 12/2018 to 9/2023; Capital Markets Consultant at PPR Estates, 7/2016 to present; Director at Silco Consulting Limited, 1/2013 to 7/2021; Executive Director at CB Richard Ellis, 3/2010 to 12/2012; Director at Rock Capital Group, 11/2001 to 2/2010; Partner at King Sturge, 9/1996 to 10/2001",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 205,
+      "date_added": "2026-04-21 10:07:23 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "ark-data-centres",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Revenue Officer (CRO)",
+      "company": "Ark Data Centres",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Director",
+      "company": "Ark Data Centres",
+      "start": "12/2018",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Capital Markets Consultant",
+      "company": "PPR Estates",
+      "start": "7/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Silco Consulting Limited",
+      "start": "1/2013",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Executive Director",
+      "company": "CB Richard Ellis",
+      "start": "3/2010",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Rock Capital Group",
+      "start": "11/2001",
+      "end": "2/2010",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "King Sturge",
+      "start": "9/1996",
+      "end": "10/2001",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

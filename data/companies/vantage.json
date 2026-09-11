@@ -1,0 +1,61 @@
+{
+  "id": "vantage",
+  "type": "company",
+  "name": "Vantage",
+  "aliases": [
+    "Vantage Data Centers"
+  ],
+  "industry_role": "data center developer",
+  "headquarters": "Denver, Colorado, United States",
+  "founded": null,
+  "website": "http://www.vantage-dc.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "General Contractor",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 9 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): $9.2B equity investment led by DigitalBridge and Silver Lake completed June 2024; additional 2024 capital from GIC, ADIA, AustralianSuper, MEAG.\n\nM&A: acquired PCCW data center business -- Dec 2021: ~100MW in Hong Kong + Kuala Lumpur; Vantage's APAC entry (with Agile DC). [completed; confidence high; https://vantage-dc.com/news/vantage-data-centers-marks-record-growth-milestones-in-2021-with-entrance-into-apac-and-africa-two-acquisitions-and-11-new-campuses-globally/]",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/vantage-data-centers/",
+  "headcount": "1,001-5,000",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 1722.4,
+      "early_stage_mw": 1280.0
+    },
+    "apac": {
+      "total_mw": 475.804,
+      "early_stage_mw": 551.4
+    },
+    "emea": {
+      "total_mw": 1617.8,
+      "early_stage_mw": 806.8
+    }
+  }
+}

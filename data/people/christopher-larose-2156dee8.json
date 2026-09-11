@@ -1,0 +1,131 @@
+{
+  "id": "christopher-larose-2156dee8",
+  "type": "person",
+  "name": "Christopher Larose",
+  "current_title": "Director, Hyperscale Sales   North America",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/christopher-larose-559979105",
+  "location": "Montréal, Quebec",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Hyperscale Sales   North America at Vantage, 6/2025 to present; Technical Account Director at Vantage, 6/2024 to 6/2025; Technical Account Manager at Vantage, 4/2023 to 6/2024; Account Executive, Mid Commercial at Salesforce, 1/2021 to 4/2023; Enterprise Account Manager at Zayo, 4/2020 to 1/2021; Senior Account Manager at Fibrenoire, 12/2019 to 4/2020; Enterprise Account Manager at Aptum, 12/2015 to 12/2019; Account Manager at Convergia, 9/2014 to 12/2015; Assistant Sales Manager at Glentel, 5/2009 to 9/2014; Sales Associate at Staples, 1/2006 to 5/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 7,
+      "date_added": "2025-11-06 13:25:00 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Hyperscale Sales   North America",
+      "company": "Vantage",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Technical Account Director",
+      "company": "Vantage",
+      "start": "6/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Technical Account Manager",
+      "company": "Vantage",
+      "start": "4/2023",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Account Executive, Mid Commercial",
+      "company": "Salesforce",
+      "start": "1/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "Zayo",
+      "start": "4/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Fibrenoire",
+      "start": "12/2019",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "Aptum",
+      "start": "12/2015",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Convergia",
+      "start": "9/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Assistant Sales Manager",
+      "company": "Glentel",
+      "start": "5/2009",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Staples",
+      "start": "1/2006",
+      "end": "5/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Montréal",
+    "region": "Quebec",
+    "country": "Canada",
+    "group": "Canada"
+  },
+  "education": [
+    "Bachelor Of Arts, Bachelors, History, Philosophy, Concordia University, 2009 to 2013",
+    "Bachelor Of Arts, Bachelors, Concordia University, 1989 to 1997"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

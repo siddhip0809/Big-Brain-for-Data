@@ -1,0 +1,55 @@
+{
+  "id": "edgecore-digital-infrastructure",
+  "type": "company",
+  "name": "EdgeCore Digital Infrastructure",
+  "aliases": [
+    "EdgeCore"
+  ],
+  "industry_role": "hyperscaler / data center developer / real estate development",
+  "headquarters": "Irvine, California, United States",
+  "founded": null,
+  "website": "https://www.edge-core.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Hyperscaler",
+    "Real Estate Development",
+    "Renewables",
+    "Utilities"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 9 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Acquired by Partners Group 2022 (~$1.2B initial); additional equity raises since, including a $1.9B round in 2024/2025. Prior backers (pre-2022) included GIC and OPTrust.",
+  "sources": [
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/edge-core-networks/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 2032.0,
+      "early_stage_mw": 278.0
+    }
+  }
+}

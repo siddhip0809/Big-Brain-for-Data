@@ -1,0 +1,110 @@
+{
+  "id": "john-fitzsimons-032f9dc7",
+  "type": "person",
+  "name": "John Fitzsimons",
+  "current_title": "Senior Account Director",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/johnfitz2",
+  "location": "Warrington, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Enterprise Account Director at Equinix, 6/2023 to 1/2026; Senior Account Director at Equinix, 6/2023 to present; Strategic Account Director - Hybrid Multi Cloud Data Platform at Cloudera, 4/2022 to 6/2023; Senior Account Director at Cloudera, 1/2022 to 12/2023; Hybrid Cloud Client Director at Hewlett Packard Enterprise, 1/2018 to 4/2022; Director of Business Development at Apajove Limited, 3/2014 to 12/2017; Senior Account Director at Open GI, 3/2006 to 3/2014; Sales Manager (SaaS) at Insurecom, 1/2003 to 12/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 258,
+      "date_added": "2026-08-06 15:27:45 UTC",
+      "date_updated": "2026-08-06 10:27:45 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Enterprise Account Director",
+      "company": "Equinix",
+      "start": "6/2023",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Account Director",
+      "company": "Equinix",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Account Director - Hybrid Multi Cloud Data Platform",
+      "company": "Cloudera",
+      "start": "4/2022",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Account Director",
+      "company": "Cloudera",
+      "start": "1/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Hybrid Cloud Client Director",
+      "company": "Hewlett Packard Enterprise",
+      "start": "1/2018",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Director of Business Development",
+      "company": "Apajove Limited",
+      "start": "3/2014",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Account Director",
+      "company": "Open GI",
+      "start": "3/2006",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Manager (SaaS)",
+      "company": "Insurecom",
+      "start": "1/2003",
+      "end": "12/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Warrington",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor of Arts Political Science and Government, Liverpool John Moores University, 1991 to 1994"
+  ],
+  "biography": "Driving Digital Transformation at Scale As a Senior Account Executive at Equinix, I specialise in helping enterprise organisations navigate the complexities of global digital infrastructure. In an era where hybrid multicloud and interconnection are the backbone of business, I act as a strategic partner to align technical requirements with high-level business outcomes. Strategic Enterprise Sales: Expert in managing complex, long-cycle sales processes within the tech and infrastructure space. Consultative Approach: Proven track record of building deep relationships with C-suite stakeholders to unlock value through digital ecosystems. Industry Expertise: Deep knowledge of the interconnection, cloud, and data center landscape, specifically within the United Kingdom and global markets. Major Global Wins: Led and won the RFP bid for a large global insurance company, coordinating complex cross-functional teams to be able to deliver a winning digital infrastructure solution.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

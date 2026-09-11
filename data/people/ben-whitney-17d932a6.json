@@ -1,0 +1,110 @@
+{
+  "id": "ben-whitney-17d932a6",
+  "type": "person",
+  "name": "Ben Whitney",
+  "current_title": "Regional Relationship Manager",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/benwhitney",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Regional Relationship Manager at Vantage, 1/2025 to present; EMEA Sales Director, Key Accounts at GlobalData Plc, 7/2018 to 4/2021; Director - Key Accounts at GlobalData Plc, 12/2015 to 7/2018; Principal of Whitney Wealth Management at St James's Place Wealth Management, 9/2011 to 11/2015; Investment Manager at Duke Street, 9/2009 to 8/2011; Sales & Marketing Director at TMP Worldwide, 7/2008 to 9/2009; Director at Corporate Executive Board, 11/2004 to 6/2008; Business Development Manager at Alternative Networks, 6/1999 to 6/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Incorrect Function",
+      "rank": 261,
+      "date_added": "2026-08-11 10:09:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Relationship Manager",
+      "company": "Vantage",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EMEA Sales Director, Key Accounts",
+      "company": "GlobalData Plc",
+      "start": "7/2018",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Director - Key Accounts",
+      "company": "GlobalData Plc",
+      "start": "12/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Principal of Whitney Wealth Management",
+      "company": "St James's Place Wealth Management",
+      "start": "9/2011",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Investment Manager",
+      "company": "Duke Street",
+      "start": "9/2009",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Sales & Marketing Director",
+      "company": "TMP Worldwide",
+      "start": "7/2008",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Corporate Executive Board",
+      "start": "11/2004",
+      "end": "6/2008",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Alternative Networks",
+      "start": "6/1999",
+      "end": "6/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Master of Business Administration - MBA Business Administration and Management General, Cass Business School, 2003 to 2004",
+    "BA (Hons) Politics & International Relations, University of Reading, 1993 to 1997"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

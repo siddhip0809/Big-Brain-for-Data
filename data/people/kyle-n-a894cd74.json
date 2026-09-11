@@ -1,0 +1,76 @@
+{
+  "id": "kyle-n-a894cd74",
+  "type": "person",
+  "name": "Kyle N.",
+  "current_title": "Director of Site Development",
+  "current_company": "Amentum",
+  "linkedin": "https://www.linkedin.com/in/kyle-n-277511b5",
+  "location": "Pennsylvania",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Site Development at Amentum, 8/2023 to present; Project Manager at Jacobs, 4/2017 to 8/2023; Site Acquisition Specialist at Jacobs, 8/2015 to 4/2017; 2nd Assistant Golf Professional at Sunnehanna Country Club, 3/2015 to 6/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 525,
+      "date_added": "2026-08-27 13:21:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Site Development",
+      "company": "Amentum",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Jacobs",
+      "start": "4/2017",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Specialist",
+      "company": "Jacobs",
+      "start": "8/2015",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "2nd Assistant Golf Professional",
+      "company": "Sunnehanna Country Club",
+      "start": "3/2015",
+      "end": "6/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Pennsylvania",
+    "country": "United States",
+    "group": "Pennsylvania"
+  },
+  "education": [
+    "Bachelor's degree, Penn State University, 2010 to 2014"
+  ]
+}

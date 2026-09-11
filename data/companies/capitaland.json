@@ -1,0 +1,50 @@
+{
+  "id": "capitaland",
+  "type": "company",
+  "name": "CapitaLand",
+  "aliases": [],
+  "industry_role": "data center developer / real estate development",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.capitaland.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nSiddhi's sheet comment: Real estate / PE firm with DC arm.",
+  "sources": [
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "real_estate",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/capitaland-limited/",
+  "headcount": "10001",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 330.7,
+      "early_stage_mw": 72.0
+    }
+  }
+}

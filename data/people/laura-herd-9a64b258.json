@@ -1,0 +1,107 @@
+{
+  "id": "laura-herd-9a64b258",
+  "type": "person",
+  "name": "Laura Herd",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/laura-herd-mrics-68a98292",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 5/2024 to present; Senior Cost Consultant at Turner & Townsend, 10/2021 to 5/2024; Cost Consultant at Turner & Townsend, 3/2020 to 10/2021; Quantity Surveyor at Robertson Group, 7/2016 to 3/2020; Graduate Quantity Surveyor at Kier Group, 1/2015 to 7/2016; Assistant Quantity Surveyor at Muirfield Contracts, 6/2014 to 1/2015; The American Institute of Architects (AIA) (Work Experience)  at Design Charette, 11/2012 to 11/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 344,
+      "date_added": "2026-08-14 07:35:32 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "10/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "3/2020",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Robertson Group",
+      "start": "7/2016",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Graduate Quantity Surveyor",
+      "company": "Kier Group",
+      "start": "1/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "Muirfield Contracts",
+      "start": "6/2014",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "The American Institute of Architects (AIA) (Work Experience) ",
+      "company": "Design Charette",
+      "start": "11/2012",
+      "end": "11/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

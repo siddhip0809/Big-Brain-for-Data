@@ -1,0 +1,39 @@
+{
+  "id": "anza-renewables",
+  "type": "company",
+  "name": "Anza Renewables",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "San Francisco, California",
+  "founded": null,
+  "website": "https://www.anzarenewables.com",
+  "linkedin": "https://www.linkedin.com/company/anza-renewables/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Procurement / Advisory",
+      "Utility Scale": "No",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "No Physical Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Solar procurement and analytics platform. Not a developer. Not a talent hunting ground.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

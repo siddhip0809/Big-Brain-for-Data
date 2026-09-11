@@ -1,0 +1,123 @@
+{
+  "id": "anthony-santelises-7c9e10a6",
+  "type": "person",
+  "name": "Anthony Santelises",
+  "current_title": "Infrastructure Acquisition & Strategy",
+  "current_company": "Nebius",
+  "linkedin": "https://www.linkedin.com/in/anthony-santelises",
+  "location": "Baltimore, Washington DC",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Infrastructure Acquisition & Strategy at Nebius, 4/2026 to present; Strategy and Investment, Data Center Supply Solutions at AWS, 11/2025 to 4/2026; Infrastructure Tech Business Development, Colocation & Partner Strategy at AWS, 12/2023 to 11/2025; Global Account Director at ThinkLP, 9/2022 to 11/2023; Regional Manager, Global Security Operations at Peloton Interactive, 1/2021 to 2/2022; Regional Asset Protection Leader at CVS/Caremark, 11/2019 to 1/2021; Asset Protection Executive at Target, 4/2019 to 11/2019; Senior Manager - Asset Protection at Gap, 4/2018 to 4/2019; Regional Director of Operations & Growth at Delivery Dudes, 8/2013 to 1/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 277,
+      "date_added": "2026-07-07 15:58:36 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "nebius",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Infrastructure Acquisition & Strategy",
+      "company": "Nebius",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategy and Investment, Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "11/2025",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Tech Business Development, Colocation & Partner Strategy",
+      "company": "AWS",
+      "start": "12/2023",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "ThinkLP",
+      "start": "9/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Regional Manager, Global Security Operations",
+      "company": "Peloton Interactive",
+      "start": "1/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Asset Protection Leader",
+      "company": "CVS/Caremark",
+      "start": "11/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Asset Protection Executive",
+      "company": "Target",
+      "start": "4/2019",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Manager - Asset Protection",
+      "company": "Gap",
+      "start": "4/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Regional Director of Operations & Growth",
+      "company": "Delivery Dudes",
+      "start": "8/2013",
+      "end": "1/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "education": [
+    "Bachelor of Arts - BA, Thomas Edison State University"
+  ],
+  "biography": "I build the physical infrastructure that AI runs on. At Nebius Group, I lead site selection and colocation development for North America, responsible for the market decisions, commercial structures, and capital deployments that determine where compute gets built and how it performs at scale. The work requires a specific kind of judgment. Infrastructure decisions are made years before demand arrives. They involve land, power topology, grid access, network placement, and cooling architecture. They require commercial structures that hold up under hyperscale scrutiny and partner relationships that compound over time. Getting them right creates durable strategic advantage. My counterparts are operators, developers, utilities, and capital partners. My job is to align all of them around decisions that will define platform capability years into the future. AI is not a software story. It is a physical systems story. The next decade will be defined by who controls the infrastructure layer, and those positions are being established now.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

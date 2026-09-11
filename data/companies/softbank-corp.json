@@ -1,0 +1,49 @@
+{
+  "id": "softbank-corp",
+  "type": "company",
+  "name": "SoftBank Corp.",
+  "aliases": [
+    "Softbank"
+  ],
+  "industry_role": "developer operator / neocloud",
+  "headquarters": "Minato-ku, Tokyo, Japan",
+  "founded": null,
+  "website": "https://group.softbank/en/",
+  "linkedin": "https://www.linkedin.com/company/softbankgroup/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator",
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-07-31 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Typed \"Hyperscale\" on Siddhi's Data Centre Developer sheet, but not a self-built global hyperscale cloud platform under the working definition (AWS/Google/Microsoft/Meta/Apple + Alibaba/Tencent/Baidu/Huawei) -- filed as Developer/Operator with hyperscale focus; review.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 49.0,
+      "early_stage_mw": 120.0
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "shrey-bhimani-1fae1d9a",
+  "type": "person",
+  "name": "Shrey Bhimani",
+  "current_title": "Lead Estimator",
+  "current_company": "DPR Construction",
+  "location": "Ashburn, Virginia",
+  "linkedin": "https://www.linkedin.com/in/shrey-bhimani",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Lead Estimator at DPR Construction, 12/2021 to present; Estimator at Baker Concrete Construction, 8/2020 to 12/2021; Project Engineer/ Precon at Baker Concrete Construction, 2/2019 to 8/2020; Project Engineer Intern at Baker Concrete Construction, 5/2018 to 8/2018; Project Engineer Intern at Larsen & Toubro, 5/2015 to 6/2015; Field Engineer Intern at Larsen & Toubro, 6/2014 to 7/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "3a. Fully Assessed & Viable",
+      "rank": 1,
+      "date_added": "2026-08-14 14:14:41 UTC",
+      "date_updated": "2026-08-20 09:55:52 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 11,
+      "date_added": "2026-08-03 06:32:12 UTC",
+      "date_updated": "2026-08-14 09:14:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 11,
+      "date_added": "2026-08-03 06:32:12 UTC",
+      "date_updated": "2026-08-14 09:14:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "DPR Construction",
+      "start": "12/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Baker Concrete Construction",
+      "start": "8/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer/ Precon",
+      "company": "Baker Concrete Construction",
+      "start": "2/2019",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Baker Concrete Construction",
+      "start": "5/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Larsen & Toubro",
+      "start": "5/2015",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Field Engineer Intern",
+      "company": "Larsen & Toubro",
+      "start": "6/2014",
+      "end": "7/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Ashburn",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "biography": "Director of Cost Strategy at DPR with nearly 5 years of experience specializing in data center construction and pre-construction management in Northern Virginia.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0,
+    "under_represented_group": "Yes"
+  }
+}

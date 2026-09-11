@@ -1,0 +1,130 @@
+{
+  "id": "james-matthews-8e04eab5",
+  "type": "person",
+  "name": "James Matthews",
+  "current_title": "Commercial Director",
+  "current_company": "Tillion Data Centers",
+  "location": "Cambridge, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/james-matthews-a36a186",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Commercial Director at Tillion Data Centers, 1/2026 to present; Hyperscale Sales Director - EMEA at AtlasEdge, 9/2022 to present; Business Development Director at CBRE, 4/2020 to 9/2022; Global Account Manager Data Centres EMEA at Anixter, 7/2015 to 4/2020; Sales Manager at Leviton Network Solutions Europe, 11/2010 to 6/2015; Account Manager at Blue Helix, 9/2007 to 12/2010; Network Infrastructure Engineer at PCM Systems, 7/1998 to 8/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Withdrew",
+      "rank": 8,
+      "date_added": "2026-08-11 11:51:38 UTC",
+      "date_updated": "2026-08-12 08:49:43 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 33,
+      "date_added": "2026-07-08 17:34:07 UTC",
+      "date_updated": "2026-08-11 06:51:38 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 215,
+      "date_added": "2026-04-21 10:07:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "tillion-data-centers",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial Director",
+      "company": "Tillion Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Hyperscale Sales Director - EMEA",
+      "company": "AtlasEdge",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Director",
+      "company": "CBRE",
+      "start": "4/2020",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager Data Centres EMEA",
+      "company": "Anixter",
+      "start": "7/2015",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Leviton Network Solutions Europe",
+      "start": "11/2010",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Blue Helix",
+      "start": "9/2007",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Network Infrastructure Engineer",
+      "company": "PCM Systems",
+      "start": "7/1998",
+      "end": "8/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Cambridge",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "biography": "James Matthews moved to Altea, Spain, at the beginning of August 2026 and plans to move to Valencia on August 29th, 2026. His wife vetoed Madrid as a living location, preferring to be closer to the sea, hence the move to Valencia. He finds Lima, Peru, where Ward is located, to have great food but would prefer to live in a more remote area of Peru. He notes only 4-5 districts in Lima are safe. James Matthews started officially on January 1st, 2026, with a startup based in Madrid, an in-portfolio business of Azora Capital. He accepted the role in October 2025. The company is building large-scale data center capacity in Zaragoza, Spain, with capacity coming online in Q4 2028. There are 5 permanent employees. They are building 2 data centers in 2 locations. Both have current LOIs being negotiated, with 2 additional backup LOIs. These LOIs are for 150-megawatt data centers (120-125 IT delivered). One LOI is for a Neo Cloud, and backup LOIs are also for Neo Clouds. Another LOI is with a large cloud operator. His role involves prospecting, due diligence, commercial conversations (including rough yield, EBITDA, NPV), writing LOIs, and negotiating MSAs and service penalties. He presents to the board weekly. James Matthews interviewed with Pure Data Centers last summer (2025) before taking his current role. He noted their commission structure was unclear and dependent on changes in financiers. He mentioned Phil Davis (ex-CIO) who went to Ares.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

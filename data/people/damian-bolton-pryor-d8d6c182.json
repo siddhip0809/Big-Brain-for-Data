@@ -1,0 +1,139 @@
+{
+  "id": "damian-bolton-pryor-d8d6c182",
+  "type": "person",
+  "name": "Damian Bolton-Pryor",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/damian-bolton-pryor-mrics-5b2936b3",
+  "location": "Gainesville, Florida",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 6/2026 to present; Associate at Dharam Consulting, 1/2026 to 6/2026; Senior Cost Manager at Dharam Consulting, 10/2024 to 6/2026; Senior Cost Manager at Turner & Townsend, 1/2024 to 10/2024; Cost Manager at Turner & Townsend, 4/2022 to 1/2024; Cost Manager at Turner & Townsend, 3/2020 to 4/2022; Architectural Technologist at HNW Architects, 5/2019 to 4/2020; Cost/Project Manager at Alan & Green, 7/2017 to 6/2019; Assistant Project Manager at Beard, 7/2013 to 7/2016; Project Management Trainee at Beard, 8/2012 to 7/2013; Dryliner/Quantity Surveyor at DB DRYLINING LIMITED, 8/2008 to 8/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 300,
+      "date_added": "2026-08-12 14:45:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Dharam Consulting",
+      "start": "1/2026",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Dharam Consulting",
+      "start": "10/2024",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "1/2024",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "4/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "3/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Architectural Technologist",
+      "company": "HNW Architects",
+      "start": "5/2019",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Cost/Project Manager",
+      "company": "Alan & Green",
+      "start": "7/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Beard",
+      "start": "7/2013",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Project Management Trainee",
+      "company": "Beard",
+      "start": "8/2012",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Dryliner/Quantity Surveyor",
+      "company": "DB DRYLINING LIMITED",
+      "start": "8/2008",
+      "end": "8/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Gainesville",
+    "region": "Florida",
+    "country": "United States",
+    "group": "Florida"
+  },
+  "education": [
+    "MSc Construction Law and Dispute Resolution, Law, King's College London, 2019 to 2021",
+    "Bachelor’s Degree, Architectural Engineering Technology/Technician, University Of Brighton, 2016 to 2019"
+  ],
+  "biography": "Turner & Townsend relies on a results-driven approach to cost management, where the focus is on delivering efficient, scalable solutions for complex data center projects across the Americas. With nearly 11 years in the construction industry, the current role emphasizes cost control, risk analysis, and financial oversight to drive successful project outcomes. Contributions are grounded in collaborative practices, ensuring alignment with client goals and operational excellence.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

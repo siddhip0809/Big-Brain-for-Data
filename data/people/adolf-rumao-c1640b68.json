@@ -1,0 +1,122 @@
+{
+  "id": "adolf-rumao-c1640b68",
+  "type": "person",
+  "name": "Adolf Rumao",
+  "current_title": "Senior Estimator",
+  "current_company": "Joseph J Albanese",
+  "location": "Santa Clara, California",
+  "linkedin": "https://www.linkedin.com/in/adolf-rumao-77b48b15",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Joseph J Albanese, 7/2025 to present; Estimator at Largo Concrete, 3/2015 to 7/2025; Estimator at Lithko Contracting, 12/2013 to 2/2015; Estimator at Bella Construction, 4/2013 to 11/2013; Field Engineer at Rumao Construction, 6/2010 to 7/2011; Intern at Rumao Construction, 5/2006 to 8/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 87,
+      "date_added": "2026-08-19 11:00:25 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 53,
+      "date_added": "2026-08-05 10:31:52 UTC",
+      "date_updated": "2026-08-19 06:00:25 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 53,
+      "date_added": "2026-08-05 10:31:52 UTC",
+      "date_updated": "2026-08-19 06:00:25 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "joseph-j-albanese",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Joseph J Albanese",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Largo Concrete",
+      "start": "3/2015",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Lithko Contracting",
+      "start": "12/2013",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Bella Construction",
+      "start": "4/2013",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Rumao Construction",
+      "start": "6/2010",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Rumao Construction",
+      "start": "5/2006",
+      "end": "8/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Santa Clara",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

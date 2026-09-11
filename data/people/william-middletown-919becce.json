@@ -1,0 +1,110 @@
+{
+  "id": "william-middletown-919becce",
+  "type": "person",
+  "name": "William Middletown",
+  "current_title": "Associate Director of Cost Management",
+  "current_company": "Gardiner & Theobald",
+  "location": "Lutz, Florida",
+  "linkedin": "https://www.linkedin.com/in/william-middleton-18270627",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director of Cost Management at Gardiner & Theobald, 2/2023 to present; Senior Cost Manager at Turner & Townsend at Turner & Townsend, 8/2021 to 2/2023; Senior Quantity Surveyor at Balfour Beatty plc ·, 8/2017 to 8/2021; Senior Quantity Surveyor at Turner & Townsend, 2016 to 2017; Claims Quantity Surveyor at Turner & Townsend, 2014 to 2016; Senior Quantity Surveyor at Balfour Beatty plc, 9/2011 to 4/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 150,
+      "date_added": "2026-08-19 13:05:38 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 339,
+      "date_added": "2026-08-13 13:47:57 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director of Cost Management",
+      "company": "Gardiner & Theobald",
+      "start": "2/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turner & Townsend at Turner & Townsend",
+      "start": "8/2021",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Balfour Beatty plc ·",
+      "start": "8/2017",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Turner & Townsend",
+      "start": "2016",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Claims Quantity Surveyor",
+      "company": "Turner & Townsend",
+      "start": "2014",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Balfour Beatty plc",
+      "start": "9/2011",
+      "end": "4/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Lutz",
+    "region": "Florida",
+    "country": "United States",
+    "group": "Florida"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "kevin-dalton-cc8e20b8",
+  "type": "person",
+  "name": "Kevin Dalton",
+  "current_title": "President - Data Center Operations",
+  "current_company": "Saragon",
+  "linkedin": "https://www.linkedin.com/in/kevin-dalton-1a7829b",
+  "location": "Andover, Massachusetts",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "President - Data Center Operations at Saragon, 8/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 341,
+      "date_added": "2026-08-20 12:39:03 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Operations & Facilities",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "President - Data Center Operations",
+      "company": "Saragon",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Andover",
+    "region": "Massachusetts",
+    "country": "United States",
+    "group": "Massachusetts"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

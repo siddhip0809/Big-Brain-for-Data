@@ -1,0 +1,101 @@
+{
+  "id": "peter-miles-ce2bd72b",
+  "type": "person",
+  "name": "Peter Miles",
+  "current_title": "Vice President Of Sales",
+  "current_company": "Virtus Data Centers",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/peter-miles-b7755513",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President Of Sales at Virtus Data Centers, 1/2025 to present; Client Director at Virtus Data Centers, 8/2008 to 1/2025; Business Development Manager at Obsidian Group, 7/2007 to 8/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Withdrew",
+      "rank": 27,
+      "date_added": "2026-08-12 07:58:44 UTC",
+      "date_updated": "2026-08-12 04:14:37 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 49,
+      "date_added": "2026-07-08 17:34:08 UTC",
+      "date_updated": "2026-08-12 02:58:44 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 229,
+      "date_added": "2026-04-21 10:07:25 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "virtus-data-centers",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Of Sales",
+      "company": "Virtus Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Client Director",
+      "company": "Virtus Data Centers",
+      "start": "8/2008",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Obsidian Group",
+      "start": "7/2007",
+      "end": "8/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "biography": "Currently the SVP of Sales at Virtus, where he leads a lean sales team with a focus on hyperscale deals (80-84% of business). He has been with Virtus since its inception, handling deals and engaging in \"upward management.\" He has experience selling to 5-10 clients, including the \"big 3\" and Chinese companies in Europe. Before his career in sales, he was an opera singer until age 25. He is open to new opportunities after April 2027, seeking roles with financial flexibility and upside against salary, where his experience is valued, and he can make significant contributions. He is not interested in large, bureaucratic companies like CyrusOne, Digital Realty, or Equinix, preferring startups and scale-ups. He is open to consulting but not interested in \"coasting\" or being a \"cog in a machine.\" He values direct communication and prefers work environments without excessive HR policies. He describes himself as \"northern grumpy,\" enjoys working alone, and dislikes industry events. He is 45 years old, based in London, married with two children, and originally from York.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

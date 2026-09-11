@@ -1,0 +1,58 @@
+{
+  "id": "ariel-blackwell-9f8ffb2e",
+  "type": "person",
+  "name": "Ariel Blackwell",
+  "current_title": "Senior Construction Manager",
+  "current_company": "Compass Datacenters",
+  "linkedin": "https://www.linkedin.com/in/ariel-blackwell",
+  "location": "Lake in the Hills, Illinois",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Construction Manager at Compass Datacenters, 12/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 260,
+      "date_added": "2026-07-09 08:51:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "compass-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Manager",
+      "company": "Compass Datacenters",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Lake in the Hills",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

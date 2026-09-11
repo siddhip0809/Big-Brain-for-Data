@@ -1,0 +1,132 @@
+{
+  "id": "sammi-gartland-f3ef9e50",
+  "type": "person",
+  "name": "Sammi Gartland",
+  "current_title": "Director of Preconstruction",
+  "current_company": "Poolside",
+  "linkedin": "https://www.linkedin.com/in/sammi-gartland",
+  "location": "Rapid City, South Dakota",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Preconstruction at Poolside, 5/2026 to present; Director of Preconstruction at Yondr, 8/2025 to 5/2026; Senior Preconstruction Manager at Amazon, 9/2024 to 6/2025; Global Preconstruction Manager at AWS, 6/2022 to 8/2024; Regional Pre-Construction Manager at Amazon, 3/2021 to 6/2022; Pre-Construction Manager at Amazon, 11/2020 to 2/2021; Engineer Project Manager at Delta Solutions and Strategies, 8/2020 to 11/2020; Senior Project Engineer at Skanska, 4/2017 to 1/2020; Engineer at Ceco Concrete Construction, 11/2013 to 3/2017; Battalion Operations Officer at US Army, 1/2011 to 10/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Tenure",
+      "rank": 231,
+      "date_added": "2026-08-11 17:49:48 UTC",
+      "date_updated": "2026-08-11 12:49:59 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Poolside",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "Yondr",
+      "start": "8/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Amazon",
+      "start": "9/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Global Preconstruction Manager",
+      "company": "AWS",
+      "start": "6/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Regional Pre-Construction Manager",
+      "company": "Amazon",
+      "start": "3/2021",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Manager",
+      "company": "Amazon",
+      "start": "11/2020",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Engineer Project Manager",
+      "company": "Delta Solutions and Strategies",
+      "start": "8/2020",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Skanska",
+      "start": "4/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Ceco Concrete Construction",
+      "start": "11/2013",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Battalion Operations Officer",
+      "company": "US Army",
+      "start": "1/2011",
+      "end": "10/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Rapid City",
+    "region": "South Dakota",
+    "country": "United States",
+    "group": "South Dakota"
+  },
+  "education": [
+    "Certificate Program, Interior Design, Berkeley College, 2022 to 2023",
+    "Bachelor’s Degree, Civil Engineering, Pennsylvania College of Technology, 2007 to 2011"
+  ],
+  "biography": "Experienced Project Manager with a demonstrated history of working in a variety of projects in the construction industry. Skilled in BIM360, AutoCAD, Procore, project management, cost management, forecasting, project estimation, contract management and quality control.  Years of experience on building structures including data centers, industrial warehouses, high rises, parking garages, specialty buildings, and hire education.  Scopes of knowledge include major utility collaboration, complex MEP systems, coordination for complicated conveyance and robotics systems, concrete structures, rebar, PT, foundations, structural steel, precast panels, interior and exterior glazing systems, elevators, laboratory equipment and casework, and miscellaneous finishes.I am also currently working on a second degree in interior design and architecture. I have a passion for space planning, rendering, sustainability in addition to a love of watercolor painting and hand sketching.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

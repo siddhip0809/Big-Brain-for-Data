@@ -1,0 +1,107 @@
+{
+  "id": "chris-bair-ce1b4af0",
+  "type": "person",
+  "name": "Chris Bair",
+  "current_title": "Chief Commercial Officer and Partner",
+  "current_company": "Stream Data Centers",
+  "linkedin": "https://www.linkedin.com/in/cbair",
+  "location": "Evergreen, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Commercial Officer and Partner at Stream Data Centers, 12/2022 to present; Senior Vice President Of Sales & Leasing at Stream Data Centers, 11/2019 to present; Vice President of Sales & Marketing Data Center Division at Iron Mountian, 8/2013 to 6/2019; Board Member at Handel Information Technologies, 8/2013 to 2/2017; Principal at Infrastructure Strategy Group, 10/2012 to 11/2019; Senior Vice-President of Sales at CoreSite, 4/2010 to 10/2012; Stream Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 133,
+      "date_added": "2025-12-15 15:33:29 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "stream-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer and Partner",
+      "company": "Stream Data Centers",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President Of Sales & Leasing",
+      "company": "Stream Data Centers",
+      "start": "11/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales & Marketing Data Center Division",
+      "company": "Iron Mountian",
+      "start": "8/2013",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Board Member",
+      "company": "Handel Information Technologies",
+      "start": "8/2013",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Infrastructure Strategy Group",
+      "start": "10/2012",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Vice-President of Sales",
+      "company": "CoreSite",
+      "start": "4/2010",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "raw": "Stream Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Evergreen",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Masters, Embry-Riddle Aeronautical University, 1993 to 1995",
+    "Bachelors, United States Air Force Academy, 1987 to 1991"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

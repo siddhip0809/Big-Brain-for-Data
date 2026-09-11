@@ -1,0 +1,139 @@
+{
+  "id": "serene-smart-1bb0df60",
+  "type": "person",
+  "name": "Serene Smart",
+  "current_title": "Principal, Land Acquisition Manager",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/serene-smart-36a923b",
+  "location": "Seattle, Washington",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Principal, Land Acquisition Manager at Microsoft, 3/2025 to present; Sr. Land Acquisition Manager at Microsoft, 6/2023 to present; Manager, Strategic Relationships at Microsoft, 12/2022 to 7/2023; Manager, Strategy and Transaction Management at Microsoft, 1/2021 to present; Manager  - Retail Real Estate at Microsoft, 6/2017 to 1/2021; West Coast Real Estate Manager at Cracker Barrel, 2/2016 to 6/2017; Store Development Manager at Starbucks, 4/2012 to 10/2015; Senior Real Estate Representative at 7-Eleven, 1/2010 to 3/2012; Real Estate Development Manager at Starbucks, 12/2006 to 2/2009; Real Estate Specialist at Starbucks, 9/2004 to 12/2006; Human Resources Specialist at Starbucks, 7/2000 to 9/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 487,
+      "date_added": "2026-06-03 14:54:22 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Principal, Land Acquisition Manager",
+      "company": "Microsoft",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Land Acquisition Manager",
+      "company": "Microsoft",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Strategic Relationships",
+      "company": "Microsoft",
+      "start": "12/2022",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Manager, Strategy and Transaction Management",
+      "company": "Microsoft",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager  - Retail Real Estate",
+      "company": "Microsoft",
+      "start": "6/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "West Coast Real Estate Manager",
+      "company": "Cracker Barrel",
+      "start": "2/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Store Development Manager",
+      "company": "Starbucks",
+      "start": "4/2012",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Real Estate Representative",
+      "company": "7-Eleven",
+      "start": "1/2010",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Real Estate Development Manager",
+      "company": "Starbucks",
+      "start": "12/2006",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Real Estate Specialist",
+      "company": "Starbucks",
+      "start": "9/2004",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Human Resources Specialist",
+      "company": "Starbucks",
+      "start": "7/2000",
+      "end": "9/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "BA, Public Relations & Business Administration, Washington State University, 1996 to 2000"
+  ],
+  "biography": "Principal, Land Acquisition Manager\nSr. Land Acquisition Manager",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "hyperscaler_equivalent_seniority": "Director",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

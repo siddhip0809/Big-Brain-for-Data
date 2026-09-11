@@ -1,0 +1,83 @@
+{
+  "id": "ryan-mccauley-8734acc4",
+  "type": "person",
+  "name": "Ryan McCauley",
+  "current_title": "Account Executive",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/-ryanmccauley-",
+  "location": "Ashburn, VA",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Account Executive at QTS Data Centers, 3/2026 to present; Sales Executive, Strategic Accounts at QTS Data Centers, 1/2025 to present; Sales Executive, Enterprise Accounts at QTS Data Centers, 6/2023 to 12/2024",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 66,
+      "date_added": "2025-11-07 13:15:58 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Executive",
+      "company": "QTS Data Centers",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Executive, Strategic Accounts",
+      "company": "QTS Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Executive, Enterprise Accounts",
+      "company": "QTS Data Centers",
+      "start": "6/2023",
+      "end": "12/2024",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Ashburn",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Bachelor of Business Administration, Marketing with a concentration in Professional Sales, James Madison University, 2019 to 2023"
+  ],
+  "biography": "As part of QTS, I help organizations build and scale their IT infrastructure through scalable robust Colocation. QTS, headquartered in Ashburn, VA, owns and operates data center 'giga-campuses' throughout the US and Europe. QTS offers full locking cabinets, cages, suites, data halls, and full buildings for its customers. Cooling options, rack densities, cage material, security systems, connectivity, and other components of the data center experience are highly customizable at QTS.\n\nOutside of work, the gym is my second home, and I enjoy skateboarding, kayaking, playing basketball, golfing, and hanging out with my dog and my family. And I buy Bitcoin like it's my daily coffee.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

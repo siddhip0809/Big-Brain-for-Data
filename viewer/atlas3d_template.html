@@ -1,0 +1,2144 @@
+<title>Data Center Atlas 3D</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* light "calm" theme is the default; body.dark restores the original look */
+  :root{
+    --bg:#f4f1ea;
+    --panel:#ffffff;
+    --panel-2:#faf8f3;
+    --border:#ddd7cb;
+    --grid:transparent;
+    --text:#1c2733;
+    --text-muted:#4f5d6b;
+    --text-dim:#7c8794;
+    --pure:#0e7490;
+    --font-display:'Chakra Petch', ui-sans-serif, system-ui, sans-serif;
+    --font-body:'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-mono:'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+    --label:#1c2733; --label-shadow:0 0 4px rgba(255,255,255,.95), 0 0 2px rgba(255,255,255,.95);
+    --shadow:0 8px 24px rgba(30,40,50,.10);
+  }
+  body.dark{
+    --bg:#070d13;
+    --panel:#0d1a24;
+    --panel-2:#0a151e;
+    --border:#1c3548;
+    --grid:#0f1f2b;
+    --text:#e8f1f7;
+    --text-muted:#7d95a6;
+    --text-dim:#4d6376;
+    --pure:#0891b2;
+    --label:#e8f1f7; --label-shadow:0 0 6px rgba(0,0,0,.9), 0 0 3px rgba(0,0,0,.9);
+    --shadow:0 8px 24px rgba(0,0,0,.45);
+  }
+  *{ box-sizing:border-box; }
+  html, body{ height:100%; }
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:var(--font-body); overflow:hidden;
+  }
+  .app{
+    display:grid;
+    grid-template-columns: 292px 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: "header header" "sidebar stage";
+    height:100vh; width:100vw;
+  }
+  header.tblock{
+    grid-area:header;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:0 20px;
+    background:linear-gradient(180deg, var(--panel), var(--panel-2));
+    border-bottom:1px solid var(--border);
+    min-width:0;
+  }
+  .brand{ display:flex; align-items:center; gap:10px; min-width:0; }
+  .brand svg{ flex:none; }
+  .brand-text{ min-width:0; }
+  .brand h1{
+    font-family:var(--font-display); font-weight:700; font-size:17px;
+    letter-spacing:.06em; text-transform:uppercase; margin:0; color:var(--text);
+    white-space:nowrap;
+  }
+  .brand p{
+    margin:1px 0 0; font-family:var(--font-mono); font-size:10px;
+    letter-spacing:.05em; color:var(--text-dim); white-space:nowrap;
+  }
+  .tblock-meta{
+    display:flex; align-items:center; gap:18px; font-family:var(--font-mono);
+    font-size:11px; color:var(--text-muted); letter-spacing:.03em; white-space:nowrap;
+  }
+  .tblock-meta b{ color:var(--text); font-weight:500; }
+  .tblock-meta .divider{ width:1px; height:22px; background:var(--border); }
+  .theme-btn{
+    background:none; border:1px solid var(--border); color:var(--text); font-family:var(--font-mono);
+    font-size:10.5px; padding:5px 10px; border-radius:4px; cursor:pointer; letter-spacing:.04em;
+  }
+  .theme-btn:hover{ border-color:var(--pure); }
+  .menu-btn{
+    display:none; background:none; border:1px solid var(--border); color:var(--text);
+    width:34px; height:34px; border-radius:4px; font-size:16px; cursor:pointer;
+  }
+
+  aside.sidebar{
+    grid-area:sidebar; background:var(--panel-2); border-right:1px solid var(--border);
+    padding:16px; display:flex; flex-direction:column; gap:20px; overflow-y:auto;
+  }
+  .field-label{
+    font-family:var(--font-mono); font-size:10.5px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--text-dim); margin:0 0 8px;
+  }
+  .search-box{ position:relative; }
+  .search-box input{
+    width:100%; background:var(--panel); border:1px solid var(--border); color:var(--text);
+    font-family:var(--font-mono); font-size:12.5px; padding:9px 10px; border-radius:5px;
+    outline:none;
+  }
+  .search-box input::placeholder{ color:var(--text-dim); }
+  .search-box input:focus{ border-color:var(--pure); }
+  .search-results{
+    position:absolute; top:calc(100% + 6px); left:0; right:0; background:var(--panel);
+    border:1px solid var(--border); border-radius:6px; max-height:260px; overflow-y:auto;
+    z-index:20; box-shadow:0 12px 28px rgba(0,0,0,.5); display:none;
+  }
+  .search-results.open{ display:block; }
+  .search-result{
+    padding:8px 10px; font-size:12.5px; cursor:pointer; display:flex;
+    justify-content:space-between; gap:8px; border-bottom:1px solid var(--border);
+  }
+  .search-result:last-child{ border-bottom:none; }
+  .search-result:hover{ background:var(--panel-2); }
+  .search-result .sr-sub{ color:var(--text-dim); font-family:var(--font-mono); font-size:10.5px; flex:none; }
+
+  .legend-row{
+    display:flex; align-items:center; gap:9px; padding:6px 4px; border-radius:5px;
+    cursor:pointer; user-select:none; font-size:12.5px;
+  }
+  .legend-row:hover{ background:var(--panel); }
+  .legend-row.off{ opacity:.38; }
+  .edge-legend{ display:flex; flex-direction:column; gap:7px; font-size:11px; color:var(--text-muted); }
+  .edge-type{ display:flex; flex-wrap:wrap; gap:3px 12px; align-items:center; }
+  .edge-type b{ color:var(--text); font-weight:500; }
+  .edge-key{ display:flex; align-items:center; gap:6px; }
+  .edge-variant{ font-size:10.5px; color:var(--text-dim); padding-left:6px; }
+  .mini-toggle{ margin-left:auto; background:none; border:1px solid var(--border); color:var(--text-dim); font-family:var(--font-mono); font-size:10px; padding:1px 7px; border-radius:3px; cursor:pointer; }
+  .mini-toggle.on{ border-color:var(--pure); color:var(--pure); }
+  .flow-row{ display:flex; justify-content:space-between; gap:8px; font-size:12px; padding:3px 0; }
+  .flow-row span:last-child{ font-family:var(--font-mono); color:var(--text-dim); }
+  .legend-heading{
+    display:flex; align-items:center; justify-content:space-between;
+    font-family:var(--font-mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--text-dim); margin:0 0 4px;
+  }
+  .legend-heading + .legend-heading, .legend-row + .legend-heading{ margin-top:12px; padding-top:10px; border-top:1px dashed var(--border); }
+  .legend-heading button{
+    background:none; border:1px solid var(--border); color:var(--text-muted); font:inherit;
+    letter-spacing:inherit; text-transform:inherit; padding:2px 7px; border-radius:3px; cursor:pointer;
+  }
+  .legend-heading button:hover{ border-color:var(--pure); color:var(--text); }
+  .swatch{ width:11px; height:11px; border-radius:50%; flex:none; }
+  .legend-row .lg-label{ flex:1; }
+  .legend-row .lg-count{ font-family:var(--font-mono); color:var(--text-dim); font-size:11px; }
+
+  .stats-grid{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  .stat-tile{
+    background:var(--panel); border:1px solid var(--border); border-radius:6px; padding:9px 10px;
+  }
+  .stat-tile .num{ font-family:var(--font-mono); font-size:18px; color:var(--text); font-variant-numeric:tabular-nums; }
+  .stat-tile .lbl{ font-size:10px; color:var(--text-dim); letter-spacing:.04em; text-transform:uppercase; margin-top:2px; }
+
+  .sidebar-footer{
+    margin-top:auto; font-size:10.5px; color:var(--text-dim); line-height:1.5;
+    border-top:1px solid var(--border); padding-top:12px;
+  }
+  .sidebar-footer b{ color:var(--text-muted); }
+
+  .stage{
+    grid-area:stage; position:relative; overflow:hidden;
+    background-color:var(--bg);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size:34px 34px;
+  }
+  body:not(.dark) .stage{ background-image:radial-gradient(ellipse at 50% 40%, #ffffff 0%, var(--bg) 70%); background-size:100% 100%; }
+  canvas{ position:absolute; inset:0; width:100%; height:100%; cursor:grab; opacity:0; transition:opacity 1.1s ease; }
+  canvas.ready{ opacity:1; }
+  .label3d{
+    position:absolute; transform:translate(-50%, -50%); white-space:nowrap;
+    font-family:'Chakra Petch', sans-serif; font-weight:600; font-size:12px;
+    color:var(--label); text-shadow:var(--label-shadow);
+    pointer-events:none;
+  }
+  .label3d.dim{ opacity:.25; }
+  .label3d.zone-cap{
+    font-family:var(--font-mono); font-weight:500; font-size:11px; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--text-dim); opacity:.85;
+  }
+
+  .tooltip{
+    position:absolute; pointer-events:none; background:var(--panel); border:1px solid var(--border);
+    border-radius:5px; padding:6px 9px; font-size:12px; color:var(--text); z-index:30;
+    transform:translate(14px, 10px); white-space:nowrap; box-shadow:0 8px 20px rgba(0,0,0,.45);
+    display:none;
+  }
+  .tooltip b{ font-family:var(--font-display); }
+  .tooltip .tt-sub{ color:var(--text-dim); font-family:var(--font-mono); font-size:10.5px; }
+
+  .focus-controls{
+    position:absolute; top:16px; left:16px; z-index:22; gap:8px;
+  }
+  .focus-controls:not([hidden]){ display:flex; }
+  .focus-controls button{
+    background:var(--panel); border:1px solid var(--border); color:var(--text);
+    font-family:var(--font-mono); font-size:11.5px; padding:8px 12px; border-radius:6px;
+    cursor:pointer; box-shadow:0 6px 18px rgba(0,0,0,.35);
+  }
+  .focus-controls button:hover{ border-color:var(--pure); }
+
+  .detail{
+    position:absolute; top:0; right:0; bottom:0; width:360px; max-width:88vw;
+    background:var(--panel-2); border-left:1px solid var(--border);
+    transform:translateX(100%); transition:transform .22s ease; z-index:25;
+    display:flex; flex-direction:column;
+  }
+  .detail.open{ transform:translateX(0); }
+  .detail-head{
+    display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+    padding:16px 16px 12px; border-bottom:1px solid var(--border);
+  }
+  .detail-head h2{
+    font-family:var(--font-display); font-size:17px; margin:0 0 4px; line-height:1.25;
+  }
+  .detail-kind{
+    font-family:var(--font-mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+    padding:2px 7px; border-radius:3px; display:inline-block;
+  }
+  .detail-close{
+    background:none; border:1px solid var(--border); color:var(--text-muted); width:26px; height:26px;
+    border-radius:4px; cursor:pointer; flex:none; font-size:14px; line-height:1;
+  }
+  .detail-body{ padding:14px 16px 20px; overflow-y:auto; font-size:13px; }
+  .detail-body p{ margin:0 0 12px; line-height:1.55; color:var(--text-muted); }
+  .dt-row{ display:flex; gap:8px; margin-bottom:8px; font-size:12.5px; }
+  .dt-row .dt-k{ color:var(--text-dim); font-family:var(--font-mono); font-size:10.5px; width:92px; flex:none; padding-top:2px; text-transform:uppercase; letter-spacing:.04em; }
+  .dt-row .dt-v{ color:var(--text); }
+  .tag-row{ display:flex; flex-wrap:wrap; gap:6px; margin:4px 0 14px; }
+  .tag{
+    font-family:var(--font-mono); font-size:10.5px; padding:2px 7px; border-radius:3px;
+    border:1px solid var(--border); color:var(--text-muted);
+  }
+  .banner-note{
+    background:var(--panel); border:1px dashed var(--border); color:var(--text-dim);
+    padding:9px 10px; border-radius:6px; font-size:11px; margin-top:14px; line-height:1.5;
+  }
+  .pipeline-entry{
+    border:1px solid var(--border); border-radius:6px; padding:9px 10px; margin-bottom:8px;
+  }
+  .pipeline-entry .pe-title{ font-size:12.5px; margin-bottom:5px; color:var(--text); }
+  .pipeline-entry .pe-meta{ font-family:var(--font-mono); font-size:10.5px; color:var(--text-dim); }
+  .src{ font-family:var(--font-mono); font-size:10px; color:var(--text-dim); margin-top:5px; line-height:1.6; }
+  .src a{ color:var(--pure); text-decoration:none; border-bottom:1px dotted var(--pure); }
+  .src-none{ color:#fca5a5; }
+  .vflags{ display:flex; gap:5px; flex-wrap:wrap; margin-top:6px; }
+  .vflag{
+    font-family:var(--font-mono); font-size:9.5px; letter-spacing:.03em; padding:2px 7px; border-radius:3px;
+    border:1px solid var(--border); color:var(--text-dim); background:none; cursor:pointer;
+  }
+  .vflag:hover{ border-color:var(--text-muted); color:var(--text); }
+  .vflag.on{ border-color:#4ade80; color:#4ade80; }
+  .vflag.on.ward{ border-color:#facc15; color:#facc15; }
+  .vflag[disabled]{ cursor:default; opacity:.7; }
+  .section-label{
+    font-family:var(--font-mono); font-size:10px; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--text-dim); margin:16px 0 8px;
+  }
+  .section-label:first-child{ margin-top:0; }
+  .section-label a{ color:var(--pure); cursor:pointer; text-transform:none; letter-spacing:0; font-size:11px; }
+  .fn-row{ display:flex; justify-content:space-between; gap:8px; font-size:12px; padding:5px 0; border-bottom:1px solid var(--border); }
+  .fn-row .fn-lead{ color:var(--text-dim); font-size:11px; text-align:right; }
+
+  /* ---- org chart overlay ---- */
+  .org{ position:absolute; inset:0; z-index:26; background:var(--bg); flex-direction:column; }
+  .org:not([hidden]){ display:flex; }
+  .org-head{
+    display:flex; align-items:flex-start; justify-content:space-between; gap:16px;
+    padding:16px 20px 12px; border-bottom:1px solid var(--border); flex-wrap:wrap;
+  }
+  .org-head h2{ font-family:var(--font-display); font-size:19px; margin:0 0 3px; }
+  .org-sub{ font-family:var(--font-mono); font-size:11px; color:var(--text-dim); letter-spacing:.04em; }
+  .org-controls{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .seg{ display:flex; border:1px solid var(--border); border-radius:5px; overflow:hidden; }
+  .seg button{
+    background:none; border:none; color:var(--text-muted); font-family:var(--font-mono); font-size:11px;
+    padding:7px 11px; cursor:pointer; letter-spacing:.03em;
+  }
+  .seg button.on{ background:var(--panel); color:var(--text); }
+  .org-controls input{
+    background:var(--panel); border:1px solid var(--border); color:var(--text); font-family:var(--font-mono);
+    font-size:12px; padding:7px 10px; border-radius:5px; width:260px; outline:none;
+  }
+  .org-controls input:focus{ border-color:var(--pure); }
+  .org-lead{ padding:12px 20px 4px; border-bottom:1px solid var(--border); }
+  .org-lead-row{ display:flex; gap:10px; overflow-x:auto; padding-bottom:10px; }
+  .org-body{
+    flex:1; overflow:auto; padding:14px 20px 20px;
+    display:grid; grid-auto-flow:column; grid-auto-columns:272px; gap:14px; align-items:start;
+  }
+  .org-col{ background:var(--panel-2); border:1px solid var(--border); border-radius:8px; min-width:0; }
+  .org-col-head{
+    padding:10px 12px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; gap:8px;
+    font-family:var(--font-display); font-size:12.5px; letter-spacing:.03em; position:sticky; top:0; background:var(--panel-2); border-radius:8px 8px 0 0;
+  }
+  .org-col-head span{ font-family:var(--font-mono); color:var(--text-dim); font-size:11px; }
+  .org-col-head a{ color:var(--pure); cursor:pointer; }
+  .org-col-head .srch-client{ color:var(--text); font-family:inherit; font-size:inherit; }
+  .org-col-head .srch-client[data-company]{ color:var(--pure); cursor:pointer; }
+  .org-titles{ padding:6px 10px 8px; border-bottom:1px solid var(--border); background:var(--panel); font-size:11px; }
+  .org-titles .title-row{ display:flex; justify-content:space-between; gap:8px; padding:3px 0; color:var(--text-muted); }
+  .org-titles .title-row span:last-child{ font-family:var(--font-mono); color:var(--text-dim); flex:none; }
+  .org-col-body{ padding:8px; display:flex; flex-direction:column; gap:6px; max-height:calc(100vh - 330px); overflow-y:auto; }
+  .pcard{
+    background:var(--panel); border:1px solid var(--border); border-radius:6px; padding:8px 10px; cursor:pointer;
+    min-width:0;
+  }
+  .pcard:hover{ border-color:#2c5068; }
+  .pcard.lead{ border-color:var(--pure); box-shadow:inset 3px 0 0 var(--pure); }
+  .org-lead-row .pcard{ flex:none; width:240px; }
+  .pcard .p-name{ font-size:12.5px; font-weight:600; display:flex; justify-content:space-between; gap:6px; }
+  .pcard .p-title{ font-size:11.5px; color:var(--text-muted); margin-top:2px; line-height:1.35; }
+  .pcard .p-meta{ font-family:var(--font-mono); font-size:10px; color:var(--text-dim); margin-top:5px; line-height:1.5; }
+  .pcard .p-meta .sen{ color:var(--text-muted); }
+  .pcard .p-more{ display:none; margin-top:8px; border-top:1px dashed var(--border); padding-top:8px; font-size:11px; }
+  .pcard.open .p-more{ display:block; }
+  .pcard .p-more .job{ display:flex; gap:8px; padding:3px 0; color:var(--text-muted); }
+  .pcard .p-more .job b{ color:var(--text); font-weight:500; }
+  .pcard .p-more .job .yrs{ font-family:var(--font-mono); font-size:10px; color:var(--text-dim); flex:none; width:96px; }
+  .pcard .p-more a{ color:var(--pure); }
+  .pill{ font-family:var(--font-mono); font-size:9.5px; padding:1px 6px; border-radius:3px; border:1px solid var(--border); color:var(--text-dim); flex:none; }
+  .pill.lead{ border-color:var(--pure); color:var(--pure); }
+  .pill.dnc{ border-color:#ef4444; color:#fca5a5; }
+  .pill.new{ border-color:#4ade80; color:#4ade80; }
+  .pill.dir{ opacity:.75; }
+  .pill.tier{ border-color:#0e7490; color:#0e7490; }
+  .pill.spoke{ border-color:#7c3aed; color:#7c3aed; }
+  .pill.recent-move{ border-color:#f59e0b; color:#b45309; }
+  .pill.urg{ border-color:#64748b; color:#475569; }
+  body.dark .pill.urg{ border-color:#94a3b8; color:#cbd5e1; }
+  .slate{ display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; margin-top:4px; }
+  .slate b{ font-family:var(--font-mono); font-size:13px; }
+  body.dark .pill.tier{ border-color:#22d3ee; color:#22d3ee; }
+  body.dark .pill.spoke{ border-color:#c084fc; color:#c084fc; }
+  body.dark .pill.recent-move{ border-color:#f59e0b; color:#fbbf24; }
+  .skillbar{ display:flex; justify-content:space-between; gap:8px; padding:2px 0; font-size:11px; }
+  .skillbar .hi{ color:#0e7490; font-family:var(--font-mono); font-size:10px; }
+  .skillbar .lo{ color:var(--text-dim); font-family:var(--font-mono); font-size:10px; }
+  body.dark .skillbar .hi{ color:#22d3ee; }
+  .org-empty{ color:var(--text-dim); font-size:12px; padding:20px; }
+  .matrix{ border-collapse:separate; border-spacing:3px; font-size:12px; }
+  .matrix th{ font-family:var(--font-mono); font-size:10px; letter-spacing:.04em; color:var(--text-dim); text-align:left; padding:6px 8px; font-weight:500; max-width:150px; }
+  .matrix th.col{ writing-mode:vertical-rl; transform:rotate(180deg); text-align:left; height:150px; vertical-align:bottom; }
+  .matrix td{ text-align:center; padding:8px 6px; border-radius:5px; background:var(--panel-2); color:var(--text); cursor:pointer; min-width:48px; font-variant-numeric:tabular-nums; }
+  .matrix td.z{ color:var(--text-dim); cursor:default; background:transparent; }
+  .matrix td .pct{ font-family:var(--font-mono); font-size:9px; color:var(--text-dim); margin-top:1px; }
+  select.theme-btn{ appearance:auto; }
+  .matrix td.sel{ outline:2px solid var(--pure); }
+  .matrix tr.grp td, .matrix tr.grp th{ border-top:1px dashed var(--border); }
+  .flows-list{ margin-top:16px; display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:8px; }
+  .flows-wrap{ display:flex; gap:24px; flex-wrap:wrap; align-items:flex-start; }
+
+  @media (max-width: 760px){
+    .app{ grid-template-columns:1fr; grid-template-areas:"header" "stage"; }
+    aside.sidebar{
+      position:absolute; top:60px; left:0; bottom:0; width:280px; z-index:40;
+      transform:translateX(-100%); transition:transform .2s ease; box-shadow:16px 0 30px rgba(0,0,0,.4);
+    }
+    aside.sidebar.open{ transform:translateX(0); }
+    .menu-btn{ display:block; }
+    .tblock-meta{ display:none; }
+    .detail{ width:100vw; max-width:100vw; }
+    .org-head{ padding:12px 14px 10px; }
+    .org-controls{ width:100%; }
+    .org-controls input{ order:3; flex-basis:100%; width:auto; }
+    .org-body{ grid-auto-columns:min(272px, 84vw); padding:12px; }
+  }
+</style>
+
+<div class="app">
+  <header class="tblock">
+    <div class="brand">
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle panel">&#9776;</button>
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+        <rect x="1" y="1" width="24" height="24" rx="3" stroke="#0891b2" stroke-width="1.2"/>
+        <circle cx="13" cy="13" r="3.4" fill="#fdf6e3"/>
+        <circle cx="6" cy="7" r="1.6" fill="#0891b2"/>
+        <circle cx="20" cy="8" r="1.6" fill="#d97706"/>
+        <circle cx="7" cy="20" r="1.6" fill="#d97706"/>
+        <circle cx="20" cy="19" r="1.6" fill="#9333ea"/>
+        <line x1="13" y1="13" x2="6" y2="7" stroke="#294456" stroke-width="1"/>
+        <line x1="13" y1="13" x2="20" y2="8" stroke="#294456" stroke-width="1"/>
+        <line x1="13" y1="13" x2="7" y2="20" stroke="#294456" stroke-width="1"/>
+        <line x1="13" y1="13" x2="20" y2="19" stroke="#294456" stroke-width="1"/>
+      </svg>
+      <div class="brand-text">
+        <h1>Data Center Atlas — 3D</h1>
+        <p>COMPANIES + INVESTORS &middot; PEOPLE VIA EACH COMPANY'S ORG CHART</p>
+      </div>
+    </div>
+    <div class="tblock-meta">
+      <span><b id="statNodes">—</b> NODES</span>
+      <span><b id="statLinks">—</b> LINKS</span>
+      <div class="divider"></div>
+      <span>REV <b id="statRev">—</b></span>
+      <div class="divider"></div>
+      <button class="theme-btn" id="themeBtn" title="Switch between the calm light look and the original dark one">Dark mode</button>
+    </div>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <p class="field-label">Search the graph</p>
+      <div class="search-box">
+        <input id="searchInput" type="text" placeholder="name, company, title…" autocomplete="off">
+        <div class="search-results" id="searchResults"></div>
+      </div>
+    </div>
+
+    <div>
+      <p class="field-label">Legend &middot; click to filter</p>
+      <div id="legend"></div>
+      <p class="field-label" style="margin-top:14px">Unconnected nodes <span id="isoCount" class="lg-count"></span></p>
+      <div class="seg" id="isoMode" title="Nodes with no line to anything currently shown">
+        <button data-mode="show">Show</button><button data-mode="apart">Set apart</button><button data-mode="hide" class="on">Hide</button>
+      </div>
+      <p class="field-label" style="margin-top:14px">Lines &middot; each type on/off</p>
+      <div id="edgeLegend" class="edge-legend"></div>
+    </div>
+
+    <div>
+      <p class="field-label">Talent flow overview</p>
+      <button class="theme-btn" id="flowsBtn" style="width:100%">Open tier-to-tier matrix</button>
+      <p class="field-label" style="margin-top:14px">Ward's own searches <span id="srchCount" class="lg-count"></span></p>
+      <button class="theme-btn" id="srchBtn" style="width:100%">Where we have worked</button>
+      <div class="seg" id="wardOnly" style="margin-top:8px" title="Show only the companies Ward has run a search for">
+        <button data-on="0" class="on">All companies</button><button data-on="1">Clients only</button>
+      </div>
+    </div>
+
+    <div>
+      <p class="field-label">Snapshot</p>
+      <div class="stats-grid" id="statsGrid"></div>
+    </div>
+
+    <div class="sidebar-footer">
+      <b>Drag</b> to orbit &middot; <b>scroll</b> to zoom &middot; <b>click</b> a node for detail.<br><br>
+      People are not drawn as nodes — that made the graph unreadable. Instead
+      each company's detail panel opens an <b>org chart</b>: the people we
+      have mapped there, grouped by the department their title belongs to
+      (or by location), most senior first, each expandable to their past
+      employers. Every node in the 3D view is a company or a private backer,
+      spread out in true 3D (not stacked rings). Companies loosely cluster and are colored by tier —
+      Hyperscaler, NeoCloud/AI Infra, Developer/Operator, Cryptomining.
+      Investors (violet) don't get a fixed home of their own — a company
+      belongs to one tier, but an investor can back several at once, so
+      each one sits wherever its actual backing pulls it: close to a
+      single portfolio company, or toward the middle if it backs a
+      spread of them.<br><br>
+      Every claim carries its <b>source links</b> and three <b>check flags</b>
+      — research team, Siddhi, Ward confirmed — click one to mark a claim as
+      checked; the mark is saved for everyone who opens this page and pulled
+      back into the brain.<br><br>
+      <b>Unconnected nodes</b> (no line to anything shown) can be set apart
+      — faded and pushed to an outer shell around their zone — or hidden
+      altogether, from the switch under the legend.<br><br>
+      Four <b>adjacent-industry</b> tiers — energy developers, general
+      contractors, civil/land engineers, real estate &amp; industrial
+      developers — are in the brain from Siddhi's own lists but start
+      switched off. Switch them on and they appear as their own
+      <b>separate zone</b> beside the data-center core, never mixed into
+      it; investors that back both stretch between the two. A company on more than
+      one list shows as a <b>banded</b> node, one colour stripe per role
+      (AECOM: civil + industrial + GC; TeraWulf: crypto pivot + neocloud).<br><br>
+      In the core, <b>solid</b> company nodes are pure-play — data centers
+      are the whole business, a direct-tap recruiting pool. <b>Faded</b>
+      nodes are one arm of a bigger real estate, energy, telecom, or
+      construction company (a Prologis, not a STACK) — check the detail
+      panel before treating a candidate there as a straight DC hire.<br><br>
+      Source: Clockwork CRM export, Siddhi's company lists, and web research.
+    </div>
+  </aside>
+
+  <div class="stage" id="stage">
+    <div id="webgl-container" style="position:absolute; inset:0;"></div>
+    <div id="labels3d" style="position:absolute; inset:0; pointer-events:none; overflow:hidden;"></div>
+    <div class="tooltip" id="tooltip"></div>
+    <div class="focus-controls" id="focusControls" hidden>
+      <button id="focusBack">&larr; Back</button>
+      <button id="focusReset">Show full graph &times;</button>
+    </div>
+    <div class="org" id="flows" hidden>
+      <div class="org-head">
+        <div><h2>Talent flow · who moves where</h2><div class="org-sub" id="flowsSub"></div></div>
+        <div class="org-controls">
+          <div class="seg" id="flowsView">
+            <button data-view="tier" class="on">Tier → tier</button><button data-view="fn">By function</button>
+          </div>
+          <div class="seg" id="flowsScope">
+            <button data-scope="all" class="on">All moves</button><button data-scope="core">Within the core only</button><button data-scope="in">Into the core</button>
+          </div>
+          <select id="flowsFn" class="theme-btn" title="Only people in this department"><option value="">All functions</option></select>
+          <button class="detail-close" id="flowsClose" title="Close">&times;</button>
+        </div>
+      </div>
+      <div class="org-body" id="flowsBody" style="display:block"></div>
+    </div>
+    <div class="org" id="searches" hidden>
+      <div class="org-head">
+        <div><h2>Where Ward has worked</h2><div class="org-sub" id="srchSub"></div></div>
+        <div class="org-controls">
+          <div class="seg" id="srchStatus">
+            <button data-st="" class="on">All</button><button data-st="active">Active</button><button data-st="on_hold">On hold</button><button data-st="pitch">Pitch</button><button data-st="closed">Closed</button>
+          </div>
+          <input id="srchFilter" type="text" placeholder="filter searches… (client, role, candidate)" autocomplete="off">
+          <button class="detail-close" id="srchClose" title="Close">&times;</button>
+        </div>
+      </div>
+      <div class="org-body" id="srchBody"></div>
+    </div>
+    <div class="org" id="org" hidden>
+      <div class="org-head">
+        <div><h2 id="orgName">—</h2><div class="org-sub" id="orgSub"></div></div>
+        <div class="org-controls">
+          <div class="seg" id="orgMode">
+            <button data-mode="function" class="on">By department</button>
+            <button data-mode="location">By location</button>
+            <button data-mode="prev">By previous employer</button>
+            <button data-mode="prevtier">By previous industry</button>
+            <button data-mode="toptier">By top tier</button>
+            <button data-mode="skill">By assessed skill</button>
+          </div>
+          <input id="orgFilter" type="text" placeholder="filter people… (also matches past employers)" autocomplete="off" title="Matches name, title, location, department and past employers">
+          <button class="detail-close" id="orgClose" title="Close org chart">&times;</button>
+        </div>
+      </div>
+      <div class="org-lead" id="orgLead"></div>
+      <div class="org-body" id="orgBody"></div>
+    </div>
+    <div class="detail" id="detail">
+      <div class="detail-head">
+        <div>
+          <h2 id="detailName">—</h2>
+          <span class="detail-kind" id="detailKind">—</span>
+        </div>
+        <button class="detail-close" id="detailClose">&times;</button>
+      </div>
+      <div class="detail-body" id="detailBody"></div>
+    </div>
+  </div>
+</div>
+<script type="application/json" id="graph-data">__GRAPH_DATA_JSON__</script>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/lines/LineSegmentsGeometry.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/lines/LineMaterial.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/lines/LineSegments2.js"></script>
+<script>
+(function(){
+  const GRAPH = JSON.parse(document.getElementById('graph-data').textContent);
+  const CATS = GRAPH.categories; // [{id,name,color,count}]
+  const catById = {};
+  CATS.forEach(c => catById[c.id] = c);
+  const PARENT_INDUSTRY = GRAPH.parent_industry_meta || []; // [{id,name,note,count}]
+  const PEOPLE = GRAPH.people || {};          // companyId -> [person, ...] sorted most senior first
+  const FUNCTION_ORDER = GRAPH.functions || [];
+  // Ward Search's own assignments (data/searches/, pulled from Clockwork). Not nodes
+  // on the map -- they hang off the client company and off each candidate.
+  const SEARCHES = GRAPH.searches || [];
+  const searchBySlug = {};
+  SEARCHES.forEach(x => searchBySlug[x.slug] = x);
+  const SEARCH_STATUS = { active:{label:'Active', color:'#16a34a'}, on_hold:{label:'On hold', color:'#d97706'},
+                          pitch:{label:'Pitch', color:'#0891b2'}, closed:{label:'Closed', color:'#94a3b8'} };
+  // how far a candidate got, from the Clockwork status category
+  const CAND_STAGE = { 'in-placed':{label:'placed', color:'#16a34a'}, 'in-offered':{label:'offered', color:'#16a34a'},
+                       'in-contenders':{label:'contender', color:'#0891b2'}, 'in-outreach':{label:'approached', color:'#0891b2'},
+                       'research-researching':{label:'researched', color:'#94a3b8'},
+                       'out-withdrew':{label:'withdrew', color:'#d97706'},
+                       'out-firm_rejected':{label:'we passed', color:'#dc2626'},
+                       'out-client_rejected':{label:'client passed', color:'#dc2626'} };
+  const candStage = c => CAND_STAGE[c] || { label:(c||'').replace(/^\w+-/,'').replace(/_/g,' '), color:'#94a3b8' };
+  const piById = {};
+  PARENT_INDUSTRY.forEach(p => piById[p.id] = p);
+
+  function escapeHtml(s){
+    return (s == null ? '' : String(s)).replace(/[&<>"']/g, c => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    }[c]));
+  }
+
+  // Every claim shows its sources as links so it can be checked. A claim
+  // with no URL is flagged -- it came from an earlier research round that
+  // recorded only "web research", and has not been independently verified.
+  const isUrl = s => typeof s === 'string' && /^https?:\/\//i.test(s.trim());
+  const domainOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch(e){ return u; } };
+  function sourceLinks(sources){
+    const urls = (sources || []).filter(isUrl);
+    if(!urls.length) return `<div class="src src-none">no source link — unverified, check before relying on it</div>`;
+    return `<div class="src">sources: ${urls.map((u, i) => `<a href="${escapeHtml(u.trim())}" target="_blank" rel="noopener" title="${escapeHtml(u.trim())}">${escapeHtml(domainOf(u.trim()))}</a>`).join(' · ')}</div>`;
+  }
+
+  // ---------- verification flags ----------
+  // Three checks a person can set on any claim; stored in the artifact's
+  // shared store (doc verifications/<link key>) so they persist across
+  // republishes and can be pulled back into the repo. Baseline values come
+  // from relationships.json (`verified_by`) via the build.
+  const FLAGS = [['research_team', 'research team'], ['siddhi', 'Siddhi'], ['ward', 'Ward confirmed']];
+  const VER = {};                       // link key -> {research_team, siddhi, ward}  (date string or null)
+  let vdb = null, vdbReady = false;     // db namespace (null = flags read-only in this view)
+  function flagChips(key){
+    const v = VER[key] || {};
+    return `<div class="vflags" data-key="${escapeHtml(key)}">` + FLAGS.map(([f, label]) =>
+      `<button class="vflag ${f}${v[f] ? ' on' : ''}" data-flag="${f}" ${vdbReady && !vdb ? 'disabled title="verification store not available in this view"' : ''} title="${v[f] ? 'checked ' + escapeHtml(v[f]) + ' — click to clear' : 'click to mark as checked'}">${v[f] ? '✓ ' : ''}${label}</button>`).join('') + `</div>`;
+  }
+  async function toggleFlag(key, flag, btn){
+    if(!vdb) return;
+    const v = VER[key] = VER[key] || {};
+    v[flag] = v[flag] ? null : new Date().toISOString().slice(0, 10);
+    v.updated = new Date().toISOString();
+    btn.classList.toggle('on', !!v[flag]);
+    btn.textContent = (v[flag] ? '✓ ' : '') + FLAGS.find(x => x[0] === flag)[1];
+    try { await vdb.doc('verifications/' + key).set(v); }
+    catch(e){ console.warn('verification save failed', e); }
+  }
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('.vflag'); if(!b || b.disabled) return;
+    toggleFlag(b.closest('.vflags').dataset.key, b.dataset.flag, b);
+  });
+  (async () => {
+    // baseline from the build first, then whatever viewers have set since
+    GRAPH.links.forEach(l => { if(l.verified_by && Object.keys(l.verified_by).length) VER[l.key] = Object.assign({}, l.verified_by); });
+    try {
+      vdb = window.claude && claude.use ? await claude.use('db') : null;
+      if(vdb){
+        const snap = await vdb.collection('verifications').get();
+        snap.docs.forEach(d => { if(d.exists) VER[d.id] = Object.assign(VER[d.id] || {}, d.data()); });
+      }
+    } catch(e){ console.warn('verification store unavailable', e); vdb = null; }
+    vdbReady = true;
+    setTimeout(() => { if(selectedNode) renderDetail(selectedNode); }, 0); // refresh chips if a panel is already open
+  })();
+
+  // ---------- node/link index ----------
+  const nodeById = {};
+  GRAPH.nodes.forEach(n => { n.deg = 0; nodeById[n.id] = n; });
+  GRAPH.links.forEach(l => {
+    l.sourceNode = nodeById[l.source];
+    l.targetNode = nodeById[l.target];
+    if(l.sourceNode) l.sourceNode.deg++;
+    if(l.targetNode) l.targetNode.deg++;
+  });
+  // reverse lookups for the detail panel
+  const backersOf = {};      // companyId -> [investor node, ...]
+  const portfolioOf = {};    // investorId -> [company node, ...]
+  const dealsOf = {};        // nodeId -> [{other, type, dir:'out'|'in', detail, status, confidence, sources}]
+  const backingLink = {};    // "investorNodeId|companyId" -> link (detail + sources of the backing claim)
+  GRAPH.links.forEach(l => {
+    if(!l.sourceNode || !l.targetNode) return;
+    if(l.type === 'invested_in'){
+      (backersOf[l.target] = backersOf[l.target] || []).push(l.sourceNode);
+      (portfolioOf[l.source] = portfolioOf[l.source] || []).push(l.targetNode);
+      backingLink[l.source + '|' + l.target] = l;
+    } else {
+      (dealsOf[l.source] = dealsOf[l.source] || []).push({ other: l.targetNode, type: l.type, dir: 'out', detail: l.detail, status: l.status, confidence: l.confidence, sources: l.sources, key: l.key });
+      (dealsOf[l.target] = dealsOf[l.target] || []).push({ other: l.sourceNode, type: l.type, dir: 'in',  detail: l.detail, status: l.status, confidence: l.confidence, sources: l.sources, key: l.key });
+    }
+  });
+  // colour = relationship type; dash pattern = the edge's `style` (set by
+  // the build: acquisitions encode status, everything else encodes confidence)
+  const LINK_STYLE = {
+    invested_in: { color: 0x9333ea, opacity: 0.55, width: 1.8, label: 'Investor backing', variants: { solid: 'confirmed', dashed: 'single-source · verify' } },
+    tenant_of:   { color: 0xf8fafc, lightColor: 0x334155, opacity: 0.6,  width: 2.2, label: 'Lease / tenant',   variants: { solid: 'confirmed', dashed: 'reported · verify' } },
+    acquired:    { color: 0xf59e0b, opacity: 0.85, width: 2.6, label: 'Acquisition',      variants: { solid: 'completed', dashed: 'announced / pending', dotted: 'terminated' } },
+    jv_partner:  { color: 0x4ade80, opacity: 0.8,  width: 2.4, label: 'Joint venture',    variants: { solid: 'active' } },
+    // adjacent industries -> data-center core
+    contractor_for:    { color: 0x38bdf8, opacity: 0.7, width: 2.0, label: 'Builds / engineers for', variants: { solid: 'delivered or under way', dashed: 'announced · verify' } },
+    supplies_power_to: { color: 0xef4444, opacity: 0.75, width: 2.2, label: 'Supplies power to',     variants: { solid: 'operating / contracted', dashed: 'announced / MOU · verify', dotted: 'cancelled' } },
+    site_partner:      { color: 0xf472b6, opacity: 0.7, width: 2.0, label: 'Land / campus partner',  variants: { solid: 'done or under way', dashed: 'announced · verify' } },
+    // people moving between companies (derived from career histories; off by default)
+    talent_flow:       { color: 0x94a3b8, lightColor: 0x64748b, opacity: 0.45, width: 1.3, label: 'Talent flow (people moved)', variants: { solid: 'same tier (e.g. developer → developer)', dashed: 'another tier, same group (e.g. hyperscaler → developer)', dotted: 'across groups (adjacent or investor ↔ core)' }, off: true },
+  };
+  let darkTheme = false;
+  const lineColor = st => (!darkTheme && st.lightColor) ? st.lightColor : st.color;
+  // every line type has its own switch; off = not drawn, not counted as a
+  // connection, not part of a focus ring
+  const lineOn = {};
+  Object.entries(LINK_STYLE).forEach(([t, st]) => { lineOn[t] = !st.off; });
+  const linkShown = l => !!lineOn[l.type];
+  const DASH = { dashed: { dashSize: 7, gapSize: 4 }, dotted: { dashSize: 1.6, gapSize: 3.4 } }; // world units
+  const SVG_DASH = { solid: '', dashed: '6 3', dotted: '1.5 3' };
+  const cssColor = c => '#' + c.toString(16).padStart(6, '0');
+
+  // ---------- two zones of space: the data-center core, and a separate
+  // region beside it for the adjacent industries. Each zone has invisible
+  // anchors, one per company role, spread on a Fibonacci sphere ----------
+  // The data-center core sits in the middle; each adjacent industry is a
+  // petal around it, evenly spaced on a ring in the horizontal plane.
+  const PETAL_R = 1100, PETAL_SIZE = 210;
+  const VIEW_DIR = { x: 0.55, y: 0.62, z: 0.55 };                    // default camera direction (see OVERVIEW_DIR)
+  const vlen = Math.hypot(VIEW_DIR.x, VIEW_DIR.y, VIEW_DIR.z); const vd = { x: VIEW_DIR.x / vlen, y: VIEW_DIR.y / vlen, z: VIEW_DIR.z / vlen };
+  // screen-right and screen-up for that camera: the petal ring lies in this plane
+  const rgt = (() => { const x = vd.z, z = -vd.x, l = Math.hypot(x, z); return { x: x / l, y: 0, z: z / l }; })();
+  const upv = { x: vd.y * rgt.z - vd.z * rgt.y, y: vd.z * rgt.x - vd.x * rgt.z, z: vd.x * rgt.y - vd.y * rgt.x };
+  const adjacentCats = CATS.filter(c => c.adjacent);
+  const ZONES = { core: { x: 0, y: 0, z: 0, r: 300, label: 'Data center core', id: 'core' } };
+  adjacentCats.forEach((c, i) => {
+    const a = (i / adjacentCats.length) * Math.PI * 2 + Math.PI / 4;   // top-right, top-left, bottom-left, bottom-right
+    const cx = Math.cos(a) * PETAL_R, cy = Math.sin(a) * PETAL_R;
+    ZONES[c.id] = { x: rgt.x * cx + upv.x * cy, y: rgt.y * cx + upv.y * cy, z: rgt.z * cx + upv.z * cy, r: PETAL_SIZE, label: c.name, id: c.id, color: c.color };
+  });
+  const zoneOf = n => (n.kind === 'company' && n.is_adjacent_only) ? ZONES[n.category] : ZONES.core;
+  function fibonacciSpherePoints(n, radius){
+    const pts = [];
+    const golden = Math.PI * (3 - Math.sqrt(5));
+    for(let i = 0; i < n; i++){
+      const y = 1 - (i / (n - 1)) * 2;
+      const r = Math.sqrt(Math.max(0, 1 - y * y));
+      const theta = golden * i;
+      pts.push({ x: Math.cos(theta) * r * radius, y: y * radius, z: Math.sin(theta) * r * radius });
+    }
+    return pts;
+  }
+  // Companies get an anchor (a company's primary tier is a coherent "home");
+  // investors don't -- one can back companies in every tier, so it sits
+  // wherever its actual backing and co-investments pull it (runForceStep).
+  const anchorPos = {};
+  const coreCats = CATS.filter(c => !c.adjacent && c.id !== 'investor');
+  fibonacciSpherePoints(coreCats.length, ZONES.core.r).forEach((p, i) => { anchorPos[coreCats[i].id] = { x: p.x, y: p.y, z: p.z }; });
+  adjacentCats.forEach(c => { anchorPos[c.id] = { x: ZONES[c.id].x, y: ZONES[c.id].y, z: ZONES[c.id].z }; });
+
+  // co-investment pairs: investors who've backed the same company get a
+  // (very weak) mutual pull -- real, data-driven cohesion ("these two
+  // actually invest together") rather than an arbitrary "same color"
+  // clustering rule.
+  const coInvestPairs = [];
+  Object.values(backersOf).forEach(investorList => {
+    for(let i = 0; i < investorList.length; i++){
+      for(let j = i + 1; j < investorList.length; j++){
+        coInvestPairs.push([investorList[i], investorList[j]]);
+      }
+    }
+  });
+
+  // physics runs only over nodes currently shown (adjacent tiers are off by
+  // default), so toggling a big tier on re-settles just what's visible
+  let activeNodes = [], activeLinks = [], activeCoInvestPairs = [];
+  function recomputeActive(){
+    GRAPH.nodes.forEach(n => { visDeg[n.id] = 0; });
+    GRAPH.links.forEach(l => {
+      if(linkShown(l) && l.sourceNode && l.targetNode && baseVisible(l.sourceNode) && baseVisible(l.targetNode)){ visDeg[l.source]++; visDeg[l.target]++; }
+    });
+    const isoCount = GRAPH.nodes.filter(n => baseVisible(n) && isIsolated(n)).length;
+    document.getElementById('isoCount').textContent = isoCount;
+    activeNodes = GRAPH.nodes.filter(nodeVisible);
+    const on = new Set(activeNodes.map(n => n.id));
+    activeLinks = GRAPH.links.filter(l => linkShown(l) && l.sourceNode && l.targetNode && on.has(l.source) && on.has(l.target));
+    activeCoInvestPairs = coInvestPairs.filter(([a, b]) => on.has(a.id) && on.has(b.id));
+  }
+
+  // ---------- force-directed layout (custom, run once on load) ----------
+  const CLUSTER_JITTER = 120;
+  GRAPH.nodes.forEach(n => {
+    const a = anchorPos[n.category] || { x: 0, y: 0, z: 0 };
+    n.px = a.x + (Math.random() - 0.5) * CLUSTER_JITTER * 2;
+    n.py = a.y + (Math.random() - 0.5) * CLUSTER_JITTER * 2;
+    n.pz = a.z + (Math.random() - 0.5) * CLUSTER_JITTER * 2;
+    n.vx = 0; n.vy = 0; n.vz = 0;
+  });
+
+  function runForceStep(){
+    const nodes = activeNodes;
+    const N = nodes.length;
+    // pairwise repulsion, O(n^2) over the visible nodes only
+    const REPEL = 4200;
+    for(let i = 0; i < N; i++){
+      const a = nodes[i];
+      for(let j = i + 1; j < N; j++){
+        const b = nodes[j];
+        let dx = a.px - b.px, dy = a.py - b.py, dz = a.pz - b.pz;
+        let d2 = dx*dx + dy*dy + dz*dz;
+        if(d2 < 1) d2 = 1;
+        const d = Math.sqrt(d2);
+        const f = REPEL / d2;
+        const fx = (dx / d) * f, fy = (dy / d) * f, fz = (dz / d) * f;
+        a.vx += fx; a.vy += fy; a.vz += fz;
+        b.vx -= fx; b.vy -= fy; b.vz -= fz;
+      }
+    }
+    // link springs (investor <-> company) -- fairly short and fairly
+    // stiff, so an investor with only one backed company nestles close
+    // to it instead of stretching out into a long, isolated strand
+    const LINK_K = 0.032, LINK_LEN = 85;
+    activeLinks.forEach(l => {
+      const a = l.sourceNode, b = l.targetNode;
+      if(!a || !b) return;
+      const dx = b.px - a.px, dy = b.py - a.py, dz = b.pz - a.pz;
+      const d = Math.max(1, Math.sqrt(dx*dx + dy*dy + dz*dz));
+      // company<->company deal links are softer and longer than investor
+      // backing, so related companies lean toward each other without
+      // being yanked out of their tier cluster
+      // edges between the two zones carry no spring at all: the zones stay
+      // apart and the line itself shows the connection
+      if(l.type === 'talent_flow') return; // people moving is not a structural tie
+      if(a.kind === 'company' && b.kind === 'company' && zoneOf(a) !== zoneOf(b)) return;
+      const k = l.type === 'invested_in' ? LINK_K : LINK_K * 0.3;
+      const len = l.type === 'invested_in' ? LINK_LEN : LINK_LEN * 1.6;
+      const f = (d - len) * k;
+      const fx = (dx / d) * f, fy = (dy / d) * f, fz = (dz / d) * f;
+      a.vx += fx; a.vy += fy; a.vz += fz;
+      b.vx -= fx; b.vy -= fy; b.vz -= fz;
+    });
+    // weak co-investment pull: two investors who've backed the same
+    // company at least once drift a little closer together -- real,
+    // data-driven cohesion instead of an arbitrary "same color" rule
+    const COINVEST_K = 0.006, COINVEST_LEN = 60;
+    activeCoInvestPairs.forEach(([a, b]) => {
+      const dx = b.px - a.px, dy = b.py - a.py, dz = b.pz - a.pz;
+      const d = Math.max(1, Math.sqrt(dx*dx + dy*dy + dz*dz));
+      if(d <= COINVEST_LEN) return; // already close enough, don't fight repulsion
+      const f = (d - COINVEST_LEN) * COINVEST_K;
+      const fx = (dx / d) * f, fy = (dy / d) * f, fz = (dz / d) * f;
+      a.vx += fx; a.vy += fy; a.vz += fz;
+      b.vx -= fx; b.vy -= fy; b.vz -= fz;
+    });
+    // weak pull toward each company's tier anchor (investors have none)
+    const ANCHOR_K = 0.012;
+    nodes.forEach(n => {
+      if(n.kind !== 'company') return;
+      const a = anchorPos[n.category];
+      if(!a) return;
+      n.vx += (a.x - n.px) * ANCHOR_K;
+      n.vy += (a.y - n.py) * ANCHOR_K;
+      n.vz += (a.z - n.pz) * ANCHOR_K;
+    });
+    // "set apart": unconnected nodes drift to an outer shell around their zone
+    if(isoMode === 'apart'){
+      nodes.forEach(n => {
+        if(!isIsolated(n)) return;
+        const z = zoneOf(n), R = z.r * 2.4;
+        const dx = n.px - z.x, dy = n.py - z.y, dz = n.pz - z.z, d = Math.max(1, Math.hypot(dx, dy, dz));
+        const f = (R - d) * 0.02;
+        n.vx += (dx / d) * f; n.vy += (dy / d) * f; n.vz += (dz / d) * f;
+      });
+    }
+    // very weak centering on the node's own zone
+    nodes.forEach(n => {
+      const z = zoneOf(n);
+      n.vx += (z.x - n.px) * 0.0008;
+      n.vy += (z.y - n.py) * 0.0008;
+      n.vz += (z.z - n.pz) * 0.0008;
+    });
+    // integrate + damping
+    const DAMP = 0.82;
+    nodes.forEach(n => {
+      n.vx *= DAMP; n.vy *= DAMP; n.vz *= DAMP;
+      n.px += n.vx; n.py += n.vy; n.pz += n.vz;
+    });
+  }
+
+  // ---------- colors / sizing ----------
+  function colorForNode(n){ return (catById[n.category] || {}).color || '#5b7184'; }
+  const weightOf = n => (visDeg[n.id] || 0) * 2 + Math.sqrt(n.people_count || 0) * 1.5 + (n.kind === 'investor' ? 1 : 0);
+  function radiusForNode(n){
+    const w = weightOf(n);
+    return w > 0 ? Math.min(6 + Math.sqrt(w) * 3.2, 26) : 4.6;
+  }
+  // Pure-play companies (data centers ARE the business) render solid and
+  // bright -- the direct-tap recruiting pool. Companies that are one arm
+  // of a broader real estate / energy / telecom / construction / other
+  // business render translucent -- a signal to check what a candidate
+  // there actually works on before treating them as a DC hire.
+  // Inside the adjacent zone every company is non-pure-play by definition,
+  // so the fade would say nothing there -- it applies within the core only.
+  function nodeOpacity(n){
+    if(n.kind !== 'company' || n.is_pure_play || n.is_adjacent_only) return 1;
+    return 0.4;
+  }
+
+  // ---------- legend / filters ----------
+  const filters = {};
+  CATS.forEach(c => filters[c.id] = !c.adjacent); // adjacent industries start hidden
+
+  // after any filter change: rebuild what's shown, pre-settle it, reframe the camera
+  function applyFilters(){
+    if(focusMode) exitFocus();
+    syncLegend();
+    recomputeActive();
+    buildScene();
+    for(let i = 0; i < 40; i++) runForceStep(); // pre-settle what just appeared
+    updatePositionsOnly();
+    settleFrames = 60;
+    refitOverview(true);
+  }
+  document.getElementById('isoMode').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    setIsoMode(b.dataset.mode); applyFilters();
+  });
+  function setIsoMode(mode){
+    isoMode = mode;
+    [...document.getElementById('isoMode').children].forEach(x => x.classList.toggle('on', x.dataset.mode === mode));
+  }
+  const legendEl = document.getElementById('legend');
+  const adjacentIds = CATS.filter(c => c.adjacent).map(c => c.id);
+  function addHeading(text, zone){
+    const h = document.createElement('p');
+    h.className = 'legend-heading';
+    h.innerHTML = `<span>${text}</span>`;
+    if(zone){ // whole-group switch
+      const b = document.createElement('button');
+      b.id = 'adjacentSwitch';
+      b.addEventListener('click', () => {
+        const anyOn = adjacentIds.some(id => filters[id]);
+        adjacentIds.forEach(id => { filters[id] = !anyOn; });
+        applyFilters();
+      });
+      h.appendChild(b);
+    }
+    legendEl.appendChild(h);
+  }
+  addHeading(ZONES.core.label);
+  CATS.forEach((c, i) => {
+    if(c.adjacent && !CATS[i - 1].adjacent) addHeading('Adjacent industries · petals around the core', true);
+    if(c.id === 'investor') addHeading('Backers · follow their portfolio');
+    const row = document.createElement('div');
+    row.className = 'legend-row';
+    row.dataset.cat = c.id;
+    row.innerHTML = `<span class="swatch" style="background:${c.color}"></span>
+      <span class="lg-label">${c.name}</span><span class="lg-count">${c.count}</span>`;
+    row.addEventListener('click', () => { filters[c.id] = !filters[c.id]; applyFilters(); });
+    legendEl.appendChild(row);
+  });
+  function syncLegend(){
+    document.querySelectorAll('.legend-row').forEach(r => r.classList.toggle('off', !filters[r.dataset.cat]));
+    document.getElementById('adjacentSwitch').textContent = adjacentIds.some(id => filters[id]) ? 'hide all' : 'show all';
+  }
+  syncLegend();
+  function renderEdgeLegend(){
+  const sample = (color, variant, w) => `<svg width="30" height="8" style="flex:none"><line x1="1" y1="4" x2="29" y2="4" stroke="${cssColor(color)}" stroke-width="${w}" stroke-linecap="round" stroke-dasharray="${SVG_DASH[variant]}"/></svg>`;
+  document.getElementById('edgeLegend').innerHTML = Object.entries(LINK_STYLE).map(([t, s]) =>
+    `<div class="edge-type"><span class="edge-key">${sample(lineColor(s), 'solid', s.width)}<b>${s.label}</b></span>` +
+      Object.entries(s.variants).map(([v, txt]) => `<span class="edge-key edge-variant">${sample(lineColor(s), v, s.width)}${txt}</span>`).join('') +
+      `<button class="mini-toggle${lineOn[t] ? ' on' : ''}" data-line="${t}">${lineOn[t] ? 'on' : 'off'}</button>` +
+    `</div>`).join('') +
+    `<div class="edge-type" style="justify-content:flex-end"><button class="mini-toggle" id="linesAll">all on</button><button class="mini-toggle" id="linesNone">all off</button></div>`;
+  function syncLineToggles(){
+    document.querySelectorAll('.mini-toggle[data-line]').forEach(b => { const on = lineOn[b.dataset.line]; b.textContent = on ? 'on' : 'off'; b.classList.toggle('on', on); });
+  }
+  document.getElementById('edgeLegend').addEventListener('click', (e) => {
+    const b = e.target.closest('.mini-toggle'); if(!b) return;
+    if(b.id === 'linesAll') Object.keys(lineOn).forEach(t => { lineOn[t] = true; });
+    else if(b.id === 'linesNone') Object.keys(lineOn).forEach(t => { lineOn[t] = false; });
+    else lineOn[b.dataset.line] = !lineOn[b.dataset.line];
+    syncLineToggles(); applyFilters();
+  });
+  }
+  renderEdgeLegend();
+
+  const backedCompanyCount = Object.keys(backersOf).length;
+  document.getElementById('statNodes').textContent = GRAPH.nodes.length;
+  document.getElementById('statLinks').textContent = GRAPH.links.length;
+  document.getElementById('statRev').textContent = GRAPH.stats.generated || '';
+  document.getElementById('statsGrid').innerHTML = `
+    <div class="stat-tile"><div class="num">${GRAPH.stats.dc_companies}</div><div class="lbl">DC Companies</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.adjacent_companies}</div><div class="lbl">Adjacent cos.</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.investors}</div><div class="lbl">Investors</div></div>
+    <div class="stat-tile"><div class="num">${backedCompanyCount}</div><div class="lbl">Companies backed</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.people || 0}</div><div class="lbl">People mapped</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.companies_with_people || 0}</div><div class="lbl">Cos. with people</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.searches || 0}</div><div class="lbl">Ward searches</div></div>
+    <div class="stat-tile"><div class="num">${GRAPH.stats.placements || 0}</div><div class="lbl">Placements</div></div>
+  `;
+
+  // a company shows if ANY of its roles is switched on; investors have their own switch
+  let wardOnly = false;   // narrow the map to companies Ward has run a search for
+  function baseVisible(n){
+    if(wardOnly && !n.is_ward_client) return false;
+    if(n.kind === 'investor') return !!filters.investor;
+    return (n.roles || [n.category]).some(r => filters[r]);
+  }
+  document.getElementById('srchCount').textContent =
+    `${GRAPH.stats.searches || 0} · ${GRAPH.stats.ward_clients || 0} clients on the map`;
+  document.getElementById('wardOnly').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    wardOnly = b.dataset.on === '1';
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+    // 21 clients rarely have a line to each other, so with "hide unconnected" on
+    // this filter would empty the map. Show them regardless while it is narrowed.
+    if(wardOnly && isoMode === 'hide') setIsoMode('show');
+    applyFilters();
+  });
+  // unconnected = no line to anything currently shown (recomputed on every filter change)
+  let isoMode = 'hide';               // show | apart | hide  (opens on the connected structure only)
+  const visDeg = {};
+  const isIsolated = n => !visDeg[n.id];
+  function nodeVisible(n){ return baseVisible(n) && (isoMode !== 'hide' || !isIsolated(n)); }
+
+  // ---------- three.js scene ----------
+  const stage = document.getElementById('stage');
+  const container = document.getElementById('webgl-container');
+  const labelsLayer = document.getElementById('labels3d');
+  let width = stage.clientWidth || 1000, height = stage.clientHeight || 700;
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(50, width / height, 1, 9000);
+  const OVERVIEW_DIR = new THREE.Vector3(0.55, 0.62, 0.55).normalize(); // high enough to read the petals around the core
+  const OVERVIEW_CAM = new THREE.Vector3(720, 480, 720);   // both refit to the visible structure below
+  const OVERVIEW_TARGET = new THREE.Vector3(0, 0, 0);
+  camera.position.copy(OVERVIEW_CAM);
+
+  const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.setSize(width, height);
+  container.appendChild(renderer.domElement);
+
+  const controls = new THREE.OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true;
+  controls.dampingFactor = 0.08;
+  controls.target.set(0, 0, 0);
+  controls.minDistance = 60;
+  controls.maxDistance = 4200;
+  controls.update();
+
+  // aim the overview camera at the centre of whatever is visible, far enough back to frame it
+  function refitOverview(animateTo){
+    const box = new THREE.Box3();
+    activeNodes.forEach(n => box.expandByPoint(new THREE.Vector3(n.px, n.py, n.pz)));
+    if(box.isEmpty()) box.setFromCenterAndSize(new THREE.Vector3(), new THREE.Vector3(1, 1, 1));
+    box.getCenter(OVERVIEW_TARGET);
+    const r = box.getSize(new THREE.Vector3()).length() / 2;
+    OVERVIEW_CAM.copy(OVERVIEW_TARGET).addScaledVector(OVERVIEW_DIR, Math.max(750, r * 2.1));
+    if(focusMode) return;
+    if(animateTo){
+      const startCam = camera.position.clone(), startTarget = controls.target.clone();
+      runTween(600, (e) => {
+        camera.position.lerpVectors(startCam, OVERVIEW_CAM, e);
+        controls.target.lerpVectors(startTarget, OVERVIEW_TARGET, e);
+        controls.update();
+      });
+    } else { camera.position.copy(OVERVIEW_CAM); controls.target.copy(OVERVIEW_TARGET); controls.update(); }
+  }
+
+  const glowTexture = (() => {
+    const c = document.createElement('canvas');
+    c.width = c.height = 64;
+    const g = c.getContext('2d');
+    const grad = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+    grad.addColorStop(0, 'rgba(255,255,255,1)');
+    grad.addColorStop(0.4, 'rgba(255,255,255,0.5)');
+    grad.addColorStop(1, 'rgba(255,255,255,0)');
+    g.fillStyle = grad;
+    g.fillRect(0, 0, 64, 64);
+    return new THREE.CanvasTexture(c);
+  })();
+
+  let nodeMeshes = [], linesObj = null, meshByNodeId = {}, glowByNodeId = {};
+  const sphereGeo = new THREE.SphereGeometry(1, 12, 12);
+  // multi-role companies get a banded sphere: one horizontal colour band per
+  // role (bands stay visible from the usual side-on camera angles)
+  const multiGeoCache = {};
+  function multiColorGeometry(colors){
+    const key = colors.join('|');
+    if(multiGeoCache[key]) return multiGeoCache[key];
+    const g = new THREE.SphereGeometry(1, 16, 16);
+    const pos = g.attributes.position, k = colors.length;
+    const cols = new Float32Array(pos.count * 3);
+    const tmp = new THREE.Color();
+    for(let i = 0; i < pos.count; i++){
+      const t = (pos.getY(i) + 1) / 2;
+      const band = Math.min(k - 1, Math.floor(t * k));
+      tmp.set(colors[band]);
+      cols[i*3] = tmp.r; cols[i*3+1] = tmp.g; cols[i*3+2] = tmp.b;
+    }
+    g.setAttribute('color', new THREE.BufferAttribute(cols, 3));
+    multiGeoCache[key] = g;
+    return g;
+  }
+
+  // "fat" lines (LineSegments2) so width is real pixels and dashes work;
+  // one object per (type, style) pair. Materials need the viewport size.
+  const lineMaterials = [];
+  function lineMaterial(type, style, boost){
+    const st = LINK_STYLE[type] || LINK_STYLE.invested_in, d = DASH[style];
+    const m = new THREE.LineMaterial({
+      color: lineColor(st), linewidth: st.width * (boost ? 1.35 : 1), transparent: true, depthWrite: false,
+      opacity: boost ? 0.95 : st.opacity, dashed: !!d, dashSize: d ? d.dashSize : 1, gapSize: d ? d.gapSize : 1,
+    });
+    if(d){ m.defines.USE_DASH = ''; m.needsUpdate = true; } // r128: `dashed` alone doesn't switch the shader on
+    m.resolution.set(width, height);
+    lineMaterials.push(m);
+    return m;
+  }
+  function fatLines(positions, mat){
+    const obj = new THREE.LineSegments2(new THREE.LineSegmentsGeometry().setPositions(positions), mat);
+    if(mat.dashed) obj.computeLineDistances();
+    return obj;
+  }
+  function linkGroup(links, boost){
+    const group = new THREE.Group(), byKey = {};
+    links.forEach(l => {
+      const k = l.type + '|' + (l.style || 'solid');
+      (byKey[k] = byKey[k] || { type: l.type, style: l.style || 'solid', links: [] }).links.push(l);
+    });
+    Object.values(byKey).forEach(({ type, style, links }) => {
+      const pos = [];
+      links.forEach(l => pos.push(l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz, l.targetNode.px, l.targetNode.py, l.targetNode.pz));
+      const obj = fatLines(pos, lineMaterial(type, style, boost));
+      obj.userData.links = links; obj.userData.baseOpacity = obj.material.opacity;
+      group.add(obj);
+    });
+    return group;
+  }
+  // rewrite an existing group's positions in place (same links, nodes moved)
+  function refreshGroupPositions(group){
+    group.children.forEach(obj => {
+      const arr = obj.geometry.attributes.instanceStart.data.array;
+      obj.userData.links.forEach((l, i) => arr.set([l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz, l.targetNode.px, l.targetNode.py, l.targetNode.pz], i * 6));
+      obj.geometry.attributes.instanceStart.data.needsUpdate = true;
+      if(obj.material.dashed) obj.computeLineDistances();
+      obj.geometry.computeBoundingSphere();
+    });
+  }
+  function buildLineGroup(){
+    return linkGroup(GRAPH.links.filter(l => linkShown(l) && l.sourceNode && l.targetNode && nodeVisible(l.sourceNode) && nodeVisible(l.targetNode)), false);
+  }
+  function disposeGroup(g){
+    if(!g) return;
+    g.children.forEach(c => { c.geometry.dispose(); c.material.dispose(); const i = lineMaterials.indexOf(c.material); if(i >= 0) lineMaterials.splice(i, 1); });
+    scene.remove(g);
+  }
+
+  function clearScene(){
+    hoverNode = null; hoverSet.clear(); if(hoverLines){ disposeGroup(hoverLines); hoverLines = null; }
+    nodeMeshes.forEach(m => scene.remove(m));
+    Object.values(glowByNodeId).forEach(g => scene.remove(g));
+    disposeGroup(linesObj); linesObj = null;
+    disposeFocusLines();
+    nodeMeshes = []; meshByNodeId = {}; glowByNodeId = {};
+  }
+
+  // ---------- focus mode: click a node to zoom in and expand its direct
+  // connections into a ring around it; everything else fades out ----------
+  let focusMode = false;
+  let focusedNode = null;
+  let focusStack = []; // node ids, for "Back"
+  let focusLinesObj = null;
+  let focusNeighbors = []; // current ring members (lines are redrawn to them every frame)
+  const displacedIds = new Set(); // every node moved off its settled position since focus began
+
+  function neighborsOf(n){
+    const base = lineOn.invested_in ? [...(n.kind === 'company' ? (backersOf[n.id] || []) : []), ...(portfolioOf[n.id] || [])] : [];
+    const deals = (dealsOf[n.id] || []).filter(d => lineOn[d.type]).map(d => d.other);
+    const seen = new Set(); const out = [];
+    [...base, ...deals].forEach(x => { if(!seen.has(x.id)){ seen.add(x.id); out.push(x); } });
+    return out;
+  }
+  // acquisitions / leases / JVs for the detail panel
+  function dealSections(n){
+    const deals = (dealsOf[n.id] || []).filter(d => d.type !== 'talent_flow');
+    if(!deals.length) return '';
+    const groups = [
+      ['Acquired',              d => d.type === 'acquired'   && d.dir === 'out'],
+      ['Acquired by',           d => d.type === 'acquired'   && d.dir === 'in'],
+      ['Leases capacity from',  d => d.type === 'tenant_of'  && d.dir === 'out'],
+      ['Tenants (leases capacity to)', d => d.type === 'tenant_of' && d.dir === 'in'],
+      ['Joint-venture partners', d => d.type === 'jv_partner'],
+      ['Builds / engineers for',  d => d.type === 'contractor_for' && d.dir === 'out'],
+      ['Contractors & engineers', d => d.type === 'contractor_for' && d.dir === 'in'],
+      ['Supplies power to',       d => d.type === 'supplies_power_to' && d.dir === 'out'],
+      ['Power suppliers',         d => d.type === 'supplies_power_to' && d.dir === 'in'],
+      ['Land / campus partners',  d => d.type === 'site_partner'],
+    ];
+    const hiddenPartners = deals.filter(d => !nodeVisible(d.other)).length;
+    let html = hiddenPartners ? `<div class="banner-note">${hiddenPartners} of these partners sit in adjacent-industry petals that are switched off — <a id="showAdjacent" style="color:var(--pure);cursor:pointer">show it</a> to see them in the graph.</div>` : '';
+    groups.forEach(([title, test]) => {
+      const rows = deals.filter(test);
+      if(!rows.length) return;
+      html += `<div class="section-label">${title} (${rows.length})</div>`;
+      rows.forEach(d => {
+        const c = catById[d.other.category] || {};
+        const meta = [d.status, d.confidence ? `confidence: ${d.confidence}` : null].filter(Boolean).join(' · ');
+        html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(d.other.name)} <span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span></div>
+          <div class="pe-meta">${escapeHtml(d.detail || '')}${meta ? '<br>' + escapeHtml(meta) : ''}</div>${sourceLinks(d.sources)}${flagChips(d.key)}</div>`;
+      });
+    });
+    return html;
+  }
+
+  function ringTargetsFor(centerNode, neighbors){
+    const center = new THREE.Vector3(centerNode.px, centerNode.py, centerNode.pz);
+    const forward = new THREE.Vector3().subVectors(camera.position, center).normalize();
+    const worldUp = Math.abs(forward.y) > 0.98 ? new THREE.Vector3(1,0,0) : new THREE.Vector3(0,1,0);
+    const right = new THREE.Vector3().crossVectors(worldUp, forward).normalize();
+    const up2 = new THREE.Vector3().crossVectors(forward, right).normalize();
+    const n = Math.max(1, neighbors.length);
+    const ringR = Math.min(60 + n * 8, 260);
+    return neighbors.map((nb, i) => {
+      const angle = (i / n) * Math.PI * 2;
+      const p = center.clone()
+        .addScaledVector(right, Math.cos(angle) * ringR)
+        .addScaledVector(up2, Math.sin(angle) * ringR);
+      return { node: nb, x: p.x, y: p.y, z: p.z };
+    });
+  }
+
+  function runTween(duration, onFrame, onDone){
+    const t0 = performance.now();
+    (function step(){
+      const t = Math.min(1, (performance.now() - t0) / duration);
+      const ease = t < 0.5 ? 2*t*t : -1 + (4 - 2*t) * t;
+      onFrame(ease);
+      if(t < 1) requestAnimationFrame(step);
+      else if(onDone) onDone();
+    })();
+  }
+
+  function setNodeOpacityLive(id, targetOp, targetGlowOp){
+    const m = meshByNodeId[id], g = glowByNodeId[id];
+    if(m) m.material.opacity = targetOp;
+    if(g) g.material.opacity = targetGlowOp;
+  }
+  function moveNode(n, x, y, z){
+    n.px = x; n.py = y; n.pz = z;
+    const m = meshByNodeId[n.id], g = glowByNodeId[n.id];
+    if(m) m.position.set(x, y, z);
+    if(g) g.position.set(x, y, z);
+  }
+
+  function disposeFocusLines(){ disposeGroup(focusLinesObj); focusLinesObj = null; }
+  // the focused node's own edges, drawn brighter and thicker in their real type colour/style
+  function updateFocusLines(centerNode, neighbors){
+    const ids = new Set(neighbors.map(nb => nb.id));
+    const mine = GRAPH.links.filter(l => linkShown(l) && l.sourceNode && l.targetNode &&
+      ((l.source === centerNode.id && ids.has(l.target)) || (l.target === centerNode.id && ids.has(l.source))));
+    if(!focusLinesObj || focusLinesObj.userData.count !== mine.length){
+      disposeFocusLines();
+      focusLinesObj = linkGroup(mine, true);
+      focusLinesObj.userData.count = mine.length;
+      scene.add(focusLinesObj);
+    } else refreshGroupPositions(focusLinesObj);
+  }
+
+  function enterFocus(node){
+    const neighbors = neighborsOf(node).filter(nodeVisible);
+    const focusIds = new Set([node.id, ...neighbors.map(nb => nb.id)]);
+
+    if(!focusMode) GRAPH.nodes.forEach(n => { n.home = [n.px, n.py, n.pz]; }); // where "Back out" returns everything
+    else if(focusedNode && focusedNode.id !== node.id) focusStack.push(focusedNode.id);
+    focusMode = true;
+    focusedNode = node;
+    focusNeighbors = neighbors;
+    settleFrames = 0; // freeze the layout while focused -- ring + lines must not drift
+
+    // fade everything not in this node's local neighborhood
+    GRAPH.nodes.forEach(n => {
+      if(!meshByNodeId[n.id]) return;
+      const inFocus = focusIds.has(n.id);
+      const targetOp = inFocus ? (meshByNodeId[n.id].userData.baseOpacity) : 0.045;
+      const targetGlowOp = inFocus ? (glowByNodeId[n.id].userData.baseOpacity) : 0.02;
+      setNodeOpacityLive(n.id, targetOp, targetGlowOp);
+    });
+    if(linesObj) linesObj.visible = false;
+
+    // move neighbors into a clean ring around the focused node
+    const targets = ringTargetsFor(node, neighbors);
+    const starts = targets.map(t => ({ x: t.node.px, y: t.node.py, z: t.node.pz }));
+    targets.forEach(t => displacedIds.add(t.node.id));
+    runTween(650, (ease) => {
+      targets.forEach((t, i) => {
+        const s = starts[i];
+        moveNode(t.node, s.x + (t.x - s.x) * ease, s.y + (t.y - s.y) * ease, s.z + (t.z - s.z) * ease);
+      });
+    });
+
+    // fly the camera in close enough to frame the whole ring
+    const ringR = Math.min(60 + Math.max(1, neighbors.length) * 8, 260);
+    const dist = Math.max(170, ringR / Math.tan((camera.fov * Math.PI / 180) / 2) * 1.6);
+    const target = new THREE.Vector3(node.px, node.py, node.pz);
+    const dir = new THREE.Vector3().subVectors(camera.position, controls.target).normalize();
+    // the detail panel covers the right side of the stage -- shift the orbit
+    // target so the focused node sits in the middle of the area still visible
+    const panelPx = Math.min(360, width * 0.88);
+    const worldPerPx = (2 * dist * Math.tan((camera.fov * Math.PI / 180) / 2)) / height;
+    const camRight = new THREE.Vector3().crossVectors(camera.up, dir).normalize(); // camera-right (dir points target->camera)
+    target.addScaledVector(camRight, (panelPx / 2) * worldPerPx);
+    const newCamPos = target.clone().addScaledVector(dir, dist);
+    const startCam = camera.position.clone(), startTarget = controls.target.clone();
+    runTween(650, (ease) => {
+      camera.position.lerpVectors(startCam, newCamPos, ease);
+      controls.target.lerpVectors(startTarget, target, ease);
+      controls.update();
+    });
+
+    updateFocusUI();
+    selectNode(node);
+  }
+
+  function exitFocus(){
+    if(!focusMode) return;
+    focusMode = false;
+    focusedNode = null;
+    focusStack = [];
+
+    GRAPH.nodes.forEach(n => {
+      const m = meshByNodeId[n.id];
+      if(!m) return;
+      setNodeOpacityLive(n.id, m.userData.baseOpacity, glowByNodeId[n.id].userData.baseOpacity);
+    });
+    if(linesObj) linesObj.visible = true;
+    disposeFocusLines();
+
+    // tween every displaced node back to where the layout had settled
+    const moving = [...displacedIds].map(id => nodeById[id]);
+    const starts = moving.map(n => [n.px, n.py, n.pz]);
+    runTween(650, (ease) => {
+      moving.forEach((n, i) => {
+        const s = starts[i], h = n.home;
+        moveNode(n, s[0] + (h[0] - s[0]) * ease, s[1] + (h[1] - s[1]) * ease, s[2] + (h[2] - s[2]) * ease);
+      });
+    });
+    displacedIds.clear();
+
+    const startCam = camera.position.clone(), startTarget = controls.target.clone();
+    runTween(650, (ease) => {
+      camera.position.lerpVectors(startCam, OVERVIEW_CAM, ease);
+      controls.target.lerpVectors(startTarget, OVERVIEW_TARGET, ease);
+      controls.update();
+    });
+
+    updateFocusUI();
+    closeDetail();
+  }
+
+  function goBack(){
+    if(!focusStack.length){ exitFocus(); return; }
+    const prevId = focusStack.pop();
+    const prevNode = nodeById[prevId];
+    if(!prevNode){ exitFocus(); return; }
+    // re-enter without pushing the current node back onto the stack twice
+    const savedStack = focusStack.slice();
+    focusMode = false; // so enterFocus doesn't push again
+    enterFocus(prevNode);
+    focusStack = savedStack;
+  }
+
+  const focusControls = document.getElementById('focusControls');
+  const focusBackBtn = document.getElementById('focusBack');
+  function updateFocusUI(){
+    focusControls.hidden = !focusMode;
+    focusBackBtn.hidden = focusStack.length === 0;
+  }
+  focusBackBtn.addEventListener('click', goBack);
+  document.getElementById('focusReset').addEventListener('click', exitFocus);
+
+  function buildScene(){
+    clearScene();
+    linesObj = buildLineGroup(); // one LineSegments per relationship type
+    scene.add(linesObj);
+
+    GRAPH.nodes.forEach(n => {
+      if(!nodeVisible(n)) return;
+      const apart = isoMode === 'apart' && isIsolated(n);
+      const r = radiusForNode(n) * (apart ? 0.7 : 1);
+      const c = colorForNode(n);
+      const op = nodeOpacity(n) * (apart ? 0.3 : 1);
+      const multi = n.kind === 'company' && n.roles && n.roles.length > 1;
+      const mat = multi
+        ? new THREE.MeshBasicMaterial({ vertexColors: true, transparent: true, opacity: op })
+        : new THREE.MeshBasicMaterial({ color: c, transparent: true, opacity: op });
+      const geo = multi ? multiColorGeometry(n.roles.map(r => (catById[r] || {}).color || c)) : sphereGeo;
+      const mesh = new THREE.Mesh(geo, mat);
+      mesh.scale.setScalar(r);
+      mesh.position.set(n.px, n.py, n.pz);
+      mesh.userData.node = n;
+      mesh.userData.baseOpacity = op;
+      scene.add(mesh);
+      nodeMeshes.push(mesh);
+      meshByNodeId[n.id] = mesh;
+
+      const glowMat = new THREE.SpriteMaterial({
+        map: glowTexture, color: c, transparent: true, depthWrite: false,
+        blending: THREE.AdditiveBlending, opacity: 0.55 * op,
+      });
+      const glow = new THREE.Sprite(glowMat);
+      glow.visible = darkTheme;
+      glow.scale.setScalar(r * 4.2);
+      glow.position.set(n.px, n.py, n.pz);
+      glow.userData.baseOpacity = 0.55 * op;
+      scene.add(glow);
+      glowByNodeId[n.id] = glow;
+    });
+
+    buildLabels();
+  }
+
+  function updatePositionsOnly(){
+    nodeMeshes.forEach(m => { const n = m.userData.node; moveNode(n, n.px, n.py, n.pz); });
+    if(linesObj) refreshGroupPositions(linesObj);
+  }
+
+  // ---------- labels: nodes with 2+ links always; the rest on hover/select/zoom-in ----------
+  const labelEls = new Map();
+  function buildLabels(){
+    labelsLayer.innerHTML = '';
+    labelEls.clear();
+    GRAPH.nodes.forEach(n => {
+      if(!nodeVisible(n)) return;
+      const always = visDeg[n.id] >= 2;
+      const div = document.createElement('div');
+      div.className = 'label3d';
+      div.textContent = n.name;
+      div.hidden = true;
+      labelsLayer.appendChild(div);
+      labelEls.set(n.id, { el: div, node: n, always });
+    });
+  }
+
+  const zoneCaps = Object.values(ZONES).map(zone => {
+    const el = document.createElement('div');
+    el.className = 'label3d zone-cap'; el.textContent = zone.label; el.hidden = true;
+    if(zone.color) el.style.color = zone.color;
+    stage.appendChild(el);
+    return { el, zone };
+  });
+  function place(el, x, y, z){
+    projVec.set(x, y, z).project(camera);
+    if(projVec.z > 1){ el.hidden = true; return; }
+    el.hidden = false;
+    el.style.left = ((projVec.x * 0.5 + 0.5) * width) + 'px';
+    el.style.top = ((-projVec.y * 0.5 + 0.5) * height) + 'px';
+  }
+
+  const PROMINENCE_ZOOM_DIST = 420;
+  const projVec = new THREE.Vector3();
+  const labelBudget = () => { // how many labels the overview may show at this zoom
+    const d = camera.position.distanceTo(controls.target);
+    return d > 2200 ? 24 : d > 1400 ? 40 : d > 800 ? 70 : 140;
+  };
+  function updateLabels(){
+    const camDist = camera.position.distanceTo(controls.target);
+    const showAll = camDist < PROMINENCE_ZOOM_DIST;
+    zoneCaps.forEach(({ el, zone }) => {
+      // caption sits just above the highest visible node of that zone; hidden in focus mode
+      let top = -Infinity;
+      if(!focusMode) activeNodes.forEach(n => { if(zoneOf(n) === zone) top = Math.max(top, n.py); });
+      if(top === -Infinity){ el.hidden = true; return; }
+      place(el, zone.x, top + (zone.id === 'core' ? 90 : 60), zone.z);
+    });
+    if(!focusMode) return updateLabelsRanked(showAll);
+    labelEls.forEach(({ el, node, always }) => {
+      const isSel = node === hoverNode || node === selectedNode;
+      if(focusMode){
+        if(node !== focusedNode && !focusNeighbors.includes(node)){ el.hidden = true; return; } // ring only
+      } else if(!always && !isSel && !showAll){ el.hidden = true; return; }
+      place(el, node.px, node.py, node.pz);
+    });
+  }
+
+  // overview labels: rank by weight (hovered/selected/neighbours first), place
+  // greedily, hide anything whose box would overlap one already placed
+  const placedBoxes = [];
+  function updateLabelsRanked(showAll){
+    const budget = labelBudget();
+    const cands = [];
+    labelEls.forEach(({ el, node }) => {
+      const pinned = node === hoverNode || node === selectedNode || (hoverNode && hoverSet.has(node.id));
+      if(!pinned && !showAll && weightOf(node) <= 0){ el.hidden = true; return; }
+      projVec.set(node.px, node.py, node.pz).project(camera);
+      if(projVec.z > 1){ el.hidden = true; return; }
+      const x = (projVec.x * 0.5 + 0.5) * width, y = (-projVec.y * 0.5 + 0.5) * height;
+      if(x < -50 || x > width + 50 || y < -20 || y > height + 20){ el.hidden = true; return; }
+      cands.push({ el, node, x, y, w: node.name.length * 6.4 + 10, rank: (pinned ? 1e6 : 0) + weightOf(node) - projVec.z });
+    });
+    cands.sort((a, b) => b.rank - a.rank);
+    placedBoxes.length = 0;
+    let shown = 0;
+    cands.forEach(c => {
+      const pinned = c.rank >= 1e6;
+      if(!pinned && shown >= budget){ c.el.hidden = true; return; }
+      const box = { x0: c.x - c.w / 2, x1: c.x + c.w / 2, y0: c.y - 8, y1: c.y + 8 };
+      if(!pinned && placedBoxes.some(b => box.x0 < b.x1 && box.x1 > b.x0 && box.y0 < b.y1 && box.y1 > b.y0)){ c.el.hidden = true; return; }
+      placedBoxes.push(box);
+      c.el.hidden = false; c.el.style.left = c.x + 'px'; c.el.style.top = c.y + 'px';
+      c.el.classList.toggle('dim', !pinned && hoverNode && !hoverSet.has(c.node.id));
+      if(!pinned) shown++;
+    });
+  }
+
+  function resize(){
+    width = stage.clientWidth; height = stage.clientHeight;
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
+    lineMaterials.forEach(m => m.resolution.set(width, height));
+  }
+  window.addEventListener('resize', resize);
+
+  // ---------- raycasting for hover / click ----------
+  const raycaster = new THREE.Raycaster();
+  const mouseNdc = new THREE.Vector2();
+  let hoverNode = null, selectedNode = null;
+  const hoverSet = new Set(); // hovered node + its visible neighbours
+  let hoverLines = null;
+  function applyHover(n){
+    hoverSet.clear();
+    if(focusMode) return;
+    if(n){ hoverSet.add(n.id); neighborsOf(n).forEach(nb => hoverSet.add(nb.id)); }
+    GRAPH.nodes.forEach(x => {
+      const m = meshByNodeId[x.id]; if(!m) return;
+      const g = glowByNodeId[x.id];
+      const k = !n || hoverSet.has(x.id) ? 1 : 0.12;
+      setNodeOpacityLive(x.id, m.userData.baseOpacity * k, g ? g.userData.baseOpacity * k : 0);
+    });
+    if(linesObj) linesObj.children.forEach(obj => { obj.material.opacity = obj.userData.baseOpacity * (n ? 0.25 : 1); });
+    if(hoverLines){ disposeGroup(hoverLines); hoverLines = null; }
+    if(n){
+      const mine = GRAPH.links.filter(l => linkShown(l) && l.sourceNode && l.targetNode && nodeVisible(l.sourceNode) && nodeVisible(l.targetNode) && (l.source === n.id || l.target === n.id));
+      hoverLines = linkGroup(mine, true); scene.add(hoverLines);
+    }
+  }
+  const tooltip = document.getElementById('tooltip');
+
+  function pickNode(clientX, clientY){
+    const r = stage.getBoundingClientRect();
+    mouseNdc.x = ((clientX - r.left) / width) * 2 - 1;
+    mouseNdc.y = -((clientY - r.top) / height) * 2 + 1;
+    raycaster.setFromCamera(mouseNdc, camera);
+    const hits = raycaster.intersectObjects(nodeMeshes);
+    if(hits.length) return hits[0].object.userData.node;
+    return null;
+  }
+
+  renderer.domElement.addEventListener('pointermove', (e) => {
+    const n = pickNode(e.clientX, e.clientY);
+    if(n !== hoverNode){ hoverNode = n; applyHover(n); }
+    if(n){
+      const r = stage.getBoundingClientRect();
+      tooltip.style.left = (e.clientX - r.left) + 'px';
+      tooltip.style.top = (e.clientY - r.top) + 'px';
+      let sub = n.kind === 'investor' ? (n.investor_type || 'Investor') : (n.industry_role || catById[n.category].name);
+      if(n.kind === 'company' && !n.is_pure_play && piById[n.parent_industry]){
+        sub += ' · ' + piById[n.parent_industry].name;
+      }
+      if(n.kind === 'company' && n.roles && n.roles.length > 1){
+        sub = n.roles.map(r => (catById[r] || {}).name || r).join(' + ') + ' · ' + sub;
+      }
+      if(n.people_count) sub += ` · ${n.people_count} people mapped`;
+      tooltip.innerHTML = `<b>${escapeHtml(n.name)}</b><div class="tt-sub">${escapeHtml(sub||'')}</div>`;
+      tooltip.style.display = 'block';
+    } else {
+      tooltip.style.display = 'none';
+    }
+  });
+  let downX = 0, downY = 0;
+  renderer.domElement.addEventListener('pointerdown', (e) => { downX = e.clientX; downY = e.clientY; });
+  renderer.domElement.addEventListener('pointerup', (e) => {
+    if(Math.hypot(e.clientX - downX, e.clientY - downY) > 4) return;
+    const n = pickNode(e.clientX, e.clientY);
+    if(n){ applyHover(null); enterFocus(n); }
+    else if(focusMode) exitFocus();
+    else closeDetail();
+  });
+
+  // ---------- detail panel ----------
+  const detail = document.getElementById('detail');
+  const detailName = document.getElementById('detailName');
+  const detailKind = document.getElementById('detailKind');
+  const detailBody = document.getElementById('detailBody');
+
+  function kindBadge(n){
+    if(n.kind === 'investor') return { text: 'INVESTOR', color: catById.investor.color };
+    const c = catById[n.category];
+    return { text: c.name.toUpperCase(), color: c.color };
+  }
+
+  function renderDetail(n){
+    const badge = kindBadge(n);
+    detailName.textContent = n.name;
+    detailKind.textContent = badge.text;
+    detailKind.style.background = badge.color + '2a';
+    detailKind.style.color = badge.color;
+    detailKind.style.border = `1px solid ${badge.color}66`;
+
+    let html = '';
+    if(n.kind === 'company'){
+      const pi = piById[n.parent_industry];
+      if(pi){
+        const badgeColor = n.is_pure_play ? '#4ade80' : '#f59e0b';
+        html += `<div class="dt-row"><div class="dt-k">Recruiting pool</div><div class="dt-v">` +
+          `<span style="color:${badgeColor}; font-weight:600">${n.is_pure_play ? 'Direct-tap' : 'Needs vetting'}</span>` +
+          ` &mdash; ${escapeHtml(pi.name)}<br><span style="color:var(--text-dim); font-size:11.5px">${escapeHtml(pi.note)}</span></div></div>`;
+      }
+      if(n.roles && n.roles.length){
+        html += `<div class="tag-row">${n.roles.map(r => { const c = catById[r] || {}; return `<span class="tag" style="border-color:${c.color}88; color:${c.color}">${escapeHtml(c.name || r)}</span>`; }).join('')}</div>`;
+      }
+      const mySearches = (n.searches || []).map(sl => searchBySlug[sl]).filter(Boolean);
+      if(mySearches.length){
+        const placed = mySearches.filter(x => x.placed);
+        html += `<div class="section-label">Ward history &middot; <a id="openSearches">see all searches &rarr;</a></div>`;
+        html += `<div class="dt-row"><div class="dt-k">We have run</div><div class="dt-v">${mySearches.length} search${mySearches.length === 1 ? '' : 'es'} for this client` +
+          (placed.length ? ` &middot; <span style="color:#16a34a;font-weight:600">${placed.length} placed</span>` : '') + `</div></div>`;
+        mySearches.slice(0, 6).forEach(x => { html += searchRow(x); });
+        if(mySearches.length > 6) html += `<div class="src">+ ${mySearches.length - 6} more &mdash; open the searches panel</div>`;
+      }
+      if(n.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(n.industry_role)}</div></div>`;
+      if(n.headquarters) html += `<div class="dt-row"><div class="dt-k">HQ</div><div class="dt-v">${escapeHtml(n.headquarters)}</div></div>`;
+      if(n.headcount) html += `<div class="dt-row"><div class="dt-k">Headcount</div><div class="dt-v">${escapeHtml(n.headcount)}</div></div>`;
+      if(n.founded) html += `<div class="dt-row"><div class="dt-k">Founded</div><div class="dt-v">${escapeHtml(n.founded)}</div></div>`;
+      const safeUrl = u => (typeof u === 'string' && /^https?:\/\//i.test(u)) ? u : null;
+      const links = [];
+      if(safeUrl(n.website)) links.push(`<a href="${escapeHtml(n.website)}" target="_blank" rel="noopener" style="color:var(--pure)">Website</a>`);
+      if(safeUrl(n.linkedin)) links.push(`<a href="${escapeHtml(n.linkedin)}" target="_blank" rel="noopener" style="color:var(--pure)">LinkedIn</a>`);
+      if(links.length) html += `<div class="dt-row"><div class="dt-k">Links</div><div class="dt-v">${links.join(' &middot; ')}</div></div>`;
+      if(n.hyperscale_focus) html += `<div class="dt-row"><div class="dt-k">Hyperscale</div><div class="dt-v">${escapeHtml(n.hyperscale_focus)}</div></div>`;
+      if(n.dc_exposure_level) html += `<div class="dt-row"><div class="dt-k">DC exposure</div><div class="dt-v">${escapeHtml(n.dc_exposure_level)}</div></div>`;
+      if(n.capacity_mw){
+        const regions = { north_america:'N. America', emea:'EMEA', apac:'APAC', south_america:'S. America' };
+        const parts = Object.entries(n.capacity_mw).map(([k, v]) => {
+          const bits = [];
+          if(v.total_mw) bits.push(`${Math.round(v.total_mw).toLocaleString()} MW`);
+          if(v.early_stage_mw) bits.push(`+${Math.round(v.early_stage_mw).toLocaleString()} early-stage`);
+          return `<b>${regions[k] || k}</b> ${bits.join(' ')}`;
+        });
+        html += `<div class="dt-row"><div class="dt-k">Capacity</div><div class="dt-v">${parts.join('<br>')}</div></div>`;
+      }
+      if(n.description) html += `<p>${escapeHtml(n.description)}</p>`;
+      if(n.tags && n.tags.length) html += `<div class="tag-row">${n.tags.map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`;
+      if(n.list_attributes && Object.keys(n.list_attributes).length){
+        Object.entries(n.list_attributes).forEach(([list, attrs]) => {
+          const rows = Object.entries(attrs || {}).filter(([k, v]) => v && !/^(Type|Date Updated)$/.test(k));
+          if(!rows.length) return;
+          html += `<div class="section-label">From: ${escapeHtml(list)} list</div>`;
+          rows.forEach(([k, v]) => { html += `<div class="dt-row"><div class="dt-k">${escapeHtml(k)}</div><div class="dt-v">${escapeHtml(v)}</div></div>`; });
+        });
+      }
+      const ppl = PEOPLE[n.id] || [];
+      if((n.hires_from && n.hires_from.length) || (n.alumni_at && n.alumni_at.length)){
+        const list = arr => arr.slice(0, 8).map(([name, c]) => `<div class="flow-row"><span>${escapeHtml(name)}</span><span>${c}</span></div>`).join('');
+        html += `<div class="section-label">Talent flow${n.recent_joiners ? ` · ${n.recent_joiners} joined in the last 6 months` : ''}</div>`;
+        if(n.hires_by_group && Object.keys(n.hires_by_group).length){
+          const g = n.hires_by_group, total = Object.values(g).reduce((a, b) => a + b, 0);
+          const GROUP_LABEL = { core: 'within the data-center core', adjacent: 'from adjacent industries', investor: 'from investors', outside: 'from outside the industry' };
+          html += `<div class="dt-row"><div class="dt-k">Where from</div><div class="dt-v">` +
+            ['core', 'adjacent', 'investor', 'outside'].filter(k => g[k]).map(k => `<div class="flow-row"><span>${GROUP_LABEL[k]}</span><span>${g[k]} · ${Math.round(100 * g[k] / total)}%</span></div>`).join('') + `</div></div>`;
+          html += `<div class="dt-row"><div class="dt-k">By tier</div><div class="dt-v">${list(n.hires_by_tier)}</div></div>`;
+        }
+        if(n.hires_from && n.hires_from.length) html += `<div class="dt-row"><div class="dt-k">Top sources</div><div class="dt-v">${list(n.hires_from)}</div></div>`;
+        if(n.alumni_at && n.alumni_at.length) html += `<div class="dt-row"><div class="dt-k">Alumni now at</div><div class="dt-v">${list(n.alumni_at)}</div></div>`;
+        html += `<div class="src">from the previous employer on each mapped person's career history — our pool, not the whole company</div>`;
+      }
+      if(ppl.length){
+        html += `<div class="section-label">People in the brain (${ppl.length}) · <a id="openOrg">Open org chart →</a></div>`;
+        if(n.assessed_count){
+          html += `<div class="dt-row"><div class="dt-k">Assessed</div><div class="dt-v">${n.assessed_count} of ${ppl.length} carry a Ward assessment` +
+            ((n.top_tier_counts || []).length ? '<br>top tier: ' + n.top_tier_counts.map(([t, c]) => `${escapeHtml(t)} ${c}`).join(' · ') : '') +
+            ((n.skill_counts || []).length ? `<div class="section-label" style="margin:8px 0 2px">High-confidence skills here</div>` + n.skill_counts.map(([s, c]) => `<div class="flow-row"><span>${escapeHtml(s)}</span><span>${c}</span></div>`).join('') : '') +
+            (n.urg_counts && Object.keys(n.urg_counts).length ? (() => { const u = n.urg_counts, k = Object.values(u).reduce((a, b) => a + b, 0);
+              return `<div class="section-label" style="margin:8px 0 2px">Slate diversity</div><div class="slate"><b>${u.Yes || 0}</b> of ${k} assessed recorded as from an under-represented group` +
+                     `</div><div class="src">Ward's own observation, not self-declared. For slate reporting.</div>`; })() : '') +
+            `</div></div>`;
+        }
+        groupBy(ppl, 'function').forEach(([fn, rows]) => {
+          const lead = rows[0];
+          html += `<div class="fn-row"><span>${escapeHtml(fn)} <span style="color:var(--text-dim)">· ${rows.length}</span></span>
+            <span class="fn-lead">${escapeHtml(lead.name)}<br>${escapeHtml(shortTitle(lead.title))}</span></div>`;
+        });
+      } else {
+        html += `<div class="banner-note">No people mapped at this company yet.</div>`;
+      }
+      const stakes = portfolioOf[n.id] || [];
+      if(stakes.length){
+        html += `<div class="section-label">Stakes in data-center companies (${stakes.length})</div>`;
+        stakes.forEach(p => {
+          const c = catById[p.category] || {}, l = backingLink[n.id + '|' + p.id] || {};
+          html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(p.name)} <span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span></div>
+            <div class="pe-meta">${escapeHtml(l.detail || '')}${l.confidence ? '<br>confidence: ' + escapeHtml(l.confidence) : ''}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
+        });
+      }
+      const backers = backersOf[n.id] || [];
+      if(backers.length){
+        html += `<div class="section-label">Backed by (${backers.length})</div>`;
+        backers.forEach(b => {
+          const l = backingLink[b.id + '|' + n.id] || {};
+          const meta = [b.investor_type || 'Investor', l.confidence ? `confidence: ${l.confidence}` : null].filter(Boolean).join(' · ');
+          html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(b.name)}</div>
+            <div class="pe-meta">${l.detail ? escapeHtml(l.detail) + '<br>' : ''}${escapeHtml(meta)}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
+        });
+      } else {
+        html += `<div class="banner-note">No investor backing on record yet in this graph.</div>`;
+      }
+      html += dealSections(n);
+      if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
+      html += recordSources(n);
+    } else {
+      if(n.investor_type) html += `<div class="dt-row"><div class="dt-k">Type</div><div class="dt-v">${escapeHtml(n.investor_type)}</div></div>`;
+      if(n.hq) html += `<div class="dt-row"><div class="dt-k">HQ</div><div class="dt-v">${escapeHtml(n.hq)}</div></div>`;
+      if(n.aum) html += `<div class="dt-row"><div class="dt-k">AUM</div><div class="dt-v">${escapeHtml(n.aum)}</div></div>`;
+      if(n.notable_deals) html += `<div class="dt-row"><div class="dt-k">Notable deals</div><div class="dt-v">${escapeHtml(n.notable_deals)}</div></div>`;
+      const portfolio = portfolioOf[n.id] || [];
+      if(portfolio.length){
+        html += `<div class="section-label">Portfolio (${portfolio.length})</div>`;
+        portfolio.forEach(p => {
+          const c = catById[p.category];
+          const l = backingLink[n.id + '|' + p.id] || {};
+          html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(p.name)}</div>
+            <div class="pe-meta"><span style="color:${c.color}">${escapeHtml(c.name)}</span>${l.detail ? ' · ' + escapeHtml(l.detail) : ''}${l.confidence ? ' · confidence: ' + escapeHtml(l.confidence) : ''}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
+        });
+      }
+      html += dealSections(n);
+      if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
+      html += recordSources(n);
+    }
+    detailBody.innerHTML = html;
+    const openBtn = document.getElementById('openOrg');
+    if(openBtn) openBtn.addEventListener('click', () => openOrg(n));
+    const openSrch = document.getElementById('openSearches');
+    if(openSrch) openSrch.addEventListener('click', () => {
+      searchesEl.hidden = false; srchFilter.value = n.name; srchStatus = '';
+      [...document.getElementById('srchStatus').children].forEach(x => x.classList.toggle('on', x.dataset.st === ''));
+      renderSearches();
+    });
+    const showAdj = document.getElementById('showAdjacent');
+    if(showAdj) showAdj.addEventListener('click', () => {
+      adjacentIds.forEach(id => { filters[id] = true; });
+      syncLegend(); recomputeActive();
+      for(let i = 0; i < 80; i++) runForceStep();
+      settleFrames = 30; refitOverview(false); buildScene();
+      enterFocus(n);
+    });
+  }
+
+  // ---------- org chart: the people mapped at one company ----------
+  const org = document.getElementById('org');
+  const orgBody = document.getElementById('orgBody');
+  const orgLead = document.getElementById('orgLead');
+  const orgFilter = document.getElementById('orgFilter');
+  let orgCompany = null, orgMode = 'function';
+
+  function shortTitle(t){ return (t || '').length > 44 ? t.slice(0, 42) + '…' : (t || ''); }
+  const regionOf = p => (p.loc && p.loc.group) || 'Location unknown';
+  function placeOf(p){ // "London, England" / "Denver, Colorado" / "Singapore"
+    if(!p.loc) return p.location || '';
+    return [p.loc.city, p.loc.region, (!p.loc.region || p.loc.country !== 'United States') ? p.loc.country : null]
+      .filter((x, i, arr) => x && arr.indexOf(x) === i).join(', ');
+  }
+  // -> [[groupName, people(sorted most senior first)], ...]; departments in
+  // house order, locations by size
+  function groupBy(ppl, mode){
+    const g = {};
+    if(mode === 'toptier' || mode === 'skill'){          // a person can appear under several
+      ppl.forEach(p => {
+        const A = p.assess || {};
+        const keys = mode === 'toptier' ? (A.top_tier || []) : Object.entries(A.skills || {}).filter(([, v]) => v === 'High Confidence').map(([s]) => s);
+        (keys.length ? keys : ['Not assessed']).forEach(k => (g[k] = g[k] || []).push(p));
+      });
+      const entries = Object.entries(g);
+      entries.forEach(([, rows]) => rows.sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name)));
+      entries.sort((a, b) => (a[0] === 'Not assessed') - (b[0] === 'Not assessed') || b[1].length - a[1].length || a[0].localeCompare(b[0]));
+      return entries;
+    }
+    ppl.forEach(p => {
+      const k = mode === 'function' ? (p.function || 'Unclassified') : mode === 'prev' ? (p.prev || 'No previous employer on record') : mode === 'prevtier' ? (p.prev_tier || 'No previous employer on record') : regionOf(p);
+      (g[k] = g[k] || []).push(p);
+    });
+    const entries = Object.entries(g);
+    entries.forEach(([, rows]) => rows.sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name)));
+    if(mode === 'function'){
+      const idx = k => { const i = FUNCTION_ORDER.indexOf(k); return i < 0 ? 99 : i; };
+      entries.sort((a, b) => idx(a[0]) - idx(b[0]));
+    } else { const last = k => k.startsWith('No previous') || k === 'Location unknown' ? 1 : 0;
+      entries.sort((a, b) => last(a[0]) - last(b[0]) || b[1].length - a[1].length || a[0].localeCompare(b[0])); }
+    return entries;
+  }
+  function personMatches(p, q){
+    if(!q) return true;
+    const A = p.assess || {};
+    const hay = [p.name, p.title, p.location, placeOf(p), regionOf(p), p.seniority, p.function, p.bio,
+      ...(p.education || []), ...(A.top_tier || []), ...Object.keys(A.skills || {}),
+      ...Object.entries(A.skills || {}).filter(([, v]) => v === 'High Confidence').map(([s]) => s + ' high confidence'),
+      A.tenure, A.spoken_with_before ? 'spoken with before' : '',
+      A.under_represented_group === 'Yes' ? 'under-represented group urg diverse' : '',
+      ...(p.searches || []).map(x => (x.client || '') + ' ' + (x.name || '') + ' ' + (x.status || '')),
+      ...(p.past || []).map(j => j.company + ' ' + (j.title || ''))].filter(Boolean).join(' ').toLowerCase();
+    return hay.includes(q);
+  }
+  // one line per Ward search: status, dates, pipeline size, who was placed
+  function searchRow(x, showClient){
+    const st = SEARCH_STATUS[x.status] || { label: x.status, color: '#94a3b8' };
+    const c = x.counts || {};
+    const meta = [x.project_type, x.started ? `opened ${x.started}` : '', x.closed ? `closed ${x.closed}` : '',
+                  c.pipeline ? `${c.pipeline} in pipeline${x.partial ? '+' : ''}` : '',
+                  x.reason].filter(Boolean).join(' · ');
+    return `<div class="pipeline-entry" data-srch="${escapeHtml(x.slug)}">
+      <div class="pe-title">${escapeHtml(x.name || '')} <span style="color:${st.color}; font-size:10.5px">${st.label}</span></div>
+      ${showClient ? `<div class="pe-meta" style="color:var(--text)">${escapeHtml(x.client || '')}</div>` : ''}
+      <div class="pe-meta">${escapeHtml(meta)}</div>
+      ${x.placed ? `<div class="pe-meta" style="color:#16a34a">placed ${escapeHtml(x.placed)}</div>` : ''}
+      ${x.partial ? `<div class="src" title="A long-term mapping pool. Its full candidate list has not been pulled from Clockwork yet, so treat the pipeline number as a floor.">pipeline count is a floor &mdash; mapping pool not fully pulled</div>` : ''}
+    </div>`;
+  }
+  // Ward's assessment of a person: skills with confidence, rating, tenure, education, bio
+  function assessBlock(A, p){
+    const bits = [];
+    const skills = Object.entries(A.skills || {});
+    if(skills.length) bits.push(`<div class="section-label" style="margin:0 0 4px">Assessed skills</div>` +
+      skills.map(([s, v]) => `<div class="skillbar"><span>${escapeHtml(s)}</span><span class="${v === 'High Confidence' ? 'hi' : 'lo'}">${v === 'High Confidence' ? 'high' : 'low'}</span></div>`).join(''));
+    const meta = [];
+    if(A.rating) meta.push(`rated ${A.rating}/4`);
+    if(A.tenure) meta.push(`tenure: ${escapeHtml(A.tenure)}`);
+    if(A.hyperscaler_equivalent_seniority) meta.push(`hyperscaler-equivalent: ${escapeHtml(A.hyperscaler_equivalent_seniority)}`);
+    if(meta.length) bits.push(`<div class="p-meta" style="margin-top:6px">${meta.join(' · ')}</div>`);
+    if(p.education && p.education.length) bits.push(`<div class="section-label" style="margin:8px 0 4px">Education</div>` +
+      p.education.map(e => `<div class="skillbar"><span>${escapeHtml(e)}</span></div>`).join(''));
+    if(p.bio) bits.push(`<div class="section-label" style="margin:8px 0 4px">Biography</div><div style="color:var(--text-muted);line-height:1.5">${escapeHtml(p.bio)}</div>`);
+    if(bits.length) bits.push(`<div class="src" style="margin-top:6px">Ward Search's own judgement from Clockwork, not a researched fact.</div>`);
+    return bits.join('');
+  }
+  function personCard(p, isLead){
+    const pills = [];
+    if(isLead) pills.push('<span class="pill lead">most senior</span>');
+    if(p.recent) pills.push('<span class="pill new" title="started this role in the last 6 months">new</span>');
+    if(p.do_not_contact) pills.push('<span class="pill dnc">do not contact</span>');
+    if(p.grade === 'directory') pills.push('<span class="pill dir" title="Directory profile: name, title and employer only — no career history or location">directory</span>');
+    const A = p.assess || {};
+    (A.top_tier || []).forEach(t => pills.push(`<span class="pill tier" title="Ward rates this person top tier for ${escapeHtml(t)}">top tier · ${escapeHtml(t)}</span>`));
+    if(A.spoken_with_before) pills.push('<span class="pill spoke" title="Ward has spoken with this person before">spoken with</span>');
+    if(A.under_represented_group === 'Yes') pills.push('<span class="pill urg" title="Ward records this person as from an under-represented group. Ward\u2019s own observation, not self-declared \u2014 for slate reporting only.">URG</span>');
+    if(A.tenure === 'Recent Move') pills.push('<span class="pill recent-move" title="Ward tenure judgement: recently moved, probably not approachable yet">recent move</span>');
+    const inSearches = p.searches || [];
+    if(inSearches.length){
+      const best = inSearches.find(x => x.cat === 'in-placed');
+      pills.push(`<span class="pill ${best ? 'lead' : 'spoke'}" title="${escapeHtml(inSearches.map(x => x.client + ' — ' + x.name + ': ' + x.status).join(' | '))}">${best ? 'we placed' : 'in our pipeline'} &middot; ${inSearches.length}</span>`);
+    }
+    const meta = [p.seniority ? `<span class="sen">${escapeHtml(p.seniority)}</span>` : '',
+                  escapeHtml(placeOf(p)),
+                  p.since ? `since ${escapeHtml(p.since)}` : '',
+                  p.prev ? `from ${escapeHtml(p.prev)}` : ''].filter(Boolean).join(' · ');
+    const job = j => `<div class="job"><span class="yrs">${escapeHtml((j.start || '?') + '–' + (j.end || '?'))}</span><span><b>${escapeHtml(j.company)}</b>${j.title ? ' — ' + escapeHtml(j.title) : ''}</span></div>`;
+    const past = (p.past || []).filter(j => !j.same_employer).map(job).join('');
+    const earlier = (p.past || []).filter(j => j.same_employer).map(job).join('');
+    const notes = [];
+    if(p.function_source === 'mapping list') notes.push(`department inferred from the ${escapeHtml(p.department || '')} mapping list, not the title`);
+    if(p.linkedin && /^https?:\/\//i.test(p.linkedin)) notes.push(`<a href="${escapeHtml(p.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>`);
+    return `<div class="pcard${isLead ? ' lead' : ''}" data-pid="${escapeHtml(p.id)}">
+      <div class="p-name"><span>${escapeHtml(p.name)}</span><span>${pills.join(' ')}</span></div>
+      <div class="p-title">${escapeHtml(p.title || '')}</div>
+      <div class="p-meta">${meta}</div>
+      <div class="p-more">
+        ${assessBlock(A, p)}
+        ${inSearches.length ? `<div class="section-label" style="margin:8px 0 4px">Ward has had them in a pipeline (${inSearches.length})</div>` +
+          inSearches.map(x => { const g = candStage(x.cat);
+            return `<div class="job"><span class="yrs" style="color:${g.color}">${escapeHtml(g.label)}</span><span><b>${escapeHtml(x.client || '')}</b> — ${escapeHtml(x.name || '')}<br><span style="color:var(--text-dim)">${escapeHtml(x.status || '')}</span></span></div>`;
+          }).join('') + `<div class="src">from Clockwork, our own record of the search</div>` : ''}
+        <div class="section-label" style="margin:8px 0 4px">Past employers${past ? '' : ' · none on record'}</div>${past}
+        ${earlier ? `<div class="section-label" style="margin:8px 0 4px">Earlier roles here</div>${earlier}` : ''}
+        ${notes.length ? `<div style="margin-top:8px;color:var(--text-dim)">${notes.join(' · ')}</div>` : ''}
+      </div></div>`;
+  }
+  function renderOrg(){
+    if(!orgCompany) return;
+    const all = PEOPLE[orgCompany.id] || [];
+    const q = orgFilter.value.trim().toLowerCase();
+    const ppl = all.filter(p => personMatches(p, q));
+    document.getElementById('orgName').textContent = orgCompany.name;
+    document.getElementById('orgSub').textContent =
+      `${all.length} people mapped · ${groupBy(all, 'function').length} departments · ${groupBy(all, 'location').length} locations · ${all.filter(p => p.recent).length} new in 6 months` +
+      (all.some(p => p.grade === 'directory') ? ` · ${all.filter(p => p.grade === 'directory').length} directory-only` : '') +
+      (() => { const y = all.filter(p => (p.assess || {}).under_represented_group === 'Yes').length,
+                     k = all.filter(p => (p.assess || {}).under_represented_group).length;
+               return k ? ` · ${y} of ${k} assessed are from an under-represented group` : ''; })() +
+      (q ? ` · ${ppl.length} match "${orgFilter.value.trim()}"` : '') +
+      ' · from Ward Search mapping, not the company\'s full org';
+    // who's in charge: C-suite and EVP/SVP/MD across the whole company
+    const top = ppl.filter(p => p.rank <= 1);
+    orgLead.innerHTML = top.length
+      ? `<div class="section-label">Leadership mapped (${top.length})</div><div class="org-lead-row">${top.map(p => personCard(p, false)).join('')}</div>`
+      : '';
+    const groups = groupBy(ppl, orgMode);
+    orgBody.innerHTML = groups.length ? groups.map(([name, rows]) => {
+      const leadRank = rows[0].rank;
+      const titles = {};
+      rows.forEach(p => { const t = (p.title || '').trim(); if(t) titles[t] = (titles[t] || 0) + 1; });
+      const titleRows = Object.entries(titles).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      return `<div class="org-col"><div class="org-col-head"><div>${escapeHtml(name)}</div>
+          <span>${rows.length} · <a class="titles-toggle">${titleRows.length} titles</a></span></div>
+        <div class="org-titles" hidden>${titleRows.map(([t, c]) => `<div class="title-row"><span>${escapeHtml(t)}</span><span>${c}</span></div>`).join('')}</div>
+        <div class="org-col-body">${rows.map(p => personCard(p, p.rank === leadRank && leadRank <= 3)).join('')}</div></div>`;
+    }).join('') : '<div class="org-empty">Nobody matches that filter.</div>';
+  }
+  // ---------- talent flow overview: tier -> tier matrix over every move ----------
+  const flowsEl = document.getElementById('flows'), flowsBody = document.getElementById('flowsBody');
+  let flowsScope = 'all', flowsSel = null, flowsView = 'tier', flowsFn = '';
+  const flowsFnSel = document.getElementById('flowsFn');
+  FUNCTION_ORDER.forEach(f => { const o = document.createElement('option'); o.value = f; o.textContent = f; flowsFnSel.appendChild(o); });
+  flowsFnSel.addEventListener('change', () => { flowsFn = flowsFnSel.value; flowsSel = null; renderFlows(); });
+  document.getElementById('flowsView').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    flowsView = b.dataset.view; flowsSel = null;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b)); renderFlows();
+  });
+  // origin buckets for the by-function view: the four core tiers, then adjacent, investor, and the outside kinds
+  const ORIGIN_COLS = m => m.flow_class.startsWith('core') ? m.from_label : m.flow_class.startsWith('adjacent') ? 'Adjacent industries' : m.flow_class.startsWith('investor') ? 'Investor' : m.from_label.replace('Outside the industry · ', 'Outside · ');
+  const CORE_TIERS = ['Hyperscaler', 'NeoCloud / AI Infra', 'Cryptomining pivot', 'Data Center Developer / Operator'];
+  function renderFlows(){
+    let moves = GRAPH.talent_moves || [];
+    if(flowsScope === 'core') moves = moves.filter(m => m.flow_class === 'core → core');
+    if(flowsScope === 'in') moves = moves.filter(m => m.flow_class.endsWith('→ core'));
+    if(flowsFn) moves = moves.filter(m => (m.function || 'Unclassified') === flowsFn);
+    if(flowsView === 'fn') return renderFlowsByFunction(moves);
+    const froms = {}, tos = {}, cell = {};
+    moves.forEach(m => { froms[m.from_label] = (froms[m.from_label] || 0) + 1; tos[m.to_label] = (tos[m.to_label] || 0) + 1; const k = m.from_label + '|' + m.to_label; cell[k] = (cell[k] || 0) + 1; });
+    const order = lbl => { const i = CORE_TIERS.indexOf(lbl); return i >= 0 ? i : lbl.startsWith('Outside') ? 50 : lbl === 'Investor' ? 40 : 20; };
+    const rows = Object.keys(froms).sort((a, b) => order(a) - order(b) || froms[b] - froms[a]);
+    const cols = Object.keys(tos).sort((a, b) => order(a) - order(b) || tos[b] - tos[a]);
+    document.getElementById('flowsSub').textContent = `${moves.length} moves · rows = previous employer's tier, columns = current employer's tier · click a number for the people`;
+    let html = `<div class="flows-wrap"><table class="matrix"><thead><tr><th></th>${cols.map(c => `<th class="col">${escapeHtml(c)}</th>`).join('')}<th class="col">total</th></tr></thead><tbody>`;
+    let lastGroup = null;
+    rows.forEach(r => {
+      const grp = order(r) >= 50 ? 'outside' : order(r) === 40 ? 'investor' : order(r) >= 20 ? 'adjacent' : 'core';
+      const cls = grp !== lastGroup && lastGroup !== null ? ' class="grp"' : ''; lastGroup = grp;
+      html += `<tr${cls}><th>${escapeHtml(r)}</th>` + cols.map(c => { const n = cell[r + '|' + c] || 0; const k = r + '|' + c;
+        return n ? `<td data-k="${escapeHtml(k)}" class="${flowsSel === k ? 'sel' : ''}" style="background:rgba(14,116,144,${Math.min(0.08 + n / 60, 0.65)})">${n}</td>` : `<td class="z">·</td>`; }).join('') +
+        `<td class="z"><b>${froms[r]}</b></td></tr>`;
+    });
+    html += `<tr class="grp"><th>total</th>${cols.map(c => `<td class="z"><b>${tos[c]}</b></td>`).join('')}<td class="z"><b>${moves.length}</b></td></tr></tbody></table>`;
+    if(flowsSel){
+      const [fr, to] = flowsSel.split('|');
+      const list = moves.filter(m => m.from_label === fr && m.to_label === to).sort((a, b) => (b.start || '').localeCompare(a.start || ''));
+      html += `<div style="flex:1;min-width:320px"><div class="section-label">${escapeHtml(fr)} → ${escapeHtml(to)} · ${list.length} people</div><div class="flows-list">` +
+        list.map(m => `<div class="pcard" data-company="${escapeHtml(m.to_id)}"><div class="p-name"><span>${escapeHtml(m.person)}</span></div>
+          <div class="p-title">${escapeHtml(m.title || '')} · <b>${escapeHtml(m.to_name)}</b></div>
+          <div class="p-meta">from ${escapeHtml(m.from_name || '?')}${m.start ? ' · since ' + escapeHtml(m.start) : ''}${m.function ? ' · ' + escapeHtml(m.function) : ''}</div></div>`).join('') + `</div></div>`;
+    }
+    flowsBody.innerHTML = html + '</div>';
+  }
+  // rows = the department people work in now, columns = where they came from
+  function renderFlowsByFunction(moves){
+    const cell = {}, rowTot = {}, colTot = {};
+    moves.forEach(m => { const r = m.function || 'Unclassified', c = ORIGIN_COLS(m); const k = r + '|' + c;
+      cell[k] = (cell[k] || 0) + 1; rowTot[r] = (rowTot[r] || 0) + 1; colTot[c] = (colTot[c] || 0) + 1; });
+    const colOrder = c => { const i = CORE_TIERS.indexOf(c); return i >= 0 ? i : c === 'Adjacent industries' ? 10 : c === 'Investor' ? 11 : 20; };
+    const rows = FUNCTION_ORDER.filter(f => rowTot[f]).concat(Object.keys(rowTot).filter(f => !FUNCTION_ORDER.includes(f)));
+    const cols = Object.keys(colTot).sort((a, b) => colOrder(a) - colOrder(b) || colTot[b] - colTot[a]);
+    document.getElementById('flowsSub').textContent = `${moves.length} moves · rows = the department people work in now, columns = where they came from · click a number for the people`;
+    let html = `<div class="flows-wrap"><table class="matrix"><thead><tr><th></th>${cols.map(c => `<th class="col">${escapeHtml(c)}</th>`).join('')}<th class="col">total</th></tr></thead><tbody>`;
+    rows.forEach(r => {
+      html += `<tr><th>${escapeHtml(r)}</th>` + cols.map(c => { const n = cell[r + '|' + c] || 0, k = r + '|' + c;
+        const pct = Math.round(100 * n / rowTot[r]);
+        return n ? `<td data-k="${escapeHtml(k)}" class="${flowsSel === k ? 'sel' : ''}" style="background:rgba(14,116,144,${Math.min(0.08 + pct / 120, 0.65)})" title="${pct}% of ${escapeHtml(r)} hires">${n}<div class="pct">${pct}%</div></td>` : `<td class="z">·</td>`; }).join('') +
+        `<td class="z"><b>${rowTot[r]}</b></td></tr>`;
+    });
+    html += `<tr class="grp"><th>total</th>${cols.map(c => `<td class="z"><b>${colTot[c]}</b></td>`).join('')}<td class="z"><b>${moves.length}</b></td></tr></tbody></table>`;
+    if(flowsSel){
+      const [fn, origin] = flowsSel.split('|');
+      const list = moves.filter(m => (m.function || 'Unclassified') === fn && ORIGIN_COLS(m) === origin).sort((a, b) => (b.start || '').localeCompare(a.start || ''));
+      const srcs = {}; list.forEach(m => { srcs[m.from_name] = (srcs[m.from_name] || 0) + 1; });
+      const top = Object.entries(srcs).sort((a, b) => b[1] - a[1]).slice(0, 12);
+      html += `<div style="flex:1;min-width:320px"><div class="section-label">${escapeHtml(fn)} ← ${escapeHtml(origin)} · ${list.length} people</div>
+        <div class="dt-row"><div class="dt-k">Top sources</div><div class="dt-v">${top.map(([n, c]) => `<div class="flow-row"><span>${escapeHtml(n)}</span><span>${c}</span></div>`).join('')}</div></div><div class="flows-list">` +
+        list.map(m => `<div class="pcard" data-company="${escapeHtml(m.to_id)}"><div class="p-name"><span>${escapeHtml(m.person)}</span></div>
+          <div class="p-title">${escapeHtml(m.title || '')} · <b>${escapeHtml(m.to_name)}</b></div>
+          <div class="p-meta">from ${escapeHtml(m.from_name || '?')}${m.start ? ' · since ' + escapeHtml(m.start) : ''}</div></div>`).join('') + `</div></div>`;
+    }
+    flowsBody.innerHTML = html + '</div>';
+  }
+  document.getElementById('flowsBtn').addEventListener('click', () => { flowsEl.hidden = false; renderFlows(); });
+  document.getElementById('flowsClose').addEventListener('click', () => { flowsEl.hidden = true; });
+  document.getElementById('flowsScope').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    flowsScope = b.dataset.scope; flowsSel = null;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b)); renderFlows();
+  });
+  flowsBody.addEventListener('click', (e) => {
+    const td = e.target.closest('td[data-k]');
+    if(td){ flowsSel = flowsSel === td.dataset.k ? null : td.dataset.k; renderFlows(); return; }
+    const card = e.target.closest('.pcard[data-company]');
+    if(card){ const n = nodeById[card.dataset.company]; if(n){ flowsEl.hidden = true; if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); } }
+  });
+
+  // ---------- Ward's own searches ----------
+  const searchesEl = document.getElementById('searches');
+  const srchBody = document.getElementById('srchBody');
+  const srchFilter = document.getElementById('srchFilter');
+  let srchStatus = '';
+  function renderSearches(){
+    const q = srchFilter.value.trim().toLowerCase();
+    const rows = SEARCHES.filter(x => (!srchStatus || x.status === srchStatus) && (!q ||
+      [x.name, x.client, x.project_type, x.reason, x.placed,
+       ...(x.pipeline || []).map(e => e.name)].filter(Boolean).join(' ').toLowerCase().includes(q)));
+    const placed = rows.filter(x => x.placed).length;
+    const cands = new Set(rows.flatMap(x => (x.pipeline || []).map(e => e.name).filter(Boolean)));
+    document.getElementById('srchSub').textContent =
+      `${rows.length} search${rows.length === 1 ? '' : 'es'} · ${new Set(rows.map(x => x.client)).size} clients · ` +
+      `${placed} placement${placed === 1 ? '' : 's'} · ${cands.size} people we have had in a pipeline · ` +
+      `from Clockwork. Confidential searches are not in here at all.`;
+    // grouped by client, biggest relationship first
+    const byClient = {};
+    rows.forEach(x => { (byClient[x.client || '—'] = byClient[x.client || '—'] || []).push(x); });
+    const clients = Object.entries(byClient).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+    srchBody.innerHTML = clients.map(([client, list]) => {
+      const cid = nodeById[list[0].client_id] ? list[0].client_id : null;
+      const wins = list.filter(x => x.placed).length;
+      return `<div class="org-col"><div class="org-col-head">` +
+        `<span class="srch-client"${cid ? ` data-company="${escapeHtml(cid)}" title="Show ${escapeHtml(client)} on the map"` : ''}>${escapeHtml(client)}</span>` +
+        `<span>${list.length}${wins ? ` · ${wins} placed` : ''}</span></div>` +
+        `<div class="org-col-body">` + list.map(x => searchRow(x, false)).join('') +
+        (cid ? '' : `<div class="src">not a company on the map yet</div>`) + `</div></div>`;
+    }).join('') || `<div class="banner-note">No searches match that.</div>`;
+  }
+  document.getElementById('srchBtn').addEventListener('click', () => { searchesEl.hidden = false; renderSearches(); });
+  document.getElementById('srchClose').addEventListener('click', () => { searchesEl.hidden = true; });
+  srchFilter.addEventListener('input', renderSearches);
+  document.getElementById('srchStatus').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    srchStatus = b.dataset.st;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+    renderSearches();
+  });
+  srchBody.addEventListener('click', (e) => {
+    const c = e.target.closest('.srch-client'); if(!c) return;
+    const n = nodeById[c.dataset.company];
+    if(n){ searchesEl.hidden = true; if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); selectNode(n); }
+  });
+
+  function openOrg(company){
+    orgCompany = company; orgFilter.value = '';
+    org.hidden = false;
+    renderOrg();
+  }
+  function closeOrg(){ org.hidden = true; orgCompany = null; }
+  document.getElementById('orgClose').addEventListener('click', closeOrg);
+  orgFilter.addEventListener('input', renderOrg);
+  document.getElementById('orgMode').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    orgMode = b.dataset.mode;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+    renderOrg();
+  });
+  org.addEventListener('click', (e) => {
+    const tt = e.target.closest('.titles-toggle');
+    if(tt){ const box = tt.closest('.org-col').querySelector('.org-titles'); box.hidden = !box.hidden; return; }
+    const card = e.target.closest('.pcard');
+    if(card && !e.target.closest('a')) card.classList.toggle('open');
+  });
+  document.addEventListener('keydown', (e) => {
+    if(e.key !== 'Escape') return;
+    if(!flowsEl.hidden) flowsEl.hidden = true;
+    else if(!org.hidden) closeOrg();
+    else if(focusMode) exitFocus();
+  });
+
+  // where the record itself came from (sheet, CRM export, research URLs)
+  function recordSources(n){
+    const srcs = n.sources || [];
+    if(!srcs.length) return '';
+    const urls = srcs.filter(isUrl), other = srcs.filter(s => !isUrl(s));
+    return `<div class="section-label">Record sources (${srcs.length})</div>` +
+      (urls.length ? sourceLinks(urls) : '') +
+      (other.length ? `<div class="src">${other.map(escapeHtml).join('<br>')}</div>` : '');
+  }
+  function selectNode(n){ selectedNode = n; renderDetail(n); detail.classList.add('open'); }
+  function closeDetail(){ selectedNode = null; detail.classList.remove('open'); if(!org.hidden) closeOrg(); }
+  document.getElementById('detailClose').addEventListener('click', closeDetail);
+
+  // ---------- search ----------
+  const sidebar = document.getElementById('sidebar');
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.trim().toLowerCase();
+    if(q.length < 2){ searchResults.classList.remove('open'); return; }
+    // rank: exact name > name starts with query > a word starts with it > substring;
+    // ties broken by shorter name (so "Vantage" beats "SUNeVision iAdvantage")
+    const rank = n => {
+      const s = n.name.toLowerCase();
+      const aliasHit = (n.aliases || []).some(a => a.toLowerCase().startsWith(q));
+      if(s === q) return 0;
+      if(s.startsWith(q)) return 1;
+      if(aliasHit || s.split(/[^a-z0-9]+/).some(w => w.startsWith(q))) return 2;
+      return s.includes(q) ? 3 : 9;
+    };
+    const matches = GRAPH.nodes
+      .filter(n => n.name.toLowerCase().includes(q) || (n.aliases || []).some(a => a.toLowerCase().includes(q)))
+      .sort((a, b) => rank(a) - rank(b) || a.name.length - b.name.length)
+      .slice(0, 10);
+    if(!matches.length){ searchResults.classList.remove('open'); return; }
+    searchResults.innerHTML = matches.map((n, i) =>
+      `<div class="search-result" data-idx="${i}"><span>${escapeHtml(n.name)}</span><span class="sr-sub">${escapeHtml(kindBadge(n).text)}</span></div>`
+    ).join('');
+    searchResults.classList.add('open');
+    [...searchResults.children].forEach((el, i) => {
+      el.addEventListener('click', () => {
+        const target = matches[i];
+        // switch on only the tier(s) this node needs -- don't flood the view
+        const needed = target.kind === 'investor' ? ['investor'] : (target.roles || [target.category]);
+        let switchedOn = false;
+        if(!needed.some(r => filters[r])){ needed.forEach(r => { filters[r] = true; }); switchedOn = true; }
+        syncLegend();
+        recomputeActive();
+        if(!nodeVisible(target)){ setIsoMode('show'); recomputeActive(); switchedOn = true; } // it was hidden as unconnected
+        // settle the newly shown tier BEFORE focusing, so the target doesn't drift out from under the camera
+        if(switchedOn){ for(let i = 0; i < 80; i++) runForceStep(); settleFrames = 30; refitOverview(false); }
+        buildScene();
+        enterFocus(target);
+        searchResults.classList.remove('open');
+        searchInput.value = target.name;
+        sidebar.classList.remove('open'); // phone layout: get the panel out of the way
+      });
+    });
+  });
+  document.addEventListener('click', (e) => {
+    if(!e.target.closest('.search-box')) searchResults.classList.remove('open');
+  });
+
+  // ---------- mobile menu ----------
+  document.getElementById('menuBtn').addEventListener('click', () => sidebar.classList.toggle('open'));
+
+  // ---------- theme ----------
+  function applyTheme(dark){
+    darkTheme = dark;
+    document.body.classList.toggle('dark', dark);
+    document.getElementById('themeBtn').textContent = dark ? 'Light mode' : 'Dark mode';
+    try { localStorage.setItem('atlas-theme', dark ? 'dark' : 'light'); } catch(e){}
+    renderEdgeLegend();
+    if(focusMode) exitFocus();
+    buildScene();
+  }
+  document.getElementById('themeBtn').addEventListener('click', () => applyTheme(!darkTheme));
+  try { if(localStorage.getItem('atlas-theme') === 'dark') darkTheme = true; } catch(e){}
+  document.body.classList.toggle('dark', darkTheme);
+  document.getElementById('themeBtn').textContent = darkTheme ? 'Light mode' : 'Dark mode';
+
+  // ---------- render loop: finish settling the layout on screen, then hold ----------
+  let settleFrames = 60; // most of the settle runs synchronously below
+  function animate(){
+    requestAnimationFrame(animate);
+    if(focusMode && focusedNode) updateFocusLines(focusedNode, focusNeighbors);
+    if(settleFrames > 0 && !focusMode){
+      runForceStep();
+      updatePositionsOnly();
+      settleFrames--;
+    }
+    controls.update();
+    updateLabels();
+    renderer.render(scene, camera);
+  }
+
+  // pre-run a batch of steps synchronously so the very first frame is
+  // already a reasonable spread (avoids a jarring "explosion" moment)
+  recomputeActive();
+  for(let i = 0; i < 90; i++) runForceStep();
+  refitOverview(false);
+  buildScene();
+  animate();
+  requestAnimationFrame(() => renderer.domElement.classList.add('ready'));
+})();
+</script>

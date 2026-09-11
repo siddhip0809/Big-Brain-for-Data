@@ -1,0 +1,134 @@
+{
+  "id": "cameron-mcrae-d65bb71d",
+  "type": "person",
+  "name": "Cameron McRae",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Alston Construction",
+  "linkedin": "https://www.linkedin.com/in/cameron-mcrae-a39555124",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at Alston Construction, 4/2026 to present; Assistant Design Phase Manager at Mortenson, 2/2025 to present; Project Engineer II at Mortenson, 1/2022 to present; Field Engineer at Mortenson, 1/2020 to present; Project Engineer at Mortenson, 12/2019 to present; Electrical Apprentice at STF Electric, 6/2018 to 1/2020; Assistant General Manager at Foster Custom Homes, 2016 to 7/2018; Math Teacher at SUMMIT ACADEMY HIGH SCHOOL, 8/2015 to 6/2016; Laborer at Jared Seaman Excavation, 6/2013 to 6/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 372,
+      "date_added": "2026-08-17 11:24:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 372,
+      "date_added": "2026-08-17 11:24:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "alston-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Alston Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Design Phase Manager",
+      "company": "Mortenson",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Engineer II",
+      "company": "Mortenson",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Mortenson",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Mortenson",
+      "start": "12/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Electrical Apprentice",
+      "company": "STF Electric",
+      "start": "6/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant General Manager",
+      "company": "Foster Custom Homes",
+      "start": "2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Math Teacher",
+      "company": "SUMMIT ACADEMY HIGH SCHOOL",
+      "start": "8/2015",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Laborer",
+      "company": "Jared Seaman Excavation",
+      "start": "6/2013",
+      "end": "6/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Bachelor of Science - BS, Construction and Facilities Management, Brigham Young University, 2013 to 2019"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

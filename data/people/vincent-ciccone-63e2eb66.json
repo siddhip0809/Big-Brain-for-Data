@@ -1,0 +1,71 @@
+{
+  "id": "vincent-ciccone-63e2eb66",
+  "type": "person",
+  "name": "Vincent Ciccone",
+  "current_title": "Sr. Real Estate Development Manager",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/vincent-c-b6341b12",
+  "location": "Austin, Texas",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Sr. Real Estate Development Manager at AWS, 10/2020 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 504,
+      "date_added": "2026-06-03 15:02:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Sr. Real Estate Development Manager",
+      "company": "AWS",
+      "start": "10/2020",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Austin",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Masters, Real Estate, University Of Southern California   Sol Price School Of Public Policy",
+    "Masters, Master Of Real Estate Development, Master Of Business Administration, University Of Southern California",
+    "Bachelors, Bachelor Of Science, Business Administration, University Of Southern California   Marshall School Of Business",
+    "Masters, Master Of Business Administration, University Of Southern California   Marshall School Of Business"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

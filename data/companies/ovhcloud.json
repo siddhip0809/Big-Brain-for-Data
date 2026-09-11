@@ -1,0 +1,50 @@
+{
+  "id": "ovhcloud",
+  "type": "company",
+  "name": "OVHcloud",
+  "aliases": [],
+  "industry_role": "data center developer / real estate development",
+  "headquarters": "Roubaix, France",
+  "founded": null,
+  "website": "https://www.ovhcloud.com/en-in/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nM&A: acquired gridscale -- Closed 4 Sep 2023: German HCI/edge cloud provider; all staff transferred. [completed; confidence high; https://corporate.ovhcloud.com/en/newsroom/news/closing-gridscale-acquisition/]",
+  "sources": [
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator",
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/ovhgroup/",
+  "headcount": "1,001-5,000",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 46.92
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "charles-gornowich-410f628f",
+  "type": "person",
+  "name": "Charles Gornowich",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "T5 Data Centers",
+  "location": "Herndon, Virginia",
+  "linkedin": "https://www.linkedin.com/in/charles-gornowich-6405ab46",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at T5 Data Centers, 11/2025 to present; Preconstruction Manager at T5 Data Centers, 9/2024 to present; Director of Construction Management at SWSG, 2/1999 to 3/2024; Director of Construction Management at SWSG, 5/1998 to 5/2024; Purchasing Agent at Rocky Gorge Communities, 1/1991 to 5/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 247,
+      "date_added": "2026-08-26 13:22:20 UTC",
+      "date_updated": "2026-08-26 08:23:43 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 34,
+      "date_added": "2026-08-04 11:43:17 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "t5-data-centers",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "T5 Data Centers",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "T5 Data Centers",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction Management",
+      "company": "SWSG",
+      "start": "2/1999",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Construction Management",
+      "company": "SWSG",
+      "start": "5/1998",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Purchasing Agent",
+      "company": "Rocky Gorge Communities",
+      "start": "1/1991",
+      "end": "5/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Herndon",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Architecture and Engineering, Northern Virginia Community College, 1982 to 1985"
+  ],
+  "biography": "Charles is a Construction Professional with over 30 years of experience in the construction industry including commercial, light industrial, telecommunications, data centers as well as public/quasi-public governmental projects. His thirty years in this business has taught him it is imperative to be flexible, adaptable and carry a multitude of skills and responsibilities. He has a reputation for developing very strong teams by setting concise expectations, ensuring communication is clear and accurate, providing support, and treating everyone fairly and with dignity. For the last two decades he has specialized in the construction, expansion and problem solving required of mission critical facilities.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "clint-heiden-ade9fb0d",
+  "type": "person",
+  "name": "Clint Heiden",
+  "current_title": "Chief Commercial Officer",
+  "current_company": "EdgeCore Digital Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/clintheiden",
+  "location": "Baltimore, Maryland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Commercial Officer at EdgeCore Digital Infrastructure, 1/2023 to present; Founder at Internet Ecosystem Innovation Committee, 5/2019 to 1/2023; Chief Revenue Officer at QTS Data Centers, 4/2018 to 9/2022; Chief Commercial Officer at EdgeConneX, 4/2013 to 4/2018; Founder at The Heiden Group, 5/2004 to 1/2023; EdgeCore Digital Infrastructure",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 113,
+      "date_added": "2025-11-19 13:47:47 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "edgecore-digital-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer",
+      "company": "EdgeCore Digital Infrastructure",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Founder",
+      "company": "Internet Ecosystem Innovation Committee",
+      "start": "5/2019",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Chief Revenue Officer",
+      "company": "QTS Data Centers",
+      "start": "4/2018",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Chief Commercial Officer",
+      "company": "EdgeConneX",
+      "start": "4/2013",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Founder",
+      "company": "The Heiden Group",
+      "start": "5/2004",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "raw": "EdgeCore Digital Infrastructure"
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "education": [
+    "James Madison University, 1986 to 1990"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

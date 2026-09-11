@@ -1,0 +1,114 @@
+{
+  "id": "logan-hanton-100467bf",
+  "type": "person",
+  "name": "Logan Hanton",
+  "current_title": "Development Director",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/loganhanton",
+  "location": "Baltimore, Washington DC",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Development Director at STACK Infrastructure, 2/2026 to present; Development Manager at STACK Infrastructure, 9/2024 to 2/2026; Real Estate Acquisitions Manager at Ryan Stuart Development, 10/2023 to 9/2024; Real Estate - Acquisitions and Development at Lidl US, 4/2023 to 10/2023; Real Estate Acquisitions Manager at Lidl US, 9/2022 to 4/2023; Real Estate Analyst at Lidl US, 8/2021 to 9/2022; Brokerage Intern at Cushman & Wakefield, 11/2020 to 1/2021; Sustainability Intern at Cushman & Wakefield Ireland, 5/2019 to 8/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 221,
+      "date_added": "2026-01-23 12:44:52 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Development Director",
+      "company": "STACK Infrastructure",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager",
+      "company": "STACK Infrastructure",
+      "start": "9/2024",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Real Estate Acquisitions Manager",
+      "company": "Ryan Stuart Development",
+      "start": "10/2023",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Real Estate - Acquisitions and Development",
+      "company": "Lidl US",
+      "start": "4/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Real Estate Acquisitions Manager",
+      "company": "Lidl US",
+      "start": "9/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Real Estate Analyst",
+      "company": "Lidl US",
+      "start": "8/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Brokerage Intern",
+      "company": "Cushman & Wakefield",
+      "start": "11/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Sustainability Intern",
+      "company": "Cushman & Wakefield Ireland",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

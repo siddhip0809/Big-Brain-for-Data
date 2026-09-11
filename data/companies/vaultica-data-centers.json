@@ -1,0 +1,50 @@
+{
+  "id": "vaultica-data-centers",
+  "type": "company",
+  "name": "Vaultica Data Centers",
+  "aliases": [
+    "Vaultica"
+  ],
+  "industry_role": "data center developer",
+  "headquarters": "Oslo, Norway",
+  "founded": null,
+  "website": "https://www.vaultica.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 3 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Apollo acquired STACK Infrastructure's pan-European colocation business from Blue Owl (carve-out announced April 2025), rebranded Vaultica.",
+  "sources": [
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/vaultica/",
+  "headcount": "51-200",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 31.67,
+      "early_stage_mw": 6.0
+    }
+  }
+}

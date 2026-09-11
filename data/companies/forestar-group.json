@@ -1,0 +1,37 @@
+{
+  "id": "forestar-group",
+  "type": "company",
+  "name": "Forestar Group",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Arlington, Texas",
+  "founded": null,
+  "website": "https://www.forestar.com",
+  "linkedin": "https://www.linkedin.com/company/forestar-group/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "None",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "No",
+      "DC Exposure Level": "None"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Land developer. Subsidiary of D.R. Horton. Primarily residential lots. Limited DC relevance.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

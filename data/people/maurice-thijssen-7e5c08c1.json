@@ -1,0 +1,95 @@
+{
+  "id": "maurice-thijssen-7e5c08c1",
+  "type": "person",
+  "name": "Maurice Thijssen",
+  "current_title": "Group Director, Sales",
+  "current_company": "Global Switch",
+  "linkedin": "https://www.linkedin.com/in/maurice-thijssen-081a2924",
+  "location": "Amsterdam, North Holland",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Group Director, Sales at Global Switch, 4/2024 to present; Sales Director, Europe at Global Switch, 9/2014 to 4/2024; Sales Manager at Global Switch, 4/2009 to 8/2014; Account Manager New Business at Global Switch, 1/2007 to 3/2009; Sales Executive at Global Switch, 1/2005 to 12/2006; Assistant Contract Development Manager at Stork, 1/2004 to 12/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Too Senior",
+      "rank": 312,
+      "date_added": "2026-08-27 07:41:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "global-switch",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Group Director, Sales",
+      "company": "Global Switch",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director, Europe",
+      "company": "Global Switch",
+      "start": "9/2014",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Global Switch",
+      "start": "4/2009",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Account Manager New Business",
+      "company": "Global Switch",
+      "start": "1/2007",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Global Switch",
+      "start": "1/2005",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Assistant Contract Development Manager",
+      "company": "Stork",
+      "start": "1/2004",
+      "end": "12/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Amsterdam",
+    "region": "North Holland",
+    "country": "Netherlands",
+    "group": "Netherlands"
+  },
+  "education": [
+    "Logistics and Economy, HBO University"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

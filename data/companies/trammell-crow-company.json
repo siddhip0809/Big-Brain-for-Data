@@ -1,0 +1,37 @@
+{
+  "id": "trammell-crow-company",
+  "type": "company",
+  "name": "Trammell Crow Company",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Dallas, Texas",
+  "founded": null,
+  "website": "https://www.trammellcrow.com",
+  "linkedin": "https://www.linkedin.com/company/trammell-crow-company/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "High",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: One of the largest commercial and industrial developers in the US. Highly active in DC campus land development in NoVA, Phoenix, Atlanta, and other hub markets.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "michael-borgesen-1d0b04d7",
+  "type": "person",
+  "name": "Michael Borgesen",
+  "current_title": "Director, Project Controls",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/michael-r-borgesen",
+  "location": "Surprise, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Project Controls at Vantage, 8/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 510,
+      "date_added": "2026-08-26 07:08:27 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Project Controls",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Surprise",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

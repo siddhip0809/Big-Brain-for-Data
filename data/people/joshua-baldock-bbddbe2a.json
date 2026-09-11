@@ -1,0 +1,117 @@
+{
+  "id": "joshua-baldock-bbddbe2a",
+  "type": "person",
+  "name": "Joshua Baldock",
+  "current_title": "Senior Cost Manager",
+  "current_company": "Soben",
+  "location": "Orlando, Florida",
+  "linkedin": "https://www.linkedin.com/in/joshua-baldock-33186880",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Cost Manager at Soben, 7/2025 to present; Cost Manager at Soben, 7/2024 to 7/2025; Cost Manager at Mace, 5/2022 to 8/2024; Quantity Surveyor at Skanska, 1/2022 to 5/2022; Graduate Quantity Surveyor at Skanska, 9/2019 to 1/2022; Sales Executive at Prefabricados Pujol, 7/2018 to 10/2018; Estimator / Sales Assistant at Prefabricados Pujol, 7/2017 to 7/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 176,
+      "date_added": "2026-08-21 15:36:51 UTC",
+      "date_updated": "2026-08-21 10:37:27 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 357,
+      "date_added": "2026-08-14 11:08:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Manager",
+      "company": "Soben",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Soben",
+      "start": "7/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Mace",
+      "start": "5/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Skanska",
+      "start": "1/2022",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Graduate Quantity Surveyor",
+      "company": "Skanska",
+      "start": "9/2019",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Prefabricados Pujol",
+      "start": "7/2018",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator / Sales Assistant",
+      "company": "Prefabricados Pujol",
+      "start": "7/2017",
+      "end": "7/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Orlando",
+    "region": "Florida",
+    "country": "United States",
+    "group": "Florida"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

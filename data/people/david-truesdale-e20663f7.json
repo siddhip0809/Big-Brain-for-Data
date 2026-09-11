@@ -1,0 +1,108 @@
+{
+  "id": "david-truesdale-e20663f7",
+  "type": "person",
+  "name": "David Truesdale",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "Choate Construction",
+  "location": "Charlotte, North Carolina",
+  "linkedin": "https://www.linkedin.com/in/david-truesdale-0b301b52",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at Choate Construction, 8/2017 to present; Preconstruction Project Manager at Samet, 11/2015 to 7/2017; Project Engineer at Rodgers Builders, 7/2008 to 11/2015; Intern at James G Davis Construction, 5/2007 to 8/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 174,
+      "date_added": "2026-08-21 15:22:28 UTC",
+      "date_updated": "2026-08-21 10:27:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 341,
+      "date_added": "2026-08-13 13:53:34 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 341,
+      "date_added": "2026-08-13 13:53:34 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "choate-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Choate Construction",
+      "start": "8/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Project Manager",
+      "company": "Samet",
+      "start": "11/2015",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Rodgers Builders",
+      "start": "7/2008",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "James G Davis Construction",
+      "start": "5/2007",
+      "end": "8/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Charlotte",
+    "region": "North Carolina",
+    "country": "United States",
+    "group": "North Carolina"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

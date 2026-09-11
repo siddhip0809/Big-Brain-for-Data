@@ -1,0 +1,129 @@
+{
+  "id": "michael-brown-6d0421fe",
+  "type": "person",
+  "name": "Michael Brown",
+  "current_title": "Preconstruction Leader - Northeast Region",
+  "current_company": "DPR Construction",
+  "location": "Boston, Massachusetts",
+  "linkedin": "https://www.linkedin.com/in/michael-brown-86878b24",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Leader - Northeast Region at DPR Construction, 1/2024 to present; Preconstruction Manager at DPR Construction, 6/2019 to 12/2023; Lead Estimator at Hatzel and Buehler, 3/2017 to 7/2018; Estimator at DPR Construction, 3/2017 to 6/2019; Estimator & Senior Project Engineer at DPR Construction, 1/2015 to 3/2017; Project Engineer / Estimator at DPR Construction, 5/2012 to 1/2015; Project Engineer Intern at Wohlsen Construction, 5/2011 to 1/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 78,
+      "date_added": "2026-08-18 10:31:49 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 333,
+      "date_added": "2026-08-13 12:45:20 UTC",
+      "date_updated": "2026-08-18 05:31:49 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 333,
+      "date_added": "2026-08-13 12:45:20 UTC",
+      "date_updated": "2026-08-18 05:31:49 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Leader - Northeast Region",
+      "company": "DPR Construction",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "DPR Construction",
+      "start": "6/2019",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hatzel and Buehler",
+      "start": "3/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "DPR Construction",
+      "start": "3/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator & Senior Project Engineer",
+      "company": "DPR Construction",
+      "start": "1/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer / Estimator",
+      "company": "DPR Construction",
+      "start": "5/2012",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Wohlsen Construction",
+      "start": "5/2011",
+      "end": "1/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Boston",
+    "region": "Massachusetts",
+    "country": "United States",
+    "group": "Massachusetts"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

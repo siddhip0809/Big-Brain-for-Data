@@ -1,0 +1,110 @@
+{
+  "id": "dave-stinson-79f1ff31",
+  "type": "person",
+  "name": "Dave Stinson",
+  "current_title": "Executive Vice President of Enterprise Sales",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/davestinson",
+  "location": "Melbourne Beach, Florida",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Executive Vice President of Enterprise Sales at QTS Data Centers, 9/2022 to present; Executive Vice President of National Hybrid Sales at QTS Data Centers, 11/2018 to 9/2022; Executive Vice President of Northeast and Mid-Atlantic Commercial Sales at QTS Data Centers, 6/2015 to 10/2018; Vice President of Commercial and Federal Sales at QTS Data Centers, 11/2008 to 6/2015; Director of Sales at Digital Realty, 10/2006 to 11/2008; Regional Manager at Verizon Business, 1/2005 to 11/2006; Senior Manager at Acumen Solutions, 4/2004 to 1/2005; QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 71,
+      "date_added": "2025-11-07 13:20:46 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President of Enterprise Sales",
+      "company": "QTS Data Centers",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President of National Hybrid Sales",
+      "company": "QTS Data Centers",
+      "start": "11/2018",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Executive Vice President of Northeast and Mid-Atlantic Commercial Sales",
+      "company": "QTS Data Centers",
+      "start": "6/2015",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of Commercial and Federal Sales",
+      "company": "QTS Data Centers",
+      "start": "11/2008",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Digital Realty",
+      "start": "10/2006",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Regional Manager",
+      "company": "Verizon Business",
+      "start": "1/2005",
+      "end": "11/2006",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Acumen Solutions",
+      "start": "4/2004",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Melbourne Beach",
+    "region": "Florida",
+    "country": "United States",
+    "group": "Florida"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}
