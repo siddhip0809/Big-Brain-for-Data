@@ -179,6 +179,16 @@ pipeline and how far each person got.
 - `client_company_id` — the matching company node in this brain, or
   `null` where the client isn't tracked here yet (8 of 90)
 - `status` — `active`, `on_hold`, `pitch`, or `closed`
+- **completed** is derived, not stored: `status == "closed"` **and**
+  `closing_reason == "Placement"`. Per Siddhi (2026-09-13) that is the only
+  thing that makes a company a client. A cancellation, a termination, a role
+  filled internally, a live search and a pitch are all work on file, but none
+  of them makes someone a client, and the atlas keeps the two apart: 22 of the
+  93 searches are completed, across 8 client companies.
+- `historical_record` — `true` on a search logged in Clockwork retrospectively
+  as a past placement. Clockwork marks these `isInternal`, the same flag it
+  uses for the firm's own mapping shells, so the first pull dropped them. Three
+  were recovered on 2026-09-13 (EDGNEX, Colt, STACK).
 - `project_type` — Retained, Long Term Mapping, etc.
 - `started_at`, `closed_at` — dates
 - `closing_reason` — why it ended (Placement, Client Cancelled …)

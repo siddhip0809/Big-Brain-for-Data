@@ -1,0 +1,29 @@
+{
+  "id": "d9c99f11-2418-49f4-8bb7-e0e36feba244",
+  "type": "search",
+  "name": "COLT - 2307 - Regional Head of Engineering",
+  "client_company": "Colt Data Centre Services",
+  "client_company_id": "colt-data-centre-services",
+  "status": "closed",
+  "project_type": "Internal (historical record)",
+  "started_at": "2026-02-24",
+  "closed_at": "2026-04-28",
+  "closing_reason": "Placement",
+  "placement": {
+    "person": null,
+    "title": "COLT - 2307 - Regional Head of Engineering"
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 1,
+    "active": 0,
+    "out": 0
+  },
+  "historical_record": true,
+  "notes": "Logged retrospectively in Clockwork by Siddhi Pandit as a past placement (project type Internal, presentation-only). It is real completed work, which is why it counts; the first pull skipped it because the isInternal flag also marks the firm's own mapping shells.",
+  "sources": [
+    "Clockwork API, verified live 2026-09-13"
+  ],
+  "last_updated": "2026-09-13"
+}

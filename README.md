@@ -149,7 +149,7 @@ Real data has started loading. Currently in the brain:
   flows. The export's email and phone columns are dropped at read time and
   never written. Email, phone, and compensation are deliberately left out
   of every record (kept in Clockwork only) — see `docs/schema.md`.
-- **90 searches** (`data/searches/`, added 2026-09-10) — Ward Search's own
+- **93 searches** (`data/searches/`, added 2026-09-10) — Ward Search's own
   assignments, pulled live from Clockwork: 48 closed, 19 active, 15 pitch,
   8 on hold, across 28 clients (STACK Infrastructure 28, Goodman 10, Rowan
   Digital 6, Colt 5, Panattoni 5, Beale 5). 82 of the 90 sit with a company
@@ -159,6 +159,13 @@ Real data has started loading. Currently in the brain:
   601 pipeline entries, 556 of them matched to a person already in the brain.
   This is the record of work Ward has actually done, so it answers "have
   we been here before?" for any company or person on the map.
+  **A client means a search that closed because we placed someone** (Siddhi,
+  2026-09-13): 22 completed searches across **8 client companies** — STACK 11,
+  Colt 3, Goodman 2, Rowan 2, Beale, EDGNEX, NTT, Panattoni. The other 71
+  searches are cancellations, terminations, internal hires, live searches and
+  pitches; they stay on file as history, and the atlas shows them under "did
+  not complete" rather than counting them. 13 more companies have Ward history
+  of that kind without being clients.
   **One confidential search was skipped entirely** — no file, no client
   name, no candidates — because this repository syncs to GitHub.
   Compensation and fee data were not pulled. 38 of the 90 are large

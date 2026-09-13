@@ -267,6 +267,11 @@ for path in sorted(glob.glob(os.path.join(SEARCHES_DIR, "*.json"))):
         "closed": d.get("closed_at"), "reason": d.get("closing_reason"),
         "placed": placed.get("person"), "counts": d.get("counts") or {},
         "brief": bool(d.get("job_description") or d.get("job_requirements") or d.get("strategy")),
+        # Siddhi's rule (2026-09-13): a search only counts as work we completed when it
+        # closed BECAUSE of a placement. Cancelled, terminated, internal hire, pitch,
+        # on-hold and still-active do not make someone a client.
+        "completed": d.get("status") == "closed" and (d.get("closing_reason") or "") == "Placement",
+        "historical": bool(d.get("historical_record")),
         "partial": bool(d.get("pipeline_not_pulled")),
         "pipeline": [{"name": e.get("person"), "id": e.get("brain_person_id"),
                       "status": e.get("status"), "cat": e.get("category")} for e in pipe],
@@ -275,10 +280,11 @@ SEARCH_STATUS_ORDER = {"active": 0, "on_hold": 1, "pitch": 2, "closed": 3}
 searches.sort(key=lambda s: (SEARCH_STATUS_ORDER.get(s["status"], 9), s["closed"] or "", s["name"] or ""))
 
 # client company -> its searches; candidate -> the searches they appeared in
-searches_by_client, searches_by_person = {}, {}
+searches_by_client, completed_by_client, searches_by_person = {}, {}, {}
 for s in searches:
     if s["client_id"] in node_ids:
         searches_by_client.setdefault(s["client_id"], []).append(s["slug"])
+        if s["completed"]: completed_by_client.setdefault(s["client_id"], []).append(s["slug"])
     for e in s["pipeline"]:
         if e["id"]:
             searches_by_person.setdefault(e["id"], []).append(
@@ -287,7 +293,10 @@ for s in searches:
 for cid, slugs in searches_by_client.items():
     node = next(n for n in nodes if n["id"] == cid)
     node["searches"] = slugs
-    node["is_ward_client"] = True
+    node["completed_searches"] = len(completed_by_client.get(cid, []))
+    # a client is somewhere we finished a search with a placement -- nothing else
+    node["is_ward_client"] = cid in completed_by_client
+    node["ward_worked_with"] = True
 for ppl in people.values():
     for p in ppl:
         p["searches"] = searches_by_person.get(p["id"]) or None
@@ -328,7 +337,10 @@ out = {
               "investors": len(investor_files), "links": len(links), "deal_links": deal_edges,
               "reporting_lines": sum(len(v) - 1 for v in org_tree.values()),
               "researched_reporting_lines": sum(1 for v in org_tree.values() for r in v if r["b"] == "researched"),
-              "searches": len(searches), "ward_clients": len(searches_by_client),
+              "searches": len(searches),
+              "completed_searches": sum(1 for s in searches if s["completed"]),
+              "ward_clients": len(completed_by_client),
+              "ward_worked_with": len(searches_by_client),
               "search_candidates": len(searches_by_person),
               "placements": sum(1 for s in searches if s["placed"]),
               "generated": date.today().isoformat()},
@@ -356,7 +368,9 @@ with open(out_path, "w") as f:
 print("companies:", len(company_files), "| DC-tier:", dc_companies, "| adjacent-only:", adjacent_only,
       "| multi-role:", multi_role)
 print("investors:", len(investor_files), "| links:", len(links), "| of which deal links:", deal_edges)
-print("searches:", len(searches), "| at tracked clients:", len(searches_by_client),
+print("searches:", len(searches), "| completed (placement):", sum(1 for s in searches if s["completed"]),
+      "| client companies on the map:", len(completed_by_client),
+      "| companies with any Ward history:", len(searches_by_client),
       "| candidates linked:", len(searches_by_person),
       "| placements:", sum(1 for s in searches if s["placed"]))
 print("people:", people_count, "at", len(people), "companies", "| talent moves:", len(moves), "| flow pairs between tracked companies:", len(flow_pairs), "| recent joiners:", len(recent))
