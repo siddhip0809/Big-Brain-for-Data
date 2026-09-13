@@ -2,6 +2,7 @@ from_company,from_tracked,from_tier,to_company,to_tier,flow_class,moves,people,f
 AWS,True,Hyperscaler,Microsoft,Hyperscaler,core → core,11,Cameron Matthews; Carlotta Matteja; Christopher Silis; Emilia Bocan; Jeff Errington; Joanne Donoghue; Niko Laskaris; Pablo Ovando; Sinéad Martha O’Donnell; Vladimiro Rinaldi; Wilson Velazquez,Development & Real Estate 7; Energy & Utilities 2; Pre-Construction & Cost 1; Sales & Leasing 1,11/2025
 AWS,True,Hyperscaler,Google,Hyperscaler,core → core,10,Alina Gurova; Andrew Harnish; Camila Goetze; Dr. Yvonne McCarthy; Eric Murray; Johanna Greenbaum; John Schofield; Juan-Carlos Soria II; Julia Payne; Miguel Crespo,Development & Real Estate 6; Energy & Utilities 4,9/2025
 Equinix,True,Data Center Developer / Operator,Digital Realty,Data Center Developer / Operator,core → core,7,Chris Alexander; Daniel Kingman; Jeff Bender; Justin Newsome; Michael Butterfield; Michiel De Roij; Suzie Gleeson,Sales & Leasing 4; Construction & Delivery 1; Development & Real Estate 1; Design & Engineering 1,4/2026
+Google,True,Investor,Anthropic,NeoCloud / AI Infra,investor → core,6,Adam Johnson; Brett Rogers; Liwen Mao; Peter Sarossy; Soheil Farshchian; Zach Miller,Design & Engineering 4; Development & Real Estate 1; Operations & Facilities 1,
 Microsoft,True,Hyperscaler,Google,Hyperscaler,core → core,5,Bret Boulter; Heidi Gorle; Jason Husbands; Robert Duca; Robert Oconnor,Pre-Construction & Cost 3; Energy & Utilities 1; Development & Real Estate 1,5/2026
 Linesight,False,Outside the industry · consultancy & engineering,Microsoft,Hyperscaler,outside → core,5,Christopher Delaney; Dean Slayford; Grace Stephens; Robin Walia; Stephen Mullane,"Pre-Construction & Cost 4; Strategy, Finance & Investment 1",4/2025
 AWS,True,Hyperscaler,QTS Data Centers,Data Center Developer / Operator,core → core,5,Jeremy Faught; John Copas; Mark Galloway; Shane Bigham; Tom Coulter,Development & Real Estate 4; Energy & Utilities 1,8/2025
@@ -11,7 +12,7 @@ Meta,True,Hyperscaler,Google,Hyperscaler,core → core,4,Jarrett Mackey; Rosemar
 Turner & Townsend,True,General contractor,Google,Hyperscaler,adjacent → core,4,Jackson Le; Kelsey Sinclair; Kurt Russell; Naomi Lemieux,Pre-Construction & Cost 2; Construction & Delivery 1; Development & Real Estate 1,10/2025
 Structure Tone,True,General contractor,QTS Data Centers,Data Center Developer / Operator,adjacent → core,4,Collin Scott; Gary Hinds; Lane Anderson; Michael Lu,Development & Real Estate 4,12/2025
 Google,True,Investor,STACK Infrastructure,Data Center Developer / Operator,investor → core,4,Emily Sotherlund; Jenna de Hoop Scheffer; Jennifer Braschayko; Josh Timberlake,"Strategy, Finance & Investment 4",6/2026
-The Staubach Company,False,Outside the industry · other,T5 Data Centers,Data Center Developer / Operator,outside → core,4,Frank Lyles; Jason Chartrand; Jimmy Bailey; Pete Marin,Executive leadership 2; Sales & Leasing 1; Development & Real Estate 1,1/2013
+The Staubach Company,False,Outside the industry · other,T5 Data Centers,Data Center Developer / Operator,outside → core,4,Frank Lyles; Jason Chartrand; Jimmy Bailey; Pete Marin,Executive leadership 3; Sales & Leasing 1,1/2013
 AWS,True,Hyperscaler,Vantage,Data Center Developer / Operator,core → core,4,Adam Ries; Anaïs Grimm; John B Thomas; Steven Scott,Development & Real Estate 1; Sales & Leasing 1; Construction & Delivery 1; Pre-Construction & Cost 1,8/2026
 Microsoft,True,Hyperscaler,Vantage,Data Center Developer / Operator,core → core,4,Gordon Hom; Randy Fetters; Victoria Tyson-Bloyd; Yue Tu,Construction & Delivery 2; Energy & Utilities 1; Development & Real Estate 1,4/2026
 Equinix,True,Data Center Developer / Operator,Aligned Data Centers,Data Center Developer / Operator,core → core,3,Jeffrey Colby; Michael Morris; Tristan Morgan,Executive leadership 1; Design & Engineering 1; Construction & Delivery 1,2/2025
@@ -26,6 +27,7 @@ PG&E,False,Outside the industry · energy & utilities (untracked),Google,Hypersc
 CBRE,False,Outside the industry · brokerage & advisory,Microsoft,Hyperscaler,outside → core,3,Salomon Faz; Sarah Ward; William Dedman,Development & Real Estate 3,6/2024
 Digital Realty,True,Data Center Developer / Operator,Microsoft,Hyperscaler,core → core,3,Anthony Caracino; Justyna Van Zwienen (Szymczak); Stephen Kasson,Construction & Delivery 2; Development & Real Estate 1,3/2026
 Google,True,Investor,Microsoft,Hyperscaler,investor → core,3,AJ Steinbrecher; Chris Irwin; Michael Augustin,Development & Real Estate 2; Energy & Utilities 1,4/2026
+Oracle,True,Data Center Developer / Operator,Nscale,NeoCloud / AI Infra,core → core,3,Brendan McCarthy; Michael Solfelt; Sam Huckaby,Miscellaneous 1; Pre-Construction & Cost 1; Construction & Delivery 1,6/2026
 Digital Realty,True,Data Center Developer / Operator,QTS Data Centers,Data Center Developer / Operator,core → core,3,Dave Stinson; John David Bertelson; Robert Smith,"Sales & Leasing 1; Development & Real Estate 1; Strategy, Finance & Investment 1",6/2026
 Meta,True,Hyperscaler,QTS Data Centers,Data Center Developer / Operator,core → core,3,Declan Carr; Jeffrey Ronan; Neil McDonagh,Construction & Delivery 1; Energy & Utilities 1; Development & Real Estate 1,7/2025
 NV Energy,False,Outside the industry · other,Switch,Data Center Developer / Operator,outside → core,3,Cole Swearingen; John Hughes; Ryan Atkins,Energy & Utilities 3,4/2025
@@ -77,15 +79,14 @@ Meta,True,Hyperscaler,Microsoft,Hyperscaler,core → core,2,Donte Bell; Jessica 
 Kitchell,True,General contractor,Mortenson,General contractor,adjacent → adjacent,2,Cherilyn C. McCabe; Dale Jensen,Pre-Construction & Cost 2,6/2025
 Weifield Group Contracting,False,Outside the industry · construction (untracked),Mortenson,General contractor,outside → adjacent,2,Anthony Wilemon; Jorge Cepeda,Pre-Construction & Cost 1; Design & Engineering 1,12/2025
 AWS,True,Hyperscaler,NTT,Data Center Developer / Operator,core → core,2,Clay Frederick; Justin Blake Senzer,Development & Real Estate 1; Construction & Delivery 1,11/2025
-Intel,True,NeoCloud / AI Infra,NTT,Data Center Developer / Operator,core → core,2,Andy Kowalchuk; Jared Wride,Construction & Delivery 2,12/2023
+Intel,True,NeoCloud / AI Infra,NTT,Data Center Developer / Operator,core → core,2,Andy Kowalchuk; Jared Wride,Construction & Delivery 1; Pre-Construction & Cost 1,12/2023
 DataBank,True,Data Center Developer / Operator,Novva Data Centers,Data Center Developer / Operator,core → core,2,Chandler Swenson; Eric Morgan,Development & Real Estate 1; Sales & Leasing 1,11/2020
-Oracle,True,Data Center Developer / Operator,Nscale,NeoCloud / AI Infra,core → core,2,Brendan McCarthy; Michael Solfelt,Pre-Construction & Cost 1; Construction & Delivery 1,6/2026
 Equinix,True,Data Center Developer / Operator,OpenAI,NeoCloud / AI Infra,core → core,2,Mark Nolan; Matt Winters,Construction & Delivery 1; Pre-Construction & Cost 1,11/2025
 Microsoft,True,Hyperscaler,Oracle,Data Center Developer / Operator,core → core,2,Kanwar Mahal; Michael K. Little M.,Construction & Delivery 2,1/2026
 AWS,True,Hyperscaler,PowerHouse Data Centers,Data Center Developer / Operator,core → core,2,Kyle DeLuna; Petri Ottavainen,Development & Real Estate 2,10/2025
 American Real Estate Partners,True,Data Center Developer / Operator,PowerHouse Data Centers,Data Center Developer / Operator,core → core,2,Pete McGrath; William McCausland,Development & Real Estate 1; Energy & Utilities 1,5/2025
 DC Byte,False,Outside the industry · other,Prime Data Centers,Data Center Developer / Operator,outside → core,2,Louise Jarvis; William King,Sales & Leasing 2,1/2024
-Black & Veatch,True,General contractor,QTS Data Centers,Data Center Developer / Operator,adjacent → core,2,Barry Clegg; Peter Barth,"Legal, People & Support 1; Energy & Utilities 1",8/2024
+Black & Veatch,True,General contractor,QTS Data Centers,Data Center Developer / Operator,adjacent → core,2,Barry Clegg; Peter Barth,Executive leadership 1; Energy & Utilities 1,8/2024
 Bloom Energy,True,Data Center Developer / Operator,QTS Data Centers,Data Center Developer / Operator,core → core,2,Andrew Patterson; Landon Smith,Energy & Utilities 2,1/2024
 DPR Construction,True,General contractor,QTS Data Centers,Data Center Developer / Operator,adjacent → core,2,Mark Ireland; Matthew Ondek,Development & Real Estate 2,12/2025
 Dominion Energy,True,Energy developer / utility,QTS Data Centers,Data Center Developer / Operator,adjacent → core,2,Andrew Hedrick; Erica Bridges,Energy & Utilities 2,6/2025
@@ -108,7 +109,7 @@ QTS Data Centers,True,Data Center Developer / Operator,Vantage,Data Center Devel
 AWS,True,Hyperscaler,Yondr,Data Center Developer / Operator,core → core,2,Adam Sharp; Osama Bakhet,Energy & Utilities 1; Development & Real Estate 1,6/2023
 Green Mountain Global Data Centers,True,Data Center Developer / Operator,atNorth,Data Center Developer / Operator,core → core,2,Espen Bjanes; Howard Shutt,Sales & Leasing 2,6/2025
 Microsoft,True,Hyperscaler,ACS Infrastructure,Data Center Developer / Operator,core → core,1,Sourojit Dhar,Development & Real Estate 1,11/2024
-HNTB,True,Civil / land engineering,AECOM,General contractor,adjacent → adjacent,1,Ed Kucher,Construction & Delivery 1,10/2025
+HNTB,True,Civil / land engineering,AECOM,General contractor,adjacent → adjacent,1,Ed Kucher,Pre-Construction & Cost 1,10/2025
 AWS,True,Hyperscaler,AGP Sustainable Real Assets,Data Center Developer / Operator,core → core,1,David Ameneyro,Development & Real Estate 1,4/2026
 AWS,True,Hyperscaler,AGPDC,Data Center Developer / Operator,core → core,1,Jay Reinke,Development & Real Estate 1,3/2025
 Furlouvailable.com at Furlouvailable,False,Outside the industry · other,AMD,NeoCloud / AI Infra,outside → core,1,Tim Robson,Sales & Leasing 1,4/2014
@@ -241,6 +242,7 @@ Meta,True,Hyperscaler,Beale,Data Center Developer / Operator,core → core,1,Bre
 QScale,True,Data Center Developer / Operator,Beale,Data Center Developer / Operator,core → core,1,Sam Arons,Energy & Utilities 1,10/2022
 QTS Data Centers,True,Data Center Developer / Operator,Beale,Data Center Developer / Operator,core → core,1,Nicholas Torrance,Development & Real Estate 1,8/2025
 Accenture,False,Outside the industry · consultancy & engineering,Bechtel Corporation,General contractor,outside → adjacent,1,Chris Maley,Pre-Construction & Cost 1,2/2020
+Digital Realty,True,Data Center Developer / Operator,Bitfarms (Keel Infrastructure),Cryptomining pivot,core → core,1,Ganesh Aiyer,Executive leadership 1,
 Colorado Springs Utilities,True,Energy developer / utility,Black & Veatch,General contractor,adjacent → adjacent,1,Derek Skrdlant,Construction & Delivery 1,8/2025
 Equinix,True,Data Center Developer / Operator,Bloom Energy,Data Center Developer / Operator,core → core,1,David Lucas-Smith,Sales & Leasing 1,9/2025
 "Middle Street Partners, LLC",False,Outside the industry · finance & investment,Brasfield & Gorrie,General contractor,outside → adjacent,1,Annie Sistrunk,Pre-Construction & Cost 1,1/2026
@@ -265,7 +267,7 @@ Data Center Coalition,False,Outside the industry · data centers (untracked oper
 Digital Realty,True,Data Center Developer / Operator,CleanArc Data Centers,Data Center Developer / Operator,core → core,1,Manny Morales,Sales & Leasing 1,9/2025
 Galaxy Capital Partners,False,Outside the industry · finance & investment,CleanArc Data Centers,Data Center Developer / Operator,outside → core,1,John Cordisco,Development & Real Estate 1,5/2022
 Lightsource bp,True,Energy developer / utility,CleanArc Data Centers,Data Center Developer / Operator,adjacent → core,1,Chibueze Okwudiri,Energy & Utilities 1,5/2025
-RWE Clean Energy,True,Energy developer / utility,CleanArc Data Centers,Data Center Developer / Operator,adjacent → core,1,Bill Thomas,Energy & Utilities 1,5/2022
+RWE Clean Energy,True,Energy developer / utility,CleanArc Data Centers,Data Center Developer / Operator,adjacent → core,1,Bill Thomas,Executive leadership 1,5/2022
 Rosendin,False,Outside the industry · other,CleanArc Data Centers,Data Center Developer / Operator,outside → core,1,Matt Englert,Executive leadership 1,9/2024
 Sabey Data Centers,True,Data Center Developer / Operator,CleanArc Data Centers,Data Center Developer / Operator,core → core,1,John Day,Executive leadership 1,8/2022
 BP,False,Outside the industry · energy & utilities (untracked),CloudHQ,Data Center Developer / Operator,outside → core,1,Esfand Raissi,Energy & Utilities 1,10/2003
@@ -301,7 +303,7 @@ Equinix,True,Data Center Developer / Operator,Cologix,Data Center Developer / Op
 Layton Construction,False,Outside the industry · construction (untracked),Cologix,Data Center Developer / Operator,outside → core,1,Greg Weimholt,Design & Engineering 1,6/2024
 QTS Data Centers,True,Data Center Developer / Operator,Cologix,Data Center Developer / Operator,core → core,1,Nathan Hazelwood,Executive leadership 1,4/2022
 AM,False,Outside the industry · other,Colt Data Centre Services,Data Center Developer / Operator,outside → core,1,Yuichi Sato,Development & Real Estate 1,3/2025
-Africa Data Centres,True,Data Center Developer / Operator,Colt Data Centre Services,Data Center Developer / Operator,core → core,1,Xavier Matagne,Development & Real Estate 1,6/2025
+Africa Data Centres,True,Data Center Developer / Operator,Colt Data Centre Services,Data Center Developer / Operator,core → core,1,Xavier Matagne,Executive leadership 1,6/2025
 Geo Networks,False,Outside the industry · other,Colt Data Centre Services,Data Center Developer / Operator,outside → core,1,Karen Horton,Sales & Leasing 1,12/2015
 Global Switch,True,Data Center Developer / Operator,Colt Data Centre Services,Data Center Developer / Operator,core → core,1,Hedi OLLIVIER,Development & Real Estate 1,4/2023
 ISG plc,False,Outside the industry · other,Colt Data Centre Services,Data Center Developer / Operator,outside → core,1,Tom Rowson,Development & Real Estate 1,10/2024
@@ -338,6 +340,7 @@ Optimize Practice Services,False,Outside the industry · other,CoreSite,Data Cen
 Qwest Communications,False,Outside the industry · telecom & network,CoreSite,Data Center Developer / Operator,outside → core,1,Erick Bromfield,Development & Real Estate 1,4/2017
 Self-employed,False,Outside the industry · other,CoreSite,Data Center Developer / Operator,outside → core,1,Clinton Curry,Construction & Delivery 1,5/2017
 Central Coast Community Energy,False,Outside the industry · other,CoreWeave,NeoCloud / AI Infra,outside → core,1,Gaurang Desai,Energy & Utilities 1,8/2026
+Oracle,True,Data Center Developer / Operator,CoreWeave,NeoCloud / AI Infra,core → core,1,Sachin Jain,Executive leadership 1,
 Pattern Energy,True,Energy developer / utility,CoreWeave,NeoCloud / AI Infra,adjacent → core,1,Leah Kaffine,Energy & Utilities 1,8/2018
 TikTok,True,Data Center Developer / Operator,CoreWeave,NeoCloud / AI Infra,core → core,1,William Desmond,Sales & Leasing 1,2/2026
 Verrus,False,Outside the industry · other,CoreWeave,NeoCloud / AI Infra,outside → core,1,Maria Poyer,Development & Real Estate 1,9/2026
@@ -358,7 +361,7 @@ Galehead Development,True,Energy developer / utility,Crusoe,NeoCloud / AI Infra,
 Puppet Robotics,False,Outside the industry · other,Crusoe,NeoCloud / AI Infra,outside → core,1,Duhita Kothe,Pre-Construction & Cost 1,12/2025
 STACK Infrastructure,True,Data Center Developer / Operator,Crusoe,NeoCloud / AI Infra,core → core,1,Sanya Anand,Pre-Construction & Cost 1,9/2025
 TRC Companies,False,Outside the industry · other,Crusoe,NeoCloud / AI Infra,outside → core,1,Garrett Rood,Energy & Utilities 1,3/2026
-University of San Francisco,False,Outside the industry · other,Crusoe,NeoCloud / AI Infra,outside → core,1,Eric Tse,Construction & Delivery 1,4/2026
+University of San Francisco,False,Outside the industry · other,Crusoe,NeoCloud / AI Infra,outside → core,1,Eric Tse,Pre-Construction & Cost 1,4/2026
 Verity Commercial,False,Outside the industry · other,Crusoe,NeoCloud / AI Infra,outside → core,1,Mark Milliet,Pre-Construction & Cost 1,8/2025
 Data Return,False,Outside the industry · telecom & network,Csquare,Data Center Developer / Operator,outside → core,1,Tom Maguire,Sales & Leasing 1,3/2022
 AWS,True,Hyperscaler,CyrusOne,Data Center Developer / Operator,core → core,1,Adam Kennedy,Construction & Delivery 1,3/2025
@@ -416,7 +419,7 @@ JE Dunn Construction,True,General contractor,DPR Construction,General contractor
 Mace Group,False,Outside the industry · other,DPR Construction,General contractor,outside → adjacent,1,Greg Smith,Pre-Construction & Cost 1,9/2018
 Manhattan Construction Company,True,General contractor,DPR Construction,General contractor,adjacent → adjacent,1,Tanner Hapeman,Pre-Construction & Cost 1,3/2017
 Reflection Window + Wall,False,Outside the industry · other,DPR Construction,General contractor,outside → adjacent,1,Devaki Mase,Pre-Construction & Cost 1,6/2022
-Scott Long Construction,False,Outside the industry · construction (untracked),DPR Construction,General contractor,outside → adjacent,1,Braxton Vinson,Construction & Delivery 1,3/2026
+Scott Long Construction,False,Outside the industry · construction (untracked),DPR Construction,General contractor,outside → adjacent,1,Braxton Vinson,Pre-Construction & Cost 1,3/2026
 Skanska USA,True,General contractor,DPR Construction,General contractor,adjacent → adjacent,1,Stephanie Wigger,Pre-Construction & Cost 1,6/2022
 Turner Construction,True,General contractor,DPR Construction,General contractor,adjacent → adjacent,1,Jesse Nelson,Pre-Construction & Cost 1,5/2024
 YLH Construction Company,False,Outside the industry · construction (untracked),DPR Construction,General contractor,outside → adjacent,1,Kassinda Williams,Pre-Construction & Cost 1,9/2024
@@ -532,6 +535,7 @@ Dell Technologies,False,Outside the industry · technology,Equinix,Data Center D
 Digital Realty,True,Data Center Developer / Operator,Equinix,Data Center Developer / Operator,core → core,1,Gary Craiger,Construction & Delivery 1,7/2025
 Dow Jones,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Paul Dehnert,Sales & Leasing 1,5/2021
 ENGIE Global Energy Management & Sales,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Ben Freeman,Construction & Delivery 1,10/2022
+Eaton,False,Outside the industry · energy & utilities (untracked),Equinix,Data Center Developer / Operator,outside → core,1,Olivier Leonetti,Executive leadership 1,
 Global Crossing,False,Outside the industry · telecom & network,Equinix,Data Center Developer / Operator,outside → core,1,David Rosenberg,Sales & Leasing 1,12/2016
 Hewlett Packard Enterprise,False,Outside the industry · technology,Equinix,Data Center Developer / Operator,outside → core,1,Kevin Matlock,Sales & Leasing 1,5/2017
 IBM,True,Data Center Developer / Operator,Equinix,Data Center Developer / Operator,core → core,1,Johan Arts,Sales & Leasing 1,11/2019
@@ -560,7 +564,7 @@ Schneider Electric Sustainability Business,False,Outside the industry · energy 
 Stanley Black & Decker at Stanley Black & Decker,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Johan Veulemans,Development & Real Estate 1,3/2021
 Sungard Now Part Of Fis,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Trudy Shepard,Sales & Leasing 1,6/2011
 Swire Properties,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Tim Robinson,Development & Real Estate 1,11/2010
-Symantec,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Mike Campbell,Sales & Leasing 1,7/2016
+Symantec,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Mike Campbell,Executive leadership 1,7/2016
 Synthomer,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Eduardo Padilla,Energy & Utilities 1,7/2023
 TelecityRedbus,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Andrew Abbott,Sales & Leasing 1,4/2026
 Telewest Communications,False,Outside the industry · other,Equinix,Data Center Developer / Operator,outside → core,1,Wynn McCabe,Sales & Leasing 1,
@@ -571,7 +575,7 @@ Turner Construction,True,General contractor,Equinix,Data Center Developer / Oper
 TD Industries,True,Civil / land engineering,Evans General Contractors,General contractor,adjacent → adjacent,1,Joel Dutton,Pre-Construction & Cost 1,12/2025
 AtlasEdge,True,Data Center Developer / Operator,Ferrovial,Data Center Developer / Operator,core → core,1,Jamie Cumming,Development & Real Estate 1,3/2026
 Comcast,False,Outside the industry · telecom & network,Flexential,Data Center Developer / Operator,outside → core,1,Brandon Schenberg,Development & Real Estate 1,5/2025
-Digital Realty,True,Data Center Developer / Operator,Flexential,Data Center Developer / Operator,core → core,1,Adam Siegel,Sales & Leasing 1,2/2021
+Digital Realty,True,Data Center Developer / Operator,Flexential,Data Center Developer / Operator,core → core,1,Adam Siegel,Energy & Utilities 1,2/2021
 Equinix,True,Data Center Developer / Operator,Flexential,Data Center Developer / Operator,core → core,1,Matthew Baumann,Development & Real Estate 1,7/2025
 Global Crossing,False,Outside the industry · telecom & network,Flexential,Data Center Developer / Operator,outside → core,1,Brian Britton,Sales & Leasing 1,6/2020
 Integra,False,Outside the industry · other,Flexential,Data Center Developer / Operator,outside → core,1,Bill Cory,Sales & Leasing 1,5/2015
@@ -601,6 +605,7 @@ Volta Data Centres,False,Outside the industry · data centers (untracked operato
 CBRE Data Centre Solutions EMEA at CBRE,False,Outside the industry · data centers (untracked operator),Global Technical Realty,Data Center Developer / Operator,outside → core,1,Hugo Jack,Sales & Leasing 1,1/2026
 Fabrix,False,Outside the industry · other,Global Technical Realty,Data Center Developer / Operator,outside → core,1,Megan Sodzawiczny,Development & Real Estate 1,10/2022
 JLL,False,Outside the industry · brokerage & advisory,Global Technical Realty,Data Center Developer / Operator,outside → core,1,Molly Goodliffe,Development & Real Estate 1,2/2026
+Microsoft,True,Hyperscaler,Goodman,Data Center Developer / Operator,core → core,1,Kraig Knight,Operations & Facilities 1,
 Akamai Technologies,False,Outside the industry · technology,Google,Hyperscaler,outside → core,1,Nicolas Pisani,Development & Real Estate 1,4/2020
 Ampliform,False,Outside the industry · other,Google,Hyperscaler,outside → core,1,Cammie Kirby,Energy & Utilities 1,10/2024
 Arconic,False,Outside the industry · other,Google,Hyperscaler,outside → core,1,Monica Trott,"Strategy, Finance & Investment 1",4/2022
@@ -777,7 +782,7 @@ SummerHill Apartment Communities,False,Outside the industry · other,Meta,Hypers
 SunPower,False,Outside the industry · other,Meta,Hyperscaler,outside → core,1,Eleanor Shi,Development & Real Estate 1,4/2023
 Tesla,False,Outside the industry · technology,Meta,Hyperscaler,outside → core,1,Katie Bell,Energy & Utilities 1,11/2024
 The Social District,False,Outside the industry · other,Meta,Hyperscaler,outside → core,1,Sarah Pittz,"Strategy, Finance & Investment 1",4/2025
-Turner & Townsend,True,General contractor,Meta,Hyperscaler,adjacent → core,1,Imran Osman,Construction & Delivery 1,4/2022
+Turner & Townsend,True,General contractor,Meta,Hyperscaler,adjacent → core,1,Imran Osman,Pre-Construction & Cost 1,4/2022
 Turner Construction,True,General contractor,Meta,Hyperscaler,adjacent → core,1,Vandad Mazarei,Pre-Construction & Cost 1,1/2026
 Virginia Tobacco Region Revitalization Commission,False,Outside the industry · other,Meta,Hyperscaler,outside → core,1,Mike Kaestner,Development & Real Estate 1,11/2023
 WeWork,False,Outside the industry · other,Meta,Hyperscaler,outside → core,1,Nathan Lee,Pre-Construction & Cost 1,6/2021
@@ -887,7 +892,7 @@ Q Factor,False,Outside the industry · other,Novva Data Centers,Data Center Deve
 Quarles & Brady,False,Outside the industry · other,Novva Data Centers,Data Center Developer / Operator,outside → core,1,Madelaine Bauer,Development & Real Estate 1,4/2025
 Aker Horizons,False,Outside the industry · other,Nscale,NeoCloud / AI Infra,outside → core,1,Nils Are Karstad Lysø,Executive leadership 1,11/2025
 Amp Z,True,Data Center Developer / Operator,Nscale,NeoCloud / AI Infra,core → core,1,Greg Mikulecky,Development & Real Estate 1,6/2026
-Iron Mountian,True,Data Center Developer / Operator,Nscale,NeoCloud / AI Infra,core → core,1,Jason Carlberg,Sales & Leasing 1,9/2024
+Iron Mountian,True,Data Center Developer / Operator,Nscale,NeoCloud / AI Infra,core → core,1,Jason Carlberg,Pre-Construction & Cost 1,9/2024
 Vantage,True,Data Center Developer / Operator,Nscale,NeoCloud / AI Infra,core → core,1,Elspeth Lunt,Development & Real Estate 1,7/2026
 Yondr,True,Data Center Developer / Operator,Nscale,NeoCloud / AI Infra,core → core,1,Todd Sauer,Construction & Delivery 1,6/2026
 nLighten,True,Data Center Developer / Operator,Nscale,NeoCloud / AI Infra,core → core,1,Hiren Vaghela,Sales & Leasing 1,7/2013
@@ -897,6 +902,7 @@ Linkcity,False,Outside the industry · other,OPCORE,Data Center Developer / Oper
 Scaleway,False,Outside the industry · other,OPCORE,Data Center Developer / Operator,outside → core,1,Nicolas Fontés,Sales & Leasing 1,12/2020
 CBRE,False,Outside the industry · brokerage & advisory,OVHcloud,NeoCloud / AI Infra,outside → core,1,Michael Cohen,Development & Real Estate 1,6/2023
 ByteDance,True,Data Center Developer / Operator,OpenAI,NeoCloud / AI Infra,core → core,1,Oliver Lam,Development & Real Estate 1,7/2025
+Meta,True,Hyperscaler,OpenAI,NeoCloud / AI Infra,core → core,1,Keith Heyde,Miscellaneous 1,
 Rowan Digital Infrastructure,True,Data Center Developer / Operator,OpenAI,NeoCloud / AI Infra,core → core,1,Marcia Jones,Development & Real Estate 1,7/2025
 AWS,True,Hyperscaler,Oracle,Data Center Developer / Operator,core → core,1,Jeffrey Kalb,Development & Real Estate 1,10/2025
 Crown Castle,False,Outside the industry · telecom & network,Oracle,Data Center Developer / Operator,outside → core,1,Melanie Norman,Development & Real Estate 1,10/2024
@@ -909,7 +915,7 @@ DN Capital,False,Outside the industry · finance & investment,Panattoni,Data Cen
 Metro Development,False,Outside the industry · other,Pepper Construction,General contractor,outside → adjacent,1,Matt Krajcovic,Pre-Construction & Cost 1,1/2024
 DataBank,True,Data Center Developer / Operator,PointOne,Data Center Developer / Operator,core → core,1,Dan Ephraim,Sales & Leasing 1,10/2020
 Holder Construction,True,General contractor,PointOne,Data Center Developer / Operator,adjacent → core,1,Don Miller,Construction & Delivery 1,9/2024
-NAIOP Edmonton,False,Outside the industry · other,PointOne,Data Center Developer / Operator,outside → core,1,Colin Clish,Development & Real Estate 1,3/2017
+NAIOP Edmonton,False,Outside the industry · other,PointOne,Data Center Developer / Operator,outside → core,1,Colin Clish,Executive leadership 1,3/2017
 NORESCO,False,Outside the industry · other,PointOne,Data Center Developer / Operator,outside → core,1,Michael Kennedy,Energy & Utilities 1,4/2025
 CyrusOne,True,Data Center Developer / Operator,Polar DC,Data Center Developer / Operator,core → core,1,Paul Hicks,Development & Real Estate 1,5/2025
 NetEngine,False,Outside the industry · other,Polaris Data Centre,Data Center Developer / Operator,outside → core,1,Ray Duncan,Sales & Leasing 1,1/2021
@@ -921,6 +927,7 @@ Worldwide Mission Critical,True,General contractor,PowerHouse Data Centers,Data 
 CIM Group L P,False,Outside the industry · other,Prime Data Centers,Data Center Developer / Operator,outside → core,1,Jason Dill,Sales & Leasing 1,11/2021
 Digital Realty,True,Data Center Developer / Operator,Prime Data Centers,Data Center Developer / Operator,core → core,1,Gabriella Ascione,Sales & Leasing 1,3/2022
 MGAC,False,Outside the industry · other,Prime Data Centers,Data Center Developer / Operator,outside → core,1,Thomas Howe,Construction & Delivery 1,9/2022
+QTS Data Centers,True,Data Center Developer / Operator,Prime Data Centers,Data Center Developer / Operator,core → core,1,Steve Benson,Operations & Facilities 1,
 Tate,False,Outside the industry · other,Prime Data Centers,Data Center Developer / Operator,outside → core,1,Maxwell McGough,Sales & Leasing 1,8/2022
 Terra Project Holding,False,Outside the industry · other,Prime Data Centers,Data Center Developer / Operator,outside → core,1,David Lindner,Development & Real Estate 1,1/2016
 ZAP Engineering & Construction Services,False,Outside the industry · construction (untracked),Prime Data Centers,Data Center Developer / Operator,outside → core,1,Brad Rinehart,Construction & Delivery 1,12/2025
@@ -978,7 +985,7 @@ PowerHouse Data Centers,True,Data Center Developer / Operator,QTS Data Centers,D
 QualTek,False,Outside the industry · other,QTS Data Centers,Data Center Developer / Operator,outside → core,1,Jennifer (Maco) Mathews,Development & Real Estate 1,1/2024
 "Ryan Companies US, Inc.",True,General contractor,QTS Data Centers,Data Center Developer / Operator,adjacent → core,1,Michael L. Reed,Development & Real Estate 1,1/2026
 STACK Infrastructure,True,Data Center Developer / Operator,QTS Data Centers,Data Center Developer / Operator,core → core,1,Christopher Kapper,Development & Real Estate 1,11/2025
-Singrobo - Denham SIF I,False,Outside the industry · other,QTS Data Centers,Data Center Developer / Operator,outside → core,1,Brian Herlihy,Energy & Utilities 1,8/2025
+Singrobo - Denham SIF I,False,Outside the industry · other,QTS Data Centers,Data Center Developer / Operator,outside → core,1,Brian Herlihy,Executive leadership 1,8/2025
 Skanska USA Building,False,Outside the industry · other,QTS Data Centers,Data Center Developer / Operator,outside → core,1,Joe Robertson,Development & Real Estate 1,1/2024
 Skywire Networks,False,Outside the industry · other,QTS Data Centers,Data Center Developer / Operator,outside → core,1,Alex Quintero,Sales & Leasing 1,11/2018
 Stepan,False,Outside the industry · other,QTS Data Centers,Data Center Developer / Operator,outside → core,1,Jon Sizemore,Development & Real Estate 1,10/2025
@@ -1002,7 +1009,7 @@ Zayo,False,Outside the industry · telecom & network,QTS Data Centers,Data Cente
 e^Deltacom,False,Outside the industry · other,QTS Data Centers,Data Center Developer / Operator,outside → core,1,Darryl Cox,Sales & Leasing 1,1/2024
 Rowan Digital Infrastructure,True,Data Center Developer / Operator,Quantica Infrastructure,Data Center Developer / Operator,core → core,1,David Shiflett,Development & Real Estate 1,6/2025
 HSBC,False,Outside the industry · finance & investment,Quantum Switch,Data Center Developer / Operator,outside → core,1,Dominic Chandler,Development & Real Estate 1,1/2022
-McCarthy Building Companies,True,General contractor,RES,Energy developer / utility,adjacent → adjacent,1,Colton Norman,Construction & Delivery 1,1/2023
+McCarthy Building Companies,True,General contractor,RES,Energy developer / utility,adjacent → adjacent,1,Colton Norman,Pre-Construction & Cost 1,1/2023
 Headwaters Site Development,False,Outside the industry · other,RadiusDC,Data Center Developer / Operator,outside → core,1,Curtis Miller,Development & Real Estate 1,3/2026
 Microsoft,True,Hyperscaler,Related Digital,Data Center Developer / Operator,core → core,1,Matt Schneider,Development & Real Estate 1,7/2025
 STACK Infrastructure,True,Data Center Developer / Operator,Related Digital,Data Center Developer / Operator,core → core,1,Phil Skinner,Construction & Delivery 1,7/2026
@@ -1055,6 +1062,7 @@ Microsoft,True,Hyperscaler,Sabey Data Centers,Data Center Developer / Operator,c
 Qwest Communications,False,Outside the industry · telecom & network,Sabey Data Centers,Data Center Developer / Operator,outside → core,1,Bobby Robbins,Sales & Leasing 1,3/2019
 Compass Datacenters,True,Data Center Developer / Operator,Salute EMEA,Data Center Developer / Operator,core → core,1,Adam Bradshaw,Sales & Leasing 1,8/2026
 Rider Levett Bucknall,False,Outside the industry · consultancy & engineering,Saunders Construction,General contractor,outside → adjacent,1,Christopher McCarthy,Pre-Construction & Cost 1,3/2024
+IBM,True,Data Center Developer / Operator,Scala,Data Center Developer / Operator,core → core,1,Marcos Peigo,Executive leadership 1,
 AAA Transformator AB,False,Outside the industry · other,Scandinavian Data Centers,Data Center Developer / Operator,outside → core,1,Lars Tisén,Sales & Leasing 1,8/2025
 ENACO Sverige AB,False,Outside the industry · other,Scandinavian Data Centers,Data Center Developer / Operator,outside → core,1,Morgan Ledner,Development & Real Estate 1,12/2017
 CGI Business Consulting,False,Outside the industry · other,Sepia Infrastructure,Data Center Developer / Operator,outside → core,1,Jacques-Arthur de Saint Germain,Development & Real Estate 1,9/2019
@@ -1064,7 +1072,7 @@ Blue Origin,False,Outside the industry · other,Serverfarm,Data Center Developer
 CrowdStreet,False,Outside the industry · other,Serverfarm,Data Center Developer / Operator,outside → core,1,Jason Volk,Development & Real Estate 1,9/2023
 Microsoft,True,Hyperscaler,Serverfarm,Data Center Developer / Operator,core → core,1,Vaibhav Potnis,Development & Real Estate 1,1/2024
 T5 Data Centers,True,Data Center Developer / Operator,Serverfarm,Data Center Developer / Operator,core → core,1,John Woolard,Sales & Leasing 1,9/2021
-TAC,False,Outside the industry · other,Serverfarm,Data Center Developer / Operator,outside → core,1,Arun Shenoy,Sales & Leasing 1,10/2008
+TAC,False,Outside the industry · other,Serverfarm,Data Center Developer / Operator,outside → core,1,Arun Shenoy,Executive leadership 1,10/2008
 TikTok,True,Data Center Developer / Operator,Serverfarm,Data Center Developer / Operator,core → core,1,Ikenna Muoneke,Development & Real Estate 1,6/2025
 vXchnge,False,Outside the industry · data centers (untracked operator),Serverfarm,Data Center Developer / Operator,outside → core,1,A.J. Matel,Sales & Leasing 1,4/2019
 AMAX,False,Outside the industry · other,Sesterce,NeoCloud / AI Infra,outside → core,1,Hadi Abbas,Sales & Leasing 1,12/2025
@@ -1156,7 +1164,7 @@ PCL Construction,False,Outside the industry · construction (untracked),The Weit
 Power Design,False,Outside the industry · other,The Weitz Company,General contractor,outside → adjacent,1,Michael L.,Pre-Construction & Cost 1,4/2026
 Rider Levett Bucknall,False,Outside the industry · consultancy & engineering,The Weitz Company,General contractor,outside → adjacent,1,Ruben Morales,Pre-Construction & Cost 1,3/2022
 "Ryan Companies US, Inc.",True,General contractor,The Weitz Company,General contractor,adjacent → adjacent,1,Rod Miller,Pre-Construction & Cost 1,11/2022
-WCS Construction,False,Outside the industry · construction (untracked),The Weitz Company,General contractor,outside → adjacent,1,Suhrob Nozilov,Construction & Delivery 1,9/2025
+WCS Construction,False,Outside the industry · construction (untracked),The Weitz Company,General contractor,outside → adjacent,1,Suhrob Nozilov,Pre-Construction & Cost 1,9/2025
 D&D Electrical Construction Company,False,Outside the industry · construction (untracked),The Whiting-Turner Contracting Company,General contractor,outside → adjacent,1,Travis Boone,Pre-Construction & Cost 1,8/2022
 AWS,True,Hyperscaler,TikTok,Data Center Developer / Operator,core → core,1,Sean Mc Mahon,Development & Real Estate 1,11/2023
 Microsoft,True,Hyperscaler,TikTok,Data Center Developer / Operator,core → core,1,Joshua Andrews,Development & Real Estate 1,9/2025
@@ -1283,7 +1291,7 @@ Luminate,False,Outside the industry · other,Vantage,Data Center Developer / Ope
 Lusardi Construction,False,Outside the industry · construction (untracked),Vantage,Data Center Developer / Operator,outside → core,1,Rob Gire,Construction & Delivery 1,2/2024
 OCMI,False,Outside the industry · other,Vantage,Data Center Developer / Operator,outside → core,1,Dillon Kaup,Pre-Construction & Cost 1,3/2026
 Overwatch (SDVOSB) at OVERWATCH,False,Outside the industry · other,Vantage,Data Center Developer / Operator,outside → core,1,Scott Meier,Sales & Leasing 1,9/2025
-PGH Wong Engineering,False,Outside the industry · other,Vantage,Data Center Developer / Operator,outside → core,1,simon casey,Construction & Delivery 1,7/2025
+PGH Wong Engineering,False,Outside the industry · other,Vantage,Data Center Developer / Operator,outside → core,1,simon casey,Executive leadership 1,7/2025
 PyraMOD Development & Consulting,False,Outside the industry · other,Vantage,Data Center Developer / Operator,outside → core,1,Alex Riedy,Pre-Construction & Cost 1,6/2024
 Recurrent Energy,True,Energy developer / utility,Vantage,Data Center Developer / Operator,adjacent → core,1,Joseph Dudding,Energy & Utilities 1,5/2025
 Salesforce,False,Outside the industry · technology,Vantage,Data Center Developer / Operator,outside → core,1,Christopher Larose,Sales & Leasing 1,6/2025

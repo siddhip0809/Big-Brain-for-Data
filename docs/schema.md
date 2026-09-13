@@ -138,6 +138,14 @@ Every node also carries these common fields, regardless of type:
 - **Never stored:** email, phone, or compensation — those stay in
   Clockwork only.
 
+- `reports_to` — the person id of their manager, **only when a source states
+  it** ("X will report to Y" in an appointment release). Absent on almost every
+  record today. Where it is absent the atlas infers a line from the titles and
+  says so; it never writes an inferred line back here.
+- `record_grade` — `full` (Clockwork, with career history), `directory` (the
+  bulk export: name, title, employer only) or `researched` (found in open
+  sources by Claude; always carries the URL in `sources`)
+
 ### `investor` (in `data/investors/`)
 - `investor_type` — e.g. "private equity," "venture capital,"
   "infrastructure fund," "sovereign wealth fund," "family office"
