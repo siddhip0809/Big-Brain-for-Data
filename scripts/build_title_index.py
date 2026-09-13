@@ -22,7 +22,7 @@ def main():
         title = clean(p.get("current_title"))
         if not title: continue
         company = p.get("current_company") or "(unknown employer)"
-        fn = p.get("function") or "Unclassified"
+        fn = p.get("function") or "Miscellaneous"
         by_company[company][fn].append((title, p["name"]))
         by_function[fn][title].add(company)
         count_function[(fn, title)] += 1

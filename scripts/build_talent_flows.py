@@ -131,7 +131,7 @@ if __name__ == "__main__":
     with open(f"{REPO}/data/derived/talent_flow_matrix.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(["from_tier", "to_tier", "moves"])
         for (a, b), n in sorted(matrix.items(), key=lambda kv: -kv[1]): w.writerow([a, b, n])
-    by_fn = collections.Counter((m["function"] or "Unclassified", m["from_label"]) for m in moves)
+    by_fn = collections.Counter((m["function"] or "Miscellaneous", m["from_label"]) for m in moves)
     with open(f"{REPO}/data/derived/talent_flow_by_function.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(["function", "from_tier", "moves"])
         for (fn, frm), n in sorted(by_fn.items(), key=lambda kv: (kv[0][0], -kv[1])): w.writerow([fn, frm, n])

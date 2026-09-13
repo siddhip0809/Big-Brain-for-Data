@@ -27,18 +27,29 @@ SENIORITY_FROM_CW = {'CXO': 0, 'Senior Vice President': 1, 'Vice President': 2, 
 IC = (5, 'Individual contributor')
 
 FUNCTIONS = [  # first match wins, so order matters
-    ('Pre-Construction & Cost',        r"pre-?construction|precon\b|estimat|cost\b|cost |quantity survey|commercial manager|bid\b|proposal"),
-    ('Energy & Utilities',             r"energy|power\b|utilit|grid|substation|renewable|electrical infrastructure"),
-    ('Development & Real Estate',      r"(?<!business )(?<!corporate )development|real estate|\bland\b|site selection|site acquisition|acquisition|entitlement|negotiator|origination|zoning|permitting|expansion"),
-    ('Sales & Leasing',                r"sales|leasing|account|business development|commercial|revenue|customer|channel|partnership|go-to-market|marketing|client"),
-    ('Strategy, Finance & Investment', r"corporate development|m&a|mergers|finance|financial|investment|investor|capital markets|asset management|treasury|fp&a|strategy|strategic planning|portfolio"),
-    ('Design & Engineering',           r"design|engineer|architect|technical|\bmep\b|electrical|mechanical"),
-    ('Construction & Delivery',        r"construction|project|program|delivery|superintendent|build|site\b|field|contracts?\b|scheduler|controls"),
-    ('Operations & Facilities',        r"operation|facilit|maintenance|critical environment|data center manager|site reliability"),
-    ('Procurement & Supply Chain',     r"procurement|supply chain|sourcing|purchasing|vendor"),
-    ('Legal, People & Support',        r"legal|counsel|\bhr\b|human resources|people|talent|recruit|compliance|administration|communications|sustainability|esg|safety|ehs"),
+    ('Pre-Construction & Cost',        r"pre-?construction|precon\b|estimat|cost\b|cost |quantity survey|commercial manager|bid\b|proposal"
+                                       r"|schedul|project controls|planejamento|planificaci"),
+    ('Energy & Utilities',             r"energy|power\b|utilit|grid|substation|renewable|electrical infrastructure"
+                                       r"|transmission|interconnect|\bppa\b|offtake|water infrastructure|\bkv\b|energia|energ\u00eda"),
+    ('Development & Real Estate',      r"(?<!business )(?<!corporate )development|real estate|\bland\b|site selection|site acquisition|acquisition|entitlement|negotiator|origination|zoning|permitting|expansion"
+                                       r"|transaction manager|desenvolvimento|inmobiliari"),
+    ('Sales & Leasing',                r"sales|leasing|account|business development|commercial|revenue|customer|channel|partnership|go-to-market|marketing|client|vendas|comercial"),
+    ('Strategy, Finance & Investment', r"corporate development|m&a|mergers|finance|financial|investment|investor|capital markets|asset management|treasury|fp&a|strategy|strategic planning|portfolio"
+                                       r"|asset manager|financeir|controller"),
+    ('Design & Engineering',           r"design|engineer|architect|technical|\bmep\b|electrical|mechanical"
+                                       r"|\bcivil\b|structural|engenharia|ingenier|arquitect"),
+    ('Construction & Delivery',        r"construction|project|program|delivery|superintendent|build|site\b|field|contracts?\b|scheduler|controls"
+                                       r"|obra|constru\u00e7|construcci"),
+    ('Operations & Facilities',        r"operation|facilit|maintenance|critical environment|data center manager|site reliability"
+                                       # DC floor staff, and the Portuguese/Spanish titles the LatAm operators use
+                                       r"|technician|t\u00e9cnic|tecnico|critical facilit|\bo&m\b|security manager|physical security"
+                                       r"|opera\u00e7|operaci|manuten\u00e7|mantenimiento|refrigera|eletromec|electromec|eletrot|electrot"
+                                       r"|property manager|building manager|campus manager"),
+    ('Procurement & Supply Chain',     r"procurement|supply chain|sourcing|purchasing|vendor|compras|suprimentos"),
+    ('Legal, People & Support',        r"legal|counsel|\bhr\b|human resources|people|talent|recruit|compliance|administration|communications|sustainability|esg|safety|ehs"
+                                       r"|jur\u00eddic|recursos humanos|marketing communications"),
 ]
-EXEC_ONLY = re.compile(r"^(country managing director.*|chief (executive|operating|financial|strategy|revenue|commercial|development|investment|technology|information|growth|legal|people|business|product|marketing) officer.*|c[eoft]o|president|co-?founder.*|founder.*|managing director.*|general manager.*|country manager.*|owner.*|executive chairman.*|chairman.*)$")
+EXEC_ONLY = re.compile(r"^((co-|deputy |acting |interim )?(country )?managing director.*|(co-|deputy |acting |interim )?chief [a-z&,\- ]*officer.*|(co-|deputy )?c[a-z]{1,2}o\b.*|president( & ?| and )?(ceo|chief executive.*)?|co-?founder.*|founder.*|general manager.*|country manager.*|owner.*|(executive |vice )?chair(man|woman|person)?.*|shareholder.*|board member.*|non-?executive director.*)$")
 
 def seniority_for(p):
     t = (p.get('current_title') or '').lower()
@@ -48,18 +59,32 @@ def seniority_for(p):
         if re.search(rx, t): return rank, label, 'title'
     return IC[0], IC[1], 'title'
 
+MISC = 'Miscellaneous'   # a real box for people whose title names no department
 DEPT_FALLBACK = {'Sales': 'Sales & Leasing', 'Pre-Construction': 'Pre-Construction & Cost', 'Development': 'Development & Real Estate',
                  'Construction': 'Construction & Delivery', 'Energy & Utilities': 'Energy & Utilities'}
+def match_title(t):
+    """The department a title names, or None if it names none."""
+    t = (t or '').lower().replace('–', '-').strip()
+    if not t: return None
+    if EXEC_ONLY.match(t): return 'Executive leadership'
+    for name, rx in FUNCTIONS:
+        if re.search(rx, t): return name
+    return None
+
 def function_for(p):
-    """-> (function, source). Title first; a generic title ("Director") falls back
-    to the Ward Search mapping list the person was filed under."""
-    t = (p.get('current_title') or '').lower().replace('–','-').strip()
-    if t:
-        if EXEC_ONLY.match(t): return 'Executive leadership', 'title'
-        for name, rx in FUNCTIONS:
-            if re.search(rx, t): return name, 'title'
+    """-> (function, source). Everyone lands in a department: the title first,
+    then the Ward mapping list, then the most recent past title that does name
+    one ("Vice President" today, "VP Construction" at the last place), and if
+    nothing names one at all, MISC -- an explicit box, not a failure."""
+    fn = match_title(p.get('current_title'))
+    if fn: return fn, 'title'
     fb = DEPT_FALLBACK.get(p.get('department'))
-    return (fb, 'mapping list') if fb else ('Unclassified', 'title')
+    if fb: return fb, 'mapping list'
+    for job in p.get('career') or []:                 # newest first as parsed
+        if job.get('current'): continue
+        fn = match_title(job.get('title'))
+        if fn: return fn, 'previous title'
+    return MISC, 'none'
 
 DATES = r"(?P<start>\d{1,2}/\d{4}|\d{4}|\?) to (?P<end>present|\d{1,2}/\d{4}|\d{4}|\?)"
 ENTRY_PATTERNS = [
@@ -179,8 +204,9 @@ def main():
     for path in files:
         p = json.load(open(path))
         rank, label, src = seniority_for(p)
-        fn, fn_src = function_for(p)
         career = parse_career(p.get('career_history'))
+        p['career'] = career          # function_for reads it, so parse before classifying
+        fn, fn_src = function_for(p)
         unparsed += sum(1 for c in career if 'raw' in c)
         loc = normalise_location(p.get('location'))
         loc_c[(loc or {}).get('group')] += 1
@@ -193,7 +219,6 @@ def main():
             p['seniority_rank'] = rank
             p['seniority_label'] = label
             if not p.get('seniority'): p['seniority_source'] = 'derived from title'
-            p['career'] = career
             p['location_norm'] = loc
             json.dump(p, open(path, 'w'), indent=2, ensure_ascii=False); open(path,'a').write('\n')
 

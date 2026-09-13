@@ -304,6 +304,7 @@
   }
   .pcard:hover{ border-color:#2c5068; }
   .pcard.lead{ border-color:var(--pure); box-shadow:inset 3px 0 0 var(--pure); }
+  .pcard.faded{ opacity:.45; }
   .org-lead-row .pcard{ flex:none; width:240px; }
   .pcard .p-name{ font-size:12.5px; font-weight:600; display:flex; justify-content:space-between; gap:6px; }
   .pcard .p-title{ font-size:11.5px; color:var(--text-muted); margin-top:2px; line-height:1.35; }
@@ -335,6 +336,37 @@
   .skillbar .lo{ color:var(--text-dim); font-family:var(--font-mono); font-size:10px; }
   body.dark .skillbar .hi{ color:#22d3ee; }
   .org-empty{ color:var(--text-dim); font-size:12px; padding:20px; }
+  /* ---- reporting tree ---- */
+  .tree{ padding:4px 0 24px; }
+  .tree .node{ position:relative; padding-left:22px; }
+  .tree > .node{ padding-left:0; }
+  .tree .node::before{                       /* the elbow into this card */
+    content:''; position:absolute; left:7px; top:0; bottom:0; border-left:1px solid var(--border);
+  }
+  .tree > .node::before{ display:none; }
+  .tree .node:last-child::before{ bottom:calc(100% - 20px); }
+  .tree .row{ position:relative; display:flex; align-items:flex-start; gap:8px; padding:3px 0; }
+  .tree .row::before{
+    content:''; position:absolute; left:-15px; top:20px; width:14px; border-top:1px solid var(--border);
+  }
+  .tree > .node > .row::before{ display:none; }
+  .tree .row .pcard{ flex:1; min-width:0; max-width:560px; }
+  .tree .twist{
+    flex:none; width:17px; height:17px; margin-top:9px; border:1px solid var(--border); border-radius:3px;
+    background:var(--panel); color:var(--text-dim); font-family:var(--font-mono); font-size:10px; line-height:1;
+    cursor:pointer; padding:0;
+  }
+  .tree .twist:hover{ border-color:var(--pure); color:var(--pure); }
+  .tree .twist.leaf{ visibility:hidden; }
+  .tree .kids[hidden]{ display:none; }
+  .tree .inferred > .row > .pcard{ border-style:dashed; }
+  .tree-note{
+    background:var(--panel); border:1px dashed var(--border); color:var(--text-muted);
+    padding:9px 11px; border-radius:6px; font-size:11.5px; line-height:1.55; margin:0 0 12px; max-width:720px;
+  }
+  .tree-note b{ color:var(--text); }
+  body:not(.dark) .org-body.is-tree{ background:transparent; }
+  .org-body.is-tree{ display:block; }
   .matrix{ border-collapse:separate; border-spacing:3px; font-size:12px; }
   .matrix th{ font-family:var(--font-mono); font-size:10px; letter-spacing:.04em; color:var(--text-dim); text-align:left; padding:6px 8px; font-weight:500; max-width:150px; }
   .matrix th.col{ writing-mode:vertical-rl; transform:rotate(180deg); text-align:left; height:150px; vertical-align:bottom; }
@@ -510,7 +542,8 @@
         <div><h2 id="orgName">—</h2><div class="org-sub" id="orgSub"></div></div>
         <div class="org-controls">
           <div class="seg" id="orgMode">
-            <button data-mode="function" class="on">By department</button>
+            <button data-mode="tree" class="on">Reporting tree</button>
+            <button data-mode="function">By department</button>
             <button data-mode="location">By location</button>
             <button data-mode="prev">By previous employer</button>
             <button data-mode="prevtier">By previous industry</button>
@@ -555,6 +588,7 @@
   // Ward Search's own assignments (data/searches/, pulled from Clockwork). Not nodes
   // on the map -- they hang off the client company and off each candidate.
   const SEARCHES = GRAPH.searches || [];
+  const ORG_TREE = GRAPH.org_tree || {};      // companyId -> [{i:personId, p:parentId|null, b:basis}]
   const searchBySlug = {};
   SEARCHES.forEach(x => searchBySlug[x.slug] = x);
   const SEARCH_STATUS = { active:{label:'Active', color:'#16a34a'}, on_hold:{label:'On hold', color:'#d97706'},
@@ -1721,7 +1755,7 @@
   const orgBody = document.getElementById('orgBody');
   const orgLead = document.getElementById('orgLead');
   const orgFilter = document.getElementById('orgFilter');
-  let orgCompany = null, orgMode = 'function';
+  let orgCompany = null, orgMode = 'tree';
 
   function shortTitle(t){ return (t || '').length > 44 ? t.slice(0, 42) + '…' : (t || ''); }
   const regionOf = p => (p.loc && p.loc.group) || 'Location unknown';
@@ -1746,7 +1780,7 @@
       return entries;
     }
     ppl.forEach(p => {
-      const k = mode === 'function' ? (p.function || 'Unclassified') : mode === 'prev' ? (p.prev || 'No previous employer on record') : mode === 'prevtier' ? (p.prev_tier || 'No previous employer on record') : regionOf(p);
+      const k = mode === 'function' ? (p.function || 'Miscellaneous') : mode === 'prev' ? (p.prev || 'No previous employer on record') : mode === 'prevtier' ? (p.prev_tier || 'No previous employer on record') : regionOf(p);
       (g[k] = g[k] || []).push(p);
     });
     const entries = Object.entries(g);
@@ -1862,6 +1896,8 @@
     orgLead.innerHTML = top.length
       ? `<div class="section-label">Leadership mapped (${top.length})</div><div class="org-lead-row">${top.map(p => personCard(p, false)).join('')}</div>`
       : '';
+    orgBody.classList.toggle('is-tree', orgMode === 'tree');
+    if(orgMode === 'tree') return renderTree(all, ppl);
     const groups = groupBy(ppl, orgMode);
     orgBody.innerHTML = groups.length ? groups.map(([name, rows]) => {
       const leadRank = rows[0].rank;
@@ -1874,6 +1910,56 @@
         <div class="org-col-body">${rows.map(p => personCard(p, p.rank === leadRank && leadRank <= 3)).join('')}</div></div>`;
     }).join('') : '<div class="org-empty">Nobody matches that filter.</div>';
   }
+  // ---------- the reporting tree ----------
+  // Lines that were researched are drawn solid and say so; lines read off the
+  // titles are dashed and say that too. Never blur the two.
+  function renderTree(all, matching){
+    const rows = ORG_TREE[orgCompany.id] || [];
+    if(!rows.length) return void (orgBody.innerHTML = '<div class="org-empty">No reporting tree for this company yet.</div>');
+    const byId = {}; all.forEach(p => byId[p.id] = p);
+    const keep = new Set(matching.map(p => p.id));
+    const info = {}; rows.forEach(r => info[r.i] = r);
+    const kids = {}; rows.forEach(r => (kids[r.p] = kids[r.p] || []).push(r));
+    // a filter keeps the matching people AND the managers above them, so a match
+    // is never shown floating with no chain to the top
+    if(keep.size !== all.length){
+      const need = new Set();
+      keep.forEach(id => { let cur = id; while(cur != null && !need.has(cur)){ need.add(cur); cur = (info[cur] || {}).p; } });
+      rows.forEach(r => { if(!need.has(r.i)) delete info[r.i]; });
+      Object.keys(kids).forEach(k => { kids[k] = kids[k].filter(r => info[r.i]); });
+    }
+    const rank = id => (byId[id] || {}).rank ?? 5;
+    const researched = rows.filter(r => r.b === 'researched').length;
+    const node = (r, depth) => {
+      const p = byId[r.i]; if(!p) return '';
+      const ch = (kids[r.i] || []).slice().sort((a, b) => rank(a.i) - rank(b.i) || (byId[a.i] || {}).name.localeCompare((byId[b.i] || {}).name));
+      const n = ch.length, hit = keep.has(r.i);
+      const open = depth < 2 || keep.size !== all.length;
+      return `<div class="node ${r.b === 'researched' ? 'sourced' : 'inferred'}">
+        <div class="row">
+          <button class="twist${n ? '' : ' leaf'}" title="${n} direct report${n === 1 ? '' : 's'}">${n ? (open ? '&minus;' : '+') : ''}</button>
+          ${personCard(p, depth === 0).replace('<div class="pcard', `<div title="${escapeHtml(r.b === 'researched' ? 'Reporting line from a source' : 'Reading of the titles, not a stated reporting line: ' + r.b)}" class="pcard${hit ? '' : ' faded'}`)}
+        </div>
+        ${n ? `<div class="kids"${open ? '' : ' hidden'}>${ch.map(c => node(c, depth + 1)).join('')}</div>` : ''}
+      </div>`;
+    };
+    const tops = (kids[null] || []).slice().sort((a, b) => rank(a.i) - rank(b.i));
+    orgBody.innerHTML =
+      `<div class="tree-note">This is <b>${researched ? researched + ' researched reporting line' + (researched === 1 ? '' : 's') + ' and the rest' : 'not a published org chart'}</b> read off the titles: `
+      + `the most senior person mapped sits at the top, the most senior in each department under them, and everyone else one level below the nearest person above them in their own department. `
+      + `Dashed cards are that reading; solid cards are a reporting line a source actually states. Hover any card for which it is. `
+      + `It shows only the ${all.length} people we have mapped here, so it is the shape of our coverage as much as the company's.</div>`
+      + `<div class="tree">${tops.map(r => node(r, 0)).join('')}</div>`;
+  }
+  orgBody.addEventListener('click', (e) => {
+    const t = e.target.closest('.twist'); if(!t) return;
+    e.stopPropagation();
+    const box = t.closest('.node').querySelector(':scope > .kids');
+    if(!box) return;
+    box.hidden = !box.hidden;
+    t.innerHTML = box.hidden ? '+' : '&minus;';
+  });
+
   // ---------- talent flow overview: tier -> tier matrix over every move ----------
   const flowsEl = document.getElementById('flows'), flowsBody = document.getElementById('flowsBody');
   let flowsScope = 'all', flowsSel = null, flowsView = 'tier', flowsFn = '';
@@ -1892,7 +1978,7 @@
     let moves = GRAPH.talent_moves || [];
     if(flowsScope === 'core') moves = moves.filter(m => m.flow_class === 'core → core');
     if(flowsScope === 'in') moves = moves.filter(m => m.flow_class.endsWith('→ core'));
-    if(flowsFn) moves = moves.filter(m => (m.function || 'Unclassified') === flowsFn);
+    if(flowsFn) moves = moves.filter(m => (m.function || 'Miscellaneous') === flowsFn);
     if(flowsView === 'fn') return renderFlowsByFunction(moves);
     const froms = {}, tos = {}, cell = {};
     moves.forEach(m => { froms[m.from_label] = (froms[m.from_label] || 0) + 1; tos[m.to_label] = (tos[m.to_label] || 0) + 1; const k = m.from_label + '|' + m.to_label; cell[k] = (cell[k] || 0) + 1; });
@@ -1923,7 +2009,7 @@
   // rows = the department people work in now, columns = where they came from
   function renderFlowsByFunction(moves){
     const cell = {}, rowTot = {}, colTot = {};
-    moves.forEach(m => { const r = m.function || 'Unclassified', c = ORIGIN_COLS(m); const k = r + '|' + c;
+    moves.forEach(m => { const r = m.function || 'Miscellaneous', c = ORIGIN_COLS(m); const k = r + '|' + c;
       cell[k] = (cell[k] || 0) + 1; rowTot[r] = (rowTot[r] || 0) + 1; colTot[c] = (colTot[c] || 0) + 1; });
     const colOrder = c => { const i = CORE_TIERS.indexOf(c); return i >= 0 ? i : c === 'Adjacent industries' ? 10 : c === 'Investor' ? 11 : 20; };
     const rows = FUNCTION_ORDER.filter(f => rowTot[f]).concat(Object.keys(rowTot).filter(f => !FUNCTION_ORDER.includes(f)));
@@ -1939,7 +2025,7 @@
     html += `<tr class="grp"><th>total</th>${cols.map(c => `<td class="z"><b>${colTot[c]}</b></td>`).join('')}<td class="z"><b>${moves.length}</b></td></tr></tbody></table>`;
     if(flowsSel){
       const [fn, origin] = flowsSel.split('|');
-      const list = moves.filter(m => (m.function || 'Unclassified') === fn && ORIGIN_COLS(m) === origin).sort((a, b) => (b.start || '').localeCompare(a.start || ''));
+      const list = moves.filter(m => (m.function || 'Miscellaneous') === fn && ORIGIN_COLS(m) === origin).sort((a, b) => (b.start || '').localeCompare(a.start || ''));
       const srcs = {}; list.forEach(m => { srcs[m.from_name] = (srcs[m.from_name] || 0) + 1; });
       const top = Object.entries(srcs).sort((a, b) => b[1] - a[1]).slice(0, 12);
       html += `<div style="flex:1;min-width:320px"><div class="section-label">${escapeHtml(fn)} ← ${escapeHtml(origin)} · ${list.length} people</div>

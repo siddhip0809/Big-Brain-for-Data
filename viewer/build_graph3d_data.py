@@ -23,6 +23,7 @@ REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 COMPANIES_DIR = os.path.join(REPO, "data/companies")
 INVESTORS_DIR = os.path.join(REPO, "data/investors")
 PEOPLE_DIR = os.path.join(REPO, "data/people")
+ORG_TREE = os.path.join(REPO, "data/derived/org_tree.json")
 SEARCHES_DIR = os.path.join(REPO, "data/searches")
 
 # Company departments a title is filed under (derived on the person record as
@@ -30,7 +31,7 @@ SEARCHES_DIR = os.path.join(REPO, "data/searches")
 FUNCTIONS = ["Executive leadership", "Development & Real Estate", "Sales & Leasing",
              "Pre-Construction & Cost", "Construction & Delivery", "Energy & Utilities",
              "Design & Engineering", "Strategy, Finance & Investment", "Operations & Facilities",
-             "Procurement & Supply Chain", "Legal, People & Support", "Unclassified"]
+             "Procurement & Supply Chain", "Legal, People & Support", "Miscellaneous"]
 
 # Order matters: legend order, anchor order, and primary-role priority.
 # Colours validated as a 9-colour CVD-safe set on the dark surface (the one
@@ -176,7 +177,7 @@ for path in sorted(glob.glob(os.path.join(PEOPLE_DIR, "*.json"))):
             for c in d.get("career", []) if c.get("company") and not c.get("current")]
     people.setdefault(cid, []).append({
         "id": d["id"], "name": d["name"], "title": d.get("current_title"),
-        "function": d.get("function") or "Unclassified", "function_source": d.get("function_source"),
+        "function": d.get("function") or "Miscellaneous", "function_source": d.get("function_source"),
         "rank": d.get("seniority_rank", 5), "seniority": d.get("seniority_label"),
         "location": d.get("location"), "loc": d.get("location_norm"), "linkedin": d.get("linkedin"),
         "department": d.get("department"), "do_not_contact": bool(d.get("do_not_contact")),
@@ -238,6 +239,16 @@ for cid, ppl in people.items():
     node["assessed_count"] = sum(1 for p in ppl if p.get("assess"))
     urg = collections.Counter((p.get("assess") or {}).get("under_represented_group") for p in ppl)
     node["urg_counts"] = {k: v for k, v in urg.items() if k}
+
+# the reporting tree per company (scripts/build_org_tree.py). Researched lines
+# come from `reports_to` on a person; everything else is read off the titles and
+# the page says so, so an inferred line is never mistaken for a fact.
+org_tree = {}
+if os.path.exists(ORG_TREE):
+    raw = json.load(open(ORG_TREE))
+    for cid, rows in raw.items():
+        if cid in people:
+            org_tree[cid] = [{"i": r["id"], "p": r["parent"], "b": r["basis"]} for r in rows]
 
 # Ward Search's own assignments (data/searches/, pulled from Clockwork). These are
 # NOT graph nodes -- 91 extra dots would clutter the map for no gain. They hang off
@@ -308,13 +319,15 @@ out = {
     "parent_industry_meta": [{"id": pid, "name": m["name"], "note": m["note"], "count": pi_counts.get(pid, 0)}
                              for pid, m in PARENT_INDUSTRY_META.items()],
     "nodes": nodes, "links": links, "people": people, "functions": FUNCTIONS,
-    "searches": searches,
+    "searches": searches, "org_tree": org_tree,
     "talent_moves": [{k: m[k] for k in ("person", "to_id", "to_name", "to_label", "from_name", "from_id", "from_label", "flow_class", "function", "title", "start")} for m in moves],
     "stats": {"people": people_count, "companies_with_people": len(people),
               "moves": len(moves), "flow_pairs": len(flow_pairs), "recent_joiners": len(recent),
               "companies": len(company_files), "dc_companies": dc_companies,
               "adjacent_companies": adjacent_only, "multi_role_companies": multi_role,
               "investors": len(investor_files), "links": len(links), "deal_links": deal_edges,
+              "reporting_lines": sum(len(v) - 1 for v in org_tree.values()),
+              "researched_reporting_lines": sum(1 for v in org_tree.values() for r in v if r["b"] == "researched"),
               "searches": len(searches), "ward_clients": len(searches_by_client),
               "search_candidates": len(searches_by_person),
               "placements": sum(1 for s in searches if s["placed"]),
@@ -323,8 +336,14 @@ out = {
 
 # drop null/empty values from the people payload -- most directory-grade records
 # have no location, career or pipeline, and the page treats missing as absent
+EMPTY = (None, "", [], {}, False)
+def is_empty(v):
+    # `0 in (..., False)` is True in Python, so a plain `not in` test silently drops
+    # seniority_rank 0 -- every C-suite person. Compare by identity as well as value.
+    return any(v is e or (type(v) is type(e) and v == e) for e in EMPTY)
+
 def prune(o):
-    if isinstance(o, dict): return {k: prune(v) for k, v in o.items() if v not in (None, "", [], {}, False)}
+    if isinstance(o, dict): return {k: prune(v) for k, v in o.items() if not is_empty(v)}
     if isinstance(o, list): return [prune(x) for x in o]
     return o
 out["people"] = {cid: [prune(p) for p in ppl] for cid, ppl in out["people"].items()}

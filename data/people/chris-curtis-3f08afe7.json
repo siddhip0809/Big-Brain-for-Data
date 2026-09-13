@@ -11,8 +11,8 @@
   "seniority_rank": 2,
   "seniority_label": "VP / Head of",
   "seniority_source": "derived from title",
-  "function": "Unclassified",
-  "function_source": "title",
+  "function": "Miscellaneous",
+  "function_source": "none",
   "industry_segment": null,
   "career_history": null,
   "career": [],
@@ -45,5 +45,6 @@
     "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
     "note": "Ward Search's own judgement, not a researched fact.",
     "under_represented_group": "No"
-  }
+  },
+  "location_norm": null
 }
