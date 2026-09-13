@@ -2,9 +2,8 @@
   "id": "joseph-kava-adaa2515",
   "type": "person",
   "name": "Joseph Kava",
-  "current_title": "Vice President - Data Centers",
-  "current_company": "Google",
-  "current_company_id": "google",
+  "current_title": "Retired — formerly Vice President, Data Centers (17 years)",
+  "current_company": "Retired (formerly Google)",
   "linkedin": "https://www.linkedin.com/in/josephkava",
   "location": null,
   "seniority": null,
@@ -23,10 +22,12 @@
   "tags": [
     "Hyperscale"
   ],
-  "notes": "Directory-grade profile from a bulk people export: name, title, employer and LinkedIn only — no career history, location or pipeline. Not verified against Clockwork.",
+  "notes": "Directory-grade profile from a bulk people export: name, title, employer and LinkedIn only — no career history, location or pipeline. Not verified against Clockwork. Retired from Google after 17 years as VP Data Centers; now an adviser and board member (Bisnow, 2026). Taken out of the Google org chart on 2026-09-13.",
   "sources": [
-    "Bulk people export (de11fc69-people.csv), imported 2026-09-09"
+    "Bulk people export (de11fc69-people.csv), imported 2026-09-09",
+    "https://www.bisnow.com/national/news/data-center-sustainability-operations/former-google-vice-president-data-centers-past-present-future-industry-133771"
   ],
-  "last_updated": "2026-09-09",
-  "location_norm": null
+  "last_updated": "2026-09-13",
+  "location_norm": null,
+  "former_company": "Google"
 }

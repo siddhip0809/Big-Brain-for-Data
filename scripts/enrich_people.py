@@ -49,7 +49,7 @@ FUNCTIONS = [  # first match wins, so order matters
     ('Legal, People & Support',        r"legal|counsel|\bhr\b|human resources|people|talent|recruit|compliance|administration|communications|sustainability|esg|safety|ehs"
                                        r"|jur\u00eddic|recursos humanos|marketing communications"),
 ]
-EXEC_ONLY = re.compile(r"^((co-|deputy |acting |interim )?(country )?managing director.*|(co-|deputy |acting |interim )?chief [a-z&,\- ]*officer.*|(co-|deputy )?c[a-z]{1,2}o\b.*|president( & ?| and )?(ceo|chief executive.*)?|co-?founder.*|founder.*|general manager.*|country manager.*|owner.*|(executive |vice )?chair(man|woman|person)?.*|shareholder.*|board member.*|non-?executive director.*)$")
+EXEC_ONLY = re.compile(r"^((co-|deputy |acting |interim )?(country )?managing director.*|(co-|deputy |acting |interim )?chief [a-z&,\- ]*officer.*|(co-|deputy )?c[a-z]{1,2}o\b.*|president(( & ?| and )(ceo|chief executive.*)|[,\- \u2014]+(of )?[a-z&, \-]+)?|co-?founder.*|founder.*|general manager.*|country manager.*|owner.*|(executive |vice )?chair(man|woman|person)?.*|shareholder.*|board member.*|non-?executive director.*)$")
 
 def seniority_for(p):
     t = (p.get('current_title') or '').lower()

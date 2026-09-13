@@ -452,8 +452,8 @@
       <button class="theme-btn" id="flowsBtn" style="width:100%">Open tier-to-tier matrix</button>
       <p class="field-label" style="margin-top:14px">Ward's own searches <span id="srchCount" class="lg-count"></span></p>
       <button class="theme-btn" id="srchBtn" style="width:100%">Where we have worked</button>
-      <div class="seg" id="wardOnly" style="margin-top:8px" title="A client is a company where a search closed because we placed someone. Everything else is work that did not complete.">
-        <button data-on="0" class="on">All companies</button><button data-on="1">Clients only</button><button data-on="2">+ worked with</button>
+      <div class="seg" id="wardOnly" style="margin-top:8px" title="A client is a company where a search closed because we placed someone. 'Projects on file' adds companies where a search exists in Clockwork but never completed — pitched, cancelled, on hold or still open.">
+        <button data-on="0" class="on">All companies</button><button data-on="1">Clients only</button><button data-on="2">+ projects on file</button>
       </div>
     </div>
 
@@ -994,7 +994,8 @@
 
   // a company shows if ANY of its roles is switched on; investors have their own switch
   // 0 = every company, 1 = clients only (a search closed on a placement),
-  // 2 = clients plus anywhere we ran a search that did not complete
+  // 2 = clients plus every company with a project on file in Clockwork that never
+  //     completed -- pitched, cancelled, on hold or still open. Kept, but not clients.
   let wardOnly = 0;
   function baseVisible(n){
     if(wardOnly === 1 && !n.is_ward_client) return false;
@@ -1628,10 +1629,10 @@
         done.slice(0, 6).forEach(x => { html += searchRow(x); });
         if(done.length > 6) html += `<div class="src">+ ${done.length - 6} more completed &mdash; open the searches panel</div>`;
         if(rest.length){
-          html += `<div class="section-label" style="margin-top:10px">Did not complete (${rest.length})</div>`;
+          html += `<div class="section-label" style="margin-top:10px">Projects on file, not completed (${rest.length})</div>`;
           rest.slice(0, 4).forEach(x => { html += searchRow(x); });
           if(rest.length > 4) html += `<div class="src">+ ${rest.length - 4} more</div>`;
-          html += `<div class="src">Cancelled, terminated, filled internally, still open, or a pitch. Kept as history; it does not make them a client.</div>`;
+          html += `<div class="src">Pitched, cancelled, terminated, filled internally or still open. On file in Clockwork, kept as history; it does not make them a client.</div>`;
         }
       }
       if(n.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(n.industry_role)}</div></div>`;

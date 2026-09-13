@@ -3,7 +3,9 @@
 
 Input is a JSON list, one object per person:
   {"name", "company", "title", "source",            # all required
-   "prev_title", "prev_company", "note"}            # optional
+   "prev_title", "prev_company", "note",            # optional
+   "reports_to_name"}                               # optional: their manager, only when the
+                                                    # source states it -- becomes `reports_to`
 
 Rules this enforces, so a research round can never quietly degrade the brain:
   - a person with no `source` URL is refused outright (CLAUDE.md rule 3)
@@ -49,11 +51,12 @@ def match_company(name, by_norm, by_loose):
 
 
 def existing_people():
-    """(normalised name, company id) -> filename, so we never duplicate a person."""
+    """(normalised name, company id) -> person id, so we never duplicate a person
+    and can resolve a stated manager."""
     out = {}
     for f in glob.glob(f"{PEOPLE_DIR}/*.json"):
         p = json.load(open(f))
-        out[(norm(p.get("name")), p.get("current_company_id"))] = os.path.basename(f)
+        out[(norm(p.get("name")), p.get("current_company_id"))] = p["id"]
     return out
 
 
@@ -70,7 +73,7 @@ def main():
     by_norm, by_loose = company_index()
     seen = existing_people()
 
-    added, dupes, refused, pending = [], [], [], set()
+    added, dupes, refused, pending, pending_ids, unresolved = [], [], [], set(), {}, []
     for r in rows:
         name, comp, title, src = r.get("name"), r.get("company"), r.get("title"), r.get("source")
         if not (name and comp and title and src and src.startswith("http")):
@@ -83,6 +86,10 @@ def main():
             dupes.append((name, comp, seen.get(key, "added earlier in this file"))); continue
 
         pid = person_id(name, cid)
+        mgr = None
+        if r.get("reports_to_name"):
+            mgr = seen.get((norm(r["reports_to_name"]), cid)) or pending_ids.get((norm(r["reports_to_name"]), cid))
+            if not mgr: unresolved.append((name, r["reports_to_name"], comp))
         rec = {
             "id": pid, "type": "person", "name": name,
             "current_title": title, "current_company": comp, "current_company_id": cid,
@@ -93,16 +100,18 @@ def main():
         }
         if r.get("prev_company"):
             rec["career_history"] = f"{r.get('prev_title') or 'role not stated'} at {r['prev_company']}"
+        if mgr: rec["reports_to"] = mgr
         rec = {k: v for k, v in rec.items() if v not in (None, "")}
         if APPLY:
             path = os.path.join(PEOPLE_DIR, pid + ".json")
             json.dump(rec, open(path, "w"), indent=2, ensure_ascii=False); open(path, "a").write("\n")
-        pending.add(key)
+        pending.add(key); pending_ids[key] = pid
         added.append((name, title, comp, cid, r.get("prev_company") or "", src))
 
     print(f"added: {len(added)}   already there: {len(dupes)}   refused: {len(refused)}")
     for n, c, why in refused: print(f"  REFUSED  {n} ({c}): {why}")
     for n, c, where in dupes: print(f"  already there  {n} at {c}  -> {where}")
+    for n, m, c in unresolved: print(f"  reports_to NOT set  {n} -> {m} ({c}): manager is not a person record here")
     print()
     for n, t, c, cid, prev, src in added:
         print(f"  + {n} — {t} @ {c}" + (f"   (from {prev})" if prev else ""))

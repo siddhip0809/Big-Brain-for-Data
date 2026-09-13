@@ -39,7 +39,7 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **1,204 companies** — in two groups, both carried on each record as
+- **1,223 companies** — in two groups, both carried on each record as
   `roles` (see `docs/schema.md`):
   - **726 data-center companies** — Pure Data Centers and STACK
     Infrastructure (active Ward Search client engagements, hand-written
@@ -56,7 +56,14 @@ Real data has started loading. Currently in the brain:
     "Other/Not Relevant"), which also brought website, LinkedIn, HQ,
     headcount, hyperscale focus, and **MW capacity by region** for 638
     companies.
-  - **478 adjacent-industry companies** from four more of Siddhi's lists —
+  - **497 adjacent-industry companies** — 478 from four more of Siddhi's lists, plus
+    19 added 2026-09-13 because the career histories say data-center talent comes
+    from them: CBRE, JLL, Cushman & Wakefield and Knight Frank (brokerage & advisory);
+    Linesight, Currie & Brown, Soben, Cumming, Rider Levett Bucknall, Gleeds and
+    Critical Project Services (construction consultancies, filed under the contractor
+    tier with an honest `industry_role`); PG&E, Xcel, NV Energy, Portland General
+    Electric and ComEd (utilities); James G Davis, Weifield and Bowman. The four
+    from Siddhi's lists are —
     Energy Developers (159), Civil/Land Engineers (116), General
     Contractors USA (150), Cold Storage & Industrial Developers (29) and Real Estate
     Development USA (84, added 2026-09-09 — 72 new companies plus the role
@@ -84,7 +91,7 @@ Real data has started loading. Currently in the brain:
   crypto-mining-pivot round added 4 more (Starwood Capital Group,
   Generate Capital, Spring Lane Capital, and Galaxy Digital in its dual
   role as both a company and an investor).
-- **9,239 people**: candidates from Ward Search's two active searches
+- **9,280 people**: candidates from Ward Search's two active searches
   (Pure Data Centers "VP Sales," STACK Infrastructure "Cost Strategy")
   plus their long-term mapping pools, and 5 firm-wide "Long Term Mapping"
   lists (Sales, Precon, Development, Construction, Utilities) — imported
@@ -149,6 +156,17 @@ Real data has started loading. Currently in the brain:
   flows. The export's email and phone columns are dropped at read time and
   never written. Email, phone, and compensation are deliberately left out
   of every record (kept in Clockwork only) — see `docs/schema.md`.
+- **41 people researched from open sources** (2026-09-13, `record_grade:
+  "researched"`): the data-center and infrastructure leadership at the NeoClouds
+  and hyperscalers — Anthropic's ex-Google data-center team, OpenAI's head of
+  infrastructure, CoreWeave's COO, Nscale's President of Data Centers, AWS's VP
+  of global data-centre operations, Meta's VP of data centers — plus the exec
+  layer at Scala, Vantage, Aligned, Stream, Prime, Corscale and others. No
+  hyperscaler CEOs or CFOs, no AI-research leadership. Every record carries the
+  URL it came from and a `notes` line starting "Why:" saying what makes them a
+  data-center person. Two carry a stated `reports_to` (TeraWulf's COO → CTO,
+  Vantage's CDO NA → President NA); every other reporting line in the atlas is
+  read off the titles and labelled as such.
 - **93 searches** (`data/searches/`, added 2026-09-10) — Ward Search's own
   assignments, pulled live from Clockwork: 48 closed, 19 active, 15 pitch,
   8 on hold, across 28 clients (STACK Infrastructure 28, Goodman 10, Rowan
@@ -172,7 +190,7 @@ Real data has started loading. Currently in the brain:
   mapping pools whose pipelines (10,855 candidacies) were not paged
   through; they carry `pipeline_not_pulled` so it's obvious the count is a
   floor rather than a total.
-- **3,626 relationships** connecting the above — candidacy links,
+- **3,613 relationships** connecting the above — candidacy links,
   employment links, investor backing (124 investors incl. Google and
   NVIDIA in their dual role as strategic investors), and, since
   2026-09-05, a **company-to-company deal layer** of 98 edges:

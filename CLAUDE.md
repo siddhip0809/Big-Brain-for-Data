@@ -21,11 +21,13 @@ dependencies beyond `openpyxl` for the spreadsheet importers.
 ## Layout
 
 ```
-data/companies/*.json     1,204 companies. `roles` is the single source of truth for tier.
+data/companies/*.json     1,223 companies. `roles` is the single source of truth for tier.
 data/investors/*.json     124 funds. `investments` lists company ids.
-data/people/*.json        9,239 people. Filename ends in the first 8 chars of the Clockwork id.
-data/relationships.json   3,626 edges, one flat list. See docs/schema.md for the types.
-data/searches/*.json      90 searches pulled from Clockwork (client, brief, pipeline, placement).
+data/people/*.json        9,280 people. Filename ends in the first 8 chars of the Clockwork id;
+                          researched records end in an 8-char hash and carry record_grade "researched".
+data/relationships.json   3,613 edges, one flat list. See docs/schema.md for the types.
+data/searches/*.json      93 searches pulled from Clockwork (client, brief, pipeline, placement).
+                          A client = a search closed on a Placement (22 of them, 8 companies).
                           Referred to as `search:<filename>`; the `id` field is the Clockwork UUID.
 data/derived/*.csv        Generated. Never hand-edit; rerun the script.
 scripts/                  Importers (import_*) and derivations (build_*, enrich_*, merge_*).
@@ -41,11 +43,22 @@ docs/schema.md            What every field means. Update it when you add one.
 Data changes, then run in this order:
 
 ```bash
+python3 scripts/scrub_people.py --apply       # strip email/phone/pay from free text (rule 1)
 python3 scripts/enrich_people.py --apply      # function, seniority, career, location_norm
 python3 scripts/build_title_index.py          # data/derived/job_titles*.csv
 python3 scripts/build_talent_flows.py         # data/derived/talent_flow*.csv
+python3 scripts/build_org_tree.py             # data/derived/org_tree.json
 python3 viewer/build_graph3d_data.py          # viewer/graph3d_data.json
+python3 scripts/check_brain.py                # must print "all checks pass" before you commit
 ```
+
+`check_brain.py` is the gate: privacy (no email, phone or pay figure anywhere),
+dangling references, unsourced researched claims, unknown roles or functions,
+duplicate people, search-state consistency, and stale derived files. It found
+34 email addresses and phone numbers hiding inside `biography` text on
+2026-09-13 — the importers dropped the contact *columns* but not contact details
+people had typed into their own LinkedIn summaries. `scrub_people.py` exists
+because of that; run it after every people import.
 
 Then build and publish the page: substitute the JSON into the template and
 publish with the Artifact tool, passing the existing URL so it updates in place

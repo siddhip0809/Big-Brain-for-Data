@@ -51,9 +51,11 @@ def tree_for(people):
     order = sorted(people, key=lambda p: (p["rank"], p["grade"] != "full", p["name"]))
     if not order: return []
 
-    # the top of the house: the single most senior person, preferring one whose
-    # title reads like a company lead rather than a department lead
-    top = order[0]
+    # the top of the house: the single most senior person -- but never someone whose
+    # stated manager is mapped here. A researched line beats the reading of titles,
+    # so the person it points at must sit above the person it comes from.
+    has_boss_here = {p["id"] for p in people if p.get("reports_to") in by_id and p["reports_to"] != p["id"]}
+    top = next((p for p in order if p["id"] not in has_boss_here), order[0])
     rows = [{"id": top["id"], "parent": None, "basis": "most senior person mapped"}]
     placed = {top["id"]}
 

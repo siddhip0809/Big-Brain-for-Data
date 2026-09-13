@@ -235,10 +235,12 @@ gain. The searches reach the map three ways instead:
   client, biggest relationship first, filterable by status and by free text
   (client, role or candidate name). Clicking a client name focuses it on the map.
 
-A **"Clients only"** switch narrows the whole graph to the 21 clients that are
-companies here. Because those rarely have lines to each other, turning it on also
-moves the unconnected switch to Show (visibly, in the sidebar) so the map doesn't
-empty out.
+The sidebar switch has three states: **All companies**, **Clients only** (the 8
+where a search closed on a placement) and **+ projects on file** (adds the 13
+companies where a search exists in Clockwork but never completed — pitched,
+cancelled, on hold or still open; kept as history, not clients). Because clients
+rarely have lines to each other, narrowing also moves the unconnected switch to
+Show (visibly, in the sidebar) so the map doesn't empty out.
 
 Two things this deliberately does not show: **confidential searches are not in
 the data at all** (the repo syncs to GitHub), and compensation and fee data were

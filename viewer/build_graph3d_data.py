@@ -296,7 +296,7 @@ for cid, slugs in searches_by_client.items():
     node["completed_searches"] = len(completed_by_client.get(cid, []))
     # a client is somewhere we finished a search with a placement -- nothing else
     node["is_ward_client"] = cid in completed_by_client
-    node["ward_worked_with"] = True
+    node["ward_worked_with"] = True   # any project on file, completed or not
 for ppl in people.values():
     for p in ppl:
         p["searches"] = searches_by_person.get(p["id"]) or None

@@ -17,7 +17,7 @@ Derek N,Associate Director Estimating,Turner & Townsend,general_contractor,Pre-C
 Phil Skinner,Senior Vice President - Data Center Construction,Related Digital,developer_operator,Construction & Delivery,7/2026,STACK Infrastructure,developer_operator,core → core,Senior Vice President - Data Center Construction
 Anjamarie Gaztambide,"Director of Preconstruction , AMER",Yondr,developer_operator,Pre-Construction & Cost,7/2026,,,,
 Kayla Goldstein,Estimator,Mortenson,general_contractor,Pre-Construction & Cost,7/2026,Taylor Kohrs,,outside → adjacent,Estimator
-Andreas Paduch,Managing Director - Europe,CyrusOne,developer_operator,Executive leadership,7/2026,CBRE,,outside → core,Head Of Contracted Accounts Uk
+Andreas Paduch,Managing Director - Europe,CyrusOne,developer_operator,Executive leadership,7/2026,CBRE,real_estate_developer,adjacent → core,Head Of Contracted Accounts Uk
 James Green,Senior Vice President of Sales,Green Mountain Global Data Centers,developer_operator,Sales & Leasing,7/2026,Vantage,developer_operator,core → core,"Senior Director, Sales (EMEA)"
 Luis Soto,Senior Commercial Manager,Equinix,developer_operator,Pre-Construction & Cost,7/2026,,,,
 Mitchell Jakovljevic,Senior Preconstruction Manager,CloudHQ,developer_operator,Pre-Construction & Cost,7/2026,Google,investor,investor → core,NASA Pre-construction Planning Lead
@@ -52,7 +52,7 @@ Michael Solfelt,"Director, Preconstruction",Nscale,neocloud,Pre-Construction & C
 Srinivasa Nookala,Head of Energy & Procurement,Panattoni,developer_operator,Energy & Utilities,6/2026,DN Capital,,outside → core,Managing Principal
 Amina Dicko,Senior Construction Manager,Digital Realty,developer_operator,Construction & Delivery,6/2026,AWS,hyperscaler,core → core,Construction Manager
 Scott Grause,Construction Director,Digital Realty,developer_operator,Construction & Delivery,6/2026,Turner Construction,general_contractor,adjacent → core,Senior Project Manager
-Jordan Petkoski,Senior Consultant,Turner & Townsend,general_contractor,Pre-Construction & Cost,6/2026,Cumming,,outside → adjacent,Senior Cost Manager
+Jordan Petkoski,Senior Consultant,Turner & Townsend,general_contractor,Pre-Construction & Cost,6/2026,Cumming Group,general_contractor,adjacent → adjacent,Senior Cost Manager
 Peter Jones,Data Center Transactions & Leasing,Anthropic,neocloud,Sales & Leasing,6/2026,Yondr,developer_operator,core → core,Co-Founder
 Jenna de Hoop Scheffer,"Director, Site Strategy",STACK Infrastructure,developer_operator,"Strategy, Finance & Investment",6/2026,Google,investor,investor → core,"Data Center Strategic Negotiator, Site Acquisition and Development"
 Parker Hanks,Regional Lead - Global Infrastructure - Data Center Acquisitions & Development,Google,hyperscaler,Development & Real Estate,6/2026,Equinix,developer_operator,core → core,"Senior Director, Real Estate - Americas"
@@ -106,7 +106,7 @@ Tyler W.,Project Manager-Data Center Construction,Serverfarm,developer_operator,
 Travis Keene,Mgr. of Construction,AWS,hyperscaler,Construction & Delivery,4/2026,Microsoft,hyperscaler,core → core,Construction
 Scott Graham,Senior Consultant,Turner & Townsend,general_contractor,Pre-Construction & Cost,4/2026,,,,
 Jan Kelleter,Director of Construction,Serverfarm,developer_operator,Construction & Delivery,4/2026,,,,
-Akash Mehta,Associate Director,Turner & Townsend,general_contractor,Pre-Construction & Cost,4/2026,Cumming,,outside → adjacent,Senior Cost Manager
+Akash Mehta,Associate Director,Turner & Townsend,general_contractor,Pre-Construction & Cost,4/2026,Cumming Group,general_contractor,adjacent → adjacent,Senior Cost Manager
 David Forester,"Director, Hyperscale and Retail Real Estate",Equinix,developer_operator,Development & Real Estate,4/2026,AWS,hyperscaler,core → core,Real Estate Development
 Mina Shamsoun,Senior Preconstruction Manager,The Weitz Company,general_contractor,Pre-Construction & Cost,4/2026,Orascom Construction Plc,,outside → adjacent,Proposal Manager
 Tyler Plecity,Associate Director,Turner & Townsend,general_contractor,Pre-Construction & Cost,4/2026,Tessiers,,outside → adjacent,Preconstruction Leader
@@ -135,7 +135,7 @@ Eric Tse,Campus Project Controls Manager,Crusoe,neocloud,Pre-Construction & Cost
 Chris Henry,Director of Preconstruction,Adolfson & Peterson Construction,general_contractor,Pre-Construction & Cost,4/2026,I-Kota,,outside → adjacent,"Preconstruction Manager, LEED:registered: AP"
 Sarosh Siddiqui,Senior Construction Manager,Equinix,developer_operator,Construction & Delivery,4/2026,,,,
 Alvaro Rivera,Sr.Director Business Development & Resources in Europe,DayOne,developer_operator,Sales & Leasing,4/2026,Box2Bit at Box2Bit,,outside → core,Managing Director
-Armand Denette,Associate Director,Turner & Townsend,general_contractor,Pre-Construction & Cost,4/2026,Soben,,outside → adjacent,Lead Estimator
+Armand Denette,Associate Director,Turner & Townsend,general_contractor,Pre-Construction & Cost,4/2026,Soben,general_contractor,adjacent → adjacent,Lead Estimator
 Jason White,Construction Management,Vantage,developer_operator,Construction & Delivery,4/2026,,,,
 Anthony Santelises,Infrastructure Acquisition & Strategy,Nebius,neocloud,Development & Real Estate,4/2026,AWS,hyperscaler,core → core,"Strategy and Investment, Data Center Supply Solutions"
 Matthew Shield,Sub-Region Precon & Buyout Lead,Turner & Townsend,general_contractor,Pre-Construction & Cost,4/2026,,,,
@@ -165,7 +165,7 @@ Ryan Mack,Senior Design Phase Manager I,Mortenson,general_contractor,Design & En
 Blake Ashbrook,Senior Construction Manager,Vantage,developer_operator,Construction & Delivery,3/2026,,,,
 "DL ""Bam"" Bennett",Sr Construction Project Manager,STACK Infrastructure,developer_operator,Construction & Delivery,3/2026,,,,
 Matt Monaco,Vice President - Asset Management,CyrusOne,developer_operator,"Strategy, Finance & Investment",3/2026,PowerHouse Data Centers,developer_operator,core → core,"Senior Vice President, Asset Management & Development"
-Vincenzo Basile,"Director, Construction",Vantage,developer_operator,Construction & Delivery,3/2026,CBRE,,outside → core,Senior Project Manager
+Vincenzo Basile,"Director, Construction",Vantage,developer_operator,Construction & Delivery,3/2026,CBRE,real_estate_developer,adjacent → core,Senior Project Manager
 Chad Reichhold,Senior Construction Project Manager,Vantage,developer_operator,Construction & Delivery,3/2026,,,,
 Sindhu Rao,Construction Project Manager,Equinix,developer_operator,Construction & Delivery,3/2026,,,,
 Iain Schlenkermann,Senior Construction Manager,Corscale Data Centers,developer_operator,Construction & Delivery,3/2026,,,,
@@ -175,7 +175,7 @@ Elizabeth Schuelke,Construction Services Procurement Manager,QTS Data Centers,de
 Andre Lacerda,Estimating Manager,Kiewit,general_contractor,Pre-Construction & Cost,3/2026,Turner Construction,general_contractor,adjacent → adjacent,Estimator
 Nathan Chen,Senior Cost Controls Manager,Crusoe,neocloud,Pre-Construction & Cost,3/2026,,,,
 Curtis Miller,Director of Development,RadiusDC,developer_operator,Development & Real Estate,3/2026,Headwaters Site Development,,outside → core,Senior Project Development Manager
-Jonathan McGowan,Associate Director,Turner & Townsend,general_contractor,Pre-Construction & Cost,3/2026,Cumming,,outside → adjacent,Senior Cost Manager
+Jonathan McGowan,Associate Director,Turner & Townsend,general_contractor,Pre-Construction & Cost,3/2026,Cumming Group,general_contractor,adjacent → adjacent,Senior Cost Manager
 Matthew Baker,"Director, Construction, North America",Vantage,developer_operator,Construction & Delivery,3/2026,,,,
 Calvin Gutheridge,Design Phase Manager II - Data Center Solutions G+,Mortenson,general_contractor,Design & Engineering,3/2026,Lease Crutcher Lewis,,outside → adjacent,MEP Manager - Data Centers and Advanced Technology
 Tyler Powell,Director of Construction,CyrusOne,developer_operator,Construction & Delivery,3/2026,,,,
@@ -200,7 +200,7 @@ Graison Le,Senior Design Phase Manager,Mortenson,general_contractor,Design & Eng
 Ron Partin,Senior Director of Construction,Vantage,developer_operator,Construction & Delivery,3/2026,TechSite,,outside → core,Director of Construction
 Danny Arnott,Associate Director,Turner & Townsend,general_contractor,Pre-Construction & Cost,3/2026,,,,
 Goran Arya,"Director, Energy Origination & Structuring, EMEA",Equinix,developer_operator,Energy & Utilities,3/2026,Lightsource bp,energy_developer,adjacent → core,"Senior Director of Business Development, M&A"
-Benjamin Delzell,Director of Construction NA / Production and Execution,Vantage,developer_operator,Construction & Delivery,3/2026,Currie & Brown,,outside → core,Associate Director
+Benjamin Delzell,Director of Construction NA / Production and Execution,Vantage,developer_operator,Construction & Delivery,3/2026,Currie & Brown,general_contractor,adjacent → core,Associate Director
 Steve Armanini,Senior Construction Project Manager,Digital Realty,developer_operator,Construction & Delivery,3/2026,,,,
 Eduardo Crispim,Principal Cost Management Metro Lead - Data Center Construction,Microsoft,hyperscaler,Pre-Construction & Cost,3/2026,,,,
 David DaCunha,Vice President of Construction North America,Vantage,developer_operator,Construction & Delivery,3/2026,Cologix,developer_operator,core → core,Director of Construction
@@ -214,7 +214,7 @@ Theo Duplechain,"Director, Energy Planning, NA",Vantage,developer_operator,Energ
 Derek J. Benson,Senior Manager - Construction & Development,CyrusOne,developer_operator,Development & Real Estate,3/2026,,,,
 Brian Dragoo,Director of Construction,STACK Infrastructure,developer_operator,Construction & Delivery,3/2026,,,,
 Bryant Tam,"Executive Director, Hyperscale & AI Campus Origination",NextEra Energy Resources,developer_operator,Development & Real Estate,3/2026,Hanwha Data Centers,developer_operator,core → core,Vice President
-Fred Howard,Director,CloudHQ,developer_operator,Sales & Leasing,3/2026,Knight Frank,,outside → core,Director - Head of Data Centres APAC
+Fred Howard,Director,CloudHQ,developer_operator,Sales & Leasing,3/2026,Knight Frank,real_estate_developer,adjacent → core,Director - Head of Data Centres APAC
 Mark Buchanan,Vice President of Development & Design,CoreSite,developer_operator,Development & Real Estate,3/2026,Corgan,civil_land_engineering,adjacent → core,Vice President
 Garrett Rood,"Senior Manager, Substation and Transmission",Crusoe,neocloud,Energy & Utilities,3/2026,TRC Companies,,outside → core,"Director Substation Engineering, Mountain  Region"
 Camille Bergue,Real estate asset and project manager - Interim management,SCOR,developer_operator,Development & Real Estate,3/2026,Microsoft,hyperscaler,core → core,Data Center Land Acquisition Manager / Responsable Développement Foncier Datacenter

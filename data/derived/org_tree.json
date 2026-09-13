@@ -1761,6 +1761,11 @@
    "basis": "one level under Datacenter Manager"
   },
   {
+   "id": "sergio-loureiro-aff33c08",
+   "parent": "kevin-butler-2fd157c1",
+   "basis": "one level under Head of Global Infrastructure Operations"
+  },
+  {
    "id": "jeff-pasquino-greco-e8047652",
    "parent": "kevin-butler-2fd157c1",
    "basis": "one level under Head of Global Infrastructure Operations"
@@ -2545,7 +2550,7 @@
    "basis": "most senior in Development & Real Estate"
   },
   {
-   "id": "nicolas-pell-82b18b4c",
+   "id": "adam-essink-61b274e5",
    "parent": "bridgette-moore-c47758cf",
    "basis": "most senior in Miscellaneous"
   },
@@ -2615,6 +2620,11 @@
    "basis": "one level under Chief People & Culture Officer"
   },
   {
+   "id": "nicolas-pell-82b18b4c",
+   "parent": "bridgette-moore-c47758cf",
+   "basis": "one level under Chief People & Culture Officer"
+  },
+  {
    "id": "sonya-huffman-d028d59f",
    "parent": "bridgette-moore-c47758cf",
    "basis": "one level under Chief People & Culture Officer"
@@ -2625,24 +2635,19 @@
    "basis": "one level under Chief People & Culture Officer"
   },
   {
-   "id": "adam-essink-61b274e5",
-   "parent": "nicolas-pell-82b18b4c",
-   "basis": "one level under President & CIO"
-  },
-  {
    "id": "brian-strohl-7deb8355",
-   "parent": "nicolas-pell-82b18b4c",
-   "basis": "one level under President & CIO"
+   "parent": "adam-essink-61b274e5",
+   "basis": "one level under Senior Vice President"
   },
   {
    "id": "ngoc-rossi-50b19ea7",
-   "parent": "nicolas-pell-82b18b4c",
-   "basis": "one level under President & CIO"
+   "parent": "adam-essink-61b274e5",
+   "basis": "one level under Senior Vice President"
   },
   {
    "id": "rebel-blackwell-1dca6db6",
-   "parent": "nicolas-pell-82b18b4c",
-   "basis": "one level under President & CIO"
+   "parent": "adam-essink-61b274e5",
+   "basis": "one level under Senior Vice President"
   },
   {
    "id": "jack-morris-0a77c354",
@@ -5473,7 +5478,7 @@
    "basis": "most senior in Energy & Utilities"
   },
   {
-   "id": "david-risman-2e661a3f",
+   "id": "mahesh-thiagarajan-1670a2ba",
    "parent": "matt-souders-ca025b13",
    "basis": "most senior in Miscellaneous"
   },
@@ -5701,6 +5706,11 @@
    "id": "bob-lockwood-187c46ae",
    "parent": "dave-collopy-6655ddbf",
    "basis": "one level under Regional Director | Power, Utilities, and Renewables"
+  },
+  {
+   "id": "david-risman-2e661a3f",
+   "parent": "mahesh-thiagarajan-1670a2ba",
+   "basis": "one level under Executive Vice President, Oracle Cloud Infrastructure"
   },
   {
    "id": "javier-perez-garrido-1dea750a",
@@ -7195,6 +7205,11 @@
    "id": "kraig-knight-4e669e7d",
    "parent": "alberto-riva-31748ec6",
    "basis": "one level under General Manager, EMEA EPC Leader"
+  },
+  {
+   "id": "jason-taylor-c38eaff6",
+   "parent": "hichem-garnaoui-0066ee10",
+   "basis": "one level under Head of Data Center Ops"
   },
   {
    "id": "michael-hughes-53ca0dcb",
@@ -9463,53 +9478,53 @@
  ],
  "vantage": [
   {
-   "id": "michael-stoner-5926ae21",
+   "id": "simon-casey-b6fd6cfd",
    "parent": null,
    "basis": "most senior person mapped"
   },
   {
    "id": "d-k-a3f5f214",
-   "parent": "michael-stoner-5926ae21",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Construction & Delivery"
   },
   {
    "id": "barrett-buechler-e1ad1591",
-   "parent": "michael-stoner-5926ae21",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Design & Engineering"
   },
   {
    "id": "liam-coughlan-f37b14aa",
-   "parent": "michael-stoner-5926ae21",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Development & Real Estate"
   },
   {
    "id": "daniel-bentham-b4dc4384",
-   "parent": "michael-stoner-5926ae21",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Energy & Utilities"
   },
   {
    "id": "emma-jeffries-1745d289",
-   "parent": "michael-stoner-5926ae21",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Legal, People & Support"
   },
   {
-   "id": "dana-adams-8c4293ad",
-   "parent": "michael-stoner-5926ae21",
+   "id": "jeff-tench-7cb3324f",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Miscellaneous"
   },
   {
    "id": "ben-hudson-97faf0e4",
-   "parent": "michael-stoner-5926ae21",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Pre-Construction & Cost"
   },
   {
    "id": "ben-green-5c834bcb",
-   "parent": "michael-stoner-5926ae21",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Sales & Leasing"
   },
   {
    "id": "scott-beasley-cb0f09e4",
-   "parent": "michael-stoner-5926ae21",
+   "parent": "simon-casey-b6fd6cfd",
    "basis": "most senior in Strategy, Finance & Investment"
   },
   {
@@ -10253,39 +10268,64 @@
    "basis": "one level under Energy Development Project Manager, NA"
   },
   {
-   "id": "simon-casey-b6fd6cfd",
-   "parent": "michael-stoner-5926ae21",
-   "basis": "one level under Chief Development Officer, NA"
+   "id": "michael-stoner-5926ae21",
+   "parent": "dana-adams-8c4293ad",
+   "basis": "researched"
+  },
+  {
+   "id": "alicia-ruckteschler-1af7a7d6",
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
   },
   {
    "id": "antoine-boniface-a9967691",
-   "parent": "michael-stoner-5926ae21",
-   "basis": "one level under Chief Development Officer, NA"
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
   },
   {
    "id": "cecil-lepard-7249655a",
-   "parent": "michael-stoner-5926ae21",
-   "basis": "one level under Chief Development Officer, NA"
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
+  },
+  {
+   "id": "dana-adams-8c4293ad",
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
+  },
+  {
+   "id": "david-howson-95aadd35",
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
+  },
+  {
+   "id": "jeremy-deutsch-ee787139",
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
   },
   {
    "id": "michael-frankle-e159333f",
-   "parent": "michael-stoner-5926ae21",
-   "basis": "one level under Chief Development Officer, NA"
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
+  },
+  {
+   "id": "robin-balen-79386c87",
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
   },
   {
    "id": "samuel-huckaby-d40282d1",
-   "parent": "michael-stoner-5926ae21",
-   "basis": "one level under Chief Development Officer, NA"
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
   },
   {
    "id": "sureel-choksi-cdc357bd",
-   "parent": "michael-stoner-5926ae21",
-   "basis": "one level under Chief Development Officer, NA"
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
   },
   {
    "id": "salman-yahya-c95d78de",
-   "parent": "michael-stoner-5926ae21",
-   "basis": "one level under Chief Development Officer, NA"
+   "parent": "simon-casey-b6fd6cfd",
+   "basis": "one level under Chief Delivery Officer, NA"
   },
   {
    "id": "david-sode-284ee76f",
@@ -10326,21 +10366,6 @@
    "id": "travas-ellis-c0581b84",
    "parent": "david-sode-284ee76f",
    "basis": "one level under Director, Environmental Health & Safety, NA"
-  },
-  {
-   "id": "david-howson-95aadd35",
-   "parent": "dana-adams-8c4293ad",
-   "basis": "one level under President, North America"
-  },
-  {
-   "id": "jeremy-deutsch-ee787139",
-   "parent": "dana-adams-8c4293ad",
-   "basis": "one level under President, North America"
-  },
-  {
-   "id": "jeff-tench-7cb3324f",
-   "parent": "dana-adams-8c4293ad",
-   "basis": "one level under President, North America"
   },
   {
    "id": "evan-dunn-8a164da6",
@@ -13020,6 +13045,11 @@
    "basis": "one level under Regional Strategy Lead \u2013 Global Infrastructure & Energy"
   },
   {
+   "id": "aris-karcanias-f946927f",
+   "parent": "bret-boulter-ff3ee583",
+   "basis": "one level under Regional Strategy Lead \u2013 Global Infrastructure & Energy"
+  },
+  {
    "id": "bikash-koley-d7d8bc2f",
    "parent": "bret-boulter-ff3ee583",
    "basis": "one level under Regional Strategy Lead \u2013 Global Infrastructure & Energy"
@@ -13365,34 +13395,29 @@
    "basis": "one level under Global Head of Infrastructure & Sustainability"
   },
   {
-   "id": "joseph-kava-adaa2515",
+   "id": "angad-sandhu-dfd330c6",
    "parent": "jane-xu-2a497572",
    "basis": "one level under Data Center Strategic Partner - Third Party Data Centers"
   },
   {
-   "id": "angad-sandhu-dfd330c6",
-   "parent": "joseph-kava-adaa2515",
-   "basis": "one level under Vice President - Data Centers"
-  },
-  {
    "id": "jolanka-fisher-6c09c2c2",
-   "parent": "joseph-kava-adaa2515",
-   "basis": "one level under Vice President - Data Centers"
+   "parent": "jane-xu-2a497572",
+   "basis": "one level under Data Center Strategic Partner - Third Party Data Centers"
   },
   {
    "id": "page-crahan-6ded29d6",
-   "parent": "joseph-kava-adaa2515",
-   "basis": "one level under Vice President - Data Centers"
+   "parent": "jane-xu-2a497572",
+   "basis": "one level under Data Center Strategic Partner - Third Party Data Centers"
   },
   {
    "id": "steven-ford-f4a01cb3",
-   "parent": "joseph-kava-adaa2515",
-   "basis": "one level under Vice President - Data Centers"
+   "parent": "jane-xu-2a497572",
+   "basis": "one level under Data Center Strategic Partner - Third Party Data Centers"
   },
   {
    "id": "wilma-bleshman-246cd4b9",
-   "parent": "joseph-kava-adaa2515",
-   "basis": "one level under Vice President - Data Centers"
+   "parent": "jane-xu-2a497572",
+   "basis": "one level under Data Center Strategic Partner - Third Party Data Centers"
   },
   {
    "id": "adrian-toovey-71868ac6",
@@ -20271,7 +20296,7 @@
    "basis": "most senior in Miscellaneous"
   },
   {
-   "id": "danny-lane-1da27472",
+   "id": "erich-sanchack-7993d20b",
    "parent": "andy-power-2e3aa25f",
    "basis": "most senior in Operations & Facilities"
   },
@@ -20746,19 +20771,24 @@
    "basis": "one level under Enterprise Regional Lead"
   },
   {
+   "id": "danny-lane-1da27472",
+   "parent": "erich-sanchack-7993d20b",
+   "basis": "one level under Executive Vice President, Operations"
+  },
+  {
    "id": "jon-curry-ba3bef36",
-   "parent": "danny-lane-1da27472",
-   "basis": "one level under Sr. Vice President, Global Operations"
+   "parent": "erich-sanchack-7993d20b",
+   "basis": "one level under Executive Vice President, Operations"
   },
   {
    "id": "ryan-young-3130ac0a",
-   "parent": "danny-lane-1da27472",
-   "basis": "one level under Sr. Vice President, Global Operations"
+   "parent": "erich-sanchack-7993d20b",
+   "basis": "one level under Executive Vice President, Operations"
   },
   {
    "id": "tom-gorman-62995dfd",
-   "parent": "danny-lane-1da27472",
-   "basis": "one level under Sr. Vice President, Global Operations"
+   "parent": "erich-sanchack-7993d20b",
+   "basis": "one level under Executive Vice President, Operations"
   },
   {
    "id": "andr-g-fleuringer-d748cd8f",
@@ -21305,7 +21335,7 @@
    "basis": "most senior in Legal, People & Support"
   },
   {
-   "id": "sean-maskell-92b7dbf4",
+   "id": "pete-cascone-2771430d",
    "parent": "nathan-hazelwood-de51cb4f",
    "basis": "most senior in Miscellaneous"
   },
@@ -21340,6 +21370,11 @@
    "basis": "one level under Chief Development Officer (CDO)"
   },
   {
+   "id": "sean-maskell-92b7dbf4",
+   "parent": "nathan-hazelwood-de51cb4f",
+   "basis": "one level under Chief Development Officer (CDO)"
+  },
+  {
    "id": "shafaq-hedstrom-a860d2cd",
    "parent": "nathan-hazelwood-de51cb4f",
    "basis": "one level under Chief Development Officer (CDO)"
@@ -21353,11 +21388,6 @@
    "id": "reid-baker-a1acbfef",
    "parent": "nathan-hazelwood-de51cb4f",
    "basis": "one level under Chief Development Officer (CDO)"
-  },
-  {
-   "id": "pete-cascone-2771430d",
-   "parent": "sean-maskell-92b7dbf4",
-   "basis": "one level under President, Cologix Canada"
   },
   {
    "id": "laura-ortman-1565e073",
@@ -21402,7 +21432,7 @@
    "basis": "most senior in Energy & Utilities"
   },
   {
-   "id": "sam-huckaby-cd7d0404",
+   "id": "sof-a-tr-nor-michelena-5b2f97fe",
    "parent": "nils-are-karstad-lys-232284d3",
    "basis": "most senior in Miscellaneous"
   },
@@ -21487,19 +21517,24 @@
    "basis": "one level under General Manager - Site acquisition and development - Scandinavia"
   },
   {
+   "id": "sam-huckaby-cd7d0404",
+   "parent": "nils-are-karstad-lys-232284d3",
+   "basis": "one level under General Manager - Site acquisition and development - Scandinavia"
+  },
+  {
    "id": "samuel-huckaby-80e4da44",
    "parent": "nils-are-karstad-lys-232284d3",
    "basis": "one level under General Manager - Site acquisition and development - Scandinavia"
   },
   {
-   "id": "sof-a-tr-nor-michelena-5b2f97fe",
-   "parent": "sam-huckaby-cd7d0404",
-   "basis": "one level under President of Data Centers"
-  },
-  {
    "id": "prospect-permit-manager-at-nscale-4f083956",
    "parent": "sof-a-tr-nor-michelena-5b2f97fe",
    "basis": "one level under VP EU Affairs"
+  },
+  {
+   "id": "nidhi-chappell-9e613ace",
+   "parent": "prospect-permit-manager-at-nscale-4f083956",
+   "basis": "one level under Permit Manager"
   },
   {
    "id": "grant-keith-e4aa13a5",
@@ -21626,6 +21661,11 @@
    "basis": "most senior in Construction & Delivery"
   },
   {
+   "id": "alex-antolino-d2367778",
+   "parent": "josh-roden-25bdada3",
+   "basis": "most senior in Development & Real Estate"
+  },
+  {
    "id": "david-sternberg-b8640a04",
    "parent": "josh-roden-25bdada3",
    "basis": "most senior in Miscellaneous"
@@ -21676,29 +21716,24 @@
    "basis": "one level under (former) Director, Construction"
   },
   {
-   "id": "alex-antolino-d2367778",
-   "parent": "josh-roden-25bdada3",
-   "basis": "one level under President - Brookfield Properties Development, Northern California Land & Housing"
-  },
-  {
    "id": "jason-bengert-0aa8b873",
-   "parent": "josh-roden-25bdada3",
-   "basis": "one level under President - Brookfield Properties Development, Northern California Land & Housing"
+   "parent": "alex-antolino-d2367778",
+   "basis": "one level under Senior Vice President | Development"
   },
   {
    "id": "ken-labarre-5107ac72",
-   "parent": "josh-roden-25bdada3",
-   "basis": "one level under President - Brookfield Properties Development, Northern California Land & Housing"
+   "parent": "alex-antolino-d2367778",
+   "basis": "one level under Senior Vice President | Development"
   },
   {
    "id": "mariana-picolli-88e6e941",
-   "parent": "josh-roden-25bdada3",
-   "basis": "one level under President - Brookfield Properties Development, Northern California Land & Housing"
+   "parent": "alex-antolino-d2367778",
+   "basis": "one level under Senior Vice President | Development"
   },
   {
    "id": "sunil-seelamsetty-1083a678",
-   "parent": "josh-roden-25bdada3",
-   "basis": "one level under President - Brookfield Properties Development, Northern California Land & Housing"
+   "parent": "alex-antolino-d2367778",
+   "basis": "one level under Senior Vice President | Development"
   },
   {
    "id": "louis-digiacomo-b20fd345",
@@ -23826,6 +23861,11 @@
    "basis": "most senior in Energy & Utilities"
   },
   {
+   "id": "john-schaaf-6d90dabb",
+   "parent": "sam-eaton-791868c9",
+   "basis": "most senior in Miscellaneous"
+  },
+  {
    "id": "morgan-schwenn-51d42b0c",
    "parent": "sam-eaton-791868c9",
    "basis": "most senior in Strategy, Finance & Investment"
@@ -24109,11 +24149,6 @@
    "id": "ryan-worthley-f0d0d440",
    "parent": "akshay-shivaram-c67ab131",
    "basis": "one level under Senior Transmission Manager"
-  },
-  {
-   "id": "john-schaaf-6d90dabb",
-   "parent": "sam-eaton-791868c9",
-   "basis": "one level under President & CEO, US Offshore Wind"
   },
   {
    "id": "janhavi-kulkarni-0fcfbd47",
@@ -28964,14 +28999,14 @@
    "basis": "one level under Senior Development Manager"
   },
   {
-   "id": "davis-griffin-e1f8b0a6",
+   "id": "david-neuman-755f340c",
    "parent": "adam-nims-ff0f6b23",
    "basis": "one level under Chief Executive Officer"
   },
   {
-   "id": "david-neuman-755f340c",
-   "parent": "cathy-thuringer-f110dc3a",
-   "basis": "one level under President, Western U.S."
+   "id": "davis-griffin-e1f8b0a6",
+   "parent": "adam-nims-ff0f6b23",
+   "basis": "one level under Chief Executive Officer"
   },
   {
    "id": "jessica-fraser-435428c9",
@@ -35981,9 +36016,9 @@
    "basis": "only person mapped in Energy & Utilities"
   },
   {
-   "id": "michael-arndt-51ba32a6",
+   "id": "jennifer-fundora-4414b1dd",
    "parent": "alejandro-moreno-benitez-a796126d",
-   "basis": "most senior in Miscellaneous"
+   "basis": "only person mapped in Miscellaneous"
   },
   {
    "id": "ali-trunzo-5b2cd05a",
@@ -36016,14 +36051,14 @@
    "basis": "one level under Senior Development Manager"
   },
   {
-   "id": "spivey-paup-1757937a",
+   "id": "michael-arndt-51ba32a6",
    "parent": "alejandro-moreno-benitez-a796126d",
    "basis": "one level under Chief Development Officer (CDO)"
   },
   {
-   "id": "jennifer-fundora-4414b1dd",
-   "parent": "michael-arndt-51ba32a6",
-   "basis": "one level under President and General Manager"
+   "id": "spivey-paup-1757937a",
+   "parent": "alejandro-moreno-benitez-a796126d",
+   "basis": "one level under Chief Development Officer (CDO)"
   }
  ],
  "databank": [
@@ -37172,9 +37207,9 @@
    "basis": "most senior person mapped"
   },
   {
-   "id": "adam-cook-f40943d1",
+   "id": "howard-jensen-e1b1137d",
    "parent": "taylor-chess-4c1361d2",
-   "basis": "most senior in Executive leadership"
+   "basis": "most senior in Development & Real Estate"
   },
   {
    "id": "andrew-h-spencer-1a797778",
@@ -37182,14 +37217,9 @@
    "basis": "most senior in Miscellaneous"
   },
   {
-   "id": "howard-jensen-e1b1137d",
-   "parent": "taylor-chess-4c1361d2",
-   "basis": "one level under President, Development"
-  },
-  {
    "id": "michael-gregg-df64bd94",
-   "parent": "taylor-chess-4c1361d2",
-   "basis": "one level under President, Development"
+   "parent": "howard-jensen-e1b1137d",
+   "basis": "one level under VP, Mixed-Use Development and Leasing"
   },
   {
    "id": "adam-lesson-122c0718",
@@ -37220,6 +37250,11 @@
    "id": "todd-langford-4d63fa48",
    "parent": "howard-jensen-e1b1137d",
    "basis": "one level under VP, Mixed-Use Development and Leasing"
+  },
+  {
+   "id": "adam-cook-f40943d1",
+   "parent": "taylor-chess-4c1361d2",
+   "basis": "one level under President, Development"
   },
   {
    "id": "ron-wagner-1d46d686",
@@ -37964,6 +37999,63 @@
    "id": "sam-zantzinger-f65296cd",
    "parent": "jason-grissom-38f4d19c",
    "basis": "one level under Director Of Development"
+  }
+ ],
+ "core-scientific": [
+  {
+   "id": "matt-tyndall-952a1565",
+   "parent": null,
+   "basis": "most senior person mapped"
+  },
+  {
+   "id": "douglas-golden-071fc0ac",
+   "parent": "matt-tyndall-952a1565",
+   "basis": "most senior in Energy & Utilities"
+  },
+  {
+   "id": "carol-cj-haines-f4e7a56c",
+   "parent": "matt-tyndall-952a1565",
+   "basis": "most senior in Executive leadership"
+  },
+  {
+   "id": "rob-hepler-55a33d06",
+   "parent": "matt-tyndall-952a1565",
+   "basis": "most senior in Operations & Facilities"
+  },
+  {
+   "id": "john-dunaway-1fa243ce",
+   "parent": "matt-tyndall-952a1565",
+   "basis": "most senior in Sales & Leasing"
+  },
+  {
+   "id": "jon-gibbs-e31702de",
+   "parent": "matt-tyndall-952a1565",
+   "basis": "one level under Head of Site Development"
+  },
+  {
+   "id": "trip-guinan-5ad59209",
+   "parent": "matt-tyndall-952a1565",
+   "basis": "one level under Head of Site Development"
+  },
+  {
+   "id": "kelsey-gallagher-93730b76",
+   "parent": "matt-tyndall-952a1565",
+   "basis": "one level under Head of Site Development"
+  },
+  {
+   "id": "chris-green-2bb455e6",
+   "parent": "jon-gibbs-e31702de",
+   "basis": "one level under Vice President of Development"
+  },
+  {
+   "id": "lance-bolender-9fc9d4c6",
+   "parent": "douglas-golden-071fc0ac",
+   "basis": "one level under Vice President, Power"
+  },
+  {
+   "id": "russell-cann-51343d71",
+   "parent": "carol-cj-haines-f4e7a56c",
+   "basis": "one level under Chief Power & Policy Officer"
   }
  ],
  "atnorth": [
@@ -40931,11 +41023,6 @@
    "basis": "only person mapped in Energy & Utilities"
   },
   {
-   "id": "mark-hamilton-a7b357e3",
-   "parent": "andrea-judkins-df9a45fb",
-   "basis": "most senior in Executive leadership"
-  },
-  {
    "id": "martin-heyman-3b69fdec",
    "parent": "dan-richardon-a427d7aa",
    "basis": "one level under Vice President of Construction"
@@ -40946,14 +41033,19 @@
    "basis": "one level under Vice President, Talent Acquisition"
   },
   {
+   "id": "mark-hamilton-a7b357e3",
+   "parent": "andrea-judkins-df9a45fb",
+   "basis": "one level under President and Chairperson of the Board"
+  },
+  {
    "id": "simon-tusha-737692a3",
-   "parent": "mark-hamilton-a7b357e3",
-   "basis": "one level under Chief Operating Officer"
+   "parent": "andrea-judkins-df9a45fb",
+   "basis": "one level under President and Chairperson of the Board"
   },
   {
    "id": "steve-hackenburg-21ebcf5e",
-   "parent": "mark-hamilton-a7b357e3",
-   "basis": "one level under Chief Operating Officer"
+   "parent": "andrea-judkins-df9a45fb",
+   "basis": "one level under President and Chairperson of the Board"
   }
  ],
  "becknell-industrial": [
@@ -41288,28 +41380,28 @@
  ],
  "nebius": [
   {
-   "id": "andrey-korolenko-f33f6450",
+   "id": "dan-lawrence-285ead54",
    "parent": null,
    "basis": "most senior person mapped"
   },
   {
    "id": "mark-fletcher-2a40114b",
-   "parent": "andrey-korolenko-f33f6450",
+   "parent": "dan-lawrence-285ead54",
    "basis": "only person mapped in Construction & Delivery"
   },
   {
    "id": "prospect-technical-due-diligence-manager-at-nebius-31c4a1ca",
-   "parent": "andrey-korolenko-f33f6450",
+   "parent": "dan-lawrence-285ead54",
    "basis": "only person mapped in Design & Engineering"
   },
   {
    "id": "anthony-santelises-7c9e10a6",
-   "parent": "andrey-korolenko-f33f6450",
+   "parent": "dan-lawrence-285ead54",
    "basis": "only person mapped in Development & Real Estate"
   },
   {
    "id": "john-ritch-6f74656c",
-   "parent": "andrey-korolenko-f33f6450",
+   "parent": "dan-lawrence-285ead54",
    "basis": "most senior in Energy & Utilities"
   },
   {
@@ -41331,6 +41423,11 @@
    "id": "stephanie-morales-0e77bbee",
    "parent": "anthony-santelises-7c9e10a6",
    "basis": "one level under Infrastructure Acquisition & Strategy"
+  },
+  {
+   "id": "andrey-korolenko-f33f6450",
+   "parent": "dan-lawrence-285ead54",
+   "basis": "one level under Senior Vice President and General Manager, Americas"
   }
  ],
  "mrp-industrial": [
@@ -41777,9 +41874,9 @@
    "basis": "most senior in Energy & Utilities"
   },
   {
-   "id": "doug-fleit-f74d8754",
+   "id": "paul-schulman-7aa699ea",
    "parent": "brian-katz-782407ee",
-   "basis": "most senior in Executive leadership"
+   "basis": "most senior in Miscellaneous"
   },
   {
    "id": "bryankodee-hatcher-f08f82d5",
@@ -41807,22 +41904,22 @@
    "basis": "one level under Project Manager, Development & Construction"
   },
   {
+   "id": "doug-fleit-f74d8754",
+   "parent": "brian-katz-782407ee",
+   "basis": "one level under President & Co-Founder"
+  },
+  {
    "id": "sean-bare-87731422",
-   "parent": "doug-fleit-f74d8754",
-   "basis": "one level under Co-founder & CEO"
+   "parent": "brian-katz-782407ee",
+   "basis": "one level under President & Co-Founder"
   },
   {
    "id": "kyle-fleit-2f023ec2",
-   "parent": "doug-fleit-f74d8754",
-   "basis": "one level under Co-founder & CEO"
+   "parent": "brian-katz-782407ee",
+   "basis": "one level under President & Co-Founder"
   },
   {
    "id": "luke-kipfer-5d828639",
-   "parent": "doug-fleit-f74d8754",
-   "basis": "one level under Co-founder & CEO"
-  },
-  {
-   "id": "paul-schulman-7aa699ea",
    "parent": "brian-katz-782407ee",
    "basis": "one level under President & Co-Founder"
   }
@@ -43450,9 +43547,9 @@
    "basis": "most senior in Construction & Delivery"
   },
   {
-   "id": "yunxi-li-143b0e4c",
+   "id": "leong-poh-6f256fcc",
    "parent": "jamie-khoo-58af71dc",
-   "basis": "most senior in Miscellaneous"
+   "basis": "only person mapped in Miscellaneous"
   },
   {
    "id": "stuart-james-kennedy-4a491c7b",
@@ -43480,14 +43577,14 @@
    "basis": "one level under VP, Construction US"
   },
   {
-   "id": "juan-carlos-vaamonde-5ee6d7f1",
+   "id": "yunxi-li-143b0e4c",
    "parent": "jamie-khoo-58af71dc",
    "basis": "one level under CEO"
   },
   {
-   "id": "leong-poh-6f256fcc",
-   "parent": "yunxi-li-143b0e4c",
-   "basis": "one level under President Director Of Indonesia"
+   "id": "juan-carlos-vaamonde-5ee6d7f1",
+   "parent": "jamie-khoo-58af71dc",
+   "basis": "one level under CEO"
   }
  ],
  "key-capture-energy": [
@@ -43581,6 +43678,11 @@
    "basis": "only person mapped in Construction & Delivery"
   },
   {
+   "id": "adam-ventre-33a75a86",
+   "parent": "drew-price-3edc28d5",
+   "basis": "most senior in Development & Real Estate"
+  },
+  {
    "id": "josh-kinney-ad1fcc1d",
    "parent": "drew-price-3edc28d5",
    "basis": "only person mapped in Energy & Utilities"
@@ -43591,19 +43693,14 @@
    "basis": "one level under Project Developer"
   },
   {
-   "id": "adam-ventre-33a75a86",
-   "parent": "drew-price-3edc28d5",
-   "basis": "one level under President & Chief Development Officer"
-  },
-  {
    "id": "scott-remer-5d3e8bad",
-   "parent": "drew-price-3edc28d5",
-   "basis": "one level under President & Chief Development Officer"
+   "parent": "adam-ventre-33a75a86",
+   "basis": "one level under Director Of Development"
   },
   {
    "id": "william-hantzmon-01c6a25f",
-   "parent": "drew-price-3edc28d5",
-   "basis": "one level under President & Chief Development Officer"
+   "parent": "adam-ventre-33a75a86",
+   "basis": "one level under Director Of Development"
   },
   {
    "id": "ally-kranz-072bbdbf",
@@ -43701,7 +43798,7 @@
   {
    "id": "charlie-nelson-b8eea17d",
    "parent": "evan-pierce-a7005907",
-   "basis": "most senior in Miscellaneous"
+   "basis": "one level under Chief Development Officer"
   }
  ],
  "penta-infra": [
@@ -43734,58 +43831,6 @@
    "id": "sacha-de-lizer-f7edebda",
    "parent": "jean-paul-agosto-5f67bc9d",
    "basis": "one level under Director Sales France"
-  }
- ],
- "core-scientific": [
-  {
-   "id": "matt-tyndall-952a1565",
-   "parent": null,
-   "basis": "most senior person mapped"
-  },
-  {
-   "id": "douglas-golden-071fc0ac",
-   "parent": "matt-tyndall-952a1565",
-   "basis": "most senior in Energy & Utilities"
-  },
-  {
-   "id": "carol-cj-haines-f4e7a56c",
-   "parent": "matt-tyndall-952a1565",
-   "basis": "most senior in Executive leadership"
-  },
-  {
-   "id": "john-dunaway-1fa243ce",
-   "parent": "matt-tyndall-952a1565",
-   "basis": "most senior in Sales & Leasing"
-  },
-  {
-   "id": "jon-gibbs-e31702de",
-   "parent": "matt-tyndall-952a1565",
-   "basis": "one level under Head of Site Development"
-  },
-  {
-   "id": "trip-guinan-5ad59209",
-   "parent": "matt-tyndall-952a1565",
-   "basis": "one level under Head of Site Development"
-  },
-  {
-   "id": "kelsey-gallagher-93730b76",
-   "parent": "matt-tyndall-952a1565",
-   "basis": "one level under Head of Site Development"
-  },
-  {
-   "id": "chris-green-2bb455e6",
-   "parent": "jon-gibbs-e31702de",
-   "basis": "one level under Vice President of Development"
-  },
-  {
-   "id": "lance-bolender-9fc9d4c6",
-   "parent": "douglas-golden-071fc0ac",
-   "basis": "one level under Vice President, Power"
-  },
-  {
-   "id": "russell-cann-51343d71",
-   "parent": "carol-cj-haines-f4e7a56c",
-   "basis": "one level under Chief Power & Policy Officer"
   }
  ],
  "nunn-construction": [
@@ -43968,6 +44013,11 @@
    "basis": "most senior in Development & Real Estate"
   },
   {
+   "id": "denden-tekeste-445869a3",
+   "parent": "nathan-hanson-5578aa09",
+   "basis": "only person mapped in Energy & Utilities"
+  },
+  {
    "id": "brad-cameron-fredkin-b7fedbc0",
    "parent": "nathan-hanson-5578aa09",
    "basis": "most senior in Miscellaneous"
@@ -43988,19 +44038,14 @@
    "basis": "one level under Director, Data Center Development"
   },
   {
-   "id": "denden-tekeste-445869a3",
-   "parent": "nathan-hanson-5578aa09",
-   "basis": "one level under President - LS Power Generation"
-  },
-  {
    "id": "josh-york-90688d51",
-   "parent": "nathan-hanson-5578aa09",
-   "basis": "one level under President - LS Power Generation"
+   "parent": "denden-tekeste-445869a3",
+   "basis": "one level under Senior Manager, Transmission Planning"
   },
   {
    "id": "ramya-nagarajan-c541e460",
-   "parent": "nathan-hanson-5578aa09",
-   "basis": "one level under President - LS Power Generation"
+   "parent": "denden-tekeste-445869a3",
+   "basis": "one level under Senior Manager, Transmission Planning"
   },
   {
    "id": "matthew-popp-84128c0a",
@@ -44314,6 +44359,38 @@
    "basis": "one level under Director of Development Western Region & Tribal"
   }
  ],
+ "terawulf": [
+  {
+   "id": "nazar-khan-21ecef8a",
+   "parent": null,
+   "basis": "most senior person mapped"
+  },
+  {
+   "id": "eric-schmidt-9af8f6d6",
+   "parent": "nazar-khan-21ecef8a",
+   "basis": "most senior in Construction & Delivery"
+  },
+  {
+   "id": "pace-ralli-ba598895",
+   "parent": "nazar-khan-21ecef8a",
+   "basis": "most senior in Development & Real Estate"
+  },
+  {
+   "id": "mario-andres-gutierrez-d85effd8",
+   "parent": "nazar-khan-21ecef8a",
+   "basis": "most senior in Energy & Utilities"
+  },
+  {
+   "id": "kira-schwartz-de281a97",
+   "parent": "eric-schmidt-9af8f6d6",
+   "basis": "one level under Senior Vice President of Capital Projects"
+  },
+  {
+   "id": "sean-farrell-490ced2a",
+   "parent": "nazar-khan-21ecef8a",
+   "basis": "researched"
+  }
+ ],
  "green-mountain-global-data-centers": [
   {
    "id": "james-green-201a4255",
@@ -44538,14 +44615,14 @@
    "basis": "most senior person mapped"
   },
   {
+   "id": "jarrod-pitts-82c37773",
+   "parent": "joel-link-7255e325",
+   "basis": "most senior in Development & Real Estate"
+  },
+  {
    "id": "scott-seier-1ce617ed",
    "parent": "joel-link-7255e325",
    "basis": "most senior in Miscellaneous"
-  },
-  {
-   "id": "jarrod-pitts-82c37773",
-   "parent": "joel-link-7255e325",
-   "basis": "one level under President of Development, Member Executive Leadership Board"
   },
   {
    "id": "jesse-fruman-fb9b1a91",
@@ -45016,28 +45093,6 @@
    "id": "carlos-cofino-4aa607d8",
    "parent": "jon-saxon-1d19374b",
    "basis": "only person mapped in Energy & Utilities"
-  }
- ],
- "terawulf": [
-  {
-   "id": "eric-schmidt-9af8f6d6",
-   "parent": null,
-   "basis": "most senior person mapped"
-  },
-  {
-   "id": "pace-ralli-ba598895",
-   "parent": "eric-schmidt-9af8f6d6",
-   "basis": "most senior in Development & Real Estate"
-  },
-  {
-   "id": "mario-andres-gutierrez-d85effd8",
-   "parent": "eric-schmidt-9af8f6d6",
-   "basis": "most senior in Energy & Utilities"
-  },
-  {
-   "id": "kira-schwartz-de281a97",
-   "parent": "eric-schmidt-9af8f6d6",
-   "basis": "one level under Senior Vice President of Capital Projects"
   }
  ],
  "future-tech": [
