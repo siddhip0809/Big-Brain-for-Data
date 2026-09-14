@@ -38931,5 +38931,21 @@
       "Clockwork API, pulled 2026-09-10"
     ],
     "last_updated": "2026-09-10"
+  },
+  {
+    "from": "investor:blackstone",
+    "to": "company:google",
+    "type": "jv_partner",
+    "detail": "Project Braid: AI cloud venture launched ~May 2026 with an initial $5B equity commitment from Blackstone to rent Google TPU capacity to enterprise customers, targeting 500MW online by 2027 across 29 identified US sites. As of September 2026, Bloomberg reported the venture is running into site-level delays (a Wyoming site pulled from developer Crusoe, transformer shortages, a Texas building freeze) with on-time delivery odds down to ~50% from ~90%.",
+    "status": "announced",
+    "confidence": "medium",
+    "sources": [
+      "https://w.media/blackstone-and-googles-joint-venture-launches-a-new-ai-data-center-company/",
+      "https://www.esgdive.com/news/google-blackstone-ai-infrastructure-joint-venture-data-center-de/820628/",
+      "https://www.bloomberg.com/news/articles/2026-09-08/google-blackstone-venture-faces-delays-at-data-center-sites",
+      "https://www.datacenterdynamics.com/en/news/google-and-blackstone-jv-experiences-delays-in-data-center-projects-report/"
+    ],
+    "verification": "found by the weekly hiring-signals Routine on 2026-09-14; it published this edge to the atlas but its git push did not land, so the edge was recovered from the published page on 2026-09-14",
+    "last_updated": "2026-09-14"
   }
 ]

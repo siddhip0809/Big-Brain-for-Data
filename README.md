@@ -248,6 +248,13 @@ Real data has started loading. Currently in the brain:
   rest of the brain: only URLs returned by search results, nothing
   guessed, an empty week is a valid result. Pause or edit it in the
   claude.ai Routines list.
+  **Known gap (first run, 2026-09-14):** the Routine found one deal
+  (Blackstone–Google "Project Braid"), republished the atlas, but its `git
+  push` never landed — the run's session has no repository attached, so the
+  live page ended up one edge ahead of git. The edge was recovered from the
+  published page by hand. Until the Routine's environment carries push
+  access, check after each Monday run that origin moved; if it did not, diff
+  the published page's `links` against the repo and recover the difference.
 - **Verification flags.** Every researched relationship can carry
   `verified_by` (research team / Siddhi / Ward confirmed, each dated),
   set by clicking in the atlas and pulled back with
