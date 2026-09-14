@@ -448,8 +448,12 @@
     </div>
 
     <div>
-      <p class="field-label">Talent flow overview</p>
-      <button class="theme-btn" id="flowsBtn" style="width:100%">Open tier-to-tier matrix</button>
+      <p class="field-label">Talent flow &middot; colour the lines by</p>
+      <div class="seg" id="flowMode" title="Grey lines dashed by tier pair, or one colour per department the movers work in now">
+        <button data-mode="tier" class="on">Tier pair</button><button data-mode="dept">Department</button>
+      </div>
+      <select id="flowDept" class="theme-btn" style="width:100%; margin-top:8px" title="Show only the people who now work in this department" hidden><option value="">All departments</option></select>
+      <button class="theme-btn" id="flowsBtn" style="width:100%; margin-top:8px">Open tier-to-tier matrix</button>
       <p class="field-label" style="margin-top:14px">Ward's own searches <span id="srchCount" class="lg-count"></span></p>
       <button class="theme-btn" id="srchBtn" style="width:100%">Where we have worked</button>
       <div class="seg" id="wardOnly" style="margin-top:8px" title="A client is a company where a search closed because we placed someone. 'Projects on file' adds companies where a search exists in Clockwork but never completed — pitched, cancelled, on hold or still open.">
@@ -703,11 +707,30 @@
   };
   let darkTheme = false;
   const lineColor = st => (!darkTheme && st.lightColor) ? st.lightColor : st.color;
+  // Talent flow can be coloured by the DEPARTMENT the movers work in now. Eight fixed
+  // categorical slots (validated CVD-safe on both our surfaces, worst adjacent
+  // ΔE 9.1 light / 8.4 dark), the four small departments fold into "Other" -- a ninth
+  // hue would not stay tellable. Dash pattern keeps saying which world they came from.
+  const DEPT_SLOTS = [
+    ['Development & Real Estate',   0x2a78d6, 0x3987e5],
+    ['Construction & Delivery',     0xeb6834, 0xd95926],
+    ['Energy & Utilities',          0x1baf7a, 0x199e70],
+    ['Pre-Construction & Cost',     0xeda100, 0xc98500],
+    ['Sales & Leasing',             0xe87ba4, 0xd55181],
+    ['Design & Engineering',        0x008300, 0x008300],
+    ['Operations & Facilities',     0x4a3aa7, 0x9085e9],
+    ['Executive leadership',        0xe34948, 0xe66767],
+  ];
+  const DEPT_OTHER = ['Other (strategy, procurement, legal & people, misc.)', 0x94a3b8, 0x64748b];
+  const deptSlot = fn => DEPT_SLOTS.find(d => d[0] === fn) || DEPT_OTHER;
+  const deptColor = fn => { const d = deptSlot(fn); return darkTheme ? d[2] : d[1]; };
+  let flowMode = 'tier';   // 'tier' = one grey, dash by tier pair · 'dept' = colour by department
+  let flowDept = '';       // '' = every department, else only moves in this one
   // every line type has its own switch; off = not drawn, not counted as a
   // connection, not part of a focus ring
   const lineOn = {};
   Object.entries(LINK_STYLE).forEach(([t, st]) => { lineOn[t] = !st.off; });
-  const linkShown = l => !!lineOn[l.type];
+  const linkShown = l => !!lineOn[l.type] && !(l.type === 'talent_flow' && flowMode === 'dept' && flowDept && !(l.fn_counts && l.fn_counts[flowDept]));
   const DASH = { dashed: { dashSize: 7, gapSize: 4 }, dotted: { dashSize: 1.6, gapSize: 3.4 } }; // world units
   const SVG_DASH = { solid: '', dashed: '6 3', dotted: '1.5 3' };
   const cssColor = c => '#' + c.toString(16).padStart(6, '0');
@@ -958,9 +981,13 @@
   syncLegend();
   function renderEdgeLegend(){
   const sample = (color, variant, w) => `<svg width="30" height="8" style="flex:none"><line x1="1" y1="4" x2="29" y2="4" stroke="${cssColor(color)}" stroke-width="${w}" stroke-linecap="round" stroke-dasharray="${SVG_DASH[variant]}"/></svg>`;
+  const deptKey = () => (flowDept ? [deptSlot(flowDept)] : [...DEPT_SLOTS, DEPT_OTHER])
+    .map(d => `<span class="edge-key edge-variant">${sample(darkTheme ? d[2] : d[1], 'solid', 2)}${escapeHtml(d[0])}</span>`).join('') +
+    `<span class="edge-key edge-variant" style="flex-basis:100%">dash still shows where they came from: solid same tier · dashed another tier · dotted across groups</span>`;
   document.getElementById('edgeLegend').innerHTML = Object.entries(LINK_STYLE).map(([t, s]) =>
-    `<div class="edge-type"><span class="edge-key">${sample(lineColor(s), 'solid', s.width)}<b>${s.label}</b></span>` +
-      Object.entries(s.variants).map(([v, txt]) => `<span class="edge-key edge-variant">${sample(lineColor(s), v, s.width)}${txt}</span>`).join('') +
+    `<div class="edge-type"><span class="edge-key">${sample(lineColor(s), 'solid', s.width)}<b>${t === 'talent_flow' && flowMode === 'dept' ? 'Talent flow · by department' : s.label}</b></span>` +
+      (t === 'talent_flow' && flowMode === 'dept' ? deptKey() :
+       Object.entries(s.variants).map(([v, txt]) => `<span class="edge-key edge-variant">${sample(lineColor(s), v, s.width)}${txt}</span>`).join('')) +
       `<button class="mini-toggle${lineOn[t] ? ' on' : ''}" data-line="${t}">${lineOn[t] ? 'on' : 'off'}</button>` +
     `</div>`).join('') +
     `<div class="edge-type" style="justify-content:flex-end"><button class="mini-toggle" id="linesAll">all on</button><button class="mini-toggle" id="linesNone">all off</button></div>`;
@@ -976,6 +1003,27 @@
   });
   }
   renderEdgeLegend();
+
+  // department colouring: switching it on also switches the lines on -- nobody picks
+  // "by department" to look at nothing. Both selects (sidebar and matrix) share one state.
+  const flowDeptSel = document.getElementById('flowDept');
+  FUNCTION_ORDER.forEach(f => { const o = document.createElement('option'); o.value = f; o.textContent = f; flowDeptSel.appendChild(o); });
+  function setFlowDept(v, from){
+    flowDept = v; flowDeptSel.value = v;
+    const other = document.getElementById('flowsFn'); if(other && from !== 'matrix') other.value = v;
+    if(typeof flowsFn !== 'undefined'){ flowsFn = v; }
+    renderEdgeLegend(); applyFilters();
+    if(from === 'sidebar' && !document.getElementById('flows').hidden && typeof renderFlows === 'function') renderFlows();
+  }
+  document.getElementById('flowMode').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    flowMode = b.dataset.mode;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+    flowDeptSel.hidden = flowMode !== 'dept';
+    if(flowMode === 'dept') lineOn.talent_flow = true;   // renderEdgeLegend redraws the on/off buttons from lineOn
+    renderEdgeLegend(); applyFilters();
+  });
+  flowDeptSel.addEventListener('change', () => setFlowDept(flowDeptSel.value, 'sidebar'));
 
   const backedCompanyCount = Object.keys(backersOf).length;
   document.getElementById('statNodes').textContent = GRAPH.nodes.length;
@@ -1104,11 +1152,14 @@
   // "fat" lines (LineSegments2) so width is real pixels and dashes work;
   // one object per (type, style) pair. Materials need the viewport size.
   const lineMaterials = [];
-  function lineMaterial(type, style, boost){
+  function lineMaterial(type, style, boost, dept){
     const st = LINK_STYLE[type] || LINK_STYLE.invested_in, d = DASH[style];
+    // department-coloured flows are drawn wider: three of the light-mode hues sit under
+    // 3:1 on the cream surface, and width is the relief (plus the legend and the panel)
+    const byDept = type === 'talent_flow' && flowMode === 'dept';
     const m = new THREE.LineMaterial({
-      color: lineColor(st), linewidth: st.width * (boost ? 1.35 : 1), transparent: true, depthWrite: false,
-      opacity: boost ? 0.95 : st.opacity, dashed: !!d, dashSize: d ? d.dashSize : 1, gapSize: d ? d.gapSize : 1,
+      color: byDept ? deptColor(dept) : lineColor(st), linewidth: (byDept ? 2.0 : st.width) * (boost ? 1.35 : 1), transparent: true, depthWrite: false,
+      opacity: boost ? 0.95 : (byDept ? 0.7 : st.opacity), dashed: !!d, dashSize: d ? d.dashSize : 1, gapSize: d ? d.gapSize : 1,
     });
     if(d){ m.defines.USE_DASH = ''; m.needsUpdate = true; } // r128: `dashed` alone doesn't switch the shader on
     m.resolution.set(width, height);
@@ -1122,14 +1173,16 @@
   }
   function linkGroup(links, boost){
     const group = new THREE.Group(), byKey = {};
+    // the department a flow line wears: the one selected, else the biggest on that pair
+    const deptOf = l => l.type === 'talent_flow' && flowMode === 'dept' ? deptSlot(flowDept || l.top_fn)[0] : '';
     links.forEach(l => {
-      const k = l.type + '|' + (l.style || 'solid');
-      (byKey[k] = byKey[k] || { type: l.type, style: l.style || 'solid', links: [] }).links.push(l);
+      const k = l.type + '|' + (l.style || 'solid') + '|' + deptOf(l);
+      (byKey[k] = byKey[k] || { type: l.type, style: l.style || 'solid', dept: deptOf(l), links: [] }).links.push(l);
     });
-    Object.values(byKey).forEach(({ type, style, links }) => {
+    Object.values(byKey).forEach(({ type, style, dept, links }) => {
       const pos = [];
       links.forEach(l => pos.push(l.sourceNode.px, l.sourceNode.py, l.sourceNode.pz, l.targetNode.px, l.targetNode.py, l.targetNode.pz));
-      const obj = fatLines(pos, lineMaterial(type, style, boost));
+      const obj = fatLines(pos, lineMaterial(type, style, boost, dept));
       obj.userData.links = links; obj.userData.baseOpacity = obj.material.opacity;
       group.add(obj);
     });
@@ -1677,6 +1730,13 @@
             ['core', 'adjacent', 'investor', 'outside'].filter(k => g[k]).map(k => `<div class="flow-row"><span>${GROUP_LABEL[k]}</span><span>${g[k]} · ${Math.round(100 * g[k] / total)}%</span></div>`).join('') + `</div></div>`;
           html += `<div class="dt-row"><div class="dt-k">By tier</div><div class="dt-v">${list(n.hires_by_tier)}</div></div>`;
         }
+        if(n.dept_origins && Object.keys(n.dept_origins).length){
+          html += `<div class="dt-row"><div class="dt-k">By department</div><div class="dt-v">` +
+            Object.entries(n.dept_origins).slice(0, 8).map(([fn, origins]) =>
+              `<div class="flow-row" style="display:block; margin-bottom:5px"><span style="display:inline-block; width:8px; height:8px; border-radius:2px; background:${cssColor(deptColor(fn))}; margin-right:6px; vertical-align:middle"></span><b style="font-weight:600">${escapeHtml(fn)}</b> <span style="color:var(--text-dim)">&larr;</span> ` +
+              origins.map(([o, c]) => `${escapeHtml(o.replace('Outside the industry · ', 'outside · '))} <span style="font-family:var(--font-mono); color:var(--text-dim)">${c}</span>`).join(' · ') + `</div>`).join('') +
+            `</div></div>`;
+        }
         if(n.hires_from && n.hires_from.length) html += `<div class="dt-row"><div class="dt-k">Top sources</div><div class="dt-v">${list(n.hires_from)}</div></div>`;
         if(n.alumni_at && n.alumni_at.length) html += `<div class="dt-row"><div class="dt-k">Alumni now at</div><div class="dt-v">${list(n.alumni_at)}</div></div>`;
         html += `<div class="src">from the previous employer on each mapped person's career history — our pool, not the whole company</div>`;
@@ -1978,7 +2038,7 @@
   let flowsScope = 'all', flowsSel = null, flowsView = 'tier', flowsFn = '';
   const flowsFnSel = document.getElementById('flowsFn');
   FUNCTION_ORDER.forEach(f => { const o = document.createElement('option'); o.value = f; o.textContent = f; flowsFnSel.appendChild(o); });
-  flowsFnSel.addEventListener('change', () => { flowsFn = flowsFnSel.value; flowsSel = null; renderFlows(); });
+  flowsFnSel.addEventListener('change', () => { flowsFn = flowsFnSel.value; flowsSel = null; renderFlows(); setFlowDept(flowsFn, 'matrix'); });
   document.getElementById('flowsView').addEventListener('click', (e) => {
     const b = e.target.closest('button'); if(!b) return;
     flowsView = b.dataset.view; flowsSel = null;

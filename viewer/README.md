@@ -129,6 +129,23 @@ Three changes, all in the template:
   coloured caption each. Orbiting still works; the ring is only planar
   from the opening angle.
 
+**Talent flow by department (2026-09-14).** The sidebar's "colour the lines
+by" switch has two states. *Tier pair* is the original: one grey, dash by tier
+pair. *Department* colours every talent-flow line by the department its movers
+work in now — eight fixed colours (Development, Construction, Energy,
+Pre-Construction, Sales, Design & Engineering, Operations, Executive; the four
+small departments fold into a grey "Other") validated as CVD-safe on both
+surfaces with the dataviz palette validator — and shows a department dropdown.
+Pick one department and only pairs with movers in it stay on the map, drawn in
+its colour and wider, so "where do the energy people come from" is a single
+selection. The dash pattern keeps meaning what it did (solid same tier, dashed
+another tier, dotted across groups), so colour says *which department* and
+dash says *from which world*. Switching to department mode turns the
+talent-flow lines on. The dropdown and the matrix overlay's department filter
+are one state. Each company panel also gains **By department**: for each
+department, where its people came from — tracked or not — e.g. "Development &
+Real Estate ← outside · other 7 · Real estate & industrial developer 3".
+
 **Every line type has its own switch** (2026-09-09) in the Lines key, plus
 "all on / all off". A type that is off is not drawn, does not count toward
 "connected", and drops out of focus rings — so "only leases" or "only

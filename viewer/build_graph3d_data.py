@@ -197,10 +197,11 @@ for m in moves:
     hires_from.setdefault(m["to_id"], {}); hires_from[m["to_id"]][m["from_name"]] = hires_from[m["to_id"]].get(m["from_name"], 0) + 1
     if m["from_id"]:
         alumni_at.setdefault(m["from_id"], {}); alumni_at[m["from_id"]][m["to_name"]] = alumni_at[m["from_id"]].get(m["to_name"], 0) + 1
-flow_pairs = {}
+flow_pairs, flow_fns = {}, {}
 for m in moves:
     if m["from_id"] and m["from_id"] in node_ids:
         flow_pairs.setdefault((m["from_id"], m["to_id"]), []).append(m["person"])
+        fc = flow_fns.setdefault((m["from_id"], m["to_id"]), collections.Counter()); fc[m.get("function") or "Miscellaneous"] += 1
 flow_meta = {}
 for m in moves:
     if m["from_id"] and m["from_id"] in node_ids: flow_meta.setdefault((m["from_id"], m["to_id"]), m)
@@ -208,9 +209,14 @@ for (a, b), names in flow_pairs.items():
     m = flow_meta[(a, b)]
     # solid = same tier, dashed = another tier inside the same group, dotted = across groups (adjacent/investor <-> core)
     style = "solid" if m["from_tier"] == m["to_tier"] else ("dashed" if m["flow_class"] in ("core → core", "adjacent → adjacent") else "dotted")
+    fc = flow_fns[(a, b)]
     links.append({"source": a, "target": b, "type": "talent_flow", "style": style, "count": len(names),
                   "flow_class": m["flow_class"], "from_tier": m["from_label"], "to_tier": m["to_label"],
-                  "detail": f"{len(names)} moved {m['from_label']} → {m['to_label']}: " + ", ".join(sorted(names)[:8]) + (" …" if len(names) > 8 else "")})
+                  # departments the movers work in now -- the page colours the line by the
+                  # biggest one and can filter to a single department
+                  "fn_counts": dict(fc.most_common()), "top_fn": fc.most_common(1)[0][0],
+                  "detail": f"{len(names)} moved {m['from_label']} → {m['to_label']}: " + ", ".join(sorted(names)[:8]) + (" …" if len(names) > 8 else "")
+                            + " · by department: " + ", ".join(f"{f} {n}" for f, n in fc.most_common())})
 for cid, ppl in people.items():
     ppl.sort(key=lambda x: (x["rank"], x["name"]))
     for p in ppl:
@@ -230,6 +236,10 @@ for cid, ppl in people.items():
         by_tier[m["from_label"]] = by_tier.get(m["from_label"], 0) + 1
     node["hires_by_group"] = by_group
     node["hires_by_tier"] = sorted(by_tier.items(), key=lambda kv: -kv[1])
+    dept_orig = {}
+    for m in mine:
+        dept_orig.setdefault(m.get("function") or "Miscellaneous", collections.Counter())[m["from_label"]] += 1
+    node["dept_origins"] = {f: c.most_common(4) for f, c in sorted(dept_orig.items(), key=lambda kv: -sum(kv[1].values()))}
     node["alumni_at"] = sorted(alumni_at.get(cid, {}).items(), key=lambda kv: -kv[1])[:12]
     node["recent_joiners"] = sum(1 for p in ppl if p["recent"])
     tt = collections.Counter(t for p in ppl for t in ((p.get("assess") or {}).get("top_tier") or []))

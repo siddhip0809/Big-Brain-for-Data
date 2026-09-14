@@ -116,6 +116,13 @@ One file, ~2,000 lines, Three.js r128 from jsdelivr. No bundler.
   switch (show / set apart / hide, default hide), and a per-type on/off for
   every line plus all-on/all-off. A line switched off stops counting toward
   "connected", so it changes the unconnected count and focus rings too.
+- **Talent flow colouring**: `flowMode` ('tier' | 'dept') and `flowDept` (''
+  or a department). In dept mode `linkGroup` keys talent-flow lines by
+  department and `lineMaterial` colours them from `DEPT_SLOTS` (8 validated
+  hues + Other); `linkShown` hides pairs with no movers in the chosen
+  department, so connectivity follows the filter like every other line switch.
+  Builder side: each talent_flow link carries `fn_counts` and `top_fn`; each
+  company carries `dept_origins`.
 
 ## Testing
 
