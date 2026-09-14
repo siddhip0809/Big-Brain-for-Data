@@ -2,7 +2,9 @@
   "id": "trammell-crow-company",
   "type": "company",
   "name": "Trammell Crow Company",
-  "aliases": [],
+  "aliases": [
+    "Tramell Crow Company"
+  ],
   "industry_role": "real estate developer",
   "headquarters": "Dallas, Texas",
   "founded": null,
@@ -15,10 +17,12 @@
   "tags": [],
   "parent_industry": "real_estate",
   "roles": [
-    "real_estate_developer"
+    "real_estate_developer",
+    "developer_operator"
   ],
   "source_lists": [
-    "Real Estate Developers USA"
+    "Real Estate Developers USA",
+    "Data Centre Developer"
   ],
   "dc_exposure_level": "High",
   "list_attributes": {
@@ -27,11 +31,28 @@
       "Noise Category": "Low",
       "Mission Critical / DC Experience": "Yes",
       "DC Exposure Level": "High"
+    },
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
     }
   },
-  "notes": "Siddhi's real-estate sheet note: One of the largest commercial and industrial developers in the US. Highly active in DC campus land development in NoVA, Phoenix, Atlanta, and other hub markets.",
+  "notes": "Siddhi's real-estate sheet note: One of the largest commercial and industrial developers in the US. Highly active in DC campus land development in NoVA, Phoenix, Atlanta, and other hub markets.\n\nMerged 2026-09-14: absorbed duplicate record 'Tramell Crow Company' (tramell-crow-company).",
   "sources": [
-    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-14",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 101.6,
+      "early_stage_mw": 2321.0
+    }
+  }
 }

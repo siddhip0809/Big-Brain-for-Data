@@ -2,7 +2,9 @@
   "id": "colt-data-centre-services",
   "type": "company",
   "name": "Colt Data Centre Services",
-  "aliases": [],
+  "aliases": [
+    "Colt DCS"
+  ],
   "industry_role": "hyperscaler / data center developer",
   "headquarters": null,
   "founded": null,
@@ -15,14 +17,39 @@
     "Hyperscaler",
     "Real Estate Development"
   ],
-  "notes": "Minimal stub record: identified only as the current employer of 5 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Wholly owned by Fidelity Investments since 2015; Japan-focused JV with Mitsui & Co. since 2021.",
+  "notes": "Minimal stub record: identified only as the current employer of 5 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Wholly owned by Fidelity Investments since 2015; Japan-focused JV with Mitsui & Co. since 2021.\n\nMerged 2026-09-14: absorbed duplicate record 'Colt DCS' (colt-dcs).",
   "sources": [
-    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-14",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
   ],
-  "source_lists": []
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 248.1,
+      "early_stage_mw": 182.0
+    },
+    "emea": {
+      "total_mw": 560.5999999999999,
+      "early_stage_mw": 305.4
+    }
+  }
 }

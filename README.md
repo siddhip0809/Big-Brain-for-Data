@@ -39,7 +39,7 @@ is ever silently lost or overwritten.
 
 Real data has started loading. Currently in the brain:
 
-- **1,223 companies** — in two groups, both carried on each record as
+- **1,220 companies** — in two groups, both carried on each record as
   `roles` (see `docs/schema.md`):
   - **726 data-center companies** — Pure Data Centers and STACK
     Infrastructure (active Ward Search client engagements, hand-written

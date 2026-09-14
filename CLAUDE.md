@@ -21,7 +21,7 @@ dependencies beyond `openpyxl` for the spreadsheet importers.
 ## Layout
 
 ```
-data/companies/*.json     1,223 companies. `roles` is the single source of truth for tier.
+data/companies/*.json     1,220 companies. `roles` is the single source of truth for tier.
 data/investors/*.json     124 funds. `investments` lists company ids.
 data/people/*.json        9,280 people. Filename ends in the first 8 chars of the Clockwork id;
                           researched records end in an 8-char hash and carry record_grade "researched".

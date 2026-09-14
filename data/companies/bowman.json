@@ -2,7 +2,9 @@
   "id": "bowman",
   "type": "company",
   "name": "Bowman",
-  "aliases": [],
+  "aliases": [
+    "Bowman Consulting"
+  ],
   "industry_role": "civil land engineering",
   "headquarters": "Reston, Virginia",
   "founded": null,
@@ -30,9 +32,10 @@
     }
   },
   "dc_exposure_level": "Medium",
-  "notes": "Siddhi's sheet note: Land dev heavy. Growing DC site civil practice.",
+  "notes": "Siddhi's sheet note: Land dev heavy. Growing DC site civil practice.\n\nMerged 2026-09-14: absorbed duplicate record 'Bowman Consulting' (bowman-consulting).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Career histories of people in data/people/ (data/derived/talent_flows.csv), 2026-09-13"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-14"
 }
