@@ -1,0 +1,36 @@
+{
+  "id": "337d7b1b-8c3a-49c0-9375-22f99a109da1",
+  "type": "search",
+  "name": "2501D SVP Development",
+  "client_company": "Beale",
+  "client_company_id": "beale",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2024-12-19",
+  "closed_at": "2025-06-09",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": {
+    "person": null,
+    "person_id": null,
+    "title": "2501D SVP Development",
+    "start_date": null
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 818,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

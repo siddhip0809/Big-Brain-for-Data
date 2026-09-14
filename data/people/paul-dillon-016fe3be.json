@@ -1,0 +1,117 @@
+{
+  "id": "paul-dillon-016fe3be",
+  "type": "person",
+  "name": "Paul Dillon",
+  "current_title": "Chief Commercial Officer (CCO)",
+  "current_company": "Yondr",
+  "linkedin": "https://www.linkedin.com/in/paul-dillon-26154229",
+  "location": "Cascais, Lisbon",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Commercial Officer (CCO) at Yondr, 9/2025 to present; Chief Development Officer at Yondr, 3/2023 to present; Vice President of Development at Yondr, 9/2020 to 3/2023; Development Director at Yondr, 3/2020 to 9/2020; Partner / Co- Founder at Solidus Private Equity / Gemini Data Centers, 1/2014 to 12/2019; Corporate Finance Lawyer at Matheson, 6/2007 to 12/2012; Yondr",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 81,
+      "date_added": "2025-11-12 12:59:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 82,
+      "date_added": "2025-11-12 12:55:49 UTC",
+      "date_updated": "2025-11-21 06:24:47 -0600",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "yondr",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer (CCO)",
+      "company": "Yondr",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Development Officer",
+      "company": "Yondr",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Development",
+      "company": "Yondr",
+      "start": "9/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Development Director",
+      "company": "Yondr",
+      "start": "3/2020",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Partner / Co- Founder",
+      "company": "Solidus Private Equity / Gemini Data Centers",
+      "start": "1/2014",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Corporate Finance Lawyer",
+      "company": "Matheson",
+      "start": "6/2007",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "raw": "Yondr"
+    }
+  ],
+  "location_norm": {
+    "city": "Cascais",
+    "region": "Lisbon",
+    "country": "Portugal",
+    "group": "Portugal"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

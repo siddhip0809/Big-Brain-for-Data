@@ -1,0 +1,82 @@
+{
+  "id": "cody-thornton-5e9729ba",
+  "type": "person",
+  "name": "Cody Thornton",
+  "current_title": "Director, Construction, NA",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/cody-thornton-77573152",
+  "location": "Reno, Nevada",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Construction, NA at Vantage, 4/2025 to present; Development Program Manager at QTS Data Centers, 1/2023 to 4/2025; MEP Superintendent at DPR Construction, 1/2018 to 1/2023; Senior Project Engineer at Webcor Builders, 6/2013 to 1/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 114,
+      "date_added": "2026-07-06 11:05:42 UTC",
+      "date_updated": "2026-07-06 06:05:42 -0500",
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction, NA",
+      "company": "Vantage",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "1/2023",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "MEP Superintendent",
+      "company": "DPR Construction",
+      "start": "1/2018",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Webcor Builders",
+      "start": "6/2013",
+      "end": "1/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Reno",
+    "region": "Nevada",
+    "country": "United States",
+    "group": "Nevada"
+  },
+  "education": [
+    "California State University - East Bay"
+  ],
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

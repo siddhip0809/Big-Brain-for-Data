@@ -1,0 +1,111 @@
+{
+  "id": "chris-jamieson-5b05859c",
+  "type": "person",
+  "name": "Chris Jamieson",
+  "current_title": "Senior Real Estate Development Manager - Data Center Supply Solutions",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/chris-jamieson-82772190",
+  "location": "Austin, Texas",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Real Estate Development Manager - Data Center Supply Solutions at AWS, 5/2025 to present; Senior Transaction Manager - WW Ops, Real Estate - Australia & Singapore at Amazon, 2/2024 to 5/2025; Manager - Capital Transactions at EG Funds, 10/2021 to 9/2023; Project Leasing Executive at Vicinity Centres, 1/2018 to 10/2021; Leasing Executive at Vicinity Centres, 3/2016 to 1/2018; Industrial Sales and Leasing Executive at Knight Frank Australia, 3/2015 to 3/2016; Business Development at Macquarie Group, 7/2013 to 3/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 440,
+      "date_added": "2026-05-13 10:33:53 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Real Estate Development Manager - Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Transaction Manager - WW Ops, Real Estate - Australia & Singapore",
+      "company": "Amazon",
+      "start": "2/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Manager - Capital Transactions",
+      "company": "EG Funds",
+      "start": "10/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Project Leasing Executive",
+      "company": "Vicinity Centres",
+      "start": "1/2018",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Leasing Executive",
+      "company": "Vicinity Centres",
+      "start": "3/2016",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Industrial Sales and Leasing Executive",
+      "company": "Knight Frank Australia",
+      "start": "3/2015",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development",
+      "company": "Macquarie Group",
+      "start": "7/2013",
+      "end": "3/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Austin",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Diploma - Property Investment & Finance, Property Council of Australia, 2019 to 2020",
+    "Bachelor of Economics (BEcon), The University of Western Australia, 2008 to 2013"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Poor",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

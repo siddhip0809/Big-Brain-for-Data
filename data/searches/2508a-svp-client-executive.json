@@ -1,0 +1,31 @@
+{
+  "id": "0dbec280-49f2-443c-b3a3-dc57cb2db63d",
+  "type": "search",
+  "name": "2508A SVP, Client Executive",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2025-09-02",
+  "closed_at": "2025-09-29",
+  "closing_reason": "Internal Hire",
+  "strategy": "Stack Client Executive Grading Table 24.8.25.docx",
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 317,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "global-switch",
+  "type": "company",
+  "name": "Global Switch",
+  "aliases": [],
+  "industry_role": "data center developer",
+  "headquarters": "London",
+  "founded": null,
+  "website": "http://www.globalswitch.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Chinese steelmaker Jiangsu Shagang Group built its stake from 49% (2016) to ~75% (Aug 2019), buying out UK's Reuben Brothers.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/global-switch/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 172.5,
+      "early_stage_mw": 134.0
+    },
+    "emea": {
+      "total_mw": 293.7,
+      "early_stage_mw": 36.0
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "quiddity",
+  "type": "company",
+  "name": "Quiddity",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Houston, Texas",
+  "founded": null,
+  "website": "https://quiddity.com",
+  "linkedin": "https://www.linkedin.com/company/quiddity-engineering/",
+  "headcount": "501 to 1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: Land dev strong. Growing DC site presence in Texas.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

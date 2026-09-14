@@ -1,0 +1,42 @@
+{
+  "id": "96b77e67-eb08-4eec-b963-71fccea1ab87",
+  "type": "search",
+  "name": "Senior Director of Development and Delivery",
+  "client_company": "Colt Data Centre Services",
+  "client_company_id": "colt-data-centre-services",
+  "status": "closed",
+  "project_type": "Contingency",
+  "started_at": "2026-03-31",
+  "closed_at": "2026-05-26",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": {
+    "person": "Peter Morley Hill",
+    "person_id": "ced4924b-d137-4df6-911f-b2879d551c88",
+    "title": "Senior Director of Development and Delivery",
+    "start_date": null
+  },
+  "pipeline": [
+    {
+      "person": "Peter Morley Hill",
+      "clockwork_person_id": "ced4924b-d137-4df6-911f-b2879d551c88",
+      "brain_person_id": "peter-morley-hill-ced4924b",
+      "status": "4b. Offer Accepted",
+      "category": "in-placed",
+      "rank": 1501,
+      "updated_at": "2026-04-10T14:23:01Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 1,
+    "placed": 1,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

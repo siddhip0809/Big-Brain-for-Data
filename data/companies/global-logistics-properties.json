@@ -1,0 +1,37 @@
+{
+  "id": "global-logistics-properties",
+  "type": "company",
+  "name": "Global Logistics Properties",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Singapore",
+  "founded": null,
+  "website": "https://www.glprop.com",
+  "linkedin": "https://www.linkedin.com/company/global-logistic-properties/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Medium",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Global logistics and industrial real estate. Has DC investments in Asia. Some relevance for international DC land strategy.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

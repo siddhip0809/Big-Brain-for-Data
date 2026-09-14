@@ -1,0 +1,118 @@
+{
+  "id": "michael-may-5f7b3a0b",
+  "type": "person",
+  "name": "Michael May",
+  "current_title": "Senior Real Estate Development Manager, Data Center Supply Solutions (EMEA)",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/michael-may-27292817b",
+  "location": "Frankfurt, Hessen",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Real Estate Development Manager, Data Center Supply Solutions (EMEA) at AWS, 3/2025 to present; Senior Vice President at Silvertip Capital, 10/2023 to 2/2025; Technical Senior Investment Manager at Ardian, 10/2021 to 10/2023; Senior Asset Manager / Leader Technical Asset Management Germany, Luxembourg, Scandinavia and NL at Curzon Advisers, 10/2015 to 9/2021; Director Technical Asset Management at GE Real Estate, 3/2012 to 9/2015; Technical Asset Manager at Fortress Investment Group, 8/2006 to 2/2012; Projekt Manager at Arcadis Homola, 6/2002 to 7/2006; Project Manager at WPV Baubetreuung, 6/2000 to 5/2002; AWS; Silvertip Capital",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Years Experience",
+      "rank": 142,
+      "date_added": "2026-07-10 10:38:49 UTC",
+      "date_updated": "2026-07-30 01:40:17 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Real Estate Development Manager, Data Center Supply Solutions (EMEA)",
+      "company": "AWS",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Silvertip Capital",
+      "start": "10/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Technical Senior Investment Manager",
+      "company": "Ardian",
+      "start": "10/2021",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Asset Manager / Leader Technical Asset Management Germany, Luxembourg, Scandinavia and NL",
+      "company": "Curzon Advisers",
+      "start": "10/2015",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Director Technical Asset Management",
+      "company": "GE Real Estate",
+      "start": "3/2012",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Technical Asset Manager",
+      "company": "Fortress Investment Group",
+      "start": "8/2006",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Projekt Manager",
+      "company": "Arcadis Homola",
+      "start": "6/2002",
+      "end": "7/2006",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "WPV Baubetreuung",
+      "start": "6/2000",
+      "end": "5/2002",
+      "current": false
+    },
+    {
+      "raw": "AWS"
+    },
+    {
+      "raw": "Silvertip Capital"
+    }
+  ],
+  "location_norm": {
+    "city": "Frankfurt",
+    "region": "Hesse",
+    "country": "Germany",
+    "group": "Germany"
+  },
+  "education": [
+    "Diplom-Bauingenieur (Dipl.Ing.), Bauingenieurwesen, Technische Universität Darmstadt"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

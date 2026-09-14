@@ -1,0 +1,99 @@
+{
+  "id": "robert-oconnor-d31b4b26",
+  "type": "person",
+  "name": "Robert Oconnor",
+  "current_title": "Area Cost Lead",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/robertoconnormrics",
+  "location": "Arligton, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Area Cost Lead at Google, 5/2026 to present; Cost Management Metro Lead - Data Center Construction at Microsoft, 1/2025 to 5/2026; Cost Management Campus Lead - Data Center Construction at Linesight, 12/2022 to 1/2025;  Program Cost Manager (Capital Planning) at Linesight, 5/2018 to 11/2022; Quantity Surveyor at Linesight, 10/2016 to 6/2018; Quantity Surveyor at Ballymore, 1/2013 to 10/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 137,
+      "date_added": "2026-08-10 10:42:45 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Area Cost Lead",
+      "company": "Google",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Management Metro Lead - Data Center Construction",
+      "company": "Microsoft",
+      "start": "1/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Management Campus Lead - Data Center Construction",
+      "company": "Linesight",
+      "start": "12/2022",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Program Cost Manager (Capital Planning)",
+      "company": "Linesight",
+      "start": "5/2018",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Linesight",
+      "start": "10/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Ballymore",
+      "start": "1/2013",
+      "end": "10/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Arligton",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

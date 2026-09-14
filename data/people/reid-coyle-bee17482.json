@@ -1,0 +1,61 @@
+{
+  "id": "reid-coyle-bee17482",
+  "type": "person",
+  "name": "Reid Coyle",
+  "current_title": "Senior Consultant, Estimation",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/reidcoyle",
+  "location": "Charleston, South Carolina",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Consultant, Estimation at Turner & Townsend, 9/2023 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 562,
+      "date_added": "2026-08-27 11:02:34 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Consultant, Estimation",
+      "company": "Turner & Townsend",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Charleston",
+    "region": "South Carolina",
+    "country": "United States",
+    "group": "South Carolina"
+  },
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

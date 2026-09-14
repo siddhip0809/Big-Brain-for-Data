@@ -1,0 +1,97 @@
+{
+  "id": "chad-lewis-50a08fa9",
+  "type": "person",
+  "name": "Chad Lewis",
+  "current_title": "MEP Preconstruction Manager - Mission Critical",
+  "current_company": "Layton Construction",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/chadlewispe",
+  "seniority": null,
+  "industry_segment": "Data Centre;Mission Critical",
+  "career_history": "MEP Preconstruction Manager - Mission Critical at Layton Construction, 1/2025 to present; MEP Preconstruction Manager at Balfour Beatty US, 2/2017 to 12/2024; MEP Preconstruction Manager  at Turner Construction, 5/2014 to 1/2017; Electrical Preconstruction at The Brandt Companies, 7/2004 to 5/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 33,
+      "date_added": "2026-08-14 14:55:48 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 109,
+      "date_added": "2026-08-07 10:16:57 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "MEP Preconstruction Manager - Mission Critical",
+      "company": "Layton Construction",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "MEP Preconstruction Manager",
+      "company": "Balfour Beatty US",
+      "start": "2/2017",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "MEP Preconstruction Manager ",
+      "company": "Turner Construction",
+      "start": "5/2014",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Electrical Preconstruction",
+      "company": "The Brandt Companies",
+      "start": "7/2004",
+      "end": "5/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0,
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "pete-jackson-0607cc73",
+  "type": "person",
+  "name": "Pete Jackson",
+  "current_title": "Project Control - Data Center Delivery",
+  "current_company": "Google",
+  "location": "Baltimore, Washington DC",
+  "linkedin": "https://www.linkedin.com/in/jacksonpetera",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Control - Data Center Delivery at Google, 1/2020 to present; Head of Project  Services and Business Operations at AstraZeneca, 6/2015 to 1/2020; Head of Project Control at AstraZeneca, 6/2013 to 5/2015; Associate Director - Cost and Schedule Engineering at MedImmune, 6/2009 to 5/2013; Principal at PMA Consultants, 8/1999 to 5/2009; Manager of Project Controls at Roche, 1997 to 1999; Cost and Schedule Engineer at Exxon, 8/1993 to 2/1995; Cost and Schedule Engineer / Project Controls at Exxon, 1/1991 to 1/1997",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 209,
+      "date_added": "2026-08-26 12:57:38 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 128,
+      "date_added": "2026-08-10 07:56:19 UTC",
+      "date_updated": "2026-08-26 07:57:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "google",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Control - Data Center Delivery",
+      "company": "Google",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Project  Services and Business Operations",
+      "company": "AstraZeneca",
+      "start": "6/2015",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Head of Project Control",
+      "company": "AstraZeneca",
+      "start": "6/2013",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Cost and Schedule Engineering",
+      "company": "MedImmune",
+      "start": "6/2009",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "PMA Consultants",
+      "start": "8/1999",
+      "end": "5/2009",
+      "current": false
+    },
+    {
+      "title": "Manager of Project Controls",
+      "company": "Roche",
+      "start": "1997",
+      "end": "1999",
+      "current": false
+    },
+    {
+      "title": "Cost and Schedule Engineer",
+      "company": "Exxon",
+      "start": "8/1993",
+      "end": "2/1995",
+      "current": false
+    },
+    {
+      "title": "Cost and Schedule Engineer / Project Controls",
+      "company": "Exxon",
+      "start": "1/1991",
+      "end": "1/1997",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "education": [
+    "BSE, Industrial & Operations Engineering, University of Michigan, 1986 to 1990"
+  ],
+  "biography": "Experienced and proven capital project development and execution leader. I have developed organizations, work processes, and tools as well as being focused to deliver specific projects with demanding requirements. I have worked across multiple industries, quickly developing the unique knowledge needed to be successful. During my career, I've been fortunate to have worked and lived in multiple locations in the US, Europe and Asia. \r\n\r\nSpecialties: \r\nProject Management \r\nProject Controls\r\nCost Engineering and Cost Estimating\r\nPlanning & Scheduling \r\nProject Financial Management\r\nOwner's Representative\r\nRisk Analysis\r\n\r\nIndustry Experience:\r\nData Center/Mission Critical\r\nBio-Pharmaceutical\r\nHospitality\r\nPetrochemical \r\nCommercial",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

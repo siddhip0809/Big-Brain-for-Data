@@ -1,0 +1,39 @@
+{
+  "id": "recurrent-energy",
+  "type": "company",
+  "name": "Recurrent Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Austin, Texas",
+  "founded": null,
+  "website": "https://www.recurrentenergy.com",
+  "linkedin": "https://www.linkedin.com/company/recurrent-energy/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Utility-scale solar and storage developer. Subsidiary of Canadian Solar. Operates in CAISO, ERCOT, PJM, MISO.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

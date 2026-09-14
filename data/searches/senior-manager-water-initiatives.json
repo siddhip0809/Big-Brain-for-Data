@@ -1,0 +1,36 @@
+{
+  "id": "732abdfb-c90c-4433-8256-135ca9003bff",
+  "type": "search",
+  "name": "Senior Manager, Water Initiatives",
+  "client_company": "Rowan Digital Infrastructure",
+  "client_company_id": "rowan-digital-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2024-10-07",
+  "closed_at": "2025-05-12",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": "Nitin Rathod",
+  "job_requirements": null,
+  "placement": {
+    "person": "Chris Kurtz",
+    "person_id": null,
+    "title": "Senior Manager, Water Initiatives",
+    "start_date": null
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 281,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

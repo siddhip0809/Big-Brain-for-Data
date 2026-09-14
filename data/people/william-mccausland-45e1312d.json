@@ -1,0 +1,121 @@
+{
+  "id": "william-mccausland-45e1312d",
+  "type": "person",
+  "name": "William McCausland",
+  "current_title": "Senior Vice President, Data Center Utilities",
+  "current_company": "PowerHouse Data Centers",
+  "linkedin": "https://www.linkedin.com/in/williammccausland",
+  "location": "Richmond, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Vice President, Data Center Utilities at PowerHouse Data Centers, 1/2026 to present; Vice President, Data Center Utilities at American Real Estate Partners, 5/2025 to present; Director, Data Center Utilities at American Real Estate Partners, 5/2024 to 5/2025; Transmission Strategic Projects Advisor at Dominion, 1/2024 to 5/2024; Manager of Innovation & Commercialization at Dominion, 3/2022 to 1/2024; Innovation Consultant at Dominion, 12/2019 to 3/2022; Sr. Economic Development Market Specialist at Dominion, 4/2015 to 12/2019; Customer Projects Designer III-Distribution Design at Dominion, 12/2010 to 4/2015; Financial Advisor at Edward Jones, 5/2008 to 12/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 91,
+      "date_added": "2026-01-27 08:59:28 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "powerhouse-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Data Center Utilities",
+      "company": "PowerHouse Data Centers",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Data Center Utilities",
+      "company": "American Real Estate Partners",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Data Center Utilities",
+      "company": "American Real Estate Partners",
+      "start": "5/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Transmission Strategic Projects Advisor",
+      "company": "Dominion",
+      "start": "1/2024",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Manager of Innovation & Commercialization",
+      "company": "Dominion",
+      "start": "3/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Innovation Consultant",
+      "company": "Dominion",
+      "start": "12/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Sr. Economic Development Market Specialist",
+      "company": "Dominion",
+      "start": "4/2015",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Customer Projects Designer III-Distribution Design",
+      "company": "Dominion",
+      "start": "12/2010",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Financial Advisor",
+      "company": "Edward Jones",
+      "start": "5/2008",
+      "end": "12/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Richmond",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Bachelor of Science (BS), Finance, Business Management, Old Dominion University, 2003 to 2008"
+  ],
+  "biography": "Currently leading all power acquisition/power procurement across the PowerHouse Data center portfolio. Responsible for the execution of substation, transmission, and power distribution projects for more that 5GW of data center projects.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

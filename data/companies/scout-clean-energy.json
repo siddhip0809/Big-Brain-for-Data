@@ -1,0 +1,39 @@
+{
+  "id": "scout-clean-energy",
+  "type": "company",
+  "name": "Scout Clean Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Boulder, Colorado",
+  "founded": null,
+  "website": "https://www.scoutcleanenergy.com",
+  "linkedin": "https://www.linkedin.com/company/scout-clean-energy/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Wind, solar, and storage developer. Backed by Brookfield. Operates across MISO, SPP, ERCOT, WECC.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

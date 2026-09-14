@@ -1,0 +1,123 @@
+{
+  "id": "edward-bissell-0a61d008",
+  "type": "person",
+  "name": "Edward Bissell",
+  "current_title": "Sales Director",
+  "current_company": "Stellium Data Centres - The Data Meridian",
+  "linkedin": "https://www.linkedin.com/in/edward-bissell-145ba915",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director at Stellium Data Centres - The Data Meridian, 7/2022 to present; International Data Centre Sales, Iron Mountain UK Ltd at Iron Mountian, 5/2020 to 7/2022; Sales Manager at Next Generation Data, 12/2016 to 5/2020; Enterprise Business Manager at China Telecom Europe, 9/2014 to 12/2016; Business Development Manager at Singtel, 3/2013 to 9/2014; Account Director at euNetworks, 6/2009 to 2/2013; Regional Corporate Sales Manager at Daimler, 3/2007 to 8/2009; Corporate sales manager at Ipitomi, 2004 to 2007; Account Manager at Data Return, 4/1999 to 7/2004; Trader support at Tullett Prebon, 7/1994 to 2/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 213,
+      "date_added": "2026-08-03 06:56:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "stellium-data-centres-the-data-meridian",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Stellium Data Centres - The Data Meridian",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "International Data Centre Sales, Iron Mountain UK Ltd",
+      "company": "Iron Mountian",
+      "start": "5/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Next Generation Data",
+      "start": "12/2016",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Enterprise Business Manager",
+      "company": "China Telecom Europe",
+      "start": "9/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Singtel",
+      "start": "3/2013",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "euNetworks",
+      "start": "6/2009",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Regional Corporate Sales Manager",
+      "company": "Daimler",
+      "start": "3/2007",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Corporate sales manager",
+      "company": "Ipitomi",
+      "start": "2004",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Data Return",
+      "start": "4/1999",
+      "end": "7/2004",
+      "current": false
+    },
+    {
+      "title": "Trader support",
+      "company": "Tullett Prebon",
+      "start": "7/1994",
+      "end": "2/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

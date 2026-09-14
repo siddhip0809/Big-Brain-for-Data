@@ -1,0 +1,99 @@
+{
+  "id": "alley-labossiere-099d2a3b",
+  "type": "person",
+  "name": "Alley LaBossiere",
+  "current_title": "Project Manager",
+  "current_company": "HITT Contracting",
+  "linkedin": "https://www.linkedin.com/in/alabossiere",
+  "location": "Washington, DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Manager at HITT Contracting, 11/2024 to present; Assistant Project Manager - Mission Critical at HITT Contracting, 5/2022 to 11/2024; Assistant Project Manger - Preconstruction at HITT Contracting, 2/2022 to 5/2022; Project Engineer - Preconstruction at HITT Contracting, 8/2021 to 2/2022; Project Engineer at HITT Contracting, 7/2020 to 7/2021; Construction Intern at HITT Contracting, 5/2019 to 8/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 50,
+      "date_added": "2026-08-05 09:02:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hitt-contracting",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Project Manager - Mission Critical",
+      "company": "HITT Contracting",
+      "start": "5/2022",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manger - Preconstruction",
+      "company": "HITT Contracting",
+      "start": "2/2022",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Preconstruction",
+      "company": "HITT Contracting",
+      "start": "8/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "HITT Contracting",
+      "start": "7/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Intern",
+      "company": "HITT Contracting",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

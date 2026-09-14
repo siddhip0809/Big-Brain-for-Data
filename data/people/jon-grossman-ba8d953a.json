@@ -1,0 +1,147 @@
+{
+  "id": "jon-grossman-ba8d953a",
+  "type": "person",
+  "name": "Jon Grossman",
+  "current_title": "Manager, Sales Development",
+  "current_company": "CoreSite",
+  "linkedin": "https://www.linkedin.com/in/jon-grossman-47253051",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Manager, Sales Development at CoreSite, 1/2025 to present; Director of Business Development at Optimize Practice Services, 10/2023 to 1/2025; SDR Manager at Matillion, 7/2022 to 5/2023; Business Development Manager at agencyMAX, 1/2022 to 7/2022; Director of Business Development at Plexie, 1/2019 to 8/2021; Business Development Analyst at Xyleme, 5/2018 to 8/2021; Associate Account Executive at Xactly, 5/2016 to 8/2017; Senior Sales Development Representative - Strategic Enterprise Accounts at Xactly, 2/2016 to 4/2016; Account Development Representative at Xactly, 2/2015 to 1/2016; Logistics Account Executive - Transportation Specialist at Total Quality Logistics, 10/2013 to 1/2015; Certified Personal Trainer at Wellbridge, 1/2012 to 10/2013; Personal Trainer at Georgia Southern University, 1/2010 to 12/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 176,
+      "date_added": "2026-01-22 14:23:56 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "coresite",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Sales Development",
+      "company": "CoreSite",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Business Development",
+      "company": "Optimize Practice Services",
+      "start": "10/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "SDR Manager",
+      "company": "Matillion",
+      "start": "7/2022",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "agencyMAX",
+      "start": "1/2022",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director of Business Development",
+      "company": "Plexie",
+      "start": "1/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Business Development Analyst",
+      "company": "Xyleme",
+      "start": "5/2018",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Account Executive",
+      "company": "Xactly",
+      "start": "5/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Development Representative - Strategic Enterprise Accounts",
+      "company": "Xactly",
+      "start": "2/2016",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Account Development Representative",
+      "company": "Xactly",
+      "start": "2/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Logistics Account Executive - Transportation Specialist",
+      "company": "Total Quality Logistics",
+      "start": "10/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Certified Personal Trainer",
+      "company": "Wellbridge",
+      "start": "1/2012",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Personal Trainer",
+      "company": "Georgia Southern University",
+      "start": "1/2010",
+      "end": "12/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of Science (BS), Kinesiology and Exercise Science, Georgia Southern University, 2010 to 2011",
+    "Associate of Science (A.S.), Physical Therapy Technician/Assistant, Mercer County Community College, 2007 to 2010"
+  ],
+  "biography": "I help enterprise clients enhance their IT infrastructure with tailored data center, colocation, and interconnection solutions. I specialize in optimizing performance, driving growth, and enabling seamless connectivity to support digital transformation. Let's connect!",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Poor",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

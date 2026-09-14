@@ -1,0 +1,143 @@
+{
+  "id": "lily-techa-0f053edf",
+  "type": "person",
+  "name": "Lily Techa",
+  "current_title": "Project Estimator",
+  "current_company": "Hensel Phelps",
+  "linkedin": "https://www.linkedin.com/in/lilytecha",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Estimator at Hensel Phelps, 10/2025 to present; Lead Estimator at Hensel Phelps, 10/2023 to 10/2025; Project Engineer at Hensel Phelps, 9/2021 to 9/2023; Office & Project Engineer at Hensel Phelps, 10/2018 to 4/2019; Office Engineer at Hensel Phelps, 8/2016 to 10/2018; Office & Field Engineer at Hensel Phelps, 8/2015 to 8/2016; Field Engineer at Hensel Phelps, 1/2015 to 3/2015; Construction Intern at HR Green, 5/2014 to 8/2014; Civil Engineering Intern at Illinois Department of Transportation, 5/2013 to 8/2013; CEE Engineering Learning Assistant at University of Illinois at Urbana-Champaign, 4/2013 to 12/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 28,
+      "date_added": "2026-08-04 06:50:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 28,
+      "date_added": "2026-08-04 06:50:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Estimator",
+      "company": "Hensel Phelps",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "10/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "9/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Office & Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "10/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "8/2016",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Office & Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "8/2015",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "1/2015",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Construction Intern",
+      "company": "HR Green",
+      "start": "5/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Civil Engineering Intern",
+      "company": "Illinois Department of Transportation",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "CEE Engineering Learning Assistant",
+      "company": "University of Illinois at Urbana-Champaign",
+      "start": "4/2013",
+      "end": "12/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Civil and Environmental Engineering, Civil Engineering, National University of Singapore, 2013 to 2013",
+    "Civil and Environmental Engineering, Civil Engineering, University of Illinois at Urbana-Champaign, 2011 to 2014"
+  ],
+  "biography": "I am a Project Estimator with Hensel Phelps in the Rocky Mountain Region. Prior to my…",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

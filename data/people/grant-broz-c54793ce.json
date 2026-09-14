@@ -1,0 +1,129 @@
+{
+  "id": "grant-broz-c54793ce",
+  "type": "person",
+  "name": "Grant Broz",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Ryan Companies US",
+  "location": "Anoka, Minnesota",
+  "linkedin": "https://www.linkedin.com/in/grant-broz-5568a9158",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at Ryan Companies US, 5/2024 to present; Associate at Currie & Brown, 1/2024 to 5/2024; Senior Estimator at Currie & Brown, 8/2022 to 1/2024; Construction Estimator at Currie & Brown, 3/2020 to 8/2022; HVAC Estimator at Metro Heating & Cooling, 4/2018 to 3/2020; Home Mortgage Consultant at Wells Fargo Home Mortgage, 6/2013 to 3/2020; MEP Apprentice at Bethel University, 5/2009 to 5/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 262,
+      "date_added": "2026-08-26 13:22:21 UTC",
+      "date_updated": "2026-08-26 08:23:44 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 335,
+      "date_added": "2026-08-13 13:27:53 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 335,
+      "date_added": "2026-08-13 13:27:53 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "ryan-companies-us-inc",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Ryan Companies US",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "1/2024",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Currie & Brown",
+      "start": "8/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Currie & Brown",
+      "start": "3/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "HVAC Estimator",
+      "company": "Metro Heating & Cooling",
+      "start": "4/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Home Mortgage Consultant",
+      "company": "Wells Fargo Home Mortgage",
+      "start": "6/2013",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "MEP Apprentice",
+      "company": "Bethel University",
+      "start": "5/2009",
+      "end": "5/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Anoka",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

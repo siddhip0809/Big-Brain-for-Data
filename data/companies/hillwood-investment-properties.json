@@ -1,0 +1,50 @@
+{
+  "id": "hillwood-investment-properties",
+  "type": "company",
+  "name": "Hillwood Investment Properties",
+  "aliases": [
+    "Hillwood Investment Properties, L.P."
+  ],
+  "industry_role": "real estate / industrial developer",
+  "headquarters": "Dallas, Texas",
+  "founded": null,
+  "website": "https://www.hillwood.com",
+  "linkedin": "https://www.linkedin.com/company/hillwood/",
+  "headcount": "501-1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers",
+    "Real Estate Developers USA"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Industrial Developer",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "High"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Already in RE list. Ross Perot Jr's firm. Active developer of large master-planned industrial parks. Some DC campus land development. Strong large-site permitting team.\n\nMerged 2026-09-09: absorbed duplicate record 'Hillwood Investment Properties, L.P.' (hillwood-investment-properties-l-p).",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

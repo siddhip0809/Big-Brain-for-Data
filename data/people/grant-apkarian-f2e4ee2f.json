@@ -1,0 +1,134 @@
+{
+  "id": "grant-apkarian-f2e4ee2f",
+  "type": "person",
+  "name": "Grant Apkarian",
+  "current_title": "Preconstruction Director - Mission Critical",
+  "current_company": "McCarthy Building Companies",
+  "location": "Dallas, Texas",
+  "linkedin": "https://www.linkedin.com/in/grant-apkarian-93036b3b",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Preconstruction Director - Mission Critical at McCarthy Building Companies, 6/2025 to present; Head of Preconstruction (Commercial) at McCarthy Building Companies, 8/2022 to 6/2025; Preconstruction Director at McCarthy Building Companies, 10/2019 to 8/2022; Preconstruction Manager at McCarthy Building Companies, 7/2016 to 10/2019; Sr. Estimator at McCarthy Building Companies, 2/2014 to 7/2016; Sr. Estimator at McCarthy Building Companies, 10/2013 to 1/2014; Estimator at McCarthy Building Companies, 7/2009 to 10/2013; Estimating Intern at McCarthy Building Companies, 10/2008 to 7/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 175,
+      "date_added": "2026-08-21 15:22:28 UTC",
+      "date_updated": "2026-08-21 10:27:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 412,
+      "date_added": "2026-08-21 11:23:17 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 412,
+      "date_added": "2026-08-21 11:23:17 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "mccarthy-building-companies",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Director - Mission Critical",
+      "company": "McCarthy Building Companies",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Preconstruction (Commercial)",
+      "company": "McCarthy Building Companies",
+      "start": "8/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Director",
+      "company": "McCarthy Building Companies",
+      "start": "10/2019",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "McCarthy Building Companies",
+      "start": "7/2016",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "2/2014",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "10/2013",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "7/2009",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "McCarthy Building Companies",
+      "start": "10/2008",
+      "end": "7/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Arts, Business Administration, California State University, Fullerton, 2005 to 2009"
+  ],
+  "biography": "Experienced Preconstruction Director with a demonstrated history of working in the construction industry. Skilled in Budgeting, Value Engineering, Cost Management, Contract Negotiations and Managing Subcontractors.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

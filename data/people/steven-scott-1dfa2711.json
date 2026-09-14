@@ -1,0 +1,114 @@
+{
+  "id": "steven-scott-1dfa2711",
+  "type": "person",
+  "name": "Steven Scott",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/steven-scott-7a945b47",
+  "location": "Columbus, Ohio",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at Vantage, 8/2026 to present; Pre Construction Manager at AWS, 12/2024 to 8/2026; Construction Manager at AWS, 6/2023 to 12/2024; Project Manager at Abercrombie & Fitch, 1/2022 to 6/2023; MEP Project Engineer at Turner Construction, 8/2018 to 12/2021; Mechanical Field Engineer at Kokosing Industrial, 8/2017 to 8/2018; Field Engineer at Kiewit, 1/2014 to 8/2017; Intern Field Engineer at Kiewit, 8/2012 to 12/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 521,
+      "date_added": "2026-08-26 11:08:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Vantage",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Pre Construction Manager",
+      "company": "AWS",
+      "start": "12/2024",
+      "end": "8/2026",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "6/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Abercrombie & Fitch",
+      "start": "1/2022",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "MEP Project Engineer",
+      "company": "Turner Construction",
+      "start": "8/2018",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Mechanical Field Engineer",
+      "company": "Kokosing Industrial",
+      "start": "8/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Kiewit",
+      "start": "1/2014",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Intern Field Engineer",
+      "company": "Kiewit",
+      "start": "8/2012",
+      "end": "12/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "education": [
+    "BS Construction Systems Management, The Ohio State University, 2009 to 2013"
+  ],
+  "biography": "Experienced Construction Manager with a demonstrated history of working in the construction industry. Skilled in Process Scheduler, AutoCAD, Microsoft Excel, Microsoft Word, and Project Estimation. Strong engineering professional with a BS focused in Construction Systems Management from The Ohio State University.",
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

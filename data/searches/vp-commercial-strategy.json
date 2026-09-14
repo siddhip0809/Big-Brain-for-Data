@@ -1,0 +1,27 @@
+{
+  "id": "ca1e3bc3-1083-48e0-86ac-f6b61dc10db2",
+  "type": "search",
+  "name": "VP Commercial Strategy",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "on_hold",
+  "project_type": "Retained",
+  "started_at": "2025-11-21",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

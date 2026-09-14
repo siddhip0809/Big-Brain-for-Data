@@ -1,0 +1,119 @@
+{
+  "id": "matthew-rasmussen-477ac252",
+  "type": "person",
+  "name": "Matthew Rasmussen",
+  "current_title": "Senior Estimator",
+  "current_company": "Hensel Phelps",
+  "location": "Greeley, Colorado",
+  "linkedin": "https://www.linkedin.com/in/matthew-rasmussen-29629114",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Hensel Phelps, 8/2005 to present; Lead Estimator at Hensel Phelps, 1/2004 to 8/2005; Estimator at Hensel Phelps, 4/2003 to 1/2004; Project Engineer at Hensel Phelps, 7/2000 to 4/2003; Field Engineer at Hensel Phelps, 6/1997 to 6/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 32,
+      "date_added": "2026-08-14 14:55:48 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 120,
+      "date_added": "2026-08-07 14:49:51 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 120,
+      "date_added": "2026-08-07 14:49:51 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "8/2005",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "1/2004",
+      "end": "8/2005",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Hensel Phelps",
+      "start": "4/2003",
+      "end": "1/2004",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "7/2000",
+      "end": "4/2003",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "6/1997",
+      "end": "6/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Greeley",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, Construction Management, Colorado State University, 1993 to 1997"
+  ],
+  "biography": "As Senior Estimator, Mr. Rasmussen is a \"cost management representative\" who assists in establishing preliminary budgets and final cost estimates. He is experienced in all aspects of procurement for hard bid, conceptual, and design-build projects; as well as preconstruction cost controls involving cost estimating, cost analysis, and value engineering. He has performed cost estimates for all phases of design (schematic design, design development, and construction documents) and assists the total team (owner, designer, builder, and user) in achieving the common goal of completing projects within budget and without sacrificing quality.\r\n\r\nSpecialties:\r\n Military Projects,\r\nParking Garages,\r\nResidential High Rise Projects,\r\nHotels,\r\nOffice Buildings,\r\nAirports,\r\nMedical,\r\nMission Critical, \r\nData Center\r\nand other large commercial projects",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

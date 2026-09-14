@@ -1,0 +1,106 @@
+{
+  "id": "mike-stockwell-3db0a0ff",
+  "type": "person",
+  "name": "Mike Stockwell",
+  "current_title": "Land Development and Permitting Program Manager",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/mike-stockwell-pe-56266575",
+  "location": "Chicago, Illinois",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Land Development and Permitting Program Manager at Microsoft, 2/2024 to present; Land Entitlements Manager at Lennar, 5/2023 to 2/2024; Land Development Manager at NVR, 9/2021 to 5/2023; Real Estate Agent at Keller Williams Realty, 4/2019 to 9/2021; Civil/Construction Engineer at Greeley and Hansen, 3/2017 to 9/2021; Civil Engineer at Mackie Consultants, 1/2013 to 3/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 312,
+      "date_added": "2026-04-20 15:51:33 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Land Development and Permitting Program Manager",
+      "company": "Microsoft",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Entitlements Manager",
+      "company": "Lennar",
+      "start": "5/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Land Development Manager",
+      "company": "NVR",
+      "start": "9/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Real Estate Agent",
+      "company": "Keller Williams Realty",
+      "start": "4/2019",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Civil/Construction Engineer",
+      "company": "Greeley and Hansen",
+      "start": "3/2017",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "Mackie Consultants",
+      "start": "1/2013",
+      "end": "3/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Chicago",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "education": [
+    "Bachelor of Science (B.S.), Civil Engineering, Purdue University, 2008 to 2012"
+  ],
+  "biography": "Land Development at Microsoft",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "hyperscaler_equivalent_seniority": "Director",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

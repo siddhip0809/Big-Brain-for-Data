@@ -1,0 +1,156 @@
+{
+  "id": "soumaya-graine-f7cdbb6d",
+  "type": "person",
+  "name": "Soumaya Graine",
+  "current_title": "Vice President, Leasing",
+  "current_company": "Yondr",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/soumaya-graine",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Leasing at Yondr, 9/2025 to present; Strategic Negotiations Lead at Yondr, 10/2022 to 9/2025; Board Member at WeForest, 1/2022 to present; Global Corporate Transactions, Mergers and Acquisitions at GDF SUEZ, 4/2021 to 10/2022; Counsel, Global Corporate Transactions, Mergers and Acquisitions at GDF SUEZ, 4/2021 to 10/2022; Project Development and Finance at GDF SUEZ, 10/2016 to 4/2021; Legal Counsel, Project Development and Finance at GDF SUEZ, 10/2016 to 4/2021; Legal Counsel at Jacobs, 8/2013 to 10/2016; Counsel at Jacobs, 8/2013 to 10/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "2b. Pitch Call Scheduled",
+      "rank": 14,
+      "date_added": "2026-08-11 11:51:39 UTC",
+      "date_updated": "2026-08-11 07:08:46 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 59,
+      "date_added": "2026-07-08 17:34:09 UTC",
+      "date_updated": "2026-08-11 06:51:38 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 83,
+      "date_added": "2025-11-12 13:00:25 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "yondr",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Leasing",
+      "company": "Yondr",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Negotiations Lead",
+      "company": "Yondr",
+      "start": "10/2022",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Board Member",
+      "company": "WeForest",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Corporate Transactions, Mergers and Acquisitions",
+      "company": "GDF SUEZ",
+      "start": "4/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Counsel, Global Corporate Transactions, Mergers and Acquisitions",
+      "company": "GDF SUEZ",
+      "start": "4/2021",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Project Development and Finance",
+      "company": "GDF SUEZ",
+      "start": "10/2016",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Legal Counsel, Project Development and Finance",
+      "company": "GDF SUEZ",
+      "start": "10/2016",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Legal Counsel",
+      "company": "Jacobs",
+      "start": "8/2013",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Counsel",
+      "company": "Jacobs",
+      "start": "8/2013",
+      "end": "10/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor of Business Administration (B.B.A.), Finance, Al Akhawayn University",
+    "Executive Education, Leadership Development and Public Policy, University Of Cambridge",
+    "Dean's List, University of Washington, Michael G. Foster School of Business",
+    "Harvard Students in Africa Initiative, Harvard University",
+    "Dean's List, UW Foster School of Business",
+    "Executive Education, Nouveaux Leaders pour un Nouveau Monde, CentraleSupélec",
+    "Executive Education , Nouveaux Leaders pour un Nouveau Monde, CentraleSupélec",
+    "Master's Degree in Business Law - Offered jointly with ISCAE (Casablanca, Morocco), Université Toulouse 1 Capitole",
+    "Executive Education , Leadership Development and Public Policy, University Of Cambridge"
+  ],
+  "biography": "As lead counsel and strategic negotiator, I bring extensive experience in large-scale infrastructure projects across various industries (including phosphate, energy, and data centers) and geographies. My strong track record in advising on global transactions and collaborating effectively with international and multi-disciplinary teams throughout all stages of the project life cycle - from development, financing, construction, operation, to refinancing and corporate M&A, has enabled me to lead successful negotiations with key stakeholders and play a vital role in shaping business strategy and growth.\n\nI am deeply passionate about contributing to a more sustainable and equitable future for all. As a WeForest trustee, I am committed to supporting the organization's efforts to restore forest ecosystems and improve the livelihoods of local communities to mitigate the effects of climate change.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
+  }
+}

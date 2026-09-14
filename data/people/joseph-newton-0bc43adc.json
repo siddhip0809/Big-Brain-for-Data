@@ -1,0 +1,106 @@
+{
+  "id": "joseph-newton-0bc43adc",
+  "type": "person",
+  "name": "Joseph Newton",
+  "current_title": "Director, Utility Connections",
+  "current_company": "Aligned Data Centers",
+  "linkedin": "https://www.linkedin.com/in/joseph-newton-711040152",
+  "location": "Ashburn, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Utility Connections at Aligned Data Centers, 2/2026 to present; Manager, Strategy & Development at Aligned Data Centers, 5/2023 to 2/2026; Electric T&D Projects Manager I at Dominion, 11/2021 to 4/2023; Coordinator, Electric Distribution Design at Dominion, 7/2019 to 11/2021; Customer Projects Designer II at Dominion, 6/2017 to 7/2019; Customer Projects Designer I at Dominion, 6/2015 to 6/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 127,
+      "date_added": "2026-04-22 16:11:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "aligned-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Utility Connections",
+      "company": "Aligned Data Centers",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Strategy & Development",
+      "company": "Aligned Data Centers",
+      "start": "5/2023",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Electric T&D Projects Manager I",
+      "company": "Dominion",
+      "start": "11/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Coordinator, Electric Distribution Design",
+      "company": "Dominion",
+      "start": "7/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Customer Projects Designer II",
+      "company": "Dominion",
+      "start": "6/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Customer Projects Designer I",
+      "company": "Dominion",
+      "start": "6/2015",
+      "end": "6/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Ashburn",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Graduate Certification, Project Management, Old Dominion University",
+    "Bachelor of Science - BS, Geography, Old Dominion University"
+  ],
+  "biography": "Manager, Strategy & Development at Aligned Data Centers",
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "darryl-cox-5f02da22",
+  "type": "person",
+  "name": "Darryl Cox",
+  "current_title": "Senior Vice President, Enterprise Sales",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/darrylccox",
+  "location": "Cumming, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Vice President, Enterprise Sales at QTS Data Centers, 1/2024 to present; Executive Vice President, Sales - West Region at QTS Data Centers, 12/2021 to 1/2024; Director, Enterprise Sales at QTS Data Centers, 2/2019 to 12/2021; Systems Engineer at e^Deltacom, 3/2000 to 3/2005; Network Administrator at Echosoft, 9/1999 to 2/2000; NOC Engineer at Web.com, 2/1999 to 9/1999; QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 69,
+      "date_added": "2025-11-07 13:20:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Enterprise Sales",
+      "company": "QTS Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President, Sales - West Region",
+      "company": "QTS Data Centers",
+      "start": "12/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Enterprise Sales",
+      "company": "QTS Data Centers",
+      "start": "2/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "e^Deltacom",
+      "start": "3/2000",
+      "end": "3/2005",
+      "current": false
+    },
+    {
+      "title": "Network Administrator",
+      "company": "Echosoft",
+      "start": "9/1999",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "NOC Engineer",
+      "company": "Web.com",
+      "start": "2/1999",
+      "end": "9/1999",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Cumming",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Masters, University of Georgia - Terry College of Business, 2009 to 2011",
+    "Bachelors, Auburn University Harbert College of Business, 1994 to 1998"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

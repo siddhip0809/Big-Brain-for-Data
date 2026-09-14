@@ -1,0 +1,94 @@
+{
+  "id": "ryin-khandoker-8fa0203c",
+  "type": "person",
+  "name": "Ryin Khandoker",
+  "current_title": "Manager, Energy Markets",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/ryin-khandoker",
+  "location": "Portland, Oregon",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Manager, Energy Markets at Microsoft, 3/2024 to present; Engineering Manager at Portland General Electric, 2/2020 to 3/2024; Principal Energy Supply Originator at Portland General Electric, 1/2017 to 1/2020; Senior Business Relationship Manager at Portland General Electric, 1/2014 to 12/2016; Transmission and Distribution Engineer at Portland General Electric, 3/2006 to 12/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 107,
+      "date_added": "2026-04-20 15:49:00 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Energy Markets",
+      "company": "Microsoft",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Engineering Manager",
+      "company": "Portland General Electric",
+      "start": "2/2020",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Principal Energy Supply Originator",
+      "company": "Portland General Electric",
+      "start": "1/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Business Relationship Manager",
+      "company": "Portland General Electric",
+      "start": "1/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Transmission and Distribution Engineer",
+      "company": "Portland General Electric",
+      "start": "3/2006",
+      "end": "12/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Portland",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "education": [
+    "Master of Finance, Financial Analysis, Portland State University, 2015 to 2018",
+    "Bachelor of Science - BS, Electrical Engineering, Oregon State University, 2001 to 2005"
+  ],
+  "biography": "18 years of energy sector experience encompassing energy procurement, infrastructure planning, regulatory policy, and construction project management. This breadth of experience allows me to develop strategies that enhance grid performance, lower operational costs, and promote clean energy integration.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

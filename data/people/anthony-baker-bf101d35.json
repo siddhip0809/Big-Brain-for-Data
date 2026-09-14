@@ -1,0 +1,136 @@
+{
+  "id": "anthony-baker-bf101d35",
+  "type": "person",
+  "name": "Anthony Baker",
+  "current_title": "Associate Director",
+  "current_company": "Currie & Brown",
+  "location": "Minneapolis, Minnesota",
+  "linkedin": "https://www.linkedin.com/in/anthony-baker-06b432a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Currie & Brown, 10/2025 to present; Associate at Currie & Brown, 7/2022 to 10/2025; Project Manager at Premier Electrical, 3/2020 to 7/2022; Senior Electrical Estimator at Premier Electricial, 3/2018 to 3/2022; Chief Estimator at Premier Electrical, 4/2017 to 7/2022; Senior Electrical Estimator at Faithful+Gould, 4/2014 to 3/2022; Senior Electrical Estimator & Designer at Premier Electrical, 3/2005 to 4/2014; Foreman Electrician at Killmer Electric, 8/1997 to 12/2001; Journeyman Electrician at IBEW 292, 3/1995 to 11/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 120,
+      "date_added": "2026-08-19 12:46:07 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 285,
+      "date_added": "2026-08-12 12:48:50 UTC",
+      "date_updated": "2026-08-19 07:46:07 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Currie & Brown",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "7/2022",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Premier Electrical",
+      "start": "3/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Premier Electricial",
+      "start": "3/2018",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Premier Electrical",
+      "start": "4/2017",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Faithful+Gould",
+      "start": "4/2014",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator & Designer",
+      "company": "Premier Electrical",
+      "start": "3/2005",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Foreman Electrician",
+      "company": "Killmer Electric",
+      "start": "8/1997",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "Journeyman Electrician",
+      "company": "IBEW 292",
+      "start": "3/1995",
+      "end": "11/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Minneapolis",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  },
+  "education": [
+    "ECDM, Electrical Construction Design & Management, Dunwoody, 2003 to 2006",
+    "Construction Electrician, Electrical, Anoka Hennepin Technical College, 1993 to 1995"
+  ],
+  "biography": "I worked in the electrical field for 10 years as an electrician and then re-trained at Dunwoody College of Technology for Electrical Construction Design and Management, Member of Phi Theta Kappa. \nI currently work as a Senior Electrical Estimator and Owners Rep at Faithful+Gould\n\nSpecialties: Electrical Construction- \n-Mission Critical \n-Preconstruction \n-High Tech\n-Commercial \n-Industrial \n-Outdoor Power \n-Alternate Energy",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

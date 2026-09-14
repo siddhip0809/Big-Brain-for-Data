@@ -1,0 +1,37 @@
+{
+  "id": "nuveen-real-estate",
+  "type": "company",
+  "name": "Nuveen Real Estate",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Chicago, Illinois",
+  "founded": null,
+  "website": "https://www.nuveen.com/real-estate",
+  "linkedin": "https://www.linkedin.com/company/nuveen/",
+  "headcount": "501-1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Medium",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Global real estate investment manager (TIAA subsidiary). Industrial and DC-adjacent investments. Strong acquisition and asset management talent.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

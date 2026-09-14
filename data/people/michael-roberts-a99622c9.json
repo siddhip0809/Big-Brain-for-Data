@@ -1,0 +1,135 @@
+{
+  "id": "michael-roberts-a99622c9",
+  "type": "person",
+  "name": "Michael Roberts",
+  "current_title": "Sales Director, Bay Area Strategic Accounts | Enterprise & AI Infrastructure",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/michael-roberts-a563869",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director, Bay Area Strategic Accounts | Enterprise & AI Infrastructure at Equinix, 12/2025 to present; Senior Account Executive at Equinix, 6/2023 to 1/2026; Platform Account Executive- Comms, Media, and Technology at Salesforce, 2/2020 to 6/2023; Platform Account Executive- High Tech at Salesforce, 1/2019 to 2/2020; Strategic Account Executive at Oracle, 6/2013 to 2/2019; Technology Sales Manager- Data Integration Solutions at Oracle, 3/2012 to 6/2013; Technology Sales Manager- Enterprise Accounts (Inside Sales) at Oracle, 6/2011 to 3/2012; Technology Sales Manager- Data Integration Solutions (Inside Sales) at Oracle, 4/2010 to 6/2011; Systems/Storage Sales Representative at Sun Microsystems, 4/2009 to 4/2010; Territory Sales Representative (Inside Sales) at Sun Microsystems, 10/2008 to 4/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 264,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Sales Director, Bay Area Strategic Accounts"
+    },
+    {
+      "title": "Enterprise & AI Infrastructure",
+      "company": "Equinix",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Equinix",
+      "start": "6/2023",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Platform Account Executive- Comms, Media, and Technology",
+      "company": "Salesforce",
+      "start": "2/2020",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Platform Account Executive- High Tech",
+      "company": "Salesforce",
+      "start": "1/2019",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Executive",
+      "company": "Oracle",
+      "start": "6/2013",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Technology Sales Manager- Data Integration Solutions",
+      "company": "Oracle",
+      "start": "3/2012",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Technology Sales Manager- Enterprise Accounts (Inside Sales)",
+      "company": "Oracle",
+      "start": "6/2011",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Technology Sales Manager- Data Integration Solutions (Inside Sales)",
+      "company": "Oracle",
+      "start": "4/2010",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Systems/Storage Sales Representative",
+      "company": "Sun Microsystems",
+      "start": "4/2009",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Territory Sales Representative (Inside Sales)",
+      "company": "Sun Microsystems",
+      "start": "10/2008",
+      "end": "4/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BA, Communications, California State University, Long Beach, 2000 to 2004"
+  ],
+  "biography": "Highly motivated and self driven sales professional with over 20 years of sales experience and 15 years selling software-as-a-service (SaaS), infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS), and security solutions to Fortune 500 companies, while consistently outperforming revenue goals. Focused on providing high-value solutions to customers by solving business problems, educating, and building relationships within both the business and IT.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

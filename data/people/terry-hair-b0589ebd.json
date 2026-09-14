@@ -1,0 +1,97 @@
+{
+  "id": "terry-hair-b0589ebd",
+  "type": "person",
+  "name": "Terry Hair",
+  "current_title": "Director - Pre-Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/terry-hair-8a49108",
+  "location": "Fairfield, Ohio",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Director - Pre-Development at QTS Data Centers, 10/2025 to present; Consulting Director at ERM Environmental Resources Management, 4/2010 to 10/2025; Senior Manager at Keramida, 10/2005 to 3/2010; Senior Project Manager at Handex of Ohio, 1/2000 to 6/2005; Project Manager at Atc Group Services, 9/1993 to 3/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 171,
+      "date_added": "2026-01-08 12:14:47 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director - Pre-Development",
+      "company": "QTS Data Centers",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Consulting Director",
+      "company": "ERM Environmental Resources Management",
+      "start": "4/2010",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Keramida",
+      "start": "10/2005",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Handex of Ohio",
+      "start": "1/2000",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Atc Group Services",
+      "start": "9/1993",
+      "end": "3/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Fairfield",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "education": [
+    "BA, Geology, Miami University, 1988 to 1993",
+    "High School Diploma, Northwest Senior High School - Cincinnati, OH, 1985 to 1988"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "valerie-s-ea69b7e4",
+  "type": "person",
+  "name": "Valerie S.",
+  "current_title": "Senior Estimator",
+  "current_company": "Hensel Phelps",
+  "location": "McLean, Virginia",
+  "linkedin": "https://www.linkedin.com/in/valerie-s-448a9814",
+  "seniority": null,
+  "industry_segment": "Data Centre;Mission Critical",
+  "career_history": "Senior Estimator at Hensel Phelps, 10/2017 to present; Lead Estimator at Hensel Phelps, 3/2014 to 10/2017; Estimator at Hensel Phelps, 11/2012 to 3/2014; Project Manager at All Action Architectural Metal and Glass, 12/2011 to 6/2012; Designer at Independent Design Consultant, 10/2011 to 10/2012; Office and Field Engineer at Hensel Phelps, 7/2007 to 9/2011; Construction Intern at Struever Bros Eccles & Rouse, 5/2006 to 2/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 35,
+      "date_added": "2026-08-14 14:55:48 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 107,
+      "date_added": "2026-08-07 08:45:21 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 107,
+      "date_added": "2026-08-07 08:45:21 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "10/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "3/2014",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Hensel Phelps",
+      "start": "11/2012",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "All Action Architectural Metal and Glass",
+      "start": "12/2011",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Designer",
+      "company": "Independent Design Consultant",
+      "start": "10/2011",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Office and Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "7/2007",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Construction Intern",
+      "company": "Struever Bros Eccles & Rouse",
+      "start": "5/2006",
+      "end": "2/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "McLean",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Bachelor of Architecture (B.Arch.), Architecture, Roger Williams University, 2002 to 2007"
+  ],
+  "biography": "DBIA, LEED AP BD+C",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

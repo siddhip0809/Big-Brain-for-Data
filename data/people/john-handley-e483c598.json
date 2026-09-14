@@ -1,0 +1,146 @@
+{
+  "id": "john-handley-e483c598",
+  "type": "person",
+  "name": "John Handley",
+  "current_title": "Development Manager",
+  "current_company": "Beale",
+  "linkedin": "https://www.linkedin.com/in/handleyjohn2017",
+  "location": "Lenexa, Kansas",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Development Manager at Beale, 6/2025 to present; Senior Project Development Manager at Diode Ventures | A Black & Veatch Company, 4/2024 to 6/2025; Project Manager at Diode Ventures | A Black & Veatch Company, 10/2020 to 4/2024; Development Project Analyst / EDGE Professional at Diode Ventures | A Black & Veatch Company, 1/2020 to 10/2020; Civil Engineer / EDGE Professional at Black & Veatch, 8/2018 to 1/2020; Civil/Environmental Engineering Intern at Black & Veatch, 6/2018 to 8/2018; Graduate Research Assistant at The University of Kansas, 9/2017 to 5/2018; Intern Project Manager at ExxonMobil, 5/2016 to 8/2016; Proctor at The University of Kansas, 8/2015 to 5/2017; Student Researcher (REU) at South Dakota School of Mines and Technology, 6/2015 to 8/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 213,
+      "date_added": "2026-01-23 11:26:49 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "beale",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Development Manager",
+      "company": "Beale",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Development Manager",
+      "company": "Diode Ventures",
+      "current": false
+    },
+    {
+      "company": "A Black & Veatch Company",
+      "start": "4/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Diode Ventures",
+      "current": false
+    },
+    {
+      "company": "A Black & Veatch Company",
+      "start": "10/2020",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Development Project Analyst / EDGE Professional",
+      "company": "Diode Ventures",
+      "current": false
+    },
+    {
+      "company": "A Black & Veatch Company",
+      "start": "1/2020",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer / EDGE Professional",
+      "company": "Black & Veatch",
+      "start": "8/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Civil/Environmental Engineering Intern",
+      "company": "Black & Veatch",
+      "start": "6/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "company": "The University of Kansas",
+      "start": "9/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Intern Project Manager",
+      "company": "ExxonMobil",
+      "start": "5/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Proctor",
+      "company": "The University of Kansas",
+      "start": "8/2015",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Student Researcher (REU)",
+      "company": "South Dakota School of Mines and Technology",
+      "start": "6/2015",
+      "end": "8/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Lenexa",
+    "region": "Kansas",
+    "country": "United States",
+    "group": "Kansas"
+  },
+  "education": [
+    "Master of Civil Engineering, Water Resources Engineering, The University Of Kansas, 2017 to 2019",
+    "Master of Business Administration - MBA, University of Missouri-Kansas City"
+  ],
+  "biography": "John is a real estate development project manager in data infrastructure and utility-scale renewable energy. Skilled at managing varied stakeholders and solving complex and ambiguous problems, John always looks for the middle ground that benefits as many as possible. While no stranger to diving directly into tasks themselves, he also comfortably coordinates with multiple teams to accomplish development activities such as site strategy and selection, assessment and diligence, layout and design, and entitlements and incentives. John's favorite achievement to date has been managing the rezoning, preliminary plan, and abatements awarded to Rocky Branch Creek Technology Park in Kansas City, Missouri.\r\n\r\nJohn leans into discomfort and dives into new tasks for personal growth. He leverages a broad engineering background with a Bachelor of Science (B.S.) in Chemical Engineering with an Environmental focus and a Master of Civil Engineering (M.C.E.) from the University of Kansas; his education and experience in urban planning give him additional insight into how best to implement solutions to meet clients' clean energy and data infrastructure goals, whether they are fiber or data center development. He began an MBA with the UMKC Bloch School of Business in 2023 and intends to finish in 2026.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

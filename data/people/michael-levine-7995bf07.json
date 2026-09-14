@@ -1,0 +1,58 @@
+{
+  "id": "michael-levine-7995bf07",
+  "type": "person",
+  "name": "Michael Levine",
+  "current_title": "Vice President of Construction",
+  "current_company": "Prime Data Centers",
+  "linkedin": "https://www.linkedin.com/in/michael-levine-13a459a0",
+  "location": "Sparks, Nevada",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President of Construction at Prime Data Centers, 6/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 275,
+      "date_added": "2026-07-09 10:12:26 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "prime-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "Prime Data Centers",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Sparks",
+    "region": "Nevada",
+    "country": "United States",
+    "group": "Nevada"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

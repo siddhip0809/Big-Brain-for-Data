@@ -1,0 +1,110 @@
+{
+  "id": "steven-sun-f7bfae74",
+  "type": "person",
+  "name": "Steven Sun",
+  "current_title": "Senior Estimator & BIM",
+  "current_company": "Miller and Long DC Concrete Construction",
+  "location": "Bethesda, Maryland",
+  "linkedin": "https://www.linkedin.com/in/steven-sun-4b973671",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator & BIM at Miller and Long DC Concrete Construction, 11/2023 to present; BIM/VDC Manager at Clune Construction, 2/2020 to 9/2023; Estimator & BIM at Miller & Long Co, 9/2013 to 2/2020; Architectural Assistant at Sweet Art Design Studio, 9/2012 to 3/2013; Civil Engineer Geotech Intern at Lien Hsing Geotech Consultants, 6/2010 to 9/2010; Quality Specialist at Far East Machinery, 12/2009 to 5/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 91,
+      "date_added": "2026-08-19 11:13:34 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 132,
+      "date_added": "2026-08-10 09:35:27 UTC",
+      "date_updated": "2026-08-19 06:13:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator & BIM",
+      "company": "Miller and Long DC Concrete Construction",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "BIM/VDC Manager",
+      "company": "Clune Construction",
+      "start": "2/2020",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator & BIM",
+      "company": "Miller & Long Co",
+      "start": "9/2013",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Architectural Assistant",
+      "company": "Sweet Art Design Studio",
+      "start": "9/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer Geotech Intern",
+      "company": "Lien Hsing Geotech Consultants",
+      "start": "6/2010",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Quality Specialist",
+      "company": "Far East Machinery",
+      "start": "12/2009",
+      "end": "5/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Bethesda",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

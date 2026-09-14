@@ -1,0 +1,36 @@
+{
+  "id": "russell",
+  "type": "company",
+  "name": "Russell",
+  "aliases": [
+    "Russell Co."
+  ],
+  "industry_role": "data center developer",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Civil Engineering",
+    "Data Center Developer",
+    "General Contractor"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.",
+  "sources": [
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "developer_operator",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "General Contractors USA"
+  ],
+  "list_attributes": {},
+  "linkedin": "https://www.linkedin.com/company/russell-construction"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "andrea-romano-9ee7b0cf",
+  "type": "person",
+  "name": "Andrea Romano",
+  "current_title": "Manager, Renewable Energy Strategy",
+  "current_company": "Apple",
+  "linkedin": "https://www.linkedin.com/in/andrearoseromano",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Manager, Renewable Energy Strategy at Apple, 10/2021 to present; Senior Strategist, Renewable Energy at Apple, 2/2020 to 9/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 152,
+      "date_added": "2026-06-02 15:01:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "apple",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Renewable Energy Strategy",
+      "company": "Apple",
+      "start": "10/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Strategist, Renewable Energy",
+      "company": "Apple",
+      "start": "2/2020",
+      "end": "9/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Ignite Certificate, Business  & Entrepreneurship, Stanford University Graduate School of Business, 2013 to present",
+    "Master of Science, Civil & Environmental Engineering - Atmosphere & Energy, Stanford University, 2012 to 2014"
+  ],
+  "biography": "Global Energy & Sustainability at Apple",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

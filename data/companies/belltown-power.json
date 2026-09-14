@@ -1,0 +1,39 @@
+{
+  "id": "belltown-power",
+  "type": "company",
+  "name": "Belltown Power",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Dallas, Texas",
+  "founded": null,
+  "website": "https://www.belltownpower.com",
+  "linkedin": "https://www.linkedin.com/company/belltown-power/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "Multi Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Utility-scale solar and storage developer. Operates in ERCOT, MISO, SPP.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

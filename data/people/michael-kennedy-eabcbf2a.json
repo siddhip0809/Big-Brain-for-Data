@@ -1,0 +1,112 @@
+{
+  "id": "michael-kennedy-eabcbf2a",
+  "type": "person",
+  "name": "Michael Kennedy",
+  "current_title": "Director of Power Solutions",
+  "current_company": "PointOne",
+  "linkedin": "https://www.linkedin.com/in/michael-kennedy-pe-mba-cem-leed-ap-89430a43",
+  "location": "Morrison, Colorado",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Power Solutions at PointOne, 4/2025 to present; Microgrid Designer/Developer at NORESCO, 3/2024 to 4/2025; Manager of Microgrid Engineering at NORESCO, 2/2018 to 4/2025; Senior Electrical Engineer at NORESCO, 11/2006 to 2/2018; Electrical Engineer at Dominion Consulting Engineers, 2/2005 to 11/2006; Designer/CAD Operator at Miller Architects, 4/2003 to 2/2005; Design Engineer (Building Automation Controls) at Siemens Building Technologies, 7/1999 to 4/2003; Nuclear Engineer Reactor Operator/Electronics Technician at United States Navy, 1/1993 to 12/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 83,
+      "date_added": "2026-01-07 16:11:03 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "pointone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Power Solutions",
+      "company": "PointOne",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Microgrid Designer/Developer",
+      "company": "NORESCO",
+      "start": "3/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Manager of Microgrid Engineering",
+      "company": "NORESCO",
+      "start": "2/2018",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Engineer",
+      "company": "NORESCO",
+      "start": "11/2006",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer",
+      "company": "Dominion Consulting Engineers",
+      "start": "2/2005",
+      "end": "11/2006",
+      "current": false
+    },
+    {
+      "title": "Designer/CAD Operator",
+      "company": "Miller Architects",
+      "start": "4/2003",
+      "end": "2/2005",
+      "current": false
+    },
+    {
+      "title": "Design Engineer (Building Automation Controls)",
+      "company": "Siemens Building Technologies",
+      "start": "7/1999",
+      "end": "4/2003",
+      "current": false
+    },
+    {
+      "title": "Nuclear Engineer Reactor Operator/Electronics Technician",
+      "company": "United States Navy",
+      "start": "1/1993",
+      "end": "12/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Morrison",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Business Administration and Management, General, Arizona State University, 2022 to 2023",
+    "BSEE, Electrical Engineering, George Mason University, 2002 to 2004",
+    "Electrical Engineering, University Of Cincinnati, 1999 to 2002"
+  ],
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

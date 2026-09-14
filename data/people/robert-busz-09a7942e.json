@@ -1,0 +1,115 @@
+{
+  "id": "robert-busz-09a7942e",
+  "type": "person",
+  "name": "Robert Busz",
+  "current_title": "Vice President, Poland",
+  "current_company": "EdgeConneX",
+  "linkedin": "https://www.linkedin.com/in/robert-busz-27b4a1",
+  "location": "Warsaw, Mazowieckie, Poland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Poland at EdgeConneX, 6/2022 to present; Managing Director Poland at Equinix, 12/2016 to 11/2021; Sales Director CEE, Russia & CIS at Global Crossing, 6/2011 to 11/2016; Sales Development Director CEE & Eurasia at Telia, 1/2008 to 5/2011; Sales Director Eastern Europe at Telia, 1/2002 to 12/2007; Sales Director at Exatel SA, 1/2000 to 4/2002; Site Acqusition Director at Formus Polska, 9/1999 to 12/2000; Sales Manager at Whirlpool, 7/1997 to 9/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 254,
+      "date_added": "2026-08-06 15:16:28 UTC",
+      "date_updated": "2026-08-06 10:53:02 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "edgeconnex",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Poland",
+      "company": "EdgeConneX",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director Poland",
+      "company": "Equinix",
+      "start": "12/2016",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Sales Director CEE, Russia & CIS",
+      "company": "Global Crossing",
+      "start": "6/2011",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Development Director CEE & Eurasia",
+      "company": "Telia",
+      "start": "1/2008",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Director Eastern Europe",
+      "company": "Telia",
+      "start": "1/2002",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Exatel SA",
+      "start": "1/2000",
+      "end": "4/2002",
+      "current": false
+    },
+    {
+      "title": "Site Acqusition Director",
+      "company": "Formus Polska",
+      "start": "9/1999",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Whirlpool",
+      "start": "7/1997",
+      "end": "9/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Warsaw",
+    "region": null,
+    "country": "Poland",
+    "group": "Poland"
+  },
+  "education": [
+    "Post Graduate, Politechnika Warszawska, 2006 to 2006",
+    "Post Graduate, Real Estate Evaluation, Warsaw University of Technology, 2006 to 2006",
+    "Master, Management&Marketing, Kozminski University, 1996 to 2001",
+    "Master, Kozminski University, 1996 to 2001",
+    "B.A., Kozminski University, 1994 to 1996",
+    "B.A., Marketing and Management, Kozminski University, 1994 to 1996"
+  ],
+  "biography": "I’m a manager with strong background in sales,  business development and OPCOs management. Working for various technology organizations got in-depth experience in \"green field\" developments, transition processes and daily management. I’m goal-driven and passionate leader who proactively motivates people to reach out high performance goals always with “both-and’ never of “either-or” thinking. I believe in Teal organizations built on belonging and inner wisdom. \nExtensive working experience at the CXO level within CEE region.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

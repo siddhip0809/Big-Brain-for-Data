@@ -1,0 +1,137 @@
+{
+  "id": "alina-gurova-e3e8e26c",
+  "type": "person",
+  "name": "Alina Gurova",
+  "current_title": "Global Infrastructure and Energy",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/alinagurova",
+  "location": "San Francisco, California, United States",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Global Infrastructure and Energy at Google, 7/2022 to present; Energy Procurement at AWS, 10/2021 to 7/2022; Principal, Structured Energy Transactions at PG&E, 6/2019 to 10/2021; Principal, Market and Credit Risk Management at PG&E, 7/2017 to 6/2019; Supervisor, Commodity Strategy and Procurement at PG&E, 11/2016 to 7/2017; Expert Trader/Analyst, Commodity Strategy and Procurement at PG&E, 2/2016 to 11/2016; Senior Trader/ Analyst, Commodity Strategy and Procurement at PG&E, 6/2014 to 2/2016; Analyst, Natural Gas Bundled Procurement at PG&E, 10/2011 to 6/2014; Graduate Research Assistant at San Francisco State University, 1/2011 to 8/2011; Financial Advisor Intern at UBS, 3/2010 to 6/2010; Economist at AK BARS BANK OJSC, 12/2007 to 11/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 118,
+      "date_added": "2026-04-20 15:49:54 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Infrastructure and Energy",
+      "company": "Google",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy Procurement",
+      "company": "AWS",
+      "start": "10/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Principal, Structured Energy Transactions",
+      "company": "PG&E",
+      "start": "6/2019",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Principal, Market and Credit Risk Management",
+      "company": "PG&E",
+      "start": "7/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Supervisor, Commodity Strategy and Procurement",
+      "company": "PG&E",
+      "start": "11/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Expert Trader/Analyst, Commodity Strategy and Procurement",
+      "company": "PG&E",
+      "start": "2/2016",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Trader/ Analyst, Commodity Strategy and Procurement",
+      "company": "PG&E",
+      "start": "6/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Analyst, Natural Gas Bundled Procurement",
+      "company": "PG&E",
+      "start": "10/2011",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "company": "San Francisco State University",
+      "start": "1/2011",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Financial Advisor Intern",
+      "company": "UBS",
+      "start": "3/2010",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "Economist",
+      "company": "AK BARS BANK OJSC",
+      "start": "12/2007",
+      "end": "11/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BS, Business Administration",
+    "Decision Science and Corporate Finance, San Francisco State University, 2006 to 2010",
+    "MBA, Decision Science and Sustainability, San Francisco State University, 2006 to 2011"
+  ],
+  "biography": "Strong negotiator with proven ability to close deals, manage a portfolio of projects, promote cross-functional collaboration and create long-lasting partnerships.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

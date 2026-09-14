@@ -1,0 +1,31 @@
+{
+  "id": "6cb684d8-696b-436b-aba8-687921e9bb5d",
+  "type": "search",
+  "name": "2505D VP, Development",
+  "client_company": "Beale",
+  "client_company_id": "beale",
+  "status": "on_hold",
+  "project_type": "Retained",
+  "started_at": "2026-01-13",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": "Beale - Plan of Action\n\nRole & Seniority Focus\n- The target seniority for this remap will be:\n- Director\n- Senior Director\n\nStep 1: Initial Review - Existing Mapping\n- We will begin by reviewing all past projects and previously mapped profiles.\n- This review will primarily include ex-hyperscaler candidates who have already been identified.\n- Data centre experience will be treated as a mandatory requirement while validating all profiles.\n- Any profile without clear data centre exposure will be excluded.\n\nStep 2: Industry Focus & Validation\n\nOur industry coverage will follow a priority-based approach:\n- Primary focus:\n- Data centre developers\n- Hyperscale past company search as we need to recheck that once.\n- Secondary focus:\n- Real estate companies with an active data centre division (e.g., Prologis where data centre experience may not always be explicitly listed)\n- Energy sector profiles, only who have clear and relevant data centre exposure\n\nStep 3: Tier 1 Location Mapping (50-miles radius)\n\nWe will first fully exhaust Tier 1 locations before moving to the next tier.\n\nWithin Tier 1, we will assess all relevant industries (data centre developers, ex-hyperscalers, real estate, and energy) using the same seniority and experience criteria.\n\nTier 1 Locations:\n- San Francisco\n- Dallas\n- Seattle\n\nStep 4: Tier 2 Location Mapping\n\nOnce Tier 1 is completed, we will replicate the same approach - same seniority, same industry focus, and the same strict data centre experience requirement - for Tier 2 locations.\n\nTier 2 Locations will include:\n- Chicago\n- Northern Virginia\n- Atlanta\n- Phoenix\n- Denver\n- Las Vegas\n- Los Angeles\n- New York\n- Austin\n- Houston\n\nStep 5: US-Wide Mapping\n- After completing Tier 2, we will expand the search to US-wide locations.\n- The same structured approach will be maintained:\n- Director / Senior Director only\n- Mandatory data centre experience\n- Same industry validation criteria",
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 180,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

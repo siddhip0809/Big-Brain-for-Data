@@ -1,0 +1,111 @@
+{
+  "id": "jeremy-fenton-940d51aa",
+  "type": "person",
+  "name": "Jeremy Fenton",
+  "current_title": "Director of Preconstruction",
+  "current_company": "Satterfield & Pontikes Construction",
+  "linkedin": "https://www.linkedin.com/in/jeremy-fenton-849152128",
+  "location": "St. Louis, Missouri",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Preconstruction at Satterfield & Pontikes Construction, 7/2024 to present; Senior Estimator at Satterfield & Pontikes Construction, 9/2018 to 7/2024; Senior Estimator at Azteca Enterprises, 8/2016 to 9/2018; Senior Estimator At Joeris Construction at Joeris General Contractors, 5/2015 to 8/2016; Senior Estimator At MCM at MCM, 5/2014 to 5/2015; Preconstruction Management / Senior Estimator At Core Construction at CORE Construction, 5/2003 to 5/2014; Estimator At Cadence McShane at Cadence McShane Construction, 5/2001 to 5/2003; Field Engineer / Estimator At Centex Construction at Centex Homes, 5/1998 to 5/2001",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 421,
+      "date_added": "2026-08-21 13:04:18 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Satterfield & Pontikes Construction",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Satterfield & Pontikes Construction",
+      "start": "9/2018",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Azteca Enterprises",
+      "start": "8/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator At Joeris Construction",
+      "company": "Joeris General Contractors",
+      "start": "5/2015",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator At MCM",
+      "company": "MCM",
+      "start": "5/2014",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Management / Senior Estimator At Core Construction",
+      "company": "CORE Construction",
+      "start": "5/2003",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Estimator At Cadence McShane",
+      "company": "Cadence McShane Construction",
+      "start": "5/2001",
+      "end": "5/2003",
+      "current": false
+    },
+    {
+      "title": "Field Engineer / Estimator At Centex Construction",
+      "company": "Centex Homes",
+      "start": "5/1998",
+      "end": "5/2001",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "St. Louis",
+    "region": "Missouri",
+    "country": "United States",
+    "group": "Missouri"
+  },
+  "education": [
+    "Bachelor’s Degree Building Construction Management, Purdue University, 1995 to 1998",
+    "Associate's degree Architecture, Rend Lake College, 1993 to 1995"
+  ],
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

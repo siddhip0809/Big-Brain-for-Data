@@ -1,0 +1,58 @@
+{
+  "id": "robert-revesz-423957f4",
+  "type": "person",
+  "name": "Robert Revesz",
+  "current_title": "Senior Construction Project Manager",
+  "current_company": "NTT Global Data Centre",
+  "linkedin": "https://www.linkedin.com/in/robert-revesz-79a1a578",
+  "location": "Ashburn, Virginia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Construction Project Manager at NTT Global Data Centre, 8/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 252,
+      "date_added": "2026-07-08 13:06:44 UTC",
+      "date_updated": "2026-07-08 08:06:44 -0500",
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Project Manager",
+      "company": "NTT Global Data Centre",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Ashburn",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

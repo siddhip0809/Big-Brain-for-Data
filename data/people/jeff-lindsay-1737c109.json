@@ -1,0 +1,75 @@
+{
+  "id": "jeff-lindsay-1737c109",
+  "type": "person",
+  "name": "Jeff Lindsay",
+  "current_title": "Sr.Design Phase Manager",
+  "current_company": "M A Mortenson",
+  "linkedin": "https://www.linkedin.com/in/jeff-lindsay-0b690710",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Sr.Design Phase Manager at M A Mortenson, 12/1997 to present; Estimator at RAS Builders, 5/1992 to 12/1997",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 10,
+      "date_added": "2026-08-04 16:07:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr.Design Phase Manager",
+      "company": "M A Mortenson",
+      "start": "12/1997",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "RAS Builders",
+      "start": "5/1992",
+      "end": "12/1997",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor's degree, Construction Management, Colorado State University, 1986 to 1991"
+  ],
+  "biography": "Accomplished construction management professional with 23 years’ experience providing proactive design phase services for project owners and design teams. • Translates a vision into a constructible design by managing the design team from project goals and requirements to project completion. • Understands technical and planning attributes of specific building types and provides input into the project’s programming and conceptual design activities. • Coordinates design team members and preconstruction services such as estimating, scheduling, project planning, constructability, and site utilization. • Skilled in communicating complex issues to assure a smooth transition between the design team and the on-site project team.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

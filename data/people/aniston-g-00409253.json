@@ -1,0 +1,58 @@
+{
+  "id": "aniston-g-00409253",
+  "type": "person",
+  "name": "Aniston G.",
+  "current_title": "Construction Manager",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/aniston-g-530901101",
+  "location": "Milwaukee, Wisconsin",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Construction Manager at Vantage, 12/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 330,
+      "date_added": "2026-07-10 16:11:17 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Milwaukee",
+    "region": "Wisconsin",
+    "country": "United States",
+    "group": "Wisconsin"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

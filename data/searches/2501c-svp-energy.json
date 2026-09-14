@@ -1,0 +1,31 @@
+{
+  "id": "6c7e5a0c-482f-4851-b8fd-15876567435f",
+  "type": "search",
+  "name": "2501C SVP Energy",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2024-12-19",
+  "closed_at": "2025-04-04",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 148,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

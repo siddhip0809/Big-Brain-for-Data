@@ -1,0 +1,52 @@
+{
+  "id": "core-scientific",
+  "type": "company",
+  "name": "Core Scientific",
+  "aliases": [],
+  "industry_role": "data center developer / real estate development",
+  "headquarters": "Austin, Texas",
+  "founded": null,
+  "website": "http://corescientific.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Civil Engineering",
+    "Data Center Developer",
+    "General Contractor",
+    "Real Estate Development",
+    "Crypto Mining Pivot"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 7 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): publicly traded (NASDAQ: CORZ). Publicly traded (NASDAQ: CORZ), emerged from Chapter 11 in Jan 2024. A CoreWeave all-stock acquisition (~$9B) was announced June 2025 but shareholders reportedly rejected it -- status should be re-verified.\n\nCrypto-mining pivot: originated as a Bitcoin/crypto mining company; now offers AI/HPC data center hosting and colocation, since the power, cooling, and high-density rack infrastructure required is largely the same. Flagged 2026-09-05 per Siddhi's note on the wider industry trend.\n\nM&A: acquired Blockcap -- Stock (closed 30 Jul 2021; ~33% to Blockcap holders): pre-SPAC roll-up before the Jan 2022 Nasdaq listing. [completed; confidence high; https://www.prnewswire.com/news-releases/core-scientific-the-largest-blockchain-hosting-provider-and-digital-asset-miner-in-north-america-to-list-on-nasdaq-through-merger-with-power--digital-infrastructure-acquisition-corp-301338591.html]",
+  "sources": [
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "cryptomining",
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/corescientific/",
+  "headcount": "201-500",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 533.0
+    }
+  }
+}

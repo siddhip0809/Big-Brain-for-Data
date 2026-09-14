@@ -1,0 +1,119 @@
+{
+  "id": "james-dack-75d46d0d",
+  "type": "person",
+  "name": "James Dack",
+  "current_title": "Strategic Account Director",
+  "current_company": "CentersquareDC",
+  "linkedin": "https://www.linkedin.com/in/james-dack-3320695",
+  "location": "East Allington, England",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Strategic Account Director at Evoque Data Center Solutions, 1/2025 to present; Strategic Account Director at CentersquareDC, 1/2025 to present; Regional Account Director at Evoque Data Center Solutions, 4/2024 to present; Regional Account Director at CentersquareDC, 4/2024 to present; Regional Account Director at Cyxtera Technologies, 4/2020 to 5/2024; Senior Customer Support Manager at Internap Network Services, 7/2016 to 4/2020; Sales Operations Manager at Internap Network Services, 4/2012 to 4/2020; Senior Service Consultant at Data Return, 1/2000 to 5/2012; Telephone Account Manager / Project Manager at Alternative Networks, 1/1996 to 12/2000; CentersquareDC",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 321,
+      "date_added": "2026-08-27 13:46:36 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Account Director",
+      "company": "Evoque Data Center Solutions",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "CentersquareDC",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Account Director",
+      "company": "Evoque Data Center Solutions",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Account Director",
+      "company": "CentersquareDC",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Account Director",
+      "company": "Cyxtera Technologies",
+      "start": "4/2020",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Customer Support Manager",
+      "company": "Internap Network Services",
+      "start": "7/2016",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Operations Manager",
+      "company": "Internap Network Services",
+      "start": "4/2012",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Service Consultant",
+      "company": "Data Return",
+      "start": "1/2000",
+      "end": "5/2012",
+      "current": false
+    },
+    {
+      "title": "Telephone Account Manager / Project Manager",
+      "company": "Alternative Networks",
+      "start": "1/1996",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "raw": "CentersquareDC"
+    }
+  ],
+  "location_norm": {
+    "city": "East Allington",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Financial Services, Bournemouth University, 1990 to 1994"
+  ],
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "majestic-realty",
+  "type": "company",
+  "name": "Majestic Realty",
+  "aliases": [
+    "Majestic Realty (Logistics Dev)"
+  ],
+  "industry_role": "real estate / industrial developer",
+  "headquarters": "Baldwin Park, California",
+  "founded": null,
+  "website": "https://www.majesticrealty.com",
+  "linkedin": "https://www.linkedin.com/company/majestic-realty-co-/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers",
+    "Real Estate Developers USA"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Industrial Developer",
+      "Primary Scope": "National",
+      "DC Exposure Level": "Medium",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "Semi-national",
+      "NoVA Relevance": "Low"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: Already in RE list. Large-format industrial developer. Site permitting teams for large logistics facilities transferable to DC.\n\nMerged 2026-09-09: absorbed duplicate record 'Majestic Realty' (majestic-realty-re).",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

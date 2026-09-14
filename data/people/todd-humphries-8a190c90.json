@@ -1,0 +1,126 @@
+{
+  "id": "todd-humphries-8a190c90",
+  "type": "person",
+  "name": "Todd Humphries",
+  "current_title": "Sr. Preconstruction Manager",
+  "current_company": "Fortis Construction",
+  "location": "Portland, Oregon",
+  "linkedin": "https://www.linkedin.com/in/todd-humphries-a0343212",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sr. Preconstruction Manager at Fortis Construction, 11/2022 to present; Preconstruction Manager at Fortis Construction, 3/2016 to present; Chief Estimator at Brasfield & Gorrie, 4/2015 to 2/2016; Senior Estimator at Brasfield & Gorrie, 8/2008 to 3/2015; Estimator / Project Manager at Brasfield & Gorrie, 8/2002 to 8/2008; Co-op at Batson-Cook Construction, 1/2000 to 5/2002",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 98,
+      "date_added": "2026-08-19 11:33:29 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 318,
+      "date_added": "2026-08-13 11:35:08 UTC",
+      "date_updated": "2026-08-19 06:33:28 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 318,
+      "date_added": "2026-08-13 11:35:08 UTC",
+      "date_updated": "2026-08-19 06:33:28 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "fortis-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "3/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Brasfield & Gorrie",
+      "start": "4/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Brasfield & Gorrie",
+      "start": "8/2008",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Manager",
+      "company": "Brasfield & Gorrie",
+      "start": "8/2002",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Co-op",
+      "company": "Batson-Cook Construction",
+      "start": "1/2000",
+      "end": "5/2002",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Portland",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "education": [
+    "BS Building Science, Construction, Auburn University, 1999 to 2002"
+  ],
+  "biography": "Sr. Preconstruction Manager at Fortis Construction",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

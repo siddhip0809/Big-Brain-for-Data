@@ -1,0 +1,89 @@
+{
+  "id": "eduardo-crispim-e9128d2e",
+  "type": "person",
+  "name": "Eduardo Crispim",
+  "current_title": "Principal Cost Management Metro Lead - Data Center Construction",
+  "current_company": "Microsoft",
+  "location": "Chicago, Illinois",
+  "linkedin": "https://www.linkedin.com/in/eduardocrispim",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Principal Cost Management Metro Lead - Data Center Construction at Microsoft, 3/2026 to present; Senior Cost Management Metro Lead - Data Center Construction at Microsoft, 6/2025 to 3/2026;  Senior Cost Management Metro Lead - Data Center Construction at Microsoft, 8/2023 to 6/2025",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 241,
+      "date_added": "2026-08-26 13:14:43 UTC",
+      "date_updated": "2026-08-26 08:15:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 374,
+      "date_added": "2026-08-18 12:12:26 UTC",
+      "date_updated": "2026-08-26 08:14:42 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal Cost Management Metro Lead - Data Center Construction",
+      "company": "Microsoft",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Management Metro Lead - Data Center Construction",
+      "company": "Microsoft",
+      "start": "6/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Management Metro Lead - Data Center Construction",
+      "company": "Microsoft",
+      "start": "8/2023",
+      "end": "6/2025",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Chicago",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

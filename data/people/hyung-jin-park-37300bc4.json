@@ -1,0 +1,81 @@
+{
+  "id": "hyung-jin-park-37300bc4",
+  "type": "person",
+  "name": "Hyung-Jin Park",
+  "current_title": "Senior Project Manager",
+  "current_company": "Diode Ventures | A Black & Veatch Company",
+  "linkedin": "https://www.linkedin.com/in/hyung-jin-park-578044175",
+  "location": "Seoul",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Project Manager at Diode Ventures | A Black & Veatch Company, 8/2023 to present; Senior Project Manager at TGK, 10/2022 to present; Senior Manager at Hyundai Engineering Co, 1/2011 to 10/2022; seargent at US 8th Army Korean Augmentation To the United States Army, 3/2003 to 3/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 134,
+      "date_added": "2026-05-27 06:24:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "Diode Ventures",
+      "current": false
+    },
+    {
+      "company": "A Black & Veatch Company",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "TGK",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Hyundai Engineering Co",
+      "start": "1/2011",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "seargent",
+      "company": "US 8th Army Korean Augmentation To the United States Army",
+      "start": "3/2003",
+      "end": "3/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seoul",
+    "region": null,
+    "country": "South Korea",
+    "group": "South Korea"
+  },
+  "education": [
+    "학사, 전기전자전파공학과, 고려대학교, 2001 to 2009"
+  ],
+  "biography": "Data center power and energy strategy professional focused on hyperscale campus developments.\nIdentifying viable power sourcing options via off-taking structures and IPP partnership to structure commercially feasible solutions."
+}

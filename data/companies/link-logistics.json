@@ -1,0 +1,37 @@
+{
+  "id": "link-logistics",
+  "type": "company",
+  "name": "Link Logistics",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "New York, New York",
+  "founded": null,
+  "website": "https://www.linklogistics.com",
+  "linkedin": "https://www.linkedin.com/company/link-logistics-real-estate/",
+  "headcount": "501-1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "None",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Mission Critical / DC Experience": "No",
+      "DC Exposure Level": "None"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Blackstone-backed industrial REIT. Logistics and warehousing. Limited DC exposure.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

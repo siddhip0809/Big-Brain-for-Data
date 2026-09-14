@@ -1,0 +1,90 @@
+{
+  "id": "jim-vonich-640bdb2f",
+  "type": "person",
+  "name": "Jim Vonich",
+  "current_title": "Account Director",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/jimvonich",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Account Director at Equinix, 11/2014 to present; Major Account Executive at Akamai Technologies, 2/2013 to 11/2014; National Account  Manager at Internap Network Services, 12/2000 to 2/2013; Sales at PageNet, 1/1995 to 12/1998",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 259,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Director",
+      "company": "Equinix",
+      "start": "11/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Major Account Executive",
+      "company": "Akamai Technologies",
+      "start": "2/2013",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "National Account  Manager",
+      "company": "Internap Network Services",
+      "start": "12/2000",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "PageNet",
+      "start": "1/1995",
+      "end": "12/1998",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BS, Business Administration, California State University - East Bay, 1993 to 1995",
+    "High School Diploma, Business, Management, Marketing, and Related Support Services, Skyline High School, 1986 to 1988"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

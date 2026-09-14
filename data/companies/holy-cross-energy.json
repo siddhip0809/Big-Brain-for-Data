@@ -1,0 +1,39 @@
+{
+  "id": "holy-cross-energy",
+  "type": "company",
+  "name": "Holy Cross Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Glenwood Springs, Colorado",
+  "founded": null,
+  "website": "https://www.holycross.com",
+  "linkedin": "https://www.linkedin.com/company/holy-cross-energy/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Utility",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Distribution Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Electric cooperative. Western Colorado. Distribution only. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

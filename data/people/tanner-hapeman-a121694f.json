@@ -1,0 +1,118 @@
+{
+  "id": "tanner-hapeman-a121694f",
+  "type": "person",
+  "name": "Tanner Hapeman",
+  "current_title": "Senior Estimator",
+  "current_company": "DPR Construction",
+  "location": "Dallas, Texas",
+  "linkedin": "https://www.linkedin.com/in/tanner-hapeman-78603884",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at DPR Construction, 7/2024 to present; Estimator at DPR Construction, 3/2017 to present; Estimator at Manhattan Construction, 10/2014 to 3/2017; Junior Estimator at Azteca Enterprises, 6/2013 to 10/2014; Lab Technician at Alpha Testing, 12/2012 to 1/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 180,
+      "date_added": "2026-08-21 15:53:37 UTC",
+      "date_updated": "2026-08-21 11:09:28 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 370,
+      "date_added": "2026-08-17 09:26:26 UTC",
+      "date_updated": "2026-08-21 10:53:37 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 370,
+      "date_added": "2026-08-17 09:26:26 UTC",
+      "date_updated": "2026-08-21 10:53:37 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "DPR Construction",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "DPR Construction",
+      "start": "3/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Manhattan Construction",
+      "start": "10/2014",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Junior Estimator",
+      "company": "Azteca Enterprises",
+      "start": "6/2013",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Lab Technician",
+      "company": "Alpha Testing",
+      "start": "12/2012",
+      "end": "1/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Science (BS) Civil Engineering, University Of Arkansas, 2009 to 2013"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

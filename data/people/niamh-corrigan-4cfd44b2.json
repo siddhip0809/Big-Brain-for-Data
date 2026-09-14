@@ -1,0 +1,110 @@
+{
+  "id": "niamh-corrigan-4cfd44b2",
+  "type": "person",
+  "name": "Niamh Corrigan",
+  "current_title": "Site Acquisitions Mgr, Data Center Supply Solutions",
+  "current_company": "AWS",
+  "location": "Dublin,  County Dublin, Ireland",
+  "linkedin": "https://www.linkedin.com/in/niamh-corrigan-856aaa56",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Site Acquisitions Mgr, Data Center Supply Solutions at AWS, 2/2021 to present; Finance Project Manager at Top Oil - Fueling Ireland, 10/2019 to 1/2021; Finance Business Partner at SIRO, 1/2019 to 10/2019; Capital Accountant at SIRO, 3/2016 to 12/2018; Regulatory Reporting Analyst at Bank of Ireland Corporate and Treasury, 12/2014 to 2/2016; Senior Associate at KPMG Ireland, 9/2010 to 12/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "2c. Position Pitched",
+      "rank": 98,
+      "date_added": "2026-08-26 09:20:38 UTC",
+      "date_updated": "2026-08-26 04:21:06 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 131,
+      "date_added": "2026-07-10 08:19:00 UTC",
+      "date_updated": "2026-08-26 04:20:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site Acquisitions Mgr, Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "2/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Finance Project Manager",
+      "company": "Top Oil - Fueling Ireland",
+      "start": "10/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Finance Business Partner",
+      "company": "SIRO",
+      "start": "1/2019",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Capital Accountant",
+      "company": "SIRO",
+      "start": "3/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Regulatory Reporting Analyst",
+      "company": "Bank of Ireland Corporate and Treasury",
+      "start": "12/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "KPMG Ireland",
+      "start": "9/2010",
+      "end": "12/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dublin",
+    "region": "County Dublin",
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "education": [
+    "Business and Management, Management, Accounting & Finance, Technological University Dublin, 2006 to 2010"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

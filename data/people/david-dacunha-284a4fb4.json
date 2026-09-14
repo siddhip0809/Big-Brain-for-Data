@@ -1,0 +1,101 @@
+{
+  "id": "david-dacunha-284a4fb4",
+  "type": "person",
+  "name": "David DaCunha",
+  "current_title": "Vice President of Construction North America",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/david-dacunha-a17700299",
+  "location": "Marengo, Ohio",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President of Construction North America at Vantage, 3/2026 to present; Senior Director of Construction North America  at Vantage, 3/2025 to 3/2026; Senior Director of Construction North America at Vantage, 3/2025 to 3/2026; Director of Construction at Vantage, 9/2023 to 3/2026; Director of Construction at Cologix, 8/2019 to 1/2023; Senior Construction Project Manager at Cologix, 6/2014 to 8/2019; Field Coordinator at Holder Construction, 9/2010 to 6/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 14,
+      "date_added": "2026-07-02 11:47:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction North America",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Construction North America ",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Construction North America",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "9/2023",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Cologix",
+      "start": "8/2019",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Project Manager",
+      "company": "Cologix",
+      "start": "6/2014",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Field Coordinator",
+      "company": "Holder Construction",
+      "start": "9/2010",
+      "end": "6/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Marengo",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "biography": "Director of Construction at Vantage Data Centers",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

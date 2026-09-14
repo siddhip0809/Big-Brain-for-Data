@@ -1,0 +1,83 @@
+{
+  "id": "steve-buck-5e562fd5",
+  "type": "person",
+  "name": "Steve Buck",
+  "current_title": "Regional Sales Director, Bay Area",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/steve-buck-75260461",
+  "location": "Danville, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Regional Sales Director, Bay Area at Equinix, 1/2012 to present; National Mobility Account Director at Transaction Network Services, 1/2009 to 12/2012; National Account Manager at VERISIGN, 1/2004 to 12/2009; Enterprise Service Sales Manager at Sun Microsystems, 1/2000 to 12/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 258,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Sales Director, Bay Area",
+      "company": "Equinix",
+      "start": "1/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "National Mobility Account Director",
+      "company": "Transaction Network Services",
+      "start": "1/2009",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "VERISIGN",
+      "start": "1/2004",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Enterprise Service Sales Manager",
+      "company": "Sun Microsystems",
+      "start": "1/2000",
+      "end": "12/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Danville",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BS, Social Sciences, California Polytechnic State University-San Luis Obispo",
+    "BS, Social Sciences, Cal Poly San Luis Obispo"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

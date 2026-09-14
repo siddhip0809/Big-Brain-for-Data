@@ -1,0 +1,90 @@
+{
+  "id": "ethan-roy-c12cb22c",
+  "type": "person",
+  "name": "Ethan Roy",
+  "current_title": "Director, Construction, NA",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/ethanroy",
+  "location": "Columbus, Ohio",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Construction, NA at Vantage, 12/2025 to present; Senior Construction Manager, NA at Vantage, 8/2024 to 12/2025; Construction Manager at Vantage, 11/2022 to 8/2024; Project Manager at DPR Construction, 1/2020 to 11/2022; Project Manager at CORE Construction, 2/2014 to 1/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 79,
+      "date_added": "2026-07-02 11:47:42 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction, NA",
+      "company": "Vantage",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Manager, NA",
+      "company": "Vantage",
+      "start": "8/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "11/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "1/2020",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "CORE Construction",
+      "start": "2/2014",
+      "end": "1/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "education": [
+    "BS, Construction Management, Arizona State University"
+  ],
+  "biography": "Vantage Data Centers powers, cools, protects and connects the technology of the world’s well-known hyperscalers, cloud providers and large enterprises. Developing and operating across five continents in North America, EMEA and Asia Pacific, Vantage has evolved data center design in innovative ways to deliver dramatic gains in reliability, efficiency and sustainability in flexible environments that can scale as quickly as the market demands.\nVantage Data Centers powers, cools, protects and connects the technology of the world's well-known hyperscalers, cloud providers and large enterprises. Developing and operating across five continents in North America, EMEA and Asia Pacific, Vantage has evolved data center design in innovative ways to deliver dramatic gains in reliability, efficiency and sustainability in flexible environments that can scale as quickly as the market demands.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

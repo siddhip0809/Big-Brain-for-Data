@@ -1,0 +1,152 @@
+{
+  "id": "vivek-prasad-93b3d43d",
+  "type": "person",
+  "name": "Vivek Prasad",
+  "current_title": "Portfolio Estimating Lead",
+  "current_company": "Microsoft",
+  "location": "Philadelphia, Pennsylvania",
+  "linkedin": "https://www.linkedin.com/in/vivek-prasad-46653750",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Portfolio Estimating Lead at Microsoft, 5/2025 to present; Lead Estimator - Americas at Microsoft, 10/2023 to 4/2025; Senior Construction Estimator at Vantage, 1/2023 to 10/2023; Preconstruction Manager (Special Projects Division) at Turner Construction, 4/2022 to 2/2023; Lead Estimator at Turner Construction, 4/2021 to 4/2022; Estimating Engineer at Turner Construction, 4/2019 to 4/2021; Assitant Superintendent at Turner Construction, 9/2018 to 3/2019; Field Engineer at Turner Construction, 5/2017 to 9/2018; Graduate Research Assistant at Virginia Tech, 1/2016 to 5/2017; Senior Engineer -  Civil at Larsen & Toubro, 7/2013 to 7/2015; Senior Engineer   Civil at Larsen & Toubro Limited, 7/2013 to 7/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 237,
+      "date_added": "2026-08-26 13:14:43 UTC",
+      "date_updated": "2026-08-26 08:15:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 245,
+      "date_added": "2026-08-12 09:25:58 UTC",
+      "date_updated": "2026-08-26 08:14:42 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Portfolio Estimating Lead",
+      "company": "Microsoft",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator - Americas",
+      "company": "Microsoft",
+      "start": "10/2023",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Estimator",
+      "company": "Vantage",
+      "start": "1/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager (Special Projects Division)",
+      "company": "Turner Construction",
+      "start": "4/2022",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Turner Construction",
+      "start": "4/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Estimating Engineer",
+      "company": "Turner Construction",
+      "start": "4/2019",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Assitant Superintendent",
+      "company": "Turner Construction",
+      "start": "9/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Turner Construction",
+      "start": "5/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "company": "Virginia Tech",
+      "start": "1/2016",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer -  Civil",
+      "company": "Larsen & Toubro",
+      "start": "7/2013",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer   Civil",
+      "company": "Larsen & Toubro Limited",
+      "start": "7/2013",
+      "end": "7/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Philadelphia",
+    "region": "Pennsylvania",
+    "country": "United States",
+    "group": "Pennsylvania"
+  },
+  "education": [
+    "Master Of Science, Masters, Construction, Engineering, Management, Virginia Tech, 2015 to 2017",
+    "Master of Science (MS), Construction Engineering and Management, Virginia Tech, 2015 to 2017",
+    "Bachelor of Technology (B.Tech.), Civil Engineering, SRM IST Chennai, 2009 to 2013",
+    "Bachelor Of Technology, Bachelors, Civil Engineering, SRM IST Chennai, 2009 to 2013"
+  ],
+  "biography": "Datacenter Professional",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "timothy-smith-273c5005",
+  "type": "person",
+  "name": "Timothy Smith",
+  "current_title": "Strategic Negotiator",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/timsmith444",
+  "location": "San Francisco, California",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Negotiator at Google, 10/2023 to present; Senior Civil Engineer at Rivian, 7/2021 to 4/2023; Civil Engineer IV at AECOM, 1/2020 to 7/2021; Great Place To Work Program Manager at AECOM, 10/2018 to 6/2021; Civil Engineer III at AECOM, 1/2018 to 1/2020; Civil Engineer II at AECOM, 4/2016 to 1/2018; Project Engineer at Kier & Wright Civil Engineers & Surveyors, 7/2014 to 4/2016; Civil Engineer at Kier & Wright Civil Engineers & Surveyors, 7/2014 to 4/2016; Civil Engineer at Kier + Wright, 7/2014 to 4/2016; Kier & Wright Civil Engineers & Surveyors, 7/2014 to 4/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 404,
+      "date_added": "2026-05-13 10:33:20 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Civil Engineer",
+      "company": "Rivian",
+      "start": "7/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer IV",
+      "company": "AECOM",
+      "start": "1/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Great Place To Work Program Manager",
+      "company": "AECOM",
+      "start": "10/2018",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer III",
+      "company": "AECOM",
+      "start": "1/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer II",
+      "company": "AECOM",
+      "start": "4/2016",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Kier & Wright Civil Engineers & Surveyors",
+      "start": "7/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "Kier & Wright Civil Engineers & Surveyors",
+      "start": "7/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "Kier + Wright",
+      "start": "7/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "company": "Kier & Wright Civil Engineers & Surveyors",
+      "start": "7/2014",
+      "end": "4/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor Of Science, Bachelors, Civil Engineering, Urban Studies, Northwestern University, 2010 to 2014",
+    "De La Salle High School",
+    "Bachelor of Science (B.S.), Civil engineering major with a concentration in urban studies., Northwestern University"
+  ],
+  "biography": "Data Center Energy and Location Strategy @ Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

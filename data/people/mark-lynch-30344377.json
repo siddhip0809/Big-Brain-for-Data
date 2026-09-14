@@ -1,0 +1,101 @@
+{
+  "id": "mark-lynch-30344377",
+  "type": "person",
+  "name": "Mark Lynch",
+  "current_title": "Commercial/Cost Management - Data Centers",
+  "current_company": "Microsoft",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/mark-lynch-18345658",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Commercial/Cost Management - Data Centers at Microsoft, 8/2023 to present; Global Project Management Lead (Cost Management, Scheduling, Procurement, Contracts) at Apple, 2018 to 6/2023; Project Director at Webcor Builders, 2015 to 2018; Multiple Positions at AECOM, 1998 to 2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 210,
+      "date_added": "2026-08-26 12:57:38 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 39,
+      "date_added": "2026-08-04 13:50:24 UTC",
+      "date_updated": "2026-08-26 07:57:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial/Cost Management - Data Centers",
+      "company": "Microsoft",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Project Management Lead (Cost Management, Scheduling, Procurement, Contracts)",
+      "company": "Apple",
+      "start": "2018",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Webcor Builders",
+      "start": "2015",
+      "end": "2018",
+      "current": false
+    },
+    {
+      "title": "Multiple Positions",
+      "company": "AECOM",
+      "start": "1998",
+      "end": "2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Construction Economics - England, Quantity surveying, University of Central Lancashire, 1992 to 1996",
+    "Quatity Surveying -Ireland, Construction economics, Waterford Institute of Technology, 1990 to 1992"
+  ],
+  "biography": "Mark is a Commercial Real Estate and Construction professional with 25+ years of experience with a strong diverse background specializing in pre-construction, project delivery, strategy, and operations. Excels in challenging and agile environments and has outstanding commitment to excellence. Demonstrated ability to lead and develop high performing teams and operate in multiple diverse roles both at strategic and tactical levels. Expert in project delivery, preconstruction, operations, procurement, contract and change management, financial management and project controls. Broad experience on global portfolios and programs, and a proven track record of designing and implementing cross functional initiatives.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

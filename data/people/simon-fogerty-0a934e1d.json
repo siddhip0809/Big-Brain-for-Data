@@ -1,0 +1,124 @@
+{
+  "id": "simon-fogerty-0a934e1d",
+  "type": "person",
+  "name": "Simon Fogerty",
+  "current_title": "Director",
+  "current_company": "WSP in the UK & Ireland",
+  "linkedin": "https://www.linkedin.com/in/simon-fogerty-91301a1a",
+  "location": "United Kingdom",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director at WSP in the UK & Ireland, 5/2026 to present; Principle Site Acquisition Manager at Oracle, 9/2024 to 5/2026; Director Feasibility & Site Selection at Pure Data Centres, 8/2022 to 8/2024; Director Site Selection - MENA at Vantage, 8/2021 to 8/2022; Project Director - Design & Construction at Amazon, 4/2015 to 7/2021; Head of Project & Development Management Services MENA Region at JLL, 3/2010 to 5/2014; Development Director at Meraas Malls & Hospitality, 8/2008 to 3/2010; Vice President- Investment Banking - Hospitality at Morgan Stanley, 6/2007 to 8/2008; Development Director at IFA Hotels & Resorts, 5/2005 to 6/2007; Project Director / Studio Manager at Woods Bagot, 4/2003 to 5/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Tenure",
+      "rank": 298,
+      "date_added": "2026-08-27 07:07:12 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director",
+      "company": "WSP in the UK & Ireland",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principle Site Acquisition Manager",
+      "company": "Oracle",
+      "start": "9/2024",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Director Feasibility & Site Selection",
+      "company": "Pure Data Centres",
+      "start": "8/2022",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Director Site Selection - MENA",
+      "company": "Vantage",
+      "start": "8/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Project Director - Design & Construction",
+      "company": "Amazon",
+      "start": "4/2015",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Head of Project & Development Management Services MENA Region",
+      "company": "JLL",
+      "start": "3/2010",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Development Director",
+      "company": "Meraas Malls & Hospitality",
+      "start": "8/2008",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Vice President- Investment Banking - Hospitality",
+      "company": "Morgan Stanley",
+      "start": "6/2007",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Development Director",
+      "company": "IFA Hotels & Resorts",
+      "start": "5/2005",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Project Director / Studio Manager",
+      "company": "Woods Bagot",
+      "start": "4/2003",
+      "end": "5/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Post Graduate Diploma, Architecture, Leeds Metropolitan University, 1988 to 1990",
+    "Ba(Hons), Architecture, Leeds Metropolitan University, 1984 to 1987"
+  ],
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

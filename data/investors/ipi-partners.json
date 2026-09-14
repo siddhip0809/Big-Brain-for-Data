@@ -1,0 +1,23 @@
+{
+  "id": "ipi-partners",
+  "type": "investor",
+  "name": "IPI Partners",
+  "investor_type": "infrastructure-focused investment platform (aka IPI Data Center Partners)",
+  "hq": null,
+  "aum": "~$5.25B in equity commitments across its funds prior to its business being acquired by Blue Owl Capital in Jan 2025",
+  "investments": [
+    "stack-infrastructure",
+    "radiusdc"
+  ],
+  "notable_deals": "Founded STACK Infrastructure at its Jan 15, 2019 launch (a joint venture of ICONIQ Capital and Iron Point Partners formed in 2016), combining Infomart and T5 data-center assets into a national platform. Remained STACK's majority owner/sponsor from 2019 until Blue Owl Capital acquired IPI Partners' entire asset-management business (~$1.0B) in a deal announced Oct 2024 and closed Jan 6, 2025.",
+  "contacts": [],
+  "notes": "Added 2026-09-05 alongside the Blue Owl Capital <-> STACK Infrastructure correction Siddhi flagged. Kept as a separate historical record (STACK's 2019-2024 founding sponsor) rather than merged into Blue Owl, since it has independent historical relevance and ICONIQ Capital appears to retain some ongoing affiliate-level role post-acquisition. Unverified beyond web research -- cross-check recommended.",
+  "sources": [
+    "Web research, 2026-09-05",
+    "https://www.datacenterdynamics.com/en/news/ipi-launches-stack-infrastructure-wholesale-provider-eight-data-centers/",
+    "https://www.datacenterdynamics.com/en/news/asset-manager-blue-owl-to-buy-ipi-partners-for-1bn/",
+    "https://www.crunchbase.com/organization/stack-infrastructure",
+    "https://irei.com/news/blue-owl-capital-to-acquire-ipi-partners-partner-with-iconiq/"
+  ],
+  "last_updated": "2026-09-05"
+}

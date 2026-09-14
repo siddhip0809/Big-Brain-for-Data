@@ -1,0 +1,120 @@
+{
+  "id": "vandad-mazarei-48a86800",
+  "type": "person",
+  "name": "Vandad Mazarei",
+  "current_title": "Data Center Preconstruction Manager",
+  "current_company": "Meta",
+  "linkedin": "https://www.linkedin.com/in/mazarei",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Preconstruction Manager at Meta, 1/2026 to present; Preconstruction Manager at Turner Construction, 6/2024 to 1/2026; Project Manager at Turner Construction, 9/2023 to 11/2024; Project Manager at Turner Construction, 12/2020 to 8/2023; Cost Analyst at Turner Construction, 9/2016 to 5/2018; Project Engineer at Turner Construction, 1/2016 to 9/2016; Project Engineer Intern at Absher Construction, 6/2015 to 12/2015; Researcher at Kiewit Materials Performance Laboratory, 9/2014 to 10/2015; Researcher at Kiewit Materials Performance Laboratory, 1/2014 to 12/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Years Experience",
+      "rank": 19,
+      "date_added": "2026-08-03 14:01:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "meta",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Preconstruction Manager",
+      "company": "Meta",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Turner Construction",
+      "start": "6/2024",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "9/2023",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "12/2020",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Analyst",
+      "company": "Turner Construction",
+      "start": "9/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "1/2016",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Absher Construction",
+      "start": "6/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Researcher",
+      "company": "Kiewit Materials Performance Laboratory",
+      "start": "9/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Researcher",
+      "company": "Kiewit Materials Performance Laboratory",
+      "start": "1/2014",
+      "end": "12/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

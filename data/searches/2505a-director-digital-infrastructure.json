@@ -1,0 +1,37 @@
+{
+  "id": "d2caa2a9-7624-46c8-ad64-2a03c31465ff",
+  "type": "search",
+  "name": "2505A Director Digital Infrastructure",
+  "client_company": "Actis",
+  "client_company_id": "actis",
+  "status": "active",
+  "project_type": "Retained",
+  "started_at": "2025-05-02",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Leong Poh",
+      "clockwork_person_id": "6f256fcc-e31b-4fbe-a566-d8cb9e711cfd",
+      "brain_person_id": "leong-poh-6f256fcc",
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2025-09-17T21:18:44Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 1,
+    "placed": 0,
+    "active": 1,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

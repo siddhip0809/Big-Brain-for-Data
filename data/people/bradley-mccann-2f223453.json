@@ -1,0 +1,154 @@
+{
+  "id": "bradley-mccann-2f223453",
+  "type": "person",
+  "name": "Bradley McCann",
+  "current_title": "Director, New Site Development [EMEA]",
+  "current_company": "Vantage",
+  "location": "London,  England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/bradley-mccann-8b539b60",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, New Site Development [EMEA] at Vantage, 1/2025 to present; Commercial Development Director at Colt Data Centre Services, 4/2024 to 2/2025; Head of Project Cost Management at Colt Data Centre Services, 1/2023 to 4/2024; Senior Development Manager Real Estate - Europe at Colt Data Centre Services, 3/2022 to 1/2023; Development Manager Real Estate - Europe at Colt Data Centre Services, 5/2019 to 3/2022; Executive Surveyor at Gardiner & Theobald, 1/2018 to 4/2019; Project Surveyor at Beadmans, 2/2016 to 1/2018; Quantity Surveyor at Brian Heineberg & Associates, 3/2014 to 2/2016; Site Engineer at WBHO Construction, 1/2012 to 2/2014; Junior quantity surveyor at CA Brand Engineering, 1/2011 to 12/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Culture Fit",
+      "rank": 34,
+      "date_added": "2026-08-12 09:34:33 UTC",
+      "date_updated": "2026-08-12 04:36:21 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 72,
+      "date_added": "2026-07-09 10:55:25 UTC",
+      "date_updated": "2026-08-12 04:34:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 4,
+      "date_added": "2025-11-06 07:56:36 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "vantage",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, New Site Development [EMEA]",
+      "company": "Vantage",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Development Director",
+      "company": "Colt Data Centre Services",
+      "start": "4/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Head of Project Cost Management",
+      "company": "Colt Data Centre Services",
+      "start": "1/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager Real Estate - Europe",
+      "company": "Colt Data Centre Services",
+      "start": "3/2022",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Development Manager Real Estate - Europe",
+      "company": "Colt Data Centre Services",
+      "start": "5/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Executive Surveyor",
+      "company": "Gardiner & Theobald",
+      "start": "1/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Project Surveyor",
+      "company": "Beadmans",
+      "start": "2/2016",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Brian Heineberg & Associates",
+      "start": "3/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Site Engineer",
+      "company": "WBHO Construction",
+      "start": "1/2012",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Junior quantity surveyor",
+      "company": "CA Brand Engineering",
+      "start": "1/2011",
+      "end": "12/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor of Science (B.Sc.), Quantity Surveying, University of the Witwatersrand, 2006 to 2011"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 1.0
+  }
+}

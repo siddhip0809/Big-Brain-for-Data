@@ -1,0 +1,58 @@
+{
+  "id": "jared-weatherhead-3dba1a5a",
+  "type": "person",
+  "name": "Jared Weatherhead",
+  "current_title": "Sr Development Project Manager",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/jaredweatherhead",
+  "location": "Mesa, Arizona",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Sr Development Project Manager at QTS Data Centers, 11/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 293,
+      "date_added": "2026-07-10 08:24:23 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Mesa",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rider-levett-bucknall",
+  "type": "company",
+  "name": "Rider Levett Bucknall",
+  "aliases": [
+    "RLB"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "construction consultancy — cost, programme & project management",
+  "headquarters": "Birmingham, United Kingdom",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": null,
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Added 2026-09-13 as an adjacent company because it is where data-center talent comes from: 3 people now at tracked companies list it as their previous employer (talent_flows.csv). Filed under the closest existing tier; industry_role says what it actually is. Website, headcount and ownership not yet researched.",
+  "sources": [
+    "Career histories of people in data/people/ (data/derived/talent_flows.csv), 2026-09-13"
+  ],
+  "last_updated": "2026-09-13"
+}

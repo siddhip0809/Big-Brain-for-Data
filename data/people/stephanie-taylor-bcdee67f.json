@@ -1,0 +1,136 @@
+{
+  "id": "stephanie-taylor-bcdee67f",
+  "type": "person",
+  "name": "Stephanie Taylor",
+  "current_title": "Executive Vice President",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/stephanie-taylor-4400a36",
+  "location": "Meta, Missouri",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Executive Vice President at QTS Data Centers, 7/2025 to present; Senior Vice President at QTS Data Centers, 10/2024 to present; Vice President at QTS Data Centers, 6/2024 to 10/2024; Data Center Site Acquisition and Development Lead [EMEA] at Meta, 1/2018 to present; Head of Sustainability & Community for Construction at Mace, 8/2017 to 1/2018; Sustainability Associate Director at Mace, 5/2016 to 8/2017; Sustainability Senior Manager at Mace, 5/2013 to 5/2016; Environment and Stakeholder Manager at Taylor Woodrow BAM Nuttall Joint Venture, 9/2011 to 4/2013; Environmental Manager at Taylor Woodrow BAM Nuttall Joint Venture, 1/2010 to 9/2011; Environmental Consultant at Taylor Woodrow, 3/2009 to 12/2009; QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 34,
+      "date_added": "2025-11-06 10:02:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President",
+      "company": "QTS Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "QTS Data Centers",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "QTS Data Centers",
+      "start": "6/2024",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Data Center Site Acquisition and Development Lead [EMEA]",
+      "company": "Meta",
+      "start": "1/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Sustainability & Community for Construction",
+      "company": "Mace",
+      "start": "8/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Sustainability Associate Director",
+      "company": "Mace",
+      "start": "5/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Sustainability Senior Manager",
+      "company": "Mace",
+      "start": "5/2013",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Environment and Stakeholder Manager",
+      "company": "Taylor Woodrow BAM Nuttall Joint Venture",
+      "start": "9/2011",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Environmental Manager",
+      "company": "Taylor Woodrow BAM Nuttall Joint Venture",
+      "start": "1/2010",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Environmental Consultant",
+      "company": "Taylor Woodrow",
+      "start": "3/2009",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Meta",
+    "region": "Missouri",
+    "country": "United States",
+    "group": "Missouri"
+  },
+  "education": [
+    "Masters, King's College London, 2006 to 2007",
+    "Universita' di Padova, 2002 to 2005"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

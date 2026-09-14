@@ -1,0 +1,39 @@
+{
+  "id": "broad-reach-power",
+  "type": "company",
+  "name": "Broad Reach Power",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Houston, Texas",
+  "founded": null,
+  "website": "https://www.broadreachpower.com",
+  "linkedin": "https://www.linkedin.com/company/broad-reach-power/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Storage Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Utility-scale battery storage developer. ERCOT focused. Backed by Macquarie.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

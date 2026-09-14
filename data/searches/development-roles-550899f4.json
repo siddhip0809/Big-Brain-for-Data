@@ -1,0 +1,27 @@
+{
+  "id": "550899f4-809d-4719-afed-0e5be79012ce",
+  "type": "search",
+  "name": "Development roles",
+  "client_company": "Stream Data Centers",
+  "client_company_id": "stream-data-centers",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2026-02-06",
+  "closed_at": "2026-04-07",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

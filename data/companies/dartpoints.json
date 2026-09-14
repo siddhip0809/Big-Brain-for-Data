@@ -1,0 +1,46 @@
+{
+  "id": "dartpoints",
+  "type": "company",
+  "name": "DartPoints",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "Dallas, Texas, United States",
+  "founded": null,
+  "website": "http://www.dartpoints.com",
+  "linkedin": "https://www.linkedin.com/company/dartpoints/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.\n\nM&A: acquired Venyu -- May 2023 (after Immedion, Mar 2021): Southeast/Midwest edge roll-up. [completed; confidence medium; https://www.lightreading.com/services/dartpoints-buys-more-data-centers]",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 26.9,
+      "early_stage_mw": 1.5
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "michelle-anderson-52c3ef48",
+  "type": "person",
+  "name": "Michelle Anderson",
+  "current_title": "Manager, AWS Real Estate and Development",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/mandersonretailrealestate",
+  "location": "Seattle, Washington",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Manager, AWS Real Estate and Development at AWS, 3/2025 to present; Senior Business Development Manager at AWS, 4/2023 to 3/2025; Data Center Expansion Manager   Tech at AWS, 12/2021 to 4/2023; Data Center Expansion Manager at AWS, 7/2021 to 12/2021; Leasing Manager at Signet Jewelers, 5/2017 to 8/2021; Real Estate Representative at Signet Jewelers, 8/2014 to 5/2017; Leasing Coordinator at Signet Jewelers, 12/2011 to 8/2014; Real Estate Administrator at Signet Jewelers, 1/2010 to 12/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 438,
+      "date_added": "2026-05-13 10:33:53 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Manager, AWS Real Estate and Development",
+      "company": "AWS",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Business Development Manager",
+      "company": "AWS",
+      "start": "4/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Data Center Expansion Manager   Tech",
+      "company": "AWS",
+      "start": "12/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Data Center Expansion Manager",
+      "company": "AWS",
+      "start": "7/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Leasing Manager",
+      "company": "Signet Jewelers",
+      "start": "5/2017",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Real Estate Representative",
+      "company": "Signet Jewelers",
+      "start": "8/2014",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Leasing Coordinator",
+      "company": "Signet Jewelers",
+      "start": "12/2011",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Real Estate Administrator",
+      "company": "Signet Jewelers",
+      "start": "1/2010",
+      "end": "12/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Masters, Master Of Business Administration, Business Administration, Kent State University, 2010 to 2013",
+    "Bachelors, Finance, Kent State University, 2003 to 2007",
+    "Masters, Master Of Business Administration, Kent State University, 2012"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

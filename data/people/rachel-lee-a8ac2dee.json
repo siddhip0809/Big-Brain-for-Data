@@ -1,0 +1,111 @@
+{
+  "id": "rachel-lee-a8ac2dee",
+  "type": "person",
+  "name": "Rachel Lee",
+  "current_title": "Development Senior Manager - APAC",
+  "current_company": "Bridge Data Centres",
+  "linkedin": "https://www.linkedin.com/in/rachelleecy",
+  "location": "Singapore",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Development Senior Manager - APAC at Bridge Data Centres, 10/2024 to present; Development Manager   Apac at Yondr, 8/2022 to 9/2024; Real Estate Transactions Senior Analyst   Apac at Equinix, 11/2018 to 8/2022; Management Trainee at JLL, 1/2017 to 12/2018; Research Intern at JTC, 5/2015 to 7/2015; Administrative Support Specialist at Monetary Authority Of Singapore, 4/2013 to 7/2013; Market Research Intern at Monetary Authority Of Singapore, 8/2012 to 10/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 188,
+      "date_added": "2026-01-22 11:01:45 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "bridge-data-centres",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Senior Manager - APAC",
+      "company": "Bridge Data Centres",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager   Apac",
+      "company": "Yondr",
+      "start": "8/2022",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Real Estate Transactions Senior Analyst   Apac",
+      "company": "Equinix",
+      "start": "11/2018",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Management Trainee",
+      "company": "JLL",
+      "start": "1/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Research Intern",
+      "company": "JTC",
+      "start": "5/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Administrative Support Specialist",
+      "company": "Monetary Authority Of Singapore",
+      "start": "4/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Market Research Intern",
+      "company": "Monetary Authority Of Singapore",
+      "start": "8/2012",
+      "end": "10/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Singapore",
+    "region": null,
+    "country": "Singapore",
+    "group": "Singapore"
+  },
+  "education": [
+    "Bachelor Of Science, Bachelors, Real Estate, National University of Singapore, 2013 to 2016",
+    "Management, Nanyang Polytechnic, 2010 to 2013"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

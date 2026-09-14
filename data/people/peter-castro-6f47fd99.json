@@ -1,0 +1,94 @@
+{
+  "id": "peter-castro-6f47fd99",
+  "type": "person",
+  "name": "Peter Castro",
+  "current_title": "Development Associate, BTS",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/peter-castro-6436a5202",
+  "location": "Baltimore, Washington DC",
+  "seniority": "Associate",
+  "industry_segment": "Data Centre",
+  "career_history": "Development Associate, BTS at STACK Infrastructure, 6/2024 to present; Analyst at South Duvall | Commercial Real Estate Investments, 6/2023 to 5/2024; Financial Analyst at Cross & Company, 11/2021 to 5/2023; Outside Services Attendant at Whiskey Creek Golf Club, 4/2021 to 11/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 226,
+      "date_added": "2026-01-23 16:20:12 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "career": [
+    {
+      "title": "Development Associate, BTS",
+      "company": "STACK Infrastructure",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Analyst",
+      "company": "South Duvall",
+      "current": false
+    },
+    {
+      "company": "Commercial Real Estate Investments",
+      "start": "6/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Cross & Company",
+      "start": "11/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Outside Services Attendant",
+      "company": "Whiskey Creek Golf Club",
+      "start": "4/2021",
+      "end": "11/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "education": [
+    "Bachelor of Finance, Finance and Financial Management Services, Hood College"
+  ],
+  "biography": "Real estate professional with a track record consisting of Residential, Office, Life Science, and Data Centers.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

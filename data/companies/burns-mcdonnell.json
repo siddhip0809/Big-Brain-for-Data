@@ -1,0 +1,54 @@
+{
+  "id": "burns-mcdonnell",
+  "type": "company",
+  "name": "Burns & McDonnell",
+  "aliases": [
+    "Burns & McDonnell (Industrial Dev)",
+    "Burns and McDonnell"
+  ],
+  "industry_role": "civil land engineering / real estate / industrial developer / general contractor",
+  "headquarters": "Kansas City, Missouri",
+  "founded": null,
+  "website": "https://www.burnsmcd.com",
+  "linkedin": "https://www.linkedin.com/company/burns-mcdonnell/",
+  "headcount": "10,001+",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "general_contractor",
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "Cold Storage & Industrial Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    },
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Engineering / EPC",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "High",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Power + industrial EPC. Active DC campus delivery.\n\nSiddhi's sheet note: Already in civil list. Burns & McDonnell's industrial and power EPC practice has deep permitting experience for power-intensive industrial facilities. People here understand large-site utility and environmental permitting.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

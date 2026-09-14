@@ -1,0 +1,83 @@
+{
+  "id": "vincent-basil-747c9afe",
+  "type": "person",
+  "name": "Vincent Basil",
+  "current_title": "VP of Construction",
+  "current_company": "Switch",
+  "linkedin": "https://www.linkedin.com/in/vincent-basil-98679980",
+  "location": "Las Vegas Metropolitan Area",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "VP of Construction at Switch, 1/2024 to present; Director of Construction at Switch, 1/2023 to 1/2024; Director Of Field Operations at Switch, 4/2022 to 5/2023; Project Manager at GSL Electric, 8/2006 to 3/2022",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 47,
+      "date_added": "2026-07-02 11:47:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "switch",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP of Construction",
+      "company": "Switch",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Switch",
+      "start": "1/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Director Of Field Operations",
+      "company": "Switch",
+      "start": "4/2022",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "GSL Electric",
+      "start": "8/2006",
+      "end": "3/2022",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Las Vegas",
+    "region": "Nevada",
+    "country": "United States",
+    "group": "Nevada"
+  },
+  "education": [
+    "Las Vegas Acadamy, 1999 to 2003",
+    "College of Southern Nevada"
+  ],
+  "biography": "Switch Construction",
+  "assessment": {
+    "under_represented_group": "No",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

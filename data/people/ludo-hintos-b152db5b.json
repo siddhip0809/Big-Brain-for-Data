@@ -1,0 +1,113 @@
+{
+  "id": "ludo-hintos-b152db5b",
+  "type": "person",
+  "name": "Ludo Hintos",
+  "current_title": "VP, Infrastructure Planning and Development",
+  "current_company": "Corscale Data Centers",
+  "linkedin": "https://www.linkedin.com/in/ludo-h-060156b",
+  "location": "Richmond, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "VP, Infrastructure Planning and Development at Corscale Data Centers, 2024 to present; Senior Manager - Electric Distribution and Substation Grid Planning at Dominion, 2020 to 2024; Manager - Electric Distribution Design and Project Management at Dominion, 2017 to 2020; Shift Manager - Regional Operations Center, NW at Dominion, 2015 to 2017; Supervisor - Regional Operations Center, NW at Dominion, 2014 to 2015; Supervisor - Electric Distribution Design at Dominion, 2012 to 2014; Engineer I/II - Electric Distribution Design and Reliability at Dominion, 2008 to 2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 132,
+      "date_added": "2026-04-22 16:11:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "corscale-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP, Infrastructure Planning and Development",
+      "company": "Corscale Data Centers",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager - Electric Distribution and Substation Grid Planning",
+      "company": "Dominion",
+      "start": "2020",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Manager - Electric Distribution Design and Project Management",
+      "company": "Dominion",
+      "start": "2017",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Shift Manager - Regional Operations Center, NW",
+      "company": "Dominion",
+      "start": "2015",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Supervisor - Regional Operations Center, NW",
+      "company": "Dominion",
+      "start": "2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Supervisor - Electric Distribution Design",
+      "company": "Dominion",
+      "start": "2012",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Engineer I/II - Electric Distribution Design and Reliability",
+      "company": "Dominion",
+      "start": "2008",
+      "end": "2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Richmond",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "A.A Electrical Engineering, Northern Virginia Community College, 2005",
+    "M.S Electrical Engineering, George Mason University, 2012",
+    "B.S Electrical Engineering, George Mason University, 2008"
+  ],
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "High Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

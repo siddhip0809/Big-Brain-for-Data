@@ -1,0 +1,71 @@
+{
+  "id": "alex-bauman-3dd1cac8",
+  "type": "person",
+  "name": "Alex Bauman",
+  "current_title": "Senior Project Manager | Data Center Construction & Delivery",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/alex-bauman-mpa-8b698083",
+  "location": "Chicago, Illinois",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Project Manager | Data Center Construction & Delivery at STACK Infrastructure, 2/2026 to present; Project Manager | Data Center Construction & Delivery at STACK Infrastructure, 12/2024 to 2/2026",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 291,
+      "date_added": "2026-07-10 08:06:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Senior Project Manager"
+    },
+    {
+      "title": "Data Center Construction & Delivery",
+      "company": "STACK Infrastructure",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Project Manager"
+    },
+    {
+      "title": "Data Center Construction & Delivery",
+      "company": "STACK Infrastructure",
+      "start": "12/2024",
+      "end": "2/2026",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Chicago",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

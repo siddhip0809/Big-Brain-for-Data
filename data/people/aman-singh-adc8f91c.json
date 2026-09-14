@@ -1,0 +1,124 @@
+{
+  "id": "aman-singh-adc8f91c",
+  "type": "person",
+  "name": "Aman Singh",
+  "current_title": "Director of Preconstruction",
+  "current_company": "BW Design Group",
+  "linkedin": "https://www.linkedin.com/in/amanjsingh",
+  "location": "Atlanta, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Preconstruction at BW Design Group, 10/2023 to present; Manager Preconstruction Services / Chief Estimator at Graycor Construction, 11/2015 to 10/2023; Project Controls Manager at Graycor Construction, 10/2011 to 10/2015; Project Engineer at Graycor Construction, 3/2009 to 10/2011; Engineering Intern at Graycor Construction, 6/2008 to 8/2008; Research Assistant at Michigan State University, 8/2007 to 2/2009; Construction Contracts Assistant at Michigan State University, 3/2007 to 2/2009; Lecturer at Amity University, 12/2005 to 12/2006; Assistant Project Manager at Moolchand Hospital, 6/2005 to 11/2005; Architect at Arvind Vivek and Associates, 1/2004 to 5/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 461,
+      "date_added": "2026-08-24 12:47:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "BW Design Group",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager Preconstruction Services / Chief Estimator",
+      "company": "Graycor Construction",
+      "start": "11/2015",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Manager",
+      "company": "Graycor Construction",
+      "start": "10/2011",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Graycor Construction",
+      "start": "3/2009",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Graycor Construction",
+      "start": "6/2008",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Michigan State University",
+      "start": "8/2007",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Construction Contracts Assistant",
+      "company": "Michigan State University",
+      "start": "3/2007",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Lecturer",
+      "company": "Amity University",
+      "start": "12/2005",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Moolchand Hospital",
+      "start": "6/2005",
+      "end": "11/2005",
+      "current": false
+    },
+    {
+      "title": "Architect",
+      "company": "Arvind Vivek and Associates",
+      "start": "1/2004",
+      "end": "5/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "MS, Construction Management, Michigan State University, 2007 to 2009"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

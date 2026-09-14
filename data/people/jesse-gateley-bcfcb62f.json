@@ -1,0 +1,135 @@
+{
+  "id": "jesse-gateley-bcfcb62f",
+  "type": "person",
+  "name": "Jesse Gateley",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Layton Construction",
+  "location": "Nashville, Tennessee",
+  "linkedin": "https://www.linkedin.com/in/jesse-gateley-63b592a4",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at Layton Construction, 12/2025 to present; Senior Estimator at Layton Construction, 1/2025 to 12/2025; Estimator at Layton Construction, 11/2019 to 1/2025; Estimator at Glenn E Mitchell Concrete, 5/2016 to 11/2019; Estimating Intern at Glenn E Mitchell & Co, 2/2016 to 5/2016; Intern at Glenn E Mitchell Concrete, 10/2015 to 2/2016; Estimating Intern at Rentenbach Constructors, 3/2015 to 10/2015; Intern at Merit Construction, 12/2013 to 3/2015; Front End Manager at Food City, 11/2012 to 12/2013; Courtesy Clerk at Food City, 6/2009 to 11/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 193,
+      "date_added": "2026-08-26 12:17:36 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 450,
+      "date_added": "2026-08-24 11:34:35 UTC",
+      "date_updated": "2026-08-26 07:17:36 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Layton Construction",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Layton Construction",
+      "start": "1/2025",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Layton Construction",
+      "start": "11/2019",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Glenn E Mitchell Concrete",
+      "start": "5/2016",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "Glenn E Mitchell & Co",
+      "start": "2/2016",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Glenn E Mitchell Concrete",
+      "start": "10/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "Rentenbach Constructors",
+      "start": "3/2015",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Merit Construction",
+      "start": "12/2013",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Front End Manager",
+      "company": "Food City",
+      "start": "11/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Courtesy Clerk",
+      "company": "Food City",
+      "start": "6/2009",
+      "end": "11/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Nashville",
+    "region": "Tennessee",
+    "country": "United States",
+    "group": "Tennessee"
+  },
+  "education": [
+    "Bachelor of Science (B.S.) Construction Science/Environmental and Soil Science, University of Tennessee, Knoxville, 2011 to 2016"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

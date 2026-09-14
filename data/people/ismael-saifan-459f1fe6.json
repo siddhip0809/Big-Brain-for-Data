@@ -1,0 +1,132 @@
+{
+  "id": "ismael-saifan-459f1fe6",
+  "type": "person",
+  "name": "Ismael Saifan",
+  "current_title": "Senior Manager, Cost Controls",
+  "current_company": "Rowan Digital Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/ismaelsaifan",
+  "location": "Overland Park, Kansas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Manager, Cost Controls at Rowan Digital Infrastructure, 4/2026 to present; Manager, Cost Controls at Rowan Digital Infrastructure, 4/2024 to 4/2026; Cost Control Manager at CRB, 9/2023 to 4/2024; Cost Control Manager at Black & Veatch, 6/2022 to 9/2023; Senior Project Controls Analyst at Black & Veatch, 10/2018 to 6/2022; Marketing Manager at Black & Veatch, 5/2018 to 10/2018; Proposal Manager at Black & Veatch, 10/2016 to 5/2018; Project Manager at Black & Veatch, 9/2015 to 9/2016; Proposal Manager at Black & Veatch, 5/2013 to 9/2015; Structural Engineer at Black & Veatch, 1/2006 to 5/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 191,
+      "date_added": "2026-08-11 08:14:32 UTC",
+      "date_updated": "2026-08-11 10:34:27 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "rowan-digital-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Cost Controls",
+      "company": "Rowan Digital Infrastructure",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Cost Controls",
+      "company": "Rowan Digital Infrastructure",
+      "start": "4/2024",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Control Manager",
+      "company": "CRB",
+      "start": "9/2023",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Control Manager",
+      "company": "Black & Veatch",
+      "start": "6/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Project Controls Analyst",
+      "company": "Black & Veatch",
+      "start": "10/2018",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "Black & Veatch",
+      "start": "5/2018",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Proposal Manager",
+      "company": "Black & Veatch",
+      "start": "10/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Black & Veatch",
+      "start": "9/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Proposal Manager",
+      "company": "Black & Veatch",
+      "start": "5/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer",
+      "company": "Black & Veatch",
+      "start": "1/2006",
+      "end": "5/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Overland Park",
+    "region": "Kansas",
+    "country": "United States",
+    "group": "Kansas"
+  },
+  "education": [
+    "MBA Business Administration and Management General, The University Of Kansas, 2008 to 2011",
+    "Master's degree Structural Engineering, The University Of Kansas, 2006 to 2008",
+    "Bachelor of Science - BS Civil Engineering, The University Of Kansas, 2002 to 2005"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

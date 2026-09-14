@@ -1,0 +1,138 @@
+{
+  "id": "lisa-tight-abdc18c1",
+  "type": "person",
+  "name": "Lisa Tight",
+  "current_title": "Program Manager | Senior Preconstruction Manager, Head of ESG",
+  "current_company": "XL Construction",
+  "linkedin": "https://www.linkedin.com/in/lisa-tight-nee-thom-a7999867",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Program Manager | Senior Preconstruction Manager, Head of ESG at XL Construction, 3/2025 to present; Senior Project Manager / Regional Program Manager at Linesight, 4/2024 to 2/2025; Senior Design Project Manager at Lendlease, 2/2020 to 3/2024;  Design Manager - Bids and Strategy at Lendlease, 7/2017 to 2/2020; Timber Engineering Course Lecturer at UNSW, 1/2017 to 12/2018; Structural Engineer at Lendlease, 5/2014 to 7/2017; Structural Engineer at Lindsay Dynan Consulting Engineers, 7/2012 to 5/2014; Student Ambassador at UNSW Faculty of Engineering, 1/2012 to 12/2013; Asbestos Monitor at WSP, 3/2011 to 7/2012; Professional Demonstrator at University of New South Wales School of Civil and Environmental Engineering, 1/2011 to 10/2013; Customer Service at Various Hospitality Roles, 2009 to 2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 48,
+      "date_added": "2026-08-05 08:11:16 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "xl-construction",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Program Manager"
+    },
+    {
+      "title": "Senior Preconstruction Manager, Head of ESG",
+      "company": "XL Construction",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager / Regional Program Manager",
+      "company": "Linesight",
+      "start": "4/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Design Project Manager",
+      "company": "Lendlease",
+      "start": "2/2020",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Design Manager - Bids and Strategy",
+      "company": "Lendlease",
+      "start": "7/2017",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Timber Engineering Course Lecturer",
+      "company": "UNSW",
+      "start": "1/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer",
+      "company": "Lendlease",
+      "start": "5/2014",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer",
+      "company": "Lindsay Dynan Consulting Engineers",
+      "start": "7/2012",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Student Ambassador",
+      "company": "UNSW Faculty of Engineering",
+      "start": "1/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Asbestos Monitor",
+      "company": "WSP",
+      "start": "3/2011",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Professional Demonstrator",
+      "company": "University of New South Wales School of Civil and Environmental Engineering",
+      "start": "1/2011",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Customer Service",
+      "company": "Various Hospitality Roles",
+      "start": "2009",
+      "end": "2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

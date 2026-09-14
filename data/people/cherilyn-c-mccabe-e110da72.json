@@ -1,0 +1,90 @@
+{
+  "id": "cherilyn-c-mccabe-e110da72",
+  "type": "person",
+  "name": "Cherilyn C. McCabe",
+  "current_title": "Senior Estimator II - Data Center Solutions",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/cherilyn-c-mccabe-5ba8362a",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator II - Data Center Solutions at Mortenson, 6/2025 to present; Senior Estimator II - Portland Operating Group at Mortenson, 5/2019 to 6/2025; Estimator - Phoenix Operating Group at Mortenson, 2/2016 to 4/2019; Project Estimator / Project Engineer at Kitchell, 9/2012 to 2/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 10,
+      "date_added": "2026-08-03 06:25:20 UTC",
+      "date_updated": "2026-08-14 09:14:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator II - Data Center Solutions",
+      "company": "Mortenson",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator II - Portland Operating Group",
+      "company": "Mortenson",
+      "start": "5/2019",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator - Phoenix Operating Group",
+      "company": "Mortenson",
+      "start": "2/2016",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Project Estimator / Project Engineer",
+      "company": "Kitchell",
+      "start": "9/2012",
+      "end": "2/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Masters, Integrated Design and Construction, Auburn University",
+    "Bachelor of Science, Construction Management, Northern Arizona University"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cody-muldner-79f8cf29",
+  "type": "person",
+  "name": "Cody Muldner",
+  "current_title": "Senior Development Project Manager",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/cody-muldner",
+  "location": "Corsicana, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Development Project Manager at QTS Data Centers, 4/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 185,
+      "date_added": "2026-07-07 16:03:48 UTC",
+      "date_updated": "2026-07-07 11:03:48 -0500",
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Corsicana",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

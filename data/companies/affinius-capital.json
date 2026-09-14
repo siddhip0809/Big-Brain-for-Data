@@ -1,0 +1,50 @@
+{
+  "id": "affinius-capital",
+  "type": "company",
+  "name": "Affinius Capital",
+  "aliases": [
+    "USAA Real Estate / Affinius Capital"
+  ],
+  "industry_role": "real estate developer",
+  "headquarters": "San Antonio, Texas",
+  "founded": null,
+  "website": "https://www.affiniuscapital.com",
+  "linkedin": "https://www.linkedin.com/company/affinius-capital/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA",
+    "Cold Storage & Industrial Developers"
+  ],
+  "dc_exposure_level": "Medium",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    },
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Industrial RE / PE",
+      "Primary Scope": "National",
+      "DC Exposure Level": "Medium",
+      "Noise Category": "Medium",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "Medium"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Real estate private credit and equity. Formerly USAA Real Estate. Some DC-adjacent investments. PE-style talent pool.\n\nMerged 2026-09-09: absorbed duplicate record 'USAA Real Estate / Affinius Capital' (usaa-real-estate-affinius-capital).",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09"
+}

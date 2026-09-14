@@ -1,0 +1,139 @@
+{
+  "id": "fr-d-ric-davill-5db44404",
+  "type": "person",
+  "name": "Frédéric Davillé",
+  "current_title": "Senior International Accounts Director",
+  "current_company": "OPCORE",
+  "linkedin": "https://www.linkedin.com/in/frédéric-davillé-52a4409",
+  "location": "France",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior International Accounts Director at OPCORE, 7/2025 to present; Senior Sales Account Manager at Euclyde Datacenters, 3/2024 to 7/2025; Senior Sales Account Manager at nLighten, 3/2024 to 7/2025; SALES DIRECTOR EMEA at Ethernetics, 9/2023 to 3/2024; Sales Director EMEA at ITrium Green & Cloud, 8/2022 to 8/2023; Sales Manager at Global Switch, 8/2020 to 8/2022; Lieutenant Colonel Réserve Opérationnelle Gendarmerie Nationale (Coordonnateur Digital) - RO1S at Gendarmerie Nationale, 1/2020 to present; SALES & COMMUNICATION DIRECTOR at TUTTITEAM, 4/2008 to 2/2020; SALES MANAGER FRANCE at Digital Realty, 3/2002 to 12/2007; SALES MANAGER EUROPE at GLOBAL CENTER /EXODUS/ GLIDEPATH, 9/1999 to 2/2002; Founder at EVOLUNET, 10/1998 to 9/1999; COUNTRY MANAGER EUROPE & APAC at SA THEMIS COMPUTER, 3/1996 to 9/1998; Account Executive at EDS GREENLAB, 9/1992 to 1/1996",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Research",
+      "rank": 331,
+      "date_added": "2026-09-01 10:52:26 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "opcore",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior International Accounts Director",
+      "company": "OPCORE",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales Account Manager",
+      "company": "Euclyde Datacenters",
+      "start": "3/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Account Manager",
+      "company": "nLighten",
+      "start": "3/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "SALES DIRECTOR EMEA",
+      "company": "Ethernetics",
+      "start": "9/2023",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Sales Director EMEA",
+      "company": "ITrium Green & Cloud",
+      "start": "8/2022",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Global Switch",
+      "start": "8/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Lieutenant Colonel Réserve Opérationnelle Gendarmerie Nationale (Coordonnateur Digital) - RO1S",
+      "company": "Gendarmerie Nationale",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "SALES & COMMUNICATION DIRECTOR",
+      "company": "TUTTITEAM",
+      "start": "4/2008",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "SALES MANAGER FRANCE",
+      "company": "Digital Realty",
+      "start": "3/2002",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "SALES MANAGER EUROPE",
+      "company": "GLOBAL CENTER /EXODUS/ GLIDEPATH",
+      "start": "9/1999",
+      "end": "2/2002",
+      "current": false
+    },
+    {
+      "title": "Founder",
+      "company": "EVOLUNET",
+      "start": "10/1998",
+      "end": "9/1999",
+      "current": false
+    },
+    {
+      "title": "COUNTRY MANAGER EUROPE & APAC",
+      "company": "SA THEMIS COMPUTER",
+      "start": "3/1996",
+      "end": "9/1998",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "EDS GREENLAB",
+      "start": "9/1992",
+      "end": "1/1996",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "France",
+    "group": "France"
+  },
+  "education": [
+    "BAC +4, Ecole de Commerce, IEA PARIS, 1992 to 1995"
+  ]
+}

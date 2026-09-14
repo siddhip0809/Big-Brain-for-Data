@@ -1,0 +1,74 @@
+{
+  "id": "joe-scheier-db8693d3",
+  "type": "person",
+  "name": "Joe Scheier",
+  "current_title": "Program Manager - Strategic Estimating",
+  "current_company": "Google",
+  "location": "Castle Rock, Colorado",
+  "linkedin": "https://www.linkedin.com/in/joe-scheier-19491b30",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Program Manager - Strategic Estimating at Google, 5/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 239,
+      "date_added": "2026-08-26 13:14:43 UTC",
+      "date_updated": "2026-08-26 08:15:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 449,
+      "date_added": "2026-08-24 11:29:41 UTC",
+      "date_updated": "2026-08-26 08:14:42 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "google",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Program Manager - Strategic Estimating",
+      "company": "Google",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Castle Rock",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of Science & Technology, Construction Management, South Dakota State University, 2009 to 2012",
+    "Bachelor of Science, Construction Engineering, Iowa State University, 2007 to 2009"
+  ],
+  "biography": "A highly confident, detailed, and organized individual who understands general construction & HVAC and specializes in plumbing, process, and hydronic heating systems. Recognized for performing accurate estimates in a timely manner and managing projects to a profitable and successful completion.",
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

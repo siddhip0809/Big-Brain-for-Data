@@ -1,0 +1,122 @@
+{
+  "id": "james-smith-52c2dc84",
+  "type": "person",
+  "name": "James Smith",
+  "current_title": "Real Estate Director",
+  "current_company": "Ark Data Centres",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/jamessmith-dcs",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Director at Ark Data Centres, 1/2025 to present; Real Estate Acquisitions Manager at Ark Data Centres, 9/2023 to 1/2025; Associate at Knight Frank, 12/2021 to 9/2023; CBRE at Associate Director MRICS - Data Centre Solutions, 3/2017 to 12/2021; Graduate Surveyor at Bonsors Chartered Surveyors & Commercial Property Consultants, 1/2014 to 3/2017; Data Analyst at Barclays Private Clients International, 7/2013 to 12/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 39,
+      "date_added": "2026-08-12 09:34:33 UTC",
+      "date_updated": "2026-08-12 04:36:21 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 76,
+      "date_added": "2026-07-09 10:55:25 UTC",
+      "date_updated": "2026-08-12 04:34:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 353,
+      "date_added": "2026-04-21 15:51:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "ark-data-centres",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Real Estate Director",
+      "company": "Ark Data Centres",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Acquisitions Manager",
+      "company": "Ark Data Centres",
+      "start": "9/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Knight Frank",
+      "start": "12/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "CBRE",
+      "company": "Associate Director MRICS - Data Centre Solutions",
+      "start": "3/2017",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "Bonsors Chartered Surveyors & Commercial Property Consultants",
+      "start": "1/2014",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Barclays Private Clients International",
+      "start": "7/2013",
+      "end": "12/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "biography": "An enthusiastic, dynamic and experienced individual, with 5 years of post…",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

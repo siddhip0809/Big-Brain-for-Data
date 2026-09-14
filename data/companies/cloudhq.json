@@ -1,0 +1,64 @@
+{
+  "id": "cloudhq",
+  "type": "company",
+  "name": "CloudHQ",
+  "aliases": [],
+  "industry_role": "data center developer",
+  "headquarters": "Washington D.C, United States",
+  "founded": null,
+  "website": "http://www.cloudhq.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Civil Engineering",
+    "Consultancy",
+    "Data Center Developer",
+    "General Contractor"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 2 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): founder-owned / family office. Founder-owned (Hossein Fateh, also DuPont Fabros co-founder), via Cloud Capital/family office. Raises project-level institutional capital for specific JVs, but the operating company itself has no outside PE ownership found.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "Yes",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/cloudhq-llc/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 2321.65,
+      "early_stage_mw": 369.6
+    },
+    "apac": {
+      "total_mw": 98.0,
+      "early_stage_mw": 108.0
+    },
+    "emea": {
+      "total_mw": 1061.8,
+      "early_stage_mw": 288.0
+    },
+    "south_america": {
+      "total_mw": 180.0,
+      "early_stage_mw": 84.0
+    }
+  }
+}

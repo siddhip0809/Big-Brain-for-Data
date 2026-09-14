@@ -1,0 +1,103 @@
+{
+  "id": "aleksey-kuzmenko-b2edea4f",
+  "type": "person",
+  "name": "Aleksey Kuzmenko",
+  "current_title": "Estimating Manager",
+  "current_company": "ATG",
+  "location": "Portland, Oregon",
+  "linkedin": "https://www.linkedin.com/in/aleksey-kuzmenko-43763710",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Estimating Manager at ATG, 4/2021 to present; Sr. Estimating Engineer at JE Dunn Construction, 5/2019 to 3/2020; Sr. Estimator at Advanced Technology Group, 9/2011 to 5/2019; Project Engineer / Estimator at Charter Construction, 9/2006 to 8/2011; Carpentry / PE apprenticeship at Cook Construction, 9/2005 to 9/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 181,
+      "date_added": "2026-08-21 15:53:37 UTC",
+      "date_updated": "2026-08-21 11:09:28 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 359,
+      "date_added": "2026-08-14 11:10:58 UTC",
+      "date_updated": "2026-08-21 10:53:37 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Manager",
+      "company": "ATG",
+      "start": "4/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Estimating Engineer",
+      "company": "JE Dunn Construction",
+      "start": "5/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Sr. Estimator",
+      "company": "Advanced Technology Group",
+      "start": "9/2011",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer / Estimator",
+      "company": "Charter Construction",
+      "start": "9/2006",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Carpentry / PE apprenticeship",
+      "company": "Cook Construction",
+      "start": "9/2005",
+      "end": "9/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Portland",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

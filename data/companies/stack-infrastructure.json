@@ -1,0 +1,64 @@
+{
+  "id": "stack-infrastructure",
+  "type": "company",
+  "name": "STACK Infrastructure",
+  "aliases": [
+    "STACK Americas",
+    "STACK EMEA",
+    "STACK Infrastructure EMEA",
+    "Stack Infrastructure"
+  ],
+  "industry_role": "hyperscale/colocation data center operator",
+  "headquarters": "Denver, Colorado, United States",
+  "founded": null,
+  "website": "https://www.stackinfra.com/",
+  "description": "STACK provides digital infrastructure to scale the world's most innovative companies. With a client-first approach, STACK delivers a comprehensive suite of campus, build-to-suit, colocation, and powered shell solutions in the Americas, EMEA, and APAC regions. With robust existing and flexible expansion capacity in the leading availability zones, STACK offers the scale and geographic reach that rapidly growing hyperscale and enterprise companies need.",
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "client-company",
+    "hyperscale",
+    "colocation"
+  ],
+  "notes": "Client of Ward Search for a Director/Sr Director Cost Strategy search (Pre-Construction/Estimating focus, primarily Northern Virginia).\n\nMerged 2026-09-09: absorbed duplicate record 'STACK Americas' (stack-americas).",
+  "sources": [
+    "Clockwork CRM (Ward Search), pulled 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/stackinfrastructure/",
+  "headcount": "1,001-5,000",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 3599.9,
+      "early_stage_mw": 320.4
+    },
+    "apac": {
+      "total_mw": 400.0,
+      "early_stage_mw": 1208.0
+    },
+    "emea": {
+      "total_mw": 671.0,
+      "early_stage_mw": 276.0
+    }
+  }
+}

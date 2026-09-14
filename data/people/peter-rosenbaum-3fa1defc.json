@@ -1,0 +1,84 @@
+{
+  "id": "peter-rosenbaum-3fa1defc",
+  "type": "person",
+  "name": "Peter Rosenbaum",
+  "current_title": "Vice President, Acquisitions",
+  "current_company": "Colovore",
+  "linkedin": "https://www.linkedin.com/in/peterrosenbaum",
+  "location": "United States",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Acquisitions at Colovore, 8/2025 to present; Vice President, Acquisitions & Investments at Digital Realty, 1/2007 to 7/2025; Associate Attorney at Nixon Peabody, 9/2004 to 8/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 254,
+      "date_added": "2026-04-20 10:45:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "colovore",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Acquisitions",
+      "company": "Colovore",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Acquisitions & Investments",
+      "company": "Digital Realty",
+      "start": "1/2007",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Associate Attorney",
+      "company": "Nixon Peabody",
+      "start": "9/2004",
+      "end": "8/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United States",
+    "group": "United States"
+  },
+  "education": [
+    "M.S., Real Estate, New York University, 2005 to 2006",
+    "J.D., Law, University of California, College of the Law, San Francisco (formerly UC Hastings), 2001 to 2004"
+  ],
+  "biography": "Vice President, Acquisitions & Investments at Digital Realty",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

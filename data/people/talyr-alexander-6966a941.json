@@ -1,0 +1,58 @@
+{
+  "id": "talyr-alexander-6966a941",
+  "type": "person",
+  "name": "Talyr Alexander",
+  "current_title": "Senior Project Development Manager",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/talyr-alexander-20a6a7164",
+  "location": "Cedar Rapids, Iowa",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Project Development Manager at QTS Data Centers, 2/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 300,
+      "date_added": "2026-07-10 09:29:23 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Development Manager",
+      "company": "QTS Data Centers",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Cedar Rapids",
+    "region": "Iowa",
+    "country": "United States",
+    "group": "Iowa"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

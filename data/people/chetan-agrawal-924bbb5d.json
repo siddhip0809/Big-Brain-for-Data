@@ -1,0 +1,105 @@
+{
+  "id": "chetan-agrawal-924bbb5d",
+  "type": "person",
+  "name": "Chetan Agrawal",
+  "current_title": "Preconstruction Manager",
+  "current_company": "CloudHQ",
+  "linkedin": "https://www.linkedin.com/in/chetan-agrawal-50aa3488",
+  "location": "Ashburn, Virginia",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at CloudHQ, 5/2026 to present; Senior Project Control Manager at MGAC, 4/2026 to 4/2026; Project Control Manager at MGAC, 8/2023 to 3/2026; Cost Manager at Turner & Townsend, 6/2021 to 8/2023; Preconstruction Manager at CORE, 10/2020 to 6/2021; Assistant Preconstruction Manager  at CORE, 7/2015 to 10/2020; Graduate Assistant at Nyu Tandon School Of Engineering, 6/2014 to 5/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 3,
+      "date_added": "2026-07-28 10:25:00 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "cloudhq",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "CloudHQ",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Control Manager",
+      "company": "MGAC",
+      "start": "4/2026",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Project Control Manager",
+      "company": "MGAC",
+      "start": "8/2023",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "6/2021",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "CORE",
+      "start": "10/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Preconstruction Manager ",
+      "company": "CORE",
+      "start": "7/2015",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Graduate Assistant",
+      "company": "Nyu Tandon School Of Engineering",
+      "start": "6/2014",
+      "end": "5/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Ashburn",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

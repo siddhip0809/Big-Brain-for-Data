@@ -1,0 +1,36 @@
+{
+  "id": "3921e084-e9af-46ed-ae88-1081e4f071a4",
+  "type": "search",
+  "name": "S668 Development Director - North Virginia",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2024-10-30",
+  "closed_at": "2025-09-08",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": {
+    "person": "Matthew Leslie",
+    "person_id": null,
+    "title": "S668 Development Director - North Virginia",
+    "start_date": null
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 407,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

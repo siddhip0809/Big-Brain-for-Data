@@ -1,0 +1,107 @@
+{
+  "id": "jorge-cepeda-615ea773",
+  "type": "person",
+  "name": "Jorge Cepeda",
+  "current_title": "Senior MEP Estimator I",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/jorgehcepeda",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior MEP Estimator I at Mortenson, 7/2025 to present; Design Phase Manager at Weifield Group Contracting, 2/2025 to 7/2025; Estimator 3 at Weifield Group Contracting, 4/2023 to 2/2025;  Estimator 2 at Weifield Group Contracting, 7/2021 to 4/2023; Student Assistant I at University of Colorado Denver, 12/2018 to 3/2019; Associate Broker at Keller Williams, 12/2017 to 7/2018; Estimator/Project Manager at Copper Canyon Electric, 11/2016 to 7/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 51,
+      "date_added": "2026-08-05 09:40:18 UTC",
+      "date_updated": "2026-08-14 09:42:08 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior MEP Estimator I",
+      "company": "Mortenson",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Design Phase Manager",
+      "company": "Weifield Group Contracting",
+      "start": "2/2025",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator 3",
+      "company": "Weifield Group Contracting",
+      "start": "4/2023",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator 2",
+      "company": "Weifield Group Contracting",
+      "start": "7/2021",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Student Assistant I",
+      "company": "University of Colorado Denver",
+      "start": "12/2018",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Associate Broker",
+      "company": "Keller Williams",
+      "start": "12/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator/Project Manager",
+      "company": "Copper Canyon Electric",
+      "start": "11/2016",
+      "end": "7/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

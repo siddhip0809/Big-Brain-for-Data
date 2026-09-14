@@ -1,0 +1,37 @@
+{
+  "id": "principal-real-estate-investors",
+  "type": "company",
+  "name": "Principal Real Estate Investors",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Des Moines, Iowa",
+  "founded": null,
+  "website": "https://www.principalrei.com",
+  "linkedin": "https://www.linkedin.com/company/principal-real-estate/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Medium",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Real estate investment manager. Industrial and office. Some DC-adjacent fund investments. Strong acquisitions talent.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

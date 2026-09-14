@@ -1,0 +1,27 @@
+{
+  "id": "055e1de5-5573-41a4-8b83-47677b2d2add",
+  "type": "search",
+  "name": "Business Development Manager",
+  "client_company": "Stellanor Data Centers",
+  "client_company_id": null,
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2026-03-16",
+  "closed_at": "2026-04-23",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

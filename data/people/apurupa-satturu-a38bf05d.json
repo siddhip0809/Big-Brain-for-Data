@@ -1,0 +1,81 @@
+{
+  "id": "apurupa-satturu-a38bf05d",
+  "type": "person",
+  "name": "Apurupa Satturu",
+  "current_title": "Senior Electrical Cost Consultant",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/apurupasatturu000756",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Electrical Cost Consultant at Turner & Townsend, 5/2023 to present; Electrical Cost Consultant (Data Centers) at Turner & Townsend, 10/2020 to 5/2023; Assistant Project Manager/Engineer Electrical Estimator at Titan Electric, 6/2017 to 10/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 119,
+      "date_added": "2026-08-07 14:43:00 UTC",
+      "date_updated": "2026-08-19 07:31:22 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Electrical Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Electrical Cost Consultant (Data Centers)",
+      "company": "Turner & Townsend",
+      "start": "10/2020",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager/Engineer Electrical Estimator",
+      "company": "Titan Electric",
+      "start": "6/2017",
+      "end": "10/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "biography": "Consultant-level Estimator for Electrical Trades at Turner & Townsend (TNT). Six years at Turner & Townsend, building Meta accounts, leading MEP trades, and building a team of 15-20 people. Currently on the PMO side for the Vantage account. Before TNT, worked in electrical construction as an estimator/project manager/designer for 3.5-4 years at Titan Electric. Bachelor's and Master's degrees in Electrical Engineering. Involved in data center work for approximately 5 years, starting early 2022. Built Meta accounts from scratch, including retrofits, new build lease, and new build AI data centers. Led the electrical team for the entire program. Worked on megawatt projects (27, 81, 152 MW for lease spaces, 152 MW new builds) and AI data centers (1.4 GW out of 2.2 GW for TNT). Managed 10-15 lease projects and several retrofit projects concurrently. Developed and improved processes, including building dashboards for tracking costs and trends. Created checklists for electrical trade submissions and standard templates for change order recommendations. Involved in procurement, negotiating prices with contractors, and managing escalation discussions. Identified cost savings of approximately $65 million on one project and $10-20 million across lease spaces and retrofits. Currently involved in PMO, establishing playbooks for change order management, cost management, and schedule management. Manages 6 direct reports for TNT and 15-20 people on the account side. Currently located in Dallas, Texas. Seeking a client-side position to have more direct impact and strategy implementation.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0,
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "59ac0240-c3e7-4cb8-88e3-3be1bb64cdc7",
+  "type": "search",
+  "name": "Construction Leader",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "active",
+  "project_type": "Contingency",
+  "started_at": "2026-07-20",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Meg Davis",
+      "clockwork_person_id": "92de8f3d-bdbc-4b20-8572-f6c6dc3a9104",
+      "brain_person_id": "meg-davis-92de8f3d",
+      "status": "3c. Interviewing",
+      "category": "in-offered",
+      "rank": 1410,
+      "updated_at": "2026-07-22T23:39:01Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 1,
+    "placed": 0,
+    "active": 1,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

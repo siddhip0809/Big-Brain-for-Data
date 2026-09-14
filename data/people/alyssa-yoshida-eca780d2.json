@@ -1,0 +1,110 @@
+{
+  "id": "alyssa-yoshida-eca780d2",
+  "type": "person",
+  "name": "Alyssa Yoshida",
+  "current_title": "Senior Manager, Construction Cost",
+  "current_company": "Vantage",
+  "location": "Dallas, Texas",
+  "linkedin": "https://www.linkedin.com/in/alyssa-yoshida-79056322a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Manager, Construction Cost at Vantage, 8/2025 to present; Senior Cost Accountant at Vantage, 2/2025 to 9/2025; Construction Cost Analyst at Vantage, 12/2022 to 3/2025; Construction Management Coordinator at Baceline Group, 1/2021 to 11/2022; Construction Management Adminstrator at Baceline Group, 9/2019 to 12/2020; Security Professional at Mackintosh Security, 5/2017 to 12/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 268,
+      "date_added": "2026-08-26 13:22:21 UTC",
+      "date_updated": "2026-08-26 08:23:44 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 43,
+      "date_added": "2026-08-04 16:13:07 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Construction Cost",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Accountant",
+      "company": "Vantage",
+      "start": "2/2025",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Cost Analyst",
+      "company": "Vantage",
+      "start": "12/2022",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Management Coordinator",
+      "company": "Baceline Group",
+      "start": "1/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Management Adminstrator",
+      "company": "Baceline Group",
+      "start": "9/2019",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Security Professional",
+      "company": "Mackintosh Security",
+      "start": "5/2017",
+      "end": "12/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

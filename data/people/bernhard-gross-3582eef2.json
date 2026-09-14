@@ -1,0 +1,102 @@
+{
+  "id": "bernhard-gross-3582eef2",
+  "type": "person",
+  "name": "Bernhard Gross",
+  "current_title": "Leiter Business Development Data Centers",
+  "current_company": "Decision Advisory Group",
+  "linkedin": "https://www.linkedin.com/in/bernhard-gross-a5983a12a",
+  "location": "Vienna, Austria",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Leiter Business Development Data Centers at Decision Advisory Group, 2/2026 to present; Business Development Europe at Yorizon Cloud, 5/2024 to 2/2026; Chief Growth Officer | Head of Sales Europe at Novarion Systems, 12/2022 to 4/2024; Head of Sales Europe at Novarion Systems, 12/2022 to 4/2024; Chief Growth Officer at Novarion Systems, 12/2022 to 4/2024; Manager Direct Sales at NTT, 1/2016 to 1/2023",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Company History",
+      "rank": 225,
+      "date_added": "2026-08-03 08:57:05 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "decision-advisory-group",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Leiter Business Development Data Centers",
+      "company": "Decision Advisory Group",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Europe",
+      "company": "Yorizon Cloud",
+      "start": "5/2024",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "raw": "Chief Growth Officer"
+    },
+    {
+      "title": "Head of Sales Europe",
+      "company": "Novarion Systems",
+      "start": "12/2022",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Sales Europe",
+      "company": "Novarion Systems",
+      "start": "12/2022",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Chief Growth Officer",
+      "company": "Novarion Systems",
+      "start": "12/2022",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Manager Direct Sales",
+      "company": "NTT",
+      "start": "1/2016",
+      "end": "1/2023",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Vienna",
+    "region": null,
+    "country": "Austria",
+    "group": "Austria"
+  },
+  "education": [
+    "Vertriebsmanagement Vertrieb und Marketing allgemein, WIFI Wien, 2004 to 2005",
+    "Nachrichtentechnik und Elektronik, HTL Mödling"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

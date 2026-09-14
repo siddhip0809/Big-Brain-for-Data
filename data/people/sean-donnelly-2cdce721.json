@@ -1,0 +1,93 @@
+{
+  "id": "sean-donnelly-2cdce721",
+  "type": "person",
+  "name": "Sean Donnelly",
+  "current_title": "Director of Strategic Accounts",
+  "current_company": "Switch",
+  "linkedin": "https://www.linkedin.com/in/sean-donnelly-3888292",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Strategic Accounts at Switch, 8/2019 to present; Account Director - Wholesale at Lumen Technologies, 9/2010 to 8/2019; National Account Manager at AT&T, 2/2004 to 12/2009; Director of Sales at Splice Communications, 1/2003 to 12/2004; Regional Sales Manager at Worldcom Communications, 1/1997 to 1/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 92,
+      "date_added": "2025-11-13 14:42:04 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "switch",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Strategic Accounts",
+      "company": "Switch",
+      "start": "8/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director - Wholesale",
+      "company": "Lumen Technologies",
+      "start": "9/2010",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "AT&T",
+      "start": "2/2004",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Splice Communications",
+      "start": "1/2003",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Worldcom Communications",
+      "start": "1/1997",
+      "end": "1/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

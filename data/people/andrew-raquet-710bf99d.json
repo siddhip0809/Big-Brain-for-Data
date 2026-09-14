@@ -1,0 +1,100 @@
+{
+  "id": "andrew-raquet-710bf99d",
+  "type": "person",
+  "name": "Andrew Raquet",
+  "current_title": "Senior Permit Program Manager, AWS Data Center Supply Solutions",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/andrew-raquet-078ba7126",
+  "location": "Collegeville, Pennsylvania",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Permit Program Manager, AWS Data Center Supply Solutions at AWS, 6/2024 to present; Land Use Coordinator at Gopuff, 2/2021 to 7/2021; Zoning Manager at Gopuff, 2/2021 to 6/2024; Codes Director at Worcester Township, 10/2020 to 2/2021; Codes Clerk at Worcester Township, 11/2017 to 10/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 445,
+      "date_added": "2026-05-13 10:33:53 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Permit Program Manager, AWS Data Center Supply Solutions",
+      "company": "AWS",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Use Coordinator",
+      "company": "Gopuff",
+      "start": "2/2021",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Zoning Manager",
+      "company": "Gopuff",
+      "start": "2/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Codes Director",
+      "company": "Worcester Township",
+      "start": "10/2020",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Codes Clerk",
+      "company": "Worcester Township",
+      "start": "11/2017",
+      "end": "10/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Collegeville",
+    "region": "Pennsylvania",
+    "country": "United States",
+    "group": "Pennsylvania"
+  },
+  "education": [
+    "Bachelor of Business Administration - BBA, Business Administration and Management, General, Temple University, 2017 to 2020",
+    "General Studies, Montgomery County Community College, 2015 to 2017",
+    "High School Diploma, Methacton High School, 2011 to 2015"
+  ],
+  "biography": "Senior Permit Program Manager at Amazon Web Services (AWS), driving strategic infrastructure development through expert navigation of complex regulatory environments and land use requirements.Previously at Gopuff, I managed zoning compliance and regulatory strategy during rapid expansion, assisting government engagement efforts and securing critical land use approvals across multiple jurisdictions. I specialized in zoning text amendments and streamlining approval processes for new market entry.My public sector experience as a Codes Director established deep expertise in land development, zoning regulations, and building code compliance. I served as the primary liaison between development stakeholders and municipal boards, managing complex applications while balancing community and development objectives.My technical toolkit includes advanced GIS applications and data analytics, enabling data-driven decision-making and efficient project management. I leverage technology to modernize traditional permitting processes and enhance stakeholder communication.Active volunteer firefighter since 2010, bringing unique insights to building systems, life safety codes, and emergency response protocols. This hands-on experience complements my professional role by deepening my understanding of construction requirements and safety regulations.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

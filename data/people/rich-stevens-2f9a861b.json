@@ -1,0 +1,108 @@
+{
+  "id": "rich-stevens-2f9a861b",
+  "type": "person",
+  "name": "Rich Stevens",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Comfort Systems USA - Design Mechanical",
+  "location": "Denver , Colorado",
+  "linkedin": "https://www.linkedin.com/in/rich-stevens-00778328",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at Comfort Systems USA - Design Mechanical, 5/2015 to present; Director of Preconstruction Services at University Mechanical & Engineering Contractors, 10/2010 to 4/2015; Vice President of Sales and Engineering at Comfort Systems USA Southwest, 1990 to 2010; Estimator / Project Manager at Russell A C, 1983 to 1990; Detailer at SMP Mechanical Contractors, 1981 to 1983",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 86,
+      "date_added": "2026-08-19 11:00:25 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 82,
+      "date_added": "2026-08-06 09:49:01 UTC",
+      "date_updated": "2026-08-19 06:00:25 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Comfort Systems USA - Design Mechanical",
+      "start": "5/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Preconstruction Services",
+      "company": "University Mechanical & Engineering Contractors",
+      "start": "10/2010",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales and Engineering",
+      "company": "Comfort Systems USA Southwest",
+      "start": "1990",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Manager",
+      "company": "Russell A C",
+      "start": "1983",
+      "end": "1990",
+      "current": false
+    },
+    {
+      "title": "Detailer",
+      "company": "SMP Mechanical Contractors",
+      "start": "1981",
+      "end": "1983",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "AA, Engineering, Phoenix College, 1980 to 1982",
+    "Wheaton North High School, 1976 to 1980"
+  ],
+  "biography": "Preconstruction Manager",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

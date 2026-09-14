@@ -1,0 +1,110 @@
+{
+  "id": "caitlin-dwyer-d59a0187",
+  "type": "person",
+  "name": "Caitlin Dwyer",
+  "current_title": "Commercial Sales Manager",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/caitlin-dwyer-b6305123",
+  "location": "New York, NY",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Commercial Sales Manager at Digital Realty, 9/2022 to present; Product Pricing Manager at Digital Realty, 11/2013 to 9/2022; Assistant Project Manager at Telx, 1/2012 to 1/2013; Project Manager at Digital Realty, 1/2012 to 12/2013; Client Services Specialist at Digital Realty, 9/2009 to 1/2012; Assistant Manager at Bethany Wine and Liquors, 5/2008 to 8/2009; Bank Teller/Supervisor at Commerce/TD Bank, 12/2003 to 9/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 32,
+      "date_added": "2025-11-07 11:16:03 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial Sales Manager",
+      "company": "Digital Realty",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Product Pricing Manager",
+      "company": "Digital Realty",
+      "start": "11/2013",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Telx",
+      "start": "1/2012",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Digital Realty",
+      "start": "1/2012",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Client Services Specialist",
+      "company": "Digital Realty",
+      "start": "9/2009",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Assistant Manager",
+      "company": "Bethany Wine and Liquors",
+      "start": "5/2008",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Bank Teller/Supervisor",
+      "company": "Commerce/TD Bank",
+      "start": "12/2003",
+      "end": "9/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "education": [
+    "Bachelor of Arts, English, Monmouth University, 2004 to 2009"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "john-haney-d2925b9a",
+  "type": "person",
+  "name": "John Haney",
+  "current_title": "Sales Director",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/johnmhaney",
+  "location": "Kirrawee, New South Wales",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director at Digital Realty, 2/2022 to present; Data Centre   Sales Executive at Syndeticom, 2/2019 to 7/2021; Director at Overipgroup, 7/2006 to 12/2018; Sales Account Manager at Ricon, 2004 to 2006; Membership Services Manager at Atug Australian Telecommunications Users Group, 2002 to 2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 27,
+      "date_added": "2025-11-07 11:00:52 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Centre   Sales Executive",
+      "company": "Syndeticom",
+      "start": "2/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Overipgroup",
+      "start": "7/2006",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Sales Account Manager",
+      "company": "Ricon",
+      "start": "2004",
+      "end": "2006",
+      "current": false
+    },
+    {
+      "title": "Membership Services Manager",
+      "company": "Atug Australian Telecommunications Users Group",
+      "start": "2002",
+      "end": "2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Kirrawee",
+    "region": "New South Wales",
+    "country": "Australia",
+    "group": "Australia"
+  },
+  "education": [
+    "Education, Management, Commscope Infrastructure Academy, 2020 to 2020",
+    "Business, Leadership Management Australia, 2020 to 2021",
+    "Design, Multimedia, Tafe Nsw, 2001 to 2002",
+    "Advertising, Business Management, Design, Marketing, Macleay College, 2000 to 2001"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

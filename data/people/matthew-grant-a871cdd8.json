@@ -1,0 +1,72 @@
+{
+  "id": "matthew-grant-a871cdd8",
+  "type": "person",
+  "name": "Matthew Grant",
+  "current_title": "Development Director EMEA",
+  "current_company": "Colt Data Centre Services",
+  "linkedin": "https://www.linkedin.com/in/matthew-grant-mrics-b306571b0",
+  "location": "Maharashtra",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Development Director EMEA at Colt Data Centre Services, 10/2020 to present; Operations Director India at Turner & Townsend, 1/2016 to 7/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 196,
+      "date_added": "2026-01-22 15:12:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "colt-data-centre-services",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Director EMEA",
+      "company": "Colt Data Centre Services",
+      "start": "10/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Operations Director India",
+      "company": "Turner & Townsend",
+      "start": "1/2016",
+      "end": "7/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Maharashtra",
+    "country": "India",
+    "group": "India"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

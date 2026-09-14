@@ -1,0 +1,76 @@
+{
+  "id": "maria-camacho-ea36406d",
+  "type": "person",
+  "name": "Maria Camacho",
+  "current_title": "Strategic Account Manager",
+  "current_company": "CyrusOne",
+  "linkedin": "https://www.linkedin.com/in/maria-camacho-9a31363",
+  "location": "New York City ,  New York",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Account Manager at CyrusOne, 7/2015 to present; Account Manager at Cervalis, 3/2001 to 7/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 75,
+      "date_added": "2025-11-12 11:38:22 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "cyrusone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Account Manager",
+      "company": "CyrusOne",
+      "start": "7/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Manager",
+      "company": "Cervalis",
+      "start": "3/2001",
+      "end": "7/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "education": [
+    "Bachelor's degree, Marist College, 1990 to 1994"
+  ],
+  "biography": "Maria Camacho is a detail oriented and relationship driven professional with over 15+ years of experience in project and account management in the data center industry.  Her background includes managing customer relationships and delivering successful customer implementations.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

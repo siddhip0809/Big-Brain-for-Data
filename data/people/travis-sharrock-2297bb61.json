@@ -1,0 +1,117 @@
+{
+  "id": "travis-sharrock-2297bb61",
+  "type": "person",
+  "name": "Travis Sharrock",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "Rosendin",
+  "linkedin": "https://www.linkedin.com/in/travis-sharrock-a88baa94",
+  "location": "Nashville, Tennessee",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at Rosendin, 4/2025 to present; Senior Management - Mission Critical Team at Miller Electric, 4/2022 to 4/2025; Senior Pre-Construction Manager at FTI, 10/2019 to 4/2022; Preconstruction Manager at FTI, 8/2018 to 10/2019; Project Manager at Cupertino Electric, 5/2017 to 9/2018; Project Manager at Encore Electric Inc - Government Services, 4/2008 to 5/2017; Construction Estimator at Front Range Commercial, 1/2007 to 10/2008; Heavy Equipment Operator at United States Army Reserve, 3/2006 to 2/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "HOLD - On Hold",
+      "rank": 327,
+      "date_added": "2026-08-13 12:04:48 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Rosendin",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Management - Mission Critical Team",
+      "company": "Miller Electric",
+      "start": "4/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Pre-Construction Manager",
+      "company": "FTI",
+      "start": "10/2019",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "FTI",
+      "start": "8/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Cupertino Electric",
+      "start": "5/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Encore Electric Inc - Government Services",
+      "start": "4/2008",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Front Range Commercial",
+      "start": "1/2007",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "Heavy Equipment Operator",
+      "company": "United States Army Reserve",
+      "start": "3/2006",
+      "end": "2/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Nashville",
+    "region": "Tennessee",
+    "country": "United States",
+    "group": "Tennessee"
+  },
+  "education": [
+    "Electrical Apprenticeship Certification Electrical Apprenticeship, IECRM, 2011 to 2015",
+    "Associate's Degree Construction Management, Redstone College, 2008 to 2010"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

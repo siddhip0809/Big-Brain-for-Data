@@ -1,0 +1,108 @@
+{
+  "id": "thomas-chaffin-4d96ec28",
+  "type": "person",
+  "name": "Thomas Chaffin",
+  "current_title": "Director of Sales West",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/thomas-chaffin-8326824",
+  "location": "Greater Chicago Area,  Illinois",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Sales West at QTS Data Centers, 2/2019 to present; Director of Sales Chicago at Internap Network Services, 5/2018 to 1/2019; Commercial Sales Executive at QTS Data Centers, 3/2016 to 4/2018; Founder & EVP Business Development at New Continuum Holdings Corporation dba New Continuum Data Centers, 9/2013 to 1/2016; Managing Partner at New Continuum Holdings Corporation dba New Continuum Data Centers, 4/2009 to 12/2014; Managing Partner at Continuum Data Centers, 4/2009 to 12/2014; President at Stargate Holdings, 1/2004 to 8/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 59,
+      "date_added": "2025-11-07 13:10:26 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Sales West",
+      "company": "QTS Data Centers",
+      "start": "2/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Sales Chicago",
+      "company": "Internap Network Services",
+      "start": "5/2018",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Commercial Sales Executive",
+      "company": "QTS Data Centers",
+      "start": "3/2016",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Founder & EVP Business Development",
+      "company": "New Continuum Holdings Corporation dba New Continuum Data Centers",
+      "start": "9/2013",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Managing Partner",
+      "company": "New Continuum Holdings Corporation dba New Continuum Data Centers",
+      "start": "4/2009",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Managing Partner",
+      "company": "Continuum Data Centers",
+      "start": "4/2009",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "Stargate Holdings",
+      "start": "1/2004",
+      "end": "8/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Chicago",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "biography": "Core Competencies: Colocation and Data Centers Sales & Sales Management, New Business Development, Data Center Design Strategies (hot-aisle containment), Build vs. Lease Strategies, Disaster Recovery, Partner and Channel Sales development.\n\nStrong knowledge of the technology, expertise and compliant controls that clients require from Tier III, SASE16 Type 2, HIPAA, OPEN-IX and PCI compliant data centers.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

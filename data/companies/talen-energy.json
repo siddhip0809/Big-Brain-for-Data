@@ -1,0 +1,39 @@
+{
+  "id": "talen-energy",
+  "type": "company",
+  "name": "Talen Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Woodlands, Texas",
+  "founded": null,
+  "website": "https://www.talenenergy.com",
+  "linkedin": "https://www.linkedin.com/company/talen-energy/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP",
+      "Utility Scale": "Yes",
+      "Primary Scope": "Multi Regional",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Mixed / Vertically Integrated",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Independent power producer. Gas, nuclear, hydro. Operates in PJM. Sold land at Susquehanna nuclear plant to Amazon for DC campus — very DC-relevant talent pool.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

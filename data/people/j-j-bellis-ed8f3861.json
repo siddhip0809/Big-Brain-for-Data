@@ -1,0 +1,110 @@
+{
+  "id": "j-j-bellis-ed8f3861",
+  "type": "person",
+  "name": "J.J. Bellis",
+  "current_title": "Senior Client Executive",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/jjbellis",
+  "location": "San Francisco, California",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Client Executive at Equinix, 4/2025 to present; Senior Account Executive at Equinix, 2/2021 to 4/2025; Account Director at Lumen Technologies, 7/2014 to 1/2021; Sales Engineer at Global Crossing, 9/2007 to 7/2014; Account Director at PacketExchange, 3/2007 to 9/2007; Systems Engineer at ESSI, 3/1998 to 2/2000; Network Engineer at City of Seattle, 5/1993 to 3/1998",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 273,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Senior Client Executive",
+      "company": "Equinix",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Equinix",
+      "start": "2/2021",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Lumen Technologies",
+      "start": "7/2014",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Global Crossing",
+      "start": "9/2007",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "PacketExchange",
+      "start": "3/2007",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "ESSI",
+      "start": "3/1998",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "City of Seattle",
+      "start": "5/1993",
+      "end": "3/1998",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BSEE, Electrical Engineering, University Of Washington, 1991 to 1995"
+  ],
+  "biography": "Sales professional with over 24 years of experience working on complex data center and telecom deals.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

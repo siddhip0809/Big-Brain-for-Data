@@ -1,0 +1,753 @@
+{
+  "id": "06c242f4-2375-4c79-98c1-b89b90ef4692",
+  "type": "search",
+  "name": "2412C SVP Operations",
+  "client_company": "Goodman",
+  "client_company_id": "goodman",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2024-11-06",
+  "closed_at": "2025-04-04",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": {
+    "person": "Kraig Knight",
+    "person_id": "4e669e7d-4469-4bfa-865a-d8bc0b8bd4e8",
+    "title": "2412C SVP Operations",
+    "start_date": null
+  },
+  "pipeline": [
+    {
+      "person": "Neil Morris",
+      "clockwork_person_id": "6822a4ea-a3d3-4976-adbb-6332f0f8e25a",
+      "brain_person_id": "neil-morris-6822a4ea",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2025-03-04T14:07:38Z"
+    },
+    {
+      "person": "Alfonso Aranda Arias",
+      "clockwork_person_id": "518d0e5e-dc8c-4fc4-9a8d-71415d9066aa",
+      "brain_person_id": "alfonso-aranda-arias-518d0e5e",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2025-01-27T11:53:32Z"
+    },
+    {
+      "person": "Ramzi CHARIF",
+      "clockwork_person_id": "e2865401-0001-4f1d-a3cc-5b10899c6fb0",
+      "brain_person_id": "ramzi-charif-e2865401",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2025-02-28T09:32:44Z"
+    },
+    {
+      "person": "Dominic Fulford",
+      "clockwork_person_id": "011a7f3e-a49a-4072-a8cd-8ae3e6596a23",
+      "brain_person_id": "dominic-fulford-011a7f3e",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2025-02-28T10:36:22Z"
+    },
+    {
+      "person": "Jeroen Schlosser",
+      "clockwork_person_id": "3be74452-1c12-4e69-bc9b-1756b6f97ace",
+      "brain_person_id": "jeroen-schlosser-3be74452",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2025-02-28T09:16:55Z"
+    },
+    {
+      "person": "Brian Taaffe",
+      "clockwork_person_id": "c786f8d3-f7bb-419f-a4d3-4b5e70732539",
+      "brain_person_id": "brian-taaffe-c786f8d3",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2025-02-28T09:32:27Z"
+    },
+    {
+      "person": "Kraig Knight",
+      "clockwork_person_id": "4e669e7d-4469-4bfa-865a-d8bc0b8bd4e8",
+      "brain_person_id": "kraig-knight-4e669e7d",
+      "status": "5. Placed",
+      "category": "in-placed",
+      "rank": 1508,
+      "updated_at": "2025-09-27T21:24:47Z"
+    },
+    {
+      "person": "Timothy Satrom",
+      "clockwork_person_id": "e233e7eb-294e-4ee4-bf11-9e4b4939889d",
+      "brain_person_id": "timothy-satrom-e233e7eb",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2025-03-04T14:04:00Z"
+    },
+    {
+      "person": "Tim Hall",
+      "clockwork_person_id": "0127cdbf-0cac-4dfa-9c9b-8a53d87c0365",
+      "brain_person_id": "tim-hall-0127cdbf",
+      "status": "Pursuing",
+      "category": "in-outreach",
+      "rank": 1231,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Alex Loobeek",
+      "clockwork_person_id": "64be3b07-c0d1-4361-8bbf-653233d459a8",
+      "brain_person_id": "alex-loobeek-64be3b07",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Arno Van Gennip",
+      "clockwork_person_id": "e79cd6d3-1ce8-4286-ac9a-c9413bb60bf5",
+      "brain_person_id": "arno-van-gennip-e79cd6d3",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Ben Stewart",
+      "clockwork_person_id": "432bebbd-bb47-4e16-b53d-862a84e766a8",
+      "brain_person_id": "ben-stewart-432bebbd",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Benjamin Treynor Sloss",
+      "clockwork_person_id": "f568c968-6b27-4f0c-98a0-f92feefcc17b",
+      "brain_person_id": "benjamin-treynor-sloss-f568c968",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Billie Haggard",
+      "clockwork_person_id": "f8d44d17-ecba-4e55-bcf9-821920a4ee36",
+      "brain_person_id": "billie-haggard-f8d44d17",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Buddha Manandhar",
+      "clockwork_person_id": "293a7185-ecc6-4328-a1ba-6353aa9ae2d7",
+      "brain_person_id": "buddha-manandhar-293a7185",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Chris Heffernan",
+      "clockwork_person_id": "ed515c4a-8444-42e1-b02e-865a9ab7ef3f",
+      "brain_person_id": "chris-heffernan-ed515c4a",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Cody Schnakenburg",
+      "clockwork_person_id": "30922e25-f981-4129-a4dd-ff24f8517b3b",
+      "brain_person_id": "cody-schnakenburg-30922e25",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Dana Nelson",
+      "clockwork_person_id": "16281aeb-cfb1-4608-b5c9-471e1c4adb5a",
+      "brain_person_id": "dana-nelson-16281aeb",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Darin Divinia",
+      "clockwork_person_id": "739d156a-d89a-4378-92ad-04e91533123c",
+      "brain_person_id": "darin-divinia-739d156a",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Darren Eyler",
+      "clockwork_person_id": "0bb6b391-8ca2-4937-9161-ae88160b5e6f",
+      "brain_person_id": "darren-eyler-0bb6b391",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "David Kim",
+      "clockwork_person_id": "647932b5-bbdc-43fb-a366-f28b3ca57ea8",
+      "brain_person_id": "david-kim-647932b5",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Derek Allen",
+      "clockwork_person_id": "9edd5e68-8f26-446c-a55c-cbf14ad5b67e",
+      "brain_person_id": "derek-allen-9edd5e68",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Gary Aitkenhead",
+      "clockwork_person_id": "14bf5bb3-e713-4932-89f1-2fdd76d25790",
+      "brain_person_id": "gary-aitkenhead-14bf5bb3",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Gustavo Gutierrez",
+      "clockwork_person_id": "7caef698-04e8-4c51-a0be-f7fe6ba97a96",
+      "brain_person_id": "gustavo-gutierrez-7caef698",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Ian Williams",
+      "clockwork_person_id": "66feafd4-2ad0-4f95-ae0b-d50077ad35aa",
+      "brain_person_id": "ian-williams-66feafd4",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Jag Singh",
+      "clockwork_person_id": "b1d5597a-aa20-4244-bb19-873157b63155",
+      "brain_person_id": "jag-singh-b1d5597a",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "James Gilman",
+      "clockwork_person_id": "cc42bb3e-8840-43bc-a891-41a07b103d49",
+      "brain_person_id": "james-gilman-cc42bb3e",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Jim Kirkby",
+      "clockwork_person_id": "65e67f19-22a9-4cb0-bfca-bf2efcca0d00",
+      "brain_person_id": "jim-kirkby-65e67f19",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Jiten Patel",
+      "clockwork_person_id": "14171025-1541-4d33-b45a-d5c51d469562",
+      "brain_person_id": "jiten-patel-14171025",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Joe Minarik",
+      "clockwork_person_id": "512889b5-5d7f-4084-b4de-66898226b9f0",
+      "brain_person_id": "joe-minarik-512889b5",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "John Kuchta",
+      "clockwork_person_id": "8fd7f65a-ef5b-4e21-bfd7-c1577bc775a6",
+      "brain_person_id": "john-kuchta-8fd7f65a",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "John Le Tissier",
+      "clockwork_person_id": "939b260b-7cde-4d16-95f9-13eb1ac20b77",
+      "brain_person_id": "john-le-tissier-939b260b",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Jon Curry",
+      "clockwork_person_id": "ba3bef36-a447-470a-9d70-3e7f8368aed5",
+      "brain_person_id": "jon-curry-ba3bef36",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Karl Pope",
+      "clockwork_person_id": "770996b7-7cb2-4a5c-9953-7d8bb630750d",
+      "brain_person_id": null,
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Kev Shieber",
+      "clockwork_person_id": "b8bed615-d78e-471d-88e0-8ade5a931297",
+      "brain_person_id": "kev-shieber-b8bed615",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Luke Sheppard",
+      "clockwork_person_id": "5dc9c272-936d-4b32-915d-605672e50256",
+      "brain_person_id": "luke-sheppard-5dc9c272",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Matt Beckman",
+      "clockwork_person_id": "9637596a-c9c6-41e6-b363-4ee52a759f6b",
+      "brain_person_id": "matt-beckman-9637596a",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Padraig MacColgain",
+      "clockwork_person_id": "4b7829c0-cbef-4105-b039-b55581303444",
+      "brain_person_id": "padraig-maccolgain-4b7829c0",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Paul Finch",
+      "clockwork_person_id": "41b105a3-1864-471e-ab65-4a7b291e6877",
+      "brain_person_id": "paul-finch-41b105a3",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Peter Judson",
+      "clockwork_person_id": "be35ee9b-1546-4cb6-a87b-a4651f8eb736",
+      "brain_person_id": "peter-judson-be35ee9b",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Ross Henderson",
+      "clockwork_person_id": "289e52b4-4d50-4b74-ba21-597f8c2385ea",
+      "brain_person_id": "ross-henderson-289e52b4",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Ryan Hunter",
+      "clockwork_person_id": "8560a153-97cb-4753-8ebc-15da5c969689",
+      "brain_person_id": "ryan-hunter-8560a153",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Ryan Young",
+      "clockwork_person_id": "3130ac0a-52e7-43d6-8097-e688917a7da5",
+      "brain_person_id": "ryan-young-3130ac0a",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Satoko Tsuchida",
+      "clockwork_person_id": "1255764b-f63e-43cc-a947-2705b4478b90",
+      "brain_person_id": "satoko-tsuchida-1255764b",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Scott Patrick Campbell",
+      "clockwork_person_id": "a25c578a-b2a6-44cf-a2f9-9c52f3cbb50d",
+      "brain_person_id": "scott-patrick-campbell-a25c578a",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Spas Lazarov",
+      "clockwork_person_id": "86d4dd64-da61-40e0-9da8-3be92c942135",
+      "brain_person_id": "spas-lazarov-86d4dd64",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Steve Hayward",
+      "clockwork_person_id": "856f675f-1103-41ec-ba72-f156c611cb03",
+      "brain_person_id": "steve-hayward-856f675f",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Stuart James Kennedy",
+      "clockwork_person_id": "4a491c7b-c42f-4855-bb80-f3181228957a",
+      "brain_person_id": "stuart-james-kennedy-4a491c7b",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Thomas Wayne Busey",
+      "clockwork_person_id": "db4177ec-c5b0-45d5-b6c1-72be56511303",
+      "brain_person_id": "thomas-wayne-busey-db4177ec",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Wayne Louw",
+      "clockwork_person_id": "d659f2de-b074-4ff3-aaff-ffbe5fdb8387",
+      "brain_person_id": "wayne-louw-d659f2de",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Jeff Pasquino-Greco",
+      "clockwork_person_id": "e8047652-5bac-45ef-ba4c-0c25a8166072",
+      "brain_person_id": "jeff-pasquino-greco-e8047652",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Eddie Reed",
+      "clockwork_person_id": "cd05d353-4329-4e65-9531-468218666d64",
+      "brain_person_id": "eddie-reed-cd05d353",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-04-08T15:51:54Z"
+    },
+    {
+      "person": "Adrain Garner",
+      "clockwork_person_id": "0cd2269a-5381-4dfe-9a47-80210193d389",
+      "brain_person_id": "adrain-garner-0cd2269a",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Brian Ro",
+      "clockwork_person_id": "0efd7964-fbcf-404e-a29b-5f68626fcef9",
+      "brain_person_id": "brian-ro-0efd7964",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Carie Y.",
+      "clockwork_person_id": "1e4abd81-3997-4e90-af09-118f2573c0a9",
+      "brain_person_id": "carie-y-1e4abd81",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Chandrag Krishnan",
+      "clockwork_person_id": "49a01ddb-a3b0-4b8e-8f5f-c1a002e9735e",
+      "brain_person_id": "chandrag-krishnan-49a01ddb",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Dan Kwach",
+      "clockwork_person_id": "dfd025ab-7b14-43ba-917b-bd0312b5c162",
+      "brain_person_id": null,
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "David Johns",
+      "clockwork_person_id": "cb1d8254-1c56-446f-a194-da4b38d7e855",
+      "brain_person_id": "david-johns-cb1d8254",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Dylan Coyle",
+      "clockwork_person_id": "0bbd1b55-8d95-47be-b8ee-2c1099327fc7",
+      "brain_person_id": "dylan-coyle-0bbd1b55",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Dz Shing Lim",
+      "clockwork_person_id": "1e3062db-e5c9-4bd8-bab1-0f838666c69a",
+      "brain_person_id": "dz-shing-lim-1e3062db",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Elisabeth Arslaner",
+      "clockwork_person_id": "375f7d22-3bdc-488d-b8af-234fb6adfe87",
+      "brain_person_id": "elisabeth-arslaner-375f7d22",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "George Seet",
+      "clockwork_person_id": "bf8ffd21-abf8-485e-ae7c-cd2b7caebe52",
+      "brain_person_id": "george-seet-bf8ffd21",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Henrik Grönlund",
+      "clockwork_person_id": "f6ed2b8c-e8f5-4d7a-b513-bd5a551cdf61",
+      "brain_person_id": "henrik-gr-nlund-f6ed2b8c",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Hichem Garnaoui",
+      "clockwork_person_id": "0066ee10-7958-48bf-a0e8-42236c7df610",
+      "brain_person_id": "hichem-garnaoui-0066ee10",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Johan Groeneweg",
+      "clockwork_person_id": "fa1f3ede-7c31-4a02-a355-a2a876567705",
+      "brain_person_id": "johan-groeneweg-fa1f3ede",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "John Shorten",
+      "clockwork_person_id": "9653d28f-605e-4af0-9c7a-31e3fcd4efb9",
+      "brain_person_id": "john-shorten-9653d28f",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Kamran Lateef",
+      "clockwork_person_id": "7dfb4b0e-98e1-450b-8268-14a5c4619e55",
+      "brain_person_id": "kamran-lateef-7dfb4b0e",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Luis Rodrigues",
+      "clockwork_person_id": "5a3b4710-8294-40e7-be7b-1dc878169679",
+      "brain_person_id": "luis-rodrigues-5a3b4710",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Paul Martin",
+      "clockwork_person_id": "b9e70c24-d288-4ab7-b3ad-6ec73360b510",
+      "brain_person_id": "paul-martin-b9e70c24",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Richard Banks",
+      "clockwork_person_id": "9be0b2d0-3859-432a-81e8-9cebb65e2077",
+      "brain_person_id": "richard-banks-9be0b2d0",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Thiam Poh Goh",
+      "clockwork_person_id": "068b7355-c684-451e-8cff-b8415ae24c0c",
+      "brain_person_id": "thiam-poh-goh-068b7355",
+      "status": "[STOP USING] FDQ - Should Not Have Been Mapped",
+      "category": "out-firm_rejected",
+      "rank": 392,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Lavinia Morris",
+      "clockwork_person_id": "9a38c261-29f1-4225-b743-40bdd0f6efab",
+      "brain_person_id": "lavinia-morris-9a38c261",
+      "status": "WARD - Off Limits",
+      "category": "out-firm_rejected",
+      "rank": 346,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Michael Hughes",
+      "clockwork_person_id": "53ca0dcb-526d-42fa-b496-f7041d64aad3",
+      "brain_person_id": "michael-hughes-53ca0dcb",
+      "status": "WARD - Off Limits",
+      "category": "out-firm_rejected",
+      "rank": 346,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Robert Owens",
+      "clockwork_person_id": "9ed5e546-51d5-47ea-939a-314086313200",
+      "brain_person_id": "robert-owens-9ed5e546",
+      "status": "WARD - Off Limits",
+      "category": "out-firm_rejected",
+      "rank": 346,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Joseph Milner",
+      "clockwork_person_id": "44f288aa-b36a-415a-8f67-0d2e24876742",
+      "brain_person_id": "joseph-milner-44f288aa",
+      "status": "WARD - Off Limits",
+      "category": "out-firm_rejected",
+      "rank": 346,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Sudhir Kalra",
+      "clockwork_person_id": "9fdb065c-e229-4800-9964-f98c430677e4",
+      "brain_person_id": "sudhir-kalra-9fdb065c",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Paul D Henry",
+      "clockwork_person_id": "d3961632-699b-44e9-a299-81ab6e1602a1",
+      "brain_person_id": null,
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Saji Pk",
+      "clockwork_person_id": "7629e020-654f-4f43-8864-a14e6270d796",
+      "brain_person_id": "saji-pk-7629e020",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Bryan Evans",
+      "clockwork_person_id": "61c92e7c-8473-45b7-b06d-3a9759e22730",
+      "brain_person_id": "bryan-evans-61c92e7c",
+      "status": "CLIENT - Experience / Skills",
+      "category": "out-client_rejected",
+      "rank": 216,
+      "updated_at": "2025-01-09T17:20:26Z"
+    },
+    {
+      "person": "Simon Cooper",
+      "clockwork_person_id": "eb666a24-4406-488b-b994-46337c6a0678",
+      "brain_person_id": "simon-cooper-eb666a24",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2025-01-09T17:20:26Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 80,
+    "placed": 1,
+    "active": 1,
+    "out": 35
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "levi-thirlwell-be867539",
+  "type": "person",
+  "name": "Levi Thirlwell",
+  "current_title": "Vice President, Global Commercial Management",
+  "current_company": "Yondr",
+  "linkedin": "https://www.linkedin.com/in/levi-thirlwell-41105745",
+  "location": "London, England",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Global Commercial Management at Yondr, 1/2024 to present; Commercial Director, Emea at Yondr, 7/2021 to 12/2023; Commercial Director at Kier Group, 1/2019 to 7/2021; Senior Commercial Manager at Multiplex, 7/2017 to 1/2019; Commercial Manager at Multiplex, 2/2016 to 7/2017; Senior Quantity Surveyor at Multiplex, 8/2015 to 2/2016; Senior Quantity Surveyor at Willmott Dixon, 1/2015 to 8/2015; Project Quantity Surveyor at Willmott Dixon, 7/2012 to 12/2014; Assistant Quantity Surveyor at Willmott Dixon, 9/2011 to 6/2012; Management Trainee at Willmott Dixon, 9/2007 to 8/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 108,
+      "date_added": "2025-11-19 10:11:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "yondr",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Global Commercial Management",
+      "company": "Yondr",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Director, Emea",
+      "company": "Yondr",
+      "start": "7/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "Kier Group",
+      "start": "1/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Commercial Manager",
+      "company": "Multiplex",
+      "start": "7/2017",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Commercial Manager",
+      "company": "Multiplex",
+      "start": "2/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Multiplex",
+      "start": "8/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Willmott Dixon",
+      "start": "1/2015",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Project Quantity Surveyor",
+      "company": "Willmott Dixon",
+      "start": "7/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "Willmott Dixon",
+      "start": "9/2011",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Management Trainee",
+      "company": "Willmott Dixon",
+      "start": "9/2007",
+      "end": "8/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor Of Science, Bachelors, Anglia Ruskin University",
+    "Construction, Colchester Institute"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "jeff-williamson-c0aae2a4",
+  "type": "person",
+  "name": "Jeff Williamson",
+  "current_title": "Client Executive, Global Key Accounts",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/jeffwilliamson1",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Client Executive, Global Key Accounts at Digital Realty, 1/2025 to present; Director, Sales - Enterprise West at Digital Realty, 3/2021 to 4/2025; Sr. Account Manager, Enterprise Solutions | Global Colocation and Hyperscale Datacenter Solutions at Digital Realty, 2/2015 to 3/2021; Account Executive II at tw telecom, 1/2013 to 2/2015; Territory Sales Representative at Cbeyond, 11/2011 to 1/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 270,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Client Executive, Global Key Accounts",
+      "company": "Digital Realty",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Sales - Enterprise West",
+      "company": "Digital Realty",
+      "start": "3/2021",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "raw": "Sr. Account Manager, Enterprise Solutions"
+    },
+    {
+      "title": "Global Colocation and Hyperscale Datacenter Solutions",
+      "company": "Digital Realty",
+      "start": "2/2015",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Account Executive II",
+      "company": "tw telecom",
+      "start": "1/2013",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Territory Sales Representative",
+      "company": "Cbeyond",
+      "start": "11/2011",
+      "end": "1/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "General Studies, Chabot College"
+  ],
+  "biography": "Trusted sales professional helping clients accomplish and build out their global Datacenter strategies via PlatformDIGITAL.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

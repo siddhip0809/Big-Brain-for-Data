@@ -1,0 +1,96 @@
+{
+  "id": "kyle-fleit-2f023ec2",
+  "type": "person",
+  "name": "Kyle Fleit",
+  "current_title": "Managing Director, Acquisitions",
+  "current_company": "PowerHouse Data Centers",
+  "linkedin": "https://www.linkedin.com/in/kyle-fleit-0820072",
+  "location": "Baltimore, Washington DC",
+  "seniority": "Senior Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Managing Director, Acquisitions at PowerHouse Data Centers, 1/2020 to present; Managing Director, Acquisitions at American Real Estate Partners, 2/2019 to present; Senior Vice President of Acquisitions at American Real Estate Partners, 6/2010 to present; Assistant Vice President at Perseus Realty Capital, 4/2005 to 6/2010; Analyst at Touchstone Partners, 6/2003 to 4/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 154,
+      "date_added": "2026-01-07 15:54:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "powerhouse-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Managing Director, Acquisitions",
+      "company": "PowerHouse Data Centers",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director, Acquisitions",
+      "company": "American Real Estate Partners",
+      "start": "2/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President of Acquisitions",
+      "company": "American Real Estate Partners",
+      "start": "6/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Vice President",
+      "company": "Perseus Realty Capital",
+      "start": "4/2005",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Touchstone Partners",
+      "start": "6/2003",
+      "end": "4/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "education": [
+    "Carnegie Mellon University, 1999 to 2003"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

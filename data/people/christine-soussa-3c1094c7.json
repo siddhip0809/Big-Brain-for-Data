@@ -1,0 +1,114 @@
+{
+  "id": "christine-soussa-3c1094c7",
+  "type": "person",
+  "name": "Christine Soussa",
+  "current_title": "Global Client Director",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/christine-soussa-0291101a",
+  "location": "Los Gatos, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Advisor at Cloudchipr, 8/2023 to present; Global Client Director at Equinix, 1/2020 to present; Global Client Director at Equinix, 1/2020 to present; Board Member at IndexBoard, 8/2019 to 10/2022; Senior Strategic Account Executive at Equinix, 9/2017 to 1/2020; Senior Global Account Executive, Team Lead, Sales Strategy, GTM, Business Develop Leader at Symantec, 8/2010 to 9/2017; Strategic Account Executive at VERISIGN, 12/2008 to 8/2010; Advertising Sales at The Walt Disney Company, 1/2005 to 12/2007; Director of Sales & Marketing at Lovella Bridal, 1/1998 to 12/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 248,
+      "date_added": "2026-04-22 14:37:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Advisor",
+      "company": "Cloudchipr",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Client Director",
+      "company": "Equinix",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Client Director",
+      "company": "Equinix",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Board Member",
+      "company": "IndexBoard",
+      "start": "8/2019",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Strategic Account Executive",
+      "company": "Equinix",
+      "start": "9/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Global Account Executive, Team Lead, Sales Strategy, GTM, Business Develop Leader",
+      "company": "Symantec",
+      "start": "8/2010",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Executive",
+      "company": "VERISIGN",
+      "start": "12/2008",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Advertising Sales",
+      "company": "The Walt Disney Company",
+      "start": "1/2005",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Director of Sales & Marketing",
+      "company": "Lovella Bridal",
+      "start": "1/1998",
+      "end": "12/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Los Gatos",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

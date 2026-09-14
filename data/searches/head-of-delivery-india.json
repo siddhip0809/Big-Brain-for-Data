@@ -1,0 +1,32 @@
+{
+  "id": "5cf5bc21-29b5-4f16-a7a1-43753a089305",
+  "type": "search",
+  "name": "Head of Delivery- India",
+  "client_company": "Colt Data Centre Services",
+  "client_company_id": "colt-data-centre-services",
+  "status": "closed",
+  "project_type": "Contingency",
+  "started_at": "2026-05-27",
+  "closed_at": "2026-06-15",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": {
+    "person": null,
+    "person_id": null,
+    "title": "Head of Delivery- India",
+    "start_date": null
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

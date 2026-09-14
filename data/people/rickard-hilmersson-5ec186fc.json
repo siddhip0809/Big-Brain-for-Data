@@ -1,0 +1,162 @@
+{
+  "id": "rickard-hilmersson-5ec186fc",
+  "type": "person",
+  "name": "Rickard Hilmersson",
+  "current_title": "VP Sales & Development",
+  "current_company": "Vaultica Data Centers",
+  "linkedin": "https://www.linkedin.com/in/rickard-hilmersson",
+  "location": "Stockholm, Sweden",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "VP Sales & Development at Vaultica Data Centers, 12/2025 to present; Vice President Sales, Enterprise Colo at STACK Infrastructure, 6/2024 to 12/2025; VP Nordics Sales at STACK Infrastructure, 9/2022 to 7/2024; Head of Sales Nordic at STACK Infrastructure, 3/2022 to 8/2022; Head of Sales Nordic at DIGIPLEX, 9/2018 to 3/2022; Director Bussines Development at DIGIPLEX, 5/2018 to 9/2018; Sales Director Nordics at Equinix, 1/2016 to 2/2018; Regional Sales Director Nordics at Equinix, 1/2015 to 1/2016; Sales Director - Sweden at Equinix, 1/2013 to 1/2015; Sales Manager at TelecityGroup Sweden, 11/2010 to 1/2013; Account Manager at Equinix, 8/2006 to 11/2010; Sales at Blixtvik Internet & telefoni AB, 9/2004 to 8/2006; Sales at MCI WorldCom, 12/1999 to 8/2004; Sales at MCI/WorldCom/Verizon, 1/1999 to 1/2005; Sales at Solar, 1/1997 to 1/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 214,
+      "date_added": "2026-08-03 07:12:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "vaultica-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Sales & Development",
+      "company": "Vaultica Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Sales, Enterprise Colo",
+      "company": "STACK Infrastructure",
+      "start": "6/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "VP Nordics Sales",
+      "company": "STACK Infrastructure",
+      "start": "9/2022",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Sales Nordic",
+      "company": "STACK Infrastructure",
+      "start": "3/2022",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Head of Sales Nordic",
+      "company": "DIGIPLEX",
+      "start": "9/2018",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Director Bussines Development",
+      "company": "DIGIPLEX",
+      "start": "5/2018",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Sales Director Nordics",
+      "company": "Equinix",
+      "start": "1/2016",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director Nordics",
+      "company": "Equinix",
+      "start": "1/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Director - Sweden",
+      "company": "Equinix",
+      "start": "1/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "TelecityGroup Sweden",
+      "start": "11/2010",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Equinix",
+      "start": "8/2006",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "Blixtvik Internet & telefoni AB",
+      "start": "9/2004",
+      "end": "8/2006",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "MCI WorldCom",
+      "start": "12/1999",
+      "end": "8/2004",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "MCI/WorldCom/Verizon",
+      "start": "1/1999",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "Solar",
+      "start": "1/1997",
+      "end": "1/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Stockholm",
+    "region": null,
+    "country": "Sweden",
+    "group": "Sweden"
+  },
+  "education": [
+    "Computer Science, University of Gävle, 1995 to 1997"
+  ],
+  "biography": "Experienced sales profile  with a strong track record in the datacenter industry.",
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

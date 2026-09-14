@@ -1,0 +1,37 @@
+{
+  "id": "granite-properties",
+  "type": "company",
+  "name": "Granite Properties",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Dallas, Texas",
+  "founded": null,
+  "website": "https://www.graniteproperties.com",
+  "linkedin": "https://www.linkedin.com/company/granite-properties/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "None",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "No",
+      "DC Exposure Level": "None"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Office developer. Texas focus. Not relevant for DC talent mapping.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

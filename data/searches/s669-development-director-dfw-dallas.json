@@ -1,0 +1,36 @@
+{
+  "id": "a1fa526b-c1ea-4b1a-a86b-a10b65f3e54e",
+  "type": "search",
+  "name": "S669 Development Director DFW- Dallas",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2024-10-28",
+  "closed_at": "2025-09-08",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": {
+    "person": "Sidney Stratton",
+    "person_id": null,
+    "title": "S669 Development Director DFW- Dallas",
+    "start_date": null
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 509,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

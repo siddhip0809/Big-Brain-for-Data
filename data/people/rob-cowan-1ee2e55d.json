@@ -1,0 +1,93 @@
+{
+  "id": "rob-cowan-1ee2e55d",
+  "type": "person",
+  "name": "Rob Cowan",
+  "current_title": "Head of Construction",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/rob-cowan-39a828245",
+  "location": "Leesburg, Virginia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Head of Construction at STACK Infrastructure, 8/2025 to present; Vice President, Construction Program at STACK Infrastructure, 2/2024 to 8/2025; Strategy Leader at The Weitz Company, 1/2023 to 2/2024; Specialty Technology Managing Executive at The Volare Works, 5/2022 to 1/2023; Co-Founder & Executive Vice President at TEC Solutions, 1/2014 to 5/2022; Director of Technology Management Systems Center at System Planning, 11/2007 to 1/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 213,
+      "date_added": "2026-07-08 09:16:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Construction",
+      "company": "STACK Infrastructure",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Construction Program",
+      "company": "STACK Infrastructure",
+      "start": "2/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Strategy Leader",
+      "company": "The Weitz Company",
+      "start": "1/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Specialty Technology Managing Executive",
+      "company": "The Volare Works",
+      "start": "5/2022",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Co-Founder & Executive Vice President",
+      "company": "TEC Solutions",
+      "start": "1/2014",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Director of Technology Management Systems Center",
+      "company": "System Planning",
+      "start": "11/2007",
+      "end": "1/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Leesburg",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "henderson-engineers",
+  "type": "company",
+  "name": "Henderson Engineers",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Lenexa, Kansas",
+  "founded": null,
+  "website": "https://www.hendersonengineers.com",
+  "linkedin": "https://www.linkedin.com/company/henderson-engineers/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: MEP + civil. Known DC campus MEP and site work.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

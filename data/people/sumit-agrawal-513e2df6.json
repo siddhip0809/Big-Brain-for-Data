@@ -1,0 +1,111 @@
+{
+  "id": "sumit-agrawal-513e2df6",
+  "type": "person",
+  "name": "Sumit Agrawal",
+  "current_title": "Senior Estimator I",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/sumit1221",
+  "location": "Minneapolis, Minnesota",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Senior Estimator I at Mortenson, 2/2025 to present; Estimator III at Mortenson, 5/2022 to 2/2025; Estimator II at Ryan Companies US, 2/2021 to 5/2022; Estimator I at Ryan Companies US, 9/2018 to 2/2021; Estimator/ Scheduling Engineer at C&C Contractors, 8/2017 to 8/2018; Construction Design Associate at Lodgestar Construction, 2/2017 to 4/2017; Cost Estimator/ Engineer at Balaji Construction & Industries, 11/2013 to 3/2015; Cost Estimator/ Engineer at Jhaveri Infraprojects Pvt, 6/2012 to 8/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 400,
+      "date_added": "2026-08-20 15:06:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator I",
+      "company": "Mortenson",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator III",
+      "company": "Mortenson",
+      "start": "5/2022",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator II",
+      "company": "Ryan Companies US",
+      "start": "2/2021",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator I",
+      "company": "Ryan Companies US",
+      "start": "9/2018",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Estimator/ Scheduling Engineer",
+      "company": "C&C Contractors",
+      "start": "8/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Construction Design Associate",
+      "company": "Lodgestar Construction",
+      "start": "2/2017",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator/ Engineer",
+      "company": "Balaji Construction & Industries",
+      "start": "11/2013",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator/ Engineer",
+      "company": "Jhaveri Infraprojects Pvt",
+      "start": "6/2012",
+      "end": "8/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Minneapolis",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  },
+  "education": [
+    "Master of Science (MSc) Construction engineering and management, The University Of Texas At Arlington, 2015 to 2017",
+    "Bachelor of Engineering (B.E.) Civil Engineering, Rajiv Gandhi Prodyogiki Vishwavidyalaya, 2009 to 2013"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

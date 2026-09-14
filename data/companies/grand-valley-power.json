@@ -1,0 +1,39 @@
+{
+  "id": "grand-valley-power",
+  "type": "company",
+  "name": "Grand Valley Power",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Grand Junction, Colorado",
+  "founded": null,
+  "website": "https://www.grandvalleypower.com",
+  "linkedin": null,
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Utility",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Distribution Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Small electric cooperative. Western Colorado. Not relevant.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

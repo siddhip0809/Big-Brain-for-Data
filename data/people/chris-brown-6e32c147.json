@@ -1,0 +1,112 @@
+{
+  "id": "chris-brown-6e32c147",
+  "type": "person",
+  "name": "Chris Brown",
+  "current_title": "Director, Hyperscale Solutions",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/chris-brown-31b48",
+  "location": "Novato, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Hyperscale Solutions at QTS Data Centers, 1/2018 to present; Sr. Director, Sales and Business Development at DFT, 11/2016 to 12/2017; Sr. National Account Manager at RagingWire Data Centers, 1/2006 to 10/2016; Sr. Sales Executive at Visual Resource, 11/2003 to 12/2005; Sr. Account Executive at Navisite, 3/2000 to 11/2003; Sr. Account Manager at AT&T, 11/1997 to 3/2000; Sales Executive at Versys, 1/1991 to 12/1992",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 189,
+      "date_added": "2026-02-23 11:25:01 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Hyperscale Solutions",
+      "company": "QTS Data Centers",
+      "start": "1/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Director, Sales and Business Development",
+      "company": "DFT",
+      "start": "11/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Sr. National Account Manager",
+      "company": "RagingWire Data Centers",
+      "start": "1/2006",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Sr. Sales Executive",
+      "company": "Visual Resource",
+      "start": "11/2003",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Navisite",
+      "start": "3/2000",
+      "end": "11/2003",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Manager",
+      "company": "AT&T",
+      "start": "11/1997",
+      "end": "3/2000",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "Versys",
+      "start": "1/1991",
+      "end": "12/1992",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Novato",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Strategic and Conceptual Selling, Miller Heiman, 2014 to 2014",
+    "BS, Hotel & Restaurant Management, California State Polytechnic University-Pomona, 1987 to 1990",
+    "High School/Secondary Diplomas and Certificates, San Rafael High School, 1980 to 1984"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

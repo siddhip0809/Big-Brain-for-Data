@@ -1,0 +1,39 @@
+{
+  "id": "la-plata-electric-association",
+  "type": "company",
+  "name": "La Plata Electric Association",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Durango, Colorado",
+  "founded": null,
+  "website": "https://www.lpea.coop",
+  "linkedin": null,
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Utility",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Distribution Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Electric cooperative. Southwest Colorado. Not relevant.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "zachary-howard-639d820e",
+  "type": "person",
+  "name": "Zachary Howard",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Meta",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/zachary-howard91",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at Meta, 5/2024 to present; Program Manager - Data Center Operations at Meta, 6/2022 to 5/2024; Project Manager at Dynalectric Colorado, 7/2021 to 6/2022; Assistant Project Manager at Dynalectric Colorado, 7/2019 to 7/2021; Project Engineer I-III at Dynalectric Colorado, 9/2015 to 7/2019; Project Engineer/Maintenance Planner at Smithfield Foods, 9/2013 to 9/2015; Engineering Intern at ATI Ladish Forging, 5/2013 to 9/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 212,
+      "date_added": "2026-08-26 12:57:38 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 73,
+      "date_added": "2026-08-05 15:31:35 UTC",
+      "date_updated": "2026-08-26 07:57:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "meta",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Meta",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Program Manager - Data Center Operations",
+      "company": "Meta",
+      "start": "6/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Dynalectric Colorado",
+      "start": "7/2021",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Dynalectric Colorado",
+      "start": "7/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer I-III",
+      "company": "Dynalectric Colorado",
+      "start": "9/2015",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer/Maintenance Planner",
+      "company": "Smithfield Foods",
+      "start": "9/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "ATI Ladish Forging",
+      "start": "5/2013",
+      "end": "9/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of Applied Science - BASc, Mechanical Engineering, University of Wisconsin-Milwaukee"
+  ],
+  "biography": "Program Manager at Meta",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "andrew-abbott-5e491f38",
+  "type": "person",
+  "name": "Andrew Abbott",
+  "current_title": "Head of Sales Germany",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/andrew-abbott-bb9b532",
+  "location": "London, England",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Head of Sales Germany at Equinix, 4/2026 to present; Head of Sales Germany at Equinix, 4/2026 to present; Director International Sales UK at Equinix, 11/2021 to 11/2022; Sales Director Digital Economy at Equinix, 7/2013 to 10/2021; Sales Manager - South at Equinix, 1/2013 to 7/2013; Senior Account Manager at Equinix, 1/2011 to 12/2012; Major Account Manager at Equinix, 1/2008 to 12/2010; Account Manager at TelecityRedbus, 2/2006 to 1/2008; Account Manager New Business at Telecity UK Limited, 5/2005 to 2/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 307,
+      "date_added": "2026-08-27 07:41:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Sales Germany",
+      "company": "Equinix",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Sales Germany",
+      "company": "Equinix",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director International Sales UK",
+      "company": "Equinix",
+      "start": "11/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Director Digital Economy",
+      "company": "Equinix",
+      "start": "7/2013",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Sales Manager - South",
+      "company": "Equinix",
+      "start": "1/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Equinix",
+      "start": "1/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Major Account Manager",
+      "company": "Equinix",
+      "start": "1/2008",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "TelecityRedbus",
+      "start": "2/2006",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Account Manager New Business",
+      "company": "Telecity UK Limited",
+      "start": "5/2005",
+      "end": "2/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "International Business, Canterbury Christ Church University, 2000 to 2004",
+    "International Business, Inholland University of Applied Sciences, 2000 to 2004"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

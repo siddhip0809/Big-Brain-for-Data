@@ -1,0 +1,50 @@
+{
+  "id": "stellium-data-centres",
+  "type": "company",
+  "name": "Stellium Data Centres",
+  "aliases": [
+    "Stellium Datacenters"
+  ],
+  "industry_role": "data center operator (UK campus)",
+  "headquarters": "Newcastle, United Kingdom",
+  "founded": null,
+  "website": "https://stelliumdc.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer"
+  ],
+  "parent_industry": "pure_play",
+  "notes": "Newcastle, UK data center campus operator (branded 'The Data Meridian'); raised a £30M Series B in Oct 2019. Added 2026-09-05 from investor-research round; not independently verified beyond web research.",
+  "sources": [
+    "Web research, 2026-09-05",
+    "https://www.datacenterdynamics.com/en/news/stellium-datacenters-finishes-30m-investment-round/",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/stellium-datacenters-limited/",
+  "headcount": "11 to 50",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 17.6
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "data4",
+  "type": "company",
+  "name": "DATA4",
+  "aliases": [],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": "Paris, France",
+  "founded": null,
+  "website": "https://www.data4group.com/en/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Hyperscaler"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 2 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Acquired from AXA IM Alts, closed April 2023. Reportedly in talks (2025) with Arjun Infrastructure Partners for a minority stake sale -- not confirmed closed.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/data4-group/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 1840.1,
+      "early_stage_mw": 1387.5
+    }
+  }
+}

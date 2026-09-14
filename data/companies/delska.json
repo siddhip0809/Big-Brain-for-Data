@@ -1,0 +1,46 @@
+{
+  "id": "delska",
+  "type": "company",
+  "name": "DELSKA",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "Riga",
+  "founded": null,
+  "website": "https://delska.com/",
+  "linkedin": "https://www.linkedin.com/company/delska/?_gl=1*1y7o3y2*_gcl_au*MTA2MzAyODUwMi4xNzc0NTMwMTc3*_ga*MTkxNzM2ODc3Ny4xNzc0NTMwMTc3*_ga_MN9ZL4E6FH*czE3NzQ1MzAxNzckbzEkZzAkdDE3NzQ1MzAxNzckajYwJGwwJGg0MTk0MTg2Nzg.*_ga_T1WWK6CTZ8*czE3NzQ1MzAxNzckbzEkZzAkdDE3NzQ1MzAxNzckajYwJGwwJGgxNjcwNzkxNzM5*_ga_KR92TS05MZ*czE3NzQ1MzAxNzckbzEkZzAkdDE3NzQ1MzAxNzckajYwJGwwJGg4ODA4MDM1Mjk.",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 14.561,
+      "early_stage_mw": 1.244
+    }
+  }
+}

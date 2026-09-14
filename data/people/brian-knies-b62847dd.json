@@ -1,0 +1,103 @@
+{
+  "id": "brian-knies-b62847dd",
+  "type": "person",
+  "name": "Brian Knies",
+  "current_title": "Real Estate Strategy and Development Lead",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/brianknies",
+  "location": "Boston, Massachusetts",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Strategy and Development Lead  at AWS, 9/2022 to present; Worldwide Real Estate at Amazon, 3/2021 to 9/2022; Director Real Estate at WeWork, 1/2019 to 12/2019; Vice President, Integrated Portfolio Services at JLL, 2/2014 to 12/2018; Associate, Public Institutions at JLL, 8/2005 to 1/2014; Corporate Real Estate Analyst at Thermo Fisher Scientific, 10/2004 to 7/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 456,
+      "date_added": "2026-05-13 10:33:53 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Real Estate Strategy and Development Lead ",
+      "company": "AWS",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Worldwide Real Estate",
+      "company": "Amazon",
+      "start": "3/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Director Real Estate",
+      "company": "WeWork",
+      "start": "1/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Vice President, Integrated Portfolio Services",
+      "company": "JLL",
+      "start": "2/2014",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Associate, Public Institutions",
+      "company": "JLL",
+      "start": "8/2005",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Corporate Real Estate Analyst",
+      "company": "Thermo Fisher Scientific",
+      "start": "10/2004",
+      "end": "7/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Boston",
+    "region": "Massachusetts",
+    "country": "United States",
+    "group": "Massachusetts"
+  },
+  "education": [
+    "Bachelor of Arts, University Of Vermont",
+    "Master of Science - MS, Real Estate Development, New York University"
+  ],
+  "biography": "Real estate executive with 20+ years of experience leading development, strategy, and acquisitions across data centers, office, industrial, and multifamily sectors. At Amazon, I manage real estate for eight AWS regions, leading negotiations, acquisitions, and entitlements Previously, I led site selection and development for Amazon's logistics sites across the US and Canada. At WeWork, I drove a 25% increase in new enterprise locations by streamlining the real estate pipeline. With over $1B in lease transactions closed globally, I have a proven track record of leading smart growth, optimizing portfolios, delivering capacity and reducing costs.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

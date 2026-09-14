@@ -1,0 +1,39 @@
+{
+  "id": "bridge-industrial",
+  "type": "company",
+  "name": "Bridge Industrial",
+  "aliases": [
+    "Blp - Bridge Logistics Properties"
+  ],
+  "industry_role": "real estate developer",
+  "headquarters": "Chicago, Illinois",
+  "founded": null,
+  "website": "https://www.bridge-industrial.com",
+  "linkedin": "https://www.linkedin.com/company/bridge-industrial/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Low",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Low"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Industrial developer. Active in major logistics hubs. Some large-site land dev experience transferable to DC.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

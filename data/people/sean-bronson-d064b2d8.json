@@ -1,0 +1,122 @@
+{
+  "id": "sean-bronson-d064b2d8",
+  "type": "person",
+  "name": "Sean Bronson",
+  "current_title": "MEP",
+  "current_company": "DPR Construction",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/sean-bronson-3b9390a7",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "MEP at DPR Construction, 10/2025 to present; Preconstruction Services at Encore Electric, 9/2023 to 10/2025; Self-Peform Interiors Lead (MAZ Data Center) at DPR Construction, 8/2021 to 9/2023; Self-Perform Manager at DPR Construction, 3/2019 to 8/2021; Project Manager - Estimator at Corbins Electric, 4/2016 to 3/2019; Electrical Systems Craftsman at United States Air Force, 1/2009 to 2/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 16,
+      "date_added": "2026-08-14 14:42:08 UTC",
+      "date_updated": "2026-08-19 08:08:11 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 47,
+      "date_added": "2026-08-05 08:05:42 UTC",
+      "date_updated": "2026-08-14 09:42:08 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 47,
+      "date_added": "2026-08-05 08:05:42 UTC",
+      "date_updated": "2026-08-14 09:42:08 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "MEP",
+      "company": "DPR Construction",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Services",
+      "company": "Encore Electric",
+      "start": "9/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Self-Peform Interiors Lead (MAZ Data Center)",
+      "company": "DPR Construction",
+      "start": "8/2021",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Self-Perform Manager",
+      "company": "DPR Construction",
+      "start": "3/2019",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager - Estimator",
+      "company": "Corbins Electric",
+      "start": "4/2016",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Electrical Systems Craftsman",
+      "company": "United States Air Force",
+      "start": "1/2009",
+      "end": "2/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

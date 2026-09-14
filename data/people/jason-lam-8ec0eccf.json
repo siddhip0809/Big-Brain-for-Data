@@ -1,0 +1,106 @@
+{
+  "id": "jason-lam-8ec0eccf",
+  "type": "person",
+  "name": "Jason Lam",
+  "current_title": "Head of Key Account Development",
+  "current_company": "Telehouse",
+  "linkedin": "https://www.linkedin.com/in/jason-lam-a521a516",
+  "location": "Hitchin, Hertfordshire, United Kingdom",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Head of Key Account Development at Telehouse, 9/2025 to present; Account Director at Telehouse, 4/2025 to 9/2025; Sales Account Manager at Telehouse, 5/2022 to 4/2025; Key Account Manager at STL - Sterlite Technologies Limited, 10/2020 to 4/2022; Account Director at Technimove, 12/2011 to 10/2020; Account Manager at Satori Software, 9/2009 to 4/2011; Business Manager at COA Solutions, 6/2006 to 3/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 205,
+      "date_added": "2026-07-30 10:40:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "telehouse",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Key Account Development",
+      "company": "Telehouse",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "Telehouse",
+      "start": "4/2025",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Sales Account Manager",
+      "company": "Telehouse",
+      "start": "5/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "STL - Sterlite Technologies Limited",
+      "start": "10/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "Technimove",
+      "start": "12/2011",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Satori Software",
+      "start": "9/2009",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Business Manager",
+      "company": "COA Solutions",
+      "start": "6/2006",
+      "end": "3/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Hitchin",
+    "region": null,
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "B.ENG Mechanical Engineering, Loughborough University, 2002 to 2006"
+  ],
+  "biography": "Since 1998, Technimove have led the industry in providing technology-based data centre transformation services and solutions, delivering real value, whilst meeting client’s strategically defined business goals.",
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

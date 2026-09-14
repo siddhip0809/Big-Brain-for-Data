@@ -1,0 +1,102 @@
+{
+  "id": "andrew-reisbeck-f74a1bdc",
+  "type": "person",
+  "name": "Andrew Reisbeck",
+  "current_title": "Design Phase Manager II",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/andrew-reisbeck-4796b910",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Design Phase Manager II at Mortenson, 3/2017 to present; Design Phase Manager at Mortenson, 3/2014 to 3/2016; Design Phase Engineer II at Mortenson, 9/2012 to 3/2014; Design Phase Engineer at Mortenson, 9/2011 to 9/2012; ESTIMATOR II at Mortenson, 2/2008 to 9/2011; Project Engineer at Mortenson, 12/2005 to 2/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 62,
+      "date_added": "2026-08-04 16:07:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Design Phase Manager II",
+      "company": "Mortenson",
+      "start": "3/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Design Phase Manager",
+      "company": "Mortenson",
+      "start": "3/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Design Phase Engineer II",
+      "company": "Mortenson",
+      "start": "9/2012",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Design Phase Engineer",
+      "company": "Mortenson",
+      "start": "9/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "ESTIMATOR II",
+      "company": "Mortenson",
+      "start": "2/2008",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Mortenson",
+      "start": "12/2005",
+      "end": "2/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, Construction Management, Colorado State University, 2001 to 2005"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

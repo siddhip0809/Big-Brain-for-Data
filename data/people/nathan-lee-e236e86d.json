@@ -1,0 +1,100 @@
+{
+  "id": "nathan-lee-e236e86d",
+  "type": "person",
+  "name": "Nathan Lee",
+  "current_title": "Preconstruction Manager for Estimating",
+  "current_company": "Meta",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/nathan-lee-09b42521",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager for Estimating at Meta, 6/2021 to present; Director, Cost Management at WeWork, 10/2019 to 6/2021; Senior Cost Consultant at MGAC, 6/2017 to 9/2019; Senior Cost Consultant at D G Jones International, 7/2003 to 6/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 218,
+      "date_added": "2026-08-26 12:57:39 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 31,
+      "date_added": "2026-08-04 07:34:41 UTC",
+      "date_updated": "2026-08-26 07:57:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "meta",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager for Estimating",
+      "company": "Meta",
+      "start": "6/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Cost Management",
+      "company": "WeWork",
+      "start": "10/2019",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "MGAC",
+      "start": "6/2017",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "D G Jones International",
+      "start": "7/2003",
+      "end": "6/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bsc Quantity Surveying, Quantity Surveying, Leeds Beckett University, 1999 to 2003"
+  ],
+  "biography": "Over the last two decades, Nathan has been involved in the development of cutting-edge data centers, medical, and life science facilities around the world. His expertise in cost estimating and budgeting has been instrumental in bringing these transformative projects to life. He delivers comprehensive cost management strategies across all phases - from pre-construction planning through procurement and construction - ensuring projects are set up for success.\r\n\r\nSetting the Stage for Success: Nathan builds trust through strong partnerships with owners, design teams, and contractors. Developing a collaborative approach leads to well-informed decisions based on a clear understanding of potential cost impacts and associated risks. All projects present unique challenges and can put pressure on teams to move quickly. Nathan efficiently analysis the available data, highlights potential roadblocks and makes informed recommendations while collaborating with key stakeholders. This collaborative approach builds trust and empowers teams to navigate decisions with confidence.\r\n\r\nTechnical Expertise: Nathan delivers value throughout the project lifecycle. Crafting accurate conceptual budgets for early decision-making. Leading estimating teams to develop detailed estimates to inform design and negotiations with contractors. Nathan's expertise extends to the construction buyout process - setting standards for issuing RFPs, interviewing contractors, evaluating bids, and securing final contracts. Beyond initial costs, he has implemented post-construction cost and risk management strategies to help teams efficiently track and manage costs. He's a proven leader with the ability to manage teams and effectively oversee multiple workflows.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

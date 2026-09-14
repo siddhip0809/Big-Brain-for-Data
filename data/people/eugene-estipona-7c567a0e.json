@@ -1,0 +1,140 @@
+{
+  "id": "eugene-estipona-7c567a0e",
+  "type": "person",
+  "name": "Eugene Estipona",
+  "current_title": "Director of Construction",
+  "current_company": "Switch",
+  "linkedin": "https://www.linkedin.com/in/eugene-estipona-b5622311",
+  "location": "Austin, Texas Metropolitan Area",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Construction at Switch, 8/2024 to present; Construction Manager at Switch, 11/2021 to 8/2024; Senior Project Manager at Constructiv Builders, 1/2021 to 11/2021; Senior Project Manager at JE Dunn Construction, 7/2019 to 1/2021; Construction Manager at Data Foundry, 2/2019 to 7/2019; MEP Project Manager at Data Foundry, 4/2016 to 2/2019; Procurement Manager at Genentech, 3/2014 to 4/2016; Project Manager at XL Construction, 2/2012 to 3/2014; Sr. Project Engineer at Gilbane Building, 11/2007 to 2/2012; Project Engineer at McGough, 7/2005 to 11/2007; Construction Superintendent at Pulte Group, 9/2004 to 7/2005; Surface Warfare Officer at US Navy, 6/2000 to 9/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 53,
+      "date_added": "2026-07-02 11:47:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "switch",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Switch",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Switch",
+      "start": "11/2021",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Constructiv Builders",
+      "start": "1/2021",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "JE Dunn Construction",
+      "start": "7/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Data Foundry",
+      "start": "2/2019",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "MEP Project Manager",
+      "company": "Data Foundry",
+      "start": "4/2016",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Procurement Manager",
+      "company": "Genentech",
+      "start": "3/2014",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "XL Construction",
+      "start": "2/2012",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Engineer",
+      "company": "Gilbane Building",
+      "start": "11/2007",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "McGough",
+      "start": "7/2005",
+      "end": "11/2007",
+      "current": false
+    },
+    {
+      "title": "Construction Superintendent",
+      "company": "Pulte Group",
+      "start": "9/2004",
+      "end": "7/2005",
+      "current": false
+    },
+    {
+      "title": "Surface Warfare Officer",
+      "company": "US Navy",
+      "start": "6/2000",
+      "end": "9/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Austin",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "M.S., Construction Management, Arizona State University",
+    "Bachelor of Science in Engineering (BSE), Electrical Engineering, University Of North Dakota"
+  ],
+  "biography": "Data Center Director of Construction",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

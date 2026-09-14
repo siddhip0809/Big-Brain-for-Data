@@ -1,0 +1,88 @@
+{
+  "id": "jos-luis-arnau-573f0506",
+  "type": "person",
+  "name": "José Luis Arnau",
+  "current_title": "Commercial and Business Development Director",
+  "current_company": "IREN",
+  "linkedin": "https://www.linkedin.com/in/joseluisarnau",
+  "location": "Madrid, Spain",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Commercial and Business Development Director at IREN, 6/2026 to present; Chief Commercial Officer (CCO) at Nostrum Group, 5/2025 to 6/2026; Head of Sales at Start Campus, 11/2024 to 5/2025; Sales Director at Digital Realty, 6/2000 to 11/2024; Director Sales at Ducati Motor Holding, 9/1997 to 6/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Tenure",
+      "rank": 237,
+      "date_added": "2026-08-03 14:19:22 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "iren",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Commercial and Business Development Director",
+      "company": "IREN",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Commercial Officer (CCO)",
+      "company": "Nostrum Group",
+      "start": "5/2025",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Head of Sales",
+      "company": "Start Campus",
+      "start": "11/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "6/2000",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Director Sales",
+      "company": "Ducati Motor Holding",
+      "start": "9/1997",
+      "end": "6/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Madrid",
+    "country": "Spain",
+    "group": "Spain"
+  },
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

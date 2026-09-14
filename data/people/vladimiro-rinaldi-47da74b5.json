@@ -1,0 +1,142 @@
+{
+  "id": "vladimiro-rinaldi-47da74b5",
+  "type": "person",
+  "name": "Vladimiro Rinaldi",
+  "current_title": "Site Acquisition Director",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/vladimiro",
+  "location": "Milan, Lombardy, Italy",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Site Acquisition Director at Microsoft, 3/2025 to present; Senior Site Acquisition Manager at Microsoft, 7/2022 to 3/2025; Senior Business Developer - Datacenter Supply Solutions at AWS, 6/2021 to 6/2022; Senior Business Developer - Backbone Network Planning & Acquisition at AWS, 6/2017 to 5/2021; Director of Operations at Retelit, 1/2013 to 5/2017; Provisioning Manager at Retelit, 3/2008 to 12/2012; Network Planning Manager at Retelit, 3/2006 to 2/2008; Technical Project Manager at Vodafone, 1/2003 to 2/2006; Network Planning Analyst at Vodafone, 9/2000 to 12/2002; Technical Officer at Marina Militare Italiana, 5/1999 to 7/2000; Trainee - Telecom Italia Lab - Optical Technologies Division at Telecom Italia, 7/1998 to 4/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Location Issue",
+      "rank": 10,
+      "date_added": "2026-07-08 17:34:06 UTC",
+      "date_updated": "2026-07-30 01:40:15 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Site Acquisition Director",
+      "company": "Microsoft",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Site Acquisition Manager",
+      "company": "Microsoft",
+      "start": "7/2022",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Business Developer - Datacenter Supply Solutions",
+      "company": "AWS",
+      "start": "6/2021",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Business Developer - Backbone Network Planning & Acquisition",
+      "company": "AWS",
+      "start": "6/2017",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Director of Operations",
+      "company": "Retelit",
+      "start": "1/2013",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Provisioning Manager",
+      "company": "Retelit",
+      "start": "3/2008",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Network Planning Manager",
+      "company": "Retelit",
+      "start": "3/2006",
+      "end": "2/2008",
+      "current": false
+    },
+    {
+      "title": "Technical Project Manager",
+      "company": "Vodafone",
+      "start": "1/2003",
+      "end": "2/2006",
+      "current": false
+    },
+    {
+      "title": "Network Planning Analyst",
+      "company": "Vodafone",
+      "start": "9/2000",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Technical Officer",
+      "company": "Marina Militare Italiana",
+      "start": "5/1999",
+      "end": "7/2000",
+      "current": false
+    },
+    {
+      "title": "Trainee - Telecom Italia Lab - Optical Technologies Division",
+      "company": "Telecom Italia",
+      "start": "7/1998",
+      "end": "4/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Milan",
+    "region": "Lombardy",
+    "country": "Italy",
+    "group": "Italy"
+  },
+  "education": [
+    "Master of Science (5 years), Università di Bologna, 1993 to 1999",
+    "Master of Science (5 years), Telecommunications Engineering, Alma Mater Studiorum – Università di Bologna, 1993 to 1999"
+  ],
+  "biography": "Experienced leader in infrastructure strategy, business development, and contract negotiation. Combines strategic negotiation skills with technical proficiency in datacenter and network systems. Skilled in aligning technical solutions with business goals, driving multimillion-dollar projects, and fostering collaboration across multicultural teams. Fluent in English and Italian, enabling seamless engagement with multinational clients, senior management, and vendors.\n\nBusiness Development\nStrategic Contract Negotiation\nDatacenter and Network Strategy\nTelecommunication Systems\nSubmarine Cables\nVendor Management\nPeople Management & Development",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

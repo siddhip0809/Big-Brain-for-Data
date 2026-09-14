@@ -1,0 +1,143 @@
+{
+  "id": "jeffrey-martin-5a473ab5",
+  "type": "person",
+  "name": "Jeffrey Martin",
+  "current_title": "Director of Preconstruction - Mission Critical",
+  "current_company": "Ryan Companies US",
+  "location": "Minneapolis, Minnesota",
+  "linkedin": "https://www.linkedin.com/in/jeffrey-martin-4a54b83",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Preconstruction - Mission Critical at Ryan Companies US, 1/2026 to present; Senior Design Phase Manager at Mortenson, 5/2024 to 5/2025; Market Executive at Mortenson, 3/2023 to 5/2024; Design Phase Executive at Mortenson, 3/2017 to 2/2023; Senior Design Phase Manager at Mortenson, 9/2010 to 2/2017; Design Phase Manager at Mortenson, 3/2008 to 9/2010; Senior Estimator at Mortenson, 10/2006 to 3/2008; Senior Estimator at Adolfson & Peterson Construction, 1/2006 to 10/2006; Field Engineer and Estimating at Mortenson, 6/2000 to 1/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 250,
+      "date_added": "2026-08-26 13:22:20 UTC",
+      "date_updated": "2026-08-26 08:23:43 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 360,
+      "date_added": "2026-08-14 11:48:53 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 360,
+      "date_added": "2026-08-14 11:48:53 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "ryan-companies-us-inc",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction - Mission Critical",
+      "company": "Ryan Companies US",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Design Phase Manager",
+      "company": "Mortenson",
+      "start": "5/2024",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Market Executive",
+      "company": "Mortenson",
+      "start": "3/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Design Phase Executive",
+      "company": "Mortenson",
+      "start": "3/2017",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Design Phase Manager",
+      "company": "Mortenson",
+      "start": "9/2010",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Design Phase Manager",
+      "company": "Mortenson",
+      "start": "3/2008",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Mortenson",
+      "start": "10/2006",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Adolfson & Peterson Construction",
+      "start": "1/2006",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Field Engineer and Estimating",
+      "company": "Mortenson",
+      "start": "6/2000",
+      "end": "1/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Minneapolis",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

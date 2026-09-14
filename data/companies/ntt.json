@@ -1,0 +1,61 @@
+{
+  "id": "ntt",
+  "type": "company",
+  "name": "NTT",
+  "aliases": [
+    "NTT Global Data Centers",
+    "NTT GDC"
+  ],
+  "industry_role": "data center developer / operator (NTT Global Data Centers, the data-center arm of NTT)",
+  "headquarters": "London, United Kingdom",
+  "founded": null,
+  "website": "https://services.global.ntt/globaldatacenters",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Hyperscaler"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): corporate subsidiary of NTT Corporation (Japan). Wholly owned within NTT Group (NTT Communications, NTT Urban Development, NTT Corporation, NTT Finance) -- not independently PE/VC-backed.\n\nMerged 2026-09-09: absorbed duplicate record 'NTT Global Data Centers' (ntt-global-data-centers).",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "parent_industry": "telecom",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "linkedin": "https://www.linkedin.com/company/ntt-global-data-centers/",
+  "headcount": "501-1,000",
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 1114.8,
+      "early_stage_mw": 175.7
+    },
+    "apac": {
+      "total_mw": 1116.744,
+      "early_stage_mw": 983.0
+    },
+    "emea": {
+      "total_mw": 1288.3,
+      "early_stage_mw": 704.0
+    }
+  }
+}

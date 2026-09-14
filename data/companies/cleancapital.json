@@ -1,0 +1,39 @@
+{
+  "id": "cleancapital",
+  "type": "company",
+  "name": "CleanCapital",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "New York",
+  "founded": null,
+  "website": "https://www.cleancapital.com",
+  "linkedin": "https://www.linkedin.com/company/cleancapital/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Developer / Financier",
+      "Utility Scale": "No",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "No Physical Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Solar finance and acquisition platform. Not a developer. Limited talent relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

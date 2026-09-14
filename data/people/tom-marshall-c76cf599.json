@@ -1,0 +1,102 @@
+{
+  "id": "tom-marshall-c76cf599",
+  "type": "person",
+  "name": "Tom Marshall",
+  "current_title": "Senior Director, Construction, North America",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/tlmarshall",
+  "location": "West Lafayette, Indiana,",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Director, Construction, North America at Vantage, 1/2026 to present; Director, Construction, North America at Vantage, 8/2025 to 12/2025; Senior Program Manager | Foundry Construction Enterprise at Intel, 8/2022 to 8/2025; Senior Project Manager Lead | Capital Asset Management at Purdue University, 2005 to 2012; Senior Project Manager | Functional Area Lead  at Intel, 1996 to 2005; Service Engineer at Caterpillar, 1994 to 1996",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 135,
+      "date_added": "2026-07-06 13:58:46 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Construction, North America",
+      "company": "Vantage",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Construction, North America",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "raw": "Senior Program Manager"
+    },
+    {
+      "title": "Foundry Construction Enterprise",
+      "company": "Intel",
+      "start": "8/2022",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "raw": "Senior Project Manager Lead"
+    },
+    {
+      "title": "Capital Asset Management",
+      "company": "Purdue University",
+      "start": "2005",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "raw": "Senior Project Manager"
+    },
+    {
+      "title": "Functional Area Lead ",
+      "company": "Intel",
+      "start": "1996",
+      "end": "2005",
+      "current": false
+    },
+    {
+      "title": "Service Engineer",
+      "company": "Caterpillar",
+      "start": "1994",
+      "end": "1996",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "West Lafayette",
+    "region": "Indiana",
+    "country": "United States",
+    "group": "Indiana"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

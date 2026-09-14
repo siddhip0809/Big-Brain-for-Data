@@ -1,0 +1,105 @@
+{
+  "id": "matt-meaney-be076173",
+  "type": "person",
+  "name": "Matt Meaney",
+  "current_title": "Director of Energy Operations - Americas",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/matt-meaney-552b1096",
+  "location": "Spring, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Energy Operations - Americas at Equinix, 11/2021 to present; Client Portfolio Director at Calpine Energy Solutions, 12/2018 to 11/2021; Risk Manager at Schneider Electric Energy & Sustainability Services, 5/2010 to 12/2018; Municipal Bond Reinvestment Marketer at Aegon, 1998 to 2009; Operations Manager at Hartford Financial, 1996 to 1998; VP Secondary Marketing at Loan America Financial, 1993 to 1995; Currency Trader at IBJ Schroeder Bank & Trust, 1991 to 1993; Money Market Specialist at IBJ Schroder Bank & Trust, 1989 to 1991",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 161,
+      "date_added": "2026-06-04 15:22:54 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Energy Operations - Americas",
+      "company": "Equinix",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Client Portfolio Director",
+      "company": "Calpine Energy Solutions",
+      "start": "12/2018",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Risk Manager",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "5/2010",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Municipal Bond Reinvestment Marketer",
+      "company": "Aegon",
+      "start": "1998",
+      "end": "2009",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Hartford Financial",
+      "start": "1996",
+      "end": "1998",
+      "current": false
+    },
+    {
+      "title": "VP Secondary Marketing",
+      "company": "Loan America Financial",
+      "start": "1993",
+      "end": "1995",
+      "current": false
+    },
+    {
+      "title": "Currency Trader",
+      "company": "IBJ Schroeder Bank & Trust",
+      "start": "1991",
+      "end": "1993",
+      "current": false
+    },
+    {
+      "title": "Money Market Specialist",
+      "company": "IBJ Schroder Bank & Trust",
+      "start": "1989",
+      "end": "1991",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Spring",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Science (BS), Finance, General, State University of New York Institute of Technology at Utica/Rome, 1987 to 1989",
+    "Bachelor of Science (BS), Accounting and Finance, Northeastern University, 1985 to 1987"
+  ]
+}

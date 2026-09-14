@@ -1,0 +1,69 @@
+{
+  "id": "prologis",
+  "type": "company",
+  "name": "Prologis",
+  "aliases": [
+    "ProLogis (Logistics Dev Team)",
+    "DCT Industrial (now part of the Prologis portfolio)",
+    "Duke Realty (now part of the Prologis portfolio)"
+  ],
+  "industry_role": "developer operator / real estate / industrial developer",
+  "headquarters": "San Francisco, California, United States",
+  "founded": null,
+  "website": "http://www.prologis.com",
+  "linkedin": "https://www.linkedin.com/company/prologis/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "developer_operator",
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers",
+    "Data Centre Developer",
+    "Real Estate Developers USA"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    },
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Industrial REIT / Developer",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "Medium",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "High"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nSiddhi's sheet note: Already in RE list but worth noting separately: Prologis's internal development team for large-format logistics and DC-adjacent sites in NoVA has done complex entitlement work in Loudoun and Prince William counties. Target their development division specifically.\n\nSiddhi's real-estate sheet note: Largest industrial REIT globally. Active DC campus land developer. Partners with hyperscalers. Strong land acquisition and development talent pool.\n\nMerged 2026-09-09: absorbed duplicate record 'DCT Industrial (now part of the Prologis portfolio)' (dct-industrial-now-part-of-the-prologis-portfolio).\n\nMerged 2026-09-09: absorbed duplicate record 'Duke Realty (now part of the Prologis portfolio)' (duke-realty-now-part-of-the-prologis-portfolio).",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "early_stage_mw": 3380.0
+    }
+  }
+}

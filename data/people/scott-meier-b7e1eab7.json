@@ -1,0 +1,107 @@
+{
+  "id": "scott-meier-b7e1eab7",
+  "type": "person",
+  "name": "Scott Meier",
+  "current_title": "Director, Customer Construction, NA",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/meierscott",
+  "location": "Abilene, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Customer Construction, NA at Vantage, 9/2025 to present; Principal Construction Manager, Customer Construction, NA at Vantage, 3/2025 to 9/2025; Sr. Construction Manager, Customer Construction, NA at Vantage, 4/2024 to 3/2025; VP, Tenant Fit Out @ Overwatch (SDVOSB) at OVERWATCH, 11/2022 to 4/2024; Director of Tenant Fit Out at OVERWATCH, 8/2022 to 11/2022; Manager - Data Center Solutions at Paladin Technologies, 6/2021 to 6/2022; Senior Account Manager - Mission Critical/Data Center Solutions at LINX LLLP, 3/2015 to 7/2021; Director of Sales at Axion Health, 1/2013 to 3/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 143,
+      "date_added": "2026-07-07 09:05:41 UTC",
+      "date_updated": "2026-07-07 04:05:41 -0500",
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Customer Construction, NA",
+      "company": "Vantage",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Construction Manager, Customer Construction, NA",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Construction Manager, Customer Construction, NA",
+      "company": "Vantage",
+      "start": "4/2024",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "VP, Tenant Fit Out",
+      "company": "Overwatch (SDVOSB) at OVERWATCH",
+      "start": "11/2022",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Tenant Fit Out",
+      "company": "OVERWATCH",
+      "start": "8/2022",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Manager - Data Center Solutions",
+      "company": "Paladin Technologies",
+      "start": "6/2021",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager - Mission Critical/Data Center Solutions",
+      "company": "LINX LLLP",
+      "start": "3/2015",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Axion Health",
+      "start": "1/2013",
+      "end": "3/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Abilene",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

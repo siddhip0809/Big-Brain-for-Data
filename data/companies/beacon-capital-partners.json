@@ -1,0 +1,37 @@
+{
+  "id": "beacon-capital-partners",
+  "type": "company",
+  "name": "Beacon Capital Partners",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "Boston, Massachusetts",
+  "founded": null,
+  "website": "https://www.beaconcapital.com",
+  "linkedin": "https://www.linkedin.com/company/beacon-capital-partners/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "Medium",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Real estate private equity. Office and industrial. Some DC-adjacent investments. Strong acquisitions talent.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

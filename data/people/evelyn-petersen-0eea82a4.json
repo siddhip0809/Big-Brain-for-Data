@@ -1,0 +1,134 @@
+{
+  "id": "evelyn-petersen-0eea82a4",
+  "type": "person",
+  "name": "Evelyn Petersen",
+  "current_title": "Senior Director Sales DACH",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/evelyn-petersen-ab9401191",
+  "location": "Frankfurt, Hessen",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Director Sales DACH at Digital Realty, 4/2025 to present; Director Sales Germany at Digital Realty, 9/2024 to 4/2025; Director Sales Strategic Global Accounts at Palo Alto Networks, 11/2021 to 6/2024; Global Client Director (Sr. Sales Manager) at Microsoft, 10/2019 to 11/2021; Client Executive at Cisco Systems, 12/2015 to 7/2019; Global Account Manager at Cisco Systems, 12/2008 to 11/2015; Account-Manager at Cisco Systems, 12/2006 to 11/2008; Middle Market Account Manager at Cisco Systems, 8/2004 to 11/2006; Sales Business Development Manager at Cisco Systems, 8/2002 to 7/2004; Marketing Manager at Cisco Systems, 8/1998 to 7/2002; Marketing Manager at SCO, 12/1994 to 7/1998; System Engineer at Electronic Data Systems, 8/1986 to 7/1991",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 320,
+      "date_added": "2026-08-27 13:46:36 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Sales DACH",
+      "company": "Digital Realty",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Sales Germany",
+      "company": "Digital Realty",
+      "start": "9/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Director Sales Strategic Global Accounts",
+      "company": "Palo Alto Networks",
+      "start": "11/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Global Client Director (Sr. Sales Manager)",
+      "company": "Microsoft",
+      "start": "10/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Client Executive",
+      "company": "Cisco Systems",
+      "start": "12/2015",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Cisco Systems",
+      "start": "12/2008",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Account-Manager",
+      "company": "Cisco Systems",
+      "start": "12/2006",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Middle Market Account Manager",
+      "company": "Cisco Systems",
+      "start": "8/2004",
+      "end": "11/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Business Development Manager",
+      "company": "Cisco Systems",
+      "start": "8/2002",
+      "end": "7/2004",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "Cisco Systems",
+      "start": "8/1998",
+      "end": "7/2002",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "SCO",
+      "start": "12/1994",
+      "end": "7/1998",
+      "current": false
+    },
+    {
+      "title": "System Engineer",
+      "company": "Electronic Data Systems",
+      "start": "8/1986",
+      "end": "7/1991",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Frankfurt",
+    "region": "Hesse",
+    "country": "Germany",
+    "group": "Germany"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

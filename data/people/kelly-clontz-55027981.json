@@ -1,0 +1,58 @@
+{
+  "id": "kelly-clontz-55027981",
+  "type": "person",
+  "name": "Kelly Clontz",
+  "current_title": "Estimating Director",
+  "current_company": "Archkey Solutions",
+  "linkedin": "https://www.linkedin.com/in/kelly-clontz-3b151610",
+  "location": "Baltimore, Washington, DC",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Estimating Director at Archkey Solutions, 3/2022 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "HOLD - On Hold",
+      "rank": 388,
+      "date_added": "2026-08-19 10:23:08 UTC",
+      "date_updated": "2026-08-21 07:17:31 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Director",
+      "company": "Archkey Solutions",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

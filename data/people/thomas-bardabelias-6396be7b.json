@@ -1,0 +1,150 @@
+{
+  "id": "thomas-bardabelias-6396be7b",
+  "type": "person",
+  "name": "Thomas Bardabelias",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "Holder Construction",
+  "location": "Columbus, Ohio",
+  "linkedin": "https://www.linkedin.com/in/thomas-bardabelias-64137611a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at Holder Construction, 9/2025 to present; Preconstruction Manager at Holder Construction, 5/2024 to 9/2025; Preconstruction Manager at Holder Construction, 7/2022 to 5/2024; Preconstruction Senior Engineer at Holder Construction, 6/2020 to 7/2022; Preconstruction Engineer at Holder Construction, 8/2018 to 6/2020; Office Engineer - Intern at Holder Construction, 8/2017 to 8/2018; Office Engineer - Intern at Holder Construction, 6/2016 to 8/2016; Office Engineer - Intern at Holder Construction, 5/2015 to 7/2015; Preconstruction Engineer - Intern at Holder Construction, 6/2014 to 8/2014; Office Engineer - Intern at Holder Construction, 5/2013 to 7/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 94,
+      "date_added": "2026-08-19 11:33:29 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 354,
+      "date_added": "2026-08-14 10:43:10 UTC",
+      "date_updated": "2026-08-19 06:33:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 354,
+      "date_added": "2026-08-14 10:43:10 UTC",
+      "date_updated": "2026-08-19 06:33:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "holder-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Holder Construction",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Holder Construction",
+      "start": "5/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Holder Construction",
+      "start": "7/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Senior Engineer",
+      "company": "Holder Construction",
+      "start": "6/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "8/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Office Engineer - Intern",
+      "company": "Holder Construction",
+      "start": "8/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Office Engineer - Intern",
+      "company": "Holder Construction",
+      "start": "6/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Office Engineer - Intern",
+      "company": "Holder Construction",
+      "start": "5/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer - Intern",
+      "company": "Holder Construction",
+      "start": "6/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Office Engineer - Intern",
+      "company": "Holder Construction",
+      "start": "5/2013",
+      "end": "7/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

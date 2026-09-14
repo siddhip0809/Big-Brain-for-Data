@@ -1,0 +1,39 @@
+{
+  "id": "solamerica-energy",
+  "type": "company",
+  "name": "SolAmerica Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Atlanta, Georgia",
+  "founded": null,
+  "website": "https://www.solamericaenergy.com",
+  "linkedin": "https://www.linkedin.com/company/solamerica-energy/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Solar developer. Southeast focus. Primarily community and C&I. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

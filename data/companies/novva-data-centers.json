@@ -1,0 +1,49 @@
+{
+  "id": "novva-data-centers",
+  "type": "company",
+  "name": "Novva Data Centers",
+  "aliases": [],
+  "industry_role": "data center developer / real estate development",
+  "headquarters": "West Jordan, Utah, United States",
+  "founded": null,
+  "website": "http://www.novva.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 5 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): CIM Group's equity commitment grew from $95M (2019) to $450M; founder-led (Wes Swenson, Cory Roberts) alongside CIM.",
+  "sources": [
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/novva-data-centers/",
+  "headcount": "11 to 50",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 316.6,
+      "early_stage_mw": 276.4
+    }
+  }
+}

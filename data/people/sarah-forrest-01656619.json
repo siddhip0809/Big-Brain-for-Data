@@ -1,0 +1,126 @@
+{
+  "id": "sarah-forrest-01656619",
+  "type": "person",
+  "name": "Sarah Forrest",
+  "current_title": "Mission Critical Chief Estimator",
+  "current_company": "Hensel Phelps",
+  "location": "Greeley, Colorado",
+  "linkedin": "https://www.linkedin.com/in/sarah-forrest-1459655",
+  "seniority": null,
+  "industry_segment": "Data Centre;Mission Critical",
+  "career_history": "Mission Critical Chief Estimator at Hensel Phelps, 1/2022 to present; Chief Estimator at Hensel Phelps, 12/2011 to present; Senior Estimator at Hensel Phelps, 8/2005 to 12/2011; Lead Estimator at Hensel Phelps, 8/2002 to 8/2005; Project Engineer at Hensel Phelps, 1/2000 to 8/2002; Field/Office Engineer at Hensel Phelps, 12/1996 to 1/2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 21,
+      "date_added": "2026-08-14 14:50:29 UTC",
+      "date_updated": "2026-08-19 08:08:11 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 105,
+      "date_added": "2026-08-07 08:25:02 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 105,
+      "date_added": "2026-08-07 08:25:02 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Mission Critical Chief Estimator",
+      "company": "Hensel Phelps",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Hensel Phelps",
+      "start": "12/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "8/2005",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "8/2002",
+      "end": "8/2005",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "1/2000",
+      "end": "8/2002",
+      "current": false
+    },
+    {
+      "title": "Field/Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "12/1996",
+      "end": "1/2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Greeley",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, Construction Science and Management, Kansas State University, 1992 to 1997"
+  ],
+  "biography": "Chief Estimator at Hensel Phelps",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

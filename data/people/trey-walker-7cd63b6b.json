@@ -1,0 +1,113 @@
+{
+  "id": "trey-walker-7cd63b6b",
+  "type": "person",
+  "name": "Trey Walker",
+  "current_title": "Associate Director | Mission Critical Electrical Estimating",
+  "current_company": "Accenture",
+  "location": "Chickasha, Oklahoma",
+  "linkedin": "https://www.linkedin.com/in/trey-walker-787063a5",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director | Mission Critical Electrical Estimating at Accenture, 6/2026 to present; Lead Electrical Estimator at Accenture, 8/2024 to 7/2026; Cost Manager at Currie & Brown ·, 2/2023 to 8/2024; Sr Electrical Consultant at Turner & Townsend, 2/2022 to 2/2023; Sr Estimator at Interstates, 9/2019 to 2/2022; Estimator at Expanse Electrical, 1/2019 to 9/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 149,
+      "date_added": "2026-08-19 13:05:38 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 351,
+      "date_added": "2026-08-14 10:00:37 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Associate Director"
+    },
+    {
+      "title": "Mission Critical Electrical Estimating",
+      "company": "Accenture",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Electrical Estimator",
+      "company": "Accenture",
+      "start": "8/2024",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Currie & Brown ·",
+      "start": "2/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Sr Electrical Consultant",
+      "company": "Turner & Townsend",
+      "start": "2/2022",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Sr Estimator",
+      "company": "Interstates",
+      "start": "9/2019",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Expanse Electrical",
+      "start": "1/2019",
+      "end": "9/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Chickasha",
+    "region": "Oklahoma",
+    "country": "United States",
+    "group": "Oklahoma"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

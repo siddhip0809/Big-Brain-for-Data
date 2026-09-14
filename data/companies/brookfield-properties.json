@@ -1,0 +1,37 @@
+{
+  "id": "brookfield-properties",
+  "type": "company",
+  "name": "Brookfield Properties",
+  "aliases": [],
+  "industry_role": "real estate developer",
+  "headquarters": "New York, New York",
+  "founded": null,
+  "website": "https://www.brookfieldproperties.com",
+  "linkedin": "https://www.linkedin.com/company/brookfield-properties/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "High",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Global real estate developer and manager. Backed by Brookfield Asset Management. Active in DC infrastructure and campus development globally. Strong acquisition and development talent pool.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

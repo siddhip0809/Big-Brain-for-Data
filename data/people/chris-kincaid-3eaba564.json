@@ -1,0 +1,129 @@
+{
+  "id": "chris-kincaid-3eaba564",
+  "type": "person",
+  "name": "Chris Kincaid",
+  "current_title": "Senior Vice President, Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/chris-kincaid-9824959",
+  "location": "Dallas, Texas",
+  "seniority": "Senior Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Vice President, Development at QTS Data Centers, 1/2024 to present; Vice President, Development at QTS Data Centers, 7/2022 to 1/2024; Senior Vice President of Development at Stream Data Centers, 7/2021 to 7/2022; Senior Vice President of Design and Construction at Stream Data Centers, 1/2017 to 7/2022; Vice President of Design and Construction at Stream Data Centers, 4/2012 to 1/2017; Project Manager/Senior Project Manager - Design/Build at Lee Technologies, 2007 to 2012; Customer Engineer at Emerson Network Power, 2004 to 2007; F-15 Avionics Technician at USAF, 1996 to 2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 23,
+      "date_added": "2025-11-06 09:35:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 159,
+      "date_added": "2026-07-07 10:48:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "Senior Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "7/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President of Development",
+      "company": "Stream Data Centers",
+      "start": "7/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President of Design and Construction",
+      "company": "Stream Data Centers",
+      "start": "1/2017",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Vice President of Design and Construction",
+      "company": "Stream Data Centers",
+      "start": "4/2012",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Senior Project Manager - Design/Build",
+      "company": "Lee Technologies",
+      "start": "2007",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Customer Engineer",
+      "company": "Emerson Network Power",
+      "start": "2004",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "F-15 Avionics Technician",
+      "company": "USAF",
+      "start": "1996",
+      "end": "2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "B.S., Technical Management, Embry-Riddle Aeronautical University"
+  ],
+  "biography": "Senior Vice President of Development at QTS",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

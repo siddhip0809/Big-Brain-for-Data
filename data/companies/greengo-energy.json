@@ -1,0 +1,39 @@
+{
+  "id": "greengo-energy",
+  "type": "company",
+  "name": "GreenGo Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Copenhagen",
+  "founded": null,
+  "website": "https://www.greengo.energy",
+  "linkedin": "https://www.linkedin.com/company/greengo-energy/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: European solar and storage developer with growing US presence. Operates across ERCOT, MISO, SPP.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

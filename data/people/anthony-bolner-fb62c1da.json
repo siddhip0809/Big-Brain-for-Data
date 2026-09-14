@@ -1,0 +1,89 @@
+{
+  "id": "anthony-bolner-fb62c1da",
+  "type": "person",
+  "name": "Anthony Bolner",
+  "current_title": "Executive Vice President & Partner",
+  "current_company": "Stream Data Centers",
+  "linkedin": "https://www.linkedin.com/in/anthony-bolner-stream",
+  "location": "Dallas, Texas, United States",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Executive Vice President & Partner at Stream Data Centers, 8/2012 to present; Senior Vice President at Stream Data Centers, 7/2007 to 8/2012; Senior Vice President - Data Center Solutions Group at CBRE, 1988 to 2007; CBRE, 1988 to 2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 130,
+      "date_added": "2025-12-15 15:31:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "stream-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President & Partner",
+      "company": "Stream Data Centers",
+      "start": "8/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Stream Data Centers",
+      "start": "7/2007",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President - Data Center Solutions Group",
+      "company": "CBRE",
+      "start": "1988",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "company": "CBRE",
+      "start": "1988",
+      "end": "2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Texas A&M University, 1983 to 1987"
+  ],
+  "biography": "Anthony Bolner is a long-standing veteran of the data center industry. As a key leader and member of Stream's sales and leasing organization, Anthony is actively involved in site selection, broker relationships and key account management, among other aspects of technical real estate engagements. He is perennially focused on emerging data center developments and business development across multiple markets. \r\n\r\nEarly in his career, Bolner was a founding member of the Data Center Solutions Group at CBRE where he specialized in delivering data center services to owners and users of technical real estate. He has served as a guest speaker and panelist for a number of professional data center organizations and publishers across the country, including Tier 1 Research, Data Center Dynamics, and multiple AFCOM market events.\r\n\r\nStream Data Centers has provided premium data center services since 1999, with 90% of its inventory leased to Fortune 100 customers. To date, the company has acquired, developed and managed 24 data center developments nationally, while leadership has remained consistent. Stream develops wholesale colocation capacity and build-to-suit solutions for hyperscale and enterprise users. Additionally, Stream sources and develops low-risk land sites for optimum data center development and provides energy procurement services with a focus on reducing market risk and providing low-cost renewable energy options. \r\n\r\nStream Data Centers is the technical real estate subsidiary of Stream Realty Partners, a full service commercial real estate investment, development and services company. With $5.8 billion in annual transactions and over 270 million square feet of leased or managed commercial space in active markets coast to coast, Stream Realty Partners is one of the most successful commercial real estate firms in the country.\r\n \r\nSpecialties: \r\nData Center Development\r\nHyperscale Data Center Solutions\r\nData Center Services\r\nEnterprise User Solutions\r\nSingle-tenant Data Centers\r\nWholesale Colocation Data Center Space\r\nBuild-to-Suit Data Centers\r\nMission Critical Engineering Services",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

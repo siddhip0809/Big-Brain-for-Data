@@ -1,0 +1,38 @@
+{
+  "id": "arup",
+  "type": "company",
+  "name": "Arup",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "London",
+  "founded": null,
+  "website": "https://www.arup.com",
+  "linkedin": "https://www.linkedin.com/company/arup/",
+  "headcount": "10,001+",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Global design consultancy. Active in DC structural and MEP design.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "trudy-shepard-b8eeba37",
+  "type": "person",
+  "name": "Trudy Shepard",
+  "current_title": "Client Executive",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/trudyshepard",
+  "location": "Novato, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Account Executive at Equinix, 6/2011 to 4/2015; Client Executive at Equinix, 6/2011 to present; National Account Manager at Equinix, 1/2011 to 12/2011; Regional Sales Manager at Sungard Now Part Of Fis, 2/2006 to 5/2010; Solution Sales Specialist, USA/London (Collateral Management) at Algorithmics, 9/2000 to 9/2004; Head of Sales & Marketing EMEA at Sentry Financial Systems, 11/1999 to 9/2000; Account Management Executive at Synamic, 1/1997 to 11/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 268,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Executive",
+      "company": "Equinix",
+      "start": "6/2011",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Client Executive",
+      "company": "Equinix",
+      "start": "6/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Equinix",
+      "start": "1/2011",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Sungard Now Part Of Fis",
+      "start": "2/2006",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Solution Sales Specialist, USA/London (Collateral Management)",
+      "company": "Algorithmics",
+      "start": "9/2000",
+      "end": "9/2004",
+      "current": false
+    },
+    {
+      "title": "Head of Sales & Marketing EMEA",
+      "company": "Sentry Financial Systems",
+      "start": "11/1999",
+      "end": "9/2000",
+      "current": false
+    },
+    {
+      "title": "Account Management Executive",
+      "company": "Synamic",
+      "start": "1/1997",
+      "end": "11/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Novato",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "biography": "Client Executive with proven global strategic sales experience selling in the cloud/SaaS/ PaaS space. Successful track record for driving sales of colocation services and software to meet the strategic needs of mid/large cap corporations. Recognized for developing strategic C-level relationships, creating and executing account plans, gaining commitments and closing deals, building revenues and market share, and providing superior client service. Exceptional communicator with demonstrated ability for driving internal cross-functional teams to execute on account strategies. Repeatedly recognized for exceeding quotas and top performance.",
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

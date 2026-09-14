@@ -1,0 +1,118 @@
+{
+  "id": "sam-fowler-6e86fca1",
+  "type": "person",
+  "name": "Sam Fowler",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/sam-fowler-mrics-86240445",
+  "location": "Los Angeles, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 1/2026 to present; Senior Consultant at Turner & Townsend, 11/2020 to 5/2025; Cost Consultant at Turner & Townsend, 8/2018 to 11/2020; Cost Manager at Turner & Townsend, 4/2015 to 7/2018; Assistant Quantity Surveyor at Mott MacDonald, 1/2014 to 3/2015; Assistant Quantity Surveyor at Mott MacDonald, 7/2013 to 12/2013; Graduate Quantity Surveyor at Mott MacDonald, 9/2012 to 7/2013; Graduate Quantity Surveyor at EnterpriseMouchel, 6/2012 to 8/2012; Industrial Trainee at Morgan Sindall, 7/2010 to 7/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 481,
+      "date_added": "2026-08-24 15:18:25 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "11/2020",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "8/2018",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "4/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "Mott MacDonald",
+      "start": "1/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "Mott MacDonald",
+      "start": "7/2013",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Graduate Quantity Surveyor",
+      "company": "Mott MacDonald",
+      "start": "9/2012",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Graduate Quantity Surveyor",
+      "company": "EnterpriseMouchel",
+      "start": "6/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Industrial Trainee",
+      "company": "Morgan Sindall",
+      "start": "7/2010",
+      "end": "7/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor of Science (BSc), Quantity Surveying and Commercial Management, University of the West of England, 2008 to 2012"
+  ],
+  "biography": "Highly motivated Quantity Surveyor and Commercial Management professional with extensive experience spanning data centers, commercial core & shell, fit-out, retail, residential, and large-scale infrastructure master planning. Proven expertise in cost estimating, procurement, contract management, and end-to-end project delivery from inception through final account. Brings 5 years of UK experience and 8 years in the U.S., including partnerships with leading high-tech firms in the Bay Area. Recognized for a consistent record of successful project outcomes, strong interpersonal and analytical skills, and a drive for continuous growth and improvement.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

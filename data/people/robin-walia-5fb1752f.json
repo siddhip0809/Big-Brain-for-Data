@@ -1,0 +1,121 @@
+{
+  "id": "robin-walia-5fb1752f",
+  "type": "person",
+  "name": "Robin Walia",
+  "current_title": "Strategic Construction Estimator",
+  "current_company": "Microsoft",
+  "location": "Phoenix, Arizona",
+  "linkedin": "https://www.linkedin.com/in/a187z",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Construction Estimator at Microsoft, 4/2025 to present; Senior Cost Manager   Google Data Centers at Linesight, 4/2022 to 4/2025; Cost Manager at Rider Levett Bucknall, 1/2020 to 2/2022; Cost Analyst at Rider Levett Bucknall, 2/2016 to 12/2019; Construction Estimator at Ajax Building, 7/2014 to 1/2016; Construction Field Engineer at CB&I, 2/2014 to 7/2014; Civil Engineer at Municipal Corporation Of Delhi, 8/2010 to 1/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 223,
+      "date_added": "2026-08-26 13:06:57 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 225,
+      "date_added": "2026-08-11 16:59:49 UTC",
+      "date_updated": "2026-08-26 08:06:57 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Construction Estimator",
+      "company": "Microsoft",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager   Google Data Centers",
+      "company": "Linesight",
+      "start": "4/2022",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Rider Levett Bucknall",
+      "start": "1/2020",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Analyst",
+      "company": "Rider Levett Bucknall",
+      "start": "2/2016",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "Ajax Building",
+      "start": "7/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Construction Field Engineer",
+      "company": "CB&I",
+      "start": "2/2014",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "Municipal Corporation Of Delhi",
+      "start": "8/2010",
+      "end": "1/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Master Of Science, Masters, Civil Engineering, Construction Management, University Of Florida, 2011 to 2013",
+    "Bachelor Of Science, Bachelors, Civil Engineering, University of Mumbai, 2006 to 2010"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

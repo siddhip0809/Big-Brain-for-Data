@@ -1,0 +1,31 @@
+{
+  "id": "bb62aaed-2c70-4391-9a9e-6827752436b8",
+  "type": "search",
+  "name": "Industrial Development Spec’ing",
+  "client_company": "Ensar",
+  "client_company_id": null,
+  "status": "pitch",
+  "project_type": "Internal",
+  "started_at": "2025-11-24",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 56,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

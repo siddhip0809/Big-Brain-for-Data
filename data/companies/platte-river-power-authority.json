@@ -1,0 +1,39 @@
+{
+  "id": "platte-river-power-authority",
+  "type": "company",
+  "name": "Platte River Power Authority",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Fort Collins, Colorado",
+  "founded": null,
+  "website": "https://www.prpa.org",
+  "linkedin": "https://www.linkedin.com/company/platte-river-power-authority/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Utility",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Mixed / Vertically Integrated",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Municipal power authority. Northern Colorado. Generation and transmission. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

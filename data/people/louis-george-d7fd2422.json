@@ -1,0 +1,115 @@
+{
+  "id": "louis-george-d7fd2422",
+  "type": "person",
+  "name": "Louis George",
+  "current_title": "Director of Account Management",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/louis-george-25ba2710",
+  "location": "Suwanee, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Account Management at QTS Data Centers, 3/2022 to present; Senior Sales Executive at QTS Data Centers, 1/2019 to 3/2022; Cloud Business Manager at QTS Data Centers, 1/2013 to 1/2019; Sales Engineer at QTS Data Centers, 8/2005 to 1/2013; Sales Engineer at Edeltacom, 1/2000 to 12/2005; System Engineer at Bay Data Consultants, 1/1998 to 12/2000; System Admin at Amtech, 1/1997 to 12/1999; Yoeman (E-5) at US Navy, 4/1992 to 4/1996",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 56,
+      "date_added": "2025-11-07 13:07:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Account Management",
+      "company": "QTS Data Centers",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales Executive",
+      "company": "QTS Data Centers",
+      "start": "1/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Cloud Business Manager",
+      "company": "QTS Data Centers",
+      "start": "1/2013",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "QTS Data Centers",
+      "start": "8/2005",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Edeltacom",
+      "start": "1/2000",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "System Engineer",
+      "company": "Bay Data Consultants",
+      "start": "1/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "System Admin",
+      "company": "Amtech",
+      "start": "1/1997",
+      "end": "12/1999",
+      "current": false
+    },
+    {
+      "title": "Yoeman (E-5)",
+      "company": "US Navy",
+      "start": "4/1992",
+      "end": "4/1996",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Suwanee",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "biography": "I'm passionate about solving business problems with technology!",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

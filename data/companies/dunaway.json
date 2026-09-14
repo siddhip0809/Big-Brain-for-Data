@@ -1,0 +1,38 @@
+{
+  "id": "dunaway",
+  "type": "company",
+  "name": "Dunaway",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Fort Worth, Texas",
+  "founded": null,
+  "website": "https://dunaway.com",
+  "linkedin": "https://www.linkedin.com/company/dunaway-associates/",
+  "headcount": "201 to 500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Medium",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Low"
+    }
+  },
+  "dc_exposure_level": "Low",
+  "notes": "Siddhi's sheet note: Civil mix. Texas. Some DC campus civil exposure.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

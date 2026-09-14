@@ -1,0 +1,110 @@
+{
+  "id": "kevin-porter-4777cb42",
+  "type": "person",
+  "name": "Kevin Porter",
+  "current_title": "Development Manager",
+  "current_company": "Greenlight Data Centers",
+  "linkedin": "https://www.linkedin.com/in/kevin-porter-473a638",
+  "location": "Wausau, Winconsin",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Development Manager at Greenlight Data Centers, 6/2025 to present; Independent Contractor at Digital Power Optimization, 7/2023 to 8/2025; Private Trust Officer at WoodTrust Bank, 11/2021 to 4/2022; Assistant Vice President - Loan Officer at Intercity State Bank, 9/2018 to 11/2021; Mortgage Specialist at US Lending, 7/2015 to 8/2018; Personal Banker at Associated Bank, 10/2012 to 8/2014; Financial Representative at Northwestern Mutual, 1/2007 to 11/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 467,
+      "date_added": "2026-05-15 12:10:47 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "greenlight-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Development Manager",
+      "company": "Greenlight Data Centers",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Independent Contractor",
+      "company": "Digital Power Optimization",
+      "start": "7/2023",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Private Trust Officer",
+      "company": "WoodTrust Bank",
+      "start": "11/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice President - Loan Officer",
+      "company": "Intercity State Bank",
+      "start": "9/2018",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Mortgage Specialist",
+      "company": "US Lending",
+      "start": "7/2015",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Personal Banker",
+      "company": "Associated Bank",
+      "start": "10/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Financial Representative",
+      "company": "Northwestern Mutual",
+      "start": "1/2007",
+      "end": "11/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Wausau",
+    "region": "Wisconsin",
+    "country": "United States",
+    "group": "Wisconsin"
+  },
+  "education": [
+    "Business Administration and Management General, University of Wisconsin-Platteville, 2003 to 2007"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

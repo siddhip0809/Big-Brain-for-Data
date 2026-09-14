@@ -1,0 +1,65 @@
+{
+  "id": "philip-kim-b3c55e15",
+  "type": "person",
+  "name": "Philip Kim",
+  "current_title": "Director, Construction",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/philip-kim-1217a986",
+  "location": "Baltimore, Washington DC",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Construction at STACK Infrastructure, 2/2024 to present; Senior Project Manager at STACK Infrastructure, 2/2023 to 2/2024",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 211,
+      "date_added": "2026-07-08 08:59:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction",
+      "company": "STACK Infrastructure",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "STACK Infrastructure",
+      "start": "2/2023",
+      "end": "2/2024",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}
