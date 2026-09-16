@@ -122,6 +122,12 @@ One file, ~2,000 lines, Three.js r128 from jsdelivr. No bundler.
   switch (show / set apart / hide, default hide), and a per-type on/off for
   every line plus all-on/all-off. A line switched off stops counting toward
   "connected", so it changes the unconnected count and focus rings too.
+  **Bind listeners once, outside any render function.** `renderEdgeLegend()` is
+  re-run on every theme and flow-mode change; a listener bound inside it stacked
+  one handler per call, so a line toggle fired several times and cancelled itself
+  (found 2026-09-16). `clearScene()` must dispose node materials, or every filter
+  change leaks a full set to the GPU. `pw_test_toggle_stack.py` in the scratchpad
+  guards both: every toggle flips exactly once after the legend has re-rendered.
 - **Talent flow colouring**: `flowMode` ('tier' | 'dept') and `flowDept` (''
   or a department). In dept mode `linkGroup` keys talent-flow lines by
   department and `lineMaterial` colours them from `DEPT_SLOTS` (8 validated

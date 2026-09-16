@@ -106,7 +106,7 @@ for path in company_files:
         "headcount": d.get("headcount"), "description": d.get("description"),
         "tags": d.get("tags", []), "aliases": d.get("aliases", []),
         "hyperscale_focus": d.get("hyperscale_focus"), "capacity_mw": d.get("capacity_mw"),
-        "dc_exposure_level": d.get("dc_exposure_level"), "source_lists": d.get("source_lists", []),
+        "dc_exposure_level": d.get("dc_exposure_level"),
         "list_attributes": d.get("list_attributes", {}),
         "notes": d.get("notes"), "sources": d.get("sources", []),
     })
@@ -127,9 +127,9 @@ for path in investor_files:
     # names are both a company and a strategic investor (Google, NVIDIA,
     # Galaxy Digital, Actis, GI Partners, Generate Capital)
     nodes.append({
-        "id": f"investor:{d['id']}", "record_id": d["id"], "name": d["name"], "kind": "investor", "category": "investor",
+        "id": f"investor:{d['id']}", "name": d["name"], "kind": "investor", "category": "investor",
         "roles": ["investor"], "investor_type": d.get("investor_type"), "hq": d.get("hq"),
-        "aum": d.get("aum"), "investments": valid, "notable_deals": d.get("notable_deals"),
+        "aum": d.get("aum"), "notable_deals": d.get("notable_deals"),
         "notes": d.get("notes"), "sources": d.get("sources", []),
     })
     for cid in valid:
@@ -217,7 +217,7 @@ for (a, b), names in flow_pairs.items():
     style = "solid" if m["from_tier"] == m["to_tier"] else ("dashed" if m["flow_class"] in ("core → core", "adjacent → adjacent") else "dotted")
     fc = flow_fns[(a, b)]
     links.append({"source": a, "target": b, "type": "talent_flow", "style": style, "count": len(names),
-                  "flow_class": m["flow_class"], "from_tier": m["from_label"], "to_tier": m["to_label"],
+                  "flow_class": m["flow_class"],
                   # departments the movers work in now -- the page colours the line by the
                   # biggest one and can filter to a single department
                   "fn_counts": dict(fc.most_common()), "top_fn": fc.most_common(1)[0][0],
@@ -228,7 +228,6 @@ for cid, ppl in people.items():
     for p in ppl:
         m = move_by_person.get(p["id"])
         p["prev"] = m["from_name"] if m else None
-        p["prev_tracked"] = bool(m and m["from_id"])
         p["recent"] = p["id"] in recent_ids
         p["prev_tier"] = m["from_label"] if m else None
         p["flow_class"] = m["flow_class"] if m else None
@@ -345,7 +344,7 @@ out = {
                              for pid, m in PARENT_INDUSTRY_META.items()],
     "nodes": nodes, "links": links, "people": people, "functions": FUNCTIONS,
     "searches": searches, "org_tree": org_tree,
-    "talent_moves": [{k: m[k] for k in ("person", "to_id", "to_name", "to_label", "from_name", "from_id", "from_label", "flow_class", "function", "title", "start")} for m in moves],
+    "talent_moves": [{k: m[k] for k in ("person", "to_id", "to_name", "to_label", "from_name", "from_label", "flow_class", "function", "title", "start")} for m in moves],
     "stats": {"people": people_count, "companies_with_people": len(people),
               "moves": len(moves), "flow_pairs": len(flow_pairs), "recent_joiners": len(recent),
               "companies": len(company_files), "dc_companies": dc_companies,

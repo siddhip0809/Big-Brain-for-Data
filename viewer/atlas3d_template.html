@@ -996,18 +996,18 @@
       `<button class="mini-toggle${lineOn[t] ? ' on' : ''}" data-line="${t}">${lineOn[t] ? 'on' : 'off'}</button>` +
     `</div>`).join('') +
     `<div class="edge-type" style="justify-content:flex-end"><button class="mini-toggle" id="linesAll">all on</button><button class="mini-toggle" id="linesNone">all off</button></div>`;
-  function syncLineToggles(){
-    document.querySelectorAll('.mini-toggle[data-line]').forEach(b => { const on = lineOn[b.dataset.line]; b.textContent = on ? 'on' : 'off'; b.classList.toggle('on', on); });
   }
+  renderEdgeLegend();
+  // one listener, bound once: renderEdgeLegend() is called again on every theme or
+  // flow-mode change, so binding inside it stacked a handler per call and each click
+  // then toggled the line several times over
   document.getElementById('edgeLegend').addEventListener('click', (e) => {
     const b = e.target.closest('.mini-toggle'); if(!b) return;
     if(b.id === 'linesAll') Object.keys(lineOn).forEach(t => { lineOn[t] = true; });
     else if(b.id === 'linesNone') Object.keys(lineOn).forEach(t => { lineOn[t] = false; });
     else lineOn[b.dataset.line] = !lineOn[b.dataset.line];
-    syncLineToggles(); applyFilters();
+    renderEdgeLegend(); applyFilters();
   });
-  }
-  renderEdgeLegend();
 
   // department colouring: switching it on also switches the lines on -- nobody picks
   // "by department" to look at nothing. Both selects (sidebar and matrix) share one state.
@@ -1214,8 +1214,10 @@
 
   function clearScene(){
     hoverNode = null; hoverSet.clear(); if(hoverLines){ disposeGroup(hoverLines); hoverLines = null; }
-    nodeMeshes.forEach(m => scene.remove(m));
-    Object.values(glowByNodeId).forEach(g => scene.remove(g));
+    // every node owns its material (opacity is animated per node), so free them here or
+    // each filter change leaks a full set to the GPU and the page slows with every click
+    nodeMeshes.forEach(m => { scene.remove(m); m.material.dispose(); });
+    Object.values(glowByNodeId).forEach(g => { scene.remove(g); g.material.dispose(); });
     disposeGroup(linesObj); linesObj = null;
     disposeFocusLines();
     nodeMeshes = []; meshByNodeId = {}; glowByNodeId = {};
