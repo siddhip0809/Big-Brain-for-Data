@@ -3,7 +3,7 @@
   "type": "company",
   "name": "Hill International",
   "aliases": [],
-  "industry_role": "general contractor",
+  "industry_role": "project-management & construction-claims consultancy",
   "headquarters": null,
   "founded": null,
   "website": null,
@@ -15,16 +15,17 @@
   "tags": [],
   "parent_industry": "construction_engineering",
   "roles": [
-    "general_contractor"
+    "consultancy"
   ],
   "source_lists": [
     "General Contractors USA"
   ],
   "list_attributes": {},
   "dc_exposure_level": null,
-  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched. Re-filed 2026-09-16 from general_contractor to the new consultancy tier: it advises on cost, programme and project management rather than building. Roles before: ['general_contractor']. It came in on Siddhi's General Contractors USA list, so the list name is kept in source_lists. Data-centre evidence: PM partner to Digital Realty and Data4 in Greece (2026-09-16).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.hillintl.com/press-release/hill-international-to-support-construction-of-two-new-data-center-projects-in-greece/"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }

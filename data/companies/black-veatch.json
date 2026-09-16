@@ -16,7 +16,8 @@
   "parent_industry": "construction_engineering",
   "roles": [
     "civil_land_engineering",
-    "general_contractor"
+    "general_contractor",
+    "consultancy"
   ],
   "source_lists": [
     "Civil Land Developers",
@@ -32,9 +33,10 @@
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet note: Energy infra specialist. Parent company to Diode Ventures (DC developer).",
+  "notes": "Siddhi's sheet note: Energy infra specialist. Parent company to Diode Ventures (DC developer). Role consultancy added 2026-09-16: Data centers practice page; 'Powering hyperscale data centers' project page (two 300MW substations, first due Sep 2025); Experts on Demand data center advisory (2021)..",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.bv.com/en-US/who-we-serve/technology-and-data-centers/data-centers"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }

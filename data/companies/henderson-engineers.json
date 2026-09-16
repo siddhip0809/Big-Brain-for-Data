@@ -2,7 +2,10 @@
   "id": "henderson-engineers",
   "type": "company",
   "name": "Henderson Engineers",
-  "aliases": [],
+  "aliases": [
+    "Henderson Companies",
+    "Henderson Building Solutions"
+  ],
   "industry_role": "civil land engineering",
   "headquarters": "Lenexa, Kansas",
   "founded": null,
@@ -15,7 +18,8 @@
   "tags": [],
   "parent_industry": "construction_engineering",
   "roles": [
-    "civil_land_engineering"
+    "civil_land_engineering",
+    "consultancy"
   ],
   "source_lists": [
     "Civil Land Developers"
@@ -30,9 +34,10 @@
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet note: MEP + civil. Known DC campus MEP and site work.",
+  "notes": "Siddhi's sheet note: MEP + civil. Known DC campus MEP and site work. Role consultancy added 2026-09-16: Mission Critical business sector; sister CM firm Henderson Building Solutions has a mission critical practice and is hiring a Director of Mission Critical Data Center Commissioning (Chantilly, VA).. Henderson Building Solutions is the sister construction-management firm (2026-09-16).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.hendersonengineers.com/expertise/business-sector/mission-critical/"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }

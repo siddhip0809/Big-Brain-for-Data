@@ -1,0 +1,25 @@
+{
+  "id": "kua-group",
+  "type": "company",
+  "name": "KUA Group",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — design / MEP engineering",
+  "headquarters": "Frankfurt, Germany",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "Frankfurt-based data-center architecture/design/general-planning specialist acquired by Arcadis in 2025; won four DC projects with Arcadis post-deal.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Frankfurt-based data-center architecture/design/general-planning specialist acquired by Arcadis in 2025; won four DC projects with Arcadis post-deal. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.arcadis.com/en/news/global/2025/arcadis-completes-acquisition-of-kua-group/"
+  ],
+  "last_updated": "2026-09-16"
+}

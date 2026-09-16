@@ -1,0 +1,28 @@
+{
+  "id": "ulteig",
+  "type": "company",
+  "name": "Ulteig",
+  "aliases": [
+    "Affinity Energy"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — power & grid advisory, design / MEP engineering",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://ulteig.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data Center Solutions and Mission Critical pages; acquired Affinity Energy (2024) adding large US data-center project experience.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data Center Solutions and Mission Critical pages; acquired Affinity Energy (2024) adding large US data-center project experience. Added 2026-09-16 from open-source research (import_researched_companies.py). Acquired Affinity Energy in 2024, adding US data-center project experience (2026-09-16).",
+  "sources": [
+    "https://ulteig.com/data-centers/",
+    "https://ulteig.com"
+  ],
+  "last_updated": "2026-09-16"
+}

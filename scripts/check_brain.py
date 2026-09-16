@@ -21,14 +21,15 @@ REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 D = lambda *p: os.path.join(REPO, "data", *p)
 
 ROLES = {"hyperscaler", "neocloud", "cryptomining", "developer_operator",
-         "energy_developer", "general_contractor", "civil_land_engineering", "real_estate_developer"}
+         "energy_developer", "general_contractor", "civil_land_engineering", "real_estate_developer",
+         "consultancy"}
 FUNCTIONS = {"Executive leadership", "Development & Real Estate", "Sales & Leasing",
              "Pre-Construction & Cost", "Construction & Delivery", "Energy & Utilities",
              "Design & Engineering", "Strategy, Finance & Investment", "Operations & Facilities",
              "Procurement & Supply Chain", "Legal, People & Support", "Miscellaneous"}
 STATUSES = {"active", "on_hold", "pitch", "closed"}
 CLOSING = {"Placement", "Cancelled", "Terminated", "Internal Hire", None}
-DEAL = {"invested_in", "acquired", "tenant_of", "jv_partner", "contractor_for", "supplies_power_to", "site_partner"}
+DEAL = {"invested_in", "acquired", "tenant_of", "jv_partner", "contractor_for", "supplies_power_to", "site_partner", "consulted_for"}
 EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+")
 # a phone: 9+ digits with separators, not preceded by a URL character. Dates and
 # UUIDs are excluded by the separator classes.

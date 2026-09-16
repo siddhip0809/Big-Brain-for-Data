@@ -1,0 +1,27 @@
+{
+  "id": "savills",
+  "type": "company",
+  "name": "Savills",
+  "aliases": [],
+  "roles": [
+    "consultancy",
+    "real_estate_developer"
+  ],
+  "parent_industry": "real_estate",
+  "industry_role": "consultancy — strategy & advisory, transactions, programme & project management",
+  "headquarters": "London, United Kingdom",
+  "founded": null,
+  "website": "https://www.savills.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "EMEA data centre advisory team launched 2021; Building & Project Consultancy (BPC) London PM team added data centre specialists in 2025.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. EMEA data centre advisory team launched 2021; Building & Project Consultancy (BPC) London PM team added data centre specialists in 2025. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.savills.com/insight-and-opinion/savills-news/321026/savills-appoints-scott-newcombe-as-head-of-new-emea-data-centre-advisory-team",
+    "https://www.savills.com"
+  ],
+  "last_updated": "2026-09-16"
+}

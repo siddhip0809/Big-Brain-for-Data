@@ -15,16 +15,18 @@
   "tags": [],
   "parent_industry": "construction_engineering",
   "roles": [
-    "general_contractor"
+    "general_contractor",
+    "consultancy"
   ],
   "source_lists": [
     "General Contractors USA"
   ],
   "list_attributes": {},
   "dc_exposure_level": null,
-  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched. Role consultancy added 2026-09-16: Data center commissioning, operational risk management and QA/QC firm founded 2005; acquired by Bureau Veritas Nov 2017 and renamed BVPI March 2020..",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.prnewswire.com/news-releases/bureau-veritas-announces-corporate-name-change-of-its-data-center-commissioning-services-business-to-bureau-veritas-primary-integration-inc-301018519.html"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }

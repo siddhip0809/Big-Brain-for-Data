@@ -3,7 +3,9 @@
   "type": "company",
   "name": "AECOM",
   "aliases": [
-    "AECOM (Mission Critical / Advanced Mfg)"
+    "AECOM (Mission Critical / Advanced Mfg)",
+    "AECOM Tishman",
+    "Tishman Construction"
   ],
   "industry_role": "civil land engineering / real estate / industrial developer / general contractor",
   "headquarters": "Dallas, Texas",
@@ -19,7 +21,8 @@
   "roles": [
     "civil_land_engineering",
     "general_contractor",
-    "real_estate_developer"
+    "real_estate_developer",
+    "consultancy"
   ],
   "source_lists": [
     "Civil Land Developers",
@@ -45,9 +48,11 @@
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet note: st\n\nSiddhi's sheet note: Already in civil list. AECOM's mission-critical and advanced manufacturing practice has done permitting for semiconductor fabs and DC campuses. Target their MC and industrial development divisions specifically.",
+  "notes": "Siddhi's sheet note: st\n\nSiddhi's sheet note: Already in civil list. AECOM's mission-critical and advanced manufacturing practice has done permitting for semiconductor fabs and DC campuses. Target their MC and industrial development divisions specifically. Role consultancy added 2026-09-16: Construction manager for critical infrastructure and interiors of the Sentinel Data Centers / Russo Development facility in Orangetown, NY; no named DC lead found.. Tishman Construction is AECOM's construction-management arm (Sentinel Data Centers, Orangetown NY) (2026-09-16). Data Centers & Digital Infrastructure market page (aecom.com/markets/industrial/high-tech/); selected Dec 2025 to lead design and construction management of Nostrum Evergreen 500MW campus, Badajoz, Spain; Feb 2026 UK sovereign data centre framework paper. (2026-09-16).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://aecom.com/press-releases/aecom-announced-today-that-its-tishman-construction-operation-is-serving-as-construction-manager-of-critical-infrastructure-and-interiors-for-sentinel-data-centers-and-russo-developments-new/",
+    "https://aecom.com/press-releases/aecom-appointed-to-deliver-nostrum-groups-data-centre-in-southwest-spain/"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }

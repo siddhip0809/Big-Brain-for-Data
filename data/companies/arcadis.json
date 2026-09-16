@@ -15,7 +15,8 @@
   "tags": [],
   "parent_industry": "construction_engineering",
   "roles": [
-    "civil_land_engineering"
+    "civil_land_engineering",
+    "consultancy"
   ],
   "source_lists": [
     "Civil Land Developers"
@@ -30,9 +31,10 @@
     }
   },
   "dc_exposure_level": "Medium",
-  "notes": "Siddhi's sheet note: Global consultancy. Some DC site and environmental work.",
+  "notes": "Siddhi's sheet note: Global consultancy. Some DC site and environmental work. Role consultancy added 2026-09-16: Acquired Frankfurt DC designer KUA Group (completed March 2025) giving 400+ DC specialists; site selection, programme and cost management; 2026 hires to lead hyperscaler accounts in North America and Internet & Software in Europe..",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.arcadis.com/en/news/global/2025/arcadis-completes-acquisition-of-kua-group/"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }

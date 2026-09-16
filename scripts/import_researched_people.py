@@ -3,7 +3,7 @@
 
 Input is a JSON list, one object per person:
   {"name", "company", "title", "source",            # all required
-   "prev_title", "prev_company", "note",            # optional
+   "prev_title", "prev_company", "note", "linkedin",  # optional; linkedin only when a source returned the URL
    "reports_to_name"}                               # optional: their manager, only when the
                                                     # source states it -- becomes `reports_to`
 
@@ -21,6 +21,7 @@ apart from the Clockwork-sourced ones and from the bulk directory import.
     python3 scripts/import_researched_people.py <file.json> --apply
 """
 import json, glob, os, re, sys, hashlib
+from datetime import date
 
 APPLY = "--apply" in sys.argv
 REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
@@ -96,11 +97,12 @@ def main():
             "record_grade": "researched",
             "notes": r.get("note") or "",
             "sources": [src],
-            "last_updated": "2026-09-13",
+            "last_updated": str(date.today()),
         }
         if r.get("prev_company"):
             rec["career_history"] = f"{r.get('prev_title') or 'role not stated'} at {r['prev_company']}"
         if mgr: rec["reports_to"] = mgr
+        if (r.get("linkedin") or "").startswith("http"): rec["linkedin"] = r["linkedin"]
         rec = {k: v for k, v in rec.items() if v not in (None, "")}
         if APPLY:
             path = os.path.join(PEOPLE_DIR, pid + ".json")

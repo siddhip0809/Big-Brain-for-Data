@@ -13875,7 +13875,7 @@
   },
   {
     "from": "person:adam-bradshaw-bf709524",
-    "to": "company:salute-emea",
+    "to": "company:salute",
     "type": "works_at",
     "detail": "Business Development Director",
     "sources": [
@@ -27883,7 +27883,7 @@
   },
   {
     "from": "investor:new-mountain-capital",
-    "to": "company:salute-emea",
+    "to": "company:salute",
     "type": "invested_in",
     "detail": "Took a majority stake (Sept 2024) to support growth. — Re-sourcing note (2026-09-08): Majority stake (Sept 30, 2024) is in Salute Holdings (formerly Salute Mission Critical), the global parent; 'Salute EMEA' is a regional arm of that company, not the named investee. LLR Partners retained a significant minority.",
     "sources": [
@@ -27898,7 +27898,7 @@
   },
   {
     "from": "investor:llr-partners",
-    "to": "company:salute-emea",
+    "to": "company:salute",
     "type": "invested_in",
     "detail": "Retained minority stake after New Mountain Capital's Sept 2024 majority investment. — Re-sourcing note (2026-09-08): Sources describe the parent (Salute Holdings / Salute Mission Critical), not the EMEA entity specifically; LLR retained a 'significant minority' stake after New Mountain's Sept 30, 2024 majority investment.",
     "sources": [
@@ -38947,5 +38947,185 @@
     ],
     "verification": "found by the weekly hiring-signals Routine on 2026-09-14; it published this edge to the atlas but its git push did not land, so the edge was recovered from the published page on 2026-09-14",
     "last_updated": "2026-09-14"
+  },
+  {
+    "from": "company:cbre",
+    "to": "company:turner-townsend",
+    "type": "invested_in",
+    "detail": "CBRE combined its Project Management business with its Turner & Townsend subsidiary; CBRE owns 70% of the combined business, Vincent Clancy joined CBRE board",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.cbre.com/press-releases/cbre-group-completes-turner-and-townsend-project-management-combination"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:arcadis",
+    "to": "company:kua-group",
+    "type": "acquired",
+    "detail": "Acquisition of Frankfurt data-center design specialist KUA Group, doubling Arcadis' German DC presence (400+ DC specialists combined)",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.arcadis.com/en/news/global/2025/arcadis-completes-acquisition-of-kua-group/"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:hill-international",
+    "to": "company:digital-realty",
+    "type": "consulted_for",
+    "detail": "Project management partner for ATH5 (Athens, up to 15MW) and HER1 (Heraklion, Crete, up to 6.5MW); also ATH4 per project page",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.hillintl.com/press-release/hill-international-to-support-construction-of-two-new-data-center-projects-in-greece/"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:hill-international",
+    "to": "company:data4",
+    "type": "consulted_for",
+    "detail": "Pre-construction technical advisory and full PMC through construction/closeout for Athens Data Center 1 (DC1), Paiania, 15MW, first phase of a 90MW campus",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.hillintl.com/project/athens-data-center-1-dc1/"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:aecom",
+    "to": "company:sentinel",
+    "type": "contractor_for",
+    "detail": "Construction manager for critical infrastructure and interiors of new data center facility in Orangetown, NY (with Russo Development)",
+    "status": "announced",
+    "confidence": "high",
+    "sources": [
+      "https://aecom.com/press-releases/aecom-announced-today-that-its-tishman-construction-operation-is-serving-as-construction-manager-of-critical-infrastructure-and-interiors-for-sentinel-data-centers-and-russo-developments-new/"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:artelia",
+    "to": "company:nation-data-center",
+    "type": "consulted_for",
+    "detail": "Upgrade and refurbishment of a former bank data centre at Val-de-Reuil, France (Normandie Data Center)",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.arteliagroup.com/project/bnp-paribas-marne-est/"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:vanderweil-engineers",
+    "to": "company:markley",
+    "type": "consulted_for",
+    "detail": "Engineering for Markley Group data center colocation project",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.vanderweil.com/project/markley-group-data-center-co-location/"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:wsp",
+    "to": "company:kw-mission-critical-engineering",
+    "type": "acquired",
+    "detail": "Acquisition of 175-employee data center engineering firm (with tk1sc), completed 24 Feb 2021",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.wsp.com/en-us/news/2021/wsp-acquires-kw-mission-critical-engineering-and-tk1sc-in-the-united-states"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:ramboll",
+    "to": "company:i3-solutions-group",
+    "type": "acquired",
+    "detail": "Acquisition of specialist data centre MEP consultancy i3 Solutions Group, 2024",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/ramboll-acquires-data-center-consulting-firm-i3-solutions/"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:woolpert",
+    "to": "company:sheehan-nagle-hartray-architects",
+    "type": "acquired",
+    "detail": "Acquisition of mission critical design specialist SNHA, Oct 2022",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/woolpert-acquires-sheehan-nagle-hartray-architects-global-experts-in-mission-critical-design-301653032.html"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:wsp",
+    "to": "company:power-engineers",
+    "type": "acquired",
+    "detail": "WSP completed acquisition of Power Engineers, Incorporated (approx. 4,000 staff, Hailey, Idaho), strengthening Power & Energy capabilities relevant to data-center work.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.wsp.com/en-us/news/2024/wsp-completes-acquisition-of-power-engineers"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:tractebel",
+    "to": "company:red-engineering-design",
+    "type": "acquired",
+    "detail": "Tractebel acquired data-centre design specialist RED (est. 2004) in 2016, forming its hyperscale data-centre design capability.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://tractebel-engie.com/en/markets/data-centres/hyperscale-data-centres/"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:knight-frank",
+    "to": "company:equinix",
+    "type": "consulted_for",
+    "detail": "Knight Frank MENA post states Knight Frank advised on a £4bn UK data centre sale to Equinix.",
+    "status": "completed",
+    "confidence": "medium",
+    "sources": [
+      "https://www.linkedin.com/posts/knightfrankmena_knightfrankmena-datacentres-digitalinfrastructure-activity-7389636589410308097--e4d"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:cundall",
+    "to": "company:ada-infrastructure",
+    "type": "consulted_for",
+    "detail": "Engineering consultancy on Ada Infrastructure's Docklands data centre campus (Cundall project page).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.cundall.com/projects/ada-infrastructures-docklands-data-centre-campus"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:charles-river-associates",
+    "to": "investor:global-infrastructure-partners",
+    "type": "consulted_for",
+    "detail": "Energy practice supported GIP, MGX and AIP on power/energy diligence for their acquisition of Aligned Data Centers.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.crai.com/industries/energy/data-centers/"
+    ],
+    "last_updated": "2026-09-16"
   }
 ]

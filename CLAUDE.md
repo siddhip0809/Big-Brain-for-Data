@@ -21,16 +21,19 @@ dependencies beyond `openpyxl` for the spreadsheet importers.
 ## Layout
 
 ```
-data/companies/*.json     1,220 companies. `roles` is the single source of truth for tier.
+data/companies/*.json     1,281 companies. `roles` is the single source of truth for tier.
 data/investors/*.json     124 funds. `investments` lists company ids.
-data/people/*.json        9,280 people. Filename ends in the first 8 chars of the Clockwork id;
+data/people/*.json        9,397 people. Filename ends in the first 8 chars of the Clockwork id;
                           researched records end in an 8-char hash and carry record_grade "researched".
-data/relationships.json   3,613 edges, one flat list. See docs/schema.md for the types.
+data/relationships.json   3,629 edges, one flat list. See docs/schema.md for the types.
 data/searches/*.json      93 searches pulled from Clockwork (client, brief, pipeline, placement).
                           A client = a search closed on a Placement (22 of them, 8 companies).
                           Referred to as `search:<filename>`; the `id` field is the Clockwork UUID.
 data/derived/*.csv        Generated. Never hand-edit; rerun the script.
 scripts/                  Importers (import_*) and derivations (build_*, enrich_*, merge_*).
+                          Research rounds land through import_researched_people.py and
+                          import_researched_companies.py from JSON in sources/; both refuse a
+                          record with no source URL.
 viewer/build_graph3d_data.py   Reads all of data/, writes viewer/graph3d_data.json.
 viewer/atlas3d_template.html   The page. `__GRAPH_DATA_JSON__` is replaced at publish time.
 docs/schema.md            What every field means. Update it when you add one.
@@ -48,6 +51,7 @@ python3 scripts/enrich_people.py --apply      # function, seniority, career, loc
 python3 scripts/build_title_index.py          # data/derived/job_titles*.csv
 python3 scripts/build_talent_flows.py         # data/derived/talent_flow*.csv
 python3 scripts/build_org_tree.py             # data/derived/org_tree.json
+python3 scripts/build_gap_list.py            # data/derived/company_gaps.csv + company_gap_list.xlsx
 python3 viewer/build_graph3d_data.py          # viewer/graph3d_data.json
 python3 scripts/check_brain.py                # must print "all checks pass" before you commit
 ```
@@ -98,7 +102,9 @@ One file, ~2,000 lines, Three.js r128 from jsdelivr. No bundler.
 
 - **Layout** is a custom O(n²) force simulation over the *visible* nodes only.
   The data-center core sits at the origin; each adjacent industry is a petal on
-  a ring in the plane facing the default camera. Cross-zone and talent-flow
+  a ring in the plane facing the default camera. The ring order is fixed in
+  `PETAL_ORDER` (not tier order) so the brown consultancy petal sits opposite
+  the amber energy petal, the two closest hues. Cross-zone and talent-flow
   edges carry no spring, so the zones hold their shape.
 - **Lines** are `LineSegments2` fat lines. Colour is the relationship type,
   dash pattern is status or confidence. In r128 `dashed: true` alone does

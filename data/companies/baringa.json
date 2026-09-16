@@ -1,0 +1,28 @@
+{
+  "id": "baringa",
+  "type": "company",
+  "name": "Baringa",
+  "aliases": [
+    "Baringa Partners"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": "London, UK",
+  "founded": null,
+  "website": "https://www.baringa.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data centre market scanning report; case study 'Self-generation strategy for a major data centre'; CEFC-commissioned Australian data-centre energy report; Bisnow piece on DCs underwriting wind.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data centre market scanning report; case study 'Self-generation strategy for a major data centre'; CEFC-commissioned Australian data-centre energy report; Bisnow piece on DCs underwriting wind. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.baringa.com/en/insights/decarbonising-complex-industries/data-centre-market-scanning-report/",
+    "https://www.baringa.com"
+  ],
+  "last_updated": "2026-09-16"
+}

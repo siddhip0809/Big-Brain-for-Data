@@ -28,7 +28,7 @@ FONT = "Arial"
 # is excluded on purpose: people are not nodes in the atlas, so a company with
 # staff mapped but no deal still floats free on the map.
 DEAL = {"invested_in", "acquired", "tenant_of", "jv_partner", "contractor_for",
-        "supplies_power_to", "site_partner", "partnered_with", "competitor_of"}
+        "supplies_power_to", "site_partner", "consulted_for", "partnered_with", "competitor_of"}
 
 ROLE_LABEL = {
     "hyperscaler": "Hyperscaler", "neocloud": "NeoCloud / AI infra",
@@ -36,6 +36,7 @@ ROLE_LABEL = {
     "energy_developer": "Energy developer / utility", "general_contractor": "General contractor",
     "civil_land_engineering": "Civil / land engineering",
     "real_estate_developer": "Real estate & industrial developer",
+    "consultancy": "Consultancy (cost, PM, power, design)",
 }
 PARENT_LABEL = {
     "pure_play": "Pure-play data center", "real_estate": "Real estate / industrial",

@@ -1,0 +1,26 @@
+{
+  "id": "grid-strategies",
+  "type": "company",
+  "name": "Grid Strategies",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://gridstrategiesllc.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Annual National Load Growth Report ('Strategic Industries Surging: Driving US Power Demand'); data centers ~90 GW of 166 GW forecast growth to 2030.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Annual National Load Growth Report ('Strategic Industries Surging: Driving US Power Demand'); data centers ~90 GW of 166 GW forecast growth to 2030. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://gridstrategiesllc.com/wp-content/uploads/Grid-Strategies-National-Load-Growth-Report-2025.pdf",
+    "https://gridstrategiesllc.com"
+  ],
+  "last_updated": "2026-09-16"
+}

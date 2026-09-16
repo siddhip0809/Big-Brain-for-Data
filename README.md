@@ -276,8 +276,10 @@ Real data has started loading. Currently in the brain:
 - An interactive visual graph of all of this — see `viewer/README.md`,
   and `CLAUDE.md` for how the whole thing is built.
   Since 2026-09-09 it opens in a calm light view on the connected
-  structure only, with the adjacent industries as four petals around the
-  data-center core; the original dark look is one click away.
+  structure only, with the adjacent industries as five petals around the
+  data-center core (a brown **Consultancy** petal — cost, project-management,
+  power and design consultancies — was added 2026-09-16, with a
+  `consulted_for` line type); the original dark look is one click away.
 
 **Duplicates:** 22 double records were merged on 2026-09-09 with
 `scripts/merge_companies.py` (Pure Data Centers/Centres, STACK

@@ -1,0 +1,26 @@
+{
+  "id": "fichtner",
+  "type": "company",
+  "name": "Fichtner",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — power & grid advisory, design / MEP engineering, strategy & advisory",
+  "headquarters": "Stuttgart, Germany",
+  "founded": null,
+  "website": "https://www.fichtner.de",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data Centers business sector incl. power supply connections and waste-heat interfaces; Fichtner IT Consulting system study on German energy infrastructure incl. data centres.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers business sector incl. power supply connections and waste-heat interfaces; Fichtner IT Consulting system study on German energy infrastructure incl. data centres. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.fichtner.de/en/business-sectors/consulting-it/data-centers",
+    "https://www.fichtner.de"
+  ],
+  "last_updated": "2026-09-16"
+}

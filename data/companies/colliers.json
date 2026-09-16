@@ -1,0 +1,27 @@
+{
+  "id": "colliers",
+  "type": "company",
+  "name": "Colliers",
+  "aliases": [],
+  "roles": [
+    "consultancy",
+    "real_estate_developer"
+  ],
+  "parent_industry": "real_estate",
+  "industry_role": "consultancy — transactions, strategy & advisory, research",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.colliers.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Americas Data Center Advisory led from 2022 by an ex-JLL/Digital Realty hire; publishes annual Data Center Marketplace report.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Americas Data Center Advisory led from 2022 by an ex-JLL/Digital Realty hire; publishes annual Data Center Marketplace report. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.colliers.com/en/services/data-centers",
+    "https://www.colliers.com"
+  ],
+  "last_updated": "2026-09-16"
+}

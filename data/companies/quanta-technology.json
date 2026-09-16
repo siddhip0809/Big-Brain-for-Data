@@ -1,0 +1,26 @@
+{
+  "id": "quanta-technology",
+  "type": "company",
+  "name": "Quanta Technology",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://quanta-technology.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "'Data Center Solutions for Developers and Utilities' page; CIGRE US paper 'Best Practices for Large Load Interconnections: A North American Perspective on Data Centers'. Subsidiary of Quanta Services.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. 'Data Center Solutions for Developers and Utilities' page; CIGRE US paper 'Best Practices for Large Load Interconnections: A North American Perspective on Data Centers'. Subsidiary of Quanta Services. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://quanta-technology.com/data-centers/",
+    "https://quanta-technology.com"
+  ],
+  "last_updated": "2026-09-16"
+}

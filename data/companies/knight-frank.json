@@ -4,7 +4,8 @@
   "name": "Knight Frank",
   "aliases": [],
   "roles": [
-    "real_estate_developer"
+    "real_estate_developer",
+    "consultancy"
   ],
   "parent_industry": "real_estate",
   "industry_role": "real estate brokerage & advisory — data center practice",
@@ -17,9 +18,10 @@
   "tags": [],
   "source_lists": [],
   "list_attributes": {},
-  "notes": "Added 2026-09-13 as an adjacent company because it is where data-center talent comes from: 3 people now at tracked companies list it as their previous employer (talent_flows.csv). Filed under the closest existing tier; industry_role says what it actually is. Website, headcount and ownership not yet researched.",
+  "notes": "Added 2026-09-13 as an adjacent company because it is where data-center talent comes from: 3 people now at tracked companies list it as their previous employer (talent_flows.csv). Filed under the closest existing tier; industry_role says what it actually is. Website, headcount and ownership not yet researched. Role consultancy added 2026-09-16: Data centre team with a Head of Data Centres, a valuation sub-team and a Head of Power Procurement & MEP Consultancy (hired Aug 2024)..",
   "sources": [
-    "Career histories of people in data/people/ (data/derived/talent_flows.csv), 2026-09-13"
+    "Career histories of people in data/people/ (data/derived/talent_flows.csv), 2026-09-13",
+    "https://www.knightfrank.com/commercial/data-centres/team"
   ],
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-09-16"
 }

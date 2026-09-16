@@ -4,7 +4,8 @@
   "name": "Cushman & Wakefield",
   "aliases": [],
   "roles": [
-    "real_estate_developer"
+    "real_estate_developer",
+    "consultancy"
   ],
   "parent_industry": "real_estate",
   "industry_role": "real estate brokerage & advisory — data center practice",
@@ -17,9 +18,11 @@
   "tags": [],
   "source_lists": [],
   "list_attributes": {},
-  "notes": "Added 2026-09-13 as an adjacent company because it is where data-center talent comes from: 4 people now at tracked companies list it as their previous employer (talent_flows.csv). Filed under the closest existing tier; industry_role says what it actually is. Website, headcount and ownership not yet researched.",
+  "notes": "Added 2026-09-13 as an adjacent company because it is where data-center talent comes from: 4 people now at tracked companies list it as their previous employer (talent_flows.csv). Filed under the closest existing tier; industry_role says what it actually is. Website, headcount and ownership not yet researched. Role consultancy added 2026-09-16: Recruits 'Senior Project Manager, Data Center, Project & Development Services'; firm-level data-centers practice page at https://www.cushmanwakefield.com/en/industries/data-centers; new PDS president (Jan 2026) is not DC-specific. No named PDS DC lead found.. Data Center Group with regional heads; May 2026 APAC advisory & transactions head appointment reporting to an APAC Head of Data Center Group. (2026-09-16).",
   "sources": [
-    "Career histories of people in data/people/ (data/derived/talent_flows.csv), 2026-09-13"
+    "Career histories of people in data/people/ (data/derived/talent_flows.csv), 2026-09-13",
+    "https://workopia.io/jobs/3cf693b28e0652ed1c576123ef099785",
+    "https://www.businesswire.com/news/home/20260527863417/en/Cushman-Wakefield-Appoints-Leon-Ikeda-as-Head-of-Advisory-Transactions-Asia-Pacific-Data-Center-Group"
   ],
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-09-16"
 }

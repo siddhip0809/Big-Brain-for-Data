@@ -15,7 +15,8 @@
   "tags": [],
   "parent_industry": "construction_engineering",
   "roles": [
-    "civil_land_engineering"
+    "civil_land_engineering",
+    "consultancy"
   ],
   "source_lists": [
     "Civil Land Developers"
@@ -30,9 +31,10 @@
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet note: Global design consultancy. Active in DC structural and MEP design.",
+  "notes": "Siddhi's sheet note: Global design consultancy. Active in DC structural and MEP design. Role consultancy added 2026-09-16: Dedicated data centres market with regional leaders for Americas (DiMambro), Europe (Griffin) and APAC (Sadokierski); data-centre project portfolio page at arup.com/projects/data-centre-projects/..",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.arup.com/markets/data-centres/"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }

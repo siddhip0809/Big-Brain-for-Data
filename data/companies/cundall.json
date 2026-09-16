@@ -1,0 +1,26 @@
+{
+  "id": "cundall",
+  "type": "company",
+  "name": "Cundall",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — design / MEP engineering",
+  "headquarters": "London, United Kingdom",
+  "founded": null,
+  "website": "https://www.cundall.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data centres sector page; four data-centre Associate Directors promoted to Partner (2026); named Data Centre Consultancy of the Year at 2025 Data Centre Review Excellence Awards; joined German Datacenter Association and SpainDC; building DC team in Bucharest.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data centres sector page; four data-centre Associate Directors promoted to Partner (2026); named Data Centre Consultancy of the Year at 2025 Data Centre Review Excellence Awards; joined German Datacenter Association and SpainDC; building DC team in Bucharest. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://datacentre.solutions/news/70222/cundall-appoints-four-new-partners-in-data-centre-sector",
+    "https://www.cundall.com"
+  ],
+  "last_updated": "2026-09-16"
+}

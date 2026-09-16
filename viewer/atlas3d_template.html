@@ -702,6 +702,7 @@
     contractor_for:    { color: 0x38bdf8, opacity: 0.7, width: 2.0, label: 'Builds / engineers for', variants: { solid: 'delivered or under way', dashed: 'announced · verify' } },
     supplies_power_to: { color: 0xef4444, opacity: 0.75, width: 2.2, label: 'Supplies power to',     variants: { solid: 'operating / contracted', dashed: 'announced / MOU · verify', dotted: 'cancelled' } },
     site_partner:      { color: 0xf472b6, opacity: 0.7, width: 2.0, label: 'Land / campus partner',  variants: { solid: 'done or under way', dashed: 'announced · verify' } },
+    consulted_for:     { color: 0xb8734a, lightColor: 0x7c2d12, opacity: 0.75, width: 2.0, label: 'Consulted for (cost / PM / power / design)', variants: { solid: 'delivered or under way', dashed: 'announced · verify' } },
     // people moving between companies (derived from career histories; off by default)
     talent_flow:       { color: 0x94a3b8, lightColor: 0x64748b, opacity: 0.45, width: 1.3, label: 'Talent flow (people moved)', variants: { solid: 'same tier (e.g. developer → developer)', dashed: 'another tier, same group (e.g. hyperscaler → developer)', dotted: 'across groups (adjacent or investor ↔ core)' }, off: true },
   };
@@ -746,10 +747,14 @@
   // screen-right and screen-up for that camera: the petal ring lies in this plane
   const rgt = (() => { const x = vd.z, z = -vd.x, l = Math.hypot(x, z); return { x: x / l, y: 0, z: z / l }; })();
   const upv = { x: vd.y * rgt.z - vd.z * rgt.y, y: vd.z * rgt.x - vd.x * rgt.z, z: vd.x * rgt.y - vd.y * rgt.x };
-  const adjacentCats = CATS.filter(c => c.adjacent);
+  // ring order is fixed here, not by tier order: the consultancy petal (brown) sits opposite
+  // the energy petal (amber), the closest pair of hues, so the two never read as one
+  const PETAL_ORDER = ['energy_developer', 'general_contractor', 'consultancy', 'civil_land_engineering', 'real_estate_developer'];
+  const petalRank = c => { const i = PETAL_ORDER.indexOf(c.id); return i < 0 ? 99 : i; };
+  const adjacentCats = CATS.filter(c => c.adjacent).sort((a, b) => petalRank(a) - petalRank(b));
   const ZONES = { core: { x: 0, y: 0, z: 0, r: 300, label: 'Data center core', id: 'core' } };
   adjacentCats.forEach((c, i) => {
-    const a = (i / adjacentCats.length) * Math.PI * 2 + Math.PI / 4;   // top-right, top-left, bottom-left, bottom-right
+    const a = (i / adjacentCats.length) * Math.PI * 2 + Math.PI / 4;   // evenly round the ring, starting top-right
     const cx = Math.cos(a) * PETAL_R, cy = Math.sin(a) * PETAL_R;
     ZONES[c.id] = { x: rgt.x * cx + upv.x * cy, y: rgt.y * cx + upv.y * cy, z: rgt.z * cx + upv.z * cy, r: PETAL_SIZE, label: c.name, id: c.id, color: c.color };
   });

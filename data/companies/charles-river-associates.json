@@ -1,0 +1,28 @@
+{
+  "id": "charles-river-associates",
+  "type": "company",
+  "name": "Charles River Associates",
+  "aliases": [
+    "CRA"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.crai.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Energy practice Data Centers page; engagements on transmission headroom for DC interconnection, 24/7 CFE pathways, DC load forecasting in IRPs, DC tariff design; Oct 2024 tariff-design insight.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Energy practice Data Centers page; engagements on transmission headroom for DC interconnection, 24/7 CFE pathways, DC load forecasting in IRPs, DC tariff design; Oct 2024 tariff-design insight. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.crai.com/industries/energy/data-centers/",
+    "https://www.crai.com"
+  ],
+  "last_updated": "2026-09-16"
+}

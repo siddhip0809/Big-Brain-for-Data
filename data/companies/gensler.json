@@ -1,0 +1,26 @@
+{
+  "id": "gensler",
+  "type": "company",
+  "name": "Gensler",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — design / MEP engineering",
+  "headquarters": "San Francisco, United States",
+  "founded": null,
+  "website": "https://www.gensler.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Critical Facilities practice (data centers); Wonder Valley Data Centre Park and Confidential Cloud Complex Data Centre projects; hiring Project Architect - Data Centres.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Critical Facilities practice (data centers); Wonder Valley Data Centre Park and Confidential Cloud Complex Data Centre projects; hiring Project Architect - Data Centres. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.gensler.com/expertise/critical-facilities",
+    "https://www.gensler.com"
+  ],
+  "last_updated": "2026-09-16"
+}

@@ -84,7 +84,37 @@ def function_for(p):
         if job.get('current'): continue
         fn = match_title(job.get('title'))
         if fn: return fn, 'previous title'
+    fn = employer_discipline(p.get('current_company_id'))
+    if fn: return fn, 'employer discipline'
     return MISC, 'none'
+
+
+# At a consultancy the title often names only the sector -- "Head of Data Centres",
+# "Partner, data centre sector", "Principal" -- so the department is read from what
+# the firm does (its industry_role: cost, project management, power, design, advisory).
+# A firm that does several things is filed under the first one it lists.
+DISCIPLINE = [
+    ('cost', 'Pre-Construction & Cost'), ('quantity surveying', 'Pre-Construction & Cost'),
+    ('programme & project management', 'Construction & Delivery'), ('project-management', 'Construction & Delivery'), ('project management', 'Construction & Delivery'),
+    ('power', 'Energy & Utilities'), ('grid', 'Energy & Utilities'),
+    ('design', 'Design & Engineering'), ('engineering', 'Design & Engineering'), ('architect', 'Design & Engineering'), ('commissioning', 'Design & Engineering'),
+    ('strategy', 'Strategy, Finance & Investment'), ('advisory', 'Strategy, Finance & Investment'), ('research', 'Strategy, Finance & Investment'),
+]
+_COMPANIES = None
+def employer_discipline(cid):
+    global _COMPANIES
+    if not cid: return None
+    if _COMPANIES is None:
+        _COMPANIES = {}
+        for f in glob.glob(os.path.join(REPO, 'data/companies/*.json')):
+            c = json.load(open(f)); _COMPANIES[c['id']] = c
+    c = _COMPANIES.get(cid)
+    if not c or 'consultancy' not in (c.get('roles') or []): return None
+    if set(c.get('roles') or []) <= {'consultancy', 'real_estate_developer'} and 'real_estate_developer' in c['roles']:
+        return 'Sales & Leasing'   # a pure real-estate advisor's data-centre practice is advisory & transactions
+    role = (c.get('industry_role') or '').lower()
+    hits = [(role.find(k), fn) for k, fn in DISCIPLINE if k in role]
+    return min(hits)[1] if hits else None
 
 DATES = r"(?P<start>\d{1,2}/\d{4}|\d{4}|\?) to (?P<end>present|\d{1,2}/\d{4}|\d{4}|\?)"
 ENTRY_PATTERNS = [

@@ -38,7 +38,7 @@ def main():
     companies = {}
     for f in glob.glob(f"{REPO}/data/companies/*.json"):
         c = json.load(open(f)); companies[c["id"]] = c
-    ADJ = {"energy_developer", "general_contractor", "civil_land_engineering", "real_estate_developer"}
+    ADJ = {"energy_developer", "general_contractor", "civil_land_engineering", "real_estate_developer", "consultancy"}
     adjacent_only = {cid for cid, c in companies.items() if c.get("roles") and all(r in ADJ for r in c["roles"])}
     by_norm, by_loose = {}, collections.defaultdict(set)
     for cid in adjacent_only:

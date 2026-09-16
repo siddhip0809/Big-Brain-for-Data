@@ -24,7 +24,8 @@ def ym(s):
 TIER_LABEL = {"hyperscaler": "Hyperscaler", "neocloud": "NeoCloud / AI Infra", "cryptomining": "Cryptomining pivot",
               "developer_operator": "Data Center Developer / Operator", "energy_developer": "Energy developer / utility",
               "general_contractor": "General contractor", "civil_land_engineering": "Civil / land engineering",
-              "real_estate_developer": "Real estate & industrial developer", "investor": "Investor"}
+              "real_estate_developer": "Real estate & industrial developer",
+              "consultancy": "Consultancy (cost, PM, power, design)", "investor": "Investor"}
 CORE = ("hyperscaler", "neocloud", "cryptomining", "developer_operator")
 ROLE_PRIORITY = list(TIER_LABEL)
 def primary_role(roles):

@@ -46,6 +46,10 @@ CATS = {
     "general_contractor": {"name": "General contractor",                   "color": "#2563eb", "adjacent": True},
     "civil_land_engineering":         {"name": "Civil / land engineering",  "color": "#dc2626", "adjacent": True},
     "real_estate_developer":          {"name": "Real estate & industrial developer", "color": "#4d7c0f", "adjacent": True},
+    # cost, project-management, power and design consultancies (2026-09-16). Brown was the
+    # one hue left that clears the normal-vision floor against all nine existing tiers
+    # (worst pair 15.2 vs the energy tier), so the two petals are kept apart on the ring.
+    "consultancy":                    {"name": "Consultancy (cost, PM, power, design)", "color": "#7c2d12", "adjacent": True},
     "investor":           {"name": "Investor",                             "color": "#9333ea", "adjacent": False},
 }
 ROLE_PRIORITY = [c for c in CATS if c != "investor"]
@@ -76,7 +80,7 @@ def line_style(rtype, status, confidence):
     if any(w in st for w in ("terminated", "rejected", "withdrawn", "abandoned", "cancelled")): return "dotted"
     if rtype == "acquired":
         return "solid" if "completed" in st else "dashed"
-    if rtype in ("contractor_for", "supplies_power_to", "site_partner") and any(w in st for w in ("announced", "mou", "proposed", "planned")):
+    if rtype in ("contractor_for", "supplies_power_to", "site_partner", "consulted_for") and any(w in st for w in ("announced", "mou", "proposed", "planned")):
         return "dashed"  # not yet delivering
     return "solid" if (confidence or "").lower() == "high" else "dashed"
 
@@ -140,7 +144,9 @@ for path in investor_files:
 # Only edges whose two endpoints are both nodes in this graph are emitted.
 DEAL_TYPES = {"acquired", "tenant_of", "jv_partner",
               # adjacent industry -> data-center core (added 2026-09-08)
-              "contractor_for", "supplies_power_to", "site_partner"}
+              "contractor_for", "supplies_power_to", "site_partner",
+              # consultancy -> client: cost, project management, power or design advice (2026-09-16)
+              "consulted_for"}
 all_ids = {n["id"] for n in nodes}
 deal_edges = 0
 if True:

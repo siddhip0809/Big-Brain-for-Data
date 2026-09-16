@@ -38,7 +38,16 @@ Every node also carries these common fields, regardless of type:
   `hyperscaler`, `neocloud`, `cryptomining`, `developer_operator` (the
   data-center tiers), and `energy_developer`, `general_contractor`,
   `civil_land_engineering`, `real_estate_developer` (label "Real estate & industrial developer" — one tier for Siddhi's Cold Storage & Industrial Developers and Real Estate Development USA lists; the two were merged 2026-09-09) (adjacent
-  industries, imported from Siddhi's curated lists 2026-09-05). A company
+  industries, imported from Siddhi's curated lists 2026-09-05), and
+  `consultancy` (label "Consultancy (cost, PM, power, design)", added
+  2026-09-16 at Siddhi's request: cost / quantity-surveying, programme &
+  project-management, power / grid and design / mission-critical
+  engineering consultancies with a data-center practice. Pure
+  consultancies that had been filed as `general_contractor` — Turner &
+  Townsend, Linesight, Currie & Brown, RLB, Gleeds, Cumming, Soben, Hill
+  International, Critical Project Services — were re-filed here; an
+  engineering firm that both builds and advises, e.g. AECOM or Jacobs,
+  holds both roles). A company
   on several lists holds several roles — AECOM is a civil/land engineer, an
   industrial developer *and* a general contractor — and the atlas draws it
   as a multi-colour node. The first role in tier order is its primary one.
@@ -85,8 +94,16 @@ Every node also carries these common fields, regardless of type:
   `Construction & Delivery`, `Energy & Utilities`, `Design & Engineering`,
   `Strategy, Finance & Investment`, `Operations & Facilities`,
   `Procurement & Supply Chain`, `Legal, People & Support`, or
-  `Unclassified`. `function_source` says whether it came from the `title`
-  or fell back to the `mapping list` (generic titles like "Director").
+  `Unclassified`. `function_source` says whether it came from the `title`,
+  fell back to the `mapping list` (generic titles like "Director"), a
+  `previous title`, or — at a company with the `consultancy` role, where a
+  title often names only the sector ("Head of Data Centres", "Partner") —
+  the `employer discipline`: the firm's `industry_role` decides (cost →
+  Pre-Construction & Cost, project management → Construction & Delivery,
+  power → Energy & Utilities, design → Design & Engineering, advisory →
+  Strategy, Finance & Investment; a real-estate advisor's data-centre
+  practice → Sales & Leasing). Added 2026-09-16; it is a reading of the
+  employer, not the person, and the UI can tell them apart by this field.
   This is what the atlas org chart groups by.
 - `seniority` — Clockwork's own level where it had one (`CXO`, `Senior
   Vice President`, `Vice President`, `Director`, `Manager`, `Associate`);
@@ -272,16 +289,23 @@ added any time):
   utilities hiring map.
 - `site_partner` — industrial / real-estate developer ↔ data-center
   company: powered-land sales, build-to-suit development, campus JVs.
+- `consulted_for` — consultancy → client (company → company): cost /
+  commercial management, programme or project management, power / grid
+  studies, design or advisory work on a named campus or programme, e.g.
+  Cundall → Ada Infrastructure (Docklands). `detail` names the work and
+  the project; `status` is delivered / under way / announced. Added
+  2026-09-16 with the consultancy tier. A firm that also acts as EPCM or
+  builder on the same job gets a `contractor_for` edge instead.
 - `partnered_with` — company → company (looser commercial partnership)
 - `competitor_of` — company → company
 
 `acquired`, `tenant_of`, `jv_partner`, `contractor_for`,
-`supplies_power_to` and `site_partner` edges are drawn in the 3D atlas as
-their own line colours (amber, white, green, sky blue, red, pink)
+`supplies_power_to`, `site_partner` and `consulted_for` edges are drawn in the 3D atlas as
+their own line colours (amber, white, green, sky blue, red, pink, brown)
 alongside violet investor backing, and appear in a node's focus ring and
 detail panel. The dash pattern within a colour encodes status/confidence
 (solid = done or confirmed, dashed = announced or single-source, dotted =
-terminated). The three adjacent-industry types run between the two
+terminated). The four adjacent-industry types run between the two
 zones of the atlas and deliberately carry no layout spring, so the zones
 stay apart and the line alone shows the connection. Each carries a
 `confidence` (`high` / `medium`) like `invested_in` does — anything below

@@ -1,0 +1,28 @@
+{
+  "id": "gardiner-and-theobald",
+  "type": "company",
+  "name": "Gardiner & Theobald",
+  "aliases": [
+    "G&T"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — cost management, programme & project management",
+  "headquarters": "London, UK",
+  "founded": null,
+  "website": "https://www.gardiner.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Mission Critical sector page; project pages for a 40MW new-build DC in central London for a colocation provider (cost + PM), a remote DC (PM + cost), Data Centre Hayes and Deloitte data-centre strategy; a partner leads the DC sector.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Mission Critical sector page; project pages for a 40MW new-build DC in central London for a colocation provider (cost + PM), a remote DC (PM + cost), Data Centre Hayes and Deloitte data-centre strategy; a partner leads the DC sector. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.gardiner.com/sectors/mission-critical",
+    "https://www.gardiner.com"
+  ],
+  "last_updated": "2026-09-16"
+}

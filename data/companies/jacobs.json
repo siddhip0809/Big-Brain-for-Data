@@ -18,7 +18,8 @@
   "parent_industry": "construction_engineering",
   "roles": [
     "civil_land_engineering",
-    "real_estate_developer"
+    "real_estate_developer",
+    "consultancy"
   ],
   "source_lists": [
     "Civil Land Developers",
@@ -43,9 +44,11 @@
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet note: Large infra EPC. Active in mission-critical and DC projects.\n\nSiddhi's sheet note: Already in civil list. Jacobs has an advanced manufacturing and mission-critical practice with direct semiconductor fab and DC permitting experience. Very strong sourcing target.",
+  "notes": "Siddhi's sheet note: Large infra EPC. Active in mission-critical and DC projects.\n\nSiddhi's sheet note: Already in civil list. Jacobs has an advanced manufacturing and mission-critical practice with direct semiconductor fab and DC permitting experience. Very strong sourcing target. Role consultancy added 2026-09-16: Claims one of the largest DC practices globally (30 years, planning/design/construction services); SVP-level Market Lead for AI Data Centers.. Data centers industry page (jacobs.com/industries/data-centers); EPCM lead for Hut 8 River Bend AI data center, Louisiana; released a data-center digital-twin product (prnewswire 302714843). (2026-09-16).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.jacobs.com/industries/data-centers",
+    "https://www.jacobs.com/newsroom/press-release/jacobs-appointed-engineering-procurement-and-construction-management-lead"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }

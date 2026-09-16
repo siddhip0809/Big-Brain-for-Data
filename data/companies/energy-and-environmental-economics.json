@@ -1,0 +1,28 @@
+{
+  "id": "energy-and-environmental-economics",
+  "type": "company",
+  "name": "Energy and Environmental Economics",
+  "aliases": [
+    "E3"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": "San Francisco, USA",
+  "founded": null,
+  "website": "https://www.ethree.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Whitepapers 'Forecasting Large Loads in the Age of AI and Data Centers' (Dec 2025), 'Tailored for Scale' ratepayer study (Dec 2025), 'Load Growth Is Here to Stay, but Are Data Centers?' (2024), 2026 rate-driver paper.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Whitepapers 'Forecasting Large Loads in the Age of AI and Data Centers' (Dec 2025), 'Tailored for Scale' ratepayer study (Dec 2025), 'Load Growth Is Here to Stay, but Are Data Centers?' (2024), 2026 rate-driver paper. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.ethree.com/forecasting-large-loads/",
+    "https://www.ethree.com"
+  ],
+  "last_updated": "2026-09-16"
+}

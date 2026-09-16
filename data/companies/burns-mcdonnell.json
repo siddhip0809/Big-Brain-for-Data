@@ -4,7 +4,8 @@
   "name": "Burns & McDonnell",
   "aliases": [
     "Burns & McDonnell (Industrial Dev)",
-    "Burns and McDonnell"
+    "Burns and McDonnell",
+    "1898 & Co."
   ],
   "industry_role": "civil land engineering / real estate / industrial developer / general contractor",
   "headquarters": "Kansas City, Missouri",
@@ -20,7 +21,8 @@
   "roles": [
     "civil_land_engineering",
     "general_contractor",
-    "real_estate_developer"
+    "real_estate_developer",
+    "consultancy"
   ],
   "source_lists": [
     "Civil Land Developers",
@@ -46,9 +48,11 @@
     }
   },
   "dc_exposure_level": "High",
-  "notes": "Siddhi's sheet note: Power + industrial EPC. Active DC campus delivery.\n\nSiddhi's sheet note: Already in civil list. Burns & McDonnell's industrial and power EPC practice has deep permitting experience for power-intensive industrial facilities. People here understand large-site utility and environmental permitting.",
+  "notes": "Siddhi's sheet note: Power + industrial EPC. Active DC campus delivery.\n\nSiddhi's sheet note: Already in civil list. Burns & McDonnell's industrial and power EPC practice has deep permitting experience for power-intensive industrial facilities. People here understand large-site utility and environmental permitting. Role consultancy added 2026-09-16: Mission-Critical Buildings practice with data centers, critical power; design-build offering expanded with David Bals hire (2021); Upper Midwest mission-critical team additions.. 1898 & Co. is Burns & McDonnell's consulting brand (grid planning for new data-center load) (2026-09-16). Burns & McDonnell consulting brand; grid consultancy/planning for new data-center load capacity alongside EPC; Burns & McDonnell 'Hyperscale Data Centers and How to Power Them'. (2026-09-16).",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.burnsmcd.com/services/buildings/mission-critical-buildings/data-centers-switch-centers",
+    "https://info.burnsmcd.com/grid-modernization"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-16"
 }
