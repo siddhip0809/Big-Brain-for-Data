@@ -265,7 +265,7 @@ raw message is never stored.
   `data/searches/`: the Clockwork confidential check, e.g. "clockwork
   2026-10-29: not confidential". A confidential search never gets a note.
 - `source` — `{channel, date, from, subject, ref}`. `channel` is `email`,
-  `call`, `meeting`, `transcript`, `document`, `linkedin`, `atlas` or `other`;
+  `teams`, `call`, `meeting`, `transcript`, `document`, `linkedin`, `atlas` or `other`;
   `ref` is a hash of the message id, enough to recognise the message again
   and never enough to reconstruct it. `atlas_id` names a note-box entry.
 - `recorded_on`, `recorded_by`

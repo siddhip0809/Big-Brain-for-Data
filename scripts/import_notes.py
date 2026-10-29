@@ -55,7 +55,7 @@ TODAY = str(date.today())
 KINDS = {"candidate_update", "client_brief", "client_feedback", "search_strategy", "market_intel", "relationship"}
 SEARCH_KINDS = {"client_brief", "client_feedback", "search_strategy"}
 BASES = {"reported", "ward_judgement"}
-CHANNELS = {"email", "call", "meeting", "transcript", "document", "linkedin", "atlas", "other"}
+CHANNELS = {"email", "teams", "call", "meeting", "transcript", "document", "linkedin", "atlas", "other"}
 SIGNALS = {  # type -> fields it needs
     "open_to_move": ["person"], "not_looking": ["person"], "moved": ["person", "company"],
     "interviewing": ["person"], "hiring": ["company"], "target_company": ["company"],
