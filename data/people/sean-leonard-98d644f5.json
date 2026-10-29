@@ -1,0 +1,125 @@
+{
+  "id": "sean-leonard-98d644f5",
+  "type": "person",
+  "name": "Sean Leonard",
+  "current_title": "Associate Director - Data Centers",
+  "current_company": "Currie & Brown",
+  "linkedin": "https://www.linkedin.com/in/sean-leonard-60957a7a",
+  "location": "Bend, Oregon",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director - Data Centers at Currie & Brown, 1/2023 to present; Sr. Project Controls Analyst at Currie & Brown, 11/2020 to present; Project Manager at Plains All American, 8/2018 to 8/2020; Project Controls Analyst II at Plains All American, 3/2017 to 8/2018; Project Engineer - Flying Leads at Technip, 2/2015 to 1/2017; Subsea Installation Engineer at Technip, 4/2014 to 2/2015; Project Engineer (Subsea) at Technip, 1/2014 to 4/2014; Project Engineer (Onshore) at Technip, 7/2013 to 1/2014; Subsea Installation Engineer Intern at Technip, 5/2012 to 8/2012; Cost Control Engineer at Technip, 5/2011 to 8/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 480,
+      "date_added": "2026-08-24 15:15:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director - Data Centers",
+      "company": "Currie & Brown",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Project Controls Analyst",
+      "company": "Currie & Brown",
+      "start": "11/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Plains All American",
+      "start": "8/2018",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Project Controls Analyst II",
+      "company": "Plains All American",
+      "start": "3/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Flying Leads",
+      "company": "Technip",
+      "start": "2/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Subsea Installation Engineer",
+      "company": "Technip",
+      "start": "4/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer (Subsea)",
+      "company": "Technip",
+      "start": "1/2014",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer (Onshore)",
+      "company": "Technip",
+      "start": "7/2013",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Subsea Installation Engineer Intern",
+      "company": "Technip",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Cost Control Engineer",
+      "company": "Technip",
+      "start": "5/2011",
+      "end": "8/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Bend",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "education": [
+    "Bachelor of Science (BS), Construction Management, Oklahoma State University, 2008 to 2013"
+  ],
+  "biography": "Execute various types of capital expansion midstream construction projects from the scoping phase through commissioning in the West Texas region. Overall portfolio includes producer well connections, new crude gathering systems, brownfield station construction, pump installation, modification of existing equipment, and small diameter pipeline installations. Managed project teams including representatives of key internal stakeholders such as the Land Dept., E&RC, Measurement, and Operations, as well as managed external resources such as Construction Management, Engineering, Inspection, and Survey.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

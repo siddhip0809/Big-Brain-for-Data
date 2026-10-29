@@ -1,0 +1,39 @@
+{
+  "id": "sagard-real-estate",
+  "type": "company",
+  "name": "Sagard Real Estate",
+  "aliases": [
+    "(previously known as)EverWest Real Estate Investors"
+  ],
+  "industry_role": "real estate developer",
+  "headquarters": "Denver, Colorado",
+  "founded": null,
+  "website": "https://www.everwest.com",
+  "linkedin": "https://www.linkedin.com/company/everwest-real-estate-investors/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Real Estate Developers USA"
+  ],
+  "dc_exposure_level": "None",
+  "list_attributes": {
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "No",
+      "DC Exposure Level": "None"
+    }
+  },
+  "notes": "Siddhi's real-estate sheet note: Industrial and office investment manager. Limited DC relevance.",
+  "sources": [
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

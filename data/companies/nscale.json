@@ -1,0 +1,51 @@
+{
+  "id": "nscale",
+  "type": "company",
+  "name": "Nscale",
+  "aliases": [],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": "London, United Kingdom",
+  "founded": null,
+  "website": "https://www.nscale.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "General Contractor",
+    "Hyperscaler"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 4 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): VC/strategic-backed (not PE). Aker ASA led a $1.1B Series B; NVIDIA, Dell, Fidelity, Blue Owl, Point72 and others also invested. Valued ~$14.6B as of March 2026.\n\nM&A: acquired American Intelligence & Power Corp -- Announced 16 Mar 2026: the 8GW Monarch Compute Campus (WV); creates Nscale Energy & Power (Houston); Microsoft 1.35GW LOI the same day. [announced; confidence high; https://www.nscale.com/press-releases/nscale-acquires-american-intelligence-power-corporation]\n\nM&A: acquired Anyscale -- ~$1.65B reported (announced 30 Jul 2026; H2 2026 close): moves Nscale up-stack; ~200 staff. [announced; confidence high; https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/]",
+  "sources": [
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator",
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-07-31 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/nscale-cloud/",
+  "headcount": "201-500",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 697.0,
+      "early_stage_mw": 467.0
+    }
+  }
+}

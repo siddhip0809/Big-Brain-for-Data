@@ -1,0 +1,26 @@
+{
+  "id": "icf",
+  "type": "company",
+  "name": "ICF",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.icf.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Published US electricity demand growth report (25% by 2030) driven by data centers; warned grid deliverability may limit AI-era growth.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Published US electricity demand growth report (25% by 2030) driven by data centers; warned grid deliverability may limit AI-era growth. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.icf.com/insights/energy/impact-rapid-demand-growth-us",
+    "https://www.icf.com"
+  ],
+  "last_updated": "2026-09-16"
+}

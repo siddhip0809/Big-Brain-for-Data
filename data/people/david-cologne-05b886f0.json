@@ -1,0 +1,106 @@
+{
+  "id": "david-cologne-05b886f0",
+  "type": "person",
+  "name": "David Cologne",
+  "current_title": "Business Development",
+  "current_company": "Apto",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/david-cologne-14a110143",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Business Development at Apto, 11/2023 to present; Director, Site Acquisition Emea at Microsoft, 4/2022 to 11/2023; Site Acquisition Manager at AWS, 3/2017 to 1/2022",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "2d. CV Received / Scheduling Full Assessment",
+      "rank": 31,
+      "date_added": "2026-08-12 09:34:33 UTC",
+      "date_updated": "2026-08-19 16:51:17 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 1,
+      "date_added": "2026-07-08 17:34:06 UTC",
+      "date_updated": "2026-08-12 04:34:33 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 343,
+      "date_added": "2026-04-21 15:51:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "apto",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Business Development",
+      "company": "Apto",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Site Acquisition Emea",
+      "company": "Microsoft",
+      "start": "4/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Manager",
+      "company": "AWS",
+      "start": "3/2017",
+      "end": "1/2022",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "biography": "David Cologne is a seasoned professional with 20 years of experience in data center development, specializing in site acquisition, evaluation, and strategic partnerships. He has a strong background in leading complex projects globally, including co-founding IX Accelerate in Russia (12 MW) and Gulf Data Hub in the UAE (two 24 MW data centers). He played a key role in acquiring land for AWS in the Israel region and led a 196 MW deal for Apto in Milan, overcoming significant permitting and power challenges. David possesses extensive market insight, leveraging a vast network within hyperscalers like AWS and Microsoft to identify optimal locations, fiber links, and power availability. He is adept at guiding initial permitting and entitlement processes, often working with consultants and developing innovative partnership models. Currently a Director at Apto, he focuses on identifying and securing strategic land parcels, though he is seeking new opportunities due to concerns about business acumen and career progression in his current role. He has experience building teams at previous companies and is comfortable in roles without direct reports. David is known for his proactive approach, often 'hustling' to accelerate project timelines and secure opportunities even when faced with official resistance.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Average",
+    "rating": 4.0,
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

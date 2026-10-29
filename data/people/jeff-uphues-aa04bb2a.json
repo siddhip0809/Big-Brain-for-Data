@@ -1,0 +1,107 @@
+{
+  "id": "jeff-uphues-aa04bb2a",
+  "type": "person",
+  "name": "Jeff Uphues",
+  "current_title": "Chief Executive Officer",
+  "current_company": "DC BLOX",
+  "linkedin": "https://www.linkedin.com/in/jeffreyuphues",
+  "location": "Atlanta, Georgia",
+  "seniority": "CXO",
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Executive Officer at DC BLOX, 3/2017 to present; Advisory Board Member at DC BLOX, 9/2016 to 3/2017; Managing Director at Magic Beans Equity Growth, 6/2015 to present; Executive Vice President at Liquid Web, 6/2015 to 7/2016; Senior Vice President at Cbeyond, 12/2010 to 7/2014; Independent Director at thinQ, 7/2010 to 12/2018; DC BLOX",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 179,
+      "date_added": "2026-01-09 16:07:31 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "dc-blox",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Chief Executive Officer",
+      "company": "DC BLOX",
+      "start": "3/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Advisory Board Member",
+      "company": "DC BLOX",
+      "start": "9/2016",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Magic Beans Equity Growth",
+      "start": "6/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Vice President",
+      "company": "Liquid Web",
+      "start": "6/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Cbeyond",
+      "start": "12/2010",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Independent Director",
+      "company": "thinQ",
+      "start": "7/2010",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "raw": "DC BLOX"
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Harvard Business School, 2014 to 2014",
+    "The University Of Texas At Arlington, 1986 to 1986"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

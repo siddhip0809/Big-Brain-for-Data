@@ -1,0 +1,65 @@
+{
+  "id": "matthew-shield-343c682b",
+  "type": "person",
+  "name": "Matthew Shield",
+  "current_title": "Sub-Region Precon & Buyout Lead",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/matthew-shield-70108693",
+  "location": "Mount Pleasant, South Carolina",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sub-Region Precon & Buyout Lead at Turner & Townsend, 4/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 323,
+      "date_added": "2026-08-13 11:47:14 UTC",
+      "date_updated": "2026-08-19 07:58:54 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sub-Region Precon & Buyout Lead",
+      "company": "Turner & Townsend",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Mount Pleasant",
+    "region": "South Carolina",
+    "country": "United States",
+    "group": "South Carolina"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

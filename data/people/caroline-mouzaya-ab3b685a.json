@@ -1,0 +1,132 @@
+{
+  "id": "caroline-mouzaya-ab3b685a",
+  "type": "person",
+  "name": "Caroline Mouzaya",
+  "current_title": "Associate Director - Data Centers",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/caroline-mouzaya-68152537",
+  "location": "Los Angeles",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Co-Owner at Velvet Thorne Studios, 11/2025 to present; Associate Director - Data Centers at Turner & Townsend, 11/2025 to present; Senior Consultant at Turner & Townsend, 12/2022 to present; Preconstruction Engineer at Skanska, 11/2019 to 12/2022; Estimator at Wesely Thomas Enterprises, 3/2019 to 11/2019; Estimator at DPR Construction, 8/2017 to 9/2018; Project Engineer Estimator at Swinerton, 2/2016 to 7/2017; Project Engineer, Intern at Swinerton, 9/2015 to 1/2016; Field Engineer/Project Engineer Intern at Swinerton, 8/2015 to 9/2015; Intern Estimator at Swinerton, 3/2015 to 7/2015; Assistant Project Engineer at CSULB Design and Construction Services, 5/2014 to 12/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 477,
+      "date_added": "2026-08-24 15:07:57 UTC",
+      "date_updated": "2026-08-26 07:28:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Co-Owner",
+      "company": "Velvet Thorne Studios",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director - Data Centers",
+      "company": "Turner & Townsend",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Skanska",
+      "start": "11/2019",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Wesely Thomas Enterprises",
+      "start": "3/2019",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "DPR Construction",
+      "start": "8/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Estimator",
+      "company": "Swinerton",
+      "start": "2/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, Intern",
+      "company": "Swinerton",
+      "start": "9/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Field Engineer/Project Engineer Intern",
+      "company": "Swinerton",
+      "start": "8/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Intern Estimator",
+      "company": "Swinerton",
+      "start": "3/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Engineer",
+      "company": "CSULB Design and Construction Services",
+      "start": "5/2014",
+      "end": "12/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Los Angeles",
+    "region": null,
+    "country": null,
+    "group": "Los Angeles"
+  },
+  "education": [
+    "Construction Engineering Management, Construction Engineering, California State University, Long Beach, 2012 to 2016"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

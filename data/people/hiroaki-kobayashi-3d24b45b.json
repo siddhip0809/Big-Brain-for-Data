@@ -1,0 +1,120 @@
+{
+  "id": "hiroaki-kobayashi-3d24b45b",
+  "type": "person",
+  "name": "Hiroaki Kobayashi",
+  "current_title": "Vice President, Japan Country Manager",
+  "current_company": "CloudHQ",
+  "linkedin": "https://www.linkedin.com/in/hiroaki-kobayashi-a506a684",
+  "location": "Japan",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Japan Country Manager at CloudHQ, 2/2025 to present; Director, Data Centers at ESR Group, 7/2021 to 10/2024; Vice President, Strategy Business Development at Digital Realty, 10/2018 to 4/2021; Senior Manager at Mitsubishi Corporation Urban Development, 10/2016 to 9/2018; Senior Manager at Diamond Realty Management, 3/2013 to 9/2016; Senior Manager at Mitsubishi, 7/2007 to 6/2021; Assistant Manager at Global Alliance Realty, 1/2005 to 7/2007; - at Takenaka, 4/2002 to 1/2005; CloudHQ",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 54,
+      "date_added": "2025-11-06 15:35:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "cloudhq",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Japan Country Manager",
+      "company": "CloudHQ",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Data Centers",
+      "company": "ESR Group",
+      "start": "7/2021",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President, Strategy Business Development",
+      "company": "Digital Realty",
+      "start": "10/2018",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Mitsubishi Corporation Urban Development",
+      "start": "10/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Diamond Realty Management",
+      "start": "3/2013",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Mitsubishi",
+      "start": "7/2007",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Manager",
+      "company": "Global Alliance Realty",
+      "start": "1/2005",
+      "end": "7/2007",
+      "current": false
+    },
+    {
+      "title": "-",
+      "company": "Takenaka",
+      "start": "4/2002",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "raw": "CloudHQ"
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Japan",
+    "group": "Japan"
+  },
+  "education": [
+    "Bachelor of Science in Architecture, Architecture, Kyoto University, 1997 to 2002"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

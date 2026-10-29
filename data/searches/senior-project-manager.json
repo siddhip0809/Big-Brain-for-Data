@@ -1,0 +1,27 @@
+{
+  "id": "e3a9c86c-447a-4b39-8f8e-4b73af20bb57",
+  "type": "search",
+  "name": "Senior Project Manager",
+  "client_company": "Goodman",
+  "client_company_id": "goodman",
+  "status": "pitch",
+  "project_type": "Retained",
+  "started_at": "2026-04-24",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

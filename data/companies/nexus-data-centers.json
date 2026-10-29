@@ -1,0 +1,39 @@
+{
+  "id": "nexus-data-centers",
+  "type": "company",
+  "name": "Nexus Data Centers",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "Texas, United States",
+  "founded": null,
+  "website": "https://nexus-datacenters.com/",
+  "linkedin": "https://www.linkedin.com/company/nexus-data-centers/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-07-27 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

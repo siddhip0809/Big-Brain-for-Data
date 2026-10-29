@@ -1,0 +1,100 @@
+{
+  "id": "cate-taylor-5b4b96cf",
+  "type": "person",
+  "name": "Cate Taylor",
+  "current_title": "Enterprise Account Executive",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/catetaylor8",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Enterprise Account Executive at Equinix, 4/2019 to present; Enterprise Account Manager at Nutanix, 3/2018 to 4/2019; Senior Account Manager at World Wide Technology, 1/2017 to 3/2017; Senior Account Manager at Kovarus, 9/2005 to 8/2016; Director/Manager at The Listening Center, 3/2003 to 9/2005; Director at The Listening Center, 3/2003 to 9/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 256,
+      "date_added": "2026-04-22 14:37:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Enterprise Account Executive",
+      "company": "Equinix",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "Nutanix",
+      "start": "3/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "World Wide Technology",
+      "start": "1/2017",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Kovarus",
+      "start": "9/2005",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Director/Manager",
+      "company": "The Listening Center",
+      "start": "3/2003",
+      "end": "9/2005",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "The Listening Center",
+      "start": "3/2003",
+      "end": "9/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

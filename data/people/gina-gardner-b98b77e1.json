@@ -1,0 +1,109 @@
+{
+  "id": "gina-gardner-b98b77e1",
+  "type": "person",
+  "name": "Gina Gardner",
+  "current_title": "Sr. Director of Hyperscale Solutions",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/gina-gardner-a17371",
+  "location": "San Francisco, California",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Sr. Director of Hyperscale Solutions at QTS Data Centers, 10/2015 to present; Senior Account Executive at Latisys, 6/2013 to 9/2016; Strategic Account Director at Comcast, 2/2005 to 9/2008; National Account Manager at Broadwing Communications, 1/2003 to 12/2005; Strategic Account Director at Colo.com, 1/1999 to 12/2002; Sr. Account Executive at Global Crossing, 9/1998 to 9/1999; Sr. Account Executive at Best Internet /Verio, 10/1995 to 12/1998",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 269,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Sr. Director of Hyperscale Solutions",
+      "company": "QTS Data Centers",
+      "start": "10/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Latisys",
+      "start": "6/2013",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "Comcast",
+      "start": "2/2005",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Broadwing Communications",
+      "start": "1/2003",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Director",
+      "company": "Colo.com",
+      "start": "1/1999",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Global Crossing",
+      "start": "9/1998",
+      "end": "9/1999",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Best Internet /Verio",
+      "start": "10/1995",
+      "end": "12/1998",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BA, Humanities/Architecture, Arizona State University, 1988 to 1992"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

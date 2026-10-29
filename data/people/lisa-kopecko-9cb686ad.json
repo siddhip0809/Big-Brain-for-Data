@@ -1,0 +1,118 @@
+{
+  "id": "lisa-kopecko-9cb686ad",
+  "type": "person",
+  "name": "Lisa Kopecko",
+  "current_title": "Senior Account Executive",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/lisakopecko",
+  "location": "Richmond, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Account Executive at QTS Data Centers, 11/2015 to present; Account Manager at Achieve One, 9/2013 to 11/2015; Senior Account Executive at Active Network, 6/2012 to 9/2013; Senior Sales Representative at Competitor Group, 3/2011 to 6/2012; Sales / Design Consultant at Lane Homes & Remodeling, 5/2006 to 7/2009; Member Board Of Directors, Marketing Manager at Family Electric, 1/2004 to 5/2006; Manager, Affiliate Sales & Marketing at Discovery, 3/1999 to 11/2003; Marketing Manager at Goodlife Tv Network, 8/1996 to 3/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 58,
+      "date_added": "2025-11-07 13:10:19 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Account Executive",
+      "company": "QTS Data Centers",
+      "start": "11/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Manager",
+      "company": "Achieve One",
+      "start": "9/2013",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Active Network",
+      "start": "6/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Representative",
+      "company": "Competitor Group",
+      "start": "3/2011",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Sales / Design Consultant",
+      "company": "Lane Homes & Remodeling",
+      "start": "5/2006",
+      "end": "7/2009",
+      "current": false
+    },
+    {
+      "title": "Member Board Of Directors, Marketing Manager",
+      "company": "Family Electric",
+      "start": "1/2004",
+      "end": "5/2006",
+      "current": false
+    },
+    {
+      "title": "Manager, Affiliate Sales & Marketing",
+      "company": "Discovery",
+      "start": "3/1999",
+      "end": "11/2003",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "Goodlife Tv Network",
+      "start": "8/1996",
+      "end": "3/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Richmond",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Bachelor Of Science, Bachelors, Film, Television, San Diego State University, 1996 to 1996",
+    "Paralegal, University Of San Diego, 1991 to 1991"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

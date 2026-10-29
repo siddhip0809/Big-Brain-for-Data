@@ -1,0 +1,27 @@
+{
+  "id": "c9d085e9-3c5d-43b8-a2cb-fc8bda5ca3de",
+  "type": "search",
+  "name": "VP Power and Utilities",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "active",
+  "project_type": "Retained",
+  "started_at": "2026-09-10",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "jll",
+  "type": "company",
+  "name": "JLL",
+  "aliases": [
+    "Jones Lang LaSalle"
+  ],
+  "roles": [
+    "real_estate_developer",
+    "consultancy"
+  ],
+  "parent_industry": "real_estate",
+  "industry_role": "real estate brokerage & advisory — data center practice",
+  "headquarters": "Chicago, Illinois, United States",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": null,
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Added 2026-09-13 as an adjacent company because it is where data-center talent comes from: 11 people now at tracked companies list it as their previous employer (talent_flows.csv). Filed under the closest existing tier; industry_role says what it actually is. Website, headcount and ownership not yet researched. Role consultancy added 2026-09-16: Dedicated EMEA PDS Data Centres head and UK PDS Data Centres lead (2024); EMEA critical-environment hires; recruits DC project directors/VPs in the US; InfraPartners alliance for AI DC deployment.. EMEA data centre business spanning Work Dynamics (consulting/FM), Capital Markets and a Critical Environment Centre of Excellence; series of 2025-2026 senior hires. (2026-09-16).",
+  "sources": [
+    "Career histories of people in data/people/ (data/derived/talent_flows.csv), 2026-09-13",
+    "https://www.jll.com/en-uk/newsroom/jll-appoints-data-centres-project-development-services-lead-in",
+    "https://www.jll.com/en-uk/newsroom/jll-strengthens-end-to-end-data-centre-offering-with-appointment"
+  ],
+  "last_updated": "2026-09-16"
+}

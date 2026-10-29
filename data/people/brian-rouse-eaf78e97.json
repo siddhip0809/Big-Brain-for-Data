@@ -1,0 +1,133 @@
+{
+  "id": "brian-rouse-eaf78e97",
+  "type": "person",
+  "name": "Brian Rouse",
+  "current_title": "SVP Land Development",
+  "current_company": "KRIOS Infrastructure",
+  "location": "Dublin,  County Dublin, Ireland",
+  "linkedin": "https://www.linkedin.com/in/brian-rouse-27a26a2",
+  "seniority": "Senior Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "SVP Land Development at KRIOS Infrastructure, 8/2026 to present; EMEA Data Center Land Development And Permitting Director at Microsoft, 10/2023 to 8/2026; Emea Environmental Site Selection And Permitting Manager at Meta, 5/2018 to 10/2023; Environmental Manager, Emea at AWS, 2/2015 to 4/2018; Senior Consultant at ERM Environmental Resources Management, 12/2006 to 1/2015; Principal Consultant at WYG International, 1/2003 to 1/2006; Consultant at Spillclean, 1/2000 to 1/2002",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 103,
+      "date_added": "2026-08-26 09:25:18 UTC",
+      "date_updated": "2026-08-26 04:26:00 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 90,
+      "date_added": "2026-07-09 11:12:52 UTC",
+      "date_updated": "2026-08-26 04:25:18 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 369,
+      "date_added": "2026-04-21 15:51:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "krios-infrastructure",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "career": [
+    {
+      "title": "SVP Land Development",
+      "company": "KRIOS Infrastructure",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EMEA Data Center Land Development And Permitting Director",
+      "company": "Microsoft",
+      "start": "10/2023",
+      "end": "8/2026",
+      "current": false
+    },
+    {
+      "title": "Emea Environmental Site Selection And Permitting Manager",
+      "company": "Meta",
+      "start": "5/2018",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Environmental Manager, Emea",
+      "company": "AWS",
+      "start": "2/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "ERM Environmental Resources Management",
+      "start": "12/2006",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Principal Consultant",
+      "company": "WYG International",
+      "start": "1/2003",
+      "end": "1/2006",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Spillclean",
+      "start": "1/2000",
+      "end": "1/2002",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dublin",
+    "region": "County Dublin",
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "education": [
+    "Bachelor Of Science, Bachelors, Chemistry, Geochemistry, Geology, University College Dublin, 1994 to 1999"
+  ],
+  "biography": "Brian Rouse has 12 years of experience developing data centers for AWS, Meta, and Microsoft, delivering gigawatts of data center capacity across the US, Europe, Canada, Singapore, Australia, and India. He is proficient in legal and permitting systems across Europe and prides himself on stakeholder engagement, working effectively with jurisdictional authorities (AHJs) to deliver projects on time and budget. Brian emphasizes his ability to navigate the potential negative media connotations of data centers while ensuring projects benefit local communities. He enjoys new projects, problem-solving, and delivering strong results from uncertain beginnings.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

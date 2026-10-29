@@ -1,0 +1,51 @@
+{
+  "id": "odata",
+  "type": "company",
+  "name": "ODATA",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "United States",
+  "founded": null,
+  "website": "http://o-data.tech",
+  "linkedin": "https://www.linkedin.com/company/odatape/",
+  "headcount": "1 to 10",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "Yes",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 127.8,
+      "early_stage_mw": 164.0
+    },
+    "south_america": {
+      "total_mw": 224.3,
+      "early_stage_mw": 116.0
+    }
+  }
+}

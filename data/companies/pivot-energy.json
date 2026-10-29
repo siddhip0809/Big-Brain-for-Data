@@ -1,0 +1,39 @@
+{
+  "id": "pivot-energy",
+  "type": "company",
+  "name": "Pivot Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Denver, Colorado",
+  "founded": null,
+  "website": "https://www.pivotenergy.net",
+  "linkedin": "https://www.linkedin.com/company/pivot-energy/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "No",
+      "Primary Scope": "Multi Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Solar and storage developer. Focus on commercial and community solar. Operates in WECC, MISO, PJM.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "f0514e47-9d97-4581-abd5-779f4cc0b73f",
+  "type": "search",
+  "name": "Development, Construction & Leasing Roles",
+  "client_company": "Amp Z",
+  "client_company_id": "amp-z",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2026-02-06",
+  "closed_at": "2026-04-07",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

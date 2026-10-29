@@ -1,0 +1,58 @@
+{
+  "id": "alan-davis-9c946e66",
+  "type": "person",
+  "name": "Alan Davis",
+  "current_title": "Construction Manager",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/alan-davis-a0910a31",
+  "location": "Gilbert, Arizona",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Construction Manager at Vantage, 2/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 301,
+      "date_added": "2026-07-10 09:33:33 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Gilbert",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

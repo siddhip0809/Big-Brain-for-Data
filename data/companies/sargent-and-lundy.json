@@ -1,0 +1,26 @@
+{
+  "id": "sargent-and-lundy",
+  "type": "company",
+  "name": "Sargent & Lundy",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — power & grid advisory, design / MEP engineering, strategy & advisory",
+  "headquarters": "Chicago, USA",
+  "founded": null,
+  "website": "https://www.sargentlundy.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Dedicated Data Centers services page plus project profiles and an 'Accelerating Data Center Siting Approvals' piece; energy consulting & planning group supports DC growth.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Dedicated Data Centers services page plus project profiles and an 'Accelerating Data Center Siting Approvals' piece; energy consulting & planning group supports DC growth. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.sargentlundy.com/services/data-centers/",
+    "https://www.sargentlundy.com"
+  ],
+  "last_updated": "2026-09-16"
+}

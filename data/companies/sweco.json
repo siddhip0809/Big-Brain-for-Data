@@ -1,0 +1,26 @@
+{
+  "id": "sweco",
+  "type": "company",
+  "name": "Sweco",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — design / MEP engineering, programme & project management",
+  "headquarters": "Stockholm, Sweden",
+  "founded": null,
+  "website": "https://www.sweco.fi",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data center design offering in Finland and Denmark with named business leads; hiring Project Manager Data Centers in Belgium.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data center design offering in Finland and Denmark with named business leads; hiring Project Manager Data Centers in Belgium. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.sweco.fi/en/data-center-design/",
+    "https://www.sweco.fi"
+  ],
+  "last_updated": "2026-09-16"
+}

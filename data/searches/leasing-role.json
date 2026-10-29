@@ -1,0 +1,27 @@
+{
+  "id": "3e6531df-9d16-45f1-9ebc-f3e0564ce9ec",
+  "type": "search",
+  "name": "Leasing role",
+  "client_company": "TA Digital Group",
+  "client_company_id": "ta-digital-group",
+  "status": "pitch",
+  "project_type": "Retained",
+  "started_at": "2026-02-06",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

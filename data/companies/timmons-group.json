@@ -1,0 +1,38 @@
+{
+  "id": "timmons-group",
+  "type": "company",
+  "name": "Timmons Group",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Richmond, Virginia",
+  "founded": null,
+  "website": "https://www.timmons.com",
+  "linkedin": "https://www.linkedin.com/company/timmons-group/",
+  "headcount": "501 to 1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Civil/land dev. Strong DC campus work in Virginia.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

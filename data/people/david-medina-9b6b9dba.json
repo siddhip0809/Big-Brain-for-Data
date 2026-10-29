@@ -1,0 +1,124 @@
+{
+  "id": "david-medina-9b6b9dba",
+  "type": "person",
+  "name": "David Medina",
+  "current_title": "Preconstruction Manager - Mission Critical",
+  "current_company": "Layton Construction",
+  "location": "Salt Lake City, Utah",
+  "linkedin": "https://www.linkedin.com/in/david-medina-697446b6",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager - Mission Critical at Layton Construction, 7/2026 to present; Estimator - Mission Critical at Layton Construction, 12/2024 to 7/2026; Consultant, Estimation at Turner & Townsend ·, 5/2024 to 12/2024; Estimator (Intern) at Okland Construction, 11/2022 to 5/2024; Senior Project Engineer at Okland Construction, 1/2021 to 11/2022; Project Engineer at Okland Construction, 3/2019 to 1/2021; Estimator at Okland Construction, 12/2017 to 3/2019; Estimator (Intern) at Okland Construction, 5/2017 to 12/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 168,
+      "date_added": "2026-08-21 15:22:27 UTC",
+      "date_updated": "2026-08-21 10:27:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 375,
+      "date_added": "2026-08-18 13:02:02 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager - Mission Critical",
+      "company": "Layton Construction",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator - Mission Critical",
+      "company": "Layton Construction",
+      "start": "12/2024",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Consultant, Estimation",
+      "company": "Turner & Townsend ·",
+      "start": "5/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator (Intern)",
+      "company": "Okland Construction",
+      "start": "11/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Okland Construction",
+      "start": "1/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Okland Construction",
+      "start": "3/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Okland Construction",
+      "start": "12/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator (Intern)",
+      "company": "Okland Construction",
+      "start": "5/2017",
+      "end": "12/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Salt Lake City",
+    "region": "Utah",
+    "country": "United States",
+    "group": "Utah"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

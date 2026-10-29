@@ -1,0 +1,87 @@
+{
+  "id": "navneet-agrawal-2a1d36b3",
+  "type": "person",
+  "name": "Navneet Agrawal",
+  "current_title": "Director of Preconstruction",
+  "current_company": "Hathaway Dinwiddie",
+  "location": "Los Angeles, California",
+  "linkedin": "https://www.linkedin.com/in/navneet-agrawal-2a1a248",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Preconstruction at Hathaway Dinwiddie, 7/2023 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 45,
+      "date_added": "2026-08-18 09:58:50 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 182,
+      "date_added": "2026-08-11 07:26:35 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 182,
+      "date_added": "2026-08-11 07:26:35 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hathaway-dinwiddie",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Hathaway Dinwiddie",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

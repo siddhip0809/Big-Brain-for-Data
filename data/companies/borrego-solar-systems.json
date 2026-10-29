@@ -1,0 +1,39 @@
+{
+  "id": "borrego-solar-systems",
+  "type": "company",
+  "name": "Borrego Solar Systems",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "San Diego, California",
+  "founded": null,
+  "website": "https://www.borregosolar.com",
+  "linkedin": "https://www.linkedin.com/company/borrego-solar/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "No",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Commercial and community solar developer and EPC. Not utility-scale. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

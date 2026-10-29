@@ -1,0 +1,122 @@
+{
+  "id": "andrew-sileo-8b68d400",
+  "type": "person",
+  "name": "Andrew Sileo",
+  "current_title": "Lead Estimator/Assistant Project Manager",
+  "current_company": "Hensel Phelps",
+  "location": "McLean, Virginia",
+  "linkedin": "https://www.linkedin.com/in/andrew-sileo-026a9330a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Lead Estimator/Assistant Project Manager at Hensel Phelps, 1/2023 to present; Assistant Project Manager at Hensel Phelps, 3/2022 to 12/2022; Assistant Project Manager at Hensel Phelps, 10/2021 to 2/2022; Office Engineer at Hensel Phelps, 5/2018 to 9/2021; Field Engineer at Hensel Phelps, 5/2017 to 4/2018; Field Engineer at Hensel Phelps, 10/2016 to 4/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 25,
+      "date_added": "2026-08-14 14:50:29 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 62,
+      "date_added": "2026-08-05 12:33:12 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 62,
+      "date_added": "2026-08-05 12:33:12 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator/Assistant Project Manager",
+      "company": "Hensel Phelps",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Hensel Phelps",
+      "start": "3/2022",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Hensel Phelps",
+      "start": "10/2021",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "5/2018",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "5/2017",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "10/2016",
+      "end": "4/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "McLean",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

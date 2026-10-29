@@ -1,0 +1,87 @@
+{
+  "id": "kelly-chi-9b007fc0",
+  "type": "person",
+  "name": "Kelly Chi",
+  "current_title": "Senior Estimator",
+  "current_company": "DPR Construction",
+  "location": "Chantilly, Virginia",
+  "linkedin": "https://www.linkedin.com/in/kelly-chi-08a76756",
+  "seniority": null,
+  "industry_segment": "Data Centre;Mission Critical",
+  "career_history": "Senior Estimator at DPR Construction, 9/2017 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 34,
+      "date_added": "2026-08-14 14:55:48 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 143,
+      "date_added": "2026-08-10 12:17:44 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 143,
+      "date_added": "2026-08-10 12:17:44 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "DPR Construction",
+      "start": "9/2017",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Chantilly",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

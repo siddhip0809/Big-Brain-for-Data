@@ -1,0 +1,38 @@
+{
+  "id": "smith-group",
+  "type": "company",
+  "name": "Smith Group",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Detroit, Michigan",
+  "founded": null,
+  "website": "https://www.smithgroup.com",
+  "linkedin": "https://www.linkedin.com/company/smithgroup/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: Architecture + engineering. Some DC campus design work.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

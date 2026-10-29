@@ -1,0 +1,89 @@
+{
+  "id": "ryan-horn-b0d864e3",
+  "type": "person",
+  "name": "Ryan Horn",
+  "current_title": "Senior Electrical Estimator",
+  "current_company": "Loenbro",
+  "location": "Denver , Colorado",
+  "linkedin": "https://www.linkedin.com/in/ryry-horn",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Electrical Estimator at Loenbro, 11/2023 to present; Project Manager at Guarantee Electrical, 9/2020 to 8/2022; Construction Estimator at TIC - The Industrial, 1/2006 to 9/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 100,
+      "date_added": "2026-08-19 11:33:29 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 133,
+      "date_added": "2026-08-10 09:45:04 UTC",
+      "date_updated": "2026-08-19 06:33:28 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Loenbro",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Guarantee Electrical",
+      "start": "9/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "TIC - The Industrial",
+      "start": "1/2006",
+      "end": "9/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

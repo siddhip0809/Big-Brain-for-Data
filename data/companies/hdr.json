@@ -1,0 +1,29 @@
+{
+  "id": "hdr",
+  "type": "company",
+  "name": "HDR",
+  "aliases": [
+    "Hurley Palmer Flatt",
+    "HPF"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — design / MEP engineering, power & grid advisory",
+  "headquarters": "Omaha, Nebraska, United States",
+  "founded": null,
+  "website": "https://www.hdrinc.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data Centers market page (claims #1 data center architecture firm ranking); acquired UK mission-critical engineer Hurley Palmer Flatt Group in 2019; hiring regional data center/mission critical principals and power generation data center leads.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers market page (claims #1 data center architecture firm ranking); acquired UK mission-critical engineer Hurley Palmer Flatt Group in 2019; hiring regional data center/mission critical principals and power generation data center leads. Added 2026-09-16 from open-source research (import_researched_companies.py). Acquired London mission-critical engineer Hurley Palmer Flatt in 2019 (DCD) (2026-09-16).",
+  "sources": [
+    "https://www.hdrinc.com/markets/techmediatelecom-data/data-centers",
+    "https://www.hdrinc.com"
+  ],
+  "last_updated": "2026-09-16"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "adam-nikssarian-373984ef",
+  "type": "person",
+  "name": "Adam Nikssarian",
+  "current_title": "Senior Project Manager",
+  "current_company": "Iron Mountian",
+  "linkedin": "https://www.linkedin.com/in/adam-nikssarian-619667139",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Project Manager at Iron Mountian, 1/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 292,
+      "date_added": "2026-07-10 08:13:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "iron-mountian",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager",
+      "company": "Iron Mountian",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

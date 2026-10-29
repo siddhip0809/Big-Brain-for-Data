@@ -1,0 +1,64 @@
+{
+  "id": "dave-green-76676eed",
+  "type": "person",
+  "name": "Dave Green",
+  "current_title": "Chief Estimator",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/dave-green-33840b15",
+  "location": "Minneapolis, Minnesota",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Estimator at Mortenson, 2/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Culture Fit",
+      "rank": 262,
+      "date_added": "2026-08-12 10:50:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Estimator",
+      "company": "Mortenson",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Minneapolis",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

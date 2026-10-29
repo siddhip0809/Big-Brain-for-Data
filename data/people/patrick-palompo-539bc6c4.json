@@ -1,0 +1,142 @@
+{
+  "id": "patrick-palompo-539bc6c4",
+  "type": "person",
+  "name": "Patrick Palompo",
+  "current_title": "Senior Energy Systems Engineer",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/patrick-palompo-pe-34464415",
+  "location": "Jacksonville, Florida",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Energy Systems Engineer at Microsoft, 7/2025 to present; President / Principal Electrical Engineer at PaloGrid, 4/2025 to present; Senior Datacenter Electrical Engineer - High Voltage Substations at Microsoft, 7/2024 to 7/2025; Manager, O&P Compliance at Northeast Power Coordinating Council, 3/2024 to 7/2024; Senior Compliance Engineer at Northeast Power Coordinating Council, 6/2021 to 3/2024; Principal Electrical Engineer - Power Networks at INTECSEA, 8/2020 to 6/2021; Interim Manager System Protection & Controls at JEA, 3/2020 to 8/2020; Protection & Controls Specialist at JEA, 8/2017 to 3/2020; Automation Engineer - Substations at PG&E, 3/2011 to 10/2013; Electrical Engineer - Office of Electric Reliability at Federal Energy Regulatory Commission, 6/2010 to 2/2011; Electrical Engineer - System Operations, SCADA, EMS at JEA, 3/2008 to 5/2010; Northeast Power Coordinating Council; Microsoft",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 146,
+      "date_added": "2026-06-02 15:01:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Energy Systems Engineer",
+      "company": "Microsoft",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President / Principal Electrical Engineer",
+      "company": "PaloGrid",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Datacenter Electrical Engineer - High Voltage Substations",
+      "company": "Microsoft",
+      "start": "7/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Manager, O&P Compliance",
+      "company": "Northeast Power Coordinating Council",
+      "start": "3/2024",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Compliance Engineer",
+      "company": "Northeast Power Coordinating Council",
+      "start": "6/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Principal Electrical Engineer - Power Networks",
+      "company": "INTECSEA",
+      "start": "8/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Interim Manager System Protection & Controls",
+      "company": "JEA",
+      "start": "3/2020",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Protection & Controls Specialist",
+      "company": "JEA",
+      "start": "8/2017",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Automation Engineer - Substations",
+      "company": "PG&E",
+      "start": "3/2011",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer - Office of Electric Reliability",
+      "company": "Federal Energy Regulatory Commission",
+      "start": "6/2010",
+      "end": "2/2011",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer - System Operations, SCADA, EMS",
+      "company": "JEA",
+      "start": "3/2008",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "raw": "Northeast Power Coordinating Council"
+    },
+    {
+      "raw": "Microsoft"
+    }
+  ],
+  "location_norm": {
+    "city": "Jacksonville",
+    "region": "Florida",
+    "country": "United States",
+    "group": "Florida"
+  },
+  "education": [
+    "Bachelors, Electrical Engineering, University Of Florida, 2003 to 2007"
+  ],
+  "biography": "Professional Electrical Engineer with an extensive background in power systems and mission critical infrastructure. Experienced in energy generation, transmission, and distribution with specific technical knowledge of operations and maintenance, SCADA/EMS systems, substation automation systems, protection and controls, and regulatory compliance.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "kieran-mchale-185a4a98",
+  "type": "person",
+  "name": "Kieran McHale",
+  "current_title": "Electrical Estimator",
+  "current_company": "Accenture",
+  "linkedin": "https://www.linkedin.com/in/kieran-mchale-a706a5a0",
+  "location": "Boulder, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Electrical Estimator at Accenture, 10/2025 to present; Electrical Estimator at Loenbro, 1/2025 to 5/2025; Electrical Estimator at Intermountain Electric, 5/2023 to 1/2025; Electrical Estimator at Greiner Electric, 7/2017 to 8/2018; Electrical Apprentice/ Journeyman at Greiner Electric, 9/2015 to 1/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 131,
+      "date_added": "2026-08-10 08:36:56 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Electrical Estimator",
+      "company": "Accenture",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Loenbro",
+      "start": "1/2025",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Intermountain Electric",
+      "start": "5/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Electrical Estimator",
+      "company": "Greiner Electric",
+      "start": "7/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Electrical Apprentice/ Journeyman",
+      "company": "Greiner Electric",
+      "start": "9/2015",
+      "end": "1/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Boulder",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

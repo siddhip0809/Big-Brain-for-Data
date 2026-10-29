@@ -1,0 +1,39 @@
+{
+  "id": "renewable-properties",
+  "type": "company",
+  "name": "Renewable Properties",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "San Francisco, California",
+  "founded": null,
+  "website": "https://www.renewableproperties.com",
+  "linkedin": "https://www.linkedin.com/company/renewable-properties/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Small-scale and community solar developer. Primarily CAISO and Western US. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

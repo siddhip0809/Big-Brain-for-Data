@@ -1,0 +1,64 @@
+{
+  "id": "google",
+  "type": "company",
+  "name": "Google",
+  "aliases": [],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": "Mountain View, California",
+  "founded": null,
+  "website": "https://goo.gle/3DLEokh",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Civil Engineering",
+    "Consultancy",
+    "Data Center Developer",
+    "General Contractor",
+    "Hyperscaler",
+    "Real Estate Development",
+    "Renewables",
+    "Utilities"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 26 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "hyperscaler"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Hyperscale",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "Yes",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/google/",
+  "headcount": "10001",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 1105.6,
+      "early_stage_mw": 460.0
+    },
+    "emea": {
+      "total_mw": 3225.0,
+      "early_stage_mw": 1678.0
+    },
+    "south_america": {
+      "total_mw": 70.0,
+      "early_stage_mw": 28.0
+    }
+  }
+}

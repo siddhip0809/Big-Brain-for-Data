@@ -1,0 +1,152 @@
+{
+  "id": "william-fullard-053bd699",
+  "type": "person",
+  "name": "William Fullard",
+  "current_title": "Director",
+  "current_company": "Soben",
+  "location": "Charlotte, North Carolina",
+  "linkedin": "https://www.linkedin.com/in/william-f-675177233",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director at Soben, 6/2026 to present; Associate Director at Soben, 7/2025 to 5/2026; Lead Cost Manager at Soben, 1/2025 to 7/2025; Senior Cost Manager at Soben, 4/2024 to 12/2024; Pre-Construction Project Manager at RJ Kearey Construction, 3/2023 to 3/2024; Pre-Construction Manager at Kearey Construction, 12/2022 to 3/2023; Associate at Rider Levett Bucknall, 5/2022 to 8/2022; Commercial Director at The Blue Chip Development Trust, 1/2015 to 5/2022; Commercial Director at Stone Projects Namibia, 1/2012 to 12/2014; Senior Quantity Surveyor at The John F Hunt Group, 5/2010 to 12/2011; Freelance Project Surveyor at Bishop Construction Services, 11/2009 to 5/2010; Project Quantity Surveyor at KNIGHT BUILD LIMITED, 8/2008 to 11/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 144,
+      "date_added": "2026-08-19 13:05:38 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 348,
+      "date_added": "2026-08-14 09:10:43 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director",
+      "company": "Soben",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Soben",
+      "start": "7/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Lead Cost Manager",
+      "company": "Soben",
+      "start": "1/2025",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Soben",
+      "start": "4/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Project Manager",
+      "company": "RJ Kearey Construction",
+      "start": "3/2023",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Manager",
+      "company": "Kearey Construction",
+      "start": "12/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Rider Levett Bucknall",
+      "start": "5/2022",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "The Blue Chip Development Trust",
+      "start": "1/2015",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "Stone Projects Namibia",
+      "start": "1/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "The John F Hunt Group",
+      "start": "5/2010",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Freelance Project Surveyor",
+      "company": "Bishop Construction Services",
+      "start": "11/2009",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Project Quantity Surveyor",
+      "company": "KNIGHT BUILD LIMITED",
+      "start": "8/2008",
+      "end": "11/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Charlotte",
+    "region": "North Carolina",
+    "country": "United States",
+    "group": "North Carolina"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

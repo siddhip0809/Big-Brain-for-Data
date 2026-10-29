@@ -1,0 +1,44 @@
+{
+  "id": "penzance",
+  "type": "company",
+  "name": "Penzance",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "Washington DC, United States",
+  "founded": null,
+  "website": "https://pzredi.com/",
+  "linkedin": "https://www.linkedin.com/company/penzance/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-31 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "capacity_mw": {
+    "north_america": {
+      "early_stage_mw": 600.0
+    }
+  }
+}

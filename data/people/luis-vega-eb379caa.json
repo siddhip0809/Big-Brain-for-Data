@@ -1,0 +1,93 @@
+{
+  "id": "luis-vega-eb379caa",
+  "type": "person",
+  "name": "Luis Vega",
+  "current_title": "Director, Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/luis-vega-mba-pmp-507a89248",
+  "location": "Sterling, Virginia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Development at QTS Data Centers, 6/2026 to present; Development Program Manager at QTS Data Centers, 6/2025 to 6/2026; Sr Project Manager at Himes Associates, 1/2022 to 6/2025; Project Manager at Critical Project Services, 2/2019 to 12/2021; Commissioning Engineer at AWS, 6/2013 to 9/2018; Field Services Engineer at Alban CAT, 5/2004 to 6/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 174,
+      "date_added": "2026-07-07 12:06:45 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Development",
+      "company": "QTS Data Centers",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "6/2025",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Sr Project Manager",
+      "company": "Himes Associates",
+      "start": "1/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Critical Project Services",
+      "start": "2/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer",
+      "company": "AWS",
+      "start": "6/2013",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Field Services Engineer",
+      "company": "Alban CAT",
+      "start": "5/2004",
+      "end": "6/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Sterling",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

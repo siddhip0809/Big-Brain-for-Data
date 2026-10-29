@@ -1,0 +1,31 @@
+{
+  "id": "ecf1c3be-962f-4e60-90b5-94b871b401a9",
+  "type": "search",
+  "name": "Director / Sr Director Cost Strategy [Non dc]",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2026-08-25",
+  "closed_at": "2026-09-07",
+  "closing_reason": "Terminated",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 255,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

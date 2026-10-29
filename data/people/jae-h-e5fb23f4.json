@@ -1,0 +1,58 @@
+{
+  "id": "jae-h-e5fb23f4",
+  "type": "person",
+  "name": "Jae H.",
+  "current_title": "Senior Manager of Construction",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/jae-h-233861186",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Manager of Construction at Equinix, 5/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 236,
+      "date_added": "2026-07-08 11:24:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager of Construction",
+      "company": "Equinix",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

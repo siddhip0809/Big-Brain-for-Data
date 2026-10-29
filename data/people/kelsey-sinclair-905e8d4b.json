@@ -1,0 +1,128 @@
+{
+  "id": "kelsey-sinclair-905e8d4b",
+  "type": "person",
+  "name": "Kelsey Sinclair",
+  "current_title": "Central Estimating Manager",
+  "current_company": "Google",
+  "location": "Tulsa, Oklahoma",
+  "linkedin": "https://www.linkedin.com/in/kelsey-sinclair-96743851",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Central Estimating Manager at Google, 7/2024 to present; Senior Consultant at Turner & Townsend, 11/2023 to 7/2024; Consultant at Turner & Townsend, 2/2018 to 11/2023; Project Controls Analyst at Willbros Tank Services, 6/2017 to 12/2017; Project Controls Specialist at Granite Services, 8/2016 to 6/2017; Project Controls - Cost Engineering & Quantity Tracking at Matrix Service, 8/2014 to 7/2015; Project Controls - Cost Engineering & Quantity Tracking at Matrix Service, 9/2013 to 5/2014; Document Control Specialist at GSL Electric, 5/2013 to 8/2013; Junior Project Engineer at Matrix Service, 2/2013 to 4/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 236,
+      "date_added": "2026-08-26 13:14:42 UTC",
+      "date_updated": "2026-08-26 08:15:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 448,
+      "date_added": "2026-08-24 11:26:55 UTC",
+      "date_updated": "2026-08-26 08:14:42 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "google",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Central Estimating Manager",
+      "company": "Google",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "11/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Turner & Townsend",
+      "start": "2/2018",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Analyst",
+      "company": "Willbros Tank Services",
+      "start": "6/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Granite Services",
+      "start": "8/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Project Controls - Cost Engineering & Quantity Tracking",
+      "company": "Matrix Service",
+      "start": "8/2014",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Project Controls - Cost Engineering & Quantity Tracking",
+      "company": "Matrix Service",
+      "start": "9/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Document Control Specialist",
+      "company": "GSL Electric",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Junior Project Engineer",
+      "company": "Matrix Service",
+      "start": "2/2013",
+      "end": "4/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Tulsa",
+    "region": "Oklahoma",
+    "country": "United States",
+    "group": "Oklahoma"
+  },
+  "education": [
+    "Bachelor's of Science, Civil Engineering, University of Toledo, 2008 to 2012"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

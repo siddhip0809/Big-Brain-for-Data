@@ -1,0 +1,130 @@
+{
+  "id": "kurt-widmann-0b9159ca",
+  "type": "person",
+  "name": "Kurt Widmann",
+  "current_title": "Vice President-Hyperscale Division at Serverfarm Data Centers",
+  "current_company": "Serverfarm",
+  "linkedin": "https://www.linkedin.com/in/kurtwidmann",
+  "location": "Seattle, WA",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President-Hyperscale Division at Serverfarm Data Centers at Serverfarm, 12/2024 to present; Principal SME | AWS Colocation Data Centers North & South American Portfolio at AWS, 9/2022 to 6/2024; Principal SME | AWS Colocation Data Centers  North & South American Portfolio at AWS, 9/2022 to 6/2024; Global Expansion Manager – North and South America | AWS at AWS, 2/2017 to 9/2022; Global Expansion Manager - North and South America | AWS at AWS, 2/2017 to 9/2022; Co Founder at Cloud Services NW- Cloudservices.net, 6/2015 to 3/2017; VP Sales and Marketing at Digital Fortress Data Centers & Cloud Services - Digitalfortress.io, 7/2013 to 4/2015; VP Sales and Marketing / Data Center at Adhost Internet, 3/1997 to 1/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 128,
+      "date_added": "2025-11-26 12:31:45 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "serverfarm",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President-Hyperscale Division",
+      "company": "Serverfarm Data Centers at Serverfarm",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Principal SME"
+    },
+    {
+      "title": "AWS Colocation Data Centers North & South American Portfolio",
+      "company": "AWS",
+      "start": "9/2022",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "raw": "Principal SME"
+    },
+    {
+      "title": "AWS Colocation Data Centers  North & South American Portfolio",
+      "company": "AWS",
+      "start": "9/2022",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "raw": "Global Expansion Manager – North and South America"
+    },
+    {
+      "title": "AWS",
+      "company": "AWS",
+      "start": "2/2017",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "raw": "Global Expansion Manager - North and South America"
+    },
+    {
+      "title": "AWS",
+      "company": "AWS",
+      "start": "2/2017",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Co Founder",
+      "company": "Cloud Services NW- Cloudservices.net",
+      "start": "6/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "VP Sales and Marketing",
+      "company": "Digital Fortress Data Centers & Cloud Services - Digitalfortress.io",
+      "start": "7/2013",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "VP Sales and Marketing / Data Center",
+      "company": "Adhost Internet",
+      "start": "3/1997",
+      "end": "1/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "BA, International Studies, University Of Washington, 1989 to 1994"
+  ],
+  "biography": "Specialties: Manage supplier relationships and negotiation strategy with some of AWS's largest infrastructure partners. Data Center Infrastructure Procurement- Edge Infrastructure, Ground Station, Kuiper, SubSea, Embedded cache.Work strategically with IP, Optical, Metro, Carrier Capacity teams. Proponent of data center sustainability power and water infrastructure.15 Years Corporate Management & Marketing\nSpecialties: \r\nManage supplier relationships and negotiation strategy with some of AWS's largest infrastructure partners. \r\nData Center Infrastructure Procurement- Edge Infrastructure, Ground Station, Kuiper, SubSea, Embedded cache.\r\nWork strategically with IP, Optical, Metro, Carrier Capacity teams. \r\nProponent of data center sustainability power and water infrastructure.\r\n\r\n15 Years Corporate Management & Marketing",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

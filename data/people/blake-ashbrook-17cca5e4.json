@@ -1,0 +1,58 @@
+{
+  "id": "blake-ashbrook-17cca5e4",
+  "type": "person",
+  "name": "Blake Ashbrook",
+  "current_title": "Senior Construction Manager",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/blake-ashbrook-pe-ccm-68051316b",
+  "location": "Columbus, Ohio",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Construction Manager at Vantage, 3/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 249,
+      "date_added": "2026-07-08 12:19:56 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Manager",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

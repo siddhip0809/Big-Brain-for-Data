@@ -1,0 +1,122 @@
+{
+  "id": "shawn-kalsbeck-bc0cc56f",
+  "type": "person",
+  "name": "Shawn Kalsbeck",
+  "current_title": "Sr. MEP Estimator",
+  "current_company": "Suffolk Construction",
+  "location": "Littleton, Colorado",
+  "linkedin": "https://www.linkedin.com/in/shawn-kalsbeck-87a2a262",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sr. MEP Estimator at Suffolk Construction, 2/2025 to present; Chief Estimator at Kenny Electric, 11/2022 to 2/2025; Sales Engineer at Vertiv, 3/2021 to 12/2022; Outside Sales at QED Electric Supply, 3/2020 to 3/2021; Senior Account Representative at WESCO Distribution, 12/2015 to 3/2020; District Gear Specialist at WESCO Distribution, 4/2015 to 12/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 28,
+      "date_added": "2026-08-14 14:50:29 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 106,
+      "date_added": "2026-08-07 08:38:34 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 106,
+      "date_added": "2026-08-07 08:38:34 UTC",
+      "date_updated": "2026-08-14 09:50:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "suffolk-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. MEP Estimator",
+      "company": "Suffolk Construction",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "Kenny Electric",
+      "start": "11/2022",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Vertiv",
+      "start": "3/2021",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Outside Sales",
+      "company": "QED Electric Supply",
+      "start": "3/2020",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Account Representative",
+      "company": "WESCO Distribution",
+      "start": "12/2015",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "District Gear Specialist",
+      "company": "WESCO Distribution",
+      "start": "4/2015",
+      "end": "12/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Littleton",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

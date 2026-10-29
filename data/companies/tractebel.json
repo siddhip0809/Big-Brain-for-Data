@@ -1,0 +1,28 @@
+{
+  "id": "tractebel",
+  "type": "company",
+  "name": "Tractebel",
+  "aliases": [
+    "Tractebel ENGIE"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — design / MEP engineering, power & grid advisory",
+  "headquarters": "Brussels, Belgium",
+  "founded": null,
+  "website": "https://tractebel-engie.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data-centres market incl. hyperscale design (via RED, acquired 2016); grid integration & compliance studies and power system planning practice.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data-centres market incl. hyperscale design (via RED, acquired 2016); grid integration & compliance studies and power system planning practice. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://tractebel-engie.com/en/markets/data-centres/",
+    "https://tractebel-engie.com"
+  ],
+  "last_updated": "2026-09-16"
+}

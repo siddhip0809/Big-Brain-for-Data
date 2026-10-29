@@ -1,0 +1,104 @@
+{
+  "id": "laurent-duplix-e997f662",
+  "type": "person",
+  "name": "Laurent Duplix",
+  "current_title": "Global Account Director",
+  "current_company": "Global Switch",
+  "linkedin": "https://www.linkedin.com/in/laurent-duplix-8426a125",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Global Account Director at Global Switch, 6/2025 to present; Senior Client Partner at Verizon, 1/2024 to 6/2025; Client Partner at Verizon, 7/2022 to 12/2023; Global Account Director at Telefónica, 4/2016 to 7/2022; Global Account Manager at Telefónica, 10/2014 to 3/2016; Regional Account Manager Asia Pacific at Telefónica, 2/2014 to 12/2014; European Leadership Graduate Programme at O2 UK, 9/2012 to 1/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 185,
+      "date_added": "2026-07-14 13:27:27 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "global-switch",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Account Director",
+      "company": "Global Switch",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Client Partner",
+      "company": "Verizon",
+      "start": "1/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Client Partner",
+      "company": "Verizon",
+      "start": "7/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Telefónica",
+      "start": "4/2016",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Telefónica",
+      "start": "10/2014",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Regional Account Manager Asia Pacific",
+      "company": "Telefónica",
+      "start": "2/2014",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "European Leadership Graduate Programme",
+      "company": "O2 UK",
+      "start": "9/2012",
+      "end": "1/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Executive MBA, IESE Business School, 2017 to 2017",
+    "BSc (Hons) Politics & Economics, University of Bath, 2008 to 2012"
+  ],
+  "biography": "Multilingual B2B sales director with global experience having worked in the EMEA, Americas and APAC markets. Proven track record of delivering high value, multi-tower global contracts.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

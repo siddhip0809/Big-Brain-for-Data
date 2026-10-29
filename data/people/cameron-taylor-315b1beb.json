@@ -1,0 +1,100 @@
+{
+  "id": "cameron-taylor-315b1beb",
+  "type": "person",
+  "name": "Cameron Taylor",
+  "current_title": "Senior Cost Consultant",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/cameron-taylor-354795138",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Cost Consultant at Turner & Townsend, 5/2024 to present; Cost Consultant at Turner & Townsend, 5/2022 to 5/2024; Cost Manager at Carron + Walsh, 5/2021 to 7/2022; Cost Manager at Armour Construction Consultants, 8/2019 to 5/2021; Assistant Cost Manager at Armour Construction Consultants, 10/2018 to 8/2019; Graduate Cost Manager at 3b Construction, 1/2018 to 10/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 563,
+      "date_added": "2026-08-27 11:04:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "5/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Carron + Walsh",
+      "start": "5/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Armour Construction Consultants",
+      "start": "8/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Cost Manager",
+      "company": "Armour Construction Consultants",
+      "start": "10/2018",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Graduate Cost Manager",
+      "company": "3b Construction",
+      "start": "1/2018",
+      "end": "10/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Bachelor of Applied Science - BASc, Quantity surveying, Heriot-Watt University, 2014 to 2018"
+  ],
+  "biography": "Experienced construction professional with a demonstrated history of working as a quantity surveyor in the industry. Skilled in Negotiation, Billing, Cost Plans, Value Engineering and Cost Optimisation.",
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

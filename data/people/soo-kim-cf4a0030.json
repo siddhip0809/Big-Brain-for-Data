@@ -1,0 +1,114 @@
+{
+  "id": "soo-kim-cf4a0030",
+  "type": "person",
+  "name": "Soo Kim",
+  "current_title": "Senior Estimator",
+  "current_company": "Balfour Beatty US",
+  "linkedin": "https://www.linkedin.com/in/soo-kim-88abb9119",
+  "location": "Atlanta, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Balfour Beatty US, 4/2026 to present; Lead Estimator at Kajima Building & Design Group, 7/2023 to present; Cost Project Manager at DPR Asia Co, 9/2022 to 6/2023; Project Manager / Cost Control Lead at Pond & Company, 6/2019 to 8/2022; CSA Estimator at Shimizu North America, 12/2017 to 5/2019; Cost / Construction Manager at Kumho Industrial, 1/2008 to 10/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 369,
+      "date_added": "2026-08-17 09:22:03 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 369,
+      "date_added": "2026-08-17 09:22:03 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "balfour-beatty-us",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Balfour Beatty US",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Kajima Building & Design Group",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Project Manager",
+      "company": "DPR Asia Co",
+      "start": "9/2022",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Cost Control Lead",
+      "company": "Pond & Company",
+      "start": "6/2019",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "CSA Estimator",
+      "company": "Shimizu North America",
+      "start": "12/2017",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Cost / Construction Manager",
+      "company": "Kumho Industrial",
+      "start": "1/2008",
+      "end": "10/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Master's degree, Construction Management, Georgia Institute Of Technology, 2021 to 2022",
+    "Bachelor of Architectural enginieering, Architectural Engineering, Soongsil University, 2003 to 2008"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

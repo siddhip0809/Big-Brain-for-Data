@@ -1,0 +1,113 @@
+{
+  "id": "greg-smith-71b23569",
+  "type": "person",
+  "name": "Greg Smith",
+  "current_title": "Preconstruction Manager",
+  "current_company": "DPR Construction",
+  "location": "United States",
+  "linkedin": "https://www.linkedin.com/in/greg-smith-mrics-84139058",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at DPR Construction, 9/2018 to present; Senior Commercial Manager at Mace Group, 10/2015 to 1/2018; Commercial Manager at ISG plc, 2/2014 to 10/2015; Quantity Surveyor at Thomas Sinden Limited, 7/2007 to 2/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 79,
+      "date_added": "2026-08-18 10:31:49 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 319,
+      "date_added": "2026-08-13 11:37:12 UTC",
+      "date_updated": "2026-08-18 05:31:49 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 319,
+      "date_added": "2026-08-13 11:37:12 UTC",
+      "date_updated": "2026-08-18 05:31:49 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "DPR Construction",
+      "start": "9/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Commercial Manager",
+      "company": "Mace Group",
+      "start": "10/2015",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Commercial Manager",
+      "company": "ISG plc",
+      "start": "2/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Thomas Sinden Limited",
+      "start": "7/2007",
+      "end": "2/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United States",
+    "group": "United States"
+  },
+  "education": [
+    "BSc (Hons), Quantity Surveying (Commercial Management), University of Greenwich, 2007 to 2012",
+    "GCSEs and A Levels, Sir Joseph Williamson's Mathematical School, 2000 to 2007"
+  ],
+  "biography": "Chartered Quantity Surveyor with experience working in the UK, Europe and the United States.Preconstruction Manager at DPR Construction United States working on Advanced Tech / Mission Critical / Data Centre Projects. Preconstruction Manager at DPR Construction Europe; primarily working in the Netherlands, Germany and Switzerland on Advanced Tech / Mission Critical / Data Centre Projects using local forms of contract, and FIDIC Red and Yellow Books.Senior Commercial Manager at Mace working on a mixed-use scheme at BBC Television Centre, London.Commercial Manager at ISG plc working on international Data Centre projects in Finland and the Netherlands.Quantity Surveyor at Thomas Sinden Ltd working on a variety of new build and refurbishment projects for both the public and private sector using both JCT and NEC forms of contract. I achieved a 1st Class BSc Honours Degree in Quantity Surveying & Commercial Management and I am a member of the Royal Institute of Chartered Surveyors (MRICS).",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

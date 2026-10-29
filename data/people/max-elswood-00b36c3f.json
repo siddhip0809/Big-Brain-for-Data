@@ -1,0 +1,141 @@
+{
+  "id": "max-elswood-00b36c3f",
+  "type": "person",
+  "name": "Max Elswood",
+  "current_title": "Strategic Negotiator",
+  "current_company": "Google",
+  "location": "West Sussex, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/max-elswood-mciob",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Negotiator at Google, 3/2023 to present; Project Director - Data Centres at Soben, 2/2022 to 3/2023; Associate Director at Turner & Townsend, 7/2019 to 2/2022; Divisional Commercial Manager at ISG plc, 7/2018 to 7/2019; Commercial Lead at ISG plc, 7/2017 to 7/2018; Quantity Surveyor at Concept Building Services, 3/2014 to 7/2017; Construction Assistant at Cape Construction, 8/2013 to 3/2014; Trainee Quantity Surveyor at Lagan Construction, 9/2008 to 9/2010; General Operative at Carney Construction, 1/2007 to 8/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Not Interested",
+      "rank": 15,
+      "date_added": "2026-08-11 12:08:17 UTC",
+      "date_updated": "2026-08-12 03:54:57 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 104,
+      "date_added": "2026-07-09 11:36:04 UTC",
+      "date_updated": "2026-08-11 07:08:17 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Director - Data Centres",
+      "company": "Soben",
+      "start": "2/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "7/2019",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Divisional Commercial Manager",
+      "company": "ISG plc",
+      "start": "7/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Commercial Lead",
+      "company": "ISG plc",
+      "start": "7/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Concept Building Services",
+      "start": "3/2014",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Construction Assistant",
+      "company": "Cape Construction",
+      "start": "8/2013",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Trainee Quantity Surveyor",
+      "company": "Lagan Construction",
+      "start": "9/2008",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "General Operative",
+      "company": "Carney Construction",
+      "start": "1/2007",
+      "end": "8/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "West Sussex",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor of Science (BSc), Building Surveying, University of Greenwich, 2012 to 2013",
+    "Higher National Diploma (HND), Quantity Surveying , University of Greenwich, 2010 to 2012",
+    "BTEC National Diploma, Public Services , Worthing College  2004, 2000 to 2004"
+  ],
+  "biography": "Experienced commercial professional with a proven history of working on global construction programs.   Project Controls focused including cost, risk and schedule management, project evaluation and design, construction finance, tendering and procurement.\n\nExperienced in the data center industry having worked in the UK, Europe and North America.  \n\nWorking knowledge of delivering offsite infrastructure and retrofit projects in a hyper scale setting for both General Contractor and Consultant/Owner.  Experience in international forms of construction contract, in drafting, negotiation and execution.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

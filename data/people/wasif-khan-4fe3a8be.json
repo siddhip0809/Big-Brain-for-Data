@@ -1,0 +1,111 @@
+{
+  "id": "wasif-khan-4fe3a8be",
+  "type": "person",
+  "name": "Wasif Khan",
+  "current_title": "Strategic Accounts Director , Neo Clouds",
+  "current_company": "Global Switch",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/wasif-khan-wk",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Accounts Director , Neo Clouds at Global Switch, 5/2025 to present; Director, Connectivity and Strategic acccounts at Global Switch, 9/2022 to 5/2025; Carrier Relations Manager at COLT Telecom, 11/2015 to 9/2022; Asset Management Specialist at COLT Telecom, 10/2014 to 10/2015; Capacity Planner at Global Crossing, 11/2007 to 10/2014; Commissioning Engineer at On365, 5/2005 to 11/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "2d. CV Received / Scheduling Full Assessment",
+      "rank": 4,
+      "date_added": "2026-08-11 11:51:38 UTC",
+      "date_updated": "2026-08-25 16:22:21 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 228,
+      "date_added": "2026-08-03 11:12:59 UTC",
+      "date_updated": "2026-08-11 06:51:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "global-switch",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Accounts Director , Neo Clouds",
+      "company": "Global Switch",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Connectivity and Strategic acccounts",
+      "company": "Global Switch",
+      "start": "9/2022",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Carrier Relations Manager",
+      "company": "COLT Telecom",
+      "start": "11/2015",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Asset Management Specialist",
+      "company": "COLT Telecom",
+      "start": "10/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Capacity Planner",
+      "company": "Global Crossing",
+      "start": "11/2007",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer",
+      "company": "On365",
+      "start": "5/2005",
+      "end": "11/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "BE Electrical Enggineering, NED University of Engineering and Technology, 1998 to 2002"
+  ],
+  "biography": "Data center professional",
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "rating": 3.0,
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

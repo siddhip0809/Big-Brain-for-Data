@@ -1,0 +1,107 @@
+{
+  "id": "bill-cory-63c6a656",
+  "type": "person",
+  "name": "Bill Cory",
+  "current_title": "Regional Vice President of Sales",
+  "current_company": "Flexential",
+  "linkedin": "https://www.linkedin.com/in/bill-cory-1b371",
+  "location": "Portland, Oregon",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Regional Vice President of Sales at Flexential, 5/2015 to present; Sales Director at Integra, 7/2010 to 5/2015; Sales Manager at Integra, 1/2006 to 8/2010; Sr. Communications Specialist at Integra, 12/2002 to 12/2005; Marketing Manager at New Edge Networks, 11/1999 to 10/2001; Product Manager at AT&T, 10/1998 to 11/1999; Operations Supervisor at AT&T, 7/1997 to 10/1998",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 125,
+      "date_added": "2025-11-25 16:26:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "flexential",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Vice President of Sales",
+      "company": "Flexential",
+      "start": "5/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "Integra",
+      "start": "7/2010",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Integra",
+      "start": "1/2006",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Sr. Communications Specialist",
+      "company": "Integra",
+      "start": "12/2002",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "New Edge Networks",
+      "start": "11/1999",
+      "end": "10/2001",
+      "current": false
+    },
+    {
+      "title": "Product Manager",
+      "company": "AT&T",
+      "start": "10/1998",
+      "end": "11/1999",
+      "current": false
+    },
+    {
+      "title": "Operations Supervisor",
+      "company": "AT&T",
+      "start": "7/1997",
+      "end": "10/1998",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Portland",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

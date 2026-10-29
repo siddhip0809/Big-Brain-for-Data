@@ -1,0 +1,113 @@
+{
+  "id": "shevaun-good-14feebce",
+  "type": "person",
+  "name": "Shevaun Good",
+  "current_title": "Sr. Director, Sales",
+  "current_company": "Aligned Data Centers",
+  "linkedin": "https://www.linkedin.com/in/shevaun-good-b962488",
+  "location": "Portland, Oregon",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sr. Director, Sales at Aligned Data Centers, 1/2021 to present; Director of APAC Sales at Flexential, 1/2019 to 1/2021; Senior Sales Account Executive at Flexential, 5/2014 to 1/2021; Premium Sales Manager at Portland Trail Blazers, 5/2007 to 4/2014; Premium Service Manager & Sales Account Executive at Global Spectrum/Rose Garden Arena, 1/2005 to 5/2007; Premium Seating Coordinator at Los Angeles Dodgers, 3/2003 to 1/2005; Community Relations Coordinator at Anaheim Ducks, 5/2002 to 3/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 84,
+      "date_added": "2025-11-12 14:05:35 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aligned-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Director, Sales",
+      "company": "Aligned Data Centers",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of APAC Sales",
+      "company": "Flexential",
+      "start": "1/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Account Executive",
+      "company": "Flexential",
+      "start": "5/2014",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Premium Sales Manager",
+      "company": "Portland Trail Blazers",
+      "start": "5/2007",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Premium Service Manager & Sales Account Executive",
+      "company": "Global Spectrum/Rose Garden Arena",
+      "start": "1/2005",
+      "end": "5/2007",
+      "current": false
+    },
+    {
+      "title": "Premium Seating Coordinator",
+      "company": "Los Angeles Dodgers",
+      "start": "3/2003",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Community Relations Coordinator",
+      "company": "Anaheim Ducks",
+      "start": "5/2002",
+      "end": "3/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Portland",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "education": [
+    "Master's degree, Sports Management, California State University, Long Beach, 2001 to 2003",
+    "Master's degree, Sports Management, California State University-Long Beach, 2001 to 2003",
+    "Bachelor's degree, Pychology and Speech Communications, Portland State University, 1996 to 2000"
+  ],
+  "biography": "Aligned is an infrastructure technology company that offers adaptable colocation and build-to-scale solutions to cloud, enterprise, and managed service providers. Our intelligent infrastructure allows densification and vertical growth within the same footprint, enabling customers to scale up without disruption, all while maintaining industry-leading Power Usage Effectiveness (PUE). By reducing the energy, water and space needed to operate, our data center solutions, combined with our patented cooling technology, offer businesses a competitive advantage by improving reliability and their bottom line.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

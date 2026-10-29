@@ -1,0 +1,111 @@
+{
+  "id": "daniel-dompier-04a009d6",
+  "type": "person",
+  "name": "Daniel Dompier",
+  "current_title": "Principal Cost Manager",
+  "current_company": "NTT",
+  "linkedin": "https://www.linkedin.com/in/danieldompier",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Principal Cost Manager at NTT, 11/2025 to present; Senior Cost Manager at NTT, 10/2022 to 11/2025; Senior Cost Consultant at Turner & Townsend, 12/2020 to 11/2022; Consultant - Cost Management at Turner & Townsend, 8/2019 to 12/2020; Associate Consultant - Cost Controls at Turner & Townsend, 10/2018 to 8/2019; Marketing Director & Financial Consultant at Premier Pediatrics, 5/2016 to 10/2018; Business Consultant at Envision Management & Marketing, 3/2014 to 5/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 190,
+      "date_added": "2026-08-11 08:12:39 UTC",
+      "date_updated": "2026-08-11 10:32:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "ntt",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal Cost Manager",
+      "company": "NTT",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "NTT",
+      "start": "10/2022",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Turner & Townsend",
+      "start": "12/2020",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Consultant - Cost Management",
+      "company": "Turner & Townsend",
+      "start": "8/2019",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Associate Consultant - Cost Controls",
+      "company": "Turner & Townsend",
+      "start": "10/2018",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Marketing Director & Financial Consultant",
+      "company": "Premier Pediatrics",
+      "start": "5/2016",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Business Consultant",
+      "company": "Envision Management & Marketing",
+      "start": "3/2014",
+      "end": "5/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Southern Utah University, 2016 to 2018",
+    "Bachelor's degree Economics, Southern Utah University, 2010 to 2014"
+  ],
+  "biography": "Graduate from Southern Utah University’s MBA program, completed in May 2018 with a GPA of 4.0. I was awarded an academic scholarship and inducted into the Beta Gamma Sigma Honorary Business School Society. I have a strong managerial and analytical background in cost analysis, finance, and operations. Before pursuing an MBA full-time, I worked for Envision Management & Marketing out of Las Vegas, Nevada as a business consultant/analyst. While there, I specialized in financial and market analysis, capital budgeting, regression analysis, and management and staff training. I earned my undergraduate degree in economics from Southern Utah University. I am extremely goal driven and thrive in an environment that promotes critical thinking, problem solving, and working with a team to accomplish a unified objective.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

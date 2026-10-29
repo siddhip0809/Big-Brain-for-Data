@@ -1,0 +1,46 @@
+{
+  "id": "olkaria-ecocloud-data-center",
+  "type": "company",
+  "name": "Olkaria EcoCloud Data Center",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "Naivasha, Kenya",
+  "founded": null,
+  "website": "https://ecocloud.co.ke/",
+  "linkedin": "https://www.linkedin.com/company/olkariaecocloud/?originalSubdomain=ke",
+  "headcount": "1 to 10",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 60.0,
+      "early_stage_mw": 36.0
+    }
+  }
+}

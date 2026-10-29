@@ -1,0 +1,118 @@
+{
+  "id": "katie-hoggarth-70aadf43",
+  "type": "person",
+  "name": "Katie Hoggarth",
+  "current_title": "Vice President - Head of Transactions - Stack Infrastructure",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/katiehoggarth",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President - Head of Transactions - Stack Infrastructure at STACK Infrastructure, 1/2025 to present; Director - Data Centre Solutions - Site Transactions at CBRE, 6/2023 to 1/2025; Associate Director - Data Centre Solutions - Site Transactions at CBRE, 6/2020 to 6/2023; Senior Surveyor - Industrial Agency at JLL, 6/2018 to 9/2020; Associate Director - Commercial Agency at Hindwoods, 2/2017 to 5/2018; Senior Surveyor at Hindwoods, 3/2015 to 2/2017; Graduate Surveyor at Hindwoods, 3/2013 to 3/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Off Limits",
+      "rank": 160,
+      "date_added": "2026-07-10 11:23:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 219,
+      "date_added": "2026-01-23 12:11:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President - Head of Transactions - Stack Infrastructure",
+      "company": "STACK Infrastructure",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Data Centre Solutions - Site Transactions",
+      "company": "CBRE",
+      "start": "6/2023",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Data Centre Solutions - Site Transactions",
+      "company": "CBRE",
+      "start": "6/2020",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor - Industrial Agency",
+      "company": "JLL",
+      "start": "6/2018",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Commercial Agency",
+      "company": "Hindwoods",
+      "start": "2/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Hindwoods",
+      "start": "3/2015",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "Hindwoods",
+      "start": "3/2013",
+      "end": "3/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

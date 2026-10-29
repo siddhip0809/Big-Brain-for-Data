@@ -1,0 +1,46 @@
+{
+  "id": "6f904365-7fad-4982-b352-eaf3c47f610a",
+  "type": "search",
+  "name": "Operations Director UK & Europe",
+  "client_company": "AVK|SEG",
+  "client_company_id": null,
+  "status": "active",
+  "project_type": "Contingency",
+  "started_at": "2026-07-20",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Tom Powlay",
+      "clockwork_person_id": "07309eab-46aa-4c23-a3f5-3fa77922cfd7",
+      "brain_person_id": "tom-powlay-07309eab",
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-07-24T12:15:29Z"
+    },
+    {
+      "person": "Patrick Hendzel",
+      "clockwork_person_id": "fb25b147-4463-411e-9e3d-c0e3d1eebaee",
+      "brain_person_id": null,
+      "status": "4a. Offer Extended",
+      "category": "in-placed",
+      "rank": 1502,
+      "updated_at": "2026-08-26T12:48:28Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 2,
+    "placed": 1,
+    "active": 1,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

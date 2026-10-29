@@ -1,0 +1,147 @@
+{
+  "id": "eamonn-dailey-6cf78539",
+  "type": "person",
+  "name": "Eamonn Dailey",
+  "current_title": "Senior Construction Manager, Preconstruction",
+  "current_company": "Crusoe",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/eamonndailey",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Construction Manager, Preconstruction at Crusoe, 4/2025 to present; Data Center Construction Regional Estimating Lead at Google, 9/2024 to 4/2025; Data Center Construction Regional Commercial Lead at Google, 3/2022 to 9/2024; Global Data Center Construction Change Manager at Meta, 8/2019 to 3/2022; Data Center Construction Regional Cost Manager at Meta, 1/2019 to 8/2019; Data Center Construction Cost Analyst at Meta, 2/2016 to 12/2018; Project Controls Lead at Chevron Energy Solutions, 6/2015 to 2/2016; Cost Engineer Data Analyst at Chevron Energy Solutions, 6/2013 to 5/2015; Cost Engineer at Eichleay Engineers, 4/2009 to 5/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 252,
+      "date_added": "2026-08-26 13:22:20 UTC",
+      "date_updated": "2026-08-26 08:23:43 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 22,
+      "date_added": "2026-08-03 14:23:36 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 45,
+      "date_added": "2026-07-02 11:47:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "crusoe",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Manager, Preconstruction",
+      "company": "Crusoe",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Data Center Construction Regional Estimating Lead",
+      "company": "Google",
+      "start": "9/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Regional Commercial Lead",
+      "company": "Google",
+      "start": "3/2022",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Global Data Center Construction Change Manager",
+      "company": "Meta",
+      "start": "8/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Regional Cost Manager",
+      "company": "Meta",
+      "start": "1/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Cost Analyst",
+      "company": "Meta",
+      "start": "2/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Project Controls Lead",
+      "company": "Chevron Energy Solutions",
+      "start": "6/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer Data Analyst",
+      "company": "Chevron Energy Solutions",
+      "start": "6/2013",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Eichleay Engineers",
+      "start": "4/2009",
+      "end": "5/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelors of Science, Finance, San Diego State University, 2004 to 2008",
+    "Campolindo High School, 2000 to 2004"
+  ],
+  "biography": "Senior project management professional with extensive cost management experience on projects and programs ranging from $500M to $7B. Owner representative experience working in both the oil and gas and data center/infrastructure industries. Built a project controls program from the ground up in a fast paced start up environment and evolved it into a $7 Billion annual capital program.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

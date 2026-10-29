@@ -1,0 +1,100 @@
+{
+  "id": "suzanne-cox-20526b9b",
+  "type": "person",
+  "name": "Suzanne Cox",
+  "current_title": "Senior Director Of Sales",
+  "current_company": "EdgeConneX",
+  "linkedin": "https://www.linkedin.com/in/suzannelcox",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director Of Sales at EdgeConneX, 9/2021 to present; Director Of Growth, Corporate at Sound, 7/2019 to 1/2022; Client Services Director at Canteen One, 1/2017 to 6/2019; National Account Manager at Aramark Refreshments, 7/2015 to 1/2017; Project Director at ARAMARK, 3/2014 to 6/2015; Operational Excellence Manager at Aramark Refreshments, 9/2009 to 3/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 115,
+      "date_added": "2025-11-19 14:13:02 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "edgeconnex",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Of Sales",
+      "company": "EdgeConneX",
+      "start": "9/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Growth, Corporate",
+      "company": "Sound",
+      "start": "7/2019",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Client Services Director",
+      "company": "Canteen One",
+      "start": "1/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Aramark Refreshments",
+      "start": "7/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "ARAMARK",
+      "start": "3/2014",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Operational Excellence Manager",
+      "company": "Aramark Refreshments",
+      "start": "9/2009",
+      "end": "3/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

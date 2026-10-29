@@ -1,0 +1,27 @@
+{
+  "id": "blue-owl-capital",
+  "type": "investor",
+  "name": "Blue Owl Capital",
+  "investor_type": "private equity / alternative asset manager",
+  "hq": null,
+  "aum": null,
+  "investments": [
+    "beale",
+    "nscale",
+    "stack-infrastructure",
+    "american-real-estate-partners",
+    "oracle",
+    "lancium"
+  ],
+  "notable_deals": "Acquired the entire asset-management business of IPI Partners (~$1.0B, ~80% Blue Owl stock / 20% cash) via its Blue Owl Digital Infrastructure (BODI) platform -- announced Oct 7, 2024, closed Jan 6, 2025 -- adding ~$10.5B AUM including IPI's portfolio companies STACK Infrastructure and RadiusDC. STACK is now routinely described in press as a Blue Owl Digital Infrastructure portfolio company (e.g. an Aug 2026 Virginia land deal reported as \"Blue Owl's Stack Infrastructure\"). Blue Owl also closed a $7B Digital Infrastructure Fund III (ODI III) around the same period.",
+  "contacts": [],
+  "notes": "Added from web research into data center industry ownership, 2026-09-05. Verify against Siddhi's own research. STACK Infrastructure link added 2026-09-05 after Siddhi flagged it directly -- confirmed via Blue Owl's own press releases and an SEC 8-K exhibit re: the IPI Partners acquisition. See also the separate \"IPI Partners\" investor record for STACK's 2019-2024 founding sponsor (now absorbed into Blue Owl).",
+  "sources": [
+    "Web research, 2026-09-05",
+    "https://www.blueowl.com/news/blue-owl-capital-acquire-ipi-partners-and-partner-iconiq-future-growth",
+    "https://www.blueowl.com/news/blue-owl-capital-completes-acquisition-ipi-partners-business",
+    "https://www.sec.gov/Archives/edgar/data/1823945/000119312524233331/d869362dex991.htm",
+    "https://commercialobserver.com/2026/08/blue-owl-stack-infrastructure-virginia-data-center-land/"
+  ],
+  "last_updated": "2026-09-05"
+}

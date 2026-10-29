@@ -1,0 +1,31 @@
+{
+  "id": "mace",
+  "type": "company",
+  "name": "Mace",
+  "aliases": [
+    "Mace Consult",
+    "Mace Group",
+    "Mace Construct"
+  ],
+  "roles": [
+    "consultancy",
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — programme & project management, cost management",
+  "headquarters": "London, UK",
+  "founded": null,
+  "website": "https://www.macegroup.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data-centres market page; Head of Datacentres and Critical Facilities appointed for Asia Pacific; demerged from Mace Group and majority-owned by Goldman Sachs Alternatives since 5 March 2026 (c.US$1bn revenue 2025).",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data-centres market page; Head of Datacentres and Critical Facilities appointed for Asia Pacific; demerged from Mace Group and majority-owned by Goldman Sachs Alternatives since 5 March 2026 (c.US$1bn revenue 2025). Added 2026-09-16 from open-source research (import_researched_companies.py). Mace Consult was demerged from Mace Group on 5 March 2026 and is majority-owned by Goldman Sachs Alternatives; Mace Construct is the UK contracting arm (2026-09-16).",
+  "sources": [
+    "https://www.macegroup.com/markets/technology-and-manufacturing/data-centres/",
+    "https://www.macegroup.com"
+  ],
+  "last_updated": "2026-09-16"
+}

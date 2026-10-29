@@ -1,0 +1,115 @@
+{
+  "id": "kurt-russell-be85afe0",
+  "type": "person",
+  "name": "Kurt Russell",
+  "current_title": "Strategic Negotiator",
+  "current_company": "Google",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/kurt-russell-msc-mapm-7b925650",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Negotiator  at Google, 1/2024 to present; Project Director at Turner & Townsend, 8/2023 to 11/2023; Programme Lead at Yondr, 1/2020 to 4/2023; Campus Lead at Yondr, 6/2019 to 1/2020; Campus Lead at Isg, 7/2018 to 7/2019; Senior Project Manager at Isg, 11/2016 to 7/2018; Project Manager at Concept Building Services, 8/2015 to 11/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 30,
+      "date_added": "2026-08-12 09:08:02 UTC",
+      "date_updated": "2026-08-12 04:14:37 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 255,
+      "date_added": "2026-08-06 15:19:02 UTC",
+      "date_updated": "2026-08-12 04:08:02 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Negotiator ",
+      "company": "Google",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Director",
+      "company": "Turner & Townsend",
+      "start": "8/2023",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Programme Lead",
+      "company": "Yondr",
+      "start": "1/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Campus Lead",
+      "company": "Yondr",
+      "start": "6/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Campus Lead",
+      "company": "Isg",
+      "start": "7/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Isg",
+      "start": "11/2016",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Concept Building Services",
+      "start": "8/2015",
+      "end": "11/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "MSc, Surveying (Construction), Merit Pass, College of Estate Management, 2009 to 2012",
+    "Bachelor of Science (BS), Business Management, 2:1, Royal Holloway, U. of London, 2004 to 2007"
+  ],
+  "biography": "Experienced and confident professional with an established record of successfully delivering international projects and programs. A creator and leader of high performing multidisciplinary, multinational teams across a range of sectors. Driven and ambitious with a proactive attitude towards personal development, recently becoming a APM Practitioner (MAPM)",
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ascend-analytics",
+  "type": "company",
+  "name": "Ascend Analytics",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": "Boulder, USA",
+  "founded": null,
+  "website": "https://www.ascendanalytics.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Team advises hyperscalers on DC site selection and power supply design; blogs on DC power tradeoffs and utility preparation for DC load growth.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Team advises hyperscalers on DC site selection and power supply design; blogs on DC power tradeoffs and utility preparation for DC load growth. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.ascendanalytics.com/blog/data-centers-the-abcs-for-energy-market-participants",
+    "https://www.ascendanalytics.com"
+  ],
+  "last_updated": "2026-09-16"
+}

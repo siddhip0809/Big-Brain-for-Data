@@ -1,0 +1,97 @@
+{
+  "id": "lawrence-harkness-f446f66e",
+  "type": "person",
+  "name": "Lawrence Harkness",
+  "current_title": "Head of Development, Europe",
+  "current_company": "Arrow Capital Partners",
+  "linkedin": "https://www.linkedin.com/in/lawrenceharkness",
+  "location": "St Albans, England, United Kingdom",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Head of Development, Europe at Arrow Capital Partners, 4/2022 to present; Development Manager at Pure Data Centres, 7/2021 to 4/2022; Project Director at Mulberry Property Developments, 3/2018 to 6/2021; Project Manager at Quartz Project Services, 4/2015 to 3/2018; Assistant Project Manager at The Austin Company, 7/2007 to 4/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CLIENT - Exclusion List",
+      "rank": 220,
+      "date_added": "2026-08-03 08:03:04 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "arrow-capital-partners",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Head of Development, Europe",
+      "company": "Arrow Capital Partners",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Manager",
+      "company": "Pure Data Centres",
+      "start": "7/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Mulberry Property Developments",
+      "start": "3/2018",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Quartz Project Services",
+      "start": "4/2015",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "The Austin Company",
+      "start": "7/2007",
+      "end": "4/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "St Albans",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Master of Science (MS), Project Management (Construction), University of Reading, 2013 to 2014",
+    "Bachelor of Arts (BA), Business/Managerial Economics, The Open University, 2010 to 2013",
+    "-, Chancellors School"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

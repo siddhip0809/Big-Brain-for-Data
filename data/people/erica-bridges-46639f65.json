@@ -1,0 +1,125 @@
+{
+  "id": "erica-bridges-46639f65",
+  "type": "person",
+  "name": "Erica Bridges",
+  "current_title": "Utility Development Program Manager",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/erica-bridges-1a14a28",
+  "location": "Greater Richmond Region, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Utility Development Program Manager at QTS Data Centers, 9/2025 to present; Program Manager, Utility Delivery at QTS Data Centers, 5/2024 to present; Project Manager, Utility Delivery at QTS Data Centers, 5/2024 to 9/2025; Electric Transmission and Distribution Project Manager II at Dominion, 8/2023 to 5/2024; Electric T & D Projects Manager I at Dominion, 6/2021 to 8/2023; SR Material Specialist - Electric Transmission and Substation at Dominion, 4/2019 to 6/2021; Materials Specialist - Electric Transmission and Substation at Dominion, 9/2015 to 4/2019; Purchasing Agent II at Republic National Distributing, 3/2005 to 8/2015; Store Manager at The Pink Palm, 11/2003 to 3/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 93,
+      "date_added": "2026-04-20 10:52:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Utility Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Program Manager, Utility Delivery",
+      "company": "QTS Data Centers",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager, Utility Delivery",
+      "company": "QTS Data Centers",
+      "start": "5/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Electric Transmission and Distribution Project Manager II",
+      "company": "Dominion",
+      "start": "8/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Electric T & D Projects Manager I",
+      "company": "Dominion",
+      "start": "6/2021",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "SR Material Specialist - Electric Transmission and Substation",
+      "company": "Dominion",
+      "start": "4/2019",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Materials Specialist - Electric Transmission and Substation",
+      "company": "Dominion",
+      "start": "9/2015",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Purchasing Agent II",
+      "company": "Republic National Distributing",
+      "start": "3/2005",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Store Manager",
+      "company": "The Pink Palm",
+      "start": "11/2003",
+      "end": "3/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Richmond",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "B.S. Clothing and Textiles, Product Management, Virginia Tech, 1999 to 2003"
+  ],
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

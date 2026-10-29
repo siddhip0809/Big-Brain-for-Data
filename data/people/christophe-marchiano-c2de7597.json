@@ -1,0 +1,130 @@
+{
+  "id": "christophe-marchiano-c2de7597",
+  "type": "person",
+  "name": "Christophe Marchiano",
+  "current_title": "Strategic Negotiator - Datacenter and Energy",
+  "current_company": "Google",
+  "location": "Paris,  France",
+  "linkedin": "https://www.linkedin.com/in/christophe-marchiano-00924998",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Negotiator - Datacenter and Energy at Google, 10/2017 to present; Investment Director at Groupe ADP, 1/2015 to 9/2017; Offer manager Large Projects at AREVA, 1/2011 to 12/2014; Strategy & Economic Studies Manager at AREVA, 1/2008 to 12/2010; Apprentice at Purchasing department at PSA Peugeot Citroën, 1/2006 to 12/2007; Intern at Rolls-Royce laboratory at Imperial College London, 1/2005 to 12/2005; Intern at Logistics and Operations department at L'Oreal, 1/2004 to 12/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Withdrew",
+      "rank": 65,
+      "date_added": "2026-08-14 12:28:16 UTC",
+      "date_updated": "2026-08-14 07:33:38 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 119,
+      "date_added": "2026-07-10 08:15:50 UTC",
+      "date_updated": "2026-08-14 07:28:16 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Energy & Utilities",
+  "current_company_id": "google",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Strategic Negotiator - Datacenter and Energy",
+      "company": "Google",
+      "start": "10/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Investment Director",
+      "company": "Groupe ADP",
+      "start": "1/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Offer manager Large Projects",
+      "company": "AREVA",
+      "start": "1/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Strategy & Economic Studies Manager",
+      "company": "AREVA",
+      "start": "1/2008",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Apprentice",
+      "company": "Purchasing department at PSA Peugeot Citroën",
+      "start": "1/2006",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Rolls-Royce laboratory at Imperial College London",
+      "start": "1/2005",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Logistics and Operations department at L'Oreal",
+      "start": "1/2004",
+      "end": "12/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "France",
+    "group": "France"
+  },
+  "education": [
+    "Master of Science - MS, Industrial Engineering and Strategy, CentraleSupélec, 2006 to 2006",
+    "Master of Science - MS, Energy and Markets, IFP School, 2006 to 2007",
+    "Engineering degree with distinction, Centrale Nantes, 2003 to 2006"
+  ],
+  "biography": "Global Infrastructure - Datacenter and Energy at Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Energy · ESA negotiation": "High Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "hyperscaler_equivalent_seniority": "Vice President",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
+  }
+}

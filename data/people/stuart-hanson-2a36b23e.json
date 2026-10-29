@@ -1,0 +1,125 @@
+{
+  "id": "stuart-hanson-2a36b23e",
+  "type": "person",
+  "name": "Stuart Hanson",
+  "current_title": "Vice President, Leasing",
+  "current_company": "Sabey Data Centers",
+  "linkedin": "https://www.linkedin.com/in/stuartrhanson",
+  "location": "Oakland, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Leasing at Sabey Data Centers, 5/2013 to present; Sr. Account Executive at Internap Network Services, 12/2011 to 6/2013; Sr. Account Manager at AboveNet, 12/2008 to 9/2011; Sr. Sales Executive at Centurylink Business For Enterprise, 1/2006 to 12/2008; Sr. Qwest Internet Solutions Manager at Qwest Communications, 1/2001 to 12/2006; Sr. Account Manager at Digex, 1/2001 to 12/2002; Sr. National Account Manager at Exodus Communications, 1/1999 to 12/2001; National Account Executive at GlobalCenter, 1/1998 to 12/2000; Sr. Sales Executive at SAVVIS; Sabey Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 160,
+      "date_added": "2026-01-09 15:45:19 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "sabey-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Leasing",
+      "company": "Sabey Data Centers",
+      "start": "5/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Internap Network Services",
+      "start": "12/2011",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Manager",
+      "company": "AboveNet",
+      "start": "12/2008",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Sr. Sales Executive",
+      "company": "Centurylink Business For Enterprise",
+      "start": "1/2006",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Sr. Qwest Internet Solutions Manager",
+      "company": "Qwest Communications",
+      "start": "1/2001",
+      "end": "12/2006",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Manager",
+      "company": "Digex",
+      "start": "1/2001",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sr. National Account Manager",
+      "company": "Exodus Communications",
+      "start": "1/1999",
+      "end": "12/2001",
+      "current": false
+    },
+    {
+      "title": "National Account Executive",
+      "company": "GlobalCenter",
+      "start": "1/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Sr. Sales Executive",
+      "company": "SAVVIS",
+      "current": false
+    },
+    {
+      "raw": "Sabey Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Oakland",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "University Of California, Berkeley"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

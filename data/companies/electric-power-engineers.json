@@ -1,0 +1,28 @@
+{
+  "id": "electric-power-engineers",
+  "type": "company",
+  "name": "Electric Power Engineers",
+  "aliases": [
+    "EPE Consulting"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://epeconsulting.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data Centers industry page; ERCOT large-load interconnection process navigation, DWG Large Load Survey services, PSSE/PSCAD large-load models, WECC large-load interconnections.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers industry page; ERCOT large-load interconnection process navigation, DWG Large Load Survey services, PSSE/PSCAD large-load models, WECC large-load interconnections. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://epeconsulting.com/industries/data-centers",
+    "https://epeconsulting.com"
+  ],
+  "last_updated": "2026-09-16"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "philips-akinola-a4ba1311",
+  "type": "person",
+  "name": "Philips Akinola",
+  "current_title": "Metro Senior Cost Manager",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/philips-akinola",
+  "location": "Seattle, Washington",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Metro Senior Cost Manager at Microsoft, 12/2024 to present; Senior Cost Estimator at RIB U S Cost, 3/2024 to 11/2024; Cost Estimator at Hellas, 1/2023 to 10/2023; Project Estimator|Project Manager at Cladding, 5/2021 to 1/2023; Project Manager|Project Controls Estimator at The Spear Group, 6/2020 to 5/2021; Project Manager|Project Controls Estimator Pharmaceutical|Life Sciences at Merck, 6/2020 to 5/2021; Construction Management Intern at KATERRA, 6/2019 to 8/2019; Graduate Teaching Assistant at Texas A&M University, 8/2018 to 5/2020; Project Manager|Project Estimator|Product Manager|Facility Manager|Quantity Surveyor at Ridgewell Construction, 6/2017 to 8/2018; Business Development Manager|Product Manager|Quantity Surveyor at MPD Logics Property and Management Company International Limited, 7/2016 to 6/2017; Project Manager|Project Estimator|Quantity Surveyor at ADEN ENGINEERING NIGERIA, 7/2013 to 5/2016; Business Development Manager/Product Manager at Diamond Bank Plc, 3/2013 to 7/2013; Quantity Surveyor at RATCON Construction Company, 6/2010 to 10/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 445,
+      "date_added": "2026-08-24 10:53:30 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Metro Senior Cost Manager",
+      "company": "Microsoft",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Estimator",
+      "company": "RIB U S Cost",
+      "start": "3/2024",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator",
+      "company": "Hellas",
+      "start": "1/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Project Estimator|Project Manager",
+      "company": "Cladding",
+      "start": "5/2021",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager|Project Controls Estimator",
+      "company": "The Spear Group",
+      "start": "6/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager|Project Controls Estimator Pharmaceutical|Life Sciences",
+      "company": "Merck",
+      "start": "6/2020",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Management Intern",
+      "company": "KATERRA",
+      "start": "6/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Graduate Teaching Assistant",
+      "company": "Texas A&M University",
+      "start": "8/2018",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager|Project Estimator|Product Manager|Facility Manager|Quantity Surveyor",
+      "company": "Ridgewell Construction",
+      "start": "6/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager|Product Manager|Quantity Surveyor",
+      "company": "MPD Logics Property and Management Company International Limited",
+      "start": "7/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager|Project Estimator|Quantity Surveyor",
+      "company": "ADEN ENGINEERING NIGERIA",
+      "start": "7/2013",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager/Product Manager",
+      "company": "Diamond Bank Plc",
+      "start": "3/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "RATCON Construction Company",
+      "start": "6/2010",
+      "end": "10/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Master's degree, Construction Management, Texas A&M University, 2018 to 2020",
+    "Certification, Elements of Artificial Intelligence, University of Helsinki, 2018 to 2018",
+    "Bachelor's Degree, Quantity Surveying, Federal University of Technology Akure, 2006 to 2011"
+  ],
+  "assessment": {
+    "tenure": "Poor",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "primus-power",
+  "type": "company",
+  "name": "Primus Power",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Hayward, California",
+  "founded": null,
+  "website": "https://www.primuspower.com",
+  "linkedin": "https://www.linkedin.com/company/primus-power/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Storage Developer",
+      "Utility Scale": "No",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Flow battery storage technology company. Not a large-scale developer. Limited DC talent relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

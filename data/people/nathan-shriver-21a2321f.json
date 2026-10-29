@@ -1,0 +1,110 @@
+{
+  "id": "nathan-shriver-21a2321f",
+  "type": "person",
+  "name": "Nathan Shriver",
+  "current_title": "Senior Director of Development",
+  "current_company": "Rowan Digital Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/nathanshriver",
+  "location": "Denver, Colorado",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director of Development at Rowan Digital Infrastructure, 3/2026 to present; Director of Development at Rowan Digital Infrastructure, 1/2024 to 3/2026; Director of Development at The X Company, 9/2020 to 1/2024; Development Lead at The X Company, 1/2019 to 9/2020; Development Associate at The X Company, 10/2017 to 12/2018; Associate at Springbank Real Estate Group, 11/2015 to 10/2017; Finance and IT Systems Analyst at Charles Hall Construction, 1/2015 to 10/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 268,
+      "date_added": "2026-04-20 11:01:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "rowan-digital-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Senior Director of Development",
+      "company": "Rowan Digital Infrastructure",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Development",
+      "company": "Rowan Digital Infrastructure",
+      "start": "1/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Director of Development",
+      "company": "The X Company",
+      "start": "9/2020",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Development Lead",
+      "company": "The X Company",
+      "start": "1/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Development Associate",
+      "company": "The X Company",
+      "start": "10/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Springbank Real Estate Group",
+      "start": "11/2015",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Finance and IT Systems Analyst",
+      "company": "Charles Hall Construction",
+      "start": "1/2015",
+      "end": "10/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Masters of Science in Real Estate, DePaul University"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

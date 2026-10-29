@@ -1,0 +1,40 @@
+{
+  "id": "kpff-consulting-engineers",
+  "type": "company",
+  "name": "KPFF Consulting Engineers",
+  "aliases": [],
+  "industry_role": "civil land engineering / general contractor",
+  "headquarters": "Seattle, Washington",
+  "founded": null,
+  "website": "https://www.kpff.com",
+  "linkedin": "https://www.linkedin.com/company/kpff-consulting-engineers/",
+  "headcount": "501 to 1,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "Regional",
+      "Noise Category": "Low",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "Medium"
+    }
+  },
+  "dc_exposure_level": "Medium",
+  "notes": "Siddhi's sheet note: Structural + civil. Pacific Northwest. Some DC structural work.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

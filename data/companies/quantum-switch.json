@@ -1,0 +1,49 @@
+{
+  "id": "quantum-switch",
+  "type": "company",
+  "name": "Quantum Switch",
+  "aliases": [],
+  "industry_role": "data center developer",
+  "headquarters": "Dubai, United Arab Emirates",
+  "founded": null,
+  "website": "http://www.quantumswitch.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/quantum-switch/",
+  "headcount": "11 to 50",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 36.0,
+      "early_stage_mw": 6.0
+    }
+  }
+}

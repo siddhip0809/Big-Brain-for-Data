@@ -1,0 +1,132 @@
+{
+  "id": "arjan-de-haan-5fe609e9",
+  "type": "person",
+  "name": "Arjan de Haan",
+  "current_title": "Director Sales, Europe",
+  "current_company": "Edged",
+  "location": "Bloemendaal, North Holland, Netherlands",
+  "linkedin": "https://www.linkedin.com/in/arjandehaan71",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Director Sales, Europe at Edged, 2024 to present; Sr. Director Hyperscale Sales EMEA at Digital Realty, 2018 to 2024; Director Group Strategic Accounts at Digital Realty, 2014 to 2017; Managing Director Ireland (interim) at Digital Realty, 2010 to 2011; Director Cloud Services and System Integrators - International Sales at Digital Realty, 2008 to 2014; Manager Sales & Marketing at Digital Realty, 2000 to 2007; Corporate Management Trainee + SME Account Manager at ABN AMRO Bank N V, 1997 to 2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 89,
+      "date_added": "2026-08-26 09:14:03 UTC",
+      "date_updated": "2026-08-26 04:16:49 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 15,
+      "date_added": "2026-07-08 17:34:07 UTC",
+      "date_updated": "2026-08-26 04:14:03 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 134,
+      "date_added": "2025-12-15 15:34:02 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "edged",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director Sales, Europe",
+      "company": "Edged",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Director Hyperscale Sales EMEA",
+      "company": "Digital Realty",
+      "start": "2018",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Director Group Strategic Accounts",
+      "company": "Digital Realty",
+      "start": "2014",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Managing Director Ireland (interim)",
+      "company": "Digital Realty",
+      "start": "2010",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Director Cloud Services and System Integrators - International Sales",
+      "company": "Digital Realty",
+      "start": "2008",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Manager Sales & Marketing",
+      "company": "Digital Realty",
+      "start": "2000",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Corporate Management Trainee + SME Account Manager",
+      "company": "ABN AMRO Bank N V",
+      "start": "1997",
+      "end": "2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Bloemendaal",
+    "region": "North Holland",
+    "country": "Netherlands",
+    "group": "Netherlands"
+  },
+  "education": [
+    "Master's degree Business Economics, Erasmus University Rotterdam, 1997",
+    "VWO, Maerlant Lyceum, 1990"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

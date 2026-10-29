@@ -1,0 +1,155 @@
+{
+  "id": "rod-miller-c9e714ed",
+  "type": "person",
+  "name": "Rod Miller",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "The Weitz Company",
+  "location": "Tempe, Arizona",
+  "linkedin": "https://www.linkedin.com/in/rod-miller-3b2029b",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at The Weitz Company, 4/2025 to present; Director of Preconstruction at Big-D Construction, 11/2022 to present; Director Of Preconstruction at Ryan Companies US, 3/2021 to 11/2022; Senior Preconstruction Manager at Ryan Companies US, 10/2015 to 3/2021; Project Manager at CORE Construction, 7/2013 to 10/2015; Project Manager at CORE Construction, 4/2013 to 7/2013; Assistant Project Manager at CORE Construction, 8/2012 to 4/2013; Preconstruction Engineer at Holder Construction, 6/2009 to 8/2012; Assistant Estimator at Adolfson & Peterson Construction, 3/2008 to 12/2008; Model Builder at JWP Design, 2006 to 2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 194,
+      "date_added": "2026-08-26 12:17:36 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 363,
+      "date_added": "2026-08-14 15:18:23 UTC",
+      "date_updated": "2026-08-26 07:17:35 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 363,
+      "date_added": "2026-08-14 15:18:23 UTC",
+      "date_updated": "2026-08-26 07:17:35 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "the-weitz-company",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "The Weitz Company",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Preconstruction",
+      "company": "Big-D Construction",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Preconstruction",
+      "company": "Ryan Companies US",
+      "start": "3/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Ryan Companies US",
+      "start": "10/2015",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "CORE Construction",
+      "start": "7/2013",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "CORE Construction",
+      "start": "4/2013",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "CORE Construction",
+      "start": "8/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Holder Construction",
+      "start": "6/2009",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Assistant Estimator",
+      "company": "Adolfson & Peterson Construction",
+      "start": "3/2008",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Model Builder",
+      "company": "JWP Design",
+      "start": "2006",
+      "end": "2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Tempe",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Construction Management, Construction, estimating, Arizona State University, 2003 to 2008"
+  ],
+  "biography": "Culture Fanboy, Positive Change Embracer, and Comedy Enthusiast",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

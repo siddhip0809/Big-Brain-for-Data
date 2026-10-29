@@ -1,0 +1,39 @@
+{
+  "id": "form-energy-grid-development-team",
+  "type": "company",
+  "name": "Form Energy grid development team",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Berkeley, California",
+  "founded": null,
+  "website": "https://www.formenergy.com",
+  "linkedin": "https://www.linkedin.com/company/form-energy/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Storage Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Long-duration battery storage developer (iron-air). Grid-scale focus. Relevant for DC power resilience roles.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

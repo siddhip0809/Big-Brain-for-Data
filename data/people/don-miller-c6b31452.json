@@ -1,0 +1,77 @@
+{
+  "id": "don-miller-c6b31452",
+  "type": "person",
+  "name": "Don Miller",
+  "current_title": "Vice President of Construction",
+  "current_company": "PointOne",
+  "linkedin": "https://www.linkedin.com/in/don-miller-8ab750a",
+  "location": "Aldie, Virginia, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President of Construction at PointOne, 9/2024 to present; Vice President at Holder Construction, 12/2017 to 7/2024; Director, Operations at Holder Construction, 4/1996 to 12/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 80,
+      "date_added": "2026-07-02 11:47:42 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "pointone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "PointOne",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "Holder Construction",
+      "start": "12/2017",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Operations",
+      "company": "Holder Construction",
+      "start": "4/1996",
+      "end": "12/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Aldie",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Master of Science - MS, Construction Management, Rochester Institute of Technology, 2021 to 2023",
+    "BS, Civil Engineering Technology, Rochester Institute of Technology, 1993 to 1996"
+  ],
+  "biography": "Vice President of Construction @ PointOne Data Centers",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

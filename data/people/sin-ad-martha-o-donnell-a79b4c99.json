@@ -1,0 +1,146 @@
+{
+  "id": "sin-ad-martha-o-donnell-a79b4c99",
+  "type": "person",
+  "name": "Sinéad Martha O’Donnell",
+  "current_title": "Sr. Site Acquisition Manager",
+  "current_company": "Microsoft",
+  "location": "Dublin,  County Dublin, Ireland",
+  "linkedin": "https://www.linkedin.com/in/sin%C3%A9ad-martha-o%E2%80%99donnell-bb562a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sr. Site Acquisition Manager at Microsoft, 11/2025 to present; Lessor Relationship Manager, EMEA Region at AECOM/Microsoft, 7/2024 to 11/2025; Infrastructure Partner Manager & Team Lead, EMEA Region at AWS, 5/2020 to 7/2024; Infrastructure Partner Manager, EMEA Region at AWS, 6/2019 to 7/2024; Director Commercial Operations (Global) at Openet, 6/2017 to 6/2019; Manager, Sales Operations & Vendor Management at Openet, 10/2015 to 6/2017; Global Strategic Vendor Manager, Sales & Services at Openet, 11/2014 to 10/2015; Indirect Channels Operations Manager at Openet, 11/2013 to 11/2014; Technology Partner Manager, Business Development and Strategic Alliances at Openet, 4/2012 to 11/2013; Sales Operations Manager at Sabeo, 1/2007 to 12/2011; Sales Support Executive (Technical) at Sabeo, 5/2000 to 12/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "2d. CV Received / Scheduling Full Assessment",
+      "rank": 70,
+      "date_added": "2026-08-14 12:32:56 UTC",
+      "date_updated": "2026-08-14 07:33:38 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 137,
+      "date_added": "2026-07-10 08:39:55 UTC",
+      "date_updated": "2026-08-14 07:32:56 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Site Acquisition Manager",
+      "company": "Microsoft",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lessor Relationship Manager, EMEA Region",
+      "company": "AECOM/Microsoft",
+      "start": "7/2024",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Partner Manager & Team Lead, EMEA Region",
+      "company": "AWS",
+      "start": "5/2020",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Infrastructure Partner Manager, EMEA Region",
+      "company": "AWS",
+      "start": "6/2019",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Director Commercial Operations (Global)",
+      "company": "Openet",
+      "start": "6/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Manager, Sales Operations & Vendor Management",
+      "company": "Openet",
+      "start": "10/2015",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Global Strategic Vendor Manager, Sales & Services",
+      "company": "Openet",
+      "start": "11/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Indirect Channels Operations Manager",
+      "company": "Openet",
+      "start": "11/2013",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Technology Partner Manager, Business Development and Strategic Alliances",
+      "company": "Openet",
+      "start": "4/2012",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Operations Manager",
+      "company": "Sabeo",
+      "start": "1/2007",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Support Executive (Technical)",
+      "company": "Sabeo",
+      "start": "5/2000",
+      "end": "12/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dublin",
+    "region": "County Dublin",
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "biography": "Sinéad O'Donnell has over 2 years at Microsoft focused on capacity acquisition and AI deals, following an infrastructure role at AWS.",
+  "assessment": {
+    "skills": {
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "rating": 3.0,
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

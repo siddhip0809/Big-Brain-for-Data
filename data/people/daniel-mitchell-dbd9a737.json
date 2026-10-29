@@ -1,0 +1,63 @@
+{
+  "id": "daniel-mitchell-dbd9a737",
+  "type": "person",
+  "name": "Daniel Mitchell",
+  "current_title": "Real Estate Principal, EMEA",
+  "current_company": "AWS",
+  "location": "Dublin, County Dublin",
+  "linkedin": "https://www.linkedin.com/in/daniel-mitchell-97201256",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Real Estate Principal, EMEA at AWS, 10/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "2a. Interested to Know More",
+      "rank": 111,
+      "date_added": "2026-08-31 11:37:13 UTC",
+      "date_updated": "2026-08-31 06:47:36 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 297,
+      "date_added": "2026-08-27 04:03:47 UTC",
+      "date_updated": "2026-08-31 06:37:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Real Estate Principal, EMEA",
+      "company": "AWS",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Dublin",
+    "region": "County Dublin",
+    "country": "Ireland",
+    "group": "Ireland"
+  }
+}

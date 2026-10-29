@@ -1,0 +1,100 @@
+{
+  "id": "rob-hopewell-fc37ebc5",
+  "type": "person",
+  "name": "Rob Hopewell",
+  "current_title": "EVP of Hyperscale Sales",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/robhopewell",
+  "location": "Ashburn, Virginia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "EVP of Hyperscale Sales at QTS Data Centers, 12/2016 to present; VP of Sales & Sales Operations at Babel Street, 1/2016 to 12/2016; Vice President of Sales at EdgeConneX, 4/2013 to 1/2016; Vice President of Sales at Sidera Networks, 1/2012 to 4/2013; President & Co-Founder at The Heiden Group, 6/2004 to 1/2012; QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 62,
+      "date_added": "2025-11-07 13:11:17 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "EVP of Hyperscale Sales",
+      "company": "QTS Data Centers",
+      "start": "12/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP of Sales & Sales Operations",
+      "company": "Babel Street",
+      "start": "1/2016",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "EdgeConneX",
+      "start": "4/2013",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "Sidera Networks",
+      "start": "1/2012",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "President & Co-Founder",
+      "company": "The Heiden Group",
+      "start": "6/2004",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Ashburn",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "James Madison University, 1990 to 1994",
+    "Stuart High School"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

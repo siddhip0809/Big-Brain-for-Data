@@ -1,0 +1,79 @@
+{
+  "id": "travis-keene-ebc46777",
+  "type": "person",
+  "name": "Travis Keene",
+  "current_title": "Mgr. of Construction",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/tmkeene",
+  "location": ".,  .",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Mgr. of Construction at AWS, 4/2026 to present; Construction at Microsoft, 2/2025 to 3/2026; Sr. Construction Operations Manager at Tesla, 2017 to 2019; Military Officer / B-1 Aviator at United States Air Force, 2005 to 2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 101,
+      "date_added": "2026-07-02 11:47:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Mgr. of Construction",
+      "company": "AWS",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction",
+      "company": "Microsoft",
+      "start": "2/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Sr. Construction Operations Manager",
+      "company": "Tesla",
+      "start": "2017",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Military Officer / B-1 Aviator",
+      "company": "United States Air Force",
+      "start": "2005",
+      "end": "2016",
+      "current": false
+    }
+  ],
+  "location_norm": null,
+  "education": [
+    "Certificate, Charles University",
+    "University of Utah"
+  ],
+  "biography": "Construction leader with a demonstrated history of leadership in high-functioning organizations. Skilled in Project delivery, strategic planning, and team management. Led full spectrum action-oriented teams constructing complex projects under accelerated deadlines. Veteran aviator with a decorated military career flying the B-1 in combat. Awarded 2012 Gen. Curtis E. Lemay Outstanding Bomber Aircrew of the year.",
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

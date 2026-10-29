@@ -1,0 +1,77 @@
+{
+  "id": "josh-m-9a9e74af",
+  "type": "person",
+  "name": "Josh M.",
+  "current_title": "MEP Pre-Construction Manager",
+  "current_company": "McCarthy Building Companies",
+  "linkedin": "https://www.linkedin.com/in/joshmulkey",
+  "location": "Kansas City, Missouri",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "MEP Pre-Construction Manager at McCarthy Building Companies, 6/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 418,
+      "date_added": "2026-08-21 12:40:19 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 418,
+      "date_added": "2026-08-21 12:40:19 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mccarthy-building-companies",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "MEP Pre-Construction Manager",
+      "company": "McCarthy Building Companies",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Kansas City",
+    "region": "Missouri",
+    "country": "United States",
+    "group": "Missouri"
+  },
+  "education": [
+    "Journeymen Wireman, JATC, 2007 to 2012",
+    "Ordnance, US ARMY Ordnance, Missile & Munitions Center and School",
+    "CIS, DeVry University"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

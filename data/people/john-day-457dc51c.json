@@ -1,0 +1,102 @@
+{
+  "id": "john-day-457dc51c",
+  "type": "person",
+  "name": "John Day",
+  "current_title": "Chief Commercial Officer",
+  "current_company": "CleanArc Data Centers",
+  "linkedin": "https://www.linkedin.com/in/john-day-41567",
+  "location": "Baltimore, Maryland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Commercial Officer at CleanArc Data Centers, 4/2023 to present; Advisor, Data Center Investments at Legacy Investing, 8/2022 to present; Vice President of Sales and Leasing at Sabey Data Centers, 7/2019 to 7/2022; Director of Sales | Mid-Atlantic at QTS Data Centers, 1/2019 to 7/2019; Sales Executive at QTS Data Centers; Sales Executive, Data Centers at ABB; CleanArc Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 184,
+      "date_added": "2026-02-23 09:50:17 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "cleanarc-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Commercial Officer",
+      "company": "CleanArc Data Centers",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Advisor, Data Center Investments",
+      "company": "Legacy Investing",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales and Leasing",
+      "company": "Sabey Data Centers",
+      "start": "7/2019",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "raw": "Director of Sales"
+    },
+    {
+      "title": "Mid-Atlantic",
+      "company": "QTS Data Centers",
+      "start": "1/2019",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "QTS Data Centers",
+      "current": false
+    },
+    {
+      "title": "Sales Executive, Data Centers",
+      "company": "ABB",
+      "current": false
+    },
+    {
+      "raw": "CleanArc Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

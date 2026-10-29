@@ -1,0 +1,39 @@
+{
+  "id": "cdm-smith",
+  "type": "company",
+  "name": "CDM Smith",
+  "aliases": [],
+  "industry_role": "civil land engineering / general contractor",
+  "headquarters": "Boston, Massachusetts",
+  "founded": null,
+  "website": "https://www.cdmsmith.com",
+  "linkedin": "https://www.linkedin.com/company/cdmsmith/",
+  "headcount": "5,001 to 10,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "No"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet note: Water and environmental primary. Limited DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

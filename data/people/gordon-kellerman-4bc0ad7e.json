@@ -1,0 +1,133 @@
+{
+  "id": "gordon-kellerman-4bc0ad7e",
+  "type": "person",
+  "name": "Gordon Kellerman",
+  "current_title": "Executive Vice President",
+  "current_company": "Skybox Datacenters",
+  "linkedin": "https://www.linkedin.com/in/gordonkellerman",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Executive Vice President at Skybox Datacenters, 10/2023 to present; Senior Vice President at Skybox Datacenters, 8/2020 to 11/2023; Associate Board Member, Folsom Institute for Real Estate at SMU Cox School of Business, 2/2019 to present; Vice President at Skybox Datacenters, 5/2014 to 8/2020; Senior Associate at Wingert Real Estate, 4/2013 to 10/2014; Associate at Cassidy Turley, 9/2012 to 3/2013; Securities Pricing Analyst at JPMorgan Chase, 6/2011 to 9/2012; Principal at Dallas Pedicab Services, 6/2011 to 12/2015; Analyst at Wells Fargo Advisors, 8/2010 to 6/2011; Assistant Property Tax Manager at RETC Real, 5/2010 to 7/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 179,
+      "date_added": "2026-01-27 09:42:25 UTC",
+      "date_updated": "2026-01-27 03:44:48 -0600",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "skybox-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President",
+      "company": "Skybox Datacenters",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "Skybox Datacenters",
+      "start": "8/2020",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Associate Board Member, Folsom Institute for Real Estate",
+      "company": "SMU Cox School of Business",
+      "start": "2/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "Skybox Datacenters",
+      "start": "5/2014",
+      "end": "8/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Wingert Real Estate",
+      "start": "4/2013",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Cassidy Turley",
+      "start": "9/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Securities Pricing Analyst",
+      "company": "JPMorgan Chase",
+      "start": "6/2011",
+      "end": "9/2012",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Dallas Pedicab Services",
+      "start": "6/2011",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Wells Fargo Advisors",
+      "start": "8/2010",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Property Tax Manager",
+      "company": "RETC Real",
+      "start": "5/2010",
+      "end": "7/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelors, Southern Methodist University",
+    "Diploma, The Boys'​ Latin School of Maryland"
+  ],
+  "biography": "Enabling customers' digital infrastructure needs delivering sustainable, bespoke solutions ahead of the curve; solving challenges of today, adaptable for the densities and needs of tomorrow.\n\nMD native and Southern Methodist University grad based in TX. Active board member for SMU’s Folsom School of Real Estate and EVP of 7x24's Texas South Chapter.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

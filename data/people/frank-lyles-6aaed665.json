@@ -1,0 +1,83 @@
+{
+  "id": "frank-lyles-6aaed665",
+  "type": "person",
+  "name": "Frank Lyles",
+  "current_title": "Chief Business Officer",
+  "current_company": "T5 Data Centers",
+  "linkedin": "https://www.linkedin.com/in/frank-lyles-a5a2668",
+  "location": "Atlanta, Georgia",
+  "seniority": "CXO",
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Business Officer at T5 Data Centers, 3/2008 to present; Senior Vice President at The Staubach Company, 1/1991 to 3/2008; Associate Broker at The Signet Corporation, 10/1986 to 10/1990",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 132,
+      "date_added": "2025-12-15 15:11:54 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "t5-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Chief Business Officer",
+      "company": "T5 Data Centers",
+      "start": "3/2008",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President",
+      "company": "The Staubach Company",
+      "start": "1/1991",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "Associate Broker",
+      "company": "The Signet Corporation",
+      "start": "10/1986",
+      "end": "10/1990",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "MBA, Real Estate Finance, Georgia State University - J. Mack Robinson College of Business, 1991 to 1993",
+    "B.S., Industrial Management / Finance, Clemson University, 1981 to 1985"
+  ],
+  "biography": "Co-founded T5 Data Centers in March of 2008 to develop, own and operate wholesale data centers and powered data center shells across the country.  T5 owns and operates data centers in 7 key markets providing wholesale data center space, while T5 Enterprise Services provides collocation solutions and services for smaller requirements.  T5 also acquires fully and partially leased data centers, providing owners a means monetize their assets.  T5FM provides facilities management services to third party owners and T5 Construction Services oversees tenant build outs.\n\nSpecialties: Wholesale Data Center Owner/Operator, Data Center Acquisitions and Leasebacks, Data Center Development,  Data Center Facilities Management, Construction and Project Management.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

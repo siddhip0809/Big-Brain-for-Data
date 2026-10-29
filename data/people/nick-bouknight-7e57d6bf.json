@@ -1,0 +1,77 @@
+{
+  "id": "nick-bouknight-7e57d6bf",
+  "type": "person",
+  "name": "Nick Bouknight",
+  "current_title": "Vice President of Construction",
+  "current_company": "Skybox Datacenters",
+  "linkedin": "https://www.linkedin.com/in/nick-bouknight-781876202",
+  "location": "Plano, Texas, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President of Construction at Skybox Datacenters, 10/2023 to present; Construction Manager at Skybox Datacenters, 2/2022 to 10/2023; Sr. Project Manager at Cummings Electrical, 2/2022 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 55,
+      "date_added": "2026-07-02 11:47:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "skybox-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "Skybox Datacenters",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Skybox Datacenters",
+      "start": "2/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Manager",
+      "company": "Cummings Electrical",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Plano",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Southern Methodist University, 2021 to 2023",
+    "Bachelor of Science - BS, Construction Science, Texas A&M University, 2005 to 2008"
+  ],
+  "biography": "Building Datacenters at Skybox Datacenters",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

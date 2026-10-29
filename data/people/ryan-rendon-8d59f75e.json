@@ -1,0 +1,104 @@
+{
+  "id": "ryan-rendon-8d59f75e",
+  "type": "person",
+  "name": "Ryan Rendon",
+  "current_title": "Senior Development Project Manager",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/ryan-rendon-14b6b29a",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Development Project Manager  at QTS Data Centers, 9/2025 to present; Development Project Manager at QTS Data Centers, 11/2023 to present; Project Manager at POGUE CONSTRUCTION, 9/2022 to 11/2023; Assistant Project Manager at Vaughn Construction, 4/2020 to 9/2022; Assistant Project Manager at Structure Tone Southwest, 7/2018 to 4/2020; Project Engineer - Mission Critical at Structure Tone Southwest, 5/2014 to 7/2018; Intern at RLM General Contractor, 5/2013 to 8/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 289,
+      "date_added": "2026-07-10 07:51:03 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Development Project Manager ",
+      "company": "QTS Data Centers",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "POGUE CONSTRUCTION",
+      "start": "9/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Vaughn Construction",
+      "start": "4/2020",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Structure Tone Southwest",
+      "start": "7/2018",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer - Mission Critical",
+      "company": "Structure Tone Southwest",
+      "start": "5/2014",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "RLM General Contractor",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Science (BS), Agricultural Leadership and Development, Texas A&M University, 2010 to 2014"
+  ],
+  "biography": "Development Project Manager at QTS Data Centers",
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

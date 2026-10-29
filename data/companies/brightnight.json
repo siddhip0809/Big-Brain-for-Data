@@ -1,0 +1,39 @@
+{
+  "id": "brightnight",
+  "type": "company",
+  "name": "BrightNight",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "New York",
+  "founded": null,
+  "website": "https://www.brightnight.com",
+  "linkedin": "https://www.linkedin.com/company/brightnight/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Utility-scale solar and storage developer. Strong hyperscaler focus. Operates across ERCOT, MISO, PJM, WECC.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "sundt-construction",
+  "type": "company",
+  "name": "Sundt Construction (Dev Services)",
+  "aliases": [],
+  "industry_role": "real estate / industrial developer",
+  "headquarters": "Tempe, Arizona",
+  "founded": null,
+  "website": "https://www.sundt.com",
+  "linkedin": "https://www.linkedin.com/company/sundt-construction/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "GC / Design-Build (Mission Critical Focus)",
+      "Primary Scope": "National",
+      "DC Exposure Level": "High",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: One of the most active GCs in semiconductor fab and mission-critical facility construction. Internal development services team handles permitting and entitlement for owner-clients. People here understand complex utility, environmental, and zoning permitting for power-intensive sites.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

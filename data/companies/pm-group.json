@@ -1,0 +1,26 @@
+{
+  "id": "pm-group",
+  "type": "company",
+  "name": "PM Group",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — programme & project management, design / MEP engineering",
+  "headquarters": "Dublin, Ireland",
+  "founded": null,
+  "website": "https://www.pmgroup-global.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data Centers & Mission Critical Facilities sector and a dedicated Data Center PMC service page; has a Technical Director – Data Centres and recruits DC project directors in Frankfurt/Cork.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers & Mission Critical Facilities sector and a dedicated Data Center PMC service page; has a Technical Director – Data Centres and recruits DC project directors in Frankfurt/Cork. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.pmgroup-global.com/what-we-do/our-sectors/data-centres/",
+    "https://www.pmgroup-global.com"
+  ],
+  "last_updated": "2026-09-16"
+}

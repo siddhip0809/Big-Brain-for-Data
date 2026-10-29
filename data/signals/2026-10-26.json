@@ -1,0 +1,18 @@
+[
+ {
+  "company_id": "polar-dc",
+  "company_name": "Polar DC",
+  "kind": "lease",
+  "headline": "Crusoe Cloud is the customer at Polar's DRA01 in Tørdal, Norway, live 21 Oct 2026 at 12MW",
+  "detail": "Crusoe Cloud is the customer at Polar's DRA01 (Tørdal, Norway), live 2026-10-21 with 12MW; DRA02 (~40MW) planned late 2027.",
+  "date": "2026-10-21",
+  "counterparty_id": "crusoe",
+  "counterparty_name": "Crusoe",
+  "mw": 12,
+  "sources": [
+   "https://www.crusoe.ai/resources/newsroom/polar-crusoe-partnership-expansion"
+  ],
+  "confidence": "high",
+  "note": "Recovered from the atlas the Routine published on 2026-10-26; the run's own signals file was never pushed. Other signals from that run, if any, are not recoverable."
+ }
+]

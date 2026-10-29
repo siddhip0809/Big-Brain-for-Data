@@ -1,0 +1,75 @@
+{
+  "id": "glenn-mcspadden-b0b7e08a",
+  "type": "person",
+  "name": "Glenn McSpadden",
+  "current_title": "Senior Estimator",
+  "current_company": "Layton Construction",
+  "location": "Mount Juliet, Tennessee",
+  "linkedin": "https://www.linkedin.com/in/glenn-mcspadden-72233415",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Layton Construction, 9/2017 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 60,
+      "date_added": "2026-08-18 10:06:42 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 239,
+      "date_added": "2026-08-12 08:11:37 UTC",
+      "date_updated": "2026-08-18 05:06:42 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Layton Construction",
+      "start": "9/2017",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Mount Juliet",
+    "region": "Tennessee",
+    "country": "United States",
+    "group": "Tennessee"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

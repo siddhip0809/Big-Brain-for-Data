@@ -1,0 +1,52 @@
+{
+  "id": "opcore",
+  "type": "company",
+  "name": "OPCORE",
+  "aliases": [
+    "OPCORE SAS"
+  ],
+  "industry_role": "hyperscaler / real estate development",
+  "headquarters": "Paris, France",
+  "founded": null,
+  "website": "https://www.opcore.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Hyperscaler",
+    "Real Estate Development",
+    "Data Center Developer"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 2 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nMerged 2026-09-09: absorbed duplicate record 'OPCORE SAS' (opcore-sas).",
+  "sources": [
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/opcoredatacenters/",
+  "headcount": "51-200",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 167.5
+    }
+  }
+}

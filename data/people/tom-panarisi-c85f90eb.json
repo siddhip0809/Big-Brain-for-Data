@@ -1,0 +1,93 @@
+{
+  "id": "tom-panarisi-c85f90eb",
+  "type": "person",
+  "name": "Tom Panarisi",
+  "current_title": "Regional Vice President of Sales",
+  "current_company": "DataBank",
+  "linkedin": "https://www.linkedin.com/in/tompanarisi",
+  "location": "CA",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Regional Vice President of Sales at DataBank, 1/2021 to present; Regional Vice President of Sales at Armis, 7/2019 to 1/2021; Regional Vice President of Sales at Internap Network Services, 3/2017 to 4/2019; Regional Director - Southwest at Zerto, 6/2015 to 3/2017; Regional Vice President - West at Latisys, 11/2008 to 6/2015; Regional Vice President at Qwest Communications, 11/1992 to 10/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 271,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "databank",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Vice President of Sales",
+      "company": "DataBank",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Vice President of Sales",
+      "company": "Armis",
+      "start": "7/2019",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Regional Vice President of Sales",
+      "company": "Internap Network Services",
+      "start": "3/2017",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Regional Director - Southwest",
+      "company": "Zerto",
+      "start": "6/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Vice President - West",
+      "company": "Latisys",
+      "start": "11/2008",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Regional Vice President",
+      "company": "Qwest Communications",
+      "start": "11/1992",
+      "end": "10/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "martijn-kooiman-76632661",
+  "type": "person",
+  "name": "Martijn Kooiman",
+  "current_title": "Vice President, Strategic Accounts",
+  "current_company": "Equinix",
+  "location": "Amsterdam,  North Holland, Netherlands",
+  "linkedin": "https://www.linkedin.com/in/martijnkooiman",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Strategic Accounts at Equinix, 1/2026 to present; VP Sales, Global Accounts (EMEA) & Enterprise Sales (Benelux) at Equinix, 1/2023 to present; Sr. Director Sales (Benelux) at Equinix, 11/2017 to 1/2023; Director Sales (Benelux) at Equinix, 3/2016 to 10/2017; Regional Sales Director (Western Europe) at Equinix, 1/2015 to 2/2016; Director Sales (Netherlands) at Equinix, 4/2013 to 12/2014; Sales Manager (Netherlands) at Equinix, 9/2010 to 3/2013; Sales Manager (Cloud & Hosting) at Equinix, 8/2008 to 8/2010; Sales Consultant at PINS Managed Hosting, 6/2005 to 7/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Not Interested",
+      "rank": 54,
+      "date_added": "2026-08-14 11:53:26 UTC",
+      "date_updated": "2026-08-14 07:03:57 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 23,
+      "date_added": "2026-07-08 17:34:07 UTC",
+      "date_updated": "2026-08-14 06:53:26 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 72,
+      "date_added": "2025-11-07 15:58:33 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President, Strategic Accounts",
+      "company": "Equinix",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Sales, Global Accounts (EMEA) & Enterprise Sales (Benelux)",
+      "company": "Equinix",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Director Sales (Benelux)",
+      "company": "Equinix",
+      "start": "11/2017",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Director Sales (Benelux)",
+      "company": "Equinix",
+      "start": "3/2016",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director (Western Europe)",
+      "company": "Equinix",
+      "start": "1/2015",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Director Sales (Netherlands)",
+      "company": "Equinix",
+      "start": "4/2013",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Manager (Netherlands)",
+      "company": "Equinix",
+      "start": "9/2010",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Manager (Cloud & Hosting)",
+      "company": "Equinix",
+      "start": "8/2008",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Sales Consultant",
+      "company": "PINS Managed Hosting",
+      "start": "6/2005",
+      "end": "7/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Amsterdam",
+    "region": "North Holland",
+    "country": "Netherlands",
+    "group": "Netherlands"
+  },
+  "education": [
+    "RSM Executive Education, Advanced Management and Leadership Programme, Erasmus University Rotterdam, 2016 to present",
+    "Bachelor of Economics, MER (Management, Economics and Law), Inholland University of Applied Sciences, 2001 to 2005"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
+  }
+}

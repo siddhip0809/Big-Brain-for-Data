@@ -1,0 +1,39 @@
+{
+  "id": "sb-energy",
+  "type": "company",
+  "name": "SB Energy",
+  "aliases": [],
+  "industry_role": "neocloud",
+  "headquarters": "San Francisco, California, United States",
+  "founded": null,
+  "website": "https://sbenergy.com/",
+  "linkedin": "https://www.linkedin.com/company/sb-energy-softbank-group-/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-07-31 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

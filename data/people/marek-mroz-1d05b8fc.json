@@ -1,0 +1,124 @@
+{
+  "id": "marek-mroz-1d05b8fc",
+  "type": "person",
+  "name": "Marek Mroz",
+  "current_title": "Manager, Real Estate Development",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/marek-mroz-8a3b76112",
+  "location": "New York, New York",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Manager, Real Estate Development at AWS, 11/2025 to present; Senior Real Estate Development Manager at AWS, 7/2024 to 11/2025; Senior Program Manager - Program Management Office at Amazon, 4/2023 to 7/2024; Senior Program Manager - Global Capital Planning at Amazon, 4/2022 to 4/2023; Program Manager - Global Capital Planning at Amazon, 6/2021 to 4/2022; Assistant Vice President - Asset Management at New York City Economic Development, 2/2021 to 6/2021; Senior Associate - Asset Management at New York City Economic Development, 9/2019 to 2/2021; Marketing MBA Intern at PepsiCo, 6/2018 to 8/2018; Co-Founder / Managing Director at Mroz Office Design + Architecture PLLC, 6/2009 to 7/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 502,
+      "date_added": "2026-06-03 15:02:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Manager, Real Estate Development",
+      "company": "AWS",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Real Estate Development Manager",
+      "company": "AWS",
+      "start": "7/2024",
+      "end": "11/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Program Manager - Program Management Office",
+      "company": "Amazon",
+      "start": "4/2023",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Program Manager - Global Capital Planning",
+      "company": "Amazon",
+      "start": "4/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Program Manager - Global Capital Planning",
+      "company": "Amazon",
+      "start": "6/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice President - Asset Management",
+      "company": "New York City Economic Development",
+      "start": "2/2021",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Associate - Asset Management",
+      "company": "New York City Economic Development",
+      "start": "9/2019",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Marketing MBA Intern",
+      "company": "PepsiCo",
+      "start": "6/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Co-Founder / Managing Director",
+      "company": "Mroz Office Design + Architecture PLLC",
+      "start": "6/2009",
+      "end": "7/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Yale School Of Management, 2017 to 2019",
+    "Bachelor of Design Architecture, University Of Florida, 2005 to 2009"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

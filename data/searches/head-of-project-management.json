@@ -1,0 +1,73 @@
+{
+  "id": "9d07b181-f192-45c9-a213-82d8d4222d71",
+  "type": "search",
+  "name": "Head of Project Management",
+  "client_company": "Green Mountain",
+  "client_company_id": "green-mountain-global-data-centers",
+  "status": "closed",
+  "project_type": "Contingency",
+  "started_at": "2026-07-20",
+  "closed_at": "2026-08-14",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Sunny Jassal",
+      "clockwork_person_id": "405bfd1c-d352-4203-ac63-23b3a96bbbbb",
+      "brain_person_id": "sunny-jassal-405bfd1c",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-06-05T13:27:01Z"
+    },
+    {
+      "person": "Nick De Palma",
+      "clockwork_person_id": "a8acefed-ce27-48d7-b844-b1acec84a550",
+      "brain_person_id": "nick-de-palma-a8acefed",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-07-24T11:36:22Z"
+    },
+    {
+      "person": "Mark Dimmick",
+      "clockwork_person_id": "91d02045-1e9f-4a90-9509-c7dbedd486b0",
+      "brain_person_id": "mark-dimmick-91d02045",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-04-14T15:31:53Z"
+    },
+    {
+      "person": "Steve Watson",
+      "clockwork_person_id": "e4012da6-5097-41a1-a903-58fedcf13f4d",
+      "brain_person_id": null,
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-06-05T13:27:08Z"
+    },
+    {
+      "person": "Stewart M Woolston",
+      "clockwork_person_id": "4bb98aa4-4674-40cb-a34a-c87e033733d4",
+      "brain_person_id": "stewart-m-woolston-4bb98aa4",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-06-05T13:27:40Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 5,
+    "placed": 0,
+    "active": 0,
+    "out": 5
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

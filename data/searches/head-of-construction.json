@@ -1,0 +1,424 @@
+{
+  "id": "30b3de41-4527-4bdb-8d6f-d0fb08f83739",
+  "type": "search",
+  "name": "Head of Construction",
+  "client_company": "Panattoni",
+  "client_company_id": "panattoni",
+  "status": "active",
+  "project_type": "Retained",
+  "started_at": "2026-06-12",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Stephen Henley",
+      "clockwork_person_id": "3867f280-9cf5-4bb4-9d15-f10bb2cf6ff4",
+      "brain_person_id": "stephen-henley-3867f280",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-08-03T14:54:57Z"
+    },
+    {
+      "person": "Gary O'Leary",
+      "clockwork_person_id": "93e0002d-9e9b-4e24-9eaf-6cf81f9a677b",
+      "brain_person_id": "gary-o-leary-93e0002d",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-02T20:12:12Z"
+    },
+    {
+      "person": "Paul Wright",
+      "clockwork_person_id": "a2324111-4d55-40de-889a-716dc0bca4d3",
+      "brain_person_id": "paul-wright-a2324111",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-08-14T12:28:43Z"
+    },
+    {
+      "person": "John Wilson",
+      "clockwork_person_id": "a70dfa1b-b583-4b16-9634-4530b95ef799",
+      "brain_person_id": "john-wilson-a70dfa1b",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-07-02T14:14:25Z"
+    },
+    {
+      "person": "Paul D Henry",
+      "clockwork_person_id": "d3961632-699b-44e9-a299-81ab6e1602a1",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-03T00:31:50Z"
+    },
+    {
+      "person": "Belal Aly",
+      "clockwork_person_id": "d86aff7f-6ff8-47f2-82cc-c5f4cbc3077e",
+      "brain_person_id": "belal-aly-d86aff7f",
+      "status": "3c. Interviewing",
+      "category": "in-offered",
+      "rank": 1410,
+      "updated_at": "2026-08-14T12:29:01Z"
+    },
+    {
+      "person": "Maxime Gallet",
+      "clockwork_person_id": "0133da84-c3f4-4ac2-83ee-d6bde936d899",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-08-14T12:29:34Z"
+    },
+    {
+      "person": "Paul Sharp",
+      "clockwork_person_id": "055ba819-3f18-46ad-898d-08c0a7d94dcc",
+      "brain_person_id": "paul-sharp-055ba819",
+      "status": "4b. Offer Accepted",
+      "category": "in-placed",
+      "rank": 1501,
+      "updated_at": "2026-09-03T14:58:06Z"
+    },
+    {
+      "person": "Colin McNally",
+      "clockwork_person_id": "10650cd8-f5e7-4389-b593-c7eb9d3f028e",
+      "brain_person_id": "colin-mcnally-10650cd8",
+      "status": "2d. CV Received / Scheduling Full Assessment",
+      "category": "in-contenders",
+      "rank": 1351,
+      "updated_at": "2026-08-25T15:37:29Z"
+    },
+    {
+      "person": "Cristina Alonso",
+      "clockwork_person_id": "2415ac62-c780-4a8a-a51a-63af2fdacfca",
+      "brain_person_id": "cristina-alonso-2415ac62",
+      "status": "3b. Shortlisted",
+      "category": "in-offered",
+      "rank": 1405,
+      "updated_at": "2026-08-10T13:28:26Z"
+    },
+    {
+      "person": "Padraig Carton",
+      "clockwork_person_id": "2858176b-cc20-4064-ab8b-aad2e1687e38",
+      "brain_person_id": "padraig-carton-2858176b",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-08-14T13:11:29Z"
+    },
+    {
+      "person": "Robert Smith",
+      "clockwork_person_id": "36efe2d7-63d1-4194-a9a4-640d5666bea4",
+      "brain_person_id": "robert-smith-36efe2d7",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2026-07-02T23:01:47Z"
+    },
+    {
+      "person": "Arno Grah",
+      "clockwork_person_id": "4773f5ac-f592-4a2a-af79-13ac516025c4",
+      "brain_person_id": "arno-grah-4773f5ac",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-31T10:57:28Z"
+    },
+    {
+      "person": "Thomas De Colle",
+      "clockwork_person_id": "4f2549f5-2d7f-4158-9452-be4e8f96c1ad",
+      "brain_person_id": "thomas-de-colle-4f2549f5",
+      "status": "WARD - Location Issue",
+      "category": "out-firm_rejected",
+      "rank": 351,
+      "updated_at": "2026-08-06T06:34:35Z"
+    },
+    {
+      "person": "Simon Anderson",
+      "clockwork_person_id": "4f47b506-0738-45e6-bd36-6629e35b5d4b",
+      "brain_person_id": "simon-anderson-4f47b506",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-03T13:05:15Z"
+    },
+    {
+      "person": "Charles Gibbons",
+      "clockwork_person_id": "5a7b8eff-6a30-497a-a348-fea4ce83c906",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-17T11:13:49Z"
+    },
+    {
+      "person": "Edward van Aalst",
+      "clockwork_person_id": "7a2ca57b-fa17-4be7-9277-af206f65c3ff",
+      "brain_person_id": "edward-van-aalst-7a2ca57b",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-21T13:02:12Z"
+    },
+    {
+      "person": "Chris Nesbit",
+      "clockwork_person_id": "86935cc3-3776-4c49-a164-b44515192e55",
+      "brain_person_id": "chris-nesbit-86935cc3",
+      "status": "WARD - Culture Fit",
+      "category": "out-firm_rejected",
+      "rank": 371,
+      "updated_at": "2026-07-31T10:12:48Z"
+    },
+    {
+      "person": "Gary Mills",
+      "clockwork_person_id": "9a989820-4550-4873-9ea1-10825d8f30a1",
+      "brain_person_id": "gary-mills-9a989820",
+      "status": "CLIENT - Culture Fit",
+      "category": "out-client_rejected",
+      "rank": 221,
+      "updated_at": "2026-08-14T12:51:48Z"
+    },
+    {
+      "person": "Martin Langthaler",
+      "clockwork_person_id": "9d580c06-332a-4cd7-9388-7417c32f85a3",
+      "brain_person_id": "martin-langthaler-9d580c06",
+      "status": "2d. CV Received / Scheduling Full Assessment",
+      "category": "in-contenders",
+      "rank": 1351,
+      "updated_at": "2026-08-06T15:19:13Z"
+    },
+    {
+      "person": "Zack Zahariev",
+      "clockwork_person_id": "abfe5cec-04a4-4eed-95eb-40bba41c0a50",
+      "brain_person_id": "zack-zahariev-abfe5cec",
+      "status": "WARD - Location Issue",
+      "category": "out-firm_rejected",
+      "rank": 351,
+      "updated_at": "2026-08-14T13:10:10Z"
+    },
+    {
+      "person": "Christian Caye",
+      "clockwork_person_id": "ad550eeb-fd2c-4b6a-8d51-541f8411a869",
+      "brain_person_id": "christian-caye-ad550eeb",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-07-17T10:28:52Z"
+    },
+    {
+      "person": "Tommy O'Rourke",
+      "clockwork_person_id": "cac31e5d-eafa-4363-b013-5be8dc11b3ee",
+      "brain_person_id": "tommy-o-rourke-cac31e5d",
+      "status": "CLIENT - Experience / Skills",
+      "category": "out-client_rejected",
+      "rank": 216,
+      "updated_at": "2026-08-03T14:55:09Z"
+    },
+    {
+      "person": "Adam Couch",
+      "clockwork_person_id": "d14398d7-7aae-408e-bdf2-98d716488870",
+      "brain_person_id": "adam-couch-d14398d7",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-17T12:34:13Z"
+    },
+    {
+      "person": "Joseph McCracken",
+      "clockwork_person_id": "d16ca5a5-0664-4576-abf0-804bc2754120",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-03T13:06:25Z"
+    },
+    {
+      "person": "Chris Gallagher",
+      "clockwork_person_id": "e36e0e64-0b92-4848-abc3-c417201d3ccf",
+      "brain_person_id": "chris-gallagher-e36e0e64",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-13T11:43:45Z"
+    },
+    {
+      "person": "Andrew Lee",
+      "clockwork_person_id": "ecdcf161-c024-4c4a-95a4-d4edc60edcb1",
+      "brain_person_id": "andrew-lee-ecdcf161",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2026-08-17T13:16:57Z"
+    },
+    {
+      "person": "Lorne Hayward",
+      "clockwork_person_id": "f9659540-63b2-4a77-9c75-23d62547a7e2",
+      "brain_person_id": "lorne-hayward-f9659540",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-20T13:46:43Z"
+    },
+    {
+      "person": "Steffen Zimmermann",
+      "clockwork_person_id": "259ca89b-bfe9-452f-b28f-70f3af4d53d4",
+      "brain_person_id": "steffen-zimmermann-259ca89b",
+      "status": "WARD - Location Issue",
+      "category": "out-firm_rejected",
+      "rank": 351,
+      "updated_at": "2026-08-14T14:58:17Z"
+    },
+    {
+      "person": "Frederico Braga",
+      "clockwork_person_id": "58de1e31-3ce0-40ee-be7a-c77fd9961ff8",
+      "brain_person_id": "frederico-braga-58de1e31",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2026-08-11T08:03:07Z"
+    },
+    {
+      "person": "Alexander Delve",
+      "clockwork_person_id": "5ee069a9-b8db-4a63-9b81-6a2b239576ff",
+      "brain_person_id": "alexander-delve-5ee069a9",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2026-08-11T08:03:01Z"
+    },
+    {
+      "person": "Karim Harmouche",
+      "clockwork_person_id": "7eaab782-990a-4512-a0fc-ab6bccb99de9",
+      "brain_person_id": "karim-harmouche-7eaab782",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-08-14T12:51:57Z"
+    },
+    {
+      "person": "Will Jobling",
+      "clockwork_person_id": "dc93aedd-a4cc-40d7-8ff5-e8b9901f884f",
+      "brain_person_id": "will-jobling-dc93aedd",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2026-08-14T13:10:01Z"
+    },
+    {
+      "person": "Leon Weise",
+      "clockwork_person_id": "07dd09e2-6f49-4745-a8dc-9915b83a1103",
+      "brain_person_id": null,
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2026-07-03T00:20:40Z"
+    },
+    {
+      "person": "Laurie Furst",
+      "clockwork_person_id": "6eb995ac-a5d2-46ae-b92d-cc8622896327",
+      "brain_person_id": "laurie-furst-6eb995ac",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-03T11:57:58Z"
+    },
+    {
+      "person": "Barry Dooley",
+      "clockwork_person_id": "ca0fb7d4-c555-46f0-9290-4de65646a1e6",
+      "brain_person_id": "barry-dooley-ca0fb7d4",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-03T11:57:26Z"
+    },
+    {
+      "person": "Emmanuel Wendrix",
+      "clockwork_person_id": "ecf2b3a0-c0fa-4804-a94c-8565992aa144",
+      "brain_person_id": "emmanuel-wendrix-ecf2b3a0",
+      "status": "WARD - Location Issue",
+      "category": "out-firm_rejected",
+      "rank": 351,
+      "updated_at": "2026-08-14T13:10:54Z"
+    },
+    {
+      "person": "Bartosz Kwiecien",
+      "clockwork_person_id": "613d84e3-472d-4e86-b1c2-c116f5992eec",
+      "brain_person_id": "bartosz-kwiecien-613d84e3",
+      "status": "WARD - Location Issue",
+      "category": "out-firm_rejected",
+      "rank": 351,
+      "updated_at": "2026-08-14T12:30:37Z"
+    },
+    {
+      "person": "Neil Grocock",
+      "clockwork_person_id": "1341a0d1-ec0c-47ba-bd3b-a1fc52a82cdd",
+      "brain_person_id": "neil-grocock-1341a0d1",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-07-24T11:42:04Z"
+    },
+    {
+      "person": "Padraigh Mc Ardle",
+      "clockwork_person_id": "33ec4ff9-893c-416d-82cd-8ad7bd6e4b5b",
+      "brain_person_id": "padraigh-mc-ardle-33ec4ff9",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-08-25T15:37:03Z"
+    },
+    {
+      "person": "Ilker Esener",
+      "clockwork_person_id": "e798648d-101f-47df-8b4e-1c0a931dfaec",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-08-14T12:31:10Z"
+    },
+    {
+      "person": "Conor Nolan",
+      "clockwork_person_id": "643d773f-6831-487d-9765-15b960ef46c6",
+      "brain_person_id": "conor-nolan-643d773f",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2026-07-31T10:12:33Z"
+    },
+    {
+      "person": "alan olsson",
+      "clockwork_person_id": "80560365-4f8d-4535-a865-0676629466ec",
+      "brain_person_id": "alan-olsson-80560365",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-07-27T11:02:06Z"
+    },
+    {
+      "person": "Patrick Higgins",
+      "clockwork_person_id": "d9c5e881-0d3a-4212-8086-a85d37b22b53",
+      "brain_person_id": "patrick-higgins-d9c5e881",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-08-25T11:12:19Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 44,
+    "placed": 1,
+    "active": 4,
+    "out": 39
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

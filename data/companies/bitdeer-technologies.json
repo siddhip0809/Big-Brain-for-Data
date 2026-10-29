@@ -1,0 +1,48 @@
+{
+  "id": "bitdeer-technologies",
+  "type": "company",
+  "name": "Bitdeer Technologies",
+  "aliases": [
+    "Bitdeer"
+  ],
+  "industry_role": "crypto-mining company pivoting to AI/HPC data center hosting",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer"
+  ],
+  "parent_industry": "pure_play",
+  "notes": "Crypto-mining pivot: sold entire bitcoin treasury to zero to fund the pivot. Shifting to AI/HPC colocation on 1.66GW of power (3GW pipeline); 16-yr, $4.7B (up to $8B) colocation lease for Tydal, Norway campus (end customer reported tied to Anthropic), backed by $1.3B+ credit support from unnamed financial institutions -- not recorded as a named investor edge here.",
+  "sources": [
+    "Web research, 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "roles": [
+    "cryptomining",
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 120.0
+    }
+  }
+}

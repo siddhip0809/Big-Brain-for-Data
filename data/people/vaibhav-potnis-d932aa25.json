@@ -1,0 +1,150 @@
+{
+  "id": "vaibhav-potnis-d932aa25",
+  "type": "person",
+  "name": "Vaibhav Potnis",
+  "current_title": "VP Development, EMEA",
+  "current_company": "Serverfarm",
+  "linkedin": "https://www.linkedin.com/in/vai-potnis",
+  "location": "Amsterdam , North Holland, Netherlands",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "VP Development, EMEA at Serverfarm, 1/2024 to present; Director, Preconstruction -EMEA at Microsoft, 3/2022 to 1/2024; Strategic Director, Partner at ERM Environmental Resources Management, 4/2018 to 3/2022; Partner at ERM Environmental Resources Management, 4/2018 to 3/2022; Principal at EnergyTech Unlimited, 4/2016 to 4/2018; Sr. Consultant/ Vice President - Energy Services at Mitali & Associates, 3/2015 to 4/2018; Program Manager - Measurement & Verification at McKinstry, 8/2010 to 2/2015; Senior Technical Consultant/ Manager - Advanced Climate Solutions at Green Building Services, 7/2005 to 8/2010; Intern Architect at SERA Architects, 7/2005 to 2/2006; Sales Engineering POC at all JV conversations Recently announced a strategic JV",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Incorrect Function",
+      "rank": 177,
+      "date_added": "2026-07-10 16:07:32 UTC",
+      "date_updated": "2026-07-30 01:40:17 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 120,
+      "date_added": "2025-11-26 12:03:52 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "serverfarm",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Development, EMEA",
+      "company": "Serverfarm",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Preconstruction -EMEA",
+      "company": "Microsoft",
+      "start": "3/2022",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Strategic Director, Partner",
+      "company": "ERM Environmental Resources Management",
+      "start": "4/2018",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "ERM Environmental Resources Management",
+      "start": "4/2018",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "EnergyTech Unlimited",
+      "start": "4/2016",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Sr. Consultant/ Vice President - Energy Services",
+      "company": "Mitali & Associates",
+      "start": "3/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Program Manager - Measurement & Verification",
+      "company": "McKinstry",
+      "start": "8/2010",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Technical Consultant/ Manager - Advanced Climate Solutions",
+      "company": "Green Building Services",
+      "start": "7/2005",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Intern Architect",
+      "company": "SERA Architects",
+      "start": "7/2005",
+      "end": "2/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Engineering POC",
+      "company": "all JV conversations Recently announced a strategic JV",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Amsterdam",
+    "region": "North Holland",
+    "country": "Netherlands",
+    "group": "Netherlands"
+  },
+  "education": [
+    "M.S., Building Design, Arizona State University, 2002 to 2004",
+    "B.Arch, Architecture, PVP College of Architecture, 1996 to 2001",
+    "High School, Vidya Bhavan, 1981 to 1996",
+    "Registered for PMP exam, Project Management, PMI",
+    "Master of Science Building Design and Energy Systems, Arizona State University, 2004",
+    "Bachelor of Architecture Architecture, University of Pune, 2001"
+  ],
+  "biography": "Senior leader with deep expertise in the development of digital infrastructure at scale.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Pre-Construction · estimating & cost control": "High Confidence",
+      "Pre-Construction · project scheduling": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "jordan-petkoski-de052cc7",
+  "type": "person",
+  "name": "Jordan Petkoski",
+  "current_title": "Senior Consultant",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/jordan-p-3031a0127",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Senior Consultant at Turner & Townsend, 6/2026 to present; Senior Cost Manager at Cumming, 2/2025 to 6/2026; Cost Manager at Cumming, 5/2021 to 2/2025; Construction Assistant at Gold Coast Custom Homes, 7/2020 to 1/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 57,
+      "date_added": "2026-08-04 16:07:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming",
+      "start": "2/2025",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Cumming",
+      "start": "5/2021",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Assistant",
+      "company": "Gold Coast Custom Homes",
+      "start": "7/2020",
+      "end": "1/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor's degree, Economics, University Of Florida",
+    "Associate's degree, Saint Johns River State College"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

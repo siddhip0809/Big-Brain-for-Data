@@ -1,0 +1,64 @@
+{
+  "id": "jessica-reddick-b642f397",
+  "type": "person",
+  "name": "Jessica Reddick",
+  "current_title": "Project Engineer II / Estimator",
+  "current_company": "The Walsh Group - Walsh Construction & Archer Western",
+  "linkedin": "https://www.linkedin.com/in/jessicareddick",
+  "location": "Baltimore, Washington, DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Engineer II / Estimator at The Walsh Group - Walsh Construction & Archer Western, 10/2022 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 118,
+      "date_added": "2026-08-07 14:42:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Engineer II / Estimator",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

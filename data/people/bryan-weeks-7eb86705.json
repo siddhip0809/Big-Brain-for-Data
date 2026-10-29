@@ -1,0 +1,114 @@
+{
+  "id": "bryan-weeks-7eb86705",
+  "type": "person",
+  "name": "Bryan Weeks",
+  "current_title": "VP Hyperscale",
+  "current_company": "EdgeConneX",
+  "linkedin": "https://www.linkedin.com/in/bryan-weeks-7301613",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "VP Hyperscale at EdgeConneX, 2/2020 to present; GM & VP Business Development at EdgeConneX, 7/2018 to 2/2020; VP, Service Provider Solutions at EdgeConneX, 2/2016 to 7/2017; VP, TV Activation Group: MVPDs & Agencies at 4C Insights / FourthWall Media, 1/2015 to 1/2016; VP, North American Cable Sales at Metaswitch Networks, 3/2012 to 12/2014; Regional Director of Sales at BTI systems, 3/2010 to 3/2012; Software Applications Sales at Alcatel-Lucent, 8/2008 to 3/2010; Sr. Account Director at Alcatel-Lucent, 7/2004 to 8/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 111,
+      "date_added": "2025-11-19 13:32:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "edgeconnex",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Hyperscale",
+      "company": "EdgeConneX",
+      "start": "2/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "GM & VP Business Development",
+      "company": "EdgeConneX",
+      "start": "7/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "VP, Service Provider Solutions",
+      "company": "EdgeConneX",
+      "start": "2/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "VP, TV Activation Group: MVPDs & Agencies",
+      "company": "4C Insights / FourthWall Media",
+      "start": "1/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "VP, North American Cable Sales",
+      "company": "Metaswitch Networks",
+      "start": "3/2012",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Regional Director of Sales",
+      "company": "BTI systems",
+      "start": "3/2010",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Software Applications Sales",
+      "company": "Alcatel-Lucent",
+      "start": "8/2008",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Director",
+      "company": "Alcatel-Lucent",
+      "start": "7/2004",
+      "end": "8/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

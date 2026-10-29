@@ -1,0 +1,76 @@
+{
+  "id": "john-hughes-7b1fb333",
+  "type": "person",
+  "name": "John Hughes",
+  "current_title": "Senior Energy Trader/Analyst",
+  "current_company": "Switch",
+  "linkedin": "https://www.linkedin.com/in/john-hughes-jr-6583475",
+  "location": "Reno, Nevada",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Energy Trader/Analyst at Switch, 5/2017 to present; Project Manager, Forward Trading at NV Energy, 1/2013 to 5/2017; Power Trader at Sierra Pacific/Nevada Power, 1/1985 to 1/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 163,
+      "date_added": "2026-06-04 15:24:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "switch",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Energy Trader/Analyst",
+      "company": "Switch",
+      "start": "5/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager, Forward Trading",
+      "company": "NV Energy",
+      "start": "1/2013",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Power Trader",
+      "company": "Sierra Pacific/Nevada Power",
+      "start": "1/1985",
+      "end": "1/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Reno",
+    "region": "Nevada",
+    "country": "United States",
+    "group": "Nevada"
+  },
+  "education": [
+    "Edward C. Reed High School, 1979 to 1983",
+    "Edward C. Reed High School, 1979 to 1983"
+  ],
+  "biography": "Senior Energy Trader/Analyst",
+  "assessment": {
+    "under_represented_group": "No",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

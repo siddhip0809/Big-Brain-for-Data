@@ -1,0 +1,39 @@
+{
+  "id": "guzman-energy",
+  "type": "company",
+  "name": "Guzman Energy",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Denver, Colorado",
+  "founded": null,
+  "website": "https://www.guzmanenergy.com",
+  "linkedin": "https://www.linkedin.com/company/guzman-energy/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Utility / Trader",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "No Physical Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Wholesale energy trader and power supplier. WECC focus. Limited DC talent relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

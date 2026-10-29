@@ -1,0 +1,83 @@
+{
+  "id": "todd-otte-aa7bf7b7",
+  "type": "person",
+  "name": "Todd Otte",
+  "current_title": "Global Account Director",
+  "current_company": "CyrusOne",
+  "linkedin": "https://www.linkedin.com/in/todd-otte-3242713",
+  "location": "Seattle, Washington",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Global Account Director at CyrusOne, 1/2018 to present; Global Business Development Manager at CyrusOne, 11/2011 to 12/2018; Large Enterprise Senior Account Executive at Dell, 5/2003 to 11/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 78,
+      "date_added": "2025-11-12 12:16:57 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "cyrusone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Account Director",
+      "company": "CyrusOne",
+      "start": "1/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Business Development Manager",
+      "company": "CyrusOne",
+      "start": "11/2011",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Large Enterprise Senior Account Executive",
+      "company": "Dell",
+      "start": "5/2003",
+      "end": "11/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "International Business, Business Law, Spanish, Texas State University"
+  ],
+  "biography": "Accomplished Technology Sales Executive with over 23 years of successful solution selling into HyperScale Compute, Large Global Enterprise acquisition and development accounts across the US, EMEA, and APAC.  Effective at identifying business needs and positioning creative technology solutions utilizing an ROI-driven methodology.  Demonstrates organizational agility and acts upon business drivers to position himself as a trusted advisor and partner to existing and prospective customers.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

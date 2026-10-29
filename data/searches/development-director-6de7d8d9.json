@@ -1,0 +1,31 @@
+{
+  "id": "6de7d8d9-cf45-4770-ad5f-b8be692e4bbb",
+  "type": "search",
+  "name": "Development Director",
+  "client_company": "Panattoni",
+  "client_company_id": "panattoni",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2025-11-21",
+  "closed_at": "2026-06-25",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 61,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

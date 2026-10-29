@@ -1,0 +1,117 @@
+{
+  "id": "bobby-cullen-ec93fd0c",
+  "type": "person",
+  "name": "Bobby Cullen",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "Braconier Mechanical & Plumbing",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/bobby-cullen-p-e-b929675",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at Braconier Mechanical & Plumbing, 10/2019 to present; Senior Preconstruction Manager at Heating & Plumbing Engineers, 1/2017 to 9/2019; Director of Design - Energy Division at RK, 10/2013 to 1/2017; Preconstruction Manager at RK, 1/2008 to 10/2013; Assistant Project Manager at RK, 6/2007 to 1/2008; Project Engineer at RK, 6/2005 to 6/2007; Engineer Intern at Perini Building, 6/2003 to 8/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 90,
+      "date_added": "2026-08-19 11:13:33 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 129,
+      "date_added": "2026-08-10 08:06:26 UTC",
+      "date_updated": "2026-08-19 06:13:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Braconier Mechanical & Plumbing",
+      "start": "10/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Heating & Plumbing Engineers",
+      "start": "1/2017",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Director of Design - Energy Division",
+      "company": "RK",
+      "start": "10/2013",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "RK",
+      "start": "1/2008",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "RK",
+      "start": "6/2007",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "RK",
+      "start": "6/2005",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Engineer Intern",
+      "company": "Perini Building",
+      "start": "6/2003",
+      "end": "8/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

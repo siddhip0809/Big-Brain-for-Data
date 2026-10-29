@@ -1,0 +1,27 @@
+{
+  "id": "5a25a2e2-5a17-45e5-b12a-12cdfd1a2d39",
+  "type": "search",
+  "name": "Project Director",
+  "client_company": "Panattoni",
+  "client_company_id": "panattoni",
+  "status": "active",
+  "project_type": "Retained",
+  "started_at": "2026-09-10",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

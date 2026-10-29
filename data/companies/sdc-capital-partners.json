@@ -1,0 +1,50 @@
+{
+  "id": "sdc-capital-partners",
+  "type": "company",
+  "name": "SDC Capital Partners",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "New York, United States",
+  "founded": null,
+  "website": "https://sdccapitalpartners.com/",
+  "linkedin": "https://www.linkedin.com/company/sdc-capital-partners/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 335.0
+    },
+    "emea": {
+      "total_mw": 560.0,
+      "early_stage_mw": 460.0
+    }
+  }
+}

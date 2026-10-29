@@ -1,0 +1,99 @@
+{
+  "id": "jamie-fleming-16137235",
+  "type": "person",
+  "name": "Jamie Fleming",
+  "current_title": "Acquisitions, Investment, Strategy",
+  "current_company": "AWS",
+  "location": "St. Albans, London",
+  "linkedin": "https://www.linkedin.com/in/jamie-fleming-240134ab",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Acquisitions, Investment, Strategy at AWS, 12/2023 to present; Investment & Strategy Associate at Pure Data Centers, 5/2022 to 11/2023; Associate, European Data Centre Capital Markets at CBRE Limited, 5/2019 to 5/2022; Graduate, Real Estate Scheme at CBRE Limited, 9/2016 to 4/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 82,
+      "date_added": "2026-08-14 13:08:01 UTC",
+      "date_updated": "2026-08-14 08:24:45 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 127,
+      "date_added": "2026-07-10 08:19:00 UTC",
+      "date_updated": "2026-08-14 08:08:01 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "aws",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Acquisitions, Investment, Strategy",
+      "company": "AWS",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Investment & Strategy Associate",
+      "company": "Pure Data Centers",
+      "start": "5/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Associate, European Data Centre Capital Markets",
+      "company": "CBRE Limited",
+      "start": "5/2019",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Graduate, Real Estate Scheme",
+      "company": "CBRE Limited",
+      "start": "9/2016",
+      "end": "4/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "St. Albans",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "MSc Real Estate, University of Glasgow, 2014 to 2016",
+    "MA (Hons) Economics and Accounting, University of Edinburgh, 2010 to 2014"
+  ],
+  "biography": "Senior Data Centre Acquisitions Lead with 10 years of real estate experience, including 7 years specialising in data centre transactions across European markets. Currently leading several acquisitions for AWS in Germany, with broader European market exposure and advisory experience across $4bn+ of data centre deals.\n\nLeads cross-functional teams across Energy, Legal, Finance, Engineering and Public Policy during transactions to deliver infrastructure outcomes at scale. Cultivates high-level relationships with utility providers, local municipalities and regulatory agencies. Presents recommendations and market intelligence to executive leadership, with transaction approvals secured up to CFO and Board level, providing clarity on risks, opportunities and long-term impact on infrastructure strategy.\n\nBrings a deep market network spanning landowners, data centre developers, colocation operators, utilities and advisors across European markets, enabling proactive deal origination. Provides guidance to junior acquisitions professionals within the EMEA team and acts as subject matter expert for land acquisition and built-to-suit structures.",
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 1.0
+  }
+}

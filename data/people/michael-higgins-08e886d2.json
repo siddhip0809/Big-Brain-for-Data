@@ -1,0 +1,135 @@
+{
+  "id": "michael-higgins-08e886d2",
+  "type": "person",
+  "name": "Michael Higgins",
+  "current_title": "Director, Real Estate",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/mmichaelhiggins",
+  "location": "Hong Kong SAR",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Real Estate at Equinix, 3/2020 to present; Director at Prop, 4/2019 to 3/2020; Enterprise Business Development Director, Asia Pacific at WeWork, 6/2018 to 4/2019; Head of Enterprise Solutions at naked Hub, 11/2017 to 6/2018; Director - Global Occupier Services at Cushman & Wakefield, 7/2012 to 10/2017; Commercial Property Executive at Servcorp, 11/2009 to 1/2012; Senior Associate at Savills, 6/2007 to 11/2009; Business Development Manager at Net Property Consultants, 3/2006 to 6/2007; Executive Assistant at Baring Private Equity Asia, 1/2005 to 3/2005; Business Development Intern at ANZ Shanghai, 1/2004 to 12/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 110,
+      "date_added": "2025-11-21 09:05:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Real Estate",
+      "company": "Equinix",
+      "start": "3/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Prop",
+      "start": "4/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Enterprise Business Development Director, Asia Pacific",
+      "company": "WeWork",
+      "start": "6/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Head of Enterprise Solutions",
+      "company": "naked Hub",
+      "start": "11/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Director - Global Occupier Services",
+      "company": "Cushman & Wakefield",
+      "start": "7/2012",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Commercial Property Executive",
+      "company": "Servcorp",
+      "start": "11/2009",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Savills",
+      "start": "6/2007",
+      "end": "11/2009",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Net Property Consultants",
+      "start": "3/2006",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Executive Assistant",
+      "company": "Baring Private Equity Asia",
+      "start": "1/2005",
+      "end": "3/2005",
+      "current": false
+    },
+    {
+      "title": "Business Development Intern",
+      "company": "ANZ Shanghai",
+      "start": "1/2004",
+      "end": "12/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Hong Kong",
+    "group": "Hong Kong"
+  },
+  "education": [
+    "B Bus, Finance, Economics, Charles Sturt University, 2005 to 2006",
+    "Exchange, Finance, Asian Financial Institutions, Real Estate Finance, The University of Hong Kong, 2004 to 2004",
+    "Diploma in Business and Commerce, Distinction, University of Technology Sydney, 2003 to 2004",
+    "Mandarin, Fudan University, 2002 to 2002",
+    "Mandarin, Shanghai Jiao Tong University, 2002 to 2003"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

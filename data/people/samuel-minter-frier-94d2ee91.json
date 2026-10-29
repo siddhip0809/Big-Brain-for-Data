@@ -1,0 +1,124 @@
+{
+  "id": "samuel-minter-frier-94d2ee91",
+  "type": "person",
+  "name": "Samuel Minter-Frier",
+  "current_title": "Associate Director",
+  "current_company": "Gardiner & Theobald",
+  "location": "Dallas, Texas",
+  "linkedin": "https://www.linkedin.com/in/samuel-minter-frier",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Cost Manager at Gardiner & Theobald, 12/2025 to 5/2026; Associate Director at Gardiner & Theobald, 5/2024 to present; Cost Manager at Gardiner & Theobald, 9/2023 to 12/2025; Quantity Surveyor at Morgan Sindall Construction & Infrastructure, 5/2022 to 8/2023; Quantity Surveyor  at Baxall Construction, 6/2020 to 5/2022; Project Quantity Surveyor at Development House Limited, 3/2020 to 6/2020; Quantity Surveyor at Cliffe Contractors Limited, 5/2019 to 3/2020; Assistant Quantity Surveyor at Cliffe Contractors Limited, 3/2017 to 5/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 151,
+      "date_added": "2026-08-19 13:05:39 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 345,
+      "date_added": "2026-08-14 07:36:07 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Manager",
+      "company": "Gardiner & Theobald",
+      "start": "12/2025",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Gardiner & Theobald",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Gardiner & Theobald",
+      "start": "9/2023",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Morgan Sindall Construction & Infrastructure",
+      "start": "5/2022",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor ",
+      "company": "Baxall Construction",
+      "start": "6/2020",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Project Quantity Surveyor",
+      "company": "Development House Limited",
+      "start": "3/2020",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Cliffe Contractors Limited",
+      "start": "5/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "Cliffe Contractors Limited",
+      "start": "3/2017",
+      "end": "5/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "qts-data-centers",
+  "type": "company",
+  "name": "QTS Data Centers",
+  "aliases": [],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": "Sterling, Virginia, United States",
+  "founded": null,
+  "website": "https://q.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Hyperscaler"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 2 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Acquired from QTS Realty Trust (public REIT) by Blackstone in a $10B all-cash deal, closed Sept 2021.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/qtsdatacenters/",
+  "headcount": "1,001-5,000",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 3779.0,
+      "early_stage_mw": 2907.065
+    },
+    "emea": {
+      "total_mw": 1584.8,
+      "early_stage_mw": 1512.0
+    }
+  }
+}

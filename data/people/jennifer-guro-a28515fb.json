@@ -1,0 +1,106 @@
+{
+  "id": "jennifer-guro-a28515fb",
+  "type": "person",
+  "name": "Jennifer Guro",
+  "current_title": "Data Center Energy Program Manager",
+  "current_company": "Meta",
+  "linkedin": "https://www.linkedin.com/in/jennifer-guro-8ba90821",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Energy Program Manager at Meta, 8/2025 to present; Energy Manager at Meta, 10/2019 to present; Contract Management Analyst, Supervisor (TA) at PG&E, 6/2018 to 10/2019; Contract Manager Analyst, Expert at PG&E, 9/2014 to 6/2018; Settlements Analyst at PG&E, 4/2013 to 9/2014; Real Time Asset Manager at PG&E, 6/2011 to 4/2013; Market Operator at APX, 6/2008 to 6/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 153,
+      "date_added": "2026-06-02 15:01:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "meta",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Energy Program Manager",
+      "company": "Meta",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Energy Manager",
+      "company": "Meta",
+      "start": "10/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Contract Management Analyst, Supervisor (TA)",
+      "company": "PG&E",
+      "start": "6/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Contract Manager Analyst, Expert",
+      "company": "PG&E",
+      "start": "9/2014",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Settlements Analyst",
+      "company": "PG&E",
+      "start": "4/2013",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Real Time Asset Manager",
+      "company": "PG&E",
+      "start": "6/2011",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Market Operator",
+      "company": "APX",
+      "start": "6/2008",
+      "end": "6/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor of Arts (B.A.), Business Management Economics, University of California, Santa Cruz, 2003 to 2007"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

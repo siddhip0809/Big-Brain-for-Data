@@ -1,0 +1,70 @@
+{
+  "id": "lindsay-rudstrom-33966034",
+  "type": "person",
+  "name": "Lindsay Rudstrom",
+  "current_title": "Design Phase Manager",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/lindsay-rudstrom",
+  "location": "Denver, Colorado",
+  "seniority": "Manager",
+  "industry_segment": "Industrial",
+  "career_history": "Design Phase Manager at Mortenson, 3/2024 to present; Project Manager at MYR Group, 9/2021 to 3/2024",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 12,
+      "date_added": "2026-08-04 16:07:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Design Phase Manager",
+      "company": "Mortenson",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "MYR Group",
+      "start": "9/2021",
+      "end": "3/2024",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

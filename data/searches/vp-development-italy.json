@@ -1,0 +1,27 @@
+{
+  "id": "55b24554-ac09-4d7f-92ae-bfd163089436",
+  "type": "search",
+  "name": "VP, Development Italy",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "active",
+  "project_type": "Retained",
+  "started_at": "2026-09-10",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "afoma-ihekwaba-8ba26ac4",
+  "type": "person",
+  "name": "Afoma Ihekwaba",
+  "current_title": "Project Manager - Cost Controls",
+  "current_company": "Turner Construction",
+  "linkedin": "https://www.linkedin.com/in/aci",
+  "location": "Baltimore, Washington, DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Manager - Cost Controls at Turner Construction, 12/2024 to present; Lead Project Engineer at Turner Construction, 7/2022 to 12/2024; Lead Project Engineer at Turner Construction, 7/2021 to 7/2022;  Cost Data Analyst at Turner Construction, 11/2019 to 7/2021; Assistant Engineer at Turner Construction, 6/2017 to 11/2019; Graduate Research Analyst at Howard University, 8/2015 to 5/2017; Project Data Analyst at Oilserv Limited, 6/2011 to 8/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 41,
+      "date_added": "2026-08-04 14:27:22 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 41,
+      "date_added": "2026-08-04 14:27:22 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Manager - Cost Controls",
+      "company": "Turner Construction",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Project Engineer",
+      "company": "Turner Construction",
+      "start": "7/2022",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Lead Project Engineer",
+      "company": "Turner Construction",
+      "start": "7/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Data Analyst",
+      "company": "Turner Construction",
+      "start": "11/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer",
+      "company": "Turner Construction",
+      "start": "6/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Graduate Research Analyst",
+      "company": "Howard University",
+      "start": "8/2015",
+      "end": "5/2017",
+      "current": false
+    },
+    {
+      "title": "Project Data Analyst",
+      "company": "Oilserv Limited",
+      "start": "6/2011",
+      "end": "8/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

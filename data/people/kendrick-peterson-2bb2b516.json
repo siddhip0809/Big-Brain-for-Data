@@ -1,0 +1,108 @@
+{
+  "id": "kendrick-peterson-2bb2b516",
+  "type": "person",
+  "name": "Kendrick Peterson",
+  "current_title": "Senior Estimator",
+  "current_company": "McCarthy Building Companies",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/kendrick-peterson",
+  "seniority": null,
+  "industry_segment": "Data Centre;Mission Critical",
+  "career_history": "Senior Estimator at McCarthy Building Companies, 9/2025 to present; Construction Estimator at McCarthy Building Companies, 11/2023 to 9/2025; Project Coordinator at Commercial Flooring Services, 3/2022 to 12/2023; Flooring Installer at Commercial Flooring Services, 9/2013 to 2/2022",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 31,
+      "date_added": "2026-08-14 14:55:48 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 108,
+      "date_added": "2026-08-07 09:40:58 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 108,
+      "date_added": "2026-08-07 09:40:58 UTC",
+      "date_updated": "2026-08-14 09:55:48 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "mccarthy-building-companies",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "11/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "Commercial Flooring Services",
+      "start": "3/2022",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Flooring Installer",
+      "company": "Commercial Flooring Services",
+      "start": "9/2013",
+      "end": "2/2022",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

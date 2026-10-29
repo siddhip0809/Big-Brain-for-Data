@@ -1,0 +1,83 @@
+{
+  "id": "andrew-morrow-b7c3aa87",
+  "type": "person",
+  "name": "Andrew Morrow",
+  "current_title": "Strategy & Investment",
+  "current_company": "Pure Data Centres",
+  "linkedin": "https://www.linkedin.com/in/andrew-morrowdcs",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Strategy & Investment at Pure Data Centres, 11/2021 to present; Cloud Infrastructure Portfolio, Lease and M&A at Microsoft, 3/2020 to 11/2021; Data Center, Capital Markets at CB Richard Ellis, 8/2014 to 3/2020; Pure Data Centres",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 223,
+      "date_added": "2026-04-21 10:07:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "pure-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategy & Investment",
+      "company": "Pure Data Centres",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cloud Infrastructure Portfolio, Lease and M&A",
+      "company": "Microsoft",
+      "start": "3/2020",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Data Center, Capital Markets",
+      "company": "CB Richard Ellis",
+      "start": "8/2014",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "raw": "Pure Data Centres"
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "biography": "Andrew Morrow: Chartered Surveyor at CBRE. Previous: Area Manager at Aldi Stores.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

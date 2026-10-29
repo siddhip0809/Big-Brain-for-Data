@@ -1,0 +1,42 @@
+{
+  "id": "d2c5f58f-c6bb-4805-b503-a0f481d96831",
+  "type": "search",
+  "name": "695 Director, Project & Portfolio Controls",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Contingency",
+  "started_at": "2025-03-07",
+  "closed_at": "2025-05-19",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": "Supervisory Responsibilities: Yes, role includes direct reports\n\nWork Environment/Conditions: Office Environment\n\nPhysical Demands: N/A\n\nTravel Required: Domestic and International travel required; 10-25%\n\nRequired Education and Experience\n\n- Bachelor's degree in business administration, engineering, or a related field.\n\n- 10+ years of progressive experience leading project or portfolio controls programs, with a focus on multiple large-scale, complex projects.\n\n- Experience successfully managing a cross-functional, geographically dispersed team\n\nPreferred Education and Experience:\n\n- Experience with data center or mission-critical facility construction is highly desirable.\n\nAdditional Eligibility Requirements: N/A\n\nWork Authorization/Security Clearance Requirements: N/A\n\nAffirmative Action/EEO statement: N/A",
+  "placement": {
+    "person": null,
+    "person_id": null,
+    "title": "695 Director, Project & Portfolio Controls",
+    "start_date": null
+  },
+  "pipeline": [
+    {
+      "person": "Ryan Schnell",
+      "clockwork_person_id": "099dfe55-c575-4b08-80d0-6380ea65f82f",
+      "brain_person_id": "ryan-schnell-099dfe55",
+      "status": "4b. Offer Accepted",
+      "category": "in-placed",
+      "rank": 1501,
+      "updated_at": "2025-04-09T07:38:59Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 1,
+    "placed": 1,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

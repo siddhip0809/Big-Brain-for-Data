@@ -1,0 +1,61 @@
+{
+  "id": "david-diboni-1f5910ce",
+  "type": "person",
+  "name": "David DiBoni",
+  "current_title": "(former) Accociate Director",
+  "current_company": "Accenture I&CP",
+  "linkedin": "https://www.linkedin.com/in/david-diboni-12857120",
+  "location": "Charlotte , North Carolina",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Accociate Director at Accenture I&CP, 11/2025 to 5/2026",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 576,
+      "date_added": "2026-08-27 12:29:04 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Accociate Director",
+      "company": "Accenture I&CP",
+      "start": "11/2025",
+      "end": "5/2026",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Charlotte",
+    "region": "North Carolina",
+    "country": "United States",
+    "group": "North Carolina"
+  },
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

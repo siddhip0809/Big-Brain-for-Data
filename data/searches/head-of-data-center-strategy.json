@@ -1,0 +1,415 @@
+{
+  "id": "41b4fcc3-da8b-4f36-b383-0c8f9844ab14",
+  "type": "search",
+  "name": "Head of Data Center Strategy",
+  "client_company": "Actis",
+  "client_company_id": "actis",
+  "status": "on_hold",
+  "project_type": "Retained",
+  "started_at": "2025-10-13",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Dan Malouf",
+      "clockwork_person_id": "8958e094-a6d6-48fb-8c7d-06ae7f2fb02a",
+      "brain_person_id": "dan-malouf-8958e094",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-01-05T15:37:16Z"
+    },
+    {
+      "person": "Melanie Kiely",
+      "clockwork_person_id": "db3ba6b0-3a18-4e9c-af89-e9d7e957a79b",
+      "brain_person_id": "melanie-kiely-db3ba6b0",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-02-09T14:16:50Z"
+    },
+    {
+      "person": "Chris Street",
+      "clockwork_person_id": "68a6cd0c-a313-44ea-9288-a471928b6500",
+      "brain_person_id": "chris-street-68a6cd0c",
+      "status": "3c. Interviewing",
+      "category": "in-offered",
+      "rank": 1410,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Drew Byrnes",
+      "clockwork_person_id": "d24f7f0b-1c90-4a23-8cd1-d478ef92fe78",
+      "brain_person_id": "drew-byrnes-d24f7f0b",
+      "status": "CANDIDATE - Offer Declined",
+      "category": "out-withdrew",
+      "rank": 111,
+      "updated_at": "2026-03-16T13:39:02Z"
+    },
+    {
+      "person": "Thiago Gaspar",
+      "clockwork_person_id": "7402e10a-f34a-4c02-9a9a-2eb22fc6b3eb",
+      "brain_person_id": "thiago-gaspar-7402e10a",
+      "status": "3c. Interviewing",
+      "category": "in-offered",
+      "rank": 1410,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Sarah Gray",
+      "clockwork_person_id": "07ebfdc0-ce74-4da0-980b-0b1f8c91be6b",
+      "brain_person_id": null,
+      "status": "WARD - Location Issue",
+      "category": "out-firm_rejected",
+      "rank": 351,
+      "updated_at": "2026-02-01T15:47:52Z"
+    },
+    {
+      "person": "Charmaine Lee",
+      "clockwork_person_id": "06f1d243-3a9e-49dd-9cf5-683303779551",
+      "brain_person_id": "charmaine-lee-06f1d243",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2026-02-01T15:51:32Z"
+    },
+    {
+      "person": "Anurag Khilnani",
+      "clockwork_person_id": "46665c15-e3f1-417c-aca5-78f1c1422449",
+      "brain_person_id": "anurag-khilnani-46665c15",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-02-01T15:52:54Z"
+    },
+    {
+      "person": "William Grounds",
+      "clockwork_person_id": "99cb9cc7-e1eb-4bef-89ee-fe1823d0c665",
+      "brain_person_id": "william-grounds-99cb9cc7",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2026-02-01T15:52:34Z"
+    },
+    {
+      "person": "Ploychompu Srisa-an",
+      "clockwork_person_id": "a4421e31-f341-41ac-94f8-66c50b7a9d1d",
+      "brain_person_id": "ploychompu-srisa-an-a4421e31",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Richa Rauniar",
+      "clockwork_person_id": "43a89f50-f460-4ce7-8595-9d0b19d8d3e4",
+      "brain_person_id": "richa-rauniar-43a89f50",
+      "status": "WARD - Years Experience",
+      "category": "out-firm_rejected",
+      "rank": 382,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Raymond McNally",
+      "clockwork_person_id": "d69a7033-0620-4fd5-8316-bd7efa5d53ce",
+      "brain_person_id": null,
+      "status": "WARD - Culture Fit",
+      "category": "out-firm_rejected",
+      "rank": 371,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Sylvia Kang",
+      "clockwork_person_id": "12d14ef6-a656-4807-b5f5-30c907d589ec",
+      "brain_person_id": null,
+      "status": "WARD - Culture Fit",
+      "category": "out-firm_rejected",
+      "rank": 371,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Ken Choo",
+      "clockwork_person_id": "416cdff6-9b6e-4536-988c-096e40d3c5bb",
+      "brain_person_id": "ken-choo-416cdff6",
+      "status": "CLIENT - Culture Fit",
+      "category": "out-client_rejected",
+      "rank": 221,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Sid Jaiswal",
+      "clockwork_person_id": "4066e7dd-a73c-4201-a23d-3dd6a02092a3",
+      "brain_person_id": "sid-jaiswal-4066e7dd",
+      "status": "CLIENT - Experience / Skills",
+      "category": "out-client_rejected",
+      "rank": 216,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Suren Maheswaran",
+      "clockwork_person_id": "5ef8d117-3f79-4059-8223-68e9f6201099",
+      "brain_person_id": "suren-maheswaran-5ef8d117",
+      "status": "CLIENT - Experience / Skills",
+      "category": "out-client_rejected",
+      "rank": 216,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Tom Duncan",
+      "clockwork_person_id": "8dab6016-2f6e-413b-9fca-4f8d8b0f94e6",
+      "brain_person_id": "tom-duncan-8dab6016",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Ernest Popescu",
+      "clockwork_person_id": "34026dae-9a6c-4f1a-a695-a02607939fd8",
+      "brain_person_id": "ernest-popescu-34026dae",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Otto Kreiter",
+      "clockwork_person_id": "b2ee4dfa-8841-4160-80df-47612902be2c",
+      "brain_person_id": "otto-kreiter-b2ee4dfa",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Sunita Bottse",
+      "clockwork_person_id": "af048947-f152-4bf9-9778-45bdc8beacb4",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Akira (AJ) Maruyama",
+      "clockwork_person_id": "02f2001b-30ba-46e0-815e-1f5e26276906",
+      "brain_person_id": "akira-aj-maruyama-02f2001b",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Aaron Bilyeu",
+      "clockwork_person_id": "897830cd-1491-4c1d-8031-155486aecc00",
+      "brain_person_id": "aaron-bilyeu-897830cd",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Jorge Florez",
+      "clockwork_person_id": "7da931a8-6db5-4c4a-a3cc-5b963b6a9084",
+      "brain_person_id": "jorge-florez-7da931a8",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "LT Clay",
+      "clockwork_person_id": "b29a7121-9e2c-4567-9da7-116bc4afe071",
+      "brain_person_id": "lt-clay-b29a7121",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Hazel Guan",
+      "clockwork_person_id": "cc3f297d-1c7c-488e-9896-ce20aecc2999",
+      "brain_person_id": "hazel-guan-cc3f297d",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Andrew Gordey",
+      "clockwork_person_id": "6e38b237-242d-45f4-b6f1-3b9dfebf076d",
+      "brain_person_id": "andrew-gordey-6e38b237",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Jim Varikos",
+      "clockwork_person_id": "951c750d-6fdb-488c-9650-653183086a12",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-11-05T16:39:04Z"
+    },
+    {
+      "person": "Thomas Bouvagnet",
+      "clockwork_person_id": "9b7ae948-be46-4d77-8c80-4546b7ca2150",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Andrew Edwards",
+      "clockwork_person_id": "02b44552-8d19-4c23-9c42-b87343bf2b61",
+      "brain_person_id": "andrew-edwards-02b44552",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Philip Lin",
+      "clockwork_person_id": "c3f91398-a5d5-4917-8a93-d817c7900a1d",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Raj Vohra",
+      "clockwork_person_id": "05eab588-37ff-4d39-8604-c14bf0f59113",
+      "brain_person_id": "raj-vohra-05eab588",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Jim Footh",
+      "clockwork_person_id": "c683ba8d-c1cd-4a82-9bac-b8cf5291624e",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Laurance Lewis",
+      "clockwork_person_id": "36a7b22c-430c-4b22-b2a2-e21f7b89f06c",
+      "brain_person_id": "laurance-lewis-36a7b22c",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Brokaw Price",
+      "clockwork_person_id": "f466cad4-b906-489f-9be8-4a60f0311bb7",
+      "brain_person_id": "brokaw-price-f466cad4",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Sharad Agarwal",
+      "clockwork_person_id": "f76db108-1bf3-4495-bf17-faa807b64d99",
+      "brain_person_id": "sharad-agarwal-f76db108",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Erik Draaisma",
+      "clockwork_person_id": "1a1d6b57-93d9-4804-b531-41baacb9b102",
+      "brain_person_id": "erik-draaisma-1a1d6b57",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Josh Buis",
+      "clockwork_person_id": "8a5430c1-f323-4ea4-a818-ba2f38d6146e",
+      "brain_person_id": "josh-buis-8a5430c1",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Thinzar Hlaing",
+      "clockwork_person_id": "c227eba5-8d94-436b-af30-c8d475b44133",
+      "brain_person_id": "thinzar-hlaing-c227eba5",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Peter Jedrey",
+      "clockwork_person_id": "b5843689-d280-4fdd-9aa8-30fa8b2291e4",
+      "brain_person_id": "peter-jedrey-b5843689",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Dan Madrigal",
+      "clockwork_person_id": "60533eb2-d32c-4c12-aed1-1d3d74af80f6",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Jean-François Berche",
+      "clockwork_person_id": "b36332b7-77f0-4ce5-88b0-44015e539dcc",
+      "brain_person_id": "jean-fran-ois-berche-b36332b7",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Tom Traugott",
+      "clockwork_person_id": "bb931fc1-41f1-43d7-b7ab-3451d1b12768",
+      "brain_person_id": "tom-traugott-bb931fc1",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-15T14:24:08Z"
+    },
+    {
+      "person": "Andreas Zoll",
+      "clockwork_person_id": "9d71adff-70ff-4d84-8e34-8d4ceceb395d",
+      "brain_person_id": "andreas-zoll-9d71adff",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2025-12-15T14:24:08Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 43,
+    "placed": 0,
+    "active": 2,
+    "out": 41
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

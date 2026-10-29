@@ -1,0 +1,127 @@
+{
+  "id": "andrew-ford-0421a460",
+  "type": "person",
+  "name": "Andrew Ford",
+  "current_title": "Data Centers",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/andrew-ford-06792763",
+  "location": "Dallas, Texas",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Data Centers at Google, 8/2024 to present; Vice President, Americas Design & Construction at Yondr, 10/2023 to 8/2024; Vice President at GI Partners, 7/2022 to 10/2023; Sr. Director, Development at CyrusOne, 1/2022 to 7/2022; Director, Design & Construction at CyrusOne, 9/2019 to 1/2022; Sr. Data Center Construction Manager at CyrusOne, 10/2018 to 9/2019; Director at Critical Project Services, 7/2017 to 8/2018; Associate at Critical Project Services, 4/2014 to 6/2017; Project Architect at Jacobs, 1/2010 to 4/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 320,
+      "date_added": "2026-04-20 15:52:00 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Data Centers",
+      "company": "Google",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Americas Design & Construction",
+      "company": "Yondr",
+      "start": "10/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Vice President",
+      "company": "GI Partners",
+      "start": "7/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Sr. Director, Development",
+      "company": "CyrusOne",
+      "start": "1/2022",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Director, Design & Construction",
+      "company": "CyrusOne",
+      "start": "9/2019",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Sr. Data Center Construction Manager",
+      "company": "CyrusOne",
+      "start": "10/2018",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "Critical Project Services",
+      "start": "7/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Critical Project Services",
+      "start": "4/2014",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Project Architect",
+      "company": "Jacobs",
+      "start": "1/2010",
+      "end": "4/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Master of Science (MSc), Manufacturing Systems Management, Southern Methodist University, 2014 to 2016",
+    "Bachelor of Science (BSc), Architecture, Texas Tech University, 2006 to 2010"
+  ],
+  "biography": "Strategic Negotiator; Data Center Acquisitions and Development\nStrategic Negotiator; Acquisitions and Portfolio Management",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "e9a096b1-3955-4fbc-960e-50c81385a80b",
+  "type": "search",
+  "name": "SVP Construction",
+  "client_company": "Goodman",
+  "client_company_id": "goodman",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2025-03-07",
+  "closed_at": "2025-05-02",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 112,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "robert-liston-dac99ce9",
+  "type": "person",
+  "name": "Robert Liston",
+  "current_title": "Senior Estimator",
+  "current_company": "Hensel Phelps",
+  "location": "Gaithersburg, Maryland",
+  "linkedin": "https://www.linkedin.com/in/robert-liston-77711263",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Hensel Phelps, 10/2019 to present; Estimator at Hensel Phelps, 7/2017 to 10/2019; Area Superintendent at Hensel Phelps, 4/2016 to 7/2017; Project Engineer at Hensel Phelps, 3/2013 to 4/2016; Office Engineer at Hensel Phelps, 2/2010 to 3/2013; Field Engineer at Hensel Phelps, 1/2007 to 2/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 52,
+      "date_added": "2026-08-18 09:58:51 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 76,
+      "date_added": "2026-08-06 08:36:43 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 76,
+      "date_added": "2026-08-06 08:36:43 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "10/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Hensel Phelps",
+      "start": "7/2017",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Area Superintendent",
+      "company": "Hensel Phelps",
+      "start": "4/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hensel Phelps",
+      "start": "3/2013",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Hensel Phelps",
+      "start": "2/2010",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Hensel Phelps",
+      "start": "1/2007",
+      "end": "2/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Gaithersburg",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "education": [
+    "Bachelor of Science (BS), Construction Management, Washington State University, 2000 to 2006"
+  ],
+  "biography": "As Senior Estimator, I am a \"cost management representative\" who assists in establishing preliminary budgets and final cost estimates. Experienced in all aspects of procurement for hard bid, conceptual, and design-build projects; as well as preconstruction cost controls involving cost estimating, cost analysis, and value engineering. Preforming cost estimates for all phases of design (schematic design, design development, and construction documents) and assists the total team (owner, designer, builder, and user) in achieving the common goal of completing projects within budget and without sacrificing quality.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

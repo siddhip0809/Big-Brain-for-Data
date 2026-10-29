@@ -1,0 +1,162 @@
+{
+  "id": "julian-woods-eb461249",
+  "type": "person",
+  "name": "Julian Woods",
+  "current_title": "Hyperscale Sales Lead West Africa",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/julian-woods-b94185",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Hyperscale Sales Lead West Africa at Equinix, 10/2024 to present; International Sales Director at Equinix, 4/2022 to present; Vice President International; Strategic Sales And Business Development at Mainone, 1/2012 to 4/2022; Senior Director Global Purchasing at Kpn Ibasis, 3/2008 to 1/2012; International Account Manager at Gateway Communications, 7/2007 to 3/2008; Head Of Carrier Services at Vectone, 9/2006 to 5/2007; Director Capacity Sales at Tyco Telecommunications Now Known As Subcom, 5/2003 to 3/2004; Sales Director Emea at Airfiber, 4/2002 to 3/2003; Sales Director Uk And Ireland at FLAG Telecom, 8/2000 to 4/2002; Key Account Manager at Hermes Europe Railtel, 10/1998 to 8/2000; National Account Manager at Telstra, 7/1997 to 10/1998; Global Account Manager at Data Return, 8/1994 to 7/1997; Marketing Manager / Teacher at Ilp Indonesia, 1/1993 to 8/1994",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 53,
+      "date_added": "2026-07-08 17:34:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 182,
+      "date_added": "2026-02-23 09:01:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Hyperscale Sales Lead West Africa",
+      "company": "Equinix",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "International Sales Director",
+      "company": "Equinix",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Vice President International"
+    },
+    {
+      "title": "Strategic Sales And Business Development",
+      "company": "Mainone",
+      "start": "1/2012",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Director Global Purchasing",
+      "company": "Kpn Ibasis",
+      "start": "3/2008",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "International Account Manager",
+      "company": "Gateway Communications",
+      "start": "7/2007",
+      "end": "3/2008",
+      "current": false
+    },
+    {
+      "title": "Head Of Carrier Services",
+      "company": "Vectone",
+      "start": "9/2006",
+      "end": "5/2007",
+      "current": false
+    },
+    {
+      "title": "Director Capacity Sales",
+      "company": "Tyco Telecommunications Now Known As Subcom",
+      "start": "5/2003",
+      "end": "3/2004",
+      "current": false
+    },
+    {
+      "title": "Sales Director Emea",
+      "company": "Airfiber",
+      "start": "4/2002",
+      "end": "3/2003",
+      "current": false
+    },
+    {
+      "title": "Sales Director Uk And Ireland",
+      "company": "FLAG Telecom",
+      "start": "8/2000",
+      "end": "4/2002",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Hermes Europe Railtel",
+      "start": "10/1998",
+      "end": "8/2000",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "Telstra",
+      "start": "7/1997",
+      "end": "10/1998",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Data Return",
+      "start": "8/1994",
+      "end": "7/1997",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager / Teacher",
+      "company": "Ilp Indonesia",
+      "start": "1/1993",
+      "end": "8/1994",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

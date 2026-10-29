@@ -1,0 +1,52 @@
+{
+  "id": "galaxy-digital",
+  "type": "company",
+  "name": "Galaxy Digital",
+  "aliases": [
+    "Galaxy Digital Inc.",
+    "Galaxy Data Centers"
+  ],
+  "industry_role": "diversified crypto merchant bank operating one large AI data center campus",
+  "headquarters": "New York",
+  "founded": null,
+  "website": "https://www.galaxy.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer"
+  ],
+  "parent_industry": "diversified_conglomerate",
+  "notes": "Not a pure-play crypto miner (a diversified crypto merchant bank, founded by Mike Novogratz) -- but bought and converted the \"Helios\" bitcoin mining site (from Argo Blockchain, ~$65M, late 2022) into an AI data center campus leased to CoreWeave (15-yr lease, ~526MW critical IT load, ~$1B annual revenue projected). Campus scaled to 1.63GW approved, potential 3.6GW -- among the furthest-along crypto-to-AI conversions in delivered IT load.",
+  "sources": [
+    "Web research, 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "roles": [
+    "neocloud",
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/galaxyhq/",
+  "headcount": "501-1,000",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 19.7
+    }
+  },
+  "hyperscale_focus": "Primary Focus"
+}

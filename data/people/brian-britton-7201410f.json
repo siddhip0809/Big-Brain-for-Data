@@ -1,0 +1,115 @@
+{
+  "id": "brian-britton-7201410f",
+  "type": "person",
+  "name": "Brian Britton",
+  "current_title": "Senior Vice President Of Sales",
+  "current_company": "Flexential",
+  "linkedin": "https://www.linkedin.com/in/brbritton",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Vice President Of Sales at Flexential, 6/2020 to present; General Manager and Vice President of Sales at Global Crossing, 1/2018 to 6/2020; General Manager - Northern California at Global Crossing, 1/2013 to 12/2018; Director of Sales at Global Crossing, 12/2005 to 3/2013; Senior Sales Manager at AT&T, 1/2003 to 12/2005; Global Account Manager / Senior Account Manager at AT&T, 1/2002 to 12/2003; Area Manager at AT&T, 1/2001 to 12/2002; Sales Coach Manager at AT&T, 1/1999 to 12/2001",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 124,
+      "date_added": "2025-11-25 16:25:42 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "flexential",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President Of Sales",
+      "company": "Flexential",
+      "start": "6/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "General Manager and Vice President of Sales",
+      "company": "Global Crossing",
+      "start": "1/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "General Manager - Northern California",
+      "company": "Global Crossing",
+      "start": "1/2013",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "Global Crossing",
+      "start": "12/2005",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Manager",
+      "company": "AT&T",
+      "start": "1/2003",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager / Senior Account Manager",
+      "company": "AT&T",
+      "start": "1/2002",
+      "end": "12/2003",
+      "current": false
+    },
+    {
+      "title": "Area Manager",
+      "company": "AT&T",
+      "start": "1/2001",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "Sales Coach Manager",
+      "company": "AT&T",
+      "start": "1/1999",
+      "end": "12/2001",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "biography": "With over 20 years of experience in the dynamic and innovative industry of cloud computing, data center solutions, and managed services, I am the Senior Vice President of Sales at Flexential, a trusted partner for customers who need reliable performance, security, and scalability for their IT infrastructure. I hold an MBA from the University of Southern California and a BA in Business and Political Science from the University of California, Los Angeles.\n\nAs the leader of the enterprise sales team at Flexential, I am passionate about building talented teams, optimizing routes to market, and exceeding customer experience expectations. I help the Flexential leadership team set the organization’s strategic plans, oversee sales and revenue growth, and manage the daily operations of the enterprise sales organization while working closely with other internal teams to drive opportunities across all layers of the organization. My team and I have a deep understanding of the challenges and opportunities of digital transformation, and we leverage our expertise in direct sales, sales operations, and managed services to deliver customized solutions that help our customers disrupt their markets and achieve their goals.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

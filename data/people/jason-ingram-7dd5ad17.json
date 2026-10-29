@@ -1,0 +1,88 @@
+{
+  "id": "jason-ingram-7dd5ad17",
+  "type": "person",
+  "name": "Jason Ingram",
+  "current_title": "Senior Estimator - Mission Critical",
+  "current_company": "Hensel Phelps",
+  "location": "Greeley, Colorado, United States",
+  "linkedin": "https://www.linkedin.com/in/jason-ingram-b52ab230",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Senior Estimator - Mission Critical at Hensel Phelps, 4/2007 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 183,
+      "date_added": "2026-08-21 16:57:01 UTC",
+      "date_updated": "2026-08-21 11:58:05 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 392,
+      "date_added": "2026-08-20 12:31:39 UTC",
+      "date_updated": "2026-08-21 11:57:12 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 392,
+      "date_added": "2026-08-20 12:31:39 UTC",
+      "date_updated": "2026-08-21 11:57:12 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator - Mission Critical",
+      "company": "Hensel Phelps",
+      "start": "4/2007",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Greeley",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Business Management, Colorado State University, 1994 to 1998"
+  ],
+  "biography": "Senior Estimator at Hensel Phelps Construction Co.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

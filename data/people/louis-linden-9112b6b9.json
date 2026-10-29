@@ -1,0 +1,80 @@
+{
+  "id": "louis-linden-9112b6b9",
+  "type": "person",
+  "name": "Louis Linden",
+  "current_title": "Manager, Energy Manager",
+  "current_company": "Cloverleaf Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/louis-linden-8b43bb91",
+  "location": "Seattle, Washington",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Manager, Energy Manager at Cloverleaf Infrastructure, 6/2024 to present; Senior Consultant at Energy and Environmental Economics, 3/2021 to 8/2022; Consultant at Energy and Environmental Economics, 11/2019 to 3/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 131,
+      "date_added": "2026-04-22 16:11:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "cloverleaf-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Energy Manager",
+      "company": "Cloverleaf Infrastructure",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Energy and Environmental Economics",
+      "start": "3/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Energy and Environmental Economics",
+      "start": "11/2019",
+      "end": "3/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Master of Business Administration (MBA), Finance Concentration, Duke University - The Fuqua School of Business, 2022 to 2024",
+    "Master of Science (MS), Mechanical Engineering, UCLA, 2015 to 2017"
+  ],
+  "biography": "Manager @ Cloverleaf Infrastructure",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

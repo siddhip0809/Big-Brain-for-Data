@@ -1,0 +1,58 @@
+{
+  "id": "derek-j-benson-485a9f05",
+  "type": "person",
+  "name": "Derek J. Benson",
+  "current_title": "Senior Manager - Construction & Development",
+  "current_company": "CyrusOne",
+  "linkedin": "https://www.linkedin.com/in/derek-j-benson-a3a8aa30",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Manager - Construction & Development at CyrusOne, 3/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 193,
+      "date_added": "2026-07-08 08:03:10 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "cyrusone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager - Construction & Development",
+      "company": "CyrusOne",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "goodman",
+  "type": "company",
+  "name": "Goodman",
+  "aliases": [
+    "Goodman North America"
+  ],
+  "industry_role": "developer operator",
+  "headquarters": "Sydney, New South Wales, Australia",
+  "founded": null,
+  "website": "http://www.goodman.com",
+  "linkedin": "https://www.linkedin.com/company/goodman/",
+  "headcount": "1,001-5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer"
+  ],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.\n\nMerged 2026-09-09: absorbed duplicate record 'Goodman North America' (goodman-north-america).",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 255.0,
+      "early_stage_mw": 1410.0
+    },
+    "emea": {
+      "total_mw": 352.0
+    }
+  }
+}

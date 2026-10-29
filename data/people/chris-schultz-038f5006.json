@@ -1,0 +1,140 @@
+{
+  "id": "chris-schultz-038f5006",
+  "type": "person",
+  "name": "Chris Schultz",
+  "current_title": "Senior Director of Construction, AMER",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/chris-schultz-a31b5215",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director of Construction, AMER at Equinix, 10/2025 to present; Director of Construction, AMER at Equinix, 5/2021 to present; Senior Construction Manager at Equinix, 2/2018 to 5/2021; Construction Manager at Equinix, 2/2015 to 2/2018; Project Manager at Turner Construction, 7/2014 to 2/2015; Project Manager at Turner Construction, 4/2014 to 6/2014; Project Manager at Turner Construction, 12/2012 to 4/2014; Project Engineer at Turner Construction, 3/2011 to 12/2012; Project Engineer at Turner Construction, 8/2010 to 3/2011; Assistant Engineer at Turner Construction, 3/2010 to 8/2010; Assistant Engineer / Superintendant at Turner Construction, 8/2009 to 3/2010; Assistant Engineer at Turner Construction, 1/2007 to 8/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 3,
+      "date_added": "2026-07-02 11:47:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director of Construction, AMER",
+      "company": "Equinix",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction, AMER",
+      "company": "Equinix",
+      "start": "5/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "Equinix",
+      "start": "2/2018",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Equinix",
+      "start": "2/2015",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "7/2014",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "4/2014",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner Construction",
+      "start": "12/2012",
+      "end": "4/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "3/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "8/2010",
+      "end": "3/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer",
+      "company": "Turner Construction",
+      "start": "3/2010",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer / Superintendant",
+      "company": "Turner Construction",
+      "start": "8/2009",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer",
+      "company": "Turner Construction",
+      "start": "1/2007",
+      "end": "8/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Science, Industrial Technology - Construction Management, Eastern Illinois University, 2002 to 2006",
+    "Central Catholic High School"
+  ],
+  "biography": "Director of Construction, AMER at Equinix",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

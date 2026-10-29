@@ -1,0 +1,93 @@
+{
+  "id": "bhavik-savaliya-cbc623cc",
+  "type": "person",
+  "name": "Bhavik Savaliya",
+  "current_title": "Senior Consultant",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/bhavik-savaliya-b83a6772",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Consultant at Turner & Townsend, 10/2024 to present; Estimator at Dome Construction, 10/2021 to 10/2024; Estimator at Hathaway Dinwiddie, 1/2021 to 9/2021; Preconstruction Engineer at Hathaway Dinwiddie, 6/2016 to 1/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 89,
+      "date_added": "2026-08-06 13:37:36 UTC",
+      "date_updated": "2026-08-19 07:31:22 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Dome Construction",
+      "start": "10/2021",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Hathaway Dinwiddie",
+      "start": "1/2021",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Engineer",
+      "company": "Hathaway Dinwiddie",
+      "start": "6/2016",
+      "end": "1/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Master of Science (M.S.), Construction Management, Texas A&M University, 2014 to 2016",
+    "Bachelor of Engineering (B.E.), Civil Engineering, Shri Ramdeobaba College of Engineering and Management, 2010 to 2014",
+    "Higher Secondary Certificate & Diploma in Electrical Maintenance, Science, Dharampeth M.P. Deo Memorial Science College, 2008 to 2010",
+    "-, St. Xavier's High School, Nagpur, 1999 to 2008"
+  ],
+  "biography": "Construction professional with extensive experience in cost controls and budget management. Passionate about 3D model based estimating, preconstruction, value engineering and construction cost database management.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

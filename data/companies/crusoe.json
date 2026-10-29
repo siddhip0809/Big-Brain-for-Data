@@ -1,0 +1,56 @@
+{
+  "id": "crusoe",
+  "type": "company",
+  "name": "Crusoe",
+  "aliases": [],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": "Denver, Colorado, United States",
+  "founded": null,
+  "website": "https://crusoe.ai/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Civil Engineering",
+    "Data Center Developer",
+    "General Contractor",
+    "Hyperscaler",
+    "Neo Clouds/AI Infra",
+    "Real Estate Development",
+    "Renewables",
+    "Utilities"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 7 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Series E Oct 2025, $1.375B at ~$10B valuation, co-led by Valor Equity Partners and Mubadala Capital; NVIDIA, Fidelity, T. Rowe Price, Founders Fund, Tiger Global also participated.\n\nM&A: NYDIG (not tracked) acquired / took a stake -- Mar 2025: Crusoe's bitcoin-mining unit (~135 staff, 425 modular DCs); Crusoe becomes #2 NYDIG holder and exits crypto to go all-in on AI data centers. [asset purchase (completed); confidence high; https://www.crusoe.ai/resources/newsroom/nydig-to-acquire-crusoes-bitcoin-mining-operation-crusoe-to-scale-vertically]",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/crusoe/",
+  "headcount": "1,001-5,000",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 2626.0,
+      "early_stage_mw": 800.0
+    }
+  }
+}

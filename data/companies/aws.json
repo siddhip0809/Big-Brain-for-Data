@@ -1,0 +1,65 @@
+{
+  "id": "aws",
+  "type": "company",
+  "name": "AWS",
+  "aliases": [
+    "Amazon Web Services",
+    "Amazon",
+    "Amazon.com",
+    "Amazon Data Services"
+  ],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": "Seattle, Washington",
+  "founded": null,
+  "website": "http://aws.amazon.com",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Hyperscaler",
+    "Real Estate Development",
+    "Utilities"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 8 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "hyperscaler"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Hyperscale",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "Yes",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/amazon-web-services/",
+  "headcount": "1,001-5,000",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 1140.6,
+      "early_stage_mw": 1075.0
+    },
+    "emea": {
+      "total_mw": 2091.3999999999996,
+      "early_stage_mw": 783.8
+    },
+    "south_america": {
+      "total_mw": 21.0,
+      "early_stage_mw": 15.0
+    }
+  }
+}

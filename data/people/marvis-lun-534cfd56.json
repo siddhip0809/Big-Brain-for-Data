@@ -1,0 +1,88 @@
+{
+  "id": "marvis-lun-534cfd56",
+  "type": "person",
+  "name": "Marvis Lun",
+  "current_title": "Director of Business Development APAC",
+  "current_company": "EdgeConneX",
+  "linkedin": "https://www.linkedin.com/in/marvis-lun-445b2238",
+  "location": "Singapore",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Business Development APAC at EdgeConneX, 12/2024 to present; Sales Director at Global Switch, 10/2013 to 2/2024; Sales Director, International IT Key Accounts (Greater China) at Rittal Co, 11/2007 to 10/2013; Sales Manager (Data Center Business) at Emerson Network Power, 10/1996 to 10/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 122,
+      "date_added": "2025-11-21 10:02:06 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "edgeconnex",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Business Development APAC",
+      "company": "EdgeConneX",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "Global Switch",
+      "start": "10/2013",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Sales Director, International IT Key Accounts (Greater China)",
+      "company": "Rittal Co",
+      "start": "11/2007",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Manager (Data Center Business)",
+      "company": "Emerson Network Power",
+      "start": "10/1996",
+      "end": "10/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Singapore",
+    "region": null,
+    "country": "Singapore",
+    "group": "Singapore"
+  },
+  "education": [
+    "Bachelor's degree, Electrical and Electronics Engineering, The Hong Kong University of Science and Technology, 1991 to 1994"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

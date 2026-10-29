@@ -1,0 +1,29 @@
+{
+  "id": "ramboll",
+  "type": "company",
+  "name": "Ramboll",
+  "aliases": [
+    "EYP Mission Critical Facilities",
+    "EYP MCF"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — design / MEP engineering, strategy & advisory",
+  "headquarters": "Copenhagen, Denmark",
+  "founded": null,
+  "website": "https://www.ramboll.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Acquired EYP Mission Critical Facilities (Feb 2022) and i3 Solutions Group (2024); stated 100 dedicated data centre experts after EYP and a $60m data-center consulting revenue target for 2025.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Acquired EYP Mission Critical Facilities (Feb 2022) and i3 Solutions Group (2024); stated 100 dedicated data centre experts after EYP and a $60m data-center consulting revenue target for 2025. Added 2026-09-16 from open-source research (import_researched_companies.py). Acquired US data-centre consultancy EYP Mission Critical Facilities in Feb 2022 (ramboll.com) (2026-09-16).",
+  "sources": [
+    "https://www.ramboll.com/news/ramboll-acquires-leading-data-centre-consulting-company",
+    "https://www.ramboll.com"
+  ],
+  "last_updated": "2026-09-16"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "chris-maley-cf5f6bb0",
+  "type": "person",
+  "name": "Chris Maley",
+  "current_title": "Estimating Manager / Project Controls Manger",
+  "current_company": "Bechtel",
+  "linkedin": "https://www.linkedin.com/in/cmaley8123",
+  "location": "Baltimore, Maryland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Estimating Manager / Project Controls Manger at Bechtel, 2/2020 to present; Project Manager at Bechtel, 11/2017 to 1/2020; Project Controls Supervisor at Bechtel, 3/2015 to 10/2017; Project Controls / Estimating Engineer at Bechtel, 8/2014 to 3/2015; Project Controls Engineer at Bechtel, 4/2011 to 7/2014; Technology Analyst at Accenture, 5/2010 to 3/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 512,
+      "date_added": "2026-08-26 07:32:01 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 512,
+      "date_added": "2026-08-26 07:32:01 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "bechtel-corporation",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Manager / Project Controls Manger",
+      "company": "Bechtel",
+      "start": "2/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Bechtel",
+      "start": "11/2017",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Project Controls Supervisor",
+      "company": "Bechtel",
+      "start": "3/2015",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Project Controls / Estimating Engineer",
+      "company": "Bechtel",
+      "start": "8/2014",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Project Controls Engineer",
+      "company": "Bechtel",
+      "start": "4/2011",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Technology Analyst",
+      "company": "Accenture",
+      "start": "5/2010",
+      "end": "3/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "education": [
+    "Bachelor’s Degree, Interdisciplinary Engineering & Management, Clarkson University, 2006 to 2010"
+  ],
+  "biography": "Driven professional with background in the telecommunications and consulting industry. Experienced managing technical requirements for large scale implementation projects, while meeting client schedule and budget targets. Focused on understanding the end goal to find the most efficient path to meet the project's needs.",
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

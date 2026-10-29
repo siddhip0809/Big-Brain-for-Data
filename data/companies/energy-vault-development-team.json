@@ -1,0 +1,39 @@
+{
+  "id": "energy-vault-development-team",
+  "type": "company",
+  "name": "Energy Vault development team",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Westlake Village, California",
+  "founded": null,
+  "website": "https://www.energyvault.com",
+  "linkedin": "https://www.linkedin.com/company/energy-vault/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Storage Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Gravity-based long-duration energy storage developer. Grid-scale focus. Some DC power application relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

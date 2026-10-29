@@ -1,0 +1,26 @@
+{
+  "id": "aurora-energy-research",
+  "type": "company",
+  "name": "Aurora Energy Research",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": "Oxford, UK",
+  "founded": null,
+  "website": "https://auroraer.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data-centre market reports for US, UK, Iberia, France, PG&E; podcasts EP.249/EP.281 on data-center load growth; webinar on batteries accelerating US DC deployment.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data-centre market reports for US, UK, Iberia, France, PG&E; podcasts EP.249/EP.281 on data-center load growth; webinar on batteries accelerating US DC deployment. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://auroraer.com/resources/aurora-insights/market-reports/data-centers-and-their-impact-on-the-us-power-market",
+    "https://auroraer.com"
+  ],
+  "last_updated": "2026-09-16"
+}

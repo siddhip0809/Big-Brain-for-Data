@@ -1,0 +1,76 @@
+{
+  "id": "kieran-taylor-937c134e",
+  "type": "person",
+  "name": "Kieran Taylor",
+  "current_title": "Associate Director - Cost Management",
+  "current_company": "Turton Bond",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/kieran-taylor123",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director - Cost Management at Turton Bond, 7/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "2d. CV Received / Scheduling Full Assessment",
+      "rank": 138,
+      "date_added": "2026-08-19 12:58:55 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 304,
+      "date_added": "2026-08-13 08:21:39 UTC",
+      "date_updated": "2026-08-19 07:58:54 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director - Cost Management",
+      "company": "Turton Bond",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0,
+    "under_represented_group": "No"
+  }
+}

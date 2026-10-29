@@ -1,0 +1,86 @@
+{
+  "id": "james-dycus-05179fa6",
+  "type": "person",
+  "name": "James Dycus",
+  "current_title": "Senior Estimator",
+  "current_company": "PCL Construction",
+  "linkedin": "https://www.linkedin.com/in/james-dycus-a260b415b",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at PCL Construction, 3/2026 to present; Senior Estimator at Yates Construction, 9/2018 to present; Senior Estimator at Carothers Construction, 6/2014 to 9/2018; Chief Estimator at RUSH Construction, 5/2003 to 6/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 530,
+      "date_added": "2026-08-26 15:27:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "PCL Construction",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Yates Construction",
+      "start": "9/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Carothers Construction",
+      "start": "6/2014",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator",
+      "company": "RUSH Construction",
+      "start": "5/2003",
+      "end": "6/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Bachelor of Building Construction, Building Construction Technology, University Of Florida"
+  ],
+  "biography": "Experienced Senior Estimator with a demonstrated history of working in the construction industry. Skilled in Project Estimation, Value Engineering, Budgeting, and Bid Procurement. Strong operations professional with a Bachelor of Science in Building Construction focused in Building Construction Technology from the University of Florida.",
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

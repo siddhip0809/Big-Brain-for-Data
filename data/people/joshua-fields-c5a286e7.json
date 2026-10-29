@@ -1,0 +1,99 @@
+{
+  "id": "joshua-fields-c5a286e7",
+  "type": "person",
+  "name": "Joshua Fields",
+  "current_title": "Global Infrastructure",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/joshuafields",
+  "location": "San Francisco, California",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Global Infrastructure at Google, 8/2018 to present; Senior Development Manager at SolarReserve, 9/2009 to 7/2018; Senior Associate - Acquisitions at Karlin Real Estate, 10/2008 to 9/2009; Senior Financial Analyst at Bond Companies, 6/2007 to 10/2008; Assistant Vice-President at UBS Wealth Management, 7/2002 to 7/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 423,
+      "date_added": "2026-05-13 10:33:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Global Infrastructure",
+      "company": "Google",
+      "start": "8/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Manager",
+      "company": "SolarReserve",
+      "start": "9/2009",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Associate - Acquisitions",
+      "company": "Karlin Real Estate",
+      "start": "10/2008",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Bond Companies",
+      "start": "6/2007",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "Assistant Vice-President",
+      "company": "UBS Wealth Management",
+      "start": "7/2002",
+      "end": "7/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Exchange Program, MBA, HKUST Business School, 2007 to present",
+    "MBA, Real Estate, Ucla Anderson School Of Management, 2006 to 2008"
+  ],
+  "biography": "Global Infrastructure at Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "engie",
+  "type": "company",
+  "name": "Engie",
+  "aliases": [
+    "ENGIE North America",
+    "ENGIE North America Inc."
+  ],
+  "industry_role": "energy developer",
+  "headquarters": "Houston, Texas",
+  "founded": null,
+  "website": "https://www.engie.com",
+  "linkedin": "https://www.linkedin.com/company/engie/",
+  "headcount": "10,001+",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Mixed",
+      "Infrastructure Assets": "Mixed / Vertically Integrated",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Same as ENGIE North America — possible duplicate. Global energy company. Active hyperscaler PPA partner.\n\nMerged 2026-09-09: absorbed duplicate record 'ENGIE North America' (engie-north-america).",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09"
+}

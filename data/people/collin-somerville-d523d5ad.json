@@ -1,0 +1,132 @@
+{
+  "id": "collin-somerville-d523d5ad",
+  "type": "person",
+  "name": "Collin Somerville",
+  "current_title": "Sr Sales Director",
+  "current_company": "Edged",
+  "linkedin": "https://www.linkedin.com/in/cbsomerville",
+  "location": "Arvada, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sr Sales Director at Edged, 1/2025 to present; Director, Strategic Sales at CentersquareDC, 4/2024 to 12/2024; Director, Strategic and Hyperscaler Accounts at CentersquareDC, 7/2021 to 4/2024; Sr Account Director at Lumen Technologies, 9/2020 to 7/2021; Sr Account Director at Qwest Communications, 1/2019 to 9/2020; Sr Account Director at Global Crossing, 5/2013 to 12/2018; Director, Sales Operations - NA Wholesale at Global Crossing, 1/2012 to 5/2013; Manager, Sales Engineering at Global Crossing, 8/2008 to 1/2012; Sr Sales Engineer at Global Crossing, 8/2004 to 8/2008; Product Manager at WilTel Communications, 2/1999 to 8/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 135,
+      "date_added": "2025-12-15 15:34:36 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "edged",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr Sales Director",
+      "company": "Edged",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Strategic Sales",
+      "company": "CentersquareDC",
+      "start": "4/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Strategic and Hyperscaler Accounts",
+      "company": "CentersquareDC",
+      "start": "7/2021",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Sr Account Director",
+      "company": "Lumen Technologies",
+      "start": "9/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Sr Account Director",
+      "company": "Qwest Communications",
+      "start": "1/2019",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Sr Account Director",
+      "company": "Global Crossing",
+      "start": "5/2013",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Director, Sales Operations - NA Wholesale",
+      "company": "Global Crossing",
+      "start": "1/2012",
+      "end": "5/2013",
+      "current": false
+    },
+    {
+      "title": "Manager, Sales Engineering",
+      "company": "Global Crossing",
+      "start": "8/2008",
+      "end": "1/2012",
+      "current": false
+    },
+    {
+      "title": "Sr Sales Engineer",
+      "company": "Global Crossing",
+      "start": "8/2004",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "Product Manager",
+      "company": "WilTel Communications",
+      "start": "2/1999",
+      "end": "8/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Arvada",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BBA, Engineering Route to Business (Finance / Mechnical Engineering), Texas Mccombs School Of Business"
+  ],
+  "biography": "An accomplished sales and technical leader focused on aiding companies to attain business outcomes. Over 25 years of experience in sales, account, and organization development - leading sales & technical engineering teams. Consistently exceeded individual and team sales targets, selling co-location, cloud, and network services across a broad range of Hyperscale, Webscale, and Telco verticals in North America, Europe, and LATAM. Possess exceptional leadership and management abilities combined with strong interpersonal and communications skills leading team members to achieve organizational objectives.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

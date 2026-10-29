@@ -1,0 +1,86 @@
+{
+  "id": "charlie-esson-d85389c1",
+  "type": "person",
+  "name": "Charlie Esson",
+  "current_title": "Real Estate Development Manager",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/charlie-e-941a60167",
+  "location": "Austin, Texas",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Development Manager at AWS, 12/2025 to present; Senior Program Manager at AWS, 4/2025 to 12/2025;  Program Manager at AWS, 2/2024 to 4/2025; Guest Services Coordinator at Parking Management, 2/2021 to 8/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 507,
+      "date_added": "2026-06-03 15:02:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "AWS",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Program Manager",
+      "company": "AWS",
+      "start": "4/2025",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "AWS",
+      "start": "2/2024",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Guest Services Coordinator",
+      "company": "Parking Management",
+      "start": "2/2021",
+      "end": "8/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Austin",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

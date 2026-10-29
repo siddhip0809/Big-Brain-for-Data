@@ -1,0 +1,42 @@
+{
+  "id": "turner-construction",
+  "type": "company",
+  "name": "Turner Construction",
+  "aliases": [
+    "Turner Construction Company"
+  ],
+  "industry_role": "civil land engineering / general contractor",
+  "headquarters": "New York",
+  "founded": null,
+  "website": "https://www.turnerconstruction.com",
+  "linkedin": "https://www.linkedin.com/company/turner-construction-company/",
+  "headcount": "10,001+",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering",
+    "general_contractor"
+  ],
+  "source_lists": [
+    "Civil Land Developers",
+    "General Contractors USA"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "High",
+      "Multidisciplinary": "No",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Large GC. Active DC campus construction nationally.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

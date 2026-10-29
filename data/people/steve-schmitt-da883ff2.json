@@ -1,0 +1,103 @@
+{
+  "id": "steve-schmitt-da883ff2",
+  "type": "person",
+  "name": "Steve Schmitt",
+  "current_title": "Senior Power Deliver Manager",
+  "current_company": "CyrusOne",
+  "linkedin": "https://www.linkedin.com/in/steve-schmitt-a33706300",
+  "location": "Helena, Montana",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Power Deliver Manager at CyrusOne, 5/2024 to present; Manager of Energy Supply at NorthWestern Energy, 2/2022 to 5/2024; Superintendent of Infrastructure at NorthWestern Energy, 6/2011 to 2/2022; Planning Engineer at NorthWestern Energy, 6/2005 to 6/2011; Student Engineer at Avista, 5/2002 to 5/2005; Avista, 5/2002 to 5/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 45,
+      "date_added": "2025-11-12 13:14:30 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "cyrusone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Power Deliver Manager",
+      "company": "CyrusOne",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager of Energy Supply",
+      "company": "NorthWestern Energy",
+      "start": "2/2022",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Superintendent of Infrastructure",
+      "company": "NorthWestern Energy",
+      "start": "6/2011",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Planning Engineer",
+      "company": "NorthWestern Energy",
+      "start": "6/2005",
+      "end": "6/2011",
+      "current": false
+    },
+    {
+      "title": "Student Engineer",
+      "company": "Avista",
+      "start": "5/2002",
+      "end": "5/2005",
+      "current": false
+    },
+    {
+      "company": "Avista",
+      "start": "5/2002",
+      "end": "5/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Helena",
+    "region": "Montana",
+    "country": "United States",
+    "group": "Montana"
+  },
+  "education": [
+    "MBA Finance and Accounting, Business, Regis University, 2006 to 2009",
+    "Bachelor of Science (B.S.), Mechanical Engineering, Gonzaga University, 2001 to 2005",
+    "Gonzaga University, 2001 to 2005",
+    "Mechanical Engineering, Engineering, Gonzaga University, 2001 to 2005"
+  ],
+  "biography": "I’m currently a Senior Power Delivery Manager for CyrusOne. With experience in all things Utility related including engineering, negotiation, community relations, regulatory, and generation, I apply my knowledge to help advance the growth of data center development all over the USA. Our data centers need power and I make that happen. \nI'm currently a Senior Power Delivery Manager for CyrusOne. With experience in all things Utility related including engineering, negotiation, community relations, regulatory, and generation, I apply my knowledge to help advance the growth of data center development all over the USA. Our data centers need power and I make that happen.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "daniel-d-l-bouldrick-33b41f4c",
+  "type": "person",
+  "name": "Daniel (D. L.) Bouldrick",
+  "current_title": "Senior Manager, Cost Control",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/danielbouldrick",
+  "location": "Atlanta, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Manager, Cost Control at QTS Data Centers, 7/2023 to present; Manager, Construction Project Controls at Wellstar Health System, 5/2022 to 6/2023; Senior Manager at Protiviti, 7/2013 to 1/2020; Purchasing Agent at Turner Construction, 8/2010 to 6/2013; Project Engineer at Turner Construction, 2/2008 to 8/2010; Engineer at Turner Construction, 1/2006 to 2/2008; Assistant Superintendent at Turner Construction, 6/2005 to 12/2005; Assistant Estimator at Turner Construction, 9/2002 to 6/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 196,
+      "date_added": "2026-08-11 09:41:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Cost Control",
+      "company": "QTS Data Centers",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Construction Project Controls",
+      "company": "Wellstar Health System",
+      "start": "5/2022",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Manager",
+      "company": "Protiviti",
+      "start": "7/2013",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Purchasing Agent",
+      "company": "Turner Construction",
+      "start": "8/2010",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "2/2008",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Turner Construction",
+      "start": "1/2006",
+      "end": "2/2008",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "Turner Construction",
+      "start": "6/2005",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Assistant Estimator",
+      "company": "Turner Construction",
+      "start": "9/2002",
+      "end": "6/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "BSE, Civil Engineering Systems, University Of Pennsylvania, 1998 to 2002",
+    "East Lake High School"
+  ],
+  "biography": "Development Capital Manager at QTS Data Centers",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

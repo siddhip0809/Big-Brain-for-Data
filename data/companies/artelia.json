@@ -1,0 +1,28 @@
+{
+  "id": "artelia",
+  "type": "company",
+  "name": "Artelia",
+  "aliases": [
+    "Artelia Group"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — design / MEP engineering, programme & project management",
+  "headquarters": "Paris, France",
+  "founded": null,
+  "website": "https://www.arteliagroup.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Normandie Data Center project: upgrade and refurbishment of a former bank data centre in Val-de-Reuil for Nation Data Center (NDC).",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Normandie Data Center project: upgrade and refurbishment of a former bank data centre in Val-de-Reuil for Nation Data Center (NDC). Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.arteliagroup.com/project/bnp-paribas-marne-est/",
+    "https://www.arteliagroup.com"
+  ],
+  "last_updated": "2026-09-16"
+}

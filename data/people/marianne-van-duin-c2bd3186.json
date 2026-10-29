@@ -1,0 +1,71 @@
+{
+  "id": "marianne-van-duin-c2bd3186",
+  "type": "person",
+  "name": "Marianne van Duin",
+  "current_title": "Vice President Sales Growth and Emerging Markets EMEA",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/mariannevanduin",
+  "location": "Amsterdam, North Holland, Netherlands",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President Sales Growth and Emerging Markets EMEA at Equinix, 9/2021 to present; Sr. Director Sales Growth and Emerging Markets EMEA at Equinix, 1/2020 to 9/2021; Sr. Sales Director CX Industries Western & Eastern Europe and Russia Region at Oracle, 6/2019 to 12/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 257,
+      "date_added": "2026-08-06 15:25:04 UTC",
+      "date_updated": "2026-08-06 10:53:02 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Sales Growth and Emerging Markets EMEA",
+      "company": "Equinix",
+      "start": "9/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Director Sales Growth and Emerging Markets EMEA",
+      "company": "Equinix",
+      "start": "1/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Sr. Sales Director CX Industries Western & Eastern Europe and Russia Region",
+      "company": "Oracle",
+      "start": "6/2019",
+      "end": "12/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Amsterdam",
+    "region": "North Holland",
+    "country": "Netherlands",
+    "group": "Netherlands"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

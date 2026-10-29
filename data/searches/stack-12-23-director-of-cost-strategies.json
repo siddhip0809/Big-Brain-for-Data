@@ -1,0 +1,29 @@
+{
+  "id": "390ab55b-982f-45e1-8350-17a902bd59a1",
+  "type": "search",
+  "name": "Stack 12.23 - Director of Cost Strategies",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Internal (historical record)",
+  "started_at": "2026-02-25",
+  "closed_at": "2026-04-28",
+  "closing_reason": "Placement",
+  "placement": {
+    "person": null,
+    "title": "Stack 12.23 - Director of Cost Strategies"
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 1,
+    "active": 0,
+    "out": 0
+  },
+  "historical_record": true,
+  "notes": "Logged retrospectively in Clockwork by Siddhi Pandit as a past placement (project type Internal, presentation-only). It is real completed work, which is why it counts; the first pull skipped it because the isInternal flag also marks the firm's own mapping shells.",
+  "sources": [
+    "Clockwork API, verified live 2026-09-13"
+  ],
+  "last_updated": "2026-09-13"
+}

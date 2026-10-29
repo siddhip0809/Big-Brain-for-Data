@@ -1,0 +1,54 @@
+{
+  "id": "damac-digital",
+  "type": "company",
+  "name": "DAMAC Digital",
+  "aliases": [],
+  "industry_role": "hyperscaler / data center developer",
+  "headquarters": "Dubai",
+  "founded": null,
+  "website": "https://damacdigital.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Hyperscaler"
+  ],
+  "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): founder/majority owner (Hussain Sajwani / DAMAC Group). Wholly owned subsidiary/platform of DAMAC Group (formerly Edgnex, rebranded June 2025), the private conglomerate owned by Hussain Sajwani. No outside PE.",
+  "sources": [
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "real_estate",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Primary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/damacdigital/",
+  "headcount": "1,001-5,000",
+  "hyperscale_focus": "Primary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 304.0,
+      "early_stage_mw": 135.0
+    },
+    "emea": {
+      "total_mw": 902.0,
+      "early_stage_mw": 607.0
+    }
+  }
+}

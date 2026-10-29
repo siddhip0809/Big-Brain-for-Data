@@ -1,0 +1,105 @@
+{
+  "id": "cory-mcdaniel-5ab06ffe",
+  "type": "person",
+  "name": "Cory McDaniel",
+  "current_title": "Project Estimator",
+  "current_company": "Hensel Phelps",
+  "linkedin": "https://www.linkedin.com/in/cory-mcdaniel-78682528",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Project Estimator at Hensel Phelps, 10/2025 to present; Lead Estimator at Hensel Phelps, 4/2023 to present; Estimator at Hensel Phelps, 4/2017 to present; Superintendent at MAX Construction, 12/2013 to 4/2017; Superintendent at Oakwood Homes, 5/2012 to 10/2013; Estimator at Interstates, 5/2010 to 10/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 23,
+      "date_added": "2026-08-04 16:07:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Estimator",
+      "company": "Hensel Phelps",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Hensel Phelps",
+      "start": "4/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Superintendent",
+      "company": "MAX Construction",
+      "start": "12/2013",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Oakwood Homes",
+      "start": "5/2012",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Interstates",
+      "start": "5/2010",
+      "end": "10/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Associate's Degree, Business Management, Northwest Iowa Community College, 2011 to 2012",
+    "Construction Management, University of Northern Iowa, 2006 to 2008"
+  ],
+  "biography": "Estimator at HENSEL PHELPS",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

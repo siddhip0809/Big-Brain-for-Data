@@ -1,0 +1,79 @@
+{
+  "id": "ian-quirk-21c309e5",
+  "type": "person",
+  "name": "Ian Quirk",
+  "current_title": "Global Energy and Sustainability",
+  "current_company": "Apple",
+  "linkedin": "https://www.linkedin.com/in/ianquirk",
+  "location": "San Francisco Bay Area",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Global Energy and Sustainability at Apple, 7/2019 to present; Principal Portfolio Management Analyst at PG&E, 5/2018 to 7/2019; Contract Management Analyst at PG&E, 4/2017 to 5/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 138,
+      "date_added": "2026-06-02 15:01:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "apple",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Energy and Sustainability",
+      "company": "Apple",
+      "start": "7/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Portfolio Management Analyst",
+      "company": "PG&E",
+      "start": "5/2018",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Contract Management Analyst",
+      "company": "PG&E",
+      "start": "4/2017",
+      "end": "5/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco Bay Area",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bs, B.S. Environmental Sciences and Energy and Resource Studies, University Of California, Berkeley"
+  ],
+  "biography": "Experience in Energy Efficiency, Energy Procurement, Public Policy, and Project Finance.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

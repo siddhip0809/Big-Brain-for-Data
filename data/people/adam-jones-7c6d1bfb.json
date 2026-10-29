@@ -1,0 +1,113 @@
+{
+  "id": "adam-jones-7c6d1bfb",
+  "type": "person",
+  "name": "Adam Jones",
+  "current_title": "Sr Director, Regional Sales Lead EMEA",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/adam-jones-digitalrealty",
+  "location": "London,  England, United Kingdom",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Sr Director, Regional Sales Lead EMEA at Digital Realty, 3/2023 to present; Head of Sales EMEA at Fraction, 9/2022 to 3/2023; Sales Director at Digital Realty, 9/2011 to 9/2022; Data Centre Business Development at Node4, 12/2010 to 9/2011; Account Director at PacketExchange, 11/2004 to 11/2010; Partner Develpoment Manager at Fujitsu Siemens, 11/2003 to 11/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 27,
+      "date_added": "2026-07-08 17:34:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 19,
+      "date_added": "2025-11-06 14:00:53 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Sr Director, Regional Sales Lead EMEA",
+      "company": "Digital Realty",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Sales EMEA",
+      "company": "Fraction",
+      "start": "9/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "9/2011",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Data Centre Business Development",
+      "company": "Node4",
+      "start": "12/2010",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Account Director",
+      "company": "PacketExchange",
+      "start": "11/2004",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Partner Develpoment Manager",
+      "company": "Fujitsu Siemens",
+      "start": "11/2003",
+      "end": "11/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "MSc, Information Technology, Loughborough University, 2001 to 2002",
+    "2:1 BA, Industrial Design and Technology, Loughborough University, 1996 to 2000"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

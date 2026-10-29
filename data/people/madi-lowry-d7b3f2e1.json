@@ -1,0 +1,132 @@
+{
+  "id": "madi-lowry-d7b3f2e1",
+  "type": "person",
+  "name": "Madi Lowry",
+  "current_title": "Real Estate Development Manager",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/madi-lowry-270bb7159",
+  "location": "., Washington DC",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Development Manager at AWS, 1/2024 to present; Project Manager - Planning at NOVEC, 4/2023 to 1/2024; Senior Sales Executive at EyeMed Vision Care, 7/2022 to 4/2023; Site Acquisition Manager at Network Building + Consulting, 6/2021 to 7/2022; Site Acquisition Specialist at Network Building + Consulting, 2/2020 to 7/2022; Land Use Associate at Network Building + Consulting, 7/2018 to 2/2020; Family Finder at C2Adopt, 1/2018 to 5/2018; ABA Therapist at Autism Outreach, 5/2015 to 1/2018; Peer Mentor at Longwood University, 3/2015 to 11/2016; Intern at Capital Caring, 5/2014 to 8/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 460,
+      "date_added": "2026-05-13 10:33:54 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "AWS",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager - Planning",
+      "company": "NOVEC",
+      "start": "4/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Executive",
+      "company": "EyeMed Vision Care",
+      "start": "7/2022",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Manager",
+      "company": "Network Building + Consulting",
+      "start": "6/2021",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Specialist",
+      "company": "Network Building + Consulting",
+      "start": "2/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Land Use Associate",
+      "company": "Network Building + Consulting",
+      "start": "7/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Family Finder",
+      "company": "C2Adopt",
+      "start": "1/2018",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "ABA Therapist",
+      "company": "Autism Outreach",
+      "start": "5/2015",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Peer Mentor",
+      "company": "Longwood University",
+      "start": "3/2015",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Capital Caring",
+      "start": "5/2014",
+      "end": "8/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "education": [
+    "BSW (May 2018), Social Work, Longwood University, 2013 to 2018"
+  ],
+  "biography": "Real Estate Development Manager, Data Centers",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

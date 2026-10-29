@@ -1,0 +1,105 @@
+{
+  "id": "cindy-shattuck-b2a3af3c",
+  "type": "person",
+  "name": "Cindy Shattuck",
+  "current_title": "Project Manager, Site Acquisition",
+  "current_company": "EdgeConneX",
+  "linkedin": "https://www.linkedin.com/in/cindy-shattuck-pmp-3972504",
+  "location": "Englewood, Colorado",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Project Manager, Site Acquisition at EdgeConneX, 5/2013 to present; Project Manager at Intellifiber Networks/Windstream, 12/2011 to 4/2013; Project Support Specialist at Xcel Energy, 9/2011 to 11/2011; Project Manager / Customer Relationship Manager at EarthRoamer, 10/2004 to 11/2008; Lead Project Manager / Program Manager at Qwest Communications, 1/1998 to 11/2001; Supervisor of Premier Services at Qwest Communications, 9/1997 to 1/1998",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 95,
+      "date_added": "2025-11-18 15:56:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "edgeconnex",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Project Manager, Site Acquisition",
+      "company": "EdgeConneX",
+      "start": "5/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Intellifiber Networks/Windstream",
+      "start": "12/2011",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "Project Support Specialist",
+      "company": "Xcel Energy",
+      "start": "9/2011",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Customer Relationship Manager",
+      "company": "EarthRoamer",
+      "start": "10/2004",
+      "end": "11/2008",
+      "current": false
+    },
+    {
+      "title": "Lead Project Manager / Program Manager",
+      "company": "Qwest Communications",
+      "start": "1/1998",
+      "end": "11/2001",
+      "current": false
+    },
+    {
+      "title": "Supervisor of Premier Services",
+      "company": "Qwest Communications",
+      "start": "9/1997",
+      "end": "1/1998",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Englewood",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Associate of Applied Science, Computer Programming, Southeast Community College",
+    "Bachelor of Science, Business, University Of Nebraska Lincoln"
+  ],
+  "biography": "Over 15 years of experience in Project Management in Telecom and other industries on high-visibility, multi-million dollar projects involving data centers, dark fiber and wireless last mile. Skills include: Procedure development and implementation, process improvement, systems integration projects, cross-functional team management, vendor management, development of training programs, supervisory experience, office management, event planning, customer service.\nPMP certified since 2010.\nOver 15 years of experience in Project Management in Telecom and other industries on high-visibility, multi-million dollar projects involving data centers, dark fiber and wireless last mile. Skills include: Procedure development and implementation, process improvement, systems integration projects, cross-functional team management, vendor management, development of training programs, supervisory experience, office management, event planning, customer service.\r\nPMP certified since 2010.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

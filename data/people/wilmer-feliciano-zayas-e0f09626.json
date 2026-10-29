@@ -1,0 +1,105 @@
+{
+  "id": "wilmer-feliciano-zayas-e0f09626",
+  "type": "person",
+  "name": "Wilmer Feliciano-Zayas",
+  "current_title": "Senior Estimator",
+  "current_company": "Hensel Phelps",
+  "location": "Orlando, Florida",
+  "linkedin": "https://www.linkedin.com/in/wilmer-feliciano-zayas-93264091",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Senior Estimator at Hensel Phelps, 8/2022 to present; Lead Estimator at Hensel Phelps, 9/2018 to 8/2022; Estimator at Hensel Phelps, 7/2017 to 9/2018; Assistant Project Manager / Estimator at DDD Group, 8/2011 to 7/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 173,
+      "date_added": "2026-08-21 15:22:28 UTC",
+      "date_updated": "2026-08-21 10:27:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 393,
+      "date_added": "2026-08-20 12:50:56 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 393,
+      "date_added": "2026-08-20 12:50:56 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Hensel Phelps",
+      "start": "8/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Hensel Phelps",
+      "start": "9/2018",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Hensel Phelps",
+      "start": "7/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager / Estimator",
+      "company": "DDD Group",
+      "start": "8/2011",
+      "end": "7/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Orlando",
+    "region": "Florida",
+    "country": "United States",
+    "group": "Florida"
+  },
+  "education": [
+    "Bachelor's degree, Civil Engineering, University of Puerto Rico-Mayaguez, 2005 to 2011"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

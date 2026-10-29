@@ -1,0 +1,49 @@
+{
+  "id": "pointone",
+  "type": "company",
+  "name": "PointOne",
+  "aliases": [],
+  "industry_role": "data center developer / real estate development",
+  "headquarters": "New York, United States",
+  "founded": null,
+  "website": "https://pointone.com/",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [
+    "Data Center Developer",
+    "Real Estate Development"
+  ],
+  "notes": "Minimal stub record: identified as the current employer of 6 candidate(s) across Ward Search's Long Term Mapping lists, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Strategic partnership announced Feb 2025 to fund its Virginia campus; the specific firm name is corroborated by a LinkedIn post rather than the primary press release text, deal size undisclosed.",
+  "sources": [
+    "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "linkedin": "https://www.linkedin.com/company/pointoneai/",
+  "headcount": "11 to 50",
+  "capacity_mw": {
+    "north_america": {
+      "total_mw": 560.0,
+      "early_stage_mw": 600.0
+    }
+  }
+}

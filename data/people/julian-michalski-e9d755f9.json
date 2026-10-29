@@ -1,0 +1,138 @@
+{
+  "id": "julian-michalski-e9d755f9",
+  "type": "person",
+  "name": "Julian Michalski",
+  "current_title": "Development Director - Head of Europe",
+  "current_company": "Corscale Data Centers",
+  "linkedin": "https://www.linkedin.com/in/julian-michalski-ieng-miet-acibse-ffb-56957a13",
+  "location": "London, England",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Development Director - Head of Europe at Corscale Data Centers, 7/2023 to present; Senior Project Manager at Linesight, 6/2022 to present; Senior Design / Project Manager at British Land, 9/2019 to 6/2020; Technical Integration Manager - Design/Project Manager at NatWest Group, 10/2018 to 6/2019; Design / Project Manager at Goldman Sachs, 6/2017 to 10/2018; Senior Project & Operations Manager at Rexel, 1/2016 to 6/2017; Business Developement Manager at Couch Perry & Wilkes, 10/2015 to 1/2016; Executive Director at Integer Consulting, 3/2014 to 6/2022; Associate Director at Long & Partners, 2/2014 to 10/2015; Managing Director at SmartGen Limited, 1/2010 to 3/2014; Managing Director at QES Electrical Contractors, 5/1993 to 1/2010; Corscale Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 302,
+      "date_added": "2026-08-27 07:07:12 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "corscale-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Development Director - Head of Europe",
+      "company": "Corscale Data Centers",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Linesight",
+      "start": "6/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Design / Project Manager",
+      "company": "British Land",
+      "start": "9/2019",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Technical Integration Manager - Design/Project Manager",
+      "company": "NatWest Group",
+      "start": "10/2018",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Design / Project Manager",
+      "company": "Goldman Sachs",
+      "start": "6/2017",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Project & Operations Manager",
+      "company": "Rexel",
+      "start": "1/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Business Developement Manager",
+      "company": "Couch Perry & Wilkes",
+      "start": "10/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Executive Director",
+      "company": "Integer Consulting",
+      "start": "3/2014",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Long & Partners",
+      "start": "2/2014",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "SmartGen Limited",
+      "start": "1/2010",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "QES Electrical Contractors",
+      "start": "5/1993",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "raw": "Corscale Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

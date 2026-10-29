@@ -1,0 +1,90 @@
+{
+  "id": "jordan-o-brien-4042c64a",
+  "type": "person",
+  "name": "Jordan O'Brien",
+  "current_title": "Lead Estimator",
+  "current_company": "Kiewit",
+  "linkedin": "https://www.linkedin.com/in/jordan-o-brien-77103526",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Lead Estimator at Kiewit, 1/2021 to present; Assistant Project Manager at The Walsh Group - Walsh Construction & Archer Western, 11/2018 to 12/2020; Project Engineer at The Walsh Group - Walsh Construction & Archer Western, 1/2015 to 11/2018; Project Engineer Intern at The Walsh Group - Walsh Construction & Archer Western, 5/2011 to 8/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 15,
+      "date_added": "2026-08-04 16:07:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "kiewit",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Kiewit",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "11/2018",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "1/2015",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "5/2011",
+      "end": "8/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of Science (BS), Building Construction Management, Purdue University - West Lafayette, IN, 2010 to 2014"
+  ],
+  "biography": "Lead Design Build Estimator at Kiewit",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

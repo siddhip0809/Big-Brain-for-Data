@@ -1,0 +1,134 @@
+{
+  "id": "ben-johnk-d6fc1efe",
+  "type": "person",
+  "name": "Ben Johnk",
+  "current_title": "Real Estate Development Manager",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/benjamin-johnk",
+  "location": "Herndon, Virginia",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Development Manager at AWS, 1/2025 to present; Land Project Manager at PulteGroup, 2022 to 2025; Land Acquisition Specialist at Richmond American Homes, 2021 to 2022; Civil Engineer at Redland, 2017 to 2021; Field Technician at CTL Thompson, 2017 to 2017; Civil Engineer at The Vertex Companies, 2017 to 2017; Lab Technician I at Shannon & Wilson, 5/2016 to 4/2017; Intern (Wastewater Management) at City and County of Denver, 5/2015 to 9/2015; Undergraduate Research Assistant (Civil Engineering) at University of Colorado, 5/2014 to 9/2014; Sales Associate at Kroenke Sports & Entertainment, 9/2013 to 5/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 506,
+      "date_added": "2026-06-03 15:02:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "AWS",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Project Manager",
+      "company": "PulteGroup",
+      "start": "2022",
+      "end": "2025",
+      "current": false
+    },
+    {
+      "title": "Land Acquisition Specialist",
+      "company": "Richmond American Homes",
+      "start": "2021",
+      "end": "2022",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "Redland",
+      "start": "2017",
+      "end": "2021",
+      "current": false
+    },
+    {
+      "title": "Field Technician",
+      "company": "CTL Thompson",
+      "start": "2017",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer",
+      "company": "The Vertex Companies",
+      "start": "2017",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Lab Technician I",
+      "company": "Shannon & Wilson",
+      "start": "5/2016",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Intern (Wastewater Management)",
+      "company": "City and County of Denver",
+      "start": "5/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Undergraduate Research Assistant (Civil Engineering)",
+      "company": "University of Colorado",
+      "start": "5/2014",
+      "end": "9/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Kroenke Sports & Entertainment",
+      "start": "9/2013",
+      "end": "5/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Herndon",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Master of Science (MS) Finance, Georgetown University, 2020 to 2022",
+    "Master of Science (MS) Civil Engineering, University Of Colorado, 2017 to 2020",
+    "Bachelor of Science (BS) Civil Engineering, University Of Colorado, 2013 to 2017",
+    "High School, Early College of Arvada, 2009 to 2013"
+  ],
+  "biography": "Motivated professional with 6+ years of experience and a proven knowledge of design engineering, entitlements, and land acquisitions. Aiming to use my skills to help build projects here in our state of Colorado.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

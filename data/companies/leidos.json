@@ -1,0 +1,26 @@
+{
+  "id": "leidos",
+  "type": "company",
+  "name": "Leidos",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — power & grid advisory, design / MEP engineering",
+  "headquarters": "Reston, Virginia, USA",
+  "founded": null,
+  "website": "https://www.leidos.com/markets/energy/power-delivery",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Power Delivery group supports utilities and developers on hyperscale DC interconnection (system impact studies, dynamic modelling, mega-substations); hiring 'Senior Power System Engineer - Renewable & Data Center Integration'.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Power Delivery group supports utilities and developers on hyperscale DC interconnection (system impact studies, dynamic modelling, mega-substations); hiring 'Senior Power System Engineer - Renewable & Data Center Integration'. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.leidos.com/insights/leidos-helps-utilities-and-developers-tackle-ai-data-centers-power-demands",
+    "https://www.leidos.com/markets/energy/power-delivery"
+  ],
+  "last_updated": "2026-09-16"
+}

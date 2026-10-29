@@ -1,0 +1,50 @@
+{
+  "id": "idi-logistics",
+  "type": "company",
+  "name": "IDI Logistics",
+  "aliases": [
+    "IDR (Industrial Developments International)"
+  ],
+  "industry_role": "real estate / industrial developer",
+  "headquarters": "Greenville, South Carolina",
+  "founded": null,
+  "website": "https://www.idilogistics.com",
+  "linkedin": "https://www.linkedin.com/company/idi-logistics/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "real_estate",
+  "roles": [
+    "real_estate_developer"
+  ],
+  "source_lists": [
+    "Cold Storage & Industrial Developers",
+    "Real Estate Developers USA"
+  ],
+  "list_attributes": {
+    "Cold Storage & Industrial Developers": {
+      "Company Type": "Industrial Developer",
+      "Primary Scope": "National",
+      "DC Exposure Level": "Low",
+      "Noise Category": "Low",
+      "Has Internal Dev Team": "Yes",
+      "Key Markets": "National",
+      "NoVA Relevance": "Low"
+    },
+    "Real Estate Developers USA": {
+      "Primary Scope": "National",
+      "Noise Category": "Low",
+      "Mission Critical / DC Experience": "No",
+      "DC Exposure Level": "None"
+    }
+  },
+  "dc_exposure_level": "Low",
+  "notes": "Siddhi's sheet note: Already in RE list. Industrial developer. Southeast and Mid-Atlantic presence. Some NoVA-adjacent activity. Limited DC relevance.\n\nSiddhi's real-estate sheet note: Industrial developer. Southeast focus. Limited DC exposure.\n\nMerged 2026-09-09: absorbed duplicate record 'IDR (Industrial Developments International)' (idr-industrial-developments-international).",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09"
+}

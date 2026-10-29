@@ -1,0 +1,110 @@
+{
+  "id": "patrick-bell-919edca8",
+  "type": "person",
+  "name": "Patrick Bell",
+  "current_title": "Director",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/patrick-bell-27199464",
+  "location": "McLean, Virginia",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Director at QTS Data Centers, 8/2026 to present; Senior Director of Acquisitions at PowerHouse Data Centers, 4/2025 to 7/2026; Investment Associate at MAG Partners LP, 5/2022 to 5/2025; Investment Associate at Weller Development, 1/2021 to 5/2022; Development Analyst at Weller Development, 11/2018 to 1/2021; Investment Analyst at NorthMarq Capital, 1/2015 to 11/2018; Intern at Janney Montgomery Scott, 5/2013 to 8/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 161,
+      "date_added": "2026-01-07 16:03:29 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director",
+      "company": "QTS Data Centers",
+      "start": "8/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Acquisitions",
+      "company": "PowerHouse Data Centers",
+      "start": "4/2025",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Investment Associate",
+      "company": "MAG Partners LP",
+      "start": "5/2022",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Investment Associate",
+      "company": "Weller Development",
+      "start": "1/2021",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Development Analyst",
+      "company": "Weller Development",
+      "start": "11/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Investment Analyst",
+      "company": "NorthMarq Capital",
+      "start": "1/2015",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Janney Montgomery Scott",
+      "start": "5/2013",
+      "end": "8/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "McLean",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "BS, Business Administration, Washington and Lee University, 2010 to 2014"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

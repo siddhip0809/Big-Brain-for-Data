@@ -1,0 +1,127 @@
+{
+  "id": "dr-yvonne-mccarthy-31f1f823",
+  "type": "person",
+  "name": "Dr. Yvonne McCarthy",
+  "current_title": "Strategic Negotiator, Market Development",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/dr-yvonne-mccarthy-04946760",
+  "location": "Dublin, County Dublin, Ireland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Negotiator, Market Development at Google, 9/2025 to present; Senior Manager – Technical Infrastructure Programme Manager,  Data Centre Infrastructure Delivery at AWS, 4/2024 to 9/2025; Manager - Technical Infrastructure  Programme Manager, Data Centre Infrastructure Delivery at AWS, 1/2022 to 3/2024; Technical Infrastructure Programme Manager, Data Centre Infrastructure Delivery at AWS, 6/2019 to 12/2021; Senior Technical Consultant at Department of the Environment Climate and Communications, 6/2016 to 4/2019; Project Manager - IBM Watson Health at IBM, 9/2015 to 3/2016; Senior Wholesale Compliance Officer - Regulatory Services at ComReg, 11/2010 to 8/2015; Test Manager at Ellko Solutions, 7/2001 to 2/2002; Consultant at Ericsson, 5/2000 to 5/2001; Network Engineer at Ocean Communications, 10/1999 to 4/2000; Technical Trainer at Ericsson, 6/1996 to 8/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Years Experience",
+      "rank": 222,
+      "date_added": "2026-08-03 08:18:31 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Negotiator, Market Development",
+      "company": "Google",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager – Technical Infrastructure Programme Manager,  Data Centre Infrastructure Delivery",
+      "company": "AWS",
+      "start": "4/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Manager - Technical Infrastructure  Programme Manager, Data Centre Infrastructure Delivery",
+      "company": "AWS",
+      "start": "1/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Technical Infrastructure Programme Manager, Data Centre Infrastructure Delivery",
+      "company": "AWS",
+      "start": "6/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Technical Consultant",
+      "company": "Department of the Environment Climate and Communications",
+      "start": "6/2016",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager - IBM Watson Health",
+      "company": "IBM",
+      "start": "9/2015",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Wholesale Compliance Officer - Regulatory Services",
+      "company": "ComReg",
+      "start": "11/2010",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Test Manager",
+      "company": "Ellko Solutions",
+      "start": "7/2001",
+      "end": "2/2002",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Ericsson",
+      "start": "5/2000",
+      "end": "5/2001",
+      "current": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "Ocean Communications",
+      "start": "10/1999",
+      "end": "4/2000",
+      "current": false
+    },
+    {
+      "title": "Technical Trainer",
+      "company": "Ericsson",
+      "start": "6/1996",
+      "end": "8/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dublin",
+    "region": "County Dublin",
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

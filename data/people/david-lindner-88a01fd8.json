@@ -1,0 +1,152 @@
+{
+  "id": "david-lindner-88a01fd8",
+  "type": "person",
+  "name": "David Lindner",
+  "current_title": "VP, Business & Project Development EMEA",
+  "current_company": "Prime Data Centers",
+  "location": "Munich, Bavaria, Germany",
+  "linkedin": "https://www.linkedin.com/in/david-lindner-10766849",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "VP, Business & Project Development EMEA at Prime Data Centers, 3/2025 to present; Senior Manager, Business & Project Development DACH at Prime Data Centers, 2/2024 to 2/2025; Partner & Co-Founder at Terra Project Holding, 10/2021 to 1/2024; Advisor at NDC-GARBE Data Centers Europe, 1/2020 to 6/2021; Managing Partner at Lindner Holding, 9/2019 to present; Advisor at NDC Data Centers, 1/2019 to 7/2020; Project Management Consultant at Digital Realty, 7/2017 to 12/2018; Managing Partner at LPE, 1/2016 to present; Associate Director at Fiduciary Capital, 5/2015 to 5/2016; Project Manager at Goergens Miklautz Partner, 2/2013 to 2/2015; Internship at Goergens Miklautz Partner, 2/2012 to 2/2013; Internship at Blue Colibri, 11/2009 to 2/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 59,
+      "date_added": "2026-08-14 12:02:58 UTC",
+      "date_updated": "2026-08-14 07:03:17 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 223,
+      "date_added": "2026-08-03 08:42:18 UTC",
+      "date_updated": "2026-08-14 07:02:51 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "prime-data-centers",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP, Business & Project Development EMEA",
+      "company": "Prime Data Centers",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, Business & Project Development DACH",
+      "company": "Prime Data Centers",
+      "start": "2/2024",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Partner & Co-Founder",
+      "company": "Terra Project Holding",
+      "start": "10/2021",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Advisor",
+      "company": "NDC-GARBE Data Centers Europe",
+      "start": "1/2020",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Managing Partner",
+      "company": "Lindner Holding",
+      "start": "9/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Advisor",
+      "company": "NDC Data Centers",
+      "start": "1/2019",
+      "end": "7/2020",
+      "current": false
+    },
+    {
+      "title": "Project Management Consultant",
+      "company": "Digital Realty",
+      "start": "7/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Managing Partner",
+      "company": "LPE",
+      "start": "1/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Fiduciary Capital",
+      "start": "5/2015",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Goergens Miklautz Partner",
+      "start": "2/2013",
+      "end": "2/2015",
+      "current": false
+    },
+    {
+      "title": "Internship",
+      "company": "Goergens Miklautz Partner",
+      "start": "2/2012",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Internship",
+      "company": "Blue Colibri",
+      "start": "11/2009",
+      "end": "2/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Munich",
+    "region": "Bavaria",
+    "country": "Germany",
+    "group": "Germany"
+  },
+  "education": [
+    "Dipl.-Ing. (Univ.), Architektur, Technische Universität München, 2006 to 2013"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
+  }
+}

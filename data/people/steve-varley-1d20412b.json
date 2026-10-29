@@ -1,0 +1,64 @@
+{
+  "id": "steve-varley-1d20412b",
+  "type": "person",
+  "name": "Steve Varley",
+  "current_title": "Chief Estimator",
+  "current_company": "Keystone Integrated Solutions",
+  "linkedin": "https://www.linkedin.com/in/steve-varley-3a736991/details/projects",
+  "location": "San Francisco , California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Chief Estimator at Keystone Integrated Solutions, 8/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 201,
+      "date_added": "2026-08-11 10:51:44 UTC",
+      "date_updated": "2026-08-14 03:30:24 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Estimator",
+      "company": "Keystone Integrated Solutions",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "esfand-raissi-24a57e96",
+  "type": "person",
+  "name": "Esfand Raissi",
+  "current_title": "Executive Vice President, EnergyHQ",
+  "current_company": "CloudHQ",
+  "linkedin": "https://www.linkedin.com/in/esfand-raissi-b71774",
+  "location": "London, Greater London",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Executive Vice President, EnergyHQ at CloudHQ, 11/2024 to present; Petroleum Engineer at Perenco, 10/2003 to present; Petroleum Engineer at BP, 1/2001 to 1/2002; Business Development - Petroleum Engineer at Perenco; Managing Director at Perenco; Business Development Manager at Perenco; Company Representative at Perenco",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 18,
+      "date_added": "2025-11-07 14:23:08 UTC",
+      "date_updated": "2026-08-27 07:33:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "cloudhq",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Executive Vice President, EnergyHQ",
+      "company": "CloudHQ",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Petroleum Engineer",
+      "company": "Perenco",
+      "start": "10/2003",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Petroleum Engineer",
+      "company": "BP",
+      "start": "1/2001",
+      "end": "1/2002",
+      "current": false
+    },
+    {
+      "title": "Business Development - Petroleum Engineer",
+      "company": "Perenco",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Perenco",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Perenco",
+      "current": false
+    },
+    {
+      "title": "Company Representative",
+      "company": "Perenco",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Texas A&M University, 1999 to 2000",
+    "École Polytechnique, 1996 to 1999",
+    "Lycee St Louis, 1994 to 1996"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

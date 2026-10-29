@@ -1,0 +1,39 @@
+{
+  "id": "xai",
+  "type": "company",
+  "name": "xAI",
+  "aliases": [],
+  "industry_role": "neocloud",
+  "headquarters": "Palo Alto, California, United States",
+  "founded": null,
+  "website": "https://x.ai/",
+  "linkedin": "https://www.linkedin.com/company/xai-tech/",
+  "headcount": "1 to 10",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds and AI Infra",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "Yes",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-07-31 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.\n\nM&A: SpaceX (not tracked) acquired / took a stake -- Feb 2026: xAI valued at $250B in a ~$1.25T combination -- the largest merger ever; rationale includes 'orbital data centers'. [completed; confidence high; https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html]",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

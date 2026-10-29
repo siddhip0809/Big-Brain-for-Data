@@ -1,0 +1,139 @@
+{
+  "id": "akash-mehta-2630068c",
+  "type": "person",
+  "name": "Akash Mehta",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/akashmehtacsu",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 4/2026 to present; Senior Consultant at Turner & Townsend, 5/2023 to 6/2026; Consultant at Turner & Townsend, 7/2022 to 5/2023; Senior Cost Manager at Cumming, 1/2022 to 7/2022; Cost Manager at Cumming, 10/2018 to 1/2022; Estimator at Cornerstone Coatings, 6/2016 to 5/2018; Intern at Triston Construction, 5/2015 to 12/2015; Graduate Research Assistant at Colorado State University, 8/2014 to 5/2015; Intern at Rubicon Constructors, 7/2014 to 8/2014; Project Engineer at Shri Consultants, 6/2012 to 8/2013; Intern at Bagate Builders, 6/2011 to 7/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 117,
+      "date_added": "2026-08-07 14:25:21 UTC",
+      "date_updated": "2026-08-18 04:47:46 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Turner & Townsend",
+      "start": "7/2022",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming",
+      "start": "1/2022",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Cumming",
+      "start": "10/2018",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Cornerstone Coatings",
+      "start": "6/2016",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Triston Construction",
+      "start": "5/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "company": "Colorado State University",
+      "start": "8/2014",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Rubicon Constructors",
+      "start": "7/2014",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Shri Consultants",
+      "start": "6/2012",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Bagate Builders",
+      "start": "6/2011",
+      "end": "7/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Masters (Thesis), Construction Management, Colorado State University, 2013 to 2016",
+    "Bachelor of Science, Civil Engineering, Shivaji University, 2008 to 2012"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

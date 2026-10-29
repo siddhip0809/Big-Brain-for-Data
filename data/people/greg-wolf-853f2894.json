@@ -1,0 +1,108 @@
+{
+  "id": "greg-wolf-853f2894",
+  "type": "person",
+  "name": "Greg Wolf",
+  "current_title": "Preconstruction Director",
+  "current_company": "Brasfield & Gorrie",
+  "linkedin": "https://www.linkedin.com/in/greg-wolf-50a873130",
+  "location": "Marietta, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Director at Brasfield & Gorrie, 1/2026 to present; Chief Preconstruction Manager at Brasfield & Gorrie, 1/2023 to 1/2026; Senior Preconstruction Manager at Brasfield & Gorrie, 7/2019 to 1/2023; Project Manager at Brasfield & Gorrie, 1/2017 to 7/2019; Assistant Project Manager at Brasfield & Gorrie, 10/2013 to 1/2017; Estimator at Brasfield & Gorrie, 8/2011 to 10/2013; Engineering Assistant - Directorate of Public Works at United States Department of Defense, 8/2009 to 5/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 417,
+      "date_added": "2026-08-21 12:26:00 UTC",
+      "date_updated": "2026-08-26 07:17:35 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "brasfield-gorrie",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Director",
+      "company": "Brasfield & Gorrie",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Preconstruction Manager",
+      "company": "Brasfield & Gorrie",
+      "start": "1/2023",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Brasfield & Gorrie",
+      "start": "7/2019",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Brasfield & Gorrie",
+      "start": "1/2017",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Brasfield & Gorrie",
+      "start": "10/2013",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Brasfield & Gorrie",
+      "start": "8/2011",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Engineering Assistant - Directorate of Public Works",
+      "company": "United States Department of Defense",
+      "start": "8/2009",
+      "end": "5/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Marietta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Bachelor's of Science, Construction Management, Auburn University, 2006 to 2011"
+  ],
+  "biography": "I support de-risking billion-dollar digital infrastructure investments by translating construction realities into financial outcomes.\n\nWith over 14 years in mission-critical development, I’ve led $28.7B+ in cost strategies and delivered 4.8 GW of hyperscale data center capacity nationwide. My expertise lies in turning volatile project variables—power delivery, switchgear lead times, copper price swings, and labor constraints—into predictable financial models that drive confident underwriting and protect investor returns.\n\nI operate at the intersection of capital and construction:\n\t•\tFor investors, I validate pro formas and uncover risks before capital is deployed.\n\t•\tFor developers, I compress deal timelines through precision cost intelligence and schedule certainty.\n\t•\tFor operators, I ensure scalable, repeatable delivery that builds tenant trust and long-term portfolio value.\n\nWhether evaluating billion-dollar costs on hyperscale campuses or guiding procurement strategy for critical infrastructure, my focus is clear: protect capital, predictability, and accelerate the future of digital infrastructure.",
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

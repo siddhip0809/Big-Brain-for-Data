@@ -1,0 +1,98 @@
+{
+  "id": "taimoor-nasir-8092c13c",
+  "type": "person",
+  "name": "Taimoor Nasir",
+  "current_title": "Senior Estimator / Cost Manager",
+  "current_company": "Currie & Brown",
+  "linkedin": "https://www.linkedin.com/in/taimoor-nasir-1871a81b3",
+  "location": "Columbus, Ohio",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator / Cost Manager at Currie & Brown, 4/2026 to present; Cost Manager & Estimator at Currie & Brown, 11/2023 to 3/2026; Senior Electrical Estimator at Aspen Electric, 6/2023 to 10/2023; US Senior Estimator at SmartBid Solutions, 9/2019 to 11/2021; USA Junior Estimator at SmartBid Solutions, 7/2017 to 8/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 274,
+      "date_added": "2026-08-12 12:03:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator / Cost Manager",
+      "company": "Currie & Brown",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager & Estimator",
+      "company": "Currie & Brown",
+      "start": "11/2023",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Aspen Electric",
+      "start": "6/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "US Senior Estimator",
+      "company": "SmartBid Solutions",
+      "start": "9/2019",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "USA Junior Estimator",
+      "company": "SmartBid Solutions",
+      "start": "7/2017",
+      "end": "8/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "education": [
+    "Master's degree, Engineering/Industrial Management, Indiana Institute of Technology, 2021 to 2023",
+    "FSC-Intermediate, Pre-Engineering, Cadet College Kallar Kahar, 2014 to 2016",
+    "Matric, Science, Cadet  College Kallar Kahar, 2012 to 2014"
+  ],
+  "biography": "As a Senior Estimator/ Cost Manager at Currie & Brown, I contribute to semiconductor fabrication and data center projects. I hold a Master’s in Engineering and Industrial Management from the Indiana Institute of Technology and a Bachelor’s in Electrical Engineering (Power) from Air University. My career has been driven by a focus on delivering precise electrical design and estimation solutions while supporting high-tech and critical infrastructure sectors.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

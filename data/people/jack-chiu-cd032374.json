@@ -1,0 +1,122 @@
+{
+  "id": "jack-chiu-cd032374",
+  "type": "person",
+  "name": "Jack Chiu",
+  "current_title": "Associate",
+  "current_company": "Currie & Brown",
+  "location": "New York, New York",
+  "linkedin": "https://www.linkedin.com/in/jack-chiu-mrics-923061a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate at Currie & Brown, 11/2024 to present; PMO Global Cost Manager at CBRE, 9/2022 to 11/2024; Senior Cost Manager at CB Richard Ellis, 9/2018 to 9/2022; Senior Cost Manager at JLS Cost Management Systems, 7/2016 to 9/2018; Cost/Contract Manager at Perini Building, 4/2015 to 7/2016; Senior Cost Engineer at Skanska, 12/2011 to 4/2015; Project Cost Engineer/Estimator at Judlau Contracting, 7/2008 to 12/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "CANDIDATE - Not Interested",
+      "rank": 142,
+      "date_added": "2026-08-19 12:58:55 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 308,
+      "date_added": "2026-08-13 10:56:26 UTC",
+      "date_updated": "2026-08-19 07:58:54 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "11/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "PMO Global Cost Manager",
+      "company": "CBRE",
+      "start": "9/2022",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "CB Richard Ellis",
+      "start": "9/2018",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "JLS Cost Management Systems",
+      "start": "7/2016",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Cost/Contract Manager",
+      "company": "Perini Building",
+      "start": "4/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Engineer",
+      "company": "Skanska",
+      "start": "12/2011",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Project Cost Engineer/Estimator",
+      "company": "Judlau Contracting",
+      "start": "7/2008",
+      "end": "12/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "education": [
+    "M.S. Construction Management, Columbia Engineering, 2006 to 2007"
+  ],
+  "biography": "Jack is a cluster lead for a large data center client, currently managing ongoing projects with at least 3 more years remaining. Jack is not actively seeking new employment due to current commitments but is open to exploring opportunities if they present a significant draw. Jack expressed appreciation for personalized outreach, indicating a preference over generic recruitment messages. Jack has experience with data centers, particularly regarding pre-construction, procurement, and construction phases. Jack expressed concern about the role's impact on labor shortage issues, particularly for electricians in union projects, which significantly impact costs.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0,
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "thomas-filipow-5df312bb",
+  "type": "person",
+  "name": "Thomas Filipow",
+  "current_title": "Director",
+  "current_company": "Vantage",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/thomas-filipow-00b7a1122",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director at Vantage, 8/2025 to present; Senior Construction Cost Manager at Vantage, 3/2023 to 8/2025; Construction Cost Manager at Vantage, 6/2020 to 3/2023; Assistant Project Manager at Lotspeich Co of FL, 8/2018 to 6/2020; Assistant Project Manager at Hollister Construction Services, 6/2017 to 7/2018; Summer Intern at Hollister Construction Services, 6/2016 to 6/2017; Assistant Superintendent Intern at March Associates Construction, 6/2014 to 8/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 251,
+      "date_added": "2026-08-26 13:22:20 UTC",
+      "date_updated": "2026-08-26 08:23:43 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 32,
+      "date_added": "2026-08-04 09:39:49 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Cost Manager",
+      "company": "Vantage",
+      "start": "3/2023",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Construction Cost Manager",
+      "company": "Vantage",
+      "start": "6/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Lotspeich Co of FL",
+      "start": "8/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Hollister Construction Services",
+      "start": "6/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Summer Intern",
+      "company": "Hollister Construction Services",
+      "start": "6/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent Intern",
+      "company": "March Associates Construction",
+      "start": "6/2014",
+      "end": "8/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Master of Business Administration (MBA), Business Administration and Management, General, Florida Institute Of Technology, 2016 to 2018",
+    "Bachelor's degree, Construction Management, Florida Institute Of Technology, 2012 to 2016"
+  ],
+  "biography": "Division II Collegiate Athlete - Men's Lacrosse - Two Year Captain",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "darius-mathis-75c425b5",
+  "type": "person",
+  "name": "Darius Mathis",
+  "current_title": "Account Executive",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/darius-mathis-a2607789",
+  "location": "Buford, Georgia",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Account Executive at QTS Data Centers, 1/2024 to present; Client Services Specialist at QTS Data Centers, 3/2023 to 12/2023; Sales Team Lead at Verizon, 11/2018 to 3/2023; DCO Tech II at QTS Data Centers, 5/2013 to 12/2017; Sales Representative at Wireless Communications Verizon Premium Retailer, 10/2012 to 5/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 51,
+      "date_added": "2025-11-07 12:37:18 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Executive",
+      "company": "QTS Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Client Services Specialist",
+      "company": "QTS Data Centers",
+      "start": "3/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Sales Team Lead",
+      "company": "Verizon",
+      "start": "11/2018",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "DCO Tech II",
+      "company": "QTS Data Centers",
+      "start": "5/2013",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Sales Representative",
+      "company": "Wireless Communications Verizon Premium Retailer",
+      "start": "10/2012",
+      "end": "5/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Buford",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Digital Entrepreneurship, Strayer University, 2017 to 2019",
+    "Bachelor's Degree, Business Administration, Management and Operations, Alabama State University, 2006 to 2010"
+  ],
+  "biography": "Former collegiate athlete turned corporate professional. Highly motivated and ambitious leader that thrives in high pressure situations. Skilled and experienced in relationship building and negotiating within the data center industry.",
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "lara-a-suleiman-c6ceed5a",
+  "type": "person",
+  "name": "Lara A. Suleiman",
+  "current_title": "Strategy and Development Manager",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/lara-a-suleiman-5667625a",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Strategy and Development Manager at Google, 2014 to present; Analyst at NYSE, 2011 to 2012; Analyst at Citi, 2010 to 2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Incorrect Function",
+      "rank": 120,
+      "date_added": "2026-07-10 08:15:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategy and Development Manager",
+      "company": "Google",
+      "start": "2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Analyst",
+      "company": "NYSE",
+      "start": "2011",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Citi",
+      "start": "2010",
+      "end": "2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Economics, The London School of Economics and Political Science (LSE), 2012 to 2013"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

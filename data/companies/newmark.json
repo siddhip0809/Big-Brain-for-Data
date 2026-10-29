@@ -1,0 +1,27 @@
+{
+  "id": "newmark",
+  "type": "company",
+  "name": "Newmark",
+  "aliases": [],
+  "roles": [
+    "consultancy",
+    "real_estate_developer"
+  ],
+  "parent_industry": "real_estate",
+  "industry_role": "consultancy — capital markets, valuation, development advisory, strategy & advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.nmrk.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data Center & Digital Infrastructure Capital Markets group launched Aug 2023; Valuation & Advisory data center specialty practice; European data centre team expanded Jan 2026.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data Center & Digital Infrastructure Capital Markets group launched Aug 2023; Valuation & Advisory data center specialty practice; European data centre team expanded Jan 2026. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.nmrk.com/services/property-types/data-center",
+    "https://www.nmrk.com"
+  ],
+  "last_updated": "2026-09-16"
+}

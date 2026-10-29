@@ -1,0 +1,128 @@
+{
+  "id": "brett-hoopes-7f0119ef",
+  "type": "person",
+  "name": "Brett Hoopes",
+  "current_title": "MEP Design Phase Manager",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/brett-hoopes-p-e-leed-ap-91329514",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "MEP Design Phase Manager at Mortenson, 11/2016 to present; Senior MEP Manager at Kiewit, 8/2012 to 10/2016; Energy Services Account Manager at Encore Electric, 11/2009 to 12/2010; Senior Mechanical Electrical Coordinator at JE Dunn Construction, 6/2003 to 8/2009; Senior Engineering Manager at Inflow, 5/2000 to 5/2002; Project Engineer at Williams Communications, 1/1999 to 5/2000; Central Project Engineer at Corporate Express, 4/1997 to 12/1998; Mechanical Services Coordinator at Rader Railcar, 3/1995 to 2/1997; Design Engineer at POMA OF AMERICA, 2/1994 to 11/1994; Program Management Team Engineer at THE GREINER/MORRISON KNUDSEN ENGINEERING GROUP, 10/1993 to 2/1994",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 49,
+      "date_added": "2026-08-05 08:26:09 UTC",
+      "date_updated": "2026-08-14 09:42:08 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "MEP Design Phase Manager",
+      "company": "Mortenson",
+      "start": "11/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior MEP Manager",
+      "company": "Kiewit",
+      "start": "8/2012",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Energy Services Account Manager",
+      "company": "Encore Electric",
+      "start": "11/2009",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Mechanical Electrical Coordinator",
+      "company": "JE Dunn Construction",
+      "start": "6/2003",
+      "end": "8/2009",
+      "current": false
+    },
+    {
+      "title": "Senior Engineering Manager",
+      "company": "Inflow",
+      "start": "5/2000",
+      "end": "5/2002",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Williams Communications",
+      "start": "1/1999",
+      "end": "5/2000",
+      "current": false
+    },
+    {
+      "title": "Central Project Engineer",
+      "company": "Corporate Express",
+      "start": "4/1997",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "title": "Mechanical Services Coordinator",
+      "company": "Rader Railcar",
+      "start": "3/1995",
+      "end": "2/1997",
+      "current": false
+    },
+    {
+      "title": "Design Engineer",
+      "company": "POMA OF AMERICA",
+      "start": "2/1994",
+      "end": "11/1994",
+      "current": false
+    },
+    {
+      "title": "Program Management Team Engineer",
+      "company": "THE GREINER/MORRISON KNUDSEN ENGINEERING GROUP",
+      "start": "10/1993",
+      "end": "2/1994",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

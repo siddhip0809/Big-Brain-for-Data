@@ -1,0 +1,132 @@
+{
+  "id": "jonathan-litvany-abc85056",
+  "type": "person",
+  "name": "Jonathan Litvany",
+  "current_title": "Senior Director - Global Enterprise Sales",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/jonathanlitvany",
+  "location": "Oakton, VA",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Datacenter Industry Advisor at Loudoun County Government, 8/2011 to 12/2012; President - Board of Directors at 7x24 Exchange - Washington DC, 1/2010 to present; Senior Director - Global Enterprise Sales at Digital Realty, 11/2009 to present; Vice President / General Manager at CoreSite, 11/2004 to 11/2009; Director Systems Engineering at Exodus Communications, 4/2002 to 11/2004; Manager Sales Engineering at Qwest Communications, 6/2001 to 3/2002; Manager Technical Infrastructure at Broadband Office / Zephion Networks, 1/2000 to 6/2001; Sr. Manager Campus Technology at UUNET, 3/1998 to 1/2000; Staging Manager Backbone Design & Implementation at UUNET, 12/1995 to 3/1998; Customer Service at Radstone Technology Plc, 8/1990 to 12/1995",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 31,
+      "date_added": "2025-11-07 11:15:17 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Datacenter Industry Advisor",
+      "company": "Loudoun County Government",
+      "start": "8/2011",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "President - Board of Directors",
+      "company": "7x24 Exchange - Washington DC",
+      "start": "1/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director - Global Enterprise Sales",
+      "company": "Digital Realty",
+      "start": "11/2009",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President / General Manager",
+      "company": "CoreSite",
+      "start": "11/2004",
+      "end": "11/2009",
+      "current": false
+    },
+    {
+      "title": "Director Systems Engineering",
+      "company": "Exodus Communications",
+      "start": "4/2002",
+      "end": "11/2004",
+      "current": false
+    },
+    {
+      "title": "Manager Sales Engineering",
+      "company": "Qwest Communications",
+      "start": "6/2001",
+      "end": "3/2002",
+      "current": false
+    },
+    {
+      "title": "Manager Technical Infrastructure",
+      "company": "Broadband Office / Zephion Networks",
+      "start": "1/2000",
+      "end": "6/2001",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager Campus Technology",
+      "company": "UUNET",
+      "start": "3/1998",
+      "end": "1/2000",
+      "current": false
+    },
+    {
+      "title": "Staging Manager Backbone Design & Implementation",
+      "company": "UUNET",
+      "start": "12/1995",
+      "end": "3/1998",
+      "current": false
+    },
+    {
+      "title": "Customer Service",
+      "company": "Radstone Technology Plc",
+      "start": "8/1990",
+      "end": "12/1995",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Oakton",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Bachelors Science, Industrial Technology and Design, Montclair State University, 1991 to 1995"
+  ],
+  "biography": "Jon Litvany has been directly involved in more than 1,000 data center projects of various size and scope ranging from global 1M+ square feet multi-site build to suits down to turn-key rack based telco closets.  His endeavors have encompassed over 30 million square feet of data center space over the past 27 years.  Jon has unique insight into communications, mission critical design, financial, real estate issues facing datacenter professionals.    \n\nCore Centers of Expertise:\n\n•\tGlobal IP Backbone and Networking – Design / Implementation / Operations\n•\tMission Critical Infrastructure – Design / Construction / Operations\n•\tReal Estate Brokerage – Analysis / Site Selection / Execution\n\nIt is the overlap of these three core centers of expertise that enabled Jon to excel and differentiate from all others in datacenter and infrastructure design development, engineering, construction, operation, and financial analysis.  Many datacenter experts understand or have proficiency in one or maybe two of these core centers of expertise, but Jon is an industry leader in all three.  A true full-stack engineer, with end-to-end expertise!\n\nJon’s diverse range of data center experience and technology knowledge distinguish him as one of the world's most experienced data center developers and consultants. Direct experience working with most of the Fortune 500 companies and several of the largest government agencies has provided deep knowledge of the appetite’s the stakeholders have for Risk, Control, and Financial Structure.  These three factors have defined direction for every one of these organization’s datacenter projects and decision making processes.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

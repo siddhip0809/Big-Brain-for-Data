@@ -1,0 +1,132 @@
+{
+  "id": "william-trambley-02319205",
+  "type": "person",
+  "name": "William Trambley",
+  "current_title": "Vice President of Sales",
+  "current_company": "Element Critical",
+  "linkedin": "https://www.linkedin.com/in/williamtrambley",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President of Sales  at Element Critical, 8/2021 to present; VP Sales at vXchnge, 1/2020 to 8/2021; Senior Sales Manager - The Americas at Telecom Italia North America, 6/2018 to 1/2020; Sales Executive of Content SaaS Gaming at Globenet Telecom A V Tal Network, 7/2016 to 1/2020; Regional Vice President of Sales and Service | Western North America Sales at Global Cloud Xchange, 12/2012 to 6/2016; US VP Enterprise Sales at Tata Communications, 3/2008 to 12/2010; Vice President Sales at NTT, 1/2004 to 12/2008; VP Sales and Service | Dimension Data at NTT, 1/2004 to 12/2012; Director Sales at Jareva Software, 1/2000 to 12/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 233,
+      "date_added": "2026-04-22 14:37:49 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "element-critical",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales ",
+      "company": "Element Critical",
+      "start": "8/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Sales",
+      "company": "vXchnge",
+      "start": "1/2020",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Manager - The Americas",
+      "company": "Telecom Italia North America",
+      "start": "6/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Executive of Content SaaS Gaming",
+      "company": "Globenet Telecom A V Tal Network",
+      "start": "7/2016",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "raw": "Regional Vice President of Sales and Service"
+    },
+    {
+      "title": "Western North America Sales",
+      "company": "Global Cloud Xchange",
+      "start": "12/2012",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "US VP Enterprise Sales",
+      "company": "Tata Communications",
+      "start": "3/2008",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Vice President Sales",
+      "company": "NTT",
+      "start": "1/2004",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "raw": "VP Sales and Service"
+    },
+    {
+      "title": "Dimension Data",
+      "company": "NTT",
+      "start": "1/2004",
+      "end": "12/2012",
+      "current": false
+    },
+    {
+      "title": "Director Sales",
+      "company": "Jareva Software",
+      "start": "1/2000",
+      "end": "12/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "MBA, Corporate Finance, Golden Gate University",
+    "BS, Marketing, San Jose State University",
+    "Computer Programming, Specific Application, Massachusetts Institute Of Technology"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "clift-pompee-4291d275",
+  "type": "person",
+  "name": "Clift Pompee",
+  "current_title": "VP Power & Emissions",
+  "current_company": "Compass Datacenters",
+  "linkedin": "https://www.linkedin.com/in/clift-pompee-0b0b762a7",
+  "location": "Charlotte, North Carolina",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "VP Power & Emissions at Compass Datacenters, 6/2024 to present; Managing Director Resource Planning & Modeling at Duke Energy, 3/2024 to 6/2024; Managing Director at Duke Energy, 6/2021 to 3/2024; Senior Product Manager at Duke Energy, 7/2018 to 6/2021; Manager Information & Analytics at Duke Energy, 6/2015 to 6/2018; Program Manager at Duke Energy, 6/2014 to 6/2015; Scheduling Supervisor at Duke Energy, 11/2011 to 6/2014; Nuclear Oversight Assessor at Duke Energy, 6/2008 to 11/2011; Maintenance Supervisor at NextEra Energy Resources, 3/2006 to 6/2008; Engineer at NextEra Energy Resources, 8/2001 to 3/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 178,
+      "date_added": "2026-06-19 10:51:02 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "compass-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Power & Emissions",
+      "company": "Compass Datacenters",
+      "start": "6/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director Resource Planning & Modeling",
+      "company": "Duke Energy",
+      "start": "3/2024",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Duke Energy",
+      "start": "6/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Product Manager",
+      "company": "Duke Energy",
+      "start": "7/2018",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "Manager Information & Analytics",
+      "company": "Duke Energy",
+      "start": "6/2015",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Duke Energy",
+      "start": "6/2014",
+      "end": "6/2015",
+      "current": false
+    },
+    {
+      "title": "Scheduling Supervisor",
+      "company": "Duke Energy",
+      "start": "11/2011",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Nuclear Oversight Assessor",
+      "company": "Duke Energy",
+      "start": "6/2008",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Maintenance Supervisor",
+      "company": "NextEra Energy Resources",
+      "start": "3/2006",
+      "end": "6/2008",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "NextEra Energy Resources",
+      "start": "8/2001",
+      "end": "3/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Charlotte",
+    "region": "North Carolina",
+    "country": "United States",
+    "group": "North Carolina"
+  },
+  "education": [
+    "Bachelor of Science - BS, Mechanical Engineering, University of Miami, 1997 to 2001"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

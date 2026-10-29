@@ -1,0 +1,122 @@
+{
+  "id": "stefan-mortelmans-76a80eb2",
+  "type": "person",
+  "name": "Stefan Mortelmans",
+  "current_title": "Sales Director",
+  "current_company": "KevlinX",
+  "linkedin": "https://www.linkedin.com/in/stefan-mortelmans",
+  "location": "Antwerp, Antwerp, Belgium",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director at KevlinX, 2/2021 to present; Business Development Manager at Arxus, 1/2018 to 2/2021; Business Developer Data Centers at LCL Belgium, 9/2013 to 12/2018; acc manager EIZO at Avnet Technology Solutions, 9/2003 to 7/2011; sen. acc. manager open storage at Avnet Technology Solutions, 9/2003 to 4/2013; account manager at Avnet Technology Solutions, 6/2003 to 4/2013; acc manager at Telenet, 6/1998 to 4/2003; sales at Telenet, 1998 to 2003; acc manager at P&V, 1995 to 1998",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 203,
+      "date_added": "2026-07-30 10:24:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "kevlinx",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "KevlinX",
+      "start": "2/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Arxus",
+      "start": "1/2018",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Business Developer Data Centers",
+      "company": "LCL Belgium",
+      "start": "9/2013",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "acc manager EIZO",
+      "company": "Avnet Technology Solutions",
+      "start": "9/2003",
+      "end": "7/2011",
+      "current": false
+    },
+    {
+      "title": "sen. acc. manager open storage",
+      "company": "Avnet Technology Solutions",
+      "start": "9/2003",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "account manager",
+      "company": "Avnet Technology Solutions",
+      "start": "6/2003",
+      "end": "4/2013",
+      "current": false
+    },
+    {
+      "title": "acc manager",
+      "company": "Telenet",
+      "start": "6/1998",
+      "end": "4/2003",
+      "current": false
+    },
+    {
+      "title": "sales",
+      "company": "Telenet",
+      "start": "1998",
+      "end": "2003",
+      "current": false
+    },
+    {
+      "title": "acc manager",
+      "company": "P&V",
+      "start": "1995",
+      "end": "1998",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Antwerp",
+    "region": null,
+    "country": "Belgium",
+    "group": "Belgium"
+  },
+  "education": [
+    "Marketing  Marketing, Antwerpen, 1995 to 1996",
+    "Bachelor's degree assistent Marketing en Verkoop, es",
+    "Marketing Assistant Marketing/Sales, Katholieke Hogeschool Mechelen",
+    "a1 Marketing, Marketing"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

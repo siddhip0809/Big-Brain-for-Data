@@ -1,0 +1,27 @@
+{
+  "id": "3093ef47-6cd9-46ce-af64-c729313f3d74",
+  "type": "search",
+  "name": "COO",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2026-02-05",
+  "closed_at": "2026-02-09",
+  "closing_reason": "Terminated",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

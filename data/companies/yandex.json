@@ -1,0 +1,46 @@
+{
+  "id": "yandex",
+  "type": "company",
+  "name": "Yandex",
+  "aliases": [],
+  "industry_role": "neocloud",
+  "headquarters": "Moscow, Russia",
+  "founded": null,
+  "website": "http://company.yandex.com",
+  "linkedin": "https://www.linkedin.com/company/yandex/",
+  "headcount": "10001",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "neocloud"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "Neoclouds",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "No",
+      "Regional Presence (EMEA)": "Yes",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "emea": {
+      "total_mw": 26.8
+    }
+  }
+}

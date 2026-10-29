@@ -1,0 +1,61 @@
+{
+  "id": "mark-dowling-aa90e11e",
+  "type": "person",
+  "name": "Mark Dowling",
+  "current_title": "Principal Regional Cost Lead",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/mark-dowling-67b63429",
+  "location": "Durham, North Carolina",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Principal Regional Cost Lead at Microsoft, 11/2023 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 494,
+      "date_added": "2026-08-25 09:57:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal Regional Cost Lead",
+      "company": "Microsoft",
+      "start": "11/2023",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Durham",
+    "region": "North Carolina",
+    "country": "United States",
+    "group": "North Carolina"
+  },
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

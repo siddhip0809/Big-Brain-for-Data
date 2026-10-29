@@ -1,0 +1,104 @@
+{
+  "id": "conner-carlson-f6ea80fc",
+  "type": "person",
+  "name": "Conner Carlson",
+  "current_title": "Senior Manager, Development Strategy, NA",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/carlson-conner",
+  "location": "San Antonio, Texas",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Manager, Development Strategy, NA at Vantage, 6/2025 to present; Senior Associate at Affinius Capital, 3/2025 to 6/2025; Associate at Affinius Capital, 3/2024 to 3/2025; Real Estate Acquisitions at Affinius Capital, 1/2022 to 3/2024; Financial Planning and Analysis (FP&A) at Visionworks of America, 2/2020 to 1/2022; Management Consulting at Accenture, 9/2018 to 2/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 10,
+      "date_added": "2025-11-06 08:14:02 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Manager, Development Strategy, NA",
+      "company": "Vantage",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Affinius Capital",
+      "start": "3/2025",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Affinius Capital",
+      "start": "3/2024",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Real Estate Acquisitions",
+      "company": "Affinius Capital",
+      "start": "1/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Financial Planning and Analysis (FP&A)",
+      "company": "Visionworks of America",
+      "start": "2/2020",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Management Consulting",
+      "company": "Accenture",
+      "start": "9/2018",
+      "end": "2/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Antonio",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Master's Degree, Real Estate, Georgetown University",
+    "Bachelor of Business Administration (BBA), Finance, Mays Business School - Texas A&M University"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

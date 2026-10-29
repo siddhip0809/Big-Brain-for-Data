@@ -1,0 +1,38 @@
+{
+  "id": "terracon-consultants",
+  "type": "company",
+  "name": "Terracon Consultants",
+  "aliases": [],
+  "industry_role": "civil land engineering",
+  "headquarters": "Olathe, Kansas",
+  "founded": null,
+  "website": "https://www.terracon.com",
+  "linkedin": "https://www.linkedin.com/company/terracon/",
+  "headcount": "1,001 to 5,000",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "civil_land_engineering"
+  ],
+  "source_lists": [
+    "Civil Land Developers"
+  ],
+  "list_attributes": {
+    "Civil Land Developers": {
+      "Primary Scope": "National",
+      "Noise Category": "Medium",
+      "Multidisciplinary": "Yes",
+      "Mission Critical / DC Experience": "Yes",
+      "DC Exposure Level": "High"
+    }
+  },
+  "dc_exposure_level": "High",
+  "notes": "Siddhi's sheet note: Geotechnical + site. Active on DC campuses across US.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

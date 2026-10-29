@@ -1,0 +1,134 @@
+{
+  "id": "garrett-rood-275d3ec2",
+  "type": "person",
+  "name": "Garrett Rood",
+  "current_title": "Senior Manager, Substation and Transmission",
+  "current_company": "Crusoe",
+  "linkedin": "https://www.linkedin.com/in/garrettrood",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Manager, Substation and Transmission at Crusoe, 3/2026 to present; Engineering Manager at Crusoe, 9/2025 to 3/2026; Engineering Manager Electrical at Crusoe, 3/2025 to 9/2025; Principal Electrical Engineer at Crusoe, 1/2024 to 3/2025; Director Substation Engineering, Mountain  Region at TRC Companies, 6/2023 to 1/2024; Technical Manager at Ulteig, 1/2020 to 6/2023; Engineering Supervisor at Ulteig, 3/2019 to 1/2020; Lead Engineer at Ulteig, 9/2017 to 3/2019; Engineer at Ulteig, 9/2015 to 9/2017; Generation Engineer at Sunflower Electric Power, 10/2010 to 9/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 128,
+      "date_added": "2026-04-22 16:11:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "crusoe",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Substation and Transmission",
+      "company": "Crusoe",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Engineering Manager",
+      "company": "Crusoe",
+      "start": "9/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Engineering Manager Electrical",
+      "company": "Crusoe",
+      "start": "3/2025",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Principal Electrical Engineer",
+      "company": "Crusoe",
+      "start": "1/2024",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Director Substation Engineering, Mountain  Region",
+      "company": "TRC Companies",
+      "start": "6/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Technical Manager",
+      "company": "Ulteig",
+      "start": "1/2020",
+      "end": "6/2023",
+      "current": false
+    },
+    {
+      "title": "Engineering Supervisor",
+      "company": "Ulteig",
+      "start": "3/2019",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Lead Engineer",
+      "company": "Ulteig",
+      "start": "9/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Engineer",
+      "company": "Ulteig",
+      "start": "9/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Generation Engineer",
+      "company": "Sunflower Electric Power",
+      "start": "10/2010",
+      "end": "9/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Colorado State University, 2020 to 2023",
+    "B.S., Electrical Engineering, Kansas State University, 2005 to 2010"
+  ],
+  "biography": "Electrical engineer with 10+ years of experience within the power sector. I have five years of experience as a generation engineer for a generation cooperative and the rest of my career has been with a consultant where I focused on substation design. During my time as a generation engineer, I performed event reporting for the generation fleet, managed plant upgrade projects, and worked as the owners engineering for a new generation facility. As a consult engineer, I have experience with substation design from medium to high voltage, relay settings, communications settings, commissioning, and project management. I currently manage a team of 14 people comprised of both engineers and technicians that is primarily focused on protection and controls. I am proficient at team member development, resourcing, budgeting, talent planning, hiring, project scope development, client development / management, and performance tracking. PE License: CO, KS, NM, OK, TX NCEES Record",
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "High Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

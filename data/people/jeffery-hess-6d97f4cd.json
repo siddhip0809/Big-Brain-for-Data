@@ -1,0 +1,64 @@
+{
+  "id": "jeffery-hess-6d97f4cd",
+  "type": "person",
+  "name": "Jeffery Hess",
+  "current_title": "Construction Project Coordinator / Estimator",
+  "current_company": "Lawrence Livermore National Laboratory",
+  "linkedin": "https://www.linkedin.com/in/jeffery-hess-mba-fmp-4107aa45",
+  "location": "Livermore, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Construction Project Coordinator / Estimator at Lawrence Livermore National Laboratory, 9/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 142,
+      "date_added": "2026-08-10 12:11:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Project Coordinator / Estimator",
+      "company": "Lawrence Livermore National Laboratory",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Livermore",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "wood-mackenzie",
+  "type": "company",
+  "name": "Wood Mackenzie",
+  "aliases": [
+    "WoodMac"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": "Edinburgh, UK",
+  "founded": null,
+  "website": "https://www.woodmac.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data Centres topic; quarterly US data center pipeline reports (241 GW pipeline end-2025); Grid Transformation & Large Loads research team; DC electrical equipment market to $65B report.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data Centres topic; quarterly US data center pipeline reports (241 GW pipeline end-2025); Grid Transformation & Large Loads research team; DC electrical equipment market to $65B report. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.woodmac.com/market-insights/topics/data-centres/",
+    "https://www.woodmac.com"
+  ],
+  "last_updated": "2026-09-16"
+}

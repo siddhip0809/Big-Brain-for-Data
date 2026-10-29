@@ -1,0 +1,95 @@
+{
+  "id": "jason-husbands-4230468d",
+  "type": "person",
+  "name": "Jason Husbands",
+  "current_title": "Regional Estimating Lead",
+  "current_company": "Google",
+  "location": "Seattle, Washington",
+  "linkedin": "https://www.linkedin.com/in/jhusbands",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Regional Estimating Lead at Google, 10/2023 to present; Regional Estimating Lead at Microsoft, 12/2020 to 10/2023; Director - Concept Estimating at Walt Disney Imagineering, 5/2016 to 12/2020; Estimating Team Lead - West at BP, 11/2011 to 2/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 233,
+      "date_added": "2026-08-26 13:14:42 UTC",
+      "date_updated": "2026-08-26 08:15:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 447,
+      "date_added": "2026-08-24 11:26:16 UTC",
+      "date_updated": "2026-08-26 08:14:42 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "google",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Estimating Lead",
+      "company": "Google",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Regional Estimating Lead",
+      "company": "Microsoft",
+      "start": "12/2020",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Director - Concept Estimating",
+      "company": "Walt Disney Imagineering",
+      "start": "5/2016",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Estimating Team Lead - West",
+      "company": "BP",
+      "start": "11/2011",
+      "end": "2/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "MBA, Finance, Northwestern University - Kellogg School of Management, 2001 to 2003",
+    "MS, Civil Engineering, The University Of Texas At Austin, 1995 to 1997",
+    "BS, Civil Engineering, Carnegie Mellon University, 1991 to 1995"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pa-consulting",
+  "type": "company",
+  "name": "PA Consulting",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": "London, UK",
+  "founded": null,
+  "website": "https://www.paconsulting.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data center advisory page: due diligence for DC developers (power cost forecasting, utility agreements), advised a Midwest utility on attracting data centers, tariffs and energization-ready sites.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data center advisory page: due diligence for DC developers (power cost forecasting, utility agreements), advised a Midwest utility on attracting data centers, tariffs and energization-ready sites. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.paconsulting.com/industries/energy-and-utilities/data-centers",
+    "https://www.paconsulting.com"
+  ],
+  "last_updated": "2026-09-16"
+}

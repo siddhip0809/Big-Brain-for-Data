@@ -1,0 +1,106 @@
+{
+  "id": "sanya-anand-aefc11c8",
+  "type": "person",
+  "name": "Sanya Anand",
+  "current_title": "Senior Cost Manager, Construction",
+  "current_company": "Crusoe",
+  "linkedin": "https://www.linkedin.com/in/sanya-anand-03941a130",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Cost Manager, Construction at Crusoe, 9/2025 to present; Construction Cost Analyst at STACK Infrastructure, 9/2023 to 9/2025; Budget & Cost Analyst  at Lendlease, 4/2022 to 9/2023; Vendor Relationship Manager at Astreya, 6/2020 to 4/2022; Invoice Analyst  at Astreya, 4/2019 to 6/2020; Accounts Payable at The Save Mart Companies, 7/2017 to 3/2019; Assistant Payroll Clerk at Teresa Johnson, 4/2016 to 10/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "CLIENT - Exclusion List",
+      "rank": 136,
+      "date_added": "2026-08-10 10:36:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "crusoe",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Manager, Construction",
+      "company": "Crusoe",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Cost Analyst",
+      "company": "STACK Infrastructure",
+      "start": "9/2023",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Budget & Cost Analyst ",
+      "company": "Lendlease",
+      "start": "4/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Vendor Relationship Manager",
+      "company": "Astreya",
+      "start": "6/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Invoice Analyst ",
+      "company": "Astreya",
+      "start": "4/2019",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Accounts Payable",
+      "company": "The Save Mart Companies",
+      "start": "7/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Assistant Payroll Clerk",
+      "company": "Teresa Johnson",
+      "start": "4/2016",
+      "end": "10/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

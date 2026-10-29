@@ -1,0 +1,47 @@
+{
+  "id": "vnet",
+  "type": "company",
+  "name": "VNET",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": "Bratislava, Slovakia",
+  "founded": null,
+  "website": "https://www.vnet.sk/sk/biznis/biznis-landing/",
+  "linkedin": "https://www.linkedin.com/company/vnetas/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "Secondary Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "hyperscale_focus": "Secondary Focus",
+  "capacity_mw": {
+    "apac": {
+      "total_mw": 91.9,
+      "early_stage_mw": 750.0
+    }
+  }
+}

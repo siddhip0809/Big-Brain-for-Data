@@ -1,0 +1,110 @@
+{
+  "id": "cyrus-aga-7ce9c9db",
+  "type": "person",
+  "name": "Cyrus Aga",
+  "current_title": "Data Center Transactions and Leasing",
+  "current_company": "Anthropic",
+  "linkedin": "https://www.linkedin.com/in/cyrusaga",
+  "location": "San Francisco, California",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Transactions and Leasing at Anthropic, 1/2026 to present; Summer MBA Intern at Digital Realty, 1/2021 to 12/2021; Director, Acquisitions and Investments at Digital Realty, 1/2021 to present; Associate, Infrastructure Investments at PSP Investments, 1/2016 to 12/2020; Investment Banking Analyst at UBS Investment Bank, 1/2014 to 12/2016; Investment Banking Analyst at Jennings Capital, 1/2013 to 12/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 64,
+      "date_added": "2025-11-07 11:29:37 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "anthropic",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Data Center Transactions and Leasing",
+      "company": "Anthropic",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Summer MBA Intern",
+      "company": "Digital Realty",
+      "start": "1/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Acquisitions and Investments",
+      "company": "Digital Realty",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate, Infrastructure Investments",
+      "company": "PSP Investments",
+      "start": "1/2016",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Investment Banking Analyst",
+      "company": "UBS Investment Bank",
+      "start": "1/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Investment Banking Analyst",
+      "company": "Jennings Capital",
+      "start": "1/2013",
+      "end": "12/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Master of Business Administration - MBA, University Of California, Berkeley, Haas School Of Business, 2020 to 2022",
+    "Bachelor of Arts (HBA), Honors in Business Administration, Ivey Business School at Western University, 2008 to 2013",
+    "Bachelor of Science (BSc), Major in Medical Sciences, Western University, 2008 to 2013",
+    "Ontario Secondary School Diploma, Appleby College, 2002 to 2008"
+  ],
+  "biography": "Director, Acquisitions & Investments | Digital Infrastructure",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence",
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

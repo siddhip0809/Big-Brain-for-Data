@@ -1,0 +1,34 @@
+{
+  "id": "turner-townsend",
+  "type": "company",
+  "name": "Turner & Townsend",
+  "aliases": [
+    "Turner & Townsend alinea",
+    "alinea consulting"
+  ],
+  "industry_role": "programme, project & cost-management consultancy (majority owned by CBRE)",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "linkedin": "https://www.linkedin.com/company/turner-&-townsend",
+  "headcount": null,
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "consultancy"
+  ],
+  "source_lists": [
+    "General Contractors USA"
+  ],
+  "list_attributes": {},
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched. Re-filed 2026-09-16 from general_contractor to the new consultancy tier: it advises on cost, programme and project management rather than building. Roles before: ['general_contractor']. It came in on Siddhi's General Contractors USA list, so the list name is kept in source_lists. Combined its London cost team with alinea consulting; 70% owned by CBRE since the Jan 2025 project-management combination (2026-09-16). Data-centre evidence: data centres sector page; six regional data-centre leads named in releases (2026-09-16).",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://www.turnerandtownsend.com/what-we-do/sectors/data-centres/"
+  ],
+  "last_updated": "2026-09-16"
+}

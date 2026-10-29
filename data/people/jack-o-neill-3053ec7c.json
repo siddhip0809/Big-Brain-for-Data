@@ -1,0 +1,125 @@
+{
+  "id": "jack-o-neill-3053ec7c",
+  "type": "person",
+  "name": "Jack O’Neill",
+  "current_title": "Senior Development Associate",
+  "current_company": "Skybox Datacenters",
+  "linkedin": "https://www.linkedin.com/in/jack-o%E2%80%99neill-3266a512a",
+  "location": "Dallas, Texas",
+  "seniority": "Associate",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Development Associate at Skybox Datacenters, 2/2026 to present; Development Associate at Skybox Datacenters, 3/2024 to 2/2026; Site Acquisition and Development at RecNation RV & Boat Storage, 10/2023 to 3/2024; Facilities Operations and Special Projects Manager at RecNation RV & Boat Storage, 5/2022 to 10/2023; Commissioning Engineer at CyrusOne, 1/2022 to 5/2022; Commissioning Engineer Associate at CyrusOne, 10/2019 to 1/2022; Engineering Intern at CyrusOne, 4/2018 to 10/2019; Partner Solution Intern at AT&T, 6/2017 to 8/2017; Lyle School of Engineering Recruiter at Southern Methodist University, 8/2016 to 10/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 158,
+      "date_added": "2026-01-07 15:58:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "skybox-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "career": [
+    {
+      "title": "Senior Development Associate",
+      "company": "Skybox Datacenters",
+      "start": "2/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Associate",
+      "company": "Skybox Datacenters",
+      "start": "3/2024",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition and Development",
+      "company": "RecNation RV & Boat Storage",
+      "start": "10/2023",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Facilities Operations and Special Projects Manager",
+      "company": "RecNation RV & Boat Storage",
+      "start": "5/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer",
+      "company": "CyrusOne",
+      "start": "1/2022",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Commissioning Engineer Associate",
+      "company": "CyrusOne",
+      "start": "10/2019",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "CyrusOne",
+      "start": "4/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Partner Solution Intern",
+      "company": "AT&T",
+      "start": "6/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Lyle School of Engineering Recruiter",
+      "company": "Southern Methodist University",
+      "start": "8/2016",
+      "end": "10/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Science, Mechanical Engineering, Southern Methodist University, 2015 to 2019"
+  ],
+  "biography": "Working to build bespoke, flexible data center solutions for the future, and focused on site selection, power management, transactions, capital markets, and investor relations. A proud alumni of St. Mark's School of Texas, and Southern Methodist University with degrees in Mathematics and Mechanical Engineering.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

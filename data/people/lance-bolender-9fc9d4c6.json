@@ -1,0 +1,97 @@
+{
+  "id": "lance-bolender-9fc9d4c6",
+  "type": "person",
+  "name": "Lance Bolender",
+  "current_title": "Vice President, Power Analytics",
+  "current_company": "Core Scientific",
+  "linkedin": "https://www.linkedin.com/in/lancebolender",
+  "location": "Akron, Ohio",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President, Power Analytics at Core Scientific, 3/2022 to present; Business Development Manager at FirstEnergy Advisors, 12/2019 to 3/2022; Manager, Large Commercial & Industrial Energy Sales at FirstEnergy Solutions, 1/2015 to 12/2019; Manager, Public Sector Business Development at FirstEnergy Solutions, 3/2012 to 1/2015; Energy Trading Consultant at FirstEnergy Solutions, 2009 to 3/2012; Emission Allowance Trader - Non-Coal Commodities Procurement at FirstEnergy Solutions, 3/2005 to 3/2009; Field Rep at Marathon Oil, 1989 to 1990",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 175,
+      "date_added": "2026-06-19 09:13:19 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "core-scientific",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Power Analytics",
+      "company": "Core Scientific",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "FirstEnergy Advisors",
+      "start": "12/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Manager, Large Commercial & Industrial Energy Sales",
+      "company": "FirstEnergy Solutions",
+      "start": "1/2015",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Manager, Public Sector Business Development",
+      "company": "FirstEnergy Solutions",
+      "start": "3/2012",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Energy Trading Consultant",
+      "company": "FirstEnergy Solutions",
+      "start": "2009",
+      "end": "3/2012",
+      "current": false
+    },
+    {
+      "title": "Emission Allowance Trader - Non-Coal Commodities Procurement",
+      "company": "FirstEnergy Solutions",
+      "start": "3/2005",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Field Rep",
+      "company": "Marathon Oil",
+      "start": "1989",
+      "end": "1990",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Akron",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "education": [
+    "BBA, Management, Ohio University, 1985 to 1989"
+  ]
+}

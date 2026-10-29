@@ -1,0 +1,131 @@
+[
+ {
+  "name": "Val Walsh",
+  "company": "Microsoft",
+  "title": "Vice President, Cloud Operations + Innovation",
+  "note": "Why: CO+I is Microsoft's data-centre organisation — the people who site, build and run the fleet. A DC role at a hyperscaler, not corporate leadership.",
+  "source": "https://datacentremagazine.com/articles/why-microsoft-leads-data-centre-innovation-and-leadership"
+ },
+ {
+  "name": "Jason Taylor",
+  "company": "Microsoft",
+  "title": "Vice President, Infrastructure",
+  "prev_company": "Meta",
+  "prev_title": "Vice President, Infrastructure",
+  "note": "Why: at Meta he oversaw data-centre expansion and server-chip development; joined Microsoft's data-centre team in a similar role, working under CTO Kevin Scott. A hyperscaler-to-hyperscaler DC move.",
+  "source": "https://www.datacenterdynamics.com/en/news/former-meta-executive-jason-taylor-joins-microsofts-data-center-team/"
+ },
+ {
+  "name": "Sergio Loureiro",
+  "company": "AWS",
+  "title": "Vice President, Global Data Centre Operations",
+  "note": "Why: runs AWS data-centre operations worldwide — strategy, construction and day-to-day management across North America, Europe, APAC and the Middle East. Ranked No. 1 on Data Centre Magazine's Top 100 Data Centre Leaders 2026.",
+  "source": "https://datacentremagazine.com/news/sergio-loureiro-top-100-data-centre-leaders-2026"
+ },
+ {
+  "name": "Prasad Kalyanaraman",
+  "company": "AWS",
+  "title": "Vice President, Infrastructure Services",
+  "note": "Why: leads AWS Infrastructure Services, the organisation that plans and delivers the physical data-centre estate.",
+  "source": "https://datacentremagazine.com/news/why-is-aws-the-leading-data-centre-company-in-the-world"
+ },
+ {
+  "name": "Aris Karcanias",
+  "company": "Google",
+  "title": "Head of Data Center Energy & Infrastructure, EMEA",
+  "note": "Why: appointed June 2026 to lead Google's data-centre energy and infrastructure across EMEA — the power and site side of the hyperscaler build-out in Siddhi's home market.",
+  "source": "https://www.datacenterdynamics.com/en/news/google-appoints-new-head-of-data-center-energy-infrastructure-in-emea/"
+ },
+ {
+  "name": "Rachel Peterson",
+  "company": "Meta",
+  "title": "Vice President, Data Centers",
+  "note": "Why: Meta's top data-centre executive, speaking for the Hyperion (Louisiana, scaling to 5 GW) and Prometheus (New Albany, Ohio) campuses.",
+  "source": "https://www.datacenterfrontier.com/hyperscale/article/55310441/ownership-and-power-challenges-in-metas-hyperion-and-prometheus-data-centers"
+ },
+ {
+  "name": "Mahesh Thiagarajan",
+  "company": "Oracle",
+  "title": "Executive Vice President, Oracle Cloud Infrastructure",
+  "note": "Why: the top of Oracle's OCI organisation, which owns data centres and supply chain alongside compute, networking and storage — the executive the Stargate build-out reports up to.",
+  "source": "https://cloudwars.com/cloud/oracles-mahesh-thiagarajan-evp-oci-on-data-center-growth-ai-leadership/"
+ },
+ {
+  "name": "Dan Lawrence",
+  "company": "Nebius",
+  "title": "Senior Vice President and General Manager, Americas",
+  "note": "Why: appointed March 2026 to lead Nebius' North American expansion — the gigawatt-scale campus programme in the US — and to scale the organisation behind it.",
+  "source": "https://nebius.com/newsroom/nebius-names-dan-lawrence-to-lead-expansion-in-the-us-as-senior-vice-president-and-general-manager-for-the-americas"
+ },
+ {
+  "name": "Nazar Khan",
+  "company": "TeraWulf",
+  "title": "Chief Technology Officer",
+  "note": "Why: the executive TeraWulf's data-centre operations report to; co-founder running the technical and site side of the crypto-to-HPC conversion.",
+  "source": "https://investors.terawulf.com/news-events/press-releases/detail/97/terawulf-announces-promotion-of-sean-farrell-to-chief"
+ },
+ {
+  "name": "Sean Farrell",
+  "company": "TeraWulf",
+  "title": "Chief Operating Officer",
+  "prev_company": "TeraWulf",
+  "prev_title": "Senior Vice President, Operations",
+  "reports_to_name": "Nazar Khan",
+  "note": "Why: promoted to COO from SVP Operations, where he oversaw data-centre operations and the vertical-integration strategy. The release states he continues to report to CTO Nazar Khan — a stated reporting line.",
+  "source": "https://investors.terawulf.com/news-events/press-releases/detail/97/terawulf-announces-promotion-of-sean-farrell-to-chief"
+ },
+ {
+  "name": "Rob Hepler",
+  "company": "Core Scientific",
+  "title": "Head of Data Center Operations",
+  "note": "Why: hired March 2025 to run all operational teams across Core Scientific's HPC data centres, with 500 MW under construction at the time.",
+  "source": "https://corescientific.com/resources/blog/rob-hepler-joins-as-head-of-data-center-operations/"
+ },
+ {
+  "name": "Michael Stoner",
+  "company": "Vantage",
+  "title": "Chief Development Officer, North America",
+  "reports_to_name": "Dana Adams",
+  "note": "Why: promoted June 2026 to lead North American development — new campuses and power-ready capacity. The release states he reports to Dana Adams, President North America — a stated reporting line.",
+  "source": "https://vantage-dc.com/news/vantage-data-centers-appoints-michael-stoner-to-chief-development-officer-north-america/"
+ },
+ {
+  "name": "Alicia Ruckteschler",
+  "company": "Vantage",
+  "title": "Chief Procurement Officer",
+  "note": "Why: procurement is the supply-chain bottleneck of every data-centre build (switchgear, generators, transformers); a DC operator's CPO is a DC role. Appointed February 2026.",
+  "source": "https://www.businesswire.com/news/home/20260219715044/en/Vantage-Data-Centers-Appoints-Alicia-Ruckteschler-as-Chief-Procurement-Officer"
+ },
+ {
+  "name": "Robin Balen",
+  "company": "Vantage",
+  "title": "Chief Product Officer",
+  "note": "Why: leads the newly created product organisation at a data-centre operator — how Vantage packages capacity for cloud and AI customers. Appointed December 2025.",
+  "source": "https://www.businesswire.com/news/home/20251204869334/en/Vantage-Data-Centers-Appoints-Robin-Balen-as-Chief-Product-Officer-to-Lead-Newly-Created-Product-Organization"
+ },
+ {
+  "name": "John Hatem",
+  "company": "CyrusOne",
+  "title": "Chief Executive Officer",
+  "prev_company": "CyrusOne",
+  "prev_title": "President — global sales, global procurement, and US design, engineering and construction",
+  "note": "Why: CEO of a data-centre operator, effective 30 July 2026, promoted from President where he ran sales, procurement and US design, engineering and construction — a delivery-side leader, not a finance appointment.",
+  "source": "https://www.cyrusone.com/resources/press-releases/cyrusone-names-john-hatem-chief-executive-officer-to-accelerate-its-global-digital-infrastructure-strategy"
+ },
+ {
+  "name": "Erich Sanchack",
+  "company": "Digital Realty",
+  "title": "Executive Vice President, Operations",
+  "note": "Why: runs operations for the largest listed data-centre landlord — the operating side of 300+ facilities.",
+  "source": "https://www.digitalrealty.com/about/newsroom/press-releases/122540/digital-realty-appoints-erich-sanchack-executive-vice-president-operations"
+ },
+ {
+  "name": "Nidhi Chappell",
+  "company": "Nscale",
+  "title": "Leadership team (ex-Microsoft CVP, Azure AI & HPC Infrastructure)",
+  "prev_company": "Microsoft",
+  "prev_title": "Corporate Vice President, Azure AI and High-Performance Computing Infrastructure",
+  "note": "Why: at Microsoft she led the design and operation of four generations of the supercomputers behind ChatGPT — the infrastructure side of AI, now at a NeoCloud building its own data centres. Nscale's release does not give her new title, so it is recorded as the leadership team.",
+  "source": "https://www.nscale.com/press-releases/nscale-appoints-nidhi-chappell"
+ }
+]

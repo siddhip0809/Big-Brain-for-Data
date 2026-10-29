@@ -1,0 +1,27 @@
+{
+  "id": "d725e4d1-ee48-4e20-8a0d-50895cf16ec9",
+  "type": "search",
+  "name": "New VP, Development East",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "active",
+  "project_type": "Retained",
+  "started_at": "2026-09-10",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

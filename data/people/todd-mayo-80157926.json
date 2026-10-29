@@ -1,0 +1,117 @@
+{
+  "id": "todd-mayo-80157926",
+  "type": "person",
+  "name": "Todd Mayo",
+  "current_title": "National Account Manager",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/toddmayo",
+  "location": "Santa Clara, CA",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "National Account Manager at QTS Data Centers, 8/2010 to present; Product Line Executive- DLP at McAfee, 1/2009 to 5/2010; Director of Sales-West at Reconnex, 1/2005 to 8/2008; National Account Manager at AboveNet, 1/2003 to 8/2004; Senior Account Manager at Qwest, 10/2001 to 9/2003; Director of Sales at AboveNet, 1/1998 to 9/2001; Senior Account Manager at McAfee, 6/1995 to 12/1997; Sales at NetManage, 1/1993 to 12/1995",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 60,
+      "date_added": "2025-11-07 13:10:36 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "National Account Manager",
+      "company": "QTS Data Centers",
+      "start": "8/2010",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Product Line Executive- DLP",
+      "company": "McAfee",
+      "start": "1/2009",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Director of Sales-West",
+      "company": "Reconnex",
+      "start": "1/2005",
+      "end": "8/2008",
+      "current": false
+    },
+    {
+      "title": "National Account Manager",
+      "company": "AboveNet",
+      "start": "1/2003",
+      "end": "8/2004",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "Qwest",
+      "start": "10/2001",
+      "end": "9/2003",
+      "current": false
+    },
+    {
+      "title": "Director of Sales",
+      "company": "AboveNet",
+      "start": "1/1998",
+      "end": "9/2001",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "McAfee",
+      "start": "6/1995",
+      "end": "12/1997",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "NetManage",
+      "start": "1/1993",
+      "end": "12/1995",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Santa Clara",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BA, University Of California, Berkeley"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

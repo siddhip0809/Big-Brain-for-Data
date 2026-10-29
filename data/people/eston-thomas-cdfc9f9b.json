@@ -1,0 +1,58 @@
+{
+  "id": "eston-thomas-cdfc9f9b",
+  "type": "person",
+  "name": "Eston Thomas",
+  "current_title": "Senior Construction Manager",
+  "current_company": "Corscale Data Centers",
+  "linkedin": "https://www.linkedin.com/in/eston-thomas-788673135",
+  "location": "McLean, Virginia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Construction Manager at Corscale Data Centers, 12/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 254,
+      "date_added": "2026-07-09 08:17:09 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "corscale-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Manager",
+      "company": "Corscale Data Centers",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "McLean",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

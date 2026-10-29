@@ -1,0 +1,107 @@
+{
+  "id": "alex-tilley-def27ac8",
+  "type": "person",
+  "name": "Alex Tilley",
+  "current_title": "Senior Vice President, Head of Sales & Leasing",
+  "current_company": "CloudHQ",
+  "linkedin": "https://www.linkedin.com/in/alex-tilley-b90ab222",
+  "location": "United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Vice President, Head of Sales & Leasing at CloudHQ, 3/2024 to present; Head of Sales & Leasing at CloudHQ, 5/2021 to 3/2024; Board Member - Data Centres at techUK, 9/2020 to present; Vice President, EMEA & LATAM at CloudHQ, 12/2019 to 5/2021; EMEA Director, Data Centers at JLL, 1/2016 to 12/2019; Director, Data Centre Capital Markets at Alpha Real Capital, 12/2014 to 1/2016; CloudHQ",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 21,
+      "date_added": "2025-11-06 14:03:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "cloudhq",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Head of Sales & Leasing",
+      "company": "CloudHQ",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of Sales & Leasing",
+      "company": "CloudHQ",
+      "start": "5/2021",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Board Member - Data Centres",
+      "company": "techUK",
+      "start": "9/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, EMEA & LATAM",
+      "company": "CloudHQ",
+      "start": "12/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "EMEA Director, Data Centers",
+      "company": "JLL",
+      "start": "1/2016",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Director, Data Centre Capital Markets",
+      "company": "Alpha Real Capital",
+      "start": "12/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "raw": "CloudHQ"
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "University of Reading, 2005 to 2008",
+    "Guilsborough Secondary School, 1998 to 2005"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

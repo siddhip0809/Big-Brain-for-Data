@@ -1,0 +1,89 @@
+{
+  "id": "anthony-soto-bc90df22",
+  "type": "person",
+  "name": "Anthony Soto",
+  "current_title": "Senior MEP Estimator",
+  "current_company": "DPR Construction",
+  "location": "Pasadena, California",
+  "linkedin": "https://www.linkedin.com/in/anthony-soto-20499783",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior MEP Estimator at DPR Construction, 5/2022 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "CANDIDATE - Not Interested",
+      "rank": 51,
+      "date_added": "2026-08-18 09:58:50 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 163,
+      "date_added": "2026-08-10 14:12:26 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 163,
+      "date_added": "2026-08-10 14:12:26 UTC",
+      "date_updated": "2026-08-18 04:58:50 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior MEP Estimator",
+      "company": "DPR Construction",
+      "start": "5/2022",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Pasadena",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "biography": "Anthony Soto is a Director, Cost Strategy at DPR. Previously worked as a cost consultant, including an in-house MEP estimator for Meta, where he helped build their program and negotiated against large GCs. Grew Meta team from 4-5 to 25-30 people, making it the largest account in company history. Promoted to run the entire MEP department (35 people) while also running the data center account. Joined DPR for better work-life balance and builds their largest data centers, including a 2-gigawatt site in Louisiana where he led pre-construction for mechanical scope. Has experience across subcontractor, owner (as cost consultant), and GC roles.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 4.0,
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "chris-plass-4d457a40",
+  "type": "person",
+  "name": "Chris Plass",
+  "current_title": "Vice President, Design Engineering & Construction - Americas",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/chris-plass-b3a32713",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President, Design Engineering & Construction - Americas at Digital Realty, 1/2024 to present; Vice President at HITT Contracting, 6/2006 to 1/2024; Intern at HITT Contracting, 5/2002 to 1/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 29,
+      "date_added": "2026-07-02 11:47:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Design Engineering & Construction - Americas",
+      "company": "Digital Realty",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "HITT Contracting",
+      "start": "6/2006",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "HITT Contracting",
+      "start": "5/2002",
+      "end": "1/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Architecture (BArch), Virginia Tech, 2001 to 2006"
+  ],
+  "biography": "Vice President, DE&C at Digital Realty",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

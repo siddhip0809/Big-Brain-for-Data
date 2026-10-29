@@ -1,0 +1,39 @@
+{
+  "id": "soltage",
+  "type": "company",
+  "name": "Soltage",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Jersey City, New Jersey",
+  "founded": null,
+  "website": "https://www.soltage.com",
+  "linkedin": "https://www.linkedin.com/company/soltage/",
+  "headcount": "11 to 50",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "IPP / Developer",
+      "Utility Scale": "No",
+      "Primary Scope": "Regional",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "No"
+    }
+  },
+  "dc_exposure_level": "Not relevant",
+  "notes": "Siddhi's sheet note: Community and commercial solar developer and operator. Primarily ISO-NE, NYISO, PJM. Limited utility-scale DC relevance.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

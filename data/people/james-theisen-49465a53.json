@@ -1,0 +1,104 @@
+{
+  "id": "james-theisen-49465a53",
+  "type": "person",
+  "name": "James Theisen",
+  "current_title": "Senior Estimator",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/james-theisen-70a94114",
+  "location": "Minneapolis, Minnesota",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Mortenson, 3/2025 to present; Estimator III at Mortenson, 8/2021 to 3/2025; Estimator at Mortenson, 3/2017 to 8/2021; Project Engineer at Mortenson, 3/2013 to 2/2017; Field Engineer at Mortenson, 2/2010 to 3/2013; Estimator/ Project Manager at Border States Paving, 4/2009 to 1/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 235,
+      "date_added": "2026-08-12 07:19:56 UTC",
+      "date_updated": "2026-08-18 05:06:42 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Mortenson",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator III",
+      "company": "Mortenson",
+      "start": "8/2021",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Mortenson",
+      "start": "3/2017",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Mortenson",
+      "start": "3/2013",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Mortenson",
+      "start": "2/2010",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Estimator/ Project Manager",
+      "company": "Border States Paving",
+      "start": "4/2009",
+      "end": "1/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Minneapolis",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  },
+  "education": [
+    "Bachelor of Science (BS) Construction Management, Minnesota State Moorhead, 2007 to 2009",
+    "AAS Drafting Estimating, St Cloud Technical and Community College, 2005 to 2007"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

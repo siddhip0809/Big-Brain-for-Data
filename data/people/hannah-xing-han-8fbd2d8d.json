@@ -1,0 +1,104 @@
+{
+  "id": "hannah-xing-han-8fbd2d8d",
+  "type": "person",
+  "name": "Hannah Xing Han",
+  "current_title": "(former) Business Project Specialist",
+  "current_company": "AMAX",
+  "linkedin": "https://www.linkedin.com/in/hannah-xing-han-550972251",
+  "location": "Limerick, County Limerick",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Development Specialist at AMAX, 1/2026 to present; Business Project Specialist at AMAX, 10/2025 to 12/2025; Sales And Marketing Specialist at Limerick Language Centre, 3/2024 to 6/2025; Project Assistant at Ke Fu Te Auto Parts Manufacturing, 8/2020 to 8/2022; Jave Software Engineer at Leroy Merlin, 9/2016 to 5/2020; .NET Engineer at Leroy Merlin, 11/2015 to 9/2016; .NET Engineer at SolutionKeys, 11/2011 to 10/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Company History",
+      "rank": 274,
+      "date_added": "2026-08-21 12:59:54 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Development Specialist",
+      "company": "AMAX",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Business Project Specialist",
+      "company": "AMAX",
+      "start": "10/2025",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Sales And Marketing Specialist",
+      "company": "Limerick Language Centre",
+      "start": "3/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Project Assistant",
+      "company": "Ke Fu Te Auto Parts Manufacturing",
+      "start": "8/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Jave Software Engineer",
+      "company": "Leroy Merlin",
+      "start": "9/2016",
+      "end": "5/2020",
+      "current": false
+    },
+    {
+      "title": ".NET Engineer",
+      "company": "Leroy Merlin",
+      "start": "11/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": ".NET Engineer",
+      "company": "SolutionKeys",
+      "start": "11/2011",
+      "end": "10/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Limerick",
+    "region": "County Limerick",
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "education": [
+    "Master's degree, MSC Project Management, University Of Limerick, 2022 to 2024",
+    "Bachelor's degree, Engineering/Industrial Management, Beijing University of Posts and Telecommunications, 2016 to 2020"
+  ],
+  "biography": "Every breakthrough in AI begins with the right infrastructure. I’m driven to create GPU, HPC and data center solutions that empower the future of intelligent computing.",
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

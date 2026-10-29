@@ -1,0 +1,45 @@
+{
+  "id": "lontrue",
+  "type": "company",
+  "name": "Lontrue",
+  "aliases": [],
+  "industry_role": "developer operator",
+  "headquarters": null,
+  "founded": null,
+  "website": "http://www.lontrue.com",
+  "linkedin": "https://www.linkedin.com/company/%E6%9C%97%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-lontrue-co-ltd/",
+  "headcount": "201-500",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "pure_play",
+  "roles": [
+    "developer_operator"
+  ],
+  "source_lists": [
+    "Data Centre Developer"
+  ],
+  "list_attributes": {
+    "Data Centre Developer": {
+      "Type": "DC Developer",
+      "Hyperscale Focus": "No Focus",
+      "Regional Presence (APAC)": "Yes",
+      "Regional Presence (EMEA)": "No",
+      "Regional Presence (N. America)": "No",
+      "Regional Presence  S. America": "No",
+      "Date Updated": "2026-03-20 00:00:00"
+    }
+  },
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05",
+  "capacity_mw": {
+    "apac": {
+      "early_stage_mw": 62.5
+    }
+  }
+}

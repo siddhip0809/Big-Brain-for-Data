@@ -1,0 +1,64 @@
+{
+  "id": "alex-kang-2db85cd4",
+  "type": "person",
+  "name": "Alex Kang",
+  "current_title": "VP, Acquisitions",
+  "current_company": "Legacy Investing",
+  "linkedin": null,
+  "location": "Arlington, Virginia",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "AWS; VP, Acquisitions at Legacy Investing",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 252,
+      "date_added": "2026-04-20 10:45:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "legacy-investing",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "raw": "AWS"
+    },
+    {
+      "title": "VP, Acquisitions",
+      "company": "Legacy Investing",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Arlington",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "salute",
+  "type": "company",
+  "name": "Salute",
+  "aliases": [
+    "Salute Mission Critical",
+    "Keysource",
+    "Keysource Group",
+    "Northshore",
+    "Salute EMEA"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, design / MEP engineering, programme & project management",
+  "headquarters": "United States",
+  "founded": null,
+  "website": "https://salute.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Data center lifecycle services; acquired Keysource Group (announced 28 Jan 2025, EMEA workforce to 500+) and Northshore (Nov 2025, automation/sustainability engineering); new EMEA leadership team drawn from Keysource.",
+  "tags": [
+    "Data Center Developer"
+  ],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Data center lifecycle services; acquired Keysource Group (announced 28 Jan 2025, EMEA workforce to 500+) and Northshore (Nov 2025, automation/sustainability engineering); new EMEA leadership team drawn from Keysource. Added 2026-09-16 from open-source research (import_researched_companies.py). Acquired Keysource (announced Jan 2025) and Northshore; the Salute EMEA stub was merged into this record (2026-09-16).\n\nMerged 2026-09-16: absorbed duplicate record 'Salute EMEA' (salute-emea). The merged Salute EMEA stub had guessed developer_operator; Salute is a data-center services / consultancy firm, so that role was dropped (2026-09-16).",
+  "sources": [
+    "https://salute.com/resources/news/salute-acquires-northshore/",
+    "https://salute.com",
+    "Clockwork CRM mapping-project export, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-16",
+  "facilities": [],
+  "financials": {}
+}

@@ -1,0 +1,130 @@
+{
+  "id": "farhana-hussain-be09d7c7",
+  "type": "person",
+  "name": "Farhana Hussain",
+  "current_title": "Director",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/farhana-h-199165135",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director at STACK Infrastructure, 6/2026 to present; Senior Planning and Development Manager at P3p Partners, 11/2024 to 7/2026; Senior Planning Consultant at Arup, 10/2021 to 11/2024; Civil Litigator at Ellisons Solicitors, 5/2019 to 9/2019; Planning Consultant at Quod, 4/2019 to 10/2021; Planner at Urbanissta, 11/2018 to 4/2019; Graduate Planner at Urbanissta, 10/2016 to 11/2018; Civil Litigator at Ellisons Solicitors, 5/2016 to 9/2016; Litigation Assistant at Kennedys Law, 7/2014 to 5/2016; Trainee Legal Executive at Ashton KCJ Solcitors, 5/2013 to 7/2014; Legal Assistant at Christchurch Solicitors, 1/2013 to 5/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Off Limits",
+      "rank": 244,
+      "date_added": "2026-08-04 10:20:35 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director",
+      "company": "STACK Infrastructure",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Planning and Development Manager",
+      "company": "P3p Partners",
+      "start": "11/2024",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Planning Consultant",
+      "company": "Arup",
+      "start": "10/2021",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Civil Litigator",
+      "company": "Ellisons Solicitors",
+      "start": "5/2019",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "Planning Consultant",
+      "company": "Quod",
+      "start": "4/2019",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Planner",
+      "company": "Urbanissta",
+      "start": "11/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Graduate Planner",
+      "company": "Urbanissta",
+      "start": "10/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Civil Litigator",
+      "company": "Ellisons Solicitors",
+      "start": "5/2016",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Litigation Assistant",
+      "company": "Kennedys Law",
+      "start": "7/2014",
+      "end": "5/2016",
+      "current": false
+    },
+    {
+      "title": "Trainee Legal Executive",
+      "company": "Ashton KCJ Solcitors",
+      "start": "5/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Legal Assistant",
+      "company": "Christchurch Solicitors",
+      "start": "1/2013",
+      "end": "5/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

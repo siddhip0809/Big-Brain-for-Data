@@ -1,0 +1,96 @@
+{
+  "id": "sam-beech-f7f0051e",
+  "type": "person",
+  "name": "Sam Beech",
+  "current_title": "Senior Manager   Acquisitions & Investments",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/sjbeech",
+  "location": "London, England, United Kingdom",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Manager   Acquisitions & Investments at Digital Realty, 3/2024 to present; Manager   Acquisitions & Investments at Digital Realty, 3/2022 to 3/2024; Senior Associate   Acquisitions & Investments at Digital Realty, 9/2020 to 3/2022; Commercial Analyst   Real Estate at Colt Data Centre Services, 10/2018 to 9/2020; Graduate Surveyor at BNP Paribas Real Estate, 9/2016 to 10/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 63,
+      "date_added": "2025-11-07 11:28:57 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Manager   Acquisitions & Investments",
+      "company": "Digital Realty",
+      "start": "3/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager   Acquisitions & Investments",
+      "company": "Digital Realty",
+      "start": "3/2022",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Associate   Acquisitions & Investments",
+      "company": "Digital Realty",
+      "start": "9/2020",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Commercial Analyst   Real Estate",
+      "company": "Colt Data Centre Services",
+      "start": "10/2018",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "BNP Paribas Real Estate",
+      "start": "9/2016",
+      "end": "10/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Masters, Real Estate, Henley Business School, 2015 to 2016",
+    "Bachelors, History, The University Of Manchester, 2011 to 2014"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}
