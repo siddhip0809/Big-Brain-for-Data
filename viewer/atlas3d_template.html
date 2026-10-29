@@ -316,6 +316,12 @@
   .pcard .p-more .job b{ color:var(--text); font-weight:500; }
   .pcard .p-more .job .yrs{ font-family:var(--font-mono); font-size:10px; color:var(--text-dim); flex:none; width:96px; }
   .pcard .p-more a{ color:var(--pure); }
+  .note-link{ color:var(--pure); cursor:pointer; }
+  .note-text{ font-size:12.5px; line-height:1.45; margin:3px 0; color:var(--text); }
+  .note-form{ display:flex; flex-direction:column; gap:6px; }
+  .note-form textarea, .note-form input, .note-form select{ font:inherit; font-size:12px; background:var(--panel); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:6px 8px; }
+  .note-form textarea{ min-height:84px; resize:vertical; }
+  .note-form .row{ display:flex; gap:6px; flex-wrap:wrap; }
   .pill{ font-family:var(--font-mono); font-size:9.5px; padding:1px 6px; border-radius:3px; border:1px solid var(--border); color:var(--text-dim); flex:none; }
   .pill.lead{ border-color:var(--pure); color:var(--pure); }
   .pill.dnc{ border-color:#ef4444; color:#fca5a5; }
@@ -456,6 +462,8 @@
       <button class="theme-btn" id="flowsBtn" style="width:100%; margin-top:8px">Open tier-to-tier matrix</button>
       <p class="field-label" style="margin-top:14px">Ward's own searches <span id="srchCount" class="lg-count"></span></p>
       <button class="theme-btn" id="srchBtn" style="width:100%">Where we have worked</button>
+      <p class="field-label" style="margin-top:14px">What we've heard <span id="notesCount" class="lg-count"></span></p>
+      <button class="theme-btn" id="notesBtn" style="width:100%">Notes: candidates, clients, market</button>
       <div class="seg" id="wardOnly" style="margin-top:8px" title="A client is a company where a search closed because we placed someone. 'Projects on file' adds companies where a search exists in Clockwork but never completed — pitched, cancelled, on hold or still open.">
         <button data-on="0" class="on">All companies</button><button data-on="1">Clients only</button><button data-on="2">+ projects on file</button>
       </div>
@@ -541,6 +549,19 @@
       </div>
       <div class="org-body" id="srchBody"></div>
     </div>
+    <div class="org" id="notes" hidden>
+      <div class="org-head">
+        <div><h2>What Ward has heard</h2><div class="org-sub" id="notesSub"></div></div>
+        <div class="org-controls">
+          <div class="seg" id="notesKind">
+            <button data-k="" class="on">All</button><button data-k="candidate_update">Candidates</button><button data-k="client">Clients</button><button data-k="search_strategy">Search strategy</button><button data-k="market_intel">Market</button><button data-k="signal">Signals only</button>
+          </div>
+          <input id="notesFilter" type="text" placeholder="filter… (name, company, &quot;open to move&quot;)" autocomplete="off">
+          <button class="detail-close" id="notesClose" title="Close">&times;</button>
+        </div>
+      </div>
+      <div class="org-body" id="notesBody"></div>
+    </div>
     <div class="org" id="org" hidden>
       <div class="org-head">
         <div><h2 id="orgName">—</h2><div class="org-sub" id="orgSub"></div></div>
@@ -595,6 +616,17 @@
   const ORG_TREE = GRAPH.org_tree || {};      // companyId -> [{i:personId, p:parentId|null, b:basis}]
   const searchBySlug = {};
   SEARCHES.forEach(x => searchBySlug[x.slug] = x);
+  // What Ward has heard (data/notes/): one note per piece of intelligence, linked to
+  // people (bare id), companies (bare id), investors and searches ("search:<slug>")
+  const NOTES = GRAPH.notes || [];
+  const notesAbout = {};
+  NOTES.forEach(n => (n.about || []).forEach(r => (notesAbout[r] = notesAbout[r] || []).push(n)));
+  const NOTE_KIND = { candidate_update: ['Candidate', '#2a78d6'], client_brief: ['Client brief', '#16a34a'], client_feedback: ['Client feedback', '#16a34a'],
+                      search_strategy: ['Search strategy', '#b45309'], market_intel: ['Market', '#eb6834'], relationship: ['Relationship', '#4a3aa7'] };
+  const SIGNAL_LABEL = { open_to_move: 'open to a move', not_looking: 'not looking', moved: 'moved', interviewing: 'interviewing',
+                         hiring: 'hiring', target_company: 'target company', deal: 'deal' };
+  const personHome = {};     // person id -> [company id, person]
+  Object.entries(PEOPLE).forEach(([cid, list]) => list.forEach(p => { personHome[p.id] = [cid, p]; }));
   const SEARCH_STATUS = { active:{label:'Active', color:'#16a34a'}, on_hold:{label:'On hold', color:'#d97706'},
                           pitch:{label:'Pitch', color:'#0891b2'}, closed:{label:'Closed', color:'#94a3b8'} };
   // how far a candidate got, from the Clockwork status category
@@ -1695,6 +1727,7 @@
           html += `<div class="src">Pitched, cancelled, terminated, filled internally or still open. On file in Clockwork, kept as history; it does not make them a client.</div>`;
         }
       }
+      html += heardSection(n.id, 'What we\u2019ve heard');
       if(n.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(n.industry_role)}</div></div>`;
       if(n.headquarters) html += `<div class="dt-row"><div class="dt-k">HQ</div><div class="dt-v">${escapeHtml(n.headquarters)}</div></div>`;
       if(n.headcount) html += `<div class="dt-row"><div class="dt-k">Headcount</div><div class="dt-v">${escapeHtml(n.headcount)}</div></div>`;
@@ -1932,6 +1965,7 @@
       const best = inSearches.find(x => x.cat === 'in-placed');
       pills.push(`<span class="pill ${best ? 'lead' : 'spoke'}" title="${escapeHtml(inSearches.map(x => x.client + ' — ' + x.name + ': ' + x.status).join(' | '))}">${best ? 'we placed' : 'in our pipeline'} &middot; ${inSearches.length}</span>`);
     }
+    if(notesAbout[p.id]) pills.push(`<span class="pill new" title="notes from emails, calls and the note box">heard &middot; ${notesAbout[p.id].length}</span>`);
     const meta = [p.seniority ? `<span class="sen">${escapeHtml(p.seniority)}</span>` : '',
                   escapeHtml(placeOf(p)),
                   p.since ? `since ${escapeHtml(p.since)}` : '',
@@ -1948,6 +1982,7 @@
       <div class="p-meta">${meta}</div>
       <div class="p-more">
         ${assessBlock(A, p)}
+        ${heardSection(p.id, 'What we\u2019ve heard')}
         ${inSearches.length ? `<div class="section-label" style="margin:8px 0 4px">Ward has had them in a pipeline (${inSearches.length})</div>` +
           inSearches.map(x => { const g = candStage(x.cat);
             return `<div class="job"><span class="yrs" style="color:${g.color}">${escapeHtml(g.label)}</span><span><b>${escapeHtml(x.client || '')}</b> — ${escapeHtml(x.name || '')}<br><span style="color:var(--text-dim)">${escapeHtml(x.status || '')}</span></span></div>`;
@@ -2177,6 +2212,103 @@
     if(n){ searchesEl.hidden = true; if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); selectNode(n); }
   });
 
+  // ---------- notes: what Ward has heard ----------
+  function refName(r){
+    if(!r) return '';
+    if(r.startsWith('search:')) return (searchBySlug[r.slice(7)] || {}).name || r.slice(7);
+    return (nodeById[r] || {}).name || (personHome[r] || [])[1]?.name || r;
+  }
+  function noteCard(n, pending){
+    const k = NOTE_KIND[n.kind] || ['Note', '#94a3b8'];
+    const sig = (n.signals || []).map(x => `<span class="pill spoke">${escapeHtml(SIGNAL_LABEL[x.type] || x.type)}` +
+      ['person', 'company', 'counterparty', 'search'].filter(f => x[f]).map(f => ' · ' + escapeHtml(refName(x[f]))).join('') +
+      (x.title ? ' · ' + escapeHtml(x.title) : '') + `</span>`).join(' ');
+    const links = (n.about || []).map(r => `<a class="note-link" data-ref="${escapeHtml(r)}">${escapeHtml(refName(r))}</a>`).join(' · ');
+    return `<div class="pipeline-entry"><div class="pe-title"><span style="color:${k[1]}">${k[0]}</span> <span class="pe-meta">${escapeHtml(n.date || '')}` +
+      (n.basis === 'ward_judgement' ? ' · Ward\u2019s own view, not a reported fact' : '') + (pending ? ' · saved here, not in the brain yet' : '') + `</span>` +
+      (n.discretion ? ` <span class="pill dnc" title="This was told in confidence or the person asked for discretion. Internal to Ward only.">in confidence</span>` : '') + `</div>` +
+      `<div class="note-text">${escapeHtml(n.summary || '')}</div>` + (sig ? `<div>${sig}</div>` : '') +
+      (links ? `<div class="pe-meta">${links}</div>` : '') + (n.src ? `<div class="src">${escapeHtml(n.src)}</div>` : '') + `</div>`;
+  }
+  function heardSection(id, label){
+    const heard = notesAbout[id] || [];
+    if(!heard.length) return '';
+    return `<div class="section-label">${label} (${heard.length})</div>` + heard.slice(0, 4).map(x => noteCard(x)).join('') +
+      (heard.length > 4 ? `<div class="src">+ ${heard.length - 4} more &mdash; open the notes panel</div>` : '');
+  }
+  const notesEl = document.getElementById('notes'), notesBody = document.getElementById('notesBody'), notesFilter = document.getElementById('notesFilter');
+  let notesKind = '', pendingNotes = [];
+  document.getElementById('notesCount').textContent = NOTES.length ? `${NOTES.length}` : '';
+  function renderNotes(){
+    const q = notesFilter.value.trim().toLowerCase();
+    const kindOk = n => !notesKind || (notesKind === 'client' ? n.kind.startsWith('client') : notesKind === 'signal' ? (n.signals || []).length : n.kind === notesKind);
+    const text = n => [n.summary, n.src, ...(n.about || []).map(refName),
+      ...(n.signals || []).flatMap(x => [SIGNAL_LABEL[x.type], refName(x.person), refName(x.company), x.title])].filter(Boolean).join(' ').toLowerCase();
+    const rows = NOTES.filter(n => kindOk(n) && (!q || text(n).includes(q)));
+    document.getElementById('notesSub').textContent = `${rows.length} of ${NOTES.length} notes · newest first · ` +
+      'from emails, call transcripts, documents and the note box. Contact details and pay are never kept; confidential searches never appear.';
+    const byMonth = {};
+    rows.forEach(n => { (byMonth[(n.date || '').slice(0, 7)] = byMonth[(n.date || '').slice(0, 7)] || []).push(n); });
+    const form = `<div class="org-col"><div class="org-col-head"><span class="srch-client">Add a note</span><span>${vdb ? 'saved to this page' : 'not available in this view'}</span></div>
+      <div class="org-col-body note-form">
+        <textarea id="nfText" placeholder="What did you hear? e.g. Jane at Vantage is open to a move after Q1; wants a development role in EMEA."></textarea>
+        <div class="row"><select id="nfKind">${Object.entries(NOTE_KIND).map(([k, v]) => `<option value="${k}">${v[0]}</option>`).join('')}</select>
+          <select id="nfBasis"><option value="reported">They told us</option><option value="ward_judgement">My own view</option></select></div>
+        <input id="nfNames" placeholder="who / which companies it is about, comma separated">
+        <label class="src"><input type="checkbox" id="nfConf"> if this is about a search: it is not confidential in Clockwork</label>
+        <div class="row"><button class="theme-btn" id="nfSave"${vdb ? '' : ' disabled'}>Save note</button><span class="src" id="nfMsg"></span></div>
+        <div class="src">Leave out email addresses, phone numbers, pay and anything about health or family &mdash; the brain never keeps them. Claude adds saved notes to the brain on the next intake run.</div>
+        ${pendingNotes.map(x => noteCard(x, true)).join('')}
+      </div></div>`;
+    notesBody.innerHTML = form + (Object.entries(byMonth).map(([m, list]) =>
+      `<div class="org-col"><div class="org-col-head"><span class="srch-client">${escapeHtml(m || 'undated')}</span><span>${list.length}</span></div>` +
+      `<div class="org-col-body">${list.map(x => noteCard(x)).join('')}</div></div>`).join('') ||
+      (NOTES.length ? `<div class="banner-note">No notes match that.</div>` : `<div class="banner-note">No notes yet. Ask Claude to run the email intake, or add one here.</div>`));
+  }
+  async function loadPendingNotes(){
+    if(!vdb) return;
+    try {
+      const inBrain = new Set(NOTES.map(n => n.atlas_id).filter(Boolean));
+      const snap = await vdb.collection('notes_inbox').get();
+      pendingNotes = snap.docs.filter(d => d.exists && !inBrain.has(d.id)).map(d => d.data()).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    } catch(e){ console.warn('note box unavailable', e); }
+  }
+  async function saveNote(){
+    const msg = document.getElementById('nfMsg');
+    const summary = document.getElementById('nfText').value.trim();
+    if(!summary){ msg.textContent = 'write the note first'; return; }
+    if(/[\w.+-]+@[\w-]+\.[\w.]+|\+?\d[\d ().-]{8,}\d|salar|compensation|bonus|\bOTE\b|day rate/i.test(summary)){
+      msg.textContent = 'take out contact details and pay first'; return; }
+    const kind = document.getElementById('nfKind').value;
+    const note = { date: new Date().toISOString().slice(0, 10), kind, basis: document.getElementById('nfBasis').value, summary,
+                   names: document.getElementById('nfNames').value.split(',').map(x => x.trim()).filter(Boolean), by: 'Siddhi (atlas note box)',
+                   search_check: document.getElementById('nfConf').checked ? 'confirmed in the atlas note box: not confidential in Clockwork' : '' };
+    try { await vdb.doc('notes_inbox/atlas-' + Date.now().toString(36)).set(note); pendingNotes.unshift(note); renderNotes();
+          document.getElementById('nfMsg').textContent = 'saved'; }
+    catch(e){ msg.textContent = 'could not save: ' + e.message; }
+  }
+  // one delegated listener each, bound once (see the toggle note in CLAUDE.md)
+  notesBody.addEventListener('click', (e) => { if(e.target.id === 'nfSave') saveNote(); });
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('.note-link'); if(!a) return;
+    const r = a.dataset.ref;
+    notesEl.hidden = true;
+    if(r.startsWith('search:')){ searchesEl.hidden = false; srchFilter.value = refName(r); srchStatus = '';
+      [...document.getElementById('srchStatus').children].forEach(x => x.classList.toggle('on', x.dataset.st === '')); renderSearches(); return; }
+    if(personHome[r]){ const c = nodeById[personHome[r][0]]; if(c){ openOrg(c); orgFilter.value = personHome[r][1].name; renderOrg(); } return; }
+    const n = nodeById[r];
+    if(n){ if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); selectNode(n); }
+  });
+  document.getElementById('notesBtn').addEventListener('click', async () => { notesEl.hidden = false; renderNotes(); await loadPendingNotes(); renderNotes(); });
+  document.getElementById('notesClose').addEventListener('click', () => { notesEl.hidden = true; });
+  notesFilter.addEventListener('input', renderNotes);
+  document.getElementById('notesKind').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if(!b) return;
+    notesKind = b.dataset.k;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+    renderNotes();
+  });
+
   function openOrg(company){
     orgCompany = company; orgFilter.value = '';
     org.hidden = false;
@@ -2200,6 +2332,7 @@
   document.addEventListener('keydown', (e) => {
     if(e.key !== 'Escape') return;
     if(!flowsEl.hidden) flowsEl.hidden = true;
+    else if(!notesEl.hidden) notesEl.hidden = true;
     else if(!org.hidden) closeOrg();
     else if(focusMode) exitFocus();
   });

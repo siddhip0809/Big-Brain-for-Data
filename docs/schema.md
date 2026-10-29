@@ -231,6 +231,50 @@ repository syncs to GitHub. Only pipeline entries whose status rank is
 100 or above (i.e. a real candidacy, not a raw long-list touch) were
 written.
 
+### `note` (in `data/notes/`) — what Ward has heard
+
+Added 2026-10-29. One record per piece of intelligence that reaches Ward:
+a candidate's situation, a client's brief or feedback, search strategy,
+market news, who knows whom. Drafted by Claude from Outlook mail, call
+transcripts, Word/.eml files or the atlas note box, and written only
+through `scripts/import_notes.py`, which enforces the rules below. The
+raw message is never stored.
+
+- `id` — `<date>-<8-char hash>`, also the filename
+- `date` — when we heard it
+- `kind` — `candidate_update`, `client_brief`, `client_feedback`,
+  `search_strategy`, `market_intel` or `relationship`
+- `basis` — `reported` (someone told us) or `ward_judgement` (our own view;
+  the atlas labels it so — rule 4)
+- `summary` — one to four sentences in Ward's words. Never pasted text, never
+  contact details, never anything about pay, never health, family or other
+  special-category detail. The importer refuses a note that breaks this and
+  `check_brain.py` re-checks every note.
+- `about` — what it links to: `person:<id>`, `company:<id>`,
+  `investor:<id>`, `search:<slug>`
+- `mentions_unmatched` — names in the note that are not in the brain yet, so
+  they can be added or matched by hand
+- `signals` — the parts worth acting on, each `{type, person, company,
+  counterparty, search, title}` with names resolved to ids where possible:
+  `open_to_move`, `not_looking`, `moved`, `interviewing`, `hiring`,
+  `target_company`, `deal`. A `moved` signal is a lead: it never changes the
+  person record. `data/derived/note_signals.csv` lists them all.
+- `discretion` — `true` when the person asked for discretion or it was told
+  in confidence. Internal to Ward only; the atlas shows an "in confidence" tag.
+- `search_check` — required when the note is about a search that is not in
+  `data/searches/`: the Clockwork confidential check, e.g. "clockwork
+  2026-10-29: not confidential". A confidential search never gets a note.
+- `source` — `{channel, date, from, subject, ref}`. `channel` is `email`,
+  `call`, `meeting`, `transcript`, `document`, `linkedin`, `atlas` or `other`;
+  `ref` is a hash of the message id, enough to recognise the message again
+  and never enough to reconstruct it. `atlas_id` names a note-box entry.
+- `recorded_on`, `recorded_by`
+
+`data/intake_log.json` lists every message intake has read, as
+`{ref, date, outcome, logged}` (outcome `notes` or `skipped: <reason>`), so a
+run never reads the same message twice and the next run starts where the
+last one stopped. It holds hashes only.
+
 ## Relationships (the "connections")
 
 All relationships live together in one file: `data/relationships.json`.

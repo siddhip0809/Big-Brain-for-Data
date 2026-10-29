@@ -29,6 +29,9 @@ data/relationships.json   3,629 edges, one flat list. See docs/schema.md for the
 data/searches/*.json      93 searches pulled from Clockwork (client, brief, pipeline, placement).
                           A client = a search closed on a Placement (22 of them, 8 companies).
                           Referred to as `search:<filename>`; the `id` field is the Clockwork UUID.
+data/notes/*.json         What Ward has heard (candidates, clients, market), one note per piece of
+                          intelligence, linked to people/companies/searches. See "Intake" below.
+data/intake_log.json      Every message intake has read, as a hash. Never holds content.
 data/derived/*.csv        Generated. Never hand-edit; rerun the script.
 scripts/                  Importers (import_*) and derivations (build_*, enrich_*, merge_*).
                           Research rounds land through import_researched_people.py and
@@ -52,6 +55,7 @@ python3 scripts/build_title_index.py          # data/derived/job_titles*.csv
 python3 scripts/build_talent_flows.py         # data/derived/talent_flow*.csv
 python3 scripts/build_org_tree.py             # data/derived/org_tree.json
 python3 scripts/build_gap_list.py            # data/derived/company_gaps.csv + company_gap_list.xlsx
+python3 scripts/build_note_signals.py        # data/derived/note_signals.csv
 python3 viewer/build_graph3d_data.py          # viewer/graph3d_data.json
 python3 scripts/check_brain.py                # must print "all checks pass" before you commit
 ```
@@ -126,8 +130,8 @@ One file, ~2,000 lines, Three.js r128 from jsdelivr. No bundler.
   re-run on every theme and flow-mode change; a listener bound inside it stacked
   one handler per call, so a line toggle fired several times and cancelled itself
   (found 2026-09-16). `clearScene()` must dispose node materials, or every filter
-  change leaks a full set to the GPU. `pw_test_toggle_stack.py` in the scratchpad
-  guards both: every toggle flips exactly once after the legend has re-rendered.
+  change leaks a full set to the GPU. `tests/test_toggles.py` guards the first:
+  every toggle flips exactly once after the legend has re-rendered.
 - **Talent flow colouring**: `flowMode` ('tier' | 'dept') and `flowDept` (''
   or a department). In dept mode `linkGroup` keys talent-flow lines by
   department and `lineMaterial` colours them from `DEPT_SLOTS` (8 validated
@@ -138,8 +142,17 @@ One file, ~2,000 lines, Three.js r128 from jsdelivr. No bundler.
 
 ## Testing
 
-Playwright against a local copy of the page, with the CDN URLs rewritten to the
-vendored Three.js under the scratchpad. Chromium is at
+Playwright against a local copy of the page. The tests live in `tests/` (the
+scratchpad is wiped with the container, which lost the old ones once):
+
+```bash
+python3 viewer/build_graph3d_data.py && python3 tests/build_local.py   # tests/.build/atlas.html
+cd tests && python3 test_toggles.py && python3 test_notes.py
+```
+
+`build_local.py` vendors Three.js r128 with `npm pack` (the CDN is unreachable
+here). A fresh container may lack `openpyxl` and the Playwright Python package:
+`python3 -m pip install openpyxl playwright`. Chromium is at
 `/opt/pw-browsers/chromium`; never run `playwright install`.
 
 Two environment traps that look like bugs and are not:
@@ -150,6 +163,40 @@ Two environment traps that look like bugs and are not:
   is ~10 fps regardless of the data. Not a regression.
 - **LibreOffice cannot run** in this sandbox, so `recalc.py` from the xlsx skill
   times out even on a 4-cell file. Verify spreadsheet formulas by hand.
+
+## Intake: emails, transcripts, documents and the note box
+
+The brain's memory of what Ward hears. Like the Clockwork pull this is an agent
+task, because Outlook is reachable only through the Microsoft 365 MCP connector.
+Every route ends in `scripts/import_notes.py`, which is the only writer of
+`data/notes/` and refuses anything that breaks rules 1-3.
+
+1. **Outlook.** `outlook_email_search` newest first (or `afterDateTime` = the
+   newest `date` in `data/intake_log.json`); skip any message whose hashed
+   `internetMessageId` is already in the log. Read the substantive ones with
+   `read_resource`; transcripts can be 100k characters, so read them from the
+   saved file in slices or hand them to a subagent with these rules.
+2. **Files.** Emails saved as Word, .eml or text: `python3 scripts/intake_files.py
+   <folder> --out <scratchpad>/digest.json` prints redacted text plus the brain's
+   companies and people each file names. The digest must stay outside the repo.
+3. **Atlas note box.** Export collection `notes_inbox` with the Artifact tool
+   (read_db) and pass the folder straight to `import_notes.py`.
+
+Then draft a JSON list (format in the importer's docstring), dry-run it, read the
+refusals, fix the drafts, `--apply`, and run the pipeline. What a note may hold:
+- Write summaries in our words; never paste. One note per piece of intelligence.
+- **Never** contact details, pay of any kind (even "wants more"), or health,
+  family and other personal matters -- about anyone. The importer refuses them.
+- **Rule 2 applies to notes.** A note about a search not in `data/searches/` needs
+  `search_check` from Clockwork (`clockwork_list_projects company_name=...`,
+  then `isConfidential`). Confidential: write nothing, not even a skip with the
+  client's name. New non-confidential searches are a reason to rerun the search pull.
+- Mark `discretion: true` when the person asked for discretion or it was told in
+  confidence; mark `basis: ward_judgement` for our own opinions.
+- Admin, logistics, newsletters' marketing, receipts: `{"skip": reason}` so the
+  log records the message was read.
+- **First run on a new mailbox, folder or person: show Siddhi the drafts before
+  `--apply`.** Notes about candidates go to GitHub; she decides what is kept.
 
 ## Clockwork
 

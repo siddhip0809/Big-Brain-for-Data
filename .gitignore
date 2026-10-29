@@ -2,3 +2,9 @@
 viewer/graph3d_data.json
 viewer/tree_data.json
 __pycache__/
+
+# raw emails / Word files dropped for intake (scripts/intake_files.py): never committed
+inbox/
+
+# tests/build_local.py output (page with data embedded, vendored Three.js)
+tests/.build/

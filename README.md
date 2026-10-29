@@ -294,3 +294,17 @@ Switch Datacenters — different companies with similar names.
 
 Placeholder `example-` entries used during initial setup have been removed
 now that real data is in place.
+
+## What Ward has heard (notes) — added 2026-10-29
+
+The brain now remembers what reaches Ward from candidates, clients and the market,
+not only who works where. Each piece of intelligence becomes a note in
+`data/notes/`, linked to the people, companies and searches it is about, with
+signals worth acting on (open to a move, moved, hiring, target company, deal)
+collected in `data/derived/note_signals.csv`. Notes come from Outlook (Claude reads
+the mailbox through the Microsoft 365 connector), from emails saved as Word or .eml
+files (`scripts/intake_files.py`), and from the note box in the atlas. In the atlas
+they appear in a "What we've heard" panel, on each company and on each person card.
+`scripts/import_notes.py` is the only way in: it strips contact details, refuses
+anything about pay or health and family, refuses a note about a search that Clockwork
+marks confidential, and keeps only a hash of each message. See "Intake" in CLAUDE.md.

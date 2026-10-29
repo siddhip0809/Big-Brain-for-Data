@@ -316,6 +316,24 @@ for ppl in people.values():
     for p in ppl:
         p["searches"] = searches_by_person.get(p["id"]) or None
 
+# ---------- notes: what Ward has heard, linked to people, companies and searches ----------
+# Ids stay as the page knows them: companies and people by bare id, investors as
+# "investor:<id>", searches as "search:<slug>". Newest first.
+def page_ref(ref):
+    kind, _, rid = ref.partition(":")
+    return rid if kind in ("company", "person") else ref
+notes = []
+for f in sorted(glob.glob(os.path.join(REPO, "data", "notes", "*.json"))):
+    d = load_json(f); src = d.get("source") or {}
+    notes.append({"id": d["id"], "date": d["date"], "kind": d["kind"], "basis": d["basis"], "summary": d["summary"],
+                  "about": [page_ref(r) for r in d.get("about", [])],
+                  "signals": [{k: (page_ref(v) if k in ("person", "company", "counterparty", "search") and ":" in v else v)
+                               for k, v in sig.items()} for sig in d.get("signals", [])],
+                  "unmatched": d.get("mentions_unmatched"), "discretion": d.get("discretion"),
+                  "src": " · ".join(x for x in (src.get("channel"), src.get("from"), src.get("subject")) if x),
+                  "atlas_id": src.get("atlas_id")})
+notes.sort(key=lambda n: n["date"], reverse=True)
+
 # every link gets a stable key -- the id of its verification document in the
 # atlas's shared store (scripts/pull_verifications.py reads them back)
 for l in links:
@@ -343,7 +361,7 @@ out = {
     "parent_industry_meta": [{"id": pid, "name": m["name"], "note": m["note"], "count": pi_counts.get(pid, 0)}
                              for pid, m in PARENT_INDUSTRY_META.items()],
     "nodes": nodes, "links": links, "people": people, "functions": FUNCTIONS,
-    "searches": searches, "org_tree": org_tree,
+    "searches": searches, "org_tree": org_tree, "notes": notes,
     "talent_moves": [{k: m[k] for k in ("person", "to_id", "to_name", "to_label", "from_name", "from_label", "flow_class", "function", "title", "start")} for m in moves],
     "stats": {"people": people_count, "companies_with_people": len(people),
               "moves": len(moves), "flow_pairs": len(flow_pairs), "recent_joiners": len(recent),

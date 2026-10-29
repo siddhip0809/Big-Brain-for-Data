@@ -13,6 +13,9 @@ Exits non-zero if anything is wrong, so it can gate a commit. Checks:
                no two companies with the same normalised name
   searches     status and closing_reason in the known sets; a placement only
                where the search closed on one
+  notes        every note has a known kind and basis, a source with channel and date,
+               links that resolve, no pay talk or special-category detail, and a
+               Clockwork confidentiality check when its search is not on file
   derived      data/derived/ is not stale against data/
 """
 import json, glob, os, re, sys, collections
@@ -36,6 +39,7 @@ EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+")
 PHONE = re.compile(r"(?<![\w/=&.-])\+?\(?\d{2,4}\)?[ .-]\d{3,4}[ .-]\d{3,4}(?![\w/])")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scrub_people import PAY   # one definition of "a pay figure", shared with the scrubber
+from import_notes import KINDS, BASES, CHANNELS, SIGNALS, SEARCH_KINDS, PAY_TALK, SPECIAL, phoneish
 norm = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())
 
 problems = collections.defaultdict(list)
@@ -53,10 +57,11 @@ def load_dir(sub):
 
 def main():
     companies, investors, people, searches = load_dir("companies"), load_dir("investors"), load_dir("people"), load_dir("searches")
+    notes = load_dir("notes")
     rels = json.load(open(D("relationships.json")))
 
     # ---- privacy, over every record as text ----
-    for sub, coll in (("companies", companies), ("investors", investors), ("people", people), ("searches", searches)):
+    for sub, coll in (("companies", companies), ("investors", investors), ("people", people), ("searches", searches), ("notes", notes)):
         for k, d in coll.items():
             blob = json.dumps(d, ensure_ascii=False)
             for key in ("email", "phone", "mobile", "compensation", "salary"):
@@ -137,8 +142,38 @@ def main():
         if re.search(r"confidential (search|project|assignment|client|role|mandate)", json.dumps(s), re.I):
             bad("searches", f"{k}: looks like a confidential search \u2014 must not be in the repo")
 
+    # ---- notes ----
+    for k, n in notes.items():
+        if n.get("id") != k: bad("notes", f"{k}: id field differs from filename")
+        if n.get("kind") not in KINDS: bad("notes", f"{k}: kind `{n.get('kind')}`")
+        if n.get("basis") not in BASES: bad("notes", f"{k}: basis `{n.get('basis')}`")
+        src = n.get("source") or {}
+        if src.get("channel") not in CHANNELS or not src.get("date") or not src.get("ref"): bad("notes", f"{k}: source needs channel, date and ref")
+        if not (n.get("summary") or "").strip(): bad("notes", f"{k}: empty summary")
+        text = (n.get("summary") or "") + json.dumps(n.get("signals") or [])
+        if PAY_TALK.search(text): bad("privacy", f"notes/{k}: talks about pay `{PAY_TALK.search(text).group(0)}`")
+        if SPECIAL.search(text): bad("privacy", f"notes/{k}: special-category detail `{SPECIAL.search(text).group(0)}`")
+        prose = " ".join([text, json.dumps(n.get("mentions_unmatched") or []), str((n.get("source") or {}).get("from") or ""),
+                          str((n.get("source") or {}).get("subject") or "")])
+        if phoneish(prose): bad("privacy", f"notes/{k}: phone-like number")
+        for ref in n.get("about") or []:
+            if not node(ref): bad("references", f"notes/{k}: `{ref}` does not resolve")
+        for sig in n.get("signals") or []:
+            if sig.get("type") not in SIGNALS: bad("notes", f"{k}: signal type `{sig.get('type')}`")
+            for fld in ("person", "company", "counterparty", "search"):
+                v = sig.get(fld)
+                if v and ":" in v and not node(v): bad("references", f"notes/{k}: signal {fld} `{v}` does not resolve")
+        on_file = any(r.startswith("search:") for r in n.get("about") or [])
+        about_search = n.get("kind") in SEARCH_KINDS or any(x.get("type") == "interviewing" for x in n.get("signals") or [])
+        if about_search and not on_file and "not confidential" not in (n.get("search_check") or "").lower():
+            bad("searches", f"notes/{k}: about a search not on file and no Clockwork confidentiality check -- rule 2")
+    if os.path.exists(D("intake_log.json")):
+        for e in json.load(open(D("intake_log.json"))):
+            if set(e) - {"ref", "date", "outcome", "logged"} or not str(e.get("ref", "")).startswith("sha1:"):
+                bad("privacy", f"intake_log: entry carries more than a hash, date and outcome: {str(e)[:60]}")
+
     # ---- derived freshness ----
-    newest_data = max(os.path.getmtime(f) for sub in ("companies", "people", "searches") for f in glob.glob(D(sub, "*.json")))
+    newest_data = max(os.path.getmtime(f) for sub in ("companies", "people", "searches", "notes") for f in glob.glob(D(sub, "*.json")))
     newest_data = max(newest_data, os.path.getmtime(D("relationships.json")))
     for f in glob.glob(D("derived", "*")):
         if os.path.getmtime(f) < newest_data - 5:
@@ -149,6 +184,7 @@ def main():
               "searches": len(searches), "relationships": len(rels),
               "completed searches": sum(1 for s in searches.values() if s.get("status") == "closed" and s.get("closing_reason") == "Placement"),
               "researched people": sum(1 for p in people.values() if p.get("record_grade") == "researched"),
+              "notes": len(notes),
               "Miscellaneous": sum(1 for p in people.values() if p.get("function") == "Miscellaneous")}
     print("brain:", "  ".join(f"{k} {v:,}" for k, v in counts.items()))
     total = sum(len(v) for v in problems.values())
