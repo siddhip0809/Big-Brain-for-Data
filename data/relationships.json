@@ -39127,5 +39127,18 @@
       "https://www.crai.com/industries/energy/data-centers/"
     ],
     "last_updated": "2026-09-16"
+  },
+  {
+    "from": "company:crusoe",
+    "to": "company:polar-dc",
+    "type": "tenant_of",
+    "detail": "Crusoe Cloud is the customer at Polar's DRA01 (Tørdal, Norway), live 2026-10-21 with 12MW; DRA02 (~40MW) planned late 2027.",
+    "status": "active",
+    "confidence": "high",
+    "sources": [
+      "https://www.crusoe.ai/resources/newsroom/polar-crusoe-partnership-expansion"
+    ],
+    "verification": "found by the weekly hiring-signals Routine on 2026-10-26; it published this edge to the atlas but its git push did not land, so the edge was recovered from the published page on 2026-10-29",
+    "last_updated": "2026-10-26"
   }
 ]
