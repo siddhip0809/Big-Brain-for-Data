@@ -78,6 +78,17 @@ out = tpl.replace('__GRAPH_DATA_JSON__', open('viewer/graph3d_data.json').read()
 ```
 
 Artifact URL: `https://claude.ai/code/artifact/46437bf6-d084-4f23-ab65-6a9a58860f25`
+
+**The live page is ahead of this repo (found 2026-11-13). Do not publish a repo build over it.**
+Another session published on 2026-11-12 with data this repo cannot rebuild: 354 more companies
+in tiers the builder does not know (`planning_grid`, `equipment_supply`, `telecom_network`,
+`mission_critical_build`, `capital_projects`, ...), a `region` / `region_basis` on each company,
+and 34 notes carrying `from`, `via`, `subject` and `link`. None of it is on any branch here, and
+the live page in turn lacks this repo's 2026-11-13 work (20 companies, two searches, the
+Clockwork sync). The page *code* is in sync: the template here is the live template (region
+filter, docked notes panel) plus the lean pass. Until the data is reconciled, change the page by
+reading the live artifact, swapping only the template around its `graph-data` JSON, and
+publishing that; `tests/fingerprint.py` with `ATLAS_PAGE` compares before and after.
 It declares the `db` capability (verification flags are stored there), so omit
 `capabilities` on republish to carry the declaration forward.
 

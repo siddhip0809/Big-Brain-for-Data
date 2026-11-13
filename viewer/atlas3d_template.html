@@ -261,6 +261,31 @@
   /* ---- org chart overlay ---- */
   .org{ position:absolute; inset:0; z-index:26; background:var(--bg); flex-direction:column; }
   .org:not([hidden]){ display:flex; }
+  /* ---- What Ward has heard: its own docked panel, bottom-right, always reachable ---- */
+  #notes.org{ position:fixed; inset:auto 16px 68px auto; width:min(560px, calc(100vw - 32px)); height:min(74vh, 760px);
+    z-index:45; background:var(--panel-2); border:1px solid var(--border); border-radius:10px; box-shadow:0 18px 48px rgba(0,0,0,.35); overflow:hidden; }
+  #notes .org-head{ padding:14px 16px 10px; }
+  #notes .org-controls{ width:100%; }
+  #notes .seg{ max-width:100%; overflow-x:auto; }
+  #notes .seg button{ white-space:nowrap; }
+  #notes .org-controls input{ flex:1; width:auto; min-width:140px; }
+  #notes .org-body{ grid-auto-flow:row; grid-template-columns:1fr; grid-auto-columns:auto; padding:12px 14px 16px; }
+  .heard-tab{ position:fixed; right:16px; bottom:16px; z-index:46; display:flex; align-items:center; gap:8px;
+    background:var(--panel-2); color:var(--text); border:1px solid var(--border); border-radius:999px;
+    font-family:var(--font-mono); font-size:12px; letter-spacing:.03em; padding:9px 14px; cursor:pointer;
+    box-shadow:0 8px 22px rgba(0,0,0,.3); transition:right .22s ease; }
+  .heard-tab:hover, .heard-tab[aria-expanded="true"]{ border-color:var(--pure); }
+  .heard-dot{ width:8px; height:8px; border-radius:50%; background:#eb6834; }
+  .heard-count{ background:var(--panel); border:1px solid var(--border); border-radius:999px; padding:1px 7px; font-size:11px; color:var(--text-muted); }
+  .heard-count:empty{ display:none; }
+  body.detail-open .heard-tab{ right:376px; }
+  body.detail-open #notes.org{ right:376px; width:min(560px, calc(100vw - 408px)); }
+  @media (max-width: 760px){
+    #notes.org{ inset:auto 8px 62px 8px; width:auto; height:min(78vh, 760px); }
+    body.detail-open .heard-tab, body.detail-open #notes.org{ right:8px; }
+    body.detail-open .heard-tab{ display:none; }
+    .heard-tab{ right:12px; bottom:12px; }
+  }
   .org-head{
     display:flex; align-items:flex-start; justify-content:space-between; gap:16px;
     padding:16px 20px 12px; border-bottom:1px solid var(--border); flex-wrap:wrap;
@@ -317,6 +342,12 @@
   .pcard .p-more .job .yrs{ font-family:var(--font-mono); font-size:10px; color:var(--text-dim); flex:none; width:96px; }
   .pcard .p-more a{ color:var(--pure); }
   .note-link{ color:var(--pure); cursor:pointer; }
+  .note-mail-head{ display:flex; justify-content:space-between; gap:8px; align-items:baseline; font-size:12px; color:var(--text-muted); }
+  .pill.keep{ background:rgba(235,104,52,.12); color:#c2410c; border-color:rgba(235,104,52,.35); }
+  .note-from{ font-weight:600; color:var(--text); }
+  .note-subject{ font-size:12.5px; font-weight:600; color:var(--text); margin:2px 0 1px; }
+  .note-open{ color:var(--pure); text-decoration:none; font-size:11px; white-space:nowrap; }
+  .notes-from{ background:var(--panel); border:1px solid var(--border); color:var(--text); font-family:var(--font-mono); font-size:12px; padding:7px 8px; border-radius:5px; }
   .note-text{ font-size:12.5px; line-height:1.45; margin:3px 0; color:var(--text); }
   .note-form{ display:flex; flex-direction:column; gap:6px; }
   .note-form textarea, .note-form input, .note-form select{ font:inherit; font-size:12px; background:var(--panel); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:6px 8px; }
@@ -462,10 +493,12 @@
       <button class="theme-btn" id="flowsBtn" style="width:100%; margin-top:8px">Open tier-to-tier matrix</button>
       <p class="field-label" style="margin-top:14px">Ward's own searches <span id="srchCount" class="lg-count"></span></p>
       <button class="theme-btn" id="srchBtn" style="width:100%">Where we have worked</button>
-      <p class="field-label" style="margin-top:14px">What we've heard <span id="notesCount" class="lg-count"></span></p>
-      <button class="theme-btn" id="notesBtn" style="width:100%">Notes: candidates, clients, market</button>
       <div class="seg" id="wardOnly" style="margin-top:8px" title="A client is a company where a search closed because we placed someone. 'Projects on file' adds companies where a search exists in Clockwork but never completed — pitched, cancelled, on hold or still open.">
         <button data-on="0" class="on">All companies</button><button data-on="1">Clients only</button><button data-on="2">+ projects on file</button>
+      </div>
+      <p class="field-label" style="margin-top:14px">Region <span id="regionCount" class="lg-count"></span></p>
+      <div class="seg" id="regionSel" title="Where the company is headquartered (or, with no HQ on file, where its capacity sits)">
+        <button data-r="" class="on">All</button><button data-r="USA">USA</button><button data-r="EMEA">EMEA</button><button data-r="APAC">APAC</button><button data-r="Other">Other</button>
       </div>
     </div>
 
@@ -551,17 +584,21 @@
     </div>
     <div class="org" id="notes" hidden>
       <div class="org-head">
-        <div><h2>What Ward has heard</h2><div class="org-sub" id="notesSub"></div></div>
+        <div><h2>What Ward &amp; consultants have heard</h2><div class="org-sub" id="notesSub"></div></div>
         <div class="org-controls">
           <div class="seg" id="notesKind">
-            <button data-k="" class="on">All</button><button data-k="candidate_update">Candidates</button><button data-k="client">Clients</button><button data-k="search_strategy">Search strategy</button><button data-k="market_intel">Market</button><button data-k="signal">Signals only</button>
+            <button data-k="" class="on">All</button><button data-k="market_intel">Market intel</button><button data-k="candidate_update">Candidates</button><button data-k="client">Clients</button><button data-k="search_strategy">Search strategy</button><button data-k="signal">Signals only</button>
           </div>
-          <input id="notesFilter" type="text" placeholder="filter… (name, company, &quot;open to move&quot;)" autocomplete="off">
+          <select id="notesFrom" class="notes-from" title="Who said it"><option value="">Everyone</option></select>
+          <input id="notesFilter" type="text" placeholder="search… (Microsoft, a name, &quot;open to move&quot;)" autocomplete="off">
           <button class="detail-close" id="notesClose" title="Close">&times;</button>
         </div>
       </div>
       <div class="org-body" id="notesBody"></div>
     </div>
+    <button class="heard-tab" id="notesBtn" aria-expanded="false" aria-controls="notes" title="What Ward and the consultants have heard: candidates, clients, market">
+      <span class="heard-dot"></span>What Ward &amp; consultants heard <span id="notesCount" class="heard-count"></span>
+    </button>
     <div class="org" id="org" hidden>
       <div class="org-head">
         <div><h2 id="orgName">—</h2><div class="org-sub" id="orgSub"></div></div>
@@ -622,7 +659,7 @@
   const notesAbout = {};
   NOTES.forEach(n => (n.about || []).forEach(r => (notesAbout[r] = notesAbout[r] || []).push(n)));
   const NOTE_KIND = { candidate_update: ['Candidate', '#2a78d6'], client_brief: ['Client brief', '#16a34a'], client_feedback: ['Client feedback', '#16a34a'],
-                      search_strategy: ['Search strategy', '#b45309'], market_intel: ['Market', '#eb6834'], relationship: ['Relationship', '#4a3aa7'] };
+                      search_strategy: ['Search strategy', '#b45309'], market_intel: ['Market intel', '#eb6834'], relationship: ['Relationship', '#4a3aa7'] };
   const SIGNAL_LABEL = { open_to_move: 'open to a move', not_looking: 'not looking', moved: 'moved', interviewing: 'interviewing',
                          hiring: 'hiring', target_company: 'target company', deal: 'deal' };
   const personHome = {};     // person id -> [company id, person]
@@ -1089,7 +1126,10 @@
   // 2 = clients plus every company with a project on file in Clockwork that never
   //     completed -- pitched, cancelled, on hold or still open. Kept, but not clients.
   let wardOnly = 0;
+  let regionSel = '';
+  const MAIN_REGIONS = ['USA', 'EMEA', 'APAC'];
   function baseVisible(n){
+    if(regionSel && n.kind === 'company' && (regionSel === 'Other' ? MAIN_REGIONS.includes(n.region) : n.region !== regionSel)) return false;
     if(wardOnly === 1 && !n.is_ward_client) return false;
     if(wardOnly === 2 && !n.ward_worked_with) return false;
     if(n.kind === 'investor') return !!filters.investor;
@@ -1102,6 +1142,12 @@
     // 21 clients rarely have a line to each other, so with "hide unconnected" on
     // this filter would empty the map. Show them regardless while it is narrowed.
     if(wardOnly && isoMode === 'hide') setIsoMode('show');
+    applyFilters();
+  });
+  segmented('regionSel', d => {
+    regionSel = d.r;
+    const cnt = GRAPH.nodes.filter(n => n.kind === 'company' && (!regionSel || (regionSel === 'Other' ? !MAIN_REGIONS.includes(n.region) : n.region === regionSel))).length;
+    document.getElementById('regionCount').textContent = regionSel ? `${cnt} companies` : '';
     applyFilters();
   });
   // unconnected = no line to anything currently shown (recomputed on every filter change)
@@ -1711,6 +1757,7 @@
       html += heardSection(n.id, 'What we\u2019ve heard');
       html += dtText('Role', n.industry_role);
       html += dtText('HQ', n.headquarters);
+      if(n.region) html += dtRow('Region', escapeHtml(n.region) + (n.region_basis ? ` <span class="src">(${escapeHtml(n.region_basis)})</span>` : ''));
       html += dtText('Headcount', n.headcount);
       html += dtText('Founded', n.founded);
       const links = [];
@@ -2189,11 +2236,14 @@
       ['person', 'company', 'counterparty', 'search'].filter(f => x[f]).map(f => ' · ' + escapeHtml(refName(x[f]))).join('') +
       (x.title ? ' · ' + escapeHtml(x.title) : '') + `</span>`).join(' ');
     const links = (n.about || []).map(r => `<a class="note-link" data-ref="${escapeHtml(r)}">${escapeHtml(refName(r))}</a>`).join(' · ');
-    return `<div class="pipeline-entry"><div class="pe-title"><span style="color:${k[1]}">${k[0]}</span> <span class="pe-meta">${escapeHtml(n.date || '')}` +
+    const mail = n.from ? `<div class="note-mail-head"><span><span class="note-from">${escapeHtml(n.from)}</span>${n.via ? ' · ' + escapeHtml(n.via) : ''}</span>` +
+      (n.link ? `<a class="note-open" href="${escapeHtml(n.link)}" target="_blank" rel="noopener">open original &#8599;</a>` : '') + `</div>` +
+      (n.subject ? `<div class="note-subject">${escapeHtml(n.subject)}</div>` : '') : '';
+    return `<div class="pipeline-entry">${mail}<div class="pe-title"><span style="color:${k[1]}">${k[0]}</span> <span class="pe-meta">${escapeHtml(n.date || '')}` +
       (n.basis === 'ward_judgement' ? ' · Ward\u2019s own view, not a reported fact' : '') + (pending ? ' · saved here, not in the brain yet' : '') + `</span>` +
-      (n.discretion ? ` <span class="pill dnc" title="This was told in confidence or the person asked for discretion. Internal to Ward only.">in confidence</span>` : '') + `</div>` +
+      (n.kind === 'market_intel' ? ` <span class="pill keep" title="Company knowledge worth keeping long term">&#9733; keep</span>` : '') + (n.discretion ? ` <span class="pill dnc" title="This was told in confidence or the person asked for discretion. Internal to Ward only.">in confidence</span>` : '') + `</div>` +
       `<div class="note-text">${escapeHtml(n.summary || '')}</div>` + (sig ? `<div>${sig}</div>` : '') +
-      (links ? `<div class="pe-meta">${links}</div>` : '') + (n.src ? `<div class="src">${escapeHtml(n.src)}</div>` : '') + `</div>`;
+      (links ? `<div class="pe-meta">${links}</div>` : '') + (n.src && !n.from ? `<div class="src">${escapeHtml(n.src)}</div>` : '') + `</div>`;
   }
   function heardSection(id, label){
     const heard = notesAbout[id] || [];
@@ -2203,32 +2253,37 @@
   }
   const notesEl = document.getElementById('notes'), notesBody = document.getElementById('notesBody'), notesFilter = document.getElementById('notesFilter');
   let notesKind = '', pendingNotes = [];
+  const notesFromEl = document.getElementById('notesFrom');
+  [...new Set(NOTES.map(n => n.from).filter(Boolean))].sort().forEach(f => notesFromEl.insertAdjacentHTML('beforeend', `<option>${escapeHtml(f)}</option>`));
+  notesFromEl.addEventListener('change', () => renderNotes());
   document.getElementById('notesCount').textContent = NOTES.length ? `${NOTES.length}` : '';
   function renderNotes(){
     const q = notesFilter.value.trim().toLowerCase();
     const kindOk = n => !notesKind || (notesKind === 'client' ? n.kind.startsWith('client') : notesKind === 'signal' ? (n.signals || []).length : n.kind === notesKind);
-    const text = n => [n.summary, n.src, ...(n.about || []).map(refName),
+    const who = notesFromEl.value;
+    const text = n => [n.summary, n.src, n.from, n.subject, n.via, ...(n.about || []).map(refName),
       ...(n.signals || []).flatMap(x => [SIGNAL_LABEL[x.type], refName(x.person), refName(x.company), x.title])].filter(Boolean).join(' ').toLowerCase();
-    const rows = NOTES.filter(n => kindOk(n) && (!q || text(n).includes(q)));
+    const rows = NOTES.filter(n => kindOk(n) && (!who || n.from === who) && (!q || text(n).includes(q)));
     document.getElementById('notesSub').textContent = `${rows.length} of ${NOTES.length} notes · newest first · ` +
-      'from emails, call transcripts, documents and the note box. Contact details and pay are never kept; confidential searches never appear.';
+      'from Outlook, Teams, call transcripts and the note box. Contact details and pay are never kept; confidential searches never appear.';
     const byMonth = {};
     rows.forEach(n => { (byMonth[(n.date || '').slice(0, 7)] = byMonth[(n.date || '').slice(0, 7)] || []).push(n); });
     const form = `<div class="org-col"><div class="org-col-head"><span class="srch-client">Add a note</span><span>${vdb ? 'saved to this page' : 'not available in this view'}</span></div>
       <div class="org-col-body note-form">
         <textarea id="nfText" placeholder="What did you hear? e.g. Jane at Vantage is open to a move after Q1; wants a development role in EMEA."></textarea>
         <div class="row"><select id="nfKind">${Object.entries(NOTE_KIND).map(([k, v]) => `<option value="${k}">${v[0]}</option>`).join('')}</select>
-          <select id="nfBasis"><option value="reported">They told us</option><option value="ward_judgement">My own view</option></select></div>
+          <select id="nfBasis"><option value="reported">They told us</option><option value="ward_judgement">My own view</option></select>
+          <select id="nfFrom" title="Who heard it">${['Siddhi Pandit','Ward','Ensar Aljimi','Neil Ward','David Liddiard','Angela Cáceres'].map(x => `<option>${x}</option>`).join('')}</select></div>
         <input id="nfNames" placeholder="who / which companies it is about, comma separated">
         <label class="src"><input type="checkbox" id="nfConf"> if this is about a search: it is not confidential in Clockwork</label>
         <div class="row"><button class="theme-btn" id="nfSave"${vdb ? '' : ' disabled'}>Save note</button><span class="src" id="nfMsg"></span></div>
         <div class="src">Leave out email addresses, phone numbers, pay and anything about health or family &mdash; the brain never keeps them. Claude adds saved notes to the brain on the next intake run.</div>
         ${pendingNotes.map(x => noteCard(x, true)).join('')}
       </div></div>`;
-    notesBody.innerHTML = form + (Object.entries(byMonth).map(([m, list]) =>
+    notesBody.innerHTML = (Object.entries(byMonth).map(([m, list]) =>
       `<div class="org-col"><div class="org-col-head"><span class="srch-client">${escapeHtml(m || 'undated')}</span><span>${list.length}</span></div>` +
       `<div class="org-col-body">${list.map(x => noteCard(x)).join('')}</div></div>`).join('') ||
-      (NOTES.length ? `<div class="banner-note">No notes match that.</div>` : `<div class="banner-note">No notes yet. Ask Claude to run the email intake, or add one here.</div>`));
+      (NOTES.length ? `<div class="banner-note">No notes match that.</div>` : `<div class="banner-note">No notes yet. Ask Claude to run the email intake, or add one here.</div>`)) + form;
   }
   async function loadPendingNotes(){
     if(!vdb) return;
@@ -2246,7 +2301,8 @@
       msg.textContent = 'take out contact details and pay first'; return; }
     const kind = document.getElementById('nfKind').value;
     const note = { date: new Date().toISOString().slice(0, 10), kind, basis: document.getElementById('nfBasis').value, summary,
-                   names: document.getElementById('nfNames').value.split(',').map(x => x.trim()).filter(Boolean), by: 'Siddhi (atlas note box)',
+                   names: document.getElementById('nfNames').value.split(',').map(x => x.trim()).filter(Boolean),
+                   from: document.getElementById('nfFrom').value, via: 'Atlas note box', by: document.getElementById('nfFrom').value + ' (atlas note box)',
                    search_check: document.getElementById('nfConf').checked ? 'confirmed in the atlas note box: not confidential in Clockwork' : '' };
     try { await vdb.doc('notes_inbox/atlas-' + Date.now().toString(36)).set(note); pendingNotes.unshift(note); renderNotes();
           document.getElementById('nfMsg').textContent = 'saved'; }
@@ -2262,8 +2318,16 @@
     if(personHome[r]){ const c = nodeById[personHome[r][0]]; if(c){ openOrg(c); orgFilter.value = personHome[r][1].name; renderOrg(); } return; }
     if(nodeById[r]) goToNode(nodeById[r]);
   });
-  document.getElementById('notesBtn').addEventListener('click', async () => { notesEl.hidden = false; renderNotes(); await loadPendingNotes(); renderNotes(); });
+  const notesBtn = document.getElementById('notesBtn');
+  new MutationObserver(() => notesBtn.setAttribute('aria-expanded', String(!notesEl.hidden))).observe(notesEl, { attributes:true, attributeFilter:['hidden'] });
+  notesBtn.addEventListener('click', async () => {
+    if(!notesEl.hidden){ notesEl.hidden = true; return; }
+    notesEl.hidden = false; renderNotes(); notesFilter.focus(); await loadPendingNotes(); renderNotes();
+  });
   document.getElementById('notesClose').addEventListener('click', () => { notesEl.hidden = true; });
+  { const det = document.getElementById('detail');
+    const syncDetail = () => document.body.classList.toggle('detail-open', det.classList.contains('open'));
+    new MutationObserver(syncDetail).observe(det, { attributes:true, attributeFilter:['class'] }); syncDetail(); }
   notesFilter.addEventListener('input', renderNotes);
   segmented('notesKind', d => { notesKind = d.k; renderNotes(); });
 
