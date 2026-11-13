@@ -102,7 +102,16 @@ It declares the `db` capability (verification flags are stored there), so omit
 
 ## The page
 
-One file, ~2,000 lines, Three.js r128 from jsdelivr. No bundler.
+One file, ~2,400 lines, Three.js r128 from jsdelivr. No bundler.
+
+- **Use the shared helpers; do not write the markup out again.** `dtRow` / `dtText` (a
+  labelled detail row), `countRows` (name and count pairs), `claimCard` + `tierTag` (a sourced
+  claim with its links and check flags), `segmented(id, onPick)` + `markSeg` (every segmented
+  control), `flyCamera` / `flyNodes` (tweens), `goToNode`, `openSearchesFor`, `drawMatrix`
+  (both talent-flow matrices). A new deal type needs a row in `DEAL_HEADINGS` or it never
+  lists in the detail panel (`consulted_for` was missing until 2026-11-13).
+- The builder prunes null and empty values from nodes, links, people and moves, so read
+  optional fields as `n.tags || []`, never `n.tags.length`.
 
 - **Layout** is a custom O(n²) force simulation over the *visible* nodes only.
   The data-center core sits at the origin; each adjacent industry is a petal on
@@ -149,6 +158,12 @@ scratchpad is wiped with the container, which lost the old ones once):
 python3 viewer/build_graph3d_data.py && python3 tests/build_local.py   # tests/.build/atlas.html
 cd tests && python3 test_toggles.py && python3 test_notes.py
 ```
+
+**Refactoring the page or the builder: fingerprint before and after.** `tests/fingerprint.py
+<out.json>` records what the page renders (counts under every filter, the text of each panel
+for nine companies, every org-chart mode, the matrices, navigation between panels). Build the
+old page to another file and point `ATLAS_PAGE` at it; identical output means identical
+behaviour. Write both outputs to the scratchpad: the `.full` file holds people's names.
 
 `build_local.py` vendors Three.js r128 with `npm pack` (the CDN is unreachable
 here). A fresh container may lack `openpyxl` and the Playwright Python package:

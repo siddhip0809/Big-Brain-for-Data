@@ -4,7 +4,7 @@ import os
 from contextlib import asynccontextmanager
 from playwright.async_api import async_playwright
 
-PAGE = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".build", "atlas.html")
+PAGE = os.environ.get("ATLAS_PAGE") or os.path.join(os.path.dirname(os.path.abspath(__file__)), ".build", "atlas.html")
 
 
 class Checks:

@@ -646,6 +646,12 @@
     }[c]));
   }
 
+  // one labelled row of the detail panel; dtText escapes a plain value and skips an empty one
+  const dtRow = (k, v) => `<div class="dt-row"><div class="dt-k">${k}</div><div class="dt-v">${v}</div></div>`;
+  const dtText = (k, v) => v ? dtRow(k, escapeHtml(v)) : '';
+  // name / count pairs as rows
+  const countRows = pairs => pairs.map(([name, c]) => `<div class="flow-row"><span>${escapeHtml(name)}</span><span>${c}</span></div>`).join('');
+
   // Every claim shows its sources as links so it can be checked. A claim
   // with no URL is flagged -- it came from an earlier research round that
   // recorded only "web research", and has not been independently verified.
@@ -656,6 +662,10 @@
     if(!urls.length) return `<div class="src src-none">no source link — unverified, check before relying on it</div>`;
     return `<div class="src">sources: ${urls.map((u, i) => `<a href="${escapeHtml(u.trim())}" target="_blank" rel="noopener" title="${escapeHtml(u.trim())}">${escapeHtml(domainOf(u.trim()))}</a>`).join(' · ')}</div>`;
   }
+
+  // a sourced claim in the detail panel: who, one line of detail, its sources and its check flags
+  const tierTag = c => `<span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span>`;
+  const claimCard = (title, meta, l) => `<div class="pipeline-entry"><div class="pe-title">${title}</div> <div class="pe-meta">${meta}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
 
   // ---------- verification flags ----------
   // Three checks a person can set on any claim; stored in the artifact's
@@ -700,13 +710,8 @@
 
   // ---------- node/link index ----------
   const nodeById = {};
-  GRAPH.nodes.forEach(n => { n.deg = 0; nodeById[n.id] = n; });
-  GRAPH.links.forEach(l => {
-    l.sourceNode = nodeById[l.source];
-    l.targetNode = nodeById[l.target];
-    if(l.sourceNode) l.sourceNode.deg++;
-    if(l.targetNode) l.targetNode.deg++;
-  });
+  GRAPH.nodes.forEach(n => { nodeById[n.id] = n; });
+  GRAPH.links.forEach(l => { l.sourceNode = nodeById[l.source]; l.targetNode = nodeById[l.target]; });
   // reverse lookups for the detail panel
   const backersOf = {};      // companyId -> [investor node, ...]
   const portfolioOf = {};    // investorId -> [company node, ...]
@@ -774,8 +779,8 @@
   // The data-center core sits in the middle; each adjacent industry is a
   // petal around it, evenly spaced on a ring in the horizontal plane.
   const PETAL_R = 1100, PETAL_SIZE = 210;
-  const VIEW_DIR = { x: 0.55, y: 0.62, z: 0.55 };                    // default camera direction (see OVERVIEW_DIR)
-  const vlen = Math.hypot(VIEW_DIR.x, VIEW_DIR.y, VIEW_DIR.z); const vd = { x: VIEW_DIR.x / vlen, y: VIEW_DIR.y / vlen, z: VIEW_DIR.z / vlen };
+  // default camera direction, unit length: high enough to read the petals around the core
+  const vd = (() => { const x = 0.55, y = 0.62, z = 0.55, l = Math.hypot(x, y, z); return { x: x / l, y: y / l, z: z / l }; })();
   // screen-right and screen-up for that camera: the petal ring lies in this plane
   const rgt = (() => { const x = vd.z, z = -vd.x, l = Math.hypot(x, z); return { x: x / l, y: 0, z: z / l }; })();
   const upv = { x: vd.y * rgt.z - vd.z * rgt.y, y: vd.z * rgt.x - vd.x * rgt.z, z: vd.x * rgt.y - vd.y * rgt.x };
@@ -973,14 +978,18 @@
     settleFrames = 60;
     refitOverview(true);
   }
-  document.getElementById('isoMode').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if(!b) return;
-    setIsoMode(b.dataset.mode); applyFilters();
-  });
-  function setIsoMode(mode){
-    isoMode = mode;
-    [...document.getElementById('isoMode').children].forEach(x => x.classList.toggle('on', x.dataset.mode === mode));
+  // segmented controls. markSeg lights the buttons that pass `test`; segmented() does that for
+  // the one clicked and hands its data-* attributes to `onPick`. Bound once each, at load.
+  const markSeg = (id, test) => [...document.getElementById(id).children].forEach(x => x.classList.toggle('on', test(x)));
+  function segmented(id, onPick){
+    document.getElementById(id).addEventListener('click', (e) => {
+      const b = e.target.closest('button'); if(!b) return;
+      markSeg(id, x => x === b); onPick(b.dataset);
+    });
   }
+  function setIsoMode(mode){ isoMode = mode; markSeg('isoMode', x => x.dataset.mode === mode); }
+  segmented('isoMode', d => { isoMode = d.mode; applyFilters(); });
+  const fillFunctions = sel => FUNCTION_ORDER.forEach(f => sel.add(new Option(f, f)));
   const legendEl = document.getElementById('legend');
   const adjacentIds = CATS.filter(c => c.adjacent).map(c => c.id);
   function addHeading(text, zone){
@@ -1044,7 +1053,7 @@
   // department colouring: switching it on also switches the lines on -- nobody picks
   // "by department" to look at nothing. Both selects (sidebar and matrix) share one state.
   const flowDeptSel = document.getElementById('flowDept');
-  FUNCTION_ORDER.forEach(f => { const o = document.createElement('option'); o.value = f; o.textContent = f; flowDeptSel.appendChild(o); });
+  fillFunctions(flowDeptSel);
   function setFlowDept(v, from){
     flowDept = v; flowDeptSel.value = v;
     const other = document.getElementById('flowsFn'); if(other && from !== 'matrix') other.value = v;
@@ -1052,10 +1061,8 @@
     renderEdgeLegend(); applyFilters();
     if(from === 'sidebar' && !document.getElementById('flows').hidden && typeof renderFlows === 'function') renderFlows();
   }
-  document.getElementById('flowMode').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if(!b) return;
-    flowMode = b.dataset.mode;
-    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+  segmented('flowMode', d => {
+    flowMode = d.mode;
     flowDeptSel.hidden = flowMode !== 'dept';
     if(flowMode === 'dept') lineOn.talent_flow = true;   // renderEdgeLegend redraws the on/off buttons from lineOn
     renderEdgeLegend(); applyFilters();
@@ -1090,10 +1097,8 @@
   }
   document.getElementById('srchCount').textContent =
     `${GRAPH.stats.completed_searches || 0} completed · ${GRAPH.stats.ward_clients || 0} clients`;
-  document.getElementById('wardOnly').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if(!b) return;
-    wardOnly = +b.dataset.on;
-    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+  segmented('wardOnly', d => {
+    wardOnly = +d.on;
     // 21 clients rarely have a line to each other, so with "hide unconnected" on
     // this filter would empty the map. Show them regardless while it is narrowed.
     if(wardOnly && isoMode === 'hide') setIsoMode('show');
@@ -1113,7 +1118,7 @@
 
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(50, width / height, 1, 9000);
-  const OVERVIEW_DIR = new THREE.Vector3(0.55, 0.62, 0.55).normalize(); // high enough to read the petals around the core
+  const OVERVIEW_DIR = new THREE.Vector3(vd.x, vd.y, vd.z);
   const OVERVIEW_CAM = new THREE.Vector3(720, 480, 720);   // both refit to the visible structure below
   const OVERVIEW_TARGET = new THREE.Vector3(0, 0, 0);
   camera.position.copy(OVERVIEW_CAM);
@@ -1140,14 +1145,8 @@
     const r = box.getSize(new THREE.Vector3()).length() / 2;
     OVERVIEW_CAM.copy(OVERVIEW_TARGET).addScaledVector(OVERVIEW_DIR, Math.max(750, r * 2.1));
     if(focusMode) return;
-    if(animateTo){
-      const startCam = camera.position.clone(), startTarget = controls.target.clone();
-      runTween(600, (e) => {
-        camera.position.lerpVectors(startCam, OVERVIEW_CAM, e);
-        controls.target.lerpVectors(startTarget, OVERVIEW_TARGET, e);
-        controls.update();
-      });
-    } else { camera.position.copy(OVERVIEW_CAM); controls.target.copy(OVERVIEW_TARGET); controls.update(); }
+    if(animateTo) flyCamera(OVERVIEW_CAM, OVERVIEW_TARGET, 600);
+    else { camera.position.copy(OVERVIEW_CAM); controls.target.copy(OVERVIEW_TARGET); controls.update(); }
   }
 
   const glowTexture = (() => {
@@ -1272,34 +1271,30 @@
     return out;
   }
   // acquisitions / leases / JVs for the detail panel
+  // deal type, its heading on the source's panel, its heading on the target's (one heading = same both ways)
+  const DEAL_HEADINGS = [
+    ['acquired',          'Acquired',               'Acquired by'],
+    ['tenant_of',         'Leases capacity from',   'Tenants (leases capacity to)'],
+    ['jv_partner',        'Joint-venture partners'],
+    ['contractor_for',    'Builds / engineers for', 'Contractors & engineers'],
+    ['consulted_for',     'Consults for',           'Consultants & advisers'],
+    ['supplies_power_to', 'Supplies power to',      'Power suppliers'],
+    ['site_partner',      'Land / campus partners'],
+  ];
   function dealSections(n){
     const deals = (dealsOf[n.id] || []).filter(d => d.type !== 'talent_flow');
     if(!deals.length) return '';
-    const groups = [
-      ['Acquired',              d => d.type === 'acquired'   && d.dir === 'out'],
-      ['Acquired by',           d => d.type === 'acquired'   && d.dir === 'in'],
-      ['Leases capacity from',  d => d.type === 'tenant_of'  && d.dir === 'out'],
-      ['Tenants (leases capacity to)', d => d.type === 'tenant_of' && d.dir === 'in'],
-      ['Joint-venture partners', d => d.type === 'jv_partner'],
-      ['Builds / engineers for',  d => d.type === 'contractor_for' && d.dir === 'out'],
-      ['Contractors & engineers', d => d.type === 'contractor_for' && d.dir === 'in'],
-      ['Supplies power to',       d => d.type === 'supplies_power_to' && d.dir === 'out'],
-      ['Power suppliers',         d => d.type === 'supplies_power_to' && d.dir === 'in'],
-      ['Land / campus partners',  d => d.type === 'site_partner'],
-    ];
     const hiddenPartners = deals.filter(d => !nodeVisible(d.other)).length;
     let html = hiddenPartners ? `<div class="banner-note">${hiddenPartners} of these partners sit in adjacent-industry petals that are switched off — <a id="showAdjacent" style="color:var(--pure);cursor:pointer">show it</a> to see them in the graph.</div>` : '';
-    groups.forEach(([title, test]) => {
-      const rows = deals.filter(test);
+    DEAL_HEADINGS.forEach(([type, out, inn]) => (inn ? [[out, 'out'], [inn, 'in']] : [[out]]).forEach(([title, dir]) => {
+      const rows = deals.filter(d => d.type === type && (!dir || d.dir === dir));
       if(!rows.length) return;
       html += `<div class="section-label">${title} (${rows.length})</div>`;
       rows.forEach(d => {
-        const c = catById[d.other.category] || {};
         const meta = [d.status, d.confidence ? `confidence: ${d.confidence}` : null].filter(Boolean).join(' · ');
-        html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(d.other.name)} <span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span></div>
-          <div class="pe-meta">${escapeHtml(d.detail || '')}${meta ? '<br>' + escapeHtml(meta) : ''}</div>${sourceLinks(d.sources)}${flagChips(d.key)}</div>`;
+        html += claimCard(escapeHtml(d.other.name) + ' ' + tierTag(catById[d.other.category] || {}), escapeHtml(d.detail || '') + (meta ? '<br>' + escapeHtml(meta) : ''), d);
       });
-    });
+    }));
     return html;
   }
 
@@ -1320,15 +1315,31 @@
     });
   }
 
-  function runTween(duration, onFrame, onDone){
+  function runTween(duration, onFrame){
     const t0 = performance.now();
     (function step(){
       const t = Math.min(1, (performance.now() - t0) / duration);
       const ease = t < 0.5 ? 2*t*t : -1 + (4 - 2*t) * t;
       onFrame(ease);
       if(t < 1) requestAnimationFrame(step);
-      else if(onDone) onDone();
     })();
+  }
+  // ease the camera and its orbit target to a new pose
+  function flyCamera(toCam, toTarget, ms = 650){
+    const fromCam = camera.position.clone(), fromTarget = controls.target.clone();
+    runTween(ms, (e) => {
+      camera.position.lerpVectors(fromCam, toCam, e);
+      controls.target.lerpVectors(fromTarget, toTarget, e);
+      controls.update();
+    });
+  }
+  // ease nodes from where they are to new positions: [[node, [x, y, z]], ...]
+  function flyNodes(moves){
+    const from = moves.map(([n]) => [n.px, n.py, n.pz]);
+    runTween(650, (e) => moves.forEach(([n, to], i) => {
+      const s = from[i];
+      moveNode(n, s[0] + (to[0] - s[0]) * e, s[1] + (to[1] - s[1]) * e, s[2] + (to[2] - s[2]) * e);
+    }));
   }
 
   function setNodeOpacityLive(id, targetOp, targetGlowOp){
@@ -1380,14 +1391,8 @@
 
     // move neighbors into a clean ring around the focused node
     const targets = ringTargetsFor(node, neighbors);
-    const starts = targets.map(t => ({ x: t.node.px, y: t.node.py, z: t.node.pz }));
     targets.forEach(t => displacedIds.add(t.node.id));
-    runTween(650, (ease) => {
-      targets.forEach((t, i) => {
-        const s = starts[i];
-        moveNode(t.node, s.x + (t.x - s.x) * ease, s.y + (t.y - s.y) * ease, s.z + (t.z - s.z) * ease);
-      });
-    });
+    flyNodes(targets.map(t => [t.node, [t.x, t.y, t.z]]));
 
     // fly the camera in close enough to frame the whole ring
     const ringR = Math.min(60 + Math.max(1, neighbors.length) * 8, 260);
@@ -1400,13 +1405,7 @@
     const worldPerPx = (2 * dist * Math.tan((camera.fov * Math.PI / 180) / 2)) / height;
     const camRight = new THREE.Vector3().crossVectors(camera.up, dir).normalize(); // camera-right (dir points target->camera)
     target.addScaledVector(camRight, (panelPx / 2) * worldPerPx);
-    const newCamPos = target.clone().addScaledVector(dir, dist);
-    const startCam = camera.position.clone(), startTarget = controls.target.clone();
-    runTween(650, (ease) => {
-      camera.position.lerpVectors(startCam, newCamPos, ease);
-      controls.target.lerpVectors(startTarget, target, ease);
-      controls.update();
-    });
+    flyCamera(target.clone().addScaledVector(dir, dist), target);
 
     updateFocusUI();
     selectNode(node);
@@ -1427,22 +1426,9 @@
     disposeFocusLines();
 
     // tween every displaced node back to where the layout had settled
-    const moving = [...displacedIds].map(id => nodeById[id]);
-    const starts = moving.map(n => [n.px, n.py, n.pz]);
-    runTween(650, (ease) => {
-      moving.forEach((n, i) => {
-        const s = starts[i], h = n.home;
-        moveNode(n, s[0] + (h[0] - s[0]) * ease, s[1] + (h[1] - s[1]) * ease, s[2] + (h[2] - s[2]) * ease);
-      });
-    });
+    flyNodes([...displacedIds].map(id => [nodeById[id], nodeById[id].home]));
     displacedIds.clear();
-
-    const startCam = camera.position.clone(), startTarget = controls.target.clone();
-    runTween(650, (ease) => {
-      camera.position.lerpVectors(startCam, OVERVIEW_CAM, ease);
-      controls.target.lerpVectors(startTarget, OVERVIEW_TARGET, ease);
-      controls.update();
-    });
+    flyCamera(OVERVIEW_CAM, OVERVIEW_TARGET);
 
     updateFocusUI();
     closeDetail();
@@ -1515,20 +1501,19 @@
     if(linesObj) refreshGroupPositions(linesObj);
   }
 
-  // ---------- labels: nodes with 2+ links always; the rest on hover/select/zoom-in ----------
+  // ---------- labels: ranked and budgeted in the overview, the ring only in focus mode ----------
   const labelEls = new Map();
   function buildLabels(){
     labelsLayer.innerHTML = '';
     labelEls.clear();
     GRAPH.nodes.forEach(n => {
       if(!nodeVisible(n)) return;
-      const always = visDeg[n.id] >= 2;
       const div = document.createElement('div');
       div.className = 'label3d';
       div.textContent = n.name;
       div.hidden = true;
       labelsLayer.appendChild(div);
-      labelEls.set(n.id, { el: div, node: n, always });
+      labelEls.set(n.id, { el: div, node: n });
     });
   }
 
@@ -1564,12 +1549,9 @@
       place(el, zone.x, top + (zone.id === 'core' ? 90 : 60), zone.z);
     });
     if(!focusMode) return updateLabelsRanked(showAll);
-    labelEls.forEach(({ el, node, always }) => {
-      const isSel = node === hoverNode || node === selectedNode;
-      if(focusMode){
-        if(node !== focusedNode && !focusNeighbors.includes(node)){ el.hidden = true; return; } // ring only
-      } else if(!always && !isSel && !showAll){ el.hidden = true; return; }
-      place(el, node.px, node.py, node.pz);
+    labelEls.forEach(({ el, node }) => {   // focus mode: the focused node and its ring only
+      if(node !== focusedNode && !focusNeighbors.includes(node)) el.hidden = true;
+      else place(el, node.px, node.py, node.pz);
     });
   }
 
@@ -1703,9 +1685,9 @@
       const pi = piById[n.parent_industry];
       if(pi){
         const badgeColor = n.is_pure_play ? '#4ade80' : '#f59e0b';
-        html += `<div class="dt-row"><div class="dt-k">Recruiting pool</div><div class="dt-v">` +
+        html += dtRow('Recruiting pool',
           `<span style="color:${badgeColor}; font-weight:600">${n.is_pure_play ? 'Direct-tap' : 'Needs vetting'}</span>` +
-          ` &mdash; ${escapeHtml(pi.name)}<br><span style="color:var(--text-dim); font-size:11.5px">${escapeHtml(pi.note)}</span></div></div>`;
+          ` &mdash; ${escapeHtml(pi.name)}<br><span style="color:var(--text-dim); font-size:11.5px">${escapeHtml(pi.note)}</span>`);
       }
       if(n.roles && n.roles.length){
         html += `<div class="tag-row">${n.roles.map(r => { const c = catById[r] || {}; return `<span class="tag" style="border-color:${c.color}88; color:${c.color}">${escapeHtml(c.name || r)}</span>`; }).join('')}</div>`;
@@ -1714,10 +1696,9 @@
       if(mySearches.length){
         const done = mySearches.filter(x => x.completed), rest = mySearches.filter(x => !x.completed);
         html += `<div class="section-label">Ward history &middot; <a id="openSearches">see all searches &rarr;</a></div>`;
-        html += `<div class="dt-row"><div class="dt-k">Client?</div><div class="dt-v">` + (done.length
+        html += dtRow('Client?', done.length
           ? `<span style="color:#16a34a;font-weight:600">Yes &mdash; ${done.length} search${done.length === 1 ? '' : 'es'} completed with a placement</span>`
-          : `<span style="color:var(--text-muted)">No completed search here.</span> ${rest.length} piece${rest.length === 1 ? '' : 's'} of work that did not finish.`)
-          + `</div></div>`;
+          : `<span style="color:var(--text-muted)">No completed search here.</span> ${rest.length} piece${rest.length === 1 ? '' : 's'} of work that did not finish.`);
         done.slice(0, 6).forEach(x => { html += searchRow(x); });
         if(done.length > 6) html += `<div class="src">+ ${done.length - 6} more completed &mdash; open the searches panel</div>`;
         if(rest.length){
@@ -1728,17 +1709,16 @@
         }
       }
       html += heardSection(n.id, 'What we\u2019ve heard');
-      if(n.industry_role) html += `<div class="dt-row"><div class="dt-k">Role</div><div class="dt-v">${escapeHtml(n.industry_role)}</div></div>`;
-      if(n.headquarters) html += `<div class="dt-row"><div class="dt-k">HQ</div><div class="dt-v">${escapeHtml(n.headquarters)}</div></div>`;
-      if(n.headcount) html += `<div class="dt-row"><div class="dt-k">Headcount</div><div class="dt-v">${escapeHtml(n.headcount)}</div></div>`;
-      if(n.founded) html += `<div class="dt-row"><div class="dt-k">Founded</div><div class="dt-v">${escapeHtml(n.founded)}</div></div>`;
-      const safeUrl = u => (typeof u === 'string' && /^https?:\/\//i.test(u)) ? u : null;
+      html += dtText('Role', n.industry_role);
+      html += dtText('HQ', n.headquarters);
+      html += dtText('Headcount', n.headcount);
+      html += dtText('Founded', n.founded);
       const links = [];
-      if(safeUrl(n.website)) links.push(`<a href="${escapeHtml(n.website)}" target="_blank" rel="noopener" style="color:var(--pure)">Website</a>`);
-      if(safeUrl(n.linkedin)) links.push(`<a href="${escapeHtml(n.linkedin)}" target="_blank" rel="noopener" style="color:var(--pure)">LinkedIn</a>`);
-      if(links.length) html += `<div class="dt-row"><div class="dt-k">Links</div><div class="dt-v">${links.join(' &middot; ')}</div></div>`;
-      if(n.hyperscale_focus) html += `<div class="dt-row"><div class="dt-k">Hyperscale</div><div class="dt-v">${escapeHtml(n.hyperscale_focus)}</div></div>`;
-      if(n.dc_exposure_level) html += `<div class="dt-row"><div class="dt-k">DC exposure</div><div class="dt-v">${escapeHtml(n.dc_exposure_level)}</div></div>`;
+      if(isUrl(n.website)) links.push(`<a href="${escapeHtml(n.website)}" target="_blank" rel="noopener" style="color:var(--pure)">Website</a>`);
+      if(isUrl(n.linkedin)) links.push(`<a href="${escapeHtml(n.linkedin)}" target="_blank" rel="noopener" style="color:var(--pure)">LinkedIn</a>`);
+      if(links.length) html += dtRow('Links', links.join(' &middot; '));
+      html += dtText('Hyperscale', n.hyperscale_focus);
+      html += dtText('DC exposure', n.dc_exposure_level);
       if(n.capacity_mw){
         const regions = { north_america:'N. America', emea:'EMEA', apac:'APAC', south_america:'S. America' };
         const parts = Object.entries(n.capacity_mw).map(([k, v]) => {
@@ -1747,7 +1727,7 @@
           if(v.early_stage_mw) bits.push(`+${Math.round(v.early_stage_mw).toLocaleString()} early-stage`);
           return `<b>${regions[k] || k}</b> ${bits.join(' ')}`;
         });
-        html += `<div class="dt-row"><div class="dt-k">Capacity</div><div class="dt-v">${parts.join('<br>')}</div></div>`;
+        html += dtRow('Capacity', parts.join('<br>'));
       }
       if(n.description) html += `<p>${escapeHtml(n.description)}</p>`;
       if(n.tags && n.tags.length) html += `<div class="tag-row">${n.tags.map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`;
@@ -1756,41 +1736,39 @@
           const rows = Object.entries(attrs || {}).filter(([k, v]) => v && !/^(Type|Date Updated)$/.test(k));
           if(!rows.length) return;
           html += `<div class="section-label">From: ${escapeHtml(list)} list</div>`;
-          rows.forEach(([k, v]) => { html += `<div class="dt-row"><div class="dt-k">${escapeHtml(k)}</div><div class="dt-v">${escapeHtml(v)}</div></div>`; });
+          rows.forEach(([k, v]) => { html += dtRow(escapeHtml(k), escapeHtml(v)); });
         });
       }
       const ppl = PEOPLE[n.id] || [];
       if((n.hires_from && n.hires_from.length) || (n.alumni_at && n.alumni_at.length)){
-        const list = arr => arr.slice(0, 8).map(([name, c]) => `<div class="flow-row"><span>${escapeHtml(name)}</span><span>${c}</span></div>`).join('');
+        const list = arr => countRows(arr.slice(0, 8));
         html += `<div class="section-label">Talent flow${n.recent_joiners ? ` · ${n.recent_joiners} joined in the last 6 months` : ''}</div>`;
         if(n.hires_by_group && Object.keys(n.hires_by_group).length){
           const g = n.hires_by_group, total = Object.values(g).reduce((a, b) => a + b, 0);
           const GROUP_LABEL = { core: 'within the data-center core', adjacent: 'from adjacent industries', investor: 'from investors', outside: 'from outside the industry' };
-          html += `<div class="dt-row"><div class="dt-k">Where from</div><div class="dt-v">` +
-            ['core', 'adjacent', 'investor', 'outside'].filter(k => g[k]).map(k => `<div class="flow-row"><span>${GROUP_LABEL[k]}</span><span>${g[k]} · ${Math.round(100 * g[k] / total)}%</span></div>`).join('') + `</div></div>`;
-          html += `<div class="dt-row"><div class="dt-k">By tier</div><div class="dt-v">${list(n.hires_by_tier)}</div></div>`;
+          html += dtRow('Where from',
+            ['core', 'adjacent', 'investor', 'outside'].filter(k => g[k]).map(k => `<div class="flow-row"><span>${GROUP_LABEL[k]}</span><span>${g[k]} · ${Math.round(100 * g[k] / total)}%</span></div>`).join(''));
+          html += dtRow('By tier', list(n.hires_by_tier));
         }
         if(n.dept_origins && Object.keys(n.dept_origins).length){
-          html += `<div class="dt-row"><div class="dt-k">By department</div><div class="dt-v">` +
+          html += dtRow('By department',
             Object.entries(n.dept_origins).slice(0, 8).map(([fn, origins]) =>
               `<div class="flow-row" style="display:block; margin-bottom:5px"><span style="display:inline-block; width:8px; height:8px; border-radius:2px; background:${cssColor(deptColor(fn))}; margin-right:6px; vertical-align:middle"></span><b style="font-weight:600">${escapeHtml(fn)}</b> <span style="color:var(--text-dim)">&larr;</span> ` +
-              origins.map(([o, c]) => `${escapeHtml(o.replace('Outside the industry · ', 'outside · '))} <span style="font-family:var(--font-mono); color:var(--text-dim)">${c}</span>`).join(' · ') + `</div>`).join('') +
-            `</div></div>`;
+              origins.map(([o, c]) => `${escapeHtml(o.replace('Outside the industry · ', 'outside · '))} <span style="font-family:var(--font-mono); color:var(--text-dim)">${c}</span>`).join(' · ') + `</div>`).join(''));
         }
-        if(n.hires_from && n.hires_from.length) html += `<div class="dt-row"><div class="dt-k">Top sources</div><div class="dt-v">${list(n.hires_from)}</div></div>`;
-        if(n.alumni_at && n.alumni_at.length) html += `<div class="dt-row"><div class="dt-k">Alumni now at</div><div class="dt-v">${list(n.alumni_at)}</div></div>`;
+        if(n.hires_from && n.hires_from.length) html += dtRow('Top sources', list(n.hires_from));
+        if(n.alumni_at && n.alumni_at.length) html += dtRow('Alumni now at', list(n.alumni_at));
         html += `<div class="src">from the previous employer on each mapped person's career history — our pool, not the whole company</div>`;
       }
       if(ppl.length){
         html += `<div class="section-label">People in the brain (${ppl.length}) · <a id="openOrg">Open org chart →</a></div>`;
         if(n.assessed_count){
-          html += `<div class="dt-row"><div class="dt-k">Assessed</div><div class="dt-v">${n.assessed_count} of ${ppl.length} carry a Ward assessment` +
+          html += dtRow('Assessed', `${n.assessed_count} of ${ppl.length} carry a Ward assessment` +
             ((n.top_tier_counts || []).length ? '<br>top tier: ' + n.top_tier_counts.map(([t, c]) => `${escapeHtml(t)} ${c}`).join(' · ') : '') +
-            ((n.skill_counts || []).length ? `<div class="section-label" style="margin:8px 0 2px">High-confidence skills here</div>` + n.skill_counts.map(([s, c]) => `<div class="flow-row"><span>${escapeHtml(s)}</span><span>${c}</span></div>`).join('') : '') +
+            ((n.skill_counts || []).length ? `<div class="section-label" style="margin:8px 0 2px">High-confidence skills here</div>` + countRows(n.skill_counts) : '') +
             (n.urg_counts && Object.keys(n.urg_counts).length ? (() => { const u = n.urg_counts, k = Object.values(u).reduce((a, b) => a + b, 0);
               return `<div class="section-label" style="margin:8px 0 2px">Slate diversity</div><div class="slate"><b>${u.Yes || 0}</b> of ${k} assessed recorded as from an under-represented group` +
-                     `</div><div class="src">Ward's own observation, not self-declared. For slate reporting.</div>`; })() : '') +
-            `</div></div>`;
+                     `</div><div class="src">Ward's own observation, not self-declared. For slate reporting.</div>`; })() : ''));
         }
         groupBy(ppl, 'function').forEach(([fn, rows]) => {
           const lead = rows[0];
@@ -1805,8 +1783,7 @@
         html += `<div class="section-label">Stakes in data-center companies (${stakes.length})</div>`;
         stakes.forEach(p => {
           const c = catById[p.category] || {}, l = backingLink[n.id + '|' + p.id] || {};
-          html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(p.name)} <span style="color:${c.color}; font-size:10.5px">${escapeHtml(c.name || '')}</span></div>
-            <div class="pe-meta">${escapeHtml(l.detail || '')}${l.confidence ? '<br>confidence: ' + escapeHtml(l.confidence) : ''}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
+          html += claimCard(escapeHtml(p.name) + ' ' + tierTag(c), escapeHtml(l.detail || '') + (l.confidence ? '<br>confidence: ' + escapeHtml(l.confidence) : ''), l);
         });
       }
       const backers = backersOf[n.id] || [];
@@ -1815,8 +1792,7 @@
         backers.forEach(b => {
           const l = backingLink[b.id + '|' + n.id] || {};
           const meta = [b.investor_type || 'Investor', l.confidence ? `confidence: ${l.confidence}` : null].filter(Boolean).join(' · ');
-          html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(b.name)}</div>
-            <div class="pe-meta">${l.detail ? escapeHtml(l.detail) + '<br>' : ''}${escapeHtml(meta)}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
+          html += claimCard(escapeHtml(b.name), (l.detail ? escapeHtml(l.detail) + '<br>' : '') + escapeHtml(meta), l);
         });
       } else {
         html += `<div class="banner-note">No investor backing on record yet in this graph.</div>`;
@@ -1825,18 +1801,17 @@
       if(n.notes) html += `<div class="banner-note">${escapeHtml(n.notes)}</div>`;
       html += recordSources(n);
     } else {
-      if(n.investor_type) html += `<div class="dt-row"><div class="dt-k">Type</div><div class="dt-v">${escapeHtml(n.investor_type)}</div></div>`;
-      if(n.hq) html += `<div class="dt-row"><div class="dt-k">HQ</div><div class="dt-v">${escapeHtml(n.hq)}</div></div>`;
-      if(n.aum) html += `<div class="dt-row"><div class="dt-k">AUM</div><div class="dt-v">${escapeHtml(n.aum)}</div></div>`;
-      if(n.notable_deals) html += `<div class="dt-row"><div class="dt-k">Notable deals</div><div class="dt-v">${escapeHtml(n.notable_deals)}</div></div>`;
+      html += dtText('Type', n.investor_type);
+      html += dtText('HQ', n.hq);
+      html += dtText('AUM', n.aum);
+      html += dtText('Notable deals', n.notable_deals);
       const portfolio = portfolioOf[n.id] || [];
       if(portfolio.length){
         html += `<div class="section-label">Portfolio (${portfolio.length})</div>`;
         portfolio.forEach(p => {
-          const c = catById[p.category];
-          const l = backingLink[n.id + '|' + p.id] || {};
-          html += `<div class="pipeline-entry"><div class="pe-title">${escapeHtml(p.name)}</div>
-            <div class="pe-meta"><span style="color:${c.color}">${escapeHtml(c.name)}</span>${l.detail ? ' · ' + escapeHtml(l.detail) : ''}${l.confidence ? ' · confidence: ' + escapeHtml(l.confidence) : ''}</div>${sourceLinks(l.sources)}${l.key ? flagChips(l.key) : ''}</div>`;
+          const c = catById[p.category], l = backingLink[n.id + '|' + p.id] || {};
+          html += claimCard(escapeHtml(p.name), `<span style="color:${c.color}">${escapeHtml(c.name)}</span>` +
+            (l.detail ? ' · ' + escapeHtml(l.detail) : '') + (l.confidence ? ' · confidence: ' + escapeHtml(l.confidence) : ''), l);
         });
       }
       html += dealSections(n);
@@ -1847,11 +1822,7 @@
     const openBtn = document.getElementById('openOrg');
     if(openBtn) openBtn.addEventListener('click', () => openOrg(n));
     const openSrch = document.getElementById('openSearches');
-    if(openSrch) openSrch.addEventListener('click', () => {
-      searchesEl.hidden = false; srchFilter.value = n.name; srchStatus = '';
-      [...document.getElementById('srchStatus').children].forEach(x => x.classList.toggle('on', x.dataset.st === ''));
-      renderSearches();
-    });
+    if(openSrch) openSrch.addEventListener('click', () => openSearchesFor(n.name));
     const showAdj = document.getElementById('showAdjacent');
     if(showAdj) showAdj.addEventListener('click', () => {
       adjacentIds.forEach(id => { filters[id] = true; });
@@ -1975,7 +1946,7 @@
     const earlier = (p.past || []).filter(j => j.same_employer).map(job).join('');
     const notes = [];
     if(p.function_source === 'mapping list') notes.push(`department inferred from the ${escapeHtml(p.department || '')} mapping list, not the title`);
-    if(p.linkedin && /^https?:\/\//i.test(p.linkedin)) notes.push(`<a href="${escapeHtml(p.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>`);
+    if(isUrl(p.linkedin)) notes.push(`<a href="${escapeHtml(p.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>`);
     return `<div class="pcard${isLead ? ' lead' : ''}" data-pid="${escapeHtml(p.id)}">
       <div class="p-name"><span>${escapeHtml(p.name)}</span><span>${pills.join(' ')}</span></div>
       <div class="p-title">${escapeHtml(p.title || '')}</div>
@@ -2079,16 +2050,36 @@
   const flowsEl = document.getElementById('flows'), flowsBody = document.getElementById('flowsBody');
   let flowsScope = 'all', flowsSel = null, flowsView = 'tier', flowsFn = '';
   const flowsFnSel = document.getElementById('flowsFn');
-  FUNCTION_ORDER.forEach(f => { const o = document.createElement('option'); o.value = f; o.textContent = f; flowsFnSel.appendChild(o); });
+  fillFunctions(flowsFnSel);
   flowsFnSel.addEventListener('change', () => { flowsFn = flowsFnSel.value; flowsSel = null; renderFlows(); setFlowDept(flowsFn, 'matrix'); });
-  document.getElementById('flowsView').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if(!b) return;
-    flowsView = b.dataset.view; flowsSel = null;
-    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b)); renderFlows();
-  });
+  segmented('flowsView', d => { flowsView = d.view; flowsSel = null; renderFlows(); });
+  segmented('flowsScope', d => { flowsScope = d.scope; flowsSel = null; renderFlows(); });
   // origin buckets for the by-function view: the four core tiers, then adjacent, investor, and the outside kinds
   const ORIGIN_COLS = m => m.flow_class.startsWith('core') ? m.from_label : m.flow_class.startsWith('adjacent') ? 'Adjacent industries' : m.flow_class.startsWith('investor') ? 'Investor' : m.from_label.replace('Outside the industry · ', 'Outside · ');
   const CORE_TIERS = ['Hyperscaler', 'NeoCloud / AI Infra', 'Cryptomining pivot', 'Data Center Developer / Operator'];
+  // shared by both matrices: `cellHtml(row, n, attrs)` draws a non-empty cell; `picked` is
+  // [heading, movers, html to show above them, show each mover's department] for the selected cell
+  function drawMatrix(sub, rows, cols, cell, rowTot, colTot, total, cellHtml, rowClass, picked){
+    document.getElementById('flowsSub').textContent = `${total} moves · ${sub} · click a number for the people`;
+    let html = `<div class="flows-wrap"><table class="matrix"><thead><tr><th></th>${cols.map(c => `<th class="col">${escapeHtml(c)}</th>`).join('')}<th class="col">total</th></tr></thead><tbody>`;
+    rows.forEach(r => {
+      html += `<tr${rowClass ? rowClass(r) : ''}><th>${escapeHtml(r)}</th>` + cols.map(c => { const k = r + '|' + c, n = cell[k] || 0;
+        return n ? cellHtml(r, n, `data-k="${escapeHtml(k)}" class="${flowsSel === k ? 'sel' : ''}"`) : `<td class="z">·</td>`; }).join('') +
+        `<td class="z"><b>${rowTot[r]}</b></td></tr>`;
+    });
+    html += `<tr class="grp"><th>total</th>${cols.map(c => `<td class="z"><b>${colTot[c]}</b></td>`).join('')}<td class="z"><b>${total}</b></td></tr></tbody></table>`;
+    if(picked){
+      const [heading, list, extra, withFn] = picked;
+      html += `<div style="flex:1;min-width:320px"><div class="section-label">${heading} · ${list.length} people</div>${extra}<div class="flows-list">` +
+        list.map(m => `<div class="pcard" data-company="${escapeHtml(m.to_id)}"><div class="p-name"><span>${escapeHtml(m.person)}</span></div>
+          <div class="p-title">${escapeHtml(m.title || '')} · <b>${escapeHtml(m.to_name)}</b></div>
+          <div class="p-meta">from ${escapeHtml(m.from_name || '?')}${m.start ? ' · since ' + escapeHtml(m.start) : ''}${withFn && m.function ? ' · ' + escapeHtml(m.function) : ''}</div></div>`).join('') + `</div></div>`;
+    }
+    flowsBody.innerHTML = html + '</div>';
+  }
+  const tally = (o, k) => { o[k] = (o[k] || 0) + 1; };
+  const selPair = () => flowsSel ? flowsSel.split('|') : null;
+  const newestFirst = (a, b) => (b.start || '').localeCompare(a.start || '');
   function renderFlows(){
     let moves = GRAPH.talent_moves || [];
     if(flowsScope === 'core') moves = moves.filter(m => m.flow_class === 'core → core');
@@ -2096,73 +2087,41 @@
     if(flowsFn) moves = moves.filter(m => (m.function || 'Miscellaneous') === flowsFn);
     if(flowsView === 'fn') return renderFlowsByFunction(moves);
     const froms = {}, tos = {}, cell = {};
-    moves.forEach(m => { froms[m.from_label] = (froms[m.from_label] || 0) + 1; tos[m.to_label] = (tos[m.to_label] || 0) + 1; const k = m.from_label + '|' + m.to_label; cell[k] = (cell[k] || 0) + 1; });
+    moves.forEach(m => { tally(froms, m.from_label); tally(tos, m.to_label); tally(cell, m.from_label + '|' + m.to_label); });
     const order = lbl => { const i = CORE_TIERS.indexOf(lbl); return i >= 0 ? i : lbl.startsWith('Outside') ? 50 : lbl === 'Investor' ? 40 : 20; };
     const rows = Object.keys(froms).sort((a, b) => order(a) - order(b) || froms[b] - froms[a]);
     const cols = Object.keys(tos).sort((a, b) => order(a) - order(b) || tos[b] - tos[a]);
-    document.getElementById('flowsSub').textContent = `${moves.length} moves · rows = previous employer's tier, columns = current employer's tier · click a number for the people`;
-    let html = `<div class="flows-wrap"><table class="matrix"><thead><tr><th></th>${cols.map(c => `<th class="col">${escapeHtml(c)}</th>`).join('')}<th class="col">total</th></tr></thead><tbody>`;
     let lastGroup = null;
-    rows.forEach(r => {
+    const rowClass = r => {   // a rule above the first row of each group: core, adjacent, investor, outside
       const grp = order(r) >= 50 ? 'outside' : order(r) === 40 ? 'investor' : order(r) >= 20 ? 'adjacent' : 'core';
-      const cls = grp !== lastGroup && lastGroup !== null ? ' class="grp"' : ''; lastGroup = grp;
-      html += `<tr${cls}><th>${escapeHtml(r)}</th>` + cols.map(c => { const n = cell[r + '|' + c] || 0; const k = r + '|' + c;
-        return n ? `<td data-k="${escapeHtml(k)}" class="${flowsSel === k ? 'sel' : ''}" style="background:rgba(14,116,144,${Math.min(0.08 + n / 60, 0.65)})">${n}</td>` : `<td class="z">·</td>`; }).join('') +
-        `<td class="z"><b>${froms[r]}</b></td></tr>`;
-    });
-    html += `<tr class="grp"><th>total</th>${cols.map(c => `<td class="z"><b>${tos[c]}</b></td>`).join('')}<td class="z"><b>${moves.length}</b></td></tr></tbody></table>`;
-    if(flowsSel){
-      const [fr, to] = flowsSel.split('|');
-      const list = moves.filter(m => m.from_label === fr && m.to_label === to).sort((a, b) => (b.start || '').localeCompare(a.start || ''));
-      html += `<div style="flex:1;min-width:320px"><div class="section-label">${escapeHtml(fr)} → ${escapeHtml(to)} · ${list.length} people</div><div class="flows-list">` +
-        list.map(m => `<div class="pcard" data-company="${escapeHtml(m.to_id)}"><div class="p-name"><span>${escapeHtml(m.person)}</span></div>
-          <div class="p-title">${escapeHtml(m.title || '')} · <b>${escapeHtml(m.to_name)}</b></div>
-          <div class="p-meta">from ${escapeHtml(m.from_name || '?')}${m.start ? ' · since ' + escapeHtml(m.start) : ''}${m.function ? ' · ' + escapeHtml(m.function) : ''}</div></div>`).join('') + `</div></div>`;
-    }
-    flowsBody.innerHTML = html + '</div>';
+      const cls = grp !== lastGroup && lastGroup !== null ? ' class="grp"' : ''; lastGroup = grp; return cls;
+    };
+    const sel = selPair();
+    drawMatrix(`rows = previous employer's tier, columns = current employer's tier`, rows, cols, cell, froms, tos, moves.length,
+      (r, n, attrs) => `<td ${attrs} style="background:rgba(14,116,144,${Math.min(0.08 + n / 60, 0.65)})">${n}</td>`, rowClass,
+      sel && [`${escapeHtml(sel[0])} → ${escapeHtml(sel[1])}`, moves.filter(m => m.from_label === sel[0] && m.to_label === sel[1]).sort(newestFirst), '', true]);
   }
   // rows = the department people work in now, columns = where they came from
   function renderFlowsByFunction(moves){
-    const cell = {}, rowTot = {}, colTot = {};
-    moves.forEach(m => { const r = m.function || 'Miscellaneous', c = ORIGIN_COLS(m); const k = r + '|' + c;
-      cell[k] = (cell[k] || 0) + 1; rowTot[r] = (rowTot[r] || 0) + 1; colTot[c] = (colTot[c] || 0) + 1; });
+    const cell = {}, rowTot = {}, colTot = {}, fnOf = m => m.function || 'Miscellaneous';
+    moves.forEach(m => { const r = fnOf(m), c = ORIGIN_COLS(m); tally(cell, r + '|' + c); tally(rowTot, r); tally(colTot, c); });
     const colOrder = c => { const i = CORE_TIERS.indexOf(c); return i >= 0 ? i : c === 'Adjacent industries' ? 10 : c === 'Investor' ? 11 : 20; };
     const rows = FUNCTION_ORDER.filter(f => rowTot[f]).concat(Object.keys(rowTot).filter(f => !FUNCTION_ORDER.includes(f)));
     const cols = Object.keys(colTot).sort((a, b) => colOrder(a) - colOrder(b) || colTot[b] - colTot[a]);
-    document.getElementById('flowsSub').textContent = `${moves.length} moves · rows = the department people work in now, columns = where they came from · click a number for the people`;
-    let html = `<div class="flows-wrap"><table class="matrix"><thead><tr><th></th>${cols.map(c => `<th class="col">${escapeHtml(c)}</th>`).join('')}<th class="col">total</th></tr></thead><tbody>`;
-    rows.forEach(r => {
-      html += `<tr><th>${escapeHtml(r)}</th>` + cols.map(c => { const n = cell[r + '|' + c] || 0, k = r + '|' + c;
-        const pct = Math.round(100 * n / rowTot[r]);
-        return n ? `<td data-k="${escapeHtml(k)}" class="${flowsSel === k ? 'sel' : ''}" style="background:rgba(14,116,144,${Math.min(0.08 + pct / 120, 0.65)})" title="${pct}% of ${escapeHtml(r)} hires">${n}<div class="pct">${pct}%</div></td>` : `<td class="z">·</td>`; }).join('') +
-        `<td class="z"><b>${rowTot[r]}</b></td></tr>`;
-    });
-    html += `<tr class="grp"><th>total</th>${cols.map(c => `<td class="z"><b>${colTot[c]}</b></td>`).join('')}<td class="z"><b>${moves.length}</b></td></tr></tbody></table>`;
-    if(flowsSel){
-      const [fn, origin] = flowsSel.split('|');
-      const list = moves.filter(m => (m.function || 'Miscellaneous') === fn && ORIGIN_COLS(m) === origin).sort((a, b) => (b.start || '').localeCompare(a.start || ''));
-      const srcs = {}; list.forEach(m => { srcs[m.from_name] = (srcs[m.from_name] || 0) + 1; });
-      const top = Object.entries(srcs).sort((a, b) => b[1] - a[1]).slice(0, 12);
-      html += `<div style="flex:1;min-width:320px"><div class="section-label">${escapeHtml(fn)} ← ${escapeHtml(origin)} · ${list.length} people</div>
-        <div class="dt-row"><div class="dt-k">Top sources</div><div class="dt-v">${top.map(([n, c]) => `<div class="flow-row"><span>${escapeHtml(n)}</span><span>${c}</span></div>`).join('')}</div></div><div class="flows-list">` +
-        list.map(m => `<div class="pcard" data-company="${escapeHtml(m.to_id)}"><div class="p-name"><span>${escapeHtml(m.person)}</span></div>
-          <div class="p-title">${escapeHtml(m.title || '')} · <b>${escapeHtml(m.to_name)}</b></div>
-          <div class="p-meta">from ${escapeHtml(m.from_name || '?')}${m.start ? ' · since ' + escapeHtml(m.start) : ''}</div></div>`).join('') + `</div></div>`;
-    }
-    flowsBody.innerHTML = html + '</div>';
+    const sel = selPair(), list = sel && moves.filter(m => fnOf(m) === sel[0] && ORIGIN_COLS(m) === sel[1]).sort(newestFirst);
+    const srcs = {}; (list || []).forEach(m => tally(srcs, m.from_name));
+    drawMatrix('rows = the department people work in now, columns = where they came from', rows, cols, cell, rowTot, colTot, moves.length,
+      (r, n, attrs) => { const pct = Math.round(100 * n / rowTot[r]);
+        return `<td ${attrs} style="background:rgba(14,116,144,${Math.min(0.08 + pct / 120, 0.65)})" title="${pct}% of ${escapeHtml(r)} hires">${n}<div class="pct">${pct}%</div></td>`; }, null,
+      sel && [`${escapeHtml(sel[0])} ← ${escapeHtml(sel[1])}`, list, ' ' + dtRow('Top sources', countRows(Object.entries(srcs).sort((a, b) => b[1] - a[1]).slice(0, 12)))]);
   }
   document.getElementById('flowsBtn').addEventListener('click', () => { flowsEl.hidden = false; renderFlows(); });
   document.getElementById('flowsClose').addEventListener('click', () => { flowsEl.hidden = true; });
-  document.getElementById('flowsScope').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if(!b) return;
-    flowsScope = b.dataset.scope; flowsSel = null;
-    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b)); renderFlows();
-  });
   flowsBody.addEventListener('click', (e) => {
     const td = e.target.closest('td[data-k]');
     if(td){ flowsSel = flowsSel === td.dataset.k ? null : td.dataset.k; renderFlows(); return; }
     const card = e.target.closest('.pcard[data-company]');
-    if(card){ const n = nodeById[card.dataset.company]; if(n){ flowsEl.hidden = true; if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); } }
+    if(card){ const n = nodeById[card.dataset.company]; if(n){ flowsEl.hidden = true; goToNode(n); } }
   });
 
   // ---------- Ward's own searches ----------
@@ -2200,16 +2159,22 @@
   document.getElementById('srchBtn').addEventListener('click', () => { searchesEl.hidden = false; renderSearches(); });
   document.getElementById('srchClose').addEventListener('click', () => { searchesEl.hidden = true; });
   srchFilter.addEventListener('input', renderSearches);
-  document.getElementById('srchStatus').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if(!b) return;
-    srchStatus = b.dataset.st;
-    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+  segmented('srchStatus', d => { srchStatus = d.st; renderSearches(); });
+  // open the searches panel on one client or search, across every status
+  function openSearchesFor(text){
+    searchesEl.hidden = false; srchFilter.value = text; srchStatus = '';
+    markSeg('srchStatus', x => x.dataset.st === '');
     renderSearches();
-  });
+  }
+  // bring a node into view (it may be hidden as unconnected) and focus it
+  function goToNode(n){
+    if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); }
+    enterFocus(n);
+  }
   srchBody.addEventListener('click', (e) => {
     const c = e.target.closest('.srch-client'); if(!c) return;
     const n = nodeById[c.dataset.company];
-    if(n){ searchesEl.hidden = true; if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); selectNode(n); }
+    if(n){ searchesEl.hidden = true; goToNode(n); }
   });
 
   // ---------- notes: what Ward has heard ----------
@@ -2293,21 +2258,14 @@
     const a = e.target.closest('.note-link'); if(!a) return;
     const r = a.dataset.ref;
     notesEl.hidden = true;
-    if(r.startsWith('search:')){ searchesEl.hidden = false; srchFilter.value = refName(r); srchStatus = '';
-      [...document.getElementById('srchStatus').children].forEach(x => x.classList.toggle('on', x.dataset.st === '')); renderSearches(); return; }
+    if(r.startsWith('search:')) return openSearchesFor(refName(r));
     if(personHome[r]){ const c = nodeById[personHome[r][0]]; if(c){ openOrg(c); orgFilter.value = personHome[r][1].name; renderOrg(); } return; }
-    const n = nodeById[r];
-    if(n){ if(!nodeVisible(n)){ setIsoMode('show'); applyFilters(); } enterFocus(n); selectNode(n); }
+    if(nodeById[r]) goToNode(nodeById[r]);
   });
   document.getElementById('notesBtn').addEventListener('click', async () => { notesEl.hidden = false; renderNotes(); await loadPendingNotes(); renderNotes(); });
   document.getElementById('notesClose').addEventListener('click', () => { notesEl.hidden = true; });
   notesFilter.addEventListener('input', renderNotes);
-  document.getElementById('notesKind').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if(!b) return;
-    notesKind = b.dataset.k;
-    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
-    renderNotes();
-  });
+  segmented('notesKind', d => { notesKind = d.k; renderNotes(); });
 
   function openOrg(company){
     orgCompany = company; orgFilter.value = '';
@@ -2317,12 +2275,7 @@
   function closeOrg(){ org.hidden = true; orgCompany = null; }
   document.getElementById('orgClose').addEventListener('click', closeOrg);
   orgFilter.addEventListener('input', renderOrg);
-  document.getElementById('orgMode').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if(!b) return;
-    orgMode = b.dataset.mode;
-    [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
-    renderOrg();
-  });
+  segmented('orgMode', d => { orgMode = d.mode; renderOrg(); });
   org.addEventListener('click', (e) => {
     const tt = e.target.closest('.titles-toggle');
     if(tt){ const box = tt.closest('.org-col').querySelector('.org-titles'); box.hidden = !box.hidden; return; }

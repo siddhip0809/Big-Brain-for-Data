@@ -183,7 +183,9 @@ for path in sorted(glob.glob(os.path.join(PEOPLE_DIR, "*.json"))):
             for c in d.get("career", []) if c.get("company") and not c.get("current")]
     people.setdefault(cid, []).append({
         "id": d["id"], "name": d["name"], "title": d.get("current_title"),
-        "function": d.get("function") or "Miscellaneous", "function_source": d.get("function_source"),
+        "function": d.get("function") or "Miscellaneous",
+        # the page only ever asks whether the department came from a mapping list
+        "function_source": "mapping list" if d.get("function_source") == "mapping list" else None,
         "rank": d.get("seniority_rank", 5), "seniority": d.get("seniority_label"),
         "location": d.get("location"), "loc": d.get("location_norm"), "linkedin": d.get("linkedin"),
         "department": d.get("department"), "do_not_contact": bool(d.get("do_not_contact")),
@@ -379,8 +381,8 @@ out = {
               "generated": date.today().isoformat()},
 }
 
-# drop null/empty values from the people payload -- most directory-grade records
-# have no location, career or pipeline, and the page treats missing as absent
+# drop null/empty values -- most directory-grade people have no location, career or
+# pipeline, most companies no capacity or tags -- the page treats missing as absent
 EMPTY = (None, "", [], {}, False)
 def is_empty(v):
     # `0 in (..., False)` is True in Python, so a plain `not in` test silently drops
@@ -391,12 +393,13 @@ def prune(o):
     if isinstance(o, dict): return {k: prune(v) for k, v in o.items() if not is_empty(v)}
     if isinstance(o, list): return [prune(x) for x in o]
     return o
-out["people"] = {cid: [prune(p) for p in ppl] for cid, ppl in out["people"].items()}
-out["talent_moves"] = [prune(m) for m in out["talent_moves"]]
+for key in ("nodes", "links", "people", "talent_moves"):
+    out[key] = prune(out[key])
 
 out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "graph3d_data.json")
 with open(out_path, "w") as f:
-    json.dump(out, f)
+    # no padding: it is embedded in the page. "</" is escaped so no text can close the script tag.
+    f.write(json.dumps(out, separators=(",", ":")).replace("</", "<\\/"))
 
 print("companies:", len(company_files), "| DC-tier:", dc_companies, "| adjacent-only:", adjacent_only,
       "| multi-role:", multi_role)
