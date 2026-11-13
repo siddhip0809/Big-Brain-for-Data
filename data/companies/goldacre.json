@@ -1,0 +1,31 @@
+{
+  "id": "goldacre",
+  "type": "company",
+  "name": "Goldacre",
+  "aliases": [
+    "Goldacre Noe Group",
+    "Goldacre (Noe Group)"
+  ],
+  "roles": [
+    "real_estate_developer"
+  ],
+  "parent_industry": "real_estate",
+  "industry_role": "London-based digital-infrastructure investor; the venture arm of the Noe Group family office",
+  "headquarters": "London, United Kingdom",
+  "founded": null,
+  "website": "https://noegroup.co.uk",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Founding investor in Kao Data (Harlow), where it held 15% after the Infratil / L&G deal. Development and funding partner with Legal & General and sineQN on a GBP 750m hyperscale data centre in Newham, London, which has planning consent. Also formed a JV with Levinstein for a 16 MW data centre in Israel.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Ward client (Clockwork search 'Development Director'). Investor and development partner: founding investor in Kao Data; with Legal & General, development and funding partner for sineQN's hyperscale campus in Newham. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://group.legalandgeneral.com/en/newsroom/press-releases/planning-consent-secured-by-l-g-goldacre-and-sineqn-for-750m-hyperscale-data-centre-investment-in-newham-london",
+    "https://kaodata.com/news/kao-data-welcomes-infratil-limited",
+    "https://noegroup.co.uk/people/david-bloom",
+    "https://capacitymedia.com/article/2azfu1m5mkz0g1bvagqgw/news/kao-data-investor-goldacre-to-build-16mw-tel-aviv-data-centre"
+  ],
+  "last_updated": "2026-10-30"
+}

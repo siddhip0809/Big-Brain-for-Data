@@ -1,0 +1,30 @@
+{
+  "id": "kirby-group-engineering",
+  "type": "company",
+  "name": "Kirby Group Engineering",
+  "aliases": [
+    "Kirby Group",
+    "Kirby"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Mechanical and electrical contractor with specialist HV/MV design and construction; data centres are its main growth market",
+  "headquarters": "Limerick, Ireland",
+  "founded": null,
+  "website": "https://www.kirbygroup.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Founded in Limerick in 1964 and operating in Ireland, the UK and mainland Europe; said in 2021 that most of its growth would come from new data-centre projects after delivering several hyperscale data centres in 2020.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": " Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.kirbygroup.com/about-us/history/",
+    "https://constructionnews.ie/kirby-group-engineering-announces-300-new-jobs/",
+    "https://www.engineersireland.ie/Engineers-Journal/News/kirby-group-engineering-announces-creation-of-300-jobs"
+  ],
+  "last_updated": "2026-10-30"
+}

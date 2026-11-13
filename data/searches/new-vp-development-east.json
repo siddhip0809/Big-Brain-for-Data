@@ -2,9 +2,9 @@
   "id": "d725e4d1-ee48-4e20-8a0d-50895cf16ec9",
   "type": "search",
   "name": "New VP, Development East",
-  "client_company": "STACK Infrastructure",
+  "client_company": "STACK Americas",
   "client_company_id": "stack-infrastructure",
-  "status": "active",
+  "status": "on_hold",
   "project_type": "Retained",
   "started_at": "2026-09-10",
   "closed_at": null,
@@ -21,7 +21,8 @@
     "out": 0
   },
   "sources": [
-    "Clockwork API, pulled 2026-09-10"
+    "Clockwork API, pulled 2026-09-10",
+    "Clockwork API, re-checked 2026-10-30"
   ],
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-10-30"
 }

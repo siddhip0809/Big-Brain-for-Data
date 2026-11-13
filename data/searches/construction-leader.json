@@ -1,18 +1,23 @@
 {
   "id": "59ac0240-c3e7-4cb8-88e3-3be1bb64cdc7",
   "type": "search",
-  "name": "Construction Leader",
-  "client_company": "STACK Infrastructure",
+  "name": "VP Delivery",
+  "client_company": "STACK Americas",
   "client_company_id": "stack-infrastructure",
-  "status": "active",
+  "status": "closed",
   "project_type": "Contingency",
-  "started_at": "2026-07-20",
-  "closed_at": null,
-  "closing_reason": null,
+  "started_at": "2026-10-01",
+  "closed_at": "2026-10-29",
+  "closing_reason": "Placement",
   "strategy": null,
   "job_description": null,
   "job_requirements": null,
-  "placement": null,
+  "placement": {
+    "person": null,
+    "person_id": null,
+    "title": "VP Delivery",
+    "start_date": null
+  },
   "pipeline": [
     {
       "person": "Meg Davis",
@@ -31,7 +36,8 @@
     "out": 0
   },
   "sources": [
-    "Clockwork API, pulled 2026-09-10"
+    "Clockwork API, pulled 2026-09-10",
+    "Clockwork API, re-checked 2026-10-30"
   ],
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-10-30"
 }

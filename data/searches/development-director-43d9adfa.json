@@ -3,7 +3,7 @@
   "type": "search",
   "name": "Development Director",
   "client_company": "Goldacre",
-  "client_company_id": null,
+  "client_company_id": "goldacre",
   "status": "active",
   "project_type": "Contingency",
   "started_at": "2026-07-31",
@@ -132,5 +132,5 @@
   "sources": [
     "Clockwork API, pulled 2026-09-10"
   ],
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-10-30"
 }

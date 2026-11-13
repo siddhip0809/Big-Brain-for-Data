@@ -39140,5 +39140,425 @@
     ],
     "verification": "found by the weekly hiring-signals Routine on 2026-10-26; it published this edge to the atlas but its git push did not land, so the edge was recovered from the published page on 2026-10-29",
     "last_updated": "2026-10-26"
+  },
+  {
+    "from": "investor:partners-group",
+    "to": "company:avk",
+    "type": "invested_in",
+    "detail": "Majority stake via initial investment of more than USD 1bn (equity plus debt) from its fourth direct infrastructure programme; management keeps a minority stake. Announced 6 August 2026.",
+    "status": "announced",
+    "confidence": "high",
+    "sources": [
+      "https://datacentrereview.com/2026/08/partners-group-takes-majority-stake-in-avk-with-1-billion-investment/",
+      "https://www.pehub.com/partners-group-to-acquire-majority-stake-in-avk-power/",
+      "https://www.arrowpointadvisory.com/our-transactions/avk-power-solutions-sells-majority-stake-to-partners-group/"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:avk",
+    "to": "company:pure-data-centers",
+    "type": "supplies_power_to",
+    "detail": "110 MW on-site microgrid (three energy centres of up to 30 MW plus BESS) at Pure DC's Dublin campus; EC1 and EC2 due fully operational by end-2026. Announced March 2026.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://w.media/pure-dc-launches-large-scale-on-site-data-center-microgrid-in-dublin/",
+      "https://www.modernpowersystems.com/news/europes-first-110-mw-data-centre-microgrid-launches-in-dublin/",
+      "https://gasprocessingnews.com/news/2026/03/pure-dc-and-avk-deploy-europes-first-data-center-microgrid/"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:flex",
+    "to": "company:anord-mardix",
+    "type": "acquired",
+    "detail": "USD 540m cash from Bertram Capital; agreed October 2021, closed 1 December 2021.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.irishtimes.com/business/technology/dundalk-based-anord-mardix-acquired-in-540m-deal-1.4704685",
+      "https://www.streetinsider.com/Corporate+News/Flex+Ltd.+%28FLEX%29+to+Acquire+Anord+Mardix+for+%24540M+Cash/19070437.html"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "investor:partners-group",
+    "to": "company:life-cycle-power",
+    "type": "acquired",
+    "detail": "Agreed to acquire from an Arroyo Investors partnership, price undisclosed (October 2025), to grow it into a mobile power provider for US data-centre and industrial customers.",
+    "status": "announced",
+    "confidence": "high",
+    "sources": [
+      "https://realassets.ipe.com/news/partners-group-to-buy-us-mobile-power-provider-life-cycle-power/10133193.article",
+      "https://www.cliffordchance.com/news/news/2025/10/clifford-chance-advises-partners-group-on-acquisition-of-life-cy.html"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:laing-o-rourke",
+    "to": "company:khazna-data-centers",
+    "type": "contractor_for",
+    "detail": "Design-and-build main contractor: 21.45 MW Dubai data centre (Nov 2022, its fifth Khazna data centre) and later Pods 4, 5 and 6 in Dubai and Abu Dhabi.",
+    "status": "ongoing",
+    "confidence": "high",
+    "sources": [
+      "https://laingorourke.com/company/news/2022/laing-o-rourke-wins-khazna-data-centre-project-in-the-heart-of-dubai-design-district",
+      "https://www.worldconstructionnetwork.com/news/newskhazna-data-centres-appoints-laing-orourke-for-expansion-project-in-dubai-abu-dhabi-5940329"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:laing-o-rourke",
+    "to": "company:pure-data-centers",
+    "type": "contractor_for",
+    "detail": "Contractor on Pure DC's Yas Island campus in Abu Dhabi; first data hall handed over 27 February 2025.",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://www.laingorourke.com/company/news/2025/laing-o-rourke-achieves-major-milestone-for-pure-data-centres-in-abu-dhabi/",
+      "https://puredc.com/2025/03/14/laing-orourke-achieves-major-milestone-for-pure-data-centres-in-abu-dhabi"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:skanska-uk",
+    "to": "company:virtus-data-centers",
+    "type": "contractor_for",
+    "detail": "Design and build of VIRTUS LONDON11, about GBP 53m (2021).",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.skanska.com/group/en/media/press-releases/2021/skanska-builds-data-center-in-london-uk-for-gbp-53m-about-sek-620m"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:skanska-uk",
+    "to": "company:telehouse",
+    "type": "contractor_for",
+    "detail": "GBP 158m fit-out and construction at Telehouse South, London Docklands (2023); main works expected to finish by June 2024.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.skanska.com/group/en/media/press-releases/2023/skanska-delivers-fit-out-and-construction-work-for-data-centre-in-london-uk-for-gbp-158m-about-sek-2.1-billion"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:jones-engineering",
+    "to": "company:telehouse",
+    "type": "contractor_for",
+    "detail": "Mechanical, electrical and fire-protection contractor alongside lead contractor Flynn on Telehouse West Two, a GBP 275m Docklands data centre due 2028 (Oct 2025).",
+    "status": "under way",
+    "confidence": "high",
+    "sources": [
+      "https://bdaily.co.uk/articles/2025/10/21/data-centre-firm-begins-275-million-expansion"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:mercury-engineering",
+    "to": "company:global-technical-realty",
+    "type": "contractor_for",
+    "detail": "Named GTR's construction partner in 2020; prime contractor on the 40.5 MW GB One campus near London.",
+    "status": "ongoing",
+    "confidence": "high",
+    "sources": [
+      "https://www.mercuryeng.com/2020/05/28/mercury-construction-partner-global-technical-realty-gtr/",
+      "https://www.mercuryeng.com/2023/02/09/mercury-committed-to-delivering-gtrs-vision-on-40-5mw-gb-one-data-centre-near-london-uk/"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:cts-nordics",
+    "to": "company:nordicepod",
+    "type": "invested_in",
+    "detail": "Former parent; co-investor with Eaton in NordicEPOD's 2024 strategic investment.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://www.businesswire.com/news/home/20240531679365/en/Eaton-Expands-Reach-into-European-Data-Center-Market-by-Making-Strategic-Investment-in-NordicEPOD",
+      "https://m.digitalisationworld.com/news/67782/nordicepod-secures-investment-from-eaton-and-cts-nordics"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:tetra-tech",
+    "to": "company:rps",
+    "type": "acquired",
+    "detail": "About GBP 636m (222p per share), completed 24 January 2023.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://canadianconsultingengineer.com/tetra-tech-to-acquire-rps-group",
+      "https://www.tetratecheurope.com/wp-content/uploads/2024/05/Tetra-Tech-Completes-RPS-Acquisition24-Jan-2023.pdf"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:goldacre",
+    "to": "company:kao-data",
+    "type": "invested_in",
+    "detail": "Founding investor; 15% after Infratil took 53% and L&G Capital 32%.",
+    "status": "completed",
+    "confidence": "high",
+    "sources": [
+      "https://kaodata.com/news/kao-data-welcomes-infratil-limited",
+      "https://datacentremagazine.com/data-centres/david-bloom-appointed-as-new-kao-data-chairman-for-growth"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:goldacre",
+    "to": "company:sineqn",
+    "type": "jv_partner",
+    "detail": "With Legal & General: development and funding partners for sineQN's GBP 750m hyperscale data centre in Newham, London, which has planning consent.",
+    "status": "announced",
+    "confidence": "high",
+    "sources": [
+      "https://group.legalandgeneral.com/en/newsroom/press-releases/planning-consent-secured-by-l-g-goldacre-and-sineqn-for-750m-hyperscale-data-centre-investment-in-newham-london"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:ed-whitney-04cf91d7",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:dr-margarita-redondo-d2b3bfb5",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "3c. Interviewing (in-offered)",
+    "status": "3c. Interviewing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:robert-smith-36efe2d7",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "2d. CV Received / Scheduling Full Assessment (in-contenders)",
+    "status": "2d. CV Received / Scheduling Full Assessment",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:carsten-schicht-47d47865",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "2c. Position Pitched (in-contenders)",
+    "status": "2c. Position Pitched",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:tom-kingham-7bf4dc06",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "2c. Position Pitched (in-contenders)",
+    "status": "2c. Position Pitched",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:mike-golding-dbabd045",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "2c. Position Pitched (in-contenders)",
+    "status": "2c. Position Pitched",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:jameel-sheikh-161e2c60",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "2a. Interested to Know More (in-contenders)",
+    "status": "2a. Interested to Know More",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:julian-michalski-e9d755f9",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "2a. Interested to Know More (in-contenders)",
+    "status": "2a. Interested to Know More",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:stephen-henley-3867f280",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:andy-sykes-6acd6b47",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:scott-mclauchlan-ad3511f7",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:tony-cheales-f198cc51",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "WARD - Role Scope (out-firm_rejected)",
+    "status": "WARD - Role Scope",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:amy-daniell-a31740d8",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "WARD - Timing Off (out-firm_rejected)",
+    "status": "WARD - Timing Off",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:caroline-dr-korch-5adda013",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:rita-margarido-ca032a66",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:simon-goldthorpe-e5664b96",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:eric-ryan-b3146b6a",
+    "to": "search:head-of-development",
+    "type": "candidate_for",
+    "detail": "CANDIDATE - Not Interested (out-withdrew)",
+    "status": "CANDIDATE - Not Interested",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:benjamin-mawby-f568041e",
+    "to": "search:vp-delivery",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:mick-nestor-1b31b48e",
+    "to": "search:vp-delivery",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
+  },
+  {
+    "from": "person:jonathan-parkes-f8a6a936",
+    "to": "search:vp-delivery",
+    "type": "candidate_for",
+    "detail": "1a. Pursuing (in-outreach)",
+    "status": "1a. Pursuing",
+    "confidence": "high",
+    "sources": [
+      "Clockwork API, pulled 2026-10-30"
+    ],
+    "last_updated": "2026-10-30"
   }
 ]

@@ -1,0 +1,28 @@
+{
+  "id": "flex",
+  "type": "company",
+  "name": "Flex",
+  "aliases": [
+    "Flex Ltd",
+    "Flex Ltd."
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "diversified_conglomerate",
+  "industry_role": "Global contract manufacturer; owns Anord Mardix (critical power) inside its Reliability Solutions segment",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "Parent of Anord Mardix since December 2021; added only as the counterparty for the acquisition edge, since it is not yet in the brain.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Optional record: needed only if the Flex -> Anord Mardix edge is imported. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.streetinsider.com/Corporate+News/Flex+Ltd.+%28FLEX%29+to+Acquire+Anord+Mardix+for+%24540M+Cash/19070437.html"
+  ],
+  "last_updated": "2026-10-30"
+}

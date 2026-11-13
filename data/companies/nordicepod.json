@@ -1,0 +1,31 @@
+{
+  "id": "nordicepod",
+  "type": "company",
+  "name": "NordicEPOD",
+  "aliases": [
+    "Nordic ePod",
+    "NordicEPOD AS",
+    "Nordic EPOD"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Manufacturer of standardised prefabricated data-centre power modules (EPODs: UPS, switchgear, distribution, cooling and controls, up to 2 MW each)",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "Former CTS Nordics subsidiary that received a strategic investment from Eaton and CTS Nordics in 2024 and opened a 12,000 m2 factory near Oslo (Hanekleiva) to make up to 350 EPODs a year.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Factory is in Hanekleiva, Norway (near Oslo); company HQ city not stated, so left null. Role 'general_contractor' is the nearest allowed role for a modular power equipment maker. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.businesswire.com/news/home/20240531679365/en/Eaton-Expands-Reach-into-European-Data-Center-Market-by-Making-Strategic-Investment-in-NordicEPOD",
+    "https://www.intelligentcio.com/eu/2024/10/07/new-nordicepod-factory-opens-to-boost-production-of-power-modules-for-faster-construction-of-data-centres/",
+    "https://datacentrereview.com/2024/10/eaton-cts-nordics-open-nordicepod-factory/"
+  ],
+  "last_updated": "2026-10-30"
+}

@@ -4,11 +4,11 @@
   "name": "Head of Mechanical Engineering",
   "client_company": "Colt Data Centre Services",
   "client_company_id": "colt-data-centre-services",
-  "status": "active",
+  "status": "closed",
   "project_type": "Contingency",
   "started_at": "2026-08-18",
-  "closed_at": null,
-  "closing_reason": null,
+  "closed_at": "2026-10-01",
+  "closing_reason": "Cancelled",
   "strategy": null,
   "job_description": null,
   "job_requirements": null,
@@ -31,7 +31,8 @@
     "out": 0
   },
   "sources": [
-    "Clockwork API, pulled 2026-09-10"
+    "Clockwork API, pulled 2026-09-10",
+    "Clockwork API, re-checked 2026-10-30"
   ],
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-10-30"
 }

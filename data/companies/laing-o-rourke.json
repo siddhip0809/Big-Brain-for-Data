@@ -1,0 +1,31 @@
+{
+  "id": "laing-o-rourke",
+  "type": "company",
+  "name": "Laing O'Rourke",
+  "aliases": [
+    "Laing O'Rourke plc",
+    "Laing ORourke"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "International engineering and construction contractor; design-and-build main contractor for data centres",
+  "headquarters": "Dartford, United Kingdom",
+  "founded": null,
+  "website": "https://www.laingorourke.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Main contractor on several Khazna Data Centres builds in Dubai and Abu Dhabi (including a 21.45 MW Dubai facility in 2022 and Pods 4-6) and on Pure Data Centres' Abu Dhabi campus, whose first data hall was handed over in February 2025.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": " Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://laingorourke.com/company/news/2022/laing-o-rourke-wins-khazna-data-centre-project-in-the-heart-of-dubai-design-district",
+    "https://www.worldconstructionnetwork.com/news/newskhazna-data-centres-appoints-laing-orourke-for-expansion-project-in-dubai-abu-dhabi-5940329",
+    "https://www.laingorourke.com/company/news/2025/laing-o-rourke-achieves-major-milestone-for-pure-data-centres-in-abu-dhabi/",
+    "https://en.wikipedia.org/wiki/Laing_O%27Rourke"
+  ],
+  "last_updated": "2026-10-30"
+}

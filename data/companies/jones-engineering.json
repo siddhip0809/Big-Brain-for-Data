@@ -1,0 +1,29 @@
+{
+  "id": "jones-engineering",
+  "type": "company",
+  "name": "Jones Engineering",
+  "aliases": [
+    "Jones Engineering Group"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Irish mechanical, electrical and fire-protection contractor; occasional general contractor on data centres",
+  "headquarters": "Dublin, Ireland",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "MEP contractor with a large Nordic data-centre track record (Gavle and Lulea in Sweden, Odense in Denmark; over 200 MW of IT power within four years) and the MEP and fire-protection contractor alongside Flynn on Telehouse's GBP 275m West Two data centre in London Docklands (October 2025).",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "HQ Dublin 4 per CB Insights / LinkedIn; DataCenterMap lists London. The 2022 Irish Times headline reports an acquisition of Jones Engineering; the acquirer was not visible in the result, so no edge was drafted. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.enterprise-ireland.com/en/insights-webinars/-from-emerald-isle-to-arctic-excellence-jones-engineering-s-remarkable-journey-in-the-construction-of-data-centres-in-the-nordics",
+    "https://bdaily.co.uk/articles/2025/10/21/data-centre-firm-begins-275-million-expansion",
+    "https://www.irishtimes.com/business/2022/06/03/jones-engineering-acquired-in-deal-worth-hundreds-of-millions/"
+  ],
+  "last_updated": "2026-10-30"
+}

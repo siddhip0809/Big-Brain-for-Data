@@ -1,0 +1,30 @@
+{
+  "id": "winvic-construction",
+  "type": "company",
+  "name": "Winvic Construction",
+  "aliases": [
+    "Winvic",
+    "Winvic Group"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "UK main contractor (industrial and logistics, civils) that launched a data-centre division in early 2026",
+  "headquarters": "Northampton, United Kingdom",
+  "founded": null,
+  "website": "https://www.winvic.co.uk",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Logistics-shed specialist that made data centres its fourth core sector in 2026 and is tendering for data-centre work; no awarded data-centre contract found.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Trade press names Blackstone/QTS's Blyth campus as a target; Winvic is NOT confirmed as contractor there, so no edge drafted. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.intelligentcio.com/eu/2026/03/16/winvic-construction-enters-data-centre-market-building-on-core-capabilities/",
+    "https://constructionmanagement.co.uk/shed-specialist-winvic-is-getting-into-data-centres-we-asked-how",
+    "https://find-and-update.company-information.service.gov.uk/company/04135363"
+  ],
+  "last_updated": "2026-10-30"
+}

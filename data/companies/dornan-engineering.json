@@ -1,0 +1,31 @@
+{
+  "id": "dornan-engineering",
+  "type": "company",
+  "name": "Dornan Engineering",
+  "aliases": [
+    "Dornan",
+    "Dornan Group",
+    "Dornan Engineering Group"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Cork-based mechanical, electrical and HVAC contractor focused on data centres and life sciences",
+  "headquarters": "Cork, Ireland",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "M&E contractor whose primary focus is data centres, life sciences and commercial work; reported as general contractor on a roughly EUR 48m Irish data centre (civil, structural, architectural, mechanical and electrical scope).",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Address is Little Island, Co. Cork. The client and site of the EUR 48m data centre were not visible in the results. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://chamber.corkchamber.ie/list/member/dornan-engineering-limited-little-island-24667",
+    "https://constructiondigital.com/news/dornans-irish-data-centre-project",
+    "https://constructionnews.ie/interview-micheal-oconnor-dornan-group-2026/"
+  ],
+  "last_updated": "2026-10-30"
+}

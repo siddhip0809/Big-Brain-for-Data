@@ -202,6 +202,9 @@ pipeline and how far each person got.
   filled internally, a live search and a pitch are all work on file, but none
   of them makes someone a client, and the atlas keeps the two apart: 22 of the
   93 searches are completed, across 8 client companies.
+- `history` — what an on-file record used to be when Clockwork has since reused it for
+  something else (e.g. a 2026 pitch to a client later renamed into a STACK EMEA mismatch
+  list). The current Clockwork values are what the record shows; this keeps the past.
 - `historical_record` — `true` on a search logged in Clockwork retrospectively
   as a past placement. Clockwork marks these `isInternal`, the same flag it
   uses for the firm's own mapping shells, so the first pull dropped them. Three

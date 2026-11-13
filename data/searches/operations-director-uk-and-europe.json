@@ -3,7 +3,7 @@
   "type": "search",
   "name": "Operations Director UK & Europe",
   "client_company": "AVK|SEG",
-  "client_company_id": null,
+  "client_company_id": "avk",
   "status": "active",
   "project_type": "Contingency",
   "started_at": "2026-07-20",
@@ -42,5 +42,5 @@
   "sources": [
     "Clockwork API, pulled 2026-09-10"
   ],
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-10-30"
 }

@@ -21,13 +21,13 @@ dependencies beyond `openpyxl` for the spreadsheet importers.
 ## Layout
 
 ```
-data/companies/*.json     1,281 companies. `roles` is the single source of truth for tier.
+data/companies/*.json     1,301 companies. `roles` is the single source of truth for tier.
 data/investors/*.json     124 funds. `investments` lists company ids.
 data/people/*.json        9,397 people. Filename ends in the first 8 chars of the Clockwork id;
                           researched records end in an 8-char hash and carry record_grade "researched".
-data/relationships.json   3,629 edges, one flat list. See docs/schema.md for the types.
-data/searches/*.json      93 searches pulled from Clockwork (client, brief, pipeline, placement).
-                          A client = a search closed on a Placement (22 of them, 8 companies).
+data/relationships.json   3,664 edges, one flat list. See docs/schema.md for the types.
+data/searches/*.json      95 searches pulled from Clockwork (client, brief, pipeline, placement).
+                          A client = a search closed on a Placement (24 of them, 9 companies).
                           Referred to as `search:<filename>`; the `id` field is the Clockwork UUID.
 data/notes/*.json         What Ward has heard (candidates, clients, market), one note per piece of
                           intelligence, linked to people/companies/searches. See "Intake" below.
@@ -210,8 +210,16 @@ There is deliberately **no `scripts/import_clockwork_searches.py`**: Clockwork i
 reachable only through MCP tools, which a standalone Python process cannot call.
 The search pull is therefore an agent task, not a script. To repeat or extend it:
 
-- `clockwork_list_projects` pages with `offset` behaving as a **page index**, not a
-  row offset — use `offset = page` with a fixed `limit`, or you will re-read page 0.
+- `clockwork_list_projects` paging has changed once already: in Sept 2026 `offset` acted
+  as a page index, by Oct 2026 it is a row offset. Always page with the `next_offset` the
+  response gives you, and check the row count adds up to `total`.
+- New searches land through `scripts/import_searches.py` from the agent's JSON draft; it
+  refuses confidential and internal projects, redacts pay, and re-matches clients.
+- **Re-check on-file searches on every pull.** Clockwork records change under us: by Oct
+  2026 seven had changed status (two closed on placements) and three old pitch records
+  (TA Digital, Yondr, Montera) had been reused as STACK EMEA "mismatch" lists. Sync name,
+  client, status and closing reason from Clockwork; keep what the record used to be in
+  `history`.
 - Skip `isConfidential` (write nothing at all, not even the id) and `isInternal`.
 - Keep a pipeline entry only when its status `rank` >= 100; below that it is a raw
   long-list touch, not a candidacy.

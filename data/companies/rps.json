@@ -1,0 +1,30 @@
+{
+  "id": "rps",
+  "type": "company",
+  "name": "RPS",
+  "aliases": [
+    "RPS Group",
+    "RPS, a Tetra Tech company"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Planning, environmental, architecture and engineering consultancy; part of Tetra Tech since January 2023",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "UK consultancy acquired by Tetra Tech for about GBP 636m (completed 24 January 2023); its UK planning and architecture teams handle data-centre applications and delivery.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Data-centre evidence is job adverts only; no named data-centre project or client found. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://canadianconsultingengineer.com/tetra-tech-to-acquire-rps-group",
+    "https://www.tetratecheurope.com/wp-content/uploads/2024/05/Tetra-Tech-Completes-RPS-Acquisition24-Jan-2023.pdf",
+    "https://www.itjobswatch.co.uk/jv/RPS/Technical-Director-Data-Centre-Architecture-London-Job-London-UK-4sh525"
+  ],
+  "last_updated": "2026-10-30"
+}
