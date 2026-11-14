@@ -7,7 +7,8 @@
     "Pacific Gas & Electric"
   ],
   "roles": [
-    "energy_developer"
+    "energy_developer",
+    "planning_grid"
   ],
   "parent_industry": "energy_utilities",
   "industry_role": "investor-owned electric utility",
@@ -24,5 +25,6 @@
   "sources": [
     "Career histories of people in data/people/ (data/derived/talent_flows.csv), 2026-09-13"
   ],
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-11-14",
+  "region": "USA"
 }

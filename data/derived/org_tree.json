@@ -43597,11 +43597,6 @@
   {
    "id": "assad-noori-411f9856",
    "parent": "brandon-keesee-fd26a605",
-   "basis": "most senior in Sales & Leasing"
-  },
-  {
-   "id": "gareth-jones-46620318",
-   "parent": "brandon-keesee-fd26a605",
    "basis": "most senior in Strategy, Finance & Investment"
   },
   {
@@ -43613,6 +43608,11 @@
    "id": "michael-martin-155fd0db",
    "parent": "brandon-keesee-fd26a605",
    "basis": "one level under Managing Director, Hyperscale and Colocation Data Centers"
+  },
+  {
+   "id": "gareth-jones-46620318",
+   "parent": "assad-noori-411f9856",
+   "basis": "one level under Executive Director, Head of Data Centres, Work Dynamics EMEA"
   },
   {
    "id": "ross-smyth-71634186",
@@ -44915,7 +44915,7 @@
   {
    "id": "stephen-beard-18f689ef",
    "parent": "chris-jones-3df8f58b",
-   "basis": "most senior in Sales & Leasing"
+   "basis": "most senior in Strategy, Finance & Investment"
   }
  ],
  "choate-construction": [
@@ -45509,12 +45509,12 @@
    "basis": "most senior person mapped"
   },
   {
-   "id": "dedi-iskandar-ada7c2cd",
+   "id": "jason-nance-bc89de2b",
    "parent": "pat-lynch-3096f67b",
-   "basis": "one level under Global Executive Managing Director, Data Center Solutions"
+   "basis": "most senior in Sales & Leasing"
   },
   {
-   "id": "jason-nance-bc89de2b",
+   "id": "dedi-iskandar-ada7c2cd",
    "parent": "pat-lynch-3096f67b",
    "basis": "one level under Global Executive Managing Director, Data Center Solutions"
   },

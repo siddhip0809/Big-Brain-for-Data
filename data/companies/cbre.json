@@ -8,7 +8,9 @@
   ],
   "roles": [
     "real_estate_developer",
-    "consultancy"
+    "consultancy",
+    "property_advisory",
+    "dc_operations"
   ],
   "parent_industry": "real_estate",
   "industry_role": "real estate brokerage & advisory — data center practice",
@@ -27,5 +29,6 @@
     "https://www.cbre.com/services/design-and-build/project-and-program-management/data-center-project-services",
     "https://www.cbre.com/services/property-types/data-center"
   ],
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-11-14",
+  "region": "USA"
 }

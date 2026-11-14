@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-13-5bac839b",
+  "type": "note",
+  "date": "2026-10-13",
+  "kind": "market_intel",
+  "basis": "ward_judgement",
+  "summary": "Some AWS energy profiles service AWS's energy-sector customers; they are not the people procuring energy for AWS's own data centres. Exclude them from power and utilities searches.",
+  "about": [
+    "company:aws",
+    "company:stack-infrastructure",
+    "search:vp-power-and-utilities"
+  ],
+  "source": {
+    "channel": "teams",
+    "date": "2026-10-13",
+    "from": "Ward",
+    "via": "Teams · 2609B VP Power and Utilities - Stack",
+    "subject": "Two kinds of 'energy' people at AWS",
+    "link": "https://teams.microsoft.com/l/message/19%3A3441dc64d9f94bbc99599912814a2be1%40thread.tacv2/1791884487328",
+    "ref": "sha1:5847c0539327a662"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

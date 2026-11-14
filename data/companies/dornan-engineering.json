@@ -18,14 +18,18 @@
   "linkedin": null,
   "headcount": null,
   "description": "M&E contractor whose primary focus is data centres, life sciences and commercial work; reported as general contractor on a roughly EUR 48m Irish data centre (civil, structural, architectural, mechanical and electrical scope).",
-  "tags": [],
+  "tags": [
+    "added-global-sweep-2026-11"
+  ],
   "source_lists": [],
   "list_attributes": {},
   "notes": "Address is Little Island, Co. Cork. The client and site of the EUR 48m data centre were not visible in the results. Added 2026-10-30 from open-source research (import_researched_companies.py).",
   "sources": [
     "https://chamber.corkchamber.ie/list/member/dornan-engineering-limited-little-island-24667",
     "https://constructiondigital.com/news/dornans-irish-data-centre-project",
-    "https://constructionnews.ie/interview-micheal-oconnor-dornan-group-2026/"
+    "https://constructionnews.ie/interview-micheal-oconnor-dornan-group-2026/",
+    "Ward, Teams 2609F VP Delivery - AVK SEG, 4 Nov 2026 (contractors missing from the AVK map)"
   ],
-  "last_updated": "2026-10-30"
+  "last_updated": "2026-11-14",
+  "region": "EMEA"
 }

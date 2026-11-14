@@ -20,18 +20,8 @@ def ym(s):
     m = re.match(r"(?:(\d{1,2})/)?(\d{4})$", (s or "").strip())
     return (int(m.group(2)), int(m.group(1) or 6)) if m else None
 
-# tier labels (mirror viewer/build_graph3d_data.py CATS) and how tiers group
-TIER_LABEL = {"hyperscaler": "Hyperscaler", "neocloud": "NeoCloud / AI Infra", "cryptomining": "Cryptomining pivot",
-              "developer_operator": "Data Center Developer / Operator", "energy_developer": "Energy developer / utility",
-              "general_contractor": "General contractor", "civil_land_engineering": "Civil / land engineering",
-              "real_estate_developer": "Real estate & industrial developer",
-              "consultancy": "Consultancy (cost, PM, power, design)", "investor": "Investor"}
-CORE = ("hyperscaler", "neocloud", "cryptomining", "developer_operator")
-ROLE_PRIORITY = list(TIER_LABEL)
-def primary_role(roles):
-    for r in ROLE_PRIORITY:
-        if r in roles: return r
-    return roles[0] if roles else "developer_operator"
+# tier labels and how tiers group: one definition, scripts/tiers.py
+from tiers import LABEL as TIER_LABEL, CORE, primary_role
 def group_of(tier):
     if tier is None: return "outside"
     if tier == "investor": return "investor"

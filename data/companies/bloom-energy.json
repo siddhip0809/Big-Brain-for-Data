@@ -4,7 +4,7 @@
   "name": "Bloom Energy",
   "aliases": [],
   "industry_role": "data center developer",
-  "headquarters": null,
+  "headquarters": "United States",
   "founded": null,
   "website": null,
   "description": null,
@@ -17,10 +17,11 @@
   "sources": [
     "Clockwork CRM mapping-project export, imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "parent_industry": "energy_utilities",
   "roles": [
     "developer_operator"
   ],
-  "source_lists": []
+  "source_lists": [],
+  "region": "USA"
 }

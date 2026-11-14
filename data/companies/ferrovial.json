@@ -4,7 +4,7 @@
   "name": "Ferrovial",
   "aliases": [],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "Spain",
   "founded": null,
   "website": null,
   "description": null,
@@ -21,10 +21,11 @@
   "sources": [
     "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "parent_industry": "construction_engineering",
   "roles": [
     "developer_operator"
   ],
-  "source_lists": []
+  "source_lists": [],
+  "region": "EMEA"
 }

@@ -19,7 +19,7 @@
     "Clockwork CRM mapping-project export, imported 2026-09-05",
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "parent_industry": "real_estate",
   "roles": [
     "developer_operator"
@@ -46,5 +46,7 @@
       "total_mw": 330.7,
       "early_stage_mw": 72.0
     }
-  }
+  },
+  "region": "APAC",
+  "region_basis": "from capacity / regional-presence data (no HQ on file)"
 }

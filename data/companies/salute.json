@@ -10,7 +10,8 @@
     "Salute EMEA"
   ],
   "roles": [
-    "consultancy"
+    "consultancy",
+    "dc_operations"
   ],
   "parent_industry": "construction_engineering",
   "industry_role": "consultancy — strategy & advisory, design / MEP engineering, programme & project management",
@@ -29,9 +30,11 @@
   "sources": [
     "https://salute.com/resources/news/salute-acquires-northshore/",
     "https://salute.com",
-    "Clockwork CRM mapping-project export, imported 2026-09-05"
+    "Clockwork CRM mapping-project export, imported 2026-09-05",
+    "https://barbour-abi.com/top-10-contractors-working-on-data-centre-construction-projects-uk/"
   ],
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-11-14",
   "facilities": [],
-  "financials": {}
+  "financials": {},
+  "region": "USA"
 }

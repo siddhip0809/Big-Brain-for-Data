@@ -20,7 +20,7 @@
     "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "parent_industry": "diversified_conglomerate",
   "roles": [
     "developer_operator"
@@ -47,5 +47,6 @@
       "total_mw": 300.0,
       "early_stage_mw": 150.0
     }
-  }
+  },
+  "region": "USA"
 }

@@ -21,7 +21,7 @@
     "Web research, 2026-09-05",
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "roles": [
     "cryptomining",
     "neocloud"
@@ -44,5 +44,7 @@
     "emea": {
       "total_mw": 120.0
     }
-  }
+  },
+  "region": "EMEA",
+  "region_basis": "from capacity / regional-presence data (no HQ on file)"
 }

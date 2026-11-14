@@ -20,11 +20,12 @@
     "Clockwork CRM mapping-project export, imported 2026-09-05",
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator",
-    "neocloud"
+    "neocloud",
+    "ai_lab"
   ],
   "source_lists": [
     "Data Centre Developer"
@@ -40,5 +41,6 @@
     }
   },
   "linkedin": "https://www.linkedin.com/company/anthropicresearch/",
-  "headcount": "501-1,000"
+  "headcount": "501-1,000",
+  "region": "USA"
 }

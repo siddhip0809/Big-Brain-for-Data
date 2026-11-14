@@ -4,7 +4,8 @@
   "name": "PM Group",
   "aliases": [],
   "roles": [
-    "consultancy"
+    "consultancy",
+    "mission_critical_build"
   ],
   "parent_industry": "construction_engineering",
   "industry_role": "consultancy — programme & project management, design / MEP engineering",
@@ -20,7 +21,9 @@
   "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers & Mission Critical Facilities sector and a dedicated Data Center PMC service page; has a Technical Director – Data Centres and recruits DC project directors in Frankfurt/Cork. Added 2026-09-16 from open-source research (import_researched_companies.py).",
   "sources": [
     "https://www.pmgroup-global.com/what-we-do/our-sectors/data-centres/",
-    "https://www.pmgroup-global.com"
+    "https://www.pmgroup-global.com",
+    "Ward, Teams 2609F VP Delivery - AVK SEG, 4 Nov 2026 (contractors missing from the AVK map)"
   ],
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-11-14",
+  "region": "EMEA"
 }

@@ -39560,5 +39560,1278 @@
       "Clockwork API, pulled 2026-10-30"
     ],
     "last_updated": "2026-10-30"
+  },
+  {
+    "from": "company:google",
+    "to": "company:intersect-power",
+    "type": "acquired",
+    "detail": "Alphabet/Google agreed to acquire data centre and energy developer Intersect Power for ~$4.75bn (announced Dec 2025/Jan 2026); TPG spun out the remaining assets as IPX Power.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.pv-magazine.com/2026/01/05/google-acquires-intersect-power-for-nearly-5-billion/"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:vistra",
+    "to": "company:meta",
+    "type": "supplies_power_to",
+    "detail": "Meta nuclear agreement with Vistra (Jan 2026) covering output and uprates at Vistra nuclear plants in PJM.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.axios.com/2026/01/09/meta-nuclear-deal-vistra-terrapower-oklo"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:terrapower",
+    "to": "company:meta",
+    "type": "supplies_power_to",
+    "detail": "Meta agreement with TerraPower (Jan 2026) for Natrium advanced reactors.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.axios.com/2026/01/09/meta-nuclear-deal-vistra-terrapower-oklo"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:oklo",
+    "to": "company:meta",
+    "type": "supplies_power_to",
+    "detail": "Meta agreement with Oklo (Jan 2026) to develop an advanced nuclear campus in Ohio.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.axios.com/2026/01/09/meta-nuclear-deal-vistra-terrapower-oklo"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:williams-companies",
+    "to": "company:meta",
+    "type": "supplies_power_to",
+    "detail": "Williams' Socrates behind-the-meter gas power projects in New Albany, Ohio, built to power Meta's data centre campus.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.powermag.com/new-200-mw-gas-fired-plant-in-ohio-will-power-meta-data-center",
+      "https://williams.com/wp-content/uploads/sites/8/2025/03/Socrates-North-Fact-Sheet-Final-1.pdf"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:constellation-energy",
+    "to": "company:microsoft",
+    "type": "supplies_power_to",
+    "detail": "20-year PPA to restart Three Mile Island Unit 1 (Crane Clean Energy Center) for Microsoft (Sept 2024).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:constellation-energy",
+    "to": "company:meta",
+    "type": "supplies_power_to",
+    "detail": "20-year PPA for the Clinton nuclear plant, Illinois, with Meta (June 2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:nextera-energy",
+    "to": "company:google",
+    "type": "supplies_power_to",
+    "detail": "Agreement to restart the Duane Arnold nuclear plant in Iowa with Google as offtaker (Oct 2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:oklo",
+    "to": "company:switch",
+    "type": "supplies_power_to",
+    "detail": "Non-binding master power agreement for up to 12 GW of Oklo Aurora powerhouses for Switch data centres (Dec 2024).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:aws",
+    "to": "company:x-energy",
+    "type": "invested_in",
+    "detail": "Amazon led X-energy's ~$500m Series C-1 (Oct 2024) and plans 5 GW of X-energy SMRs by 2039.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:bloom-energy",
+    "to": "company:equinix",
+    "type": "supplies_power_to",
+    "detail": "Long-running fuel-cell supply to Equinix sites in the US (100+ MW deployed).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:iberdrola",
+    "to": "company:echelon",
+    "type": "jv_partner",
+    "detail": "Iberdrola and Echelon Data Centres formed a JV to develop data centres in Spain (2025); see Echelon Iberdrola Digital Infra node.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:merlin-properties",
+    "to": "company:edged",
+    "type": "jv_partner",
+    "detail": "Merlin Properties' data centre platform is developed with Edged Energy (Edged Spain / Merlin Edged).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:ark-data-centres",
+    "to": "company:crown-hosting",
+    "type": "jv_partner",
+    "detail": "Crown Hosting Data Centres is a joint venture between Ark Data Centres and the UK Cabinet Office.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:ntt",
+    "to": "company:e-shelter",
+    "type": "acquired",
+    "detail": "NTT acquired e-shelter (2018-2019); it now trades as part of NTT Global Data Centers EMEA.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:digital-realty",
+    "to": "company:lamda-hellix",
+    "type": "acquired",
+    "detail": "Digital Realty acquired Lamda Hellix (Greece) in 2020.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:cbre",
+    "to": "company:turner-townsend",
+    "type": "acquired",
+    "detail": "CBRE took a 60% stake in Turner & Townsend in 2021 and combined its project management business with it in 2025.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:tetra-tech",
+    "to": "company:rps-group",
+    "type": "acquired",
+    "detail": "Tetra Tech acquired RPS Group in 2023.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:american-tower",
+    "to": "company:coresite",
+    "type": "acquired",
+    "detail": "American Tower acquired CoreSite in Dec 2021.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:vodafone",
+    "to": "company:vantage-towers",
+    "type": "acquired",
+    "detail": "Vodafone co-controls Vantage Towers via Oak Holdings with KKR and GIP (2023).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:stc",
+    "to": "company:center3",
+    "type": "acquired",
+    "detail": "center3 is stc Group's data centre and connectivity subsidiary.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:e-and",
+    "to": "company:khazna-data-centers",
+    "type": "jv_partner",
+    "detail": "e& holds a stake in Khazna Data Centers alongside G42.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:g42-cloud",
+    "to": "company:khazna-data-centers",
+    "type": "jv_partner",
+    "detail": "Khazna Data Centers is majority owned by G42.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:microsoft",
+    "to": "company:g42-cloud",
+    "type": "invested_in",
+    "detail": "Microsoft invested $1.5bn in G42 (April 2024).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:hochtief",
+    "to": "company:turner-construction",
+    "type": "acquired",
+    "detail": "Turner Construction has been owned by Hochtief since 1999.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:skanska",
+    "to": "company:skanska-usa",
+    "type": "acquired",
+    "detail": "Skanska USA is the US business of Sweden's Skanska AB.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:royal-bam-group",
+    "to": "company:bam-construct-uk",
+    "type": "acquired",
+    "detail": "BAM Construct UK is a subsidiary of Royal BAM Group.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:laing-o-rourke",
+    "to": "company:crown-house-technologies",
+    "type": "acquired",
+    "detail": "Crown House Technologies is Laing O'Rourke's M&E engineering business.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:bouygues-construction",
+    "to": "company:equans",
+    "type": "acquired",
+    "detail": "Bouygues group acquired Equans from Engie in Oct 2022.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:bp",
+    "to": "company:lightsource-bp",
+    "type": "acquired",
+    "detail": "BP took full ownership of Lightsource bp in 2024.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:totalenergies-renewables-usa",
+    "to": "company:saft",
+    "type": "acquired",
+    "detail": "Saft is a TotalEnergies subsidiary (battery maker).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:saft",
+    "to": "company:acc-automotive-cells-company",
+    "type": "jv_partner",
+    "detail": "ACC is a JV of Stellantis, Mercedes-Benz and TotalEnergies (via Saft).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:infineon",
+    "to": "company:esmc",
+    "type": "jv_partner",
+    "detail": "ESMC (Dresden) is TSMC's JV with Bosch, Infineon and NXP.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:taqa",
+    "to": "company:masdar",
+    "type": "jv_partner",
+    "detail": "Masdar is owned by TAQA, Mubadala and ADNOC.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:adnoc",
+    "to": "company:masdar",
+    "type": "jv_partner",
+    "detail": "Masdar is owned by TAQA, Mubadala and ADNOC.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:neom",
+    "to": "company:datavolt",
+    "type": "site_partner",
+    "detail": "DataVolt agreed a $5bn net-zero AI factory at NEOM's Oxagon (Feb 2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:openai",
+    "to": "company:stargate",
+    "type": "jv_partner",
+    "detail": "Stargate is OpenAI's AI infrastructure venture with SoftBank, Oracle and MGX (Jan 2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:oracle",
+    "to": "company:stargate",
+    "type": "jv_partner",
+    "detail": "Oracle is a technology partner and equity participant in Stargate.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:crusoe",
+    "to": "company:stargate",
+    "type": "site_partner",
+    "detail": "Crusoe developed the first Stargate campus in Abilene, Texas.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:openai",
+    "to": "company:coreweave",
+    "type": "tenant_of",
+    "detail": "OpenAI signed contracts with CoreWeave worth over $22bn (2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:openai",
+    "to": "company:microsoft",
+    "type": "tenant_of",
+    "detail": "Microsoft Azure has been OpenAI's primary cloud provider since 2019.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:anthropic",
+    "to": "company:aws",
+    "type": "tenant_of",
+    "detail": "AWS is Anthropic's primary cloud and training partner (Project Rainier); Amazon invested $8bn.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:anthropic",
+    "to": "company:google",
+    "type": "tenant_of",
+    "detail": "Anthropic expanded use of Google Cloud TPUs (up to 1m TPUs, Oct 2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:safe-superintelligence",
+    "to": "company:google",
+    "type": "tenant_of",
+    "detail": "SSI uses Google Cloud TPUs for its research (2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:humain",
+    "to": "company:aws",
+    "type": "jv_partner",
+    "detail": "HUMAIN and AWS announced a $5bn+ 'AI Zone' partnership in Saudi Arabia (May 2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:balfour-beatty",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "Balfour Beatty VINCI JV holds HS2 main civils lots N1/N2.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:skanska",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "Skanska Costain STRABAG JV holds HS2 London tunnels lots.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:strabag",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "Skanska Costain STRABAG JV holds HS2 London tunnels lots.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:bouygues-construction",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "Align JV (Bouygues, Sir Robert McAlpine, VolkerFitzpatrick) holds the HS2 Chiltern tunnel lot C1.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:sir-robert-mcalpine",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "Align JV (Bouygues, Sir Robert McAlpine, VolkerFitzpatrick) holds HS2 lot C1.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:volkerwessels",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "VolkerFitzpatrick (VolkerWessels) is part of the Align JV on HS2 lot C1.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:eiffage",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "EKFB JV (Eiffage, Kier, Ferrovial, BAM Nuttall) holds HS2 lots C2/C3.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:kier",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "EKFB JV (Eiffage, Kier, Ferrovial, BAM Nuttall) holds HS2 lots C2/C3.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:ferrovial",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "EKFB JV (Eiffage, Kier, Ferrovial, BAM Nuttall) holds HS2 lots C2/C3.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:royal-bam-group",
+    "to": "company:hs2-ltd",
+    "type": "contractor_for",
+    "detail": "BAM Nuttall is part of the EKFB JV on HS2 lots C2/C3.",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://www.gov.uk/government/speeches/main-civil-engineering-works-contracts-for-stage-1-of-hs2-phase-one"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:bouygues-construction",
+    "to": "company:sizewell-c",
+    "type": "contractor_for",
+    "detail": "Civils programme alliance for Sizewell C with Laing O'Rourke and Balfour Beatty (2025).",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://world-nuclear-news.org/articles/alliance-appointed-for-sizewell-c-construction"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:laing-o-rourke",
+    "to": "company:sizewell-c",
+    "type": "contractor_for",
+    "detail": "Civils programme alliance for Sizewell C with Bouygues and Balfour Beatty (2025).",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://world-nuclear-news.org/articles/alliance-appointed-for-sizewell-c-construction"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:balfour-beatty",
+    "to": "company:sizewell-c",
+    "type": "contractor_for",
+    "detail": "Civils programme alliance for Sizewell C with Bouygues and Laing O'Rourke (2025).",
+    "status": "reported",
+    "confidence": "high",
+    "sources": [
+      "https://world-nuclear-news.org/articles/alliance-appointed-for-sizewell-c-construction",
+      "https://www.balfourbeatty.com/media-centre/latest/balfour-beatty-signs-programme-alliance-agreement-to-deliver-sizewell-c-civil-works/"
+    ],
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:edf-energy",
+    "to": "company:sizewell-c",
+    "type": "jv_partner",
+    "detail": "EDF is a shareholder in Sizewell C alongside the UK government and other investors.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:bouygues-construction",
+    "to": "company:edf-energy",
+    "type": "contractor_for",
+    "detail": "Bylor JV (Bouygues TP and Laing O'Rourke) is main civils contractor on Hinkley Point C for EDF Energy.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:laing-o-rourke",
+    "to": "company:edf-energy",
+    "type": "contractor_for",
+    "detail": "Bylor JV (Bouygues TP and Laing O'Rourke) is main civils contractor on Hinkley Point C for EDF Energy.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:ferrovial",
+    "to": "company:tideway",
+    "type": "contractor_for",
+    "detail": "FLO JV (Ferrovial, Laing O'Rourke) built the Tideway central section.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:laing-o-rourke",
+    "to": "company:tideway",
+    "type": "contractor_for",
+    "detail": "FLO JV (Ferrovial, Laing O'Rourke) built Tideway's central section.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:balfour-beatty",
+    "to": "company:tideway",
+    "type": "contractor_for",
+    "detail": "BMB JV (BAM Nuttall, Morgan Sindall, Balfour Beatty) built Tideway's west section.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:morgan-sindall",
+    "to": "company:tideway",
+    "type": "contractor_for",
+    "detail": "BMB JV (BAM Nuttall, Morgan Sindall, Balfour Beatty) built Tideway's west section.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "investor:areim",
+    "to": "company:ecodatacenter",
+    "type": "invested_in",
+    "detail": "EcoDataCenter is owned by Areim (Swedish real estate investor).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "investor:infravia-capital-partners",
+    "to": "company:penta-infra",
+    "type": "invested_in",
+    "detail": "Penta Infra is backed by InfraVia Capital Partners.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "investor:eqt-infrastructure",
+    "to": "company:globalconnect",
+    "type": "invested_in",
+    "detail": "GlobalConnect (Nordic fibre and data centres) is owned by EQT Infrastructure.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:tim",
+    "to": "company:noovle",
+    "type": "acquired",
+    "detail": "Noovle is TIM's cloud and data centre business (TIM Enterprise).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:swisscom",
+    "to": "company:fastweb",
+    "type": "acquired",
+    "detail": "Swisscom owns Fastweb and merged it with Vodafone Italia (2025).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:asterion",
+    "to": "company:templus",
+    "type": "acquired",
+    "detail": "Templus (Spain) is backed by Asterion Industrial Partners.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:asterion",
+    "to": "company:nabiax",
+    "type": "acquired",
+    "detail": "Nabiax, formed from Telefónica's former data centres, is owned by Asterion Industrial Partners.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:northern-data",
+    "to": "company:hydro66",
+    "type": "acquired",
+    "detail": "Northern Data acquired Hydro66 (Boden, Sweden) in 2021.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:iberdrola",
+    "to": "company:echelon-iberdrola-digital-infra",
+    "type": "jv_partner",
+    "detail": "JV between Iberdrola and Echelon Data Centres for Spain.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:echelon",
+    "to": "company:echelon-iberdrola-digital-infra",
+    "type": "jv_partner",
+    "detail": "JV between Iberdrola and Echelon Data Centres for Spain.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:garbe-industrial-real-estate",
+    "to": "company:garbe-dc",
+    "type": "jv_partner",
+    "detail": "GARBE DC is the data centre arm of the GARBE group (GARBE Industrial Real Estate's sister business).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:ntt",
+    "to": "company:ntt-global-data-centers-emea",
+    "type": "acquired",
+    "detail": "NTT Global Data Centers EMEA is NTT's European data centre business (incl. former e-shelter, Gyron).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:aquila-clean-energy",
+    "to": "company:aq-compute",
+    "type": "jv_partner",
+    "detail": "AQ Compute and Aquila Clean Energy are both businesses of the Aquila Group (Hamburg).",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "high"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
+  },
+  {
+    "from": "company:ntt",
+    "to": "company:gyron",
+    "type": "acquired",
+    "detail": "Gyron was acquired by NTT and folded into NTT Global Data Centers EMEA.",
+    "status": "unsupported",
+    "confidence": "low",
+    "sources": [
+      "Claude research, 12 Nov 2026: widely reported public fact; not re-checked against a primary source -- cross-check recommended"
+    ],
+    "claimed": {
+      "status": "reported",
+      "confidence": "medium"
+    },
+    "basis": "web_research_2026-11-12",
+    "last_updated": "2026-11-14"
   }
 ]

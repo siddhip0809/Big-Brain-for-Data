@@ -16,9 +16,10 @@
   "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Chinese steelmaker Jiangsu Shagang Group built its stake from 49% (2016) to ~75% (Aug 2019), buying out UK's Reuben Brothers.",
   "sources": [
     "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://dmc-education.com/2026/07/18/top-50-data-centre-companies-in-europe-2026-headquarters-revenue-contact-details/"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
@@ -49,5 +50,6 @@
       "total_mw": 293.7,
       "early_stage_mw": 36.0
     }
-  }
+  },
+  "region": "EMEA"
 }

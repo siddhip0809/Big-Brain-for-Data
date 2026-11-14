@@ -32,8 +32,8 @@ COMP_DIR = os.path.join(REPO, "data/companies")
 REL_PATH = os.path.join(REPO, "data/relationships.json")
 TODAY = str(date.today())
 
-ROLES = {"hyperscaler", "neocloud", "cryptomining", "developer_operator", "energy_developer",
-         "general_contractor", "civil_land_engineering", "real_estate_developer", "consultancy"}
+from tiers import ROLES as _ROLES
+ROLES = set(_ROLES)
 PARENTS = {"pure_play", "real_estate", "energy_utilities", "telecom", "construction_engineering", "diversified_conglomerate"}
 DEAL = {"invested_in", "acquired", "tenant_of", "jv_partner", "contractor_for", "supplies_power_to", "site_partner", "consulted_for"}
 

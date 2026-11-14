@@ -5,11 +5,12 @@
   "aliases": [],
   "roles": [
     "consultancy",
-    "real_estate_developer"
+    "real_estate_developer",
+    "property_advisory"
   ],
   "parent_industry": "real_estate",
   "industry_role": "consultancy — transactions, strategy & advisory, research, programme & project management",
-  "headquarters": null,
+  "headquarters": "Canada",
   "founded": null,
   "website": "https://www.avisonyoung.com",
   "linkedin": null,
@@ -23,5 +24,6 @@
     "https://www.avisonyoung.com/data-center-real-estate",
     "https://www.avisonyoung.com"
   ],
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-11-14",
+  "region": "Americas (other)"
 }

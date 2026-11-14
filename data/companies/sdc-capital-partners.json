@@ -34,9 +34,10 @@
   "dc_exposure_level": null,
   "notes": "Siddhi's sheet comment: Real estate / PE firm with DC arm.",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://dmc-education.com/2026/07/18/top-50-data-centre-companies-in-europe-2026-headquarters-revenue-contact-details/"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "hyperscale_focus": "Secondary Focus",
   "capacity_mw": {
     "north_america": {
@@ -46,5 +47,6 @@
       "total_mw": 560.0,
       "early_stage_mw": 460.0
     }
-  }
+  },
+  "region": "USA"
 }

@@ -36,7 +36,7 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "capacity_mw": {
     "apac": {
       "total_mw": 202.8,
@@ -45,5 +45,7 @@
     "emea": {
       "total_mw": 86.0
     }
-  }
+  },
+  "region": "Multi-region",
+  "region_basis": "present in APAC, EMEA"
 }

@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-02-71889436",
+  "type": "note",
+  "date": "2026-11-02",
+  "kind": "market_intel",
+  "basis": "reported",
+  "summary": "Someone at AWS told Ward that Geoff Herdman is now in Europe (unconfirmed). Added to the STACK Regional VP Development EMEA project.",
+  "about": [
+    "company:aws",
+    "company:stack-infrastructure",
+    "search:vp-development-emea"
+  ],
+  "mentions_unmatched": [
+    "Geoff Herdman"
+  ],
+  "source": {
+    "channel": "teams",
+    "date": "2026-11-02",
+    "from": "Ward",
+    "via": "Teams · 2609A Regional VP Development EMEA - Stack",
+    "subject": "Geoff Herdman now in Europe",
+    "link": "https://teams.microsoft.com/l/message/19%3abc5856fe278e41b5b07bb6ba7896e7b7%40thread.tacv2/1793644711134",
+    "ref": "sha1:785ef7665661faec"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

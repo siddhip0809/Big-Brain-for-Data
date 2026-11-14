@@ -45,7 +45,7 @@
     "Siddhi's curated company lists (xlsx), imported 2026-09-05",
     "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-11-14",
   "hyperscale_focus": "Secondary Focus",
   "capacity_mw": {
     "north_america": {
@@ -54,5 +54,6 @@
     "apac": {
       "total_mw": 17.0
     }
-  }
+  },
+  "region": "APAC"
 }

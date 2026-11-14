@@ -78,6 +78,19 @@ Every node also carries these common fields, regardless of type:
   per list (scope, noise category, energy mix, has-internal-dev-team, …) so
   nothing typed into the sheets is lost
 
+Fields added 2026-11-14 (recovered from the published atlas, see CLAUDE.md "Two accounts"):
+
+- `region` — `USA`, `EMEA`, `APAC`, `Americas (other)` or `Multi-region`; where the company
+  is headquartered. `region_basis` says when it came from something else (capacity or
+  regional-presence data, with no HQ on file). `scripts/enrich_regions.py` fills it for a new
+  company whose HQ place other records already vouch for; otherwise it stays blank.
+- Tiers added on 2026-11-12, defined with the rest in `scripts/tiers.py`: `ai_lab` (core),
+  and the adjacent `equipment_supply`, `property_advisory`, `planning_grid`,
+  `mission_critical_build`, `capital_projects`, `telecom_network`, `dc_operations`. 303 of
+  the companies in them carry only "Claude industry research, 12 Nov 2026 ... not yet
+  individually verified" as their source and the tag `added-global-sweep-2026-11` or
+  `added-talent-pools-2026-11`: treat them as a list to verify, not as researched records.
+
 ### `person` (in `data/people/`)
 - `current_title`
 - `current_company` — employer name as plain text (always present when known)
@@ -267,7 +280,10 @@ raw message is never stored.
 - `search_check` — required when the note is about a search that is not in
   `data/searches/`: the Clockwork confidential check, e.g. "clockwork
   2026-10-29: not confidential". A confidential search never gets a note.
-- `source` — `{channel, date, from, subject, ref}`. `channel` is `email`,
+- `source` — `{channel, date, from, subject, via, link, ref}`. `via` is where it was said as
+  the page shows it ("Teams · 2609F VP Delivery"); `link` opens the original message and is
+  kept only for our own Outlook, Teams or SharePoint, never a `/personal/` path (it spells
+  out a mailbox name). `channel` is `email`,
   `teams`, `call`, `meeting`, `transcript`, `document`, `linkedin`, `atlas` or `other`;
   `ref` is a hash of the message id, enough to recognise the message again
   and never enough to reconstruct it. `atlas_id` names a note-box entry.
@@ -279,6 +295,10 @@ run never reads the same message twice and the next run starts where the
 last one stopped. It holds hashes only.
 
 ## Relationships (the "connections")
+
+An edge recovered from the published page with no source URL carries `status: "unsupported"`,
+`confidence: "low"` and `claimed: {status, confidence}` (what the page said). Give it a URL
+and restore the claimed values once it has been checked. `basis` records the research round.
 
 All relationships live together in one file: `data/relationships.json`.
 Each entry looks like:

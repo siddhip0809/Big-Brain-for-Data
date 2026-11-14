@@ -36,12 +36,14 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "hyperscale_focus": "Primary Focus",
   "capacity_mw": {
     "emea": {
       "total_mw": 480.0,
       "early_stage_mw": 480.0
     }
-  }
+  },
+  "region": "EMEA",
+  "region_basis": "from capacity / regional-presence data (no HQ on file)"
 }

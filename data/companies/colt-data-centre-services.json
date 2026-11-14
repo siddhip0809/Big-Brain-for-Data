@@ -6,7 +6,7 @@
     "Colt DCS"
   ],
   "industry_role": "hyperscaler / data center developer",
-  "headquarters": null,
+  "headquarters": "United Kingdom",
   "founded": null,
   "website": null,
   "description": null,
@@ -20,9 +20,10 @@
   "notes": "Minimal stub record: identified only as the current employer of 5 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nOwnership research (2026-09-05): Wholly owned by Fidelity Investments since 2015; Japan-focused JV with Mitsui & Co. since 2021.\n\nMerged 2026-09-14: absorbed duplicate record 'Colt DCS' (colt-dcs).",
   "sources": [
     "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://dmc-education.com/2026/07/18/top-50-data-centre-companies-in-europe-2026-headquarters-revenue-contact-details/"
   ],
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-11-14",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
@@ -51,5 +52,6 @@
       "total_mw": 560.5999999999999,
       "early_stage_mw": 305.4
     }
-  }
+  },
+  "region": "EMEA"
 }

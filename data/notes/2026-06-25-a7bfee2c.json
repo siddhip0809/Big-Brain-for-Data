@@ -1,0 +1,27 @@
+{
+  "id": "2026-06-25-a7bfee2c",
+  "type": "note",
+  "date": "2026-06-25",
+  "kind": "market_intel",
+  "basis": "reported",
+  "summary": "From Ward's call with Andrew Edwards (ex-Microsoft): Microsoft's self-build side runs land acquisition and permitting across Europe (pan-European, then focus regions). Jean-François Berche's team runs Partnerships: everything between a standard lease and self-build, i.e. JVs, direct acquisitions and hybrid delivery models. Andrew described Microsoft as a big, bureaucratic organisation. Before Microsoft he delivered a data centre in Abu Dhabi for Masdar / Khazna / G42, working for the landowner Mubadala.",
+  "about": [
+    "person:andrew-edwards-02b44552",
+    "person:jean-fran-ois-berche-b36332b7",
+    "company:microsoft",
+    "company:khazna-data-centers",
+    "company:g42-cloud",
+    "investor:mubadala-investment-company"
+  ],
+  "source": {
+    "channel": "teams",
+    "date": "2026-06-25",
+    "from": "Ward",
+    "via": "Teams · 2511B Development Director - Panattoni",
+    "subject": "How Microsoft's data centre land and partnerships teams are split",
+    "link": "https://teams.microsoft.com/l/message/19%3Ae5a7c92a364a44e4ac2376805de306d9%40thread.tacv2/1782394479215?groupId=b0cbc64c-43bf-43fd-8a27-a6efaac71750&tenantId=e66bd178-2bbb-4589-bdcb-092bb2fe7ed8&createdTime=1782394479215&parentMessageId=1782324239538",
+    "ref": "sha1:eff75681f76e3736"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

@@ -10,6 +10,7 @@ Word documents or the atlas note box (see "Intake" in CLAUDE.md):
    "basis": "reported",                  # reported = someone told us; ward_judgement = our own view
    "summary": "...",                     # 1-4 sentences in our words, never pasted text
    "companies": ["Equinix"], "people": ["Jane Doe"],   # names; resolved against the brain
+   "refs": ["company:equinix", "person:jane-doe-1a2b3c4d"],   # or ids already resolved, each checked
    "search": "vp-development-emea",      # a search on file (slug or name), or null
    "search_check": "...",                # required when the note is about a search NOT on
                                          # file: the Clockwork confidential check, e.g.
@@ -17,6 +18,10 @@ Word documents or the atlas note box (see "Intake" in CLAUDE.md):
    "discretion": true,                   # the person asked for discretion / it was told in confidence
    "signals": [{"type": "open_to_move", "person": "Jane Doe"}, ...],   # see SIGNALS
    "source": {"channel": "email", "date": "...", "from": "Ward", "subject": "...",
+              "via": "Teams · 2609F VP Delivery",   # where it was said, as the page shows it
+              "link": "https://teams.microsoft.com/...",   # "open original": our own Outlook /
+                                         # Teams / SharePoint only, and never a /personal/ path
+                                         # (those spell out a mailbox name); dropped otherwise
               "message_id": "<...>"}}    # message_id is hashed, never stored
   {"skip": "admin", "source": {...}}     # a message read and judged not worth a note: logged only
   "names": [...] instead of companies/people: each is tried as a company, then a person.
@@ -65,6 +70,10 @@ PAY_TALK = re.compile(r"\b(salar(y|ies)|compensation|remuneration|bonus(es)?|bas
 SPECIAL = re.compile(r"\b(pregnan\w*|maternity|paternity|illness|ill health|health (scare|issue|problem|condition)s?|sick\w*|hospital\w*|diagnos\w*|cancer|surgery|mental health|disab\w*|divorc\w*|religio\w*|sexual\w*|ethnicit\w*|criminal|bereave\w*|funeral|medical)\b", re.I)
 # any run of 9+ digits with separators is treated as a phone number in a note -- stricter than the
 # people scrubber, whose pattern has to tolerate figures in 9,000 imported biographies
+LINK_HOSTS = re.compile(r"^https://(teams\.microsoft\.com|outlook\.office(365)?\.com|[a-z0-9-]+\.sharepoint\.com)/", re.I)
+TEAMS_THREAD = re.compile(r"(@|%40)(thread\.(tacv2|v2|skype)|unq\.gbl\.spaces)", re.I)   # a Teams thread id, not a mailbox
+def link_ok(u):
+    return bool(u) and bool(LINK_HOSTS.match(u)) and "/personal/" not in u and not re.search(r"@|%40", TEAMS_THREAD.sub("", u))
 def phoneish(text): return any(sum(c.isdigit() for c in m) >= 9 for m in re.findall(r"\+?\d[\d ()\-.]{7,}\d", text))
 
 
@@ -106,7 +115,8 @@ def main():
     people, searches = people_index(), search_index()
     log = json.load(open(LOG)) if os.path.exists(LOG) else []
     have = {os.path.basename(f)[:-5] for f in glob.glob(f"{NOTES}/*.json")}
-    added, refused, skipped, unmatched = [], [], [], []
+    added, refused, skipped, unmatched, dropped_links = [], [], [], [], []
+    company_ids = {os.path.basename(f)[:-5] for f in glob.glob(f"{REPO}/data/companies/*.json")}
 
     def company_ref(name):
         cid = match(name, by_norm, by_loose)
@@ -126,11 +136,23 @@ def main():
 
     def clean(s): return scrub_text(s or "")[0].strip()
 
+    person_ids = {pid for hits in people.values() for pid, _ in hits}
+    search_slugs = {slug for slug, _ in searches.values()}
+    def known_ref(v):
+        """An id that is already resolved (`company:x`, `person:y`, `investor:z`, `search:s`), if it exists."""
+        kind, _, rid = (v or "").partition(":")
+        ok = rid and ((kind == "company" and rid in company_ids) or (kind == "person" and rid in person_ids) or
+                      (kind == "investor" and rid in investors.values()) or (kind == "search" and rid in search_slugs))
+        return v if ok else None
+
     for r in rows:
         src = dict(r.get("source") or {})
         mid = src.pop("message_id", None) or src.pop("id", None)
         ref = "sha1:" + hashlib.sha1((mid or json.dumps(r, sort_keys=True)).encode()).hexdigest()[:16]
+        link = src.pop("link", None)
         src = {k: clean(str(v)) for k, v in src.items() if v}
+        if link_ok(link): src["link"] = link
+        elif link: dropped_links.append(f"{src.get('date', '?')} {src.get('subject') or ''}"[:80])
         label = f"{src.get('date', '?')} {src.get('subject') or clean(r.get('summary'))[:50]}"
         if r.get("skip"):
             skipped.append(f"{label}  ({r['skip']})")
@@ -152,11 +174,18 @@ def main():
         r_comps = list(r.get("companies") or []) + [n for n in names if company_ref(n)]
         companies = [x for x in (company_ref(n) for n in r_comps) if x]
         miss = [n for n in r_comps if not company_ref(n)]
-        slug, client = search_ref(r.get("search"))
+        refs = [known_ref(x) for x in r.get("refs") or []]
+        miss += [x for x, ok in zip(r.get("refs") or [], refs) if not ok]
+        companies += [x for x in refs if x and x.startswith(("company:", "investor:"))]
+        on_file = [x[7:] for x in refs if x and x.startswith("search:")]
+        slug, client = search_ref(r.get("search") or (on_file[0] if on_file else None))
         if r.get("search") and not slug: miss.append(f"search: {r['search']}")
+        for s in on_file:                                   # a note can be about several searches on file
+            c2 = searches[s][1]
+            if c2 and f"company:{c2}" not in companies: companies.append(f"company:{c2}")
         if client and f"company:{client}" not in companies: companies.append(f"company:{client}")
         cids = {c.split(":", 1)[1] for c in companies}
-        persons = []
+        persons = [x for x in refs if x and x.startswith("person:")]
         for n in r_people:
             p = person_ref(n, cids)
             (persons.append(p) if p else miss.append(n))
@@ -174,7 +203,7 @@ def main():
                 v = s.get(fld)
                 if not v: continue
                 v = clean(v)
-                rv = person_ref(v, cids) if fld == "person" else company_ref(v) if fld in ("company", "counterparty") else \
+                rv = known_ref(v) or person_ref(v, cids) if fld == "person" else known_ref(v) or company_ref(v) if fld in ("company", "counterparty") else \
                      (("search:" + search_ref(v)[0]) if search_ref(v)[0] else None) if fld == "search" else None
                 out[fld] = rv or v                      # unresolved names stay as text, flagged below
                 if fld in ("person", "company", "counterparty") and not rv: miss.append(v)
@@ -184,7 +213,7 @@ def main():
         nid = f"{r.get('date') or src.get('date', '')[:10]}-" + hashlib.sha1((ref + (r.get('kind') or '') + summary).encode()).hexdigest()[:8]
         if why: refused.append(f"{label}: " + "; ".join(why)); continue
         if nid in have: skipped.append(f"{label}  (already in the brain as {nid})"); continue
-        about = list(dict.fromkeys(persons + companies + ([f"search:{slug}"] if slug else [])))
+        about = list(dict.fromkeys(persons + companies + ([f"search:{slug}"] if slug else []) + [f"search:{s}" for s in on_file]))
         note = {"id": nid, "type": "note", "date": r.get("date") or src["date"][:10], "kind": r["kind"], "basis": r["basis"],
                 "summary": summary, "about": about, "signals": sigs, "mentions_unmatched": sorted(set(miss)),
                 "search_check": check if (is_search and not slug) else None,
@@ -206,6 +235,7 @@ def main():
     for x in refused: print("  REFUSED ", x)
     for x in added: print("  + ", x)
     for x in unmatched: print("  not in the brain yet ", x)
+    for x in dropped_links: print("  link dropped (not our Outlook / Teams / SharePoint, or names a mailbox) ", x)
     print("\nAPPLIED -- rerun the pipeline" if APPLY else "\ndry run")
 
 

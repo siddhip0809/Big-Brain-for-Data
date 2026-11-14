@@ -18,9 +18,10 @@
   "notes": "Minimal stub record: identified as the current employer of 2 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nOwnership research (2026-09-05): Majority acquired by Manulife Investment Management, completed Sept 2023; Israel Infrastructure Fund and NantWorks also investors; CEO retains a stake.",
   "sources": [
     "Clockwork CRM mapping-project export, imported 2026-09-05",
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://dmc-education.com/2026/07/18/top-50-data-centre-companies-in-europe-2026-headquarters-revenue-contact-details/"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
@@ -50,5 +51,6 @@
       "total_mw": 122.7,
       "early_stage_mw": 33.0
     }
-  }
+  },
+  "region": "USA"
 }

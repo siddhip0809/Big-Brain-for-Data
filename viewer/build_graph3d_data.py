@@ -17,7 +17,8 @@ primary tier (its colour body and its invisible layout anchor).
 import json, glob, os, re, sys, collections
 from datetime import date
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "scripts"))
-from build_talent_flows import flows as talent_flows
+from build_talent_flows import flows as talent_flows, load as load_flows, group_of
+from tiers import TIERS, primary_role
 
 REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 COMPANIES_DIR = os.path.join(REPO, "data/companies")
@@ -33,31 +34,8 @@ FUNCTIONS = ["Executive leadership", "Development & Real Estate", "Sales & Leasi
              "Design & Engineering", "Strategy, Finance & Investment", "Operations & Facilities",
              "Procurement & Supply Chain", "Legal, People & Support", "Miscellaneous"]
 
-# Order matters: legend order, anchor order, and primary-role priority.
-# Colours validated as a 9-colour CVD-safe set on the dark surface (the one
-# remaining pink<->green warning sits in the legal 6-8 band because every
-# node has a direct label on hover/focus).
-CATS = {
-    "hyperscaler":        {"name": "Hyperscaler",                          "color": "#d97706", "adjacent": False},
-    "neocloud":           {"name": "NeoCloud / AI Infra",                  "color": "#16a34a", "adjacent": False},
-    "cryptomining":       {"name": "Cryptomining pivot",                   "color": "#db2777", "adjacent": False},
-    "developer_operator": {"name": "Data Center Developer / Operator",     "color": "#0891b2", "adjacent": False},
-    "energy_developer":   {"name": "Energy developer / utility",           "color": "#b45309", "adjacent": True},
-    "general_contractor": {"name": "General contractor",                   "color": "#2563eb", "adjacent": True},
-    "civil_land_engineering":         {"name": "Civil / land engineering",  "color": "#dc2626", "adjacent": True},
-    "real_estate_developer":          {"name": "Real estate & industrial developer", "color": "#4d7c0f", "adjacent": True},
-    # cost, project-management, power and design consultancies (2026-09-16). Brown was the
-    # one hue left that clears the normal-vision floor against all nine existing tiers
-    # (worst pair 15.2 vs the energy tier), so the two petals are kept apart on the ring.
-    "consultancy":                    {"name": "Consultancy (cost, PM, power, design)", "color": "#7c2d12", "adjacent": True},
-    "investor":           {"name": "Investor",                             "color": "#9333ea", "adjacent": False},
-}
-ROLE_PRIORITY = [c for c in CATS if c != "investor"]
-
-def primary_role(roles):
-    for r in ROLE_PRIORITY:
-        if r in roles: return r
-    return roles[0] if roles else "developer_operator"
+# tiers (legend order, colours, primary-role priority) are defined once, in scripts/tiers.py
+CATS = TIERS
 
 # `parent_industry` says WHY a company is in the data center business:
 # its own dedicated business ("pure_play" -- direct-tap recruiting pool),
@@ -100,7 +78,8 @@ for path in company_files:
         "id": d["id"], "name": d["name"], "kind": "company",
         "category": primary_role(roles), "roles": roles,
         "is_adjacent_only": all(CATS[r]["adjacent"] for r in roles),
-        "parent_industry": parent_industry, "is_pure_play": parent_industry == "pure_play",
+        # an AI lab that only buys compute is not a data-center recruiting pool, whatever its parent industry
+        "parent_industry": parent_industry, "is_pure_play": parent_industry == "pure_play" and roles != ["ai_lab"],
         "industry_role": d.get("industry_role"), "headquarters": d.get("headquarters"),
         "founded": d.get("founded"), "website": d.get("website"), "linkedin": d.get("linkedin"),
         "headcount": d.get("headcount"), "description": d.get("description"),
@@ -109,6 +88,7 @@ for path in company_files:
         "dc_exposure_level": d.get("dc_exposure_level"),
         "list_attributes": d.get("list_attributes", {}),
         "notes": d.get("notes"), "sources": d.get("sources", []),
+        "region": d.get("region"), "region_basis": d.get("region_basis"),
     })
     node_ids.add(d["id"])
 
@@ -225,6 +205,34 @@ for (a, b), names in flow_pairs.items():
                   "fn_counts": dict(fc.most_common()), "top_fn": fc.most_common(1)[0][0],
                   "detail": f"{len(names)} moved {m['from_label']} → {m['to_label']}: " + ", ".join(sorted(names)[:8]) + (" …" if len(names) > 8 else "")
                             + " · by department: " + ", ".join(f"{f} {n}" for f, n in fc.most_common())})
+
+# Earlier employers: someone now at one tracked company who once worked at another, further
+# back than the previous-employer move above. Drawn as talent-flow lines with basis
+# "career_history" (introduced on the published page, 2026-11-12); they do not feed the
+# matrix or the hires / alumni counts, which stay on the last move only.
+_companies, _people, _resolve = load_flows()
+career_pairs, career_fns = {}, {}
+for p in _people:
+    cur = p.get("current_company_id")
+    if not cur: continue
+    for c in p.get("career", []):
+        if c.get("current") or not c.get("company"): continue
+        a = _resolve(c["company"])
+        if a and a.startswith("investor:") and a[9:] in all_ids: a = a[9:]   # a name that is both: the company is the employer
+        if not a or a == cur or a not in all_ids or (a, cur) in flow_pairs: continue
+        career_pairs.setdefault((a, cur), set()).add(p["name"])
+        career_fns.setdefault((a, cur), collections.Counter())[p.get("function") or "Miscellaneous"] += 1
+for (a, b), names in career_pairs.items():
+    ta, tb = _companies[a]["_tier"], _companies[b]["_tier"]; cls = f"{group_of(ta)} → {group_of(tb)}"
+    fc = career_fns[(a, b)]
+    links.append({"source": a, "target": b, "type": "talent_flow", "basis": "career_history", "count": len(names), "flow_class": cls,
+                  # never solid: solid is kept for a last move inside one tier. Dashed inside a group, dotted across.
+                  "style": "dashed" if cls in ("core → core", "adjacent → adjacent") else "dotted",
+                  "fn_counts": dict(fc.most_common()), "top_fn": fc.most_common(1)[0][0],
+                  "detail": f"{len(names)} worked at {_companies[a]['name']} earlier in their career and are now at {_companies[b]['name']} "
+                            f"({CATS[ta]['name']} → {CATS[tb]['name']}): " + ", ".join(sorted(names)[:8]) + (" …" if len(names) > 8 else "")
+                            + " · from career histories in Clockwork / LinkedIn data on file"})
+
 for cid, ppl in people.items():
     ppl.sort(key=lambda x: (x["rank"], x["name"]))
     for p in ppl:
@@ -333,6 +341,8 @@ for f in sorted(glob.glob(os.path.join(REPO, "data", "notes", "*.json"))):
                                for k, v in sig.items()} for sig in d.get("signals", [])],
                   "unmatched": d.get("mentions_unmatched"), "discretion": d.get("discretion"),
                   "src": " · ".join(x for x in (src.get("channel"), src.get("from"), src.get("subject")) if x),
+                  # who said it, where, and a way back to the original message (our own tenant only)
+                  "from": src.get("from"), "via": src.get("via"), "subject": src.get("subject"), "link": src.get("link"),
                   "atlas_id": src.get("atlas_id")})
 notes.sort(key=lambda n: n["date"], reverse=True)
 

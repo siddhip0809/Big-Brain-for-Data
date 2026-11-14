@@ -4,7 +4,7 @@
   "name": "GLP",
   "aliases": [],
   "industry_role": "developer operator",
-  "headquarters": null,
+  "headquarters": "Singapore",
   "founded": null,
   "website": "http://www.glp.com/global/",
   "linkedin": "https://www.linkedin.com/company/glp-pte-ltd/",
@@ -36,11 +36,12 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "hyperscale_focus": "Secondary Focus",
   "capacity_mw": {
     "apac": {
       "total_mw": 188.0
     }
-  }
+  },
+  "region": "APAC"
 }

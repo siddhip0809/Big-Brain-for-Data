@@ -36,12 +36,14 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "hyperscale_focus": "Primary Focus",
   "capacity_mw": {
     "apac": {
       "total_mw": 109.8,
       "early_stage_mw": 172.0
     }
-  }
+  },
+  "region": "APAC",
+  "region_basis": "from capacity / regional-presence data (no HQ on file)"
 }

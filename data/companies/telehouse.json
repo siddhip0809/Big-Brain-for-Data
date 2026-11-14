@@ -18,9 +18,10 @@
   "notes": "Minimal stub record: identified as the current employer of 1 candidate(s) across Ward Search's Clockwork mapping projects, classified via the \"Organisation Experience\" tag. Not independently researched.\n\nMerged 2026-09-09: absorbed duplicate record 'Telehouse Canada' (telehouse-canada).",
   "sources": [
     "Clockwork CRM mapping-project export, imported 2026-09-05",
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://dmc-education.com/2026/07/18/top-50-data-centre-companies-in-europe-2026-headquarters-revenue-contact-details/"
   ],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-11-14",
   "parent_industry": "telecom",
   "roles": [
     "developer_operator"
@@ -45,5 +46,6 @@
     "north_america": {
       "total_mw": 38.0
     }
-  }
+  },
+  "region": "Americas (other)"
 }

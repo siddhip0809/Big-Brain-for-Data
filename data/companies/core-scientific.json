@@ -22,7 +22,7 @@
     "Clockwork CRM Long Term Mapping export, imported 2026-09-05",
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "parent_industry": "pure_play",
   "roles": [
     "cryptomining",
@@ -48,5 +48,6 @@
     "north_america": {
       "total_mw": 533.0
     }
-  }
+  },
+  "region": "USA"
 }

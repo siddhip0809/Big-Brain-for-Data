@@ -34,9 +34,10 @@
   "dc_exposure_level": null,
   "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
   "sources": [
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://dmc-education.com/2026/07/18/top-50-data-centre-companies-in-europe-2026-headquarters-revenue-contact-details/"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "capacity_mw": {
     "north_america": {
       "total_mw": 683.8,
@@ -49,5 +50,6 @@
       "total_mw": 200.4,
       "early_stage_mw": 5.0
     }
-  }
+  },
+  "region": "USA"
 }

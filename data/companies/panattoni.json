@@ -22,7 +22,7 @@
     "Siddhi's curated company lists (xlsx), imported 2026-09-05",
     "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-11-14",
   "parent_industry": "real_estate",
   "roles": [
     "developer_operator",
@@ -58,5 +58,6 @@
       "early_stage_mw": 46.0
     }
   },
-  "dc_exposure_level": "High"
+  "dc_exposure_level": "High",
+  "region": "EMEA"
 }

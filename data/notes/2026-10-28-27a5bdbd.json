@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-28-27a5bdbd",
+  "type": "note",
+  "date": "2026-10-28",
+  "kind": "market_intel",
+  "basis": "ward_judgement",
+  "summary": "Nscale has acquired Future-tech. Find former Future-tech staff now inside Nscale who aren't happy: likely movers. Also make sure Turner is fully searched.",
+  "about": [
+    "company:nscale",
+    "company:future-tech",
+    "company:turner-construction"
+  ],
+  "signals": [
+    {
+      "type": "target_company",
+      "company": "company:nscale"
+    },
+    {
+      "type": "deal",
+      "company": "company:nscale",
+      "counterparty": "company:future-tech",
+      "title": "acquisition"
+    }
+  ],
+  "source": {
+    "channel": "teams",
+    "date": "2026-10-28",
+    "from": "Ward",
+    "via": "Teams · 2609F VP Delivery - AVK SEG",
+    "subject": "Nscale x Future-tech",
+    "link": "https://teams.microsoft.com/l/message/19%3ac8bcbe7b94d64eb49b2733a279f4750f%40thread.tacv2/1793225324963",
+    "ref": "sha1:3592a18f12d2e664"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

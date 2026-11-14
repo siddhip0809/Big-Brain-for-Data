@@ -36,10 +36,12 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "capacity_mw": {
     "north_america": {
       "early_stage_mw": 278.0
     }
-  }
+  },
+  "region": "USA",
+  "region_basis": "from capacity / regional-presence data (no HQ on file)"
 }

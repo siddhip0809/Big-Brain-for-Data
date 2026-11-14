@@ -23,9 +23,8 @@ import json, glob, os, re, sys, collections
 REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 D = lambda *p: os.path.join(REPO, "data", *p)
 
-ROLES = {"hyperscaler", "neocloud", "cryptomining", "developer_operator",
-         "energy_developer", "general_contractor", "civil_land_engineering", "real_estate_developer",
-         "consultancy"}
+from tiers import ROLES as _ROLES
+ROLES = set(_ROLES)
 FUNCTIONS = {"Executive leadership", "Development & Real Estate", "Sales & Leasing",
              "Pre-Construction & Cost", "Construction & Delivery", "Energy & Utilities",
              "Design & Engineering", "Strategy, Finance & Investment", "Operations & Facilities",

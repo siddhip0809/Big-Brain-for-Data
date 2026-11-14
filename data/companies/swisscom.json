@@ -15,7 +15,8 @@
   "tags": [],
   "parent_industry": "pure_play",
   "roles": [
-    "developer_operator"
+    "developer_operator",
+    "telecom_network"
   ],
   "source_lists": [
     "Data Centre Developer"
@@ -36,11 +37,12 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "capacity_mw": {
     "emea": {
       "total_mw": 22.65,
       "early_stage_mw": 5.4
     }
-  }
+  },
+  "region": "EMEA"
 }

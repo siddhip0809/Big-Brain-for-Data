@@ -6,7 +6,7 @@
     "Bechtel"
   ],
   "industry_role": "general contractor",
-  "headquarters": null,
+  "headquarters": "United States",
   "founded": null,
   "website": null,
   "linkedin": null,
@@ -17,7 +17,8 @@
   "tags": [],
   "parent_industry": "construction_engineering",
   "roles": [
-    "general_contractor"
+    "general_contractor",
+    "capital_projects"
   ],
   "source_lists": [
     "General Contractors USA"
@@ -28,5 +29,6 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-11-14",
+  "region": "USA"
 }

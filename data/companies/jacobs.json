@@ -19,7 +19,8 @@
   "roles": [
     "civil_land_engineering",
     "real_estate_developer",
-    "consultancy"
+    "consultancy",
+    "mission_critical_build"
   ],
   "source_lists": [
     "Civil Land Developers",
@@ -48,7 +49,9 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05",
     "https://www.jacobs.com/industries/data-centers",
-    "https://www.jacobs.com/newsroom/press-release/jacobs-appointed-engineering-procurement-and-construction-management-lead"
+    "https://www.jacobs.com/newsroom/press-release/jacobs-appointed-engineering-procurement-and-construction-management-lead",
+    "https://capacityglobal.com/news/datacentre-contractor-concentration-problem-ai-infrastructure-risk/"
   ],
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-11-14",
+  "region": "USA"
 }

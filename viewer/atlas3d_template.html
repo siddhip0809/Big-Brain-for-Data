@@ -528,7 +528,7 @@
       <b>Unconnected nodes</b> (no line to anything shown) can be set apart
       — faded and pushed to an outer shell around their zone — or hidden
       altogether, from the switch under the legend.<br><br>
-      Five <b>adjacent-industry</b> tiers — energy developers, general
+      The <b>adjacent-industry</b> tiers — energy developers, general
       contractors, civil/land engineers, real estate &amp; industrial
       developers, and consultancies (cost, project management, power,
       design) — are in the brain but start switched off. Switch them on and they appear as their own
@@ -2103,7 +2103,7 @@
   segmented('flowsScope', d => { flowsScope = d.scope; flowsSel = null; renderFlows(); });
   // origin buckets for the by-function view: the four core tiers, then adjacent, investor, and the outside kinds
   const ORIGIN_COLS = m => m.flow_class.startsWith('core') ? m.from_label : m.flow_class.startsWith('adjacent') ? 'Adjacent industries' : m.flow_class.startsWith('investor') ? 'Investor' : m.from_label.replace('Outside the industry · ', 'Outside · ');
-  const CORE_TIERS = ['Hyperscaler', 'NeoCloud / AI Infra', 'Cryptomining pivot', 'Data Center Developer / Operator'];
+  const CORE_TIERS = CATS.filter(c => !c.adjacent && c.id !== 'investor').map(c => c.name);   // legend order
   // shared by both matrices: `cellHtml(row, n, attrs)` draws a non-empty cell; `picked` is
   // [heading, movers, html to show above them, show each mover's department] for the selected cell
   function drawMatrix(sub, rows, cols, cell, rowTot, colTot, total, cellHtml, rowClass, picked){

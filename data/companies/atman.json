@@ -4,7 +4,7 @@
   "name": "Atman",
   "aliases": [],
   "industry_role": "developer operator",
-  "headquarters": null,
+  "headquarters": "Poland",
   "founded": null,
   "website": null,
   "linkedin": "https://www.linkedin.com/products/feldspartech-atman/",
@@ -36,11 +36,12 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "capacity_mw": {
     "emea": {
       "total_mw": 66.186,
       "early_stage_mw": 28.6
     }
-  }
+  },
+  "region": "EMEA"
 }

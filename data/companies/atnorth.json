@@ -20,9 +20,10 @@
   "sources": [
     "Clockwork CRM mapping-project export, imported 2026-09-05",
     "Siddhi's curated company lists (xlsx), imported 2026-09-05",
-    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04"
+    "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
+    "https://dmc-education.com/2026/07/18/top-50-data-centre-companies-in-europe-2026-headquarters-revenue-contact-details/"
   ],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-11-14",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
@@ -48,5 +49,7 @@
       "total_mw": 835.01,
       "early_stage_mw": 612.7
     }
-  }
+  },
+  "region": "EMEA",
+  "region_basis": "from capacity / regional-presence data (no HQ on file)"
 }

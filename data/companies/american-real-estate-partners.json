@@ -23,7 +23,7 @@
     "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
     "Siddhi's Real Estate Development USA list (xlsx), imported 2026-09-09"
   ],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-11-14",
   "parent_industry": "real_estate",
   "roles": [
     "developer_operator",
@@ -42,5 +42,6 @@
       "Mission Critical / DC Experience": "Yes",
       "DC Exposure Level": "High"
     }
-  }
+  },
+  "region": "USA"
 }

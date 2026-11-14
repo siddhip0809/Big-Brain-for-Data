@@ -4,7 +4,7 @@
   "name": "Solaria",
   "aliases": [],
   "industry_role": "developer operator",
-  "headquarters": null,
+  "headquarters": "Spain",
   "founded": null,
   "website": null,
   "linkedin": null,
@@ -36,11 +36,12 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "capacity_mw": {
     "emea": {
       "total_mw": 200.0,
       "early_stage_mw": 200.0
     }
-  }
+  },
+  "region": "EMEA"
 }

@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-15-d1143844",
+  "type": "note",
+  "date": "2026-10-15",
+  "kind": "candidate_update",
+  "basis": "reported",
+  "summary": "Pure Data Centers VP Sales interviews: Wouter met Jeff online and in person, ELT interviews today, may meet Gary next. Mark Delahunty met Jeff twice online; next is the ELT in London. Simon Warner met Jeff and Gary; final-stage ELT meetings today. Soumaya Graine met Jeff remotely with good feedback. Aly van der Riet met Jeff online and in person; levelling discussion Friday.",
+  "about": [
+    "person:mark-delahunty-0937b28b",
+    "person:simon-warner-e55490d8",
+    "person:soumaya-graine-f7cdbb6d",
+    "company:pure-data-centers",
+    "company:bgo",
+    "company:damac-digital",
+    "company:yondr",
+    "search:vp-sales"
+  ],
+  "signals": [
+    {
+      "type": "interviewing",
+      "person": "person:simon-warner-e55490d8",
+      "company": "company:pure-data-centers"
+    },
+    {
+      "type": "interviewing",
+      "person": "person:mark-delahunty-0937b28b",
+      "company": "company:pure-data-centers"
+    }
+  ],
+  "source": {
+    "channel": "email",
+    "date": "2026-10-15",
+    "from": "Ward",
+    "via": "Outlook",
+    "subject": "RE: Pure DC VP Sales - Report",
+    "link": "https://outlook.office365.com/owa/?ItemID=AAMkAGY5ZjJhZjU2LTI1NzktNDI3Mi04NjVmLTI4ZjZiMmVlYmFjOABGAAAAAADLLMlHfvrnQ7kLdX2kM5KHBwBCm85D7mICQ5pfLZILXUmzAAAAAAEMAABCm85D7mICQ5pfLZILXUmzAADclPHRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+    "ref": "sha1:fd8369e79303ae10"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

@@ -17,7 +17,9 @@
   "linkedin": null,
   "headcount": null,
   "description": "Dublin contractor, founded in 1972 as an electrical contractor, for which data centres are reported as about two-thirds of revenue; named construction partner to Global Technical Realty in 2020 and prime contractor on GTR's 40.5 MW GB One campus near London.",
-  "tags": [],
+  "tags": [
+    "added-global-sweep-2026-11"
+  ],
   "source_lists": [],
   "list_attributes": {},
   "notes": "A 'EUR 2.2bn' GTR programme figure appears in one article but could not be confirmed; not used. Added 2026-10-30 from open-source research (import_researched_companies.py).",
@@ -25,7 +27,9 @@
     "https://www.thinkbusiness.ie/articles/mercury-engineering-covid19-remote-working/",
     "https://www.mercuryeng.com/project/cln-1-2-3-hyper-scale-data-centre/",
     "https://www.mercuryeng.com/2020/05/28/mercury-construction-partner-global-technical-realty-gtr/",
-    "https://www.mercuryeng.com/2023/02/09/mercury-committed-to-delivering-gtrs-vision-on-40-5mw-gb-one-data-centre-near-london-uk/"
+    "https://www.mercuryeng.com/2023/02/09/mercury-committed-to-delivering-gtrs-vision-on-40-5mw-gb-one-data-centre-near-london-uk/",
+    "https://capacityglobal.com/news/datacentre-contractor-concentration-problem-ai-infrastructure-risk/"
   ],
-  "last_updated": "2026-10-30"
+  "last_updated": "2026-11-14",
+  "region": "EMEA"
 }

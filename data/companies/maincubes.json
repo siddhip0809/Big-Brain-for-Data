@@ -6,7 +6,7 @@
     "maincubes B.V."
   ],
   "industry_role": "data center developer",
-  "headquarters": null,
+  "headquarters": "Germany",
   "founded": null,
   "website": null,
   "description": null,
@@ -19,9 +19,10 @@
   "notes": "Minimal stub record: identified only as the current employer of 1 candidate(s) in Ward Search's Clockwork data, classified as a data-center operator/developer/hyperscaler based on the \"Organisation Experience\" tag Clockwork stores per-candidate. Not independently researched -- headquarters, founding date, website, description, and facilities are all unfilled and worth completing.\n\nMerged 2026-09-09: absorbed duplicate record 'maincubes B.V.' (maincubes-b-v).",
   "sources": [
     "Clockwork CRM export (candidate current-employer field), imported 2026-09-04",
-    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05",
+    "https://dmc-education.com/2026/07/18/top-50-data-centre-companies-in-europe-2026-headquarters-revenue-contact-details/"
   ],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-11-14",
   "parent_industry": "pure_play",
   "roles": [
     "developer_operator"
@@ -45,5 +46,6 @@
       "total_mw": 210.4,
       "early_stage_mw": 38.0
     }
-  }
+  },
+  "region": "EMEA"
 }

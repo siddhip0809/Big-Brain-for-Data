@@ -21,11 +21,12 @@ dependencies beyond `openpyxl` for the spreadsheet importers.
 ## Layout
 
 ```
-data/companies/*.json     1,301 companies. `roles` is the single source of truth for tier.
+data/companies/*.json     1,655 companies. `roles` is the single source of truth for tier; the tiers
+                          themselves are defined once, in scripts/tiers.py (17 + investor).
 data/investors/*.json     124 funds. `investments` lists company ids.
 data/people/*.json        9,397 people. Filename ends in the first 8 chars of the Clockwork id;
                           researched records end in an 8-char hash and carry record_grade "researched".
-data/relationships.json   3,664 edges, one flat list. See docs/schema.md for the types.
+data/relationships.json   3,743 edges, one flat list. See docs/schema.md for the types.
 data/searches/*.json      95 searches pulled from Clockwork (client, brief, pipeline, placement).
                           A client = a search closed on a Placement (24 of them, 9 companies).
                           Referred to as `search:<filename>`; the `id` field is the Clockwork UUID.
@@ -51,6 +52,7 @@ Data changes, then run in this order:
 ```bash
 python3 scripts/scrub_people.py --apply       # strip email/phone/pay from free text (rule 1)
 python3 scripts/enrich_people.py --apply      # function, seniority, career, location_norm
+python3 scripts/enrich_regions.py --apply     # region for a company whose HQ place other records vouch for
 python3 scripts/build_title_index.py          # data/derived/job_titles*.csv
 python3 scripts/build_talent_flows.py         # data/derived/talent_flow*.csv
 python3 scripts/build_org_tree.py             # data/derived/org_tree.json
@@ -79,16 +81,26 @@ out = tpl.replace('__GRAPH_DATA_JSON__', open('viewer/graph3d_data.json').read()
 
 Artifact URL: `https://claude.ai/code/artifact/46437bf6-d084-4f23-ab65-6a9a58860f25`
 
-**The live page is ahead of this repo (found 2026-11-13). Do not publish a repo build over it.**
-Another session published on 2026-11-12 with data this repo cannot rebuild: 354 more companies
-in tiers the builder does not know (`planning_grid`, `equipment_supply`, `telecom_network`,
-`mission_critical_build`, `capital_projects`, ...), a `region` / `region_basis` on each company,
-and 34 notes carrying `from`, `via`, `subject` and `link`. None of it is on any branch here, and
-the live page in turn lacks this repo's 2026-11-13 work (20 companies, two searches, the
-Clockwork sync). The page *code* is in sync: the template here is the live template (region
-filter, docked notes panel) plus the lean pass. Until the data is reconciled, change the page by
-reading the live artifact, swapping only the template around its `graph-data` JSON, and
-publishing that; `tests/fingerprint.py` with `ATLAS_PAGE` compares before and after.
+## Two accounts work on this brain
+
+Siddhi runs Claude from two accounts, and both change the code, the data and the page. The
+branch on GitHub is the one source of truth; the page is a build of it. So:
+
+1. **Start by pulling** `claude/data-center-knowledge-base-jujpw4`. Work that exists only in a
+   session's container is lost when the container is reclaimed.
+2. **Push before you publish, and publish only a build of what is pushed.** A publish from an
+   unpushed checkout strands data on the page: on 2026-11-12 one left 354 companies, eight
+   tiers, 79 deals and 34 notes that were on no branch.
+3. **If the Artifact tool refuses your publish** ("a newer version is live"), the other account
+   got there first. Read the page it saved, run `python3 scripts/recover_from_live.py
+   <saved.html> --notes-out <scratchpad>/notes.json` (dry run, then `--apply`), pass the notes
+   draft through `import_notes.py`, run the pipeline, and diff the page's template against
+   `viewer/atlas3d_template.html` for code the repo lacks. Only then publish. Never publish
+   over a version you have not reconciled.
+4. Recovery applies the repo's rules to what it brings in: a deal with no source URL lands as
+   `confidence: low`, `status: unsupported` (61 of the 79 did), and notes go through the
+   importer's refusals. Say so to Siddhi when a published claim is downgraded this way.
+
 It declares the `db` capability (verification flags are stored there), so omit
 `capabilities` on republish to carry the declaration forward.
 
@@ -152,6 +164,10 @@ One file, ~2,400 lines, Three.js r128 from jsdelivr. No bundler.
   (found 2026-09-16). `clearScene()` must dispose node materials, or every filter
   change leaks a full set to the GPU. `tests/test_toggles.py` guards the first:
   every toggle flips exactly once after the legend has re-rendered.
+- **Earlier-employer lines**: besides the last move (previous → current employer), the
+  builder draws a talent-flow line for any earlier tracked employer in a career, with
+  `basis: "career_history"`; dashed inside a group, dotted across, never solid. They do not
+  feed the matrix or the hires / alumni counts.
 - **Talent flow colouring**: `flowMode` ('tier' | 'dept') and `flowDept` (''
   or a department). In dept mode `linkGroup` keys talent-flow lines by
   department and `lineMaterial` colours them from `DEPT_SLOTS` (8 validated

@@ -30,14 +30,7 @@ FONT = "Arial"
 DEAL = {"invested_in", "acquired", "tenant_of", "jv_partner", "contractor_for",
         "supplies_power_to", "site_partner", "consulted_for", "partnered_with", "competitor_of"}
 
-ROLE_LABEL = {
-    "hyperscaler": "Hyperscaler", "neocloud": "NeoCloud / AI infra",
-    "cryptomining": "Cryptomining pivot", "developer_operator": "DC developer / operator",
-    "energy_developer": "Energy developer / utility", "general_contractor": "General contractor",
-    "civil_land_engineering": "Civil / land engineering",
-    "real_estate_developer": "Real estate & industrial developer",
-    "consultancy": "Consultancy (cost, PM, power, design)",
-}
+from tiers import LABEL as ROLE_LABEL
 PARENT_LABEL = {
     "pure_play": "Pure-play data center", "real_estate": "Real estate / industrial",
     "energy_utilities": "Energy / utility", "telecom": "Telecom / network",

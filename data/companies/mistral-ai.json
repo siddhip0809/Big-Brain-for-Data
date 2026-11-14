@@ -15,7 +15,8 @@
   "tags": [],
   "parent_industry": "pure_play",
   "roles": [
-    "neocloud"
+    "neocloud",
+    "ai_lab"
   ],
   "source_lists": [
     "Data Centre Developer"
@@ -35,11 +36,12 @@
   "sources": [
     "Siddhi's curated company lists (xlsx), imported 2026-09-05"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-11-14",
   "capacity_mw": {
     "emea": {
       "total_mw": 1400.0,
       "early_stage_mw": 1400.0
     }
-  }
+  },
+  "region": "EMEA"
 }

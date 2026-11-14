@@ -7,7 +7,9 @@
   ],
   "roles": [
     "real_estate_developer",
-    "consultancy"
+    "consultancy",
+    "property_advisory",
+    "dc_operations"
   ],
   "parent_industry": "real_estate",
   "industry_role": "real estate brokerage & advisory — data center practice",
@@ -26,5 +28,6 @@
     "https://www.jll.com/en-uk/newsroom/jll-appoints-data-centres-project-development-services-lead-in",
     "https://www.jll.com/en-uk/newsroom/jll-strengthens-end-to-end-data-centre-offering-with-appointment"
   ],
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-11-14",
+  "region": "USA"
 }
