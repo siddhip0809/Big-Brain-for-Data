@@ -1,0 +1,136 @@
+{
+  "id": "landon-smith-0b6ca632",
+  "type": "person",
+  "name": "Landon Smith",
+  "current_title": "Manager, Energy Strategy",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/landonms",
+  "location": "San Francisco Bay Area",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Manager, Energy Strategy at QTS Data Centers, 1/2024 to present; Manager, Business Development, Partnerships at Bloom Energy, 9/2021 to 12/2023; Enterprise Account Associate at Bloom Energy, 3/2020 to 8/2021; Enterprise Sales Development Representative at Bloom Energy, 1/2019 to 3/2020; Communications Associate at Mission Control Communications, 1/2018 to 2/2019; Analyst at Catalyst Energy Advisors, 9/2017 to 1/2018; Carbon and Energy Analyst at Bates College, 10/2016 to 6/2017; Intern at Bhutan National Environmental Commision, 3/2016 to 9/2016; Intern at PACE Funding Group, 1/2016 to 3/2016; Energy Consultant at Whiting Farms, 9/2015 to 1/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 12,
+      "date_added": "2025-11-07 13:49:49 UTC",
+      "date_updated": "2026-04-15 10:00:51 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Energy Strategy",
+      "company": "QTS Data Centers",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Business Development, Partnerships",
+      "company": "Bloom Energy",
+      "start": "9/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Enterprise Account Associate",
+      "company": "Bloom Energy",
+      "start": "3/2020",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Development Representative",
+      "company": "Bloom Energy",
+      "start": "1/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Communications Associate",
+      "company": "Mission Control Communications",
+      "start": "1/2018",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Catalyst Energy Advisors",
+      "start": "9/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Carbon and Energy Analyst",
+      "company": "Bates College",
+      "start": "10/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Bhutan National Environmental Commision",
+      "start": "3/2016",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "PACE Funding Group",
+      "start": "1/2016",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Energy Consultant",
+      "company": "Whiting Farms",
+      "start": "9/2015",
+      "end": "1/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco Bay Area",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor’s Degree, Environmental Studies, Bates College, 2013 to 2017",
+    "High School, General Studies, Piedmont High School, 2009 to 2013"
+  ],
+  "biography": "Business development manager with experience in clean energy. Primarily focused on the fuel cell and hydrogen sector. In addition to business development, experience includes strategic partnerships, channel sales, energy system modeling, and cash flow analysis.",
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence",
+      "Water · WSA negotiation": "Low Confidence",
+      "Water · engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "jane-hseih-91f0a0fc",
+  "type": "person",
+  "name": "Jane Hseih",
+  "current_title": "Sr. Director of Sales",
+  "current_company": "Aligned Data Centers",
+  "linkedin": "https://www.linkedin.com/in/jane-h-337568212",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sr. Director of Sales at Aligned Data Centers, 1/2021 to present; AFCOM and Data Center World GenNext Advisory Board Member at AFCOM-Denver Rocky Mountain Chapter, 1/2021 to present; Account Director at CyrusOne, 1/2018 to 1/2021; Strategic Account Executive at Mirapath, 1/2016 to 2/2018; Associate Channel Manager at Intermedia Cloud Communications, 1/2015 to 1/2016; Latin America Sales Manager at Advantech, 1/2010 to 1/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 74,
+      "date_added": "2025-11-12 11:25:43 UTC",
+      "date_updated": "2025-11-20 10:24:50 -0600",
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aligned-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Director of Sales",
+      "company": "Aligned Data Centers",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AFCOM and Data Center World GenNext Advisory Board Member",
+      "company": "AFCOM-Denver Rocky Mountain Chapter",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "CyrusOne",
+      "start": "1/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Strategic Account Executive",
+      "company": "Mirapath",
+      "start": "1/2016",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "Associate Channel Manager",
+      "company": "Intermedia Cloud Communications",
+      "start": "1/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Latin America Sales Manager",
+      "company": "Advantech",
+      "start": "1/2010",
+      "end": "1/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

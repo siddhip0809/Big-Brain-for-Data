@@ -1,0 +1,61 @@
+{
+  "id": "nadine-roberts-b57a4bd4",
+  "type": "person",
+  "name": "Nadine Roberts",
+  "current_title": "Mortenson Construction",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/nadine-roberts-10415416",
+  "location": "Itasca, Illinois",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Mortenson Construction at Mortenson, 4/2022 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 598,
+      "date_added": "2026-09-02 10:49:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Mortenson Construction",
+      "company": "Mortenson",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Itasca",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

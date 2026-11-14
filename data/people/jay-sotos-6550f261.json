@@ -1,0 +1,91 @@
+{
+  "id": "jay-sotos-6550f261",
+  "type": "person",
+  "name": "Jay Sotos",
+  "current_title": "Data Center Land Development",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/jay-sotos-3a5042134",
+  "location": "Baltimore, Washington DC",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Land Development at AWS, 6/2025 to present; Land Acquisition Manager at Loudoun County Government, 1/2022 to 6/2025; Principal at Sotos Partners, 1/2019 to 10/2022; Managing Director at CRC Partners, 1/1995 to 1/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 441,
+      "date_added": "2026-05-13 10:33:53 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Land Development",
+      "company": "AWS",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Land Acquisition Manager",
+      "company": "Loudoun County Government",
+      "start": "1/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Principal",
+      "company": "Sotos Partners",
+      "start": "1/2019",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "CRC Partners",
+      "start": "1/1995",
+      "end": "1/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "education": [
+    "Bachelor of Arts - BA, Computer Science, Dartmouth College",
+    "Master of Business Administration - MBA, University Of Virginia Darden School Of Business"
+  ],
+  "biography": "Seasoned real estate executive with extensive experience leading land acquisition, due diligence, and entitlements for large-scale mixed-use and commercial projects.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

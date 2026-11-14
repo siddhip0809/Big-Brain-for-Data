@@ -1,0 +1,111 @@
+{
+  "id": "scarlet-huynh-50f81444",
+  "type": "person",
+  "name": "Scarlet Huynh",
+  "current_title": "Regional Estimator",
+  "current_company": "Microsoft",
+  "location": "Minneapolis, Minnesota",
+  "linkedin": "https://www.linkedin.com/in/scarlet-huynh-ccp-02061016a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Regional Estimator at Microsoft, 4/2024 to present; Senior CSA Estimator at Faithful+Gould, 10/2018 to 4/2024; Senior Quantity Surveyor at Arcadis, 1/2017 to 8/2017; Senior Quantity Surveyor at Shimizu, 7/2015 to 1/2017; Quantity Surveyor at Shimizu, 10/2011 to 7/2015; Co-Founder at VAC Language School, 1/2009 to 6/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 234,
+      "date_added": "2026-08-26 13:14:42 UTC",
+      "date_updated": "2026-08-26 08:15:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 227,
+      "date_added": "2026-08-11 17:08:30 UTC",
+      "date_updated": "2026-08-26 08:14:42 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Regional Estimator",
+      "company": "Microsoft",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior CSA Estimator",
+      "company": "Faithful+Gould",
+      "start": "10/2018",
+      "end": "4/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Arcadis",
+      "start": "1/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Shimizu",
+      "start": "7/2015",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Shimizu",
+      "start": "10/2011",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Co-Founder",
+      "company": "VAC Language School",
+      "start": "1/2009",
+      "end": "6/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Minneapolis",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  },
+  "biography": "Competent quantity survey skills at pre-contract and post – contract stage across a wide range of construction such as commercial, residential, manufacturing buildings and mass rapid transit projects.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

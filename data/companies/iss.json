@@ -1,0 +1,35 @@
+{
+  "id": "iss",
+  "type": "company",
+  "name": "ISS",
+  "aliases": [
+    "ISS A/S",
+    "ISS World Services",
+    "ISS Facility Services"
+  ],
+  "roles": [
+    "dc_operations"
+  ],
+  "parent_industry": "diversified_conglomerate",
+  "industry_role": "Integrated facility services group; operates and maintains technical infrastructure (power, cooling, UPS, fire) in data centres",
+  "headquarters": "Copenhagen, Denmark",
+  "founded": null,
+  "website": "https://www.issworld.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Danish facility services group whose Swiss business runs the technical infrastructure of more than 35 data centres; it also has a UK Global Technical Services data-centre key-accounts function.",
+  "tags": [
+    "added-talent-pools-2026-11"
+  ],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "No allowed role fits facility management; 'general_contractor' is an approximation, so review it. Head office is in Soborg, Greater Copenhagen. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.ch.issworld.com/en-ch/industries/datacenter",
+    "https://www.ch.issworld.com/en-ch/news/stories/without-data-centers-switzerland-would-come-to-a-standstill",
+    "https://en.wikipedia.org/wiki/ISS_A/S",
+    "Claude industry research, 12 Nov 2026: well-known player in this talent pool; not yet individually verified"
+  ],
+  "last_updated": "2026-11-14",
+  "region": "EMEA"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "maureen-leary-c63084b6",
+  "type": "person",
+  "name": "Maureen Leary",
+  "current_title": "VP, Business Development",
+  "current_company": "Verne",
+  "linkedin": "https://www.linkedin.com/in/maureen-leary",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "VP, Business Development at Verne, 4/2024 to present; Technical Business Developer at AWS, 7/2018 to 3/2024; EMEA Data Center Strategy at Akamai Technologies, 8/2010 to 6/2018; EMEA Planning & Deployment Project Manager at Akamai Technologies, 2/2007 to 8/2010; AVP - Account and Contract Mgmt, Licensing & Compliance at MPI, 1/2003 to 2/2007; Senior Project Manager, Network Infrastructure Engineering at GENUITY, 1996 to 2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 45,
+      "date_added": "2026-07-08 17:34:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 226,
+      "date_added": "2026-04-21 10:07:25 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "verne",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP, Business Development",
+      "company": "Verne",
+      "start": "4/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Technical Business Developer",
+      "company": "AWS",
+      "start": "7/2018",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "EMEA Data Center Strategy",
+      "company": "Akamai Technologies",
+      "start": "8/2010",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "EMEA Planning & Deployment Project Manager",
+      "company": "Akamai Technologies",
+      "start": "2/2007",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "AVP - Account and Contract Mgmt, Licensing & Compliance",
+      "company": "MPI",
+      "start": "1/2003",
+      "end": "2/2007",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager, Network Infrastructure Engineering",
+      "company": "GENUITY",
+      "start": "1996",
+      "end": "2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

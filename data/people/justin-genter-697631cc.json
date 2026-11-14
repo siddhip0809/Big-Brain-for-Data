@@ -1,0 +1,130 @@
+{
+  "id": "justin-genter-697631cc",
+  "type": "person",
+  "name": "Justin Genter",
+  "current_title": "Senior Estimator",
+  "current_company": "RK",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/justin-genter-07915abb",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "3rd Level Pipe instructor at Emily Griffith Technical College, 8/2020 to 7/2021; Senior Estimator at RK, 12/2019 to present; Project Superintendent at RK, 4/2018 to 12/2019; General Foreman at RK, 3/2017 to 5/2018; Project Foreman at RK, 12/2015 to 3/2017; Trade Foreman | Pipe at RK, 3/2014 to 12/2015; Journeyman Pipefitter at RK, 6/2011 to 3/2014; Pipefitter Apprentice at RK, 9/2007 to 6/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 95,
+      "date_added": "2026-08-19 11:33:29 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 303,
+      "date_added": "2026-08-13 07:52:32 UTC",
+      "date_updated": "2026-08-19 06:33:28 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "3rd Level Pipe instructor",
+      "company": "Emily Griffith Technical College",
+      "start": "8/2020",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "RK",
+      "start": "12/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Superintendent",
+      "company": "RK",
+      "start": "4/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "General Foreman",
+      "company": "RK",
+      "start": "3/2017",
+      "end": "5/2018",
+      "current": false
+    },
+    {
+      "title": "Project Foreman",
+      "company": "RK",
+      "start": "12/2015",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "raw": "Trade Foreman"
+    },
+    {
+      "title": "Pipe",
+      "company": "RK",
+      "start": "3/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Journeyman Pipefitter",
+      "company": "RK",
+      "start": "6/2011",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Pipefitter Apprentice",
+      "company": "RK",
+      "start": "9/2007",
+      "end": "6/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Certificate of completion, apprenticeship program, Mechanical/Pipe fitter, Emily Griffith Technical College, 2007 to 2011"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

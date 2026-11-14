@@ -1,0 +1,140 @@
+{
+  "id": "john-kohli-f941d3b4",
+  "type": "person",
+  "name": "John Kohli",
+  "current_title": "Director, construction cost & finance",
+  "current_company": "Vantage",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/johnkohli",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, construction cost & finance at Vantage, 1/2024 to present; Senior Manager - Construction Cost Controls at Vantage, 1/2020 to 12/2023; Construction Cost Control Manager at Vantage, 3/2018 to 12/2019; Senior Financial Analyst at Stanford Health Care, 1/2018 to 3/2018; Finance Specialist at Stanford Children's Health | Lucile Packard Children's Hospital Stanford, 8/2015 to 12/2017; Finance Analyst at Stanford Children's Health | Lucile Packard Children's Hospital Stanford, 6/2014 to 8/2015; Data Aide at Stanford Hospital and Clinics - Planning Design and Construction at Accountemps, 5/2013 to 6/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 269,
+      "date_added": "2026-08-26 13:22:21 UTC",
+      "date_updated": "2026-08-26 08:23:44 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 139,
+      "date_added": "2026-08-10 11:10:01 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 109,
+      "date_added": "2026-07-02 11:47:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, construction cost & finance",
+      "company": "Vantage",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager - Construction Cost Controls",
+      "company": "Vantage",
+      "start": "1/2020",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Cost Control Manager",
+      "company": "Vantage",
+      "start": "3/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Stanford Health Care",
+      "start": "1/2018",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Finance Specialist",
+      "company": "Stanford Children's Health",
+      "current": false
+    },
+    {
+      "company": "Lucile Packard Children's Hospital Stanford",
+      "start": "8/2015",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Finance Analyst",
+      "company": "Stanford Children's Health",
+      "current": false
+    },
+    {
+      "company": "Lucile Packard Children's Hospital Stanford",
+      "start": "6/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Data Aide",
+      "company": "Stanford Hospital and Clinics - Planning Design and Construction at Accountemps",
+      "start": "5/2013",
+      "end": "6/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor of Science, Business Administration, Questrom School Of Business, Boston University"
+  ],
+  "biography": "At Vantage Data Centers, my role as Director of Construction Cost & Finance has leveraged my analytical skills and budget management expertise to drive financial strategies and cost controls within the construction industry. My professional journey has been marked by a persistent focus on enhancing cost efficiencies for large-scale data center projects.\r\n\r\nTransitioning from a Senior Manager to my current directorial position, I have cultivated a robust skill set in finance, contract administration, and project management. These competencies have been instrumental in delivering cost-effective solutions, ensuring the successful completion of development and capital improvement projects.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

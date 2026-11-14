@@ -1,0 +1,144 @@
+{
+  "id": "jose-bonilla-38b28b9e",
+  "type": "person",
+  "name": "Jose Bonilla",
+  "current_title": "Cost Manager",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/josembonilla",
+  "location": "San Antonio, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Cost Manager at Microsoft, 10/2022 to present; Cost Manager at Soben, 4/2022 to 10/2022; Cost Engineer at Currie & Brown, 3/2020 to 4/2022; EPC Cost at Zachry Group, 3/2019 to 3/2020; Field Business Services Representative at Zachry Group, 3/2017 to 3/2019; Business Services Representative at Zachry Group, 5/2016 to 3/2017; Operations and Compliance Manager at WorkHorse Oilfield Services, 8/2015 to 3/2016; Compliance and Safety Coordinator at WorkHorse Oil Field Services, 11/2014 to 8/2015; Sales Apprentice at Automatic Data Processing, 9/2014 to 10/2014; Sales Assistant at IMG, 9/2013 to 5/2014; Sales Representative at State Farm, 3/2013 to 9/2013; Therapy Tech at HealthSouth, 12/2010 to 9/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 220,
+      "date_added": "2026-08-11 14:38:31 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Cost Manager",
+      "company": "Microsoft",
+      "start": "10/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Soben",
+      "start": "4/2022",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Currie & Brown",
+      "start": "3/2020",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "EPC Cost",
+      "company": "Zachry Group",
+      "start": "3/2019",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Field Business Services Representative",
+      "company": "Zachry Group",
+      "start": "3/2017",
+      "end": "3/2019",
+      "current": false
+    },
+    {
+      "title": "Business Services Representative",
+      "company": "Zachry Group",
+      "start": "5/2016",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Operations and Compliance Manager",
+      "company": "WorkHorse Oilfield Services",
+      "start": "8/2015",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Compliance and Safety Coordinator",
+      "company": "WorkHorse Oil Field Services",
+      "start": "11/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Apprentice",
+      "company": "Automatic Data Processing",
+      "start": "9/2014",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Assistant",
+      "company": "IMG",
+      "start": "9/2013",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Representative",
+      "company": "State Farm",
+      "start": "3/2013",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Therapy Tech",
+      "company": "HealthSouth",
+      "start": "12/2010",
+      "end": "9/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Antonio",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor in Science, Kinesiology concentration Athletic Medicine, The University of Texas at San Antonio, 2009 to 2014"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

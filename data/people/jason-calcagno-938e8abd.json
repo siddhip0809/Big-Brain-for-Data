@@ -1,0 +1,90 @@
+{
+  "id": "jason-calcagno-938e8abd",
+  "type": "person",
+  "name": "Jason Calcagno",
+  "current_title": "Director of Construction",
+  "current_company": "CloudHQ",
+  "linkedin": "https://www.linkedin.com/in/jason-calcagno-208b11a7",
+  "location": "Arlington, Virginia, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Construction at CloudHQ, 2/2024 to present; Project Manager at CloudHQ, 7/2019 to 3/2024; Project Manager at Southland Industries, 2/2016 to 7/2019; Coordination Manager at Southland Industries, 11/2012 to 2/2016; Design Engineer at Southland Industries, 1/2008 to 11/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 67,
+      "date_added": "2026-07-02 11:47:42 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "cloudhq",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "CloudHQ",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "CloudHQ",
+      "start": "7/2019",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Southland Industries",
+      "start": "2/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Coordination Manager",
+      "company": "Southland Industries",
+      "start": "11/2012",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Design Engineer",
+      "company": "Southland Industries",
+      "start": "1/2008",
+      "end": "11/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Arlington",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Bachelor of Science (BS), Mechanical Engineering, Clemson University, 2003 to 2007"
+  ],
+  "biography": "Director of Construction at CloudHQ, LLC",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

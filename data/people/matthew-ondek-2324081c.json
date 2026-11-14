@@ -1,0 +1,107 @@
+{
+  "id": "matthew-ondek-2324081c",
+  "type": "person",
+  "name": "Matthew Ondek",
+  "current_title": "Director of Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/matthew-ondek-827a665b",
+  "location": "Richmond, Virginia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Development  at QTS Data Centers, 12/2025 to present; Senior Development Program Manager at QTS Data Centers, 3/2025 to 12/2025; Development Program Manager at QTS Data Centers, 11/2021 to 3/2025; Project Manager at DPR Construction, 6/2021 to 11/2021; MEP Coordinator at DPR Construction, 1/2021 to 6/2021; MEP Coordinator - Electrical Manager at DPR Construction, 10/2017 to 2/2021; Senior Project Engineer - Electrical Lead at DPR Construction, 9/2015 to 9/2017; Project Engineer at DPR Construction, 7/2013 to 10/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 162,
+      "date_added": "2026-07-07 10:59:17 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Development ",
+      "company": "QTS Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "3/2025",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "11/2021",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "DPR Construction",
+      "start": "6/2021",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "MEP Coordinator",
+      "company": "DPR Construction",
+      "start": "1/2021",
+      "end": "6/2021",
+      "current": false
+    },
+    {
+      "title": "MEP Coordinator - Electrical Manager",
+      "company": "DPR Construction",
+      "start": "10/2017",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer - Electrical Lead",
+      "company": "DPR Construction",
+      "start": "9/2015",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "DPR Construction",
+      "start": "7/2013",
+      "end": "10/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Richmond",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

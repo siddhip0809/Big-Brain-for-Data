@@ -1,0 +1,90 @@
+{
+  "id": "shannon-wojcik-6cbf28d0",
+  "type": "person",
+  "name": "Shannon Wojcik",
+  "current_title": "Senior Energy Program Manager, Nordics Energy Lead",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/shannonwojcik",
+  "location": "Cambridge, Massachusetts",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Energy Program Manager, Nordics Energy Lead at Microsoft, 5/2024 to present; Marketing Lead at Keewi, 4/2018 to 7/2018; Schneider Sustainable Energy Fellow at Union of Concerned Scientists, 7/2017 to 9/2017; Research Assistant at Arizona State University, 1/2016 to 8/2016; Sustainability Intern at Flavor & Fragrance Specialties, 6/2015 to 1/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 184,
+      "date_added": "2026-06-23 13:33:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Energy Program Manager, Nordics Energy Lead",
+      "company": "Microsoft",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Marketing Lead",
+      "company": "Keewi",
+      "start": "4/2018",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Schneider Sustainable Energy Fellow",
+      "company": "Union of Concerned Scientists",
+      "start": "7/2017",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Arizona State University",
+      "start": "1/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Sustainability Intern",
+      "company": "Flavor & Fragrance Specialties",
+      "start": "6/2015",
+      "end": "1/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Cambridge",
+    "region": "Massachusetts",
+    "country": "United States",
+    "group": "Massachusetts"
+  },
+  "education": [
+    "Master of Science (M.S.), Atmosphere & Energy, Stanford University, 2016 to 2018",
+    "Bachelor of Science (B.S.), Sustainability, Business Minor, Arizona State University, 2012 to 2016"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

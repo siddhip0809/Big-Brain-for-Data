@@ -1,0 +1,35 @@
+{
+  "id": "bovis",
+  "type": "company",
+  "name": "Bovis",
+  "aliases": [
+    "Bovis Construction",
+    "Bovis Construction (Europe) Limited",
+    "Lendlease Construction (Europe) Limited"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "UK main contractor; the former Lendlease UK construction business, owned by Atlas Holdings since March 2025",
+  "headquarters": "United Kingdom",
+  "founded": null,
+  "website": "https://www.bovis.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Revived Bovis brand after US private-equity firm Atlas Holdings bought Lendlease's UK construction arm (completed 31 March 2025, about GBP 35m). No UK data-centre contract found in open sources.",
+  "tags": [
+    "added-global-sweep-2026-11"
+  ],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Brain already has 'Lendlease' (real_estate_developer). Bovis is the separated UK construction business. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.bovis.com/news-and-insights/bovis-returns-to-uk-construction/",
+    "https://constructionenquirer.com/2025/04/01/lendlease-construction-renamed-bovis",
+    "https://en.wikipedia.org/wiki/Bovis_(company)",
+    "Ward, Teams 2609F VP Delivery - AVK SEG, 4 Nov 2026 (contractors missing from the AVK map)"
+  ],
+  "last_updated": "2026-11-14",
+  "region": "EMEA"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "danny-arnott-bb0a9e18",
+  "type": "person",
+  "name": "Danny Arnott",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/danny-arnott-mrics-80073718a",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 3/2026 to present; Senior Consultant at Turner & Townsend, 11/2024 to 3/2026",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 124,
+      "date_added": "2026-08-07 15:27:06 UTC",
+      "date_updated": "2026-08-19 07:31:22 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "11/2024",
+      "end": "3/2026",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

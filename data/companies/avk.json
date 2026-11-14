@@ -1,0 +1,37 @@
+{
+  "id": "avk",
+  "type": "company",
+  "name": "AVK",
+  "aliases": [
+    "AVK|SEG",
+    "AVK-SEG",
+    "AVK SEG",
+    "AVK Power Solutions"
+  ],
+  "roles": [
+    "energy_developer",
+    "general_contractor"
+  ],
+  "parent_industry": "energy_utilities",
+  "industry_role": "Data-centre power supplier: standby generators (Rolls-Royce mtu), modular electrical PowerPods, on-site microgrids and behind-the-meter energy-as-a-service",
+  "headquarters": "Maidenhead, United Kingdom",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "UK and European supplier of power systems for data centres; Partners Group took a majority stake in August 2026 with an initial investment of more than USD 1bn to build an energy-as-a-service platform around a pipeline of more than 2 GW of behind-the-meter opportunities. Built a 110 MW on-site microgrid for Pure DC's Dublin campus (announced March 2026).",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Ward client (AVK|SEG in Clockwork: VP Delivery and Operations Director UK & Europe searches). Sits between energy and data centres: designs, installs and maintains data-centre power - standby generation, modular electrical PowerPods (Ward's team calls them ePods), and on-site prime power sold as energy-as-a-service. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://datacentrereview.com/2026/08/partners-group-takes-majority-stake-in-avk-with-1-billion-investment/",
+    "https://www.pehub.com/partners-group-to-acquire-majority-stake-in-avk-power/",
+    "https://insidedatacentre.buzzsprout.com/1223072/episodes/15920804-ben-pritchard-ceo-avk-seg-powering-tomorrow-s-data",
+    "https://www.datacenterdynamics.com/en/news/avk-launches-modular-power-system-for-data-center-market/",
+    "https://www.datacenterdynamics.com/en/news/avk-launches-dedicated-funding-arm-to-own-and-operate-onsite-power-solutions-for-data-center-customers/",
+    "https://datacentremagazine.com/news/avk-rolls-royce-deliver-1-3gw-of-hvo-power-to-data-centres"
+  ],
+  "last_updated": "2026-10-30",
+  "region": "EMEA"
+}

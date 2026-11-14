@@ -1,0 +1,114 @@
+{
+  "id": "pritesh-indore-7f00eea7",
+  "type": "person",
+  "name": "Pritesh Indore",
+  "current_title": "Senior Construction Cost Estimator",
+  "current_company": "Crusoe",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/priteshkumarindore",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Construction Cost Estimator at Crusoe, 10/2025 to present; Senior Consultant - Google Data Centers at Turner & Townsend, 10/2023 to 10/2025; Cost Estimator at New England Infrastructure, 5/2020 to 10/2023; Assistant Project Manager at LICM New York, 7/2019 to 12/2019; Project Engineer at Rajesh Group, 7/2017 to 12/2017; Civil Engineer Intern at Rajesh Group, 1/2017 to 6/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 257,
+      "date_added": "2026-08-26 13:22:21 UTC",
+      "date_updated": "2026-08-26 08:23:44 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 18,
+      "date_added": "2026-08-03 13:53:50 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "crusoe",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Cost Estimator",
+      "company": "Crusoe",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant - Google Data Centers",
+      "company": "Turner & Townsend",
+      "start": "10/2023",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Estimator",
+      "company": "New England Infrastructure",
+      "start": "5/2020",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "LICM New York",
+      "start": "7/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Rajesh Group",
+      "start": "7/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Civil Engineer Intern",
+      "company": "Rajesh Group",
+      "start": "1/2017",
+      "end": "6/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Master of Science - Project Management (Concentration in Construction Management), Northeastern University, 2018 to 2020",
+    "Bachelor of Engineering (B.E.) Civil Engineering, Savitribai Phule Pune University, 2014 to 2018"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

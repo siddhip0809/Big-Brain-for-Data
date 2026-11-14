@@ -1,0 +1,69 @@
+{
+  "id": "mike-putnicki-ded73bb0",
+  "type": "person",
+  "name": "Mike Putnicki",
+  "current_title": "Director, Data Center Construction",
+  "current_company": "Fleet Data Centers",
+  "linkedin": "https://www.linkedin.com/in/mputnicki",
+  "location": "Denver, Colorado, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Data Center Construction at Fleet Data Centers, 1/2025 to present; Vice President Of Construction at Self-employed, 5/2022 to 1/2025",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 92,
+      "date_added": "2026-07-02 11:47:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Data Center Construction",
+      "company": "Fleet Data Centers",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President Of Construction",
+      "company": "Self-employed",
+      "start": "5/2022",
+      "end": "1/2025",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Merrimack College"
+  ],
+  "biography": "Director, Data Center Construction",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

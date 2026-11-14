@@ -1,0 +1,110 @@
+{
+  "id": "darryl-palmer-92c50f23",
+  "type": "person",
+  "name": "Darryl Palmer",
+  "current_title": "Site Acquisition Manager",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/darrylypalmer",
+  "location": "London, England, United Kingdom",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Site Acquisition Manager at AWS, 2024 to present; Senior Land Manager at Barratt Developments plc, 2019 to 2024; Senior Land Manager at Bellway Homes, 2018 to 2019; Land Manager at Taylor Wimpey plc, 2017 to 2018; CALA Group Limited at Land Buyer, 2016 to 2017; Land Graduate at Cala Group Limited, 2015 to 2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Years Experience",
+      "rank": 122,
+      "date_added": "2026-07-10 08:16:32 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 357,
+      "date_added": "2026-04-21 15:51:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Site Acquisition Manager",
+      "company": "AWS",
+      "start": "2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Land Manager",
+      "company": "Barratt Developments plc",
+      "start": "2019",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Senior Land Manager",
+      "company": "Bellway Homes",
+      "start": "2018",
+      "end": "2019",
+      "current": false
+    },
+    {
+      "title": "Land Manager",
+      "company": "Taylor Wimpey plc",
+      "start": "2017",
+      "end": "2018",
+      "current": false
+    },
+    {
+      "title": "CALA Group Limited",
+      "company": "Land Buyer",
+      "start": "2016",
+      "end": "2017",
+      "current": false
+    },
+    {
+      "title": "Land Graduate",
+      "company": "Cala Group Limited",
+      "start": "2015",
+      "end": "2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

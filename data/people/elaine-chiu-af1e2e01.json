@@ -1,0 +1,99 @@
+{
+  "id": "elaine-chiu-af1e2e01",
+  "type": "person",
+  "name": "Elaine Chiu",
+  "current_title": "Director, Asset Management",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/chiuelaine",
+  "location": "Sydney, New South Wales",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Asset Management  at Digital Realty, 9/2022 to present; Commercial Manager - Asia Pacific at Global Switch, 5/2020 to 6/2022; Investment Committee at Grandway Capital Limited, 6/2019 to 12/2023; Senior Asset Manager at Pimlico Capital, 12/2016 to 4/2020; Asset Manager at Longbow Enterprises, 6/2014 to 8/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 57,
+      "date_added": "2025-11-06 16:01:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Asset Management ",
+      "company": "Digital Realty",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Commercial Manager - Asia Pacific",
+      "company": "Global Switch",
+      "start": "5/2020",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Investment Committee",
+      "company": "Grandway Capital Limited",
+      "start": "6/2019",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Asset Manager",
+      "company": "Pimlico Capital",
+      "start": "12/2016",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Asset Manager",
+      "company": "Longbow Enterprises",
+      "start": "6/2014",
+      "end": "8/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Sydney",
+    "region": "New South Wales",
+    "country": "Australia",
+    "group": "Australia"
+  },
+  "education": [
+    "Bachelor of Laws - LLB, Unsw",
+    "Bachelor of Laws - LLB, University of New South Wales",
+    "Bachelor of Commerce - BCom, Unsw",
+    "Master of International and Public Affairs, The University of Hong Kong"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

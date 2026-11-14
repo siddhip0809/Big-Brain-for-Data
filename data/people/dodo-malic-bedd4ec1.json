@@ -1,0 +1,110 @@
+{
+  "id": "dodo-malic-bedd4ec1",
+  "type": "person",
+  "name": "Dodo Malic",
+  "current_title": "Director Sales Europe & Global Accounts",
+  "current_company": "Colt Data Centre Services",
+  "location": "Zurich,  Switzerland",
+  "linkedin": "https://www.linkedin.com/in/dodo-malic-652020a5",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director Sales Europe & Global Accounts at Colt Data Centre Services, 10/2020 to present; Country Manager Switzerland at Colt Data Centre Services, 8/2016 to 8/2023; Director Sales Europe at Colt Data Centre Services, 8/2016 to 9/2020; Director Sales & Country Manager Switzerland at Colt Data Centre Services, 10/2015 to 7/2016; Director Sales Switzerland, Austria, Belgium & Netherlands, colt partner services at Colt Data Centre Services, 12/2014 to 12/2015; Director Regional Sales, colt communication services at Colt Data Centre Services, 11/2012 to 11/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 93,
+      "date_added": "2026-08-26 09:14:03 UTC",
+      "date_updated": "2026-08-26 04:16:49 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 283,
+      "date_added": "2026-08-21 15:01:50 UTC",
+      "date_updated": "2026-08-26 04:14:03 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "colt-data-centre-services",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Sales Europe & Global Accounts",
+      "company": "Colt Data Centre Services",
+      "start": "10/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Country Manager Switzerland",
+      "company": "Colt Data Centre Services",
+      "start": "8/2016",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Director Sales Europe",
+      "company": "Colt Data Centre Services",
+      "start": "8/2016",
+      "end": "9/2020",
+      "current": false
+    },
+    {
+      "title": "Director Sales & Country Manager Switzerland",
+      "company": "Colt Data Centre Services",
+      "start": "10/2015",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Director Sales Switzerland, Austria, Belgium & Netherlands, colt partner services",
+      "company": "Colt Data Centre Services",
+      "start": "12/2014",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Director Regional Sales, colt communication services",
+      "company": "Colt Data Centre Services",
+      "start": "11/2012",
+      "end": "11/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Zurich",
+    "region": null,
+    "country": "Switzerland",
+    "group": "Switzerland"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

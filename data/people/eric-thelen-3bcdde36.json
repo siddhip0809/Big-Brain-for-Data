@@ -1,0 +1,126 @@
+{
+  "id": "eric-thelen-3bcdde36",
+  "type": "person",
+  "name": "Eric Thelen",
+  "current_title": "Vice President of Business Development",
+  "current_company": "T5 Data Centers",
+  "linkedin": "https://www.linkedin.com/in/esthelen",
+  "location": "New York City ,  New York",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President of Business Development at T5 Data Centers, 7/2025 to present; Senior Vice President of Sales and Customer Success at 365 Data Centers, 1/2024 to 12/2025; Director of Digital Sales at Equinix, 1/2021 to 12/2024; Global Director of Digital Sales at Equinix, 1/2021 to 12/2024; GAM / Private Equity Strategist / Global Team Lead at AWS, 1/2016 to 12/2021; Vice President of Sales at TierPoint, 1/2013 to 12/2016; Vice President of Sales -  U.S. and Europe at Digital Realty, 1/2008 to 12/2013; Global Account Manager at Yipes Enterprise Services, 1/2006 to 12/2008; Global Account Manager at Lumen Technologies, 1/2001 to 12/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 139,
+      "date_added": "2025-12-15 15:54:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "t5-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Business Development",
+      "company": "T5 Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President of Sales and Customer Success",
+      "company": "365 Data Centers",
+      "start": "1/2024",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Director of Digital Sales",
+      "company": "Equinix",
+      "start": "1/2021",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Global Director of Digital Sales",
+      "company": "Equinix",
+      "start": "1/2021",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "GAM / Private Equity Strategist / Global Team Lead",
+      "company": "AWS",
+      "start": "1/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "TierPoint",
+      "start": "1/2013",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales -  U.S. and Europe",
+      "company": "Digital Realty",
+      "start": "1/2008",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Yipes Enterprise Services",
+      "start": "1/2006",
+      "end": "12/2008",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Lumen Technologies",
+      "start": "1/2001",
+      "end": "12/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "education": [
+    "Business Administration and Management, General, East Carolina University",
+    "Sales Leadership Council, Customer Centric Selling, The Complex Sale, Solution Selling, Various Sales Executive Trainings"
+  ],
+  "biography": "High performing, sales executive with 20+ years of experience across cloud, data center, software, network, and the evolving AI industry. Consistently ranked in the top 1% of sales achievers, excelling at industry leaders like Amazon Web Services (AWS) and Equinix, as well as PE-backed high-growth firms acquired by major players, including Savvis (Lumen), Yipes (Reliance), Telx (Digital Realty), and Xand (TierPoint). \n\nRecognized for shaping go-to-market strategies, expanding high-profile accounts, and mobilizing global teams to drive exceptional outcomes. Proven ability to secure complex, high-value deals across enterprise, mid-market, and startup segments. Expert in revenue growth, product-market fits, process optimization, and cross-functional alignment to accelerate scaling and strategic exits. Dedicated to cultivating a high-trust, high-performance culture fueled by innovation, continuous learning, and customer obsession.\n\nKey Skills: Vision/GTM Strategy | Sales Leadership | Sales | Innovation & Adaptability | Managing Complexity | Earning Trust| Fostering High-Performance Sales Cultures | Analytical Thinking | Negotiating & Deal Management\n\nKey Expertise: Cloud Technologies | GPUaaS | Network Interconnections | Artificial Intelligence (AI) | Edge Computing | SaaS | Data Centers | Product Market Fits",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Poor",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cts-nordics",
+  "type": "company",
+  "name": "CTS Nordics",
+  "aliases": [
+    "CTS"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Design-and-build contractor specialising only in data centres, across four Nordic countries",
+  "headquarters": "Oslo, Norway",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "Describes itself as one of the largest data-centre design-and-build contractors in the Nordics, with over 1,400 employees; former parent of NordicEPOD and a co-investor in it with Eaton (2024).",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": " Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.businesswire.com/news/home/20240531679365/en/Eaton-Expands-Reach-into-European-Data-Center-Market-by-Making-Strategic-Investment-in-NordicEPOD",
+    "https://www.datacenter-forum.com/cts-nordics/new-nordicepod-factory-opens-in-norway",
+    "https://datacenterdynamics.com/en/product-news/new-nordicepod-factory-opens-to-boost-production-of-power-modules-for-speedier-data-center-construction"
+  ],
+  "last_updated": "2026-10-30",
+  "region": "EMEA"
+}

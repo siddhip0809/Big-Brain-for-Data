@@ -1,0 +1,117 @@
+{
+  "id": "kyle-utz-705a15db",
+  "type": "person",
+  "name": "Kyle Utz",
+  "current_title": "Director of Construction",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/kyle-utz-0051a7a0",
+  "location": "Columbus, Ohio",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Construction at Vantage, 5/2026 to present; Chapter President at 7x24 Exchange International Ohio Chapter, 7/2025 to present; Principal Construction Manager at Vantage, 7/2025 to 3/2026; Construction Manager at Vantage, 7/2024 to 7/2025; Project Manager at Holder Construction, 4/2021 to 6/2024; MEP Coordinator at Holder Construction, 10/2019 to 7/2021; Senior Engineer at Holder Construction, 5/2018 to 10/2019; Office Engineer at Holder Construction, 2/2016 to 8/2016; Project Engineer, MEP Services at Holder Construction, 2/2016 to 5/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 115,
+      "date_added": "2026-07-06 11:18:00 UTC",
+      "date_updated": "2026-07-06 06:18:00 -0500",
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chapter President",
+      "company": "7x24 Exchange International Ohio Chapter",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Construction Manager",
+      "company": "Vantage",
+      "start": "7/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "7/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Holder Construction",
+      "start": "4/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "MEP Coordinator",
+      "company": "Holder Construction",
+      "start": "10/2019",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer",
+      "company": "Holder Construction",
+      "start": "5/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Office Engineer",
+      "company": "Holder Construction",
+      "start": "2/2016",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer, MEP Services",
+      "company": "Holder Construction",
+      "start": "2/2016",
+      "end": "5/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States",
+    "group": "Ohio"
+  },
+  "education": [
+    "Bachelor of Engineering (B.E.), Mechanical Engineering, University Of Delaware, 2012 to 2016"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

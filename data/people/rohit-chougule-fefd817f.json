@@ -1,0 +1,75 @@
+{
+  "id": "rohit-chougule-fefd817f",
+  "type": "person",
+  "name": "Rohit Chougule",
+  "current_title": "Estimating Manager",
+  "current_company": "McCarthy Building Companies",
+  "linkedin": "https://www.linkedin.com/in/rohitrchougule",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Estimating Manager at McCarthy Building Companies, 4/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 317,
+      "date_added": "2026-08-13 11:34:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 317,
+      "date_added": "2026-08-13 11:34:43 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mccarthy-building-companies",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Manager",
+      "company": "McCarthy Building Companies",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

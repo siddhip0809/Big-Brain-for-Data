@@ -1,0 +1,112 @@
+{
+  "id": "kabrina-ramnath-44e9526b",
+  "type": "person",
+  "name": "Kabrina Ramnath",
+  "current_title": "Senior Consultant",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/kabrinaramnath",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Consultant at Turner & Townsend, 8/2025 to present; Executive Project Consultant at Gleeds, 8/2024 to 8/2025;  Cost Manager | Hyperscale Data Centres at Linesight, 12/2023 to 8/2024; Project Controls Analyst | Hyperscale Data Centres at Linesight, 10/2021 to 11/2023; Project Controls Specialist at Cobb Fendley & Associates, 1/2020 to 10/2021; Senior Estimating Analyst at Perry Homes - A Trusted Texas Builder For Over 50 Years, 1/2018 to 11/2019; Estimator at Perry Homes - A Trusted Texas Builder For Over 50 Years, 9/2016 to 1/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Role Scope",
+      "rank": 367,
+      "date_added": "2026-08-17 07:55:19 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Project Consultant",
+      "company": "Gleeds",
+      "start": "8/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "raw": "Cost Manager"
+    },
+    {
+      "title": "Hyperscale Data Centres",
+      "company": "Linesight",
+      "start": "12/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "raw": "Project Controls Analyst"
+    },
+    {
+      "title": "Hyperscale Data Centres",
+      "company": "Linesight",
+      "start": "10/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Project Controls Specialist",
+      "company": "Cobb Fendley & Associates",
+      "start": "1/2020",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Estimating Analyst",
+      "company": "Perry Homes - A Trusted Texas Builder For Over 50 Years",
+      "start": "1/2018",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Perry Homes - A Trusted Texas Builder For Over 50 Years",
+      "start": "9/2016",
+      "end": "1/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "erick-bromfield-ef1acfed",
+  "type": "person",
+  "name": "Erick Bromfield",
+  "current_title": "Vice President - Acquisitions and Development",
+  "current_company": "CoreSite",
+  "linkedin": "https://www.linkedin.com/in/erick-bromfield-8aa9a34",
+  "location": "Denver, Colorado",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President - Acquisitions and Development at CoreSite, 4/2017 to present; VP Capital Markets /Asst. Teasurer at CoreSite, 1/2008 to 3/2017; Associate at CoreSite, 11/2005 to 12/2007; Analyst at CoreSite, 11/2004 to 11/2005; Senior Analyst at Qwest Communications, 2/2001 to 11/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 174,
+      "date_added": "2026-01-09 15:59:57 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "coresite",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President - Acquisitions and Development",
+      "company": "CoreSite",
+      "start": "4/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP Capital Markets /Asst. Teasurer",
+      "company": "CoreSite",
+      "start": "1/2008",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "CoreSite",
+      "start": "11/2005",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "CoreSite",
+      "start": "11/2004",
+      "end": "11/2005",
+      "current": false
+    },
+    {
+      "title": "Senior Analyst",
+      "company": "Qwest Communications",
+      "start": "2/2001",
+      "end": "11/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "University of Colorado Boulder - Leeds School of Business, 1993 to 1997"
+  ],
+  "biography": "Vice President - Acquisitions",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

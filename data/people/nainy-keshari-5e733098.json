@@ -1,0 +1,58 @@
+{
+  "id": "nainy-keshari-5e733098",
+  "type": "person",
+  "name": "Nainy Keshari",
+  "current_title": "Senior Consultant",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/nainy-keshari",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Consultant at Turner & Townsend, 8/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 543,
+      "date_added": "2026-08-27 07:20:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

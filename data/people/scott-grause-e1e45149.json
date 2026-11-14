@@ -1,0 +1,93 @@
+{
+  "id": "scott-grause-e1e45149",
+  "type": "person",
+  "name": "Scott Grause",
+  "current_title": "Construction Director",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/scott-grause-1292a9b0",
+  "location": "Kansas City, Kansas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Construction Director at Digital Realty, 6/2026 to present; Senior Project Manager at Turner Construction, 10/2023 to 6/2026; Senior Project Manager at Brinkmann Constructors, 10/2022 to 10/2023; Project Manager at Brinkmann Constructors, 5/2019 to 10/2022; Project Manager at JE Dunn Construction, 3/2015 to 5/2019; Project Engineer/Project Manager at Garney Construction, 3/2010 to 3/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 138,
+      "date_added": "2026-07-06 14:00:45 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Director",
+      "company": "Digital Realty",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Turner Construction",
+      "start": "10/2023",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Brinkmann Constructors",
+      "start": "10/2022",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Brinkmann Constructors",
+      "start": "5/2019",
+      "end": "10/2022",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "JE Dunn Construction",
+      "start": "3/2015",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer/Project Manager",
+      "company": "Garney Construction",
+      "start": "3/2010",
+      "end": "3/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Kansas City",
+    "region": "Kansas",
+    "country": "United States",
+    "group": "Kansas"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

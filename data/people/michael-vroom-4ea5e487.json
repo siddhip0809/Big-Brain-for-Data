@@ -1,0 +1,110 @@
+{
+  "id": "michael-vroom-4ea5e487",
+  "type": "person",
+  "name": "Michael Vroom",
+  "current_title": "Senior Cost Engineer Leader",
+  "current_company": "M C Dean",
+  "location": "Baltimore, Washington DC",
+  "linkedin": "https://www.linkedin.com/in/michael-vroom-74797010",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Cost Engineer Leader at M C Dean, 9/2025 to present; Principal Cost Manager at M C Dean, 6/2019 to 9/2025;  Senior Cost Engineer at M C Dean, 9/2014 to 5/2019; Procurement Agent at M C Dean, 11/2012 to 8/2014; Cost Engineer at M C Dean, 12/2007 to 10/2012; Inside Sales/ Rate Specialist at Sea Star Line, 2005 to 2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 89,
+      "date_added": "2026-08-19 11:13:33 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 114,
+      "date_added": "2026-08-07 13:06:50 UTC",
+      "date_updated": "2026-08-19 06:13:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Engineer Leader",
+      "company": "M C Dean",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Cost Manager",
+      "company": "M C Dean",
+      "start": "6/2019",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Engineer",
+      "company": "M C Dean",
+      "start": "9/2014",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Procurement Agent",
+      "company": "M C Dean",
+      "start": "11/2012",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "M C Dean",
+      "start": "12/2007",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Inside Sales/ Rate Specialist",
+      "company": "Sea Star Line",
+      "start": "2005",
+      "end": "2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

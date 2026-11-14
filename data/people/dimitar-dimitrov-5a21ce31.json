@@ -1,0 +1,181 @@
+{
+  "id": "dimitar-dimitrov-5a21ce31",
+  "type": "person",
+  "name": "Dimitar Dimitrov",
+  "current_title": "Senior Real Estate Transaction Manager",
+  "current_company": "NTT",
+  "linkedin": "https://www.linkedin.com/in/dimitar-dimitrov-43968552",
+  "location": "Frankfurt, Hesse, Germany",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Real Estate Transaction Manager at NTT, 10/2024 to present; Associate Director at KanAm Grund Group, 5/2023 to 10/2024; Associate Director - Investment Management Europe at KanAm Grund Kapitalverwaltungsgesellschaft mbH, 2023 to 2024; Head Of Investment UK & Ireland at Deka Investment, 4/2020 to present; Head of UK & Ireland at Deka Immobilien Investment, 2020 to 2023; Senior Investment Manager - UK & Ireland at Deka Investment, 11/2014 to 4/2020; Senior Investment Manager - UK, Irland at ehem Deka Immobilien, 2014 to 2020; Investment Manager - Americas at Deka Investment, 6/2013 to 11/2014; Investment Manager - Americas at Deka Immobilien, 2013 to 2014; Analyst - Americas at Deka Immobilien, 2012 to 2013; Analyst at Deka Investment, 5/2010 to 6/2013; Intern at Deka Immobilien, 2010 to 2012; Technical support at IT Department, 2009 to 2010; IT Specialist at WAN-IFRA, 5/2008 to 5/2010; Translator (German/English) at Technische Universität, 2007 to 2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 265,
+      "date_added": "2026-08-11 12:15:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 164,
+      "date_added": "2026-01-07 16:30:01 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "ntt",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Real Estate Transaction Manager",
+      "company": "NTT",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "KanAm Grund Group",
+      "start": "5/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Associate Director - Investment Management Europe",
+      "company": "KanAm Grund Kapitalverwaltungsgesellschaft mbH",
+      "start": "2023",
+      "end": "2024",
+      "current": false
+    },
+    {
+      "title": "Head Of Investment UK & Ireland",
+      "company": "Deka Investment",
+      "start": "4/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of UK & Ireland",
+      "company": "Deka Immobilien Investment",
+      "start": "2020",
+      "end": "2023",
+      "current": false
+    },
+    {
+      "title": "Senior Investment Manager - UK & Ireland",
+      "company": "Deka Investment",
+      "start": "11/2014",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Investment Manager - UK, Irland",
+      "company": "ehem Deka Immobilien",
+      "start": "2014",
+      "end": "2020",
+      "current": false
+    },
+    {
+      "title": "Investment Manager - Americas",
+      "company": "Deka Investment",
+      "start": "6/2013",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Investment Manager - Americas",
+      "company": "Deka Immobilien",
+      "start": "2013",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Analyst - Americas",
+      "company": "Deka Immobilien",
+      "start": "2012",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Deka Investment",
+      "start": "5/2010",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Deka Immobilien",
+      "start": "2010",
+      "end": "2012",
+      "current": false
+    },
+    {
+      "title": "Technical support",
+      "company": "IT Department",
+      "start": "2009",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "IT Specialist",
+      "company": "WAN-IFRA",
+      "start": "5/2008",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Translator (German/English)",
+      "company": "Technische Universität",
+      "start": "2007",
+      "end": "2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Frankfurt",
+    "region": "Hesse",
+    "country": "Germany",
+    "group": "Germany"
+  },
+  "education": [
+    "MSc. Wirtschaftsmathematik, Technische Universität Darmstadt",
+    "Bachelor of Science - BS, Mathematics and Computer Science, Technische Universität Darmstadt",
+    "BSc. Mathematics, Technische Universität Darmstadt"
+  ],
+  "biography": "Dimitar Dimitrov is a Senior Investment Transaction Manager at NTT with 14 years of commercial real estate experience, specializing in the data center sector for the past 1.5 years. He views his current role as below his experience level, seeing himself as a Director or VP. He has successfully sourced and executed data center transactions across Germany, Austria, and France, and has experience with deals in the Nordics, UK, Ireland, US, and Mexico. Dimitar has led or managed three data center development projects in Berlin (200 MW), Paris (100 MW), and Vienna (36 MW and 200 MW). He possesses approximately 3 years of pure real estate development experience and 15-16 years of acquisition experience, including 2-3 years in entitlements and permitting. He is actively seeking a director-level position and is a strong candidate to replace his departing boss, the Senior Director, Head of EMEA Strategy and Expansion. Dimitar's notice period at NTT is 3 months, likely to be garden leave.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

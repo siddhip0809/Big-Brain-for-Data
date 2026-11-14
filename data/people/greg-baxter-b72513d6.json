@@ -1,0 +1,75 @@
+{
+  "id": "greg-baxter-b72513d6",
+  "type": "person",
+  "name": "Greg Baxter",
+  "current_title": "Construction Estimator",
+  "current_company": "National Technology Integrators",
+  "location": "Sterling, Virrginia",
+  "linkedin": "https://www.linkedin.com/in/greg-baxter-1b24ab5b",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Construction Estimator at National Technology Integrators, 7/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 40,
+      "date_added": "2026-08-18 09:47:38 UTC",
+      "date_updated": "2026-08-19 08:08:12 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 203,
+      "date_added": "2026-08-11 11:03:54 UTC",
+      "date_updated": "2026-08-18 04:47:46 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Estimator",
+      "company": "National Technology Integrators",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Sterling",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

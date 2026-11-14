@@ -1,0 +1,110 @@
+{
+  "id": "daphne-adjei-cce46fd8",
+  "type": "person",
+  "name": "Daphne Adjei",
+  "current_title": "Strategic Negotiator",
+  "current_company": "Google",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/daphne-adjei-mrics-86b74710a",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Negotiator at Google, 1/2024 to present; Associate at Savills, 1/2023 to 1/2024; Surveyor MRICS at Network Rail, 8/2017 to 6/2022; Asset Management - Valuations at London Borough of Waltham Forest, 5/2016 to 8/2017; Surveyor - Valuations at Brecker Grossmith, 11/2015 to 4/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 22,
+      "date_added": "2026-08-11 12:08:17 UTC",
+      "date_updated": "2026-08-11 07:08:46 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 149,
+      "date_added": "2026-07-10 10:58:33 UTC",
+      "date_updated": "2026-08-11 07:08:17 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "google",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Strategic Negotiator",
+      "company": "Google",
+      "start": "1/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate",
+      "company": "Savills",
+      "start": "1/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Surveyor MRICS",
+      "company": "Network Rail",
+      "start": "8/2017",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "Asset Management - Valuations",
+      "company": "London Borough of Waltham Forest",
+      "start": "5/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Surveyor - Valuations",
+      "company": "Brecker Grossmith",
+      "start": "11/2015",
+      "end": "4/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "BSc(Hons) Building Surveying, Building Surveying, University of the West of England, 2011 to 2014"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

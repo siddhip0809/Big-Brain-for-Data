@@ -1,0 +1,66 @@
+{
+  "id": "greg-richardson-24982cc1",
+  "type": "person",
+  "name": "Greg Richardson",
+  "current_title": "Vice President of Construction",
+  "current_company": "DataSite",
+  "linkedin": "https://www.linkedin.com/in/greg-richardson-8124692b",
+  "location": "Abington, Pennsylvania, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President of Construction at DataSite, 4/2015 to present; Executive Project Manager at Total Site Solutions, 2005 to 2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 12,
+      "date_added": "2026-07-02 11:47:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "DataSite",
+      "start": "4/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Executive Project Manager",
+      "company": "Total Site Solutions",
+      "start": "2005",
+      "end": "2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Abington",
+    "region": "Pennsylvania",
+    "country": "United States",
+    "group": "Pennsylvania"
+  },
+  "biography": "Vice President of Construction at DataSite",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

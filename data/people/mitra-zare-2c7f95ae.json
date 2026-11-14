@@ -1,0 +1,101 @@
+{
+  "id": "mitra-zare-2c7f95ae",
+  "type": "person",
+  "name": "Mitra Zare",
+  "current_title": "Director Development DACH",
+  "current_company": "CloudHQ",
+  "linkedin": "https://www.linkedin.com/in/mitra-zare-27a64396",
+  "location": "Spain",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director Development DACH at CloudHQ, 6/2026 to present; Director Delivery Central at STACK EMEA, 5/2023 to 5/2026; Senior Project Manager at Business Critical Solutions, 11/2021 to 5/2023; Project Manager at Global Data Centers EMEA NTT, 2/2020 to 11/2021; Fit-out Project Lead at e-shelter, 1/2018 to 1/2020; Site Manager CSA at e-shelter, 5/2016 to 12/2017; Project Manager at PCM Project & Construction Management, 11/2013 to 4/2016; Site Manager CSA at BeyeScheid Architekten, 7/2011 to 4/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Research",
+      "rank": 329,
+      "date_added": "2026-08-31 14:38:31 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "cloudhq",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Development DACH",
+      "company": "CloudHQ",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Delivery Central",
+      "company": "STACK EMEA",
+      "start": "5/2023",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Business Critical Solutions",
+      "start": "11/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Global Data Centers EMEA NTT",
+      "start": "2/2020",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Fit-out Project Lead",
+      "company": "e-shelter",
+      "start": "1/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Site Manager CSA",
+      "company": "e-shelter",
+      "start": "5/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "PCM Project & Construction Management",
+      "start": "11/2013",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Site Manager CSA",
+      "company": "BeyeScheid Architekten",
+      "start": "7/2011",
+      "end": "4/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Spain",
+    "group": "Spain"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "markus-fuchs-7577e800",
+  "type": "person",
+  "name": "Markus Fuchs",
+  "current_title": "Sales Director",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/fuchsmarkus",
+  "location": "Frankfurt, Hesse, Germany",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director at Equinix, 3/2025 to present; Senior Manager - International Sales at Equinix, 1/2023 to 3/2025; Senior Account Executive | Named Accounts at Equinix, 7/2012 to 12/2022; Senior Sales Executive | Direct Sales at Interactive Data, 4/2009 to 6/2012; Partner Manager | Indirect Sales at Interactive Data, 9/2005 to 3/2009; Project Manager at IS Teledata, 12/2003 to 6/2005; Trainer at IS Innovative Software, 8/2000 to 11/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Too Junior",
+      "rank": 211,
+      "date_added": "2026-07-31 12:49:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Equinix",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager - International Sales",
+      "company": "Equinix",
+      "start": "1/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "raw": "Senior Account Executive"
+    },
+    {
+      "title": "Named Accounts",
+      "company": "Equinix",
+      "start": "7/2012",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "raw": "Senior Sales Executive"
+    },
+    {
+      "title": "Direct Sales",
+      "company": "Interactive Data",
+      "start": "4/2009",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "raw": "Partner Manager"
+    },
+    {
+      "title": "Indirect Sales",
+      "company": "Interactive Data",
+      "start": "9/2005",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "IS Teledata",
+      "start": "12/2003",
+      "end": "6/2005",
+      "current": false
+    },
+    {
+      "title": "Trainer",
+      "company": "IS Innovative Software",
+      "start": "8/2000",
+      "end": "11/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Frankfurt",
+    "region": "Hesse",
+    "country": "Germany",
+    "group": "Germany"
+  },
+  "education": [
+    "Diplom, Goethe University Frankfurt, 1995 to 2001"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

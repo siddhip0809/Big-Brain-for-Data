@@ -1,0 +1,96 @@
+{
+  "id": "adam-tamburini-7175d65d",
+  "type": "person",
+  "name": "Adam Tamburini",
+  "current_title": "Director",
+  "current_company": "BLACK FAN CONSULTING LIMITED",
+  "linkedin": "https://www.linkedin.com/in/adamtamburini",
+  "location": "Greater London, England",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Chief Hyperscale Officer at STACK Infrastructure, 4/2022 to 5/2026; Director at BLACK FAN CONSULTING LIMITED, 1/2022 to present; Senior Vice President Hyperscale Sales, Global Data Centers at NTT, 10/2019 to 12/2021; Senior Vice President International at e-shelter, 7/2008 to 10/2019; Implementation Director at Pioneer Technology, 11/2005 to 10/2008; Business Unit Director at AYH plc, 6/1996 to 10/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Research",
+      "rank": 330,
+      "date_added": "2026-09-01 10:48:17 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Hyperscale Officer",
+      "company": "STACK Infrastructure",
+      "start": "4/2022",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Director",
+      "company": "BLACK FAN CONSULTING LIMITED",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President Hyperscale Sales, Global Data Centers",
+      "company": "NTT",
+      "start": "10/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President International",
+      "company": "e-shelter",
+      "start": "7/2008",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Implementation Director",
+      "company": "Pioneer Technology",
+      "start": "11/2005",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "Business Unit Director",
+      "company": "AYH plc",
+      "start": "6/1996",
+      "end": "10/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "First, Quantity Surveying, Kingston University, 1992 to 1996"
+  ],
+  "biography": "Adam has been involved in over 1GW of data center developments over his 25 year career. He has worked with all of the major Hyperscalers, and has experience working in the executive management team of companies that are enterprise businesses or owned by third party investors. Adam has a proven track record of growing multiple regional data center providers into European market leaders.\n\nAdam graduated from Kingston University in 1996 with a 1st in Quantity Surveying.",
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

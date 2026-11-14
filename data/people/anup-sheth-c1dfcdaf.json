@@ -1,0 +1,117 @@
+{
+  "id": "anup-sheth-c1dfcdaf",
+  "type": "person",
+  "name": "Anup Sheth",
+  "current_title": "Associate Principal",
+  "current_company": "TBD Consultants",
+  "location": "San Diego, California",
+  "linkedin": "https://www.linkedin.com/in/anup-sheth-67230b82",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Principal at TBD Consultants, 12/2025 to present; Construction Cost Consultant at TBD Consultants, 1/2019 to 12/2025; Cost Consultant/Cost Manager/Estimator at Linesight, 11/2017 to 1/2019; Cost Manager/Quantity Surveyor/Estimator  at Construction Santé Montréal, 5/2015 to 11/2017; MEP Design Manager at Construction Santé Montréal, 9/2014 to 5/2015; MEP Estimator at Construction Santé Montréal, 3/2014 to 5/2015; Private Tutor at Entrepreneur, 12/2012 to 4/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 153,
+      "date_added": "2026-08-19 13:05:39 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 365,
+      "date_added": "2026-08-17 07:18:55 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Principal",
+      "company": "TBD Consultants",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Cost Consultant",
+      "company": "TBD Consultants",
+      "start": "1/2019",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Consultant/Cost Manager/Estimator",
+      "company": "Linesight",
+      "start": "11/2017",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Cost Manager/Quantity Surveyor/Estimator ",
+      "company": "Construction Santé Montréal",
+      "start": "5/2015",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "MEP Design Manager",
+      "company": "Construction Santé Montréal",
+      "start": "9/2014",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "MEP Estimator",
+      "company": "Construction Santé Montréal",
+      "start": "3/2014",
+      "end": "5/2015",
+      "current": false
+    },
+    {
+      "title": "Private Tutor",
+      "company": "Entrepreneur",
+      "start": "12/2012",
+      "end": "4/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Diego",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-01-efc3ae55",
+  "type": "note",
+  "date": "2026-11-01",
+  "kind": "search_strategy",
+  "basis": "ward_judgement",
+  "summary": "Make sure Bouygues and Equans are fully exhausted for the AVK | SEG search. (10 Nov: also map MICIM Group.)",
+  "about": [
+    "company:bouygues-construction",
+    "company:equans",
+    "company:micim-group",
+    "company:avk",
+    "search:vp-delivery"
+  ],
+  "source": {
+    "channel": "teams",
+    "date": "2026-11-01",
+    "from": "Ward",
+    "via": "Teams · 2609F VP Delivery - AVK SEG",
+    "subject": "Bouygues & Equans",
+    "link": "https://teams.microsoft.com/l/message/19%3ac8bcbe7b94d64eb49b2733a279f4750f%40thread.tacv2/1793544277741",
+    "ref": "sha1:512cf0773c7822d4"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

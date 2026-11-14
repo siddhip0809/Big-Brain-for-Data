@@ -1,0 +1,93 @@
+{
+  "id": "james-wynne-bb8087dc",
+  "type": "person",
+  "name": "James Wynne",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/james-wynne-eit-737448a4",
+  "location": "New York City, New York",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 4/2026 to present; Senior Consultant, Estimation at Turner & Townsend, 11/2023 to 4/2026; Consultant, Estimation at Turner & Townsend, 3/2021 to 11/2023; Commercial Estimator/Field Engineer at E E Cruz & Company, 2/2018 to 2/2021; Intern at Mengler Mechanical, 6/2016 to 8/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 336,
+      "date_added": "2026-08-13 13:41:53 UTC",
+      "date_updated": "2026-08-19 07:58:54 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Consultant, Estimation",
+      "company": "Turner & Townsend",
+      "start": "11/2023",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Consultant, Estimation",
+      "company": "Turner & Townsend",
+      "start": "3/2021",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Commercial Estimator/Field Engineer",
+      "company": "E E Cruz & Company",
+      "start": "2/2018",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Mengler Mechanical",
+      "start": "6/2016",
+      "end": "8/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

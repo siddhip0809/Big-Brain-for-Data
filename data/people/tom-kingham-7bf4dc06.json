@@ -1,0 +1,103 @@
+{
+  "id": "tom-kingham-7bf4dc06",
+  "type": "person",
+  "name": "Tom Kingham",
+  "current_title": "VP Engineering & Utilities Europe and Japan",
+  "current_company": "CyrusOne",
+  "linkedin": "https://www.linkedin.com/in/tom-kingham-41748310",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "VP Engineering & Utilities Europe and Japan at CyrusOne, 3/2025 to present; Senior Director, Design at CyrusOne, 2/2024 to 3/2025; Director Solutions Engineering at CyrusOne, 4/2019 to 3/2024; Director, Sales Engineering EMEA at Digital Realty, 1/2015 to 4/2019; Senior Engineer at Digital Realty, 7/2013 to 1/2015; Lead Engineer at BladeRoom Data Centres, 10/2011 to 7/2013; Senior Mechanical Engineer at Red Engineering, 1/2007 to 9/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Off Limits",
+      "rank": 189,
+      "date_added": "2026-07-17 12:29:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "cyrusone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Engineering & Utilities Europe and Japan",
+      "company": "CyrusOne",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Design",
+      "company": "CyrusOne",
+      "start": "2/2024",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Director Solutions Engineering",
+      "company": "CyrusOne",
+      "start": "4/2019",
+      "end": "3/2024",
+      "current": false
+    },
+    {
+      "title": "Director, Sales Engineering EMEA",
+      "company": "Digital Realty",
+      "start": "1/2015",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Engineer",
+      "company": "Digital Realty",
+      "start": "7/2013",
+      "end": "1/2015",
+      "current": false
+    },
+    {
+      "title": "Lead Engineer",
+      "company": "BladeRoom Data Centres",
+      "start": "10/2011",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Mechanical Engineer",
+      "company": "Red Engineering",
+      "start": "1/2007",
+      "end": "9/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "MSc, Building Services Engineering, London South Bank University, 2007 to 2009",
+    "BEng (Hons), Mechanical Engineering, University Of Nottingham, 2003 to 2006"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

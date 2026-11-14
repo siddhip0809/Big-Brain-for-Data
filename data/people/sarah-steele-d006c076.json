@@ -1,0 +1,101 @@
+{
+  "id": "sarah-steele-d006c076",
+  "type": "person",
+  "name": "Sarah Steele",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Hensel Phelps",
+  "linkedin": "https://www.linkedin.com/in/sarah-steele-96822b6",
+  "location": "Washington, DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Committee Chair of Construction and Fundraising - Women Build Program at Habitat for Humanity of Northern Virginia, 1/2011 to 6/2013; Preconstruction Manager at Hensel Phelps, 12/2006 to present; Civil - Transportation Engineer at NCDOT, 4/2006 to 11/2006; Structural Engineer, EIT at Vertical Solutions, 11/2005 to 4/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Culture Fit",
+      "rank": 46,
+      "date_added": "2026-08-05 07:32:37 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Culture Fit",
+      "rank": 46,
+      "date_added": "2026-08-05 07:32:37 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Committee Chair of Construction and Fundraising - Women Build Program",
+      "company": "Habitat for Humanity of Northern Virginia",
+      "start": "1/2011",
+      "end": "6/2013",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Hensel Phelps",
+      "start": "12/2006",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Civil - Transportation Engineer",
+      "company": "NCDOT",
+      "start": "4/2006",
+      "end": "11/2006",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer, EIT",
+      "company": "Vertical Solutions",
+      "start": "11/2005",
+      "end": "4/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "BS - Civil Engineering Structural Engineering, North Carolina State University, 2003 to 2005",
+    "Transferred in 2003 BS - Civil Engineering, University Of North Carolina Wilmington, 2001 to 2003"
+  ],
+  "biography": "Past Projects:\n• Preconstruction and Design - Rehabilitation of Constitution Gardens Phase II - Washington, DC (Owner - Trust For The National Mall)\n• Host Building Design and Construction - King of Prussia, PA (Owner - Lockheed Martin)\nKaiser Permanente Springfield Medical Office Building Center of Excellence -  Springfield, VA (Owner - Kaiser Permanente)\n• Kaiser Permanente Capitol Hill -  Washington, DC (Owner - Kaiser Permanente)\n• National Zoological Park - General Service Building and Retaining Wall, Washington, DC (Owner - Smithsonian Institution)\n• Armed Forces Retirement Home: The Scott Project/Healthcare Center, Washington, DC - LEED Platinum (Owner - General Services Administration - National Capital Region)\n• P263 Broad Area Maritime Surveillance Test and Evaluation Facility, Patuxent River, MD (Owner - NAVFAC Washington)\n• Pentagon Renovation Wedges 2-5, Arlington VA (Owner - Pentagon Renovation & Construction Office)",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

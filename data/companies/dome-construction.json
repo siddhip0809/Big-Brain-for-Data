@@ -1,0 +1,30 @@
+{
+  "id": "dome-construction",
+  "type": "company",
+  "name": "Dome Construction",
+  "aliases": [],
+  "industry_role": "general contractor",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "linkedin": "https://www.linkedin.com/company/dome-construction/",
+  "headcount": null,
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "construction_engineering",
+  "roles": [
+    "general_contractor"
+  ],
+  "source_lists": [
+    "General Contractors USA"
+  ],
+  "list_attributes": {},
+  "dc_exposure_level": null,
+  "notes": "Added from Siddhi's curated company lists, 2026-09-05. Website/HQ/headcount come from the sheet; not otherwise independently researched.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

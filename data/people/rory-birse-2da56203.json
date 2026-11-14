@@ -1,0 +1,90 @@
+{
+  "id": "rory-birse-2da56203",
+  "type": "person",
+  "name": "Rory Birse",
+  "current_title": "Director, Cloud Sales",
+  "current_company": "Compass Datacenters",
+  "linkedin": "https://www.linkedin.com/in/rorybirse",
+  "location": "San Francisco , California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Cloud Sales at Compass Datacenters, 12/2022 to present; Account Executive at Compass Datacenters, 11/2021 to 12/2022; Commercial Account Executive at Imply, 9/2021 to 11/2021; Enterprise Development at Imply, 7/2020 to 9/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 96,
+      "date_added": "2025-11-18 13:31:45 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "compass-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Cloud Sales",
+      "company": "Compass Datacenters",
+      "start": "12/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Executive",
+      "company": "Compass Datacenters",
+      "start": "11/2021",
+      "end": "12/2022",
+      "current": false
+    },
+    {
+      "title": "Commercial Account Executive",
+      "company": "Imply",
+      "start": "9/2021",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Enterprise Development",
+      "company": "Imply",
+      "start": "7/2020",
+      "end": "9/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Bachelor's degree, Economics, College of the Holy Cross"
+  ],
+  "biography": "Rory is currently Director, Cloud Sales at Compass Datacenters.\n\nIn this role, he manages strategic relationships with hyperscale clients and leads end-to-end leasing cycles across the U.S. His leasing responsibilities include early-stage demand generation, oversight of technical qualification and due diligence, contract negotiation, and final lease execution. He is accountable for driving growth and delivering excellence in partnership with the world’s largest companies.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

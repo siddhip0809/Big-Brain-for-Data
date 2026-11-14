@@ -1,0 +1,114 @@
+{
+  "id": "mark-carey-c173ad1a",
+  "type": "person",
+  "name": "Mark Carey",
+  "current_title": "Senior Project Manager, Pre Construction",
+  "current_company": "Crusoe",
+  "linkedin": "https://www.linkedin.com/in/mark-carey-9459b92a",
+  "location": "San Francisco",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Project Manager, Pre Construction at Crusoe, 5/2026 to present; Project Director at Turner & Townsend, 5/2023 to 4/2026; Associate Director at Turner & Townsend, 11/2020 to 11/2023; Senior Consultant at Turner & Townsend, 9/2018 to 11/2020; Senior Project Manager at Turner & Townsend, 5/2017 to 9/2018; Project Manager at Turner & Townsend, 11/2015 to 8/2017; Assistant Project Manager at Turner & Townsend, 4/2013 to 11/2015; Architectural Technician at ASP Associates, 7/2009 to 12/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 587,
+      "date_added": "2026-08-31 16:17:52 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "crusoe",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Manager, Pre Construction",
+      "company": "Crusoe",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Director",
+      "company": "Turner & Townsend",
+      "start": "5/2023",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "11/2020",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "9/2018",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Turner & Townsend",
+      "start": "5/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Turner & Townsend",
+      "start": "11/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Turner & Townsend",
+      "start": "4/2013",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Architectural Technician",
+      "company": "ASP Associates",
+      "start": "7/2009",
+      "end": "12/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Master of Science, MSc Hons Generic Project Management, Northumbria University, 2011 to 2012",
+    "BSc Hons, Architectural Technology, Northumbria University, Northumbria University, 2007 to 2011"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

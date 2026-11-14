@@ -1,0 +1,128 @@
+{
+  "id": "vincenzo-basile-cd3b80ce",
+  "type": "person",
+  "name": "Vincenzo Basile",
+  "current_title": "Director, Construction",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/vincenzo-basile-9107b330",
+  "location": "Richmond, Virginia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Construction at Vantage, 3/2026 to present; Principal Construction Manager at Vantage, 7/2025 to 3/2026; Construction Manager at Vantage, 9/2024 to 7/2025; Senior Project Manager at CBRE, 3/2022 to 9/2024; Project Manager at The Gallegos Corporation, 8/2019 to 3/2022; Building Superintendent at Kiewit, 1/2019 to 8/2019; MEP Discipline Manager at Kiewit, 12/2017 to 1/2019; Project Manager at Kiewit, 12/2016 to 12/2017; Superintendent 2 at Kiewit, 1/2016 to 12/2016; Engineer 2 at Kiewit, 2/2014 to 1/2016; Engineer 1 at Kiewit, 1/2013 to 2/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 128,
+      "date_added": "2026-07-06 13:37:31 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Construction Manager",
+      "company": "Vantage",
+      "start": "7/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "9/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "CBRE",
+      "start": "3/2022",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "The Gallegos Corporation",
+      "start": "8/2019",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Building Superintendent",
+      "company": "Kiewit",
+      "start": "1/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "MEP Discipline Manager",
+      "company": "Kiewit",
+      "start": "12/2017",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Kiewit",
+      "start": "12/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Superintendent 2",
+      "company": "Kiewit",
+      "start": "1/2016",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Engineer 2",
+      "company": "Kiewit",
+      "start": "2/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Engineer 1",
+      "company": "Kiewit",
+      "start": "1/2013",
+      "end": "2/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Richmond",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

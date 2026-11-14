@@ -1,0 +1,109 @@
+{
+  "id": "travis-wright-0dc85c02",
+  "type": "person",
+  "name": "Travis Wright",
+  "current_title": "Vice President - Energy and Sustainability",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/travisw1",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President at QTS Data Centers, 6/2018 to present; Vice President - Energy and Sustainability at QTS Data Centers, 3/2018 to present; Site Director at QTS Data Centers, 3/2014 to present; Director - Facilities at Western Digital, 4/2011 to 3/2014; CEO at Eon Energy, 10/2008 to 3/2014; Facilities Director at STMicroelectronics, 9/2000 to 4/2011; QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 9,
+      "date_added": "2025-11-07 13:48:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President",
+      "company": "QTS Data Centers",
+      "start": "6/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Energy and Sustainability",
+      "company": "QTS Data Centers",
+      "start": "3/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site Director",
+      "company": "QTS Data Centers",
+      "start": "3/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - Facilities",
+      "company": "Western Digital",
+      "start": "4/2011",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "CEO",
+      "company": "Eon Energy",
+      "start": "10/2008",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Facilities Director",
+      "company": "STMicroelectronics",
+      "start": "9/2000",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Bachelors, Marquette University, 1988 to 1993"
+  ],
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "High Confidence",
+      "Energy · interconnection & transmission negotiation": "Low Confidence",
+      "Energy · transmission engineering": "Low Confidence",
+      "Water · WSA negotiation": "Low Confidence",
+      "Water · engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "mark-debenport-95fd55c7",
+  "type": "person",
+  "name": "Mark Debenport",
+  "current_title": "Director of Preconstructi",
+  "current_company": "Yates Construction",
+  "linkedin": "https://www.linkedin.com/in/mark-debenport-15a71315",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Preconstructi at Yates Construction, 8/2021 to present; Preconstruction Project Manager at Sundt Construction, 6/2018 to 7/2021; Preconstruction Executive at The Beck Group, 12/2016 to 6/2018; Preconstruction Director at The Walsh Group - Walsh Construction & Archer Western, 8/2014 to 12/2016; Chief Estimator / Cost Analyst at Linbeck Group, 2/2006 to 8/2014; Director of Estimating at Structure Tone Southwest, 1/1994 to 2/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 460,
+      "date_added": "2026-08-24 12:45:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 460,
+      "date_added": "2026-08-24 12:45:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "yates-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstructi",
+      "company": "Yates Construction",
+      "start": "8/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Project Manager",
+      "company": "Sundt Construction",
+      "start": "6/2018",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Executive",
+      "company": "The Beck Group",
+      "start": "12/2016",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Director",
+      "company": "The Walsh Group - Walsh Construction & Archer Western",
+      "start": "8/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Chief Estimator / Cost Analyst",
+      "company": "Linbeck Group",
+      "start": "2/2006",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Director of Estimating",
+      "company": "Structure Tone Southwest",
+      "start": "1/1994",
+      "end": "2/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Science (BS) Civil Engineering Civil Engineering, Texas Tech University, 1990 to 1993"
+  ],
+  "biography": "Preconstruction professional that specializes in complex, challenging projects and delivering them successfully to meet the client's goals and bringing great value to the team throughout the process. I proudly bring over 27 years of experience in the industry, delivering more than 40 million sf of Healthcare, Higher Education, Data Center, Hi-Rise Multifamily, Mixed Use, Retail, Corporate Office, Cultural, Municipal, and Hospitality space to our clients. My involvement begins in the early napkin-sketch-stage all the way through project completion. Specialties Preconstruction Management, Design-Build, LEAN, LEED AP BD+C, Cost Analysis, Conceptual Budgeting, GMP Development, Subcontract Negotiation & Buyout, 3D Conceptual Modeling and Estimating Using DProfiler Software, Destini Estimator, Timberline, Revit and Assemble.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

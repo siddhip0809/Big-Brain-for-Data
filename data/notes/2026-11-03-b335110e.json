@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-03-b335110e",
+  "type": "note",
+  "date": "2026-11-03",
+  "kind": "relationship",
+  "basis": "reported",
+  "summary": "Andrew is starting at Panattoni (Andrew Edwards had an offer in late August). Ward has pitched Panattoni to Carl and is waiting to hear back. Both to be moved to client-facing in Clockwork.",
+  "about": [
+    "person:andrew-edwards-02b44552",
+    "company:panattoni"
+  ],
+  "signals": [
+    {
+      "type": "moved",
+      "person": "person:andrew-edwards-02b44552",
+      "company": "company:panattoni"
+    }
+  ],
+  "source": {
+    "channel": "teams",
+    "date": "2026-11-03",
+    "from": "Ward",
+    "via": "Teams · chat",
+    "subject": "Panattoni placement and pitch",
+    "link": "https://teams.microsoft.com/l/message/19%3a47c9e171-e1ed-489b-9bf6-78052f3aeaf9_e6354ce8-35b5-4d35-b7c0-27c5117dcbda%40unq.gbl.spaces/1793702217435?context=%7B%22contextType%22:%22chat%22%7D",
+    "ref": "sha1:2b463db86a68500c"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

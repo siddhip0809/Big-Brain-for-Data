@@ -1,0 +1,58 @@
+{
+  "id": "christopher-ternon-0aec7f47",
+  "type": "person",
+  "name": "Christopher Ternon",
+  "current_title": "Senior Construction Manager",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/christopher-ternon-43715721",
+  "location": "Hillsboro, Oregon",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Construction Manager at Vantage, 11/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 181,
+      "date_added": "2026-07-07 14:28:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Manager",
+      "company": "Vantage",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Hillsboro",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

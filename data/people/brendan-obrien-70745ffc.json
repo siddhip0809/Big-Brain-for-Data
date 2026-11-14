@@ -1,0 +1,90 @@
+{
+  "id": "brendan-obrien-70745ffc",
+  "type": "person",
+  "name": "Brendan OBrien",
+  "current_title": "Preconstruction Services",
+  "current_company": "Turner Construction",
+  "linkedin": "https://www.linkedin.com/in/brendan-obrien-leed-ap-75100615",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Preconstruction Services at Turner Construction, 9/2013 to present; Project Estimator II at Haselden Construction, 1/2008 to 9/2013; Estimator at JE Dunn Construction, 10/2006 to 1/2008; Estimator / Project Manager at VendRick Construction, 8/2002 to 10/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 32,
+      "date_added": "2026-08-04 16:07:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Services",
+      "company": "Turner Construction",
+      "start": "9/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Estimator II",
+      "company": "Haselden Construction",
+      "start": "1/2008",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "JE Dunn Construction",
+      "start": "10/2006",
+      "end": "1/2008",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Manager",
+      "company": "VendRick Construction",
+      "start": "8/2002",
+      "end": "10/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, Construction Management, Colorado State University, 1996 to 1999"
+  ],
+  "biography": "Preconstruction Services at Turner Construction Company",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

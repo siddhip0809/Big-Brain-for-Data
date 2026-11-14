@@ -1,0 +1,91 @@
+{
+  "id": "jerry-heberlein-790075ef",
+  "type": "person",
+  "name": "Jerry Heberlein",
+  "current_title": "Director of Preconstrction - Healthcare",
+  "current_company": "Hensel Phelps",
+  "linkedin": "https://www.linkedin.com/in/jerry-heberlein-90585244",
+  "location": "Greeley, Colorado",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Director of Preconstrction - Healthcare at Hensel Phelps, 5/2012 to present; VP - Operations - Hospital Facility Development at Hammes, 4/2006 to 4/2011; Estimator/ Project Manager at Calcon Constructors, 5/1985 to 2/2000; Project Manger at Calcon Constructors, 1985 to 2000",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 35,
+      "date_added": "2026-08-04 16:07:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "hensel-phelps",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstrction - Healthcare",
+      "company": "Hensel Phelps",
+      "start": "5/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP - Operations - Hospital Facility Development",
+      "company": "Hammes",
+      "start": "4/2006",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Estimator/ Project Manager",
+      "company": "Calcon Constructors",
+      "start": "5/1985",
+      "end": "2/2000",
+      "current": false
+    },
+    {
+      "title": "Project Manger",
+      "company": "Calcon Constructors",
+      "start": "1985",
+      "end": "2000",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Greeley",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, Construction Management, Colorado State University, 1982 to 1984",
+    "Construction Management, Construction, Engineering, Business, Colorado State University, 1982 to 1984"
+  ],
+  "biography": "Experience:\r\n\r\n12 years planning, programing and project management for expansion, replacement, and addion/renovation projects for tertiary, community, specialty, and CAH healthcare projects at individual facility, subsystem, and sytem level. Includes corperate delivery process improvement and streamlining as necessary for client satisfaction.\r\n\r\n18 years Construction Management in healthcare, and research and GMP labs.\r\n\r\nSpecialties: Healthcare, Master Facility Plan development and evaluation, project phasing and constructability analysis, risk analysis, detailed concept budgeting, RFP development and analysis, contract negotiation.\r\n\r\nProject Management at macro level with ability to drill down to evaluate issues.\r\n\r\nAbility to communicate to the healthcare executive, designer, contractors level on their professional terms. This includes drill down of mechanical, electrical, and IT system design, operation, and performance metrics.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

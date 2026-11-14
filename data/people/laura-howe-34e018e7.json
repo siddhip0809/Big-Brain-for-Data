@@ -1,0 +1,99 @@
+{
+  "id": "laura-howe-34e018e7",
+  "type": "person",
+  "name": "Laura Howe",
+  "current_title": "Director, Data Center Energy & Location Strategy",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/laura-howe-8343a922a",
+  "location": "San Francisco, California",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Data Center Energy & Location Strategy at Google, 4/2021 to present; Strategic Negotiator, Data Center Energy & Location Strategy at Google, 1/2015 to 4/2021; Program Manager at Google, 5/2011 to 12/2014; Consultant at CSTechnology & DJS Group, 7/2007 to 5/2011; Asset Management Analyst at Hudson Housing Capital, 5/2006 to 8/2006",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 405,
+      "date_added": "2026-05-13 10:33:20 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director, Data Center Energy & Location Strategy",
+      "company": "Google",
+      "start": "4/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Negotiator, Data Center Energy & Location Strategy",
+      "company": "Google",
+      "start": "1/2015",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Google",
+      "start": "5/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "CSTechnology & DJS Group",
+      "start": "7/2007",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Asset Management Analyst",
+      "company": "Hudson Housing Capital",
+      "start": "5/2006",
+      "end": "8/2006",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BA, Economics, Middlebury College, 2003 to 2007",
+    "High School, Deerfield Academy, 2000 to 2003"
+  ],
+  "biography": "Director at Google",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "jon-arnold-4aa0dc5d",
+  "type": "person",
+  "name": "Jon Arnold",
+  "current_title": "Executive Group Director, Sales and Strategic Accounts",
+  "current_company": "Global Switch",
+  "linkedin": "https://www.linkedin.com/in/jon-arnold-34b210",
+  "location": "London,  England, United Kingdom",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Executive Group Director, Sales and Strategic Accounts at Global Switch, 12/2024 to present; Group Director, Strategic Accounts and Networks at Global Switch, 5/2022 to 12/2024; Managing Director at Volta Data Centres, 6/2014 to 5/2022; Sales Director - Enterprise Sales at Daisy Plc, 9/2012 to 5/2014; Commercial Director at Daisy Plc, 2/2012 to 5/2014; Sales Director - National Accounts at Azzurri Communications, 6/2010 to 2/2012; Regional Sales Director at Azzurri Communications, 1/2007 to 10/2011; Sales Director at Sirocom, 1/2003 to 12/2007; Account Manager at Data Return, 1/2001 to 12/2003; Account Manager at Siemens, 1/1999 to 12/2001",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Too Senior",
+      "rank": 11,
+      "date_added": "2026-07-08 17:34:06 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 203,
+      "date_added": "2026-04-21 10:07:23 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "global-switch",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Executive Group Director, Sales and Strategic Accounts",
+      "company": "Global Switch",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Group Director, Strategic Accounts and Networks",
+      "company": "Global Switch",
+      "start": "5/2022",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Managing Director",
+      "company": "Volta Data Centres",
+      "start": "6/2014",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Director - Enterprise Sales",
+      "company": "Daisy Plc",
+      "start": "9/2012",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Commercial Director",
+      "company": "Daisy Plc",
+      "start": "2/2012",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "title": "Sales Director - National Accounts",
+      "company": "Azzurri Communications",
+      "start": "6/2010",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Azzurri Communications",
+      "start": "1/2007",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Sirocom",
+      "start": "1/2003",
+      "end": "12/2007",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Data Return",
+      "start": "1/2001",
+      "end": "12/2003",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Siemens",
+      "start": "1/1999",
+      "end": "12/2001",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "BEng, Engineering and Business Studies, Sheffield Hallam University, 1992 to 1996"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

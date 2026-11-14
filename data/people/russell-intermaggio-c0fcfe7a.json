@@ -1,0 +1,131 @@
+{
+  "id": "russell-intermaggio-c0fcfe7a",
+  "type": "person",
+  "name": "Russell Intermaggio",
+  "current_title": "Senior Director, Subregional Construction Lead",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/russellintermaggio",
+  "location": "Baltimore, Washington D.C",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director, Subregional Construction Lead at Digital Realty, 4/2026 to present; Director, Data Center Development and Construction at American Real Estate Partners, 4/2025 to present; Senior Project Manager at HITT Contracting, 2/2023 to 4/2025; Project Manager at HITT Contracting, 7/2017 to 2/2023; Project Manager at EPPX Construction, 9/2016 to 7/2017; Assistant Project Manager at Hathaway Dinwiddie, 6/2016 to 9/2016; Project Engineer at Hathaway Dinwiddie, 8/2015 to 6/2016; Field Engineer - Stanford Linear Accelerator SUSB at Hensel Phelps, 1/2015 to 7/2015; Field Engineer - Four Seasons Manele Bay at Hensel Phelps, 2/2014 to 12/2014; Intern at Whiting-Turner Contracting, 3/2013 to 2/2014; Document Control Intern at Perini Building, 6/2012 to 12/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 126,
+      "date_added": "2026-07-06 13:35:28 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Subregional Construction Lead",
+      "company": "Digital Realty",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Data Center Development and Construction",
+      "company": "American Real Estate Partners",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "HITT Contracting",
+      "start": "2/2023",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "7/2017",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "EPPX Construction",
+      "start": "9/2016",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Hathaway Dinwiddie",
+      "start": "6/2016",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Hathaway Dinwiddie",
+      "start": "8/2015",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "Field Engineer - Stanford Linear Accelerator SUSB",
+      "company": "Hensel Phelps",
+      "start": "1/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Field Engineer - Four Seasons Manele Bay",
+      "company": "Hensel Phelps",
+      "start": "2/2014",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Whiting-Turner Contracting",
+      "start": "3/2013",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Document Control Intern",
+      "company": "Perini Building",
+      "start": "6/2012",
+      "end": "12/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "education": [
+    "Bachelor of Applied Science (BASc), Construction Management, Arizona State University, 2009 to 2013"
+  ],
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

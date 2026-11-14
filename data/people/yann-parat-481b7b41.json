@@ -1,0 +1,116 @@
+{
+  "id": "yann-parat-481b7b41",
+  "type": "person",
+  "name": "Yann Parat",
+  "current_title": "Sales Director",
+  "current_company": "Nation Data Center",
+  "linkedin": "https://www.linkedin.com/in/yannparat",
+  "location": "Paris, France",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director at Nation Data Center, 2/2024 to present; Senior Account Executive at Equinix, 1/2019 to 2/2024; Key Account Manager at Cogent Communications, 10/2008 to 1/2019; training manager at planum, 5/2007 to 7/2008; Key Account Manager at Monster, 10/2006 to 4/2007; key account manager at Agence Vitae Conseil, 2006 to 2007; Video business Development  Manager at Apple computer France, 2002 to 2006; Account Manager at Perfect technologies, 1997 to 2002; Responsable installation sur site systèmes AVID at Video Reference, 1995 to 1997",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 218,
+      "date_added": "2026-08-03 07:41:19 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "nation-data-center",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Nation Data Center",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Equinix",
+      "start": "1/2019",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Cogent Communications",
+      "start": "10/2008",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "training manager",
+      "company": "planum",
+      "start": "5/2007",
+      "end": "7/2008",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Monster",
+      "start": "10/2006",
+      "end": "4/2007",
+      "current": false
+    },
+    {
+      "title": "key account manager",
+      "company": "Agence Vitae Conseil",
+      "start": "2006",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Video business Development  Manager",
+      "company": "Apple computer France",
+      "start": "2002",
+      "end": "2006",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Perfect technologies",
+      "start": "1997",
+      "end": "2002",
+      "current": false
+    },
+    {
+      "title": "Responsable installation sur site systèmes AVID",
+      "company": "Video Reference",
+      "start": "1995",
+      "end": "1997",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "France",
+    "group": "France"
+  },
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

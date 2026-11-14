@@ -1,0 +1,112 @@
+{
+  "id": "paul-hicks-81687703",
+  "type": "person",
+  "name": "Paul Hicks",
+  "current_title": "Vice President Acquisition & Development",
+  "current_company": "Polar",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/paul-hicks-570a8380",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President Acquisition & Development at Polar, 5/2025 to present; Director of Land Acquisition at CyrusOne, 9/2023 to 5/2025; Senior Acquisition and Development Manager at CyrusOne, 3/2022 to 9/2023; Consultant at CyrusOne, 9/2021 to 3/2022; Partner at Matthews & Goodman, 4/2015 to 9/2021; Associate Director at CB Richard Ellis, 9/2008 to 4/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Not Interested",
+      "rank": 44,
+      "date_added": "2026-08-12 09:34:33 UTC",
+      "date_updated": "2026-08-25 12:30:43 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 161,
+      "date_added": "2026-07-10 11:23:07 UTC",
+      "date_updated": "2026-08-12 04:34:33 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "polar-dc",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President Acquisition & Development",
+      "company": "Polar",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Land Acquisition",
+      "company": "CyrusOne",
+      "start": "9/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Acquisition and Development Manager",
+      "company": "CyrusOne",
+      "start": "3/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "CyrusOne",
+      "start": "9/2021",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Matthews & Goodman",
+      "start": "4/2015",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "CB Richard Ellis",
+      "start": "9/2008",
+      "end": "4/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "spoken_with_before": true,
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

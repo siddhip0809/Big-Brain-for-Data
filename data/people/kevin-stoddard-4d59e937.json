@@ -1,0 +1,110 @@
+{
+  "id": "kevin-stoddard-4d59e937",
+  "type": "person",
+  "name": "Kevin Stoddard",
+  "current_title": "Director of Preconstruction - Mission Critical",
+  "current_company": "Ryan Companies US",
+  "linkedin": "https://www.linkedin.com/in/kevin-stoddard-41145415",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre;Mission Critical",
+  "career_history": "Director of Preconstruction - Mission Critical at Ryan Companies US, 6/2026 to present; Director Of Preconstruction at U S Engineering, 1/2021 to 6/2026; Senior Pre-construction Manager at U S Engineering, 10/2017 to 1/2021; Pre-Construction Manager  at U S Engineering, 2/2016 to 10/2017; Mechanical Engineer at Belfay Engineering, 11/2003 to 2/2016; Inside Sales at Peak Pump Sales, 8/2003 to 11/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 104,
+      "date_added": "2026-08-07 08:11:41 UTC",
+      "date_updated": "2026-08-07 03:14:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 104,
+      "date_added": "2026-08-07 08:11:41 UTC",
+      "date_updated": "2026-08-07 03:14:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "ryan-companies-us-inc",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction - Mission Critical",
+      "company": "Ryan Companies US",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Of Preconstruction",
+      "company": "U S Engineering",
+      "start": "1/2021",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Pre-construction Manager",
+      "company": "U S Engineering",
+      "start": "10/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Pre-Construction Manager ",
+      "company": "U S Engineering",
+      "start": "2/2016",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "Belfay Engineering",
+      "start": "11/2003",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Inside Sales",
+      "company": "Peak Pump Sales",
+      "start": "8/2003",
+      "end": "11/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

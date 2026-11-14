@@ -1,0 +1,28 @@
+{
+  "id": "boston-consulting-group",
+  "type": "company",
+  "name": "Boston Consulting Group",
+  "aliases": [
+    "BCG"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.bcg.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Published 'Breaking Barriers to Data Center Growth' (2025), 'Powering AI Through Grid-Positive Data Centers' (2026) and 'AI Data Centers: An Opportunity in the Middle East'.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Published 'Breaking Barriers to Data Center Growth' (2025), 'Powering AI Through Grid-Positive Data Centers' (2026) and 'AI Data Centers: An Opportunity in the Middle East'. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.bcg.com/publications/2025/breaking-barriers-data-center-growth",
+    "https://www.bcg.com"
+  ],
+  "last_updated": "2026-09-16"
+}

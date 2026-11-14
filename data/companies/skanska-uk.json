@@ -1,0 +1,28 @@
+{
+  "id": "skanska-uk",
+  "type": "company",
+  "name": "Skanska UK",
+  "aliases": [
+    "Skanska UK plc"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "UK arm of Swedish contractor Skanska; data-centre construction and fit-out, with an in-house MEP engineering business",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "Built VIRTUS's LONDON11 data centre (about GBP 53m, 2021) and delivered a GBP 158m fit-out and construction contract at Telehouse South in London Docklands (2023), its MEP arm handling mechanical and electrical works.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Brain has 'Skanska USA' (alias 'Skanska'). Decide whether Skanska UK is a separate record or the alias moves to a group record. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.skanska.com/group/en/media/press-releases/2021/skanska-builds-data-center-in-london-uk-for-gbp-53m-about-sek-620m",
+    "https://www.skanska.com/group/en/media/press-releases/2023/skanska-delivers-fit-out-and-construction-work-for-data-centre-in-london-uk-for-gbp-158m-about-sek-2.1-billion"
+  ],
+  "last_updated": "2026-10-30"
+}

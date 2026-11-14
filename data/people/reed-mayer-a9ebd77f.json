@@ -1,0 +1,144 @@
+{
+  "id": "reed-mayer-a9ebd77f",
+  "type": "person",
+  "name": "Reed Mayer",
+  "current_title": "Head of DevMgt and IAD Real Estate",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/reedmayer",
+  "location": "Ashburn, Virginia",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Head of DevMgt and IAD Real Estate at AWS, 2/2025 to present; Principal Real Estate Development Manager at AWS, 9/2022 to 8/2025; Site Selection Manager at Meta, 1/2022 to 9/2022; Real Estate Development Manager at AWS, 2/2018 to 12/2021; Senior Construction Manager at AWS, 12/2014 to 2/2018; PM/Superintendent/Scheduler at Hoffman Construction, 3/2013 to 12/2014; Project Manager at C E R M, 10/2012 to 2/2013; Project Manager at URS, 7/2010 to 10/2012; President at Mayer Brothers, 10/2009 to 12/2010; Assistant Superintendent at JE Dunn Construction, 7/2007 to 2/2009; Assistant Superintendent at Suffolk Construction, 7/2005 to 7/2007; Assistant Superintendent at Hardin Construction, 6/2000 to 7/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 453,
+      "date_added": "2026-05-13 10:33:53 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Head of DevMgt and IAD Real Estate",
+      "company": "AWS",
+      "start": "2/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Real Estate Development Manager",
+      "company": "AWS",
+      "start": "9/2022",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "Site Selection Manager",
+      "company": "Meta",
+      "start": "1/2022",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Real Estate Development Manager",
+      "company": "AWS",
+      "start": "2/2018",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager",
+      "company": "AWS",
+      "start": "12/2014",
+      "end": "2/2018",
+      "current": false
+    },
+    {
+      "title": "PM/Superintendent/Scheduler",
+      "company": "Hoffman Construction",
+      "start": "3/2013",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "C E R M",
+      "start": "10/2012",
+      "end": "2/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "URS",
+      "start": "7/2010",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "Mayer Brothers",
+      "start": "10/2009",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "JE Dunn Construction",
+      "start": "7/2007",
+      "end": "2/2009",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "Suffolk Construction",
+      "start": "7/2005",
+      "end": "7/2007",
+      "current": false
+    },
+    {
+      "title": "Assistant Superintendent",
+      "company": "Hardin Construction",
+      "start": "6/2000",
+      "end": "7/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Ashburn",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "BS, Building Construction, Georgia Institute Of Technology, 1998 to 2002"
+  ],
+  "biography": "Construction and Real Estate professional with 20 years of experience in a broad variety of market segments ranging from Multi-family to Mission Critical. Experienced in site selection, master site planning, design oversight, and construction implementation. Strong knowledge of contract administration, means and methods, logistics, scheduling, and finances.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

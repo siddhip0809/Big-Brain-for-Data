@@ -1,0 +1,68 @@
+{
+  "id": "lewis-mcmahon-d32783e3",
+  "type": "person",
+  "name": "Lewis McMahon",
+  "current_title": "Global Account Director at BGO Datacenters",
+  "current_company": "BGO Data Centre",
+  "location": "Dublin, County Dublin",
+  "linkedin": "https://www.linkedin.com/in/lewismcmahon",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Global Account Director at BGO Datacenters at BGO Data Centre, 6/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 94,
+      "date_added": "2026-08-26 09:14:03 UTC",
+      "date_updated": "2026-08-26 04:16:49 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 271,
+      "date_added": "2026-08-21 11:46:25 UTC",
+      "date_updated": "2026-08-26 04:14:03 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "bgo",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Account Director",
+      "company": "BGO Datacenters at BGO Data Centre",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Dublin",
+    "region": "County Dublin",
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

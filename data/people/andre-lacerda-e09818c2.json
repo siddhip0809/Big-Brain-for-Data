@@ -1,0 +1,177 @@
+{
+  "id": "andre-lacerda-e09818c2",
+  "type": "person",
+  "name": "Andre Lacerda",
+  "current_title": "Estimating Manager",
+  "current_company": "Kiewit",
+  "location": "Baltimore, Washington, DC",
+  "linkedin": "https://www.linkedin.com/in/andreglacerda",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Estimating Manager at Kiewit, 3/2026 to present; Lead Estimator at Kiewit, 9/2025 to 3/2026; Estimator at Kiewit, 2/2024 to 9/2025; Estimator at Turner Construction, 8/2022 to 2/2024; Associate Estimator at Chesapeake Contracting Group, 8/2021 to 8/2022; Estimator at Osborne Construction, 11/2020 to 8/2021; Field Engineer at Turner Construction, 6/2020 to 11/2020; Project Engineer Intern at STRUCTURAL, 5/2019 to 8/2019; Project Engineer Intern at STRUCTURAL, 7/2018 to 8/2018; Project Manager Intern at CPI Foundation, 2/2018 to 4/2018; First-Line Supervisor at US Army, 8/2014 to 3/2018; First-Line Supervisor at US Army, 1/2011 to 7/2014; Team Lead at US Army, 5/2007 to 12/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 18,
+      "date_added": "2026-08-14 14:42:08 UTC",
+      "date_updated": "2026-08-19 08:08:11 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 42,
+      "date_added": "2026-08-04 14:36:25 UTC",
+      "date_updated": "2026-08-14 09:42:08 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 42,
+      "date_added": "2026-08-04 14:36:25 UTC",
+      "date_updated": "2026-08-14 09:42:08 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "kiewit",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimating Manager",
+      "company": "Kiewit",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator",
+      "company": "Kiewit",
+      "start": "9/2025",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Kiewit",
+      "start": "2/2024",
+      "end": "9/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Turner Construction",
+      "start": "8/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Associate Estimator",
+      "company": "Chesapeake Contracting Group",
+      "start": "8/2021",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Osborne Construction",
+      "start": "11/2020",
+      "end": "8/2021",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Turner Construction",
+      "start": "6/2020",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "STRUCTURAL",
+      "start": "5/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "STRUCTURAL",
+      "start": "7/2018",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager Intern",
+      "company": "CPI Foundation",
+      "start": "2/2018",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "First-Line Supervisor",
+      "company": "US Army",
+      "start": "8/2014",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "First-Line Supervisor",
+      "company": "US Army",
+      "start": "1/2011",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Team Lead",
+      "company": "US Army",
+      "start": "5/2007",
+      "end": "12/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "CORe Credential of Readiness, Harvard Business School Online",
+    "Master of Science - MS, Construction Management and Technology, Arizona State University",
+    "Bachelor's degree, Construction Management with Minor in Business Administration, Morgan State University"
+  ],
+  "biography": "Construction Manager & Estimator with a Master’s in Construction Management and over 5 years of experience supporting preconstruction and field operations across Retail, Multi-Family Housing, Senior Living, Industrial, Automotive, Data Center, and Federal projects in the Mid-Atlantic region. I specialize in competitive and negotiated bids, collaborative project planning, and value-driven estimating strategies. My leadership approach is grounded in 10 years of service in the U.S. Army, where I developed a strong foundation in mission-focused execution and accountability. I’ve contributed to complex federal projects for agencies such as the U.S. Army Corps of Engineers and the Architect of the Capitol, often working within environments that require a high level of discretion and trust. In both field and preconstruction roles, I’ve leveraged tools like Procore and Bluebeam to improve collaboration, drive efficiency, and support project teams from concept through closeout. I’m especially interested in how technology continues to transform construction delivery in the public sector.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "pierre-malbec-45b82d36",
+  "type": "person",
+  "name": "Pierre Malbec",
+  "current_title": "Principal, Global Energy Strategy & Infrastructure Investment",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/pierremalbec",
+  "location": "Seattle, Washington",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Principal, Global Energy Strategy & Infrastructure Investment at AWS, 7/2024 to present; Principal, Energy Strategy & Investment - APAC at AWS, 3/2021 to 6/2024; Head of Corporate PPA - APAC at Macquarie Group, 12/2017 to 2/2021; Macquarie Group, 12/2017 to 2/2021; Global Accounts Director at ADEN Group, 9/2014 to 11/2017; Co-Founder at UVL, 4/2012 to 9/2015; UVL, 4/2012 to 9/2015; Business Development Director - EMEA at ADEN Group, 10/2010 to 8/2014; Business Development Manager - APAC at ADEN Group, 10/2008 to 9/2010; Voxx, 9/2005 to 9/2008; Co-Founder at Voxx, 9/2005 to 9/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 436,
+      "date_added": "2026-05-13 10:33:52 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Principal, Global Energy Strategy & Infrastructure Investment",
+      "company": "AWS",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal, Energy Strategy & Investment - APAC",
+      "company": "AWS",
+      "start": "3/2021",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Head of Corporate PPA - APAC",
+      "company": "Macquarie Group",
+      "start": "12/2017",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "company": "Macquarie Group",
+      "start": "12/2017",
+      "end": "2/2021",
+      "current": false
+    },
+    {
+      "title": "Global Accounts Director",
+      "company": "ADEN Group",
+      "start": "9/2014",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Co-Founder",
+      "company": "UVL",
+      "start": "4/2012",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "company": "UVL",
+      "start": "4/2012",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Business Development Director - EMEA",
+      "company": "ADEN Group",
+      "start": "10/2010",
+      "end": "8/2014",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager - APAC",
+      "company": "ADEN Group",
+      "start": "10/2008",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "company": "Voxx",
+      "start": "9/2005",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Co-Founder",
+      "company": "Voxx",
+      "start": "9/2005",
+      "end": "9/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "biography": "Global Energy Strategy & Infrastructure Investment at Amazon Web Services",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "d-tony-qorri-8986a153",
+  "type": "person",
+  "name": "D. Tony Qorri",
+  "current_title": "Vice President | Construction",
+  "current_company": "DataBank",
+  "linkedin": "https://www.linkedin.com/in/d-tony-qorri-1996b010",
+  "location": "Scottsdale, Arizona, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President | Construction at DataBank, 12/2020 to present; Director | Construction at DataBank, 12/2013 to 12/2020; Director of Business Development | Power Forward at Brooklyn All Game, 4/2013 to 3/2018; President at TAZ, 2009 to present; Vice President | Operations at Ocean Pacific Interiors, 1/2008 to 12/2013; Regional Marketing Director at ADT, 2006 to 2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 61,
+      "date_added": "2026-07-02 11:47:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "databank",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Construction",
+      "company": "DataBank",
+      "start": "12/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Director"
+    },
+    {
+      "title": "Construction",
+      "company": "DataBank",
+      "start": "12/2013",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "raw": "Director of Business Development"
+    },
+    {
+      "title": "Power Forward",
+      "company": "Brooklyn All Game",
+      "start": "4/2013",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "TAZ",
+      "start": "2009",
+      "end": "present",
+      "current": true
+    },
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Operations",
+      "company": "Ocean Pacific Interiors",
+      "start": "1/2008",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Regional Marketing Director",
+      "company": "ADT",
+      "start": "2006",
+      "end": "2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Scottsdale",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "BA, Business, Colorado Mesa University, 2003 to 2005",
+    "Glendale Community College, 2001 to 2003"
+  ],
+  "biography": "Vice President | Construction at DataBank, Ltd.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

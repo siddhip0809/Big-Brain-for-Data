@@ -1,0 +1,149 @@
+{
+  "id": "howard-shutt-a69c5c5e",
+  "type": "person",
+  "name": "Howard Shutt",
+  "current_title": "Director, Sales - Hyperscale",
+  "current_company": "atNorth",
+  "linkedin": "https://www.linkedin.com/in/howard-shutt-7070b187",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Sales - Hyperscale at atNorth, 6/2025 to present; Senior Vice President - Sales, UK at Green Mountain AS - Data centres, 1/2022 to 6/2025; Senior Vice President - Sales at KevlinX, 9/2017 to 1/2022; Advisor at Unitas Global, 7/2017 to 10/2020; Chairman at BoxHead Immersive Services, 1/2017 to 6/2019; Sales Director at Digital Realty, 4/2015 to 11/2016; Global Account Director at Global Crossing, 12/2013 to 3/2015; Global Account Director at Data Return, 1/2010 to 12/2013; Sales Manager at Global Capacity, 5/2008 to 12/2009; Global Account Director at Tata Communications, 1/2006 to 4/2008; Sales at Colt Data Centre Services, 1/2001 to 12/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Culture Fit",
+      "rank": 39,
+      "date_added": "2026-07-08 17:34:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 220,
+      "date_added": "2026-04-21 10:07:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "atnorth",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Sales - Hyperscale",
+      "company": "atNorth",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President - Sales, UK",
+      "company": "Green Mountain AS - Data centres",
+      "start": "1/2022",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Vice President - Sales",
+      "company": "KevlinX",
+      "start": "9/2017",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Advisor",
+      "company": "Unitas Global",
+      "start": "7/2017",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Chairman",
+      "company": "BoxHead Immersive Services",
+      "start": "1/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "Digital Realty",
+      "start": "4/2015",
+      "end": "11/2016",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Global Crossing",
+      "start": "12/2013",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Data Return",
+      "start": "1/2010",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Global Capacity",
+      "start": "5/2008",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Global Account Director",
+      "company": "Tata Communications",
+      "start": "1/2006",
+      "end": "4/2008",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "Colt Data Centre Services",
+      "start": "1/2001",
+      "end": "12/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Corporate Finance , London Business School, 2003 to 2004",
+    "Bachelor of Arts (BA), Political Science and Government, University Of Minnesota, 1983 to 1988"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "john-dunaway-1fa243ce",
+  "type": "person",
+  "name": "John Dunaway",
+  "current_title": "SVP of Sales",
+  "current_company": "Core Scientific",
+  "linkedin": "https://www.linkedin.com/in/dunawayjohn",
+  "location": "Austin, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "SVP of Sales at Core Scientific, 12/2025 to present; Vice President of Sales at Switch, 4/2022 to present; Global Account Executive at Giganews, 4/2004 to 4/2007; Director - Data Center Sales at Switch, 1/2003 to 4/2022",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 89,
+      "date_added": "2025-11-12 16:10:37 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "core-scientific",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "SVP of Sales",
+      "company": "Core Scientific",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Sales",
+      "company": "Switch",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Account Executive",
+      "company": "Giganews",
+      "start": "4/2004",
+      "end": "4/2007",
+      "current": false
+    },
+    {
+      "title": "Director - Data Center Sales",
+      "company": "Switch",
+      "start": "1/2003",
+      "end": "4/2022",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Austin",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "BA, Psychology, The University Of Texas At Austin, 1999"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

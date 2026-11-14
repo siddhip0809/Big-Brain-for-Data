@@ -1,0 +1,31 @@
+{
+  "id": "15619933-6428-402c-84cb-d75e63920f9b",
+  "type": "search",
+  "name": "Development Director/ Senior- East Region",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "on_hold",
+  "project_type": "Retained",
+  "started_at": "2026-03-30",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": "Asset Class:\n\nData Centres\nMission Critical/industrial\nEnergy\nMixed use, retail & office\n\nSeniority: Managers, Sr Managers, Directors, Sr Directors\n\nLocation: Tysons Corner, Fairfax County, Virginia. Postal Code: 22030 (50 miles)\n\n2nd April Update: Include Hyperscalers & Civils\n\nHyperscales: Managers & Sr. Managers\nCivils: Managers, Sr. Managers & Associates",
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 167,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

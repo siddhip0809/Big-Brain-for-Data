@@ -1,0 +1,573 @@
+{
+  "id": "f7f1f709-20d6-4744-8fb1-4daf32663d54",
+  "type": "search",
+  "name": "Head of Commercial - Europe",
+  "client_company": "Panattoni",
+  "client_company_id": "panattoni",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2025-10-06",
+  "closed_at": "2026-05-05",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": {
+    "person": "Austin Weymouth",
+    "person_id": "b14d5e53-5c36-4e11-ae51-84ecb464bab5",
+    "title": "Head of Commercial - Europe",
+    "start_date": null
+  },
+  "pipeline": [
+    {
+      "person": "Andrew Morrow",
+      "clockwork_person_id": "b7c3aa87-870a-4932-a2f3-87fb6144821d",
+      "brain_person_id": "andrew-morrow-b7c3aa87",
+      "status": "WARD - Motivation",
+      "category": "out-firm_rejected",
+      "rank": 370,
+      "updated_at": "2026-02-01T15:56:37Z"
+    },
+    {
+      "person": "Tom Owen",
+      "clockwork_person_id": "9aea0404-d4ce-42df-833b-78bc3e8629ec",
+      "brain_person_id": null,
+      "status": "CLIENT - Culture Fit",
+      "category": "out-client_rejected",
+      "rank": 221,
+      "updated_at": "2026-01-05T15:38:31Z"
+    },
+    {
+      "person": "Michael Singleton",
+      "clockwork_person_id": "f4a5d24a-d7ed-4aaa-92da-444c854cf7ce",
+      "brain_person_id": "michael-singleton-f4a5d24a",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-02-01T15:56:27Z"
+    },
+    {
+      "person": "James Chenery",
+      "clockwork_person_id": "53cda8b6-6529-496b-a872-c87f9697f364",
+      "brain_person_id": "james-chenery-53cda8b6",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-01-07T18:05:05Z"
+    },
+    {
+      "person": "Marcus Bartolini",
+      "clockwork_person_id": "602c5155-93a9-4279-a0db-5f8580f14ef2",
+      "brain_person_id": "marcus-bartolini-602c5155",
+      "status": "CLIENT - Experience / Skills",
+      "category": "out-client_rejected",
+      "rank": 216,
+      "updated_at": "2025-12-07T23:49:27Z"
+    },
+    {
+      "person": "Ash Evans",
+      "clockwork_person_id": "7705268b-db62-480d-83c2-34b7458ad621",
+      "brain_person_id": "ash-evans-7705268b",
+      "status": "CLIENT - Compensation",
+      "category": "out-client_rejected",
+      "rank": 211,
+      "updated_at": "2026-01-07T18:04:44Z"
+    },
+    {
+      "person": "Austin Weymouth",
+      "clockwork_person_id": "b14d5e53-5c36-4e11-ae51-84ecb464bab5",
+      "brain_person_id": "austin-weymouth-b14d5e53",
+      "status": "4b. Offer Accepted",
+      "category": "in-placed",
+      "rank": 1501,
+      "updated_at": "2026-02-01T15:53:37Z"
+    },
+    {
+      "person": "Chris Jones",
+      "clockwork_person_id": "9e1bd02d-364d-4f14-934b-84bd5a58ca52",
+      "brain_person_id": null,
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-02-01T15:56:12Z"
+    },
+    {
+      "person": "Ben Stirk",
+      "clockwork_person_id": "7a314ced-55df-4075-9dcb-be5d513ec47b",
+      "brain_person_id": "ben-stirk-7a314ced",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-02-01T15:56:47Z"
+    },
+    {
+      "person": "Hal Clarke",
+      "clockwork_person_id": "774e2f7b-084d-412f-afc4-7d26995fca40",
+      "brain_person_id": "hal-clarke-774e2f7b",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-02-01T15:57:57Z"
+    },
+    {
+      "person": "Alex Safronoff",
+      "clockwork_person_id": "a6754f08-5a1c-4d55-8150-0b217f08ea79",
+      "brain_person_id": "alex-safronoff-a6754f08",
+      "status": "CLIENT - Culture Fit",
+      "category": "out-client_rejected",
+      "rank": 221,
+      "updated_at": "2026-02-01T15:57:03Z"
+    },
+    {
+      "person": "Enrico de Boer",
+      "clockwork_person_id": "d9b17124-dc56-4735-96e7-dc2f66af8cda",
+      "brain_person_id": "enrico-de-boer-d9b17124",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2026-02-01T15:57:08Z"
+    },
+    {
+      "person": "Nigel Warner",
+      "clockwork_person_id": "06341254-18dc-47ea-b629-e75783d308fb",
+      "brain_person_id": "nigel-warner-06341254",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2026-02-01T15:55:55Z"
+    },
+    {
+      "person": "Matthew Larbey",
+      "clockwork_person_id": "a55932cc-cb8b-4186-a7e2-696b51513cc4",
+      "brain_person_id": "matthew-larbey-a55932cc",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2026-02-01T15:55:31Z"
+    },
+    {
+      "person": "Oscar Matthews",
+      "clockwork_person_id": "59ec7dfd-d445-40cf-99e1-3432554cb855",
+      "brain_person_id": "oscar-matthews-59ec7dfd",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2026-02-01T15:55:46Z"
+    },
+    {
+      "person": "David Cologne",
+      "clockwork_person_id": "05b886f0-61e7-4773-9c68-f80e8ea4877a",
+      "brain_person_id": "david-cologne-05b886f0",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2026-02-01T15:55:16Z"
+    },
+    {
+      "person": "Luke Pasterfield",
+      "clockwork_person_id": "e1ccab83-f558-43ed-9400-f254c9fad801",
+      "brain_person_id": "luke-pasterfield-e1ccab83",
+      "status": "WARD - Too Junior",
+      "category": "out-firm_rejected",
+      "rank": 386,
+      "updated_at": "2025-12-10T14:10:16Z"
+    },
+    {
+      "person": "Steven Gay",
+      "clockwork_person_id": "5283285b-a493-41af-bffa-d0c9058f4607",
+      "brain_person_id": "steven-gay-5283285b",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2026-02-01T15:55:39Z"
+    },
+    {
+      "person": "Mark Pestridge",
+      "clockwork_person_id": "33793f9e-2e55-4072-a577-487adb1e0a30",
+      "brain_person_id": "mark-pestridge-33793f9e",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Richard Gulson",
+      "clockwork_person_id": "b4ed1959-8d4a-4f41-816e-e83d1f35d697",
+      "brain_person_id": "richard-gulson-b4ed1959",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Barry Parris",
+      "clockwork_person_id": "d5e6bba3-7f18-4e20-8d67-6d41b6198553",
+      "brain_person_id": "barry-parris-d5e6bba3",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Tom Newton",
+      "clockwork_person_id": "748bb98a-9775-4cfd-816a-a7f8299fea19",
+      "brain_person_id": "tom-newton-748bb98a",
+      "status": "WARD - Role Scope",
+      "category": "out-firm_rejected",
+      "rank": 383,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Ben Green",
+      "clockwork_person_id": "5c834bcb-2351-49c3-bcce-edae845c0763",
+      "brain_person_id": "ben-green-5c834bcb",
+      "status": "WARD - Compensation",
+      "category": "out-firm_rejected",
+      "rank": 380,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Christopher Conway",
+      "clockwork_person_id": "e39bd8d5-38fc-4f06-b08a-531437b3b3b8",
+      "brain_person_id": "christopher-conway-e39bd8d5",
+      "status": "WARD - Motivation",
+      "category": "out-firm_rejected",
+      "rank": 370,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "William King",
+      "clockwork_person_id": "a57f3352-dafd-434b-a268-e75b83e36b13",
+      "brain_person_id": "william-king-a57f3352",
+      "status": "WARD - Motivation",
+      "category": "out-firm_rejected",
+      "rank": 370,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Warren Barrie",
+      "clockwork_person_id": "d5027b88-f77f-48f1-98a1-6f5bebc730c8",
+      "brain_person_id": "warren-barrie-d5027b88",
+      "status": "WARD - Recently Moved",
+      "category": "out-firm_rejected",
+      "rank": 369,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Lottie Tollman",
+      "clockwork_person_id": "5ba5f671-0b45-4adf-b565-6455d8fbab3d",
+      "brain_person_id": "lottie-tollman-5ba5f671",
+      "status": "WARD - Recently Moved",
+      "category": "out-firm_rejected",
+      "rank": 369,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Matthew Harris",
+      "clockwork_person_id": "9822daf7-ce34-4b46-ae04-84137b79a203",
+      "brain_person_id": "matthew-harris-9822daf7",
+      "status": "CLIENT - Experience / Skills",
+      "category": "out-client_rejected",
+      "rank": 216,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Rod Faul",
+      "clockwork_person_id": "22f61eaf-2594-46dc-906a-6ac6f8638df9",
+      "brain_person_id": "rod-faul-22f61eaf",
+      "status": "CLIENT - Exclusion List",
+      "category": "out-client_rejected",
+      "rank": 210,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Jon Arnold",
+      "clockwork_person_id": "4aa0dc5d-1ea2-46f2-a2ed-e6b54f56507d",
+      "brain_person_id": "jon-arnold-4aa0dc5d",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Peter Miles",
+      "clockwork_person_id": "ce2bd72b-2002-44f8-8780-ff90e506feb6",
+      "brain_person_id": "peter-miles-ce2bd72b",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Nick Dale",
+      "clockwork_person_id": "4933ea8f-56da-463b-a958-615e31489087",
+      "brain_person_id": "nick-dale-4933ea8f",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Alex Tilley",
+      "clockwork_person_id": "def27ac8-7d9a-4be5-9861-36cc68e82f22",
+      "brain_person_id": "alex-tilley-def27ac8",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Jon Waldron",
+      "clockwork_person_id": "db70da63-cd23-4c34-a176-7c8ec3dafa73",
+      "brain_person_id": "jon-waldron-db70da63",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "James Miller",
+      "clockwork_person_id": "c9774af6-fbf4-4933-a659-438d91f31dd8",
+      "brain_person_id": "james-miller-c9774af6",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Sarah Wood",
+      "clockwork_person_id": "aded8215-833f-4d00-8727-578a451497cc",
+      "brain_person_id": "sarah-wood-aded8215",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Rogier van der Wal",
+      "clockwork_person_id": "96f2d345-c7d8-4e0e-b4ea-1bb84de8d150",
+      "brain_person_id": "rogier-van-der-wal-96f2d345",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Phil Barnett",
+      "clockwork_person_id": "3c9c48b7-5c0a-436e-94fa-880828085c9c",
+      "brain_person_id": "phil-barnett-3c9c48b7",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Ewan Jones",
+      "clockwork_person_id": "364caac1-a627-4032-b340-faccbf4b5ead",
+      "brain_person_id": "ewan-jones-364caac1",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Kevin Holland",
+      "clockwork_person_id": "3115a121-1240-4776-8b86-3701837c2797",
+      "brain_person_id": "kevin-holland-3115a121",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Rob Elder",
+      "clockwork_person_id": "15eae7b6-5588-4ee1-b17d-8307f533d0b4",
+      "brain_person_id": "rob-elder-15eae7b6",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Daniel Thomas",
+      "clockwork_person_id": "6776e1d0-19c7-4e60-852e-14450f88d553",
+      "brain_person_id": "daniel-thomas-6776e1d0",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Christina Mertens",
+      "clockwork_person_id": "1fe786d9-bb7e-4a00-a0d3-45c7544bf81b",
+      "brain_person_id": "christina-mertens-1fe786d9",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Martijn Kooiman",
+      "clockwork_person_id": "76632661-cffb-4409-81e0-8e1eb36c84fc",
+      "brain_person_id": "martijn-kooiman-76632661",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Soumaya Graine",
+      "clockwork_person_id": "f7cdbb6d-153b-41cb-bb3a-b8539570f354",
+      "brain_person_id": "soumaya-graine-f7cdbb6d",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Scott Laidlaw",
+      "clockwork_person_id": "ed577c05-566d-4cac-a969-6fc40233e88d",
+      "brain_person_id": "scott-laidlaw-ed577c05",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Chris Baxter",
+      "clockwork_person_id": "e051f6ab-1509-4ae7-8077-9b75758b9900",
+      "brain_person_id": "chris-baxter-e051f6ab",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Adam Levine",
+      "clockwork_person_id": "b66db82b-e4d0-4be8-b478-f6cb351398b1",
+      "brain_person_id": "adam-levine-b66db82b",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Arjan de Haan",
+      "clockwork_person_id": "5fe609e9-9f6a-4ac9-bb0d-d60cf1b59958",
+      "brain_person_id": "arjan-de-haan-5fe609e9",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Suhal Lad",
+      "clockwork_person_id": "50c89c5b-0416-461d-ac79-29a3b0ebdf53",
+      "brain_person_id": "suhal-lad-50c89c5b",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Fred Howard",
+      "clockwork_person_id": "7b612dce-89a6-415b-ada4-db5a251c874a",
+      "brain_person_id": "fred-howard-7b612dce",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Hugo Jack",
+      "clockwork_person_id": "ebf2039b-bc4d-420e-81a9-d228089b21a8",
+      "brain_person_id": "hugo-jack-ebf2039b",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "James Thornborrow",
+      "clockwork_person_id": "86aaa51c-2d9e-4159-9d52-c503085da6c6",
+      "brain_person_id": "james-thornborrow-86aaa51c",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Arun Shenoy",
+      "clockwork_person_id": "5463d125-b6e5-40a8-86c1-ee5de8e308f7",
+      "brain_person_id": "arun-shenoy-5463d125",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Svein Atle Hagaseth",
+      "clockwork_person_id": "1e805e2d-abd9-4204-84f8-3030425529d7",
+      "brain_person_id": "svein-atle-hagaseth-1e805e2d",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "James Matthews",
+      "clockwork_person_id": "8e04eab5-dd83-4586-b00c-6e701b1e59d9",
+      "brain_person_id": "james-matthews-8e04eab5",
+      "status": "CANDIDATE - Withdrew",
+      "category": "out-withdrew",
+      "rank": 132,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Simon Ford",
+      "clockwork_person_id": "5fe64d16-3ec0-4441-8bc0-ef6c3f472d9e",
+      "brain_person_id": "simon-ford-5fe64d16",
+      "status": "CANDIDATE - Offer Declined",
+      "category": "out-withdrew",
+      "rank": 111,
+      "updated_at": "2025-12-04T22:12:01Z"
+    },
+    {
+      "person": "Sarah Ward",
+      "clockwork_person_id": "955c3cf2-ab7e-43f8-9445-1fefa8636d1b",
+      "brain_person_id": "sarah-ward-955c3cf2",
+      "status": "WARD - Location Issue",
+      "category": "out-firm_rejected",
+      "rank": 351,
+      "updated_at": "2026-02-01T15:58:23Z"
+    },
+    {
+      "person": "Nick Henton",
+      "clockwork_person_id": "c38a935c-96aa-42f8-a46a-42ae3fb47961",
+      "brain_person_id": "nick-henton-c38a935c",
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137,
+      "updated_at": "2025-12-14T16:51:50Z"
+    },
+    {
+      "person": "Elvira Van Bruggen",
+      "clockwork_person_id": "88d5ce60-3745-4162-bd32-ddda0ca5fd1e",
+      "brain_person_id": "elvira-van-bruggen-88d5ce60",
+      "status": "CLIENT - Superior Alternative Candidate",
+      "category": "out-client_rejected",
+      "rank": 226,
+      "updated_at": "2026-02-01T15:53:34Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 60,
+    "placed": 1,
+    "active": 0,
+    "out": 59
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

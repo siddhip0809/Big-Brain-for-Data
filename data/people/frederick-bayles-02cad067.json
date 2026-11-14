@@ -1,0 +1,89 @@
+{
+  "id": "frederick-bayles-02cad067",
+  "type": "person",
+  "name": "Frederick Bayles",
+  "current_title": "VP, Corporate Development",
+  "current_company": "Cologix",
+  "linkedin": "https://www.linkedin.com/in/fb206",
+  "location": "San Francisco, California",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "VP, Corporate Development at Cologix, 1/2025 to present; Director, Corporate Development at Equinix, 1/2016 to 1/2025; Technology Investment Banking at J P Morgan, 1/2013 to 2015; MBA at University of California Berkeley Haas School of Business, 2011 to 2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 263,
+      "date_added": "2026-04-20 11:01:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "cologix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Strategy, Finance & Investment",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "VP, Corporate Development",
+      "company": "Cologix",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Corporate Development",
+      "company": "Equinix",
+      "start": "1/2016",
+      "end": "1/2025",
+      "current": false
+    },
+    {
+      "title": "Technology Investment Banking",
+      "company": "J P Morgan",
+      "start": "1/2013",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "MBA",
+      "company": "University of California Berkeley Haas School of Business",
+      "start": "2011",
+      "end": "2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "MBA, Finance, Technology, Real Estate, University Of California, Berkeley, Haas School Of Business, 2011 to 2013"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

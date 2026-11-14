@@ -1,0 +1,92 @@
+{
+  "id": "amy-c-4e8a4ba3",
+  "type": "person",
+  "name": "Amy C.",
+  "current_title": "Data Center",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/ams558",
+  "location": "Atlanta, Georgia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Data Center at Google, 7/2014 to present; Retail at Google, 6/2012 to 7/2014; Commerce at Google, 9/2011 to 6/2012; Account Manager at kgb, 5/2010 to 8/2011; Programs Assistant at Ignition, 5/2008 to 5/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 278,
+      "date_added": "2026-07-22 10:46:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center",
+      "company": "Google",
+      "start": "7/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Retail",
+      "company": "Google",
+      "start": "6/2012",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Commerce",
+      "company": "Google",
+      "start": "9/2011",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "kgb",
+      "start": "5/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Programs Assistant",
+      "company": "Ignition",
+      "start": "5/2008",
+      "end": "5/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Continuing Education - Fundamentals of Investing, Emory University, 2012 to 2012",
+    "BS in Business Management, Certificate in Entrepreneurship, Concentrations in Finance and Marketing, Georgia Institute Of Technology, 2005 to 2009",
+    "BS in Business Management, Georgia Institute Of Technology, 2005 to 2009"
+  ],
+  "biography": "Data Center at Google",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

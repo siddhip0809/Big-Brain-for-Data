@@ -1,0 +1,152 @@
+{
+  "id": "chelsey-cooper-21ef145c",
+  "type": "person",
+  "name": "Chelsey Cooper",
+  "current_title": "Director, Cloud Sales",
+  "current_company": "Compass Datacenters",
+  "linkedin": "https://www.linkedin.com/in/chelseycooper",
+  "location": "Seattle, Washington",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Cloud Sales at Compass Datacenters, 1/2022 to present; Enterprise Account Manager at AWS, 6/2020 to 1/2022; Regional Director Of Sales   South at Kazoo, 10/2018 to 4/2020; Regional Sales Manager   South at Kazoo, 11/2017 to 10/2018; Account Executive at Kazoo, 1/2014 to 11/2017; Account Manager / Trainer at Abc, 10/2013 to 12/2013; Marketing Associate at Tejas American General Agency, 1/2013 to 10/2013; Server at Flores Mexican Restaurant, 9/2012 to 9/2013; Marketing And Promotional Specialist at Rainy Day Basement Systems, 7/2011 to 8/2012; Assistant Office Manager at Westar Properties Limited, 7/2010 to 11/2011; Student Activities Manager at Concordia University Texas, 4/2010 to 5/2011; Field Day Director at Concordia University Texas, 12/2009 to 5/2010; Admissions Tele Counselor at Concordia University Texas, 8/2009 to 5/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 97,
+      "date_added": "2025-11-18 13:31:38 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "compass-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Cloud Sales",
+      "company": "Compass Datacenters",
+      "start": "1/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Enterprise Account Manager",
+      "company": "AWS",
+      "start": "6/2020",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Regional Director Of Sales   South",
+      "company": "Kazoo",
+      "start": "10/2018",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Manager   South",
+      "company": "Kazoo",
+      "start": "11/2017",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Kazoo",
+      "start": "1/2014",
+      "end": "11/2017",
+      "current": false
+    },
+    {
+      "title": "Account Manager / Trainer",
+      "company": "Abc",
+      "start": "10/2013",
+      "end": "12/2013",
+      "current": false
+    },
+    {
+      "title": "Marketing Associate",
+      "company": "Tejas American General Agency",
+      "start": "1/2013",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Server",
+      "company": "Flores Mexican Restaurant",
+      "start": "9/2012",
+      "end": "9/2013",
+      "current": false
+    },
+    {
+      "title": "Marketing And Promotional Specialist",
+      "company": "Rainy Day Basement Systems",
+      "start": "7/2011",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Assistant Office Manager",
+      "company": "Westar Properties Limited",
+      "start": "7/2010",
+      "end": "11/2011",
+      "current": false
+    },
+    {
+      "title": "Student Activities Manager",
+      "company": "Concordia University Texas",
+      "start": "4/2010",
+      "end": "5/2011",
+      "current": false
+    },
+    {
+      "title": "Field Day Director",
+      "company": "Concordia University Texas",
+      "start": "12/2009",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "title": "Admissions Tele Counselor",
+      "company": "Concordia University Texas",
+      "start": "8/2009",
+      "end": "5/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Bachelors, Bachelor Of Arts, Communication, Public Relations, Concordia University, 2009 to 2013"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

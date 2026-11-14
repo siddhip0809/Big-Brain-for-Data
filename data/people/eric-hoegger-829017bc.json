@@ -1,0 +1,121 @@
+{
+  "id": "eric-hoegger-829017bc",
+  "type": "person",
+  "name": "Eric Hoegger",
+  "current_title": "Director, Power and Energy",
+  "current_company": "CyrusOne",
+  "linkedin": "https://www.linkedin.com/in/eric-hoegger-3934308",
+  "location": "Minneapolis, Minnesota",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, Power and Energy at CyrusOne, 9/2022 to present; Director, Global Renewable Energy at Cargill, 1/2019 to 9/2022; Director, Power Origination - Retail at Cargill, 9/2010 to 1/2019; Power Origination Manager at Cargill, 12/2002 to 9/2010; Project Engineer at Cargill, 12/2000 to 12/2005; Production Supervisor at Cargill, 12/1998 to 12/2000; Production Supervisor at Cargill, 7/1998 to 11/1998; Maintenance Supervisor at Cargill, 7/1997 to 7/1998; Engineering Co-op at Cargill, 6/1996 to 12/1996",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 42,
+      "date_added": "2025-11-12 13:12:20 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "cyrusone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Power and Energy",
+      "company": "CyrusOne",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Global Renewable Energy",
+      "company": "Cargill",
+      "start": "1/2019",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Director, Power Origination - Retail",
+      "company": "Cargill",
+      "start": "9/2010",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Power Origination Manager",
+      "company": "Cargill",
+      "start": "12/2002",
+      "end": "9/2010",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Cargill",
+      "start": "12/2000",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Production Supervisor",
+      "company": "Cargill",
+      "start": "12/1998",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Production Supervisor",
+      "company": "Cargill",
+      "start": "7/1998",
+      "end": "11/1998",
+      "current": false
+    },
+    {
+      "title": "Maintenance Supervisor",
+      "company": "Cargill",
+      "start": "7/1997",
+      "end": "7/1998",
+      "current": false
+    },
+    {
+      "title": "Engineering Co-op",
+      "company": "Cargill",
+      "start": "6/1996",
+      "end": "12/1996",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Minneapolis",
+    "region": "Minnesota",
+    "country": "United States",
+    "group": "Minnesota"
+  },
+  "education": [
+    "BS, Chemical Engineering, Uc San Diego, 1992 to 1997"
+  ],
+  "biography": "Director, Power and Energy at CyrusOne",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "jake-yurich-375f5ccd",
+  "type": "person",
+  "name": "Jake Yurich",
+  "current_title": "Strategic Estimator",
+  "current_company": "Microsoft",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/jake-yurich",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Strategic Estimator at Microsoft, 8/2023 to present; Senior Estimator at Mortenson, 9/2022 to 8/2023; Estimator III at Mortenson, 8/2019 to 9/2022; Estimator / Project Manager at Rocky mountain excavating, 1/2017 to 8/2019; Estimator / Sales / Project Manager at PLM Asphalt & Concrete, 5/2011 to 1/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 211,
+      "date_added": "2026-08-26 12:57:38 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 6,
+      "date_added": "2026-07-28 10:41:16 UTC",
+      "date_updated": "2026-08-26 07:57:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "microsoft",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Strategic Estimator",
+      "company": "Microsoft",
+      "start": "8/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Mortenson",
+      "start": "9/2022",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Estimator III",
+      "company": "Mortenson",
+      "start": "8/2019",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator / Project Manager",
+      "company": "Rocky mountain excavating",
+      "start": "1/2017",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator / Sales / Project Manager",
+      "company": "PLM Asphalt & Concrete",
+      "start": "5/2011",
+      "end": "1/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Construction Mangement Certificate, Colorado State University, 2013 to 2014",
+    "Business Administration, Finance, Concordia University, Nebraska, 2007 to 2011"
+  ],
+  "biography": "Cost Estimator dedicated to achieving objectives, growth, and transformation within the Data Center Construction industry.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

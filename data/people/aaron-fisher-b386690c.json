@@ -1,0 +1,107 @@
+{
+  "id": "aaron-fisher-b386690c",
+  "type": "person",
+  "name": "Aaron Fisher",
+  "current_title": "Vice President Sales and Business Development",
+  "current_company": "EdgeConneX",
+  "linkedin": "https://www.linkedin.com/in/aaron-fisher-6558297",
+  "location": "Santa Clara, CA",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President Sales and Business Development at EdgeConneX, 12/2018 to present; Sales Director at H5 Data Centers, 5/2016 to 11/2018; Senior Sales Engineer at CoreSite, 5/2010 to 4/2016; Sales Engineer at Equinix, 5/2007 to 4/2010; Sales Executive at iBAHN, 12/2005 to 1/2007; Sales Manager, Audio Visual at Marriott International, 1/2005 to 12/2005; Event Technology Supervisor at Marriott International, 12/2001 to 9/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 266,
+      "date_added": "2026-04-22 14:37:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "edgeconnex",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President Sales and Business Development",
+      "company": "EdgeConneX",
+      "start": "12/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director",
+      "company": "H5 Data Centers",
+      "start": "5/2016",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Sales Engineer",
+      "company": "CoreSite",
+      "start": "5/2010",
+      "end": "4/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Equinix",
+      "start": "5/2007",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Sales Executive",
+      "company": "iBAHN",
+      "start": "12/2005",
+      "end": "1/2007",
+      "current": false
+    },
+    {
+      "title": "Sales Manager, Audio Visual",
+      "company": "Marriott International",
+      "start": "1/2005",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Event Technology Supervisor",
+      "company": "Marriott International",
+      "start": "12/2001",
+      "end": "9/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Santa Clara",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

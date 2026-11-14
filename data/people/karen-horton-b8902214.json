@@ -1,0 +1,118 @@
+{
+  "id": "karen-horton-b8902214",
+  "type": "person",
+  "name": "Karen Horton",
+  "current_title": "Account Director at Colt Data Centre Services",
+  "current_company": "Colt Data Centre Services",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/karen-horton-4432a043",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Account Director at Colt Data Centre Services at Colt Data Centre Services, 12/2015 to present; Account Director Colt Capital Markets at Colt Data Centre Services, 4/2012 to 12/2015; Account Director Wholesale at Colt Data Centre Services, 6/2011 to 4/2012; Key Account Manager Wholesale at Geo Networks, 12/2007 to 4/2011; Senior Account Manager Wholesale at Telia, 6/2001 to 8/2007; Channel Development Manager at Cable and Wireless Communications, 4/1998 to 6/2001; Account Manager at Siemens GEC Communications, 7/1997 to 4/1998",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 50,
+      "date_added": "2026-08-12 09:39:26 UTC",
+      "date_updated": "2026-08-12 04:39:54 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 61,
+      "date_added": "2026-07-09 04:24:08 UTC",
+      "date_updated": "2026-08-12 04:39:26 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "colt-data-centre-services",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Account Director",
+      "company": "Colt Data Centre Services at Colt Data Centre Services",
+      "start": "12/2015",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director Colt Capital Markets",
+      "company": "Colt Data Centre Services",
+      "start": "4/2012",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "title": "Account Director Wholesale",
+      "company": "Colt Data Centre Services",
+      "start": "6/2011",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager Wholesale",
+      "company": "Geo Networks",
+      "start": "12/2007",
+      "end": "4/2011",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager Wholesale",
+      "company": "Telia",
+      "start": "6/2001",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "Channel Development Manager",
+      "company": "Cable and Wireless Communications",
+      "start": "4/1998",
+      "end": "6/2001",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Siemens GEC Communications",
+      "start": "7/1997",
+      "end": "4/1998",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

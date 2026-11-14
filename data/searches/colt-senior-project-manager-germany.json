@@ -1,0 +1,37 @@
+{
+  "id": "ad15d8a1-5858-41f1-8f0d-5aad7581e2b1",
+  "type": "search",
+  "name": "COLT- Senior Project Manager (Germany)",
+  "client_company": "Colt Data Centre Services",
+  "client_company_id": "colt-data-centre-services",
+  "status": "closed",
+  "project_type": "Contingency",
+  "started_at": "2026-03-31",
+  "closed_at": "2026-04-14",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Aldo Hamzallari",
+      "clockwork_person_id": "ee1687b8-2bfb-4f7a-bb87-869bd157ee96",
+      "brain_person_id": null,
+      "status": "3c. Interviewing",
+      "category": "in-offered",
+      "rank": 1410,
+      "updated_at": "2026-04-14T15:27:40Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 1,
+    "placed": 0,
+    "active": 1,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

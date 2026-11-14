@@ -1,0 +1,117 @@
+{
+  "id": "matt-highland-f9f257d9",
+  "type": "person",
+  "name": "Matt Highland",
+  "current_title": "Director of Estimating",
+  "current_company": "Accenture",
+  "location": "Seattle, Washington",
+  "linkedin": "https://www.linkedin.com/in/matt-highland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director of Estimating at Accenture, 12/2025 to present; Associate Director at Accenture, 10/2023 to 12/2025; Regional Cost Lead - Seattle at PCM Consulting, 3/2023 to 10/2023; Senior Cost Manager at Turton Bond, 1/2022 to 3/2023; Senior Cost Manager at CBRE, 5/2021 to 1/2022; Senior Cost Manager at Cumming, 10/2019 to 5/2021; Cost Manager at Cumming, 8/2018 to 10/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 155,
+      "date_added": "2026-08-19 13:05:39 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 362,
+      "date_added": "2026-08-14 12:17:02 UTC",
+      "date_updated": "2026-08-19 08:05:38 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Estimating",
+      "company": "Accenture",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate Director",
+      "company": "Accenture",
+      "start": "10/2023",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Regional Cost Lead - Seattle",
+      "company": "PCM Consulting",
+      "start": "3/2023",
+      "end": "10/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Turton Bond",
+      "start": "1/2022",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "CBRE",
+      "start": "5/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming",
+      "start": "10/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Cumming",
+      "start": "8/2018",
+      "end": "10/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Poor",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

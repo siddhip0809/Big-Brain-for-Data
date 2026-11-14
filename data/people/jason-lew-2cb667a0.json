@@ -1,0 +1,98 @@
+{
+  "id": "jason-lew-2cb667a0",
+  "type": "person",
+  "name": "Jason Lew",
+  "current_title": "Sr. Construction Project Manager",
+  "current_company": "DataBank",
+  "linkedin": "https://www.linkedin.com/in/jason-lew-a5a5bb2",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Sr. Construction Project Manager at DataBank, 4/2022 to present; Director of Compliance & Program Management at H5 Data Centers, 4/2021 to 4/2022; IBM Global Real Estate, West & Central Regions Design and Construction Project Delivery Manager at IBM, 2/2017 to 4/2021; Manager IBM Boulder RESO Engineering, Construction, Maintenance, Finance, and Facility Contracts at IBM, 4/2015 to 2/2017; Manager IBM Boulder RESO Finance, Planning, Facility Contracts, & Environmental Engineering at IBM, 6/2014 to 4/2015; Design and Construction and Maintenance Project Manager at IBM, 2/2001 to 6/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 16,
+      "date_added": "2026-07-02 11:47:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "databank",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Construction Project Manager",
+      "company": "DataBank",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Compliance & Program Management",
+      "company": "H5 Data Centers",
+      "start": "4/2021",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "IBM Global Real Estate, West & Central Regions Design and Construction Project Delivery Manager",
+      "company": "IBM",
+      "start": "2/2017",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Manager IBM Boulder RESO Engineering, Construction, Maintenance, Finance, and Facility Contracts",
+      "company": "IBM",
+      "start": "4/2015",
+      "end": "2/2017",
+      "current": false
+    },
+    {
+      "title": "Manager IBM Boulder RESO Finance, Planning, Facility Contracts, & Environmental Engineering",
+      "company": "IBM",
+      "start": "6/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Design and Construction and Maintenance Project Manager",
+      "company": "IBM",
+      "start": "2/2001",
+      "end": "6/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Master of Science (MS), Industrial Technology/Construction Management, Purdue University, 1998 to 2000",
+    "Bachelor's degree, Natural Resources and Environmental Science, Purdue University, 1993 to 1998"
+  ],
+  "biography": "Specialties: Project Management, Compliance, Real Estate, Building construction mgmt, Facilities Management, Infrastructure projects, Data center construction. Large business process. Supplier and customer relations.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "nadiene-mcclain-3718e011",
+  "type": "person",
+  "name": "Nadiene McClain",
+  "current_title": "Real Estate Development Manager",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/nadiene-mcclain-7906a662",
+  "location": "Atlanta, Georgia",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Development Manager at Microsoft, 7/2022 to present; Senior Project Manager at New South Construction, 8/2018 to 8/2022; Project Director at Colliers, 8/2017 to 8/2018; Construction Project Manager at Turner Construction, 1/2005 to 5/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 500,
+      "date_added": "2026-06-03 14:58:26 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Development Manager",
+      "company": "Microsoft",
+      "start": "7/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "New South Construction",
+      "start": "8/2018",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Project Director",
+      "company": "Colliers",
+      "start": "8/2017",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Construction Project Manager",
+      "company": "Turner Construction",
+      "start": "1/2005",
+      "end": "5/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Bachelor of Architecture (B.Arch.), Architecture, The City College of New York, 1999 to 2000",
+    "Bachelor's Degree, Architecture, The City College of New York, 1993 to 1999"
+  ],
+  "biography": "Real Estate Development Manager at Microsoft",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

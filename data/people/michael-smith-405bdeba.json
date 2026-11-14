@@ -1,0 +1,122 @@
+{
+  "id": "michael-smith-405bdeba",
+  "type": "person",
+  "name": "Michael Smith",
+  "current_title": "Client Executive, Global Key Accounts",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/michael-smith-91633520",
+  "location": "California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Client Executive, Global Key Accounts at Digital Realty, 5/2025 to present; Sr. Account Manager, Enterprise Solutions at Digital Realty, 10/2021 to 5/2025; Director of Strategic Accounts at Flexential, 2/2020 to 10/2021; Client Executive at NTT, 5/2018 to 2/2020; Engagement Director - Global Enterprise Solutions at NTT, 3/2017 to 1/2018; Sr. Account Executive at Digital Realty, 4/2013 to 3/2015; Sales Manager - Data Center Solutions & Services at Digital Realty, 4/2012 to 3/2017; Account Executive Colocation at Digital Realty, 4/2012 to 3/2013; Real Estate Consultant at Caliber Commercial Brokerage Licensed Real Estate Broker, 5/2009 to 8/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 250,
+      "date_added": "2026-04-22 14:37:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Client Executive, Global Key Accounts",
+      "company": "Digital Realty",
+      "start": "5/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Account Manager, Enterprise Solutions",
+      "company": "Digital Realty",
+      "start": "10/2021",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Director of Strategic Accounts",
+      "company": "Flexential",
+      "start": "2/2020",
+      "end": "10/2021",
+      "current": false
+    },
+    {
+      "title": "Client Executive",
+      "company": "NTT",
+      "start": "5/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Engagement Director - Global Enterprise Solutions",
+      "company": "NTT",
+      "start": "3/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Sr. Account Executive",
+      "company": "Digital Realty",
+      "start": "4/2013",
+      "end": "3/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Manager - Data Center Solutions & Services",
+      "company": "Digital Realty",
+      "start": "4/2012",
+      "end": "3/2017",
+      "current": false
+    },
+    {
+      "title": "Account Executive Colocation",
+      "company": "Digital Realty",
+      "start": "4/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Real Estate Consultant",
+      "company": "Caliber Commercial Brokerage Licensed Real Estate Broker",
+      "start": "5/2009",
+      "end": "8/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "biography": "Upstate New York transplant who is a highly motivated and enthusiastic individual. Skilled at building long term relationships with variety of clients and colleagues. Focused leader who excels at creating solutions for the customer as well as the company.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

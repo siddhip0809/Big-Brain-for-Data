@@ -1,0 +1,149 @@
+{
+  "id": "dillon-kaup-571a7061",
+  "type": "person",
+  "name": "Dillon Kaup",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "Vantage",
+  "location": "Denver, Colorado",
+  "linkedin": "https://www.linkedin.com/in/dillon-kaup-p-e-ca-ab205b94",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at Vantage, 3/2026 to present; Preconstruction Manager at Vantage, 8/2024 to 3/2026; Senior Cost Estimator at OCMI, 12/2023 to 8/2024; Senior Cost Manager at Cumming Group, 3/2023 to 12/2023; Cost Manager - Mechanical at Cumming Group, 9/2021 to 3/2023; Mechanical Engineer at HGA Architects and Engineers, 5/2021 to 7/2021; Mechanical Staff at HGA Architects and Engineers, 7/2019 to 5/2021; Mechanical Staff at HGA Architects and Engineers, 5/2016 to 7/2019; Engineering Intern at PBBS Equipment, 6/2015 to 9/2015; Mechanical Engineering Co-op at HGA Architects and Engineers, 5/2014 to 1/2016; Inventory Assistant at University of Minnesota, 9/2013 to 5/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 248,
+      "date_added": "2026-08-26 13:22:20 UTC",
+      "date_updated": "2026-08-26 08:23:43 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 20,
+      "date_added": "2026-08-03 14:17:40 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "vantage",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Vantage",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Vantage",
+      "start": "8/2024",
+      "end": "3/2026",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Estimator",
+      "company": "OCMI",
+      "start": "12/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Manager",
+      "company": "Cumming Group",
+      "start": "3/2023",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Cost Manager - Mechanical",
+      "company": "Cumming Group",
+      "start": "9/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineer",
+      "company": "HGA Architects and Engineers",
+      "start": "5/2021",
+      "end": "7/2021",
+      "current": false
+    },
+    {
+      "title": "Mechanical Staff",
+      "company": "HGA Architects and Engineers",
+      "start": "7/2019",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Mechanical Staff",
+      "company": "HGA Architects and Engineers",
+      "start": "5/2016",
+      "end": "7/2019",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "PBBS Equipment",
+      "start": "6/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Mechanical Engineering Co-op",
+      "company": "HGA Architects and Engineers",
+      "start": "5/2014",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Inventory Assistant",
+      "company": "University of Minnesota",
+      "start": "9/2013",
+      "end": "5/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor's Degree, Mechanical Engineering, University Of Minnesota, 2012 to 2016"
+  ],
+  "biography": "Professional engineer (PE) of Mechanical Engineering in California. Currently located in Denver, CO and working on preconstruction estimating for data centers.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "cathy-goodman-a0d4e64d",
+  "type": "person",
+  "name": "Cathy Goodman",
+  "current_title": "Sales Director",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/cathygoodman",
+  "location": "Guildford , England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director at Equinix, 10/2023 to present; EMEA Enterprise and Industry Senior Sales Manager at Equinix, 12/2020 to 9/2023; Global Client Director at Equinix, 10/2013 to 12/2016; Carrier Manager at Equinix, 10/2011 to 10/2013; Senior Partner Development Manager at Claranet, 10/2008 to 9/2011; Channel Account Manager at Tiscali Business Services, 2/2008 to 10/2008; Founder at Iventure, 10/2005 to 2/2008; Channel Account Manager at Colt Data Centre Services, 1/1999 to 10/2005; Account Manager at Cable and Wireless, 7/1993 to 12/1998; Telephone Account Manager at Mercury Communications, 1/1993 to 12/1996",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 65,
+      "date_added": "2026-07-09 04:31:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director",
+      "company": "Equinix",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "EMEA Enterprise and Industry Senior Sales Manager",
+      "company": "Equinix",
+      "start": "12/2020",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Global Client Director",
+      "company": "Equinix",
+      "start": "10/2013",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Carrier Manager",
+      "company": "Equinix",
+      "start": "10/2011",
+      "end": "10/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Partner Development Manager",
+      "company": "Claranet",
+      "start": "10/2008",
+      "end": "9/2011",
+      "current": false
+    },
+    {
+      "title": "Channel Account Manager",
+      "company": "Tiscali Business Services",
+      "start": "2/2008",
+      "end": "10/2008",
+      "current": false
+    },
+    {
+      "title": "Founder",
+      "company": "Iventure",
+      "start": "10/2005",
+      "end": "2/2008",
+      "current": false
+    },
+    {
+      "title": "Channel Account Manager",
+      "company": "Colt Data Centre Services",
+      "start": "1/1999",
+      "end": "10/2005",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Cable and Wireless",
+      "start": "7/1993",
+      "end": "12/1998",
+      "current": false
+    },
+    {
+      "title": "Telephone Account Manager",
+      "company": "Mercury Communications",
+      "start": "1/1993",
+      "end": "12/1996",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Guildford",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "BA Hons 2:1, English and History, De Montfort University, 1989 to 1992"
+  ],
+  "biography": "30 years experience in sales, driving new business and deeper engagement with a wide range of customers and sales channels within the IT sector.  I am highly driven, have consistently performed within many different environments and have built up a range of transferable skills including:\n\n•\tManaging cross functional virtual teams on a global basis to drive growth and maximise  potential opportunity with strategic customers, balancing global consistency and standard practice with local focus and cultural integrity.   \n\n•\tDeveloping and managing sales channels within managed services, hosting, data networking, voice and mobile sectors.  I particularly enjoy engaging with my customers at a level where I can become part of their virtual team, collaborating at a partner level and growing business by focusing on their immediate business priorities and growth opportunities.\n\nAt Equinix, I currently manage a fast growing team, where the location and proximity to cloud and content ecosystems is starting to change the strategic relevance of the data centre and be seen as a competitive advantage.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

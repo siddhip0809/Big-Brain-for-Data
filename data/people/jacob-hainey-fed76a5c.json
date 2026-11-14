@@ -1,0 +1,103 @@
+{
+  "id": "jacob-hainey-fed76a5c",
+  "type": "person",
+  "name": "Jacob Hainey",
+  "current_title": "Data Center Acquisitions",
+  "current_company": "Oracle",
+  "linkedin": "https://www.linkedin.com/in/jacobhainey",
+  "location": "Atlanta, Georgia",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Acquisitions at Oracle, 11/2025 to present; Real Estate at QTS Data Centers, 10/2022 to 10/2025; Senior Manager, Finance & Development at CyrusOne, 3/2021 to 9/2022; Analyst at Eastdil Secured, 7/2017 to 12/2020; Credit Analyst at Wells Fargo, 7/2014 to 7/2017; Summer Analyst at Wells Real Estate Funds, 5/2012 to 8/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 402,
+      "date_added": "2026-04-23 14:48:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "oracle",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Data Center Acquisitions",
+      "company": "Oracle",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate",
+      "company": "QTS Data Centers",
+      "start": "10/2022",
+      "end": "10/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Manager, Finance & Development",
+      "company": "CyrusOne",
+      "start": "3/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Eastdil Secured",
+      "start": "7/2017",
+      "end": "12/2020",
+      "current": false
+    },
+    {
+      "title": "Credit Analyst",
+      "company": "Wells Fargo",
+      "start": "7/2014",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Summer Analyst",
+      "company": "Wells Real Estate Funds",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "education": [
+    "Bachelor of Business Administration (B.B.A.), Finance, University of Georgia - Terry College of Business, 2009 to 2013"
+  ],
+  "biography": "Site Selection Manager at Oracle focused on scaling cloud infrastructure through strategic real estate and data center development. \n\nMy work centers on identifying high-potential markets, evaluating site opportunities, negotiating complex lease and infrastructure agreements, and working with cross-functional teams to deliver mission-critical data center capacity.\n\nWith a background in real estate development and infrastructure projects, I’m particularly interested in how power, land, and capital come together to enable the next generation of cloud computing.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

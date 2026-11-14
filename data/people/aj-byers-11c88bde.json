@@ -1,0 +1,136 @@
+{
+  "id": "aj-byers-11c88bde",
+  "type": "person",
+  "name": "AJ Byers",
+  "current_title": "President",
+  "current_company": "Compass Datacenters",
+  "linkedin": "https://www.linkedin.com/in/ajbyers",
+  "location": "Oakville, Ontario",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "President  at Compass Datacenters, 3/2025 to present; President and Chief Development Officer at Compass Datacenters, 8/2019 to present; President and CEO at ROOT Data Center, 9/2015 to 9/2019; President at JEDTech Group, 9/2014 to present; President at Rogers Data Centres, 11/2013 to 7/2014; President at BLACKIRON Data, 8/2012 to 11/2013; Executive Vice President, Business Services at Primus Telecommunications Group, 12/2010 to 10/2012; Executive Vice President, Operations at Primus, 3/2009 to 12/2010; Sr.VP, Business Services at Primus, 1/2004 to 3/2009; Chief Operating Officer at Magma Communications, 1/1996 to 12/2004; Compass Datacenters",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 107,
+      "date_added": "2025-11-19 11:30:56 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "compass-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "President ",
+      "company": "Compass Datacenters",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President and Chief Development Officer",
+      "company": "Compass Datacenters",
+      "start": "8/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President and CEO",
+      "company": "ROOT Data Center",
+      "start": "9/2015",
+      "end": "9/2019",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "JEDTech Group",
+      "start": "9/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "President",
+      "company": "Rogers Data Centres",
+      "start": "11/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "President",
+      "company": "BLACKIRON Data",
+      "start": "8/2012",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Executive Vice President, Business Services",
+      "company": "Primus Telecommunications Group",
+      "start": "12/2010",
+      "end": "10/2012",
+      "current": false
+    },
+    {
+      "title": "Executive Vice President, Operations",
+      "company": "Primus",
+      "start": "3/2009",
+      "end": "12/2010",
+      "current": false
+    },
+    {
+      "title": "Sr.VP, Business Services",
+      "company": "Primus",
+      "start": "1/2004",
+      "end": "3/2009",
+      "current": false
+    },
+    {
+      "title": "Chief Operating Officer",
+      "company": "Magma Communications",
+      "start": "1/1996",
+      "end": "12/2004",
+      "current": false
+    },
+    {
+      "raw": "Compass Datacenters"
+    }
+  ],
+  "location_norm": {
+    "city": "Oakville",
+    "region": "Ontario",
+    "country": "Canada",
+    "group": "Canada"
+  },
+  "education": [
+    "Masters of Engineering, Management of Technology, University of Waterloo, 1999 to 2002",
+    "B.ASc, Engineering, University of Waterloo, 1991 to 1996"
+  ],
+  "biography": "I develop the worlds next generation of Data Centres. I’ve dedicated my life and career in helping technology and line of business executives take advantage of:\n\n√ The new digital enterprise via integrating a hybrid of multi cloud architectures with software defined networks and network edge technologies (Content delivery, gaming, IoT, mobility, social media, Big data/analytics)\n√ Human Capital for today’s data centres by understanding which certificates matter and why\n√ Public, Private and colocation services\n√ Open Source & New cyber security issues with zettabytes of data in a data centre your architectures production\n√ Software defined networks.\n\nSpecialties:\n•\tNew Business Development & Sales Performance Leadership\n•\tStrategic Planning and Implementation \n•\tTechnical & Customer Service Operations\n•\tMergers and Acquisitions\n•\tGlobal Staffing and Outsourcing  \n•\tNew Product and Solutions Development\n•\tLeadership Recruitment and Development",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

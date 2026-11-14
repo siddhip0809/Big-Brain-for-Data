@@ -1,0 +1,36 @@
+{
+  "id": "4520354c-a40d-473d-881a-84230f7b4a6a",
+  "type": "search",
+  "name": "Director Energy Utilities/ Transmission",
+  "client_company": "STACK Infrastructure",
+  "client_company_id": "stack-infrastructure",
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2025-04-21",
+  "closed_at": "2025-12-01",
+  "closing_reason": "Placement",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": {
+    "person": "Nemica Kadel",
+    "person_id": null,
+    "title": "Director Energy Utilities/ Transmission",
+    "start_date": null
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 812,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

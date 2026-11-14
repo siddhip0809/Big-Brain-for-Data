@@ -1,0 +1,125 @@
+{
+  "id": "dmitri-jarocki-72f9eae8",
+  "type": "person",
+  "name": "Dmitri Jarocki",
+  "current_title": "Manager, Data Center Energy & Global Infrastructure",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/djarocki",
+  "location": "San Francisco Bay Area",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Manager, Data Center Energy & Global Infrastructure at Google, 1/2020 to present; Google, 1/2020 to present; PG&E, 9/2016 to 1/2020; Manager, Structured Energy Transactions at PG&E, 9/2016 to 1/2020; Director, Energy Procurement at Hawaiian Electric, 12/2014 to 9/2016; Renewable Energy Contract Manager at Hawaiian Electric, 8/2011 to 12/2014; Maui Electric, 6/2010 to 8/2011; Renewable Energy Engineer at Maui Electric, 6/2010 to 8/2011; Reserve Firefighter / Harbor Patrol Officer / Ocean Lifeguard Supervisor at City of Morro Bay, 6/2005 to 5/2010; City of Morro Bay, 6/2005 to 5/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 116,
+      "date_added": "2026-04-20 15:49:54 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Manager, Data Center Energy & Global Infrastructure",
+      "company": "Google",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "Google",
+      "start": "1/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "PG&E",
+      "start": "9/2016",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Manager, Structured Energy Transactions",
+      "company": "PG&E",
+      "start": "9/2016",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Director, Energy Procurement",
+      "company": "Hawaiian Electric",
+      "start": "12/2014",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy Contract Manager",
+      "company": "Hawaiian Electric",
+      "start": "8/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "company": "Maui Electric",
+      "start": "6/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy Engineer",
+      "company": "Maui Electric",
+      "start": "6/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Reserve Firefighter / Harbor Patrol Officer / Ocean Lifeguard Supervisor",
+      "company": "City of Morro Bay",
+      "start": "6/2005",
+      "end": "5/2010",
+      "current": false
+    },
+    {
+      "company": "City of Morro Bay",
+      "start": "6/2005",
+      "end": "5/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco Bay Area",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Certificate, Energy Innovation and Emerging Technologies, Stanford University",
+    "Master of Science, Engineering, California Polytechnic State University-San Luis Obispo"
+  ],
+  "biography": "Passionate about clean energy problem solving. People oriented and data driven.\r\n\r\nCommercial structuring and project development experience in clean tech including wind, solar, geothermal, wave/tidal, waste-to-energy, biofuels, hydro, biomass, distributed generation, and energy storage.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "ryan-aldrich-8a197ca7",
+  "type": "person",
+  "name": "Ryan Aldrich",
+  "current_title": "Preconstruction Manager",
+  "current_company": "The Haskell Company",
+  "location": "Dallas, Texas",
+  "linkedin": "https://www.linkedin.com/in/ryan-aldrich-46467748",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at The Haskell Company, 9/2024 to present; Senior Preconstruction Manager at DN Tanks, 2/2024 to 8/2024; Senior Regional Estimator at DN Tanks, 9/2022 to 2/2024; Regional Estimator at DN Tanks, 10/2015 to 9/2022; Project Engineer at Performance Contracting, 6/2011 to 10/2015; Estimating Intern at DN Tanks, 8/2010 to 1/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 82,
+      "date_added": "2026-08-18 10:31:49 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 343,
+      "date_added": "2026-08-13 14:25:50 UTC",
+      "date_updated": "2026-08-18 05:31:49 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 343,
+      "date_added": "2026-08-13 14:25:50 UTC",
+      "date_updated": "2026-08-18 05:31:49 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "haskell",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "The Haskell Company",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "DN Tanks",
+      "start": "2/2024",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Regional Estimator",
+      "company": "DN Tanks",
+      "start": "9/2022",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Regional Estimator",
+      "company": "DN Tanks",
+      "start": "10/2015",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Performance Contracting",
+      "start": "6/2011",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Estimating Intern",
+      "company": "DN Tanks",
+      "start": "8/2010",
+      "end": "1/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Science (BS), Construction Science, Texas A&M University, 2006 to 2011"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

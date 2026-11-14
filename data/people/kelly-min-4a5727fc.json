@@ -1,0 +1,76 @@
+{
+  "id": "kelly-min-4a5727fc",
+  "type": "person",
+  "name": "Kelly Min",
+  "current_title": "Director APAC",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/kelly-min-092692306",
+  "location": "Japan",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director APAC at Vantage, 6/2025 to present; Director at Semper Investments, 1/2000 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 19,
+      "date_added": "2025-11-06 08:53:52 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director APAC",
+      "company": "Vantage",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Semper Investments",
+      "start": "1/2000",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Japan",
+    "group": "Japan"
+  },
+  "education": [
+    "BA, Economics, Columbia University",
+    "BA, Columbia University"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

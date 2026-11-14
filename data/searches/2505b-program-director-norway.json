@@ -1,0 +1,37 @@
+{
+  "id": "4ec4b297-f8f7-4ac0-a384-2d4e78e98113",
+  "type": "search",
+  "name": "2505B Program Director Norway",
+  "client_company": "Aaktik Digital",
+  "client_company_id": null,
+  "status": "closed",
+  "project_type": "Retained",
+  "started_at": "2025-05-22",
+  "closed_at": "2025-11-21",
+  "closing_reason": "Cancelled",
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Patrick Nanninga",
+      "clockwork_person_id": "91c70a68-83e2-42e1-9de2-ec5a9df53d4f",
+      "brain_person_id": "patrick-nanninga-91c70a68",
+      "status": "Research",
+      "category": "research-researching",
+      "rank": 1000,
+      "updated_at": "2025-06-06T08:57:00Z"
+    }
+  ],
+  "counts": {
+    "pipeline": 1,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "jake-jaenicke-70858d5c",
+  "type": "person",
+  "name": "Jake Jaenicke",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Balfour Beatty US",
+  "location": "San Diego, California",
+  "linkedin": "https://www.linkedin.com/in/jaenickejr",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at Balfour Beatty US, 3/2022 to present; Project Manager at Balfour Beatty US, 12/2018 to 3/2022; Assistant Project Manager at Balfour Beatty US, 1/2018 to 12/2018; Senior Project Engineer at Balfour Beatty US, 1/2017 to 12/2017; Project Engineer at Balfour Beatty US, 7/2013 to 1/2017; Intern PM at Balfour Beatty US, 3/2013 to 7/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 162,
+      "date_added": "2026-08-21 15:22:27 UTC",
+      "date_updated": "2026-08-21 10:27:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 332,
+      "date_added": "2026-08-13 12:42:56 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 332,
+      "date_added": "2026-08-13 12:42:56 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "balfour-beatty-us",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Balfour Beatty US",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Balfour Beatty US",
+      "start": "12/2018",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Balfour Beatty US",
+      "start": "1/2018",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Balfour Beatty US",
+      "start": "1/2017",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Balfour Beatty US",
+      "start": "7/2013",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Intern PM",
+      "company": "Balfour Beatty US",
+      "start": "3/2013",
+      "end": "7/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Diego",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

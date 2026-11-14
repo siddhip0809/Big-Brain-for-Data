@@ -1,0 +1,630 @@
+{
+ "companies": [
+  {
+   "name": "AVK",
+   "aliases": [
+    "AVK|SEG",
+    "AVK-SEG",
+    "AVK SEG",
+    "AVK Power Solutions"
+   ],
+   "roles": [
+    "energy_developer",
+    "general_contractor"
+   ],
+   "parent_industry": "energy_utilities",
+   "industry_role": "Data-centre power supplier: standby generators (Rolls-Royce mtu), modular electrical PowerPods, on-site microgrids and behind-the-meter energy-as-a-service",
+   "headquarters": "Maidenhead, United Kingdom",
+   "website": null,
+   "description": "UK and European supplier of power systems for data centres; Partners Group took a majority stake in August 2026 with an initial investment of more than USD 1bn to build an energy-as-a-service platform around a pipeline of more than 2 GW of behind-the-meter opportunities. Built a 110 MW on-site microgrid for Pure DC's Dublin campus (announced March 2026).",
+   "sources": [
+    "https://datacentrereview.com/2026/08/partners-group-takes-majority-stake-in-avk-with-1-billion-investment/",
+    "https://www.pehub.com/partners-group-to-acquire-majority-stake-in-avk-power/",
+    "https://insidedatacentre.buzzsprout.com/1223072/episodes/15920804-ben-pritchard-ceo-avk-seg-powering-tomorrow-s-data",
+    "https://www.datacenterdynamics.com/en/news/avk-launches-modular-power-system-for-data-center-market/",
+    "https://www.datacenterdynamics.com/en/news/avk-launches-dedicated-funding-arm-to-own-and-operate-onsite-power-solutions-for-data-center-customers/",
+    "https://datacentremagazine.com/news/avk-rolls-royce-deliver-1-3gw-of-hvo-power-to-data-centres"
+   ],
+   "notes": "Ward client (AVK|SEG in Clockwork: VP Delivery and Operations Director UK & Europe searches). Sits between energy and data centres: designs, installs and maintains data-centre power - standby generation, modular electrical PowerPods (Ward's team calls them ePods), and on-site prime power sold as energy-as-a-service."
+  },
+  {
+   "name": "Anord Mardix",
+   "aliases": [
+    "Anord Mardix, a Flex company"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Critical-power equipment maker: switchgear, busway, power distribution, modular power systems and monitoring for data centres",
+   "headquarters": null,
+   "website": "https://anordmardix.com",
+   "description": "Critical power supplier that sells primarily to data-centre operators; acquired by Flex for USD 540m in cash from Bertram Capital (agreed October 2021, closed December 2021) and reported inside Flex's Reliability Solutions segment.",
+   "sources": [
+    "https://www.irishtimes.com/business/technology/dundalk-based-anord-mardix-acquired-in-540m-deal-1.4704685",
+    "https://www.streetinsider.com/Corporate+News/Flex+Ltd.+%28FLEX%29+to+Acquire+Anord+Mardix+for+%24540M+Cash/19070437.html",
+    "https://www.datacenterdynamics.com/en/marketwatch/anord-mardix-a-flex-company/"
+   ],
+   "notes": "Headquarters left null: sources disagree (Irish Times says Dundalk, Co Louth; a Benzinga-sourced report says Kendal, UK). Role 'general_contractor' is the nearest allowed role for an electrical equipment supplier."
+  },
+  {
+   "name": "Flex",
+   "aliases": [
+    "Flex Ltd",
+    "Flex Ltd."
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "diversified_conglomerate",
+   "industry_role": "Global contract manufacturer; owns Anord Mardix (critical power) inside its Reliability Solutions segment",
+   "headquarters": null,
+   "website": null,
+   "description": "Parent of Anord Mardix since December 2021; added only as the counterparty for the acquisition edge, since it is not yet in the brain.",
+   "sources": [
+    "https://www.streetinsider.com/Corporate+News/Flex+Ltd.+%28FLEX%29+to+Acquire+Anord+Mardix+for+%24540M+Cash/19070437.html"
+   ],
+   "notes": "Optional record: needed only if the Flex -> Anord Mardix edge is imported."
+  },
+  {
+   "name": "Laing O'Rourke",
+   "aliases": [
+    "Laing O'Rourke plc",
+    "Laing ORourke"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "International engineering and construction contractor; design-and-build main contractor for data centres",
+   "headquarters": "Dartford, United Kingdom",
+   "website": "https://www.laingorourke.com",
+   "description": "Main contractor on several Khazna Data Centres builds in Dubai and Abu Dhabi (including a 21.45 MW Dubai facility in 2022 and Pods 4-6) and on Pure Data Centres' Abu Dhabi campus, whose first data hall was handed over in February 2025.",
+   "sources": [
+    "https://laingorourke.com/company/news/2022/laing-o-rourke-wins-khazna-data-centre-project-in-the-heart-of-dubai-design-district",
+    "https://www.worldconstructionnetwork.com/news/newskhazna-data-centres-appoints-laing-orourke-for-expansion-project-in-dubai-abu-dhabi-5940329",
+    "https://www.laingorourke.com/company/news/2025/laing-o-rourke-achieves-major-milestone-for-pure-data-centres-in-abu-dhabi/",
+    "https://en.wikipedia.org/wiki/Laing_O%27Rourke"
+   ]
+  },
+  {
+   "name": "Skanska UK",
+   "aliases": [
+    "Skanska UK plc"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "UK arm of Swedish contractor Skanska; data-centre construction and fit-out, with an in-house MEP engineering business",
+   "headquarters": null,
+   "website": null,
+   "description": "Built VIRTUS's LONDON11 data centre (about GBP 53m, 2021) and delivered a GBP 158m fit-out and construction contract at Telehouse South in London Docklands (2023), its MEP arm handling mechanical and electrical works.",
+   "sources": [
+    "https://www.skanska.com/group/en/media/press-releases/2021/skanska-builds-data-center-in-london-uk-for-gbp-53m-about-sek-620m",
+    "https://www.skanska.com/group/en/media/press-releases/2023/skanska-delivers-fit-out-and-construction-work-for-data-centre-in-london-uk-for-gbp-158m-about-sek-2.1-billion"
+   ],
+   "notes": "Brain has 'Skanska USA' (alias 'Skanska'). Decide whether Skanska UK is a separate record or the alias moves to a group record."
+  },
+  {
+   "name": "Mercury Engineering",
+   "aliases": [
+    "Mercury",
+    "Mercury Engineering Ltd"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Irish MEP and prime contractor with dedicated Hyperscale and Enterprise data-centre divisions",
+   "headquarters": "Dublin, Ireland",
+   "website": "https://www.mercuryeng.com",
+   "description": "Dublin contractor, founded in 1972 as an electrical contractor, for which data centres are reported as about two-thirds of revenue; named construction partner to Global Technical Realty in 2020 and prime contractor on GTR's 40.5 MW GB One campus near London.",
+   "sources": [
+    "https://www.thinkbusiness.ie/articles/mercury-engineering-covid19-remote-working/",
+    "https://www.mercuryeng.com/project/cln-1-2-3-hyper-scale-data-centre/",
+    "https://www.mercuryeng.com/2020/05/28/mercury-construction-partner-global-technical-realty-gtr/",
+    "https://www.mercuryeng.com/2023/02/09/mercury-committed-to-delivering-gtrs-vision-on-40-5mw-gb-one-data-centre-near-london-uk/"
+   ],
+   "notes": "A 'EUR 2.2bn' GTR programme figure appears in one article but could not be confirmed; not used."
+  },
+  {
+   "name": "Jones Engineering",
+   "aliases": [
+    "Jones Engineering Group"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Irish mechanical, electrical and fire-protection contractor; occasional general contractor on data centres",
+   "headquarters": "Dublin, Ireland",
+   "website": null,
+   "description": "MEP contractor with a large Nordic data-centre track record (Gavle and Lulea in Sweden, Odense in Denmark; over 200 MW of IT power within four years) and the MEP and fire-protection contractor alongside Flynn on Telehouse's GBP 275m West Two data centre in London Docklands (October 2025).",
+   "sources": [
+    "https://www.enterprise-ireland.com/en/insights-webinars/-from-emerald-isle-to-arctic-excellence-jones-engineering-s-remarkable-journey-in-the-construction-of-data-centres-in-the-nordics",
+    "https://bdaily.co.uk/articles/2025/10/21/data-centre-firm-begins-275-million-expansion",
+    "https://www.irishtimes.com/business/2022/06/03/jones-engineering-acquired-in-deal-worth-hundreds-of-millions/"
+   ],
+   "notes": "HQ Dublin 4 per CB Insights / LinkedIn; DataCenterMap lists London. The 2022 Irish Times headline reports an acquisition of Jones Engineering; the acquirer was not visible in the result, so no edge was drafted."
+  },
+  {
+   "name": "Dornan Engineering",
+   "aliases": [
+    "Dornan",
+    "Dornan Group",
+    "Dornan Engineering Group"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Cork-based mechanical, electrical and HVAC contractor focused on data centres and life sciences",
+   "headquarters": "Cork, Ireland",
+   "website": null,
+   "description": "M&E contractor whose primary focus is data centres, life sciences and commercial work; reported as general contractor on a roughly EUR 48m Irish data centre (civil, structural, architectural, mechanical and electrical scope).",
+   "sources": [
+    "https://chamber.corkchamber.ie/list/member/dornan-engineering-limited-little-island-24667",
+    "https://constructiondigital.com/news/dornans-irish-data-centre-project",
+    "https://constructionnews.ie/interview-micheal-oconnor-dornan-group-2026/"
+   ],
+   "notes": "Address is Little Island, Co. Cork. The client and site of the EUR 48m data centre were not visible in the results."
+  },
+  {
+   "name": "Kirby Group Engineering",
+   "aliases": [
+    "Kirby Group",
+    "Kirby"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Mechanical and electrical contractor with specialist HV/MV design and construction; data centres are its main growth market",
+   "headquarters": "Limerick, Ireland",
+   "website": "https://www.kirbygroup.com",
+   "description": "Founded in Limerick in 1964 and operating in Ireland, the UK and mainland Europe; said in 2021 that most of its growth would come from new data-centre projects after delivering several hyperscale data centres in 2020.",
+   "sources": [
+    "https://www.kirbygroup.com/about-us/history/",
+    "https://constructionnews.ie/kirby-group-engineering-announces-300-new-jobs/",
+    "https://www.engineersireland.ie/Engineers-Journal/News/kirby-group-engineering-announces-creation-of-300-jobs"
+   ]
+  },
+  {
+   "name": "MSL Engineering",
+   "aliases": [
+    "MSL",
+    "MSL Engineering Ltd"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Cork modular fabricator and installer of process, utility and high-purity pipework, pipe racks and steelwork",
+   "headquarters": "Cork, Ireland",
+   "website": null,
+   "description": "Mainly a semiconductor supplier (modular pipe racks for Leixlip and a US project) that in March 2026 said it was trying to break into the data-centre market, having done a couple of smaller data-hall scopes in Ireland and mainland Europe.",
+   "sources": [
+    "https://directory.enterprise-ireland.com/vendor/offsite-construction/msl-engineering-ltd",
+    "https://magazine.ccemagazine.com/construction-civil-engineering-issue-226-march-2026/0933955001774883278/p58"
+   ],
+   "notes": "Identity is an inference: 'MSL' in Ward's email is assumed to be MSL Engineering (Ringaskiddy, Co. Cork). Confirm before import. Data-centre footprint is small."
+  },
+  {
+   "name": "CTS Nordics",
+   "aliases": [
+    "CTS"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Design-and-build contractor specialising only in data centres, across four Nordic countries",
+   "headquarters": "Oslo, Norway",
+   "website": null,
+   "description": "Describes itself as one of the largest data-centre design-and-build contractors in the Nordics, with over 1,400 employees; former parent of NordicEPOD and a co-investor in it with Eaton (2024).",
+   "sources": [
+    "https://www.businesswire.com/news/home/20240531679365/en/Eaton-Expands-Reach-into-European-Data-Center-Market-by-Making-Strategic-Investment-in-NordicEPOD",
+    "https://www.datacenter-forum.com/cts-nordics/new-nordicepod-factory-opens-in-norway",
+    "https://datacenterdynamics.com/en/product-news/new-nordicepod-factory-opens-to-boost-production-of-power-modules-for-speedier-data-center-construction"
+   ]
+  },
+  {
+   "name": "NordicEPOD",
+   "aliases": [
+    "Nordic ePod",
+    "NordicEPOD AS",
+    "Nordic EPOD"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Manufacturer of standardised prefabricated data-centre power modules (EPODs: UPS, switchgear, distribution, cooling and controls, up to 2 MW each)",
+   "headquarters": null,
+   "website": null,
+   "description": "Former CTS Nordics subsidiary that received a strategic investment from Eaton and CTS Nordics in 2024 and opened a 12,000 m2 factory near Oslo (Hanekleiva) to make up to 350 EPODs a year.",
+   "sources": [
+    "https://www.businesswire.com/news/home/20240531679365/en/Eaton-Expands-Reach-into-European-Data-Center-Market-by-Making-Strategic-Investment-in-NordicEPOD",
+    "https://www.intelligentcio.com/eu/2024/10/07/new-nordicepod-factory-opens-to-boost-production-of-power-modules-for-faster-construction-of-data-centres/",
+    "https://datacentrereview.com/2024/10/eaton-cts-nordics-open-nordicepod-factory/"
+   ],
+   "notes": "Factory is in Hanekleiva, Norway (near Oslo); company HQ city not stated, so left null. Role 'general_contractor' is the nearest allowed role for a modular power equipment maker."
+  },
+  {
+   "name": "Kier Group",
+   "aliases": [
+    "Kier",
+    "Kier Group plc"
+   ],
+   "roles": [
+    "general_contractor",
+    "civil_land_engineering"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "UK construction, infrastructure services and property group",
+   "headquarters": null,
+   "website": "https://www.kier.co.uk",
+   "description": "Large UK contractor with limited visible data-centre work: main contractor on phase two of Gloucester's GBP 107m 'The Forum' digital campus, and its property arm sold a data-centre site at its Maidenhead scheme to iomart (c. 2019).",
+   "sources": [
+    "https://www.businessmag.co.uk/maidenhead-kier-sells-data-centre-to-tech-group-iomart/",
+    "https://www.worldconstructionnetwork.com/?p=53529"
+   ],
+   "notes": "No data-centre construction contract found in open results. HQ left null: historic base Tempsford Hall, Sandy, but reports say it has been sold."
+  },
+  {
+   "name": "Bovis",
+   "aliases": [
+    "Bovis Construction",
+    "Bovis Construction (Europe) Limited",
+    "Lendlease Construction (Europe) Limited"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "UK main contractor; the former Lendlease UK construction business, owned by Atlas Holdings since March 2025",
+   "headquarters": null,
+   "website": "https://www.bovis.com",
+   "description": "Revived Bovis brand after US private-equity firm Atlas Holdings bought Lendlease's UK construction arm (completed 31 March 2025, about GBP 35m). No UK data-centre contract found in open sources.",
+   "sources": [
+    "https://www.bovis.com/news-and-insights/bovis-returns-to-uk-construction/",
+    "https://constructionenquirer.com/2025/04/01/lendlease-construction-renamed-bovis",
+    "https://en.wikipedia.org/wiki/Bovis_(company)"
+   ],
+   "notes": "Brain already has 'Lendlease' (real_estate_developer). Bovis is the separated UK construction business."
+  },
+  {
+   "name": "Winvic Construction",
+   "aliases": [
+    "Winvic",
+    "Winvic Group"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "UK main contractor (industrial and logistics, civils) that launched a data-centre division in early 2026",
+   "headquarters": "Northampton, United Kingdom",
+   "website": "https://www.winvic.co.uk",
+   "description": "Logistics-shed specialist that made data centres its fourth core sector in 2026 and is tendering for data-centre work; no awarded data-centre contract found.",
+   "sources": [
+    "https://www.intelligentcio.com/eu/2026/03/16/winvic-construction-enters-data-centre-market-building-on-core-capabilities/",
+    "https://constructionmanagement.co.uk/shed-specialist-winvic-is-getting-into-data-centres-we-asked-how",
+    "https://find-and-update.company-information.service.gov.uk/company/04135363"
+   ],
+   "notes": "Trade press names Blackstone/QTS's Blyth campus as a target; Winvic is NOT confirmed as contractor there, so no edge drafted."
+  },
+  {
+   "name": "ISS",
+   "aliases": [
+    "ISS A/S",
+    "ISS World Services",
+    "ISS Facility Services"
+   ],
+   "roles": [
+    "general_contractor"
+   ],
+   "parent_industry": "diversified_conglomerate",
+   "industry_role": "Integrated facility services group; operates and maintains technical infrastructure (power, cooling, UPS, fire) in data centres",
+   "headquarters": "Copenhagen, Denmark",
+   "website": "https://www.issworld.com",
+   "description": "Danish facility services group whose Swiss business runs the technical infrastructure of more than 35 data centres; it also has a UK Global Technical Services data-centre key-accounts function.",
+   "sources": [
+    "https://www.ch.issworld.com/en-ch/industries/datacenter",
+    "https://www.ch.issworld.com/en-ch/news/stories/without-data-centers-switzerland-would-come-to-a-standstill",
+    "https://en.wikipedia.org/wiki/ISS_A/S"
+   ],
+   "notes": "No allowed role fits facility management; 'general_contractor' is an approximation, so review it. Head office is in Soborg, Greater Copenhagen."
+  },
+  {
+   "name": "RPS",
+   "aliases": [
+    "RPS Group",
+    "RPS, a Tetra Tech company"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Planning, environmental, architecture and engineering consultancy; part of Tetra Tech since January 2023",
+   "headquarters": null,
+   "website": null,
+   "description": "UK consultancy acquired by Tetra Tech for about GBP 636m (completed 24 January 2023); its UK planning and architecture teams handle data-centre applications and delivery.",
+   "sources": [
+    "https://canadianconsultingengineer.com/tetra-tech-to-acquire-rps-group",
+    "https://www.tetratecheurope.com/wp-content/uploads/2024/05/Tetra-Tech-Completes-RPS-Acquisition24-Jan-2023.pdf",
+    "https://www.itjobswatch.co.uk/jv/RPS/Technical-Director-Data-Centre-Architecture-London-Job-London-UK-4sh525"
+   ],
+   "notes": "Data-centre evidence is job adverts only; no named data-centre project or client found."
+  },
+  {
+   "name": "Life Cycle Power",
+   "aliases": [
+    "Lifecycle Power",
+    "LCP"
+   ],
+   "roles": [
+    "energy_developer"
+   ],
+   "parent_industry": "energy_utilities",
+   "industry_role": "US provider of mobile natural-gas turbine power (primary, backup and bridging power) for data centres and industry",
+   "headquarters": null,
+   "website": null,
+   "description": "Mobile gas-turbine power provider (fleet reported at about 897 MW to over 1 GW) expanding into data-centre prime and bridging power; Partners Group agreed to acquire it from Arroyo Investors in October 2025.",
+   "sources": [
+    "https://realassets.ipe.com/news/partners-group-to-buy-us-mobile-power-provider-life-cycle-power/10133193.article",
+    "https://www.cliffordchance.com/news/news/2025/10/clifford-chance-advises-partners-group-on-acquisition-of-life-cy.html",
+    "https://www.datacenterdynamics.com/en/product-news/life-cycle-power-expands-into-data-center-market-with-flexible-mobile-gas-turbine-solutions/"
+   ],
+   "notes": "HQ left null: sources disagree (Houston, Centerville, Midland, Jersey Village, all Texas)."
+  },
+  {
+   "name": "Wood",
+   "aliases": [
+    "Wood plc",
+    "John Wood Group",
+    "Wood Group"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "Engineering and consulting group (projects, operations, consulting), mainly energy and materials; owned by Sidara since March 2026",
+   "headquarters": "Aberdeen, United Kingdom",
+   "website": null,
+   "description": "Aberdeen engineering consultancy acquired by Dubai-based Sidara at 30p per share (court sanction 6 March 2026). No data-centre-specific work was found in open sources.",
+   "sources": [
+    "https://www.agcc.co.uk/news-article/sidara-completes-takeover-of-wood-and-sets-out-ambitions-for-aberdeen-firm",
+    "https://www.ticker.app/lse/WG./rns/2026-03-06/COURT-SANCTION-OF-SCHEME-OF-ARRANGEMENT/7306V"
+   ],
+   "notes": "Data-centre relevance is unsourced. Import with confidence low, or hold until Ward's email context explains the link. Do not confuse with Wood Mackenzie, which is already in the brain."
+  },
+  {
+   "name": "Goldacre",
+   "aliases": [
+    "Goldacre Noe Group",
+    "Goldacre (Noe Group)"
+   ],
+   "roles": [
+    "real_estate_developer"
+   ],
+   "parent_industry": "real_estate",
+   "industry_role": "London-based digital-infrastructure investor; the venture arm of the Noe Group family office",
+   "headquarters": "London, United Kingdom",
+   "website": "https://noegroup.co.uk",
+   "description": "Founding investor in Kao Data (Harlow), where it held 15% after the Infratil / L&G deal. Development and funding partner with Legal & General and sineQN on a GBP 750m hyperscale data centre in Newham, London, which has planning consent. Also formed a JV with Levinstein for a 16 MW data centre in Israel.",
+   "sources": [
+    "https://group.legalandgeneral.com/en/newsroom/press-releases/planning-consent-secured-by-l-g-goldacre-and-sineqn-for-750m-hyperscale-data-centre-investment-in-newham-london",
+    "https://kaodata.com/news/kao-data-welcomes-infratil-limited",
+    "https://noegroup.co.uk/people/david-bloom",
+    "https://capacitymedia.com/article/2azfu1m5mkz0g1bvagqgw/news/kao-data-investor-goldacre-to-build-16mw-tel-aviv-data-centre"
+   ],
+   "notes": "Ward client (Clockwork search 'Development Director'). Investor and development partner: founding investor in Kao Data; with Legal & General, development and funding partner for sineQN's hyperscale campus in Newham."
+  }
+ ],
+ "edges": [
+  {
+   "from": "Partners Group",
+   "to": "AVK",
+   "type": "invested_in",
+   "detail": "Majority stake via initial investment of more than USD 1bn (equity plus debt) from its fourth direct infrastructure programme; management keeps a minority stake. Announced 6 August 2026.",
+   "status": "announced",
+   "confidence": "high",
+   "sources": [
+    "https://datacentrereview.com/2026/08/partners-group-takes-majority-stake-in-avk-with-1-billion-investment/",
+    "https://www.pehub.com/partners-group-to-acquire-majority-stake-in-avk-power/",
+    "https://www.arrowpointadvisory.com/our-transactions/avk-power-solutions-sells-majority-stake-to-partners-group/"
+   ]
+  },
+  {
+   "from": "AVK",
+   "to": "Pure Data Centers",
+   "type": "supplies_power_to",
+   "detail": "110 MW on-site microgrid (three energy centres of up to 30 MW plus BESS) at Pure DC's Dublin campus; EC1 and EC2 due fully operational by end-2026. Announced March 2026.",
+   "status": "under way",
+   "confidence": "high",
+   "sources": [
+    "https://w.media/pure-dc-launches-large-scale-on-site-data-center-microgrid-in-dublin/",
+    "https://www.modernpowersystems.com/news/europes-first-110-mw-data-centre-microgrid-launches-in-dublin/",
+    "https://gasprocessingnews.com/news/2026/03/pure-dc-and-avk-deploy-europes-first-data-center-microgrid/"
+   ]
+  },
+  {
+   "from": "Flex",
+   "to": "Anord Mardix",
+   "type": "acquired",
+   "detail": "USD 540m cash from Bertram Capital; agreed October 2021, closed 1 December 2021.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.irishtimes.com/business/technology/dundalk-based-anord-mardix-acquired-in-540m-deal-1.4704685",
+    "https://www.streetinsider.com/Corporate+News/Flex+Ltd.+%28FLEX%29+to+Acquire+Anord+Mardix+for+%24540M+Cash/19070437.html"
+   ]
+  },
+  {
+   "from": "Partners Group",
+   "to": "Life Cycle Power",
+   "type": "acquired",
+   "detail": "Agreed to acquire from an Arroyo Investors partnership, price undisclosed (October 2025), to grow it into a mobile power provider for US data-centre and industrial customers.",
+   "status": "announced",
+   "confidence": "high",
+   "sources": [
+    "https://realassets.ipe.com/news/partners-group-to-buy-us-mobile-power-provider-life-cycle-power/10133193.article",
+    "https://www.cliffordchance.com/news/news/2025/10/clifford-chance-advises-partners-group-on-acquisition-of-life-cy.html"
+   ]
+  },
+  {
+   "from": "Laing O'Rourke",
+   "to": "Khazna Data Centers",
+   "type": "contractor_for",
+   "detail": "Design-and-build main contractor: 21.45 MW Dubai data centre (Nov 2022, its fifth Khazna data centre) and later Pods 4, 5 and 6 in Dubai and Abu Dhabi.",
+   "status": "ongoing",
+   "confidence": "high",
+   "sources": [
+    "https://laingorourke.com/company/news/2022/laing-o-rourke-wins-khazna-data-centre-project-in-the-heart-of-dubai-design-district",
+    "https://www.worldconstructionnetwork.com/news/newskhazna-data-centres-appoints-laing-orourke-for-expansion-project-in-dubai-abu-dhabi-5940329"
+   ]
+  },
+  {
+   "from": "Laing O'Rourke",
+   "to": "Pure Data Centers",
+   "type": "contractor_for",
+   "detail": "Contractor on Pure DC's Yas Island campus in Abu Dhabi; first data hall handed over 27 February 2025.",
+   "status": "under way",
+   "confidence": "high",
+   "sources": [
+    "https://www.laingorourke.com/company/news/2025/laing-o-rourke-achieves-major-milestone-for-pure-data-centres-in-abu-dhabi/",
+    "https://puredc.com/2025/03/14/laing-orourke-achieves-major-milestone-for-pure-data-centres-in-abu-dhabi"
+   ]
+  },
+  {
+   "from": "Skanska UK",
+   "to": "Virtus Data Centers",
+   "type": "contractor_for",
+   "detail": "Design and build of VIRTUS LONDON11, about GBP 53m (2021).",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.skanska.com/group/en/media/press-releases/2021/skanska-builds-data-center-in-london-uk-for-gbp-53m-about-sek-620m"
+   ]
+  },
+  {
+   "from": "Skanska UK",
+   "to": "Telehouse",
+   "type": "contractor_for",
+   "detail": "GBP 158m fit-out and construction at Telehouse South, London Docklands (2023); main works expected to finish by June 2024.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.skanska.com/group/en/media/press-releases/2023/skanska-delivers-fit-out-and-construction-work-for-data-centre-in-london-uk-for-gbp-158m-about-sek-2.1-billion"
+   ]
+  },
+  {
+   "from": "Jones Engineering",
+   "to": "Telehouse",
+   "type": "contractor_for",
+   "detail": "Mechanical, electrical and fire-protection contractor alongside lead contractor Flynn on Telehouse West Two, a GBP 275m Docklands data centre due 2028 (Oct 2025).",
+   "status": "under way",
+   "confidence": "high",
+   "sources": [
+    "https://bdaily.co.uk/articles/2025/10/21/data-centre-firm-begins-275-million-expansion"
+   ]
+  },
+  {
+   "from": "Mercury Engineering",
+   "to": "Global Technical Realty",
+   "type": "contractor_for",
+   "detail": "Named GTR's construction partner in 2020; prime contractor on the 40.5 MW GB One campus near London.",
+   "status": "ongoing",
+   "confidence": "high",
+   "sources": [
+    "https://www.mercuryeng.com/2020/05/28/mercury-construction-partner-global-technical-realty-gtr/",
+    "https://www.mercuryeng.com/2023/02/09/mercury-committed-to-delivering-gtrs-vision-on-40-5mw-gb-one-data-centre-near-london-uk/"
+   ]
+  },
+  {
+   "from": "CTS Nordics",
+   "to": "NordicEPOD",
+   "type": "invested_in",
+   "detail": "Former parent; co-investor with Eaton in NordicEPOD's 2024 strategic investment.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.businesswire.com/news/home/20240531679365/en/Eaton-Expands-Reach-into-European-Data-Center-Market-by-Making-Strategic-Investment-in-NordicEPOD",
+    "https://m.digitalisationworld.com/news/67782/nordicepod-secures-investment-from-eaton-and-cts-nordics"
+   ]
+  },
+  {
+   "from": "Eaton",
+   "to": "NordicEPOD",
+   "type": "invested_in",
+   "detail": "Strategic commercial investment, May 2024; jointly opened the Hanekleiva factory in October 2024.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.businesswire.com/news/home/20240531679365/en/Eaton-Expands-Reach-into-European-Data-Center-Market-by-Making-Strategic-Investment-in-NordicEPOD",
+    "https://datacentrereview.com/2024/10/eaton-cts-nordics-open-nordicepod-factory/"
+   ]
+  },
+  {
+   "from": "Tetra Tech",
+   "to": "RPS",
+   "type": "acquired",
+   "detail": "About GBP 636m (222p per share), completed 24 January 2023.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://canadianconsultingengineer.com/tetra-tech-to-acquire-rps-group",
+    "https://www.tetratecheurope.com/wp-content/uploads/2024/05/Tetra-Tech-Completes-RPS-Acquisition24-Jan-2023.pdf"
+   ]
+  },
+  {
+   "from": "Sidara",
+   "to": "Wood",
+   "type": "acquired",
+   "detail": "Cash acquisition at 30p per share by scheme of arrangement; court sanction 6 March 2026.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.ticker.app/lse/WG./rns/2026-03-06/COURT-SANCTION-OF-SCHEME-OF-ARRANGEMENT/7306V",
+    "https://www.agcc.co.uk/news-article/sidara-completes-takeover-of-wood-and-sets-out-ambitions-for-aberdeen-firm"
+   ]
+  },
+  {
+   "from": "Atlas Holdings",
+   "to": "Bovis",
+   "type": "acquired",
+   "detail": "Bought Lendlease's UK construction business for about GBP 35m; completed 31 March 2025 and renamed Bovis.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.bovis.com/news-and-insights/bovis-returns-to-uk-construction/",
+    "https://constructionenquirer.com/2025/04/01/lendlease-construction-renamed-bovis"
+   ]
+  },
+  {
+   "from": "Goldacre",
+   "to": "Kao Data",
+   "type": "invested_in",
+   "detail": "Founding investor; 15% after Infratil took 53% and L&G Capital 32%.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://kaodata.com/news/kao-data-welcomes-infratil-limited",
+    "https://datacentremagazine.com/data-centres/david-bloom-appointed-as-new-kao-data-chairman-for-growth"
+   ]
+  },
+  {
+   "from": "Goldacre",
+   "to": "sineQN",
+   "type": "jv_partner",
+   "detail": "With Legal & General: development and funding partners for sineQN's GBP 750m hyperscale data centre in Newham, London, which has planning consent.",
+   "status": "announced",
+   "confidence": "high",
+   "sources": [
+    "https://group.legalandgeneral.com/en/newsroom/press-releases/planning-consent-secured-by-l-g-goldacre-and-sineqn-for-750m-hyperscale-data-centre-investment-in-newham-london"
+   ]
+  }
+ ]
+}

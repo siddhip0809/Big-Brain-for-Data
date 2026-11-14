@@ -1,0 +1,158 @@
+{
+  "id": "michael-singleton-f4a5d24a",
+  "type": "person",
+  "name": "Michael Singleton",
+  "current_title": "Global Account Director",
+  "current_company": "CyrusOne",
+  "location": "London,  England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/michael-singleton-a7578910a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Global Account Director at CyrusOne, 6/2023 to present; Director - EMEA Data Centres at JLL, 11/2021 to 5/2023; Site Acquisition Manager - Cloud Operations & Innovation (Secondment) at Microsoft, 3/2021 to 12/2021; Associate - EMEA Data Centres at JLL, 10/2020 to 11/2021; Senior Surveyor - Corporate Solutions at JLL, 11/2018 to 10/2020; Surveyor - Valuation Advisory at JLL, 5/2018 to 10/2018; Graduate Surveyor at JLL, 9/2015 to 4/2018; Operations Assistant at Alpine Infusion, 12/2014 to 4/2015; Intern at JLL, 9/2014 to 10/2014; Intern at Rural Solutions, 9/2013 to 9/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Withdrew",
+      "rank": 28,
+      "date_added": "2026-08-12 07:58:44 UTC",
+      "date_updated": "2026-08-12 04:14:37 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 58,
+      "date_added": "2026-07-08 17:34:09 UTC",
+      "date_updated": "2026-08-12 02:58:44 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 76,
+      "date_added": "2025-11-12 11:48:46 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "cyrusone",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Global Account Director",
+      "company": "CyrusOne",
+      "start": "6/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director - EMEA Data Centres",
+      "company": "JLL",
+      "start": "11/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Site Acquisition Manager - Cloud Operations & Innovation (Secondment)",
+      "company": "Microsoft",
+      "start": "3/2021",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Associate - EMEA Data Centres",
+      "company": "JLL",
+      "start": "10/2020",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor - Corporate Solutions",
+      "company": "JLL",
+      "start": "11/2018",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Surveyor - Valuation Advisory",
+      "company": "JLL",
+      "start": "5/2018",
+      "end": "10/2018",
+      "current": false
+    },
+    {
+      "title": "Graduate Surveyor",
+      "company": "JLL",
+      "start": "9/2015",
+      "end": "4/2018",
+      "current": false
+    },
+    {
+      "title": "Operations Assistant",
+      "company": "Alpine Infusion",
+      "start": "12/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "JLL",
+      "start": "9/2014",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Intern",
+      "company": "Rural Solutions",
+      "start": "9/2013",
+      "end": "9/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Master's degree, Real Estate Management, University of the West of England, 2015 to 2017",
+    "Bachelor’s Degree, Geography, Prifysgol Aberystwyth University, 2011 to 2014",
+    "Bachelor’s Degree, Geography, Aberystwyth University, 2011 to 2014",
+    "A Levels, Stonyhurst College, 2006 to 2011"
+  ],
+  "biography": "Chartered Surveyor with a background in strategic occupier advisory, transaction management, and the delivery of data centre focused real estate internationally.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "rating": 3.0,
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

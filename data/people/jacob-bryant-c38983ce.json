@@ -1,0 +1,129 @@
+{
+  "id": "jacob-bryant-c38983ce",
+  "type": "person",
+  "name": "Jacob Bryant",
+  "current_title": "Vice President of Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/jacob-bryant-32b83229",
+  "location": "Baltimore, Washington D.C",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President of Development at QTS Data Centers, 3/2025 to present; Senior Director of Development at QTS Data Centers, 12/2021 to 3/2025; Senior Director of Development at QTS Data Centers, 12/2021 to present; HITT Contracting, 12/2016 to 12/2021; Project Manager at HITT Contracting, 12/2016 to 12/2021; Assistant Project Manager - Base Building at HITT Contracting, 11/2014 to 12/2016; HITT Contracting, 11/2014 to 12/2016; Project Engineer at Turner Construction, 6/2010 to 11/2014; Turner Construction, 6/2010 to 11/2014; Branch Manager at Wells Fargo, 2/2009 to 6/2010; Wells Fargo, 2/2009 to 6/2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 155,
+      "date_added": "2026-07-07 10:31:00 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Development",
+      "company": "QTS Data Centers",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director of Development",
+      "company": "QTS Data Centers",
+      "start": "12/2021",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Development",
+      "company": "QTS Data Centers",
+      "start": "12/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "HITT Contracting",
+      "start": "12/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "12/2016",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager - Base Building",
+      "company": "HITT Contracting",
+      "start": "11/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "company": "HITT Contracting",
+      "start": "11/2014",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "6/2010",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "company": "Turner Construction",
+      "start": "6/2010",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Branch Manager",
+      "company": "Wells Fargo",
+      "start": "2/2009",
+      "end": "6/2010",
+      "current": false
+    },
+    {
+      "company": "Wells Fargo",
+      "start": "2/2009",
+      "end": "6/2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "education": [
+    "Bachelor of Business Administration (B.B.A.), Business Administration and Management, General, The Citadel, 2004 to 2008",
+    "Edmond Santa Fe High School, 2001 to 2004"
+  ],
+  "biography": "--",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

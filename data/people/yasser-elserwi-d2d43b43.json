@@ -1,0 +1,79 @@
+{
+  "id": "yasser-elserwi-d2d43b43",
+  "type": "person",
+  "name": "Yasser Elserwi",
+  "current_title": "Construction Project Manager",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/yasser-elserwi-pe-519740291",
+  "location": "Gilbert, Arizona",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Construction Project Manager at Digital Realty, 11/2021 to present; Project Development Manager at Turner Construction, 1/2021 to 1/2022; Project Delivery Manager at Kitchell, 3/2017 to 6/2020; Project Manager at EHAF Consulting Engineers, 4/2014 to 11/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 130,
+      "date_added": "2026-07-06 13:47:25 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Construction Project Manager",
+      "company": "Digital Realty",
+      "start": "11/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Development Manager",
+      "company": "Turner Construction",
+      "start": "1/2021",
+      "end": "1/2022",
+      "current": false
+    },
+    {
+      "title": "Project Delivery Manager",
+      "company": "Kitchell",
+      "start": "3/2017",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "EHAF Consulting Engineers",
+      "start": "4/2014",
+      "end": "11/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Gilbert",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

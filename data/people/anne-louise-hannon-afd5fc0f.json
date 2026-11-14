@@ -1,0 +1,84 @@
+{
+  "id": "anne-louise-hannon-afd5fc0f",
+  "type": "person",
+  "name": "Anne-Louise Hannon",
+  "current_title": "Site Acquisition Manager",
+  "current_company": "Microsoft",
+  "location": "Dublin ,  County Dublin, Ireland",
+  "linkedin": "https://www.linkedin.com/in/anne-louise-hannon-a1909739b",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Site Acquisition Manager at Microsoft",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 100,
+      "date_added": "2026-08-26 09:20:38 UTC",
+      "date_updated": "2026-08-26 04:21:06 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 101,
+      "date_added": "2026-07-09 11:34:57 UTC",
+      "date_updated": "2026-08-26 04:20:38 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 363,
+      "date_added": "2026-04-21 15:51:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "microsoft",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site Acquisition Manager",
+      "company": "Microsoft",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dublin",
+    "region": "County Dublin",
+    "country": "Ireland",
+    "group": "Ireland"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

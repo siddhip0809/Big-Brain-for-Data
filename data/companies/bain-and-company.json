@@ -1,0 +1,26 @@
+{
+  "id": "bain-and-company",
+  "type": "company",
+  "name": "Bain & Company",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.bain.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Digital Infrastructure practice; Oct 2025 data center growth research with named co-leaders.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Digital Infrastructure practice; Oct 2025 data center growth research with named co-leaders. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.bain.com/about/media-center/press-releases/20252/next-phase-of-data-center-growth-to-be-more-disciplined-but-risks-of-power-constraints-and-construction-delays-remain-bain--co-research/",
+    "https://www.bain.com"
+  ],
+  "last_updated": "2026-09-16"
+}

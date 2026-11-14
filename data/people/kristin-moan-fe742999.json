@@ -1,0 +1,140 @@
+{
+  "id": "kristin-moan-fe742999",
+  "type": "person",
+  "name": "Kristin Moan",
+  "current_title": "Senior Project Preconstruction Manager",
+  "current_company": "Turner Construction",
+  "location": "Boston, Massachusetts",
+  "linkedin": "https://www.linkedin.com/in/kristin-moan-37385a55",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Project Preconstruction Manager at Turner Construction, 3/2026 to present; Estimator at Turner Construction, 2/2019 to 2/2026; Project Engineer at Turner Construction, 11/2013 to 1/2019; Business Development Engineer at Turner Construction, 9/2012 to 11/2013; SAP Adoption Lead at Turner Construction, 4/2011 to 11/2013; Senior Cost Engineer at Turner Construction, 8/2010 to 8/2012; Cost Engineer at Turner Construction, 10/2008 to 7/2010; Assistant Engineer/Superintendent at Turner Construction, 6/2007 to 9/2008; Co-op for Pile Driving Division at Boh Bros Construction Co, 5/2006 to 5/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 199,
+      "date_added": "2026-08-26 12:17:36 UTC",
+      "date_updated": "2026-08-26 08:15:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 467,
+      "date_added": "2026-08-24 13:56:47 UTC",
+      "date_updated": "2026-08-26 07:17:36 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 467,
+      "date_added": "2026-08-24 13:56:47 UTC",
+      "date_updated": "2026-08-26 07:17:36 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "turner-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Project Preconstruction Manager",
+      "company": "Turner Construction",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "Turner Construction",
+      "start": "2/2019",
+      "end": "2/2026",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Turner Construction",
+      "start": "11/2013",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Business Development Engineer",
+      "company": "Turner Construction",
+      "start": "9/2012",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "SAP Adoption Lead",
+      "company": "Turner Construction",
+      "start": "4/2011",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Cost Engineer",
+      "company": "Turner Construction",
+      "start": "8/2010",
+      "end": "8/2012",
+      "current": false
+    },
+    {
+      "title": "Cost Engineer",
+      "company": "Turner Construction",
+      "start": "10/2008",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "Assistant Engineer/Superintendent",
+      "company": "Turner Construction",
+      "start": "6/2007",
+      "end": "9/2008",
+      "current": false
+    },
+    {
+      "title": "Co-op for Pile Driving Division",
+      "company": "Boh Bros Construction Co",
+      "start": "5/2006",
+      "end": "5/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Boston",
+    "region": "Massachusetts",
+    "country": "United States",
+    "group": "Massachusetts"
+  },
+  "education": [
+    "Bachelor of Science (B.S.) Civil Engineering, Tulane University, 2003 to 2007"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

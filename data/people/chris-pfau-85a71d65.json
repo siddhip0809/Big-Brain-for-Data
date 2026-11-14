@@ -1,0 +1,92 @@
+{
+  "id": "chris-pfau-85a71d65",
+  "type": "person",
+  "name": "Chris Pfau",
+  "current_title": "Director, EMEA Commercial Sales",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/chris-pfau-451805101",
+  "location": "Alkmaar, North Holland, Netherlands",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director, EMEA Commercial Sales at Equinix, 2/2024 to present; Senior Manager, EMEA Mid-Market Sales at Equinix, 3/2023 to 2/2024; Manager, EMEA Mid-Market Sales at Equinix, 11/2020 to 2/2023; Account Executive at Equinix, 1/2018 to 11/2020; Sales Development Representative at Equinix, 12/2016 to 12/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 227,
+      "date_added": "2026-08-03 09:00:29 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, EMEA Commercial Sales",
+      "company": "Equinix",
+      "start": "2/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Manager, EMEA Mid-Market Sales",
+      "company": "Equinix",
+      "start": "3/2023",
+      "end": "2/2024",
+      "current": false
+    },
+    {
+      "title": "Manager, EMEA Mid-Market Sales",
+      "company": "Equinix",
+      "start": "11/2020",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Equinix",
+      "start": "1/2018",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Sales Development Representative",
+      "company": "Equinix",
+      "start": "12/2016",
+      "end": "12/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Alkmaar",
+    "region": "North Holland",
+    "country": "Netherlands",
+    "group": "Netherlands"
+  },
+  "education": [
+    "Bachelor of Business Administration (B.B.A.) Business Administration and Management General, Lincoln University (MO), 2009 to 2012",
+    "N/A General Studies, St. Louis Community College, 2008 to 2009"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

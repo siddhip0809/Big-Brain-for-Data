@@ -1,0 +1,31 @@
+{
+  "id": "e3f23f25-384d-4d3d-a05a-fdb9ad42a110",
+  "type": "search",
+  "name": "LATAM SPEC",
+  "client_company": "Ward",
+  "client_company_id": null,
+  "status": "pitch",
+  "project_type": "Speculative",
+  "started_at": "2025-07-02",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 0,
+    "active": 0,
+    "out": 0
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-09-10"
+  ],
+  "last_updated": "2026-09-10",
+  "pipeline_not_pulled": {
+    "clockwork_candidacy_total": 314,
+    "reason": "pipeline larger than this run's per-search cap - candidacies not yet imported"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "tory-hopkins-f206b191",
+  "type": "person",
+  "name": "Tory Hopkins",
+  "current_title": "Estimator",
+  "current_company": "DPR Construction",
+  "linkedin": "https://www.linkedin.com/in/tory-hopkins-58717951",
+  "location": "San Diego, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Estimator at DPR Construction, 2/2021 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 165,
+      "date_added": "2026-08-10 14:17:37 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 165,
+      "date_added": "2026-08-10 14:17:37 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator",
+      "company": "DPR Construction",
+      "start": "2/2021",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "San Diego",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "robert-sutcliffe-booth-19a6aea7",
+  "type": "person",
+  "name": "Robert Sutcliffe-Booth",
+  "current_title": "Site Acquisition and Leasing Manager",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/robert-sutcliffe-booth",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Site Acquisition and Leasing Manager at AWS, 6/2026 to present; Acquisition Associate - Data Centers Supply Strategy at AWS, 5/2024 to 5/2026; Lead Technical Project Manager at DEPT®, 7/2023 to 5/2024; Program Manager at Palantir Technologies, 1/2021 to 9/2022; Business Operations Manager at Palantir Technologies, 1/2020 to 1/2021; Revenue Operations Analyst at Google, 1/2018 to 1/2020",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Too Junior",
+      "rank": 259,
+      "date_added": "2026-08-07 11:19:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Site Acquisition and Leasing Manager",
+      "company": "AWS",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Acquisition Associate - Data Centers Supply Strategy",
+      "company": "AWS",
+      "start": "5/2024",
+      "end": "5/2026",
+      "current": false
+    },
+    {
+      "title": "Lead Technical Project Manager",
+      "company": "DEPT®",
+      "start": "7/2023",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Program Manager",
+      "company": "Palantir Technologies",
+      "start": "1/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Business Operations Manager",
+      "company": "Palantir Technologies",
+      "start": "1/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Revenue Operations Analyst",
+      "company": "Google",
+      "start": "1/2018",
+      "end": "1/2020",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Master’s Degree, MSc in Digital Marketing, University College Dublin, 2015 to 2016"
+  ],
+  "biography": "I am a highly organized individual with a good sense of humor (or so I like to think) and excellent interpersonal skills. I also enjoy working in a fast-paced environment where there is a need for creative thinking. I have a strong work ethic and I am passionate about achieving success and expressing myself creatively.",
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

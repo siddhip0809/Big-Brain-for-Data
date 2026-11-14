@@ -1,0 +1,94 @@
+{
+  "id": "thomas-bailey-c5c6f8d3",
+  "type": "person",
+  "name": "Thomas Bailey",
+  "current_title": "Vice President, Energy Flexential",
+  "current_company": "Flexential",
+  "linkedin": "https://www.linkedin.com/in/thomas-bailey-00b68749",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Energy Flexential at Flexential, 7/2025 to present; Assistant Vice President, Commercial & Industrial Solutions at Xcel Energy, 3/2024 to 7/2025; Senior Director, Corporate Economic Development at Xcel Energy, 1/2021 to present; Director, Economic Development at Vectren, 10/2014 to 2/2019; Director, Sales And Marketing at Vectren, 4/2010 to 10/2014",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 74,
+      "date_added": "2025-11-25 16:24:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "flexential",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Energy Flexential",
+      "company": "Flexential",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Vice President, Commercial & Industrial Solutions",
+      "company": "Xcel Energy",
+      "start": "3/2024",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Corporate Economic Development",
+      "company": "Xcel Energy",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Economic Development",
+      "company": "Vectren",
+      "start": "10/2014",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Director, Sales And Marketing",
+      "company": "Vectren",
+      "start": "4/2010",
+      "end": "10/2014",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor Of Arts, Bachelors, Wabash College, 1996 to 2000",
+    "Leadership, Mays Business School   Texas A&M University",
+    "Master Of Business Administration, Masters, Murray State University"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

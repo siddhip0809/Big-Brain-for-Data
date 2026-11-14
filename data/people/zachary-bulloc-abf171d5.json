@@ -1,0 +1,113 @@
+{
+  "id": "zachary-bulloc-abf171d5",
+  "type": "person",
+  "name": "Zachary Bulloc",
+  "current_title": "Lead Estimator",
+  "current_company": "Blattner",
+  "linkedin": "https://www.linkedin.com/in/zachary-bulloc",
+  "location": "Kansas, Missouri",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Lead Estimator at Blattner, 6/2026 to present; Senior site estimator at Turner & Townsend, 6/2025 to 6/2026; Cost Manager at Turner & Townsend, 1/2025 to 6/2025; Senior Cost manager  EV programs at Turner & Townsend, 1/2023 to 3/2025; Cost Manager at CBRE, 1/2023 to 3/2025; Estimator at Black & Veatch, 11/2018 to 2/2023; Engineering Technician at Black & Veatch, 9/2015 to 11/2018; Residential and Commercial Estimator at Olshan Foundation Repair, 4/2013 to 9/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 346,
+      "date_added": "2026-08-14 07:36:34 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Lead Estimator",
+      "company": "Blattner",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior site estimator",
+      "company": "Turner & Townsend",
+      "start": "6/2025",
+      "end": "6/2026",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "Turner & Townsend",
+      "start": "1/2025",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Cost manager  EV programs",
+      "company": "Turner & Townsend",
+      "start": "1/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Cost Manager",
+      "company": "CBRE",
+      "start": "1/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Black & Veatch",
+      "start": "11/2018",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Engineering Technician",
+      "company": "Black & Veatch",
+      "start": "9/2015",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Residential and Commercial Estimator",
+      "company": "Olshan Foundation Repair",
+      "start": "4/2013",
+      "end": "9/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "Kansas",
+    "country": "United States",
+    "group": "Kansas"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

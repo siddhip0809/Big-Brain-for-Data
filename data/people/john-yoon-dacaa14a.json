@@ -1,0 +1,97 @@
+{
+  "id": "john-yoon-dacaa14a",
+  "type": "person",
+  "name": "John Yoon",
+  "current_title": "Senior Director, Commercial Sales",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/john-yoon-22a4b323",
+  "location": "New York, NY",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director, Commercial Sales at Digital Realty, 3/2022 to present; Director, Commercial Sales at Digital Realty, 12/2017 to 3/2022; Account Executive at Digital Realty, 1/2014 to 12/2017; Account Executive - Telecommunications consultant at Time Warner Cable Business Class, 1/2012 to 1/2014; Supervisor - National Broadcast Sales Team at Cox Media Group, 7/2008 to 12/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 43,
+      "date_added": "2025-11-07 12:18:50 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Commercial Sales",
+      "company": "Digital Realty",
+      "start": "3/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Commercial Sales",
+      "company": "Digital Realty",
+      "start": "12/2017",
+      "end": "3/2022",
+      "current": false
+    },
+    {
+      "title": "Account Executive",
+      "company": "Digital Realty",
+      "start": "1/2014",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Account Executive - Telecommunications consultant",
+      "company": "Time Warner Cable Business Class",
+      "start": "1/2012",
+      "end": "1/2014",
+      "current": false
+    },
+    {
+      "title": "Supervisor - National Broadcast Sales Team",
+      "company": "Cox Media Group",
+      "start": "7/2008",
+      "end": "12/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "education": [
+    "Bachelor of Arts (B.A.), University At Albany"
+  ],
+  "biography": "With over nine years of experience in the data center industry, I am a seasoned sales leader who is passionate about delivering innovative solutions that enable customer growth and business transformation. As the Senior Director of Commercial Sales at Digital Realty, I oversee a high-performing team of sales professionals who are responsible for generating new revenue, expanding existing accounts, and building long-term relationships with clients across various sectors and markets.\n\nMy core competencies include sales strategy, forecasting, campaign management, relationship building, and negotiation. I have a proven track record of exceeding sales targets, driving operational excellence, and creating value for both internal and external stakeholders. I am also adept at leveraging my industry knowledge, market insights, and technical expertise to provide consultative guidance and tailored solutions that meet the evolving needs and challenges of our customers. My mission is to help our customers achieve their goals by providing them with the best data center services, carrier-dense interconnection, and real estate acumen in the industry.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

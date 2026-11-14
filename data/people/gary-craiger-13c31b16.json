@@ -1,0 +1,100 @@
+{
+  "id": "gary-craiger-13c31b16",
+  "type": "person",
+  "name": "Gary Craiger",
+  "current_title": "Director, Construction Project Management (AMER)",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/garycraiger",
+  "location": "Charles Town, West Virginia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Construction Project Management (AMER) at Equinix, 7/2025 to present; Sr. Manager Global Client Delivery - Strategic Accounts at Digital Realty, 11/2023 to 7/2025; Sr. Global Technical Solutions Manager at Digital Realty, 7/2022 to 11/2023; Data Center Manager at Digital Realty, 4/2020 to 7/2022; Facility Manager at Aligned Energy, 5/2019 to 4/2020; Assistant Chief Engineer at Digital Realty, 4/2017 to 5/2019; Data Center Engineer at Digital Realty, 4/2016 to 4/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 146,
+      "date_added": "2026-07-07 09:36:48 UTC",
+      "date_updated": "2026-07-07 04:36:48 -0500",
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction Project Management (AMER)",
+      "company": "Equinix",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Manager Global Client Delivery - Strategic Accounts",
+      "company": "Digital Realty",
+      "start": "11/2023",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Sr. Global Technical Solutions Manager",
+      "company": "Digital Realty",
+      "start": "7/2022",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Data Center Manager",
+      "company": "Digital Realty",
+      "start": "4/2020",
+      "end": "7/2022",
+      "current": false
+    },
+    {
+      "title": "Facility Manager",
+      "company": "Aligned Energy",
+      "start": "5/2019",
+      "end": "4/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Chief Engineer",
+      "company": "Digital Realty",
+      "start": "4/2017",
+      "end": "5/2019",
+      "current": false
+    },
+    {
+      "title": "Data Center Engineer",
+      "company": "Digital Realty",
+      "start": "4/2016",
+      "end": "4/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Charles Town",
+    "region": "West Virginia",
+    "country": "United States",
+    "group": "West Virginia"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

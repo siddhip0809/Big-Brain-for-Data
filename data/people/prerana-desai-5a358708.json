@@ -1,0 +1,75 @@
+{
+  "id": "prerana-desai-5a358708",
+  "type": "person",
+  "name": "Prerana Desai",
+  "current_title": "Senior Estimator - Concrete",
+  "current_company": "McCarthy Building Companies",
+  "linkedin": "https://www.linkedin.com/in/prerana-desai",
+  "location": "San Diego, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator - Concrete at McCarthy Building Companies, 7/2024 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 186,
+      "date_added": "2026-08-11 07:34:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 186,
+      "date_added": "2026-08-11 07:34:21 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mccarthy-building-companies",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator - Concrete",
+      "company": "McCarthy Building Companies",
+      "start": "7/2024",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "San Diego",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

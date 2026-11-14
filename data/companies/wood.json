@@ -1,0 +1,31 @@
+{
+  "id": "wood",
+  "type": "company",
+  "name": "Wood",
+  "aliases": [
+    "Wood plc",
+    "John Wood Group",
+    "Wood Group"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Engineering and consulting group (projects, operations, consulting), mainly energy and materials; owned by Sidara since March 2026",
+  "headquarters": "Aberdeen, United Kingdom",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "Aberdeen engineering consultancy acquired by Dubai-based Sidara at 30p per share (court sanction 6 March 2026). No data-centre-specific work was found in open sources.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Data-centre relevance is unsourced. Import with confidence low, or hold until Ward's email context explains the link. Do not confuse with Wood Mackenzie, which is already in the brain. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.agcc.co.uk/news-article/sidara-completes-takeover-of-wood-and-sets-out-ambitions-for-aberdeen-firm",
+    "https://www.ticker.app/lse/WG./rns/2026-03-06/COURT-SANCTION-OF-SCHEME-OF-ARRANGEMENT/7306V"
+  ],
+  "last_updated": "2026-10-30",
+  "region": "EMEA"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mgac",
+  "type": "company",
+  "name": "MGAC",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — programme & project management, cost management",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.mgac.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "'Critical Environments' team manages data-center and hospital construction; multiple DC construction PM and cost roles advertised (incl. Columbus, Ohio); two Executive Directors of Critical Environments identified.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. 'Critical Environments' team manages data-center and hospital construction; multiple DC construction PM and cost roles advertised (incl. Columbus, Ohio); two Executive Directors of Critical Environments identified. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.mgac.com/careers/4242653009/",
+    "https://www.mgac.com"
+  ],
+  "last_updated": "2026-09-16"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "keith-inglis-7ad4526a",
+  "type": "person",
+  "name": "Keith Inglis",
+  "current_title": "Senior Director, Emea Real Estate Strategy And Site Acquisitions",
+  "current_company": "Vantage",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/keith-inglis-93234213",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director, Emea Real Estate Strategy And Site Acquisitions at Vantage, 3/2025 to present; Director at Vantage, 1/2021 to 3/2025; Head Of Real Estate (Interim) at Virgin Media, 3/2018 to 12/2019; Real Estate Consultant at Ballard Real Estate, 11/2017 to 1/2021; Director Uk Real Estate (Interim) at Dentsu, 1/2017 to 8/2017; Partner at Cushman & Wakefield, 9/2007 to 10/2017; Associate Director, Global Corporate Services at CB Richard Ellis, 6/1997 to 9/2007; Property Manager at Workman, 9/1993 to 6/1997",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 42,
+      "date_added": "2026-08-12 09:34:33 UTC",
+      "date_updated": "2026-08-12 04:36:21 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 241,
+      "date_added": "2026-08-04 10:17:01 UTC",
+      "date_updated": "2026-08-12 04:34:33 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 18,
+      "date_added": "2025-11-06 08:48:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "vantage",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Emea Real Estate Strategy And Site Acquisitions",
+      "company": "Vantage",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director",
+      "company": "Vantage",
+      "start": "1/2021",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Head Of Real Estate (Interim)",
+      "company": "Virgin Media",
+      "start": "3/2018",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Real Estate Consultant",
+      "company": "Ballard Real Estate",
+      "start": "11/2017",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Director Uk Real Estate (Interim)",
+      "company": "Dentsu",
+      "start": "1/2017",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Partner",
+      "company": "Cushman & Wakefield",
+      "start": "9/2007",
+      "end": "10/2017",
+      "current": false
+    },
+    {
+      "title": "Associate Director, Global Corporate Services",
+      "company": "CB Richard Ellis",
+      "start": "6/1997",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Property Manager",
+      "company": "Workman",
+      "start": "9/1993",
+      "end": "6/1997",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor Of Science, Bachelors, Management, Royal Agricultural University, 1990 to 1993",
+    "Bachelor Of Science, Bachelors, Management, University of Reading, 1990 to 1993"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 3.0
+  }
+}

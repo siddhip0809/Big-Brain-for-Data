@@ -1,0 +1,102 @@
+{
+  "id": "joe-sardella-885e54ce",
+  "type": "person",
+  "name": "Joe Sardella",
+  "current_title": "Director Of Sales: Strategic Accounts",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/joesardelladatacenters",
+  "location": "New York City Metropolitan Area,  New York",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Director Of Sales: Strategic Accounts at QTS Data Centers, 8/2011 to present; Sr. sales Executive at Centurylink Business For Enterprise, 1/2010 to 8/2011; Business Development Manager at BT Group, 1/2005 to 1/2010; Global Account Manager at Data Return, 1/2001 to 1/2005; Operations Manager at Iron Mountian, 5/1997 to 12/2000; Data Center Solutions Consultant at QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 57,
+      "date_added": "2025-11-07 13:09:51 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director Of Sales: Strategic Accounts",
+      "company": "QTS Data Centers",
+      "start": "8/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. sales Executive",
+      "company": "Centurylink Business For Enterprise",
+      "start": "1/2010",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "BT Group",
+      "start": "1/2005",
+      "end": "1/2010",
+      "current": false
+    },
+    {
+      "title": "Global Account Manager",
+      "company": "Data Return",
+      "start": "1/2001",
+      "end": "1/2005",
+      "current": false
+    },
+    {
+      "title": "Operations Manager",
+      "company": "Iron Mountian",
+      "start": "5/1997",
+      "end": "12/2000",
+      "current": false
+    },
+    {
+      "title": "Data Center Solutions Consultant",
+      "company": "QTS Data Centers",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "group": "New York"
+  },
+  "education": [
+    "B.S., Business Management, Finance, Fairfield University, 1993 to 1997"
+  ],
+  "biography": "Senior executive experienced in sales management, marketing, strategic planning and new business\ndevelopment. Confident and tactical with the ability to analyze and direct business focus, handle diverse subject matter and manage complex issues. Proven ability to generate and exceed business goals in a stressful environment. Skilled negotiator with a 25+ year track record of forging relationships with clients resulting in increased long term business growth. A team player with strong communication, presentational, interpersonal, and research skills.\n\nSpecialties: Fluent in Italian, Financial Markets, Healthcare, Custom Data Center Space, Low Latency Solutions, Cloud and Managed Services.  Client Advocacy and Client Service Delivery Focus,\nP&L Management & Budgeting, Business Strategy Development and Execution, Consultative/Solution Selling Methodology",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

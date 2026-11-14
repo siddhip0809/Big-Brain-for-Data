@@ -1,0 +1,149 @@
+{
+  "id": "john-daugherty-1aa6f43c",
+  "type": "person",
+  "name": "John Daugherty",
+  "current_title": "Senior Director, Energy Strategy",
+  "current_company": "Cologix",
+  "linkedin": "https://www.linkedin.com/in/daughertyjohn",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director, Energy Strategy at Cologix, 3/2025 to present; Vice President, Research & Innovation at Energy Impact Partners, 3/2024 to 3/2025; Associate Vice President at Energy Impact Partners, 3/2023 to 3/2025; Senior Associate at Energy Impact Partners, 3/2020 to 3/2023; Associate at Energy Impact Partners, 3/2020 to present; Associate / Senior Associate at Energy Impact Partners, 3/2020 to 2/2023; Strategy Consultant at Accenture, 12/2018 to 3/2020; Strategy Senior Analyst at Accenture, 12/2017 to 12/2018; Strategy Analyst at Accenture, 10/2016 to 12/2017; Strategy Consultant / Analyst at Accenture, 9/2016 to 3/2020; Management Consulting Intern at Accenture, 6/2015 to 7/2015; Engineering Intern at Nexant, 6/2014 to 10/2014; Bureau of Nuclear Engineering Intern at NJ Department of Environmental Protection, 5/2013 to 7/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 137,
+      "date_added": "2026-06-02 15:01:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "cologix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Energy Strategy",
+      "company": "Cologix",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Research & Innovation",
+      "company": "Energy Impact Partners",
+      "start": "3/2024",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Associate Vice President",
+      "company": "Energy Impact Partners",
+      "start": "3/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Energy Impact Partners",
+      "start": "3/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Energy Impact Partners",
+      "start": "3/2020",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Associate / Senior Associate",
+      "company": "Energy Impact Partners",
+      "start": "3/2020",
+      "end": "2/2023",
+      "current": false
+    },
+    {
+      "title": "Strategy Consultant",
+      "company": "Accenture",
+      "start": "12/2018",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Strategy Senior Analyst",
+      "company": "Accenture",
+      "start": "12/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Strategy Analyst",
+      "company": "Accenture",
+      "start": "10/2016",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Strategy Consultant / Analyst",
+      "company": "Accenture",
+      "start": "9/2016",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Management Consulting Intern",
+      "company": "Accenture",
+      "start": "6/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Engineering Intern",
+      "company": "Nexant",
+      "start": "6/2014",
+      "end": "10/2014",
+      "current": false
+    },
+    {
+      "title": "Bureau of Nuclear Engineering Intern",
+      "company": "NJ Department of Environmental Protection",
+      "start": "5/2013",
+      "end": "7/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of Science (BS), Nuclear Engineering, University of Wisconsin-Madison, 2012 to 2016"
+  ],
+  "biography": "Passionate about the clean energy transition. Experienced in utility strategy, research, and tech commercialization.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

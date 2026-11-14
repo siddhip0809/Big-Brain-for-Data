@@ -1,0 +1,136 @@
+{
+  "id": "peter-swankl-3faf9b90",
+  "type": "person",
+  "name": "Peter Swankl",
+  "current_title": "Energy Manager",
+  "current_company": "Meta",
+  "linkedin": "https://www.linkedin.com/in/pswank",
+  "location": "Fort Collins, Colorado",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Energy Manager at Meta, 1/2025 to present; Global Renewable Energy Strategy Manager at Schneider Electric Energy & Sustainability Services, 9/2021 to 12/2024; Renewable Energy and Carbon Advisory Manager at Schneider Electric Energy & Sustainability Services, 3/2020 to 9/2021; Renewable Energy and Carbon Advisory Senior Consultant - Europe at Schneider Electric Energy & Sustainability Services, 8/2018 to 2/2020; Renewable Energy and Carbon Advisory Consultant at Schneider Electric Energy & Sustainability Services, 1/2017 to 7/2018; Director of Client Processes at Renewable Choice Energy, 7/2016 to 1/2017; Business Development Manager at The AES Corporation, 8/2014 to 7/2016; Business Development Associate at The AES Corporation, 8/2013 to 7/2014; Commercialization and Technology Transfer Licensing Fellow at National Renewable Energy Laboratory, 4/2012 to 7/2013; Market Assessment Program Consultant at CU Boulder and NREL Technology Transfer Offices, 12/2011 to 4/2012; Field Instructor at National Outdoor Leadership School, 8/2009 to 8/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 142,
+      "date_added": "2026-06-02 15:01:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "meta",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Energy Manager",
+      "company": "Meta",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Global Renewable Energy Strategy Manager",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "9/2021",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy and Carbon Advisory Manager",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "3/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy and Carbon Advisory Senior Consultant - Europe",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "8/2018",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Renewable Energy and Carbon Advisory Consultant",
+      "company": "Schneider Electric Energy & Sustainability Services",
+      "start": "1/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Director of Client Processes",
+      "company": "Renewable Choice Energy",
+      "start": "7/2016",
+      "end": "1/2017",
+      "current": false
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "The AES Corporation",
+      "start": "8/2014",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Business Development Associate",
+      "company": "The AES Corporation",
+      "start": "8/2013",
+      "end": "7/2014",
+      "current": false
+    },
+    {
+      "title": "Commercialization and Technology Transfer Licensing Fellow",
+      "company": "National Renewable Energy Laboratory",
+      "start": "4/2012",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Market Assessment Program Consultant",
+      "company": "CU Boulder and NREL Technology Transfer Offices",
+      "start": "12/2011",
+      "end": "4/2012",
+      "current": false
+    },
+    {
+      "title": "Field Instructor",
+      "company": "National Outdoor Leadership School",
+      "start": "8/2009",
+      "end": "8/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Fort Collins",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor's degree, Physics, Principia College",
+    "Master of Business Administration (M.B.A.), Renewable Energy, Management, Finance, University of Colorado Boulder - Leeds School of Business"
+  ],
+  "biography": "Supporting decarbonization at scale through corporate clean and renewable energy procurement.",
+  "assessment": {
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

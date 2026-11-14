@@ -1,0 +1,120 @@
+{
+  "id": "brian-stoltenburg-34f036c3",
+  "type": "person",
+  "name": "Brian Stoltenburg",
+  "current_title": "Project Estimator",
+  "current_company": "Shannon Construction",
+  "linkedin": "https://www.linkedin.com/in/brian-stoltenburg-40707359",
+  "location": "Baltimore, Washington DC",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Project Estimator at Shannon Construction, 6/2021 to present; Project Manager at Etzel Engineer and Build, 11/2019 to 11/2020; Project Manager/Estimator at KJ Johnston, 11/2017 to 11/2019; Superintendent at Flynn Construction Management, 11/2016 to 6/2017; Owner at Stoltenburg Carpentry, 5/2010 to 10/2016; Foreman at Stoltenburg Construction, 9/2007 to 3/2010; Finisher at Master Remodelers, 9/2005 to 9/2007; Carpenter at D&E Construction, 4/2003 to 9/2005; Custom Home Framer at Stauffer & Sons Construction, 8/2002 to 4/2003",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 134,
+      "date_added": "2026-08-10 10:12:59 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Project Estimator",
+      "company": "Shannon Construction",
+      "start": "6/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Etzel Engineer and Build",
+      "start": "11/2019",
+      "end": "11/2020",
+      "current": false
+    },
+    {
+      "title": "Project Manager/Estimator",
+      "company": "KJ Johnston",
+      "start": "11/2017",
+      "end": "11/2019",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "Flynn Construction Management",
+      "start": "11/2016",
+      "end": "6/2017",
+      "current": false
+    },
+    {
+      "title": "Owner",
+      "company": "Stoltenburg Carpentry",
+      "start": "5/2010",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Foreman",
+      "company": "Stoltenburg Construction",
+      "start": "9/2007",
+      "end": "3/2010",
+      "current": false
+    },
+    {
+      "title": "Finisher",
+      "company": "Master Remodelers",
+      "start": "9/2005",
+      "end": "9/2007",
+      "current": false
+    },
+    {
+      "title": "Carpenter",
+      "company": "D&E Construction",
+      "start": "4/2003",
+      "end": "9/2005",
+      "current": false
+    },
+    {
+      "title": "Custom Home Framer",
+      "company": "Stauffer & Sons Construction",
+      "start": "8/2002",
+      "end": "4/2003",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington, DC",
+    "country": "United States",
+    "group": "Washington, DC"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

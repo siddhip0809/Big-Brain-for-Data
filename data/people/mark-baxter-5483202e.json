@@ -1,0 +1,78 @@
+{
+  "id": "mark-baxter-5483202e",
+  "type": "person",
+  "name": "Mark Baxter",
+  "current_title": "PreConstruction Manager",
+  "current_company": "Kiewit",
+  "linkedin": "https://www.linkedin.com/in/mark-baxter-b90b1223",
+  "location": "Omaha, Nebraska",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "PreConstruction Manager at Kiewit, 2001 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Culture Fit",
+      "rank": 358,
+      "date_added": "2026-08-14 11:09:55 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Culture Fit",
+      "rank": 358,
+      "date_added": "2026-08-14 11:09:55 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "kiewit",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "PreConstruction Manager",
+      "company": "Kiewit",
+      "start": "2001",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Omaha",
+    "region": "Nebraska",
+    "country": "United States",
+    "group": "Nebraska"
+  },
+  "education": [
+    "Construction Engineering Technology, University of Nebraska at Omaha"
+  ],
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

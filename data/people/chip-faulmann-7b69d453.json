@@ -1,0 +1,127 @@
+{
+  "id": "chip-faulmann-7b69d453",
+  "type": "person",
+  "name": "Chip Faulmann",
+  "current_title": "Vice President, Construction",
+  "current_company": "Stream Data Centers",
+  "linkedin": "https://www.linkedin.com/in/chip-faulmann-5124606",
+  "location": "Seattle",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President, Construction at Stream Data Centers, 7/2025 to present; Director of Construction at Stream Data Centers, 5/2023 to 7/2025; Administrative Director, Program Management at Adventist Health, 6/2019 to 5/2023; North Region Director, Corporate Construction at Adventist Health, 1/2018 to 5/2023; Vice President | Regional Director at JLL, 2015 to 12/2017; Regional Director - PDS at Adventist Health | JLL at JLL, 3/2014 to 2015; Project Manager at Fortis Construction, 2007 to 3/2014; Project Manager at Skanska, 2001 to 2007; Project Manager at Skanska USA Building, 2001 to 2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 51,
+      "date_added": "2026-07-02 11:47:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "stream-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction",
+      "company": "Stream Data Centers",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "Stream Data Centers",
+      "start": "5/2023",
+      "end": "7/2025",
+      "current": false
+    },
+    {
+      "title": "Administrative Director, Program Management",
+      "company": "Adventist Health",
+      "start": "6/2019",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "North Region Director, Corporate Construction",
+      "company": "Adventist Health",
+      "start": "1/2018",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "raw": "Vice President"
+    },
+    {
+      "title": "Regional Director",
+      "company": "JLL",
+      "start": "2015",
+      "end": "12/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Director - PDS",
+      "company": "Adventist Health",
+      "current": false
+    },
+    {
+      "title": "JLL",
+      "company": "JLL",
+      "start": "3/2014",
+      "end": "2015",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Fortis Construction",
+      "start": "2007",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Skanska",
+      "start": "2001",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Skanska USA Building",
+      "start": "2001",
+      "end": "2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Bachelor of Science - Construction Management, Washington State University, 1995 to 2000",
+    "Bachelor of Arts - Business Administration, Washington State University, 1995 to 2000"
+  ],
+  "biography": "Director of Construction at Stream Data Centers",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "shane-rozario-a9d7ccd6",
+  "type": "person",
+  "name": "Shane Rozario",
+  "current_title": "Sales Director, International Accounts",
+  "current_company": "NTT",
+  "linkedin": "https://www.linkedin.com/in/shane-rozario-840b648a",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director, International Accounts at NTT, 7/2023 to present; Account Director at Yondr, 2/2022 to 7/2023; Manager, International Client & Channel Relationship Management at Digital Realty, 4/2019 to 2/2022; International Client Relationship Manager at Digital Realty, 4/2017 to 2/2022; Client Relationship Manager at Digital Realty, 1/2015 to 2/2022; Account Manager at Adapt, 10/2011 to 12/2014; Service Account Manager at Star, 11/2009 to 10/2011; Client Account Manager at Ultradata, 10/2007 to 4/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Culture Fit",
+      "rank": 40,
+      "date_added": "2026-07-08 17:34:08 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 146,
+      "date_added": "2026-01-07 16:26:34 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "ntt",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director, International Accounts",
+      "company": "NTT",
+      "start": "7/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Account Director",
+      "company": "Yondr",
+      "start": "2/2022",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Manager, International Client & Channel Relationship Management",
+      "company": "Digital Realty",
+      "start": "4/2019",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "International Client Relationship Manager",
+      "company": "Digital Realty",
+      "start": "4/2017",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Client Relationship Manager",
+      "company": "Digital Realty",
+      "start": "1/2015",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Adapt",
+      "start": "10/2011",
+      "end": "12/2014",
+      "current": false
+    },
+    {
+      "title": "Service Account Manager",
+      "company": "Star",
+      "start": "11/2009",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Client Account Manager",
+      "company": "Ultradata",
+      "start": "10/2007",
+      "end": "4/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor's degree, Civil Engineering Technologies/Technicians, Box Hill Institute, 1997 to 2000"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

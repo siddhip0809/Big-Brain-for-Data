@@ -1,0 +1,97 @@
+{
+  "id": "chris-henry-fac42133",
+  "type": "person",
+  "name": "Chris Henry",
+  "current_title": "Director of Preconstruction",
+  "current_company": "Adolfson & Peterson Construction",
+  "linkedin": "https://www.linkedin.com/in/chris-henry-04898913",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Director of Preconstruction at Adolfson & Peterson Construction, 4/2026 to present; Sr. Preconstruction Manager at Adolfson & Peterson Construction, 9/2015 to 4/2026; Preconstruction Manager, LEED:registered: AP at I-Kota, 3/2013 to 9/2015; PreConstruction Services, LEED:registered: AP at GE Johnson Construction, 6/2008 to 3/2013; Assistant Project Manager at Erickson Construction, 2004 to 2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 64,
+      "date_added": "2026-08-04 16:07:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "adolfson-peterson-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Preconstruction",
+      "company": "Adolfson & Peterson Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "Adolfson & Peterson Construction",
+      "start": "9/2015",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager, LEED:registered: AP",
+      "company": "I-Kota",
+      "start": "3/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "PreConstruction Services, LEED:registered: AP",
+      "company": "GE Johnson Construction",
+      "start": "6/2008",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Erickson Construction",
+      "start": "2004",
+      "end": "2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelors, Building Construction Management, Purdue University, 2000 to 2004"
+  ],
+  "biography": "Sr. Preconstruction Manager at Adolfson & Peterson Construction",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

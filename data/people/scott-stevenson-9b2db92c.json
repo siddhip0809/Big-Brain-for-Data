@@ -1,0 +1,131 @@
+{
+  "id": "scott-stevenson-9b2db92c",
+  "type": "person",
+  "name": "Scott Stevenson",
+  "current_title": "Senior Estimator",
+  "current_company": "Turner Construction",
+  "location": "Baltimore, Washington, DC",
+  "linkedin": "https://www.linkedin.com/in/scott-stevenson-87722513a",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Estimator at Turner Construction, 10/2017 to present; Estimator at HITT Contracting, 1/2012 to present; Project Manager at HITT Contracting, 1/2006 to 12/2011; Assistant Project Manager at HITT Contracting, 9/2003 to 12/2005; Assistant Project Manager at The Bell Company, 9/1999 to 8/2003; Assistant Project Manager at BGC | G&G, 7/1997 to 8/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 7,
+      "date_added": "2026-08-14 14:14:41 UTC",
+      "date_updated": "2026-08-19 08:08:11 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 29,
+      "date_added": "2026-08-04 06:53:16 UTC",
+      "date_updated": "2026-08-14 09:14:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 29,
+      "date_added": "2026-08-04 06:53:16 UTC",
+      "date_updated": "2026-08-14 09:14:41 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "turner-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Estimator",
+      "company": "Turner Construction",
+      "start": "10/2017",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Estimator",
+      "company": "HITT Contracting",
+      "start": "1/2012",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "HITT Contracting",
+      "start": "1/2006",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "HITT Contracting",
+      "start": "9/2003",
+      "end": "12/2005",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "The Bell Company",
+      "start": "9/1999",
+      "end": "8/2003",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "BGC",
+      "current": false
+    },
+    {
+      "company": "G&G",
+      "start": "7/1997",
+      "end": "8/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Baltimore",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Bachelor's degree, Construction Management, Bowling Green State University, 1995 to 1997",
+    "Associate's degree, Business Administration and Management, General, Anne Arundel Community College, 1991 to 1995"
+  ],
+  "biography": "I bring 20 years of construction management experience, and have focused on preconstruction services since 2012. My resume includes project management for a variety of base building projects including hotels, laboratories, medical office, waste water treatment and mission critical. This on-site experience brings an operations mindset to the preconstruction process.\r\n\r\nAs an estimator in preconstruction, I'm responsible for the $850,000,000 worth of preconstruction deliverables annually. As an estimator, my responsibilities include budget team development, development of conceptual budgets, feasibility studies, cost control, constructability, and comparative analyses.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

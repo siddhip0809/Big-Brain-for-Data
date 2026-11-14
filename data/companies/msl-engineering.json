@@ -1,0 +1,30 @@
+{
+  "id": "msl-engineering",
+  "type": "company",
+  "name": "MSL Engineering",
+  "aliases": [
+    "MSL",
+    "MSL Engineering Ltd"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Cork modular fabricator and installer of process, utility and high-purity pipework, pipe racks and steelwork",
+  "headquarters": "Cork, Ireland",
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "Mainly a semiconductor supplier (modular pipe racks for Leixlip and a US project) that in March 2026 said it was trying to break into the data-centre market, having done a couple of smaller data-hall scopes in Ireland and mainland Europe.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Identity is an inference: 'MSL' in Ward's email is assumed to be MSL Engineering (Ringaskiddy, Co. Cork). Confirm before import. Data-centre footprint is small. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://directory.enterprise-ireland.com/vendor/offsite-construction/msl-engineering-ltd",
+    "https://magazine.ccemagazine.com/construction-civil-engineering-issue-226-march-2026/0933955001774883278/p58"
+  ],
+  "last_updated": "2026-10-30",
+  "region": "EMEA"
+}

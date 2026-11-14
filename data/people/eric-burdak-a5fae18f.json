@@ -1,0 +1,58 @@
+{
+  "id": "eric-burdak-a5fae18f",
+  "type": "person",
+  "name": "Eric Burdak",
+  "current_title": "VP of Construction BTS- Stack Infrastructure",
+  "current_company": "STACK Infrastructure",
+  "linkedin": "https://www.linkedin.com/in/eric-burdak",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "VP of Construction BTS- Stack Infrastructure at STACK Infrastructure, 12/2023 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 201,
+      "date_added": "2026-07-08 08:31:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "stack-infrastructure",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP of Construction BTS- Stack Infrastructure",
+      "company": "STACK Infrastructure",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

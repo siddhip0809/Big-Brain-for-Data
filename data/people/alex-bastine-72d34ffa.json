@@ -1,0 +1,124 @@
+{
+  "id": "alex-bastine-72d34ffa",
+  "type": "person",
+  "name": "Alex Bastine",
+  "current_title": "Senior Manager Cost",
+  "current_company": "Crusoe",
+  "location": "San Francisco, California",
+  "linkedin": "https://www.linkedin.com/in/alexbastine",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Manager Cost at Crusoe, 3/2025 to present; Program Manager Construction Cost  at Amazon, 2022 to 2025; Senior Consultant at Turner & Townsend, 2018 to 2021; Senior Management Consultant at North Highland, 2015 to 2016; MBA Intern, Store Development at Starbucks, 5/2014 to 8/2024; Business Analyst at CBRE, 2011 to 2013; Analyst at Suncrest Homes, 2010 to 2011; Project Manager, Projects and Development Services at JLL, 2007 to 2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 255,
+      "date_added": "2026-08-26 13:22:20 UTC",
+      "date_updated": "2026-08-26 08:23:44 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 135,
+      "date_added": "2026-08-10 10:28:06 UTC",
+      "date_updated": "2026-08-26 08:22:20 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "crusoe",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager Cost",
+      "company": "Crusoe",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Program Manager Construction Cost ",
+      "company": "Amazon",
+      "start": "2022",
+      "end": "2025",
+      "current": false
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Turner & Townsend",
+      "start": "2018",
+      "end": "2021",
+      "current": false
+    },
+    {
+      "title": "Senior Management Consultant",
+      "company": "North Highland",
+      "start": "2015",
+      "end": "2016",
+      "current": false
+    },
+    {
+      "title": "MBA Intern, Store Development",
+      "company": "Starbucks",
+      "start": "5/2014",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Business Analyst",
+      "company": "CBRE",
+      "start": "2011",
+      "end": "2013",
+      "current": false
+    },
+    {
+      "title": "Analyst",
+      "company": "Suncrest Homes",
+      "start": "2010",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Project Manager, Projects and Development Services",
+      "company": "JLL",
+      "start": "2007",
+      "end": "2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

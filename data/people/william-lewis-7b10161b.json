@@ -1,0 +1,58 @@
+{
+  "id": "william-lewis-7b10161b",
+  "type": "person",
+  "name": "William Lewis",
+  "current_title": "Vice President of Construction",
+  "current_company": "T5 Data Centers",
+  "linkedin": "https://www.linkedin.com/in/william-lewis-72423a62",
+  "location": "Richmond, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President of Construction at T5 Data Centers, 12/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 286,
+      "date_added": "2026-07-10 07:36:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "t5-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Construction",
+      "company": "T5 Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Richmond",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "anord-mardix",
+  "type": "company",
+  "name": "Anord Mardix",
+  "aliases": [
+    "Anord Mardix, a Flex company"
+  ],
+  "roles": [
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "Critical-power equipment maker: switchgear, busway, power distribution, modular power systems and monitoring for data centres",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://anordmardix.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Critical power supplier that sells primarily to data-centre operators; acquired by Flex for USD 540m in cash from Bertram Capital (agreed October 2021, closed December 2021) and reported inside Flex's Reliability Solutions segment.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Headquarters left null: sources disagree (Irish Times says Dundalk, Co Louth; a Benzinga-sourced report says Kendal, UK). Role 'general_contractor' is the nearest allowed role for an electrical equipment supplier. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.irishtimes.com/business/technology/dundalk-based-anord-mardix-acquired-in-540m-deal-1.4704685",
+    "https://www.streetinsider.com/Corporate+News/Flex+Ltd.+%28FLEX%29+to+Acquire+Anord+Mardix+for+%24540M+Cash/19070437.html",
+    "https://www.datacenterdynamics.com/en/marketwatch/anord-mardix-a-flex-company/"
+  ],
+  "last_updated": "2026-10-30"
+}

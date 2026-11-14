@@ -1,0 +1,65 @@
+{
+  "id": "amina-dicko-d2a3cda3",
+  "type": "person",
+  "name": "Amina Dicko",
+  "current_title": "Senior Construction Manager",
+  "current_company": "Digital Realty",
+  "linkedin": "https://www.linkedin.com/in/aminatadicko",
+  "location": "Sterling, Virginia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Construction Manager at Digital Realty, 6/2026 to present; Construction Manager at AWS, 10/2022 to 6/2026",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 182,
+      "date_added": "2026-07-07 15:29:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "digital-realty",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Construction Manager",
+      "company": "Digital Realty",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager",
+      "company": "AWS",
+      "start": "10/2022",
+      "end": "6/2026",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Sterling",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

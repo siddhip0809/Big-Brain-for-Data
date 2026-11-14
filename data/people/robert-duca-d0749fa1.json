@@ -1,0 +1,114 @@
+{
+  "id": "robert-duca-d0749fa1",
+  "type": "person",
+  "name": "Robert Duca",
+  "current_title": "Estimator",
+  "current_company": "Google",
+  "linkedin": "https://www.linkedin.com/in/robert-duca-27175337",
+  "location": "La Center, Washington",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Estimator at Google, 5/2023 to present; Lead Estimator Special Projects at Microsoft, 12/2021 to 5/2023; Senior Estimator at Linesight, 10/2020 to 12/2021; Senior Estimator at PlanB Consultancy, 4/2019 to 10/2020; Estimator at Stantec, 2018 to 4/2019; Estimator at Swinerton, 8/2017 to 1/2018; Estimator at Skanska, 10/2015 to 8/2017; Project Estimator at CH2M, 2/2012 to 10/2015; Project Estimator at Babcock Services, 11/2010 to 12/2011",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 446,
+      "date_added": "2026-08-24 11:25:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "google",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Estimator",
+      "company": "Google",
+      "start": "5/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Lead Estimator Special Projects",
+      "company": "Microsoft",
+      "start": "12/2021",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "Linesight",
+      "start": "10/2020",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "PlanB Consultancy",
+      "start": "4/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Stantec",
+      "start": "2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Swinerton",
+      "start": "8/2017",
+      "end": "1/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Skanska",
+      "start": "10/2015",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "CH2M",
+      "start": "2/2012",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Project Estimator",
+      "company": "Babcock Services",
+      "start": "11/2010",
+      "end": "12/2011",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "La Center",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

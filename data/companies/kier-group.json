@@ -1,0 +1,30 @@
+{
+  "id": "kier-group",
+  "type": "company",
+  "name": "Kier Group",
+  "aliases": [
+    "Kier",
+    "Kier Group plc"
+  ],
+  "roles": [
+    "civil_land_engineering",
+    "general_contractor"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "UK construction, infrastructure services and property group",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.kier.co.uk",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Large UK contractor with limited visible data-centre work: main contractor on phase two of Gloucester's GBP 107m 'The Forum' digital campus, and its property arm sold a data-centre site at its Maidenhead scheme to iomart (c. 2019).",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "No data-centre construction contract found in open results. HQ left null: historic base Tempsford Hall, Sandy, but reports say it has been sold. Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.businessmag.co.uk/maidenhead-kier-sells-data-centre-to-tech-group-iomart/",
+    "https://www.worldconstructionnetwork.com/?p=53529"
+  ],
+  "last_updated": "2026-10-30"
+}

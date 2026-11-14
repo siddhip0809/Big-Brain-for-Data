@@ -1,0 +1,63 @@
+{
+  "id": "hidemi-nakamura-32ee235e",
+  "type": "person",
+  "name": "Hidemi Nakamura",
+  "current_title": "Head of New Site Development",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/hidemi-nakamura-35250426",
+  "location": "Japan",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Head of New Site Development at Vantage",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 5,
+      "date_added": "2025-11-06 07:59:26 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of New Site Development",
+      "company": "Vantage",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "Japan",
+    "group": "Japan"
+  },
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "richard-pow-9df9284e",
+  "type": "person",
+  "name": "Richard Pow",
+  "current_title": "Sales Director - International Accounts",
+  "current_company": "NTT",
+  "location": "London, England, United Kingdom",
+  "linkedin": "https://www.linkedin.com/in/richard-pow-2061043",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director - International Accounts at NTT, 4/2022 to present; Senior Sales Manager - International Accounts at Telehouse, 10/2019 to 4/2022; Sales Manager at Telehouse, 1/2018 to 10/2019; Business Development Director at Volta Data Centres, 10/2016 to 8/2017; Regional Sales Director at Navisite, 12/2015 to 9/2016; Sales Director Northern Europe, Spain and Portugal at Colt Data Centre Services, 7/2013 to 11/2015; Enterprise Sales Consultant at Equinix, 3/2010 to 7/2013; Senior Account Manager at SKYE IT, 9/2009 to 4/2010; Relationship Manager at Adapt, 6/2006 to 9/2009; Account Manager at Adapt, 1/2006 to 12/2009; Account Manager at Pipex Communications, 4/2004 to 5/2006; Sales Engineer at Omron Electronics, 1/2003 to 4/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 9,
+      "date_added": "2026-08-11 11:51:38 UTC",
+      "date_updated": "2026-08-11 07:08:46 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 36,
+      "date_added": "2026-07-08 17:34:08 UTC",
+      "date_updated": "2026-08-11 06:51:38 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 218,
+      "date_added": "2026-04-21 10:07:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "ntt",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director - International Accounts",
+      "company": "NTT",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Sales Manager - International Accounts",
+      "company": "Telehouse",
+      "start": "10/2019",
+      "end": "4/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Telehouse",
+      "start": "1/2018",
+      "end": "10/2019",
+      "current": false
+    },
+    {
+      "title": "Business Development Director",
+      "company": "Volta Data Centres",
+      "start": "10/2016",
+      "end": "8/2017",
+      "current": false
+    },
+    {
+      "title": "Regional Sales Director",
+      "company": "Navisite",
+      "start": "12/2015",
+      "end": "9/2016",
+      "current": false
+    },
+    {
+      "title": "Sales Director Northern Europe, Spain and Portugal",
+      "company": "Colt Data Centre Services",
+      "start": "7/2013",
+      "end": "11/2015",
+      "current": false
+    },
+    {
+      "title": "Enterprise Sales Consultant",
+      "company": "Equinix",
+      "start": "3/2010",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Account Manager",
+      "company": "SKYE IT",
+      "start": "9/2009",
+      "end": "4/2010",
+      "current": false
+    },
+    {
+      "title": "Relationship Manager",
+      "company": "Adapt",
+      "start": "6/2006",
+      "end": "9/2009",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Adapt",
+      "start": "1/2006",
+      "end": "12/2009",
+      "current": false
+    },
+    {
+      "title": "Account Manager",
+      "company": "Pipex Communications",
+      "start": "4/2004",
+      "end": "5/2006",
+      "current": false
+    },
+    {
+      "title": "Sales Engineer",
+      "company": "Omron Electronics",
+      "start": "1/2003",
+      "end": "4/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "HND, Electronic Engineering, De Montfort University, 2000 to 2001",
+    "HNC, Electronic Engineering, North Herts College, 1998 to 2000"
+  ],
+  "biography": "A dynamic and professional Sales Consultant with particular expertise within IT and telecoms, colocation, data centres and connectivity solutions. Consistent sales performer within market sector.\n\nSpecialties: - Consultancy\n- Data Centre Design and Optimisation\n- High Density Colocation\n- Managed Services\n- Managed Hosting\n- Disaster Recovery\n- Business Continuity\n- Bandwidth\n- Data Backup\n- Networks, LAN and MPLS\n- IPMH",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

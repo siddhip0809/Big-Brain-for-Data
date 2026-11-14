@@ -1,0 +1,98 @@
+{
+  "id": "vance-howell-561d8276",
+  "type": "person",
+  "name": "Vance Howell",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Swinerton",
+  "linkedin": "https://www.linkedin.com/in/vance-howell-dbia-055514197",
+  "location": "Denver metropolitan area, Colorado",
+  "seniority": null,
+  "industry_segment": "Industrial",
+  "career_history": "Preconstruction Manager at Swinerton, 3/2023 to present; Project Manager at Swinerton, 11/2021 to 3/2023; Project Manager at Ralph L Wadsworth Construction, 9/2017 to 11/2021; Project Manager at GILBERT CONTRACTING, 7/2009 to 9/2017; Superintendent at EDGE Contracting, 1/2004 to 6/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 21,
+      "date_added": "2026-08-04 16:07:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "swinerton",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Swinerton",
+      "start": "3/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Swinerton",
+      "start": "11/2021",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Ralph L Wadsworth Construction",
+      "start": "9/2017",
+      "end": "11/2021",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "GILBERT CONTRACTING",
+      "start": "7/2009",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Superintendent",
+      "company": "EDGE Contracting",
+      "start": "1/2004",
+      "end": "6/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Construction Management, Red Rocks Community College, 2010 to 2012",
+    "Mathematics, Metropolitan State University of Denver, 1997 to 2003"
+  ],
+  "biography": "Swinerton Energy.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

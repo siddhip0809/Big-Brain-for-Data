@@ -1,0 +1,101 @@
+{
+  "id": "nick-brown-b6783ec2",
+  "type": "person",
+  "name": "Nick Brown",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "Archkey Solutions",
+  "linkedin": "https://www.linkedin.com/in/njayb05",
+  "location": "Surprise, Arizona",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at Archkey Solutions, 7/2026 to present; Project Manager at Corbins, 2/2025 to 7/2026; Project Manager / Estimator at Quality Electric, 6/2022 to 2/2025; Assistant Project Manager / Estimator at Quality Electric, 3/2020 to 6/2022; General Foreman at Quality Electric, 12/2018 to 6/2020; Journeyman Electrician at Quality Electric, 1/2013 to 11/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 592,
+      "date_added": "2026-09-01 11:45:46 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Archkey Solutions",
+      "start": "7/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Corbins",
+      "start": "2/2025",
+      "end": "7/2026",
+      "current": false
+    },
+    {
+      "title": "Project Manager / Estimator",
+      "company": "Quality Electric",
+      "start": "6/2022",
+      "end": "2/2025",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager / Estimator",
+      "company": "Quality Electric",
+      "start": "3/2020",
+      "end": "6/2022",
+      "current": false
+    },
+    {
+      "title": "General Foreman",
+      "company": "Quality Electric",
+      "start": "12/2018",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Journeyman Electrician",
+      "company": "Quality Electric",
+      "start": "1/2013",
+      "end": "11/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Surprise",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Licensed Journeyman Electrician, Southwest Idaho Electrical Training Center (JATC), 2013 to 2017",
+    "High School Diploma, Peoria High School, 2005 to 2009"
+  ],
+  "biography": "Detail-oriented manager with experience leading complex projects and collaborating across teams. Known for a practical, solutions-focused approach, strong communication skills, and the ability to build productive relationships that contribute to project success.",
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

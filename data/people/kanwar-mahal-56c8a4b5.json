@@ -1,0 +1,120 @@
+{
+  "id": "kanwar-mahal-56c8a4b5",
+  "type": "person",
+  "name": "Kanwar Mahal",
+  "current_title": "Senior Director Data Center Construction",
+  "current_company": "Oracle",
+  "linkedin": "https://www.linkedin.com/in/kanwar-mahal-7272578",
+  "location": "Santa Clara, California, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Director Data Center Construction at Oracle, 9/2025 to present; Senior Director, Data Center Construction, US West at Microsoft, 9/2023 to present; Director, US West, Data Center Construction at Microsoft, 2/2022 to 9/2023; Director, US West at Microsoft, 2/2022 to present; Principal Program Manager, Data Center Construction at Microsoft, 12/2018 to 2/2022; Data Center Construction Manager at AWS, 4/2017 to 12/2018; Data Center Construction Coordinator at AWS, 9/2014 to 4/2017; Electrical Design Engineer at Larsen and Toubro, 12/2006 to 8/2007; In-Plant Trainee at Nestle India, 1/2005 to 7/2005",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 36,
+      "date_added": "2026-07-02 11:47:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "oracle",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Data Center Construction",
+      "company": "Oracle",
+      "start": "9/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Data Center Construction, US West",
+      "company": "Microsoft",
+      "start": "9/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, US West, Data Center Construction",
+      "company": "Microsoft",
+      "start": "2/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Director, US West",
+      "company": "Microsoft",
+      "start": "2/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal Program Manager, Data Center Construction",
+      "company": "Microsoft",
+      "start": "12/2018",
+      "end": "2/2022",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Manager",
+      "company": "AWS",
+      "start": "4/2017",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Data Center Construction Coordinator",
+      "company": "AWS",
+      "start": "9/2014",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Electrical Design Engineer",
+      "company": "Larsen and Toubro",
+      "start": "12/2006",
+      "end": "8/2007",
+      "current": false
+    },
+    {
+      "title": "In-Plant Trainee",
+      "company": "Nestle India",
+      "start": "1/2005",
+      "end": "7/2005",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Santa Clara",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Master of Science - MS, Electrical Engineering, San Jose State University, 2007 to 2009",
+    "Bachelor of Technology - BTech, Electrical engineering, Guru Nanak Dev Engineering College, Ludhiana, 2002 to 2006",
+    "Bachelor of Technology (B.Tech.), Electrical Engineering, Punjab Technical University, 2002 to 2006"
+  ],
+  "biography": "Senior Director, Microsoft",
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

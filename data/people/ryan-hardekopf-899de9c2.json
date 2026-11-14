@@ -1,0 +1,87 @@
+{
+  "id": "ryan-hardekopf-899de9c2",
+  "type": "person",
+  "name": "Ryan Hardekopf",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Power Construction",
+  "location": "Batavia, Illinois",
+  "linkedin": "https://www.linkedin.com/in/ryan-hardekopf-b1146212",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction Manager at Power Construction, 1/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 69,
+      "date_added": "2026-08-18 10:20:08 UTC",
+      "date_updated": "2026-08-19 08:08:13 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 252,
+      "date_added": "2026-08-12 09:55:03 UTC",
+      "date_updated": "2026-08-18 05:20:07 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 252,
+      "date_added": "2026-08-12 09:55:03 UTC",
+      "date_updated": "2026-08-18 05:20:07 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "power-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Power Construction",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Batavia",
+    "region": "Illinois",
+    "country": "United States",
+    "group": "Illinois"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

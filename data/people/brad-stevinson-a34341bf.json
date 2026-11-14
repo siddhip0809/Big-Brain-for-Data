@@ -1,0 +1,112 @@
+{
+  "id": "brad-stevinson-a34341bf",
+  "type": "person",
+  "name": "Brad Stevinson",
+  "current_title": "Vice President",
+  "current_company": "Tract",
+  "linkedin": "https://www.linkedin.com/in/bradstevinson",
+  "location": "Denver, Colorado",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President at Tract, 12/2024 to present; Vice President   Development And Investment at Trammell Crow Company, 4/2023 to 11/2024; Senior Associate   Development & Investment at Trammell Crow Company, 8/2020 to 4/2023; Summer Associate at Boston Properties, 6/2019 to 8/2019; Associate at Integrated Real Estate Services, 11/2016 to 8/2018; Emergency Medicine Physician at UCHealth, 1/2016 to 12/2018; Retrieval Physician at Greater Sydney Area Helicopter Emergency Medical Service, 1/2015 to 12/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 108,
+      "date_added": "2025-11-19 14:29:24 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "tract",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Vice President",
+      "company": "Tract",
+      "start": "12/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President   Development And Investment",
+      "company": "Trammell Crow Company",
+      "start": "4/2023",
+      "end": "11/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Associate   Development & Investment",
+      "company": "Trammell Crow Company",
+      "start": "8/2020",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "Summer Associate",
+      "company": "Boston Properties",
+      "start": "6/2019",
+      "end": "8/2019",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Integrated Real Estate Services",
+      "start": "11/2016",
+      "end": "8/2018",
+      "current": false
+    },
+    {
+      "title": "Emergency Medicine Physician",
+      "company": "UCHealth",
+      "start": "1/2016",
+      "end": "12/2018",
+      "current": false
+    },
+    {
+      "title": "Retrieval Physician",
+      "company": "Greater Sydney Area Helicopter Emergency Medical Service",
+      "start": "1/2015",
+      "end": "12/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Master Of Business Administration, Masters, Harvard Business School, 2020 to 2020",
+    "Doctor Of Medicine, Doctorates, Georgetown University School Of Medicine, 2003 to 2008",
+    "Bachelor Of Arts, Bachelors, Economics, Davidson College, 1998 to 2002"
+  ],
+  "biography": "Brad Stevinson is Vice President at Tract, contributing to data center growth. Their background reflects a transition from clinical practice to real estate development and investment.Prior to Tract, Brad was Vice President, Development & Investment at Trammell Crow, a real estate development firm specializing in commercial real estate properties. Their work history includes a summer associate role at BXP and Boston Properties, where they gained exposure to investment banking and real estate environments.Earlier in their career, Brad practiced medicine. They served as an Emergency Medicine Physician at TeamHealth and as an Emergency Medicine Resident at Denver Health. Their clinical experience also includes a role as a Physician at UCHealth. During this period, they were also a Medical Student Research Fellow at HHMI.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

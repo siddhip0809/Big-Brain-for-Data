@@ -1,0 +1,65 @@
+{
+  "id": "charnice-williams-486ed6bb",
+  "type": "person",
+  "name": "Charnice Williams",
+  "current_title": "VP of Construction",
+  "current_company": "T5 Data Centers",
+  "linkedin": "https://www.linkedin.com/in/charnicewilliams",
+  "location": "Atlanta, Georgia",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "VP of Construction at T5 Data Centers, 5/2026 to present; Director of Construction at T5 Data Centers, 4/2025 to 5/2026",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 266,
+      "date_added": "2026-07-09 09:09:27 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "t5-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP of Construction",
+      "company": "T5 Data Centers",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "T5 Data Centers",
+      "start": "4/2025",
+      "end": "5/2026",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "United States",
+    "group": "Georgia"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "alec-mcginnis-f2dcc149",
+  "type": "person",
+  "name": "Alec McGinnis",
+  "current_title": "Senior Director of Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/alec-mcginnis-p-e-b4352b95",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Director of Development at QTS Data Centers, 5/2021 to present; Project Manager at JE Dunn Construction, 1/2017 to 5/2021; Project Engineer at BMWC Constructors, 3/2016 to 10/2016; Field Engineer at Kiewit, 8/2015 to 3/2016; Project Engineer at BMWC Constructors, 6/2014 to 8/2015; CECOP Intern (OR) at Precision Approach Engineering, 4/2013 to 9/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 172,
+      "date_added": "2026-07-07 11:57:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director of Development",
+      "company": "QTS Data Centers",
+      "start": "5/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "JE Dunn Construction",
+      "start": "1/2017",
+      "end": "5/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "BMWC Constructors",
+      "start": "3/2016",
+      "end": "10/2016",
+      "current": false
+    },
+    {
+      "title": "Field Engineer",
+      "company": "Kiewit",
+      "start": "8/2015",
+      "end": "3/2016",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "BMWC Constructors",
+      "start": "6/2014",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "CECOP Intern (OR)",
+      "company": "Precision Approach Engineering",
+      "start": "4/2013",
+      "end": "9/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor's Degree, Civil Engineering, Oregon State University"
+  ],
+  "biography": "Development Program Manager at QTS Data Centers",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

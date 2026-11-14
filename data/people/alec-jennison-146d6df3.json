@@ -1,0 +1,104 @@
+{
+  "id": "alec-jennison-146d6df3",
+  "type": "person",
+  "name": "Alec Jennison",
+  "current_title": "Development Manager",
+  "current_company": "AWS",
+  "linkedin": "https://www.linkedin.com/in/alec-jennison-034",
+  "location": "Annapolis, Maryland",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Development Manager at AWS, 10/2023 to present; Project Manager at Carmel Partners, 8/2022 to 9/2023; Assistant Project Manager at Carmel Partners, 2/2020 to 8/2022; Senior Project Engineer at Carmel Partners, 1/2019 to 2/2020; Project Engineer at Donohoe Construction, 7/2017 to 1/2019; Staff Scientist at Advantage Environmental Consultants, 8/2016 to 7/2017",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 501,
+      "date_added": "2026-06-03 15:02:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "aws",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Development Manager",
+      "company": "AWS",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Carmel Partners",
+      "start": "8/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "Carmel Partners",
+      "start": "2/2020",
+      "end": "8/2022",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer",
+      "company": "Carmel Partners",
+      "start": "1/2019",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Donohoe Construction",
+      "start": "7/2017",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Staff Scientist",
+      "company": "Advantage Environmental Consultants",
+      "start": "8/2016",
+      "end": "7/2017",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Annapolis",
+    "region": "Maryland",
+    "country": "United States",
+    "group": "Maryland"
+  },
+  "education": [
+    "Bachelor of Science - BS, Geographical Sciences - Sustainability & Development, University of Maryland, 2012 to 2016",
+    "Winston Churchill High School, 2008 to 2012"
+  ],
+  "biography": "Development Manager at Amazon Web Services",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Average",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

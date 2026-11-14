@@ -1,0 +1,32 @@
+{
+  "id": "2026-08-27-a0a8ba86",
+  "type": "note",
+  "date": "2026-08-27",
+  "kind": "candidate_update",
+  "basis": "reported",
+  "summary": "Paul Sharp progressed to final stage; Belal progressed to second-stage interview; Andrew Edwards has an offer; Louis and Eugene interviews haven't happened yet.",
+  "about": [
+    "person:paul-sharp-055ba819",
+    "person:andrew-edwards-02b44552",
+    "company:panattoni",
+    "search:head-of-construction"
+  ],
+  "signals": [
+    {
+      "type": "interviewing",
+      "person": "person:paul-sharp-055ba819",
+      "company": "company:panattoni"
+    }
+  ],
+  "source": {
+    "channel": "teams",
+    "date": "2026-08-27",
+    "from": "David Liddiard",
+    "via": "Teams · chat",
+    "subject": "Panattoni status",
+    "link": "https://teams.microsoft.com/l/message/19%3a47c9e171-e1ed-489b-9bf6-78052f3aeaf9_a93c586d-8888-4976-a72c-20a0b5cdd157%40unq.gbl.spaces/1787827769741?context=%7B%22contextType%22:%22chat%22%7D",
+    "ref": "sha1:1c42f4574ba0f814"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

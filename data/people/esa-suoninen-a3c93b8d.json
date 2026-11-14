@@ -1,0 +1,116 @@
+{
+  "id": "esa-suoninen-a3c93b8d",
+  "type": "person",
+  "name": "Esa Suoninen",
+  "current_title": "Land Development Manager",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/esa-suoninen-4883552",
+  "location": "Ingå, Uusimaa, Finland",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Land Development Manager at Microsoft, 3/2025 to present; Senior Project Manager, Industrial Electrification at Fortum Power and Heat Oy, 9/2019 to present; Manager, Hydro Growth at Fortum Power and Heat Oy, 6/2016 to 12/2019; Manager, Corporate Strategy and M&A at Fortum Oyj, 9/2015 to 6/2016; General Manager at Fortum Holding B V Istanbul Liaison Office, 2/2013 to 9/2015; Manager, Technology Portfolio Development at Fortum Oyj, 5/2004 to 1/2013; Project Manager, Divestments at Fortum Service Oy, 1/2003 to 4/2004; Business Development Director at Fortum, 10/1997 to 12/2002; District Manager at Fortum Service, 1994 to 1997",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Years Experience",
+      "rank": 139,
+      "date_added": "2026-07-10 10:31:57 UTC",
+      "date_updated": "2026-07-13 03:40:16 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Land Development Manager",
+      "company": "Microsoft",
+      "start": "3/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager, Industrial Electrification",
+      "company": "Fortum Power and Heat Oy",
+      "start": "9/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Manager, Hydro Growth",
+      "company": "Fortum Power and Heat Oy",
+      "start": "6/2016",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Manager, Corporate Strategy and M&A",
+      "company": "Fortum Oyj",
+      "start": "9/2015",
+      "end": "6/2016",
+      "current": false
+    },
+    {
+      "title": "General Manager",
+      "company": "Fortum Holding B V Istanbul Liaison Office",
+      "start": "2/2013",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Manager, Technology Portfolio Development",
+      "company": "Fortum Oyj",
+      "start": "5/2004",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Project Manager, Divestments",
+      "company": "Fortum Service Oy",
+      "start": "1/2003",
+      "end": "4/2004",
+      "current": false
+    },
+    {
+      "title": "Business Development Director",
+      "company": "Fortum",
+      "start": "10/1997",
+      "end": "12/2002",
+      "current": false
+    },
+    {
+      "title": "District Manager",
+      "company": "Fortum Service",
+      "start": "1994",
+      "end": "1997",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Ingå",
+    "region": null,
+    "country": "Finland",
+    "group": "Finland"
+  },
+  "assessment": {
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

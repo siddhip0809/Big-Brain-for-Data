@@ -1,0 +1,122 @@
+{
+  "id": "evan-grimmett-6c10503b",
+  "type": "person",
+  "name": "Evan Grimmett",
+  "current_title": "VP of Hyperscale Solutions",
+  "current_company": "DataBank",
+  "linkedin": "https://www.linkedin.com/in/evan-grimmett-15a754",
+  "location": "Frisco, Texas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "VP of Hyperscale Solutions at DataBank, 1/2021 to present; VP of Product & Solutions Engineering at DataBank, 7/2016 to 1/2021; Director, Sales Engineering at DataBank, 3/2013 to 7/2016; Systems Engineer at WHIPTAIL, 7/2012 to 3/2013; Sr. Sales Engineer at ViaWest, 8/2010 to 7/2012; Director of Cloud Services at Pinnacle Business Systems, 10/2006 to 8/2010; Network Architect at Long Term Care Authority, 5/2000 to 10/2006; Technical Architect at Sprint, 5/1999 to 5/2000; Lead Project Consultant - AT&T at Comsys, 1/1997 to 3/1999",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 118,
+      "date_added": "2025-11-21 09:34:18 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "databank",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP of Hyperscale Solutions",
+      "company": "DataBank",
+      "start": "1/2021",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "VP of Product & Solutions Engineering",
+      "company": "DataBank",
+      "start": "7/2016",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Director, Sales Engineering",
+      "company": "DataBank",
+      "start": "3/2013",
+      "end": "7/2016",
+      "current": false
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "WHIPTAIL",
+      "start": "7/2012",
+      "end": "3/2013",
+      "current": false
+    },
+    {
+      "title": "Sr. Sales Engineer",
+      "company": "ViaWest",
+      "start": "8/2010",
+      "end": "7/2012",
+      "current": false
+    },
+    {
+      "title": "Director of Cloud Services",
+      "company": "Pinnacle Business Systems",
+      "start": "10/2006",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Network Architect",
+      "company": "Long Term Care Authority",
+      "start": "5/2000",
+      "end": "10/2006",
+      "current": false
+    },
+    {
+      "title": "Technical Architect",
+      "company": "Sprint",
+      "start": "5/1999",
+      "end": "5/2000",
+      "current": false
+    },
+    {
+      "title": "Lead Project Consultant - AT&T",
+      "company": "Comsys",
+      "start": "1/1997",
+      "end": "3/1999",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Frisco",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "biography": "Specialties: Data center, VMware, Cloud, Managed Services, SAN, NAS, IBM, HP, Dell, EMC, NetApp",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

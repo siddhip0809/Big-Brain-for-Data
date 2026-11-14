@@ -1,0 +1,69 @@
+{
+  "id": "devin-cleaver-bf27347f",
+  "type": "person",
+  "name": "Devin Cleaver",
+  "current_title": "Senior Director of Development",
+  "current_company": "PointOne",
+  "linkedin": "https://www.linkedin.com/in/devincleaver",
+  "location": "Edmonton, Alberta",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director of Development at PointOne, 1/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 153,
+      "date_added": "2026-01-07 15:53:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "pointone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director of Development",
+      "company": "PointOne",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Edmonton",
+    "region": "Alberta",
+    "country": "Canada",
+    "group": "Canada"
+  },
+  "education": [
+    "Urban Land Economics, The University of British Columbia, 2014 to 2016",
+    "Bachelor of Commerce - BCom, MacEwan University, 2011 to 2014"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "Low Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

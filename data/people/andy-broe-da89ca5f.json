@@ -1,0 +1,137 @@
+{
+  "id": "andy-broe-da89ca5f",
+  "type": "person",
+  "name": "Andy Broe",
+  "current_title": "AI Infrastructure - EMEA/APAC",
+  "current_company": "Google",
+  "location": "Paris, France",
+  "linkedin": "https://www.linkedin.com/in/andy-broe-6a458352",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "AI Infrastructure - EMEA/APAC at Google, 10/2024 to present; AI Infrastructure - EMEA at Google, 9/2021 to 10/2024; Senior Development Manager - Infrastructure/ Data Centers at Vantage, 10/2020 to 9/2021; Senior Development Manager - Infrastructure/ Data Centers at Linesight, 2/2019 to 10/2020; Senior Construction Manager - Stadia at Mace, 6/2018 to 2/2019; Senior Project Engineer - Residential Developments at Ballymore, 5/2017 to 6/2018; Structural Engineer - Residential/ Commercial Developments at Robert Bird Group, 6/2014 to 8/2016; Structural Engineer - Residential/ Commercial Development at Barton Engineers, 3/2013 to 6/2014; Engineering - Infrastructure at RW Armstrong International, 2011 to 2011; Laboratory Technical - Infrastructure at SMMorris Engineering Contractors, 2010 to 2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "CANDIDATE - Withdrew",
+      "rank": 68,
+      "date_added": "2026-08-14 12:28:17 UTC",
+      "date_updated": "2026-08-14 07:33:38 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 251,
+      "date_added": "2026-08-06 15:06:03 UTC",
+      "date_updated": "2026-08-14 07:28:16 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "google",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "AI Infrastructure - EMEA/APAC",
+      "company": "Google",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AI Infrastructure - EMEA",
+      "company": "Google",
+      "start": "9/2021",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager - Infrastructure/ Data Centers",
+      "company": "Vantage",
+      "start": "10/2020",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager - Infrastructure/ Data Centers",
+      "company": "Linesight",
+      "start": "2/2019",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Senior Construction Manager - Stadia",
+      "company": "Mace",
+      "start": "6/2018",
+      "end": "2/2019",
+      "current": false
+    },
+    {
+      "title": "Senior Project Engineer - Residential Developments",
+      "company": "Ballymore",
+      "start": "5/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer - Residential/ Commercial Developments",
+      "company": "Robert Bird Group",
+      "start": "6/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "Structural Engineer - Residential/ Commercial Development",
+      "company": "Barton Engineers",
+      "start": "3/2013",
+      "end": "6/2014",
+      "current": false
+    },
+    {
+      "title": "Engineering - Infrastructure",
+      "company": "RW Armstrong International",
+      "start": "2011",
+      "end": "2011",
+      "current": false
+    },
+    {
+      "title": "Laboratory Technical - Infrastructure",
+      "company": "SMMorris Engineering Contractors",
+      "start": "2010",
+      "end": "2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "France",
+    "group": "France"
+  },
+  "education": [
+    "Bachelor of Engineering (B.Eng.), Civil, Structural and Environmental Engineering, 1st, Trinity College, Dublin, 2008 to 2012",
+    "Leaving Certificate, De La Salle College, Wicklow, Ireland, 2002 to 2008"
+  ],
+  "biography": "Chartered Engineer with a well rounded experience in pre-construction, design and on-site delivery of infrastructure projects across multiple industries. Areas of interest: Renewable Energy, Data Centers.",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 4.0
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "id": "c0d4415f-992a-47a0-ad03-37452399c97d",
+  "type": "search",
+  "name": "VP Delivery",
+  "client_company": "AVK|SEG",
+  "client_company_id": "avk",
+  "status": "active",
+  "project_type": "Retained",
+  "started_at": "2026-09-21",
+  "closed_at": null,
+  "closing_reason": null,
+  "strategy": null,
+  "job_description": null,
+  "job_requirements": null,
+  "placement": null,
+  "pipeline": [
+    {
+      "person": "Danny Cross",
+      "clockwork_person_id": "1a91eba8-3c54-4e2a-be4e-1bbe869ce0be",
+      "brain_person_id": null,
+      "status": "2b. Pitch Call Scheduled",
+      "category": "in-contenders",
+      "rank": 1341
+    },
+    {
+      "person": "Raj Chaladi",
+      "clockwork_person_id": "3f857ede-1401-416a-b3c2-0312a39b9f25",
+      "brain_person_id": null,
+      "status": "2b. Pitch Call Scheduled",
+      "category": "in-contenders",
+      "rank": 1341
+    },
+    {
+      "person": "Al Fernie",
+      "clockwork_person_id": "3c8b51b6-1db3-4a6d-9f62-25fed0d06a6b",
+      "brain_person_id": null,
+      "status": "2a. Interested to Know More",
+      "category": "in-contenders",
+      "rank": 1336
+    },
+    {
+      "person": "Glen London",
+      "clockwork_person_id": "c62c3f3f-21fa-4b57-b7fe-9622de8ffe4c",
+      "brain_person_id": null,
+      "status": "2a. Interested to Know More",
+      "category": "in-contenders",
+      "rank": 1336
+    },
+    {
+      "person": "Bryan Chan",
+      "clockwork_person_id": "6c1e3250-a970-4e2d-9425-95a278de398c",
+      "brain_person_id": null,
+      "status": "2a. Interested to Know More",
+      "category": "in-contenders",
+      "rank": 1336
+    },
+    {
+      "person": "Joseph Braham-Everett",
+      "clockwork_person_id": "a182c3a4-babc-490f-8b6c-fe6271f545ef",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Mary-Ann Clarke",
+      "clockwork_person_id": "b1be4039-c0c0-4a26-847c-7aadd1f32a05",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Javier Zamorano",
+      "clockwork_person_id": "ef444b21-6f53-441b-b18b-78b8fb52a43b",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Benjamin Mawby",
+      "clockwork_person_id": "f568041e-f0e3-4e94-a283-3391c20686da",
+      "brain_person_id": "benjamin-mawby-f568041e",
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Jason Smith",
+      "clockwork_person_id": "07131f83-a14a-4bf6-8712-b5b2ed23e3a2",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "David Newton",
+      "clockwork_person_id": "09b529e4-8ffd-46f5-9445-66faef9aafe8",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Mick Nestor",
+      "clockwork_person_id": "1b31b48e-1881-4b97-a0e9-50b7eb5e6242",
+      "brain_person_id": "mick-nestor-1b31b48e",
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Chris Strong",
+      "clockwork_person_id": "2ed67e55-97a8-463f-b844-89c90b9e6637",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Charles Worcester",
+      "clockwork_person_id": "434b0a16-8239-4aee-915e-31796ffd7327",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Alex Boyden",
+      "clockwork_person_id": "49c4bce3-4ffa-4bb0-9e67-7c7987e6e42f",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Andrew Callaghan",
+      "clockwork_person_id": "d61b36ba-d0b7-4d56-b398-ebceee66ee86",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Mike McCormick",
+      "clockwork_person_id": "e426e3ce-0ded-4e3f-b070-a602f216793a",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Phil Toghill",
+      "clockwork_person_id": "018253f7-d585-4418-8cfc-92231479adef",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Paul Brammer",
+      "clockwork_person_id": "19eac400-3384-4b7c-824e-dd2f549c1dd1",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Cliff Ringland",
+      "clockwork_person_id": "8d6b215c-74cf-4698-9004-4bbfff4e8f6a",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Christopher Aveyard",
+      "clockwork_person_id": "acbd0cb1-7586-4429-9588-d72039c94462",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Michael Burke",
+      "clockwork_person_id": "c14bf933-2470-4c11-8db2-6e2a635296d6",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Neil Murray",
+      "clockwork_person_id": "c1c22090-3e2b-430f-a43f-0db4d43354da",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Andrew Moss",
+      "clockwork_person_id": "ca076e45-265e-4248-9a3c-1ffca1ae97ee",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Andy Bailey",
+      "clockwork_person_id": "399e0ebc-ab50-4e1f-933e-c4dc1446bc0c",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Tyler Squibb",
+      "clockwork_person_id": "445a5bdf-ab8b-43e5-b0c1-3e292990c1a5",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Matthew Sedge",
+      "clockwork_person_id": "677c55a0-a1ff-4445-9640-eacc3121dab9",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Andy Hilton",
+      "clockwork_person_id": "958b5f77-0e00-417a-b83c-34ef4d9cbcbf",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Leon Richardson",
+      "clockwork_person_id": "a543e7f6-3d17-462b-819a-b3611c6c2399",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Jonathan Richards",
+      "clockwork_person_id": "cda67edb-2d64-4a78-808c-ba72edbb7c10",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Reece Hardy",
+      "clockwork_person_id": "ed2f989a-6487-4c0b-96af-ca3e80b6bd82",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Sreekanth A P V",
+      "clockwork_person_id": "09799a28-873b-4e37-b951-0456b8351197",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Marco Lorenzana",
+      "clockwork_person_id": "0ebd6f79-e3c7-4cef-a702-1f086212bdbc",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Warren O'Brien",
+      "clockwork_person_id": "2ab84694-5353-444d-9790-8611b76c3c97",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Chris Rodd",
+      "clockwork_person_id": "552222d1-7a08-448b-9f24-b12bc90f423e",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Jonathan Parkes",
+      "clockwork_person_id": "f8a6a936-9e0d-4337-b823-5c59f347b6b0",
+      "brain_person_id": "jonathan-parkes-f8a6a936",
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Simon Dingle",
+      "clockwork_person_id": "0069a541-297f-4c2b-aee0-edd0de2918de",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Jonathan Smith",
+      "clockwork_person_id": "168a7786-6710-4ede-b7a9-9636aa7a4447",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Denis O'Brien",
+      "clockwork_person_id": "1b9eb09a-c0fa-4e26-ae72-3d009a49e2ae",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Jack van der Linde",
+      "clockwork_person_id": "852d4e20-ad5f-4a05-a101-65d71305a032",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Richard Harvell",
+      "clockwork_person_id": "e2b4b80f-4570-4924-8861-f6dae838e11c",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Luke Allen",
+      "clockwork_person_id": "d756c274-9032-4fb2-9124-8a6c3ef5b1b3",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Paul Pompili",
+      "clockwork_person_id": "2fd6bbe4-d8d5-4ef9-9f78-61ff68a5a72e",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Benita Byrne",
+      "clockwork_person_id": "3af8d91d-1e78-4219-90d2-fbc6109f68d9",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Arthur Tizard",
+      "clockwork_person_id": "4e6ed14c-6ed9-4b9f-9bbd-0186465bca54",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Rob Elsworth",
+      "clockwork_person_id": "8c7be661-0208-468a-b20b-a1310af24ba0",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Steven Wiles",
+      "clockwork_person_id": "0252e90e-9a73-437e-8d9b-5f9f8a8c0c9a",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Steve Hewson",
+      "clockwork_person_id": "2581670a-19ba-4bc8-a193-f24ad2a91729",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Mark Fay",
+      "clockwork_person_id": "bd0f304e-0f03-4888-89a9-f81287e942a6",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Rudi Filmalter",
+      "clockwork_person_id": "d493ad6d-019c-41ca-bbdf-0d3f642e64d6",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "Alan Warner",
+      "clockwork_person_id": "efd47561-1e8a-4a2a-871a-fdce7f0d09c0",
+      "brain_person_id": null,
+      "status": "1a. Pursuing",
+      "category": "in-outreach",
+      "rank": 1269
+    },
+    {
+      "person": "David Mellon",
+      "clockwork_person_id": "326bb49e-ec63-4aad-bedb-169eb36189d0",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137
+    },
+    {
+      "person": "Alex Mariage",
+      "clockwork_person_id": "84633ece-07c2-4701-9aaa-5796947baf20",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137
+    },
+    {
+      "person": "Tony Hayes",
+      "clockwork_person_id": "bcdb8e23-fec7-417a-8557-9cf5f99ae050",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137
+    },
+    {
+      "person": "Nick Marlow",
+      "clockwork_person_id": "d20222f3-39e6-4b83-96c4-562e9b89f643",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137
+    },
+    {
+      "person": "James Halse",
+      "clockwork_person_id": "6c85d021-31a7-4b49-a617-a620326b3272",
+      "brain_person_id": null,
+      "status": "CANDIDATE - Not Interested",
+      "category": "out-withdrew",
+      "rank": 137
+    }
+  ],
+  "counts": {
+    "pipeline": 56,
+    "placed": 0,
+    "active": 51,
+    "out": 5
+  },
+  "sources": [
+    "Clockwork API, pulled 2026-10-30"
+  ],
+  "last_updated": "2026-10-30"
+}

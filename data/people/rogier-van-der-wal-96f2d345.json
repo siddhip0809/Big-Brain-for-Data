@@ -1,0 +1,160 @@
+{
+  "id": "rogier-van-der-wal-96f2d345",
+  "type": "person",
+  "name": "Rogier van der Wal",
+  "current_title": "Senior Director Sales - Scale EMEA",
+  "current_company": "Digital Realty",
+  "location": "Paris,  France",
+  "linkedin": "https://www.linkedin.com/in/rogiervanderwal",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director Sales - Scale EMEA at Digital Realty, 1/2025 to present; Senior Director Sales - MED Region at Digital Realty, 1/2024 to 12/2024; Senior Director, Sales, Marketing and Customer Success at Digital Realty, 3/2021 to 12/2023; Director of Sales, Marketing and Customer Success at Digital Realty, 3/2020 to 3/2023; Director of Sales, Marketing and Service Delivery at Digital Realty, 9/2015 to 3/2020; Vice President Cloud Services at Ipanema Technologies - Now Part of InfoVista, 2/2012 to 8/2015; Sales Director Europe at UBIqube Solutions, 10/2010 to 2/2012; Sales Director Western Europe at UBIqube Solutions, 3/2007 to 11/2010; Area Sales Director and Owner at Click&DECiDE, 6/2004 to 3/2007; Channel Sales Manager at HID Global, 2/2001 to 6/2004; Channel Sales Manager at NetAsq, 11/1999 to 2/2001",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "2b. Pitch Call Scheduled",
+      "rank": 91,
+      "date_added": "2026-08-26 09:14:03 UTC",
+      "date_updated": "2026-08-26 04:16:49 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 35,
+      "date_added": "2026-07-08 17:34:07 UTC",
+      "date_updated": "2026-08-26 04:14:03 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 15,
+      "date_added": "2025-11-06 13:58:16 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "digital-realty",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director Sales - Scale EMEA",
+      "company": "Digital Realty",
+      "start": "1/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director Sales - MED Region",
+      "company": "Digital Realty",
+      "start": "1/2024",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Director, Sales, Marketing and Customer Success",
+      "company": "Digital Realty",
+      "start": "3/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Director of Sales, Marketing and Customer Success",
+      "company": "Digital Realty",
+      "start": "3/2020",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Director of Sales, Marketing and Service Delivery",
+      "company": "Digital Realty",
+      "start": "9/2015",
+      "end": "3/2020",
+      "current": false
+    },
+    {
+      "title": "Vice President Cloud Services",
+      "company": "Ipanema Technologies - Now Part of InfoVista",
+      "start": "2/2012",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "title": "Sales Director Europe",
+      "company": "UBIqube Solutions",
+      "start": "10/2010",
+      "end": "2/2012",
+      "current": false
+    },
+    {
+      "title": "Sales Director Western Europe",
+      "company": "UBIqube Solutions",
+      "start": "3/2007",
+      "end": "11/2010",
+      "current": false
+    },
+    {
+      "title": "Area Sales Director and Owner",
+      "company": "Click&DECiDE",
+      "start": "6/2004",
+      "end": "3/2007",
+      "current": false
+    },
+    {
+      "title": "Channel Sales Manager",
+      "company": "HID Global",
+      "start": "2/2001",
+      "end": "6/2004",
+      "current": false
+    },
+    {
+      "title": "Channel Sales Manager",
+      "company": "NetAsq",
+      "start": "11/1999",
+      "end": "2/2001",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "France",
+    "group": "France"
+  },
+  "education": [
+    "Engineer, Mechanical Engineering & Business Marketing, TUE/Hogeschool Eindhoven"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "rating": 2.0
+  }
+}

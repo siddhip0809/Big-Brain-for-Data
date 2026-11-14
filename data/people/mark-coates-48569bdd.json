@@ -1,0 +1,52 @@
+{
+  "id": "mark-coates-48569bdd",
+  "type": "person",
+  "name": "Mark Coates",
+  "current_title": "GM and VP EMEA, Verkada",
+  "current_company": "Verkada",
+  "linkedin": "https://www.linkedin.com/in/mark-coates-4880115",
+  "location": "London, United Kingdon",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "GM and VP EMEA, Verkada  at Verkada, 1/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Research",
+      "rank": 333,
+      "date_added": "2026-09-01 10:57:11 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "GM and VP EMEA, Verkada ",
+      "company": "Verkada",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "United Kingdon",
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  }
+}

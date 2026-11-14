@@ -1,0 +1,83 @@
+{
+  "id": "collin-scott-68dcd4fe",
+  "type": "person",
+  "name": "Collin Scott",
+  "current_title": "Senior Vice President, Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/collin-scott-31926081",
+  "location": "McKinney, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Vice President, Development at QTS Data Centers, 12/2025 to present; Vice President, Development at QTS Data Centers, 6/2018 to present; Project Manager - Mission Critical at Structure Tone Southwest, 10/2009 to 6/2018; CD Henderson Construction Group, 5/2005 to 8/2009",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 160,
+      "date_added": "2026-07-07 10:50:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President, Development",
+      "company": "QTS Data Centers",
+      "start": "6/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager - Mission Critical",
+      "company": "Structure Tone Southwest",
+      "start": "10/2009",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "company": "CD Henderson Construction Group",
+      "start": "5/2005",
+      "end": "8/2009",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "McKinney",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "University Of Oklahoma, 2001 to 2005",
+    "Construction Science, Construction Management, University Of Oklahoma, 2001 to 2005"
+  ],
+  "biography": "Vice President, Development",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "kkr",
+  "type": "investor",
+  "name": "KKR",
+  "investor_type": "private equity",
+  "hq": null,
+  "aum": null,
+  "investments": [
+    "cyrusone",
+    "virtus-data-centers",
+    "global-technical-realty",
+    "gulf-data-hub",
+    "ovhcloud"
+  ],
+  "notable_deals": null,
+  "contacts": [],
+  "notes": "Added from web research into data center industry ownership, 2026-09-05. Verify against Siddhi's own research.\n\nM&A: acquired STT GDC -- S$13.8B EV (Feb 2026; pending): KKR (75%) + Singtel (25%) take full control of ST Telemedia GDC; ST Telemedia exits. [announced; confidence high; https://www.sttelemediagdc.com/newsroom/kkr-led-consortium-to-fully-acquire-stt-gdc-13.8-billion-enterprise-value]",
+  "sources": [
+    "Web research, 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

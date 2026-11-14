@@ -1,0 +1,39 @@
+{
+  "id": "hydrostor-u-s-development-team",
+  "type": "company",
+  "name": "Hydrostor U.S. development team",
+  "aliases": [],
+  "industry_role": "energy developer",
+  "headquarters": "Toronto, Ontario",
+  "founded": null,
+  "website": "https://www.hydrostor.ca",
+  "linkedin": "https://www.linkedin.com/company/hydrostor/",
+  "headcount": "51-200",
+  "description": null,
+  "facilities": [],
+  "financials": {},
+  "tags": [],
+  "parent_industry": "energy_utilities",
+  "roles": [
+    "energy_developer"
+  ],
+  "source_lists": [
+    "Energy Developer"
+  ],
+  "list_attributes": {
+    "Energy Developer": {
+      "Company type": "Storage Developer",
+      "Utility Scale": "Yes",
+      "Primary Scope": "National",
+      "Energy Mix": "Renewable",
+      "Infrastructure Assets": "Generation Assets",
+      "Relevant to DC Dev": "Yes"
+    }
+  },
+  "dc_exposure_level": "Relevant",
+  "notes": "Siddhi's sheet note: Advanced compressed air energy storage developer. Long-duration storage. Relevant for DC grid-scale backup and storage roles. US development team active.",
+  "sources": [
+    "Siddhi's curated company lists (xlsx), imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

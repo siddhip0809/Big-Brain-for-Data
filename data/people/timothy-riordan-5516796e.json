@@ -1,0 +1,75 @@
+{
+  "id": "timothy-riordan-5516796e",
+  "type": "person",
+  "name": "Timothy Riordan",
+  "current_title": "Vice President, Construction",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/timothy-riordan-ws",
+  "location": "Port Washington, Wisconsin",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President, Construction at Vantage, 10/2025 to present; Senior Project Manager at AMS, 10/2015 to 3/2025; Vice President / Mission Critical Group at AMS, 10/2015 to 11/2025",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 123,
+      "date_added": "2026-07-06 13:05:55 UTC",
+      "date_updated": "2026-07-06 08:05:55 -0500",
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction",
+      "company": "Vantage",
+      "start": "10/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "AMS",
+      "start": "10/2015",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Vice President / Mission Critical Group",
+      "company": "AMS",
+      "start": "10/2015",
+      "end": "11/2025",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Port Washington",
+    "region": "Wisconsin",
+    "country": "United States",
+    "group": "Wisconsin"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Finance, DePaul University - Charles H. Kellstadt Graduate School of Business"
+  ],
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

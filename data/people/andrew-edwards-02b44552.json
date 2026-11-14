@@ -1,0 +1,143 @@
+{
+  "id": "andrew-edwards-02b44552",
+  "type": "person",
+  "name": "Andrew Edwards",
+  "current_title": "Director",
+  "current_company": "GWRE",
+  "linkedin": "https://www.linkedin.com/in/andrew-edwards-42a71223",
+  "location": "United Kingdom",
+  "seniority": "Director",
+  "industry_segment": "Data Centre",
+  "career_history": "Director at GWRE, 1/2026 to present; Strategic Land Acquisition - EMEA at Microsoft, 1/2025 to 1/2026; M&A Strategy EMEA - Lease and Land Development at Microsoft, 10/2023 to 12/2024; Senior Development Manager, Data Centre Development at Microsoft, 6/2020 to 9/2023; Consultant @ Trivandi at AE Associates, 2/2020 to 6/2020; Consultant @ Blenheim Chalcot at AE Associates, 11/2019 to 2/2020; Development Manager, Real Estate Development & Investment at Masdar, 11/2013 to 6/2019; Manager, Property Services at National Bank of Abu Dhabi / Knight Frank, 9/2010 to 11/2013; Associate Director at Cushman & Wakefield, 5/2008 to 8/2010; Senior Surveyor at Cushman & Wakefield, 6/2005 to 5/2008; Land Buyer at St George Central London, 9/2002 to 12/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Culture Fit",
+      "rank": 194,
+      "date_added": "2026-07-29 10:11:45 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "gwre",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "career": [
+    {
+      "title": "Director",
+      "company": "GWRE",
+      "start": "1/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Strategic Land Acquisition - EMEA",
+      "company": "Microsoft",
+      "start": "1/2025",
+      "end": "1/2026",
+      "current": false
+    },
+    {
+      "title": "M&A Strategy EMEA - Lease and Land Development",
+      "company": "Microsoft",
+      "start": "10/2023",
+      "end": "12/2024",
+      "current": false
+    },
+    {
+      "title": "Senior Development Manager, Data Centre Development",
+      "company": "Microsoft",
+      "start": "6/2020",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Trivandi at AE Associates",
+      "start": "2/2020",
+      "end": "6/2020",
+      "current": false
+    },
+    {
+      "title": "Consultant",
+      "company": "Blenheim Chalcot at AE Associates",
+      "start": "11/2019",
+      "end": "2/2020",
+      "current": false
+    },
+    {
+      "title": "Development Manager, Real Estate Development & Investment",
+      "company": "Masdar",
+      "start": "11/2013",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Manager, Property Services",
+      "company": "National Bank of Abu Dhabi / Knight Frank",
+      "start": "9/2010",
+      "end": "11/2013",
+      "current": false
+    },
+    {
+      "title": "Associate Director",
+      "company": "Cushman & Wakefield",
+      "start": "5/2008",
+      "end": "8/2010",
+      "current": false
+    },
+    {
+      "title": "Senior Surveyor",
+      "company": "Cushman & Wakefield",
+      "start": "6/2005",
+      "end": "5/2008",
+      "current": false
+    },
+    {
+      "title": "Land Buyer",
+      "company": "St George Central London",
+      "start": "9/2002",
+      "end": "12/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "MSc Land Management, Real Estate, University of Reading, 2001 to 2002",
+    "Bachelor of Science (B.Sc.), Town Planning, University of Birmingham, 1998 to 2001"
+  ],
+  "biography": "Significant experience in property development, property finance, pre-development advisory, design review, valuation, property/asset management, multidisciplinary project management and land acquisition both in Europe and the Middle East",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "High Confidence"
+    },
+    "top_tier": [
+      "Development",
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "spoken_with_before": true,
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

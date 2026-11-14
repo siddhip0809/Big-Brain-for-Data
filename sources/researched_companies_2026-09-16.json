@@ -1,0 +1,1629 @@
+{
+ "companies": [
+  {
+   "name": "Mace",
+   "aliases": [],
+   "roles": [
+    "consultancy",
+    "general_contractor"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — programme & project management, cost management",
+   "headquarters": "London, UK",
+   "website": "https://www.macegroup.com",
+   "description": "Data-centres market page; Head of Datacentres and Critical Facilities appointed for Asia Pacific; demerged from Mace Group and majority-owned by Goldman Sachs Alternatives since 5 March 2026 (c.US$1bn revenue 2025).",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data-centres market page; Head of Datacentres and Critical Facilities appointed for Asia Pacific; demerged from Mace Group and majority-owned by Goldman Sachs Alternatives since 5 March 2026 (c.US$1bn revenue 2025).",
+   "sources": [
+    "https://www.macegroup.com/markets/technology-and-manufacturing/data-centres/",
+    "https://www.macegroup.com"
+   ]
+  },
+  {
+   "name": "PM Group",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — programme & project management, design / MEP engineering",
+   "headquarters": "Dublin, Ireland",
+   "website": "https://www.pmgroup-global.com",
+   "description": "Data Centers & Mission Critical Facilities sector and a dedicated Data Center PMC service page; has a Technical Director – Data Centres and recruits DC project directors in Frankfurt/Cork.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers & Mission Critical Facilities sector and a dedicated Data Center PMC service page; has a Technical Director – Data Centres and recruits DC project directors in Frankfurt/Cork.",
+   "sources": [
+    "https://www.pmgroup-global.com/what-we-do/our-sectors/data-centres/",
+    "https://www.pmgroup-global.com"
+   ]
+  },
+  {
+   "name": "Gardiner & Theobald",
+   "aliases": [
+    "G&T"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — cost management, programme & project management",
+   "headquarters": "London, UK",
+   "website": "https://www.gardiner.com",
+   "description": "Mission Critical sector page; project pages for a 40MW new-build DC in central London for a colocation provider (cost + PM), a remote DC (PM + cost), Data Centre Hayes and Deloitte data-centre strategy; a partner leads the DC sector.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Mission Critical sector page; project pages for a 40MW new-build DC in central London for a colocation provider (cost + PM), a remote DC (PM + cost), Data Centre Hayes and Deloitte data-centre strategy; a partner leads the DC sector.",
+   "sources": [
+    "https://www.gardiner.com/sectors/mission-critical",
+    "https://www.gardiner.com"
+   ]
+  },
+  {
+   "name": "AtkinsRéalis",
+   "aliases": [
+    "Faithful+Gould"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — programme & project management, cost management, design / MEP engineering",
+   "headquarters": "Montreal, Canada",
+   "website": "https://www.atkinsrealis.com",
+   "description": "Faithful+Gould merged into the AtkinsRéalis brand in Oct 2023; Mission Critical team with an Operations Director / commercial and PM lead; data-centres market page and CORE Campus data-centre project.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Faithful+Gould merged into the AtkinsRéalis brand in Oct 2023; Mission Critical team with an Operations Director / commercial and PM lead; data-centres market page and CORE Campus data-centre project.",
+   "sources": [
+    "https://atkinsrealis.ie/markets-services/data-centres/",
+    "https://www.atkinsrealis.com"
+   ]
+  },
+  {
+   "name": "MGAC",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — programme & project management, cost management",
+   "headquarters": null,
+   "website": "https://www.mgac.com",
+   "description": "'Critical Environments' team manages data-center and hospital construction; multiple DC construction PM and cost roles advertised (incl. Columbus, Ohio); two Executive Directors of Critical Environments identified.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. 'Critical Environments' team manages data-center and hospital construction; multiple DC construction PM and cost roles advertised (incl. Columbus, Ohio); two Executive Directors of Critical Environments identified.",
+   "sources": [
+    "https://www.mgac.com/careers/4242653009/",
+    "https://www.mgac.com"
+   ]
+  },
+  {
+   "name": "KUA Group",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "Frankfurt, Germany",
+   "website": null,
+   "description": "Frankfurt-based data-center architecture/design/general-planning specialist acquired by Arcadis in 2025; won four DC projects with Arcadis post-deal.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Frankfurt-based data-center architecture/design/general-planning specialist acquired by Arcadis in 2025; won four DC projects with Arcadis post-deal.",
+   "sources": [
+    "https://www.arcadis.com/en/news/global/2025/arcadis-completes-acquisition-of-kua-group/"
+   ]
+  },
+  {
+   "name": "kW Mission Critical Engineering",
+   "aliases": [
+    "kW MCE"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering, power & grid advisory",
+   "headquarters": "Troy, New York, United States",
+   "website": null,
+   "description": "175-person 100%-data-center MEP engineering firm; acquired by WSP, closed 24 Feb 2021; now branded 'kW Mission Critical Engineering, Member of WSP'.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. 175-person 100%-data-center MEP engineering firm; acquired by WSP, closed 24 Feb 2021; now branded 'kW Mission Critical Engineering, Member of WSP'.",
+   "sources": [
+    "https://www.wsp.com/en-us/news/2021/wsp-acquires-kw-mission-critical-engineering-and-tk1sc-in-the-united-states"
+   ]
+  },
+  {
+   "name": "Cundall",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "London, United Kingdom",
+   "website": "https://www.cundall.com",
+   "description": "Data centres sector page; four data-centre Associate Directors promoted to Partner (2026); named Data Centre Consultancy of the Year at 2025 Data Centre Review Excellence Awards; joined German Datacenter Association and SpainDC; building DC team in Bucharest.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data centres sector page; four data-centre Associate Directors promoted to Partner (2026); named Data Centre Consultancy of the Year at 2025 Data Centre Review Excellence Awards; joined German Datacenter Association and SpainDC; building DC team in Bucharest.",
+   "sources": [
+    "https://datacentre.solutions/news/70222/cundall-appoints-four-new-partners-in-data-centre-sector",
+    "https://www.cundall.com"
+   ]
+  },
+  {
+   "name": "Buro Happold",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, design / MEP engineering",
+   "headquarters": "Bath, United Kingdom",
+   "website": "https://www.burohappold.com",
+   "description": "Data centre advisory specialism page; 'Reimagining data centres' in The Edit 2025; advisory work with Thames Estuary Growth Board and GLA on data centres.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data centre advisory specialism page; 'Reimagining data centres' in The Edit 2025; advisory work with Thames Estuary Growth Board and GLA on data centres.",
+   "sources": [
+    "https://www.burohappold.com/specialisms/data-centre-advisory/",
+    "https://www.burohappold.com"
+   ]
+  },
+  {
+   "name": "Hoare Lea",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "Bristol, United Kingdom",
+   "website": "https://hoarelea.com",
+   "description": "Data Centre & Mission Critical sector page; recruiting Associate/Associate Director Mission Critical and Data Centres.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Centre & Mission Critical sector page; recruiting Associate/Associate Director Mission Critical and Data Centres.",
+   "sources": [
+    "https://hoarelea.com/sector/data-centre-and-mission-critical/",
+    "https://hoarelea.com"
+   ]
+  },
+  {
+   "name": "Mott MacDonald",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — programme & project management, strategy & advisory, design / MEP engineering",
+   "headquarters": "Croydon, United Kingdom",
+   "website": "https://www.mottmac.com",
+   "description": "Hired Vartan Vartanian as UK and Europe data centre lead (director, advisory and programme delivery), newly created role based in Madrid.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Hired Vartan Vartanian as UK and Europe data centre lead (director, advisory and programme delivery), newly created role based in Madrid.",
+   "sources": [
+    "https://www.mottmac.com/en/news/mott-macdonald-hires-data-centre-lead-for-uk-and-europe/",
+    "https://www.mottmac.com"
+   ]
+  },
+  {
+   "name": "Syska Hennessy Group",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "New York, United States",
+   "website": "https://syska.com",
+   "description": "Critical Facilities sector; ranked #1 data center designer in ENR Top 500; CPS Energy Mission Critical Control and Data Center project; mission-critical BD hire in Chicago.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Critical Facilities sector; ranked #1 data center designer in ENR Top 500; CPS Energy Mission Critical Control and Data Center project; mission-critical BD hire in Chicago.",
+   "sources": [
+    "https://syska.com/sectors/critical-facilities/",
+    "https://syska.com"
+   ]
+  },
+  {
+   "name": "Ramboll",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering, strategy & advisory",
+   "headquarters": "Copenhagen, Denmark",
+   "website": "https://www.ramboll.com",
+   "description": "Acquired EYP Mission Critical Facilities (Feb 2022) and i3 Solutions Group (2024); stated 100 dedicated data centre experts after EYP and a $60m data-center consulting revenue target for 2025.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Acquired EYP Mission Critical Facilities (Feb 2022) and i3 Solutions Group (2024); stated 100 dedicated data centre experts after EYP and a $60m data-center consulting revenue target for 2025.",
+   "sources": [
+    "https://www.ramboll.com/news/ramboll-acquires-leading-data-centre-consulting-company",
+    "https://www.ramboll.com"
+   ]
+  },
+  {
+   "name": "i3 Solutions Group",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "London, United Kingdom",
+   "website": null,
+   "description": "Specialist data centre MEP consulting engineers founded by Ed Ansett; UK MD Luke Neville; acquired by Ramboll 2024, now 'i3 Solutions Group, Part of Ramboll'.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Specialist data centre MEP consulting engineers founded by Ed Ansett; UK MD Luke Neville; acquired by Ramboll 2024, now 'i3 Solutions Group, Part of Ramboll'.",
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/ramboll-acquires-data-center-consulting-firm-i3-solutions/"
+   ]
+  },
+  {
+   "name": "chapmanbdsp",
+   "aliases": [
+    "ChapmanBDSP"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "London, United Kingdom",
+   "website": null,
+   "description": "Mission Critical team; doubled dedicated data centre team from 9 to 18+ in a year (Feb 2026); three Mission Critical appointments announced Jan 2026.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Mission Critical team; doubled dedicated data centre team from 9 to 18+ in a year (Feb 2026); three Mission Critical appointments announced Jan 2026.",
+   "sources": [
+    "https://bdcmagazine.com/2026/02/chapmanbdsp-doubles-its-data-centre-team-as-project-demand-grows-and-international-ambitions-accelerates/"
+   ]
+  },
+  {
+   "name": "RED Engineering Design",
+   "aliases": [
+    "Red Engineering"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "United Kingdom",
+   "website": "https://www.red-eng.com",
+   "description": "Data centre design consultancy owned by ENGIE Group; Mark Smith named CEO effective 1 Jul 2026 to drive data centre and AI infrastructure expansion; expanded into 12 additional geographies.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data centre design consultancy owned by ENGIE Group; Mark Smith named CEO effective 1 Jul 2026 to drive data centre and AI infrastructure expansion; expanded into 12 additional geographies.",
+   "sources": [
+    "https://thetechcapital.com/red-engineering-design-appoints-new-ceo-to-drive-data-centre-and-ai-infrastructure-expansion/",
+    "https://www.red-eng.com"
+   ]
+  },
+  {
+   "name": "HDR",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering, power & grid advisory",
+   "headquarters": "Omaha, Nebraska, United States",
+   "website": "https://www.hdrinc.com",
+   "description": "Data Centers market page (claims #1 data center architecture firm ranking); acquired UK mission-critical engineer Hurley Palmer Flatt Group in 2019; hiring regional data center/mission critical principals and power generation data center leads.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers market page (claims #1 data center architecture firm ranking); acquired UK mission-critical engineer Hurley Palmer Flatt Group in 2019; hiring regional data center/mission critical principals and power generation data center leads.",
+   "sources": [
+    "https://www.hdrinc.com/markets/techmediatelecom-data/data-centers",
+    "https://www.hdrinc.com"
+   ]
+  },
+  {
+   "name": "Gensler",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "San Francisco, United States",
+   "website": "https://www.gensler.com",
+   "description": "Critical Facilities practice (data centers); Wonder Valley Data Centre Park and Confidential Cloud Complex Data Centre projects; hiring Project Architect - Data Centres.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Critical Facilities practice (data centers); Wonder Valley Data Centre Park and Confidential Cloud Complex Data Centre projects; hiring Project Architect - Data Centres.",
+   "sources": [
+    "https://www.gensler.com/expertise/critical-facilities",
+    "https://www.gensler.com"
+   ]
+  },
+  {
+   "name": "Sheehan Nagle Hartray Architects",
+   "aliases": [
+    "SNHA"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "Chicago, United States",
+   "website": "https://www.snh-a.com",
+   "description": "Mission-critical / data center architecture, offices Chicago and London; acquired by Woolpert Oct 2022, now 'a Woolpert Company'.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Mission-critical / data center architecture, offices Chicago and London; acquired by Woolpert Oct 2022, now 'a Woolpert Company'.",
+   "sources": [
+    "https://www.prnewswire.com/news-releases/woolpert-acquires-sheehan-nagle-hartray-architects-global-experts-in-mission-critical-design-301653032.html",
+    "https://www.snh-a.com"
+   ]
+  },
+  {
+   "name": "Salute",
+   "aliases": [
+    "Salute Mission Critical"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, design / MEP engineering, programme & project management",
+   "headquarters": "United States",
+   "website": "https://salute.com",
+   "description": "Data center lifecycle services; acquired Keysource Group (announced 28 Jan 2025, EMEA workforce to 500+) and Northshore (Nov 2025, automation/sustainability engineering); new EMEA leadership team drawn from Keysource.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data center lifecycle services; acquired Keysource Group (announced 28 Jan 2025, EMEA workforce to 500+) and Northshore (Nov 2025, automation/sustainability engineering); new EMEA leadership team drawn from Keysource.",
+   "sources": [
+    "https://salute.com/resources/news/salute-acquires-northshore/",
+    "https://salute.com"
+   ]
+  },
+  {
+   "name": "Uptime Institute",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory",
+   "headquarters": "New York, United States",
+   "website": "https://uptimeinstitute.com",
+   "description": "Tier certification, professional services and research (Global Data Center Survey 2025, data center staffing forecast). No named leadership appointment surfaced.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Tier certification, professional services and research (Global Data Center Survey 2025, data center staffing forecast). No named leadership appointment surfaced.",
+   "sources": [
+    "https://uptimeinstitute.com/professional-services",
+    "https://uptimeinstitute.com"
+   ]
+  },
+  {
+   "name": "Colliers Engineering & Design",
+   "aliases": [
+    "MG2 | Colliers Engineering & Design"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "United States",
+   "website": "https://colliersengineering.com",
+   "description": "Data Centers market and practice pages; national architecture market lead for data centers named on site.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers market and practice pages; national architecture market lead for data centers named on site.",
+   "sources": [
+    "https://colliersengineering.com/markets/data-centers/",
+    "https://colliersengineering.com"
+   ]
+  },
+  {
+   "name": "Introba",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "United States",
+   "website": "https://www.introba.com",
+   "description": "Mission Critical + Data Center Solutions practice; VP Data Center Practice Undra Patrick; Atlanta data center commentary.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Mission Critical + Data Center Solutions practice; VP Data Center Practice Undra Patrick; Atlanta data center commentary.",
+   "sources": [
+    "https://www.introba.com/data-centers-mission-critical",
+    "https://www.introba.com"
+   ]
+  },
+  {
+   "name": "Vanderweil Engineers",
+   "aliases": [
+    "Vanderweil"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering, power & grid advisory",
+   "headquarters": "Boston, United States",
+   "website": "https://www.vanderweil.com",
+   "description": "Mission critical practice: 225-person data center team, 6.48GW of facilities engineered and 7.5GW of campuses master-planned since 2013; Markley Group colocation project.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Mission critical practice: 225-person data center team, 6.48GW of facilities engineered and 7.5GW of campuses master-planned since 2013; Markley Group colocation project.",
+   "sources": [
+    "https://www.vanderweil.com/projects/mission-critical",
+    "https://www.vanderweil.com"
+   ]
+  },
+  {
+   "name": "Deerns",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "Rijswijk, Netherlands",
+   "website": "https://www.deerns.com",
+   "description": "Global Data Centres division with Division Director, Sector Director and country Unit Directors (France, Brazil) appointed 2025-2026.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Global Data Centres division with Division Director, Sector Director and country Unit Directors (France, Brazil) appointed 2025-2026.",
+   "sources": [
+    "https://www.deerns.com/news/christopher-leahy-promoted-to-sector-director-data-centres/",
+    "https://www.deerns.com"
+   ]
+  },
+  {
+   "name": "Sweco",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering, programme & project management",
+   "headquarters": "Stockholm, Sweden",
+   "website": "https://www.sweco.fi",
+   "description": "Data center design offering in Finland and Denmark with named business leads; hiring Project Manager Data Centers in Belgium.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data center design offering in Finland and Denmark with named business leads; hiring Project Manager Data Centers in Belgium.",
+   "sources": [
+    "https://www.sweco.fi/en/data-center-design/",
+    "https://www.sweco.fi"
+   ]
+  },
+  {
+   "name": "Royal HaskoningDHV",
+   "aliases": [
+    "Haskoning"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "Amersfoort, Netherlands",
+   "website": "https://www.haskoning.com",
+   "description": "Data centres market; Poland Data Centre Director; Data Centres Competence team recruiting; 2023 annual report data centres section.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data centres market; Poland Data Centre Director; Data Centres Competence team recruiting; 2023 annual report data centres section.",
+   "sources": [
+    "https://www.haskoning.com/en/markets/data-centres/keeping-data-centres-up-to-date",
+    "https://www.haskoning.com"
+   ]
+  },
+  {
+   "name": "Drees & Sommer",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — programme & project management, cost management, strategy & advisory",
+   "headquarters": "Stuttgart, Germany",
+   "website": "https://www.dreso.uk",
+   "description": "UK data centres (TMT) strategy and delivery sector page; acquired RSP Consulting Engineers (data centres among its sectors) Mar 2025.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. UK data centres (TMT) strategy and delivery sector page; acquired RSP Consulting Engineers (data centres among its sectors) Mar 2025.",
+   "sources": [
+    "https://www.dreso.uk/sectors/data-centres",
+    "https://www.dreso.uk"
+   ]
+  },
+  {
+   "name": "Artelia",
+   "aliases": [
+    "Artelia Group"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering, programme & project management",
+   "headquarters": "Paris, France",
+   "website": "https://www.arteliagroup.com",
+   "description": "Normandie Data Center project: upgrade and refurbishment of a former bank data centre in Val-de-Reuil for Nation Data Center (NDC).",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Normandie Data Center project: upgrade and refurbishment of a former bank data centre in Val-de-Reuil for Nation Data Center (NDC).",
+   "sources": [
+    "https://www.arteliagroup.com/project/bnp-paribas-marne-est/",
+    "https://www.arteliagroup.com"
+   ]
+  },
+  {
+   "name": "Black & White Engineering",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "United Kingdom",
+   "website": "https://bw-engineering.com",
+   "description": "Data centre design MEP consultancy, 1,000+ staff across 24 locations; Apr 2026 CTO and Global Director of Technology & Innovation appointments.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data centre design MEP consultancy, 1,000+ staff across 24 locations; Apr 2026 CTO and Global Director of Technology & Innovation appointments.",
+   "sources": [
+    "https://datacentremagazine.com/news/what-black-whites-cto-move-means-for-data-centres",
+    "https://bw-engineering.com"
+   ]
+  },
+  {
+   "name": "HKS Architects",
+   "aliases": [
+    "HKS"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering",
+   "headquarters": "Dallas, United States",
+   "website": "https://www.hksinc.com",
+   "description": "Mission Critical architecture practice page. No named people surfaced.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Mission Critical architecture practice page. No named people surfaced.",
+   "sources": [
+    "https://www.hksinc.com/what-we-do/practices/mission-critical/",
+    "https://www.hksinc.com"
+   ]
+  },
+  {
+   "name": "Sargent & Lundy",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — power & grid advisory, design / MEP engineering, strategy & advisory",
+   "headquarters": "Chicago, USA",
+   "website": "https://www.sargentlundy.com",
+   "description": "Dedicated Data Centers services page plus project profiles and an 'Accelerating Data Center Siting Approvals' piece; energy consulting & planning group supports DC growth.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Dedicated Data Centers services page plus project profiles and an 'Accelerating Data Center Siting Approvals' piece; energy consulting & planning group supports DC growth.",
+   "sources": [
+    "https://www.sargentlundy.com/services/data-centers/",
+    "https://www.sargentlundy.com"
+   ]
+  },
+  {
+   "name": "Electric Power Engineers",
+   "aliases": [
+    "EPE Consulting"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — power & grid advisory",
+   "headquarters": null,
+   "website": "https://epeconsulting.com",
+   "description": "Data Centers industry page; ERCOT large-load interconnection process navigation, DWG Large Load Survey services, PSSE/PSCAD large-load models, WECC large-load interconnections.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers industry page; ERCOT large-load interconnection process navigation, DWG Large Load Survey services, PSSE/PSCAD large-load models, WECC large-load interconnections.",
+   "sources": [
+    "https://epeconsulting.com/industries/data-centers",
+    "https://epeconsulting.com"
+   ]
+  },
+  {
+   "name": "ICF",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://www.icf.com",
+   "description": "Published US electricity demand growth report (25% by 2030) driven by data centers; warned grid deliverability may limit AI-era growth.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Published US electricity demand growth report (25% by 2030) driven by data centers; warned grid deliverability may limit AI-era growth.",
+   "sources": [
+    "https://www.icf.com/insights/energy/impact-rapid-demand-growth-us",
+    "https://www.icf.com"
+   ]
+  },
+  {
+   "name": "Grid Strategies",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://gridstrategiesllc.com",
+   "description": "Annual National Load Growth Report ('Strategic Industries Surging: Driving US Power Demand'); data centers ~90 GW of 166 GW forecast growth to 2030.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Annual National Load Growth Report ('Strategic Industries Surging: Driving US Power Demand'); data centers ~90 GW of 166 GW forecast growth to 2030.",
+   "sources": [
+    "https://gridstrategiesllc.com/wp-content/uploads/Grid-Strategies-National-Load-Growth-Report-2025.pdf",
+    "https://gridstrategiesllc.com"
+   ]
+  },
+  {
+   "name": "The Brattle Group",
+   "aliases": [
+    "Brattle"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://www.brattle.com",
+   "description": "Large-load / data-center studies: accelerating generation additions for large loads (Oct 2025), Iowa & Wisconsin large-user cost-allocation analysis (Jun 2026), grid-utilisation savings report.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Large-load / data-center studies: accelerating generation additions for large loads (Oct 2025), Iowa & Wisconsin large-user cost-allocation analysis (Jun 2026), grid-utilisation savings report.",
+   "sources": [
+    "https://www.brattle.com/wp-content/uploads/2025/10/Accelerating-Generation-Additions-to-Serve-Large-Load-Customers.pdf",
+    "https://www.brattle.com"
+   ]
+  },
+  {
+   "name": "Charles River Associates",
+   "aliases": [
+    "CRA"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://www.crai.com",
+   "description": "Energy practice Data Centers page; engagements on transmission headroom for DC interconnection, 24/7 CFE pathways, DC load forecasting in IRPs, DC tariff design; Oct 2024 tariff-design insight.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Energy practice Data Centers page; engagements on transmission headroom for DC interconnection, 24/7 CFE pathways, DC load forecasting in IRPs, DC tariff design; Oct 2024 tariff-design insight.",
+   "sources": [
+    "https://www.crai.com/industries/energy/data-centers/",
+    "https://www.crai.com"
+   ]
+  },
+  {
+   "name": "Guidehouse",
+   "aliases": [
+    "Guidehouse Insights"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://guidehouse.com",
+   "description": "Guidehouse Insights report 'Data Centers: Anticipating Changes in the Power Ecosystem' (Sep 2021); Global Energy Providers practice re-led Feb 2025 (no DC-specific appointment found).",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Guidehouse Insights report 'Data Centers: Anticipating Changes in the Power Ecosystem' (Sep 2021); Global Energy Providers practice re-led Feb 2025 (no DC-specific appointment found).",
+   "sources": [
+    "https://www.businesswire.com/news/home/20210930005007/en/Guidehouse-Insights-Report-Finds-New-Data-Center-Tools-Can-Enable-Power-Markets-to-Challenge-IT-Norms",
+    "https://guidehouse.com"
+   ]
+  },
+  {
+   "name": "Enverus",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://www.enverus.com",
+   "description": "Data Center segment and Data Center Siting Solutions; 2026 Interconnection Queue Outlook; 'Time to Power' research/webinar on data-center energization.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Center segment and Data Center Siting Solutions; 2026 Interconnection Queue Outlook; 'Time to Power' research/webinar on data-center energization.",
+   "sources": [
+    "https://www.enverus.com/segments/data-center/",
+    "https://www.enverus.com"
+   ]
+  },
+  {
+   "name": "PA Consulting",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": "London, UK",
+   "website": "https://www.paconsulting.com",
+   "description": "Data center advisory page: due diligence for DC developers (power cost forecasting, utility agreements), advised a Midwest utility on attracting data centers, tariffs and energization-ready sites.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data center advisory page: due diligence for DC developers (power cost forecasting, utility agreements), advised a Midwest utility on attracting data centers, tariffs and energization-ready sites.",
+   "sources": [
+    "https://www.paconsulting.com/industries/energy-and-utilities/data-centers",
+    "https://www.paconsulting.com"
+   ]
+  },
+  {
+   "name": "Baringa",
+   "aliases": [
+    "Baringa Partners"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": "London, UK",
+   "website": "https://www.baringa.com",
+   "description": "Data centre market scanning report; case study 'Self-generation strategy for a major data centre'; CEFC-commissioned Australian data-centre energy report; Bisnow piece on DCs underwriting wind.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data centre market scanning report; case study 'Self-generation strategy for a major data centre'; CEFC-commissioned Australian data-centre energy report; Bisnow piece on DCs underwriting wind.",
+   "sources": [
+    "https://www.baringa.com/en/insights/decarbonising-complex-industries/data-centre-market-scanning-report/",
+    "https://www.baringa.com"
+   ]
+  },
+  {
+   "name": "Quanta Technology",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — power & grid advisory",
+   "headquarters": null,
+   "website": "https://quanta-technology.com",
+   "description": "'Data Center Solutions for Developers and Utilities' page; CIGRE US paper 'Best Practices for Large Load Interconnections: A North American Perspective on Data Centers'. Subsidiary of Quanta Services.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. 'Data Center Solutions for Developers and Utilities' page; CIGRE US paper 'Best Practices for Large Load Interconnections: A North American Perspective on Data Centers'. Subsidiary of Quanta Services.",
+   "sources": [
+    "https://quanta-technology.com/data-centers/",
+    "https://quanta-technology.com"
+   ]
+  },
+  {
+   "name": "Wood Mackenzie",
+   "aliases": [
+    "WoodMac"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": "Edinburgh, UK",
+   "website": "https://www.woodmac.com",
+   "description": "Data Centres topic; quarterly US data center pipeline reports (241 GW pipeline end-2025); Grid Transformation & Large Loads research team; DC electrical equipment market to $65B report.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Centres topic; quarterly US data center pipeline reports (241 GW pipeline end-2025); Grid Transformation & Large Loads research team; DC electrical equipment market to $65B report.",
+   "sources": [
+    "https://www.woodmac.com/market-insights/topics/data-centres/",
+    "https://www.woodmac.com"
+   ]
+  },
+  {
+   "name": "Aurora Energy Research",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": "Oxford, UK",
+   "website": "https://auroraer.com",
+   "description": "Data-centre market reports for US, UK, Iberia, France, PG&E; podcasts EP.249/EP.281 on data-center load growth; webinar on batteries accelerating US DC deployment.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data-centre market reports for US, UK, Iberia, France, PG&E; podcasts EP.249/EP.281 on data-center load growth; webinar on batteries accelerating US DC deployment.",
+   "sources": [
+    "https://auroraer.com/resources/aurora-insights/market-reports/data-centers-and-their-impact-on-the-us-power-market",
+    "https://auroraer.com"
+   ]
+  },
+  {
+   "name": "POWER Engineers",
+   "aliases": [
+    "POWER Engineers (WSP)"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — power & grid advisory, design / MEP engineering",
+   "headquarters": "Hailey, Idaho, USA",
+   "website": "https://pages.powereng.com/data-centers",
+   "description": "'End-to-End Energy Solutions for Modern Data Centers' page; 1,000+ mission-critical projects; acquired by WSP 1 Oct 2024.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. 'End-to-End Energy Solutions for Modern Data Centers' page; 1,000+ mission-critical projects; acquired by WSP 1 Oct 2024.",
+   "sources": [
+    "https://pages.powereng.com/data-centers",
+    "https://pages.powereng.com/data-centers"
+   ]
+  },
+  {
+   "name": "Leidos",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — power & grid advisory, design / MEP engineering",
+   "headquarters": "Reston, Virginia, USA",
+   "website": "https://www.leidos.com/markets/energy/power-delivery",
+   "description": "Power Delivery group supports utilities and developers on hyperscale DC interconnection (system impact studies, dynamic modelling, mega-substations); hiring 'Senior Power System Engineer - Renewable & Data Center Integration'.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Power Delivery group supports utilities and developers on hyperscale DC interconnection (system impact studies, dynamic modelling, mega-substations); hiring 'Senior Power System Engineer - Renewable & Data Center Integration'.",
+   "sources": [
+    "https://www.leidos.com/insights/leidos-helps-utilities-and-developers-tackle-ai-data-centers-power-demands",
+    "https://www.leidos.com/markets/energy/power-delivery"
+   ]
+  },
+  {
+   "name": "Ulteig",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — power & grid advisory, design / MEP engineering",
+   "headquarters": null,
+   "website": "https://ulteig.com",
+   "description": "Data Center Solutions and Mission Critical pages; acquired Affinity Energy (2024) adding large US data-center project experience.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Center Solutions and Mission Critical pages; acquired Affinity Energy (2024) adding large US data-center project experience.",
+   "sources": [
+    "https://ulteig.com/data-centers/",
+    "https://ulteig.com"
+   ]
+  },
+  {
+   "name": "Energy and Environmental Economics",
+   "aliases": [
+    "E3"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": "San Francisco, USA",
+   "website": "https://www.ethree.com",
+   "description": "Whitepapers 'Forecasting Large Loads in the Age of AI and Data Centers' (Dec 2025), 'Tailored for Scale' ratepayer study (Dec 2025), 'Load Growth Is Here to Stay, but Are Data Centers?' (2024), 2026 rate-driver paper.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Whitepapers 'Forecasting Large Loads in the Age of AI and Data Centers' (Dec 2025), 'Tailored for Scale' ratepayer study (Dec 2025), 'Load Growth Is Here to Stay, but Are Data Centers?' (2024), 2026 rate-driver paper.",
+   "sources": [
+    "https://www.ethree.com/forecasting-large-loads/",
+    "https://www.ethree.com"
+   ]
+  },
+  {
+   "name": "Ascend Analytics",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": "Boulder, USA",
+   "website": "https://www.ascendanalytics.com",
+   "description": "Team advises hyperscalers on DC site selection and power supply design; blogs on DC power tradeoffs and utility preparation for DC load growth.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Team advises hyperscalers on DC site selection and power supply design; blogs on DC power tradeoffs and utility preparation for DC load growth.",
+   "sources": [
+    "https://www.ascendanalytics.com/blog/data-centers-the-abcs-for-energy-market-participants",
+    "https://www.ascendanalytics.com"
+   ]
+  },
+  {
+   "name": "Tractebel",
+   "aliases": [
+    "Tractebel ENGIE"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — design / MEP engineering, power & grid advisory",
+   "headquarters": "Brussels, Belgium",
+   "website": "https://tractebel-engie.com",
+   "description": "Data-centres market incl. hyperscale design (via RED, acquired 2016); grid integration & compliance studies and power system planning practice.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data-centres market incl. hyperscale design (via RED, acquired 2016); grid integration & compliance studies and power system planning practice.",
+   "sources": [
+    "https://tractebel-engie.com/en/markets/data-centres/",
+    "https://tractebel-engie.com"
+   ]
+  },
+  {
+   "name": "Fichtner",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — power & grid advisory, design / MEP engineering, strategy & advisory",
+   "headquarters": "Stuttgart, Germany",
+   "website": "https://www.fichtner.de",
+   "description": "Data Centers business sector incl. power supply connections and waste-heat interfaces; Fichtner IT Consulting system study on German energy infrastructure incl. data centres.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Centers business sector incl. power supply connections and waste-heat interfaces; Fichtner IT Consulting system study on German energy infrastructure incl. data centres.",
+   "sources": [
+    "https://www.fichtner.de/en/business-sectors/consulting-it/data-centers",
+    "https://www.fichtner.de"
+   ]
+  },
+  {
+   "name": "Newmark",
+   "aliases": [],
+   "roles": [
+    "consultancy",
+    "real_estate_developer"
+   ],
+   "parent_industry": "real_estate",
+   "industry_role": "consultancy — capital markets, valuation, development advisory, strategy & advisory",
+   "headquarters": null,
+   "website": "https://www.nmrk.com",
+   "description": "Data Center & Digital Infrastructure Capital Markets group launched Aug 2023; Valuation & Advisory data center specialty practice; European data centre team expanded Jan 2026.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data Center & Digital Infrastructure Capital Markets group launched Aug 2023; Valuation & Advisory data center specialty practice; European data centre team expanded Jan 2026.",
+   "sources": [
+    "https://www.nmrk.com/services/property-types/data-center",
+    "https://www.nmrk.com"
+   ]
+  },
+  {
+   "name": "Colliers",
+   "aliases": [],
+   "roles": [
+    "consultancy",
+    "real_estate_developer"
+   ],
+   "parent_industry": "real_estate",
+   "industry_role": "consultancy — transactions, strategy & advisory, research",
+   "headquarters": null,
+   "website": "https://www.colliers.com",
+   "description": "Americas Data Center Advisory led from 2022 by an ex-JLL/Digital Realty hire; publishes annual Data Center Marketplace report.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Americas Data Center Advisory led from 2022 by an ex-JLL/Digital Realty hire; publishes annual Data Center Marketplace report.",
+   "sources": [
+    "https://www.colliers.com/en/services/data-centers",
+    "https://www.colliers.com"
+   ]
+  },
+  {
+   "name": "Avison Young",
+   "aliases": [],
+   "roles": [
+    "consultancy",
+    "real_estate_developer"
+   ],
+   "parent_industry": "real_estate",
+   "industry_role": "consultancy — transactions, strategy & advisory, research, programme & project management",
+   "headquarters": null,
+   "website": "https://www.avisonyoung.com",
+   "description": "US data center research updates and a UK & EMEA Data Centre & Mission Critical Sector Lead appointed Oct 2025.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. US data center research updates and a UK & EMEA Data Centre & Mission Critical Sector Lead appointed Oct 2025.",
+   "sources": [
+    "https://www.avisonyoung.com/data-center-real-estate",
+    "https://www.avisonyoung.com"
+   ]
+  },
+  {
+   "name": "Savills",
+   "aliases": [],
+   "roles": [
+    "consultancy",
+    "real_estate_developer"
+   ],
+   "parent_industry": "real_estate",
+   "industry_role": "consultancy — strategy & advisory, transactions, programme & project management",
+   "headquarters": "London, United Kingdom",
+   "website": "https://www.savills.com",
+   "description": "EMEA data centre advisory team launched 2021; Building & Project Consultancy (BPC) London PM team added data centre specialists in 2025.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. EMEA data centre advisory team launched 2021; Building & Project Consultancy (BPC) London PM team added data centre specialists in 2025.",
+   "sources": [
+    "https://www.savills.com/insight-and-opinion/savills-news/321026/savills-appoints-scott-newcombe-as-head-of-new-emea-data-centre-advisory-team",
+    "https://www.savills.com"
+   ]
+  },
+  {
+   "name": "datacenterHawk",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — research, strategy & advisory",
+   "headquarters": null,
+   "website": "https://www.datacenterhawk.com",
+   "description": "Data center real-estate market intelligence platform founded 2014.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Data center real-estate market intelligence platform founded 2014.",
+   "sources": [
+    "https://www.datacenterhawk.com/about",
+    "https://www.datacenterhawk.com"
+   ]
+  },
+  {
+   "name": "Structure Research",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — research, strategy & advisory",
+   "headquarters": "Toronto, Canada",
+   "website": "https://www.structureresearch.net",
+   "description": "Independent Toronto/Singapore research and consulting firm on cloud and data centre infrastructure (hyperscale value chain); founded Oct 2011; consulting practice has advised on data centre/cloud/hosting transactions.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Independent Toronto/Singapore research and consulting firm on cloud and data centre infrastructure (hyperscale value chain); founded Oct 2011; consulting practice has advised on data centre/cloud/hosting transactions.",
+   "sources": [
+    "https://www.structureresearch.net/about-us/",
+    "https://www.structureresearch.net"
+   ]
+  },
+  {
+   "name": "McKinsey & Company",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://www.mckinsey.com",
+   "description": "Multiple published data center power-demand reports incl. 'Powering AI: How real is the risk of overbuilding?' with named authors.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Multiple published data center power-demand reports incl. 'Powering AI: How real is the risk of overbuilding?' with named authors.",
+   "sources": [
+    "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/ai-power-expanding-data-center-capacity-to-meet-growing-demand",
+    "https://www.mckinsey.com"
+   ]
+  },
+  {
+   "name": "Boston Consulting Group",
+   "aliases": [
+    "BCG"
+   ],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://www.bcg.com",
+   "description": "Published 'Breaking Barriers to Data Center Growth' (2025), 'Powering AI Through Grid-Positive Data Centers' (2026) and 'AI Data Centers: An Opportunity in the Middle East'.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Published 'Breaking Barriers to Data Center Growth' (2025), 'Powering AI Through Grid-Positive Data Centers' (2026) and 'AI Data Centers: An Opportunity in the Middle East'.",
+   "sources": [
+    "https://www.bcg.com/publications/2025/breaking-barriers-data-center-growth",
+    "https://www.bcg.com"
+   ]
+  },
+  {
+   "name": "Bain & Company",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+   "headquarters": null,
+   "website": "https://www.bain.com",
+   "description": "Digital Infrastructure practice; Oct 2025 data center growth research with named co-leaders.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Digital Infrastructure practice; Oct 2025 data center growth research with named co-leaders.",
+   "sources": [
+    "https://www.bain.com/about/media-center/press-releases/20252/next-phase-of-data-center-growth-to-be-more-disciplined-but-risks-of-power-constraints-and-construction-delays-remain-bain--co-research/",
+    "https://www.bain.com"
+   ]
+  },
+  {
+   "name": "EY",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, finance, sustainability",
+   "headquarters": null,
+   "website": "https://www.ey.com",
+   "description": "Dedicated US data centers hub with articles on data center financing, development cycle and sustainability by named EY-Parthenon partners.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. Dedicated US data centers hub with articles on data center financing, development cycle and sustainability by named EY-Parthenon partners.",
+   "sources": [
+    "https://www.ey.com/en_us/data-centers",
+    "https://www.ey.com"
+   ]
+  },
+  {
+   "name": "Altman Solon",
+   "aliases": [],
+   "roles": [
+    "consultancy"
+   ],
+   "parent_industry": "construction_engineering",
+   "industry_role": "consultancy — strategy & advisory, transactions",
+   "headquarters": null,
+   "website": "https://www.altmansolon.com",
+   "description": "TMT-only strategy consultancy with data center thought leadership (hyperscaler strategy, power constraints) and DC-operator M&A case studies.",
+   "notes": "Consultancy tier, open-source research 2026-09-16. TMT-only strategy consultancy with data center thought leadership (hyperscaler strategy, power constraints) and DC-operator M&A case studies.",
+   "sources": [
+    "https://www.altmansolon.com/news-and-events/data-centers-in-hyperscalers-era",
+    "https://www.altmansolon.com"
+   ]
+  }
+ ],
+ "add_roles": [
+  {
+   "company": "Arcadis",
+   "role": "consultancy",
+   "source": "https://www.arcadis.com/en/news/global/2025/arcadis-completes-acquisition-of-kua-group/",
+   "note": "Acquired Frankfurt DC designer KUA Group (completed March 2025) giving 400+ DC specialists; site selection, programme and cost management; 2026 hires to lead hyperscaler accounts in North America and Internet & Software in Europe."
+  },
+  {
+   "company": "AECOM",
+   "role": "consultancy",
+   "source": "https://aecom.com/press-releases/aecom-announced-today-that-its-tishman-construction-operation-is-serving-as-construction-manager-of-critical-infrastructure-and-interiors-for-sentinel-data-centers-and-russo-developments-new/",
+   "note": "Construction manager for critical infrastructure and interiors of the Sentinel Data Centers / Russo Development facility in Orangetown, NY; no named DC lead found."
+  },
+  {
+   "company": "Jacobs",
+   "role": "consultancy",
+   "source": "https://www.jacobs.com/industries/data-centers",
+   "note": "Claims one of the largest DC practices globally (30 years, planning/design/construction services); SVP-level Market Lead for AI Data Centers."
+  },
+  {
+   "company": "CBRE",
+   "role": "consultancy",
+   "source": "https://www.cbre.com/services/design-and-build/project-and-program-management/data-center-project-services",
+   "note": "Data Center Project Services page; PM business combined with Turner & Townsend (CBRE owns 70%) from Jan 2025 and reported as a separate segment; CBRE|DIRECTLINE delivers whitespace/ICT infrastructure projects."
+  },
+  {
+   "company": "JLL",
+   "role": "consultancy",
+   "source": "https://www.jll.com/en-uk/newsroom/jll-appoints-data-centres-project-development-services-lead-in",
+   "note": "Dedicated EMEA PDS Data Centres head and UK PDS Data Centres lead (2024); EMEA critical-environment hires; recruits DC project directors/VPs in the US; InfraPartners alliance for AI DC deployment."
+  },
+  {
+   "company": "Cushman & Wakefield",
+   "role": "consultancy",
+   "source": "https://workopia.io/jobs/3cf693b28e0652ed1c576123ef099785",
+   "note": "Recruits 'Senior Project Manager, Data Center, Project & Development Services'; firm-level data-centers practice page at https://www.cushmanwakefield.com/en/industries/data-centers; new PDS president (Jan 2026) is not DC-specific. No named PDS DC lead found."
+  },
+  {
+   "company": "Arup",
+   "role": "consultancy",
+   "source": "https://www.arup.com/markets/data-centres/",
+   "note": "Dedicated data centres market with regional leaders for Americas (DiMambro), Europe (Griffin) and APAC (Sadokierski); data-centre project portfolio page at arup.com/projects/data-centre-projects/."
+  },
+  {
+   "company": "WSP",
+   "role": "consultancy",
+   "source": "https://www.wsp.com/en-us/sectors/data-centers",
+   "note": "US data center sector led by kW Mission Critical Engineering (acquired Feb 2021); UK data centre sector lead hired from Red Engineering Dec 2023; Q1 2025 results cite data centers as a growth sector."
+  },
+  {
+   "company": "Stantec",
+   "role": "consultancy",
+   "source": "https://www.stantec.com/en/news/2023/stantec-acquire-environmental-systems-design-inc",
+   "note": "Built mission-critical/data-center practice via acquisitions of ESD (2023), Morrison Hershfield (2024) and Page (2025), each release citing data centers."
+  },
+  {
+   "company": "Black & Veatch",
+   "role": "consultancy",
+   "source": "https://www.bv.com/en-US/who-we-serve/technology-and-data-centers/data-centers",
+   "note": "Data centers practice page; 'Powering hyperscale data centers' project page (two 300MW substations, first due Sep 2025); Experts on Demand data center advisory (2021)."
+  },
+  {
+   "company": "Burns & McDonnell",
+   "role": "consultancy",
+   "source": "https://www.burnsmcd.com/services/buildings/mission-critical-buildings/data-centers-switch-centers",
+   "note": "Mission-Critical Buildings practice with data centers, critical power; design-build offering expanded with David Bals hire (2021); Upper Midwest mission-critical team additions."
+  },
+  {
+   "company": "Corgan",
+   "role": "consultancy",
+   "source": "https://www.corgan.com/firm/leadership/dan-drennan",
+   "note": "Data Centers studio/sector with named Principals and Studio Leaders in Dallas and Atlanta."
+  },
+  {
+   "company": "Olsson",
+   "role": "consultancy",
+   "source": "https://www.olsson.com/industries-expertise/data-centers",
+   "note": "Data Centers and Hyperscale expertise pages; ranked #6 on BD+C 2025 top data center engineering firms; civil-led hyperscale campus development."
+  },
+  {
+   "company": "Henderson Engineers",
+   "role": "consultancy",
+   "source": "https://www.hendersonengineers.com/expertise/business-sector/mission-critical/",
+   "note": "Mission Critical business sector; sister CM firm Henderson Building Solutions has a mission critical practice and is hiring a Director of Mission Critical Data Center Commissioning (Chantilly, VA)."
+  },
+  {
+   "company": "Knight Frank",
+   "role": "consultancy",
+   "source": "https://www.knightfrank.com/commercial/data-centres/team",
+   "note": "Data centre team with a Head of Data Centres, a valuation sub-team and a Head of Power Procurement & MEP Consultancy (hired Aug 2024)."
+  },
+  {
+   "company": "Bureau Veritas Primary Integration",
+   "role": "consultancy",
+   "source": "https://www.prnewswire.com/news-releases/bureau-veritas-announces-corporate-name-change-of-its-data-center-commissioning-services-business-to-bureau-veritas-primary-integration-inc-301018519.html",
+   "note": "Data center commissioning, operational risk management and QA/QC firm founded 2005; acquired by Bureau Veritas Nov 2017 and renamed BVPI March 2020."
+  }
+ ],
+ "add_aliases": [
+  {
+   "company": "Stantec",
+   "aliases": [
+    "Environmental Systems Design",
+    "ESD",
+    "Morrison Hershfield",
+    "Page Southerland Page"
+   ],
+   "note": "Mission-critical practice built by acquiring ESD (2023), Morrison Hershfield (2024) and Page (2025), all now trading as Stantec (stantec.com news releases)"
+  },
+  {
+   "company": "Burns & McDonnell",
+   "aliases": [
+    "1898 & Co."
+   ],
+   "note": "1898 & Co. is Burns & McDonnell's consulting brand (grid planning for new data-center load)"
+  },
+  {
+   "company": "AECOM",
+   "aliases": [
+    "AECOM Tishman",
+    "Tishman Construction"
+   ],
+   "note": "Tishman Construction is AECOM's construction-management arm (Sentinel Data Centers, Orangetown NY)"
+  },
+  {
+   "company": "HDR",
+   "aliases": [
+    "Hurley Palmer Flatt",
+    "HPF"
+   ],
+   "note": "Acquired London mission-critical engineer Hurley Palmer Flatt in 2019 (DCD)"
+  },
+  {
+   "company": "Ramboll",
+   "aliases": [
+    "EYP Mission Critical Facilities",
+    "EYP MCF"
+   ],
+   "note": "Acquired US data-centre consultancy EYP Mission Critical Facilities in Feb 2022 (ramboll.com)"
+  },
+  {
+   "company": "Salute",
+   "aliases": [
+    "Salute Mission Critical",
+    "Keysource",
+    "Keysource Group",
+    "Northshore",
+    "Salute EMEA"
+   ],
+   "note": "Acquired Keysource (announced Jan 2025) and Northshore; the Salute EMEA stub was merged into this record"
+  },
+  {
+   "company": "Colliers Engineering & Design",
+   "aliases": [
+    "Colliers Project Leaders",
+    "MG2"
+   ],
+   "note": "Colliers Project Leaders is a division of Colliers Engineering & Design; MG2 is its architecture brand"
+  },
+  {
+   "company": "Henderson Engineers",
+   "aliases": [
+    "Henderson Companies",
+    "Henderson Building Solutions"
+   ],
+   "note": "Henderson Building Solutions is the sister construction-management firm"
+  },
+  {
+   "company": "Ulteig",
+   "aliases": [
+    "Affinity Energy"
+   ],
+   "note": "Acquired Affinity Energy in 2024, adding US data-center project experience"
+  },
+  {
+   "company": "Tractebel",
+   "aliases": [
+    "Tractebel ENGIE"
+   ],
+   "note": "Owns data-centre design consultancy RED Engineering Design (acquired 2016)"
+  },
+  {
+   "company": "Turner & Townsend",
+   "aliases": [
+    "Turner & Townsend alinea",
+    "alinea consulting"
+   ],
+   "note": "Combined its London cost team with alinea consulting; 70% owned by CBRE since the Jan 2025 project-management combination"
+  },
+  {
+   "company": "Soben",
+   "aliases": [
+    "Soben part of Accenture"
+   ],
+   "note": "Acquired by Accenture (announced March 2025), now in Accenture Industry X capital projects"
+  },
+  {
+   "company": "Critical Project Services",
+   "aliases": [
+    "CPS",
+    "Integra Mission Critical"
+   ],
+   "note": "Unified under the Integra Mission Critical brand per integra.com/about"
+  },
+  {
+   "company": "Mace",
+   "aliases": [
+    "Mace Consult",
+    "Mace Group",
+    "Mace Construct"
+   ],
+   "note": "Mace Consult was demerged from Mace Group on 5 March 2026 and is majority-owned by Goldman Sachs Alternatives; Mace Construct is the UK contracting arm"
+  }
+ ],
+ "add_sources": [
+  {
+   "company": "Currie & Brown",
+   "sources": [
+    "https://www.curriebrown.com/sectors/technology/",
+    "https://www.curriebrown.com/projects/keeping-procurement-on-track-for-a-national-data-center-program/"
+   ],
+   "note": "Data-centre evidence: technology sector page (200+ DC projects, 15GW in 16 countries) and a national data center programme cost-management case study"
+  },
+  {
+   "company": "Rider Levett Bucknall",
+   "sources": [
+    "https://www.rlb.com/americas/insight/data-center-market-insights-2024/",
+    "https://www.datacenterdynamics.com/en/company/rider-levett-bucknall/"
+   ],
+   "note": "Data-centre evidence: Data Center Market Insights 2024 and DCD company page"
+  },
+  {
+   "company": "Soben",
+   "sources": [
+    "https://sobencc.com/industries/data-centres-mission-critical/"
+   ],
+   "note": "Data-centre evidence: Data Centres & Mission Critical industry page"
+  },
+  {
+   "company": "Gleeds",
+   "sources": [
+    "https://www.gleeds.com/en/expertise/sectors/data-centres/"
+   ],
+   "note": "Data-centre evidence: data centres sector page and Global Data Centre Market Report"
+  },
+  {
+   "company": "Cumming Group",
+   "sources": [
+    "https://cumming-group.com/en/sectors/data-centers/"
+   ],
+   "note": "Data-centre evidence: data centers sector page"
+  },
+  {
+   "company": "Linesight",
+   "sources": [
+    "https://www.linesight.com/en-us/sectors/data-centers/"
+   ],
+   "note": "Data-centre evidence: data centers sector page"
+  },
+  {
+   "company": "Turner & Townsend",
+   "sources": [
+    "https://www.turnerandtownsend.com/what-we-do/sectors/data-centres/"
+   ],
+   "note": "Data-centre evidence: data centres sector page; six regional data-centre leads named in releases"
+  },
+  {
+   "company": "Hill International",
+   "sources": [
+    "https://www.hillintl.com/press-release/hill-international-to-support-construction-of-two-new-data-center-projects-in-greece/"
+   ],
+   "note": "Data-centre evidence: PM partner to Digital Realty and Data4 in Greece"
+  },
+  {
+   "company": "Critical Project Services",
+   "sources": [
+    "https://cps-llc.com/our-services-4/design-project-management/"
+   ],
+   "note": "Data-centre evidence: mission-critical PM services page; Integra says CPS now trades under the Integra Mission Critical brand"
+  },
+  {
+   "company": "Bureau Veritas Primary Integration",
+   "sources": [
+    "https://www.prnewswire.com/news-releases/bureau-veritas-announces-corporate-name-change-of-its-data-center-commissioning-services-business-to-bureau-veritas-primary-integration-inc-301018519.html"
+   ],
+   "note": "Data-centre commissioning firm (formerly Primary Integration Solutions, Charlotte NC), acquired by Bureau Veritas 2017"
+  },
+  {
+   "company": "AECOM",
+   "sources": [
+    "https://aecom.com/press-releases/aecom-appointed-to-deliver-nostrum-groups-data-centre-in-southwest-spain/"
+   ],
+   "note": "Data Centers & Digital Infrastructure market page (aecom.com/markets/industrial/high-tech/); selected Dec 2025 to lead design and construction management of Nostrum Evergreen 500MW campus, Badajoz, Spain; Feb 2026 UK sovereign data centre framework paper."
+  },
+  {
+   "company": "Jacobs",
+   "sources": [
+    "https://www.jacobs.com/newsroom/press-release/jacobs-appointed-engineering-procurement-and-construction-management-lead"
+   ],
+   "note": "Data centers industry page (jacobs.com/industries/data-centers); EPCM lead for Hut 8 River Bend AI data center, Louisiana; released a data-center digital-twin product (prnewswire 302714843)."
+  },
+  {
+   "company": "Burns & McDonnell",
+   "sources": [
+    "https://info.burnsmcd.com/grid-modernization"
+   ],
+   "note": "Burns & McDonnell consulting brand; grid consultancy/planning for new data-center load capacity alongside EPC; Burns & McDonnell 'Hyperscale Data Centers and How to Power Them'."
+  },
+  {
+   "company": "WSP",
+   "sources": [
+    "https://www.wsp.com/en-gl/sectors/data-centers"
+   ],
+   "note": "Data centers sector; acquisitions of POWER Engineers and TRC expanded US utility/power reach for data-center work (Construction Dive Q1 earnings)."
+  },
+  {
+   "company": "CBRE",
+   "sources": [
+    "https://www.cbre.com/services/property-types/data-center"
+   ],
+   "note": "Dedicated Data Center Solutions group (advisory & transactions, FM, research) with named global, Americas, EMEA and APAC leads."
+  },
+  {
+   "company": "JLL",
+   "sources": [
+    "https://www.jll.com/en-uk/newsroom/jll-strengthens-end-to-end-data-centre-offering-with-appointment"
+   ],
+   "note": "EMEA data centre business spanning Work Dynamics (consulting/FM), Capital Markets and a Critical Environment Centre of Excellence; series of 2025-2026 senior hires."
+  },
+  {
+   "company": "Cushman & Wakefield",
+   "sources": [
+    "https://www.businesswire.com/news/home/20260527863417/en/Cushman-Wakefield-Appoints-Leon-Ikeda-as-Head-of-Advisory-Transactions-Asia-Pacific-Data-Center-Group"
+   ],
+   "note": "Data Center Group with regional heads; May 2026 APAC advisory & transactions head appointment reporting to an APAC Head of Data Center Group."
+  }
+ ],
+ "edges": [
+  {
+   "from": "CBRE",
+   "to": "Turner & Townsend",
+   "type": "invested_in",
+   "detail": "CBRE combined its Project Management business with its Turner & Townsend subsidiary; CBRE owns 70% of the combined business, Vincent Clancy joined CBRE board",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.cbre.com/press-releases/cbre-group-completes-turner-and-townsend-project-management-combination"
+   ]
+  },
+  {
+   "from": "Arcadis",
+   "to": "KUA Group",
+   "type": "acquired",
+   "detail": "Acquisition of Frankfurt data-center design specialist KUA Group, doubling Arcadis' German DC presence (400+ DC specialists combined)",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.arcadis.com/en/news/global/2025/arcadis-completes-acquisition-of-kua-group/"
+   ]
+  },
+  {
+   "from": "Hill International",
+   "to": "Digital Realty",
+   "type": "consulted_for",
+   "detail": "Project management partner for ATH5 (Athens, up to 15MW) and HER1 (Heraklion, Crete, up to 6.5MW); also ATH4 per project page",
+   "status": "under way",
+   "confidence": "high",
+   "sources": [
+    "https://www.hillintl.com/press-release/hill-international-to-support-construction-of-two-new-data-center-projects-in-greece/"
+   ]
+  },
+  {
+   "from": "Hill International",
+   "to": "Data4",
+   "type": "consulted_for",
+   "detail": "Pre-construction technical advisory and full PMC through construction/closeout for Athens Data Center 1 (DC1), Paiania, 15MW, first phase of a 90MW campus",
+   "status": "under way",
+   "confidence": "high",
+   "sources": [
+    "https://www.hillintl.com/project/athens-data-center-1-dc1/"
+   ]
+  },
+  {
+   "from": "AECOM",
+   "to": "Sentinel",
+   "type": "contractor_for",
+   "detail": "Construction manager for critical infrastructure and interiors of new data center facility in Orangetown, NY (with Russo Development)",
+   "status": "announced",
+   "confidence": "high",
+   "sources": [
+    "https://aecom.com/press-releases/aecom-announced-today-that-its-tishman-construction-operation-is-serving-as-construction-manager-of-critical-infrastructure-and-interiors-for-sentinel-data-centers-and-russo-developments-new/"
+   ]
+  },
+  {
+   "from": "AECOM",
+   "to": "Nostrum",
+   "type": "contractor_for",
+   "detail": "Lead design and construction management for the 'Nostrum Evergreen' data centre, Badajoz, Spain; up to 500MW, EUR 1.9bn+ investment",
+   "status": "announced",
+   "confidence": "high",
+   "sources": [
+    "https://aecom.com/press-releases/aecom-appointed-to-deliver-nostrum-groups-data-centre-in-southwest-spain/"
+   ]
+  },
+  {
+   "from": "Jacobs",
+   "to": "Hut 8",
+   "type": "contractor_for",
+   "detail": "Engineering, procurement and construction management (EPCM) for River Bend AI data center, Louisiana",
+   "status": "under way",
+   "confidence": "high",
+   "sources": [
+    "https://www.jacobs.com/newsroom/press-release/jacobs-appointed-engineering-procurement-and-construction-management-lead"
+   ]
+  },
+  {
+   "from": "Artelia",
+   "to": "Nation Data Center",
+   "type": "consulted_for",
+   "detail": "Upgrade and refurbishment of a former bank data centre at Val-de-Reuil, France (Normandie Data Center)",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.arteliagroup.com/project/bnp-paribas-marne-est/"
+   ]
+  },
+  {
+   "from": "Vanderweil Engineers",
+   "to": "Markley",
+   "type": "consulted_for",
+   "detail": "Engineering for Markley Group data center colocation project",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.vanderweil.com/project/markley-group-data-center-co-location/"
+   ]
+  },
+  {
+   "from": "WSP",
+   "to": "kW Mission Critical Engineering",
+   "type": "acquired",
+   "detail": "Acquisition of 175-employee data center engineering firm (with tk1sc), completed 24 Feb 2021",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.wsp.com/en-us/news/2021/wsp-acquires-kw-mission-critical-engineering-and-tk1sc-in-the-united-states"
+   ]
+  },
+  {
+   "from": "Ramboll",
+   "to": "i3 Solutions Group",
+   "type": "acquired",
+   "detail": "Acquisition of specialist data centre MEP consultancy i3 Solutions Group, 2024",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/ramboll-acquires-data-center-consulting-firm-i3-solutions/"
+   ]
+  },
+  {
+   "from": "Woolpert",
+   "to": "Sheehan Nagle Hartray Architects",
+   "type": "acquired",
+   "detail": "Acquisition of mission critical design specialist SNHA, Oct 2022",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.prnewswire.com/news-releases/woolpert-acquires-sheehan-nagle-hartray-architects-global-experts-in-mission-critical-design-301653032.html"
+   ]
+  },
+  {
+   "from": "WSP",
+   "to": "POWER Engineers",
+   "type": "acquired",
+   "detail": "WSP completed acquisition of Power Engineers, Incorporated (approx. 4,000 staff, Hailey, Idaho), strengthening Power & Energy capabilities relevant to data-center work.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.wsp.com/en-us/news/2024/wsp-completes-acquisition-of-power-engineers"
+   ]
+  },
+  {
+   "from": "Tractebel",
+   "to": "RED Engineering Design",
+   "type": "acquired",
+   "detail": "Tractebel acquired data-centre design specialist RED (est. 2004) in 2016, forming its hyperscale data-centre design capability.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://tractebel-engie.com/en/markets/data-centres/hyperscale-data-centres/"
+   ]
+  },
+  {
+   "from": "Knight Frank",
+   "to": "Equinix",
+   "type": "consulted_for",
+   "detail": "Knight Frank MENA post states Knight Frank advised on a £4bn UK data centre sale to Equinix.",
+   "status": "completed",
+   "confidence": "medium",
+   "sources": [
+    "https://www.linkedin.com/posts/knightfrankmena_knightfrankmena-datacentres-digitalinfrastructure-activity-7389636589410308097--e4d"
+   ]
+  },
+  {
+   "from": "Cundall",
+   "to": "Ada Infrastructure",
+   "type": "consulted_for",
+   "detail": "Engineering consultancy on Ada Infrastructure's Docklands data centre campus (Cundall project page).",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.cundall.com/projects/ada-infrastructures-docklands-data-centre-campus"
+   ]
+  },
+  {
+   "from": "Charles River Associates",
+   "to": "Global Infrastructure Partners",
+   "type": "consulted_for",
+   "detail": "Energy practice supported GIP, MGX and AIP on power/energy diligence for their acquisition of Aligned Data Centers.",
+   "status": "completed",
+   "confidence": "high",
+   "sources": [
+    "https://www.crai.com/industries/energy/data-centers/"
+   ]
+  }
+ ]
+}

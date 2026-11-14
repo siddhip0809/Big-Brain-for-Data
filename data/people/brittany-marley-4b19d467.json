@@ -1,0 +1,155 @@
+{
+  "id": "brittany-marley-4b19d467",
+  "type": "person",
+  "name": "Brittany Marley",
+  "current_title": "Vice President, Sales & Business Development",
+  "current_company": "Aetheris",
+  "linkedin": "https://www.linkedin.com/in/brittany-marley-b37b756",
+  "location": "Encinitas, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Sales & Business Development at Aetheris, 11/2025 to present; Vice President at Edged, 6/2025 to present; Senior Director at Edged, 11/2023 to 5/2025; Senior Global Client Executive at Equinix, 6/2023 to 11/2023; Founding Member at Chief, 12/2020 to 7/2023; Vice President, Client Executive at STACK Infrastructure, 10/2020 to 5/2023; Regional Client Executive at Equinix, 8/2016 to 10/2020; Director of Sales and Business Development at Oracle, 3/2014 to 8/2016; VP, Sales, Business Development & Strategic Partnerships at Vibes, 9/2011 to 8/2013; Founder and CEO at Glory for All, 1/2007 to 10/2011; Director, Corporate Marketing at Silicon Wave, 10/1999 to 1/2001; Director, Market Development at Alcatel-Lucent, 3/1996 to 10/1999; Marketing Manager at PCSI, 1/1990 to 12/1996",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 136,
+      "date_added": "2025-12-15 15:36:38 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "aetheris",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Sales & Business Development",
+      "company": "Aetheris",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President",
+      "company": "Edged",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director",
+      "company": "Edged",
+      "start": "11/2023",
+      "end": "5/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Global Client Executive",
+      "company": "Equinix",
+      "start": "6/2023",
+      "end": "11/2023",
+      "current": false
+    },
+    {
+      "title": "Founding Member",
+      "company": "Chief",
+      "start": "12/2020",
+      "end": "7/2023",
+      "current": false
+    },
+    {
+      "title": "Vice President, Client Executive",
+      "company": "STACK Infrastructure",
+      "start": "10/2020",
+      "end": "5/2023",
+      "current": false
+    },
+    {
+      "title": "Regional Client Executive",
+      "company": "Equinix",
+      "start": "8/2016",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Director of Sales and Business Development",
+      "company": "Oracle",
+      "start": "3/2014",
+      "end": "8/2016",
+      "current": false
+    },
+    {
+      "title": "VP, Sales, Business Development & Strategic Partnerships",
+      "company": "Vibes",
+      "start": "9/2011",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Founder and CEO",
+      "company": "Glory for All",
+      "start": "1/2007",
+      "end": "10/2011",
+      "current": false
+    },
+    {
+      "title": "Director, Corporate Marketing",
+      "company": "Silicon Wave",
+      "start": "10/1999",
+      "end": "1/2001",
+      "current": false
+    },
+    {
+      "title": "Director, Market Development",
+      "company": "Alcatel-Lucent",
+      "start": "3/1996",
+      "end": "10/1999",
+      "current": false
+    },
+    {
+      "title": "Marketing Manager",
+      "company": "PCSI",
+      "start": "1/1990",
+      "end": "12/1996",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Encinitas",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BA, Telecommunications, San Diego State University-California State University, 1987 to 1991",
+    "BA, Telecommunications, San Diego State University, 1987 to 1991",
+    "Certificate, Artificial Intelligence, Mit Sloan School Of Management"
+  ],
+  "biography": "Top performing sales leader and strategic negotiator in the data center infrastructure sector focused on serving complex cloud, content, and hyperscale clients. Consistent revenue achievement through strategic partnerships, product development, and solutions selling. Technical expertise in edge, hybrid cloud, with an emphasis on AI deployment models & sustainability.",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

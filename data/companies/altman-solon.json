@@ -1,0 +1,26 @@
+{
+  "id": "altman-solon",
+  "type": "company",
+  "name": "Altman Solon",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, transactions",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.altmansolon.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "TMT-only strategy consultancy with data center thought leadership (hyperscaler strategy, power constraints) and DC-operator M&A case studies.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. TMT-only strategy consultancy with data center thought leadership (hyperscaler strategy, power constraints) and DC-operator M&A case studies. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.altmansolon.com/news-and-events/data-centers-in-hyperscalers-era",
+    "https://www.altmansolon.com"
+  ],
+  "last_updated": "2026-09-16"
+}

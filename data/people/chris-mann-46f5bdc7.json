@@ -1,0 +1,68 @@
+{
+  "id": "chris-mann-46f5bdc7",
+  "type": "person",
+  "name": "Chris Mann",
+  "current_title": "Head of Sales and Marketing at BGO DataCenters",
+  "current_company": "BGO",
+  "location": "London, England",
+  "linkedin": "https://www.linkedin.com/in/chris-mann-5b57a913",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Head of Sales and Marketing at BGO DataCenters at BGO, 4/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "1a. Pursuing",
+      "rank": 88,
+      "date_added": "2026-08-26 09:14:03 UTC",
+      "date_updated": "2026-08-26 04:16:49 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "Transferred to Main Project",
+      "rank": 272,
+      "date_added": "2026-08-21 11:47:07 UTC",
+      "date_updated": "2026-08-26 04:14:03 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: VP_Sales.xlsx, imported 2026-09-04",
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Sales",
+  "current_company_id": "bgo",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Head of Sales and Marketing",
+      "company": "BGO DataCenters at BGO",
+      "start": "4/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

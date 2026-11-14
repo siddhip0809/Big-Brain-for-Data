@@ -1,0 +1,75 @@
+{
+  "id": "sean-wennerstrom-03ec2d0e",
+  "type": "person",
+  "name": "Sean Wennerstrom",
+  "current_title": "Chief Estimator",
+  "current_company": "Mortenson",
+  "linkedin": "https://www.linkedin.com/in/sean-wennerstrom-881973a",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Chief Estimator at Mortenson, 9/2024 to present; Sr. Estimator II at M A Mortenson, 5/1991 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 2,
+      "date_added": "2026-08-04 16:07:12 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "mortenson",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping__Precon.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Chief Estimator",
+      "company": "Mortenson",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Estimator II",
+      "company": "M A Mortenson",
+      "start": "5/1991",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, Construction Management, Colorado State University, 1988 to 1992"
+  ],
+  "biography": "Sr. Preconstruction Manager at M. A. Mortenson Company",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

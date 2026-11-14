@@ -1,0 +1,26 @@
+{
+  "id": "ey",
+  "type": "company",
+  "name": "EY",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, finance, sustainability",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.ey.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Dedicated US data centers hub with articles on data center financing, development cycle and sustainability by named EY-Parthenon partners.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Dedicated US data centers hub with articles on data center financing, development cycle and sustainability by named EY-Parthenon partners. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.ey.com/en_us/data-centers",
+    "https://www.ey.com"
+  ],
+  "last_updated": "2026-09-16"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "jared-wride-8cf28c4d",
+  "type": "person",
+  "name": "Jared Wride",
+  "current_title": "Vice President, Construction",
+  "current_company": "NTT",
+  "linkedin": "https://www.linkedin.com/in/jared-wride-007908a8",
+  "location": "Gilbert, Arizona, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Vice President, Construction at NTT, 12/2023 to present; Director of Construction at NTT Global Datacenters Americas at NTT, 2/2021 to 12/2023; Construction Manager at Intel, 5/1998 to 2/2021",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 65,
+      "date_added": "2026-07-02 11:47:42 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "ntt",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Construction",
+      "company": "NTT",
+      "start": "12/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director of Construction",
+      "company": "NTT Global Datacenters Americas at NTT",
+      "start": "2/2021",
+      "end": "12/2023",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Intel",
+      "start": "5/1998",
+      "end": "2/2021",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Gilbert",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Bachelor of Science (B.S.), Construction Management, Brigham Young University, 1995 to 1998"
+  ],
+  "biography": "Vice President, Construction at NTT Global Data Centers Americas",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

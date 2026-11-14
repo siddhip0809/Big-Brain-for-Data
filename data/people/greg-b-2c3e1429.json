@@ -1,0 +1,117 @@
+{
+  "id": "greg-b-2c3e1429",
+  "type": "person",
+  "name": "Greg B.",
+  "current_title": "Sr. Preconstruction Manager",
+  "current_company": "PCL Construction",
+  "linkedin": "https://www.linkedin.com/in/greg-b-80920344",
+  "location": "Portland, Oregon",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Sr. Preconstruction Manager at PCL Construction, 4/2026 to present; Sr. Preconstruction Manager at Fortis Construction, 4/2025 to 4/2026; Preconstruction Manager at Fortis Construction, 1/2021 to 4/2025; Project Manager at Fortis Construction, 7/2018 to 1/2021; Sr. Project Engineer at Fortis Construction, 1/2015 to 7/2018; Estimator at Howard S Wright a Balfour Beatty, 9/2012 to 2/2014; Project Manager at Webcor Builders, 7/2007 to 6/2012; Assistant Project Manager at CH2M, 10/2004 to 6/2007; Assistant Project Manager / Field Engineer at Skanska, 1/1999 to 7/2004",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 437,
+      "date_added": "2026-08-24 09:04:38 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "PCL Construction",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sr. Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "4/2025",
+      "end": "4/2026",
+      "current": false
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Fortis Construction",
+      "start": "1/2021",
+      "end": "4/2025",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Fortis Construction",
+      "start": "7/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Sr. Project Engineer",
+      "company": "Fortis Construction",
+      "start": "1/2015",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Howard S Wright a Balfour Beatty",
+      "start": "9/2012",
+      "end": "2/2014",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "Webcor Builders",
+      "start": "7/2007",
+      "end": "6/2012",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager",
+      "company": "CH2M",
+      "start": "10/2004",
+      "end": "6/2007",
+      "current": false
+    },
+    {
+      "title": "Assistant Project Manager / Field Engineer",
+      "company": "Skanska",
+      "start": "1/1999",
+      "end": "7/2004",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Portland",
+    "region": "Oregon",
+    "country": "United States",
+    "group": "Oregon"
+  },
+  "education": [
+    "BS, Structural Engineering, Columbia University, 1999 to 2001"
+  ],
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

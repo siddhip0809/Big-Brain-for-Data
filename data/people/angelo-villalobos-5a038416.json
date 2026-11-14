@@ -1,0 +1,61 @@
+{
+  "id": "angelo-villalobos-5a038416",
+  "type": "person",
+  "name": "Angelo Villalobos",
+  "current_title": "Senior Cost Consultant",
+  "current_company": "Mace",
+  "linkedin": "https://www.linkedin.com/in/angelo-villalobos-4b501055",
+  "location": "United States",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Cost Consultant at Mace, 6/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 550,
+      "date_added": "2026-08-27 10:18:47 UTC",
+      "date_updated": "2026-08-27 05:21:00 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Cost Consultant",
+      "company": "Mace",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United States",
+    "group": "United States"
+  },
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "rose-fang-c8361ddf",
+  "type": "person",
+  "name": "Rose Fang",
+  "current_title": "Preconstruction",
+  "current_company": "DPR Construction",
+  "location": "Hillsborough, New Jersey",
+  "linkedin": "https://www.linkedin.com/in/rose-fang-22366129",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Preconstruction at DPR Construction, 10/2019 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 171,
+      "date_added": "2026-08-21 15:22:28 UTC",
+      "date_updated": "2026-08-21 10:27:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 331,
+      "date_added": "2026-08-13 12:30:30 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 331,
+      "date_added": "2026-08-13 12:30:30 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09",
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": "dpr-construction",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction",
+      "company": "DPR Construction",
+      "start": "10/2019",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Hillsborough",
+    "region": "New Jersey",
+    "country": "United States",
+    "group": "New Jersey"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

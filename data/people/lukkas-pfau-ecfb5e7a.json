@@ -1,0 +1,83 @@
+{
+  "id": "lukkas-pfau-ecfb5e7a",
+  "type": "person",
+  "name": "Lukkas Pfau",
+  "current_title": "Real Estate Manager",
+  "current_company": "EdgeConneX",
+  "linkedin": "https://www.linkedin.com/in/lukkas-pfau-2a3558169",
+  "location": "Denver,  Colorado",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Real Estate Manager at EdgeConneX, 1/2023 to present; Real Estate Project Coordinator at EdgeConneX, 3/2021 to 1/2023; Operations Intern at EdgeConneX, 6/2018 to 8/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 100,
+      "date_added": "2025-11-18 16:03:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Shruti Singh",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "edgeconnex",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Real Estate Manager",
+      "company": "EdgeConneX",
+      "start": "1/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Real Estate Project Coordinator",
+      "company": "EdgeConneX",
+      "start": "3/2021",
+      "end": "1/2023",
+      "current": false
+    },
+    {
+      "title": "Operations Intern",
+      "company": "EdgeConneX",
+      "start": "6/2018",
+      "end": "8/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor of General Studies Minoring in Engineering Science , Mechanical Engineering, University Of North Dakota, 2016 to 2021"
+  ],
+  "biography": "Real Estate Professional focused on acquisition of greenfield and brownfield sites for use in data center, telecommunication, and other mission critical deployments. \r\nSkilled in transaction management from market survey through closing and handoff. Experienced in managing Due Diligence Consultants and working with Engineering to develop and validate site test fits and identify key risks within the transaction inpsection period. \r\nKnowledgeable on data center operation, working with power utilities, and easement negotiation.\r\nPassionate about technology, real estate, comedy, and the outdoors.",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "jay-robertson-cb707c7e",
+  "type": "person",
+  "name": "Jay Robertson",
+  "current_title": "Associate",
+  "current_company": "Currie & Brown",
+  "location": "Milwaukee, Wisconsin",
+  "linkedin": "https://www.linkedin.com/in/jay-robertson-msc-7ba73435",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate at Currie & Brown, 11/2025 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 141,
+      "date_added": "2026-08-19 12:58:55 UTC",
+      "date_updated": "2026-08-19 08:08:14 -0500",
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 306,
+      "date_added": "2026-08-13 10:28:11 UTC",
+      "date_updated": "2026-08-19 07:58:54 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate",
+      "company": "Currie & Brown",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Milwaukee",
+    "region": "Wisconsin",
+    "country": "United States",
+    "group": "Wisconsin"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Not Apparent"
+  }
+}

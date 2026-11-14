@@ -1,0 +1,103 @@
+{
+  "id": "peter-barth-c1711da0",
+  "type": "person",
+  "name": "Peter Barth",
+  "current_title": "Vice President, Utility Technical Services",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/peter-barth-pe-mba-22597947",
+  "location": "Overland Park, Kansas",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President, Utility Technical Services at QTS Data Centers, 8/2024 to present; AVP, Project Director at Black & Veatch, 5/2024 to 8/2024; AVP, Engineering Operations Leader, Energy & Process Industries at Black & Veatch, 1/2022 to 6/2024; Global Engineering Management Leader, Global Transmission and Distributed Energy at Black & Veatch, 10/2019 to 12/2021; Electrical Engineer at Stanley Consultants, 1/2007 to 5/2014; QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 4,
+      "date_added": "2025-11-07 13:46:05 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President, Utility Technical Services",
+      "company": "QTS Data Centers",
+      "start": "8/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "AVP, Project Director",
+      "company": "Black & Veatch",
+      "start": "5/2024",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "AVP, Engineering Operations Leader, Energy & Process Industries",
+      "company": "Black & Veatch",
+      "start": "1/2022",
+      "end": "6/2024",
+      "current": false
+    },
+    {
+      "title": "Global Engineering Management Leader, Global Transmission and Distributed Energy",
+      "company": "Black & Veatch",
+      "start": "10/2019",
+      "end": "12/2021",
+      "current": false
+    },
+    {
+      "title": "Electrical Engineer",
+      "company": "Stanley Consultants",
+      "start": "1/2007",
+      "end": "5/2014",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Overland Park",
+    "region": "Kansas",
+    "country": "United States",
+    "group": "Kansas"
+  },
+  "education": [
+    "Masters, The University Of Iowa Tippie College Of Business, 2013 to 2019",
+    "Bachelors, University of Wisconsin-Platteville, 2002 to 2006"
+  ],
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "Low Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "High Confidence",
+      "Water · WSA negotiation": "Low Confidence",
+      "Water · engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

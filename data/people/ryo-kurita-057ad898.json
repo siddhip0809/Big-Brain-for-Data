@@ -1,0 +1,100 @@
+{
+  "id": "ryo-kurita-057ad898",
+  "type": "person",
+  "name": "Ryo Kurita",
+  "current_title": "Vice President of Business Development",
+  "current_company": "Princeton Digital Group",
+  "linkedin": "https://www.linkedin.com/in/ryo-kurita-90372816",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Jury at Pacific Telecommunications Council, 11/2022 to present; Vice President of Business Development at Princeton Digital Group, 9/2022 to present; General Manager at KDDI / TELEHOUSE, 4/2014 to 9/2022; Sales Manager at KDDI Corporation, 2/2008 to 3/2014; Sales at KDDI Network & Solutions, 11/2004 to 7/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 170,
+      "date_added": "2026-01-22 13:53:28 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "princeton-digital-group",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Jury",
+      "company": "Pacific Telecommunications Council",
+      "start": "11/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President of Business Development",
+      "company": "Princeton Digital Group",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "General Manager",
+      "company": "KDDI / TELEHOUSE",
+      "start": "4/2014",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Sales Manager",
+      "company": "KDDI Corporation",
+      "start": "2/2008",
+      "end": "3/2014",
+      "current": false
+    },
+    {
+      "title": "Sales",
+      "company": "KDDI Network & Solutions",
+      "start": "11/2004",
+      "end": "7/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Master of Business Administration - MBA, Strategy and Innovation, California State University - East Bay, 2018 to 2020",
+    "Master of Business Administration - MBA, Strategy and Innovation, 2018 to 2020",
+    "B.Ec., Economics, Tokyo Keizai University, 1994 to 1998",
+    "B.Ec., Economics, 1994 to 1998"
+  ],
+  "biography": "With over 15+ years of experience in the data center and telecommunications industry, I…",
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

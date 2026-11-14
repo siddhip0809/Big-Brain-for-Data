@@ -1,0 +1,110 @@
+{
+  "id": "jose-ortiz-bcd57044",
+  "type": "person",
+  "name": "Jose Ortiz",
+  "current_title": "Preconstruction Manager",
+  "current_company": "Caddell Construction",
+  "linkedin": "https://www.linkedin.com/in/jose-ortiz-775b2a103",
+  "location": "Phoenix, Arizona",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Preconstruction Manager at Caddell Construction, 9/2024 to present; Preconstruction Manager at Clayco, 5/2022 to 7/2024; Estimator at Graycor Construction, 10/2020 to 5/2022; Preconstruction at DPR Construction, 11/2018 to 10/2020; Project Engineer at DPR Construction, 4/2017 to 11/2018; Virtual Construction Engineer at Sundt Construction, 1/2016 to 4/2017; Field Engineer Intern at Hensel Phelps, 5/2015 to 7/2015; Project Engineer Intern at Hunt Construction Group, 3/2014 to 5/2015",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 436,
+      "date_added": "2026-08-24 09:03:34 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Manager",
+      "company": "Caddell Construction",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Preconstruction Manager",
+      "company": "Clayco",
+      "start": "5/2022",
+      "end": "7/2024",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Graycor Construction",
+      "start": "10/2020",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Preconstruction",
+      "company": "DPR Construction",
+      "start": "11/2018",
+      "end": "10/2020",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "DPR Construction",
+      "start": "4/2017",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Virtual Construction Engineer",
+      "company": "Sundt Construction",
+      "start": "1/2016",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Field Engineer Intern",
+      "company": "Hensel Phelps",
+      "start": "5/2015",
+      "end": "7/2015",
+      "current": false
+    },
+    {
+      "title": "Project Engineer Intern",
+      "company": "Hunt Construction Group",
+      "start": "3/2014",
+      "end": "5/2015",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Phoenix",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Bachelor’s Degree Construction Management, Arizona State University, 2011 to 2015"
+  ],
+  "assessment": {
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

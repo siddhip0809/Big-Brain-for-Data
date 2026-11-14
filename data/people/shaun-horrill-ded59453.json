@@ -1,0 +1,137 @@
+{
+  "id": "shaun-horrill-ded59453",
+  "type": "person",
+  "name": "Shaun Horrill",
+  "current_title": "Associate Director",
+  "current_company": "Turner & Townsend",
+  "linkedin": "https://www.linkedin.com/in/shaun-horrill-508477145",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Turner & Townsend, 9/2024 to present; Senior Quantity Surveyor at Currie & Brown, 1/2024 to 9/2024; Quantity Surveyor at Currie & Brown, 8/2023 to 1/2024; Quantity Surveyor at Jackson Rowe, 3/2020 to 8/2023; Quantity Surveyor at Brymor Construction Limited, 9/2018 to 1/2020; Assistant Quantity Surveyor at LAKEHOUSE CONSTRUCTION LIMITED, 9/2017 to 9/2018; Head Coach at RUGBYTOTS SOUTH HANTS, 6/2017 to 6/2019; Estimator at SALISBURY GLASS CENTRE LIMITED, 2/2016 to 9/2017; Estate Agent at Countrywide, 11/2014 to 2/2016; Roofer at MA Hinton Roofing, 8/2010 to 11/2014; Landscaper at BMG Stone and Paving Centre, 2008 to 2010",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 588,
+      "date_added": "2026-09-01 10:40:37 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "turner-townsend",
+  "notes": "Works at an adjacent-industry company (GC / energy / civil / industrial); re-imported 2026-09-09 at Siddhi's request.",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Turner & Townsend",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "company": "Currie & Brown",
+      "start": "1/2024",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Currie & Brown",
+      "start": "8/2023",
+      "end": "1/2024",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Jackson Rowe",
+      "start": "3/2020",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Quantity Surveyor",
+      "company": "Brymor Construction Limited",
+      "start": "9/2018",
+      "end": "1/2020",
+      "current": false
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "company": "LAKEHOUSE CONSTRUCTION LIMITED",
+      "start": "9/2017",
+      "end": "9/2018",
+      "current": false
+    },
+    {
+      "title": "Head Coach",
+      "company": "RUGBYTOTS SOUTH HANTS",
+      "start": "6/2017",
+      "end": "6/2019",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "SALISBURY GLASS CENTRE LIMITED",
+      "start": "2/2016",
+      "end": "9/2017",
+      "current": false
+    },
+    {
+      "title": "Estate Agent",
+      "company": "Countrywide",
+      "start": "11/2014",
+      "end": "2/2016",
+      "current": false
+    },
+    {
+      "title": "Roofer",
+      "company": "MA Hinton Roofing",
+      "start": "8/2010",
+      "end": "11/2014",
+      "current": false
+    },
+    {
+      "title": "Landscaper",
+      "company": "BMG Stone and Paving Centre",
+      "start": "2008",
+      "end": "2010",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "BSc Quantity Surveyor, University College of Estate Management, 2020 to 2020",
+    "Foundation degree Construction Operations Management, Middlesex University, 2017 to 2019",
+    "Motor Vehicle - NVQ, Andover College, 2008 to 2009",
+    "GCSE Secondary Education and Teaching, Castledown School, 2004 to 2008"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

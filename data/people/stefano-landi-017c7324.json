@@ -1,0 +1,105 @@
+{
+  "id": "stefano-landi-017c7324",
+  "type": "person",
+  "name": "Stefano Landi",
+  "current_title": "Data Center Sales",
+  "current_company": "Cisco Systems",
+  "linkedin": "https://www.linkedin.com/in/stefano-landi-79b5432b",
+  "location": "Rome, Latium, Italy",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Sales at Cisco Systems, 1/2014 to present; Senior Key Account Manager at Cisco Systems, 2007 to 2014; Key Account Manager at Cisco Systems, 2004 to 2007; System Engineering Consultant at Cisco Systems, 2000 to 2004; Senior System Engineer at Cisco Systems, 1996 to 2000; Network System Engineer at IBM, 1993 to 1996; Analyst/Programmer CAD technology at IBM, 1989 to 1993",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Company History",
+      "rank": 217,
+      "date_added": "2026-08-03 07:37:45 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Data Center Sales",
+      "company": "Cisco Systems",
+      "start": "1/2014",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Key Account Manager",
+      "company": "Cisco Systems",
+      "start": "2007",
+      "end": "2014",
+      "current": false
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Cisco Systems",
+      "start": "2004",
+      "end": "2007",
+      "current": false
+    },
+    {
+      "title": "System Engineering Consultant",
+      "company": "Cisco Systems",
+      "start": "2000",
+      "end": "2004",
+      "current": false
+    },
+    {
+      "title": "Senior System Engineer",
+      "company": "Cisco Systems",
+      "start": "1996",
+      "end": "2000",
+      "current": false
+    },
+    {
+      "title": "Network System Engineer",
+      "company": "IBM",
+      "start": "1993",
+      "end": "1996",
+      "current": false
+    },
+    {
+      "title": "Analyst/Programmer CAD technology",
+      "company": "IBM",
+      "start": "1989",
+      "end": "1993",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Rome",
+    "region": "Lazio",
+    "country": "Italy",
+    "group": "Italy"
+  },
+  "education": [
+    "Master of Engineering (M.Eng.) Electronic, thesis about the resolution of dielectric anistrope guides with the finite element method, 100/100 magna cum laude, University of Bologna, 1982 to 1988"
+  ],
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

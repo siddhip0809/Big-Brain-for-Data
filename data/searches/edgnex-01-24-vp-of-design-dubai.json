@@ -1,0 +1,31 @@
+{
+  "id": "5c2feef2-f127-4107-aae5-99515bf76f96",
+  "type": "search",
+  "name": "Edgnex - 01.24 - VP of Design - Dubai",
+  "client_company": "EDGNEX",
+  "client_company_id": "edgnex",
+  "status": "closed",
+  "project_type": "Internal (historical record)",
+  "started_at": "2026-02-24",
+  "closed_at": "2026-04-28",
+  "closing_reason": "Placement",
+  "placement": {
+    "person": "Cosimo Verteramo",
+    "person_id": null,
+    "title": "Edgnex - 01.24 - VP of Design - Dubai",
+    "start_date": null
+  },
+  "pipeline": [],
+  "counts": {
+    "pipeline": 0,
+    "placed": 1,
+    "active": 0,
+    "out": 0
+  },
+  "historical_record": true,
+  "notes": "Logged retrospectively in Clockwork by Siddhi Pandit as a past placement (project type Internal, presentation-only). It is real completed work, which is why it counts; the first pull skipped it because the isInternal flag also marks the firm's own mapping shells.",
+  "sources": [
+    "Clockwork API, verified live 2026-09-13"
+  ],
+  "last_updated": "2026-09-13"
+}

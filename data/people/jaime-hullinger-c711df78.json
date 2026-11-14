@@ -1,0 +1,82 @@
+{
+  "id": "jaime-hullinger-c711df78",
+  "type": "person",
+  "name": "Jaime Hullinger",
+  "current_title": "Preconstruction Executive",
+  "current_company": "rand* construction",
+  "linkedin": "https://www.linkedin.com/in/jaime-bullock-hullinger",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": "Retail / Mixed Use / Multifamily Residential",
+  "career_history": "Preconstruction Executive at rand* construction, 12/2025 to present; Senior Preconstruction Manager at rand* construction, 4/2008 to 12/2025; Project Coordinator at Walmer Enterprises, 2006 to 2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Precon",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 50,
+      "date_added": "2026-08-04 16:07:15 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Precon.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Preconstruction Executive",
+      "company": "rand* construction",
+      "start": "12/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "rand* construction",
+      "start": "4/2008",
+      "end": "12/2025",
+      "current": false
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "Walmer Enterprises",
+      "start": "2006",
+      "end": "2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "BS, West Virginia University, 2001 to 2005"
+  ],
+  "biography": "Senior Preconstruction Manager at Rand Construction",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Precon.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "clint-davis-3d6547e1",
+  "type": "person",
+  "name": "Clint Davis",
+  "current_title": "Director of Construction",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/clint-davis-7129b444",
+  "location": "San Antonio, Texas",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director of Construction at Vantage, 8/2025 to present; Construction Manager at Vantage, 5/2024 to 8/2025; MEP Superintendent at Turner Construction, 7/2018 to 5/2024; Project Manager at VA Electrical Contractors, 11/2013 to 6/2018",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 117,
+      "date_added": "2026-07-06 11:39:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director of Construction",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Vantage",
+      "start": "5/2024",
+      "end": "8/2025",
+      "current": false
+    },
+    {
+      "title": "MEP Superintendent",
+      "company": "Turner Construction",
+      "start": "7/2018",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "VA Electrical Contractors",
+      "start": "11/2013",
+      "end": "6/2018",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Antonio",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "biography": "Construction Manager with over two decades of experience in the industry, focusing on MEP design, installation, and commissioning.\n\nMarine Corps Veteran\nJourneyman Electrician",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

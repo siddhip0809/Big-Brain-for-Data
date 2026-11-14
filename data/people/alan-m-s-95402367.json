@@ -1,0 +1,64 @@
+{
+  "id": "alan-m-s-95402367",
+  "type": "person",
+  "name": "Alan M S",
+  "current_title": "Senior Electrical Estimator",
+  "current_company": "Rosendin Electric",
+  "linkedin": "https://www.linkedin.com/in/alan-m-s-81131772",
+  "location": "Gallatin, Tennessee",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Electrical Estimator at Rosendin Electric, 8/2010 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "HOLD - On Hold",
+      "rank": 314,
+      "date_added": "2026-08-13 11:15:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Electrical Estimator",
+      "company": "Rosendin Electric",
+      "start": "8/2010",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Gallatin",
+    "region": "Tennessee",
+    "country": "United States",
+    "group": "Tennessee"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

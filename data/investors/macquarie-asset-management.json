@@ -1,0 +1,21 @@
+{
+  "id": "macquarie-asset-management",
+  "type": "investor",
+  "name": "Macquarie Asset Management",
+  "investor_type": "infrastructure fund / asset manager",
+  "hq": null,
+  "aum": null,
+  "investments": [
+    "aligned-data-centers",
+    "prime-data-centers",
+    "applied-digital",
+    "new-era-energy-digital"
+  ],
+  "notable_deals": null,
+  "contacts": [],
+  "notes": "Added from web research into data center industry ownership, 2026-09-05. Verify against Siddhi's own research.",
+  "sources": [
+    "Web research, 2026-09-05"
+  ],
+  "last_updated": "2026-09-05"
+}

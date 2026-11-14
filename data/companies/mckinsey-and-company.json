@@ -1,0 +1,26 @@
+{
+  "id": "mckinsey-and-company",
+  "type": "company",
+  "name": "McKinsey & Company",
+  "aliases": [],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.mckinsey.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Multiple published data center power-demand reports incl. 'Powering AI: How real is the risk of overbuilding?' with named authors.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Multiple published data center power-demand reports incl. 'Powering AI: How real is the risk of overbuilding?' with named authors. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/ai-power-expanding-data-center-capacity-to-meet-growing-demand",
+    "https://www.mckinsey.com"
+  ],
+  "last_updated": "2026-09-16"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "kyle-neild-7a534723",
+  "type": "person",
+  "name": "Kyle Neild",
+  "current_title": "Senior Design Phase Manager",
+  "current_company": "Morteson",
+  "location": "Idaho Falls, Idaho",
+  "linkedin": "https://www.linkedin.com/in/kyle-nield-463321a3",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Design Phase Manager at Morteson, 3/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Director/Sr Director Cost Strategy",
+      "client_company": "stack-infrastructure",
+      "stage": "1a. Pursuing",
+      "rank": 163,
+      "date_added": "2026-08-21 15:22:27 UTC",
+      "date_updated": "2026-08-21 10:27:29 -0500",
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "green"
+    },
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Transferred to Main Project",
+      "rank": 381,
+      "date_added": "2026-08-18 13:56:49 UTC",
+      "date_updated": "2026-08-21 10:26:41 -0500",
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "notes": "",
+  "sources": [
+    "Clockwork export: Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-04",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "function": "Design & Engineering",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Design Phase Manager",
+      "company": "Morteson",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Idaho Falls",
+    "region": "Idaho",
+    "country": "United States",
+    "group": "Idaho"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "airies-bagalawis-ad875a59",
+  "type": "person",
+  "name": "Airies Bagalawis",
+  "current_title": "Associate Director",
+  "current_company": "Cumming Group",
+  "linkedin": "https://www.linkedin.com/in/airiesbagalawis",
+  "location": "Los Angeles, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Associate Director at Cumming Group, 4/2026 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Recently Moved",
+      "rank": 184,
+      "date_added": "2026-08-11 07:30:25 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": null,
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "mapping list",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Associate Director",
+      "company": "Cumming Group",
+      "start": "4/2026",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

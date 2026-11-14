@@ -1,0 +1,90 @@
+{
+  "id": "jeffrey-colby-4a8036fa",
+  "type": "person",
+  "name": "Jeffrey Colby",
+  "current_title": "Senior Director, Construction Management",
+  "current_company": "Aligned Data Centers",
+  "linkedin": "https://www.linkedin.com/in/jeffrey-colby-ba18aa7b",
+  "location": "Leesburg, Virginia, United States",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Senior Director, Construction Management at Aligned Data Centers, 9/2022 to present; Director, Construction Management at Aligned Data Centers, 1/2021 to 9/2022; Construction Manager at Equinix, 7/2018 to 1/2021; Design Engineer at Southland Industries, 1/2009 to 7/2018; Central Plant Engineer Intern at North Carolina State University, 8/2007 to 12/2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 28,
+      "date_added": "2026-07-02 11:47:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "aligned-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Construction Management",
+      "company": "Aligned Data Centers",
+      "start": "9/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director, Construction Management",
+      "company": "Aligned Data Centers",
+      "start": "1/2021",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Construction Manager",
+      "company": "Equinix",
+      "start": "7/2018",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Design Engineer",
+      "company": "Southland Industries",
+      "start": "1/2009",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Central Plant Engineer Intern",
+      "company": "North Carolina State University",
+      "start": "8/2007",
+      "end": "12/2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Leesburg",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Bachelor of Science (BS), Mechanical Engineering, North Carolina State University, 2003 to 2008"
+  ],
+  "biography": "Senior Director, Construction at Aligned",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

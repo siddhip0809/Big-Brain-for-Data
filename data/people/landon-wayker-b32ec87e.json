@@ -1,0 +1,121 @@
+{
+  "id": "landon-wayker-b32ec87e",
+  "type": "person",
+  "name": "Landon Wayker",
+  "current_title": "Senior Preconstruction Manager",
+  "current_company": "Suffolk Construction",
+  "linkedin": "https://www.linkedin.com/in/landon-wayker-545167171",
+  "location": "San Francisco, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Preconstruction Manager at Suffolk Construction, 11/2025 to present; Assistant Preconstruction Manager at McCarthy Building Companies, 8/2023 to 3/2025; Senior Estimator at McCarthy Building Companies, 11/2022 to 8/2023; Commercial Estimator at McCarthy Building Companies, 9/2021 to 11/2022; Estimator at Bradley Concrete, 3/2021 to 9/2021; Project Engineer at Bradley Concrete, 5/2019 to 3/2021; Wood Refurbishing & Paint Estimator at ALL BAY PAINT, 5/2018 to 5/2019",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 16,
+      "date_added": "2026-08-03 08:16:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "WARD - Too Junior",
+      "rank": 16,
+      "date_added": "2026-08-03 08:16:40 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "suffolk-construction",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Preconstruction Manager",
+      "company": "Suffolk Construction",
+      "start": "11/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Assistant Preconstruction Manager",
+      "company": "McCarthy Building Companies",
+      "start": "8/2023",
+      "end": "3/2025",
+      "current": false
+    },
+    {
+      "title": "Senior Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "11/2022",
+      "end": "8/2023",
+      "current": false
+    },
+    {
+      "title": "Commercial Estimator",
+      "company": "McCarthy Building Companies",
+      "start": "9/2021",
+      "end": "11/2022",
+      "current": false
+    },
+    {
+      "title": "Estimator",
+      "company": "Bradley Concrete",
+      "start": "3/2021",
+      "end": "9/2021",
+      "current": false
+    },
+    {
+      "title": "Project Engineer",
+      "company": "Bradley Concrete",
+      "start": "5/2019",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "Wood Refurbishing & Paint Estimator",
+      "company": "ALL BAY PAINT",
+      "start": "5/2018",
+      "end": "5/2019",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "General Studies with Emphasis in Economy and Industry, Business/Commerce, University Of Arizona, 2014 to 2018"
+  ],
+  "biography": "Assistant Preconstruction Manager at McCarthy Building Companies, Inc.",
+  "assessment": {
+    "skills": {
+      "Pre-Construction · estimating & cost control": "High Confidence"
+    },
+    "top_tier": [
+      "Pre-Construction"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

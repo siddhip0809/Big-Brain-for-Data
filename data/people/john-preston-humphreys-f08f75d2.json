@@ -1,0 +1,93 @@
+{
+  "id": "john-preston-humphreys-f08f75d2",
+  "type": "person",
+  "name": "John Preston Humphreys",
+  "current_title": "Director, Construction",
+  "current_company": "Vantage",
+  "linkedin": "https://www.linkedin.com/in/jph-humphreys",
+  "location": "Denver, Colorado",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "Director, Construction at Vantage, 8/2025 to present; Development Project Manager at QTS Data Centers, 10/2023 to present; Project Manager at Whiting-Turner Contracting, 1/2016 to 5/2022; Corrosion Tech Intern at ONEOK, 6/2013 to 8/2013; Shop Helper at East Texas Oilfeild Supply, 5/2012 to 8/2012",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 133,
+      "date_added": "2026-07-06 13:55:44 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "vantage",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Director, Construction",
+      "company": "Vantage",
+      "start": "8/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Development Project Manager",
+      "company": "QTS Data Centers",
+      "start": "10/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "Whiting-Turner Contracting",
+      "start": "1/2016",
+      "end": "5/2022",
+      "current": false
+    },
+    {
+      "title": "Corrosion Tech Intern",
+      "company": "ONEOK",
+      "start": "6/2013",
+      "end": "8/2013",
+      "current": false
+    },
+    {
+      "title": "Shop Helper",
+      "company": "East Texas Oilfeild Supply",
+      "start": "5/2012",
+      "end": "8/2012",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Denver",
+    "region": "Colorado",
+    "country": "United States",
+    "group": "Colorado"
+  },
+  "education": [
+    "Bachelor’s Degree, Construction Science, Texas A&M University, 2015 to 2017",
+    "General Studies, Blinn College, 2014 to 2015",
+    "Cathodic Protection Tester (CP1), NACE, 2013 to present",
+    "Associate's Degree, Corrosion Technology, Kilgore College, 2011 to 2013"
+  ],
+  "biography": "Texas A&M Construction Science '17",
+  "assessment": {
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "jonathan-david-willis-00572146",
+  "type": "person",
+  "name": "Jonathan David Willis",
+  "current_title": "Senior Program Manager",
+  "current_company": "Microsoft",
+  "linkedin": "https://www.linkedin.com/in/jonathan-david-willis-b96a6a23",
+  "location": "Redmond, Washington",
+  "seniority": "Manager",
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Program Manager at Microsoft, 6/2018 to present; Project Manager at T-Mobile, 4/2017 to 6/2018; Project Manager at T-Mobile, 4/2017 to 6/2018; Real Estate Specialist at AT&T, 10/2015 to 4/2017; Real Estate Broker at Continental Properties, 7/2012 to 10/2015; Cell Site Acquisition / Property Management  at Coastal Business Group, 7/2010 to 12/2011; Legal Assistant at Cappello & Noël, 7/2009 to 7/2010; Legal Assistant at Law Offices of Robert Shiri, 8/2007 to 7/2009; Drummer at Freelance, 1/1998 to present",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 484,
+      "date_added": "2026-06-03 14:54:22 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "microsoft",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "career": [
+    {
+      "title": "Senior Program Manager",
+      "company": "Microsoft",
+      "start": "6/2018",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager",
+      "company": "T-Mobile",
+      "start": "4/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "T-Mobile",
+      "start": "4/2017",
+      "end": "6/2018",
+      "current": false
+    },
+    {
+      "title": "Real Estate Specialist",
+      "company": "AT&T",
+      "start": "10/2015",
+      "end": "4/2017",
+      "current": false
+    },
+    {
+      "title": "Real Estate Broker",
+      "company": "Continental Properties",
+      "start": "7/2012",
+      "end": "10/2015",
+      "current": false
+    },
+    {
+      "title": "Cell Site Acquisition / Property Management ",
+      "company": "Coastal Business Group",
+      "start": "7/2010",
+      "end": "12/2011",
+      "current": false
+    },
+    {
+      "title": "Legal Assistant",
+      "company": "Cappello & Noël",
+      "start": "7/2009",
+      "end": "7/2010",
+      "current": false
+    },
+    {
+      "title": "Legal Assistant",
+      "company": "Law Offices of Robert Shiri",
+      "start": "8/2007",
+      "end": "7/2009",
+      "current": false
+    },
+    {
+      "title": "Drummer",
+      "company": "Freelance",
+      "start": "1/1998",
+      "end": "present",
+      "current": true
+    }
+  ],
+  "location_norm": {
+    "city": "Redmond",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Bachelor of Arts (B.A.) - Music, Business Minor, University Of Southern California, 2004 to 2008"
+  ],
+  "biography": "Senior Program Manager (Microsoft Cloud Infrastructure)",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "hyperscaler_equivalent_seniority": "Director",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

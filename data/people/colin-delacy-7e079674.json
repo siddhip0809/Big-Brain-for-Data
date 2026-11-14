@@ -1,0 +1,135 @@
+{
+  "id": "colin-delacy-7e079674",
+  "type": "person",
+  "name": "Colin DeLacy",
+  "current_title": "Vice President of Sales",
+  "current_company": "T5 Data Centers",
+  "linkedin": "https://www.linkedin.com/in/colin-delacy-166a181",
+  "location": "San Diego, California",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Vice President of Sales at T5 Data Centers, 10/2024 to present; Managing Director- Data Center Solutions Sales at CBRE, 5/2024 to 9/2024; Business Development Director - Data Center Solutions at CBRE, 9/2021 to 5/2024; Director of Sales- Data Centers at Iron Mountian, 1/2020 to 1/2021; Senior Account Executive- Data Centers at Iron Mountian, 4/2019 to 12/2019; Head of Sales- Managed Threat Services (MTS) at Booz Allen Hamilton, 11/2018 to 4/2019; Sales Director- Managed Threat Services- Western US at Booz Allen Hamilton, 7/2018 to 11/2018; Vice President of Sales- Western Region at Sungard Availability Services, 7/2017 to 7/2018; Vice President of Sales- Premier Accounts at Sungard Availability Services, 12/2015 to 7/2017; Senior Director of Sales- Premier Accounts at Sungard Availability Services, 4/2015 to 12/2015; T5 Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Sales - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 138,
+      "date_added": "2025-12-15 15:53:56 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "t5-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Sales_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Vice President of Sales",
+      "company": "T5 Data Centers",
+      "start": "10/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Managing Director- Data Center Solutions Sales",
+      "company": "CBRE",
+      "start": "5/2024",
+      "end": "9/2024",
+      "current": false
+    },
+    {
+      "title": "Business Development Director - Data Center Solutions",
+      "company": "CBRE",
+      "start": "9/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Director of Sales- Data Centers",
+      "company": "Iron Mountian",
+      "start": "1/2020",
+      "end": "1/2021",
+      "current": false
+    },
+    {
+      "title": "Senior Account Executive- Data Centers",
+      "company": "Iron Mountian",
+      "start": "4/2019",
+      "end": "12/2019",
+      "current": false
+    },
+    {
+      "title": "Head of Sales- Managed Threat Services (MTS)",
+      "company": "Booz Allen Hamilton",
+      "start": "11/2018",
+      "end": "4/2019",
+      "current": false
+    },
+    {
+      "title": "Sales Director- Managed Threat Services- Western US",
+      "company": "Booz Allen Hamilton",
+      "start": "7/2018",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales- Western Region",
+      "company": "Sungard Availability Services",
+      "start": "7/2017",
+      "end": "7/2018",
+      "current": false
+    },
+    {
+      "title": "Vice President of Sales- Premier Accounts",
+      "company": "Sungard Availability Services",
+      "start": "12/2015",
+      "end": "7/2017",
+      "current": false
+    },
+    {
+      "title": "Senior Director of Sales- Premier Accounts",
+      "company": "Sungard Availability Services",
+      "start": "4/2015",
+      "end": "12/2015",
+      "current": false
+    },
+    {
+      "raw": "T5 Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "San Diego",
+    "region": "California",
+    "country": "United States",
+    "group": "California"
+  },
+  "education": [
+    "Certificate, Uc San Diego, 2009 to 2014",
+    "Bachelors, Florida State University, 1994 to 1998"
+  ],
+  "assessment": {
+    "skills": {
+      "Sales · selling": "High Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Average",
+    "source": "Clockwork export (Long_Term_Mapping__Sales__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

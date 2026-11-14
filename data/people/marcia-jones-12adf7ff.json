@@ -1,0 +1,190 @@
+{
+  "id": "marcia-jones-12adf7ff",
+  "type": "person",
+  "name": "Marcia Jones",
+  "current_title": "Development Lead",
+  "current_company": "OpenAI",
+  "linkedin": "https://www.linkedin.com/in/marcia-j-5282919",
+  "location": "Seattle, Washington",
+  "seniority": "Vice President",
+  "industry_segment": "Data Centre",
+  "career_history": "Development Lead at OpenAI, 6/2026 to present; Principal, Real Estate & Site Development at CHVN Studio, 7/2025 to present; Site Origination Director at Rowan Digital Infrastructure, 10/2024 to 6/2025; Senior Acquisition Manager | Infrastructure Planning and Acquisition at Microsoft, 3/2023 to 10/2024; Sr. Real Estate and Land Use Manager at Microsoft, 3/2019 to 3/2023; Facilities Planner at KT CONSULTING, 3/2018 to 1/2019; Planning Program Manager – Military Facilities and Infrastructure at KT CONSULTING, 3/2018 to 1/2019; Principal, Infrastructure Planner at DynCorp International, 7/2016 to 3/2018; Community Planning Manager at DynCorp International, 7/2016 to 3/2018; Principal Planner/ Lead Site Manager at Federal IT Consulting, 9/2015 to 1/2016; Master Planner/ Site Manager at Federal IT Consulting, 9/2015 to 1/2016; Principal Master Planner/ Lead Site Manager at DynCorp International, 4/2015 to 9/2015; Master Planner/ Site Manager at DynCorp International, 4/2015 to 9/2015; Military Planner at AECOM, 11/2014 to 4/2015; Senior Military Planner, International Base Infrastructure at AECOM, 11/2014 to 4/2015; Military Installation Planner at CH2M, 10/2006 to 1/2013; Military Installation Planner at CH2M HILL, 10/2006 to 1/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 265,
+      "date_added": "2026-04-20 11:01:07 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "openai",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "career": [
+    {
+      "title": "Development Lead",
+      "company": "OpenAI",
+      "start": "6/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Principal, Real Estate & Site Development",
+      "company": "CHVN Studio",
+      "start": "7/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Site Origination Director",
+      "company": "Rowan Digital Infrastructure",
+      "start": "10/2024",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "raw": "Senior Acquisition Manager"
+    },
+    {
+      "title": "Infrastructure Planning and Acquisition",
+      "company": "Microsoft",
+      "start": "3/2023",
+      "end": "10/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Real Estate and Land Use Manager",
+      "company": "Microsoft",
+      "start": "3/2019",
+      "end": "3/2023",
+      "current": false
+    },
+    {
+      "title": "Facilities Planner",
+      "company": "KT CONSULTING",
+      "start": "3/2018",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Planning Program Manager – Military Facilities and Infrastructure",
+      "company": "KT CONSULTING",
+      "start": "3/2018",
+      "end": "1/2019",
+      "current": false
+    },
+    {
+      "title": "Principal, Infrastructure Planner",
+      "company": "DynCorp International",
+      "start": "7/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Community Planning Manager",
+      "company": "DynCorp International",
+      "start": "7/2016",
+      "end": "3/2018",
+      "current": false
+    },
+    {
+      "title": "Principal Planner/ Lead Site Manager",
+      "company": "Federal IT Consulting",
+      "start": "9/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Master Planner/ Site Manager",
+      "company": "Federal IT Consulting",
+      "start": "9/2015",
+      "end": "1/2016",
+      "current": false
+    },
+    {
+      "title": "Principal Master Planner/ Lead Site Manager",
+      "company": "DynCorp International",
+      "start": "4/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Master Planner/ Site Manager",
+      "company": "DynCorp International",
+      "start": "4/2015",
+      "end": "9/2015",
+      "current": false
+    },
+    {
+      "title": "Military Planner",
+      "company": "AECOM",
+      "start": "11/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Senior Military Planner, International Base Infrastructure",
+      "company": "AECOM",
+      "start": "11/2014",
+      "end": "4/2015",
+      "current": false
+    },
+    {
+      "title": "Military Installation Planner",
+      "company": "CH2M",
+      "start": "10/2006",
+      "end": "1/2013",
+      "current": false
+    },
+    {
+      "title": "Military Installation Planner",
+      "company": "CH2M HILL",
+      "start": "10/2006",
+      "end": "1/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "Certificate of Construction Management, Construction Management, University Of Washington, 2022 to 2023",
+    "Master's Degree, Urban and Regional Planning, Michigan State University, 2004 to 2006",
+    "Master’s Degree, Urban and Regional Planning, Michigan State University, 2004 to 2006",
+    "Bachelor’s Degree, Psychology, Michigan State University, 2000 to 2004"
+  ],
+  "biography": "Land Planning and Corporate Real Estate Development",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "High Confidence",
+      "Development · financial modelling": "Low Confidence",
+      "Sales · selling": "Low Confidence",
+      "Sales · leasing": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Recent Move",
+    "spoken_with_before": true,
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

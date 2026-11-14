@@ -1,0 +1,28 @@
+{
+  "id": "the-brattle-group",
+  "type": "company",
+  "name": "The Brattle Group",
+  "aliases": [
+    "Brattle"
+  ],
+  "roles": [
+    "consultancy"
+  ],
+  "parent_industry": "construction_engineering",
+  "industry_role": "consultancy — strategy & advisory, power & grid advisory",
+  "headquarters": null,
+  "founded": null,
+  "website": "https://www.brattle.com",
+  "linkedin": null,
+  "headcount": null,
+  "description": "Large-load / data-center studies: accelerating generation additions for large loads (Oct 2025), Iowa & Wisconsin large-user cost-allocation analysis (Jun 2026), grid-utilisation savings report.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "Consultancy tier, open-source research 2026-09-16. Large-load / data-center studies: accelerating generation additions for large loads (Oct 2025), Iowa & Wisconsin large-user cost-allocation analysis (Jun 2026), grid-utilisation savings report. Added 2026-09-16 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://www.brattle.com/wp-content/uploads/2025/10/Accelerating-Generation-Additions-to-Serve-Large-Load-Customers.pdf",
+    "https://www.brattle.com"
+  ],
+  "last_updated": "2026-09-16"
+}

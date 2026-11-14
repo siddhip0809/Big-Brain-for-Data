@@ -1,0 +1,90 @@
+{
+  "id": "matthew-soltis-01f29238",
+  "type": "person",
+  "name": "Matthew Soltis",
+  "current_title": "Senior Director, Construction Management EMEA",
+  "current_company": "Equinix",
+  "linkedin": "https://www.linkedin.com/in/matthew-soltis-04319a52",
+  "location": "Scottsdale, Arizona, United States",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Director, Construction Management EMEA at Equinix, 4/2019 to present; Senior Construction Management at Equinix, 3/2019 to present; Senior Director, Construction Managemen at Equinix, 3/2019 to present; Director Construction Management at Equinix, 4/2011 to present; Senior Project Manager at Continental Electrical Construction, 8/2002 to 10/2007",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 2,
+      "date_added": "2026-07-02 11:47:39 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "equinix",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Construction & Delivery",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Director, Construction Management EMEA",
+      "company": "Equinix",
+      "start": "4/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Construction Management",
+      "company": "Equinix",
+      "start": "3/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Director, Construction Managemen",
+      "company": "Equinix",
+      "start": "3/2019",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Director Construction Management",
+      "company": "Equinix",
+      "start": "4/2011",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Project Manager",
+      "company": "Continental Electrical Construction",
+      "start": "8/2002",
+      "end": "10/2007",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Scottsdale",
+    "region": "Arizona",
+    "country": "United States",
+    "group": "Arizona"
+  },
+  "education": [
+    "Electrical Engineering Technologies/Technicians, Purdue University, 1981 to 1985"
+  ],
+  "biography": "Senior Director Construction Management at Equinix",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

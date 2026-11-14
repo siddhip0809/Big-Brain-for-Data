@@ -1,0 +1,30 @@
+{
+  "id": "life-cycle-power",
+  "type": "company",
+  "name": "Life Cycle Power",
+  "aliases": [
+    "Lifecycle Power",
+    "LCP"
+  ],
+  "roles": [
+    "energy_developer"
+  ],
+  "parent_industry": "energy_utilities",
+  "industry_role": "US provider of mobile natural-gas turbine power (primary, backup and bridging power) for data centres and industry",
+  "headquarters": null,
+  "founded": null,
+  "website": null,
+  "linkedin": null,
+  "headcount": null,
+  "description": "Mobile gas-turbine power provider (fleet reported at about 897 MW to over 1 GW) expanding into data-centre prime and bridging power; Partners Group agreed to acquire it from Arroyo Investors in October 2025.",
+  "tags": [],
+  "source_lists": [],
+  "list_attributes": {},
+  "notes": "HQ left null: sources disagree (Houston, Centerville, Midland, Jersey Village, all Texas). Added 2026-10-30 from open-source research (import_researched_companies.py).",
+  "sources": [
+    "https://realassets.ipe.com/news/partners-group-to-buy-us-mobile-power-provider-life-cycle-power/10133193.article",
+    "https://www.cliffordchance.com/news/news/2025/10/clifford-chance-advises-partners-group-on-acquisition-of-life-cy.html",
+    "https://www.datacenterdynamics.com/en/product-news/life-cycle-power-expands-into-data-center-market-with-flexible-mobile-gas-turbine-solutions/"
+  ],
+  "last_updated": "2026-10-30"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "alex-webb-6101f741",
+  "type": "person",
+  "name": "Alex Webb",
+  "current_title": "Sales Director - New Business",
+  "current_company": "Stellanor Datacentres",
+  "linkedin": "https://www.linkedin.com/in/alexwebb4d",
+  "location": "London, England, United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Sales Director - New Business at Stellanor Datacentres, 5/2026 to present; Sales Director - Retail at Redcentric Data Centres, 9/2024 to present; Head of SME at Redcentric, 9/2023 to 8/2024; Head of New Business at Redcentric, 9/2022 to 9/2023; Head of Sales at 4D Data Centres, 12/2018 to 9/2022; Business Development Team Leader at 4D Data Centres, 5/2012 to 11/2018; Team Leader at JD Wetherspoon, 3/2009 to 3/2013",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Role Scope",
+      "rank": 182,
+      "date_added": "2026-07-14 13:21:49 UTC",
+      "date_updated": null,
+      "sourced_by": "Diksha",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "stellanor-datacentres",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Sales & Leasing",
+  "function_source": "title",
+  "seniority_rank": 3,
+  "seniority_label": "Director",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sales Director - New Business",
+      "company": "Stellanor Datacentres",
+      "start": "5/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Sales Director - Retail",
+      "company": "Redcentric Data Centres",
+      "start": "9/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Head of SME",
+      "company": "Redcentric",
+      "start": "9/2023",
+      "end": "8/2024",
+      "current": false
+    },
+    {
+      "title": "Head of New Business",
+      "company": "Redcentric",
+      "start": "9/2022",
+      "end": "9/2023",
+      "current": false
+    },
+    {
+      "title": "Head of Sales",
+      "company": "4D Data Centres",
+      "start": "12/2018",
+      "end": "9/2022",
+      "current": false
+    },
+    {
+      "title": "Business Development Team Leader",
+      "company": "4D Data Centres",
+      "start": "5/2012",
+      "end": "11/2018",
+      "current": false
+    },
+    {
+      "title": "Team Leader",
+      "company": "JD Wetherspoon",
+      "start": "3/2009",
+      "end": "3/2013",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": "England",
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Bachelor of Photography, University for the Creative Arts, 2008 to 2011"
+  ],
+  "biography": "Do these problems relate? 1) Businesses rapid growth meant we built our infrastructure in \"The Cloud\", but now we are finding the cost unbearable for our heavier workloads. 2) Our data centres (in-house or external) are not fit for their purpose. We have an office move/hardware refresh/outages compelling us to make changes. 3) We are on a digital transformation journey, but some applications just won't fit in the cloud. If so, 'Connect'. For nearly ten years, I have been helping IT leaders implement their strategy with an infrastructure foundation they can trust. Through data centre hosting, colocation, IaaS (Private, Hybrid and Public), connectivity and cyber-security to protect it. While the cloud is for everyone, it is not for everything. I help make the right IT choices for your business.",
+  "assessment": {
+    "top_tier": [
+      "Sales"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (M_VP_Sales.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

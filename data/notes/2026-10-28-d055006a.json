@@ -1,0 +1,32 @@
+{
+  "id": "2026-10-28-d055006a",
+  "type": "note",
+  "date": "2026-10-28",
+  "kind": "market_intel",
+  "basis": "reported",
+  "summary": "Brian Cox (Interim CEO, STACK Infrastructure EMEA) is stepping down.",
+  "about": [
+    "person:brian-cox-7f347d53",
+    "company:stack-infrastructure"
+  ],
+  "signals": [
+    {
+      "type": "moved",
+      "person": "person:brian-cox-7f347d53",
+      "company": "company:stack-infrastructure",
+      "title": "stepping down"
+    }
+  ],
+  "discretion": true,
+  "source": {
+    "channel": "teams",
+    "date": "2026-10-28",
+    "from": "Ensar Aljimi",
+    "via": "Teams · chat",
+    "subject": "STACK EMEA leadership",
+    "link": "https://teams.microsoft.com/l/message/19%3a47c9e171-e1ed-489b-9bf6-78052f3aeaf9_b388d1a9-522d-4a8b-9231-0c10b24283a9%40unq.gbl.spaces/1793189042930?context=%7B%22contextType%22:%22chat%22%7D",
+    "ref": "sha1:6c70131684a18aaa"
+  },
+  "recorded_on": "2026-11-14",
+  "recorded_by": "Claude (intake)"
+}

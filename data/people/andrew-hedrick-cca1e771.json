@@ -1,0 +1,109 @@
+{
+  "id": "andrew-hedrick-cca1e771",
+  "type": "person",
+  "name": "Andrew Hedrick",
+  "current_title": "Senior Manager, Utility Development",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/andrew-hedrick-54869012a",
+  "location": "Greater Richmond Region",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Manager, Utility Development at QTS Data Centers, 3/2026 to present; Utility Development Program Manager at QTS Data Centers, 6/2025 to present; Senior Business Development Analyst at Dominion, 5/2021 to 6/2025; Customer Project Designer at Dominion, 4/2017 to 4/2021; Project Designer at Dominion, 8/2015 to 4/2021; GIS Specialist at Shenandoah Valley Electric Cooperative, 6/2011 to 8/2015; QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Utilities - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 3,
+      "date_added": "2025-11-07 13:43:20 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Energy & Utilities",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Utilities_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Energy & Utilities",
+  "function_source": "title",
+  "seniority_rank": 4,
+  "seniority_label": "Manager / Lead",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Manager, Utility Development",
+      "company": "QTS Data Centers",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Utility Development Program Manager",
+      "company": "QTS Data Centers",
+      "start": "6/2025",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Business Development Analyst",
+      "company": "Dominion",
+      "start": "5/2021",
+      "end": "6/2025",
+      "current": false
+    },
+    {
+      "title": "Customer Project Designer",
+      "company": "Dominion",
+      "start": "4/2017",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "Project Designer",
+      "company": "Dominion",
+      "start": "8/2015",
+      "end": "4/2021",
+      "current": false
+    },
+    {
+      "title": "GIS Specialist",
+      "company": "Shenandoah Valley Electric Cooperative",
+      "start": "6/2011",
+      "end": "8/2015",
+      "current": false
+    },
+    {
+      "raw": "QTS Data Centers"
+    }
+  ],
+  "location_norm": {
+    "city": "Richmond",
+    "region": "Virginia",
+    "country": "United States",
+    "group": "Virginia"
+  },
+  "education": [
+    "Geographic Science, AGIS, James Madison University, 2010 to 2012"
+  ],
+  "assessment": {
+    "skills": {
+      "Energy · ESA negotiation": "High Confidence",
+      "Energy · interconnection & transmission negotiation": "High Confidence",
+      "Energy · transmission engineering": "Low Confidence",
+      "Water · WSA negotiation": "Low Confidence",
+      "Water · engineering": "Low Confidence"
+    },
+    "top_tier": [
+      "Energy"
+    ],
+    "tenure": "Recent Move",
+    "source": "Clockwork export (Long_Term_Mapping__Utilities__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

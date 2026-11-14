@@ -1,0 +1,94 @@
+{
+  "id": "christopher-warnke-1933bb22",
+  "type": "person",
+  "name": "Christopher Warnke",
+  "current_title": "Senior Vice President - Site Acquisitions",
+  "current_company": "CloudHQ",
+  "linkedin": "https://www.linkedin.com/in/christopher-warnke-7006936",
+  "location": "United Kingdom",
+  "seniority": null,
+  "industry_segment": "Data Centre",
+  "career_history": "Senior Vice President - Site Acquisitions at CloudHQ, 3/2026 to present; Vice President - Business Developme at CloudHQ, 3/2016 to present; Senior Development Associate at DuPont Fabros, 9/2007 to 2/2016",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] VP Sales",
+      "client_company": "pure-data-centers",
+      "stage": "WARD - Too Senior",
+      "rank": 262,
+      "date_added": "2026-08-11 10:16:41 UTC",
+      "date_updated": null,
+      "sourced_by": "Siddhi Pandit",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 165,
+      "date_added": "2026-01-07 16:31:13 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Sales",
+  "current_company_id": "cloudhq",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_VP_Sales.xlsx, imported 2026-09-05",
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 1,
+  "seniority_label": "EVP / SVP / MD",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Senior Vice President - Site Acquisitions",
+      "company": "CloudHQ",
+      "start": "3/2026",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Vice President - Business Developme",
+      "company": "CloudHQ",
+      "start": "3/2016",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Development Associate",
+      "company": "DuPont Fabros",
+      "start": "9/2007",
+      "end": "2/2016",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": null,
+    "region": null,
+    "country": "United Kingdom",
+    "group": "United Kingdom"
+  },
+  "education": [
+    "Georgetown University McDonough School of Business, 2005 to 2007"
+  ],
+  "biography": "Vice President - Business Developme at CloudHQ LLC",
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "Low Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact."
+  }
+}

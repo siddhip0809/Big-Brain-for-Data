@@ -1,0 +1,94 @@
+{
+  "id": "andres-montoya-3c04f4b1",
+  "type": "person",
+  "name": "Andres Montoya",
+  "current_title": "Sr. Estimator",
+  "current_company": "Structure Tone Southwest",
+  "linkedin": "https://www.linkedin.com/in/andres-montoya-a244246b",
+  "location": "Dallas, Texas",
+  "seniority": null,
+  "industry_segment": "Mission Critical",
+  "career_history": "Sr. Estimator at Structure Tone Southwest, 4/2023 to present; Project Manager/ Estimator at MDI Inc General Contractors, 6/2011 to 4/2023; project manager at Phillips may, 2008 to 2010; asst. super at 3i Construction, 2001 to 2002",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "[M] Director/Sr Director Cost Strategy [Non dc]",
+      "client_company": "stack-infrastructure",
+      "stage": "Research",
+      "rank": 403,
+      "date_added": "2026-08-21 09:37:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    },
+    {
+      "project": "Director / Sr Director Cost Strategy",
+      "client_company": "STACK Infrastructure",
+      "stage": "Research",
+      "rank": 403,
+      "date_added": "2026-08-21 09:37:14 UTC",
+      "date_updated": null,
+      "sourced_by": "Rhea Fernandes",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Pre-Construction",
+  "current_company_id": "structure-tone",
+  "notes": "",
+  "sources": [
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-05",
+    "Clockwork export: M_Director_Sr_Director_Cost_Strategy.xlsx, imported 2026-09-09"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Pre-Construction & Cost",
+  "function_source": "title",
+  "seniority_rank": 5,
+  "seniority_label": "Individual contributor",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "Sr. Estimator",
+      "company": "Structure Tone Southwest",
+      "start": "4/2023",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Project Manager/ Estimator",
+      "company": "MDI Inc General Contractors",
+      "start": "6/2011",
+      "end": "4/2023",
+      "current": false
+    },
+    {
+      "title": "project manager",
+      "company": "Phillips may",
+      "start": "2008",
+      "end": "2010",
+      "current": false
+    },
+    {
+      "title": "asst. super",
+      "company": "3i Construction",
+      "start": "2001",
+      "end": "2002",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelor of Business Administration (BBA), International Business, Universtiy of Texas at Arlington, 2001 to 2004",
+    "Cross Cultural Studies, Instituto Tecnológico y de Estudios Superiores de Monterrey / ITESM"
+  ],
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (M_Director_Sr_Director_Cost_Strategy.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "Yes"
+  }
+}

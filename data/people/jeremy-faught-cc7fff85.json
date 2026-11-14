@@ -1,0 +1,95 @@
+{
+  "id": "jeremy-faught-cc7fff85",
+  "type": "person",
+  "name": "Jeremy Faught",
+  "current_title": "VP Development - Phoenix",
+  "current_company": "QTS Data Centers",
+  "linkedin": "https://www.linkedin.com/in/jeremy-faught-69a88517",
+  "location": "Kennewick, Washington",
+  "seniority": null,
+  "industry_segment": null,
+  "career_history": "VP Development - Phoenix at QTS Data Centers, 5/2024 to present; AWS, 3/2021 to 5/2024; Sr. Manager of Construction - AMER West at AWS, 3/2021 to 5/2024; Project Executive at Apollo Mechanical Contractors, 12/2016 to 3/2021; General Manager at Apollo Mechanical Contractors, 5/2006 to 12/2016; VP Development at QTS Data Centers",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Construction - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 164,
+      "date_added": "2026-07-07 11:11:34 UTC",
+      "date_updated": null,
+      "sourced_by": "Srishti",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Construction",
+  "current_company_id": "qts-data-centers",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Construction_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Development & Real Estate",
+  "function_source": "title",
+  "seniority_rank": 2,
+  "seniority_label": "VP / Head of",
+  "seniority_source": "derived from title",
+  "career": [
+    {
+      "title": "VP Development - Phoenix",
+      "company": "QTS Data Centers",
+      "start": "5/2024",
+      "end": "present",
+      "current": true
+    },
+    {
+      "company": "AWS",
+      "start": "3/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Sr. Manager of Construction - AMER West",
+      "company": "AWS",
+      "start": "3/2021",
+      "end": "5/2024",
+      "current": false
+    },
+    {
+      "title": "Project Executive",
+      "company": "Apollo Mechanical Contractors",
+      "start": "12/2016",
+      "end": "3/2021",
+      "current": false
+    },
+    {
+      "title": "General Manager",
+      "company": "Apollo Mechanical Contractors",
+      "start": "5/2006",
+      "end": "12/2016",
+      "current": false
+    },
+    {
+      "title": "VP Development",
+      "company": "QTS Data Centers",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Kennewick",
+    "region": "Washington",
+    "country": "United States",
+    "group": "Washington"
+  },
+  "education": [
+    "BS, Finance, Central Washington University, 1997 to 1999",
+    "Central Washington University, 1997 to 1999"
+  ],
+  "biography": "VP Development - Phoenix QTS Data Centers",
+  "assessment": {
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Construction__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}

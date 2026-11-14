@@ -1,0 +1,103 @@
+{
+  "id": "rob-morris-5eabf39d",
+  "type": "person",
+  "name": "Rob Morris",
+  "current_title": "Chief Executive Officer",
+  "current_company": "Skybox Datacenters",
+  "linkedin": "https://www.linkedin.com/in/rob-morris-a18470a",
+  "location": "Dallas, Texas",
+  "seniority": "CXO",
+  "industry_segment": "Data Centre",
+  "career_history": "Data Center Product Council, Assistant Chair at Urban Land Institute, 4/2022 to present; Chief Executive Officer at Skybox Datacenters, 6/2013 to present; Partner at Rugen Street Capital, 5/2013 to present; Senior Vice President, Principal at Cassidy Turley, 8/2011 to 7/2013; Senior Associate at Cushman & Wakefield, 5/2008 to 8/2011; Associate at Oldham Goodwin Group, 2007 to 2008",
+  "do_not_contact": false,
+  "pipeline": [
+    {
+      "project": "Long Term Mapping - Development - Main List",
+      "client_company": null,
+      "stage": "Research",
+      "rank": 156,
+      "date_added": "2026-01-07 15:55:33 UTC",
+      "date_updated": null,
+      "sourced_by": "Zaid Khan",
+      "client_visibility_flag": "red"
+    }
+  ],
+  "department": "Development",
+  "current_company_id": "skybox-datacenters",
+  "notes": "",
+  "sources": [
+    "Clockwork export: Long_Term_Mapping_Development_Main_List.xlsx, imported 2026-09-05"
+  ],
+  "last_updated": "2026-09-09",
+  "function": "Executive leadership",
+  "function_source": "title",
+  "seniority_rank": 0,
+  "seniority_label": "C-suite / Founder",
+  "career": [
+    {
+      "title": "Data Center Product Council, Assistant Chair",
+      "company": "Urban Land Institute",
+      "start": "4/2022",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Chief Executive Officer",
+      "company": "Skybox Datacenters",
+      "start": "6/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Partner",
+      "company": "Rugen Street Capital",
+      "start": "5/2013",
+      "end": "present",
+      "current": true
+    },
+    {
+      "title": "Senior Vice President, Principal",
+      "company": "Cassidy Turley",
+      "start": "8/2011",
+      "end": "7/2013",
+      "current": false
+    },
+    {
+      "title": "Senior Associate",
+      "company": "Cushman & Wakefield",
+      "start": "5/2008",
+      "end": "8/2011",
+      "current": false
+    },
+    {
+      "title": "Associate",
+      "company": "Oldham Goodwin Group",
+      "start": "2007",
+      "end": "2008",
+      "current": false
+    }
+  ],
+  "location_norm": {
+    "city": "Dallas",
+    "region": "Texas",
+    "country": "United States",
+    "group": "Texas"
+  },
+  "education": [
+    "Bachelors, Mays Business School - Texas A&M University"
+  ],
+  "assessment": {
+    "skills": {
+      "Development · site acquisition": "High Confidence",
+      "Development · permitting & entitlements": "Low Confidence",
+      "Development · financial modelling": "High Confidence"
+    },
+    "top_tier": [
+      "Development"
+    ],
+    "tenure": "Good",
+    "source": "Clockwork export (Long_Term_Mapping__Development__Main_List.xlsx), imported 2026-09-09",
+    "note": "Ward Search's own judgement, not a researched fact.",
+    "under_represented_group": "No"
+  }
+}
